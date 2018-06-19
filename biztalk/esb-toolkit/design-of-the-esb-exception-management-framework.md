@@ -1,14 +1,14 @@
 ---
-title: "Diseño de la estructura de administración de la excepción de ESB | Documentos de Microsoft"
-ms.custom: 
+title: Diseño de la estructura de administración de la excepción de ESB | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cfc2688c-c01c-4244-9e35-3d482135d8b7
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008013"
 ---
 # <a name="design-of-the-esb-exception-management-framework"></a>Diseño de la estructura de administración de la excepción de ESB
 Patrones coherentes y reutilizables para administrar las excepciones son una consideración principal de cualquier proyecto de desarrollo; ayudan a maximizar la facilidad de mantenimiento y facilitan la compatibilidad con la aplicación después de la implementación.  

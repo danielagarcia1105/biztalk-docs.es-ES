@@ -1,15 +1,15 @@
 ---
-title: "Herramientas de administración y rendimiento | Documentos de Microsoft"
+title: Herramientas de administración y rendimiento | Documentos de Microsoft
 description: Herramientas comunes para administrar las tareas, el rendimiento y seguimiento de BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 932814f7-2ab3-45cb-8bbc-eaf00fcb24a0
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006581"
 ---
 # <a name="administrative-and-performance-tools"></a>Herramientas de administración y rendimiento 
 

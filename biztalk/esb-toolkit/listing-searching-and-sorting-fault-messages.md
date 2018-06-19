@@ -1,14 +1,14 @@
 ---
 title: Enumerar, buscar y ordenar los mensajes de error | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 850b9682-8eba-4a3f-8508-d3eefcd715b7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294644"
 ---
 # <a name="listing-searching-and-sorting-fault-messages"></a>Enumerar, buscar y ordenar los mensajes de error
 Puede usar la página de inicio del Portal de administración de ESB para obtener una vista general del estado de las aplicaciones que se ejecutan en Microsoft BizTalk Server. La página de errores se puede usar para consultar los mensajes de error, en función de un intervalo de criterios.  

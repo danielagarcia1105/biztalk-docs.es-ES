@@ -1,14 +1,14 @@
 ---
-title: "La configuración del receptor de grupo no está configurada para el acuerdo del lote | Documentos de Microsoft"
-ms.custom: 
+title: La configuración del receptor de grupo no está configurada para el acuerdo del lote | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57b205e9-aaab-43d1-b373-17d206957814
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279076"
 ---
 # <a name="the-group-receiver-settings-are-not-configured-for-agreement-of-batch"></a>La configuración de receptor de grupo no está configurada para el acuerdo del lote
 ## <a name="details"></a>Detalles  

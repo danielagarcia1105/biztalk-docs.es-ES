@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288900"
 ---
 # <a name="what-is-the-wcf-custom-adapter"></a>¿Qué es el adaptador de WCF-Custom?
 El adaptador de WCF-Custom se utiliza para habilitar el uso de los componentes de extensibilidad de WCF en BizTalk Server. El adaptador habilita una flexibilidad completa del marco de trabajo de WCF. Permite a los usuarios seleccionar y configurar un enlace de WCF para la ubicación de recepción y el puerto de envío. También permite a los usuarios configurar los comportamientos de los extremos y las configuraciones de seguridad.  

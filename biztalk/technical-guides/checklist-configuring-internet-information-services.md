@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Configurar Internet Information Services | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Configurar Internet Information Services | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 186f82c0-bd50-4c79-a403-8b0d91cc68d6
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976506"
 ---
 # <a name="checklist-configuring-internet-information-services"></a>Lista de comprobación: Configurar Internet Information Services
 Este tema enumeran los pasos que deben seguirse al preparar los servicios de Internet Information Server (IIS) para su uso en producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.  

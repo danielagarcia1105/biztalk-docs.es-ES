@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010437"
 ---
 # <a name="using-the-mqsagent-com-configuration-wizard"></a>Mediante el Asistente para configuración de MQSAgent COM +
 El Asistente para configuración de MQSAgent COM+ permite configurar MQSAgent, la parte de aplicación COM+ (componente MQSeries) del adaptador. El asistente define la identidad de aplicación del componente, así como el nombre de función y los usuarios incluidos en dicha función. El nombre del componente MQSAgent COM + creado con el Asistente de configuración de MQSAgent COM + es **MQSAgent2**.  

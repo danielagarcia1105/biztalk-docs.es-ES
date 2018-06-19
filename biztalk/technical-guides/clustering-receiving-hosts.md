@@ -1,14 +1,14 @@
 ---
-title: "Clústeres de Hosts de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Clústeres de Hosts de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93544f39-836f-4a4f-9587-230bfa3a9d4e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008309"
 ---
 # <a name="clustering-receiving-hosts"></a>Clústeres de Hosts de recepción
 BizTalk Server proporciona la funcionalidad que le permite configurar un Host de BizTalk como un recurso agrupado dentro de un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] grupo de clúster. Compatibilidad con clústeres de host se proporciona para admitir alta disponibilidad integrados de BizTalk adaptadores de recepción que no se deben ejecutar en varias instancias de host al mismo tiempo, como controlador de recepción FTP o, en determinadas circunstancias, controlador de recepción de POP3. También se proporciona la funcionalidad de agrupación de hosts para garantizar la coherencia transaccional de los mensajes enviados o recibidos por el adaptador de MSMQ en escenarios que requieren que el servicio MSMQ esté agrupado.  

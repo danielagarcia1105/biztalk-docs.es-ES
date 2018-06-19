@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214004"
 ---
 # <a name="setting-the-frr-delay-time-out"></a>Establecer el tiempo de espera de retraso FRR
 Debe configurar la orquestación FRR tiempo de espera después de algún tiempo, por lo que no esperará la respuesta FNN indefinidamente. Si la duración de tiempo de espera expira, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] publica los mensajes ha superado el tiempo de espera en un controlador de tiempo de espera personalizado.  

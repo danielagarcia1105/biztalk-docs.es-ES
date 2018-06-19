@@ -1,14 +1,14 @@
 ---
-title: "Planeación de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ffc8573-1b4a-47c7-96ab-0471f43facf5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302084"
 ---
 # <a name="planning-for-tracking"></a>Planeación de seguimiento
 Seguimiento de mensajes es el proceso por el que partes de una instancia de mensaje, como el cuerpo del mensaje, propiedades del mensaje y metadatos se almacenan en una base de datos, normalmente para archivarlo. Partes de la instancia de mensaje que se realiza un seguimiento posteriormente pueden verse mediante la ejecución de consultas desde la página concentrador de grupo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Además de tener acceso a los datos archivados, también puede ver datos en directo, que pueden ser una herramienta útil para identificar y solucionar problemas en el desarrollo de un entorno de ensayo.  

@@ -1,15 +1,15 @@
 ---
 title: Programar el trabajo de copia de seguridad de BizTalk Server | Documentos de Microsoft
-description: "Configurar los parámetros del trabajo de copia de seguridad de BizTalk Server y establezca la programación en ejecución mensual, semanal, diariamente o cada hora"
-ms.custom: 
+description: Configurar los parámetros del trabajo de copia de seguridad de BizTalk Server y establezca la programación en ejecución mensual, semanal, diariamente o cada hora
+ms.custom: ''
 ms.date: 11/02/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e89fff4-da87-4cdc-acc4-46f03c3269fc
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23980756"
 ---
 # <a name="schedule-the-backup-biztalk-server-job"></a>Programar el trabajo de copia de seguridad de BizTalk Server
 El trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ejecuta de acuerdo con lo programado mediante el servicio Agente SQL Server. Si desea crear copias de seguridad con mayor o menor frecuencia, puede cambiar la programación del trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante SQL Server Management Studio.  
@@ -33,7 +34,7 @@ Inicie sesión con una cuenta que sea miembro del rol sysadmin de SQL Server rol
   
 3.  En el Explorador de objetos, haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.  
   
-4.  En el panel de detalles, haga clic en **copia de seguridad de BizTalk Server (BizTalkMgmtDb)**y, a continuación, seleccione **propiedades**.  
+4.  En el panel de detalles, haga clic en **copia de seguridad de BizTalk Server (BizTalkMgmtDb)** y, a continuación, seleccione **propiedades**.  
   
 5.  En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, en **seleccionar una página**, seleccione **pasos**.  
   

@@ -1,14 +1,14 @@
 ---
 title: Instrucciones de procesamiento en detalle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed5d92fb-d53b-49a2-b2c7-8558708d6554
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008941"
 ---
 # <a name="processing-instructions-in-detail"></a>Instrucciones de procesamiento en detalle
 Este tema describe el formato y la estructura del esquema de propiedad al sistema-Properties.xsd, que define varias propiedades de contexto necesarias para el procesamiento de itinerarios. Estas propiedades se promocionan cuando se recibe un mensaje y se procesan a través de canalizaciones de BizTalk Server; Dado que son las propiedades promocionadas, son accesibles a los componentes de BizTalk Server. Las siguientes propiedades se definen en el esquema de propiedades del sistema-Properties.xsd:  

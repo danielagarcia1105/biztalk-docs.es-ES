@@ -1,18 +1,18 @@
 ---
-title: "Cómo habilitar una asignación de usuario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar una asignación de usuario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enabling, user maps [SSO]
 - maps [SSO], enabling
 - managing [SSO maps], enabling
 ms.assetid: 0f6448c9-944e-45f6-9436-87a4f3743498
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970834"
 ---
 # <a name="how-to-enable-a-user-mapping"></a>Cómo habilitar una asignación de usuario
 Es necesario habilitar una asignación de usuarios antes de que se pueda utilizar la asignación en el sistema de inicio de sesión único.  

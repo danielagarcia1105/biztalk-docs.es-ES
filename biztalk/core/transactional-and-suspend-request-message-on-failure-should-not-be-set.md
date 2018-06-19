@@ -1,14 +1,14 @@
 ---
-title: "Opción de transacciones &quot;transaccional&quot; y la opción de control de errores &quot;suspender el mensaje de solicitud en caso de error&quot; deben no establecerse ambas como false | Documentos de Microsoft"
-ms.custom: 
+title: Opción de transacciones &quot;transaccional&quot; y la opción de control de errores &quot;suspender el mensaje de solicitud en caso de error&quot; deben no establecerse ambas como false | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc6c66cc-6713-4396-b0d4-ac6a0e72164f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278932"
 ---
 # <a name="transactions-option-quottransactionalquot-and-the-error-handling-option-quotsuspend-request-message-on-failurequot-should-not-both-be-set-to-false"></a>Opción de transacciones &quot;transaccional&quot; y la opción de control de errores &quot;suspender el mensaje de solicitud en caso de error&quot; deben no establecerse ambas como false
 ## <a name="details"></a>Detalles  

@@ -1,11 +1,11 @@
 ---
 title: Referencia de propiedades de adaptador de Windows SharePoint Services | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ConfigCustomTemplatesDocLib property [Windows SharePoint Services adapters]
@@ -40,7 +40,7 @@ helpviewer_keywords:
 - ConfigNamespaceAliases property [Windows SharePoint Services adapters]
 - ConfigAdapterWSPort property [Windows SharePoint Services adapters]
 ms.assetid: c64c43ac-05bb-427c-987a-71663ae8e43d
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -49,6 +49,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291756"
 ---
 # <a name="windows-sharepoint-services-adapter-properties-reference"></a>Referencia a las propiedades del adaptador de Windows SharePoint Services
 Las siguientes propiedades del adaptador de Windows SharePoint Services se promocionan en BizTalk Server o se utilizan para especificar opciones de configuración de puerto de envío para los mensajes salientes. Las propiedades pueden utilizarse para tener acceso a información de Windows SharePoint Services relativa al mensaje, o para proporcionar al adaptador de Windows SharePoint Services información procedente de una orquestación.  

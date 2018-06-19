@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con tipos genéricos y métodos genéricos | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con tipos genéricos y métodos genéricos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc6b5b51-e084-4828-ad25-9209aa74dc6f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972322"
 ---
 # <a name="support-for-generic-types-and-generic-methods"></a>Compatibilidad para tipos y métodos genéricos
 El motor de reglas admite el uso de tipos y métodos genéricos especializados en una regla. Sin embargo, no admite el uso de los tipos y métodos genéricos en una regla. Por ejemplo, en una regla de negocios puede utilizar **lista**\<*int*\>, pero no **lista**\<T\> (a través de la  **System.Collections.Generic** espacio de nombres en la biblioteca de clases. NET). Actualmente, la herramienta Compositor de reglas de negocio no admite la creación de reglas mediante los tipos y métodos genéricos especializados. Las reglas deben crearse mediante programación utilizando el modelo de objetos del motor de reglas. El código de ejemplo siguiente muestra cómo utilizar el **lista** clase genérica en una regla de negocios:  

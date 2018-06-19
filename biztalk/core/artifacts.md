@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230436"
 ---
 # <a name="artifacts"></a>Artefactos
 En este tema se explican los diferentes artefactos de BizTalk Server. Entre los artefactos se incluyen los ensamblados, certificados de seguridad, directivas de reglas de negocio, archivos de configuración de BAM, enlaces, etc., necesarios para que funcione la aplicación de BizTalk. Los artefactos de una aplicación se visualizan y administran desde la consola de administración de BizTalk.  

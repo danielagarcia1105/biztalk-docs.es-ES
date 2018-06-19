@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6832ac2-c8c5-4515-883e-26d125d6ace0
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010573"
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a>Cómo mover la base de datos de esquema de estrella de BAM
 Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.  Desde una perspectiva de escenario to-end, mover la base de datos de esquema de estrella de BAM consta de dos pasos principales:  
@@ -41,7 +42,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 4.  Detenga el servicio de notificación de alertas de BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, escriba:  
   
@@ -66,7 +67,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:  
   
@@ -89,7 +90,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 3.  Guarde el archivo BAMConfiguration.xml y ciérrelo.  
   
-4.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+4.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 5.  En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:  
   
@@ -182,7 +183,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 8.  Inicie el servicio de notificación de alertas de BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, escriba:  
   

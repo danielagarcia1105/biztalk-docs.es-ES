@@ -1,18 +1,18 @@
 ---
 title: Optimizar el rendimiento del adaptador de MSMQ | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, performance
 - performance, MSMQ adapters
 - configuring [MSMQ adapters], performance
 ms.assetid: f8537ea8-a96e-4874-bcaf-cd1442a50bd4
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007341"
 ---
 # <a name="optimizing-performance-of-the-msmq-adapter"></a>Optimizar el rendimiento del adaptador de MSMQ
 La optimización del adaptador de MSMQ no es la misma para envío y para recepción. Para la recepción, la optimización se controla definiendo una propiedad en la ubicación de recepción. Para el envío, la optimización puede controlarse mediante una orquestación.  

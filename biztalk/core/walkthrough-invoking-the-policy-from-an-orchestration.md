@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb2d2974-8a36-4d36-905c-799e4236ef99
-caps.latest.revision: ''
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22291348"
 ---
 # <a name="walkthrough-invoking-the-policy-from-an-orchestration"></a>Tutorial: Invocar la directiva desde una orquestación
 Puede invocar una directiva desde una orquestación de una de las formas siguientes:  

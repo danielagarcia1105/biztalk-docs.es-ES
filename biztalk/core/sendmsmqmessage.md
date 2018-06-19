@@ -1,17 +1,17 @@
 ---
 title: SendMSMQMessage | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, examples
 - examples, MSMQ adapters
 ms.assetid: 398bc396-0c66-4d55-886a-0d9bdab6476f
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975514"
 ---
 # <a name="sendmsmqmessage"></a>SendMSMQMessage
 En el ejemplo SendMSMQMessage se muestra cómo enviar un mensaje a un puerto de MSMQ desde una aplicación basada en .NET. También se proporcionan instrucciones sobre cómo configurar Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usar ubicación de recepción de MSMQ.  

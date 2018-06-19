@@ -11,7 +11,7 @@ helpviewer_keywords:
 - SWIFT solutions
 - tutorial, creating SWIFT solutions
 ms.assetid: 550af497-abd2-4044-8c6f-15f9dba0ac5d
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26004853"
 ---
 # <a name="module-1-creating-a-swift-solution"></a>Módulo 1: Crear una solución sencilla
 En este módulo, cree una solución de BizTalk en blanco. En la primera lección, cree una nueva solución mediante el uso de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. También crea los proyectos individuales que contienen los componentes de la solución de BizTalk como esquema, asignaciones, orquestaciones y componentes de canalización.  

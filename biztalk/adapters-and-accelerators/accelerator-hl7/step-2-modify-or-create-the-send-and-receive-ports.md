@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d96d02c-b75d-4d18-a127-37002c5ff138
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26007169"
 ---
 # <a name="step-2-modify-or-create-the-send-and-receive-ports"></a>Paso 2: Modificar o crear el envío y puertos de recepción
 Necesitará envío de archivos y los puertos de recepción para el lote en / lote tutorial. Si hace clic en el **iniciar Tutorial** botón al final de la instalación de la edición Enterprise de [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] crea estos puertos: un puerto de envío denominado Tutorial_BTAHL7Drop y un puerto de recepción denominado Tutorial_BTAHL7PickUp. Si dispone de estos puertos, deberá modificar el puerto de envío Tutorial_BTAHL7Drop.  

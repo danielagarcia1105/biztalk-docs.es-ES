@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar los equipos en tiempo de ejecución | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar los equipos en tiempo de ejecución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 576a7065-04b6-436c-acf9-28c8d6e40107
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010901"
 ---
 # <a name="how-to-update-the-runtime-computers"></a>Cómo actualizar los equipos en tiempo de ejecución
 El sistema de destino [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos en tiempo de ejecución se configuran con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Asistente de configuración como parte del grupo de BizTalk de producción ejecutan en el entorno de producción. Cuando se restaura el grupo de BizTalk de producción en el entorno de recuperación ante desastres, se debe actualizar la configuración en cada [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo de tiempo de ejecución para que apunte a la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias cuando intenta conectarse a la restaurada grupo de BizTalk de producción. Después de restaura el grupo de BizTalk en el sistema de destino, utilice el procedimiento siguiente para actualizar la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos en tiempo de ejecución.  
@@ -25,7 +26,7 @@ El sistema de destino [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztal
   
 1.  Copie el archivo SampleUpdateInfo.xml editado en el directorio de BizTalk Server\Schema\Restore en cada servidor de BizTalk de 32 bits \Program o en el directorio \Program archivos (x86) \Microsoft BizTalk Server\Bins32\Schema\Restore cada BizTalk de 64 bits servidor en el sistema de destino.  
   
-2.  En cada servidor BizTalk server, abra un símbolo del sistema. Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+2.  En cada servidor BizTalk server, abra un símbolo del sistema. Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     > [!NOTE]  
     >  En los equipos de 64 bits, debe abrir un símbolo del sistema de 64 bits.  

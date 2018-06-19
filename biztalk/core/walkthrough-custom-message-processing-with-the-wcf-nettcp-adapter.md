@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Mensaje personalizado de procesamiento con el adaptador de WCF-NetTcp | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b56b7492-2ea0-4c63-8f1b-430eb277517d
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26009773"
 ---
 # <a name="walkthrough-custom-message-processing-with-the-wcf-nettcp-adapter"></a>Tutorial: Mensaje personalizado de procesamiento con el adaptador de WCF-NetTcp
 En este tutorial, un cliente de [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] envía un mensaje de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] que contiene datos binarios de imagen JPEG integrados a una ubicación de recepción de BizTalk mediante el adaptador de WCF-NetTcp. La imagen JPEG codificada en binario se extrae mediante una instrucción XPath (con codificación de nodo Base64) a través de la **cuerpo de mensaje entrante** configuración en la configuración del adaptador. El procesamiento de XPath difiere del método predeterminado en que usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para controlar los mensajes entrantes. En el método de manera predeterminada, el adaptador obtiene todo el contenido de la **cuerpo** elemento de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] , el mensaje y, a continuación, se envía a la base de datos de BizTalk MessageBox. El procesamiento de mensajes de XPath extrae partes específicas de un mensaje de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] entrante para crear un mensaje de BizTalk personalizado. En este ejemplo de procesamiento de XPath localiza un elemento XML denominado **SendPicture** en entrante [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] mensaje (que está en formato XML). Después de encontrar ese elemento, XPath extrae su valor como un objeto codificado en Base64 y coloca el valor binario en un mensaje de BizTalk. El mensaje se publica en la base de datos de cuadro de mensajes y luego se pasa a un puerto de envío de archivos con la ayuda de una suscripción de filtro de puertos de envío. No se usa ninguna orquestación en este ejemplo, y todo el procesamiento se realiza mediante la mensajería de BizTalk con XPath.  

@@ -1,18 +1,18 @@
 ---
-title: "Apéndice A: métodos de interfaz de componente | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice A: métodos de interfaz de componente | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, methods
 - methods, component interfaces
 - component interface methods
 ms.assetid: c8377589-fbdf-4287-b822-53263a00381d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230108"
 ---
 # <a name="appendix-a-component-interface-methods"></a>Apéndice A: métodos de interfaz de componente
 El adaptador de Microsoft para PeopleSoft Enterprise proporciona métodos estándar para las interfaces de componentes.  

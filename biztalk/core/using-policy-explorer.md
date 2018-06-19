@@ -1,11 +1,11 @@
 ---
 title: Mediante el Explorador de directivas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer, Policy Explorer
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, Policy Explorer
 - Policy Explorer [Business Rule Composer]
 ms.assetid: 249b1b72-ba84-4695-ba2b-16f081710b20
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288348"
 ---
 # <a name="using-policy-explorer"></a>Mediante el Explorador de directivas
 Puede utilizar el Explorador de directivas para administrar directivas y reglas en el almacén de reglas. Puede crear, modificar y eliminar directivas y reglas, así como probar, publicar, implementar y anular la implementación de directivas.  

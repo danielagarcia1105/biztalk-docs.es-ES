@@ -1,14 +1,14 @@
 ---
-title: "El límite máximo de aceptable X12 ha alcanzado el número de control de intercambio para la entidad | Documentos de Microsoft"
-ms.custom: 
+title: El límite máximo de aceptable X12 ha alcanzado el número de control de intercambio para la entidad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: adc49089-3c7b-4ce2-9fbc-68e582c3a822
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262484"
 ---
 # <a name="max-limit-of-acceptable-x12-interchange-control-number-has-reached-for-party"></a>Se ha alcanzado el límite máximo permitido del número de control de intercambio X12 para la entidad
 ## <a name="details"></a>Detalles  

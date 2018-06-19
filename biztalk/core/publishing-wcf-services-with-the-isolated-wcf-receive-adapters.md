@@ -1,11 +1,11 @@
 ---
-title: "Publicar servicios WCF con WCF aislado adaptadores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Publicar servicios WCF con WCF aislado adaptadores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive adapters, WCF services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, receive adapters
 - WCF services, publishing
 ms.assetid: 62ebf373-075c-4c98-8130-ac2cf06e4a70
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271636"
 ---
 # <a name="publishing-wcf-services-with-the-isolated-wcf-receive-adapters"></a>Publicar servicios WCF con WCF aislado adaptadores de recepción
 Permitir que los adaptadores de BizTalk Windows Communication Foundation (WCF) [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para comunicarse con aplicaciones basadas en WCF. Los adaptadores de BizTalk WCF son siete adaptadores físicos. Cada adaptador, excepto el adaptador WCF-CustomIsolated, consta adaptadores de envío y recepción.  

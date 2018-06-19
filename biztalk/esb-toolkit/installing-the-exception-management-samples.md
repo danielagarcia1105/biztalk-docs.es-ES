@@ -1,14 +1,14 @@
 ---
-title: "Instalar los ejemplos de administración de excepción | Documentos de Microsoft"
-ms.custom: 
+title: Instalar los ejemplos de administración de excepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 46431a8a-29d1-488d-9b16-fedaba2300d9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294188"
 ---
 # <a name="installing-the-exception-management-samples"></a>Instalar los ejemplos de administración de excepciones
 En esta sección se describe el proceso para instalar los ejemplos de administración de excepciones de ESB en la aplicación de Microsoft BizTalk Server GlobalBank.ESB. Puede instalar los ejemplos de administración de excepciones de ESB mediante los scripts de instalación incluidos en el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. Esta sección contiene los siguientes temas:  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo administrar la sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar la sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Password Synchronization [SSO], managing
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - SSO database, database settings
 - SSOMANAGE command line utility
 ms.assetid: 033e63f2-e5b0-4400-99c3-145679d9b84e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972658"
 ---
 # <a name="how-to-manage-password-synchronization"></a>Cómo administrar la sincronización de contraseña
 El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para habilitar o deshabilitar las características de SSO, así como para mostrar la configuración de la base de datos de SSO.  

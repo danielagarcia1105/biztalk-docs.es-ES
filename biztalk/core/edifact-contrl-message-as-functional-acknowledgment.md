@@ -1,14 +1,14 @@
 ---
-title: "Mensaje de CONTRL de EDIFACT como confirmación funcional | Documentos de Microsoft"
-ms.custom: 
+title: Mensaje de CONTRL de EDIFACT como confirmación funcional | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d3c2be0-0993-4b2d-b6c3-286020117078
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007949"
 ---
 # <a name="edifact-contrl-message-as-functional-acknowledgment"></a>Mensaje CONTRL de EDIFACT como confirmación funcional
 Si ha seleccionado generar una confirmación funcional en la configuración de perfil de negocio o acuerdo entre socios comerciales (o acuerdo de reserva si no se ha definido ningún acuerdo entre los dos perfiles de negocio), o bien si el campo UNB9 del mensaje se configura en "1", se generará un mensaje CONTRL como confirmación funcional. Esta confirmación informa sobre los resultados de las comprobaciones de sintaxis del intercambio.  

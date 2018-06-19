@@ -11,7 +11,7 @@ helpviewer_keywords:
 - examples, File adapters
 - File adapters, examples
 ms.assetid: d59cecb4-6353-44d5-b8d6-316446758536
-caps.latest.revision: ''
+caps.latest.revision: 46
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010341"
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>Adaptador de archivo (ejemplo de BizTalk Server)
 El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET para trabajar con Microsoft BizTalk Server. Proporciona código para construir un adaptador estático o dinámico.  Sin embargo, el siguiente procedimiento solo describe el adaptador estático. Un adaptador estático es un adaptador con un conjunto de esquemas estático y sin interfaz de usuario personalizada. Un adaptador dinámico tiene una interfaz de usuario personalizada y posiblemente un conjunto de esquemas dinámico. Tanto los adaptadores estáticos como los dinámicos utilizan el Asistente para agregar adaptador para agregar sus esquemas a un proyecto de BizTalk.  
@@ -38,7 +39,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
  \<*Ejemplos de ruta de acceso*\>**\AdaptersDevelopment\File adaptador**  
   
 > [!NOTE]
->  La ubicación predeterminada de \< *ruta de ejemplos* \> es *% ProgramFiles %*\Microsoft BizTalk Server\SDK\Samples cuando BizTalk Server está instalado en un equipo que ejecuta 32 bits versión de Windows. La ubicación predeterminada de \< *ruta de ejemplos* \> es *ProgramFiles(x86) %*\Microsoft BizTalk Server\SDK\Samples cuando BizTalk Server se instala en un equipo que ejecuta un 64 - versión de bits de Windows. Para determinar los valores asociados a la *% ProgramFiles %* o *ProgramFiles(x86) %* tipo de las variables de entorno **echo % ProgramFiles %** o **echo % % De ProgramFiles(x86)** en un símbolo del sistema y presione ENTRAR. Si ejecuta este ejemplo en un sistema operativo de 64 bits, debe cambiar todas las referencias en cualquiera de los archivos .reg de **% ProgramFiles %** a **ProgramFiles(x86) %** antes de ejecutar estos archivos.  
+>  La ubicación predeterminada de \< *ruta de ejemplos* \> es *% ProgramFiles %* \Microsoft BizTalk Server\SDK\Samples cuando BizTalk Server está instalado en un equipo que ejecuta 32 bits versión de Windows. La ubicación predeterminada de \< *ruta de ejemplos* \> es *ProgramFiles(x86) %* \Microsoft BizTalk Server\SDK\Samples cuando BizTalk Server se instala en un equipo que ejecuta un 64 - versión de bits de Windows. Para determinar los valores asociados a la *% ProgramFiles %* o *ProgramFiles(x86) %* tipo de las variables de entorno **echo % ProgramFiles %** o **echo % % De ProgramFiles(x86)** en un símbolo del sistema y presione ENTRAR. Si ejecuta este ejemplo en un sistema operativo de 64 bits, debe cambiar todas las referencias en cualquiera de los archivos .reg de **% ProgramFiles %** a **ProgramFiles(x86) %** antes de ejecutar estos archivos.  
   
  En las siguientes tablas se enumeran los archivos del ejemplo y se describe el propósito de cada uno.  
   
@@ -206,7 +207,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
     |--------------|----------------|  
     |**Nombre**|Tipo de **AdapterSend**.|  
     |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y haga clic en **configurar**.<br /><br /> -En el **directorio** , escriba ***\<unidad\>*:\Temp\Send**.<br />-En el **modo de archivo** cuadro, seleccione **CreateNew**.<br />-En el **nombre de archivo** , escriba **%MessageID%.xml**.<br />-Haga clic en **Aceptar**.<br />-El **URI** campo debería mostrar ***\<unidad\>*:\Temp\Send\\%MessageID%.xml**.|  
-    |**Canalización de envío**|Seleccione **PassThruTransmit (Microsoft.BizTalk.DefaultPipelines.PassThruTransmit)**y, a continuación, haga clic en **Aceptar**.|  
+    |**Canalización de envío**|Seleccione **PassThruTransmit (Microsoft.BizTalk.DefaultPipelines.PassThruTransmit)** y, a continuación, haga clic en **Aceptar**.|  
   
 11. En el **BizTalk Application 1** nodo haga clic en **puertos de recepción**y seleccione **puerto de recepción unidireccional / nueva**.  
   

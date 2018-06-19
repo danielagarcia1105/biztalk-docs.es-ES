@@ -1,14 +1,14 @@
 ---
 title: Optimizar el rendimiento del sistema operativo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44975fb4-2bdd-4fde-b6fc-2b2ea9d036b9
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298876"
 ---
 # <a name="optimizing-operating-system-performance"></a>Optimizar el rendimiento del sistema operativo
 En esta sección se proporciona recomendaciones para optimizar el rendimiento de los equipos de BizTalk Server utilizados en un entorno de BizTalk Server de producción. Las optimizaciones incluidas en esta sección se aplican después de que se ha instalado y configurado el servidor BizTalk Server.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007261"
 ---
 # <a name="enhanced-tracking"></a>Seguimiento mejorado
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporciona una capacidad mejorada para realizar el seguimiento de mensajes y procesos. La funcionalidad nativa de actividad de supervisión económica (BAM) en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consiste en realizar un seguimiento de sólo metadatos. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]realiza un seguimiento de contenido del mensaje, encabezados y contenido del servicio.  

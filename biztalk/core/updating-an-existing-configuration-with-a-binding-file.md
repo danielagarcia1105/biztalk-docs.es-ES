@@ -1,11 +1,11 @@
 ---
-title: "Actualizar una configuración existente con un archivo de enlace | Documentos de Microsoft"
-ms.custom: 
+title: Actualizar una configuración existente con un archivo de enlace | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding files, updating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - binding files, customizing
 - artifacts, updating
 ms.assetid: 11580e59-7147-42d0-a976-f6b5e6933d24
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291500"
 ---
 # <a name="updating-an-existing-configuration-with-a-binding-file"></a>Actualizar una configuración que ya existe con un archivo de enlace
 La información de un archivo de enlace sustituye la información de configuración existente. Si el nombre de un artefacto en un archivo de enlace coincide con el nombre de un artefacto en la configuración existente, el artefacto del archivo de enlace actualizará el artefacto de la configuración existente al importar el archivo de enlace.  

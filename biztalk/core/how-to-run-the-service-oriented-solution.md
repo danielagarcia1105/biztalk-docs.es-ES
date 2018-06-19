@@ -1,11 +1,11 @@
 ---
-title: "Cómo ejecutar el servicio de la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ejecutar el servicio de la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, client applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - service solution tutorial, sending requests
 - service solution tutorial, SOAP transports
 ms.assetid: 764a5ddc-e571-41d8-9e2f-6d0fb3361b2f
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973818"
 ---
 # <a name="how-to-run-the-service-oriented-solution"></a>Cómo ejecutar la solución orientada a servicios
 Los pasos siguientes describen cómo ejecutar y validar la solución orientada a servicios en un único equipo. Una vez iniciado el simulador de seguimiento de pago, puede enviar solicitudes utilizando el transporte SOAP o MQSeries (con procedimientos independientes para las versiones de adaptador en línea de la solución orientada a servicios).  

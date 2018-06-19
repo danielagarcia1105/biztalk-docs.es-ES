@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc4f2656-2faa-4503-9551-05e1b6eceb1a
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010877"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>Cómo mover la base de datos de importación principal de BAM
 Este procedimiento se puede utilizar para mover la base de datos de importación principal de BAM a otro servidor. Desde una perspectiva de escenario to-end, mover la base de datos de importación principal de BAM consta de dos pasos principales:  
@@ -41,7 +42,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 4.  Detenga el servicio de notificación de alertas de BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, escriba:  
   
@@ -99,7 +100,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 7.  Cuando haya terminado de editar el archivo, guárdelo y salga de él.  
   
-8.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+8.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 9. En el símbolo del sistema, desplácese al directorio siguiente:  
   
@@ -220,7 +221,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 8.  Inicie el servicio de notificación de alertas de BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, escriba:  
   

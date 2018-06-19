@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d917b82-62c6-489f-99a9-97e429b6f7c0
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22290420"
 ---
 # <a name="xml-and-flat-file-property-schema-and-properties"></a>Propiedades y esquema de propiedades de archivo sin formato y XML
 El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de nombres contiene propiedades que puede utilizar para configurar los componentes de canalización de ensamblador de archivo sin formato y desensamblador de archivo sin formato. Las propiedades se describen en la tabla siguiente.  

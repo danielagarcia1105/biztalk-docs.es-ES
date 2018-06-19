@@ -1,14 +1,14 @@
 ---
-title: "Usar IntelliSense para crear un archivo de configuración de Interceptor | Documentos de Microsoft"
-ms.custom: 
+title: Usar IntelliSense para crear un archivo de configuración de Interceptor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 349ea1bf-a5d1-4464-bf4b-d8746c622377
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287972"
 ---
 # <a name="using-intellisense-to-create-an-interceptor-configuration-file"></a>Uso de IntelliSense para crear un archivo de configuración de interceptor
 Puede usar IntelliSense y la validación de esquemas en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para que le ayuden a construir archivos de configuración de interceptor válidos en términos de esquemas. La utilidad de administración de BAM valida el archivo de configuración del interceptor con respecto al esquema de configuración del interceptor base y, si el archivo no es válido, no implementa el esquema. Si el archivo pasa la validación con respecto al esquema de configuración del interceptor base, se valida en relación a los esquemas específicos de la tecnología, como el esquema de [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] o el de [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)], durante el tiempo de ejecución. Si no se encuentran errores, no se producirá ninguna intercepción. Puede prevenir estos errores usando la validación de esquemas en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] al construir su archivo de configuración de interceptor.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo recuperar la configuración del servidor de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo recuperar la configuración del servidor de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1d39e50-4296-49c7-bd1e-63b1325af168
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254332"
 ---
 # <a name="how-to-recover-the-biztalk-server-configuration"></a>Cómo recuperar la configuración de BizTalk Server
 Como parte de la recuperación del servidor BizTalk, también debe importar el archivo de configuración que creó cuando instaló el servidor BizTalk Server.  

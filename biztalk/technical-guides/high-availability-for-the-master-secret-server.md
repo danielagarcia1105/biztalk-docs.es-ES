@@ -1,14 +1,14 @@
 ---
 title: Alta disponibilidad para el servidor secreto principal | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b99cb04-61a5-41cc-a409-35897c17b789
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008845"
 ---
 # <a name="high-availability-for-the-master-secret-server"></a>Alta disponibilidad para el servidor secreto principal
 Incluso si no utiliza la funcionalidad de inicio de sesión único (SSO) empresarial para asignar credenciales e inicio de sesión único, SSO es una parte fundamental de toda la infraestructura de Microsoft BizTalk Server, porque [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] utiliza SSO para ayudar a proteger la información de puerto configuración. Los datos de configuración de puerto se cifran y almacenan en la base de datos SSO. Cada servidor BizTalk server tiene un servicio SSO (ENTSSO.exe) que se utiliza para cifrar y descifrar los datos de configuración de puerto.  

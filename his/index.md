@@ -1,8 +1,8 @@
 ---
 layout: HubPage
-hide_bc: 
-title: "Documentación de Host Integration Server"
-description: "Documentación de HIS"
+hide_bc: true
+title: Documentación de Host Integration Server
+description: Documentación de HIS
 author: MandiOhlinger
 manager: anneta
 ms.workload: integration
@@ -15,6 +15,7 @@ ms.sourcegitcommit: 08c2ad9cebe4c313b464c5aae7d3eaf210c4b731
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/20/2018
+ms.locfileid: "29373791"
 ---
 <div id="main" class="v2">
     <div class="container">

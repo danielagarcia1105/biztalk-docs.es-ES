@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289412"
 ---
 # <a name="what-is-the-wcf-nettcp-adapter"></a>¿Qué es el adaptador de WCF-NetTcp?
 El adaptador de WCF-NetTcp proporciona comunicación entre procesos o entre equipos conectados en el mismo equipo en un entorno en el que servicios y clientes se basan en WCF. Proporciona acceso completo a características de confiabilidad, seguridad y transacciones de SOAP. Este adaptador usa el transporte TCP y los mensajes tienen una codificación binaria.  

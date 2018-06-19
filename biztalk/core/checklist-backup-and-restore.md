@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Copia de seguridad y restauración | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Copia de seguridad y restauración | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 01/30/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f1d46a59-54f9-483e-9290-f4a9461006a7
-caps.latest.revision: 
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: d0a1816a8dd8412906245d40c6479b08d7b3b20a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/01/2018
+ms.locfileid: "28910100"
 ---
 # <a name="checklist-backup-and-restore"></a>Lista de comprobación: Copia de seguridad y restauración
 Realice los siguientes pasos antes de que se produzca un error de hardware, para asegurar que puede restaurar el sistema BizTalk Server.  

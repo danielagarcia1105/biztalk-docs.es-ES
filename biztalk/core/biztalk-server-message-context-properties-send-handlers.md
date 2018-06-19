@@ -1,14 +1,14 @@
 ---
-title: "Propiedades de contexto de mensaje de BizTalk Server (controladores de envío) | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de contexto de mensaje de BizTalk Server (controladores de envío) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013843"
 ---
 # <a name="biztalk-server-message-context-properties-send-handlers"></a>Propiedades de contexto de mensaje de BizTalk Server (controladores de envío)
 Además de la carga de mensaje, la información suplementaria que contiene un mensaje debe ser accesible desde la orquestación de BizTalk Server en tiempo de ejecución.  

@@ -1,14 +1,14 @@
 ---
-title: "Orquestación deshidratación y rehidratación | Documentos de Microsoft"
-ms.custom: 
+title: Orquestación deshidratación y rehidratación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57d7c0bf-a707-4ebd-afab-e75dd80c3c34
-caps.latest.revision: 
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710619"
 ---
 # <a name="orchestration-dehydration-and-rehydration"></a>Deshidratación y rehidratación de orquestaciones
 Cuando se ejecutan a la vez muchos procesos empresariales de larga duración, la memoria y el rendimiento se convierten en problemas potenciales. El motor de la orquestación aborda estos problemas mediante la "deshidratación" y la "rehidratación" de las instancias de orquestación.  

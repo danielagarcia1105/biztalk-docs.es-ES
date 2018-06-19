@@ -1,14 +1,14 @@
 ---
-title: "Administrar la exploración distribuida de actividades remotas | Documentos de Microsoft"
-ms.custom: 
+title: Administrar la exploración distribuida de actividades remotas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cf6e0c2-ea72-4621-9ca7-fa43e404ec46
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263076"
 ---
 # <a name="managing-distributed-navigation-of-remote-activities"></a>Administrar la exploración distribuida de actividades remotas
 La exploración distribuida de actividades remotas es el proceso por el que un usuario empresarial explora y ve actividades existentes en bases de datos de BAM diferentes. Cuando configura la infraestructura de BAM para proporcionar la exploración distribuida, el usuario empresarial puede obtener acceso a la actividad remota en el portal de BAM. Cuando el usuario hace clic en la actividad, la actividad se abre en el portal de BAM remoto. Llegados a este punto, el usuario se ha transferido de forma clara y eficaz al portal remoto de BAM y puede explorar la búsqueda de actividades, las agregaciones y la administración de alertas para la actividad como si la actividad existiera en el almacén de datos principal del usuario.  

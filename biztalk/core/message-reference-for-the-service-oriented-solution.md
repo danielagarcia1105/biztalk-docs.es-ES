@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974794"
 ---
 # <a name="message-reference-for-the-service-oriented-solution"></a>Referencia de los mensajes de la solución orientada a servicios
 En esta sección se muestran los mensajes y tipos de mensajes utilizados por cada orquestación de la solución. Los mensajes y los tipos se muestran ordenados por la versión de la aplicación.  

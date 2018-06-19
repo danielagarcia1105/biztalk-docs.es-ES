@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230564"
 ---
 # <a name="btadapplicationname"></a>BTAD_ApplicationName
 BTAD_ApplicationName contiene el nombre de la aplicación de BizTalk.  

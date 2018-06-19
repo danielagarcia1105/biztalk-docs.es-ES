@@ -1,11 +1,11 @@
 ---
-title: "Especificar acciones SOAP para WCF adaptadores de envío | Documentos de Microsoft"
-ms.custom: 
+title: Especificar acciones SOAP para WCF adaptadores de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send adapters, mapping
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - mapping, send adapters
 - mapping, WCF send adapters
 ms.assetid: fa9878eb-65b5-4ccc-b727-ff7e09ba6302
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276644"
 ---
 # <a name="specifying-soap-actions-for-wcf-send-adapters"></a>Especificar acciones SOAP para adaptadores de envío WCF
 Puede establecer el **WCF. Acción** propiedad de contexto en el cuadro de diálogo de propiedades de transporte WCF envío adaptador o en la orquestación **expresión** formas. Si establece la **WCF. Acción** propiedad de contexto en la orquestación, debe dejar el **acción** campo en blanco en el cuadro de diálogo de propiedades WCF adaptador transporte para los puertos de envío estático. Si también especifica una acción en los puertos de envío estáticos, el **WCF. Acción** se invalidará la propiedad de contexto se establece en la orquestación.  

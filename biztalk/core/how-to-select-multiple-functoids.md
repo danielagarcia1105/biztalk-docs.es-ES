@@ -1,14 +1,14 @@
 ---
-title: "Cómo seleccionar varios Functoids | Documentos de Microsoft"
-ms.custom: 
+title: Cómo seleccionar varios Functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51f4528c-4846-4e02-9591-07e2fde131ae
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255076"
 ---
 # <a name="how-to-select-multiple-functoids"></a>Cómo seleccionar varios functoids
 Cuando trabaja con asignaciones grandes, puede que desee llevar a cabo operaciones en múltiples functoids al mismo tiempo. En tales casos, puede seleccionar todos los functoids que le interesen y llevar a cabo la operación. Esto es útil, por ejemplo, cuando desea mover un conjunto de functoids conectados y los vínculos que los conectan de una página de cuadrícula a otra.  

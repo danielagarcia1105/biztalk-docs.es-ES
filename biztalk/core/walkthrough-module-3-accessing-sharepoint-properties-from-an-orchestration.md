@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Windows SharePoint Services adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Windows SharePoint Services adapters, orchestrations
 - Windows SharePoint Services adapter tutorials, accessing SharePoint properties
 ms.assetid: 310c4002-3416-44c6-b409-1d5467063e28
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010965"
 ---
 # <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a>Tutorial: Módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación
 En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md) y muestra cómo obtener acceso a las propiedades de un mensaje entrante en el contexto de Windows SharePoint Services tiempo de ejecución y, a continuación, determine el destino del mensaje, en función de una propiedad que utiliza puertos dinámicos en una orquestación. Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  

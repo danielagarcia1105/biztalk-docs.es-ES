@@ -1,11 +1,12 @@
 ---
-title: "Obtenga información acerca de Biztalk Server"
+title: Obtenga información acerca de Biztalk Server
 ms.prod: biztalk-server
 ms.openlocfilehash: ce397fb8a1a3e3f69c0e8c79ac0a084c38ece252
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289660"
 ---
 ## <a name="pluralsight-training"></a>Entrenamiento de Pluralsight 
 [Obtenga información acerca de los functoids, ESB etc.](http://app.pluralsight.com/search/?searchTerm=biztalk)

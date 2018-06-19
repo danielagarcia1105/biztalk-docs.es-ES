@@ -1,17 +1,17 @@
 ---
 title: Recomendaciones de seguridad del adaptador SOAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, security
 - security, SOAP adapters
 ms.assetid: f869bd82-df93-45e1-b747-b538820253fb
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279596"
 ---
 # <a name="soap-adapter-security-recommendations"></a>Recomendaciones de seguridad del adaptador SOAP
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de SOAP para publicar (recibir) y consumir (enviar) servicios Web. Para obtener más información acerca del adaptador SOAP, vea [adaptador de SOAP](../core/soap-adapter.md). Para obtener más información acerca de los servicios Web, consulte [uso de servicios Web](../core/using-web-services.md). Se recomienda seguir estas directrices para proteger e implementar el adaptador de SOAP en su entorno.  

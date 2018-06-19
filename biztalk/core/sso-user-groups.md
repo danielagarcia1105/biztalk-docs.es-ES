@@ -1,11 +1,11 @@
 ---
 title: Grupos de usuarios SSO | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - administrator accounts, SSO
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - SSO, service accounts
 - SSO, administrator accounts
 ms.assetid: e279001e-c724-4a2d-8939-0ba9dd08a19c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277628"
 ---
 # <a name="sso-user-groups"></a>Grupos de usuarios SSO
 Para configurar y administrar el sistema de inicio de sesión único (SSO) empresarial, deberá crear ciertas cuentas y grupos de Windows para cada una de estas funciones. Al configurar las cuentas de acceso en SSO empresarial, puede especificar más de una cuenta para cada una de estas funciones. En esta sección se describen las funciones.  

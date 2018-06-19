@@ -1,14 +1,14 @@
 ---
-title: "Patrones de transformación de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Patrones de transformación de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aef41642-d33b-4878-be65-ef336530647f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294820"
 ---
 # <a name="message-transformation-patterns"></a>Patrones de transformación de mensajes
 Patrones de transformación de mensajes definen instrucciones comprobadas para transformar los mensajes para su procesamiento adicional o para que coincida con el formato del documento esperado del servicio al que se enviará el mensaje. Un mensaje puede requerir transformación porque la estructura del mensaje recibido no es en el estándar esperado o porque el mensaje se debe convertir de un formato no estándar a XML.  

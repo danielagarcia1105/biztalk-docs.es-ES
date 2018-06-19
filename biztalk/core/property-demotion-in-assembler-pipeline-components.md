@@ -1,11 +1,11 @@
 ---
-title: "Degradación de propiedades en componentes de canalización de ensamblador | Documentos de Microsoft"
-ms.custom: 
+title: Degradación de propiedades en componentes de canalización de ensamblador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Assembler [pipeline component], properties
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - XML Assembler [pipeline component], about XML Assembler
 - Flat File Assembler [pipeline component], properties
 ms.assetid: c5275638-d594-4b0d-a818-b7a9460b41a6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268836"
 ---
 # <a name="property-demotion-in-assembler-pipeline-components"></a>Degradación de propiedades en componentes de canalización de ensamblador
 Puede utilizar la degradación de la propiedad para copiar un valor de propiedad del contexto del mensaje en el contenido del mensaje, su encabezado o finalizador. La degradación de propiedad se consigue utilizando una expresión XPath que se especifica en el documento o en el esquema de encabezado o finalizador.  

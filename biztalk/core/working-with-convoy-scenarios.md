@@ -1,14 +1,14 @@
 ---
 title: Trabajar con escenarios de convoyes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1028ab37-7ead-41a6-a186-53e5344d1a28
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290500"
 ---
 # <a name="working-with-convoy-scenarios"></a>Trabajar con escenarios de convoyes
 A *convoy* existe en cualquier momento que deben estar relacionado con varios mensajes individuales para lograr el resultado requerido. Hay dos tipos principales de convoyes: secuenciales y paralelos.  

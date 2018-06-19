@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290916"
 ---
 # <a name="xlang-s-language"></a>Lenguaje XLANG-s.
 XLANG/s se diseñó para usar estándares de Internet como XML, XSD y Lenguaje de descripción de servicios Web (WSDL) y dispone de compatibilidad integrada para trabajar con mensajes y objetos basados en .NET. XLANG/s se puede ver como un lenguaje de mensajería con algunas de las capacidades de expresión de C#. Sin embargo, no se puede exportar el código entre XLANG/s y C#.  

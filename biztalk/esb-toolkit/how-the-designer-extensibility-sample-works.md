@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo de extensibilidad del diseñador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo de extensibilidad del diseñador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f4dc622-28b8-498d-961f-df969cff9dcb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975881"
 ---
 # <a name="how-the-designer-extensibility-sample-works"></a>Cómo funciona el ejemplo de extensibilidad del diseñador
 Cada proyecto en el ejemplo de extensibilidad del diseñador contiene dos clases: una **Extender** clase y un **proveedor de extensiones** clase. Estas clases están diseñadas para ampliar las capacidades y definir las propiedades de la **ItineraryDsl** elementos del modelo.  

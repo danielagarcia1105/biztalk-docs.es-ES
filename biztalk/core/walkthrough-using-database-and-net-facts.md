@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar hechos .NET y base de datos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 676d6e46-d9f8-477e-979e-1ac051ad4451
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976050"
 ---
 # <a name="walkthrough-using-database-and-net-facts"></a>Tutorial: Usar hechos .NET y base de datos
 Este tutorial proporciona procedimientos descritos paso a paso para usar el Compositor de reglas de negocio con el fin de crear una directiva que utilice hechos de base de datos y .NET.  
@@ -199,7 +200,7 @@ Este tutorial proporciona procedimientos descritos paso a paso para usar el Comp
   
 31. En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **denegado**.  
   
-32. En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+32. En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 ### <a name="to-test-the-processpurchaseorderdbnet-policy-by-using-the-business-rule-composer"></a>Para probar la directiva ProcessPurchaseOrderDbNet mediante el Compositor de reglas de negocio  
   
@@ -207,7 +208,7 @@ Este tutorial proporciona procedimientos descritos paso a paso para usar el Comp
   
 2.  En la ventana Explorador de directivas, expanda **directivas**, expanda **ProcessPurchaseOrderDbNet**, haga clic en **versión 1.0**y, a continuación, haga clic en **probar directiva** .  
   
-3.  Haga clic en **TestDB: PO (conexión de datos)**y, a continuación, haga clic en **Agregar instancia**.  
+3.  Haga clic en **TestDB: PO (conexión de datos)** y, a continuación, haga clic en **Agregar instancia**.  
   
 4.  En el **conectar con SQL Server** cuadro de diálogo, compruebe la información de nombre y la autenticación de servidor y, a continuación, haga clic en **Aceptar**.  
   

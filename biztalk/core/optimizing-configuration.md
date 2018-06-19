@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 2b0a1aa81971e3e086881e23bcfd6d7ba5d5799d
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24012883"
 ---
 # <a name="optimize-configuration"></a>Optimizar configuración
 Esta sección contiene información acerca de cómo optimizar la configuración del adaptador de BizTalk para PeopleSoft Enterprise e incluye una descripción de los parámetros necesarios para configurar el adaptador.  

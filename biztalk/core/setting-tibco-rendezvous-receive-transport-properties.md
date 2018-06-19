@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 48eb0c1694168fb1acf840a52dc793d0ed943a19
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014235"
 ---
 # <a name="setting-tibco-rendezvous-receive-transport-properties"></a>Configuración de propiedades de transporte de recepción de TIBCO Rendezvous
 Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para escuchar mensajes, debe especificar los nombres de asunto que debe escuchar. Ésta es la única propiedad necesaria.  

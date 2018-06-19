@@ -1,14 +1,14 @@
 ---
-title: "X12 confirmación 997 | Documentos de Microsoft"
-ms.custom: 
+title: X12 confirmación 997 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62a352fb-635c-4f0e-9844-4b250159333d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290892"
 ---
 # <a name="x12-997-acknowledgment"></a>Confirmación 997 de X12
 La confirmación funcional X12 997 informa del estado de un intercambio recibido. Informa de cada error encontrado al procesar el documento recibido. La canalización de recepción de BizTalk EDI siempre genera un 997 conforme con 4010; no obstante, la canalización de recepción de EDI y las canalizaciones de envío de EDI también pueden validar un 997 conforme con 5010.  

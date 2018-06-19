@@ -1,14 +1,14 @@
 ---
 title: Evitar excepciones DBNETLIB | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fbee0cf-d249-4d98-8d16-168ded32f9f1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231916"
 ---
 # <a name="avoiding-dbnetlib-exceptions"></a>Evitar excepciones DBNETLIB
 Se producen errores de DBNetLib (Biblioteca de red de bases de datos) cuando el tiempo de ejecución de BizTalk Server no se puede comunicar con las bases de datos de cuadro de mensajes o de administración. Cuando esto sucede, la instancia de BizTalk Server en tiempo de ejecución que detecta la excepción se apaga y a continuación, se desplaza cada minuto para comprobar si la base de datos está disponible.  

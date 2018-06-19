@@ -1,14 +1,14 @@
 ---
 title: Realizar una copia de seguridad de un equipo que ejecuta BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 70f53b41-8083-4b56-8698-e75a13b21a69
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230508"
 ---
 # <a name="backing-up-a-computer-running-biztalk-server"></a>Realizar una copia de seguridad de un equipo en el que se ejecuta BizTalk Server
 Si se produce un error de hardware irrecuperable en un equipo en el que se ejecuta BizTalk Server, será preciso sustituirlo con un equipo idéntico. Se tendrá que configurar el equipo de sustitución con el software de plataforma base, los requisitos previos de software, los componentes de BizTalk Server y los valores de configuración idénticos. Estos valores de configuración pueden componerse de las entradas del Registro, los archivos y las carpetas adecuadas, sí como los servicios de Windows necesarios para que las aplicaciones de BizTalk funcionen correctamente.  

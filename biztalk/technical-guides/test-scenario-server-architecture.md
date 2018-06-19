@@ -1,14 +1,14 @@
 ---
 title: Arquitectura del escenario de servidor de prueba | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 2015-12-09
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e3afb57-c3ff-4314-9605-cf9fe936e63f
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010853"
 ---
 # <a name="test-scenario-server-architecture"></a>Arquitectura de servidor del escenario de prueba
 Este tema proporciona información general sobre el flujo de mensajes entre los servidores durante las pruebas de carga y las arquitecturas distintas de servidor en el que se realizó la prueba de carga.  

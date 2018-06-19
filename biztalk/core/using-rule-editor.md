@@ -1,11 +1,11 @@
 ---
 title: Mediante el Editor de reglas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Rule Editor [Business Rule Composer], about Rule Editor
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Rule Editor [Business Rule Composer], Actions Editor
 - Rule Editor [Business Rule Composer]
 ms.assetid: 6559a8d1-6caf-4c6e-ac80-acaa4eb57938
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289012"
 ---
 # <a name="using-rule-editor"></a>Usar el Editor de reglas
 Utilice el Editor de reglas para ver y editar las condiciones en el Editor de condiciones y las acciones en el Editor de acciones para la regla seleccionada.  

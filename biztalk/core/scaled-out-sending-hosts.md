@@ -1,11 +1,11 @@
 ---
-title: "Hosts de envío escalado horizontalmente | Documentos de Microsoft"
-ms.custom: 
+title: Hosts de envío escalado horizontalmente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - hosts, sending
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - hosts, scaling
 - adapters, scaling
 ms.assetid: a3d79e0b-8c1e-471c-88e2-623600dfd81a
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007749"
 ---
 # <a name="scaled-out-sending-hosts"></a>Hosts de envío escalados horizontalmente
 Un host de envío de escala horizontal asegura de que la funcionalidad de envío [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiene una alta disponibilidad. Si agrega varios equipos a un host para el envío de mensajes, puede ejecutar varias instancias de host de envío para obtener redundancia y alta disponibilidad.  

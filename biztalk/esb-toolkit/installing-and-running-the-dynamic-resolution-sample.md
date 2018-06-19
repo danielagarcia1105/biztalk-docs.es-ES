@@ -1,14 +1,14 @@
 ---
-title: "Instalar y ejecutar el ejemplo de resolución dinámica | Documentos de Microsoft"
-ms.custom: 
+title: Instalar y ejecutar el ejemplo de resolución dinámica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4359987-b18c-44f5-a2cf-e30e17ac5e9f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015307"
 ---
 # <a name="installing-and-running-the-dynamic-resolution-sample"></a>Instalar y ejecutar el ejemplo de resolución dinámica
 El ejemplo de resolución dinámica muestra escenarios de uso habituales para el distribuidor de ESB y componentes de canalización de desensamblador de distribuidor de ESB. Muestra cómo puede utilizar los componentes para resolver la ubicación del extremo dinámicamente, establecer las propiedades de enrutamientos y resolver y ejecutar asignaciones de BizTalk de Microsoft en el nivel de mensajería sin utilizar una orquestación. También muestra los patrones de mensajería unidireccionales y bidireccionales.  

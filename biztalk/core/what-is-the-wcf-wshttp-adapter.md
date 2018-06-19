@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289340"
 ---
 # <a name="what-is-the-wcf-wshttp-adapter"></a>¿Qué es el adaptador de WCF-WSHttp?
 Puede usar el adaptador de WCF-WSHttp para realizar una comunicación entre equipos con servicios y clientes que puedan comprender los estándares de servicios Web de próxima generación mediante los transportes HTTP o HTTPS con texto o la codificación Message Transmission Optimization Mechanism (MTOM). El adaptador de WCF-WSHtt proporciona acceso completo a características de confiabilidad, seguridad y transacciones de SOAP.  

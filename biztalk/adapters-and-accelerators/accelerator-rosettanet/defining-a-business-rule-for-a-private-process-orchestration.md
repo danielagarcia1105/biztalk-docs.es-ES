@@ -1,11 +1,11 @@
 ---
-title: "Definir una regla de negocios para una orquestación de procesos privados | Documentos de Microsoft"
-ms.custom: 
+title: Definir una regla de negocios para una orquestación de procesos privados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, policies
@@ -37,7 +37,7 @@ helpviewer_keywords:
 - private processes, business rules
 - policies, creating
 ms.assetid: 5d2b0257-1b15-482b-a562-798b808e9a2d
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -46,6 +46,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010533"
 ---
 # <a name="defining-a-business-rule-for-a-private-process-orchestration"></a>Definir una regla de negocios para una orquestación de procesos privado
 Puede definir una regla de negocios para su uso en un proceso privado de confirmación. Esto permite modificar la regla de negocios dinámicamente sin detener la orquestación de procesos privado. Este proceso utiliza el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] motor de reglas de negocios. Este proceso implica los pasos siguientes:  
@@ -72,7 +73,7 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
   
 4.  En el panel de propiedades (parte inferior izquierda), establezca el **nombre** propiedad en el nombre del vocabulario adecuado y, a continuación, presione **ENTRAR**.  
   
-5.  Expanda la carpeta de vocabulario que acaba de crear, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.  
+5.  Expanda la carpeta de vocabulario que acaba de crear, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.  
   
 6.  En la página **Asistente para definición de vocabulario** , seleccione **Valor, rango de valores o conjunto de valores constantes**y, a continuación, haga clic en **Siguiente**.  
   
@@ -82,7 +83,7 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
   
 ### <a name="to-define-get-and-set-elements"></a>Para definir Get y elementos del conjunto  
   
-1.  En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario creada en el vínculo "para agregar un nuevo procedimiento de vocabulario", haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.  
+1.  En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario creada en el vínculo "para agregar un nuevo procedimiento de vocabulario", haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.  
   
 2.  En el **Asistente para definición de vocabulario** página, seleccione **atributo o elemento de documento XML**y, a continuación, haga clic en **siguiente**.  
   
@@ -104,7 +105,7 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
   
 ### <a name="to-save-and-publish-the-vocabulary"></a>Para guardar y publicar el vocabulario  
   
-1.  En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario que ha creado, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+1.  En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario que ha creado, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 2.  En el panel Explorador de hechos, en la carpeta 3A4PurchaseOrderVocabulary, haga clic en **versión 1.0**y, a continuación, seleccione **publicar**.  
   
@@ -116,7 +117,7 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
   
 3.  En el panel Propiedades, establezca la **nombre** propiedad en el nombre de la directiva adecuada.  
   
-4.  En el panel Explorador de directivas, bajo la carpeta para la nueva directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**.  
+4.  En el panel Explorador de directivas, bajo la carpeta para la nueva directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**.  
   
 5.  Haga clic en **Rule1**.  
   
@@ -136,7 +137,7 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
   
 ### <a name="to-save-publish-and-deploy-the-policy"></a>Para guardar, publicar e implementar la directiva  
   
-1.  Cuando haya terminado de definir las reglas, en el Compositor de reglas de negocios, en el panel Explorador de directivas, en la carpeta de directiva que ha creado, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+1.  Cuando haya terminado de definir las reglas, en el Compositor de reglas de negocios, en el panel Explorador de directivas, en la carpeta de directiva que ha creado, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 2.  En el panel Explorador de directivas, en la carpeta de directiva que ha creado, haga clic en **versión 1.0**y, a continuación, haga clic en **publicar**.  
   

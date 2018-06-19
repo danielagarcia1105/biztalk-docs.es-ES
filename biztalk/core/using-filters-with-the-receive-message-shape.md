@@ -11,7 +11,7 @@ helpviewer_keywords:
 - filters, receive messages
 - messages, filters
 ms.assetid: 5310039b-6719-4971-933a-2da0573fb5e7
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22287884"
 ---
 # <a name="using-filters-with-the-receive-message-shape"></a>Uso de filtros con la forma de mensaje de recepción
 Una expresión de filtro es un parámetro opcional que puede aplicarse a una forma Recepción de una orquestación que especifica un valor True para la propiedad Activar. Si se especifica una expresión de filtro, la orquestación solo se activará si un mensaje entrante cumple la condición o condiciones especificadas en dicha expresión. Si no se especifica ninguna expresión de filtro, ningún mensaje entrante al que se suscriba la orquestación la activará.  

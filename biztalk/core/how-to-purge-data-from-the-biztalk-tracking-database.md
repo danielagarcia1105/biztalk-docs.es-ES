@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "23129709"
 ---
 # <a name="purge-data-from-the-biztalk-tracking-database"></a>Purgar datos de la base de datos de seguimiento de BizTalk
 Cuando se purgan datos de la base de datos de seguimiento de BizTalk (BizTalkDTADb), el trabajo DTA Purge and Archive se encarga de purgar de la base de datos de seguimiento de BizTalk (BizTalkDTADb) diversos tipos de información de seguimiento como, por ejemplo, información de instancia de servicio y mensaje, información de eventos de orquestación y datos de seguimiento del motor de reglas.  
@@ -39,7 +40,7 @@ Inicie sesión con una cuenta que sea miembro del rol sysadmin de SQL Server rol
   
 3.  Haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.  
   
-4.  En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)**y, a continuación, seleccione **propiedades**.  
+4.  En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)** y, a continuación, seleccione **propiedades**.  
   
 5.  En **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, en **seleccionar una página**, seleccione **pasos**.  
   

@@ -1,14 +1,14 @@
 ---
 title: Trabajar con puertos de enlace directo en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03a37ac0-5131-4d37-b60b-56763c460463
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289276"
 ---
 # <a name="working-with-direct-bound-ports-in-orchestrations"></a>Trabajar con puertos de enlace directo en orquestaciones
 Hay tres tipos de puertos de enlace directo: cuadro de mensajes, autocorrelación y orquestación de socio.  

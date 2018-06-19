@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289884"
 ---
 # <a name="windows-sharepoint-services-adapter"></a>Adaptador de Windows SharePoint Services
 El adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Microsoft Windows SharePoint Services proporciona una mayor integración de BizTalk Server con Windows SharePoint Services y Microsoft Office. El uso del adaptador de Windows SharePoint Services en la solución [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite obtener las funciones siguientes:  

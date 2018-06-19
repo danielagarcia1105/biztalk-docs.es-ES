@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es una vista de actividad? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es una vista de actividad? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], Activity view [Tracking Profile Editor]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, Activity view
 - Activity view [Tracking Profile Editor]
 ms.assetid: ae6bcdc8-e426-4148-b83d-08a1a5e99ca3
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290388"
 ---
 # <a name="what-is-an-activity-view"></a>¿Qué es una vista de actividad?
 Una vista de actividad contiene la definición de actividad de BAM importada que se crea con el complemento de BAM para Excel. La definición de actividad de BAM es un resumen de los requisitos de seguimiento para el proceso empresarial. Una actividad puede abarcar varias orquestaciones y puertos. La definición de actividad debe importarse una vez y asignarse a cada orquestación o artefacto de mensajería que coincida con alguna parte de la definición.  

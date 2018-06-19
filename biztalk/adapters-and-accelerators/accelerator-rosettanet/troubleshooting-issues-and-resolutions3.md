@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010333"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a>Solución de problemas: Problemas y soluciones
 Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. La persona emite detalle un síntoma específico, una posible causa y una solución.  
@@ -145,7 +146,7 @@ Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoNam
   
 1.  Haga clic en **iniciar**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services (IIS) Manager**.  
   
-2.  Expanda  **\<nombre_equipo\> (equipo local)**y, a continuación, haga clic en **extensiones de servicio Web**.  
+2.  Expanda  **\<nombre_equipo\> (equipo local)** y, a continuación, haga clic en **extensiones de servicio Web**.  
   
 3.  En el **extensión de servicio Web** panel, compruebe que se permite el estado de HwsMessages HttpReceive. Si no es así, haga clic en **HwsMessages HttpReceive**y, a continuación, haga clic en **permitir**.  
   
@@ -209,7 +210,7 @@ Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoNam
   
 4.  Haga clic en **BAM_DM_Process**y, a continuación, haga clic en **eliminar**.  
   
-5.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+5.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 6.  En el símbolo del sistema, escriba el código siguiente para implementar el archivo de seguimiento y, a continuación, haga clic en **Aceptar**.  
   
@@ -290,7 +291,7 @@ Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoNam
   
 5.  Haga clic en **Aceptar**.  
   
-6.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+6.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 7.  En el símbolo del sistema, escriba el código siguiente para restablecer IIS.  
   

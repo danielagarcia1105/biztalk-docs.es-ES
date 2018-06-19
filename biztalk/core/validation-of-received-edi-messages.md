@@ -1,14 +1,14 @@
 ---
-title: "Validación de mensajes EDI recibidos | Documentos de Microsoft"
-ms.custom: 
+title: Validación de mensajes EDI recibidos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c56a3c0-042e-4611-8131-d51098064f0f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288060"
 ---
 # <a name="validation-of-received-edi-messages"></a>Validación de mensajes EDI recibidos
 Cuando la canalización de recepción EDI procesa un mensaje entrante, se llevan a cabo una serie de validaciones en los datos del sobre y del mensaje. Siempre se llevan a cabo algunos de estos procesos. Otros sólo se realizan si usted los habilita. Entre estas validaciones, se incluyen las siguientes:  

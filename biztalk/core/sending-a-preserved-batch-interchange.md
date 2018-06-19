@@ -1,14 +1,14 @@
 ---
 title: Enviar un intercambio por lotes conservado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9bc2207-e34d-4d06-a224-bd7f8e498c27
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974850"
 ---
 # <a name="sending-a-preserved-batch-interchange"></a>Enviar intercambios por lotes conservados
 Cuando la canalización de envío EDI procesa un intercambio por lotes conservado, toma el intercambio como una unidad entera. Normalmente, vuelve a utilizar los segmentos de sobre (control) existentes para la creación del intercambio de EDI, en vez de aplicar un sobre basado en el acuerdo. Esto se produce cuando el **opción de procesamiento por lotes de entrada** propiedad está establecida en **conservar intercambio: suspender intercambio en caso de Error** o **conservar intercambio: suspender conjuntos de transacciones en Error**.  

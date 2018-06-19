@@ -1,14 +1,14 @@
 ---
-title: "El motor de mensajería de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: El motor de mensajería de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0c8d3e6-953d-4a04-adfc-b77ef7173464
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279268"
 ---
 # <a name="the-biztalk-server-messaging-engine"></a>Motor de mensajería de BizTalk Server
 El motor de mensajería de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite a los usuarios crear procesos de negocio que abarquen varias aplicaciones al proporcionar dos elementos principales:  

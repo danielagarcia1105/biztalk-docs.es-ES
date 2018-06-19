@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26010885"
 ---
 # <a name="optimizing-filegroups-for-the-databases"></a>Optimizar los grupos de archivos para las bases de datos
 Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuello de botella en un entorno de BizTalk Server de producción. BizTalk Server es una aplicación de uso intensivo de la parte de la base de datos y a su vez, la base de datos de SQL Server que utiliza BizTalk Server es intensivo de E/S de archivo muy.  

@@ -1,11 +1,11 @@
 ---
-title: "Control de versiones de la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Control de versiones de la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - versioning, process management solutions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - processing, stages
 - process management solution tutorial, processing stages
 ms.assetid: 501b2162-821f-44e1-87c0-8628cc5bd9c3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288652"
 ---
 # <a name="versioning-the-business-process-management-solution"></a>Control de versiones de la solución de administración de procesos empresariales
 La solución Administración de procesos empresariales está diseñada para poder reemplazar las fases si es necesario. El diseño proporciona también un método fácil de crear versiones de esquemas.  

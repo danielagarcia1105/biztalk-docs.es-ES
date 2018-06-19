@@ -1,11 +1,11 @@
 ---
-title: "Mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones | Documentos de Microsoft"
-ms.custom: 
+title: Mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - customizing, applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - scripts, applications
 - scripts, customizing
 ms.assetid: 47627394-d594-491b-9098-38c5d028a378
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287172"
 ---
 # <a name="using-pre--and-post-processing-scripts-to-customize-application-deployment"></a>Usar secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de la aplicación
 Los temas de esta sección describen cómo se crean secuencias de comandos previas y posteriores al procesamiento para realizar acciones cuando una aplicación se importa, se instala o se desinstala. Las secuencias de comandos previas al procesamiento realizan una acción o un conjunto de acciones antes de que comience la importación o la instalación de la aplicación y después de que finalice la desinstalación. Por otro lado, las secuencias de comandos posteriores al procesamiento realizan una acción o un conjunto de acciones después de que finalice la importación o la instalación de la aplicación y antes de que se inicie la desinstalación.  

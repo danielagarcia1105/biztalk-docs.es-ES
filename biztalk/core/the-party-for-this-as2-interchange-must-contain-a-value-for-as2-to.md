@@ -1,14 +1,14 @@
 ---
 title: La entidad de este intercambio AS2 debe contener un valor para AS2-para | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 029eae5d-4c13-402d-90c5-8e9ef3814a1f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279092"
 ---
 # <a name="the-party-for-this-as2-interchange-must-contain-a-value-for-as2-to"></a>La entidad de este intercambio AS2 debe contener un valor para AS2-To
 ## <a name="details"></a>Detalles  

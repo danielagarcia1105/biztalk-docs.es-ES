@@ -1,14 +1,14 @@
 ---
-title: "Instalar el en línea y las versiones de adaptador del servicio en la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Instalar el en línea y las versiones de adaptador del servicio en la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6050cfe9-4e94-4a55-8b24-fbcc74d9e8f4
-caps.latest.revision: "97"
+caps.latest.revision: 97
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010741"
 ---
 # <a name="how-to-install-the-inline-and-adapter-versions-of-the-service-oriented-solution"></a>Cómo instalar las versiones de adaptador y en línea de la solución orientada a servicios
 Los pasos siguientes describen cómo preparar el equipo para instalar las versiones de adaptador y en línea de la solución orientada a servicios y cómo realizar la instalación en el mismo.  
@@ -365,9 +366,9 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
 2.  En el **Internet Information Services (IIS) Manager**, expanda **sitios Web**, expanda la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions y, a continuación, haga clic en **propiedades**.  
   
-    1.  En el **seguridad de directorios** , haga clic en **editar** modificar **autenticación y control de acceso**. Seleccione **la autenticación básica (la contraseña se envía en texto no cifrado)**y desactive las demás **de acceso de autenticación** casillas de verificación. Haga clic en **Aceptar** para cerrar el **métodos de autenticación** cuadro de diálogo.  
+    1.  En el **seguridad de directorios** , haga clic en **editar** modificar **autenticación y control de acceso**. Seleccione **la autenticación básica (la contraseña se envía en texto no cifrado)** y desactive las demás **de acceso de autenticación** casillas de verificación. Haga clic en **Aceptar** para cerrar el **métodos de autenticación** cuadro de diálogo.  
   
-    2.  En el **seguridad de directorios** , haga clic en **editar** en el **una comunicación segura** cuadro del grupo y, a continuación, busque **Requerir canal seguro (SSL)**en la **comunicaciones seguras** cuadro de diálogo.  
+    2.  En el **seguridad de directorios** , haga clic en **editar** en el **una comunicación segura** cuadro del grupo y, a continuación, busque **Requerir canal seguro (SSL)** en la **comunicaciones seguras** cuadro de diálogo.  
   
     3.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** al grupo de aplicaciones que creó en el procedimiento "para crear un nuevo grupo de aplicaciones de IIS para los servicios Web de transacciones pendientes".  
   
@@ -461,7 +462,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
     2.  En el **especificar Or Locate An Object** página, haga clic en **examinar**, elija SOHISTIUsingCOM.TLB en la carpeta %BTSSolutionsPath%\SO\MFAccess\HISTIComponent y, a continuación, haga clic en **siguiente**.  
   
-    3.  En el **Define Environment Characteristics para el objeto COM** página, seleccione **btsscn SO TI Component** para el **aplicación COM +**y, a continuación, haga clic en **siguiente** .  
+    3.  En el **Define Environment Characteristics para el objeto COM** página, seleccione **btsscn SO TI Component** para el **aplicación COM +** y, a continuación, haga clic en **siguiente** .  
   
     4.  En el **Define Remote Environment** página, seleccione el entorno remoto que ha creado en el procedimiento anterior para el **entorno remoto y, a continuación, haga clic en siguiente.**  
   

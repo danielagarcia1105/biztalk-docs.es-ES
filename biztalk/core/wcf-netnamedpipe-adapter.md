@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288796"
 ---
 # <a name="wcf-netnamedpipe-adapter"></a>Adaptador de WCF-NetNamedPipe
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de WCF-NetNamedPipe al recibir y enviar WCF solicitudes de servicio mediante el [NetNamedPipeBinding](http://go.microsoft.com/fwlink/?LinkId=82588). El adaptador de WCF-NetNamedPipe le permite publicar orquestaciones y esquemas como servicios WCF y consumir servicios WCF externos con el **NetNamedPipeBinding**.  

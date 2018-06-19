@@ -1,14 +1,14 @@
 ---
-title: "Tutorial (AS2): Enviar un mensaje no perteneciente a EDI a través de AS2 | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial (AS2): Enviar un mensaje no perteneciente a EDI a través de AS2 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6120b81e-bdd5-44ad-9040-26be88c71258
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292116"
 ---
 # <a name="walkthrough-as2-sending-a-non-edi-message-over-as2"></a>Tutorial (AS2): Enviar un Message no perteneciente a EDI sobre AS2
 Este tutorial proporciona un conjunto de procedimientos paso a paso que crea una solución para el envío de mensajes no pertenecientes a EDI mediante AS2. En este tutorial, se envía un mensaje PIDX mediante AS2. Esta solución usa un puerto de envío bidireccional con una canalización de envío AS2Send y una canalización de recepción AS2Receive. Puede crear y probar la solución completa de este tutorial en un único equipo.  

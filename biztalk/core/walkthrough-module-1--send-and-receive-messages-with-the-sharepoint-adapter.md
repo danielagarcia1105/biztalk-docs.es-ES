@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Módulo 1: enviar y recibir mensajes con Windows SharePoint Services adaptador | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Módulo 1: enviar y recibir mensajes con Windows SharePoint Services adaptador | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services, creating sites
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Windows SharePoint Services
 - Windows SharePoint Services adapter tutorials, sending messages
 ms.assetid: 6494aef5-bb1d-4a41-8186-1d49625a1013
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010509"
 ---
 # <a name="walkthrough-module-1---sending-and-receiving-messages-with-the-windows-sharepoint-services-adapter"></a>Tutorial: Módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services
 En este tutorial se muestra cómo configurar Windows SharePoint Services y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que pueda enviar y recibir mensajes mediante el adaptador de Windows SharePoint Services y el enrutamiento basado en contenido (CBR). El enrutamiento por contenidos elimina la necesidad de suscribir mensajes para los mensajes enlazados de forma determinista a puertos específicos. Asimismo, proporciona flexibilidad adicional para los usuarios que deseen enrutar los mensajes según las propiedades del sobre o simplemente según las propiedades de configuración del puerto de recepción. Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
@@ -120,7 +121,7 @@ En este tutorial se muestra cómo configurar Windows SharePoint Services y [!INC
   
 5.  En el árbol de consola, expanda **servicios y aplicaciones**y, a continuación, haga clic en **Services**.  
   
-6.  Haga clic en **servicio de BizTalk grupo: < BizTalk_Host_Name >**y, a continuación, haga clic en **reiniciar**.  
+6.  Haga clic en **servicio de BizTalk grupo: < BizTalk_Host_Name >** y, a continuación, haga clic en **reiniciar**.  
   
     > [!NOTE]
     >  <BizTalk_Host_Name> es el nombre del host. De forma predeterminada, es `BizTalkServerApplication`.  

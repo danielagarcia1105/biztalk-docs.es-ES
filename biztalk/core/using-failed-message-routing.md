@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289668"
 ---
 # <a name="using-failed-message-routing"></a>Utilizar el enrutamiento de mensajes con errores
 La funcionalidad de control de errores permite al diseñador designar un control automatizado de los mensajes con errores como alternativa al comportamiento tradicional (ahora como configuración predeterminada) de colocar los mensajes con errores en la cola de suspensión. Este control automatizado enruta un mensaje con error a cualquier destino de enrutamiento de suscripción, como un puerto de envío o una orquestación. El mensaje de error es un clon del mensaje original, que incluye todas las propiedades anteriormente promocionadas ahora degradadas y con las propiedades seleccionadas relativas al error de mensajería específico promocionadas en el contexto del mensaje.  

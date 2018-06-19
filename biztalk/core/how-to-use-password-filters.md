@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar contraseña filtra | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar contraseña filtra | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb429f8b-c301-45a3-8a4f-bbe6f2c566a3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255940"
 ---
 # <a name="how-to-use-password-filters"></a>Cómo usar filtros de contraseña
 La característica de sincronización de contraseñas de ENTSSO sincroniza contraseñas entre los sistemas Microsoft Windows Active Directory y otros ajenos a Windows. Sin embargo, muchos sistemas externos tiene requisitos de política de contraseñas diferentes de los de Active Directory. (Por ejemplo, es posible que un sistema IBM requiera que la contraseña se escriba en mayúsculas y tenga un límite de 8 caracteres.) Esto fuerza a ENTSSO a usar el “denominador común mínimo” entre los dos sistemas, lo que limita la seguridad de las contraseñas.  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31a13377-cc89-4763-ad1b-508a16fc9708
-caps.latest.revision: ''
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009893"
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a>Adaptador transaccional (ejemplo de BizTalk Server)
 En el ejemplo de adaptador transaccional se muestra cómo crear y usar una transacción explícita de Microsoft DTC (Coordinador de transacciones distribuidas) para una base de datos durante el procesamiento de un mensaje de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

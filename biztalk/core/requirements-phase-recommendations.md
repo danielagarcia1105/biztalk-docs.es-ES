@@ -1,14 +1,14 @@
 ---
 title: Recomendaciones de la fase de requisitos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b510313-c3a7-42bc-9c9b-336c927a5d4a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271020"
 ---
 # <a name="requirements-phase-recommendations"></a>Recomendaciones para la fase de requisitos
 La principal entrega relacionada con la fase de requisitos es una especificación de requisitos, o una especificación funcional con los requisitos que incluyen objetivos de rendimiento. Al determinar estos objetivos, es muy importante que participen los usuarios finales y los propietarios empresariales del sistema, a fin de garantizar la obtención de un perfil preciso del rendimiento.  

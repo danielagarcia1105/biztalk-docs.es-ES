@@ -1,15 +1,15 @@
 ---
-title: "Asignación de TIBCO Rendezvous de mensajes | Documentos de Microsoft"
-description: "Campos de mensajes y asignación de mensaje a XML en el adaptador de BizTalk para TIBCO Rendezvous"
-ms.custom: 
+title: Asignación de TIBCO Rendezvous de mensajes | Documentos de Microsoft
+description: Campos de mensajes y asignación de mensaje a XML en el adaptador de BizTalk para TIBCO Rendezvous
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62793bec-f076-425c-b25e-c4be5bd93cc8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014955"
 ---
 # <a name="message-mapping-in-tibco-rendezvous"></a>Asignación de mensajes en TIBCO Rendezvous
 Los mensajes de TIBCO Rendezvous constan de información de encabezado y un conjunto de campos del mensaje. La información de encabezado se asigna directamente a propiedades de contexto del mensaje.  

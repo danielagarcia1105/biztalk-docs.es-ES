@@ -1,14 +1,14 @@
 ---
 title: Recursos XSD en Internet | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0de350bc-8206-4a1a-8e8d-cb531a06b529
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290716"
 ---
 # <a name="xsd-resources-on-the-web"></a>Recursos XSD en Internet
 Proporcionar detalles sobre el lenguaje de definición de esquemas XML (XSD) o incluso resumir adecuadamente las definiciones XSD queda fuera del alcance de este documento. Para obtener información detallada, vaya directamente al sitio web de World Wide Web Consortium (W3C) para ver las especificaciones XSD e información básica relacionada. En concreto, se recomienda leer los siguientes tutoriales: el primero de ellos para conocer de una forma rápida los conceptos básicos, y los dos últimos como fuentes de información completas sobre XSD. Para consultar los tutoriales acerca de XSD, vea las siguientes páginas de W3C:  

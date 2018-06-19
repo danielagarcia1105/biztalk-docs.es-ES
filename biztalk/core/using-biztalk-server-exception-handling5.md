@@ -1,15 +1,15 @@
 ---
 title: Agregar el control de excepciones para TIBCO EMS | Documentos de Microsoft
-description: "Información general del control de excepciones para las orquestaciones que utilizan el adaptador TIBCO EMS en BizTalk Server"
-ms.custom: 
+description: Información general del control de excepciones para las orquestaciones que utilizan el adaptador TIBCO EMS en BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4471f7b7-4a50-4d99-ad01-94712ce162fe
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013099"
 ---
 # <a name="use-biztalk-server-exception-handling"></a>Usar el control de excepciones de servidor BizTalk Server
 

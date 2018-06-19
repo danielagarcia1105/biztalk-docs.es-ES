@@ -1,14 +1,14 @@
 ---
 title: Mover bases de datos de BAM no | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e548e72-db0e-4f07-a07a-8d210425dfa5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298228"
 ---
 # <a name="moving-non-bam-databases"></a>Mover bases de datos de BAM no
 Puede usar este procedimiento para mover las bases de datos principales de BizTalk Server a otro servidor. También se puede utilizar este mismo procedimiento básico para mover las bases de datos de BizTalk Server desde un servidor SQL Server local a un servidor SQL remoto o a un clúster de SQL Server. Esta sección describe cómo mover la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos que no están relacionados con la de BAM.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269972"
 ---
 # <a name="sendportref-mapping-node"></a>SendPortRef (nodo Mapping)
 El nodo SendPortRef del nodo Mapping de un archivo de enlace enumera los nombres de los puertos de envío a los que hace referencia el nodo principal de asignación.  

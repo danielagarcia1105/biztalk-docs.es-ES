@@ -1,11 +1,11 @@
 ---
 title: Las agregaciones del Portal de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, pivot tables
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - charts, BAM portal
 - BAM portal, aggregations
 ms.assetid: 1c689563-714b-4573-9c18-a5b0efe97fb8
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230548"
 ---
 # <a name="aggregations-in-the-bam-portal"></a>Agregaciones en el portal de BAM
 Las agregaciones son tablas de datos precalculados que puede usar para realizar el procesamiento analítico con un cubo OLAP. Las agregaciones facilitan la realización de consultas eficaces en un contexto de bases de datos multidimensionales. Al crear e implementar el modelo de observación (la definición de alto nivel de los datos económicos) mediante el complemento BAM para Excel, se crean agregaciones que puede usar para evaluar rápidamente las colecciones de datos que hacen referencia a los indicadores clave de rendimiento (KPI).  

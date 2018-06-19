@@ -1,14 +1,14 @@
 ---
-title: "Cómo desactivar el seguimiento Global | Documentos de Microsoft"
-ms.custom: 
+title: Cómo desactivar el seguimiento Global | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eae3059a-cbdd-47c4-84cd-edfb5480b9fa
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007101"
 ---
 # <a name="how-to-turn-off-global-tracking"></a>Cómo desactivar el seguimiento global
 De forma predeterminada, el seguimiento global se habilita cuando se instala BizTalk Server. La base de datos de seguimiento de BizTalk (BizTalkDTADb) aumenta de tamaño a medida que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa los datos del sistema. Si el rendimiento del disco es deficiente a causa del tamaño de la base de datos de seguimiento de BizTalk, puede purgar los datos de la misma. Si están surgiendo problemas de rendimiento que se solucionan de manera momentánea mediante la purga de la base de datos de seguimiento de BizTalk, y desea configurar BizTalk para que no recopile más información de seguimiento, considere la posibilidad de desactivar el seguimiento global.  

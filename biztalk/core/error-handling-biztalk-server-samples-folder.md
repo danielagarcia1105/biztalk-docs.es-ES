@@ -1,11 +1,11 @@
 ---
 title: (Carpeta de ejemplos de BizTalk Server) de control de errores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, errors
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, examples
 - messages, errors
 ms.assetid: b39791ed-277b-4625-b9a9-72480a1b6ff6
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971482"
 ---
 # <a name="error-handling-biztalk-server-samples-folder"></a>Error Handling (carpeta de ejemplos de BizTalk Server)
 Este ejemplo tiene como finalidad crear una funcionalidad de control de errores para la aplicación de enrutamiento por contenidos (CBR).  

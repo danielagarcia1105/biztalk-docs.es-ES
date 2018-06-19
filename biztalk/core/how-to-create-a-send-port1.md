@@ -1,17 +1,17 @@
 ---
-title: "Cómo crear un envío Port1 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un envío Port1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating send ports
 - send ports, creating
 ms.assetid: bf32e9f5-ebed-43d2-b9a9-6ab91925d973
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015043"
 ---
 # <a name="how-to-create-a-send-port"></a>Cómo crear un puerto de envío
 Use el procedimiento siguiente para crear puertos de envío de BizTalk Server para JD Edwards EnterpriseOne.  
@@ -40,7 +41,7 @@ Use el procedimiento siguiente para crear puertos de envío de BizTalk Server pa
   
 6.  Haga clic en **tipo de transporte**y seleccione **JDEEntOne**.  
   
-7.  Seleccione el **dirección (URI)**y haga clic en el botón de puntos suspensivos (...).  
+7.  Seleccione el **dirección (URI)** y haga clic en el botón de puntos suspensivos (...).  
   
      JD Edwards EnterpriseOne **propiedades de transporte** aparece el cuadro de diálogo.  
   

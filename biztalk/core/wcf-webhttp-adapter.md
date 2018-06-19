@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67a353e7-1ba3-427a-8e99-c9b8d83061cb
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25976074"
 ---
 # <a name="wcf-webhttp-adapter"></a>Adaptador WCF-WebHttp
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el **WCF-WebHttp** adaptador para enviar mensajes a los servicios RESTful. El **WCF-WebHttp** de envío de adaptador envía mensajes HTTP a un servicio de un mensaje de BizTalk. La ubicación de recepción recibe los mensajes de un servicio de RESTful. Para la solicitud GET y DELETE, el adaptador no usa ninguna carga. Para las solicitudes POST y PUT, el adaptador usa la parte del cuerpo del mensaje de BizTalk para el contenido/carga de HTTP.  

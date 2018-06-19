@@ -1,18 +1,18 @@
 ---
-title: "Obtenga información sobre las propiedades de enlace del adaptador de base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Obtenga información sobre las propiedades de enlace del adaptador de base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties
 - binding properties, setting
 - adapter, binding properties
 ms.assetid: d626136e-c6c1-4352-94fc-3c034c423ef4
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010493"
 ---
 # <a name="read-about-the-oracle-database-adapter-binding-properties"></a>Obtenga información sobre las propiedades de enlace del adaptador de base de datos de Oracle
 La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone varias propiedades de enlace. Al establecer estas propiedades, puede controlar algunos de los comportamientos del adaptador. Esta sección se describe la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] propiedades de enlace. También se muestra cómo se pueden tener acceso a ellos mediante programación de .NET o estableciendo propiedades en un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] enlace de puerto físico.  

@@ -1,14 +1,14 @@
 ---
-title: "Instalar el ejemplo de servicio de resolución | Documentos de Microsoft"
-ms.custom: 
+title: Instalar el ejemplo de servicio de resolución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fce9bbeb-9377-41af-8ca7-740ce4d1f617
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009582"
 ---
 # <a name="installing-the-resolver-service-sample"></a>Instalar el ejemplo de servicio de resolución
 Esta sección describe el proceso de instalación del ejemplo de servicio de resolución. El servicio de resolución depende el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] principales de la solución. Instalar el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core automáticamente copia e instala los ensamblados básicos necesarios para este ejemplo en las ubicaciones correctas.  

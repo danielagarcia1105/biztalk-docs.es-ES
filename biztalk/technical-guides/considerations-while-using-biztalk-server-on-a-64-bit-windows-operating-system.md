@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al usar BizTalk Server en un sistema operativo Windows de 64 bits | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac630f55-7ebe-4b93-bf98-70b00788520f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008389"
 ---
 # <a name="considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system"></a>Consideraciones al usar BizTalk Server en un sistema operativo Windows de 64 bits
 Al utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un sistema operativo de Windows de 64 bits, asegúrese de que tenga en cuenta los problemas descritos en este tema. Para las preguntas más frecuentes relacionadas con la compatibilidad con 64 bits de Microsoft BizTalk Server, vea [compatibilidad con BizTalk Server de 64 bits](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).  

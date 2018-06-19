@@ -1,14 +1,14 @@
 ---
-title: "Prácticas recomendadas para actualizar aplicaciones | Documentos de Microsoft"
-ms.custom: 
+title: Prácticas recomendadas para actualizar aplicaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 072eaf25-a1ee-4af3-b034-525a04260ef4
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009437"
 ---
 # <a name="best-practices-for-updating-applications"></a>Prácticas recomendadas para actualizar las aplicaciones
 Este tema describe los procedimientos recomendados que considere la posibilidad de usar al actualizar artefactos y aplicaciones de BizTalk.  

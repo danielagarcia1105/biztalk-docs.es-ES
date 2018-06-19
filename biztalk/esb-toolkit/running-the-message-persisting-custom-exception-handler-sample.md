@@ -1,14 +1,14 @@
 ---
 title: Ejecuta el mensaje de ejemplo del controlador de excepciones personalizadas de conservar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0a4c819-f6bd-4dea-8be9-e3006337665f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295332"
 ---
 # <a name="running-the-message-persisting-custom-exception-handler-sample"></a>Ejecuta el mensaje conservar ejemplo del controlador de excepciones personalizadas
 El ejemplo de controlador de excepciones de personalizada de conservación de mensaje muestra un controlador de acoplamiento flexible, genérico que recibe mensajes de error, extrae los mensajes que contienen y se escribe como archivos de disco en el sistema de archivos de Microsoft BizTalk.  

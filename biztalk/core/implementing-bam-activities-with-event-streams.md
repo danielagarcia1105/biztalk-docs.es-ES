@@ -1,18 +1,18 @@
 ---
 title: Implementar actividades BAM con secuencias de eventos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], about activities
 - activities [BAM]
 - BAM, activities
 ms.assetid: 94e6d9dd-93c3-4ab0-9de7-a860dd1e3406
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257348"
 ---
 # <a name="implementing-bam-activities-with-event-streams"></a>Implementar actividades de BAM con secuencias de eventos
 Una actividad de BAM representa una unidad de trabajo en el negocio, como un pedido o una aplicación de préstamo. La actividad muestra el historial (hitos) y los datos sobre esta unidad de trabajo a los usuarios finales empresariales o al trabajador de la información. Por ejemplo, una actividad de aplicaciones de préstamo podría contener hitos como "Préstamo aprobado" y datos como" Nombre del candidato" e "Importe del préstamo". Las actividades de BAM a menudo se asignan directamente a un proceso empresarial, aunque como una abstracción de alto nivel, una actividad es independiente de la implementación actual de la infraestructura de TI.  

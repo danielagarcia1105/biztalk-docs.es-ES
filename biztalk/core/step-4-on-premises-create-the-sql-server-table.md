@@ -1,14 +1,14 @@
 ---
 title: 'Paso 4 (de forma local): Crear la tabla de SQL Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7e253ac-8707-484f-8461-f098cc7ec7d8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277268"
 ---
 # <a name="step-4-on-premises-create-the-sql-server-table"></a>Paso 4 (de forma local): Crear la tabla de SQL Server
 Como parte del escenario empresarial, por último, se debe insertar el mensaje X12 pedido enviado por Contoso a Northwind en un **SalesOrder** tabla, si la cantidad pedida es superior a 100. Este tema proporciona instrucciones sobre cómo crear el **SalesOrder** tabla dentro de una instancia de base de datos de SQL Server que está hospedada de forma local.  

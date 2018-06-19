@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22291596"
 ---
 # <a name="walkthrough-creating-a-flat-file-schema-from-a-document-instance"></a>Tutorial: Crear un esquema de archivo sin formato desde una instancia de documento
 Este tutorial muestra cómo crear un esquema de archivo sin formato a partir de una instancia de documento mediante el Asistente para esquemas de archivos sin formato de BizTalk tomando como base el pedido de muestra siguiente. Para obtener una introducción al Asistente para esquema de plano archivos BizTalk, consulte [cómo usar BizTalk esquema Asistente para archivos planos](../core/how-to-use-biztalk-flat-file-schema-wizard.md).  

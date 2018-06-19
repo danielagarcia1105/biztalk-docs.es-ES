@@ -1,15 +1,15 @@
 ---
 title: Resolver instancias de actividad incompletas | Documentos de Microsoft
-description: "Instancias de actividad BAM permanecen activas después de la copia de seguridad de la base de datos BAMPrimaryImport en BizTalk Server"
-ms.custom: 
+description: Instancias de actividad BAM permanecen activas después de la copia de seguridad de la base de datos BAMPrimaryImport en BizTalk Server
+ms.custom: ''
 ms.date: 01/17/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8adbcb66-58ad-42c5-ba16-7dc07572099e
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 20d33d8b74bf129a8d1a506ac4a1ad960184966d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/18/2018
+ms.locfileid: "27873420"
 ---
 # <a name="resolve-incomplete-bam-activity-instances---biztalk-server"></a>Resolver instancias incompletas de actividad BAM - servidor BizTalk Server
 BAM almacena datos de instancias de actividad incompletas en una clase especial *instancias activas* tabla en la base de datos BAMPrimaryImport.  

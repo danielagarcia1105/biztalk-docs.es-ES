@@ -1,11 +1,11 @@
 ---
-title: "Cómo instalar la versión de código auxiliar del servicio en la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar la versión de código auxiliar del servicio en la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IIS, installing virtual directories [service solutions]
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - service solution tutorial, building solutions
 - service solution tutorial, installing
 ms.assetid: 45de7681-4df0-47a4-a02c-509140423a1e
-caps.latest.revision: "53"
+caps.latest.revision: 53
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010413"
 ---
 # <a name="how-to-install-the-stub-version-of-the-service-oriented-solution"></a>Cómo instalar la versión de código auxiliar de esta solución orientada a servicios
 Los pasos siguientes describen cómo preparar el equipo para instalar la versión de código auxiliar de la solución orientada a servicios y cómo instalar ésta en el equipo.  

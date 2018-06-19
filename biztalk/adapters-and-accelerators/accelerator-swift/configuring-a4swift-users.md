@@ -1,18 +1,18 @@
 ---
-title: "Configuración de A4SWIFT usuarios | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de A4SWIFT usuarios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, user accounts
 - creating, user accounts
 - user accounts, creating
 ms.assetid: 45dcbece-ec8d-410a-8320-79bfbc4c779d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209380"
 ---
 # <a name="configuring-a4swift-users"></a>Configuración de los usuarios de A4SWIFT
 Durante la instalación de [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)], el programa de configuración de A4SWIFT crea perfiles de socios comerciales de forma predeterminada y contratos y registra el servidor BizTalk Server. A4SWIFT también crea bibliotecas de documentos usadas por el componente de reparación de mensajes y nuevo envío.  

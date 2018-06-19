@@ -1,14 +1,14 @@
 ---
 title: Instalar el ejemplo de componente de Namespace | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f47b810a-6f0d-459c-98b9-6dac9f4a78b4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294004"
 ---
 # <a name="installing-the-namespace-component-sample"></a>Instalar el ejemplo de componente de Namespace
 El ejemplo del componente de Namespace, requiere el componente Namespace (en el ensamblado Microsoft.Practices.ESB.Namespace.PipelineComponents.dll) que residan en la carpeta PipelineComponents de la carpeta de instalación de Microsoft BizTalk Server. Instalar el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core copia automáticamente el ensamblado en la ubicación correcta.  

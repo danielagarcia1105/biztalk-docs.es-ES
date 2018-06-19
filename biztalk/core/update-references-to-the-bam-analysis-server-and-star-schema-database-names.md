@@ -1,11 +1,11 @@
 ---
-title: "Cómo actualizar referencias al servidor de análisis BAM y nombres de base de datos de esquema de estrella | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar referencias al servidor de análisis BAM y nombres de base de datos de esquema de estrella | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - restoring [BAM], Analysis database
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BAM, restoring
 - Analysis database [BAM], updating references
 ms.assetid: cbe5e500-0a25-427e-bc76-1eae24b3e5f3
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287452"
 ---
 # <a name="how-to-update-references-to-the-bam-analysis-server-and-star-schema-database-names"></a>Actualización de referencias a los nombres de base de datos de esquema de estrella y servidor de análisis de BAM
 Si ha realizado copias de seguridad de las bases de datos BAMAnalysis y BAMStarSchema, podrá restaurarlas en un equipo distinto y cambiar el nombre a esas copias de seguridad en el caso de que se produzca un error de datos o del sistema.  

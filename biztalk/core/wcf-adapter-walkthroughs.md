@@ -1,17 +1,17 @@
 ---
 title: Tutoriales del adaptador WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF adapters, tutorials
 - tutorials, WCF adapters
 ms.assetid: 84262b2b-e91a-477c-984f-863f9cd11f6b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288644"
 ---
 # <a name="wcf-adapter-walkthroughs"></a>Tutoriales del adaptador de WCF
 Los tutoriales de esta sección le servirán para aprender a usar los adaptadores de WCF en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Estos tutoriales ofrecen instrucciones detalladas para realizar una tarea utilizando los adaptadores de WCF o para utilizar una característica de los adaptadores.  

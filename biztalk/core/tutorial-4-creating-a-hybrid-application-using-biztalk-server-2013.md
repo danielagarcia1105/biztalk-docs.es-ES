@@ -1,14 +1,14 @@
 ---
-title: "Tutorial 4: Crear una aplicación híbrida mediante BizTalk Server 2013 | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial 4: Crear una aplicación híbrida mediante BizTalk Server 2013 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a9de95f-7d2c-437d-be5b-0062592f32c6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287348"
 ---
 # <a name="tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013"></a>Tutorial 4: Crear una aplicación híbrida mediante BizTalk Server 2013
 Esta sección proporciona procedimientos detallados sobre cómo crear una aplicación híbrida que incluya [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -30,7 +31,7 @@ Esta sección proporciona procedimientos detallados sobre cómo crear una aplica
   
  Para lograr este escenario, Northwind decide configurar una aplicación híbrida en la que el procesamiento de mensajes EDI se realice en la nube mientras el procesamiento de datos controlado por la lógica empresarial se realiza en las instalaciones. Para configurar esta aplicación híbrida, Northwind usa lo siguiente:  
   
--   **[!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]**El Portal de Azure BizTalk disponible con [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] permite a los clientes configurar socios comerciales y acuerdos EDI en [!INCLUDE[winazure](../includes/winazure-md.md)]. Northwind usa la versión de [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] de abril de 2012 para crear e implementar un acuerdo que procese el mensaje EDI entrante, lo valide con el esquema de pedidos de ventas X12 840, transforme el mensaje en un esquema que necesita Northwind y lo envíe a una cola de Service Bus. Así, para desarrollar una aplicación híbrida, los datos deberían enviarse desde la cola de Service Bus a una aplicación local.  
+-   **[!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]** El Portal de Azure BizTalk disponible con [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] permite a los clientes configurar socios comerciales y acuerdos EDI en [!INCLUDE[winazure](../includes/winazure-md.md)]. Northwind usa la versión de [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] de abril de 2012 para crear e implementar un acuerdo que procese el mensaje EDI entrante, lo valide con el esquema de pedidos de ventas X12 840, transforme el mensaje en un esquema que necesita Northwind y lo envíe a una cola de Service Bus. Así, para desarrollar una aplicación híbrida, los datos deberían enviarse desde la cola de Service Bus a una aplicación local.  
   
 -   **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**: El nuevo adaptador de Bus de servicio (**SB-Messaging**) disponible con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite a las aplicaciones recibir mensajes de entidades de Service Bus como colas, temas, y así sucesivamente en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Como parte de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación, Northwind usa una orquestación para decidir si la cantidad solicitada en el pedido de ventas recibido es superior a 100. Si la cantidad es mayor que 100, el mensaje se inserta en una tabla de base de datos de SQL Server denominada **SalesOrder**. Si la cantidad es inferior a 100, el mensaje se envía a una ubicación de archivo compartida.  
   

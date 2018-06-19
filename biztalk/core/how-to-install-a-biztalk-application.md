@@ -13,7 +13,7 @@ helpviewer_keywords:
 - installing, warnings
 - applications, installing
 ms.assetid: 99ee0b1a-d46a-4fb6-802b-6827dc740418
-caps.latest.revision: ''
+caps.latest.revision: 56
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "26010541"
 ---
 # <a name="how-to-install-a-biztalk-application"></a>Cómo instalar una aplicación de BizTalk
 Este tema describe cómo instalar una aplicación en un equipo local al hacer doble clic en el archivo (.msi) de Windows Installer para la aplicación de la interfaz de Windows o al ejecutar msiexec desde la línea de comandos. También puede iniciar el Asistente para la instalación como último paso del Asistente para importación, tal y como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  

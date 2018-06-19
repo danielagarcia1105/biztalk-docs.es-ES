@@ -1,11 +1,11 @@
 ---
 title: Uso de puertos en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, receiving
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - ports, about ports
 - ports, configuring
 ms.assetid: 968b2d1b-e233-4eb0-8254-9ec6b7642cdf
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287420"
 ---
 # <a name="using-ports-in-orchestrations"></a>Utilizar puertos en orquestaciones
 Los puertos especifican cómo la orquestación enviará los mensajes a otros procesos empresariales y cómo los recibirá de ellos. Cada puerto tiene un tipo, una dirección y un enlace, que en combinación determinan la dirección de la comunicación, el patrón de comunicación, la ubicación de destino a la que se envía el mensaje, la ubicación de origen desde la que se recibe el mensaje y cómo tiene lugar la comunicación.  

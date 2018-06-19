@@ -1,14 +1,14 @@
 ---
-title: "API de BAM en el ejemplo de expresión de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: API de BAM en el ejemplo de expresión de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 341bc333-9bfc-484c-b431-9a71f9188792
-caps.latest.revision: 
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710987"
 ---
 # <a name="bam-api-from-an-orchestration-expression-biztalk-server-sample"></a>API de BAM desde una expresión de orquestación (ejemplo de BizTalk Server)
 En este ejemplo se demuestra cómo realizar lo siguiente:  
@@ -28,7 +29,7 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
 -   Crear una relación entre los datos de BAM supervisados mediante un perfil de seguimiento y los datos de BAM supervisados mediante una API de BAM.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamFromExpression.  
+ Puede encontrar este ejemplo en  *\<ruta de ejemplos\>* \BAM\BamFromExpression.  
   
  En la siguiente tabla se enumeran los archivos de este ejemplo y se describe el propósito de cada uno de ellos.  
   
@@ -48,7 +49,7 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
   
 ## <a name="create-the-tracking-profile"></a>Crear el perfil de seguimiento  
   
-1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BAMFromExpression\Setup.bat. Setup.bat inicializa la infraestructura de BAM para este ejemplo e implementa la actividad de BAM.  
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\BAMFromExpression\Setup.bat. Setup.bat inicializa la infraestructura de BAM para este ejemplo e implementa la actividad de BAM.  
   
 2.  Desde el **programas** > **Microsoft BizTalk Server**, haga clic en **Editor de perfiles de seguimiento**, y **ejecutar como administrador**.
   
@@ -82,7 +83,7 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
   
 13. Arrastre el **Send_1** forma en el panel derecho a **enviar** en el panel izquierdo.  
   
-14. Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>*\BAM\BamFromExpression\ BamFromExpression.btt.  
+14. Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>* \BAM\BamFromExpression\ BamFromExpression.btt.  
   
 15. En el **herramientas** menú, haga clic en **aplicar perfil de seguimiento**.  
   
@@ -92,9 +93,9 @@ Implemente el perfil de seguimiento BamFromExpression.btt. Vea [utilidad de admi
   
 ## <a name="run-this-sample"></a>Ejecutar este ejemplo  
   
-Copie el archivo  *\<ruta de ejemplos\>*\BamFromExpression\InputMessage.xml a  *\<ruta de ejemplos\>*\BamFromExpression\Input.  
+Copie el archivo  *\<ruta de ejemplos\>* \BamFromExpression\InputMessage.xml a  *\<ruta de ejemplos\>* \BamFromExpression\Input.  
   
-En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>*\BamFromExpression\Output.  
+En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>* \BamFromExpression\Output.  
   
 ## <a name="view-the-bam-data"></a>Ver los datos de BAM  
   
@@ -116,9 +117,9 @@ En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>*\
   
 ## <a name="re-run-the-sample"></a>Vuelva a ejecutar el ejemplo  
   
-1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Cleanup.bat para quitar el perfil de seguimiento y otras infraestructuras BAM. 
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\BamFromExpression\Cleanup.bat para quitar el perfil de seguimiento y otras infraestructuras BAM. 
   
-2.  Ejecutar  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Setup.bat para compilar el ejemplo e implementarlo.  
+2.  Ejecutar  *\<ruta de ejemplos\>* \BAM\BamFromExpression\Setup.bat para compilar el ejemplo e implementarlo.  
   
 ## <a name="see-also"></a>Vea también  
  [(Carpeta de ejemplos de BizTalk Server) de supervisión de la actividad de negocio](../core/business-activity-monitoring-biztalk-server-samples-folder.md)   

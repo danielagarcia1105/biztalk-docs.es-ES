@@ -1,15 +1,15 @@
 ---
 title: Agregar elementos de proyecto | Documentos de Microsoft
 description: Agregar las orquestaciones, esquemas, asignaciones y canalizaciones a su proyecto de BizTalk Server en Visual Studio
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1b922d5-8ece-4e1a-a390-e6ae1222665a
-caps.latest.revision: 
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710227"
 ---
 # <a name="add-project-items"></a>Agregar elementos de proyecto
 En el contexto del sistema del proyecto de BizTalk, un elemento de proyecto es un elemento configurado, por ejemplo, una asignación o un esquema. Una aplicación de BizTalk puede contener una o más orquestaciones, esquemas, asignaciones y canalizaciones.  

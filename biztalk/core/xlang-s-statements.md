@@ -1,14 +1,14 @@
 ---
 title: Instrucciones de XLANG s | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 620d0452-a8da-4285-b8b2-5a932ffcde28
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290340"
 ---
 # <a name="xlang-s-statements"></a>Instrucciones de XLANG-s
 Instrucciones de XLANG/s suelen pertenecen a una de estas dos categorías: instrucciones sencillas que actúan por sí mismas, como **recibir** o **enviar**y las instrucciones complejas que contienen o agrupan cualquier instrucciones sencillas o otras instrucciones complejas, como **ámbito**, **paralelo**, y **escuchar**. Cada instrucción se corresponde con una forma de orquestación en el Diseñador de orquestaciones de BizTalk. XLANG/s define las instrucciones siguientes:  

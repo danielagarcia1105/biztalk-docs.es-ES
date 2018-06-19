@@ -1,14 +1,14 @@
 ---
 title: Operaciones en tablas y vistas con tipos definidos por el usuario mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4006bbe-91ca-4cd9-844d-5ed63142001f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006837"
 ---
 # <a name="operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter"></a>Operaciones en tablas y vistas con tipos definidos por el usuario mediante el adaptador de SQL
 Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para realizar operaciones en tablas o vistas que incluyen columnas de tipos definidos por el usuario (UDT). Puede utilizar las operaciones de tabla estándar (Insert, Update, Delete y Select) para leer o escribir datos en columnas de tipos UDT. También puede ejecutar procedimientos almacenados y funciones en dichas tablas. Sin embargo, debe realizar ciertas tareas para poder usar el adaptador para que funcione en tablas con columnas UDT. Una vez que ha llevado a cabo estas tareas, puede usar el adaptador para:  

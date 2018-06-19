@@ -1,14 +1,14 @@
 ---
-title: "Resolución ESB y marco de proveedores de adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Resolución ESB y marco de proveedores de adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c82c2247-1f0a-48bd-98c2-9c816f4d68d7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007373"
 ---
 # <a name="esb-resolver-and-adapter-provider-framework"></a>Resolución ESB y marco de proveedores de adaptador
 La resolución y el marco de proveedores de adaptador proporciona una arquitectura acoplable completa para resolver dinámicamente información de punto de conexión y los tipos de asignación de BizTalk Server. Utiliza los componentes extensibles, que permiten a los desarrolladores cambiar el comportamiento para satisfacer sus propias necesidades y ampliar el mecanismo para admitir la solución alternativa y los métodos de enrutamiento.  

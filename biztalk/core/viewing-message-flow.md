@@ -1,11 +1,11 @@
 ---
 title: Ver el flujo de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - HAT, Message Flow view
 - messages, HAT
 ms.assetid: 08d2c052-98d0-43ca-99e5-48d0754411df
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289316"
 ---
 # <a name="viewing-message-flow"></a>Ver Flujo de mensajes
 Un flujo de mensajes es el conjunto de pasos de procesamiento contiguos que toma un mensaje. Se obtiene acceso a la vista de mensajes a través del menú contextual que aparece al hacer clic con el botón secundario en una instancia de mensaje o servicio de la página de información general del grupo de la consola de administración de BizTalk Server. Cuando se encuentre en la vista Flujo de mensajes, podrá alternar entre la vista Flujo de mensajes y el Depurador de orquestaciones.  

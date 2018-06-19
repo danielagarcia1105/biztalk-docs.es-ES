@@ -1,17 +1,17 @@
 ---
-title: "Métodos abreviados específicos para las superficies de puerto de teclado | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados específicos para las superficies de puerto de teclado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: 42c6fd89-c32a-4cb5-a1a5-47cc87b680a9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972258"
 ---
 # <a name="keyboard-shortcuts-specific-to-the-port-surfaces"></a>Métodos abreviados de teclado específicos para las superficies de puerto
 Las teclas siguientes están activas en las superficies para el puerto izquierda y derecha.  

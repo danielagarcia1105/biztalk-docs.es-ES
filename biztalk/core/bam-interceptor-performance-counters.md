@@ -1,14 +1,14 @@
 ---
 title: Contadores de rendimiento del Interceptor de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b9b64ae1-4d94-4c3c-add1-fa020713be5c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230500"
 ---
 # <a name="bam-interceptor-performance-counters"></a>Contadores de rendimiento del interceptor de BAM
 Los contadores de rendimiento permiten controlar aspectos específicos del trabajo llevado a cabo por los interceptores de BAM. Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.  

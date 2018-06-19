@@ -1,17 +1,17 @@
 ---
 title: Usar el proveedor de datos de .NET Framework para aplicaciones Siebel eBusiness | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ADO.NET programming, performing operations
 - Data Provider for Siebel, overview
 ms.assetid: 97fe4f95-c9ae-42f1-a159-1b0e98607b31
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222244"
 ---
 # <a name="use-the-net-framework-data-provider-for-siebel-ebusiness-applications"></a>Usar el proveedor de datos de .NET Framework para aplicaciones Siebel eBusiness
 Esta sección proporciona instrucciones sobre cómo utilizar el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]). Esta sección proporciona información acerca de:  

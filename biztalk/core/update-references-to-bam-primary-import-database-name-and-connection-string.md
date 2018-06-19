@@ -1,14 +1,14 @@
 ---
-title: "Actualizar la cadena de conexión y nombre de base de datos de importación principal BAM | Documentos de Microsoft"
-ms.custom: 
+title: Actualizar la cadena de conexión y nombre de base de datos de importación principal BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 02/01/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3c58db0-f14f-429a-813c-bae29f6950d3
-caps.latest.revision: 
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: c670558deccec266f90ae7ed042dba1105b15596
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/03/2018
+ms.locfileid: "28956654"
 ---
 # <a name="update-references-to-the-bam-primary-import-database-name-and-connection-string"></a>Actualizar las referencias a la cadena de conexión y el nombre de base de datos de importación principal de BAM
 Si ha realizado una copia de seguridad de la base de datos BAMPrimaryImport, en el caso de que se produzca un error de datos o del sistema podrá restaurar la copia de seguridad en un equipo distinto y cambiar el nombre a esa copia de seguridad.  

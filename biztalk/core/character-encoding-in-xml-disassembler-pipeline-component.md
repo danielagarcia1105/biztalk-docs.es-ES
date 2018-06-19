@@ -1,11 +1,11 @@
 ---
-title: "Codificación de caracteres en el componente de canalización de desensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Codificación de caracteres en el componente de canalización de desensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBaseMessagePart.Charset property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - XML Disassembler [pipeline component], character encoding
 - XMLNorm.SourceCharset property
 ms.assetid: 37962bdc-cbcb-4559-9ae8-6c4be49b4822
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231668"
 ---
 # <a name="character-encoding-in-xml-disassembler-pipeline-component"></a>Codificación de caracteres en el componente de canalización de desensamblador XML
 El desensamblador XML utiliza el siguiente algoritmo para determinar la codificación que se utilizará para procesar los mensajes entrantes:  

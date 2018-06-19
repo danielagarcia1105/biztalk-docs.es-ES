@@ -1,14 +1,14 @@
 ---
 title: Formas de utilizar el contenido del mensaje para controlar el procesamiento de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1e3792e-9cd4-42b6-8b9d-3c2a022a16d6
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288876"
 ---
 # <a name="ways-to-use-message-content-to-control-message-processing"></a>Modos de usar el contenido de los mensajes para controlar el procesamiento de los mensajes
 Hay dos tipos de promoción de propiedades: **campos distintivos** y **campos de propiedades**, la última de las cuales utiliza esquemas de propiedades. En el Editor de BizTalk, administra estos dos tipos de promoción de propiedades mediante la **promocionar propiedades** cuadro de diálogo, que es accesible mediante la **promocionar propiedades** propiedad de la  **Esquema** nodo.  

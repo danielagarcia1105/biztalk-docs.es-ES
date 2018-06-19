@@ -1,14 +1,14 @@
 ---
 title: Escenarios de prueba para medir MST de seguimiento de DTA | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 303dc1d8-baac-4b54-92c8-95c0ce640a76
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280196"
 ---
 # <a name="test-scenarios-for-measuring-mst-of-dta-tracking"></a>Escenarios de prueba para medir MST de seguimiento de DTA
 Para mostrar el funcionamiento de todo esto en la práctica y para presentar una técnica sencilla de medir el rendimiento máximo sostenible (MST) para seguimiento, presentamos ahora un escenario de prueba en el que se ha medido el MST de seguimiento. Además de las técnicas proporcionadas, también puede usar los datos presentados como punto de inicio para calcular el rendimiento de seguimiento para otros sistemas.  

@@ -1,14 +1,14 @@
 ---
-title: "Derivación de tipo simple mediante el mecanismo de unión | Documentos de Microsoft"
-ms.custom: 
+title: Derivación de tipo simple mediante el mecanismo de unión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e51ae390-78f5-4fb9-9163-2a8023aea1ec
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270380"
 ---
 # <a name="simple-type-derivation-using-the-union-mechanism"></a>Derivación de tipo simple mediante el mecanismo de unión
 Al derivar un nuevo tipo simple a partir de un tipo simple existente con el mecanismo de unión, se especifica que el valor de este atributo o elemento puede ser de más de un tipo, según una lista de tipos que proporcione. Por ejemplo, puede especificar que un valor de atributo o elemento es una fecha, una hora o un valor de fecha y hora.  

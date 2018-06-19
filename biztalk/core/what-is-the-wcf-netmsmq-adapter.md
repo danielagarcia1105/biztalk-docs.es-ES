@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289436"
 ---
 # <a name="what-is-the-wcf-netmsmq-adapter"></a>¿Qué es el adaptador de WCF-NetMsmq?
 El adaptador de WCF-NetMsmq proporciona comunicaciones entre equipos desconectados mediante tecnología de cola en un entorno donde tanto los servicios como los clientes están basados en WCF. Utiliza el transporte de Message Queue Server (MSMQ) y los mensajes tienen codificación binaria.  

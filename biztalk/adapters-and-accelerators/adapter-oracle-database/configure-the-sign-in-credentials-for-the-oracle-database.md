@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216548"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-oracle-database"></a>Configurar el inicio de sesión en las credenciales para la base de datos de Oracle
 El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requiere que los clientes de adaptador proporcionar las credenciales del cliente. El adaptador utiliza estas credenciales para autenticar al usuario con la base de datos de Oracle y para establecer una conexión.  

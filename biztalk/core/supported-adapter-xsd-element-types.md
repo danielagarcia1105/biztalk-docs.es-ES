@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00691a9e-434f-4baa-9a01-b6f452758ab3
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22279396"
 ---
 # <a name="supported-adapter-xsd-element-types"></a>Tipos de elemento XSD compatibles con el adaptador
 En la tabla siguiente se enumeran los elementos admitidos por el Marco de trabajo de adaptadores. Al definir un nuevo elemento en el esquema de configuración, utilice cualquiera de los tipos siguientes para reemplazar `string` en el ejemplo siguiente:  

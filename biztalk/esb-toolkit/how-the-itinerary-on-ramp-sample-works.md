@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo en rampa itinerario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo en rampa itinerario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f4f318c-b955-4a3d-88db-c0d324b63b21
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974898"
 ---
 # <a name="how-the-itinerary-on-ramp-sample-works"></a>Cómo funciona el ejemplo en rampa itinerario
 El ejemplo de aplicación compila un conjunto de encabezados SOAP que contienen el itinerario que se crea con los controles en la ventana de la aplicación cliente, el cliente de prueba de itinerario carga el archivo de mensaje especificado desde el disco, anexa los encabezados itinerarios al mensaje, y lo envía a ESB a través de itinerario en rampa para su procesamiento. Si el itinerario genera una respuesta, la aplicación recopila la respuesta y lo muestra en la ventana de la aplicación.  

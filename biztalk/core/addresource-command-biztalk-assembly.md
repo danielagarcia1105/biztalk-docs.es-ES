@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c18607b5-d929-48c9-9fa3-f728a7a80d04
-caps.latest.revision: ''
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22231828"
 ---
 # <a name="addresource-command-biztalk-assembly"></a>El comando AddResource: El ensamblado de BizTalk
 Para agregar un ensamblado de BizTalk a una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:BizTalkAssembly** para el parámetro de tipo. Ejecutar este comando agrega el ensamblado a la base de datos de administración de BizTalk. El ensamblado también se muestra en la consola de administración de BizTalk Server, en la carpeta de recursos de la aplicación a la que se agregó. Los artefactos incluidos en el ensamblado también se muestran en las carpetas correspondientes. Además, los artefactos se muestran cuando se usa el [comando ListApp](../core/listapp-command.md).  
@@ -34,7 +35,7 @@ Para agregar un ensamblado de BizTalk a una aplicación de BizTalk, use la **Add
  Para obtener más información acerca de las dependencias, consulte [dependencias e implementación de aplicaciones](../core/dependencies-and-application-deployment.md).  
   
 ## <a name="usage"></a>Uso  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **] [**/Server:***value*] [**/Database:*** value*]  
   
 ## <a name="parameters"></a>Parámetros  
   

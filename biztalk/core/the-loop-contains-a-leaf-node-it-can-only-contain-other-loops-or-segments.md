@@ -1,14 +1,14 @@
 ---
 title: El bucle contiene un nodo de hoja. Solo puede contener otros bucles o segmentos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a0ee5e6-519d-4c95-8681-de5a37741d56
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278836"
 ---
 # <a name="the-loop-contains-a-leaf-node-it-can-only-contain-other-loops-or-segments"></a>El bucle contiene un nodo de hoja. Sólo puede contener otros bucles o segmentos.
 ## <a name="details"></a>Detalles  

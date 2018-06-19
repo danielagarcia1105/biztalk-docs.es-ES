@@ -1,11 +1,11 @@
 ---
-title: "Los pasos del desarrollo de una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Los pasos del desarrollo de una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - designing, orchestrations
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - creating, orchestrations
 - Copy Local property
 ms.assetid: 556b1e6c-63a6-4805-a0a5-e555f198fe4e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277396"
 ---
 # <a name="steps-in-orchestration-development"></a>Pasos del desarrollo de una orquestación
 Para desarrollar una orquestación, normalmente se realizan las acciones básicas siguientes:  

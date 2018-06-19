@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970818"
 ---
 # <a name="how-to-label-and-comment-a-functoid"></a>Agregación de etiquetas y comentarios en un functoid
 Las etiquetas y comentarios resultan útiles para documentar la finalidad de un functoid o vínculo en una asignación. Puede usar el **etiqueta** propiedad para proporcionar un nombre para un functoid. El **comentarios** propiedad le permite proporcionar información adicional acerca del functoid, normalmente información relevante sobre la operación que se va a realizar en él.  

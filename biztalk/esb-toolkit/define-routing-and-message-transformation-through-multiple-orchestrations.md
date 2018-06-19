@@ -1,14 +1,14 @@
 ---
-title: "Definir enrutamiento y transformación a través de varias orquestaciones mediante itinerarios de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Definir enrutamiento y transformación a través de varias orquestaciones mediante itinerarios de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63141b83-798e-40d0-908d-6b7649923e69
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294020"
 ---
 # <a name="defining-routing-and-message-transformation-through-multiple-orchestrations-using-itineraries"></a>Definición de enrutamiento y transformación de mensajes a través de varias orquestaciones mediante itinerarios
 En este caso de uso, un mensaje enviado para su procesamiento contiene un encabezado SOAP itinerario que describe la lista de servicios para ejecutar así como sus requisitos de resolución. El itinerario especifica una o varias orquestaciones de Microsoft BizTalk Server a través del cual el mensaje pasará durante el ciclo de procesamiento. Si lo desea, el itinerario puede contener información de enrutamiento dinámico que se usa para determinar los puntos de conexión o requisitos de transformación para el mensaje. Figura 1 muestra una vista esquemática del proceso.  

@@ -1,14 +1,14 @@
 ---
 title: Ver ensamblados con el Visor de ensamblado de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9831eb88-84bc-4d18-8174-43c3baab83fe
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287748"
 ---
 # <a name="viewing-assemblies-with-the-biztalk-assembly-viewer"></a>Ver ensamblados con el Visor de ensamblado de BizTalk
 A la hora de desarrollar aplicaciones o ensamblados, es necesario que consulte los ensamblados que están implementados y disponibles. Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona una herramienta adecuada para este propósito: Visor de ensamblado de BizTalk.  

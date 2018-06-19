@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2 (para Azure): Crear un acuerdo de EDI | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a8003697-4955-45c0-ba0b-e7c293a050a2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280076"
 ---
 # <a name="step-2-for-azure-create-an-edi-agreement"></a>Paso 2 (para Azure): Crear un acuerdo de EDI
 En este tema, creará socios con el portal de Azure BizTalk disponible como parte de la [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]. También creará un acuerdo entre los dos socios (Northwind y Contoso) para procesar el mensaje de pedido de ventas X12 enviado por Contoso a Northwind.  

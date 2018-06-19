@@ -1,14 +1,14 @@
 ---
-title: "Planeación de alta disponibilidad2 | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de alta disponibilidad2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65271fd5-5294-406f-87f8-3aa394c235a2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008333"
 ---
 # <a name="planning-for-high-availability"></a>Planear la alta disponibilidad
 Alta disponibilidad para el servidor BizTalk Server se centra en la recuperación de componentes funcionales que podrían interrumpir la disponibilidad en una implementación de BizTalk Server.  

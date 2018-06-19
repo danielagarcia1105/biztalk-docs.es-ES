@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Modificar la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd74440-2a45-4a1a-8e36-98796e1e1392
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289676"
 ---
 # <a name="walkthrough-modifying-the-policy"></a>Tutorial: Modificar la directiva
 Este tutorial proporciona instrucciones paso a paso para crear una nueva versión de la **POVocabulary**, crear una nueva versión de la **ProcessPurchaseOrder** directiva y utilizar la versión más reciente de la **POVocabulary** en la nueva versión de la **ProcessPurchaseOrder** directiva.  
@@ -56,7 +57,7 @@ Este tutorial proporciona instrucciones paso a paso para crear una nueva versió
   
 9. Haga clic en **Finalizar**.  
   
-10. Haga clic en **versión 1.1 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+10. Haga clic en **versión 1.1 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 11. Haga clic en **versión 1.1**y, a continuación, haga clic en **publicar**.  
   
@@ -76,7 +77,7 @@ Este tutorial proporciona instrucciones paso a paso para crear una nueva versió
   
 7.  Repita los pasos del 4 al 6 con **DeniedRule**.  
   
-8.  Haga clic en **versión 1.3 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+8.  Haga clic en **versión 1.3 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 9. Haga clic en **versión 1.3**y, a continuación, haga clic en **publicar**.  
   

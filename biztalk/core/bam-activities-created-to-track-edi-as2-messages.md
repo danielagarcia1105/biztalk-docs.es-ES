@@ -1,14 +1,14 @@
 ---
 title: Las actividades BAM creadas para realizar un seguimiento de mensajes EDI-AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a10ab846-0fbb-46f5-920e-cb2b5be75814
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008901"
 ---
 # <a name="bam-activities-created-to-track-edi-as2-messages"></a>Actividades BAM creadas para realizar un seguimiento de mensajes EDI-AS2
 BizTalk Server incluye actividades de BAM que se han creado para los informes de estado EDI y AS2. Estas actividades determinan los datos que se muestran en los informes de estado. En este tema se explican las actividades de BAM y los campos definidos en ellas, además de describir los valores de enumeración definidos para ciertos campos en las actividades de BAM.  

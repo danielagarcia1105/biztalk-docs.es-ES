@@ -1,11 +1,11 @@
 ---
-title: "Cómo actualizar la base de datos SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar la base de datos SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tickets [SSO], modifying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [SSO], modifying ticket timeouts
 - SSO database, modifying
 ms.assetid: 45eb6a77-d91a-44a8-b26d-05508c288c36
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971322"
 ---
 # <a name="how-to-update-the-sso-database"></a>Cómo actualizar la base de datos SSO
 Puede cambiar la información global de la base de datos de SSO (por ejemplo, identificación del servidor secreto principal, nombres de cuenta, auditoría de la base de datos, tiempo de espera de vales y tiempo de espera de almacenamiento de credenciales en caché) utilizando el Complemento MMC o la línea de comandos.  

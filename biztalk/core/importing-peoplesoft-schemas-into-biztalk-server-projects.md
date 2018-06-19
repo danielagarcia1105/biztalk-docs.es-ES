@@ -1,14 +1,14 @@
 ---
 title: Importar esquemas de PeopleSoft en Visual Studio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 411f25f4-4431-44e4-84cf-5c515b3e32db
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013539"
 ---
 # <a name="import-peoplesoft-schemas-into-biztalk-server-projects"></a>Importar esquemas de PeopleSoft en proyectos de BizTalk Server
 Cuando haya creado el sistema PeopleSoft Enterprise, puede examinar el servidor e importar esquemas en un proyecto BizTalk Server.  

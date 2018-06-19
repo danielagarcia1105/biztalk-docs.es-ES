@@ -1,14 +1,14 @@
 ---
 title: Lotes de mensajes transaccionales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b1790c05-e3f7-4667-8a9e-f6f208e55e40
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279532"
 ---
 # <a name="transactional-message-batches"></a>Lotes de mensajes transaccionales
 Algunos adaptadores deben coordinar una transacción externa con un interno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transacciones. Por ejemplo, el adaptador de SQL proporcionado con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe coordinar una [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] transacción con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transacciones. Para ello, el adaptador necesita tener acceso a la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] un objeto de transacción. Un objeto de transacción explícitamente se crea y asociado al lote antes de que el lote se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Un lote que tiene asociado un objeto de transacción recibe el nombre de lote transaccional. Si se suministra su propio objeto de transacción del Coordinador de transacciones distribuidas de Microsoft (MSDTC), puede lograr el "garantiza que, una vez y sólo una vez", la entrega de datos dentro y fuera de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

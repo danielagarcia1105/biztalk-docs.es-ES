@@ -1,14 +1,14 @@
 ---
-title: "¿Qué es el marco de trabajo de adaptadores? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el marco de trabajo de adaptadores? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bd1e2fd7-4e77-49c4-839d-c2bf16b10ba2
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289604"
 ---
 # <a name="what-is-the-adapter-framework"></a>¿Qué es el marco de trabajo de adaptadores?
 El adaptador de BizTalk Framework ofrece un mecanismo estable y abierto para todos los adaptadores implementar o acceder a trabajo desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] motor de mensajería. Las interfaces se describen en el **Microsoft.BizTalk.Adapter.Framework** espacio de nombres permiten a los adaptadores proporcionar un medio para modificar las páginas de propiedades de configuración. Además, se trata de un medio para importar servicios y esquemas en el proyecto de BizTalk.  

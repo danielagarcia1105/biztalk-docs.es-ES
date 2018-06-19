@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: d3460b45507c7cb73bb4025a8412a1fcc6cb0e59
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013859"
 ---
 # <a name="how-to-set-jd-edwards-oneworld-pipelines"></a>Establecimiento de canalizaciones de JD Edwards OneWorld
 Microsoft BizTalk Adapter para JD Edwards OneWorld necesita que seleccione XMLTransmit y XMLReceive para las canalizaciones de envío y recepción respectivamente.  

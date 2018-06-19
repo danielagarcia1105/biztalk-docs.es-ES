@@ -1,11 +1,11 @@
 ---
 title: Consideraciones al crear proyectos de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, size
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - projects, naming conventions
 - projects, planning
 ms.assetid: f6c3dc71-105f-46af-9e6e-9a4c3b982d8c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005957"
 ---
 # <a name="considerations-when-creating-biztalk-projects"></a>Consideraciones acerca de la creación de proyectos de BizTalk
 Esta sección proporciona información que debe tener en cuenta al crear BizTalk proyectos utilizando [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  

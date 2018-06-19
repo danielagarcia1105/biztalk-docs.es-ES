@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a897791-d32f-46a4-8c5d-2b2161e92bd9
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 24954e8314bc94d4570eb57acbf1d4b03bebb65b
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250944"
 ---
 # <a name="how-to-clear-the-application-cache"></a>Cómo borrar la caché de aplicaciones
 Use el complemento MMC o la **/purgecache** comando para quitar el contenido de la caché de credenciales (toda la información que está asociada a la aplicación afiliada) para la aplicación especificada en todos los servidores de inicio de sesión único (SSO).  

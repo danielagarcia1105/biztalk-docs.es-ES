@@ -1,14 +1,14 @@
 ---
-title: "Cómo: resolver un extremo de servicio mediante una búsqueda de la clave de enlace de UDDI | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: resolver un extremo de servicio mediante una búsqueda de la clave de enlace de UDDI | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a685641-2beb-4153-a9ba-c766679ce48e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010565"
 ---
 # <a name="how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search"></a>Cómo: resolver un extremo de servicio mediante una búsqueda de la clave de enlace de UDDI
 ## <a name="goal"></a>Objetivo  

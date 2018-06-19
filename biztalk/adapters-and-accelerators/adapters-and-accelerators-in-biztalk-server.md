@@ -1,15 +1,15 @@
 ---
 title: Adaptadores y aceleradores de BizTalk Server | Documentos de Microsoft
-description: "Información general de todos los adaptadores y aceleradores de BizTalk, incluidos los adaptadores integrados, BAP, HL7, Swift, RosettaNet, FileAct e InterAct"
-caps.latest.revision: "3"
+description: Información general de todos los adaptadores y aceleradores de BizTalk, incluidos los adaptadores integrados, BAP, HL7, Swift, RosettaNet, FileAct e InterAct
+caps.latest.revision: 3
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df7f26a1-e47b-4323-b9f0-58842c55a6f8
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014179"
 ---
 # <a name="adapters-and-accelerators-in-biztalk-server"></a>Adaptadores y aceleradores de BizTalk Server
  [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]incluye diferentes adaptadores y aceleradores para crear aplicaciones que reciben datos y envían datos a distintos servicios y sistemas de LOB. 

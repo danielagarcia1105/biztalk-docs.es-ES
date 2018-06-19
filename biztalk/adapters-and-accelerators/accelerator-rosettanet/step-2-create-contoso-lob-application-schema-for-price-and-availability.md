@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005765"
 ---
 # <a name="step-2-creating-the-contoso-lob-application-schemas-for-the-price-and-availability-project-using-biztalk-editor"></a>Paso 2: Crear los esquemas de aplicación de LOB de Contoso para el precio y el proyecto de disponibilidad mediante el Editor de BizTalk
 En este paso, se genera el esquema se utiliza para consultar el sistema ERP de Contoso para el precio y la disponibilidad de un producto determinado. Generar este esquema mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® el adaptador de SQL para el servidor BizTalk Server.  

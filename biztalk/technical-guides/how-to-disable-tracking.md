@@ -1,14 +1,14 @@
 ---
-title: "Cómo deshabilitar el seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo deshabilitar el seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4b1e6cdd-8266-494d-b6e7-260ac5a4f2fb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976402"
 ---
 # <a name="how-to-disable-tracking"></a>Cómo deshabilitar el seguimiento
 Este tema describe cómo deshabilitar el seguimiento mediante la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Puede configurar diversas opciones de seguimiento en tiempo de ejecución para las orquestaciones, puertos de envío, puertos de recepción y canalizaciones mediante el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Se pueden cambiar las opciones de seguimiento de un elemento en cualquier momento, sin necesidad de interrumpir el proceso empresarial.  

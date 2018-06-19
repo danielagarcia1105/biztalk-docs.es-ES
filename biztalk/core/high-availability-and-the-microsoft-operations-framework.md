@@ -1,14 +1,14 @@
 ---
 title: Alta disponibilidad y Microsoft Operations Framework | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
-caps.latest.revision: 
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710447"
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>Alta disponibilidad y Microsoft Operations Framework
 Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de alta disponibilidad Microsoft BizTalk Server puede ayudarle a asegurarse de que se están empleando los procesos adecuados en las distintas fases del ciclo de vida. La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.  

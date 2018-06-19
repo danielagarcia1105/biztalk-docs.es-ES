@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d563aa7d-102d-4fe6-a892-66794feaf83b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010717"
 ---
 # <a name="using-the-performance-analysis-of-logs-pal-tool"></a>Usar el análisis de rendimiento de la herramienta de registros (PAL)
 La herramienta PAL (análisis de registros de rendimiento) lee en un registro de contador del monitor de rendimiento (cualquier formato conocido) y analiza mediante umbrales complejos, pero conocidos (proporcionados). La herramienta genera un informe basada en HTML que gráficamente importantes de rendimiento de los gráficos de los contadores y genera alertas cuando se superan umbrales. Los umbrales originalmente basados en umbrales definidos por los equipos de producto de Microsoft, incluidos los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y los miembros de Microsoft admiten. Esta herramienta no es un sustituto de análisis de rendimiento tradicionales, pero automatiza el análisis de rendimiento de registros de contador suficiente para ayudar a ahorrar tiempo. La herramienta PAL:  

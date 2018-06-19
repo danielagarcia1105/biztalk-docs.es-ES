@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286780"
 ---
 # <a name="types-of-pipeline-components"></a>Tipos de componentes de canalización
 Se incluyen tres tipos de componentes de canalización [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]: general, ensamblado y de desensamblado. Cualquiera de los tres tipos también puede implementar funcionalidad de búsqueda. En este tema se describen los tipos de componentes y las fases en las que suelen utilizarse.  

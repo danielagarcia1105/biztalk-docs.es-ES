@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214628"
 ---
 # <a name="prerequisites-to-create-oracle-database-applications"></a>Requisitos previos para crear aplicaciones de base de datos de Oracle
 ¿Qué debe hacer antes de desarrollar aplicaciones de BizTalk con el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. También se mencionan algunas herramientas de BizTalk Server que se utilizan para desarrollar aplicaciones de BizTalk.  

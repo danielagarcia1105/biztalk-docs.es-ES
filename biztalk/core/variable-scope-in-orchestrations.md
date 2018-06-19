@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288124"
 ---
 # <a name="variable-scope-in-orchestrations"></a>Ámbito de las variables en orquestaciones
 Es necesario que comprenda algunas cuestiones importantes acerca de la visibilidad y el estado de las variables y los parámetros de las orquestaciones en varios lugares de una orquestación, incluidos los controladores de excepción y los bloques de compensación.  

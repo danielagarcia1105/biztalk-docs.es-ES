@@ -1,14 +1,14 @@
 ---
-title: "Crear mediante programación el archivo de ubicación de recepción o puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Crear mediante programación el archivo de ubicación de recepción o puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 558a414c-60bc-4f62-9397-a023ed4937fb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973010"
 ---
 # <a name="programmatically-create-the-file-receive-location-or-send-port"></a>Crear mediante programación el archivo de ubicación de recepción o puerto de envío
 Cómo crear un archivo de puerto de recepción y puerto de envío mediante programación. Para usar el [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], vaya a [configurar el adaptador de archivo](../core/configure-the-file-adapter.md).

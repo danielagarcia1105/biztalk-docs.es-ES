@@ -1,11 +1,11 @@
 ---
 title: Adaptadores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - receive adapters
 - adapters, send adapters
 ms.assetid: 7803a806-3396-4662-877f-eae11cb5e3e4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230100"
 ---
 # <a name="adapters"></a>adaptadores
 Para intercambiar mensajes con sistemas, aplicaciones y entidades externas, Microsoft BizTalk Server utiliza el concepto de un adaptador. *Adaptadores* son COM o. Componentes basados en red que transfieren mensajes desde y hacia extremos empresariales (como sistemas de archivos, bases de datos y aplicaciones empresariales personalizadas) mediante distintos protocolos de comunicación.  

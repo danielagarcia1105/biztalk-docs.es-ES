@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/mqseries-adapter-deployment-options
-redirect_document_id: 
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 2aa74be2d86bcb8f32661fdcf06727eb6391861d
 ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710711"
 ---
 # <a name="using-mqseries-adapter-with-an-earlier-version-of-the-adapter"></a>Utilizar el adaptador de MQSeries con una versión anterior del adaptador
 Las distintas versiones de BizTalk Server del adaptador de MQSeries pueden trabajar con el mismo WebSphere MQ Server remoto en Windows. Esto resulta posible porque las siguientes versiones de las aplicaciones COM+ utilizadas con el adaptador de MQSeries pueden coexistir en el mismo equipo con WebSphere MQSeries:  

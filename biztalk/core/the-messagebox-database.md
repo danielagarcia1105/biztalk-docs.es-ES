@@ -1,11 +1,11 @@
 ---
 title: La base de datos de cuadro de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MessageBox database
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MessageBox database
 - suspended messages, MessageBox database
 ms.assetid: f89eb02c-1b83-4127-8a91-e78fb4a1f96e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279316"
 ---
 # <a name="the-messagebox-database"></a>La base de datos de cuadro de mensajes
 El núcleo del motor de suscripción o publicación de Microsoft BizTalk Server es la base de datos de cuadro de mensajes. El cuadro de mensajes está formada por dos componentes: una o más bases de datos de Microsoft SQL Server y el agente de mensajería. La base de datos de SQL Server proporciona el almacén de persistencia para numerosos componentes, entre los que se incluyen, entre otros, mensajes, partes de mensaje, propiedades de mensaje, suscripciones, estados de orquestación, datos de seguimiento y colas de host para el enrutamiento. El grupo de BizTalk Server puede poseer una o varias bases de datos de cuadro de mensajes, en las que se van a publicar mensajes y desde las que los suscriptores de esos mensajes extraerán mensajes.  

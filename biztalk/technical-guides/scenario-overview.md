@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac14328d-c373-49da-a899-4b3ca7d6dc0a
-caps.latest.revision: ''
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010101"
 ---
 # <a name="scenario-overview"></a>Información general del escenario
 Este tema proporciona una visión general de las pruebas de carga completada por el servidor de BizTalk grupo de productos para evaluar la escalabilidad del servidor BizTalk Server cuando se ejecuta en hardware de clase empresarial modernas.  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 24e73be3b953cbd7f597a34a06f09d364ec0f4f4
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014275"
 ---
 # <a name="set-send-port-transport-properties-for-the-send-port-for-tibco-enterprise-message-service"></a>Establecer propiedades de transporte para el puerto de envío del puerto de envío para TIBCO Enterprise Message Service
 Las propiedades de transporte de TIBCO Enterprise Message se configuran en tiempo de diseño y se usan en tiempo de ejecución. En el **propiedades de transporte** cuadro de diálogo, Establece los parámetros de conexión y credenciales específicas para el sistema de servidor y los objetos que está intentando obtener acceso.  

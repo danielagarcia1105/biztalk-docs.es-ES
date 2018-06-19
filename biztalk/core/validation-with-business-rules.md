@@ -1,11 +1,11 @@
 ---
-title: "Validación con reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: Validación con reglas de negocios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, process management solutions
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, validating
 - process management solution tutorial, business rules
 ms.assetid: a67f3781-629a-4157-9a27-3b73d7a5a3a8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287780"
 ---
 # <a name="validation-with-business-rules"></a>Validación con reglas de negocios
 Una forma habitual de realizar la validación consiste en crear un conjunto de reglas de negocios con el marco de trabajo reglas de negocios y, a continuación, usar la forma Reglas de llamada en la orquestación en la que desea hacer la validación.  

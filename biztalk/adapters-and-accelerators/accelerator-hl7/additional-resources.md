@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004205"
 ---
 # <a name="additional-resources"></a>Recursos adicionales
 Además [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server, no hay recursos adicionales que se explican la programación en esta plataforma. Para obtener más información acerca de estos recursos, consulte los siguientes sitios Web:  

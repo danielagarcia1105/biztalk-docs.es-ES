@@ -1,18 +1,18 @@
 ---
-title: "Crear la FRR ubicación de recepción para la recepción de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Crear la FRR ubicación de recepción para la recepción de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating
 - creating, receive locations
 - FRR, creating receive locations
 ms.assetid: e10857f4-21cb-4c09-8eed-cb6e9b0a0aa9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210156"
 ---
 # <a name="creating-the-frr-receive-location-for-receiving-from-swift"></a>Crear la FRR ubicación de recepción para la recepción de SWIFT.
 Para realizar la conciliación de respuesta de FIN, debe crear una ubicación de recepción que recibe un mensaje desde la red SWIFT en A4SWIFT.  

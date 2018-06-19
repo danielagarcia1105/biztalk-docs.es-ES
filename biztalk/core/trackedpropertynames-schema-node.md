@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279260"
 ---
 # <a name="trackedpropertynames-schema-node"></a>TrackedPropertyNames (nodo Esquema)
 El nodo TrackedPropertyNames de un archivo de enlace contiene elementos que especifican a qué propiedades del esquema primario hay que hacer un seguimiento.  

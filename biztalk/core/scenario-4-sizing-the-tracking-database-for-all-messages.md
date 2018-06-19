@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269844"
 ---
 # <a name="scenario-4-sizing-the-tracking-database-for-all-messages"></a>Escenario 4: Ajustar el tamaño de la base de datos de seguimiento para todos los mensajes
 Si tuviera los tres escenarios de mensajes presentes en una implementación de Microsoft® BizTalk Server® 2004, tendría que sumar los resultados de los tres escenarios para determinar el tamaño de la base de datos de seguimiento de BizTalk.  

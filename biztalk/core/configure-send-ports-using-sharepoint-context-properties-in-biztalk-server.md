@@ -27,6 +27,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25970674"
 ---
 # <a name="how-to-configure-send-ports-using-windows-sharepoint-services-context-properties"></a>Cómo configurar puertos de envío mediante las propiedades de contexto de Windows SharePoint Services
 En este tema se describe cómo configurar puertos de envío de Windows SharePoint Services en tiempo de ejecución mediante las propiedades de contexto de Windows Sharepoint Service en una orquestación de BizTalk. Se puede usar el mismo mecanismo para configurar los puertos de envío enlazados en tiempo de ejecución. Las propiedades de configuración para un puerto de envío dinámico se establecen en una orquestación en tiempo de ejecución. Propiedades del adaptador que se exponen en la **propiedades de transporte de Windows SharePoint Services** cuadro de diálogo también puede aplicarse a un puerto de envío enlazado en tiempo de ejecución. Para establecer las propiedades de configuración para un puerto de envío enlazado en tiempo de ejecución mediante las propiedades de contexto del adaptador de Windows Sharepoint Services, siga estos pasos:  

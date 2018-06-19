@@ -1,14 +1,14 @@
 ---
-title: "Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f6373a8-d9d6-46c6-95e3-f62dd33c342a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010589"
 ---
 # <a name="how-to-select-an-itinerary-using-a-business-rules-policy"></a>Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios
 ## <a name="goal"></a>Objetivo  
@@ -75,7 +76,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-add-a-selection-rule-for-customer-globalbank-west"></a>Para agregar una regla de selección de cliente GlobalBank West  
   
-1.  En el **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**. Nombre de la regla **SetGlobalBankWestItinerary**.  
+1.  En el **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**. Nombre de la regla **SetGlobalBankWestItinerary**.  
   
 2.  En el Explorador de hechos, haga clic en el **esquemas XML** pestaña, haga clic en **esquemas**y, a continuación, haga clic en **examinar**.  
   
@@ -99,7 +100,7 @@ ms.lasthandoff: 12/01/2017
   
 9. En el Explorador de hechos, haga clic en el **vocabularios** ficha. Expanda el **ESB. Itinerario** vocabulario, expanda **versión 1.1**y, a continuación, arrastre el **nombre del conjunto de itinerario** definición a **acciones**.  
   
-10. Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **GlobalBankWestItinerary**.  
+10. Haga clic en  **\<una cadena vacía\>** y, a continuación, escriba **GlobalBankWestItinerary**.  
   
     > [!NOTE]
     >  Más adelante en este tema de procedimientos, creará este itinerario para procesar los mensajes de GlobalBank West.  
@@ -108,7 +109,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  En el Explorador de directivas, haga clic en el **SetGlobalBankWestItinerary** de regla y, a continuación, haga clic en **copia**.  
   
-2.  Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **pegar**.  
+2.  Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **pegar**.  
   
 3.  En el **nombre de nueva regla** cuadro de diálogo, escriba **SetGlobalBankEastItinerary**y, a continuación, haga clic en **Aceptar**.  
   
@@ -127,7 +128,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-publish-and-deploy-the-policy"></a>Para publicar e implementar la directiva  
   
-1.  En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic derecho **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.  
+1.  En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic derecho **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.  
   
 2.  En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic derecho **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.  
   

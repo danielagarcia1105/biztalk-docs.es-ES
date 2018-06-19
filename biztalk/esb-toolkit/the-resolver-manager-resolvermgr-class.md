@@ -1,14 +1,14 @@
 ---
-title: "La clase del Administrador de resolución (ResolverMgr) | Documentos de Microsoft"
-ms.custom: 
+title: La clase del Administrador de resolución (ResolverMgr) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89fa551d-0aca-4777-adbc-2bc46ab8664a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294748"
 ---
 # <a name="the-resolver-manager-resolvermgr-class"></a>La clase del Administrador de resolución (ResolverMgr)
 La transformación y el uso de servicios de mensajería de enrutamiento la **ResolverMgr** clase para realizar la resolución. La transformación dinámica ESB y agentes de entrega dinámica también usan el **ResolverManager** clase para realizar la resolución de just-in-time (JIT).  

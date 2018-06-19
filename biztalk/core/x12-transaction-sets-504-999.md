@@ -1,14 +1,14 @@
 ---
 title: X12 conjuntos de transacciones de 504 a 999 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c658823b-8069-4528-b5b5-a347f68ba207
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010829"
 ---
 # <a name="x12-transaction-sets-504-999"></a>Conjuntos de transacciones de X12 de 504 a 999
 Este tema enumera los X12 documentos y versiones que son compatibles con BizTalk Server.  

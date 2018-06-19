@@ -1,5 +1,5 @@
 ---
-title: "Ejemplos de código de BizTalk Server"
+title: Ejemplos de código de BizTalk Server
 description: Descargar las colecciones de ejemplo de BizTalk Server o examinar listas de ejemplos individuales.
 ms.prod: biztalk-server
 ms.openlocfilehash: 78626ac10d49795a4ba86cf6d92294e4cb6a05d0
@@ -7,6 +7,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289636"
 ---
 # <a name="biztalk-server-code-samples"></a>Ejemplos de código de BizTalk Server
 

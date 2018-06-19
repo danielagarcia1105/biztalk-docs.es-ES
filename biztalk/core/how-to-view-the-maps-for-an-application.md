@@ -1,11 +1,11 @@
 ---
-title: "Cómo ver las asignaciones de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver las asignaciones de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, applications
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - maps, viewing
 - managing [maps], applications
 ms.assetid: 9a8eed52-b8e1-414d-9a47-2c2be9d49cbe
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256732"
 ---
 # <a name="how-to-view-the-maps-for-an-application"></a>Cómo ver las asignaciones correspondientes a una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server para ver las asignaciones incluidas en una aplicación de BizTalk.  

@@ -1,14 +1,14 @@
 ---
-title: "Publicar los metadatos del servicio para adaptadores de recepción WCF | Documentos de Microsoft"
-ms.custom: 
+title: Publicar los metadatos del servicio para adaptadores de recepción WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4df09e8f-e0c9-41c5-bd71-13bb0e96cd97
-caps.latest.revision: 
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710251"
 ---
 # <a name="publishing-service-metadata-for-the-wcf-receive-adapters"></a>Publicar metadatos de servicio para los adaptadores de recepción WCF
 Puede usar el Asistente para publicación de Servicio WCF de BizTalk para crear servicios WCF para la publicación de metadatos de servicio de las ubicaciones de recepción WCF existentes. Para generar el código de modelo de servicio de cliente de los documentos de metadatos publicados, que puede usar la herramienta Utilidad de metadatos del modelo de servicio (SvcUtil.exe) incluida en el Kit de desarrollo de Software (SDK) de Windows y componentes de tiempo de ejecución de .NET Framework.  

@@ -1,17 +1,17 @@
 ---
-title: "Cambiar la configuración de tiempo de ejecución BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cambiar la configuración de tiempo de ejecución BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - runtime, settings [BAM]
 - managing [BAM], modifying runtime settings
 ms.assetid: 25f53c20-c3af-40d7-9bf2-7eeee9cc3f5e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004325"
 ---
 # <a name="changing-bam-runtime-settings"></a>Cambiar la configuración en tiempo de ejecución de BAM
 En general, los componentes en tiempo de ejecución de BAM se configuran al instalar Microsoft® BizTalk Server. Puede que desee cambiar la configuración en tiempo de ejecución de BAM, por ejemplo, para escalar verticalmente el sistema o por si tiene una directiva de caducidad de contraseñas.  

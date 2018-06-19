@@ -1,14 +1,14 @@
 ---
 title: Configurar las opciones de cola de alertas y notificaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f78afbf9-6e27-4887-8424-f265fbd8448a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290156"
 ---
 # <a name="configuring-alert-queue-options-and-notifications"></a>Configurar opciones de cola de alertas y notificaciones
 El Portal de administración de ESB usa el servicio de alerta de ESB para generar alertas cuando llegan los mensajes de error en el portal y usa el servicio de notificación de ESB para poner en cola y enviar notificaciones de alerta a los usuarios que se suscriben a alertas. Puede editar la configuración utilizada por estos servicios en el Portal de administración de ESB.  

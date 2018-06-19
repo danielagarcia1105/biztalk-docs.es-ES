@@ -1,11 +1,11 @@
 ---
 title: Utilizar DataConnection y TypedDataTable | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Retract function [Business Rules Engine], TypedData table
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - Update function [Business Rules Engine], TypedData table
 - Update function [Business Rules Engine], DataConnection
 ms.assetid: e825803e-6626-4ddd-a77e-75a3ba2b74a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287548"
 ---
 # <a name="using-dataconnection-and-typeddatatable"></a>Utilizar DataConnection y TypedDataTable
 En muchos escenarios, el uso **DataConnection** proporciona un mejor rendimiento y consume menos memoria que el uso de **TypedDataTable**. Sin embargo, **TypedDataTable** puede ser necesario en algunos casos debido a ciertas restricciones sobre el uso de **DataConnection**. En otros casos, con **TypedDataTable** , se puede obtener un mejor rendimiento que el uso de **DataConnection**. En este tema se describen los criterios y factores que se deben tener en cuenta para elegir el enfoque adecuado.  

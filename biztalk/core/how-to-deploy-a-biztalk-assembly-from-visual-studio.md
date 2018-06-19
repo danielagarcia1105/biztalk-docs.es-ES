@@ -1,14 +1,14 @@
 ---
-title: "Cómo implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69d70c52-3e71-4eb2-876e-b467c7ca24b7
-caps.latest.revision: "39"
+caps.latest.revision: 39
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007405"
 ---
 # <a name="how-to-deploy-a-biztalk-assembly-from-visual-studio"></a>Cómo implementar un ensamblado de BizTalk desde Visual Studio
 En este tema se proporcionan instrucciones sobre el uso del Explorador de soluciones de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] o el símbolo del sistema de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para implementar los ensamblados de BizTalk desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk. Aunque se pueda implementar un solo ensamblado desde el nivel de proyecto (haciendo clic con el botón secundario en el proyecto y haciendo clic en Implementar) o implementar todos los ensamblados en la solución al mismo tiempo desde el nivel de solución (haciendo clic con el botón secundario en la solución y haciendo clic en Implementar), recomendamos encarecidamente que se implementen todos al mismo tiempo desde el nivel de solución.  

@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb91879c-73f4-4e9e-9e5b-534f48cd5584
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 89fd7ab2ca83d23a37944447997becd2d3f008c2
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250968"
 ---
 # <a name="how-to-create-user-mappings"></a>Cómo crear asignaciones de usuario
 Use la **createmappings** comando para crear una o varias asignaciones de usuario, como se especifica en el archivo XML. A continuación, se muestra un archivo XML de ejemplo.  

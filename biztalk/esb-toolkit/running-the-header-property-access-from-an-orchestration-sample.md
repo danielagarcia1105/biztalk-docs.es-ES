@@ -1,14 +1,14 @@
 ---
-title: "Ejecuta el acceso a la propiedad de encabezado de un ejemplo de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Ejecuta el acceso a la propiedad de encabezado de un ejemplo de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2059eb2c-50a3-4618-a6ec-faa1a9e5d368
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294780"
 ---
 # <a name="running-the-header-property-access-from-an-orchestration-sample"></a>Ejecuta el acceso a la propiedad de encabezado de un ejemplo de orquestación
 Esta parte del ejemplo muestra cómo ESB promociona metadatos de encabezado JMS en Propiedades de contexto de mensaje, que pueden tener acceso código y los componentes en orquestaciones en Microsoft BizTalk. El ejemplo incluye una canalización de recepción que contiene una instancia del componente ESB JMS que promociona metadatos de encabezado JMS en Propiedades de contexto de mensaje.  

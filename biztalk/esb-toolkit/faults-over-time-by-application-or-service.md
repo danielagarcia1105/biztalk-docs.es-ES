@@ -1,14 +1,14 @@
 ---
-title: "Los errores con el tiempo por aplicación o servicio | Documentos de Microsoft"
-ms.custom: 
+title: Los errores con el tiempo por aplicación o servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51fdbf8a-1e5f-4054-b8b1-e85b5de399c4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294044"
 ---
 # <a name="faults-over-time-by-application-or-service"></a>Errores con el tiempo por aplicación o servicio
 Esta opción muestra el recuento de errores durante un período determinado para un conjunto específico de aplicaciones. Puede seleccionar una aplicación para mostrar un gráfico de tendencias que muestra el número de errores con el tiempo para servicios específicos dentro de la aplicación. Al seleccionar un servicio específico, muestra un informe que muestra los errores para ese servicio. También puede exportar la lista de errores como una hoja de cálculo de Microsoft Excel.  

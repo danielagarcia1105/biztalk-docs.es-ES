@@ -1,14 +1,14 @@
 ---
-title: "Configurar la canalización de ensamblador de marco de trabajo | Documentos de Microsoft"
-ms.custom: 
+title: Configurar la canalización de ensamblador de marco de trabajo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fd51047-b9dd-4b98-a968-45d69148664e
-caps.latest.revision: 
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710751"
 ---
 # <a name="configure-the-biztalk-framework-assembler-pipeline-component"></a>Configurar el componente de canalización de ensamblador de BizTalk Framework
   

@@ -1,11 +1,11 @@
 ---
 title: Escenarios de alta disponibilidad de servidor BizTalk Server de ejemplo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, small distributions
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - scaling
 - architecture, large distributions
 ms.assetid: ad9e3f57-1a23-41c2-82c9-dc8e1b29ed4d
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271668"
 ---
 # <a name="sample-biztalk-server-high-availability-scenarios"></a>Escenarios de ejemplo de alta disponibilidad de BizTalk Server
 Este tema describe los escenarios de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que proporcionan alta disponibilidad mediante niveles de hosts escalados horizontalmente. Al separar las áreas de funcionalidad en hosts diferentes y niveles de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], los administradores pueden proporcionar redundancia para cada host y escalarlos de forma independiente de otros hosts. Para proporcionar alta disponibilidad para cada área funcional, cree hosts independientes para cada función principal, recibir, procesar, enviar y seguimiento y clúster el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos y la Enterprise Single Sign-On servidor secreto principal.  

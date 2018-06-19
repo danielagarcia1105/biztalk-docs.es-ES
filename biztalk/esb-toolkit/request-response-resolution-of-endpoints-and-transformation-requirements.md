@@ -1,14 +1,14 @@
 ---
-title: "Resolución de solicitudes y respuestas de puntos de conexión y los requisitos de transformación | Documentos de Microsoft"
-ms.custom: 
+title: Resolución de solicitudes y respuestas de puntos de conexión y los requisitos de transformación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a1bfdae-2651-402c-b164-16db663aaa95
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294572"
 ---
 # <a name="request-response-resolution-of-endpoints-and-transformation-requirements"></a>Resolución de solicitudes y respuestas de puntos de conexión y los requisitos de transformación
 En este caso de uso, una aplicación cliente envía un mensaje de solicitud para un aumento y recibe una respuesta. El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] actúa como mediador entre el cliente y el punto de conexión de servicio de destino y utiliza la resolución de ESB y el marco de trabajo para realizar la transformación del mensaje dinámico y el enrutamiento de acuerdo con la configuración de en rampa, como se muestra en la figura 1.  

@@ -1,14 +1,14 @@
 ---
-title: "Escribir información en el registro de eventos | Documentos de Microsoft"
-ms.custom: 
+title: Escribir información en el registro de eventos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d7398dc-29d8-4a7a-bab4-c8f128b47dca
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289580"
 ---
 # <a name="writing-information-to-the-event-log"></a>Escribir información en el registro de eventos
 Puede ser interesante supervisar el progreso de los distintos procesos empresariales con la aplicación de BizTalk escribiendo información en el registro de aplicaciones predeterminado o en un registro de eventos personalizado. Escribir en el registro de eventos puede resultar de utilidad en los escenarios siguientes:  

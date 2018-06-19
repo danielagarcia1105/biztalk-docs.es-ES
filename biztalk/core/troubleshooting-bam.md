@@ -1,14 +1,14 @@
 ---
 title: Solucionar problemas de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e63299a8-5c74-4337-ba20-3213e0c6ea1f
-caps.latest.revision: 
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710259"
 ---
 # <a name="troubleshooting-bam"></a>Solución de problemas de BAM
 En este tema se proporciona información que le ayudará a solucionar problemas que se pueden encontrar al usar la Supervisión de la actividad económica (BAM).  
@@ -120,7 +121,7 @@ Failed to get data.  If available, errors returned from the provider are listed 
   
 3.  Haga doble clic en la conexión de red (por ejemplo, la conexión de área Local) y seleccione **propiedades**.  
   
-4.  En el **conexión de área Local** página, seleccione **protocolo de Internet versión 4 (TCP/IPv4)**y haga clic en **propiedades**.  
+4.  En el **conexión de área Local** página, seleccione **protocolo de Internet versión 4 (TCP/IPv4)** y haga clic en **propiedades**.  
   
 5.  Haga clic en **Avanzado**. En el **configuración de adelanto de TCP/IP** página, haga clic en el **DNS** ficha.  
   

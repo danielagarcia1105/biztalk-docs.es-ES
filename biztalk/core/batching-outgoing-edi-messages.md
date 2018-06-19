@@ -1,14 +1,14 @@
 ---
 title: Procesamiento por lotes mensajes EDI salientes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93a2bd68-4974-4927-938a-8eaf8f007566
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006565"
 ---
 # <a name="batching-outgoing-edi-messages"></a>Procesar por lotes mensajes EDI salientes
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesará por lotes los conjuntos de transacciones EDI si se ha habilitado el procesamiento por lotes del acuerdo asociado con el socio comercial que lo recibirá. Las propiedades EDI de un acuerdo le permiten hacer lo siguiente:  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290644"
 ---
 # <a name="using-visual-studio"></a>Usar Visual Studio
 Dentro del sistema del proyecto de BizTalk, es posible utilizar muchas de las herramientas disponibles en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], así como herramientas diseñadas específicamente para crear aplicaciones que se ejecuten en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En este tema se describen algunos de los procedimientos habituales que se pueden utilizar para crear una aplicación que se ejecute en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

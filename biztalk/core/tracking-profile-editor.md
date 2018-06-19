@@ -1,11 +1,11 @@
 ---
 title: Editor de perfiles de seguimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, prerequisites
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - BAM, Tracking Profile Editor
 - tracking profiles
 ms.assetid: 064f5795-28d4-40c5-a0d2-295d3516d7f3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278380"
 ---
 # <a name="tracking-profile-editor"></a>Editor de perfiles de seguimiento
 Esta sección describe el Editor de perfiles de seguimiento (TPE). El TPE es una herramienta que los programadores utilizan para crear o modificar asignaciones, a las que también se conocen como perfiles de seguimiento, entre elementos de una actividad de BAM y las fuentes de soluciones de BizTalk para esos elementos. TPE consiste en una interfaz de usuario gráfica que permite a los programadores asignar una vista determinada de procesos empresariales internos, y datos asociados, a las orquestaciones y puertos.  

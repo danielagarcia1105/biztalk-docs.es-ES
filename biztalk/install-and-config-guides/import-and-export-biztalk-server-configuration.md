@@ -1,15 +1,15 @@
 ---
-title: "Importar y exportar la configuración de servidor BizTalk Server | Documentos de Microsoft"
-description: "Pasos para aplicar, importar, exportar o quitar la configuración de los componentes y actualizar las bases de datos y las cuentas de servicio de BizTalk Server"
-ms.custom: 
+title: Importar y exportar la configuración de servidor BizTalk Server | Documentos de Microsoft
+description: Pasos para aplicar, importar, exportar o quitar la configuración de los componentes y actualizar las bases de datos y las cuentas de servicio de BizTalk Server
+ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6206ed8-d087-44cc-8ab5-da5d8a28e09a
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300132"
 ---
 # <a name="import-and-export-biztalk-server-configuration"></a>Importar y exportar la configuración de BizTalk Server
 La configuración de BizTalk Server proporciona un análisis de alto nivel del estado de configuración de las características instaladas en el equipo local. La herramienta permite configurar las funciones y quitar su configuración, definir la configuración de seguridad, así como importar configuraciones y exportarlas.  

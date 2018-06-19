@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de envío SOAP | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de envío SOAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4d65218d-516b-4e45-a824-272ef6ef298c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278860"
 ---
 # <a name="soap-send-adapter"></a>Adaptador de envío SOAP
 Puede utilizar el adaptador de envío SOAP para llamar a un servicio Web. El adaptador de envío SOAP lee el contexto de mensaje del objeto de mensaje de BizTalk para obtener el nombre de proxy, y después llama al proxy de servicio Web externo asociado.  

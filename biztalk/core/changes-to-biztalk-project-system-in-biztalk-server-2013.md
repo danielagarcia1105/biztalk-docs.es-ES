@@ -1,14 +1,14 @@
 ---
 title: Cambios en el sistema del proyecto de BizTalk en BizTalk Server 2013 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82f0dd18-073c-4cba-aa0d-48076c58f874
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006277"
 ---
 # <a name="changes-to-biztalk-project-system-in-biztalk-server-2013"></a>Cambios en el sistema de proyecto de BizTalk en BizTalk Server 2013
 Este tema ofrece una descripción general de los cambios al sistema del proyecto de BizTalk en BizTalk Server.  
@@ -70,7 +71,7 @@ Este tema ofrece una descripción general de los cambios al sistema del proyecto
 >  El asistente para conversión de Visual Studio migra automáticamente la configuración precedente mencionada al nuevo entorno.  
   
 ## <a name="user-access-control"></a>Control de acceso de usuario  
- Visual Studio no permite implementar un proyecto de BizTalk en un equipo con la característica Control de acceso de usuario (UAC) activada a menos que ejecute Visual Studio con privilegios administrativos. Para ejecutar Visual Studio con privilegios de administrador, haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Visual Studio**, haga clic en  **Microsoft Visual Studio \<versión\>**y, a continuación, haga clic en **ejecutar como administrador**.  
+ Visual Studio no permite implementar un proyecto de BizTalk en un equipo con la característica Control de acceso de usuario (UAC) activada a menos que ejecute Visual Studio con privilegios administrativos. Para ejecutar Visual Studio con privilegios de administrador, haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Visual Studio**, haga clic en  **Microsoft Visual Studio \<versión\>** y, a continuación, haga clic en **ejecutar como administrador**.  
   
 ## <a name="c-files-in-a-biztalk-project"></a>Archivos C# en un proyecto de BizTalk  
  BizTalk Server permite combinar las clases auxiliares con artefactos de BizTalk para sólo las necesidades de empaquetado flexible.  Sin embargo, no se puede agregar un nuevo archivo de C# directamente mediante el **Agregar nuevo elemento** o **agregar nueva clase** opciones de menú.  

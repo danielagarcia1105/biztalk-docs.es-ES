@@ -1,18 +1,18 @@
 ---
 title: Contadores de rendimiento de los adaptadores WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, WCF adapters
 - performance, performance counters
 - WCF adapters, performance
 ms.assetid: 9feb052f-5674-419f-84ab-9b5d312a04a5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289476"
 ---
 # <a name="wcf-adapters-performance-counters"></a>Contadores de rendimiento de los adaptadores de WCF
 Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por un servicio en el sitio o sistema. Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor. Los adaptadores de WCF no proporcionan sus propios contadores de rendimiento. No obstante, puede supervisar los contadores de rendimiento de Windows Communication Foundation (WCF) para calibrar el rendimiento de las ubicaciones de recepción WCF. Con el fin de usar los contadores de rendimiento de WCF para las ubicaciones de recepción WCF, tiene que habilitar los contadores de rendimiento para las instancias de host que ejecutan las ubicaciones de recepción.  

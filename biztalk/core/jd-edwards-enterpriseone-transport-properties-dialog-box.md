@@ -21,6 +21,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014011"
 ---
 # <a name="jd-edwards-enterpriseone-transport-properties-dialog-box"></a>Cuadro de diálogo Propiedades de transporte de JD Edwards EnterpriseOne
 Use el cuadro de diálogo Propiedades de transporte de JD Edwards EnterpriseOne para configurar las propiedades requeridas por el adaptador.  
