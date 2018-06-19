@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268484"
 ---
 # <a name="receiveportref-port-node"></a>ReceivePortRef (nodo Puerto)
 El nodo ReceivePortRef del nodo Puerto de un archivo de enlace contiene información acerca de un puerto de recepción al que hace referencia un servicio.  

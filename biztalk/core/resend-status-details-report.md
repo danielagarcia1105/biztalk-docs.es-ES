@@ -1,14 +1,14 @@
 ---
 title: Enviar informe de detalles de estado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3cbc9d44-9a9a-4272-a138-ebd126a9f809
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268420"
 ---
 # <a name="resend-status-details-report"></a>Reenvío del informe de detalles de estado
 En este informe de estado se muestra información sobre el número de reintentos efectuados cuando las propiedades de entidad y de receptor AS2 de una entidad se han configurado para reenviar el mensaje AS2 si no se ha recibido un MDN.  

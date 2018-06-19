@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268380"
 ---
 # <a name="receivelocations-receiveport-node"></a>ReceiveLocations (nodo puertoRecepción)
 El nodo ReceiveLocations del nodo puertoRecepción de un archivo de enlace es el nodo principal de todos los nodos ReceiveLocation que contiene información específica acerca de las ubicaciones de recepción que se exportan con el archivo de enlace.  

@@ -1,17 +1,17 @@
 ---
-title: "Componente de canalización de ensamblador de BizTalk Framework | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de ensamblador de BizTalk Framework | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, BizTalk Framework Assembler
 - BizTalk Framework Assembler [pipeline component]
 ms.assetid: 116dff8d-b7f8-4564-a7fb-6440682683dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231108"
 ---
 # <a name="biztalk-framework-assembler-pipeline-component"></a>Componente de canalización de ensamblador de BizTalk Framework
 BizTalk Framework es un enfoque para hacer una entrega garantizada exactamente una vez utilizando protocolos de transporte mediante conexión como HTTP o SMTP. Este marco de trabajo existe desde 1998 y puede considerarse un precursor de las iniciativas de estándares pendientes basadas en servicios Web, específicamente WSReliable. Por lo general, el problema de la entrega de datos garantizada exactamente una vez ha sido el dominio de tecnologías como Message Queue Server (también conocida como MSMQ). Sin embargo, estas tecnologías suelen requerir software común en los dos extremos de un flujo de datos y tampoco hacen nada para resolver la utilización de protocolos de transporte abiertos basados en redes públicas, por ejemplo, datos que fluyen entre empresas a través de Internet.  

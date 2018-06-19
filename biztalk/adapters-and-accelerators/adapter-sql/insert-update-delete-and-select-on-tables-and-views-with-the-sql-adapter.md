@@ -1,14 +1,14 @@
 ---
 title: INSERT, Update, Delete y seleccione las operaciones en tablas y vistas con el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0cc39d5-16f2-454a-8e1d-c031592439ae
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225388"
 ---
 # <a name="insert-update-delete-and-select-operations-on-tables-and-views-with-the-sql-adapter"></a>INSERT, Update, Delete y seleccione las operaciones en tablas y vistas con el adaptador de SQL
 La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]expone un conjunto de operaciones estándares en cada tabla y la vista en la base de datos de SQL Server. Mediante el uso de estas operaciones, puede ejecutar instrucciones sencillas de INSERT, UPDATE, SELECT y DELETE calificadas por una cláusula WHERE en la tabla de destino o la vista. Estas operaciones también se denominan operaciones de DML (lenguaje) de manipulación de datos.  

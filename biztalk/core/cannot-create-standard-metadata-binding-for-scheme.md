@@ -1,14 +1,14 @@
 ---
-title: "No se puede crear el enlace de metadatos estándar para el esquema | Documentos de Microsoft"
-ms.custom: 
+title: No se puede crear el enlace de metadatos estándar para el esquema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce441c3e-0f6e-46ed-90cf-825dbf89d910
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231172"
 ---
 # <a name="cannot-create-standard-metadata-binding-for-scheme"></a>No se puede crear el enlace de metadatos estándar para el esquema
 ## <a name="details"></a>Detalles  

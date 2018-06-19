@@ -1,11 +1,11 @@
 ---
-title: "Crear la conexión del sistema Siebel URI | Documentos de Microsoft"
-ms.custom: 
+title: Crear la conexión del sistema Siebel URI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, connect using connection URI
 - connecting using connection URI
 ms.assetid: 8cc78149-1c20-40db-aece-aab520ee04e7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224556"
 ---
 # <a name="create-the-siebel-system-connection-uri"></a>Crear el URI de conexión de sistema Siebel
 El [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] URI de conexión contiene propiedades que el adaptador utiliza para establecer una conexión con el sistema Siebel.  

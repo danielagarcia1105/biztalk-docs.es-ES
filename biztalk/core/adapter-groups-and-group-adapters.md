@@ -1,14 +1,14 @@
 ---
 title: Grupos de adaptadores y adaptadores de grupo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e0a9423-99dd-4474-afa1-fd8e1d074cd1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225380"
 ---
 # <a name="adapter-groups-and-group-adapters"></a>Grupos de adaptadores y adaptadores de grupo
 Un *grupo de adaptadores* es un mecanismo de administración que puede usar para recopilar y organizar un conjunto de adaptadores. En cambio, un *adaptador de grupo* es un componente que da servicio a todos los adaptadores de un grupo de adaptadores. Por ejemplo, puede escribir un conjunto de adaptadores y que utilicen todos el mismo componente COM para transmitir sincronizaciones de contraseñas sobre TCP/IP. El conjunto de adaptadores se llama grupo de adaptadores, mientras que el componente que da servicio a todos ellos se llama adaptador de grupo. Los grupos de adaptadores se describen en el almacén de configuración. Puede recuperar la información y las actualizaciones en un grupo de adaptadores mediante `ISSOPSAdapter.ReceiveNotification`.  

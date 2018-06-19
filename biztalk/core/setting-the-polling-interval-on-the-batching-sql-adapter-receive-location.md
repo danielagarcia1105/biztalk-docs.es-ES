@@ -1,11 +1,11 @@
 ---
-title: "Establecer el intervalo de sondeo en el adaptador SQL por lotes de ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Establecer el intervalo de sondeo en el adaptador SQL por lotes de ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling interval [receive adapters]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SQL adapters, receive locations
 - receive locations, SQL adapters
 ms.assetid: 9053b20d-145a-4445-b414-c0482cf975a0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269692"
 ---
 # <a name="setting-the-polling-interval-on-the-batching-sql-adapter-receive-location"></a>Definir el intervalo de sondeo en la ubicación de recepción del adaptador de SQL de procesamiento por lotes
 Puede establecer el intervalo de sondeo en el procesamiento por lotes de recepción del adaptador SQL ubicación (**BatchControlMessageRecvLoc**) diferente en los equipos de desarrollo y producción. En un servidor de desarrollo, Microsoft recomienda que mantenga el intervalo de sondeo en el valor predeterminado de 30 segundos para una rápida activación de la orquestación de procesamiento por lotes de un acuerdo. Sin embargo, en un servidor de producción, un valor de 30 segundos puede afectar al rendimiento. Una vez activado un lote, puede que desee definir el intervalo de sondeo a un valor mayor, como cinco minutos.  

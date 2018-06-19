@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el adaptador de BizTalk para SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el adaptador de BizTalk para SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e46690e-d5c4-4d6b-b7a0-9a5adf4431cd
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222748"
 ---
 # <a name="overview-of-biztalk-adapter-for-sql-server"></a>Información general sobre el adaptador de BizTalk para SQL Server
 La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone la base de datos de SQL Server como un servicio WCF. Los clientes de adaptador pueden realizar operaciones en la base de datos de SQL Server mediante el intercambio de mensajes SOAP con el adaptador. El adaptador consume el mensaje SOAP y realiza llamadas ADO.NET adecuadas para realizar la operación. El adaptador devuelve la respuesta de la base de datos de SQL Server al cliente en forma de mensajes SOAP.  

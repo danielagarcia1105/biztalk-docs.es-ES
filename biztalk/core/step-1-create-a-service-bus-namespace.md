@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Crear un Namespace de Bus de servicio | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ede1ac50-bbfb-4aeb-8217-1877ae218f89
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276764"
 ---
 # <a name="step-1-create-a-service-bus-namespace"></a>Paso 1: Crear un Namespace de Bus de servicio
 En este paso, creará un [!INCLUDE[winazure](../includes/winazure-md.md)] [!INCLUDE[sb](../includes/sb-md.md)] espacio de nombres. Usará este espacio de nombres para hospedar un extremo de retransmisión para la recepción de notificaciones de oportunidades de Salesforce. Más adelante en el proceso de creación de esta solución, usará este extremo de retransmisión para recibir el mensaje de notificación en un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

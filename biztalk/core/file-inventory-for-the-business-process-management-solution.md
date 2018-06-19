@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973874"
 ---
 # <a name="file-inventory-for-the-business-process-management-solution"></a>Inventario de archivos para la solución de administración de procesos empresariales
 En esta sección se enumeran los subdirectorios y los archivos de origen para la solución de administración de procesos empresariales. El directorio de instalación predeterminado para los archivos de origen de la solución de administración de procesos empresariales es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación\>.  

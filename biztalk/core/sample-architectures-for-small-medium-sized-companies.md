@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269556"
 ---
 # <a name="sample-architectures-for-small-amp-medium-sized-companies"></a>Arquitecturas de ejemplo para pequeñas &amp; medianas empresas
 Esta sección ofrece una arquitectura de ejemplo en la que Microsoft BizTalk Server se implementa para proteger los activos de una pequeña o mediana empresa. Aunque estas arquitecturas fomentan la protección en profundidad y la separación de servicios para minimizar el impacto de un ataque, dan por sentadas las magnitudes de hardware, software y recursos humanos que normalmente tienen a su disposición las grandes compañías.  

@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Secuencia de comandos de preprocesamiento | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b4f66e5-1f40-4bc3-82a8-c27a0e435797
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230876"
 ---
 # <a name="addresource-command-preprocessing-script"></a>AddResource (comando): Secuencia de comandos de preprocesamiento
 Para agregar una secuencia de comandos de preprocesamiento para una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:PreProcessingScript** para el parámetro de tipo. Ejecutar este comando agrega el archivo de secuencia de comandos a la base de datos de administración de BizTalk. Además, el archivo de secuencia de comandos aparece en la consola de administración de BizTalk Server, en la carpeta Recursos de la aplicación a la que lo agregó. Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md).  

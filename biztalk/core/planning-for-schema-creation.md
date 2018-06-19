@@ -1,14 +1,14 @@
 ---
-title: "Planear la creación de esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Planear la creación de esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ecb9154-b457-4209-b9b9-572c186bf5e7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264644"
 ---
 # <a name="planning-for-schema-creation"></a>Planear la creación de esquemas
 Los esquemas sirven para validar instancias de mensajes que se deben ajustar a un esquema, definir cómo los mensajes de instancia de distintos formatos (XML y no XML) se pueden traducir entre sí y establecer cómo los mensajes de instancia XML con una estructura se pueden transformar en mensajes de instancia XML con una estructura diferente. Para obtener más información acerca de la diferencia entre traducción de mensaje de instancia y transformación de mensajes de instancia, consulte [vs de transformación. Traducción](../core/data-transformation.md).  

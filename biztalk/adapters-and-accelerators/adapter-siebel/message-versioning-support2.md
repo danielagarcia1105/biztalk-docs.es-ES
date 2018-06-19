@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221860"
 ---
 # <a name="message-versioning-support"></a>Compatibilidad de versiones de mensaje
 El [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] admite el control de versiones mediante la inclusión de un componente de la cadena de versión de las acciones de mensajes, los espacios de nombres e identificadores de nodo exhibe para las operaciones. La versión actual es http://Microsoft.LobServices.Siebel/2007/03. Esto significa que para una operación de inserción en un objeto de negocio de la cuenta en el repositorio de Siebel, la operación de inserción obtenida por el adaptador tiene lo siguiente:  

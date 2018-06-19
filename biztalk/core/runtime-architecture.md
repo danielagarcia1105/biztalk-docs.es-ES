@@ -1,18 +1,18 @@
 ---
 title: Arquitectura del Runtime | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - runtime, architecture
 - architecture, runtime
 - runtime
 ms.assetid: feff9a84-f19b-44c9-8d05-8e6015bb1ef9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268996"
 ---
 # <a name="runtime-architecture"></a>Arquitectura en tiempo de ejecución
 Antes de revisar información detallada adicional sobre los distintos componentes de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es importante entender cómo encajan los componentes en la arquitectura global del producto. El tiempo en ejecución de BizTalk Server está basado en una arquitectura de publicación/suscripción en la que se publica un mensaje en el sistema y, a continuación, éste es recibido por uno o varios suscriptores activos. Existen distintos tipos de esta arquitectura, pero a menudo se denomina el modelo implementado en BizTalk Server *basado en contenido de publicación/suscripción*.  

@@ -1,18 +1,18 @@
 ---
-title: "Obtener información sobre el adaptador de BizTalk para Siebel propiedades de enlace | Documentos de Microsoft"
-ms.custom: 
+title: Obtener información sobre el adaptador de BizTalk para Siebel propiedades de enlace | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, setting
 - binding properties, adapter
 - how to, set binding properties
 ms.assetid: 48c77a2d-091c-40e0-aaf3-dc2ec34c55f2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224044"
 ---
 # <a name="read-about-biztalk-adapter-for-siebel-binding-properties"></a>Obtener información sobre el adaptador de BizTalk para Siebel propiedades de enlace
 La [!INCLUDE[adaptersiebel_md](../../includes/adaptersiebel-md.md)] expone varias propiedades de enlace que le permiten controlar parte de su comportamiento de tiempo de diseño y tiempo de ejecución. En esta sección se describe estas propiedades de enlace y proporciona vínculos a temas que explican cómo establecerlas.  

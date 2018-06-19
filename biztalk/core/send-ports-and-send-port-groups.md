@@ -1,11 +1,11 @@
 ---
-title: "Puertos de envío y grupos de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Puertos de envío y grupos de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, states
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - send port groups, about send port groups
 - states, send ports
 ms.assetid: 274bdd27-9098-46a2-8762-8b57bbfc95b8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271828"
 ---
 # <a name="send-ports-and-send-port-groups"></a>Puertos de envío y grupos de puertos de envío
 A *puerto de envío* es la ubicación a la que Microsoft BizTalk Server envía mensajes o desde la que BizTalk Server recibe mensajes. Asimismo proporciona la tecnología que utiliza BizTalk Server para implementar la acción de comunicación. El nombre del puerto identifica la ubicación de forma exclusiva.  

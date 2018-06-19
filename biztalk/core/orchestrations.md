@@ -1,11 +1,11 @@
 ---
 title: Orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - deploying, orchestrations
 - orchestrations, about orchestrations
 ms.assetid: fb01f78a-b805-46be-a7d9-2b7597daab96
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266676"
 ---
 # <a name="orchestrations"></a>Orquestaciones
 *Orquestaciones* son procesos empresariales ejecutables que se pueden suscribir para recibir y publicar (enviar) mensajes a través de la base de datos de cuadro de mensajes. Además, las orquestaciones pueden construir nuevos mensajes. Los mensajes se reciben mediante la suscripción y enrutamiento de infraestructura, descrito en [ciclo de vida de un mensaje](../core/lifecycle-of-a-message.md). Cuando se completan las suscripciones para las orquestaciones, se activa una nueva instancia y el mensaje se entrega, o, en caso de que se trate de suscripciones de instancia, la instancia vuelve a hidratarse si es necesario y el mensaje se entrega. Cuando los mensajes se envían desde una orquestación, éstos se publican en el cuadro de mensajes de la misma forma en que un mensaje que llega a la ubicación de recepción con las propiedades adecuadas se inserta en la base de datos para su enrutamiento.  

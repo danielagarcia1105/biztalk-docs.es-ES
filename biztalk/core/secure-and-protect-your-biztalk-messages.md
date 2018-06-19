@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268860"
 ---
 # <a name="secure-and-protect-your-biztalk-messages"></a>Proteger y proteger los mensajes de BizTalk
 Microsoft® BizTalk® Server proporciona una puerta de enlace estándar para enviar y recibir documentos dentro de una intranet y a través de Internet. Debido a la naturaleza posible críticos para la empresa de los mensajes enviados a y desde el servidor BizTalk Server, es importante tener en cuenta las medidas para proteger estos mensajes y la información que contienen tanto tal como están en tránsito y durante los procesos de BizTalk Server y almacenes ellos. Esta sección proporciona información acerca de las características de seguridad de BizTalk Server y le explica cómo utilizarlas para proteger sus datos y su entorno.  

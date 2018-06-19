@@ -1,11 +1,11 @@
 ---
 title: Mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, headers
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - message headers
 - EMS messages
 ms.assetid: 65bb3431-7186-4d4c-b004-932cdf070e73
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266692"
 ---
 # <a name="messages"></a>Mensajes
 Un mensaje de Enterprise Message Service (EMS), como un mensaje JMS, contiene tres partes independientes: encabezado, propiedades y cuerpo. El encabezado es la única parte obligatoria de un mensaje de EMS. En este tema se describe cómo se tratan los mensajes en el Adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service.  

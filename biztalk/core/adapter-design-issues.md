@@ -1,14 +1,14 @@
 ---
-title: "Problemas de diseño del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Problemas de diseño del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2e5568be-a046-40ff-a94a-eda086457564
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226564"
 ---
 # <a name="adapter-design-issues"></a>Problemas de diseño del adaptador
 La configuración del adaptador se almacena en la base de datos de inicio de sesión único (SSO) cuando el usuario realiza cambios de configuración durante el tiempo de diseño. En el tiempo de ejecución, el motor de mensajería recupera la configuración del adaptador y la entrega a éste. La información de configuración que se entrega a los adaptadores es de cuatro tipos:  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 3: Crear una aplicación de SharePoint para recuperar datos de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Crear una aplicación de SharePoint para recuperar datos de Siebel | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86bde531-2daf-452b-b3e6-5481d66f72e7
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225972"
 ---
 # <a name="step-3-create-a-sharepoint-application-to-retrieve-data-from-siebel"></a>Paso 3: Crear una aplicación de SharePoint para recuperar datos de Siebel
 ![Paso 3 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  

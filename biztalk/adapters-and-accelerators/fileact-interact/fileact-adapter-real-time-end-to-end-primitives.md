@@ -1,14 +1,14 @@
 ---
 title: Primitivas de extremo a extremo en tiempo real de FileAct adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8591120-7259-49cb-90ac-954d8be226ed
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224932"
 ---
 # <a name="fileact-adapter-real-time-end-to-end-primitives"></a>Primitivas de extremo a extremo de FileAct adaptador en tiempo real
 Primitivas de SWIFTNet son un par de documentos XML intercambiados entre la aplicación y el vínculo de SWIFTNet (SNL). Para cada existen primitivo, de-to-end son dos versiones de la primitiva: uno en el lado cliente (o envío) y otro en el servidor (o recepción). Esto incluye un total de cuatro mensajes: archivo colocar primitiva, primitivos de Get File y una notificación de entrega de envío para cada uno.  

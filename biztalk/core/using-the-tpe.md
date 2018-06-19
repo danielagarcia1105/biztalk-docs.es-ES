@@ -1,17 +1,17 @@
 ---
 title: Usar el TPE | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, about Tracking Profile Editor
 - tracking profiles, prerequisites
 ms.assetid: ebe9a5da-66ec-482d-8aac-892a829ca996
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288076"
 ---
 # <a name="using-the-tpe"></a>Usar el TPE
 El Editor de perfiles de seguimiento (TPE) se utiliza para asignar orquestaciones y propiedades a definiciones de actividad de BAM.  

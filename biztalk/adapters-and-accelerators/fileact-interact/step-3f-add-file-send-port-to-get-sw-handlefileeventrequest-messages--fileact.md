@@ -1,14 +1,14 @@
 ---
-title: "Paso 3F: agregar un puerto de envío de archivos para el escenario en tiempo real de FileAct capturar los mensajes de Sw-HandleFileEventRequest | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3F: agregar un puerto de envío de archivos para el escenario en tiempo real de FileAct capturar los mensajes de Sw-HandleFileEventRequest | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b7594b0-0443-41b7-ae04-55b2cc8bf90e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225532"
 ---
 # <a name="step-3f-add-a-file-send-port-for-the-fileact-real-time-scenario-to-capture-sw-handlefileeventrequest-messages"></a>Paso 3F: agregar un puerto de envío de archivos para el escenario en tiempo real de FileAct capturar los mensajes de Sw-HandleFileEventRequest
 Antes de comenzar este paso, debe completar [paso 3E: agregar un puerto de envío de archivo para capturar Sw:ExchangeFileResponse mensaje para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)  

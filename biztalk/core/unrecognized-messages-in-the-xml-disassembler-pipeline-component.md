@@ -1,11 +1,11 @@
 ---
-title: "Componente de canalización de mensajes desconocidos en el desensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de mensajes desconocidos en el desensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Allow Unrecognized Messages property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipeline components, XML Disassembler
 - XML Disassembler [pipeline component], unrecognized messages
 ms.assetid: 5a6be3a8-0bac-426a-bf0b-5091191091de
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286748"
 ---
 # <a name="unrecognized-messages-in-the-xml-disassembler-pipeline-component"></a>Mensajes desconocidos en el componente de canalización de desensamblador XML
 El componente de canalización de desensamblador XML puede controlar un mensaje como "desconocido" en los siguientes casos:  

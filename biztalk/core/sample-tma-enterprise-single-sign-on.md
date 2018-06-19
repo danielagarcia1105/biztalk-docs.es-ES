@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Enterprise Single Sign-On | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security examples [TMA], SSO
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - examples, SSO
 - examples, TMA
 ms.assetid: c2c15b1b-54f3-4d1a-b3d8-6679abd41ccb
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22273196"
 ---
 # <a name="sample-tma-enterprise-single-sign-on"></a>TMA de ejemplo: Enterprise Single Sign-On
 En este tema se presenta el análisis de modelo de amenazas (TMA) del escenario del servicio de inicio de sesión único empresarial de la arquitectura de ejemplo.  
@@ -62,7 +63,7 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) del escenario 
   
 -   **Identificar puntos de entrada, límites de confianza y flujo de datos** -ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
--   **Crear una lista de amenazas identificadas** -usamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios. La siguiente tabla contiene la lista de amenazas que identificamos al usar el servicio de inicio de sesión único empresarial (SSO) para enviar y recibir mensajes del servidor BizTalk Server.  
+-   **Crear una lista de amenazas identificadas** -usamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla contiene la lista de amenazas que identificamos al usar el servicio de inicio de sesión único empresarial (SSO) para enviar y recibir mensajes del servidor BizTalk Server.  
   
  **Tabla 1: lista de amenazas identificadas**  
   
@@ -73,7 +74,7 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) del escenario 
 |Un usuario malintencionado podría pueden manipular los datos durante su tránsito de un servidor a otro.|La comunicación entre servidores se realiza en texto sin cifrar, por lo que los usuarios malintencionados podrían leer la información mientras está en tránsito.|data|Manipulación de datos<br /><br /> Revelación de información|  
   
 ## <a name="step-3-review-threats-enterprise-single-sign-on-scenario"></a>Paso 3. Analizar las amenazas (escenario único empresarial inicio de sesión)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del servicio de inicio de sesión único empresarial (SSO) de la arquitectura de referencia. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del servicio de inicio de sesión único empresarial (SSO) de la arquitectura de referencia. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el servicio de inicio de sesión único empresarial para enviar y recibir mensajes del servidor de BizTalk Server.  
   

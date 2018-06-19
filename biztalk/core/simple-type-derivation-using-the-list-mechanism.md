@@ -1,14 +1,14 @@
 ---
-title: "Derivación de tipo simple mediante el mecanismo de lista | Documentos de Microsoft"
-ms.custom: 
+title: Derivación de tipo simple mediante el mecanismo de lista | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14f3c7b7-7585-4297-9177-2deaef8355f0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270964"
 ---
 # <a name="simple-type-derivation-using-the-list-mechanism"></a>Derivación de tipo simple mediante el mecanismo de lista
 Al derivar un nuevo tipo simple a partir de un tipo simple existente con el mecanismo de lista, se especifica que el valor de este atributo o elemento puede ser una lista de valores separados por espacios del tipo especificado. Por ejemplo, puede especificar que un valor de atributo o de elemento sea una lista de enteros separados por espacios.  

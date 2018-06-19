@@ -1,17 +1,17 @@
 ---
 title: Ordenar por el Administrador de procesos de flujo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, processing
 - processing, processing logic
 ms.assetid: e2b51eff-44b5-440f-a7d1-0872543e5f27
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266660"
 ---
 # <a name="order-flow-through-the-process-manager"></a>Flujo de pedidos a través del Administrador de proceso
 Esta sección describe cómo el Administrador de procesos, los pedidos de Southridge Video el **OrderManager** orquestación, procesa pedidos. Esta sección sigue un pedido nuevo a través de la orquestación. Además, aborda cómo controla la orquestación las actualizaciones de los pedidos.  

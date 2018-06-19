@@ -1,14 +1,14 @@
 ---
-title: "Información general de inicio de sesión único de programación | Documentos de Microsoft"
-ms.custom: 
+title: Información general de inicio de sesión único de programación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a0a3978-cdbf-4703-9d1d-23e0f4923c9c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264828"
 ---
 # <a name="programming-single-sign-on-overview"></a>Información general de inicio de sesión único de programación
 Un proceso empresarial apoyado en diferentes aplicaciones probablemente necesite afrontar el reto de trabajar con distintos dominios de seguridad. El acceso a una aplicación en un sistema operativo de Microsoft Windows puede requerir un conjunto de credenciales de seguridad, mientras que el acceso a una aplicación en un gran sistema (mainframe) IBM puede requerir credenciales diferentes. Trabajar con esta gran de credenciales es difícil para los usuarios y puede suponer un desafío aún mayor para automatizar los procesos. Para resolver este problema, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye el inicio de sesión único (SSO) empresarial. SSO permite asignar un Id. de usuario de Windows a credenciales de usuario de otros sistemas. Este servicio puede facilitar los procesos empresariales que utilizan aplicaciones en sistemas diversos.  

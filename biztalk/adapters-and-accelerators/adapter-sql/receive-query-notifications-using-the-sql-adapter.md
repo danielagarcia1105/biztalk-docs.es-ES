@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de consulta mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b2ed0f0-d005-4eec-b1a6-97a0c94678dc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224508"
 ---
 # <a name="receive-query-notifications-using-the-sql-adapter"></a>Recibir notificaciones de consulta mediante el adaptador de SQL
 Los clientes de adaptador pueden suscribirse para recibir notificaciones de consulta sobre los cambios de datos en la base de datos de SQL Server. Una instrucción SELECT de SQL o un procedimiento almacenado especifica los criterios de cambio de datos en una tabla para la activación de las notificaciones de consulta y el servidor SQL Server envía notificaciones de consulta como y cuando el conjunto de resultados de la instrucción SELECT o el procedimiento almacenado cambia.  

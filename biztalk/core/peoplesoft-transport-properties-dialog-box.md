@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265148"
 ---
 # <a name="peoplesoft-transport-properties-dialog-box"></a>Cuadro de diálogo de propiedades de transporte de PeopleSoft
 Use el cuadro de diálogo Propiedades de transporte de PeopleSoft para establecer las propiedades requeridas por el adaptador.  

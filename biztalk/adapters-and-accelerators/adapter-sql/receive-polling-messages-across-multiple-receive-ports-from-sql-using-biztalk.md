@@ -1,14 +1,14 @@
 ---
-title: "Recepción de sondeo el mensajes a través de varios puertos de recepción de SQL con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recepción de sondeo el mensajes a través de varios puertos de recepción de SQL con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21cf4875-1c04-41cf-98f5-d1307987ca55
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223964"
 ---
 # <a name="receive-polling-messages-across-multiple-receive-ports-from-sql-using-biztalk-server"></a>Recepción de sondeo mensajes a través de varios puertos de recepción de SQL con BizTalk Server
 Considere un escenario donde desea crear una aplicación de BizTalk que incluye dos operaciones de sondeo. Cada operación de sondeo sondea tablas independientes, empleados y clientes, desde la misma base de datos. Al implementar este tipo de aplicación en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, debe crear dos puertos de recepción. El URI de conexión para cada puerto de recepción será:  

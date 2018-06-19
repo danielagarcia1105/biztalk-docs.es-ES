@@ -1,14 +1,14 @@
 ---
-title: "Contexto de seguridad del adaptador de recepción de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Contexto de seguridad del adaptador de recepción de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3db2b534-db9d-4075-aaad-0974b024dc71
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223828"
 ---
 # <a name="swift-receive-adapter-security-context"></a>Contexto de seguridad del adaptador de recepción de SWIFT
 El adaptador de recepción, a diferencia del adaptador de envío, se inicia desde la línea de comandos de vínculo SWIFTNet (SNL/RA) (SWIFTNet inicio). El ejecutable del adaptador de recepción está configurado en el archivo de configuración de SNL/RA (paramconfig). El adaptador en el inicio inicializa la biblioteca SNL basándose en el parámetro de línea de comandos. Los valores de configuración se almacenan en caché para su uso posterior.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221924"
 ---
 # <a name="get-metadata-for-siebel-operations-in-visual-studio"></a>Obtiene los metadatos para operaciones de Siebel en Visual Studio
 El [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] proporciona dos [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] componentes que puede utilizar para ayudarle a desarrollar soluciones mediante el adaptador.  

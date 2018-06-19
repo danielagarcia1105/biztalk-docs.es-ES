@@ -1,14 +1,14 @@
 ---
 title: Rol de los acuerdos AS2 procesamiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb6a6fe1-8fb4-4998-a1b4-aadad7e672c4
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279436"
 ---
 # <a name="the-role-of-agreements-in-as2-processing"></a>Rol de los acuerdos en el procesamiento de AS2
 Una organización usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes AS2 de uno o varios socios comerciales, así como para enviar mensajes AS2 a ellos. A su vez, los socios comerciales definen perfiles de negocio que son entidades de negocio dentro de una organización. Las propiedades de AS2 se establecen en acuerdos entre socios comerciales bidireccionales entre dos perfiles de negocio que pertenecen a socios comerciales distintos.  

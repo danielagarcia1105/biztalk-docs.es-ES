@@ -1,14 +1,14 @@
 ---
-title: "Paso 6 (de forma local): Crear una transformación para asignar el mensaje de la cola en el esquema de inserción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6 (de forma local): Crear una transformación para asignar el mensaje de la cola en el esquema de inserción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30a55f1e-32cc-409a-a814-084026f51b35
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276596"
 ---
 # <a name="step-6-on-premises-create-a-transform-to-map-the-message-from-the-queue-to-the-insert-schema"></a>Paso 6 (de forma local): Crear una transformación para asignar el mensaje de la cola en el esquema de inserción
 El mensaje que se recibe por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde la cola de Bus de servicio será de la **ECommerceSalesOrder.xsd** esquema. Sin embargo, para insertar un mensaje en el **SalesOrder** tabla, el mensaje debe ser de **insertar** esquema que generó en [(local) del paso 5: generar el esquema para insertar un mensaje en la Tabla SalesOrder](../core/step-5-generate-the-schema-for-inserting-a-message-into-salesorder-table.md). Por lo tanto, en este tema, se creará una asignación para transformar la **ECommerceSalesOrder.xsd** esquema en el esquema de la operación de inserción.  

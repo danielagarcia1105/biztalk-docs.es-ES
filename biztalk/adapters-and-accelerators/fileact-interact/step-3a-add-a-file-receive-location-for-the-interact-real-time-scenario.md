@@ -1,14 +1,14 @@
 ---
-title: "Paso 3A: agregar un archivo de ubicación de recepción para el escenario en tiempo real de interactuar | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3A: agregar un archivo de ubicación de recepción para el escenario en tiempo real de interactuar | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5579375-8c05-4583-bcaa-b483ac275d8a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224564"
 ---
 # <a name="step-3a-add-a-file-receive-location-for-the-interact-real-time-scenario"></a>Paso 3A: agregar un archivo de ubicación de recepción para el escenario en tiempo real de interactuar
 Configurar una ubicación de recepción que le permite colocar fácilmente los archivos de prueba de validación. Utilice esta ubicación para el escenario de prueba.  

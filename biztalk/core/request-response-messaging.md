@@ -1,11 +1,11 @@
 ---
-title: "Mensajería de solicitud-respuesta | Documentos de Microsoft"
-ms.custom: 
+title: Mensajería de solicitud-respuesta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - request/response messaging, about request/response messaging
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - request/response messaging, SOAP adapters
 - messages, patterns
 ms.assetid: 1a2f79b5-1f44-4191-8ce1-b3c9043be4f4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268524"
 ---
 # <a name="request-response-messaging"></a>Mensajería de solicitud-respuesta
 En un patrón de mensajería de solicitud-respuesta, una parte envía un mensaje de solicitud y la parte receptora devuelve un mensaje de respuesta. Dos ejemplos típicos del procesamiento de solicitud-respuesta son la interacción que tiene un explorador con un servidor Web que usa el adaptador de HTTP y el procesamiento de servicios Web que usan el adaptador de protocolo de acceso simple a objetos (SOAP). En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la solicitud y los mensajes de respuesta se controlan de forma típica publicación-suscripción. Ésta es una consideración importante para comprender el ajuste de rendimiento de una aplicación de BizTalk, porque es posible que un sistema que requiera un alto rendimiento deba configurarse de forma diferente a otro que requiera baja latencia para mensajes individuales.  

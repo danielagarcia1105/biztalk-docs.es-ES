@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 08035518-17ad-44d2-ab06-90d725c95ced
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22231892"
 ---
 # <a name="biztalk-esb-toolkit"></a>Kit de herramientas de BizTalk ESB
 El kit de herramientas de Microsoft BizTalk ESB usa Microsoft BizTalk Server para admitir una arquitectura de mensajería ligeramente acoplada. BizTalk Server incluye un eficaz mecanismo de publicación o suscripción para aplicaciones de mensajería que funciona al crear y completar suscripciones, lo que proporciona una plataforma escalable y de gran eficacia para aplicaciones de arquitectura orientada a servicios (SOA). El kit de herramientas de BizTalk ESB amplía la funcionalidad de BizTalk Server para proporcionar una variedad de capacidades nuevas centradas en la creación de robustas aplicaciones orientadas a servicios y conectadas que incorporen una invocación de servicios basada en itinerarios para la composición de servicios ligeros, la resolución dinámica de extremos y asignaciones, servicio web e integración con WS-*, administración e informes de errores, así como integración con soluciones de control SOA de terceros.  

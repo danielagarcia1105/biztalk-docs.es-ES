@@ -1,14 +1,14 @@
 ---
 title: En las fases de procesamiento de orden de procesamiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 698005da-1ba8-4972-83db-f5ae45fd6a83
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265100"
 ---
 # <a name="processing-in-the-order-processing-stages"></a>Procesar en las fases de procesamiento de pedidos
 La solución de administración de procesos empresariales incluye dos fases, la **CableOrder1** y **CableOrder2** orquestaciones, que llevan a cabo las acciones de procesamiento de pedidos. Para obtener más información acerca de cómo se dividió el proceso de pedido en fases, vea [número de fases de procesamiento](../core/number-of-processing-stages.md).  

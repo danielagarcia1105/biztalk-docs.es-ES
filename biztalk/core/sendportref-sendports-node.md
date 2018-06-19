@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269964"
 ---
 # <a name="sendportref-sendports-node"></a>SendPortRef (nodo SendPorts)
 El nodo SendPortRef del nodo SendPorts de un archivo de enlace especifica el nombre del puerto de envío al que hace referencia una lista de distribución.  

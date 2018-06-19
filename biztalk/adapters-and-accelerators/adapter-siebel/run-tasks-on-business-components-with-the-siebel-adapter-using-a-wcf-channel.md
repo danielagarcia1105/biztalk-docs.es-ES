@@ -1,17 +1,17 @@
 ---
 title: Ejecute las operaciones en los componentes empresariales con el adaptador de Siebel mediante el modelo de canal de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, perform operations using the channel
 - performing operations, using the channel
 ms.assetid: bae74013-38fa-413c-ba91-4e4ba096339e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222028"
 ---
 # <a name="run-operations-on-business-components-with-the-siebel-adapter-using-the-wcf-channel-model"></a>Ejecute las operaciones en los componentes empresariales con el adaptador de Siebel mediante el modelo de canal de WCF
 Esta sección muestra cómo realizar operaciones en Siebel utilizando el canal creado en [crear un canal con Siebel](../../adapters-and-accelerators/adapter-siebel/create-a-channel-using-siebel.md).  

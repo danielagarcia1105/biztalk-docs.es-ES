@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230596"
 ---
 # <a name="btaddatabase"></a>BTAD_Database
 Cuando las secuencias de comandos previas y posteriores al procesamiento se ejecutan a la hora de importar la aplicación, se establece la variable de entorno BTAD_Database. Especifica el nombre de la base de datos de administración de BizTalk del grupo.  

@@ -1,14 +1,14 @@
 ---
 title: 'Paso 5 (local): Generar el esquema para insertar un mensaje en la tabla SalesOrder | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab0bc1a7-8bcd-4110-88e6-4eddf0b57068
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279324"
 ---
 # <a name="step-5-on-premises-generate-the-schema-for-inserting-a-message-inito-salesorder-table"></a>Paso 5 (local): Generar el esquema para insertar un mensaje en la tabla SalesOrder
 Según el escenario empresarial, el X12 envía el mensaje de pedido de ventas de Contoso debe insertarse en de Northwind **SalesOrder** tabla si la cantidad pedida es superior a 100. Para insertar un mensaje en una **SalesOrder** tabla, debe generar el esquema para el **insertar** operación en la tabla. En este tema, aprenderá a crear un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución y, a continuación, utilice la [!INCLUDE[consumeadapterservshort](../includes/consumeadapterservshort-md.md)] para generar el esquema para llevar a cabo una **insertar** operación en el **SalesOrder** tabla.  

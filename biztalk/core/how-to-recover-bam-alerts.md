@@ -1,14 +1,14 @@
 ---
-title: "Cómo recuperar las alertas de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo recuperar las alertas de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56c477b4-4605-4763-b20a-3baf4529f13f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972546"
 ---
 # <a name="how-to-recover-bam-alerts"></a>Cómo recuperar alertas SAE
 Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se usa Supervisión de la actividad económica (BAM), también será necesario recuperar las alertas de BAM.  
@@ -37,7 +38,7 @@ Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includ
     > [!IMPORTANT]
     >  Recuerde que debe usar el nuevo servidor de bases de datos de servicios de notificación en el **-server** opción al volver a registrar el servicio. Además, el nombre de usuario que utilice en los nuevos servicios de notificación debería ser el mismo que el que utilizaba en los anteriores.  
   
-3.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+3.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 4.  En el símbolo del sistema, escriba: **net start NS$ BamAlerts**.  
   

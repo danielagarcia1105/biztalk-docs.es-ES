@@ -1,11 +1,11 @@
 ---
-title: "Implementación de aplicaciones y características de administración | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de aplicaciones y características de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - what's new, Installation Wizard
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - applications, what's new
 - what's new, applications
 ms.assetid: 2d09d6b1-1003-406f-81da-14e21a1cbc81
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231044"
 ---
 # <a name="application-deployment-and-management-features"></a>Características de implementación y administración de aplicaciones
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye varias características que le ayudarán con la implementación de soluciones empresariales de BizTalk:  

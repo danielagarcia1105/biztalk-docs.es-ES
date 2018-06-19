@@ -1,14 +1,14 @@
 ---
-title: "Se recibió un mensaje AS2 que no contenía AS2-al encabezado | Documentos de Microsoft"
-ms.custom: 
+title: Se recibió un mensaje AS2 que no contenía AS2-al encabezado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 343a9b41-fcd9-4508-ac65-9b6e05ec6496
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230140"
 ---
 # <a name="an-as2-message-was-received-that-did-not-contain-the-as2-to-header"></a>Se recibió un mensaje AS2 sin el encabezado AS2-To.
 ## <a name="details"></a>Detalles  

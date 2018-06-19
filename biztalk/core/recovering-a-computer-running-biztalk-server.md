@@ -1,14 +1,14 @@
 ---
 title: Recuperar un equipo que ejecuta BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a55af6d6-f11a-46e4-9b8e-0a1ca35998c4
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268820"
 ---
 # <a name="recovering-a-computer-running-biztalk-server"></a>Recuperar un equipo que ejecuta BizTalk Server
 Para recuperar un equipo que ejecuta BizTalk Server, debe tener acceso a las bases de datos de BizTalk Server. En caso necesario, restaure las bases de datos de BizTalk Server. Asimismo, antes de poder recuperar el equipo que ejecuta BizTalk Server, debe volver a instalar BizTalk Server y todos los prerrequisitos.  

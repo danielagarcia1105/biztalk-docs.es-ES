@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad con tipos que aceptan valores null | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a5ea191-09d5-47ab-a197-390fbbcf6306
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278724"
 ---
 # <a name="support-for-nullable-types"></a>Compatibilidad con tipos que aceptan valores NULL
 El motor de reglas admite el uso de los tipos que aceptan valores NULL en una regla de negocios. Puede usar tipos que aceptan valores NULL en enlaces de clase .NET, enlaces XML y enlaces de bases de datos. Actualmente, la herramienta Compositor de reglas de negocio no admite el uso de tipos que aceptan valores NULL en una regla de negocios. Puede usar los tipos que aceptan valores NULL a la hora de crear reglas mediante programación.  

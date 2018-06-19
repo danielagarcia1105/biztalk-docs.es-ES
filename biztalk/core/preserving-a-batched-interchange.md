@@ -1,14 +1,14 @@
 ---
 title: Conservar un intercambio por lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 907e07f3-1f3e-485e-a82d-b28eb7658e0a
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265348"
 ---
 # <a name="preserving-a-batched-interchange"></a>Conservar un intercambio por lotes
 En este tema se describe cómo se configura un acuerdo para procesar un intercambio EDI por lotes como un solo documento sin dividir los conjuntos de transacciones que componen el intercambio.  

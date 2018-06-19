@@ -1,14 +1,14 @@
 ---
-title: "Lección 2: Recibir y filtrar notificaciones | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Recibir y filtrar notificaciones | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5ec679c-1c67-4bf4-aa88-0787373343f5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222556"
 ---
 # <a name="lesson-2-receive-and-filter-notifications"></a>Lección 2: Recibir y filtrar notificaciones
 En esta lección, empezar a crear una orquestación que recibe las notificaciones de cambios en el **empleado** tabla. Una vez que la orquestación recibe la notificación, extrae el tipo de notificación y si el tipo de notificación es para una operación de inserción en el **empleado** tabla, una condición "if" se usa para realizar las tareas subsiguientes. En esta lección, realizará las tareas siguientes:  

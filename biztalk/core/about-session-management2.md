@@ -1,14 +1,14 @@
 ---
-title: "Acerca de la sesión 2 | Documentos de Microsoft"
-ms.custom: 
+title: Acerca de la sesión 2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3ecdb4f-d384-42ac-9776-e7ad14d5f151
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225612"
 ---
 # <a name="about-session-management"></a>Administración de sesiones
 El adaptador de Microsoft BizTalk para J.D. Edwards EnterpriseOne crea una sesión de conexión para enviar una llamada al servidor J.D. Edwards EnterpriseOne. Cuando la llamada termina, la sesión se coloca en un grupo para que pueda ser utilizada por una llamada posterior. El adaptador crea varias sesiones de conexión para controlar las llamadas concurrentes al servidor J.D. Edwards EnterpriseOne. El grupo se limpia regularmente para quitar sesiones que ya no son necesarias.  

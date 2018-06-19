@@ -1,11 +1,11 @@
 ---
-title: "Usar vínculos de rol en orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Usar vínculos de rol en orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - role links
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - role links, properties
 - role links, initializing
 ms.assetid: 0cf85544-12c9-4541-8925-61a6e946cce0
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288468"
 ---
 # <a name="using-role-links-in-orchestrations"></a>Usar vínculos de rol en orquestaciones
 Los vínculos de rol constituyen una abstracción de las interacciones entre la orquestación y sus socios comerciales. Los vínculos de rol permiten elegir de manera dinámica con qué socio comercial desea interactuar según la resolución de éste último, el contenido del mensaje o los resultados de una búsqueda en la base de datos, manteniendo intacto el proceso empresarial global.  

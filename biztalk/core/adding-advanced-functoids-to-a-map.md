@@ -1,14 +1,14 @@
 ---
-title: "Agregar avanzada Functoids a una asignación | Documentos de Microsoft"
-ms.custom: 
+title: Agregar avanzada Functoids a una asignación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbec5e9c-65b3-4734-a7fc-4ee66cf26eee
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229908"
 ---
 # <a name="adding-advanced-functoids-to-a-map"></a>Agregar functoids avanzados a una asignación
 Functoids de la **avanzadas** categoría son más complejos para comprender y usar que los functoids en el resto de categorías, clasificados como functoids básicos. Los functoids avanzados se utilizan cuando necesita asignaciones más complejas. Estas asignaciones pueden necesitar contar registros, recorrer en bucle registros con un número variable de subregistros o ejecutar secuencias de comandos complejas arbitrariamente.  

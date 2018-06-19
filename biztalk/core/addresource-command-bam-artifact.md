@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Artefacto de BAM | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a9de7a82-9b06-4d50-9678-73140e80d0af
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230404"
 ---
 # <a name="addresource-command-bam-artifact"></a>AddResource (comando): Artefacto de BAM
 Para agregar un artefacto de BAM a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: BAM** para el parámetro de tipo. Ejecutar este comando agrega el archivo de artefacto de BAM a la base de datos de administración de BizTalk. Además, el artefacto de BAM aparece en la consola de administración de BizTalk Server en la carpeta Recursos de la aplicación a la que lo agregó. Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md).  

@@ -1,14 +1,14 @@
 ---
-title: "Método GetSchema del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Método GetSchema del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4c83340c-a775-435c-9633-3a692611e99e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225196"
 ---
 # <a name="adapter-getschema-method"></a>Método GetSchema del adaptador
 Supongamos que el archivo WSDL al que se hace referencia contiene solo referencias a esquemas y ningún esquema integrado. En este caso, utilice la **GetSchema** método de la **IAdapterConfig** interfaz para cargar un esquema al que hace referencia desde dentro de un archivo WSDL.  

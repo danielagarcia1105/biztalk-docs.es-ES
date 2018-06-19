@@ -1,11 +1,11 @@
 ---
 title: Control de acceso para los Roles administrativos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - roles, administrative
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - administrative roles
 - access control, administrative roles
 ms.assetid: 328e049b-921d-4057-85f0-7d008ec308bb
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225820"
 ---
 # <a name="access-control-for-administrative-roles"></a>Control de acceso para los Roles administrativos
 Cuando un usuario abre cualquiera de las herramientas de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que requieren acceso a las bases de datos o los recursos de Windows, el usuario interactivo de la herramienta debe disponer de los derechos de usuario de SQL Server y Windows adecuados para realizar las diversas tareas correspondientes.  

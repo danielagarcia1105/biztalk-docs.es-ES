@@ -1,11 +1,11 @@
 ---
-title: "Configuración del motor de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del motor de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration engine, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestration engine, dehydration
 - orchestration engine, configuring
 ms.assetid: d4f253c3-317d-4b52-bf54-81d50f03eeb3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972682"
 ---
 # <a name="orchestration-engine-configuration"></a>Configuración del motor de orquestación
 El motor de orquestación utiliza un archivo XML denominado BTSNTSvc.exe.config para determinar determinados comportamientos. Por ejemplo, las propiedades de deshidratación y los valores predeterminados están configurados como XML en el archivo BTSNTSvc.exe.config y se leen cuando se inician todas las instancias de host que contienen una orquestación. Para obtener más información, consulte [orquestación deshidratación y rehidratación](../core/orchestration-dehydration-and-rehydration.md).  

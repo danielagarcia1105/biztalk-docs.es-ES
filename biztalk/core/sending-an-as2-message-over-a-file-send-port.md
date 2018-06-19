@@ -1,14 +1,14 @@
 ---
-title: "Enviar un mensaje AS2 a través de un puerto de envío de archivo | Documentos de Microsoft"
-ms.custom: 
+title: Enviar un mensaje AS2 a través de un puerto de envío de archivo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c5ce9ff-fd73-4d5f-9b16-387c1e520c3a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270732"
 ---
 # <a name="sending-an-as2-message-over-a-file-send-port"></a>Enviar un mensaje AS2 a través de un puerto de envío de archivo
 Los mensajes AS2 suelen enviarse a través de un adaptador de HTTP. No obstante, puede enviar mensajes AS2 a través de un adaptador de archivo si crea componentes personalizados. En este tema se describe cómo funcionaría esta solución y ofrece códigos de ejemplo para ella.  

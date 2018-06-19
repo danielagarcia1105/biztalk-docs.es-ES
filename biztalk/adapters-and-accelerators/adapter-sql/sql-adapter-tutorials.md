@@ -1,14 +1,14 @@
 ---
 title: Tutoriales del adaptador SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ecebca37-b26a-49d5-ae19-2936c8010d50
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222484"
 ---
 # <a name="sql-adapter-tutorials"></a>Tutoriales del adaptador de SQL
 El primero de la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] tutoriales contiene instrucciones detalladas sobre cómo migrar proyectos de BizTalk creados mediante la versión anterior del adaptador SQL para utilizar basadas en WCF [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. El otro [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] contiene instrucciones paso a paso basada en escenario acerca de cómo realizar operaciones en SQL Server mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  

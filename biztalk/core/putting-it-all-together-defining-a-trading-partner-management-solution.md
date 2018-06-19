@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22269228"
 ---
 # <a name="putting-it-all-together-defining-a-trading-partner-management-solution"></a>Perspectiva general: definir una solución de administración de socios comerciales
 Ahora que hemos comprendido los diferentes tipos de componentes en la generación de una solución TPM, vamos a describir el flujo de una solución TPM típica y cómo funcionan juntos los diferentes componentes fundamentales. En esta sección también se enumeran algunas de las prácticas recomendadas para modelar una solución TPM.  

@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Adaptador de FTP | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - FTP adapters, TMA
 - DFD, FTP adapters
 ms.assetid: c648f84a-c83a-44f0-adc9-a3f98b597506
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271964"
 ---
 # <a name="sample-tma-ftp-adapter"></a>TMA de ejemplo: Adaptador de FTP
 En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario del adaptador de FTP de la arquitectura de ejemplo.  
@@ -64,7 +65,7 @@ En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario d
   
 -   **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
--   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.  
+-   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.  
   
  **Tabla 1: lista de amenazas identificadas**  
   
@@ -74,7 +75,7 @@ En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario d
 |El servidor FTP está expuesto a ataques de servidores DHCP no autorizados.|Si el URI no contiene la contraseña del usuario pero está especificado en el controlador, la contraseña del controlador se está enviando actualmente al servidor FTP en el tiempo de ejecución. Si un servidor FTP deshonesto está escuchando las llamadas de autenticación, puede que se valga de este método para averiguar las contraseñas. Una posible solución es habilitar o deshabilitar el uso de la contraseña en el nivel del controlador.|Servidor FTP|Suplantación de identidad<br /><br /> Manipulación de datos<br /><br /> Revelación de información|  
   
 ## <a name="step-3-review-threats-ftp-adapter-scenario"></a>Paso 3. Analizar las amenazas (escenario del adaptador de FTP)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de FTP de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de FTP de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.  
   

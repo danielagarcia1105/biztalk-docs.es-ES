@@ -1,17 +1,17 @@
 ---
 title: Utilizando el objeto Orderhandler para comunicarse con sistemas de back-end | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IOrderHandler interface
 - process management solution tutorial, IOrderHandler interface
 ms.assetid: b9fe4120-bf2a-4d15-a34b-6b98f026b984
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288068"
 ---
 # <a name="using-the-order-handler-object-to-communicate-with-backend-systems"></a>Utilizando el objeto Orderhandler para comunicarse con sistemas de back-end
 La solución Administración de procesos empresariales puede comunicarse de distintas formas con el sistema de servidor de pedidos heredado, el sistema de suministro de cable que recibe los pedidos finales. La solución usa los recursos remotos de .NET que se encuentran en Microsoft [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] para comunicarse con el sistema de suministro.  

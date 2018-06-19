@@ -1,14 +1,14 @@
 ---
 title: 'El paso 4A: iniciar el servicio SWIFTNet | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a4128cd-dabe-45a0-9171-1635a875b5e9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223172"
 ---
 # <a name="step-4a-start-the-swiftnet-service"></a>El paso 4A: iniciar el servicio SWIFTNet
 Antes de comenzar este paso, debe completar [paso 3E: agregar un puerto de envío de interacción para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-3e-add-an-interact-send-port-for-the-interact-real-time-scenario.md).  

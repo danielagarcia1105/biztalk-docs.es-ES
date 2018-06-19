@@ -1,14 +1,14 @@
 ---
-title: "Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55355272-60c0-49e4-b37e-9198458ab305
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222372"
 ---
 # <a name="configure-transaction-isolation-level-and-transaction-timeout-with-sql"></a>Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con SQL
 Al realizar operaciones de entrada (sondeo y la notificación) mediante la [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe configurar de manera adecuada el nivel de aislamiento de transacción y los valores de tiempo de espera de transacción. Para hacerlo:  

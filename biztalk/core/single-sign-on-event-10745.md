@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10745 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10745 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed630e40-d876-4e90-937e-4d2d54fe9f1a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270828"
 ---
 # <a name="single-sign-on-event-10745"></a>Inicio de sesión único: Evento 10745
 ## <a name="details"></a>Detalles  

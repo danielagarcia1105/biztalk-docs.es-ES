@@ -1,11 +1,11 @@
 ---
-title: "Seguimiento de eventos empresariales asíncronos | Documentos de Microsoft"
-ms.custom: 
+title: Seguimiento de eventos empresariales asíncronos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, BAM
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM, event tracking
 - BAM, performance
 ms.assetid: 6d51fadf-b329-4536-9618-d982d9c17882
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230476"
 ---
 # <a name="asynchronous-business-event-tracking"></a>Seguimiento asíncrono de eventos empresariales
 Asincrónica (con `BufferedEventStream`)-este modelo ofrece importantes mejoras de rendimiento. Utiliza una API parecida a la del modelo sincrónico, que utiliza solo un constructor diferente. En lugar de insertar los datos en la base de datos de importación principal, BufferedEventStream acumula los datos de eventos en la memoria en forma binaria y luego los inserta como un registro de tabla único en la base de datos temporal (cuadro de mensajes). El servicio de bus de eventos BAM lee los datos que BizTalk tiene en cola en la base de datos de cuadro de mensajes y los importa a la base de datos de importación principal.  

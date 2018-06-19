@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264812"
 ---
 # <a name="programming-with-business-rules-framework"></a>Programar con marco de trabajo de reglas de negocios
 Esta sección abarca las tareas relativas al programador del marco de trabajo de reglas de negocios como la ejecución de directivas mediante programación y la creación de un componente administrador de almacenes de datos.  

@@ -1,14 +1,14 @@
 ---
 title: Todos los nodos de grupo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e28d98c-746a-44d8-bed2-ba539b8432aa
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230652"
 ---
 # <a name="all-group-nodes"></a>Nodos Todos los grupos
 En el Editor de BizTalk, puede insertar un **todos los grupos** nodo para contener otros nodos que va a aparecer cero o una vez, en cualquier orden. En el lenguaje de definición (XSD) de esquemas XML, el **todos los grupos** tiene más limitaciones de uso que **secuencia** y **elección** grupos, que se traduce en algunos casos poco frecuentes en El Editor de BizTalk donde podrá crear un **todos los grupos** nodo.  

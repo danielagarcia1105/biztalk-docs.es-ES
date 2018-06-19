@@ -1,11 +1,11 @@
 ---
-title: "Types1 básica | Documentos de Microsoft"
-ms.custom: 
+title: Types1 básica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards OneWorld adapters, data types
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - JD Edwards OneWorld adapters, .NET Framework
 - adapters [JD Edwards OneWorld adapters], business functions
 ms.assetid: d306ea1b-fb74-4fa3-9681-405252928df1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231860"
 ---
 # <a name="basic-types"></a>Tipos básicos
 El adaptador de Microsoft BizTalk para JD Edwards OneWorld únicamente proporciona acceso a las funciones de negocio JD Edwards OneWorld. Los metadatos de función de negocio se leen mediante una interfaz de funciones de negocio y se usa para buscar una lista de funciones de negocio y estructuras de datos asociadas. Los metadatos se establecen de forma inflexible en todos los casos para todos los métodos de la función de negocio.  

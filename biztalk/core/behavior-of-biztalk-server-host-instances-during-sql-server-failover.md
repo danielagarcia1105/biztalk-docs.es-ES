@@ -1,14 +1,14 @@
 ---
-title: "Comportamiento de las instancias de Host de BizTalk Server durante la conmutación por error SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Comportamiento de las instancias de Host de BizTalk Server durante la conmutación por error SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5642417-d27f-4539-a369-5fa11bec4a4f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231252"
 ---
 # <a name="behavior-of-biztalk-server-host-instances-during-sql-server-failover"></a>Comportamiento de las instancias de host de BizTalk Server durante la conmutación por error de SQL Server
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]las bases de datos alojadas en una instancia en clúster de Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] están temporalmente no disponibles si la instancia en clúster de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] produce una conmutación por error. Esta sección documentan el comportamiento de las instancias de host asociadas a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cuando el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos no están disponibles.  

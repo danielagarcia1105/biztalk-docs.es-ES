@@ -1,11 +1,11 @@
 ---
-title: "Elementos Set de información XML en el componente de canalización de ensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Elementos Set de información XML en el componente de canalización de ensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Assembler [pipeline component], processing instructions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - pipeline components, XML Assembler
 - XML Assembler [pipeline component], XML information set
 ms.assetid: 5a262763-838e-476b-8117-30c94bc1d64a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289524"
 ---
 # <a name="xml-information-set-elements-in-the-xml-assembler-pipeline-component"></a>Elementos Set de información XML en el componente de canalización de ensamblador XML
 El componente de ensamblador XML controla los elementos Set de información XML como se indica a continuación.  

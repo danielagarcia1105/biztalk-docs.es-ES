@@ -1,11 +1,11 @@
 ---
 title: Consideraciones de seguridad para el Portal de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, security
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BAM portal, user accounts
 - security, BAM portal
 ms.assetid: 5c8e6034-dfb8-4dba-b040-0c19504abdb2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269388"
 ---
 # <a name="security-considerations-for-the-bam-portal"></a>Consideraciones de seguridad para el portal de BAM
 Con el principio de privilegios mínimos, las cuentas de usuario deben tener permisos restrictivos para realizar las tareas habituales en el portal de BAM. Tenga en cuenta las siguientes consideraciones cuando configure sus cuentas de usuario para BAM para equilibrar la seguridad con el acceso apropiado para usuarios.  

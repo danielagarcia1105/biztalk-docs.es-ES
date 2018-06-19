@@ -1,18 +1,18 @@
 ---
 title: Secuencias de comandos de Functoid | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scripting functoids, about Scripting functoids
 - Scripting functoids
 - Scripting functoids, configuring
 ms.assetid: ea8353da-049b-4e0c-a700-f51708db22a3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22273340"
 ---
 # <a name="scripting-functoid"></a>Secuencias de comandos (functoid)
 El **secuencias de comandos** functoid le permite utilizar secuencias de comandos personalizadas o código en tiempo de ejecución para realizar funciones de lo contrario no está disponibles. Por ejemplo, puede llamar a un ensamblado de .NET en tiempo de ejecución mediante la **secuencias de comandos** functoid y escribir sus propias funciones personalizadas.  

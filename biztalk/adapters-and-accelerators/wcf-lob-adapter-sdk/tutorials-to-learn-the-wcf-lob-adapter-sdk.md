@@ -1,14 +1,14 @@
 ---
-title: "Tutoriales para obtener información sobre el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Tutoriales para obtener información sobre el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99002b01-da8a-483e-ada3-1ffbe9cd7357
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226124"
 ---
 # <a name="tutorials-to-learn-the-wcf-lob-adapter-sdk"></a>Tutoriales para obtener información sobre el SDK de adaptador LOB de WCF
 El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] tutoriales contienen información acerca de cómo se puede utilizar [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] para desarrollar con numerosas características de línea de adaptadores de negocio para facilitar la integración de aplicaciones empresariales dentro de su empresa. Mediante el uso de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], las operaciones y los datos que exponga pueden ser utilizados por cualquier aplicación que puede utilizar un enlace WCF, incluidos los [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  

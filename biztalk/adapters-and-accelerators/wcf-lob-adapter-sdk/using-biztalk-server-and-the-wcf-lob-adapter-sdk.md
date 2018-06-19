@@ -1,14 +1,14 @@
 ---
 title: Con BizTalk Server y el SDK del adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43ff0357-76e6-42bc-a1f7-0385d9378a5f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226020"
 ---
 # <a name="using-biztalk-server-and-the-wcf-lob-adapter-sdk"></a>Con BizTalk Server y el SDK del adaptador LOB de WCF
 Esta sección contiene información sobre la relación de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. La información contenida en esta sección incluye las comparaciones de los dos marcos diferentes proporcionadas por cada uno de ellos y sugerencias para migrar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adaptador personalizado.  

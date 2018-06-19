@@ -1,14 +1,14 @@
 ---
 title: Contadores de rendimiento del motor de orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dcaf7517-da4a-4ed0-a3bb-7e9b73931bff
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265612"
 ---
 # <a name="orchestration-engine-performance-counters"></a>Contadores de rendimiento de motor de orquestaciones
 El motor de orquestaciones mantiene varios contadores de rendimiento que puede examinar con el Monitor de rendimiento para ver cuántas instancias de orquestación y transacciones procesa el motor durante un cierto período.  

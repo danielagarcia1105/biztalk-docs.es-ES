@@ -1,11 +1,11 @@
 ---
 title: Nodos de eventos empresariales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - events, Tracking Profile Editor
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Business Event nodes [Tracking Profile Editor]
 - Tracking Profile Editor, events
 ms.assetid: 177bc3c4-e762-42fe-80bc-edede5cd4fcd
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230908"
 ---
 # <a name="business-event-nodes"></a>Nodos de eventos empresariales
 Los nodos de hitos o eventos empresariales definen eventos que son específicos de la fecha o la hora. Las carpetas de hito o evento empresarial predefinidas existen en la definición de actividad que importa del usuario empresarial final y no las puede eliminar sin tener que volver a importar el archivo de definición de actividad.  

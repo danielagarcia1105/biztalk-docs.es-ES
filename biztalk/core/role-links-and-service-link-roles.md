@@ -1,11 +1,11 @@
 ---
-title: "Vínculos de función y el servicio vinculan Roles | Documentos de Microsoft"
-ms.custom: 
+title: Vínculos de función y el servicio vinculan Roles | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, orchestrations
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - role links, about role links
 - orchestrations, deleting
 ms.assetid: 23b4ca34-a1a5-44d4-a50d-661277681c72
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268684"
 ---
 # <a name="role-links-and-service-link-roles"></a>Vínculos de rol y roles de vínculo de servicio
 A *rol* es una colección de tipos de puerto que utiliza un servicio o implementa un servicio. Una función representa el tipo de interacción que una entidad puede tener con una o muchas orquestaciones. Las funciones proporcionan flexibilidad y facilidad de administración cuando aumenta el número de entidades. Por ejemplo, una orquestación puede que utilice la función de un remitente. El remitente tendría una o dos entidades asociadas con él. Cuando la orquestación decide qué compañía remitente se va a utilizar para enviar un elemento, compara los precios de las entidades de la función del remitente.  

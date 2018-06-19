@@ -1,17 +1,17 @@
 ---
 title: Puertos para el servidor de seguimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-01-07
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking server
 - ports, tracking server
 ms.assetid: 4b4913a4-7d8d-4fd0-a116-ba868c4ad7da
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266356"
 ---
 # <a name="ports-for-the-tracking-server"></a>Puertos para el servidor de seguimiento
 Para obtener información completa acerca de cómo proteger la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).  

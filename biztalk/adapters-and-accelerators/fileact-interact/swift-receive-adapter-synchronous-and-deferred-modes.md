@@ -1,14 +1,14 @@
 ---
-title: "Modos sincrónico y diferido del adaptador de recepción de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Modos sincrónico y diferido del adaptador de recepción de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 704def2c-ac82-4cdb-9354-609cc8dc1a0d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224820"
 ---
 # <a name="swift-receive-adapter-synchronous-and-deferred-modes"></a>Modos sincrónico y diferido del adaptador de recepción de SWIFT
 Las aplicaciones de servidor de vínculo SWIFTNet (SNL) pueden funcionar en dos modos diferentes: modo sincrónico y diferido. En modo sincrónico, la aplicación de servidor envía una respuesta de negocios a la aplicación cliente. En el modo diferido, la aplicación de servidor envía una confirmación técnica a la aplicación cliente.  

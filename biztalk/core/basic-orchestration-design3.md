@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230716"
 ---
 # <a name="basic-orchestration-design"></a>Diseño de orquestación básica
 Cuando crea una orquestación básica, recibe un XML en el puerto de recepción de la orquestación. El XML se envía al sistema back-end para que se procese. En el sistema back-end se puede producir una excepción que detenga la orquestación. La excepción que se produce proporciona información de que no se ha completado la orquestación.  

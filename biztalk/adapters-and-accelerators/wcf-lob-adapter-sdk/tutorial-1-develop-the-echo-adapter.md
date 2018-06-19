@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ffb0df3c-cd07-4bcf-af69-971065081fd6
-caps.latest.revision: ''
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22226660"
 ---
 # <a name="tutorial-1-develop-the-echo-adapter"></a>Tutorial 1: Desarrollar el adaptador de eco
 En este tutorial, desarrollará una adaptadores funcional con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. El adaptador simula las operaciones de un sistema de línea de negocio ficticio para ilustrar muchas de las características claves del SDK de adaptador LOB de WCF, incluyendo:  

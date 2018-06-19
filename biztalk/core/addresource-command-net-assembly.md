@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef6ec298-35fe-4845-9549-685993d2c659
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22231660"
 ---
 # <a name="addresource-command-net-assembly"></a>AddResource (comando): Ensamblado de .NET
 Para agregar un ensamblado .NET (que incluye componentes administrados COM o COM +) a una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:Assembly** para el parámetro de tipo. Ejecutar este comando agrega el ensamblado a la base de datos de administración de BizTalk. Además, el ensamblado aparece en la consola de administración de BizTalk Server en la carpeta Recursos de la aplicación a la que lo agregó. Además, el ensamblado se enumera cuando se utiliza el [comando ListApp](../core/listapp-command.md).  
@@ -24,7 +25,7 @@ Para agregar un ensamblado .NET (que incluye componentes administrados COM o COM
  Si un ensamblado tiene el mismo nombre completo que un ensamblado ya existente en la aplicación, puede especificar el parámetro Overwrite. El nombre completo consta del nombre, del token de clave pública, de la referencia cultural y de la versión. En este caso, se sobrescribe el ensamblado existente. Para obtener más información acerca de las dependencias, consulte [dependencias e implementación de aplicaciones](../core/dependencies-and-application-deployment.md).  
   
 ## <a name="usage"></a>Uso  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**&#124;**RegasmOnInstall**&#124;**RegsvcsOnInstall**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **&#124;** RegasmOnInstall **&#124;** RegsvcsOnInstall **] [**/Server:***value*] [**/Database:*** value*]  
   
 ## <a name="parameters"></a>Parámetros  
   

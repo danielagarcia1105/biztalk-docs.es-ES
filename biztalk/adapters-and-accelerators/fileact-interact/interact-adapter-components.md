@@ -1,14 +1,14 @@
 ---
 title: Componentes de adaptador interAct | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aad60b57-4cc8-44b9-98f5-e5a2ba3a41e2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224692"
 ---
 # <a name="interact-adapter-components"></a>Componentes de adaptador interAct
 El adaptador de InterAct tiene un cliente y un componente de servidor. Tenga en cuenta que puede haber una instalación de A4SWIFT (mínima) en el mismo equipo como puerta de enlace de Alliance de SWIFT (SAG) si se está ejecutando Windows Server. Tenga en cuenta también que el vínculo de SWIFTNet (SNL) pueden estar en un equipo diferente desde el SAG. El adaptador de host (API) de la interfaz proporcionada por SWIFT de programación de aplicaciones remoto se utilizan para comunicarse de A4SWIFT con SAG, independientemente de la ubicación de los componentes.  

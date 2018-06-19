@@ -1,11 +1,11 @@
 ---
-title: "Validación en tiempo de ejecución para el motor de orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Validación en tiempo de ejecución para el motor de orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, assemblies
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - validating, orchestrations
 - validating
 ms.assetid: f6085889-05d6-4eba-a528-9d034c4e4225
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269268"
 ---
 # <a name="runtime-validation-for-the-orchestration-engine"></a>Validación en tiempo de ejecución del motor de orquestaciones
 Puede configurar el motor de orquestaciones para realizar distintas validaciones en tiempo de ejecución que le ayuden a probar su orquestación y a diagnosticar los errores de datos o de configuración que se puedan producir.  

@@ -1,14 +1,14 @@
 ---
 title: Procesar un mensaje AS2 entrante | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 998ff334-71e2-4686-b2b7-44940a0ebed1
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266396"
 ---
 # <a name="processing-an-incoming-as2-message"></a>Procesar un mensaje AS2 entrante
 La canalización de recepción AS2 procesa un mensaje entrante a través de AS2. La canalización de recepción AS2EdiReceive procesa un mensaje con codificación EDI mediante el Desensamblador EDI. La canalización de recepción AS2Receive procesa un mensaje sin codificación EDI mediante el Desensamblador de AS2. Las dos canalizaciones procesan la carga del mensaje AS2 y generan un MDN de forma distinta; sin embargo, ambas canalizaciones de recepción utilizan el descodificador AS2 para procesar el mensaje AS2.  
