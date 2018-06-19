@@ -1,14 +1,14 @@
 ---
 title: Implementar soluciones de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18a5bc04-1b0a-4242-b599-760e696f5c06
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257172"
 ---
 # <a name="implementing-bam-solutions"></a><span data-ttu-id="b989f-102">Implementar soluciones de BAM</span><span class="sxs-lookup"><span data-stu-id="b989f-102">Implementing BAM Solutions</span></span>
 <span data-ttu-id="b989f-103">Esta sección describe las distintas formas de implementar su solución de BAM, incluida la captura de datos de interés, el envío de datos a BAM y la modificación de los datos que envía a BAM como resultado de la modificación de los requisitos empresariales. </span><span class="sxs-lookup"><span data-stu-id="b989f-103">This section describes ways to implement your BAM solution, including capturing data of interest, sending data to BAM, and modifying the data you send to BAM as a result of changing business requirements.</span></span>  

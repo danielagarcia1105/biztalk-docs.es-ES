@@ -1,11 +1,11 @@
 ---
 title: Propiedades y esquema de propiedades de adaptador MSMQ | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - AcknowledgeType property [MSMQ adapters]
@@ -40,7 +40,7 @@ helpviewer_keywords:
 - Priority property [MSMQ adapters]
 - AdministrationQueue property [MSMQ adapters]
 ms.assetid: 9de29341-db8e-4d50-8f1d-3b7397afb58d
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -49,6 +49,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265988"
 ---
 # <a name="msmq-adapter-property-schema-and-properties"></a><span data-ttu-id="72d9c-102">Propiedades y esquema de propiedades del adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="72d9c-102">MSMQ Adapter Property Schema and Properties</span></span>
 <span data-ttu-id="72d9c-103">El adaptador de MSMQ asigna valores a las propiedades de contexto que se utilizan en las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="72d9c-103">The MSMQ adapter assigns values to context properties that you use in your applications.</span></span> <span data-ttu-id="72d9c-104">Para obtener una lista de envío y recepción de propiedades del adaptador de MSMQ, vea [cómo configurar una ubicación de recepción de MSMQ](../core/how-to-configure-an-msmq-receive-location.md) y [cómo configurar un puerto de envío MSMQ](../core/how-to-configure-an-msmq-send-port.md).</span><span class="sxs-lookup"><span data-stu-id="72d9c-104">For a list of the send and receive properties in the MSMQ adapter, see [How to Configure an MSMQ Receive Location](../core/how-to-configure-an-msmq-receive-location.md) and [How to Configure an MSMQ Send Port](../core/how-to-configure-an-msmq-send-port.md).</span></span>  

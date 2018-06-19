@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240628"
 ---
 # <a name="error---required-target-has-choice-node-source"></a><span data-ttu-id="9f10d-102">Error: el destino necesario tiene origen de nodo elección</span><span class="sxs-lookup"><span data-stu-id="9f10d-102">Error - Required Target Has Choice Node Source</span></span>
 <span data-ttu-id="9f10d-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="9f10d-103">**Error Code**</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar MQSeries adaptador ubicaciones de recepción y puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar MQSeries adaptador ubicaciones de recepción y puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, receive ports
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MQSeries adapters, receive locations
 - receive locations, MQSeries adapters
 ms.assetid: 552aacde-9ec0-4459-b369-073676b6f926
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250516"
 ---
 # <a name="how-to-configure-mqseries-adapter-receive-locations-and-send-ports"></a><span data-ttu-id="a28cf-102">Cómo configurar MQSeries adaptador ubicaciones de recepción y puertos de envío</span><span class="sxs-lookup"><span data-stu-id="a28cf-102">How to Configure MQSeries Adapter Receive Locations and Send Ports</span></span>
 <span data-ttu-id="a28cf-103">Puede configurar el adaptador de MQSeries tanto para ubicaciones de recepción como para puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="a28cf-103">You can configure the MQSeries adapter for both receive locations and send ports.</span></span>  

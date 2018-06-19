@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261780"
 ---
 # <a name="jd-edwards-oneworld-add-adapter-metadata-wizard"></a><span data-ttu-id="4a049-102">Asistente para agregar metadatos de adaptador de JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="4a049-102">JD Edwards OneWorld Add Adapter Metadata Wizard</span></span>
 <span data-ttu-id="4a049-103">Use el Asistente para agregar metadatos de adaptador para obtener acceso a la información de metadatos del sistema J.D. Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="4a049-103">Use the Add Adapter Metadata Wizard to access metadata information from the JD Edwards OneWorld system.</span></span>  

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - instances, suspended
 - instances, services
 ms.assetid: f91b1151-d879-4aa7-afc8-4cf13d928158
-caps.latest.revision: ''
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255676"
 ---
 # <a name="how-to-search-for-suspended-service-instances"></a><span data-ttu-id="db2bf-102">Cómo buscar instancias de servicio suspendidas</span><span class="sxs-lookup"><span data-stu-id="db2bf-102">How to Search for Suspended Service Instances</span></span>
 <span data-ttu-id="db2bf-103">Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar instancias de servicio suspendidas.</span><span class="sxs-lookup"><span data-stu-id="db2bf-103">You can use the **Query** tab in the BizTalk Server Administration Console to search for suspended service instances.</span></span> <span data-ttu-id="db2bf-104">Puede buscar un determinado subconjunto de mensajes para localizar un mensaje concreto asociado a un host, tipo, nombre de servicio, etc.</span><span class="sxs-lookup"><span data-stu-id="db2bf-104">You can search for a specific subset of messages to locate a specific message associated with a service name, type, host, etc.</span></span>  

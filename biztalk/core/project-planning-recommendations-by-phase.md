@@ -1,17 +1,17 @@
 ---
-title: "Recomendaciones para la planificación de proyectos por fases | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones para la planificación de proyectos por fases | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - planning, performance
 - performance, planning
 ms.assetid: 422f05e3-5ad4-4f47-9be3-c229a20a6ef3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264956"
 ---
 # <a name="project-planning-recommendations-by-phase"></a><span data-ttu-id="213f6-102">Recomendaciones de planeación de proyectos por fases</span><span class="sxs-lookup"><span data-stu-id="213f6-102">Project Planning Recommendations by Phase</span></span>
 <span data-ttu-id="213f6-103">Actualmente existen varios modelos de ciclo de vida del desarrollo de software, cada uno con sus propios enfoques, ventajas y limitaciones.</span><span class="sxs-lookup"><span data-stu-id="213f6-103">There are a number of software development lifecycle models in existence today, each with their own approaches, benefits, and limitations.</span></span> <span data-ttu-id="213f6-104">El objetivo de esta sección es proporcionar un conjunto de recomendaciones que le ayudarán a planear de forma adecuada un proyecto de desarrollo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] correcto.</span><span class="sxs-lookup"><span data-stu-id="213f6-104">The goal of this section is to provide a set of recommendations that will help you plan appropriately for a successful [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] development project.</span></span>  

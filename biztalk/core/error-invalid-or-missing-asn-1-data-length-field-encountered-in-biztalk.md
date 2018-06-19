@@ -1,14 +1,14 @@
 ---
-title: "Campo de longitud de datos ASN.1 ausente o no válido detectado durante el proceso de descompresión | Documentos de Microsoft"
-ms.custom: 
+title: Campo de longitud de datos ASN.1 ausente o no válido detectado durante el proceso de descompresión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cd08648d-77b9-42a3-a50e-fd87eb36758a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241172"
 ---
 # <a name="invalid-or-missing-asn1-data-length-field-encountered-during-decompression-processing"></a><span data-ttu-id="792c8-102">Campo de longitud de datos ASN.1 ausente o no válido detectado durante el proceso de descompresión.</span><span class="sxs-lookup"><span data-stu-id="792c8-102">Invalid or missing ASN.1 Data Length field encountered during decompression processing</span></span>
 ## <a name="details"></a><span data-ttu-id="792c8-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="792c8-103">Details</span></span>  

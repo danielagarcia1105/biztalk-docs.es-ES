@@ -1,18 +1,18 @@
 ---
 title: Error Messages2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - error messages, JD Edwards OneWorld adapters
 - adapters [JD Edwards OneWorld adapters], error messages
 - JD Edwards OneWorld adapters, error messages
 ms.assetid: 9fb65d50-83c6-426e-a0d6-674800ecf70f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241900"
 ---
 # <a name="error-messages"></a><span data-ttu-id="1d665-102">mensajes de error</span><span class="sxs-lookup"><span data-stu-id="1d665-102">Error Messages</span></span>
 <span data-ttu-id="1d665-103">En la tabla siguiente se describen los mensajes de error del sistema JD Edwards OneWorld y se proporcionan las posibles correcciones para solucionarlos.</span><span class="sxs-lookup"><span data-stu-id="1d665-103">The following table describes error messages in the JD Edwards OneWorld system, and provides possible corrections for them.</span></span>  

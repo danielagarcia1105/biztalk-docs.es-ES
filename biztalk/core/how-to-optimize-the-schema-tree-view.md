@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab4ad6b5-5bbd-443b-9041-6cddf9d64735
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22255348"
 ---
 # <a name="how-to-optimize-the-schema-tree-view"></a><span data-ttu-id="c7899-102">Optimización de la vista del árbol de esquema</span><span class="sxs-lookup"><span data-stu-id="c7899-102">How to Optimize the Schema Tree View</span></span>
 <span data-ttu-id="c7899-103">Puede usar el **la vista de relevancia** en el asignador de BizTalk para optimizar el origen o árboles de esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="c7899-103">You can use the **Relevance View** in BizTalk Mapper to optimize the source and/or target schema trees.</span></span> <span data-ttu-id="c7899-104">En este tema se proporcionan instrucciones sobre cómo realizar la operación.</span><span class="sxs-lookup"><span data-stu-id="c7899-104">This topic provides instructions about how to perform the operation.</span></span>  

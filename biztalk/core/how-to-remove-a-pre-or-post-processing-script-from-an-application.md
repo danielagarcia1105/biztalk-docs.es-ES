@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar una secuencia de comandos previa y posteriores al procesamiento de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar una secuencia de comandos previa y posteriores al procesamiento de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [scripts], deleting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - scripts, deleting
 - applications, scripts
 ms.assetid: 7911f098-97f2-4a5d-87fe-20b55231113e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254764"
 ---
 # <a name="how-to-remove-a-pre--or-post-processing-script-from-an-application"></a><span data-ttu-id="11a3e-102">Cómo quitar secuencias de comandos previas o posteriores al procesamiento de una aplicación</span><span class="sxs-lookup"><span data-stu-id="11a3e-102">How to Remove a Pre- or Post-processing Script from an Application</span></span>
 <span data-ttu-id="11a3e-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para quitar una secuencia de comandos previa o posterior al procesamiento de una aplicación.</span><span class="sxs-lookup"><span data-stu-id="11a3e-103">This topic describes how to use the BizTalk Server Administration console or the command line to remove a pre- or post-processing script from an application.</span></span> <span data-ttu-id="11a3e-104">Esta acción quita la secuencia de comandos de la base de datos de administración de BizTalk, de modo que no se exportará en el archivo .msi de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="11a3e-104">This removes the script from the BizTalk Management database, so that it will not be exported in the application .msi file.</span></span> <span data-ttu-id="11a3e-105">De este modo no se quita la secuencia de comandos del sistema de archivos local, si existe en esta ubicación.</span><span class="sxs-lookup"><span data-stu-id="11a3e-105">This does not remove the script from the local file system, if it exists there.</span></span>  

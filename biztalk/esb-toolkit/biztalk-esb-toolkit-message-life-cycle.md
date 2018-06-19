@@ -1,14 +1,14 @@
 ---
 title: Ciclo de vida del mensaje del Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c72fdbda-b9ef-431a-8322-56dba98e9eab
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290356"
 ---
 # <a name="biztalk-esb-toolkit-message-life-cycle"></a><span data-ttu-id="a776d-102">Ciclo de vida del mensaje del Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="a776d-102">BizTalk ESB Toolkit Message Life Cycle</span></span>
 <span data-ttu-id="a776d-103">A continuación se muestra el ciclo de vida de un mensaje que se origina en un sistema externo y recorre el ESB para alcanzar su destino final:</span><span class="sxs-lookup"><span data-stu-id="a776d-103">The following is the life cycle of a message that originates from an external system and traverses through the ESB to reach its final destination:</span></span>  

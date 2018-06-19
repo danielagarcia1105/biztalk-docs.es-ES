@@ -1,17 +1,17 @@
 ---
-title: "Componente de canalización de desensamblador de archivos planos | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de desensamblador de archivos planos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component]
 - pipeline components, Flat File Disassembler
 ms.assetid: 8d59f86e-ea16-4989-ada4-d24a51e3409a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245924"
 ---
 # <a name="flat-file-disassembler-pipeline-component"></a><span data-ttu-id="d3a39-102">Componente de canalización de desensamblador de archivos sin formato</span><span class="sxs-lookup"><span data-stu-id="d3a39-102">Flat File Disassembler Pipeline Component</span></span>
 <span data-ttu-id="d3a39-103">El componente de desensamblador de archivo sin formato analiza mensajes de archivo sin formato delimitados y posicionales y los convierte en una representación XML.</span><span class="sxs-lookup"><span data-stu-id="d3a39-103">The Flat File Disassembler component parses delimited and positional flat file format messages and converts them into an XML representation.</span></span> <span data-ttu-id="d3a39-104">El desensamblador de archivo sin formato también quita las estructuras de encabezado y finalizador del mensaje de archivo sin formato y divide el intercambio del interior del mensaje en documentos individuales.</span><span class="sxs-lookup"><span data-stu-id="d3a39-104">The Flat File Disassembler also removes the header and trailer structures from the flat file message, and breaks the interchange within the message into individual documents.</span></span> <span data-ttu-id="d3a39-105">Asimismo, promociona propiedades de documentos y encabezados.</span><span class="sxs-lookup"><span data-stu-id="d3a39-105">It also promotes properties from the documents and headers.</span></span>  

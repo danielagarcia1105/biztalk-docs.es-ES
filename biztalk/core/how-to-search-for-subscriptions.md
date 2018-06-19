@@ -13,7 +13,7 @@ helpviewer_keywords:
 - subscriptions, viewing
 - subscriptions, searching
 ms.assetid: 95f8fd20-2750-412b-a67b-18976e7706e2
-caps.latest.revision: ''
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255524"
 ---
 # <a name="how-to-search-for-subscriptions"></a><span data-ttu-id="8254b-102">Cómo buscar suscripciones</span><span class="sxs-lookup"><span data-stu-id="8254b-102">How to Search for Subscriptions</span></span>
 <span data-ttu-id="8254b-103">Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar suscripciones.</span><span class="sxs-lookup"><span data-stu-id="8254b-103">You can use the **Query** tab in the BizTalk Server Administration Console to search for subscriptions.</span></span> <span data-ttu-id="8254b-104">Esto resulta muy útil para revisar todas las suscripciones definidas en el sistema.</span><span class="sxs-lookup"><span data-stu-id="8254b-104">This is useful when you want to review all of the subscriptions defined in the system.</span></span> <span data-ttu-id="8254b-105">Al solucionar problemas de enrutamiento, se pueden revisar suscripciones para ver si hay alguna con una configuración incorrecta (puesto que ésta sería la causa del problema de enrutamiento).</span><span class="sxs-lookup"><span data-stu-id="8254b-105">When troubleshooting routing failures, you can review subscriptions to see if any of them are improperly configured, thereby causing the routing failure.</span></span>  

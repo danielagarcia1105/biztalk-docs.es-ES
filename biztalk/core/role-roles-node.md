@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268700"
 ---
 # <a name="role-roles-node"></a><span data-ttu-id="b1de5-102">Rol (nodo Roles)</span><span class="sxs-lookup"><span data-stu-id="b1de5-102">Role (Roles Node)</span></span>
 <span data-ttu-id="b1de5-103">El nodo Rol del nodo Roles de un archivo de enlace especifica información acerca de un rol enlazado a un servicio que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="b1de5-103">The Role node of the Roles node of a binding file specifies information about a role that is bound to a service that is exported with the binding file.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo controlar el tamaño de la lista de resultados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo controlar el tamaño de la lista de resultados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - results list [Orchestration Debugger], deleting columns
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - results list [Orchestration Designer]
 - results list [Orchestration Debugger], adding columns
 ms.assetid: 4d41003f-5ea9-4599-8ec0-737c342ffdbd
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249740"
 ---
 # <a name="how-to-control-the-size-of-the-results-list"></a><span data-ttu-id="673cc-102">Cómo controlar el tamaño de la lista Resultados</span><span class="sxs-lookup"><span data-stu-id="673cc-102">How to Control the Size of the Results List</span></span>
 <span data-ttu-id="673cc-103">En el **concentrador de grupo** página de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, los resultados de consulta panel contiene tantas columnas de información que tenga que desplazarse para verlas.</span><span class="sxs-lookup"><span data-stu-id="673cc-103">On the **Group Hub** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, the Query results pane contains so many columns of information that you need to scroll to view them.</span></span> <span data-ttu-id="673cc-104">Puede agregar o quitar columnas del panel para mostrar únicamente la información que necesite.</span><span class="sxs-lookup"><span data-stu-id="673cc-104">You can add or remove columns in the pane to display only the information that you need.</span></span> <span data-ttu-id="673cc-105">Para agregar o quitar columnas, haga clic en cualquier parte del panel de resultados de consulta y haga clic en **agregar o quitar columnas** en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="673cc-105">To add or remove columns, right-click any part of the Query results pane and click **Add/Remove Columns** on the context menu.</span></span>  

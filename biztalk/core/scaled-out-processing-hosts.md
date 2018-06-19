@@ -1,11 +1,11 @@
 ---
 title: Hosts de procesamiento escalado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - high availability
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - hosts, scaling
 - clustering
 ms.assetid: c72ce8fc-7593-4700-8398-23d1a20515c3
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269332"
 ---
 # <a name="scaled-out-processing-hosts"></a><span data-ttu-id="61931-102">Hosts de procesamiento escalados horizontalmente</span><span class="sxs-lookup"><span data-stu-id="61931-102">Scaled-Out Processing Hosts</span></span>
 <span data-ttu-id="61931-103">Un host de procesamiento escalado horizontalmente mejora el rendimiento y proporciona alta disponibilidad aislando la funcionalidad de orquestación en dos o más equipos host.</span><span class="sxs-lookup"><span data-stu-id="61931-103">A scaled-out processing host improves performance and provides high availability by isolating orchestration functionality onto two or more separate host computers.</span></span> <span data-ttu-id="61931-104">Este aislamiento permite agregar varios equipos a un host de procesamiento para obtener redundancia.</span><span class="sxs-lookup"><span data-stu-id="61931-104">This isolation lets you add multiple computers to a processing host for redundancy.</span></span> <span data-ttu-id="61931-105">Un host de procesamiento en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ejecuta uno o más host instancias que coordenadas procesos empresariales distintos y crea una instancia de objetos de programación para orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="61931-105">A processing host in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runs one or more host instances that coordinate various business processes and creates an instance of programmatic objects for orchestrations.</span></span>  

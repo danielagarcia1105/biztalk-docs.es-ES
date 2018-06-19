@@ -1,14 +1,14 @@
 ---
-title: "Cómo identificar cuellos de botella en el cuadro de mensajes Database2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo identificar cuellos de botella en el cuadro de mensajes Database2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10b2eb1e-541c-457d-9735-ac6fb069b209
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254204"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-messagebox-database"></a><span data-ttu-id="66ff1-102">Cómo identificar cuellos de botella en la base de datos de cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="66ff1-102">How to Identify Bottlenecks in the MessageBox Database</span></span>
 <span data-ttu-id="66ff1-103">Para identificar cuellos de botella en la base de datos de cuadro de mensajes, en primer lugar debe asegurarse de que se haya iniciado el servicio del Agente de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="66ff1-103">To identify bottlenecks in the MessageBox database, first ensure that the SQL-Server-Agent Service is started.</span></span> <span data-ttu-id="66ff1-104">Cambie el estado de inicio del servicio de manual a automático, de modo que el servicio se reinicie automáticamente aunque se reinicie el servidor.</span><span class="sxs-lookup"><span data-stu-id="66ff1-104">Change the Service startup state from Manual to Auto so that even if the server is restarted, the service will automatically restart.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar la forma Agrupar | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar la forma Agrupar | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Orchestration Designer, annotations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Orchestration Designer, placeholders
 - placeholders [Orchestration Designer]
 ms.assetid: 9a521f96-d796-4981-9fa5-76df6de3b261
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256428"
 ---
 # <a name="how-to-use-the-group-shape"></a><span data-ttu-id="5a7e7-102">Cómo usar la forma Agrupar</span><span class="sxs-lookup"><span data-stu-id="5a7e7-102">How to Use the Group Shape</span></span>
 ![](../core/media/ebiz-orch-group.gif "ebiz_orch_group")  

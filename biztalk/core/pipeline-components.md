@@ -1,17 +1,17 @@
 ---
-title: "Componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, components
 - pipeline components
 ms.assetid: fd7061e0-a9cd-4f6f-a149-9f01fb9d23cb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264308"
 ---
 # <a name="pipeline-components"></a><span data-ttu-id="1c836-102">Componentes de canalización</span><span class="sxs-lookup"><span data-stu-id="1c836-102">Pipeline Components</span></span>
 <span data-ttu-id="1c836-103">El cuadro de herramientas de Visual Studio se rellena con varios componentes estándar de BizTalk Server que puede utilizar para crear una canalización.</span><span class="sxs-lookup"><span data-stu-id="1c836-103">The Visual Studio Toolbox is populated with several standard BizTalk Server components that you can use to create a pipeline.</span></span>  

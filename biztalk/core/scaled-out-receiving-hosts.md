@@ -1,11 +1,11 @@
 ---
-title: "Hosts de recepción escalados | Documentos de Microsoft"
-ms.custom: 
+title: Hosts de recepción escalados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2016-03-17
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
@@ -34,7 +34,7 @@ helpviewer_keywords:
 - File adapters, scaling
 - clustering
 ms.assetid: 94f35426-37fa-4ad2-8e35-d82fdca02262
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -43,6 +43,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272556"
 ---
 # <a name="scaled-out-receiving-hosts"></a><span data-ttu-id="850ff-102">Hosts de recepción escalados</span><span class="sxs-lookup"><span data-stu-id="850ff-102">Scaled-Out Receiving Hosts</span></span>
 <span data-ttu-id="850ff-103">Cuando un host contiene un elemento de recepción, como una canalización o una ubicación de recepción, actúa como un límite de seguridad y la descodificación y descifrado de mensajes tiene lugar en una canalización del host.</span><span class="sxs-lookup"><span data-stu-id="850ff-103">When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.</span></span> <span data-ttu-id="850ff-104">Para lograr que la disponibilidad de los hosts de recepción sea muy alta, debe disponer de dos o más equipos con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que ejecuten instancias de cada host de recepción.</span><span class="sxs-lookup"><span data-stu-id="850ff-104">To make the receiving hosts highly available, you must have two or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers that are running instances of each receiving host.</span></span> <span data-ttu-id="850ff-105">Mediante el escalado horizontal de los hosts de recepción garantiza la disponibilidad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] las implementaciones que son de uso intensivo de mensajería.</span><span class="sxs-lookup"><span data-stu-id="850ff-105">By scaling out the receiving hosts you can guarantee availability for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployments that are messaging intensive.</span></span> <span data-ttu-id="850ff-106">Si bien estas implementaciones llevan a cabo un procesamiento mínimo de orquestación, pueden enrutar muchos mensajes de varios tipos a gran velocidad y con gran confiabilidad.</span><span class="sxs-lookup"><span data-stu-id="850ff-106">While these deployments might perform minimal processing for orchestrations, they can route many messages of varying types with great speed and reliability.</span></span>  

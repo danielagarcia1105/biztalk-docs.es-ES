@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d7f68bc-8460-4656-b9f2-955337458d78
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22262436"
 ---
 # <a name="known-issues-with-edi-security"></a><span data-ttu-id="4f776-102">Problemas conocidos de la seguridad de EDI</span><span class="sxs-lookup"><span data-stu-id="4f776-102">Known Issues with EDI Security</span></span>
 <span data-ttu-id="4f776-103">En este tema se describen problemas conocidos relacionados con la seguridad de las soluciones EDI y AS2 de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4f776-103">This topic describes known issues with the security of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 solutions.</span></span>  

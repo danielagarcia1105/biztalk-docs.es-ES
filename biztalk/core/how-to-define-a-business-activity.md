@@ -1,18 +1,18 @@
 ---
-title: "Cómo definir una actividad económica | Documentos de Microsoft"
-ms.custom: 
+title: Cómo definir una actividad económica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business activities, creating [Excel add-in]
 - monitoring business activities [BAM], creating business activities [Excel add-in]
 - monitoring business activities [BAM], Excel add-in
 ms.assetid: 305e3718-46b4-45df-bd52-f7ae36621576
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249836"
 ---
 # <a name="how-to-define-a-business-activity"></a><span data-ttu-id="2b78c-102">Definición de actividades económicas</span><span class="sxs-lookup"><span data-stu-id="2b78c-102">How to Define a Business Activity</span></span>
 <span data-ttu-id="2b78c-103">Para indicar los datos que necesita recopilar para informes, debe definir una actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="2b78c-103">To indicate the data you need to collect for reports, you must define a BAM activity.</span></span> <span data-ttu-id="2b78c-104">Dicha actividad contiene una lista de los elementos de datos e hitos importantes sobre los que BAM debe realizar un seguimiento. Use el complemento BAM para Excel a fin de crear una actividad como la que se muestra en el siguiente procedimiento.</span><span class="sxs-lookup"><span data-stu-id="2b78c-104">This contains a list of the important milestones and data items you want BAM to track. Use the BAM Excel add-in to create an activity as shown in the following procedure.</span></span>  

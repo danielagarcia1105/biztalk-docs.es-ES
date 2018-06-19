@@ -1,14 +1,14 @@
 ---
-title: "Procesamiento de un mensaje EDI entrante a través de AS2 de lado de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Procesamiento de un mensaje EDI entrante a través de AS2 de lado de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 118451ab-d847-4f87-80ab-3cf812d71ac3
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270068"
 ---
 # <a name="receive-side-processing-of-an-incoming-edi-message-over-as2"></a><span data-ttu-id="c2a5c-102">Procesamiento de recepción de un mensaje EDI entrante a través de AS2</span><span class="sxs-lookup"><span data-stu-id="c2a5c-102">Receive-Side Processing of an Incoming EDI Message over AS2</span></span>
 <span data-ttu-id="c2a5c-103">El procesamiento de recepción de un mensaje EDI a través de AS2 incluye la recepción de un mensaje AS2, el envío de un MDN, el procesamiento de la carga EDI y el envío de confirmaciones EDI (si están habilitadas).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-103">Receive-side processing of an EDI message over AS2 includes receiving the AS2 message, sending an MDN, processing the EDI payload, and sending EDI acknowledgments (if enabled).</span></span>  

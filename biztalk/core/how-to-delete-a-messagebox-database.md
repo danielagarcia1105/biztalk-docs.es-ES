@@ -1,18 +1,18 @@
 ---
-title: "Cómo eliminar una base de datos de cuadro de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar una base de datos de cuadro de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, MessageBox database
 - managing [MessageBox database], deleting
 - MessageBox database, deleting
 ms.assetid: 51f91fcb-8b97-4b00-9056-6d216c8ccb58
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250068"
 ---
 # <a name="how-to-delete-a-messagebox-database"></a><span data-ttu-id="6dd9b-102">Cómo eliminar una base de datos de cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="6dd9b-102">How to Delete a MessageBox Database</span></span>
 <span data-ttu-id="6dd9b-103">Utilice la consola de administración de BizTalk o el Instrumental de administración de Windows (WMI) para quitar una base de datos de cuadro de mensajes de un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="6dd9b-103">You use the BizTalk Administration Console or Windows Management Instrumentation (WMI) to remove a MessageBox database from a BizTalk group.</span></span> <span data-ttu-id="6dd9b-104">Puede quitar una base de datos de cuadro de mensajes de un grupo de BizTalk o la puede eliminar por completo de su implementación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="6dd9b-104">You can remove a MessageBox database from a BizTalk group, or you can delete it from your BizTalk Server deployment entirely.</span></span>  

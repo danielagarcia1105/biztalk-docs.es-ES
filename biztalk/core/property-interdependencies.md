@@ -1,14 +1,14 @@
 ---
 title: Interdependencias entre las propiedades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3ed5b75e-db1c-43d4-a287-fc4cd1c529f5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268460"
 ---
 # <a name="property-interdependencies"></a><span data-ttu-id="84f0a-102">Interdependencias entre las propiedades</span><span class="sxs-lookup"><span data-stu-id="84f0a-102">Property Interdependencies</span></span>
 

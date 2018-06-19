@@ -1,18 +1,18 @@
 ---
-title: "Cómo ejecutar directivas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ejecutar directivas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Framework, policies
 - Business Rules Framework, code samples
 - Business Rules Framework, programming
 ms.assetid: 90d28d9d-0204-47de-a927-26e284c886e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253804"
 ---
 # <a name="how-to-execute-policies"></a><span data-ttu-id="b80c7-102">Cómo ejecutar directivas</span><span class="sxs-lookup"><span data-stu-id="b80c7-102">How to Execute Policies</span></span>
 <span data-ttu-id="b80c7-103">El código de ejemplo siguiente muestra cómo invocar el motor de reglas para ejecutar una directiva mediante programación utilizando la **directiva** clase en el **Microsoft.RuleEngine** ensamblado.</span><span class="sxs-lookup"><span data-stu-id="b80c7-103">The following sample code shows how to invoke the rule engine to execute a policy programmatically by using the **Policy** class in the **Microsoft.RuleEngine** assembly.</span></span>  

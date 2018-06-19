@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: BizTalk adaptador de Message Queue | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security examples [TMA], MSMQ adapters
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - DFD, MSMQ adapters
 - MSMQ adapters, data flow
 ms.assetid: 15b4a540-2fcd-4668-b4b4-757f23ebd83e
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272460"
 ---
 # <a name="sample-tma-biztalk-message-queuing-adapter"></a><span data-ttu-id="d53d3-102">TMA de ejemplo: El adaptador de BizTalk para Message Queue</span><span class="sxs-lookup"><span data-stu-id="d53d3-102">Sample TMA: BizTalk Message Queuing Adapter</span></span>
 <span data-ttu-id="d53d3-103">En este tema se presenta el análisis de modelo de amenazas (TMA) para el escenario del adaptador de Message Queue Server de BizTalk de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="d53d3-103">This topic presents the threat model analysis (TMA) for the BizTalk Message Queuing adapter scenario for the sample architecture.</span></span>  
@@ -58,7 +59,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="d53d3-126">**Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).</span><span class="sxs-lookup"><span data-stu-id="d53d3-126">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
--   <span data-ttu-id="d53d3-127">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="d53d3-127">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="d53d3-128">La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="d53d3-128">The following table lists the threats we identified when you use the BizTalk Message Queuing adapter to send and receive messages to and from BizTalk Server.</span></span>  
+-   <span data-ttu-id="d53d3-127">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="d53d3-127">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="d53d3-128">La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="d53d3-128">The following table lists the threats we identified when you use the BizTalk Message Queuing adapter to send and receive messages to and from BizTalk Server.</span></span>  
   
  <span data-ttu-id="d53d3-129">**Tabla 1: lista de amenazas identificadas**</span><span class="sxs-lookup"><span data-stu-id="d53d3-129">**Table 1 List of identified threats**</span></span>  
   
@@ -70,7 +71,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="d53d3-152">Un usuario malintencionado podría manipular los mensajes antes que el servidor BizTalk Server los reciba.</span><span class="sxs-lookup"><span data-stu-id="d53d3-152">A malicious user can tamper with the message before BizTalk Server receives it</span></span>|<span data-ttu-id="d53d3-153">Un usuario malintencionado puede interceptar el mensaje mientras está en tránsito y modificarlo.</span><span class="sxs-lookup"><span data-stu-id="d53d3-153">A malicious user can intercept the message while it is in transit and modify it.</span></span>|<span data-ttu-id="d53d3-154">Cuerpo del mensaje</span><span class="sxs-lookup"><span data-stu-id="d53d3-154">Message body</span></span>|<span data-ttu-id="d53d3-155">Manipulación de datos</span><span class="sxs-lookup"><span data-stu-id="d53d3-155">Tampering with data</span></span><br /><br /> <span data-ttu-id="d53d3-156">Revelación de información</span><span class="sxs-lookup"><span data-stu-id="d53d3-156">Information disclosure</span></span>|  
   
 ## <a name="step-3-review-threats-biztalk-message-queuing-adapter-scenario"></a><span data-ttu-id="d53d3-157">Paso 3.</span><span class="sxs-lookup"><span data-stu-id="d53d3-157">Step 3.</span></span> <span data-ttu-id="d53d3-158">Analizar las amenazas (escenario del adaptador puesta en cola de mensaje de BizTalk)</span><span class="sxs-lookup"><span data-stu-id="d53d3-158">Review Threats (BizTalk Message Queuing Adapter Scenario)</span></span>  
- <span data-ttu-id="d53d3-159">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de BizTalk para Message Queue para la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="d53d3-159">This section provides the results of the risk analysis we did for threats we identified for the BizTalk Message Queuing adapter scenario for the sample architecture.</span></span> <span data-ttu-id="d53d3-160">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="d53d3-160">After the main threat model meeting, we reviewed the threats and used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
+ <span data-ttu-id="d53d3-159">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de BizTalk para Message Queue para la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="d53d3-159">This section provides the results of the risk analysis we did for threats we identified for the BizTalk Message Queuing adapter scenario for the sample architecture.</span></span> <span data-ttu-id="d53d3-160">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="d53d3-160">After the main threat model meeting, we reviewed the threats and used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
   
  <span data-ttu-id="d53d3-161">En la tabla siguiente enumera la evaluación del riesgo de las amenazas identificadas al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes hacia y desde BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="d53d3-161">The following table lists the risk ratings for the threats we identified when you use the BizTalk Message Queuing adapter to send and receive messages to and from BizTalk Server.</span></span>  
   

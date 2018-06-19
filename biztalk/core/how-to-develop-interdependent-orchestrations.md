@@ -1,14 +1,14 @@
 ---
-title: "Cómo desarrollar orquestaciones interdependientes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo desarrollar orquestaciones interdependientes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5464096e-66d8-48de-bc02-c754c5cfbada
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249484"
 ---
 # <a name="how-to-develop-interdependent-orchestrations"></a><span data-ttu-id="4571b-102">Cómo desarrollar orquestaciones interdependientes</span><span class="sxs-lookup"><span data-stu-id="4571b-102">How to Develop Interdependent Orchestrations</span></span>
 <span data-ttu-id="4571b-103">Puede usar [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para desarrollar un conjunto de orquestaciones que tienen servicios Web interdependientes.</span><span class="sxs-lookup"><span data-stu-id="4571b-103">You can use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to develop a set of orchestrations that have interdependent Web services.</span></span> <span data-ttu-id="4571b-104">Esta situación se produce al tener orquestaciones que hacen referencia a tipos de datos o puertos en la orquestación desde las que se les llama.</span><span class="sxs-lookup"><span data-stu-id="4571b-104">This scenario arises when you have orchestrations that reference data types and/or ports in the orchestration from which they were called.</span></span> <span data-ttu-id="4571b-105">Un ejemplo de este tipo de escenario se caracteriza por lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="4571b-105">An example of this type of scenario is characterized by the following:</span></span>  

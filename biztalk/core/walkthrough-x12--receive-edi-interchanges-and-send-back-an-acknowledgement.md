@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 25d2b5f3-6bd1-413c-aace-e4dd71f80403
-caps.latest.revision: ''
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22292548"
 ---
 # <a name="walkthrough-x12-receiving-edi-interchanges-and-sending-back-an-acknowledgement"></a><span data-ttu-id="1e7c0-102">Tutorial (X12): Recepción de intercambios EDI y devolución de una confirmación</span><span class="sxs-lookup"><span data-stu-id="1e7c0-102">Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement</span></span>
 <span data-ttu-id="1e7c0-103">Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para recibir intercambios de EDI mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="1e7c0-103">This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI interchanges using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="1e7c0-104">En esta solución, se envía un intercambio EDI desde un socio comercial, Fabrikam, a otro, Contoso.</span><span class="sxs-lookup"><span data-stu-id="1e7c0-104">In this solution, an EDI interchange is sent from a trading partner, Fabrikam, to another trading partner, Contoso.</span></span>  

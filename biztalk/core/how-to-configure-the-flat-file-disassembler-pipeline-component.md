@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar el componente de canalización de desensamblador de archivos sin formato | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de desensamblador de archivos sin formato | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], configuring
 - pipeline components, Flat File Disassembler
 - messages, flat files
 ms.assetid: c09996f6-6035-42a3-a75f-4def4ac39a95
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249052"
 ---
 # <a name="how-to-configure-the-flat-file-disassembler-pipeline-component"></a><span data-ttu-id="ad627-102">Cómo configurar el componente de canalización de desensamblador de archivos sin formato</span><span class="sxs-lookup"><span data-stu-id="ad627-102">How to Configure the Flat File Disassembler Pipeline Component</span></span>
 <span data-ttu-id="ad627-103">El componente de canalización de desensamblador de archivo sin formato se utiliza para desensamblar documentos que tienen un formato de archivo sin formato y convertirlos en XML.</span><span class="sxs-lookup"><span data-stu-id="ad627-103">The Flat File Disassembler pipeline component is used for disassembling documents in flat file format and converting them into XML format.</span></span>  

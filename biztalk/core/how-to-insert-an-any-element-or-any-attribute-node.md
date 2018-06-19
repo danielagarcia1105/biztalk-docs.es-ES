@@ -1,14 +1,14 @@
 ---
-title: "Cómo insertar un elemento Any o cualquier atributo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo insertar un elemento Any o cualquier atributo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4cbfdc04-6c83-4639-82de-169b6f009a2e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253964"
 ---
 # <a name="how-to-insert-an-any-element-or-any-attribute-node"></a><span data-ttu-id="a726a-102">Cómo insertar un elemento Any o cualquier nodo de atributo</span><span class="sxs-lookup"><span data-stu-id="a726a-102">How to Insert an Any Element or Any Attribute Node</span></span>
 <span data-ttu-id="a726a-103">El Editor de BizTalk admite dos tipos de nodos: **cualquier elemento** y **cualquier atributo**.</span><span class="sxs-lookup"><span data-stu-id="a726a-103">BizTalk Editor supports two types of any nodes: **Any Element** and **Any Attribute**.</span></span> <span data-ttu-id="a726a-104">Estos nodos le permiten crear ubicaciones dentro del esquema que se correspondan con ubicaciones de los mensajes de instancia pertinentes donde no conoce qué elementos o atributos aparecerán.</span><span class="sxs-lookup"><span data-stu-id="a726a-104">These nodes allow you to create locations within your schema that correspond to locations within the corresponding instance messages where you do not know what elements or attributes will appear.</span></span> <span data-ttu-id="a726a-105">Para obtener información acerca de cómo se interpretan estos nodos al procesar los mensajes de instancia, consulte directamente la información disponible sobre el lenguaje de definición de esquemas XML (XSD) en Internet.</span><span class="sxs-lookup"><span data-stu-id="a726a-105">For detailed information about how these nodes are interpreted when processing instance messages, refer directly to information about the XML Schema definition (XSD) language on the Web.</span></span> <span data-ttu-id="a726a-106">Para obtener vínculos a esta información, consulte [recursos XSD en Internet](../core/xsd-resources-on-the-web.md).</span><span class="sxs-lookup"><span data-stu-id="a726a-106">For links to this information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).</span></span>  

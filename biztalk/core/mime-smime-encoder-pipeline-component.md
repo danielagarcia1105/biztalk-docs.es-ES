@@ -1,18 +1,18 @@
 ---
-title: "Componente de canalización de codificador de MIME-SMIME | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de codificador de MIME-SMIME | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, MIME/SMIME Encoder
 - MIME/SMIME Encoder [pipeline component]
 - BTS.EncryptionCert property
 ms.assetid: 397505e6-47d0-4b63-9197-814ee4388369
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263068"
 ---
 # <a name="mime-smime-encoder-pipeline-component"></a><span data-ttu-id="c2e87-102">Componente de canalización de codificador de MIME-SMIME</span><span class="sxs-lookup"><span data-stu-id="c2e87-102">MIME-SMIME Encoder Pipeline Component</span></span>
 <span data-ttu-id="c2e87-103">El componente de codificador de MIME/SMIME puede colocarse en la fase de codificación de una canalización de envío.</span><span class="sxs-lookup"><span data-stu-id="c2e87-103">The MIME/SMIME Encoder component can be placed into the Encode stage of a send pipeline.</span></span> <span data-ttu-id="c2e87-104">Admite codificación de 7 bits, 8 bits, binaria, quoted-printable, base64 y UUEncode.</span><span class="sxs-lookup"><span data-stu-id="c2e87-104">It supports 7bit, 8bit, binary, quoted-printable, base64, and UUencode encoding.</span></span> <span data-ttu-id="c2e87-105">Los cambios del juego de caracteres de datos localizados no afectan a la codificación.</span><span class="sxs-lookup"><span data-stu-id="c2e87-105">Localized data character set changes do not affect the encoding.</span></span>  

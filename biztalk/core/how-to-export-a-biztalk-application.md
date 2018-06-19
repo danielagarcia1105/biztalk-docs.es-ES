@@ -1,11 +1,11 @@
 ---
-title: "Cómo exportar una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, exporting
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - applications, warnings
 - exporting, security
 ms.assetid: a1d6ffca-3d29-44c7-a811-6cf8b42e23f6
-caps.latest.revision: "50"
+caps.latest.revision: 50
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255956"
 ---
 # <a name="how-to-export-a-biztalk-application"></a><span data-ttu-id="e5fa8-102">Cómo exportar una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="e5fa8-102">How to Export a BizTalk Application</span></span>
 <span data-ttu-id="e5fa8-103">En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o la línea de comandos para exportar una aplicación.</span><span class="sxs-lookup"><span data-stu-id="e5fa8-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or the command line to export an application.</span></span> <span data-ttu-id="e5fa8-104">Exportar una aplicación de BizTalk genera un archivo (.msi) de Windows Installer que contiene la aplicación y los artefactos seleccionados para que se exportaran.</span><span class="sxs-lookup"><span data-stu-id="e5fa8-104">Exporting a BizTalk application generates a Windows Installer (.msi) file that contains the application and any of its artifacts that you select to export.</span></span> <span data-ttu-id="e5fa8-105">La opción predeterminada es seleccionar todos los artefactos de la aplicación, pero puede seleccionar un subconjunto de ellos.</span><span class="sxs-lookup"><span data-stu-id="e5fa8-105">The default option is to select all of the application's artifacts, but you can select a subset of them.</span></span> <span data-ttu-id="e5fa8-106">A continuación, puede importar el archivo .msi a otro grupo de BizTalk para agregar los artefactos a una aplicación existente de un grupo nuevo, actualizar los artefactos de una aplicación existente o crear una aplicación nueva en el grupo que contiene los artefactos que se van a importar.</span><span class="sxs-lookup"><span data-stu-id="e5fa8-106">You can then import the .msi file into another BizTalk group to add the artifacts to an existing application in the new group, update the artifacts in an existing application, or create a new application in the group that contains the artifacts being imported.</span></span> <span data-ttu-id="e5fa8-107">Para obtener más información, consulte [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).</span><span class="sxs-lookup"><span data-stu-id="e5fa8-107">For more information, see [How to Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md).</span></span> <span data-ttu-id="e5fa8-108">Utiliza también el archivo .msi para instalar la aplicación en los equipos que vayan a ejecutarla, tal y como se describe en [cómo instalar una aplicación de BizTalk](../core/how-to-install-a-biztalk-application.md).</span><span class="sxs-lookup"><span data-stu-id="e5fa8-108">You also use the .msi file to install the application on the computers that will run it, as described in [How to Install a BizTalk Application](../core/how-to-install-a-biztalk-application.md).</span></span> <span data-ttu-id="e5fa8-109">Si la aplicación incluye artefactos basados archivos, debe instalarla antes de que pueda funcionar.</span><span class="sxs-lookup"><span data-stu-id="e5fa8-109">If the application includes file-based artifacts, you must also install it before it can begin functioning.</span></span>  

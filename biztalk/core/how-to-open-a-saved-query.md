@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254596"
 ---
 # <a name="how-to-open-a-saved-query"></a><span data-ttu-id="c654f-102">Cómo abrir una consulta guardada</span><span class="sxs-lookup"><span data-stu-id="c654f-102">How to Open a Saved Query</span></span>
 <span data-ttu-id="c654f-103">Se puede abrir una consulta guardada directamente desde la carpeta en la que se guardó la consulta o desde la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="c654f-103">You can open a saved query directly from the folder where the query is saved or from within the BizTalk Server Administration Console.</span></span> <span data-ttu-id="c654f-104">Si abre la consulta directamente desde la carpeta, se abre el grupo de BizTalk Server correspondiente en la consola de administración.</span><span class="sxs-lookup"><span data-stu-id="c654f-104">When you open a query directly from a folder, it opens the appropriate BizTalk Server group in the Administration Console.</span></span> <span data-ttu-id="c654f-105">Si abre la consulta desde la consola de administración, tiene la opción de ejecutar la consulta en cualquiera de los grupos que se muestran en la lista.</span><span class="sxs-lookup"><span data-stu-id="c654f-105">When you open a query from within the Administration Console, you have the option of running the query on any of the groups listed.</span></span>  

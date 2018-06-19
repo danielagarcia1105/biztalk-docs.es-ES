@@ -1,18 +1,18 @@
 ---
 title: Compatibilidad con transacciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - DataConnection object
 - Business Rules Framework, code samples
 - Business Rules Framework, programming
 ms.assetid: 84faac2f-6229-4692-9d1a-bf62d87d69bb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279428"
 ---
 # <a name="transaction-support"></a><span data-ttu-id="8eee3-102">Compatibilidad con transacciones</span><span class="sxs-lookup"><span data-stu-id="8eee3-102">Transaction Support</span></span>
 <span data-ttu-id="8eee3-103">Por lo general, el motor de reglas no admite transacciones.</span><span class="sxs-lookup"><span data-stu-id="8eee3-103">The rule engine does not support transactions in general.</span></span> <span data-ttu-id="8eee3-104">Sin embargo, puede actualizar una base de datos de forma transaccional mediante el **DataConnection** objeto tal y como se muestra en los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="8eee3-104">However, you can update a database in a transactional manner by using the **DataConnection** object as shown in the following steps:</span></span>  

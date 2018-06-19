@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la forma ámbito | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma ámbito | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scope shape [Orchestration Designer], about Scope shape
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - configuring [Orchestration Designer], Scope shape
 - Scope shape [Orchestration Designer], transactions
 ms.assetid: 3c518db0-d68c-4f72-9d5c-48540811e289
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249452"
 ---
 # <a name="how-to-configure-the-scope-shape"></a><span data-ttu-id="4a63a-102">Cómo configurar la forma Ámbito</span><span class="sxs-lookup"><span data-stu-id="4a63a-102">How to Configure the Scope Shape</span></span>
 <span data-ttu-id="4a63a-103">El **ámbito** forma proporciona un marco de trabajo contextual para su contenido.</span><span class="sxs-lookup"><span data-stu-id="4a63a-103">The **Scope** shape provides a contextual framework for its contents.</span></span> <span data-ttu-id="4a63a-104">El primer bloque de un **ámbito** forma es el bloque de contexto o cuerpo, en el que realicen las acciones básicas del ámbito; es análogo al bloque try en una instrucción try/catch.</span><span class="sxs-lookup"><span data-stu-id="4a63a-104">The first block of a **Scope** shape is the context block, or body, in which the basic actions of the scope take place; it is analogous to the try block in a try/catch statement.</span></span> <span data-ttu-id="4a63a-105">Después, el cuerpo de la **ámbito** forma también puede incluir uno o más bloques de controlador de excepciones y un bloque de compensación.</span><span class="sxs-lookup"><span data-stu-id="4a63a-105">Following the body, the **Scope** shape may also include one or more exception-handler blocks and a compensation block.</span></span>  

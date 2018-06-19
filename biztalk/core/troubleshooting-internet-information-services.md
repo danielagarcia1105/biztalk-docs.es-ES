@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de servicios de Internet Information Server | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de servicios de Internet Information Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f77084f1-5797-42ab-bbf6-fe815144232e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280108"
 ---
 # <a name="troubleshooting-internet-information-services"></a><span data-ttu-id="c0ddf-102">Solución de problemas de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="c0ddf-102">Troubleshooting Internet Information Services</span></span>
 <span data-ttu-id="c0ddf-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa mucho Microsoft Internet Information Services (IIS) para diversas funcionalidades, incluidos los adaptadores de HTTP, SOAP y Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="c0ddf-103">Microsoft Internet Information Services (IIS) is used extensively by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] for various functionality including the HTTP, SOAP, and Windows SharePoint Services adapters.</span></span> <span data-ttu-id="c0ddf-104">En esta tema se explican algunos problemas conocidos que se puede encontrar en IIS y las posibles soluciones a estos problemas.</span><span class="sxs-lookup"><span data-stu-id="c0ddf-104">This topic describes some known issues that you may encounter with IIS and possible resolutions to these issues.</span></span>  
@@ -141,7 +142,7 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="c0ddf-173">De forma predeterminada, en [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], los archivos de registro de HTTPERR se encuentran en el siguiente directorio:</span><span class="sxs-lookup"><span data-stu-id="c0ddf-173">By default the HTTPERR log files on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] are located in the following directory:</span></span>  
   
-     <span data-ttu-id="c0ddf-174">*% WinDir %*system32LogFilesHTTPERR</span><span class="sxs-lookup"><span data-stu-id="c0ddf-174">*%WinDir%*system32LogFilesHTTPERR</span></span>  
+     <span data-ttu-id="c0ddf-174">*% WinDir %* system32LogFilesHTTPERR</span><span class="sxs-lookup"><span data-stu-id="c0ddf-174">*%WinDir%* system32LogFilesHTTPERR</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="c0ddf-175">El archivo de registro de HTTPERR solo se encuentra disponible en un equipo con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="c0ddf-175">The HTTPERR log file is only available on a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], or Windows Vista computer.</span></span>  

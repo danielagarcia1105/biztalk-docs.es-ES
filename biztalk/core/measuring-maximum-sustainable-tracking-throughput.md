@@ -1,14 +1,14 @@
 ---
-title: "Medir el rendimiento de seguimiento sostenible máximo | Documentos de Microsoft"
-ms.custom: 
+title: Medir el rendimiento de seguimiento sostenible máximo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 35605427-0217-4bdd-8b4a-3e68b3f5f452
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263948"
 ---
 # <a name="measuring-maximum-sustainable-tracking-throughput"></a><span data-ttu-id="4e060-102">Medir el rendimiento de seguimiento sostenible máximo</span><span class="sxs-lookup"><span data-stu-id="4e060-102">Measuring Maximum Sustainable Tracking Throughput</span></span>
 <span data-ttu-id="4e060-103">Después de implementar una solución de línea empresarial en la plataforma de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], debe realizar un seguimiento y supervisar el sistema para comprender lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="4e060-103">After you deploy a line of business solution onto the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] platform, you should track and monitor the system to understand the following:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Tiempo de espera de cierre no válido | Documentos de Microsoft"
-ms.custom: 
+title: Tiempo de espera de cierre no válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b4510329-9fd9-428f-91a3-d72723e9a5e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257548"
 ---
 # <a name="invalid-close-timeout"></a><span data-ttu-id="ae4f4-102">Tiempo de espera de cierre no válido</span><span class="sxs-lookup"><span data-stu-id="ae4f4-102">Invalid close timeout</span></span>
 ## <a name="details"></a><span data-ttu-id="ae4f4-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ae4f4-103">Details</span></span>  

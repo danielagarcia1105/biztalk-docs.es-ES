@@ -1,11 +1,11 @@
 ---
 title: Mapas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, maps
 - maps
 ms.assetid: 37a983f8-680c-4b32-926d-0bb26e167fd3
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262428"
 ---
 # <a name="maps"></a><span data-ttu-id="7ffad-102">Mapas</span><span class="sxs-lookup"><span data-stu-id="7ffad-102">Maps</span></span>
 <span data-ttu-id="7ffad-103">Las asignaciones constan de varios componentes subyacentes y dependen de los esquemas que ya ha creado.</span><span class="sxs-lookup"><span data-stu-id="7ffad-103">Maps consist of several underlying components and depend on schemas that you have already created.</span></span> <span data-ttu-id="7ffad-104">Estos esquemas, a su vez, se basan en el lenguaje de definición de esquemas XML (XSD).</span><span class="sxs-lookup"><span data-stu-id="7ffad-104">These schemas in turn rely on XML Schema definition (XSD) language.</span></span> <span data-ttu-id="7ffad-105">Esta sección proporciona información general sobre las asignaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="7ffad-105">This section provides an overview of BizTalk maps.</span></span>  

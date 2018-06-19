@@ -1,11 +1,11 @@
 ---
-title: "Algunos principios de la solución de administración de procesos empresariales de diseño | Documentos de Microsoft"
-ms.custom: 
+title: Algunos principios de la solución de administración de procesos empresariales de diseño | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business processes, design principals
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process management solution tutorial, dividing business processes
 - patterns [process management solutions], design principals
 ms.assetid: 688b970f-8e64-4a47-bcc5-bdb9c5195902
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279364"
 ---
 # <a name="some-design-principles-in-the-business-process-management-solution"></a><span data-ttu-id="ea34f-102">Algunos principios de diseño en la solución Administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="ea34f-102">Some Design Principles in the Business Process Management Solution</span></span>
 <span data-ttu-id="ea34f-103">Este tema comienza con directrices generales acerca de cómo dividir los procesos empresariales en etapas.</span><span class="sxs-lookup"><span data-stu-id="ea34f-103">This topic begins with general guidelines about dividing business processes into stages.</span></span> <span data-ttu-id="ea34f-104">Más adelante, considera la estructura de algunas de las orquestaciones, ensamblados y aplicaciones de la solución en relación con estas directrices y los requisitos empresariales.</span><span class="sxs-lookup"><span data-stu-id="ea34f-104">It then goes on to consider the structure of some of the solution's orchestrations, assemblies, and applications in connection with these guidelines and the business requirements.</span></span> <span data-ttu-id="ea34f-105">Para obtener más información acerca de los requisitos empresariales, vea "Requisitos empresariales" en [descripción de la solución de administración de procesos empresariales](../core/understanding-the-business-process-management-solution.md).</span><span class="sxs-lookup"><span data-stu-id="ea34f-105">For more information about the business requirements, see "Business Requirements" in [Understanding the Business Process Management Solution](../core/understanding-the-business-process-management-solution.md).</span></span>  

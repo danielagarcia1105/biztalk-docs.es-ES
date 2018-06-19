@@ -14,7 +14,7 @@ helpviewer_keywords:
 - service instances, searching
 - instances, services
 ms.assetid: 48cb885c-aaf1-44e8-9810-2e70cf63db81
-caps.latest.revision: ''
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255124"
 ---
 # <a name="how-to-search-for-all-service-instances"></a><span data-ttu-id="a1d0b-102">Cómo buscar todas las instancias de servicio</span><span class="sxs-lookup"><span data-stu-id="a1d0b-102">How to Search for All Service Instances</span></span>
 <span data-ttu-id="a1d0b-103">Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar todas las instancias de servicio.</span><span class="sxs-lookup"><span data-stu-id="a1d0b-103">You can use the **Query** tab in the BizTalk Server Administration Console to search for all service instances.</span></span> <span data-ttu-id="a1d0b-104">No se podrá dar de baja un tipo de servicio específico cuando se trate de instancias en ejecución o suspendidas.</span><span class="sxs-lookup"><span data-stu-id="a1d0b-104">You cannot unenlist a specific service type if there are any running or suspended instances.</span></span> <span data-ttu-id="a1d0b-105">Por ejemplo, antes de poder dar de baja un tipo de servicio específico, puede buscar todas las instancias de servicio para asegurarse de que no haya ninguna en ejecución o suspendida.</span><span class="sxs-lookup"><span data-stu-id="a1d0b-105">For example, before you can unenlist a specific service type, you can search for all service instances to ensure that there are no running or suspended instances.</span></span>  

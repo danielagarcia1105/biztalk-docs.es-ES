@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el componente de canalización de desensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de desensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, pipeline components
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - disassembly stage, pipelines
 - receive pipelines, disassembly stage
 ms.assetid: 93dd9148-4ae4-4868-b85d-66eada354f58
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249116"
 ---
 # <a name="how-to-configure-the-xml-disassembler-pipeline-component"></a><span data-ttu-id="99200-102">Cómo configurar el componente de canalización de desensamblador XML</span><span class="sxs-lookup"><span data-stu-id="99200-102">How to Configure the XML Disassembler Pipeline Component</span></span>
 <span data-ttu-id="99200-103">El componente de canalización de desensamblador XML debe utilizarse en la fase de desensamblado de una canalización de recepción.</span><span class="sxs-lookup"><span data-stu-id="99200-103">The XML Disassembler pipeline component should be used in the Disassemble stage of a receive pipeline.</span></span>  

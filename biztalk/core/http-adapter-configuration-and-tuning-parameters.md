@@ -1,11 +1,11 @@
 ---
-title: "Configuración del adaptador de HTTP y parámetros de ajuste | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del adaptador de HTTP y parámetros de ajuste | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, parameters
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - DisableChunkEncoding key [HTTP adapters]
 - HttpOutCompleteSize key [HTTP adapters]
 ms.assetid: c8989a88-722a-40b5-94cf-4b6840add02e
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257788"
 ---
 # <a name="http-adapter-configuration-and-tuning-parameters"></a><span data-ttu-id="0de40-102">Configuración del adaptador de HTTP y parámetros de ajuste</span><span class="sxs-lookup"><span data-stu-id="0de40-102">HTTP Adapter Configuration and Tuning Parameters</span></span>
 <span data-ttu-id="0de40-103">Puede tener acceso a varios parámetros de configuración y ajuste del adaptador de HTTP mediante entradas de clave del Registro, y mediante la modificación del archivo BTSNTSvc.exe.config (ubicado en el directorio raíz de instalación de BizTalk Server).</span><span class="sxs-lookup"><span data-stu-id="0de40-103">Several configuration and tuning parameters are accessible for the HTTP adapter through registry key entries and through the modification of the BTSNTSvc.exe.config file that is located in the root BizTalk Server installation directory.</span></span>  

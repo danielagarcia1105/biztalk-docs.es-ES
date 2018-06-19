@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear proyectos de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear proyectos de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, projects
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - solutions
 - solutions, adding projects
 ms.assetid: a6900234-f989-4601-96c5-41d435c2f8b4
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249180"
 ---
 # <a name="how-to-create-biztalk-projects"></a><span data-ttu-id="f9512-102">Cómo crear proyectos de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f9512-102">How to Create BizTalk Projects</span></span>
 <span data-ttu-id="f9512-103">Para crear una aplicación que se ejecute en el servidor BizTalk Server, empiece por agregar uno o más proyectos de BizTalk a una solución.</span><span class="sxs-lookup"><span data-stu-id="f9512-103">To create an application that runs on BizTalk Server, you start by adding one or more BizTalk projects to a solution.</span></span> <span data-ttu-id="f9512-104">En esta sección se describen algunas de las tareas que debería realizar cuando trabaje con proyectos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="f9512-104">This section describes some of the tasks that you might perform when you work with BizTalk projects.</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Mensaje de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, properties
 - messages, about messages
 ms.assetid: 6048c191-b495-4fdc-b547-e3e322340a49
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279900"
 ---
 # <a name="the-biztalk-server-message"></a><span data-ttu-id="ffe47-102">Mensaje de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="ffe47-102">The BizTalk Server Message</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="ffe47-103">es, en esencia, un motor de control de mensajes.</span><span class="sxs-lookup"><span data-stu-id="ffe47-103"> is, at its core, a message-handling engine.</span></span> <span data-ttu-id="ffe47-104">Para conocer los detalles de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es importante comprender los mensajes y cómo se representan, almacenan y procesan en BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="ffe47-104">To understand the details of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it is important to understand messages and how they are represented, stored, and processed by BizTalk Server.</span></span> <span data-ttu-id="ffe47-105">Los detalles de cómo trabaja BizTalk Server con los mensajes son más fáciles de comprender una vez que se ha entendido qué es un mensaje.</span><span class="sxs-lookup"><span data-stu-id="ffe47-105">The details of how BizTalk Server works with messages become easier to understand after you have gained an understanding of what a message is.</span></span>  

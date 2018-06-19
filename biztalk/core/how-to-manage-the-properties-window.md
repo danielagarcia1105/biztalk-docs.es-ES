@@ -1,14 +1,14 @@
 ---
-title: "Cómo administrar la ventana Propiedades | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar la ventana Propiedades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f5277f9e-1043-4e68-883f-056d0ea633f3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254068"
 ---
 # <a name="how-to-manage-the-properties-window"></a><span data-ttu-id="273f2-102">Cómo administrar la ventana Propiedades</span><span class="sxs-lookup"><span data-stu-id="273f2-102">How to Manage the Properties Window</span></span>
 <span data-ttu-id="273f2-103">El Editor de BizTalk utiliza la ventana Propiedades de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para mostrar los valores de las propiedades asociadas a los nodos en la vista de árbol de esquema y proporciona una interfaz para modificar estos valores.</span><span class="sxs-lookup"><span data-stu-id="273f2-103">BizTalk Editor uses the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window to display the values of the properties associated with nodes in the schema tree view, and provides an interface for changing those values.</span></span> <span data-ttu-id="273f2-104">En este tema se proporcionan instrucciones paso a paso para administrar ciertas características de la ventana Propiedades.</span><span class="sxs-lookup"><span data-stu-id="273f2-104">This topic provides step-by-step instructions for managing certain characteristics of the Properties window.</span></span>  

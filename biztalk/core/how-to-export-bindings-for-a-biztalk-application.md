@@ -1,18 +1,18 @@
 ---
-title: "Cómo exportar enlaces para una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar enlaces para una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, exportings
 - applications, exporting
 - applications, bindings
 ms.assetid: 700d2781-480b-42ed-a313-1a67a7406369
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255084"
 ---
 # <a name="how-to-export-bindings-for-a-biztalk-application"></a><span data-ttu-id="f9464-102">Cómo exportar enlaces de una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f9464-102">How to Export Bindings for a BizTalk Application</span></span>
 <span data-ttu-id="f9464-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para exportar los enlaces de una aplicación de BizTalk a un archivo .xml.</span><span class="sxs-lookup"><span data-stu-id="f9464-103">This topic describes how to use the BizTalk Server Administration console or the command line export the bindings for a BizTalk application to an .xml file.</span></span> <span data-ttu-id="f9464-104">A continuación, puede importar el archivo de enlace en otra aplicación, que sobrescribe los enlaces actuales de la aplicación con los enlaces importados del mismo nombre.</span><span class="sxs-lookup"><span data-stu-id="f9464-104">You can then import the binding file into another application, which overwrites the current bindings in the application with the imported bindings of the same name.</span></span> <span data-ttu-id="f9464-105">Para obtener más información, consulte [cómo importar enlaces en una aplicación de BizTalk](../core/how-to-import-bindings-into-a-biztalk-application.md).</span><span class="sxs-lookup"><span data-stu-id="f9464-105">For more information, see [How to Import Bindings into a BizTalk Application](../core/how-to-import-bindings-into-a-biztalk-application.md).</span></span> <span data-ttu-id="f9464-106">Para obtener más información acerca del uso de archivos de enlace, vea [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="f9464-106">For more information about using binding files, see [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).</span></span>  

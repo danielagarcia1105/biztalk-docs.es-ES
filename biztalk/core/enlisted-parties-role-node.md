@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239692"
 ---
 # <a name="enlisted-parties-role-node"></a><span data-ttu-id="132a0-102">Entidades dadas de alta (nodo de rol)</span><span class="sxs-lookup"><span data-stu-id="132a0-102">Enlisted Parties (Role Node)</span></span>
 <span data-ttu-id="132a0-103">El nodo Entidades dadas de alta de un archivo de enlace es el nodo primario de todos los nodos Entidad dada de alta que contienen información específica acerca de las entidades dadas de alta asociadas a un rol que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="132a0-103">The Enlisted Parties node of a binding file is the parent node for all of the Enlisted Party nodes which contain specific information about the enlisted parties associated with a role that is exported with the binding file.</span></span>  

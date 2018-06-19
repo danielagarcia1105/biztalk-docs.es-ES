@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar filtros para un grupo de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar filtros para un grupo de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - filters, configuring
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - managing [send port groups], filters
 - managing [send port groups], configuring
 ms.assetid: 4c4bb408-5146-4740-a1d4-0ee72ec123fb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248596"
 ---
 # <a name="how-to-configure-filters-for-a-send-port-group"></a><span data-ttu-id="87351-102">Cómo configurar filtros para un grupo de puertos de envío</span><span class="sxs-lookup"><span data-stu-id="87351-102">How to Configure Filters for a Send Port Group</span></span>
 <span data-ttu-id="87351-103">En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar uno o varios filtros para un grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="87351-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure one or more filters for a send port group.</span></span> <span data-ttu-id="87351-104">Los filtros pueden utilizarse para crear aplicaciones de enrutamiento por contenidos (CBR) o de mensajería simple.</span><span class="sxs-lookup"><span data-stu-id="87351-104">You can use filters to create simple messaging or content-based routing (CBR) applications.</span></span> <span data-ttu-id="87351-105">Un filtro establece condiciones para las propiedades o los campos de mensaje que determinan qué mensajes se enrutan al grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="87351-105">A filter sets conditions for message properties or fields that determine which messages are routed to the send port group.</span></span> <span data-ttu-id="87351-106">Un filtro no filtra los mensajes que una orquestación enruta al grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="87351-106">A filter does not filter the messages that an orchestration routes to the send port group.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar un puerto de envío de SOAP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un puerto de envío de SOAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, send ports
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - configuring [SOAP adapters], send ports
 - send ports, SOAP adapters
 ms.assetid: 3a0622f4-d25d-4449-a063-d8ba217e9729
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250596"
 ---
 # <a name="how-to-configure-a-soap-send-port"></a><span data-ttu-id="e0e09-102">Cómo configurar un puerto de envío SOAP</span><span class="sxs-lookup"><span data-stu-id="e0e09-102">How to Configure a SOAP Send Port</span></span>
 <span data-ttu-id="e0e09-103">Los puertos de de envío SOAP pueden configurarse mediante programación, o bien utilizando la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="e0e09-103">You can configure a SOAP send port either programmatically or by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar Functoids a una asignación de aserción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar Functoids a una asignación de aserción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccdd79a2-b70f-489b-8711-e00a50d8e2d8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247764"
 ---
 # <a name="how-to-add-assert-functoids-to-a-map"></a><span data-ttu-id="6224f-102">Cómo agregar functoids de aserción a una asignación</span><span class="sxs-lookup"><span data-stu-id="6224f-102">How to Add Assert Functoids to a Map</span></span>
 <span data-ttu-id="6224f-103">El **Assert** functoid le permite probar sus suposiciones acerca de las condiciones de la asignación.</span><span class="sxs-lookup"><span data-stu-id="6224f-103">The **Assert** functoid enables you to test your assumptions about conditions in your map.</span></span> <span data-ttu-id="6224f-104">Por ejemplo, si realiza cálculos para determinar un descuento adicional sobre las compras de productos, podría imponer que el descuento adicional sea no más de 100 $ mediante un functoid lógico (**Greater Than** o  **Less than**).</span><span class="sxs-lookup"><span data-stu-id="6224f-104">For example, if you perform some calculations to determine an additional discount on product purchases, you might assert that the additional discount be no more than $100 by using a logical functoid (**Greater Than** or **Less Than**).</span></span>  

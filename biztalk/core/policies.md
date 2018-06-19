@@ -1,11 +1,11 @@
 ---
 title: Directivas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Engine, policies
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - policies, creating
 - policies, updating
 ms.assetid: 2e0ae081-938d-4e2a-947e-1c0ecfebb4b8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264436"
 ---
 # <a name="policies"></a><span data-ttu-id="14d11-102">Directivas</span><span class="sxs-lookup"><span data-stu-id="14d11-102">Policies</span></span>
 <span data-ttu-id="14d11-103">Una directiva es una agrupación lógica de reglas.</span><span class="sxs-lookup"><span data-stu-id="14d11-103">A policy is a logical grouping of rules.</span></span> <span data-ttu-id="14d11-104">Componga una versión de una directiva, guárdela, pruébela aplicándola a datos y, cuando esté satisfecho con los resultados, publíquela e impleméntela en un entorno de producción.</span><span class="sxs-lookup"><span data-stu-id="14d11-104">You compose a version of a policy, save it, test it by applying it to facts, and, when you are satisfied with the results, publish it and deploy it to a production environment.</span></span>  

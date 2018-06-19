@@ -1,14 +1,14 @@
 ---
-title: "Cómo establecer etiquetas y comentarios en varios vínculos y Functoids | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer etiquetas y comentarios en varios vínculos y Functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2b554a19-2bd4-4dbc-b5cb-567b98c07024
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255628"
 ---
 # <a name="how-to-set-label-and-comment-on-multiple-links-and-functoids"></a><span data-ttu-id="b4859-102">Establecimiento de etiquetas y comentarios en varios vínculos y functoids</span><span class="sxs-lookup"><span data-stu-id="b4859-102">How to Set Label and Comment on Multiple Links and Functoids</span></span>
 <span data-ttu-id="b4859-103">Puede configurar una etiqueta o un comentario común para varios functoids o vínculos.</span><span class="sxs-lookup"><span data-stu-id="b4859-103">You can set a common label and/or a comment for multiple functoids and/or links.</span></span> <span data-ttu-id="b4859-104">En este tema se proporcionan detalles acerca de cómo realizar esta operación.</span><span class="sxs-lookup"><span data-stu-id="b4859-104">This topic provides details about how to perform this operation.</span></span>  

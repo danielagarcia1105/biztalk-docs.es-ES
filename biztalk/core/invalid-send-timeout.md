@@ -1,14 +1,14 @@
 ---
-title: "Tiempo de espera de envío no válido | Documentos de Microsoft"
-ms.custom: 
+title: Tiempo de espera de envío no válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01c63cd8-e978-4dd6-ba12-d0c0ad07b8c7
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257596"
 ---
 # <a name="invalid-send-timeout"></a><span data-ttu-id="52f57-102">Tiempo de espera de envío no válido</span><span class="sxs-lookup"><span data-stu-id="52f57-102">Invalid send timeout</span></span>
 ## <a name="details"></a><span data-ttu-id="52f57-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="52f57-103">Details</span></span>  

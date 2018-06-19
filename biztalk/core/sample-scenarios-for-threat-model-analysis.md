@@ -1,11 +1,11 @@
 ---
-title: "Análisis de modelo de escenario de muestra de amenaza | Documentos de Microsoft"
-ms.custom: 
+title: Análisis de modelo de escenario de muestra de amenaza | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - TMA, security
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - TMA, examples
 - examples, TMA
 ms.assetid: e35d1d7f-a71a-42f5-b1f4-fe3234ba7686
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269116"
 ---
 # <a name="sample-scenarios-for-threat-model-analysis"></a><span data-ttu-id="94465-102">Escenarios de ejemplo para el análisis del modelo de amenazas</span><span class="sxs-lookup"><span data-stu-id="94465-102">Sample Scenarios for Threat Model Analysis</span></span>
 <span data-ttu-id="94465-103">Esta sección proporciona los pasos y resultados de un análisis de modelo de amenaza (TMA) para cada escenario de uso de la arquitectura de ejemplo identificada en [arquitecturas de ejemplo para pequeñas y compañías de Medium-Sized](../core/sample-architectures-for-small-medium-sized-companies.md).</span><span class="sxs-lookup"><span data-stu-id="94465-103">This section provides the steps and results of a threat model analysis (TMA) for each usage scenario for the sample architecture identified in [Sample Architectures for Small & Medium-Sized Companies](../core/sample-architectures-for-small-medium-sized-companies.md).</span></span> <span data-ttu-id="94465-104">El objeto de esta sección es mostrarle los pasos de un TMA.</span><span class="sxs-lookup"><span data-stu-id="94465-104">The purpose of this section is to show you the steps of a TMA.</span></span> <span data-ttu-id="94465-105">El contenido de esta sección le ayudará a comprender el funcionamiento de un TMA; incluye una descripción de las amenazas potenciales que identificamos en la aplicación de ejemplo y ofrece recomendaciones para reducir sus efectos.</span><span class="sxs-lookup"><span data-stu-id="94465-105">This helps you understand how a TMA works, and describes for you the potential threats we identified for the sample architecture and how we recommend that you reduce their effect.</span></span>  

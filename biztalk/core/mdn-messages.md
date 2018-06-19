@@ -1,14 +1,14 @@
 ---
 title: Mensajes MDN | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16ac6253-0be5-4636-b102-bf5af8956261
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263732"
 ---
 # <a name="mdn-messages"></a><span data-ttu-id="887cb-102">Mensajes MDN</span><span class="sxs-lookup"><span data-stu-id="887cb-102">MDN Messages</span></span>
 <span data-ttu-id="887cb-103">La notificación de disposición de mensaje (MDN) es la confirmación enviada en respuesta a un mensaje AS2.</span><span class="sxs-lookup"><span data-stu-id="887cb-103">The Message Disposition Notification (MDN) is the acknowledgment sent in response to an AS2 message.</span></span> <span data-ttu-id="887cb-104">Si se habilita un MDN, la transmisión AS2 no se completa hasta que se comprueba y recibe el MDN.</span><span class="sxs-lookup"><span data-stu-id="887cb-104">If an MDN is enabled, the AS2 transmission is not complete until the MDN has been received and verified.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="887cb-105">siempre intentará devolver un MDN para indicar el estado de procesamiento de mensajes, incluso si se produjo un error en el procesamiento del mensaje AS2.</span><span class="sxs-lookup"><span data-stu-id="887cb-105"> will always attempt to return an MDN to indicate the status of message processing, even if an error occurred in processing the AS2 message.</span></span>  

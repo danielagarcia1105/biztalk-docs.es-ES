@@ -1,11 +1,11 @@
 ---
 title: Hosts | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host instances, servers
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - Isolated Host Users group
 - hosts, trusted
 ms.assetid: d96537e0-e679-407a-8870-34a663acfed9
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247228"
 ---
 # <a name="hosts"></a><span data-ttu-id="6687f-102">Hosts</span><span class="sxs-lookup"><span data-stu-id="6687f-102">Hosts</span></span>
 <span data-ttu-id="6687f-103">El objeto de host de BizTalk representa un conjunto lógico que puede contener (o no) procesos en tiempo de ejecución y en el que se pueden implementar servicios, canalizaciones y otros artefactos.</span><span class="sxs-lookup"><span data-stu-id="6687f-103">The BizTalk Host object represents a logical set of zero or more runtime processes in which you can deploy services, pipelines, and other artifacts.</span></span> <span data-ttu-id="6687f-104">Además, representa un conjunto de instancias de hosts que puede estar vacío y en el que se ejecutan físicamente los elementos implementados.</span><span class="sxs-lookup"><span data-stu-id="6687f-104">The Host object also represents a collection of runtime instances (zero or more) where the deployed items physically run.</span></span>  

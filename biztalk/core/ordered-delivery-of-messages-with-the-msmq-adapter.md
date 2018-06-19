@@ -1,17 +1,17 @@
 ---
 title: Entrega ordenada de mensajes con el adaptador de MSMQ | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, ordered delivery
 - MSMQ adapters, ordered delivery
 ms.assetid: e8dafc76-e894-4120-9cea-d014d635850e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263588"
 ---
 # <a name="ordered-delivery-of-messages-with-the-msmq-adapter"></a><span data-ttu-id="d1dc2-102">Entrega ordenada de mensajes con el adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="d1dc2-102">Ordered Delivery of Messages with the MSMQ Adapter</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="d1dc2-103">Proporciona un **entrega ordenada** puertos de envío de la opción para estático.</span><span class="sxs-lookup"><span data-stu-id="d1dc2-103"> provides an **Ordered Delivery** option for static send ports.</span></span> <span data-ttu-id="d1dc2-104">Establecer el **entrega ordenada** opción en un puerto de envío a **True** garantiza que BizTalk Server entrega mensajes al puerto de envío en el mismo orden que se publican en la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="d1dc2-104">Setting the **Ordered Delivery** option on a send port to **True** ensures that BizTalk Server delivers messages to the send port in the same order that they are published to the MessageBox database.</span></span> <span data-ttu-id="d1dc2-105">Para proporcionar una entrega ordenada de extremo a extremo, deben cumplirse las siguientes condiciones:</span><span class="sxs-lookup"><span data-stu-id="d1dc2-105">To provide end-to-end ordered delivery the following conditions must be met:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo calcular la deshidratación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo calcular la deshidratación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88f2d09c-60db-4daf-b850-23f2c8915502
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248316"
 ---
 # <a name="how-to-calculate-dehydration"></a><span data-ttu-id="fb124-102">Cómo calcular la deshidratación</span><span class="sxs-lookup"><span data-stu-id="fb124-102">How to Calculate Dehydration</span></span>
 <span data-ttu-id="fb124-103">Para calcular la deshidratación, use las propiedades configuradas y determinados valores de tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="fb124-103">To calculate dehydration, you use the configured properties and certain run-time values.</span></span> <span data-ttu-id="fb124-104">En el ejemplo siguiente se muestra cómo calcular un escenario de deshidratación hipotético.</span><span class="sxs-lookup"><span data-stu-id="fb124-104">The following example demonstrates how to calculate a hypothetical dehydration scenario.</span></span>  
@@ -61,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="fb124-122">La decisión sobre si se debe deshidratar es el resultado la siguiente condición booleana (true = deshidratar):</span><span class="sxs-lookup"><span data-stu-id="fb124-122">The decision whether to dehydrate is the result of the following Boolean condition (true = dehydrate):</span></span>  
   
--   <span data-ttu-id="fb124-123">Deshidratar = (EstimatedTime > TestThreshold OR TimeBlocked > (2* TestThreshold))</span><span class="sxs-lookup"><span data-stu-id="fb124-123">Dehydrate = (EstimatedTime > TestThreshold OR TimeBlocked > (2* TestThreshold))</span></span>  
+-   <span data-ttu-id="fb124-123">Deshidratar = (EstimatedTime > TestThreshold OR TimeBlocked > (2\* TestThreshold))</span><span class="sxs-lookup"><span data-stu-id="fb124-123">Dehydrate = (EstimatedTime > TestThreshold OR TimeBlocked > (2\* TestThreshold))</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="fb124-124">El tiempo estimado es el tiempo restante hasta que termina el retraso (si se retrasa 5 minutos y han pasado 2 minutos, TimeBlocked=120 segundos, EstimatedTime=180 segundos).</span><span class="sxs-lookup"><span data-stu-id="fb124-124">Estimated time is the time remaining until the delay is ended (if delayed for 5 minutes and 2 minutes has passed, TimeBlocked=120 seconds, EstimatedTime=180 seconds).</span></span>  

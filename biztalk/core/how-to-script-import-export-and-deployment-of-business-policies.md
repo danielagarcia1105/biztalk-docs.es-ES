@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear scripts de implementación de directivas empresariales y de importación y exportación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear scripts de implementación de directivas empresariales y de importación y exportación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, policies
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - deploying, business rules
 - Business Rules Framework, programming
 ms.assetid: 333d37dc-e0ee-460c-922d-70eedf7b7ccb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254972"
 ---
 # <a name="how-to-script-import-export-and-deployment-of-business-policies"></a><span data-ttu-id="c7bb4-102">Cómo crear scripts de importación y exportación y la implementación de directivas empresariales</span><span class="sxs-lookup"><span data-stu-id="c7bb4-102">How to Script Import-Export and Deployment of Business Policies</span></span>
 <span data-ttu-id="c7bb4-103">Esta sección describe cómo mediante programación importación/exportación e implementar directivas mediante **RuleSetDeploymentDriver**.</span><span class="sxs-lookup"><span data-stu-id="c7bb4-103">This section describes how to programmatically import/export and deploy policies using **RuleSetDeploymentDriver**.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Instalar el Software eventos BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a3638d34-f5a8-4ffd-99eb-d38aed4c0732
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257452"
 ---
 # <a name="installing-the-bam-eventing-software"></a><span data-ttu-id="93d76-102">Instalar el software de eventos BAM</span><span class="sxs-lookup"><span data-stu-id="93d76-102">Installing the BAM-Eventing Software</span></span>
 <span data-ttu-id="93d76-103">Para implementar soluciones de BAM mediante la API de eventos BAM o configurar la aplicación de Windows Workflow Foundation o Windows Communication Foundation para utilizar el interceptor de BAM para Windows Workflow Foundation, debe instalar el software eventos BAM mediante el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] programa de instalación.</span><span class="sxs-lookup"><span data-stu-id="93d76-103">To implement BAM solutions using the BAM eventing APIs or configure your Windows Workflow Foundation or Windows Communication Foundation application to use the BAM interceptor for Windows Workflow Foundation, you must install the BAM-Eventing software by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Setup program.</span></span> <span data-ttu-id="93d76-104">Este software puede instalarse como parte de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en tiempo de ejecución o por separado seleccionando compatibilidad de eventos de BAM en Software adicional en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] la instalación de aplicación.</span><span class="sxs-lookup"><span data-stu-id="93d76-104">This software can be installed as part of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime or separately by selecting BAM Eventing Support under Additional Software in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup application.</span></span>  

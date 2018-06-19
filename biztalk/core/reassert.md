@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269652"
 ---
 # <a name="reassert"></a><span data-ttu-id="9a1e7-102">Reassert</span><span class="sxs-lookup"><span data-stu-id="9a1e7-102">Reassert</span></span>
 <span data-ttu-id="9a1e7-103">Para *imponer* significa llamar a la **Assert** función en un objeto que ya está en el motor de la memoria de trabajo.</span><span class="sxs-lookup"><span data-stu-id="9a1e7-103">To *reassert* means to call the **Assert** function on an object that is already in the engine's working memory.</span></span> <span data-ttu-id="9a1e7-104">Un comando reassert es equivalente a emitir un comando retract y, a continuación, un comando assert para el objeto.</span><span class="sxs-lookup"><span data-stu-id="9a1e7-104">A reassert command is equivalent to issuing a retract command for the object, followed by an assert command.</span></span>  

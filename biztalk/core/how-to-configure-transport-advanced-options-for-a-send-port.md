@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar las opciones avanzadas para un puerto de envío de transporte | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar las opciones avanzadas para un puerto de envío de transporte | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, transport options [send ports]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - managing [send ports], configuring
 - managing [send ports], transport options
 ms.assetid: b0033e09-3c18-4e53-a470-e12978e61ba1
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250684"
 ---
 # <a name="how-to-configure-transport-advanced-options-for-a-send-port"></a><span data-ttu-id="c41cf-102">Cómo configurar opciones avanzadas de transporte para un puerto de envío</span><span class="sxs-lookup"><span data-stu-id="c41cf-102">How to Configure Transport Advanced Options for a Send Port</span></span>
 <span data-ttu-id="c41cf-103">Usar la consola de administración de BizTalk Server para configurar las opciones avanzadas para un puerto de envío de transporte.</span><span class="sxs-lookup"><span data-stu-id="c41cf-103">Use the BizTalk Server Administration console to configure transport advanced options for a send port.</span></span> <span data-ttu-id="c41cf-104">Estas opciones determinan la forma en la que el puerto de envío controla los mensajes, como, por ejemplo, el número de reintentos de envío de un mensaje si éste tiene algún error, así como la programación de la ventana de servicio para el puerto.</span><span class="sxs-lookup"><span data-stu-id="c41cf-104">These options determine how messages are handled by the send port, such as the number of times to retry sending messages on message failure and the service window schedule for the port.</span></span>  

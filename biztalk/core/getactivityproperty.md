@@ -1,14 +1,14 @@
 ---
 title: GetActivityProperty | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2321f1ec-d98d-478f-bb1d-a11a98e60fa5
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246588"
 ---
 # <a name="getactivityproperty"></a><span data-ttu-id="59ad2-102">GetActivityProperty</span><span class="sxs-lookup"><span data-stu-id="59ad2-102">GetActivityProperty</span></span>
 <span data-ttu-id="59ad2-103">Inserta la propiedad extraída de la actividad relacionada con el evento de seguimiento en la pila.</span><span class="sxs-lookup"><span data-stu-id="59ad2-103">Pushes the extracted property from the activity related to the tracking event onto the stack.</span></span>  

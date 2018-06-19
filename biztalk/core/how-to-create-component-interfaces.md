@@ -1,17 +1,17 @@
 ---
-title: "Cómo crear Interfaces de componentes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear Interfaces de componentes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating component interfaces
 - component interfaces, creating
 ms.assetid: 9def053a-cbf6-4b34-b2e8-b2d03bffc5fe
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249300"
 ---
 # <a name="how-to-create-component-interfaces"></a><span data-ttu-id="e007b-102">Cómo crear interfaces de componentes</span><span class="sxs-lookup"><span data-stu-id="e007b-102">How to Create Component Interfaces</span></span>
 <span data-ttu-id="e007b-103">Cree interfaces de componentes mediante la aplicación Application Designer de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="e007b-103">You create component interfaces using the PeopleSoft Application Designer.</span></span> <span data-ttu-id="e007b-104">(Para obtener más información sobre Application Designer, vea la documentación de PeopleSoft Enterprise).</span><span class="sxs-lookup"><span data-stu-id="e007b-104">(For more information about Application Designer, see the PeopleSoft Enterprise documentation.)</span></span>  

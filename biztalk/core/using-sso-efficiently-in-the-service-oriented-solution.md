@@ -1,18 +1,18 @@
 ---
-title: "Usar SSO de forma eficaz en el servicio de solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Usar SSO de forma eficaz en el servicio de solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, service solutions
 - service solution tutorial, SSO
 - SSO, using from code
 ms.assetid: 809e0ad3-cc7f-4095-87d1-63031675a47f
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289268"
 ---
 # <a name="using-sso-efficiently-in-the-service-oriented-solution"></a><span data-ttu-id="b3efa-102">Usar SSO de forma eficaz en el servicio de solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="b3efa-102">Using SSO Efficiently in the Service Oriented Solution</span></span>
 <span data-ttu-id="b3efa-103">La solución orientada a servicios utiliza el inicio de sesión único (SSO) empresarial tanto para almacenar valores de configuración como para controlar las credenciales de los sistemas servidor.</span><span class="sxs-lookup"><span data-stu-id="b3efa-103">The service oriented solution uses Enterprise Single Sign-On (SSO) both to store configuration values and to handle credentials for the back-end systems.</span></span> <span data-ttu-id="b3efa-104">Para reducir latencia, la solución utiliza una caché local para los valores de configuración.</span><span class="sxs-lookup"><span data-stu-id="b3efa-104">To reduce latency, the solution uses a local cache for the configuration values.</span></span> <span data-ttu-id="b3efa-105">La solución actualiza la caché cada cinco minutos.</span><span class="sxs-lookup"><span data-stu-id="b3efa-105">The solution refreshes the cache every five minutes.</span></span>  

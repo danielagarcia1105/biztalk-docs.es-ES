@@ -1,17 +1,17 @@
 ---
-title: "Control de interrupciones en la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Control de interrupciones en la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing, pausing
 - process management solution tutorial, pausing processing
 ms.assetid: 23ce7617-f705-4b7d-8447-221dec9fb196
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257780"
 ---
 # <a name="interrupt-handling-in-the-business-process-management-solution"></a><span data-ttu-id="af9a9-102">Control de interrupciones en la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="af9a9-102">Interrupt Handling in the Business Process Management Solution</span></span>
 <span data-ttu-id="af9a9-103">En esta sección se describe el mecanismo de control de interrupciones utilizado en la solución de administración de procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="af9a9-103">This section describes the interrupt handling mechanism used in the Business Process Management Solution.</span></span> <span data-ttu-id="af9a9-104">Mediante el mecanismo de interrupción le permite detener el procesamiento de pedidos cuando se actualiza o se cancela un pedido.</span><span class="sxs-lookup"><span data-stu-id="af9a9-104">Using the interrupt mechanism enables you to halt order processing when an order is updated or canceled.</span></span>  

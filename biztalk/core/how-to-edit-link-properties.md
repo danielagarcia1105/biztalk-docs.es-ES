@@ -1,14 +1,14 @@
 ---
-title: "Cómo editar propiedades de vínculo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo editar propiedades de vínculo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: efd13dee-1f53-4f4e-8612-302f827bc6d8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253780"
 ---
 # <a name="how-to-edit-link-properties"></a><span data-ttu-id="1ff60-102">Cómo editar propiedades de vínculo</span><span class="sxs-lookup"><span data-stu-id="1ff60-102">How to Edit Link Properties</span></span>
 <span data-ttu-id="1ff60-103">Los vínculos tienen varias propiedades que aparecen en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] **propiedades** ventana, como los siguientes:</span><span class="sxs-lookup"><span data-stu-id="1ff60-103">Links have several properties that appear in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]**Properties** window, such as the following:</span></span>  

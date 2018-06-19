@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de recepción de interfaces para un aislado | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de recepción de interfaces para un aislado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c6b195e-76bf-4c3e-a324-5513bc24fed1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257772"
 ---
 # <a name="interfaces-for-an-isolated-receive-adapter"></a><span data-ttu-id="b31fd-102">Interfaces de un adaptador de recepción aislado</span><span class="sxs-lookup"><span data-stu-id="b31fd-102">Interfaces for an Isolated Receive Adapter</span></span>
 <span data-ttu-id="b31fd-103">Aisladas de recepción adaptadores se hospedan en un espacio de proceso distinto de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proceso.</span><span class="sxs-lookup"><span data-stu-id="b31fd-103">Isolated receive adapters are hosted in a process space other than the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process.</span></span> <span data-ttu-id="b31fd-104">Para interactuar con el motor de mensajería, un adaptador de recepción aislado se registra a sí mismo en el inicio de modo que el motor pueda configurarlo y controlarlo.</span><span class="sxs-lookup"><span data-stu-id="b31fd-104">To interact with the Messaging Engine, an isolated receive adapter registers itself on startup so that the engine can configure and control it.</span></span> <span data-ttu-id="b31fd-105">El adaptador crea el proxy de transporte, las consultas para la interfaz **IBTTransportProxy**y las llamadas **IBTTransportProxy.RegisterIsolatedReceiver** para registrar su  **IBTTransportConfig** interfaz de devolución de llamada con el motor de mensajería.</span><span class="sxs-lookup"><span data-stu-id="b31fd-105">The adapter creates the transport proxy, queries for the interface **IBTTransportProxy**, and calls **IBTTransportProxy.RegisterIsolatedReceiver** to register its **IBTTransportConfig** callback interface with the Messaging Engine.</span></span> <span data-ttu-id="b31fd-106">Esta llamada sincrónica se produce antes de que el adaptador envía su primer mensaje a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b31fd-106">This synchronous call occurs before the adapter submits its first message to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="b31fd-107">Esto permite que el motor de mensajería devuelva la llamada al adaptador y le indique qué extremos están activos y en cuáles hay que escuchar los mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="b31fd-107">This allows the Messaging Engine to call back into the adapter and tell it which of its endpoints are active and should be listened on for incoming messages.</span></span> <span data-ttu-id="b31fd-108">Los adaptadores aislados deben implementar las interfaces siguientes:</span><span class="sxs-lookup"><span data-stu-id="b31fd-108">Isolated adapters must implement the following interfaces:</span></span>  

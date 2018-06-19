@@ -1,14 +1,14 @@
 ---
-title: "Errores de aplicación o servicio | Documentos de Microsoft"
-ms.custom: 
+title: Errores de aplicación o servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85e2b109-36af-4ac7-8c98-fd3dd2401306
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294180"
 ---
 # <a name="faults-by-application-or-service"></a><span data-ttu-id="e3249-102">Errores de aplicación o servicio</span><span class="sxs-lookup"><span data-stu-id="e3249-102">Faults by Application or Service</span></span>
 <span data-ttu-id="e3249-103">Esta opción muestra una vista agregada de todos los errores generados para un grupo de aplicaciones especificado durante un tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="e3249-103">This option displays an aggregate view of all the faults generated for a specified set of applications over a specified time.</span></span> <span data-ttu-id="e3249-104">Al seleccionar un servicio concreto, muestra un informe que muestra los errores para ese servicio en concreto.</span><span class="sxs-lookup"><span data-stu-id="e3249-104">Selecting a specific service displays a report that lists the faults for that specific service.</span></span> <span data-ttu-id="e3249-105">Puede exportar la lista de errores como una hoja de cálculo de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="e3249-105">You can export the list of faults as a Microsoft Excel spreadsheet.</span></span>  

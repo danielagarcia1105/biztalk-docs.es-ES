@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287932"
 ---
 # <a name="warning---empty-target-namespace"></a><span data-ttu-id="0cd84-102">Advertencia: vacío destino Namespace</span><span class="sxs-lookup"><span data-stu-id="0cd84-102">Warning - Empty Target Namespace</span></span>
 <span data-ttu-id="0cd84-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="0cd84-103">**Error Code**</span></span>  

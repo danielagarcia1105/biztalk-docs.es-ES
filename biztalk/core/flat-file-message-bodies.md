@@ -1,14 +1,14 @@
 ---
 title: Cuerpos de mensaje de archivo sin formato | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 097e49a1-75d2-44a4-9372-d78de7b7597c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246788"
 ---
 # <a name="flat-file-message-bodies"></a><span data-ttu-id="9be89-102">Cuerpos de los mensajes de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="9be89-102">Flat File Message Bodies</span></span>
 <span data-ttu-id="9be89-103">El cuerpo del mensaje de una instancia de archivo sin formato es necesario y es lo que procesa el desensamblador de archivos sin formato en uno o más mensajes de instancia XML.</span><span class="sxs-lookup"><span data-stu-id="9be89-103">A flat file instance message body, which is required, is what the flat file disassembler processes into one or more XML instance messages.</span></span> <span data-ttu-id="9be89-104">Para saber qué datos debe contar el cuerpo del mensaje de una instancia de archivo sin formato de entrada, debe configurar el desensamblador de archivos sin formato con el esquema de archivo sin formato correspondiente al cuerpo.</span><span class="sxs-lookup"><span data-stu-id="9be89-104">To know what data to expect in an inbound flat file instance message body, you must configure the flat file disassembler with the flat file schema that corresponds to the body.</span></span> <span data-ttu-id="9be89-105">Puede especificar el esquema mediante la **esquema de documento** propiedad en tiempo de diseño del desensamblador de archivos sin formato o **XMLNORM. DocumentSpecName** propiedad de contexto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="9be89-105">You can specify the schema by using the **Document schema** design-time property of the flat file disassembler or the **XMLNORM.DocumentSpecName** message context property.</span></span> <span data-ttu-id="9be89-106">Como los mensajes de instancia de archivo sin formato deben tener la parte del cuerpo, tendrá que configurar el esquema apropiado con uno de estos dos métodos.</span><span class="sxs-lookup"><span data-stu-id="9be89-106">Because flat file instance messages must have a body part, you must configure the appropriate schema using one of these two methods.</span></span>  

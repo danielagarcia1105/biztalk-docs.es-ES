@@ -1,14 +1,14 @@
 ---
-title: "Cómo modificar las propiedades de Host | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar las propiedades de Host | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5df9d7f-b6c2-4bb7-a845-284e6323e3d6
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255660"
 ---
 # <a name="update-host-properties"></a><span data-ttu-id="d52a6-102">Actualizar las propiedades de Host</span><span class="sxs-lookup"><span data-stu-id="d52a6-102">Update Host Properties</span></span>
 

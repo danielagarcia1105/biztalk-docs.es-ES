@@ -1,14 +1,14 @@
 ---
-title: "Conoce problemas con EDI de procesamiento de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Conoce problemas con EDI de procesamiento de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbb3fd6a-381b-479e-a9f2-7b6371fac39e
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262964"
 ---
 # <a name="known-issues-with-edi-receive-processing"></a><span data-ttu-id="9fb63-102">Problemas conocidos del procesamiento de recepción de EDI</span><span class="sxs-lookup"><span data-stu-id="9fb63-102">Known Issues with EDI Receive Processing</span></span>
 <span data-ttu-id="9fb63-103">En este tema se describen los problemas conocidos del procesamiento en la canalización de recepción EDI.</span><span class="sxs-lookup"><span data-stu-id="9fb63-103">This topic describes known issues with processing in the EDI receive pipeline.</span></span>  

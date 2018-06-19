@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262052"
 ---
 # <a name="lesson-2-define-the-business-process"></a><span data-ttu-id="04309-102">Lección 2: Definir el proceso empresarial</span><span class="sxs-lookup"><span data-stu-id="04309-102">Lesson 2: Define the Business Process</span></span>
 <span data-ttu-id="04309-103">En esta lección, creará el segundo proyecto de la solución Integration(EAI) de aplicación de empresa.</span><span class="sxs-lookup"><span data-stu-id="04309-103">In this lesson, you create the second project in the Enterprise Application Integration(EAI) solution.</span></span> <span data-ttu-id="04309-104">Este proyecto contiene una orquestación.</span><span class="sxs-lookup"><span data-stu-id="04309-104">This project contains an orchestration.</span></span>  

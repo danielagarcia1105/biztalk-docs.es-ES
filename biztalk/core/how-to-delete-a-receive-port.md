@@ -1,18 +1,18 @@
 ---
-title: "Cómo eliminar un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], deleting
 - deleting, receive ports
 - receive ports, deleting
 ms.assetid: 69cd86f7-e3cc-4a50-8d15-5f978c94a6be
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249076"
 ---
 # <a name="how-to-delete-a-receive-port"></a><span data-ttu-id="4da0d-102">Cómo eliminar un puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="4da0d-102">How to Delete a Receive Port</span></span>
 <span data-ttu-id="4da0d-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para eliminar un puerto de recepción de una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="4da0d-103">This topic describes how to use the BizTalk Server Administration console to delete a receive port from a BizTalk application.</span></span> <span data-ttu-id="4da0d-104">Al hacer esto, el puerto de recepción también se elimina de la base de datos de administración de BizTalk para el grupo, además de las ubicaciones de recepción del puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="4da0d-104">When you do this, the receive port is also deleted from the BizTalk Management database for the group, as are all receive locations in this receive port.</span></span>  

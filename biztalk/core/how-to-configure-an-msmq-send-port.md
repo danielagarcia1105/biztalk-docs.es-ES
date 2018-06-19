@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un puerto de envío MSMQ | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un puerto de envío MSMQ | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, send ports
 - send ports, MSMQ adapters
 - configuring [MSMQ adapters], send ports
 ms.assetid: 37313d45-8148-4aaf-a3f2-ea05b3b8b448
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249780"
 ---
 # <a name="how-to-configure-an-msmq-send-port"></a><span data-ttu-id="02da6-102">Cómo configurar un puerto de envío MSMQ</span><span class="sxs-lookup"><span data-stu-id="02da6-102">How to Configure an MSMQ Send Port</span></span>
 <span data-ttu-id="02da6-103">Se pueden establecer variables del adaptador de puerto de envío MSMQ en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="02da6-103">You can set MSMQ send port adapter variables in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="02da6-104">Si no se establecen las propiedades para el puerto de envío, se usarán los valores predeterminados del controlador de envío establecidos en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="02da6-104">If properties are not set for the send port, the default send handler values set in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console are used.</span></span>  

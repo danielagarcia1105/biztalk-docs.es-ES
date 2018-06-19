@@ -1,11 +1,11 @@
 ---
 title: Usar confirmaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, publishing
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - positive acknowledgements (ACK)
 - BTS.AckOwnerID property
 ms.assetid: 2e5986d4-9633-4b7b-8ff3-fa3da93c5400
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288188"
 ---
 # <a name="using-acknowledgments"></a><span data-ttu-id="75eff-102">Usar confirmaciones</span><span class="sxs-lookup"><span data-stu-id="75eff-102">Using Acknowledgments</span></span>
 <span data-ttu-id="75eff-103">El motor de mensajería de BizTalk genera confirmaciones positivas (ACK) y confirmaciones negativas (NACK) en respuesta a situaciones que ocurren durante el procesamiento de un mensaje a través de un puerto.</span><span class="sxs-lookup"><span data-stu-id="75eff-103">The BizTalk Messaging Engine generates positive acknowledgments (ACK) and negative acknowledgments (NACK) in response to conditions encountered during the processing of a message through a port.</span></span> <span data-ttu-id="75eff-104">BizTalk Server publica una confirmación positiva para indicar que un mensaje se ha transmitido correctamente y una confirmación negativa para señalar que ha habido un error de transmisión y que se ha suspendido el mensaje.</span><span class="sxs-lookup"><span data-stu-id="75eff-104">BizTalk Server publishes a positive acknowledgment to indicate successful transmission of a message and a negative acknowledgment to indicate transmission failure and suspension of a message.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Planeación de capacidad y rendimiento | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de capacidad y rendimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - capacity planning
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - planning, performance
 - architecture, capacity planning
 ms.assetid: 9a7c3e7e-df6d-4ec2-9879-cb234386cd71
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264236"
 ---
 # <a name="performance-and-capacity-planning"></a><span data-ttu-id="428b5-102">Diseño del rendimiento y la capacidad</span><span class="sxs-lookup"><span data-stu-id="428b5-102">Performance and Capacity Planning</span></span>
 <span data-ttu-id="428b5-103">En esta sección se describen las características y la funcionalidad de la compatibilidad de BizTalk Server con 64 bits.</span><span class="sxs-lookup"><span data-stu-id="428b5-103">This section describes the features and functionality of BizTalk Server 64-bit support.</span></span> <span data-ttu-id="428b5-104">También describe cómo planear, probar y escalar su sistema de BizTalk Server para obtener un rendimiento óptimo.</span><span class="sxs-lookup"><span data-stu-id="428b5-104">It also describes how to plan, test, and scale your BizTalk Server system so you have optimal performance.</span></span>  

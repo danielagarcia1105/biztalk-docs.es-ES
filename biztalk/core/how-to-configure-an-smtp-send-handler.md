@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un controlador de envío SMTP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un controlador de envío SMTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2015-10-22
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send handlers, SMTP adapters
 - SMTP adapters, send handlers
 - configuring [SMTP adapters], send handlers
 ms.assetid: b68a36ce-f0a5-4302-a405-bb154c935f47
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22248500"
 ---
 # <a name="how-to-configure-an-smtp-send-handler"></a><span data-ttu-id="cedb1-102">Cómo configurar un controlador de envío de SMTP</span><span class="sxs-lookup"><span data-stu-id="cedb1-102">How to Configure an SMTP Send Handler</span></span>
 <span data-ttu-id="cedb1-103">Puede configurar las propiedades del controlador de envío de SMTP en la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="cedb1-103">You can set SMTP send handler properties in the BizTalk Administration console.</span></span> <span data-ttu-id="cedb1-104">Estas propiedades del controlador de envío se utilizan como valores de configuración del puerto de envío si las propiedades no se establecen en el puerto de envío de SMTP individual.</span><span class="sxs-lookup"><span data-stu-id="cedb1-104">These send handler properties are used as the send port configuration values if the properties are not set on the individual SMTP send port.</span></span>  

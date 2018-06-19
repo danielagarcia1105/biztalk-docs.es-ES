@@ -1,17 +1,17 @@
 ---
-title: "Dimensión de tiempo | Documentos de Microsoft"
-ms.custom: 
+title: Dimensión de tiempo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Time dimension [BAM]
 - aggregations [BAM], Time dimension
 ms.assetid: 8f83b758-09a1-4efb-ae0e-32753f56c4e4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279452"
 ---
 # <a name="time-dimension"></a><span data-ttu-id="1aac1-102">Dimensión de tiempo</span><span class="sxs-lookup"><span data-stu-id="1aac1-102">Time Dimension</span></span>
 <span data-ttu-id="1aac1-103">La dimensión de tiempo permite crear agregaciones con respecto al tiempo.</span><span class="sxs-lookup"><span data-stu-id="1aac1-103">The time dimension allows aggregations to be created with respect to time.</span></span> <span data-ttu-id="1aac1-104">Por ejemplo, puede usar una dimensión de tiempo para crear la tabla siguiente:</span><span class="sxs-lookup"><span data-stu-id="1aac1-104">For example a time dimension can be used to create the following table:</span></span>  
