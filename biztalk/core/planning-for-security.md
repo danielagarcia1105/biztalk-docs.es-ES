@@ -1,11 +1,11 @@
 ---
-title: "Planeación de la seguridad | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de la seguridad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - planning, environment
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - installation, planning
 - security, planning
 ms.assetid: 246ad38f-964c-4cd6-a97d-e004bfe4cc95
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264028"
 ---
 # <a name="planning-for-security"></a>Planear la seguridad
 Esta sección contiene información sobre las posibles amenazas a las que se expone un entorno de Microsoft BizTalk Server, recomendaciones para mitigar los ataques de denegación de servicio y consejos para proteger el entorno.  

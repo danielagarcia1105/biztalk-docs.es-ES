@@ -1,14 +1,14 @@
 ---
 title: Fase de desensamblado (procesamiento de intercambio recuperable) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 552b1e90-f75d-4713-8c7b-155a52819308
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242156"
 ---
 # <a name="disassembly-stage-recoverable-interchange-processing"></a>Fase de desensamblado (procesamiento de intercambio recuperable)
 Los intercambios se procesan en la fase de desensamblado de dos modos distintos:  

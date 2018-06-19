@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Adaptador de archivo | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, File adapters
 - security examples [TMA], File adapters
 ms.assetid: bcb862c0-fe02-4335-8b59-242d28049e3f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271892"
 ---
 # <a name="sample-tma-file-adapter"></a>TMA de ejemplo: Adaptador de archivo
 En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario del adaptador de archivo de la arquitectura de ejemplo. En la siguiente ilustración muestra la arquitectura de ejemplo para el escenario del adaptador de archivo.  
@@ -60,7 +61,7 @@ En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario d
   
 -   **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita anteriormente en "Recopilar fondo información de archivo de escenario del adaptador" y "Información general para todos los escenarios".  
   
--   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de archivo para enviar y recibir mensajes del servidor de BizTalk Server.  
+-   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de archivo para enviar y recibir mensajes del servidor de BizTalk Server.  
   
  **Tabla 1: lista de amenazas identificadas**  
   
@@ -70,7 +71,7 @@ En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario d
 |Un usuario no autorizado podría enviar mensajes a BizTalk Server|Si los usuarios tienen permisos de escritura en la carpeta de archivos en la que BizTalk Server recoge los mensajes, un usuario no autorizado podría enviar mensajes a BizTalk Server.|Cuerpo del mensaje|Denegación del servicio<br /><br /> Elevación de privilegios|  
   
 ## <a name="step-3-review-threats-file-adapter-scenario"></a>Paso 3. Analizar las amenazas (escenario del adaptador de archivo)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de archivo de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de archivo de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de archivo para enviar y recibir mensajes del servidor de BizTalk Server.  
   

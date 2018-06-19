@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar la asignación de valores (sin formato) Functoids a una asignación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar la asignación de valores (sin formato) Functoids a una asignación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00a447c3-58d0-42ab-a5c4-417ee7800a6b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247588"
 ---
 # <a name="how-to-add-value-mapping-flattening-functoids-to-a-map"></a>Cómo agregar functoids de asignación de valores (sin formato) a una asignación
 El **asignación de valores (sin formato)** functoid permite aplanar una parte de un mensaje de instancia de entrada convirtiendo varios registros en un único registro. Ésta es una operación común para convertir catálogos de Microsoft Commerce Server.  

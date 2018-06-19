@@ -1,11 +1,11 @@
 ---
 title: POP3 Propiedades y esquema de propiedades de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, POP3 adapters
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - ReplyTo properties [POP3 adapters]
 - DispositionNotificationTo properties [POP3 adapters]
 ms.assetid: 7a10ae1f-dbcf-4c05-9a50-2503895960f9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264172"
 ---
 # <a name="pop3-adapter-property-schema-and-properties"></a>POP3 Propiedades y esquema de propiedades de adaptador
 La tabla siguiente enumera las propiedades del esquema de propiedades del adaptador de POP3.  

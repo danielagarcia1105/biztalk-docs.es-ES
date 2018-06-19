@@ -1,11 +1,11 @@
 ---
 title: Planear la plataforma para tolerancia a errores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, BizTalk Server
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - Primary Import database [BAM], fault tolerance
 - fail-over clustering
 ms.assetid: 512ed6b8-db1e-434a-8009-63e952cf5500
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265028"
 ---
 # <a name="planning-your-platform-for-fault-tolerance"></a>Planear la plataforma para tolerancia a errores
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está basado en las plataformas Microsoft Windows y Microsoft SQL Server. La capacidad de BizTalk Server de sobrevivir o recuperarse de un desastre depende de la capacidad de supervivencia o recuperación de la plataforma subyacente.  

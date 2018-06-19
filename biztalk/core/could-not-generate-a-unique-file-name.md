@@ -1,14 +1,14 @@
 ---
-title: "No se pudo generar un nombre de archivo único | Documentos de Microsoft"
-ms.custom: 
+title: No se pudo generar un nombre de archivo único | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f0ad4fab-66c8-4475-a345-580ff8a4bb10
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237764"
 ---
 # <a name="could-not-generate-a-unique-file-name"></a>No se pudo generar un nombre de archivo único
 ## <a name="details"></a>Detalles  

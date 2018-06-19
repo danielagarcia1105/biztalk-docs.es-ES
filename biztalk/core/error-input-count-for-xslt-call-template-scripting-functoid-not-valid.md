@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241036"
 ---
 # <a name="error---input-count-for-xslt-call-template-scripting-functoid-not-valid"></a>Error: el número de entrada para XSLT llamada plantilla Functoid de script no es válido
 **Código de error**  

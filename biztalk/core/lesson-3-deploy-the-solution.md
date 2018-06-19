@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261916"
 ---
 # <a name="lesson-3-deploy-the-solution"></a>Lección 3: Implementar la solución
 El primer paso para la implementación de la solución EAISolution consiste en agregar ensamblados a la base de datos de administración de BizTalk y a la caché de ensamblados global.  

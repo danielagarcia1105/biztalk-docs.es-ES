@@ -1,14 +1,14 @@
 ---
-title: "Configuración de juego de caracteres y separadores (EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de juego de caracteres y separadores (EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4764938-0968-4536-9eb6-d600c03a0428
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234252"
 ---
 # <a name="configuring-charset-and-separators-edifact"></a>Configuración de juego de caracteres y separadores (EDIFACT)
 En el acuerdo de socio comercial, puede especificar el juego de caracteres (UNA) que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará para validar las propiedades de entidad al crear el sobre para un mensaje EDIFACT saliente. También puede especificar los separadores y terminadores (UNB) que se usarán para los segmentos en el intercambio.  

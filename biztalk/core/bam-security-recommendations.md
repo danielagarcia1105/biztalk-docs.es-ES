@@ -1,18 +1,18 @@
 ---
 title: Recomendaciones de seguridad BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, BAM
 - managing [BAM], security
 - BAM, security
 ms.assetid: 73613123-c1ed-477a-9f5c-342b2573c975
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232188"
 ---
 # <a name="bam-security-recommendations"></a>Recomendaciones de seguridad para BAM
 Se recomienda seguir estas directrices para proteger e implementar BAM en el entorno:  

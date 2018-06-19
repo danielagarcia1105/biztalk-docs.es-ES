@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar Functoids de asignación a una asignación de valores | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar Functoids de asignación a una asignación de valores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc70067a-67a1-4a0e-95e5-b0cb327d2cee
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247844"
 ---
 # <a name="how-to-add-value-mapping-functoids-to-a-map"></a>Cómo agregar functoids de asignación de valores a una asignación
 El **Value Mapping** functoid devuelve el valor de su segundo parámetro si el primer parámetro es true. Una utilización común del functoid es cambiar los atributos de un campo a los atributos de un registro.  

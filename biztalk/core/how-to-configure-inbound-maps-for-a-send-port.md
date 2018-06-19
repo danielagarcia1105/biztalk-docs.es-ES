@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar asignaciones de entrada para un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar asignaciones de entrada para un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send ports], inbound maps
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [send ports], configuring
 - send ports, configuring
 ms.assetid: 213c66ba-928f-4c00-9a87-f45eaa9f7dca
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248468"
 ---
 # <a name="how-to-configure-inbound-maps-for-a-send-port"></a>Cómo configurar asignaciones de entrada para un puerto de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para configurar asignaciones de entrada para un puerto de envío. Las asignaciones de entrada se utilizan únicamente con puertos de envío de petición-respuesta estáticos o dinámicos. Se utiliza una asignación para aplicar una transformación XSL a un mensaje de respuesta recibido por el puerto, sin tener que procesar el mensaje a través de una orquestación. Es posible agregar una asignación de entrada, quitar una asignación o cambiar una ya existente por otra distinta. Puede agregar más de una asignación a un puerto de envío, aunque cada una de las asignaciones debe tener un único esquema de origen. Para obtener información general acerca de las asignaciones, vea [asigna](../core/maps.md).  

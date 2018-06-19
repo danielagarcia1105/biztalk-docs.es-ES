@@ -1,14 +1,14 @@
 ---
-title: "Cómo diseñar un adaptador de rendimiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo diseñar un adaptador de rendimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5a1f338-fd7c-41c8-a181-8da8b293c4cc
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250540"
 ---
 # <a name="how-to-design-a-performant-adapter"></a>Cómo diseñar un adaptador con el que optimizar el rendimiento
 Para optimizar el rendimiento, todos los adaptadores deberían admitir lotes con respecto al envío de lotes de mensajes, a la transmisión de lotes y, en general, a la realización de operaciones de mensajes en lotes. Los adaptadores deberían intentar exponer atributos configurables relacionados con el rendimiento, como, por ejemplo, el tamaño de los lotes o el número de bytes de un lote, que se puedan configurar en la interfaz de usuario de tiempo de diseño del adaptador.  

@@ -1,11 +1,11 @@
 ---
-title: "Conversión de propiedades de tipos de datos | Documentos de Microsoft"
-ms.custom: 
+title: Conversión de propiedades de tipos de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, data type conversion
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MQCHAR property [MQSeries adapters]
 - configuring [MQSeries adapters], data type conversion
 ms.assetid: 5b81eab0-f7a1-42f3-b212-a211b2893fd5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238668"
 ---
 # <a name="data-type-conversion-of-properties"></a>Conversión de tipos de datos de propiedades
 Las propiedades de encabezado de los mensajes MQSeries son estructuras de datos contenidas en el propio mensaje. Al enviar y recibir mensajes, el adaptador de MQSeries automáticamente valida y convierte determinados valores de los encabezados de mensaje MQSeries.  

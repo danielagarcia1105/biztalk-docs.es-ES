@@ -1,11 +1,11 @@
 ---
-title: "Validación en el componente de canalización de desensamblador de archivos sin formato de documentos | Documentos de Microsoft"
-ms.custom: 
+title: Validación en el componente de canalización de desensamblador de archivos sin formato de documentos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Validate Document Structure property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Flat File Disassembler [pipeline component], validating documents
 - pipeline components, Flat File Disassembler
 ms.assetid: 8cd777e4-8aba-4c17-92e8-958e5dd57d09
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239420"
 ---
 # <a name="document-validation-in-the-flat-file-disassembler-pipeline-component"></a>Validación de documentos en el componente de canalización de desensamblador de archivos sin formato
 De forma predeterminada, el componente de canalización de desensamblador de archivo sin formato no valida los documentos que procesa. Sin embargo, puede activar validación estableciendo la **validar la estructura del documento** propiedad del componente en **True**, o estableciendo la **FFDasm.ValidateDocumentStructure**propiedad de contexto de mensaje **True**. Cuando se establece que se ejecute la validación de documentos, el desensamblador de archivo sin formato valida la estructura del documento, así como las estructuras de encabezado y finalizador para asegurarse de que se ajustan a los esquemas del documento, encabezado y finalizador.  

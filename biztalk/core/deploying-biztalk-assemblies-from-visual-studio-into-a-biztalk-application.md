@@ -1,14 +1,14 @@
 ---
-title: "Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: accef4b8-acdf-4043-8fd7-2db9ea752074
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240092"
 ---
 # <a name="deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application"></a>Implementar ensamblados de BizTalk en una aplicación de BizTalk desde Visual Studio
 Implementar y volver a implementar ensamblados de BizTalk desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk. Puede que desee realizarlo para probar la funcionalidad de los ensamblados que ha estado desarrollando y empaquételos para su entrega.  

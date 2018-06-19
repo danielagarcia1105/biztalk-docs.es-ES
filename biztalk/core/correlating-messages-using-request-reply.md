@@ -1,18 +1,18 @@
 ---
 title: Correlacionar mensajes mediante procedimientos de solicitud-respuesta | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MQSeries adapters
 - messages, correlating
 - MQSeries adapters, correlating messages
 ms.assetid: 4615b586-663b-41d8-949c-fefb6143c590
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237996"
 ---
 # <a name="correlating-messages-using-request-reply"></a>Correlacionar mensajes mediante procedimientos de solicitud-respuesta
 Hay dos formas de correlacionar mensajes en orquestaciones de BizTalk para IBM WebSphere MQ, componente Servidor para escenarios de plataformas solicitud-respuesta de Windows. La primera consiste en proporcionar el identificador de correlación, configuración de MessageID (**MQMD_MSGID**) y CorrelationID (**MQMD_CorrelId**) en el mismo valor. El segundo consiste en usar la **BizTalk_CorrelationId** propiedad de contexto.  

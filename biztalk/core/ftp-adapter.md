@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246340"
 ---
 # <a name="ftp-adapter"></a>Adaptador de FTP
 El adaptador de FTP intercambia datos entre un servidor FTP y Microsoft BizTalk Server, y permite la integración de datos imprescindibles almacenados en una gran variedad de plataformas con aplicaciones de líneas de negocios. El adaptador se puede conectar con el servidor FTP a través de un servidor proxy SOCKS4 o SOCKS5.  

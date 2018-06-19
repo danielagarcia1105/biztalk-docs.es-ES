@@ -1,14 +1,14 @@
 ---
-title: "Configuración de confirmaciones (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de confirmaciones (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eec2dbff-5d04-4a38-bad0-33d040b6dd12
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233628"
 ---
 # <a name="configuring-acknowledgements-x12"></a>Configuración de confirmaciones (X12)
 En el acuerdo de socios comerciales, se puede especificar cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera las confirmaciones en respuesta a intercambios con codificación X12 recibidos de la entidad y qué tipo de confirmación se devuelve a la entidad. También se puede especificar si una confirmación debe procesarse por lotes y si se generan bucles AK2 para los conjuntos de transacciones aceptados. Esta sección proporciona instrucciones acerca de cómo hacerlo.  

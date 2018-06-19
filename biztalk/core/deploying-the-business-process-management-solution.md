@@ -1,17 +1,17 @@
 ---
-title: "Implementar la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Implementar la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, process management solution tutorial
 - process management solution tutorial, deploying
 ms.assetid: e033e0cd-0333-4f16-a4a0-eaae9ce98fcc
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239444"
 ---
 # <a name="deploying-the-business-process-management-solution"></a>Implementar la solución de administración de procesos empresariales
 La solución de administración de procesos empresariales (BPM) muestra una forma de construir un administrador de procesos en una aplicación de BizTalk. La solución utiliza un componente para seleccionar y controlar la secuencia de fases en el procesamiento de pedidos. La solución toma un pedido, que puede ser de un nuevo servicio, una actualización o la terminación del servicio, lo registra y lo confirma antes de pasarlo para su procesamiento. El procesamiento consta de uno o más fases de control del pedido. Por último, la solución devuelve una respuesta a la solicitud de pedido original.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo depurar mapas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo depurar mapas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1ee1e26-fced-4126-b48a-71007043424d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249036"
 ---
 # <a name="how-to-debug-maps"></a>Depuración de asignaciones
 El **depurar asignación** característica es útil para identificar y solucionar problemas de asignación complejos. Este tema proporciona instrucciones paso a paso para la depuración de asignaciones mediante el depurador XSLT en línea.  

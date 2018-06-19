@@ -1,11 +1,11 @@
 ---
-title: "Investigación de orquestación, puerto y mensaje errores | Documentos de Microsoft"
-ms.custom: 
+title: Investigación de orquestación, puerto y mensaje errores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Administration Console [BizTalk Server], Group Hub page
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - messages, errors
 - data, MessageBox database
 ms.assetid: 50b0d272-2d48-4e0f-82ce-6ecc7a65b064
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262308"
 ---
 # <a name="investigating-orchestration-port-and-message-failures"></a>Investigar errores de mensaje, orquestación y puerto
 Puede utilizar la página Concentrador de grupo de la consola de administración de BizTalk Server para investigar errores de mensaje, orquestación y puerto. La página Concentrador de grupo proporciona acceso al estado actual en tiempo real del sistema, que obtiene acceso a los datos de la base de datos de cuadro de mensajes. Puede ver todas las instancias de servicio, como orquestaciones, puertos y mensajería, junto con sus mensajes asociados. Con la página Concentrador de grupo puede:  

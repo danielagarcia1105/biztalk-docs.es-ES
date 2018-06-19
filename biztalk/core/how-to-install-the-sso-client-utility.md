@@ -1,11 +1,11 @@
 ---
-title: "Cómo instalar la utilidad de cliente SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar la utilidad de cliente SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, SSO
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - client utility [SSO]
 - SSO, installing
 ms.assetid: e14d257e-2fde-46af-b90c-5dbc0884536b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254252"
 ---
 # <a name="how-to-install-the-sso-client-utility"></a>Cómo instalar la utilidad de cliente SSO
 La utilidad de cliente de SSO independiente (basada en una interfaz de usuario y en una utilidad de línea de comandos) permite a los usuarios finales configurar sus asignaciones cliente en la base de datos de SSO. Puede instalar la utilidad de cliente desde un archivo autoextraíble (SSOClientInstall.exe) instalado con la característica de administración de SSO. Los administradores también pueden hacer que el paquete del instalador esté disponible para los usuarios cliente al colocar una copia del paquete del instalador en un recurso compartido de red.  

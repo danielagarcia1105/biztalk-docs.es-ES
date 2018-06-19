@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2732b36-ca57-4566-ba26-da27a3082f32
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22255444"
 ---
 # <a name="how-to-emphasize-map-items"></a>Enfatización de elementos de asignación
 En el Asignador de BizTalk, al seleccionar un elemento de asignación, todos los vínculos y functoids asociados se destacan. Es útil en las asignaciones con muchos vínculos, en las que es difícil identificar una relación y los elementos de esquema relacionados.  

@@ -1,11 +1,11 @@
 ---
-title: "Configurar la depuración remota para las orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Configurar la depuración remota para las orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft.XLANGs.BizTalk.Client.dll.config, code sample
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - building, debugging
 - building, code sample
 ms.assetid: 722efaec-d160-48dc-b94b-0733c9904d98
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233412"
 ---
 # <a name="configuring-remote-debugging-for-orchestrations"></a>Configurar la depuración remota para las orquestaciones
 Puede configurar completamente la depuración remota entre cliente y servidor. La configuración del cliente se especifica en Microsoft.XLANGs.BizTalk.Client.dll.config. La configuración del servidor se especifica en BTSNTSvc.exe.config. La siguiente es una lista de la configuración predeterminada para cada uno.  

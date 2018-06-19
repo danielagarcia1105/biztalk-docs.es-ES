@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254628"
 ---
 # <a name="how-to-modify-orchestration-throttling-settings"></a>Modificación de la configuración de limitación de la orquestación
 Mediante el uso del Panel de configuración de BizTalk, puede modificar la configuración de limitación de orquestación de un host dado en todo el Grupo de BizTalk. Estas opciones se aplican a todas las instancias de host asignadas al host dado. En este tema se proporciona el procedimiento paso a paso para modificar esta configuración.  

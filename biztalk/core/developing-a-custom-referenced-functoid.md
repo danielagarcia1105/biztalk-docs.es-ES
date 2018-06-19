@@ -1,14 +1,14 @@
 ---
 title: Desarrollar un personalizado al que hace referencia el Functoid | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e26d726-240c-4dfc-baa2-77451b8dc6c5
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239228"
 ---
 # <a name="developing-a-custom-referenced-functoid"></a>Desarrollar un functoid personalizado al que se hace referencia
 Los functoids personalizados a los que se hace referencia no copian el código de implementación interno en la asignación. En lugar de ello, se coloca una referencia al ensamblado, la clase y el método en el archivo de objeto de extensión asociado con la hoja de estilos generada y se llama en tiempo de ejecución.  

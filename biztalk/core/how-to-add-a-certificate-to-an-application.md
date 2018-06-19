@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un certificado a una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un certificado a una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, certificates
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [certificates], applications
 - managing [resources], certificates
 ms.assetid: 7c615002-6627-4134-9c2b-bf1c89d626c2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248180"
 ---
 # <a name="how-to-add-a-certificate-to-an-application"></a>Cómo agregar un certificado a una aplicación
 En este tema se describe cómo utilizar la línea de comandos para agregar un certificado a una aplicación de BizTalk. Esta opción no está disponible en la consola de administración de BizTalk Server. Puede agregar un certificado a una aplicación de BizTalk, de modo que pueda transportar el certificado de un grupo de BizTalk a otro, empaquetado con una aplicación. Puede usar certificados para comprobar identidades y establecer vínculos seguros para los puertos de envío y las ubicaciones de recepción. Para obtener más información, consulte [cómo asignar un certificado a un puerto de envío](../core/how-to-assign-a-certificate-to-a-send-port.md) y [cómo asignar un certificado a una ubicación de recepción](../core/how-to-assign-a-certificate-to-a-receive-location.md).  

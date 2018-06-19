@@ -1,18 +1,18 @@
 ---
-title: "Cómo asignar varios ensamblados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar varios ensamblados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, tracking profiles
 - tracking profiles, mapping assemblies
 - assemblies, maps
 ms.assetid: 136f1943-9643-4551-8b5b-150c4b4bfebe
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254356"
 ---
 # <a name="how-to-map-multiple-assemblies"></a>Cómo asignar varios ensamblados
 Las aplicaciones de BizTalk se pueden componer de varios ensamblados en los que residen los elementos de datos a los que la actividad de BAM hace referencia. El procedimiento siguiente muestra cómo asignar varios ensamblados a un perfil de seguimiento.  

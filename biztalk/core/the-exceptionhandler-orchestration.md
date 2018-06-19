@@ -1,11 +1,11 @@
 ---
-title: "La orquestación de ExceptionHandler | Documentos de Microsoft"
-ms.custom: 
+title: La orquestación de ExceptionHandler | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, systems
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, errors [process management solutions]
 - process management solution tutorial, errors
 ms.assetid: ac154e76-9dfe-433a-948b-e098df705fe5
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280028"
 ---
 # <a name="the-exceptionhandler-orchestration"></a>ExceptionHandler (orquestación)
 La solución de administración de procesos empresariales utiliza dos tipos de excepciones: excepciones del sistema y las excepciones de aplicación. Excepciones del sistema incluyen problemas como los errores de recursos: un error, por ejemplo una conexión de red. Es probable que dichos problemas se puedan resolver por sí mismos tras un período y que la solución vuelva a intentar repetir todas las operaciones que provocan excepciones del sistema. Las excepciones de aplicación surgen por problemas con menos probabilidades de resolverse por sí mismos, como los errores lógicos o algunos tipos de incoherencia. La solución utiliza la **ExceptionHandlerOrch** orquestación para procesar los errores de aplicación y del sistema.  

@@ -1,14 +1,14 @@
 ---
 title: Configurar un lote saliente | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75e6f41a-0e24-47bf-9234-125791c62044
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234620"
 ---
 # <a name="configuring-an-outgoing-batch"></a>Configurar un lote saliente
 Para definir el modo en que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa por lotes los conjuntos de transacciones en un intercambio EDI, debe crear una o varias configuraciones de lotes para un acuerdo. Todos los intercambios que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] asocia a esa acuerdo y que, además, cumplen con los criterios de filtro para un lote, se procesarán por lotes y se lanzarán según los mismos criterios de versión para dicha configuración de lote.  

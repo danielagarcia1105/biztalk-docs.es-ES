@@ -1,18 +1,18 @@
 ---
-title: "Nodos de referencia de dirección URL de documento | Documentos de Microsoft"
-ms.custom: 
+title: Nodos de referencia de dirección URL de documento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Document Reference URL nodes [Tracking Profile Editor]
 - Tracking Profile Editor, node descriptions
 - definition files [BAM], related documents
 ms.assetid: 38c8ae50-ed56-451c-9549-db852d4770e5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238972"
 ---
 # <a name="document-reference-url-nodes"></a>Nodos de URL de referencia de documento
 Existen nodos de URL de referencia de documento en el archivo de definición de actividad que el programador importa desde el trabajador del conocimiento que creó el modelo de observación. Los nodos de URL de referencia de documento incluyen referencias a la ubicación que contiene un documento que está relacionado con esta actividad. Puede ser cualquier tipo de documento, por ejemplo, una actividad que representa un flujo de trabajo de aprobación de pedido, y puede que la URL de referencia de documento señale al documento de pedido subyacente.  

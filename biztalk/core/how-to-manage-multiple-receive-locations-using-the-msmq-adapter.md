@@ -1,11 +1,11 @@
 ---
-title: "Cómo administrar varias ubicaciones de recepción mediante el adaptador de MSMQ | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar varias ubicaciones de recepción mediante el adaptador de MSMQ | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, receive locations
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - receive locations, threads
 - configuring [MSMQ adapters], receive locations
 ms.assetid: 5b2ee043-bcc9-443b-84b0-df7f487159eb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253812"
 ---
 # <a name="how-to-manage-multiple-receive-locations-using-the-msmq-adapter"></a>Cómo administrar varias ubicaciones de recepción mediante el adaptador de MSMQ
 Para aumentar su rendimiento, el adaptador de MSMQ es multiproceso. Cuando se han definido muchas ubicaciones de recepción, puede que no haya suficientes subprocesos disponibles para todas estas ubicaciones. Esto impide que algunas de las ubicaciones de recepción recojan mensajes. Existen tres formas de solucionar este problema:  

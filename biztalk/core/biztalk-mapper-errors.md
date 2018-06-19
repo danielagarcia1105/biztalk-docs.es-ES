@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234084"
 ---
 # <a name="biztalk-mapper-errors"></a>Errores del asignador de BizTalk
 Esta sección proporciona información adicional acerca de los mensajes de compilación asociados al Asignador de BizTalk. Para obtener acceso a esta información, presione la tecla F1 cuando se seleccione uno de los mensajes correspondientes en la ventana Lista de tareas de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Para obtener información conceptual y de procedimiento para el asignador de BizTalk, consulte [crear asignaciones usando asignador de BizTalk](../core/creating-maps-using-biztalk-mapper.md).  

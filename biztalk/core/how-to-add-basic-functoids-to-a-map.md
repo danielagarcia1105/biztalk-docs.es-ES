@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar Functoids básicos a una asignación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar Functoids básicos a una asignación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a81fb73-cccf-4f74-af92-39e4af13e255
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248988"
 ---
 # <a name="how-to-add-basic-functoids-to-a-map"></a>Cómo agregar functoids básicos a una asignación
 Muchos functoids son muy sencillos de utilizar. Estos se denominan aquí functoids básicos para distinguirlos de los functoids de la **avanzadas** categoría. Los functoids básicos comprenden las siguientes categorías: de conversión, acumulativos, de bases de datos, de fecha y hora, lógicos, matemáticos, científicos y de cadena.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250396"
 ---
 # <a name="how-to-customize-colors-and-font-in-biztalk-mapper"></a>Cómo personalizar colores y fuentes en el Asignador de BizTalk
 Puede cambiar los colores asociados con diversos tipos de vínculos y el color de los objetos seleccionados en la vista de cuadrícula. También puede cambiar la fuente utilizada para mostrar los nodos de árbol de esquema. En este tema se proporcionan instrucciones paso a paso para realizar estos cambios.  

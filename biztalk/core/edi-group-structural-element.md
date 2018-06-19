@@ -1,14 +1,14 @@
 ---
 title: Elemento estructural de EDI grupo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 100a7118-9c02-474e-8685-9e4bb6f52e81
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242524"
 ---
 # <a name="edi-group-structural-element"></a>Elemento estructural de grupo EDI
 El grupo contiene uno o más conjuntos de transacciones. Un grupo de EDIFACT debe contener conjuntos de transacciones del mismo tipo. Un grupo de X12 puede contener conjuntos de transacciones de tipo similar (en función de la asignación de conjunto de transacciones - grupo (GS01-ST01)) o conjuntos de transacciones del mismo tipo. La tabla siguiente conjuntos de transacciones de listas X12 similar (ST01), que pueden incluirse en un único grupo (GS01).  

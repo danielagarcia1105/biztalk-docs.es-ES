@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear directivas y reglas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear directivas y reglas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, business rules
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - policies, arguments
 - policies, creating
 ms.assetid: 59f06a67-edde-443b-9fbb-55ec4429837a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250332"
 ---
 # <a name="how-to-create-policies-and-rules"></a>Cómo crear directivas y reglas
 Puede crear reglas con condiciones que son agrupaciones lógicas de operadores lógicos (**AND**, **OR**, y **no**) aplicadas a predicados (funciones integrados o definidos por el usuario u operadores) que toman argumentos (referencias de hechos integrados o definidos por el usuario). También puede hacer clic **condiciones** o en operadores lógicos y seleccionar un operador lógico o predicado integrado en el menú contextual.  
@@ -50,7 +51,7 @@ Puede crear reglas con condiciones que son agrupaciones lógicas de operadores l
   
 ### <a name="to-add-a-rule-to-a-policy-version"></a>Para agregar una regla a una versión de directiva  
   
--   En el panel Explorador de directivas, expanda [**la directiva de**], haga clic en **versión 1.0 (sin guardar)**y, a continuación, seleccione **agregar nueva regla**.  
+-   En el panel Explorador de directivas, expanda [**la directiva de**], haga clic en **versión 1.0 (sin guardar)** y, a continuación, seleccione **agregar nueva regla**.  
   
 ### <a name="to-add-a-logical-operator-to-a-rule-condition"></a>Para agregar un operador lógico a una condición de regla  
   

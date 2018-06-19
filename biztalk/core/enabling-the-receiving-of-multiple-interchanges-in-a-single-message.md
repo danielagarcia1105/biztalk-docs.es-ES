@@ -1,14 +1,14 @@
 ---
-title: "Habilitar la recepción de varios intercambios en un único mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Habilitar la recepción de varios intercambios en un único mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c98bcd2e-495a-49d8-a471-6e23b1e161f9
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240836"
 ---
 # <a name="enabling-the-receiving-of-multiple-interchanges-in-a-single-message"></a>Habilitar la recepción de varios intercambios en un único mensaje
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede procesar un mensaje que contiene varios intercambios. Por ejemplo, un mensaje X12 incluye varios encabezados ISA y finalizadores IEA. Por otro lado, un mensaje EDIFACT incluye varios encabezados UNA/UNB y finalizadores UNZ.  

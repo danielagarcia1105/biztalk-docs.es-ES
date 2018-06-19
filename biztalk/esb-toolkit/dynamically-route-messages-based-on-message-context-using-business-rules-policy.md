@@ -1,14 +1,14 @@
 ---
-title: "Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d3b68de-6b24-46fe-ae0d-91afb630bc19
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008821"
 ---
 # <a name="how-to-dynamically-route-a-message-based-on-message-context-using-a-business-rules-policy"></a>Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios
 ## <a name="goal"></a>Objetivo  
@@ -42,7 +43,7 @@ ms.lasthandoff: 12/01/2017
   
  **Para agregar una regla de enrutamiento para los pedidos de América del Norte**  
   
-1.  En el **RouteBasedOnMessageType** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**. Nombre de la regla **SetNAOrderEndpoint**.  
+1.  En el **RouteBasedOnMessageType** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**. Nombre de la regla **SetNAOrderEndpoint**.  
   
 2.  En la ventana de la regla, haga clic en **condiciones**, seleccione **predicados**y, a continuación, haga clic en **igual**.  
   
@@ -55,7 +56,7 @@ ms.lasthandoff: 12/01/2017
   
 5.  En el Explorador de hechos, expanda el **ESB. EndPointInfo** vocabulario, expanda **versión 1.0**y, a continuación, arrastre el **establecer ubicación de transporte saliente de punto final** definición a **acciones**.  
   
-6.  Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
+6.  Haga clic en  **\<una cadena vacía\>** y, a continuación, escriba **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
   
 7.  En el Explorador de hechos, arrastre el **establecer tipo de transporte saliente de punto final** definición a **acciones**.  
   
@@ -65,7 +66,7 @@ ms.lasthandoff: 12/01/2017
   
  **Para publicar e implementar la directiva**  
   
-1.  En el Explorador de directivas, en la **RouteBasedOnMessageType** directiva, haga clic derecho **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.  
+1.  En el Explorador de directivas, en la **RouteBasedOnMessageType** directiva, haga clic derecho **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.  
   
 2.  En el Explorador de directivas, en la **RouteBasedOnMessageType** directiva, haga clic derecho **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.  
   

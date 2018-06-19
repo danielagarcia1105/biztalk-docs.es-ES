@@ -1,14 +1,14 @@
 ---
-title: "Cómo puertos de enlace directo de uso MessageBox | Documentos de Microsoft"
-ms.custom: 
+title: Cómo puertos de enlace directo de uso MessageBox | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1839184b-408e-4ac6-94a4-a0eb708183f6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255916"
 ---
 # <a name="how-to-use-messagebox-direct-bound-ports"></a>Cómo usar puertos de enlace directo de cuadro de mensajes
 Los puertos de enlace directo de cuadro de mensajes permiten entregar mensajes directamente en la base de datos de cuadro de mensajes sin que exista un destinatario explícito, así como suscribirse a los mensajes que cumplan determinados criterios, en lugar de a los que procedan de un remitente concreto.  

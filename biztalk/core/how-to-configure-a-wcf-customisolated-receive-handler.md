@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar controlador de recepción de un WCF-CustomIsolated | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar controlador de recepción de un WCF-CustomIsolated | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e90add2-1a5e-4509-a98c-b3c297b4213f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248540"
 ---
 # <a name="how-to-configure-a-wcf-customisolated-receive-handler"></a>Configuración de un controlador de recepción de WCF-CustomIsolated
 Debe configurar las propiedades del controlador de recepción si desea que el adaptador de WCF-CustomIsolated busque la extensión de comportamiento personalizado en otras ubicaciones aparte de machine.config.  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo definir medidas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo definir medidas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], creating measures
 - aggregations [BAM], measures
 - BAM views, measures
 ms.assetid: fd3dfe6b-cc63-4306-8aad-a9d2a9af01e8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249148"
 ---
 # <a name="how-to-define-measures"></a>Cómo definir medidas
 Una medida define cómo se calcula una actividad. Al crear una vista de BAM puede definir una medida para la actividad en ella. Por ejemplo, para una actividad de pedido puede calcular la cantidad total del pedido, el número de pedidos, la cantidad promedio de los pedidos, etc.  

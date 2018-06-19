@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004517"
 ---
 # <a name="creating-the-contoso-solution"></a>Creación de la solución de Contoso
 En esta sección se detalla los pasos que debe seguir para la organización de Contoso. El primer paso consiste en agregar los contratos de asociado y de información de contacto para las dos organizaciones que utilizan el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración. A continuación, crear esquemas de línea de negocio (LOB) y crear una asignación entre dichos esquemas y sus respectivos esquemas de proceso de interfaz de socio (PIP) basados en RosettaNet. A continuación, configure la información de puerto mediante el adaptador de SQL para comunicarse con el sistema ERP y el adaptador de HTTP para enviar información a Fabrikam. El último paso consiste en Personalizar la orquestación de procesos privados para usar el motor de reglas de negocios (BRE) en BizTalk Server.  

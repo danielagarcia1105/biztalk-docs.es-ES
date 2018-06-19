@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240692"
 ---
 # <a name="error---could-generate-multiple-choice-children"></a>Error: se generan varios secundarios de elección
 **Código de error**  

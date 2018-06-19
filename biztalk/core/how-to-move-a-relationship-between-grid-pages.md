@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255092"
 ---
 # <a name="how-to-move-a-relationship-between-grid-pages"></a>Mover una relación entre las páginas de cuadrícula
 Las asignaciones grandes incluyen numerosos conjuntos de functoids y vínculos, por lo cual pueden perjudicarle la identificación de los vínculos que unen varios functoids. En tal caso, es posible que desee mover un conjunto similar de functoids y vínculos a una página de cuadrícula diferente para que la asignación resulte más legible. En este tema se proporcionan instrucciones detalladas para realizar la operación.  
@@ -55,7 +56,7 @@ Las asignaciones grandes incluyen numerosos conjuntos de functoids y vínculos, 
 3.  En el **moverse a la página** cuadro de diálogo, seleccione la página de cuadrícula de destino al que desea mover la relación y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  También puede crear una nueva página seleccionando  **\*(Agregar nueva página)**y, a continuación, haga clic en **Aceptar**.  
+    >  También puede crear una nueva página seleccionando  **\*(Agregar nueva página)** y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
     >  Como alternativa, puede presionar CTRL+M, CTRL+A para agregar una nueva página de cuadrícula en una asignación. Para obtener una lista de métodos abreviados del asignador, vea [métodos abreviados de teclado del asignador de BizTalk](../core/biztalk-mapper-keyboard-shortcuts.md).  

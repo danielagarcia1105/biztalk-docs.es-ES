@@ -1,18 +1,18 @@
 ---
-title: "Cómo ver información de instancia de un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver información de instancia de un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, viewing
 - managing [send ports], viewing
 - viewing, send ports
 ms.assetid: 37cf6561-5341-4a05-b531-33ab0334966e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256716"
 ---
 # <a name="how-to-view-instance-information-for-a-send-port"></a>Cómo ver información de instancia de un puerto de envío
 En este tema, se describe cómo utilizar la consola de administración de BizTalk Server para ver una lista de las instancias de servicio en ejecución de un puerto de envío. Una instancia de servicio es una instancia de servicio del puerto de envío que se crea al enviar un mensaje al puerto de envío. Al seguir el procedimiento que se detalla en este tema, la información de instancia se muestra en la página Información general del grupo del puerto de envío.  

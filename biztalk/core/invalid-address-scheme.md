@@ -1,14 +1,14 @@
 ---
-title: "Esquema de dirección no válida | Documentos de Microsoft"
-ms.custom: 
+title: Esquema de dirección no válida | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b059289-654e-40d6-a092-2a685e6e10f7
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257796"
 ---
 # <a name="invalid-address-scheme"></a>Esquema de dirección no válido
 ## <a name="details"></a>Detalles  

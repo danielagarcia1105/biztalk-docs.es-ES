@@ -1,17 +1,17 @@
 ---
 title: Instancias de host | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host instances, about host instances
 - host instances
 ms.assetid: 6c47b209-94da-4b76-af05-aef6d0145de2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246220"
 ---
 # <a name="host-instances"></a>Instancias de host
 A *instancia de host* es la instalación física de un host en un servidor BizTalk Server. Un administrador utiliza la consola de administración de BizTalk o el Instrumental de administración de Windows (WMI) para instalar instancias de host. Un servidor BizTalk Server puede admitir varias instancias de host.  

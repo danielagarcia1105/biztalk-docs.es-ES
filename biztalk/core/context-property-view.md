@@ -1,11 +1,11 @@
 ---
 title: Vista propiedad de contexto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, message schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, Context Property view
 - message schemas, XML messages
 ms.assetid: 17a21b86-995c-4dc2-9a3c-1309837d0b9b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237884"
 ---
 # <a name="context-property-view"></a>Vista Propiedad de contexto
 La vista Propiedad de contexto muestra el esquema del mensaje XML asociado a la propiedad. La vista está disponible desde el menú contextual para algunas de las formas de la vista Programación de orquestación.  

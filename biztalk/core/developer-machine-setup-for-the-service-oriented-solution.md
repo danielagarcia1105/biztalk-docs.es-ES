@@ -1,18 +1,18 @@
 ---
-title: "Solución orientada a servicios de configuración del equipo del desarrollador del servicio | Documentos de Microsoft"
-ms.custom: 
+title: Solución orientada a servicios de configuración del equipo del desarrollador del servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developer servers
 - service solution tutorial, deployment prerequisites
 - service solution tutorial, developer servers
 ms.assetid: a088696f-c1ee-4578-ac02-af29b6de086b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239460"
 ---
 # <a name="developer-machine-setup-for-the-service-oriented-solution"></a>Configuración del equipo del programador para la solución orientada a servicios
 La arquitectura orientada a servicios (SOA) es un enfoque para la generación de sistemas distribuidos. La solución orientada a servicios demuestra cómo varios sistemas servidor con protocolos distintos se pueden integrar en un único servicio que pueden consumir los clientes. Esta solución integra servicios con un enfoque que garantiza características de entrega y rendimiento para los acuerdos de nivel de servicio que tiene que satisfacer.  

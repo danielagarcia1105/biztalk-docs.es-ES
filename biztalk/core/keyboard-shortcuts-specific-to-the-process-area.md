@@ -1,17 +1,17 @@
 ---
-title: "Teclado métodos abreviados específicos para el área de proceso | Documentos de Microsoft"
-ms.custom: 
+title: Teclado métodos abreviados específicos para el área de proceso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: d993d341-99f2-4788-b1f3-6a8b911e5278
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262068"
 ---
 # <a name="keyboard-shortcuts-specific-to-the-process-area"></a>Métodos abreviados de teclado específicos para el área de proceso
 La siguiente tabla describe la exploración del teclado disponible en el área de proceso, el área central de la superficie de diseño que se utiliza para definir el flujo de procesos de la orquestación.  

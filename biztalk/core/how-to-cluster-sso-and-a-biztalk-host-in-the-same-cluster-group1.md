@@ -1,14 +1,14 @@
 ---
-title: "Cómo agrupar SSO y un Host de BizTalk en el mismo Group1 clúster | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agrupar SSO y un Host de BizTalk en el mismo Group1 clúster | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 413cc8f4-f343-4c1c-8b79-3b15cb4c101d
-caps.latest.revision: "44"
+caps.latest.revision: 44
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250628"
 ---
 # <a name="how-to-cluster-sso-and-a-biztalk-host-in-the-same-cluster-group"></a>Cómo agrupar SSO y un host de BizTalk en el mismo grupo de clúster
 Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es posible agrupar uno o varios hosts de BizTalk y el servicio de inicio de sesión único empresarial (SSO) en el mismo clúster de Windows Server.  

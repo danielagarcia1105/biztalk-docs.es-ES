@@ -1,17 +1,17 @@
 ---
-title: "Depurar orquestaciones mediante código personalizado | Documentos de Microsoft"
-ms.custom: 
+title: Depurar orquestaciones mediante código personalizado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, debugging
 - building, debugging
 ms.assetid: 94e569fa-8dea-4027-abb5-37b4a8015621
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239892"
 ---
 # <a name="debugging-orchestrations-by-using-custom-code"></a>Depurar orquestaciones mediante Código personalizado
 Si la orquestación se va a emplear en un entorno de prueba o está creando un prototipo y desea modificar los valores de campos de mensajes y variables de orquestación, puede escribir la salida a la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] consola mediante el siguiente código en un  **Expresión** forma:  

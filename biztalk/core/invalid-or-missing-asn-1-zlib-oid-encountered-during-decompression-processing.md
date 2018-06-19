@@ -1,14 +1,14 @@
 ---
-title: "Entornos de OID ZLib ASN.1 ausente o no válido detectado durante el proceso de descompresión | Documentos de Microsoft"
-ms.custom: 
+title: Entornos de OID ZLib ASN.1 ausente o no válido detectado durante el proceso de descompresión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb41e0fe-2fdd-4dfc-830f-c28dfe6efac8
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257540"
 ---
 # <a name="invalid-or-missing-asn1-zlib-oid-encountered-during-decompression-processing"></a>Entornos de OID ZLib ASN.1 ausente o no válido detectado durante el proceso de descompresión
 ## <a name="details"></a>Detalles  

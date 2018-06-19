@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con la administración de cola | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con la administración de cola | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60d06ba-8cf3-46d6-af59-626f12fc572a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278700"
 ---
 # <a name="support-for-queue-management"></a>Compatibilidad de la administración de cola
 Con el adaptador de MQSeries de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede crear y eliminar colas de forma remota en el administrador de cola MQSeries. Esto se admite porque [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] utiliza un objeto MQSAgent COM+ remoto que se comunica de forma directa con el administrador de cola MQSeries. Como norma general, MQSAgent se utiliza en tiempo de ejecución para leer mensajes en las colas remotas de MQSeries Server o bien, escribirlos allí. Más de un servidor BizTalk Server puede ser cliente de este servicio remoto. Además, MQSAgent proporciona las funciones de creación y eliminación de colas y es posible llamar de forma directa desde una orquestación o adaptador. Esto se permite en escenarios muy dinámicos a través de los cuales la orquestación o el adaptador pueden crear una cola temporal y enviar, a continuación, un mensaje mediante ella, recibir una respuesta en otra cola y, por último, eliminar la cola temporal.  

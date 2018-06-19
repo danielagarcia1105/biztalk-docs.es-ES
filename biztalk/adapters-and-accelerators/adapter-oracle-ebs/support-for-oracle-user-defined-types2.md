@@ -1,14 +1,14 @@
 ---
 title: Soporte para Oracle definidos por el usuario Types2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d4b9980-fa5b-4340-a62f-e4a4f98603dc
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006685"
 ---
 # <a name="support-for-oracle-user-defined-types"></a>Compatibilidad con tipos definidos por el usuario de Oracle
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] admite la realización de operaciones en artefactos en Oracle E-Business Suite y la base de datos subyacente que contienen tipos de Oracle User-Defined (UDT). Los UDT pueden estar presentes en los siguientes artefactos:  

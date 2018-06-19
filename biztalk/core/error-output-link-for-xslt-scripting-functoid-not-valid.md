@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241276"
 ---
 # <a name="error---output-link-for-xslt-scripting-functoid-not-valid"></a>Error - el vínculo de salida XSLT no es válido el Functoid de secuencias de comandos
 **Código de error**  

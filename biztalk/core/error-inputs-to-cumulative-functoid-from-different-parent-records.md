@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240404"
 ---
 # <a name="error---inputs-to-cumulative-functoid-from-different-parent-records"></a>Error - entradas de Functoid acumulado procedentes de distintos registros primarios
 **Código de error**  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233052"
 ---
 # <a name="configuring-as2-agreement-properties"></a>Configuración de las propiedades de acuerdo AS2
 Esta sección describe las propiedades de acuerdo de transporte AS2. Como parte de la configuración del protocolo de transporte, también puede definir si debe firmarse, cifrarse, etc. el mensaje.  

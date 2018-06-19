@@ -1,14 +1,14 @@
 ---
-title: "Desarrollar un Functoid en línea personalizado | Documentos de Microsoft"
-ms.custom: 
+title: Desarrollar un Functoid en línea personalizado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4533f09f-b62d-4b09-b7de-44541c6cf053
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242020"
 ---
 # <a name="developing-a-custom-inline-functoid"></a>Desarrollar un functoid en línea personalizado
 Los functoids en línea personalizados proporcionan funcionalidad al copiar directamente el código de implementación en una asignación, en lugar de hacer referencia a un ensamblado, una clase y un nombre de método como en el caso de los functoids personalizados a los que se hace referencia.  

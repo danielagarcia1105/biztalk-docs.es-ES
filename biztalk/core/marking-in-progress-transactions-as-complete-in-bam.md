@@ -1,11 +1,11 @@
 ---
 title: Marcar transacciones en progreso como completadas en SAE | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, data recovery
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM, data loss
 - data loss, BAM
 ms.assetid: 8f734953-483a-481a-9ded-b48923859199
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262372"
 ---
 # <a name="marking-in-progress-transactions-as-complete-in-bam"></a>Marcar transacciones en progreso como completadas en SAE
 Supervisión de la actividad económica (SAE) conserva datos de instancias de seguimiento sin completar en una tabla especial de instancias activas. Si algunos registros de instancia se inician antes de la última copia de seguridad pero se completan después de realizar esta última, los registros se conservan en una tabla de instancias activas. Aunque esto no impide que funcione el sistema, puede marcar estos registros de forma manual como completados para que puedan moverse a una ubicación externa a la tabla de instancias activas.  

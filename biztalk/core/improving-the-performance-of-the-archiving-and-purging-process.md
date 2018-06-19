@@ -1,11 +1,11 @@
 ---
 title: Mejorar el rendimiento del archivado y purga de proceso | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - archiving [Tracking database], system performance
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - performance, purging
 - purging, system performance
 ms.assetid: d65da58d-65e0-4f6c-8b15-5d4448049b42
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257844"
 ---
 # <a name="improving-the-performance-of-the-archiving-and-purging-process"></a>Mejorar el rendimiento del proceso de archivo y purga
 La cantidad de datos almacenados en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos pueden incrementarse muy rápidamente según cómo se haya diseñado el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenario, según el número y tamaño de los mensajes procesados por el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenario y, en función de cómo disponen de configurar el seguimiento. Al mantener el tamaño de la base de datos en un nivel correcto, el procesamiento será más eficaz y la cantidad de datos estará normalizada en cualquier momento. Con ello, se proporciona un rendimiento eficaz y coherente. Al automatizar este proceso, se libera al usuario de la carga del mantenimiento manual de las bases de datos.  

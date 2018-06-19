@@ -1,14 +1,14 @@
 ---
-title: "Configuración de juego de caracteres y separadores (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de juego de caracteres y separadores (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6249f2e1-70b0-4960-bbc4-0c3fefd26faa
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234500"
 ---
 # <a name="configuring-charset-and-separators-x12"></a>Configuración de juego de caracteres y separadores (X12)
 En el acuerdo de socios comerciales, puede especificar el juego de caracteres que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará para validar las propiedades de entidad al crear el sobre para un mensaje X12 saliente. También puede especificar los separadores y terminadores que se usarán para los segmentos del intercambio.  

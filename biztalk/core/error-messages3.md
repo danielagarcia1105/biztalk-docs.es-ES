@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241780"
 ---
 # <a name="error-messages"></a>mensajes de error
 En la tabla siguiente se enumeran mensajes de error de las interfaces de componentes del sistema PeopleSoft Enterprise, sus descripciones y posibles correcciones.  

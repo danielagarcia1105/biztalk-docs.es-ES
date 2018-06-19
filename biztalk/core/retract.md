@@ -1,11 +1,11 @@
 ---
 title: Retirar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Retract function [Business Rules Engine], TypedData table
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Retract function [Business Rules Engine], .NET objects
 - .NET objects
 ms.assetid: 24b6b894-6810-4497-a122-8c91f0b2e816
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270116"
 ---
 # <a name="retract"></a>Retirar
 Puede usar el **Retract** function para quitar objetos de memoria de trabajo del motor de reglas de negocios. En los párrafos siguientes se describe el comportamiento asociado con la retirada de entidades de tipos diferentes de la memoria de trabajo del motor de reglas.  

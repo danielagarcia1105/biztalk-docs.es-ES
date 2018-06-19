@@ -1,14 +1,14 @@
 ---
-title: "Configuración de adaptador en tiempo de diseño dinámico | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de adaptador en tiempo de diseño dinámico | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36127d62-0348-42bb-981f-19fcad26efce
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241292"
 ---
 # <a name="dynamic-design-time-adapter-configuration"></a>Configuración dinámica de adaptador en tiempo de diseño
 Hay situaciones en las que la configuración estática de adaptador en tiempo de diseño y la interfaz de usuario predeterminada estándar en el Asistente para agregar metadatos de adaptador no presentan la suficiente flexibilidad para mostrar los servicios de un adaptador para un proyecto de BizTalk que se va a importar. De forma alternativa, puede usar la configuración dinámica en tiempo de diseño en la que proporcione una interfaz de usuario (IU) personalizada para que el asistente muestre y seleccione los servicios del adaptador. El marco de trabajo de adaptadores de BizTalk proporcione un conjunto de API que puede usar para importar los esquemas necesarios para el adaptador y para que se muestre la interfaz de usuario personalizada.  

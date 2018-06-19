@@ -1,17 +1,17 @@
 ---
 title: Configurar el adaptador MSMQ | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, configuring
 - configuring [MSMQ adapters]
 ms.assetid: 8f873ee1-4eaa-43d2-948d-aecc406a0bfb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232956"
 ---
 # <a name="configuring-the-msmq-adapter"></a>Configurar el adaptador MSMQ
 Esta sección ofrece información sobre cómo configurar el adaptador de MSMQ. Puede configurar este adaptador tanto para ubicaciones de recepción como para puertos de envío.  

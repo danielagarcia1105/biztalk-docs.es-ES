@@ -1,15 +1,15 @@
 ---
-title: "Configuración del grupo de actualización | Documentos de Microsoft"
-description: "Cambiar la configuración de rendimiento del grupo con la administración de BizTalk Server"
-ms.custom: 
+title: Configuración del grupo de actualización | Documentos de Microsoft
+description: Cambiar la configuración de rendimiento del grupo con la administración de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fe0cbeb8-23d6-45cf-8535-c989914f5124
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254812"
 ---
 # <a name="how-to-update-the-biztalk-group-settings"></a>Cómo actualizar la configuración del grupo de BizTalk
 Mediante el panel de configuración, se puede modificar la información de configuración que se usa en todos los equipos de un grupo de BizTalk determinado. En este tema se proporciona el procedimiento paso a paso para modificar la configuración de rendimiento a nivel de grupo en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta configuración es aplicable a todos los equipos de un grupo determinado.  

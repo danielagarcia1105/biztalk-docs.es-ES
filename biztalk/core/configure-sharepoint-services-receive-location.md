@@ -1,14 +1,14 @@
 ---
-title: "Configurar SharePoint servicios de ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Configurar SharePoint servicios de ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9afed0e4-0f72-4df4-a2cb-d999c6fbbc86
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22234724"
 ---
 # <a name="configure-sharepoint-services-receive-location"></a>Configurar una ubicación de recepción de SharePoint Services
 Este tema muestra los pasos necesarios para crear una ubicación de recepción de [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)].  

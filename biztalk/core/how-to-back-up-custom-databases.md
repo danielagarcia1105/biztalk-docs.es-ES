@@ -1,18 +1,18 @@
 ---
-title: "Cómo hacer copia de seguridad de bases de datos personalizadas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo hacer copia de seguridad de bases de datos personalizadas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - custom databases
 - customizing, custom databases
 - backing up, custom databases
 ms.assetid: 86bebf3c-968e-4fad-9dab-ced1b04aaac7
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247340"
 ---
 # <a name="how-to-back-up-custom-databases"></a>Cómo realizar copias de seguridad de bases de datos personalizadas
 Ya que las bases de datos personalizadas no se instalan con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], no se incluyen en la lista predeterminada de bases de datos que deben marcarse y de las que el trabajo de copia de seguridad de BizTalk Server debe realizar una copia de seguridad. Si desea que el trabajo de copia de seguridad de BizTalk realice una copia de seguridad de las bases de datos personalizadas, tendrá que agregar manualmente las bases de datos al trabajo mencionado.  

@@ -1,11 +1,11 @@
 ---
 title: Seguridad de marco de trabajo de reglas de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, code samples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, artifacts
 - business rules, security
 ms.assetid: 86582d3a-259e-47f2-9f72-8dbbe0051503
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232692"
 ---
 # <a name="business-rules-framework-security"></a>Seguridad del marco de trabajo de reglas de negocios
 El motor de reglas de negocios opera en el contexto de seguridad de la aplicación host. La identidad de la instancia de motor de reglas durante la ejecución es que del contexto del subproceso que invoca el **Policy.Execute** método.  

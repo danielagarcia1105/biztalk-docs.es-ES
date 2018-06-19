@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241620"
 ---
 # <a name="error-messages"></a>mensajes de error
 En la tabla siguiente se describen los mensajes de error del sistema JD Edwards EnterpriseOne y se proporcionan posibles correcciones para ellos.  

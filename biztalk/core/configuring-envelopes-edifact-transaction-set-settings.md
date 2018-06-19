@@ -1,14 +1,14 @@
 ---
-title: "Configuración de sobres (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de sobres (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec140def-6155-4b8a-8489-6e0a530bd697
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234636"
 ---
 # <a name="configuring-envelopes-edifact-transaction-set-settings"></a>Configuración de sobres (configuración del conjunto de transacciones EDIFACT)
 En el **sobres** página de la **configuración del conjunto de transacciones** sección, defina cómo BizTalk Server genera los segmentos UNG y UNH para un intercambio con codificación EDIFACT que envía a la entidad.  

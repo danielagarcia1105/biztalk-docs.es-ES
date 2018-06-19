@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256644"
 ---
 # <a name="identifying-performance-bottlenecks"></a>Identificar cuellos de botella de rendimiento
 En un entorno ideal, cuando un sistema se ejecuta al máximo de su capacidad (utilización óptima de los recursos disponibles), es posible lograr un rendimiento sostenible, lo que da lugar a una disminución del costo total de propiedad (TCO).  

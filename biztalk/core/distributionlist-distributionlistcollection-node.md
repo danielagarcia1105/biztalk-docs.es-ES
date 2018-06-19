@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239340"
 ---
 # <a name="distributionlist-distributionlistcollection-node"></a>DistributionList (nodo DistributionListCollection)
 El nodo DistributionList de un archivo de enlace contiene información específica acerca de una lista de distribución que se exporta con el archivo de enlace. A una lista de distribución se hace referencia como un grupo de puertos de envío en el administrador de BizTalk Server.  

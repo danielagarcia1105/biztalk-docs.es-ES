@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255852"
 ---
 # <a name="how-to-use-an-xml-schema-as-a-data-source"></a>Cómo utilizar un esquema XML como origen de datos
 ### <a name="to-specify-an-xml-schema-as-a-data-source"></a>Para especificar un esquema XML como origen de datos  

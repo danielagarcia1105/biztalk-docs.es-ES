@@ -1,14 +1,14 @@
 ---
-title: "Cómo insertar un grupo de secuencias, grupo de elecciones o nodo de todos los grupos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo insertar un grupo de secuencias, grupo de elecciones o nodo de todos los grupos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19aee400-1369-4310-b1b4-1bfeb2643236
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254844"
 ---
 # <a name="how-to-insert-a-sequence-group-choice-group-or-all-group-node"></a>Cómo insertar un grupo de secuencias, grupo de elecciones o nodo de todos los grupos
 El Editor de BizTalk admite tres tipos de nodos de grupo para los elementos: **grupo de secuencias**, **grupo de elecciones**, y **todos los grupos**. Estos tipos de nodos de grupo establecen distintas restricciones en los nodos secundarios del grupo de los mensajes de instancia correspondientes. Para obtener información acerca de las restricciones de estos tipos de nodos de grupo, consulte directamente la información disponible en Internet sobre el lenguaje de definición de esquemas XML (XSD). Para obtener vínculos a esta información, consulte [recursos XSD en Internet](../core/xsd-resources-on-the-web.md).  

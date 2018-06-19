@@ -1,14 +1,14 @@
 ---
-title: "Poner en correlación una transacción entrante establecida con un lote saliente | Documentos de Microsoft"
-ms.custom: 
+title: Poner en correlación una transacción entrante establecida con un lote saliente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fbe40f8-7379-42be-b8a7-070ce8a7ce26
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239412"
 ---
 # <a name="correlating-an-incoming-transaction-set-with-an-outgoing-batch"></a>Correlacionar un conjunto de transacciones entrante con un lote saliente
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite correlacionar un conjunto de transacciones EDI que se envía a la orquestación de procesamiento por lotes con un lote saliente. Esto se consigue mediante la correlación de una entrada del informe de estado para el conjunto de transacciones que se envía a la orquestación de procesamiento por lotes (BTSInterchangeID) a una entrada del informe de estado para la orquestación (ActivityID). Esta correlación se realiza mediante el uso de entradas en la actividad de BAM BusinessMessageJournal. La orquestación de procesamiento por lotes crea estas entradas cuando se recibe un elemento por lotes.  

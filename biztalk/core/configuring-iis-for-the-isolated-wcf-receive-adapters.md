@@ -1,18 +1,18 @@
 ---
-title: "Configurar IIS para WCF aislado adaptadores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Configurar IIS para WCF aislado adaptadores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive adapters, WCF services
 - WCF services, receive adapters
 - IIS, configuring [WCF receive adapters]
 ms.assetid: 1c6f1561-a7ba-4eb0-8878-bf213ebcd6a6
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233372"
 ---
 # <a name="configuring-iis-for-the-isolated-wcf-receive-adapters"></a>Configurar IIS para los adaptadores de recepción WCF aislados
 Para publicar los servicios WCF mediante el asistente para publicación de Servicio WCF de BizTalk, debe configurar Servicios de Internet Information Server (IIS), hosts aislados de BizTalk y las cuentas de grupo de usuarios de Windows. En esta sección se tratan los problemas relacionados con la configuración de IIS para la publicación de servicios WCF con adaptadores de recepción WCF aislados como el adaptador de recepción WCF-BasicHttp, adaptador de recepción WCF-BasicHttp y el adaptador de WCF-CustomIsolated. Para obtener información general sobre el hospedaje de servicios WCF en IIS, vea "Hosting in IIS" en [http://go.microsoft.com/fwlink/?LinkId=75700](http://go.microsoft.com/fwlink/?LinkId=75700).  

@@ -1,14 +1,14 @@
 ---
-title: "El intercambio contenía un error estructural. Último grupo funcional estructura válida fue de Id.: | Documentos de Microsoft"
-ms.custom: 
+title: 'El intercambio contenía un error estructural. Último grupo funcional estructura válida fue de Id.: | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bd62855b-ecc6-4cfd-be9c-0025348eb841
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241412"
 ---
 # <a name="the-interchange-had-structural-error-last-structurally-valid-functional-group-id-was"></a>El intercambio contenía un error estructural. El Id. del último grupo funcional con estructura válida fue:
 ## <a name="details"></a>Detalles  

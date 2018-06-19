@@ -1,17 +1,17 @@
 ---
-title: "Cómo agregar un puerto Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un puerto Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web ports, creating
 - creating, Web ports
 ms.assetid: da94d98e-10ca-437a-ba34-7aa6efc68f3d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248012"
 ---
 # <a name="how-to-add-a-web-port"></a>Cómo agregar un puerto Web
 Los puertos Web se agregan en la superficie para el puerto en el Diseñador de orquestaciones. A diferencia de otros puertos configurados, los puertos Web admiten una mezcla de operaciones de solicitud (unidireccionales) y de solicitud-respuesta (bidireccionales). Cada operación del puerto Web representa un método Web. Si el método Web contiene *entrada* y *salida* parámetros, BizTalk crea una operación de solicitud/respuesta. Si el servicio Web contiene sólo un *entrada* parámetro, BizTalk sólo crea una operación unidireccional.  

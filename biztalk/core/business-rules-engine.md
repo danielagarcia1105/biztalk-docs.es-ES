@@ -1,11 +1,11 @@
 ---
 title: Motor de reglas de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, Business Rules Engine
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Business Rules Engine, rules
 - Business Rules Engine, about Business Rules Engine
 ms.assetid: 87b38507-9f6d-4863-88a6-9c20f15a4e55
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232620"
 ---
 # <a name="business-rules-engine"></a>motor de reglas de negocios
 El marco de trabajo de reglas de trabajo es una biblioteca de clases compatible con Microsoft .NET. Proporciona un motor de inferencia eficiente que puede vincular reglas de gran riqueza semántica, declarativas y muy legibles con cualquier objeto de negocios (componentes .NET), documento XML o tabla de base de datos. Los programadores de aplicaciones pueden crear reglas de negocio mediante la generación de reglas a partir de bloques pequeños de lógica de negocios (conjuntos de reglas pequeños) que funciones en información (hechos) incluida en objetos .NET, tablas de base de datos y documentos XML. Este patrón de diseño fomenta la reutilización de código, la sencillez del diseño y la modularidad de la lógica de negocios. Además, el motor de reglas no se impone en la arquitectura o el diseño de las aplicaciones de negocios. De hecho, se puede agregar tecnología de reglas a una aplicación de negocios mediante la invocación directa del motor de reglas o bien mediante la lógica externa que invoque los objetos de negocios sin modificarlos. En resumen, la tecnología permite a los programadores crear y mantener aplicaciones con el mínimo de esfuerzo.  

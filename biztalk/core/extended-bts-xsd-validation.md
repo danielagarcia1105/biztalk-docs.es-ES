@@ -1,14 +1,14 @@
 ---
-title: "Validación extendida (BTS-XSD) | Documentos de Microsoft"
-ms.custom: 
+title: Validación extendida (BTS-XSD) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f225115d-8890-4149-8e46-d1bc8af17e62
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245956"
 ---
 # <a name="extended-bts-xsd-validation"></a>Validación extendida (BTS-XSD)
 La canalización de recepción EDI y la canalización de envío EDI realizan la validación extendida solo si el esquema se ha personalizado con elementos cuyos tipos de datos no sean EDI. No se validaría estos elementos agregados por la validación de EDI, por lo que se cubrirán mediante la validación extendida. La validación extendida usa `System.Xml.XmlValidatingReader` e incluye todas las comprobaciones que se pueden definir en un XSD estándar.  

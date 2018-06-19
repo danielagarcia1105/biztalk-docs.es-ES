@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246100"
 ---
 # <a name="halt"></a>Detener
 Puede usar el **detener** función para detener la ejecución del motor de reglas actual. El **detener** función toma un parámetro de tipo `Boolean`. Si se especifica el valor del parámetro como `true`, el motor de reglas también borrará la agenda que contiene las reglas candidatas pendientes.  

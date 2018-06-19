@@ -1,14 +1,14 @@
 ---
-title: "Cómo consumir Web Services en un escenario únicamente de mensajería | Documentos de Microsoft"
-ms.custom: 
+title: Cómo consumir Web Services en un escenario únicamente de mensajería | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66873959-5b1b-4d9b-ad19-f083670420b8
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249428"
 ---
 # <a name="how-to-consume-web-services-in-a-messaging-only-scenario"></a>Cómo consumir servicios web en un escenario únicamente de mensajería
 Una de las nuevas mejoras del adaptador de SOAP es la capacidad de para llamar a los servicios Web en un escenario únicamente de mensajería mediante el uso de puertos de envío de enrutamiento basados en el contenido. Esta característica hace posible la consumición de servicios Web sin crear orquestaciones. Además, proporciona un mayor rendimiento para consumir servicios Web, ya que los mensajes no pasan a través de las orquestaciones.  

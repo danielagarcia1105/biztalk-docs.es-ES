@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar asignaciones de salida para un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar asignaciones de salida para un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - configuring, receive ports
 - receive ports, outbound maps
 ms.assetid: 01a864a1-9e8c-4b82-9d03-91be09d556da
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248516"
 ---
 # <a name="how-to-configure-outbound-maps-for-a-receive-port"></a>Cómo configurar asignaciones de salida para un puerto de recepción
 En este tema, se describe cómo utilizar la consola de administración de BizTalk Server para configurar asignaciones de salida para un puerto de recepción. Las asignaciones de salida pueden utilizarse con puertos de recepción de solicitud-respuesta para transformar mensajes de salida de un esquema a otro (por ejemplo, para transformar mensajes que utiliza la empresa en un esquema que utiliza un socio comercial).  

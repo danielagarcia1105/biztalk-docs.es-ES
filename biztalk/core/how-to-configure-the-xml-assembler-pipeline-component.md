@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el componente de canalización de ensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de ensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Assembler [pipeline component], configuring
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - configuring, pipeline components
 - pipeline components, XML Assembler
 ms.assetid: 6d883819-a1d4-4ad0-b08f-fcd7583134d6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248836"
 ---
 # <a name="how-to-configure-the-xml-assembler-pipeline-component"></a>Cómo configurar el componente de canalización de ensamblador XML
 El componente de canalización de ensamblador XML se utiliza para ajustar los documentos XML en los sobres XML antes de enviar un mensaje de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar opciones de copia de seguridad de transporte para un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar opciones de copia de seguridad de transporte para un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, send ports
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send ports, configuring
 - send ports, backup options
 ms.assetid: f05f57a6-e62b-4640-a6e2-cb73e9de2a14
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248380"
 ---
 # <a name="how-to-configure-backup-transport-options-for-a-send-port"></a>Cómo configurar opciones de transporte de reserva para un puerto de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para configurar las opciones de transporte de reserva para un puerto de envío. El transporte de reserva especificado surte efecto en caso de error del transporte principal. Configuración del transporte primario se describe en [cómo crear un puerto de envío](../core/how-to-create-a-send-port2.md).  

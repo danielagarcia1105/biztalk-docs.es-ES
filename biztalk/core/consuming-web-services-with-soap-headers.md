@@ -1,11 +1,11 @@
 ---
 title: Consumir servicios Web con encabezados SOAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, consuming
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, SOAP headers
 - SOAP headers, Web services
 ms.assetid: c2dfe7d8-e2f0-4bc6-b79c-354d06a7ffd6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237812"
 ---
 # <a name="consuming-web-services-with-soap-headers"></a>Consumir servicios Web con encabezados SOAP
 Después de consumir un servicio Web con encabezados SOAP definidos, éstos pasan a estar disponibles para las orquestaciones y los componentes de canalización como propiedades de contexto. Estas propiedades de contexto contienen representaciones de cadenas de los encabezados SOAP. Para cada encabezado SOAP definido en el servicio Web, puede crear una propiedad de contexto mediante el nombre que corresponde al elemento raíz del encabezado SOAP. Todas las propiedades de contexto de encabezado SOAP definidas están en el **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader** espacio de nombres.  

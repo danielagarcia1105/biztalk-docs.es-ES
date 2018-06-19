@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un administrador de almacenes de una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un administrador de almacenes de una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer, policies
 - Business Rule Composer, facts
 - policies, facts
 ms.assetid: a7bcf3e5-3f28-4f0e-b112-8c97dee072a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247100"
 ---
 # <a name="how-to-configure-a-fact-retriever-for-a-policy"></a>Cómo configurar un administrador de almacenes de una directiva
 Puede almacenar hechos que no cambien con frecuencia y, posteriormente, antes del primer ciclo de ejecución de la aplicación de host, puede recuperar esos hechos desde donde se encuentren almacenados, presentarlos una vez al motor de reglas para su almacenamiento en caché y volver a utilizarlos en múltiples ciclos de ejecución.  

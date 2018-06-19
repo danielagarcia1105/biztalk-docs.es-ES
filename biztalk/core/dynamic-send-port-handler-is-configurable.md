@@ -1,14 +1,14 @@
 ---
-title: "Controlador de puerto de envío dinámico es Configurable | Documentos de Microsoft"
-ms.custom: 
+title: Controlador de puerto de envío dinámico es Configurable | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5eb8f5ef-af95-4b2e-9a43-6f1240b25855
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22240596"
 ---
 # <a name="dynamic-send-port-handler-is-configurable"></a>El controlador de puerto de envío dinámico es configurable
 Al crear un puerto de envío dinámico, puede configurar un controlador de envío de adaptador para *cada* adaptador instalado. Considere el caso siguiente:  

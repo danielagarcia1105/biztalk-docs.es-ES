@@ -1,11 +1,11 @@
 ---
-title: "Desarrollar un servicio en la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Desarrollar un servicio en la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, developing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - developing, tutorials
 - developing, service solution tutorial
 ms.assetid: 7979a05c-7fd3-4476-a623-55de8abdc493
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239332"
 ---
 # <a name="developing-a-service-oriented-solution"></a>Desarrollar un servicio en la solución orientada a servicios
 La solución orientada a servicios muestra un sistema de saldo de cuenta de crédito para Woodgrove Bank. Información sobre una cuenta procede de tres sistemas heredados: un sistema SAP que proporciona el límite de crédito, un sistema de transacciones pendientes que se ejecuta en un gran sistema y un sistema de seguimiento de pago con MQSeries. Las solicitudes de comprobación de saldo proceden de un servicio Web o un sistema de respuesta interactiva de voz (IVR). Para obtener más información acerca del escenario, consulte [descripción de la solución orientada a servicios](../core/understanding-the-service-oriented-solution.md).  

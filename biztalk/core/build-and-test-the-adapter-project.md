@@ -1,14 +1,14 @@
 ---
 title: Compilar y probar el proyecto de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b5eb486-99ae-4661-b0d0-d2d363d97b73
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,11 +17,12 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233060"
 ---
 # <a name="build-and-test-the-adapter-project"></a>Generar y probar el proyecto de adaptador
 Para probar todos los cambios realizados en el proyecto AdapterManagement, vuelva a generar el proyecto. Después de realizar una generación correcta, ejecute el Asistente para agregar metadatos de adaptador para asegurarse de que todos los archivos XSD internos y externos se agreguen al proyecto AdapterManagement. Para obtener instrucciones sobre cómo utilizar el Asistente para agregar metadatos de adaptador, vea [cómo agregar metadatos de adaptador a un proyecto de BizTalk](../core/how-to-add-adapter-metadata-to-a-biztalk-project.md).  
   
- Para probar los cambios realizados en los esquemas de configuración, abra cada una de las páginas de propiedades generadas por el archivo XSD para asegurarse de que pida y acepte los datos correctos. Hacer esto mediante la configuración de un puerto de envío, ubicación de recepción, controlador de envío y controlador de recepción en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración de**.**  
+ Para probar los cambios realizados en los esquemas de configuración, abra cada una de las páginas de propiedades generadas por el archivo XSD para asegurarse de que pida y acepte los datos correctos. Hacer esto mediante la configuración de un puerto de envío, ubicación de recepción, controlador de envío y controlador de recepción en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración de **.**  
   
 > [!NOTE]
 >  Es posible que un adaptador no tenga todos los esquemas de configuración. Por ejemplo, un adaptador de envío que no admita la recepción de mensajes podría tener únicamente los esquemas TransmitLocation.xsd y TransmitHandler.xsd.  

@@ -1,14 +1,14 @@
 ---
-title: "Configuración de las propiedades de sobres de reserva (configuración de conjunto de transacciones de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades de sobres de reserva (configuración de conjunto de transacciones de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a951f70-07d5-4a58-b1ea-e7117a45c545
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233172"
 ---
 # <a name="configuring-fallback-envelope-properties-x12-transaction-set-settings"></a>Configuración de propiedades de sobres de reserva (configuración del conjunto de transacciones X12)
 En el **sobres** página de la **configuración del conjunto de transacciones** sección, defina cómo BizTalk Server genera los segmentos GS de un intercambio codificado en X12 que envía a la entidad. El segmento GS identifica y especifica un grupo funcional para un intercambio con codificación X12.  

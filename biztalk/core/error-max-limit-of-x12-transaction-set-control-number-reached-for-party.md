@@ -1,14 +1,14 @@
 ---
-title: "El límite máximo de aceptable X12 ha alcanzado el número de control de conjunto de transacciones para la entidad | Documentos de Microsoft"
-ms.custom: 
+title: El límite máximo de aceptable X12 ha alcanzado el número de control de conjunto de transacciones para la entidad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a402f6d0-4399-47c9-a39a-56d7fa1efa86
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241180"
 ---
 # <a name="max-limit-of-acceptable-x12-transaction-set-control-number-has-reached-for-party"></a>Se ha alcanzado el límite máximo permitido del número de control de conjunto de transacciones X12 para la entidad
 ## <a name="details"></a>Detalles  

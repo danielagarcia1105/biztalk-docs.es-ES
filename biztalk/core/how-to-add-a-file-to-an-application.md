@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar un archivo a una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un archivo a una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], adding files
 - files, adding to applications
 - managing [resources], adding files
 ms.assetid: 6665b946-113a-4026-a0a3-6b67ede4b689
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247740"
 ---
 # <a name="how-to-add-a-file-to-an-application"></a>Cómo agregar un archivo a una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un archivo a una aplicación de BizTalk. Los archivos que se agreguen a la aplicación se copian en la carpeta de instalación cuando se instala la aplicación. Los archivos también se pueden exportar al archivo .msi de la aplicación y moverse a distintos entornos de implementación con la aplicación.  

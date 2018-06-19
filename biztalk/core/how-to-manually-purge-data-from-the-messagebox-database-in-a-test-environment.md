@@ -1,14 +1,14 @@
 ---
-title: "Cómo purgar datos manualmente desde la base de datos de cuadro de mensajes en un entorno de prueba | Documentos de Microsoft"
-ms.custom: 
+title: Cómo purgar datos manualmente desde la base de datos de cuadro de mensajes en un entorno de prueba | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 398991a9-344a-487a-a817-dfc97d48ebe6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254060"
 ---
 # <a name="how-to-manually-purge-data-from-the-messagebox-database-in-a-test-environment"></a>Purga manual de datos de la base de datos de cuadro de mensaje en un entorno de prueba
 Al ejecutar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno de desarrollo o prueba, los datos almacenados en la base de datos de cuadro de mensajes no son normalmente datos económicos importantes "activos", por lo cual pueden eliminarse. En estos casos, es posible que necesite un método "rápido y sucio" para depurar datos desde la base de datos de cuadro de mensajes. Siga los procedimientos de este tema para depurar datos manualmente desde la base de datos de cuadro de mensajes usando el procedimiento almacenado bts_CleanupMsgbox.  

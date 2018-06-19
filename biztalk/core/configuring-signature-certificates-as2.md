@@ -1,14 +1,14 @@
 ---
-title: "Configuración de certificados de firma (AS2) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de certificados de firma (AS2) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8539e210-1656-4fff-b026-36b81689061f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233268"
 ---
 # <a name="configuring-signature-certificates-as2"></a>Configuración de certificados de firma (AS2)
 Como parte de la configuración de esta página, puede especificar los certificados que se deben usar para firmar todos los mensajes salientes y el MDN que se resuelve en este acuerdo. La configuración de esta página invalida la configuración de certificado proporcionada en las propiedades del grupo de BizTalk. Para obtener más información sobre cómo se usan certificados, consulte [configurar certificados para AS2](../core/configuring-certificates-for-as2.md).  

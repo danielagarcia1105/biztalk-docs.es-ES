@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, deleting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deleting, SSO
 - deleting, Master Secret server
 ms.assetid: 0e1ad8e3-0938-4f36-b85b-4631d0eeb8c9
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254660"
 ---
 # <a name="how-to-remove-sso"></a>Cómo quitar SSO
 Si se quita BizTalk Server, el inicio de sesión único (SSO) empresarial deja de estar configurado a menos que haya un programa dependiente que lo utilice. No obstante, no se quita. Debe quitar SSO por separado. Asimismo, se puede restaurar la información de configuración, incluido el secreto principal, para reutilizar los datos existentes. Para obtener más información, consulte [cómo restaurar el secreto principal](../core/how-to-restore-the-master-secret.md).  

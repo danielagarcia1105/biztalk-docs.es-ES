@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249748"
 ---
 # <a name="how-to-create-a-receive-port"></a>Cómo crear un puerto de recepción
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para crear un puerto de recepción. Un puerto de recepción es una agrupación lógica de ubicaciones de recepción similares a través de los cuales los servicios interactúan con los socios comerciales externos mediante la recepción de datos.  

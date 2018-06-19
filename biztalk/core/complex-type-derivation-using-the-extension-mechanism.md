@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22232476"
 ---
 # <a name="complex-type-derivation-using-the-extension-mechanism"></a>Derivación de tipo complejo mediante el mecanismo de extensión
 Un tipo complejo derivado por extensión es un supraconjunto funcional del tipo de datos base correspondiente. Como el propio nombre indica, el tipo de datos base correspondiente constituye la base para el tipo que se está definiendo, donde las diferencias con respecto al tipo base son de naturaleza aditiva. Este tema proporciona un ejemplo en el que los dos elementos **ShippingAddress** y **BillingAddress** se basan en el tipo global complejo **GlobalAddrType**. **ShippingAddress** simplemente se define como de tipo **GlobalAddrType**, mientras que **BillingAddress** está definido para ampliar el tipo **GlobalAddrType**. Al final del ejemplo, se agrega un elemento adicional a **BillingAddress**, que se denomina **departamento**, con un tipo de cadena y un valor predeterminado de cuentas por pagar.  

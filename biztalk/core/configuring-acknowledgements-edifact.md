@@ -1,14 +1,14 @@
 ---
-title: "Configuración de confirmaciones (EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de confirmaciones (EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9436feb7-4c29-4b7c-b5c2-991660e6c1a9
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233500"
 ---
 # <a name="configuring-acknowledgements-edifact"></a>Configuración de confirmaciones (EDIFACT)
 En el acuerdo de socios comerciales, puede especificar qué tipo de confirmación se va a devolver a una entidad y qué tipo de puerto de envío se va a usar para enviar la confirmación. También se especifica si se va a procesar por lotes una confirmación, el número de referencia inicial del conjunto de transacciones correspondiente a la confirmación y si se generan bucles SG1/SG4 para los conjuntos de transacciones aceptados.  

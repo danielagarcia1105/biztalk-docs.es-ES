@@ -15,7 +15,7 @@ helpviewer_keywords:
 - HAT, terminiating orchestrations
 - orchestrations, terminating [HAT]
 ms.assetid: b5d44cce-b05c-47f9-9015-5b10c2312bf1
-caps.latest.revision: ''
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255244"
 ---
 # <a name="how-to-terminate-suspended-orchestration-instances"></a>Cómo finalizar instancias de orquestación suspendidas
 Puede finalizar cualquier puerto o instancia de orquestación suspendida desde el panel Resultados de la consulta o el panel de previsualización de la consola de administración de BizTalk Server.  

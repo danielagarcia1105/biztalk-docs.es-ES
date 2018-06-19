@@ -1,14 +1,14 @@
 ---
-title: "Cómo establecer dinámicamente el URI de un servicio Web consumido | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer dinámicamente el URI de un servicio Web consumido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95829a28-7898-4757-87cc-40fc99bf707e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254940"
 ---
 # <a name="how-to-dynamically-set-the-uri-of-a-consumed-web-service"></a>Cómo definir de forma dinámica el URI de un servicio Web utilizado
 Cuando se crea un puerto Web para un servicio Web consumido, puede seleccionar un enlace de puerto dinámico. Cuando seleccione un enlace de puerto dinámico, debe definir el URI del servicio Web consumido en tiempo de ejecución. El URI seleccionado debe llamar un servicio Web que tenga el mismo proxy Web que el servico Web utilizado para crear el tipo de puerto Web.  

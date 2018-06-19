@@ -1,14 +1,14 @@
 ---
-title: "El elemento de lote excedía el recuento de caracteres máximo configurado | Documentos de Microsoft"
-ms.custom: 
+title: El elemento de lote excedía el recuento de caracteres máximo configurado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ad12733-295a-43ba-8147-34c8716c2d37
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278348"
 ---
 # <a name="the-batch-element-exceeded-the-maximum-configured-character-count"></a>El elemento por lotes ha excedido el recuento de caracteres máximo configurado.
 ## <a name="details"></a>Detalles  

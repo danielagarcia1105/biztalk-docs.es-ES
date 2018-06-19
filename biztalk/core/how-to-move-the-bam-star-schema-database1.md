@@ -1,17 +1,17 @@
 ---
-title: "Cómo mover la Database1 de esquema de estrella de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la Database1 de esquema de estrella de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Star Schema database [BAM], migrating
 - migrating, Star Schema database [BAM]
 ms.assetid: b4a5f8fc-0dc4-4987-b96f-ecd49bd4dba3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254244"
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a>Cómo mover la base de datos de esquema de estrella de BAM
 Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.  
@@ -31,7 +32,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, desplácese al directorio siguiente:  
   
@@ -56,7 +57,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 6.  Guarde el archivo BAMConfiguration.xml y ciérrelo.  
   
-7.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+7.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 8.  En el símbolo del sistema, desplácese al directorio siguiente:  
   

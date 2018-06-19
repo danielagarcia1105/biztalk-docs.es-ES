@@ -1,11 +1,11 @@
 ---
-title: "Métodos de definidos por el usuario de interfaz de componente | Documentos de Microsoft"
-ms.custom: 
+title: Métodos de definidos por el usuario de interfaz de componente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, user-defined methods
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - samples, custom methods
 - component interfaces, limitations for custom CI
 ms.assetid: e4b15889-35ff-44aa-819d-eade9690bdd6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233836"
 ---
 # <a name="component-interface-user-defined-methods"></a>Métodos de definidos por el usuario de interfaz de componente
 El adaptador de Microsoft BizTalk para PeopleSoft Enterprise admite métodos definidos por el usuario en interfaces de componentes. Las firmas son del tipo:  

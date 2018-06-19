@@ -1,11 +1,11 @@
 ---
-title: "Cómo modificar reglas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar reglas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, activating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - modifying, business rules
 - business rules, modifying
 ms.assetid: 661b2637-b5d6-4bde-9c42-24cd9e9d241c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254236"
 ---
 # <a name="how-to-modify-rules"></a>Cómo modificar reglas
 La capacidad de cambiar reglas es una parte importante del paradigma de reglas de negocios. Puede modificar las reglas de una directiva de dos maneras: mediante la creación de una nueva versión de la directiva, o bien modificando directamente una versión no publicada de la directiva.  

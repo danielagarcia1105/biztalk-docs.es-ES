@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el componente de canalización de desensamblador de BizTalk Framework | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de desensamblador de BizTalk Framework | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, BizTalk Framework Disassembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive pipelines, disassembly stage
 - BizTalk Framework Disassembler [pipeline component], configuring
 ms.assetid: a5599bcb-dbee-46a5-a91d-3c54f901cd30
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249196"
 ---
 # <a name="how-to-configure-the-biztalk-framework-disassembler-pipeline-component"></a>Cómo configurar el componente de canalización de desensamblador de BizTalk Framework
 El componente de canalización de desensamblador de BizTalk Framework debe utilizarse en la fase de desensamblado de una canalización de recepción.  

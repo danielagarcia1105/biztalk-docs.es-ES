@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245972"
 ---
 # <a name="find-method"></a>Find (método)
 Se usa para devolver una lista de claves que satisfacen las claves de búsqueda parciales proporcionada. Tenga en cuenta que, para una interfaz de componente que solo tiene una instancia, es decir, que no existe clave, no se genera la función `Find()`. Vea también [Get (método)](../core/get-method.md).  

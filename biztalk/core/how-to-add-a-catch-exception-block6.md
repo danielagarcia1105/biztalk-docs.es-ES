@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar un Block6 de excepción Catch | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un Block6 de excepción Catch | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exception handling, Catch Exception block
 - Catch Exception blocks
 - exceptions, Catch Exception block
 ms.assetid: 404312dd-773b-44fe-8b65-7de3d0af2f79
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248724"
 ---
 # <a name="how-to-add-a-catch-exception-block"></a>Cómo agregar un bloque Excepción de filtrado
 El **excepción de filtrado** de bloqueo representa un controlador de excepciones. **Detectar excepciones** bloques se adjuntan al final de un **ámbito** forma en el Diseñador de orquestaciones. En BizTalk Server, puede adjuntar tantos **excepción de filtrado** bloquea según sea necesario.  

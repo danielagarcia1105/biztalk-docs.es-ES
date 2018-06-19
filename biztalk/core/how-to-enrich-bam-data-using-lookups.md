@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253916"
 ---
 # <a name="how-to-enrich-bam-data-using-lookups"></a>Cómo enriquecer datos de BAM mediante búsquedas
 Hay casos en los que los datos que están disponibles en el tiempo de funcionamiento no contienen todo lo necesario para realizar informes. Por ejemplo, puede que se haya instalado un ProductID pero no un ProductName en tiempo de ejecución. Ya que la actividad de BAM representa una abstracción independiente de cómo se recopilan los datos realmente, debería contener un elemento con el mismo nombre que los datos finales que desea ver en el “ProductName” del informe. Como el resto de elementos, puede utilizarse en construcciones interpretativas, como grupos de hitos, duraciones, dimensiones y medidas. Ya que ProductName no está disponible en tiempo de ejecución, debe obtener algunos datos adicionales que sean suficientes para realizar la búsqueda, como el ProductID.  

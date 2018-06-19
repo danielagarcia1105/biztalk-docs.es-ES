@@ -1,14 +1,14 @@
 ---
 title: Elemento estructural de segmento EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f474a3d-004a-4981-b155-b0a5775918ba
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242220"
 ---
 # <a name="edi-segment-structural-element"></a>Elemento estructural de segmento EDI
 El segmento consta de uno o más elementos de datos y es una unidad intermedia de información en el mensaje. Cada segmento comienza con un identificador de segmento de datos de tres caracteres y finaliza con un terminador de segmentos (de forma predeterminada el apostrofo (')). Los elementos de datos dentro del segmento se separan mediante separadores de elementos de datos. El separador de elementos de datos es, de forma predeterminada, el signo más (+). Un segmento se clasifica como Obligatorio u Opcional. Los separadores para intercambios salientes se pueden establecer en los acuerdos entre dos socios comerciales o como parte del acuerdo del socio comercial de reserva.  

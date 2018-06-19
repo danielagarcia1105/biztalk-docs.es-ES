@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al crear planos esquemas de mensaje de archivo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52271b17-4f0b-4286-a462-cd5951ae49aa
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237900"
 ---
 # <a name="considerations-when-creating-flat-file-message-schemas"></a>Consideraciones al crear sin formato de archivo esquemas de mensaje
 Es necesario tener en cuenta una serie de cuestiones al trabajar con esquemas de mensajes de archivo sin formato. Esto incluye consideraciones aplicables a todos los esquemas de archivo sin formato, así como consideraciones que se aplican de forma específica a los registros posicionales, los registros delimitados, los campos posicionales o los campos delimitados. También existen consideraciones acerca de cómo interpretar de otro modo los caracteres especiales para que se consideren como datos normales. Esta sección proporciona información acerca de estas consideraciones.  

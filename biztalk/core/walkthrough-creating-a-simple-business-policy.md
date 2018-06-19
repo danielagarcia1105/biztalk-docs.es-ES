@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Crear una directiva empresarial sencilla | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02d35735-dce2-4ee2-965e-dae307a125b0
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975829"
 ---
 # <a name="walkthrough-creating-a-simple-business-policy"></a>Tutorial: Crear una directiva empresarial sencilla
 Este tutorial proporciona procedimientos paso a paso para que usar el Compositor de reglas de negocio para crear una directiva empresarial sencilla denominada **ProcessPurchaseOrder** que contiene una regla denominada **ApprovedRule**. El **ApprovedRule** regla espera que el usuario para enviar un documento XML como un hecho y establece el valor de la **estado** campo en el documento a **aprobado** si el valor de la  **Cantidad** campo es menor o igual a **500**.  
@@ -97,7 +98,7 @@ Este tutorial proporciona procedimientos paso a paso para que usar el Compositor
   
 4.  Haga clic en **versión 1.0**y, a continuación, haga clic en **AddNewRule**.  
   
-5.  Edite el nombre de la regla de **Rule1** a **ApprovalRule** y presione ENTRAR**.** También puede cambiar el nombre de la regla en el **propiedades** ventana.  
+5.  Edite el nombre de la regla de **Rule1** a **ApprovalRule** y presione ENTRAR **.** También puede cambiar el nombre de la regla en el **propiedades** ventana.  
   
 6.  En la ventana Explorador de hechos, haga clic en el **esquemas XML** ficha.  
   
@@ -130,7 +131,7 @@ Este tutorial proporciona procedimientos paso a paso para que usar el Compositor
   
 14. En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **aprobado**.  
   
-15. En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+15. En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 ## <a name="comments"></a>Comentarios  
   

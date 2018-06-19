@@ -1,14 +1,14 @@
 ---
 title: Las versiones del proyecto de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dcdd5354-6335-4320-adbf-28ac934c9ce6
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234196"
 ---
 # <a name="biztalk-server-project-versioning"></a>Control de versiones del proyecto de BizTalk Server
 Al desarrollar con la [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)], control de versiones se rige por un conjunto estándar de reglas que trabajan para minimizar el impacto de los cambios de números de versión. Dependiendo de cómo un [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]se implementa la aplicación o componente, las dependencias se pueden administrar mediante un archivo de configuración de la aplicación, a través de la instalación de XCOPY, o por otro [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] mecanismos de implementación. Tal y como se mostrará en las siguientes secciones, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] agrega una complejidad adicional al control de versiones y dependencias.  
@@ -69,7 +70,7 @@ Al desarrollar con la [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframewo
   
 2.  En el Bloc de notas, en el **archivo** menú, haga clic en **abiertos**. En el **abiertos** cuadro de diálogo, seleccione la asignación de archivos desea modificar y, a continuación, haga clic en **abiertos**.  
   
-3.  En el menú **Edición** , haga clic en **Buscar**. En el **buscar** diálogo cuadro, escriba **ensamblado =**y, a continuación, haga clic en **Buscar siguiente**.  
+3.  En el menú **Edición** , haga clic en **Buscar**. En el **buscar** diálogo cuadro, escriba **ensamblado =** y, a continuación, haga clic en **Buscar siguiente**.  
   
 4.  Si hay una referencia de secuencia de comandos a un ensamblado externo, el Bloc de notas debería buscar un elemento XML como el siguiente:  
   

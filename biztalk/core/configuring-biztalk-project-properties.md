@@ -1,17 +1,17 @@
 ---
-title: "Configuración de las propiedades del proyecto de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades del proyecto de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, property pages
 - projects, configuring
 ms.assetid: 2cd8bbf0-1cba-462a-8e26-a761dc067765
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232260"
 ---
 # <a name="configuring-biztalk-project-properties"></a>Configuración de las propiedades del proyecto de BizTalk
 En las propiedades del proyecto se establece la configuración global de los proyectos creados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Los proyectos de BizTalk comparten muchas de las propiedades de otros sistemas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. La mayoría de estas propiedades se configuran en el Diseñador de proyectos.  

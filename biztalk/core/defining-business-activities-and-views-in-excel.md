@@ -1,17 +1,17 @@
 ---
-title: "Definir actividades económicas y vistas en Excel | Documentos de Microsoft"
-ms.custom: 
+title: Definir actividades económicas y vistas en Excel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], creating business activities
 - monitoring business activities [BAM], creating business activities
 ms.assetid: 000532f0-cb9a-40ac-a6c5-a8bd4e49f8d0
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239684"
 ---
 # <a name="defining-business-activities-and-views-in-excel"></a>Definición de actividades económicas y vistas en Excel
 El primer paso para crear cualquier solución de BAM es identificar los datos que le interesan y la forma en que deben interpretarse. Para ello, debe usar el complemento BAM para Excel. Dicho complemento permite definir una lista de los datos de interés definiendo una actividad económica. También puede definir la forma en que los datos deben interpretarse y mostrarse a distintas categorías de usuarios empresariales.  

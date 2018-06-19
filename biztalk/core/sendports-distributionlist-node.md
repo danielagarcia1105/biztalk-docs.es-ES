@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269636"
 ---
 # <a name="sendports-distributionlist-node"></a>PuertosEnvío (nodo DistributionList)
 El nodo SendPorts del nodo DistributionList de un archivo de enlace es el nodo contenedor de las referencias del puerto de envío que aparecen en la lista de distribución.  

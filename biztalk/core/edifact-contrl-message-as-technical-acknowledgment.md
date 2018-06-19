@@ -1,14 +1,14 @@
 ---
-title: "Mensaje de CONTRL de EDIFACT como confirmación técnica | Documentos de Microsoft"
-ms.custom: 
+title: Mensaje de CONTRL de EDIFACT como confirmación técnica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f2a7564-dbd3-48d0-b0a6-a77a0560459f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242516"
 ---
 # <a name="edifact-contrl-message-as-technical-acknowledgment"></a>Mensaje CONTRL de EDIFACT como confirmación técnica
 Si ha seleccionado generar una confirmación técnica en la configuración de perfil de negocio o acuerdo entre socios comerciales (o acuerdo de reserva si no se ha definido ningún acuerdo entre los dos perfiles de negocio), o bien si el campo UNB9 del mensaje se configura en "2", se generará un mensaje CONTRL como confirmación técnica. Esta confirmación informa sobre los resultados de la recepción del intercambio.  

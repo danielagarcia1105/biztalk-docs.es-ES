@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239564"
 ---
 # <a name="developer-tools"></a>Herramientas del desarrollador
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye el entorno de diseño del sistema del proyecto de BizTalk para diseñar, organizar y crear varios elementos de las aplicaciones de BizTalk.  

@@ -1,14 +1,14 @@
 ---
 title: Definir procesos empresariales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5e0fdfe-e298-4f32-a7c5-d081b926a206
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22243276"
 ---
 # <a name="defining-business-processes"></a>Definir procesos empresariales
 El intercambio de mensajes entre distintos sistemas es un trámite necesario para resolver los problemas a los que se enfrenta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Sin embargo, el verdadero objetivo consiste en definir y ejecutar los procesos empresariales basados en las aplicaciones. El motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa orquestaciones para definir la lógica de estos procesos empresariales. Para crear y evaluar grupos de reglas de negocios, se utiliza el motor de reglas de negocios. En esta sección se describen las orquestaciones y el motor de reglas de negocios.  

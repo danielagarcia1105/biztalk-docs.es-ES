@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un puerto de envío de Windows SharePoint Services | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un puerto de envío de Windows SharePoint Services | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, send ports
 - configuring [Windows SharePoint Services adapters], send ports
 - send ports, Windows SharePoint Services adapters
 ms.assetid: 7713d3cc-cd8d-43db-8dac-2a7442632b87
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250324"
 ---
 # <a name="how-to-configure-a-windows-sharepoint-services-send-port"></a>Cómo configurar un puerto de envío de Windows SharePoint Services
 Este tema explica cómo crear y configurar un puerto de envío de Windows SharePoint Services con la consola de administración de BizTalk Server.  

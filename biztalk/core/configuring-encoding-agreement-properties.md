@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233932"
 ---
 # <a name="configuring-encoding-agreement-properties"></a>Configuración de propiedades del acuerdo de codificación
 Un acuerdo de socios comerciales (TPA) es un acuerdo vinculante y definitivo entre dos socios comerciales para la transacción de mensajes a través de un protocolo B2B específico. En términos más sencillos, un TPA es un acuerdo entre dos perfiles empresariales para usar un protocolo específico de codificación de mensajes (X12 o EDIFACT) o un protocolo específico de transporte (AS2) al intercambiar mensajes B2B entre sí. Además de acordar el protocolo de codificación y transporte, se puede usar un acuerdo para personalizar el modo en que se forman y entregan los mensajes.  

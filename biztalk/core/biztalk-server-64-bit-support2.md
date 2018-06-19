@@ -1,15 +1,15 @@
 ---
-title: "Introducción al soporte técnico de 64 bits para que BizTalk Server | Documentos de Microsoft"
-description: "compatibilidad con 64 bits en los adaptadores, procesos, administración de BizTalk, herramientas de BAM, ensamblados, orquestaciones etc. en BizTalk Server"
-ms.custom: 
+title: Introducción al soporte técnico de 64 bits para que BizTalk Server | Documentos de Microsoft
+description: compatibilidad con 64 bits en los adaptadores, procesos, administración de BizTalk, herramientas de BAM, ensamblados, orquestaciones etc. en BizTalk Server
+ms.custom: ''
 ms.date: 09/27/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52ae9037-a7af-48e4-b6a3-bff7600802de
-caps.latest.revision: "42"
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010893"
 ---
 # <a name="biztalk-server-64-bit-support"></a>Compatibilidad de BizTalk Server con 64 bits
 Este tema responde a algunas preguntas frecuentes sobre la compatibilidad de 64 bits de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

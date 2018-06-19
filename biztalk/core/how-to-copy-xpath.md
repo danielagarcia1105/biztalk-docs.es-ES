@@ -1,14 +1,14 @@
 ---
-title: "Cómo copiar XPath | Documentos de Microsoft"
-ms.custom: 
+title: Cómo copiar XPath | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 404599d4-0fb3-4c7c-91e6-1295d9d0965e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248532"
 ---
 # <a name="how-to-copy-xpath"></a>Copia de XPath
 El lenguaje de definición de esquemas XML (XSD) proporciona la sintaxis subyacente de los esquemas de mensaje definidos en BizTalk Server. Aunque las vistas de árbol del Asignador de BizTalk utilizan una jerarquía gráfica específica de BizTalk para los nodos de registro y de campo (entre otros tipos de nodos), cada uno con su propio conjunto de propiedades, dichas jerarquías se crean y mantienen como XSD.  

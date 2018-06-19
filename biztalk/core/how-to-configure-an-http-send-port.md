@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un puerto de envío HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un puerto de envío HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, HTTP adapters
 - HTTP adapters, send ports
 - configuring [HTTP adapters], send ports
 ms.assetid: 29c6868c-4570-4375-9494-08c07220eeb3
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22251308"
 ---
 # <a name="how-to-configure-an-http-send-port"></a>Cómo configurar un puerto de envío HTTP
 Un puerto de envío HTTP se puede configurar mediante programación o mediante la consola de administración de BizTalk Server.  

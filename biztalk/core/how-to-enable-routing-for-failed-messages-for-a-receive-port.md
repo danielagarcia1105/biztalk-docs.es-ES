@@ -1,11 +1,11 @@
 ---
-title: "Cómo habilitar enrutamiento para mensajes con errores para un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar enrutamiento para mensajes con errores para un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive ports, routing
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - routing, failed messages
 - errors, receive ports
 ms.assetid: 22366664-545d-4981-9bde-4df48b115002
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254092"
 ---
 # <a name="how-to-enable-routing-for-failed-messages-for-a-receive-port"></a>Cómo habilitar el enrutamiento para mensajes con errores para un puerto de recepción
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para habilitar el enrutamiento para los mensajes procesados por un puerto de recepción. Al habilitar esta opción, BizTalk Server intentará enrutar cualquier mensaje con errores de procesamiento a una aplicación de suscripción (por ejemplo, a otra programación de orquestación o puerto de recepción). Cuando esta opción no está habilitada (lo que ocurre de forma predeterminada), BizTalk Server suspende los mensajes con errores y genera una confirmación negativa (NACK). Para obtener información general sobre la administración de mensajes con errores, vea [enrutamiento de mensajes de error utilizando](../core/using-failed-message-routing.md).  

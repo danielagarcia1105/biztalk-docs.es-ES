@@ -1,14 +1,14 @@
 ---
-title: "Configuración de la validación (configuración de intercambio de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de la validación (configuración de intercambio de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fdad7016-1d66-4d11-b620-c28368f00133
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233276"
 ---
 # <a name="configuring-validation-x12-interchange-settings"></a>Configuración de la validación (configuración de intercambio de X12)
 La configuración de la generación de validación de intercambio X12 define cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] comprueba si existen números de control duplicados en el intercambio recibido.  

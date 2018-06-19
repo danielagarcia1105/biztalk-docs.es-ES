@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un mensaje para un Exception2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un mensaje para un Exception2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exceptions, adding messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - exception handling, adding messages
 - fault messages, adding
 ms.assetid: 9d8a3801-78cd-4c18-8deb-3fbe4a49a2f9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246204"
 ---
 # <a name="how-to-add-a-message-for-an-exception"></a>Cómo agregar un mensaje para una excepción
 La primera vez que crea un puerto en el sistema de servidor, contiene una solicitud y una respuesta. Debe agregar un mensaje de forma que pueda asignarlo al error.  

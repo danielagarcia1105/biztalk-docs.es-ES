@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8986e4a7-0c0a-415f-8a74-4fca71d3f1b5
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22232724"
 ---
 # <a name="biztalk-framework-schema-and-properties"></a>Propiedades y esquema de BizTalk Framework
 El **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** espacio de nombres contiene propiedades que puede utilizar para establecer propiedades de contexto de mensajes y partes para el componente de canalización de desensamblador de BizTalk Framework. El componente de canalización de desensamblador de BizTalk Framework utiliza estas propiedades para generar los encabezados apropiados en el mensaje que se crea. La tabla siguiente describe las propiedades de BizTalk Framework.  

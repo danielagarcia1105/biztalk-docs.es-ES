@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270252"
 ---
 # <a name="service-services-node"></a>Servicio (nodo de servicios)
 El nodo Servicio de un archivo de enlace contiene información específica acerca de un servicio que se exporta con el archivo de enlace. El nodo de servicio también contiene nodos que describen los puertos y los roles asociados al servicio, así como un nodo que describe el host asociado con el servicio.  

@@ -1,18 +1,18 @@
 ---
-title: "Implementación de codificación de caracteres en un componente de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de codificación de caracteres en un componente de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
 - pipeline components [custom], code samples
 - pipeline components [custom], encoding
 ms.assetid: 862b56da-ec14-41f9-b63c-42d81124e167
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257052"
 ---
 # <a name="implementing-character-encoding-in-a-pipeline-component"></a>Implementación de codificación de caracteres en un componente de canalización
 Para admitir la codificación de caracteres personalizada, debe implementar una clase de codificación personalizada derivando de Microsoft .NET Framework **codificación** clase, a continuación, crear un componente de canalización de archivos sin formato personalizado mediante la herencia de los planos estándar Componente de desensamblador de archivos o el ensamblador de archivo sin formato. Puede proporcionar una nueva instancia de codificación para el motor de análisis invalidando el método virtual protegido **FFDasmComp.GetDataReader** tal como se muestra en el ejemplo siguiente.  

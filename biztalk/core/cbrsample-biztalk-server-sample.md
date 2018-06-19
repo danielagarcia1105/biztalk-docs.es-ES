@@ -17,7 +17,7 @@ helpviewer_keywords:
 - examples, filters
 - messages, examples
 ms.assetid: 8fba494c-9257-4eed-8b6a-867056147c2c
-caps.latest.revision: ''
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22234732"
 ---
 # <a name="cbrsample-biztalk-server-sample"></a>CBRSample (ejemplo de BizTalk Server)
 El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida para transformar y enrutar mensajes de instancias basándose en su contenido.  
@@ -116,7 +117,7 @@ El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida p
   
 1.  En la consola de administración de BizTalk Server, expanda **puertos de envío**, haga clic en **CBRUSSendPort**y, a continuación, haga clic en **editar**.  
   
-2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==**y la configuración de la **Valor** columna **100**.  
+2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==** y la configuración de la **Valor** columna **100**.  
   
 3.  En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2USMap**, y, a continuación, haga clic en **Aceptar**. Puede que tenga que hacer clic en el botón de desplazamiento para ver la asignación.  
   
@@ -124,7 +125,7 @@ El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida p
   
 1.  En la consola de administración de BizTalk Server, expanda **puertos de envío**, haga clic en **CBRCANSendPort**y, a continuación, haga clic en **editar**.  
   
-2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==**y la configuración de la **Valor** columna **200**.  
+2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==** y la configuración de la **Valor** columna **200**.  
   
 3.  En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2CANMap** y, a continuación, haga clic en **Aceptar**.  
   

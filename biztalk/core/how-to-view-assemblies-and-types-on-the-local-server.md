@@ -1,14 +1,14 @@
 ---
-title: "Cómo ver ensamblados y tipos en el servidor Local | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver ensamblados y tipos en el servidor Local | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6ddf6f60-9fef-4997-8b42-24eefd7ab0d1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257324"
 ---
 # <a name="how-to-view-assemblies-and-types-on-the-local-server"></a>Cómo ver ensamblados y tipos en el servidor local
 Puede utilizar el Visor de ensamblado de BizTalk para examinar todos los ensamblados y tipos de BizTalk instalados en el servidor local.  

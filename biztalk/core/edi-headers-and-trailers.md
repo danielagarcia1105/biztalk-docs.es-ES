@@ -1,14 +1,14 @@
 ---
 title: EDI encabezados y finalizadores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf1dae3-9570-413d-a85d-94dcbb561906
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241932"
 ---
 # <a name="edi-headers-and-trailers"></a>Encabezados y finalizadores EDI
 Las partes de un intercambio EDI se delimitan por encabezados y finalizadores que deben cumplir los estándares de X12 o EDIFACT. El encabezado y el finalizador de control de intercambio se utilizan sólo una vez; el grupo funcional y los finalizadores y encabezados del conjunto de transacciones se repiten si los conjuntos de transacciones y los grupos se procesan por lotes en el intercambio. Todos los encabezados y finalizadores se componen de una serie de elementos de datos que contienen información acerca del contenido del encabezado y del finalizador.  

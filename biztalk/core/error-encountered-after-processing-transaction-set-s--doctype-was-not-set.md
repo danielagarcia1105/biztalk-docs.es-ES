@@ -1,14 +1,14 @@
 ---
 title: Detectado un error tras procesar conjuntos de transacciones porque DocType sin definir. | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a323658c-77d8-4059-aa15-d88c08e5450d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240268"
 ---
 # <a name="error-encountered-after-processing-transaction-sets-because-doctype-was-not-set"></a>Se detectó un error tras procesar conjunto(s) de transacciones porque DocType está sin definir
 ## <a name="details"></a>Detalles  

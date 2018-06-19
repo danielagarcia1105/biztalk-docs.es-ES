@@ -1,14 +1,14 @@
 ---
-title: "Paso 3a: recibir una notificación de oportunidad de Salesforce en BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3a: recibir una notificación de oportunidad de Salesforce en BizTalk Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be9de6e3-6bd9-4275-b2fb-0a756c51aabf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279412"
 ---
 # <a name="step-3a-receive-salesforce-opportunity-notification-into-biztalk-server"></a>Paso 3a: recibir una notificación de oportunidad de Salesforce en BizTalk Server
 En este paso, comenzamos creando un servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Debemos incluir primero el esquema para el mensaje de notificación de oportunidades que obtendremos de Salesforce y después comenzaremos a crear una orquestación para procesar el mensaje.  

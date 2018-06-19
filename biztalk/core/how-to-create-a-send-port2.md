@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250244"
 ---
 # <a name="how-to-create-a-send-port"></a>Cómo crear un puerto de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para crear un puerto de envío. Al crear un puerto de envío, es preciso seleccionar el tipo de puerto de envío que se va a crear, tal y como se especifica a continuación:  

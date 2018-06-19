@@ -1,14 +1,14 @@
 ---
 title: Generar un MDN saliente | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12d7da1c-0d3c-42d4-9388-29f499353d13
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247956"
 ---
 # <a name="generating-an-outgoing-mdn"></a>Generar un MDN saliente
 Las canalizaciones de recepción AS2 generan una respuesta MDN (Message Disposition Notification) para un mensaje entrante. Esto lo realiza el componente de la canalización del desensamblador EDI en la canalización de recepción AS2EReceive (en respuesta a un mensaje cifrado de EDI) o el componente de canalización del desensamblador AS2 en la canalización de recepción AS2Receive (en respuesta a un mensaje cifrado que no sea EDI).  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254788"
 ---
 # <a name="how-to-read-pipeline-component-properties"></a>Cómo leer las propiedades de componente de canalización
 La ventana Propiedades contiene dos secciones para componentes: propiedades generales y propiedades de componentes. Las propiedades generales son comunes a todos los componentes, aunque sus valores varíen entre ellos.  

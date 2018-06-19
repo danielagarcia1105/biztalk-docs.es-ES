@@ -1,14 +1,14 @@
 ---
 title: Ejecutar el ejemplo de servicio de control de excepciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d69e720c-89e4-42c2-b4d0-31f0b865ab7f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007789"
 ---
 # <a name="running-the-exception-handling-service-sample"></a>Ejecutar el ejemplo de servicio de control de excepciones
 El ejemplo de servicio de control de excepciones muestra cómo consumir el servicio Web de control de excepciones para poder enviar un error en el marco de control de excepciones de ESB desde una aplicación externa. El procedimiento siguiente para ejecutar este ejemplo requiere [instalar los ejemplos de administración de excepción](../esb-toolkit/installing-the-exception-management-samples.md).  

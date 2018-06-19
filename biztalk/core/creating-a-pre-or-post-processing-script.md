@@ -1,11 +1,11 @@
 ---
 title: Crear un previos o posteriores a la secuencia de comandos de procesamiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - scripts, post-processing
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - scripts, deploying
 - deploying, scripts
 ms.assetid: d5fbaec8-fbfe-4ceb-8ba8-0933baa37a1f
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239300"
 ---
 # <a name="creating-a-pre--or-post-processing-script"></a>Crear secuencias de comandos previas y posteriores al procesamiento
 Puede crear una secuencia de comandos para realizar acciones cuando se implementa una aplicación y, a continuación, definir en qué momento se ejecutará durante el proceso de implementación. Puede incluir tanto código de limpieza como código de instalación en la misma secuencia de comandos si utiliza variables de entorno para delimitar el código. También puede pasar argumentos de línea de comandos a la secuencia.  

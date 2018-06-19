@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247364"
 ---
 # <a name="how-to-add-parameters-to-orchestrations"></a>Cómo agregar parámetros a orquestaciones
 Puede especificar qué parámetros debería tomar la orquestación en la ventana Vista orquestación. Una orquestación puede tomar los siguientes elementos como parámetros:  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo suspender, reanudar y finalizar instancias de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo suspender, reanudar y finalizar instancias de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], resuming
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - orchestrations, suspending
 - managing [orchestrations], terminating
 ms.assetid: 7b373dad-57d5-4696-9b29-a6c351d44fa8
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256772"
 ---
 # <a name="how-to-suspend-resume-and-terminate-orchestration-instances"></a>Cómo suspender, reanudar y finalizar instancias de orquestación
 En este tema se describe cómo suspender, reanudar y finalizar una o varias instancias de servicio en ejecución de una orquestación mediante la consola de administración de BizTalk Server. Una instancia de servicio es una instancia de una orquestación que BizTalk Server es un procesamiento o que se ha serializado en el cuadro de mensajes de seguimiento o procesamiento ulterior.  

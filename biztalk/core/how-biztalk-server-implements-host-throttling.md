@@ -17,7 +17,7 @@ helpviewer_keywords:
 - host throttling, user controlled throttling
 - host throttling, strategies
 ms.assetid: 46d3c3de-66b9-4c8a-8369-e68563fc9c40
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22250660"
 ---
 # <a name="how-biztalk-server-implements-host-throttling"></a>Cómo implementa BizTalk Server la limitación de host
 El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] continuamente, el mecanismo de limitación de host supervisa para una condición de limitación, calcula la gravedad de la condición de limitación y aplica progresivamente la limitación según la gravedad calculada de host. El mecanismo de limitación se ajusta automáticamente y son adecuadas para la mayoría de las opciones de configuración predeterminadas [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenarios de procesamiento. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] limitación de host expone varias opciones configurables que pueden usarse para optimizar la limitación en escenarios concretos. Para obtener información acerca de cómo cambiar estas opciones de configuración, consulte [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md).  

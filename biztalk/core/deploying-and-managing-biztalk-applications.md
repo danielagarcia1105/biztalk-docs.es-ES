@@ -1,11 +1,11 @@
 ---
 title: Implementar y administrar aplicaciones de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, managing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bts06.deployment.application
 - managing, applications
 ms.assetid: d933ad2b-702b-48df-8ef6-a5702d0521e2
-caps.latest.revision: "49"
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239204"
 ---
 # <a name="deploying-and-managing-biztalk-applications"></a>Implementar y administrar aplicaciones de BizTalk
 En esta sección se proporciona información acerca de cómo administrar aplicaciones de BizTalk, además de cómo implementar, modificar, actualizar y anular la implementación de dichas aplicaciones. Las aplicaciones de BizTalk proporcionan un modo de ver y administrar los elementos, denominados "artefactos", que constituyen la solución empresarial de BizTalk. Entre los ejemplos de artefactos podemos encontrar los ensamblados de BizTalk, los ensamblados .NET, los esquemas, las asignaciones, los enlaces, certificados, etc.  

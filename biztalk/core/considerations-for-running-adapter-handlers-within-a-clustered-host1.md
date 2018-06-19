@@ -1,11 +1,11 @@
 ---
-title: "Consideraciones para la ejecución de controladores de adaptador dentro de un clúster Host1 | Documentos de Microsoft"
-ms.custom: 
+title: Consideraciones para la ejecución de controladores de adaptador dentro de un clúster Host1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2016-03-17
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - high availability
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - MSMQ adapters, clustering
 - clustering
 ms.assetid: ee66663c-4f4d-4515-9df1-aacf4fc72be4
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238484"
 ---
 # <a name="considerations-for-running-adapter-handlers-within-a-clustered-host"></a>Consideraciones para ejecutar controladores de adaptador en un host agrupado
 Compatibilidad con clústeres de host de BizTalk está disponible para proporcionar alta disponibilidad para el siguiente integrado adaptadores de BizTalk: adaptador de FTP, el adaptador SFTP, el adaptador de MSMQ y el adaptador de POP3. También se proporciona esta funcionalidad, de modo que hay una alta disponibilidad a la hora de ejecutar una sola instancia de un adaptador para una entrega ordenada.  

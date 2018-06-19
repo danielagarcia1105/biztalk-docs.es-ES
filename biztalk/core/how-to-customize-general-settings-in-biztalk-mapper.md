@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249332"
 ---
 # <a name="how-to-customize-general-settings-in-biztalk-mapper"></a>Personalización de la configuración general en el Asignador de BizTalk
 Puede cambiar la configuración predeterminada de determinadas opciones de vista en una asignación. Esta configuración estaría disponible cada vez que abra Visual Studio. En este tema se proporciona información sobre dichas opciones.  

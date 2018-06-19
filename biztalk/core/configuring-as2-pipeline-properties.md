@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233324"
 ---
 # <a name="configuring-as2-pipeline-properties"></a>Configurar propiedades de canalización de AS2
 Las propiedades de canalización se usan en el proceso de mensajes AS2 entrantes y salientes cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha podido determinar el acuerdo que resuelve el intercambio de envío o recepción.  

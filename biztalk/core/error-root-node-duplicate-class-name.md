@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241716"
 ---
 # <a name="error---root-node-duplicate-class-name"></a>Error: nombre de clase duplicado de nodo raíz
 **Código de error**  

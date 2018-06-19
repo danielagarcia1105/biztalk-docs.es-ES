@@ -1,11 +1,11 @@
 ---
 title: Alertas del Portal de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Alert Management page [BAM portal]
 - alerts, subscriptions
 ms.assetid: 715a4187-aafa-46be-8b00-8eaba2e569e5
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232716"
 ---
 # <a name="alerts-in-the-bam-portal"></a>Alertas del portal de BAM
 Las alertas le permiten definir eventos importantes acerca de su proceso empresarial, como los indicadores clave de rendimiento (KPI) que se pueden entregar a usuarios en tiempo real. Los usuarios se suscriben a alertas para recibir notificaciones del evento empresarial que supervisa la alerta.  

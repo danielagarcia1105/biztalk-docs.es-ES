@@ -1,14 +1,14 @@
 ---
-title: "Editor desplegable personalizado para la configuración del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Editor desplegable personalizado para la configuración del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4a1b0961-652f-42b8-a18a-17abe9542cdd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238500"
 ---
 # <a name="custom-drop-down-editor-for-adapter-configuration"></a>Editor desplegable personalizado para la configuración del adaptador
 El código del editor personalizado muestra un editor derivado de la **System.Drawing.Design.UITypeEditor** clase, que muestra un cuadro de texto de la lista desplegable para especificar una contraseña. El **GetEditStyle** invalidar devuelve **UIEditorEditStyle.DropDown** para indicar un subcontrol desplegable. Los métodos de servicio **DropDownControl** y **CloseDropDown** administrar el control creado con **CreatePassword**.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004965"
 ---
 # <a name="how-biztalk-server-solves-the-business-need"></a>Cómo BizTalk Server resuelve la necesidad empresarial
 Para resolver la integración de sistema es necesario, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] mejora la funcionalidad de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server para sistemas de fabricación de alta tecnología. Dado que la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación instala el Acelerador sobre BizTalk Server, esta sección describen la tecnología al proporcionar una visión general de la funcionalidad de BizTalk Server y una descripción de la funcionalidad que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] agrega a Servidor BizTalk Server.  

@@ -1,14 +1,14 @@
 ---
-title: "Dirección no válida (uri relativo necesita una barra diagonal (&quot;-&quot;)) | Documentos de Microsoft"
-ms.custom: 
+title: Dirección no válida (uri relativo necesita una barra diagonal (&quot;-&quot;)) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1376f924-f119-4ba8-9be1-eea7ba5f3eb6
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257572"
 ---
 # <a name="invalid-address-relative-uri-needs-slash-quot-quot"></a>Dirección no válida (uri relativo necesita una barra diagonal (&quot;-&quot;))
 ## <a name="details"></a>Detalles  

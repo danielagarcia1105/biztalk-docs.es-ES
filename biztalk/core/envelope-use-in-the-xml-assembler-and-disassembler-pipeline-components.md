@@ -1,11 +1,11 @@
 ---
-title: "Utilización de sobres en el ensamblador de XML y los componentes de canalización de desensamblador | Documentos de Microsoft"
-ms.custom: 
+title: Utilización de sobres en el ensamblador de XML y los componentes de canalización de desensamblador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XMLNorm.EnvelopeSpecNames property
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - XML Assembler [pipeline component], envelopes
 - Envelope Specification Names property
 ms.assetid: ccffd2f7-c7b1-4103-a914-ae9b4b19bee3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240396"
 ---
 # <a name="envelope-use-in-the-xml-assembler-and-disassembler-pipeline-components"></a>Utilización de sobres en el ensamblador de XML y los componentes de canalización de desensamblador
 Un mensaje XML puede incluir varios mensajes o ninguno. En el ejemplo siguiente se muestra un sobre (en negrita) que rodea a un documento XML.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246484"
 ---
 # <a name="how-to-add-a-component-to-a-pipeline"></a>Cómo agregar un componente a una canalización
 Los componentes se agregan a las canalizaciones arrastrándolos desde el cuadro de herramientas hasta la superficie de diseño.  

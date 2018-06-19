@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255044"
 ---
 # <a name="how-to-handle-null-and-dbnull"></a>Cómo controlar valores Null y DBNull
 En este tema se describen los comportamientos esperados al trabajar con valores NULL asociados a los diferentes tipos, además de las opciones que permiten comprobar valores nulos o la existencia de un campo o miembro concreto.  

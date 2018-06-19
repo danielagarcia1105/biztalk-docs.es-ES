@@ -1,17 +1,17 @@
 ---
-title: "Dimensión de datos | Documentos de Microsoft"
-ms.custom: 
+title: Dimensión de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data dimension [BAM]
 - aggregations [BAM], data dimensions
 ms.assetid: 07b5e56a-4fd5-4c88-a98a-758e514d0621
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238356"
 ---
 # <a name="data-dimension"></a>Dimensión de datos
 La definición de una dimensión de datos permite usar el valor de ciertos elementos de texto de la actividad de BAM en filas o columnas. Por ejemplo, puede usarse una dimensión de datos llamada Productos para crear la tabla siguiente:  

@@ -1,18 +1,18 @@
 ---
 title: Administrar bases de datos BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], databases
 - databases [BAM], managing
 - databases, BAM
 ms.assetid: ce3c472e-2da1-4d67-816a-befe4ded20d9
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262580"
 ---
 # <a name="managing-bam-databases"></a>Administrar bases de datos de BAM
 Los administradores se sirven de la utilidad de administración de BAM (bm.exe) para instalar, administrar y actualizar las bases de datos de BAM. Esta sección muestra cómo usar la utilidad de administración de BAM para llevar a cabo estas tareas comunes de administración para las bases de datos de BAM, descritas en la tabla siguiente.  

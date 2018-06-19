@@ -1,14 +1,14 @@
 ---
 title: Desarrollar aplicaciones de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99b56f86-d8e4-4f4a-9ce9-9f476ba88ea8
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239604"
 ---
 # <a name="developing-biztalk-server-applications"></a>Desarrollar aplicaciones de servidor BizTalk Server
 Esta sección contiene información para programadores cuya misión es crear proyectos de BizTalk. Los proyectos se crean utilizando el entorno de diseño del sistema del proyecto de BizTalk, que permite diseñar, organizar y generar varios elementos de aplicaciones de BizTalk. En las siguientes secciones se describe el proceso detalladamente.  

@@ -1,14 +1,14 @@
 ---
-title: "Configuración de HTTP para MDN | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de HTTP para MDN | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c877e85-7887-43a9-9fd4-0853b573213f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233340"
 ---
 # <a name="configuring-http-settings-for-mdns"></a>Configuración de valores HTTP para MDNs
 Como parte de la configuración HTTP relacionada con MDN, puede especificar las propiedades que espera el servidor web que recibe los MDN.  

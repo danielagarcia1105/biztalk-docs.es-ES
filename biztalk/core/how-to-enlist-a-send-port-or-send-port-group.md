@@ -1,11 +1,11 @@
 ---
-title: "Cómo dar de alta un puerto de envío o grupo de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo dar de alta un puerto de envío o grupo de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enlisting, send port groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [send ports], enlisting
 - managing [send port groups], enlisting
 ms.assetid: d4298b8e-7dc7-4382-af86-c4db0982b7e0
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254476"
 ---
 # <a name="how-to-enlist-a-send-port-or-send-port-group"></a>Cómo dar de alta un puerto de envío o un grupo de puertos de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para dar de alta un puerto de envío o un grupo de puertos de envío. Al dar de alta un puerto de envío o un grupo de puertos de envío, estos se asocian con un host de BizTalk y se crean las suscripciones para el puerto de envío o para el grupo de puertos de envío. Si un grupo de puertos de envío no contiene un puerto de envío, al dar de alta el primero no se crea ninguna suscripción. Además, al dar de alta un grupo de puertos de envío, no se cambia el estado los puertos de envío contenidos en aquél.  

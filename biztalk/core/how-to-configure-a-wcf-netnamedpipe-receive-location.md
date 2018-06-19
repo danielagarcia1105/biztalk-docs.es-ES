@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar ubicación de recepción de WCF-NetNamedPipe | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar ubicación de recepción de WCF-NetNamedPipe | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2e8242a-64c7-43de-af5e-25c22e182c72
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250572"
 ---
 # <a name="how-to-configure-a-wcf-netnamedpipe-receive-location"></a>Cómo configurar una ubicación de recepción WCF-NetNamedPipe
 Puede configurar una ubicación de recepción WCF-NetNamedPipe mediante programación o con la consola de administración de BizTalk.  

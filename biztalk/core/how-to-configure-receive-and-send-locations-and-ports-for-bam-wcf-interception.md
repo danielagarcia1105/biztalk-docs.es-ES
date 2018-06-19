@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar la recepción y envío ubicaciones y puertos para la intercepción de WCF de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la recepción y envío ubicaciones y puertos para la intercepción de WCF de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501194dc-427a-4910-88c9-19cf47daeaad
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248444"
 ---
 # <a name="how-to-configure-receive-and-send-locations-and-ports-for-bam-wcf-interception"></a>Cómo configurar ubicaciones y puertos de recepción y de envío para la intercepción de WCF de BAM
 En este procedimiento puede configurar las ubicaciones de recepción y de envío en un escenario de enrutamiento por contenidos (CBR) para mostrar los conceptos clave de un modo sencillo. Los conceptos mostrados aquí se pueden aplicar a una orquestación que se expone como servicio de [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)].  

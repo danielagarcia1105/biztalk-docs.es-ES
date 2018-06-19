@@ -1,14 +1,14 @@
 ---
-title: "Cómo definir alertas fuera de intervalo numérico dimensión en instalaciones que no sean en inglés | Documentos de Microsoft"
-ms.custom: 
+title: Cómo definir alertas fuera de intervalo numérico dimensión en instalaciones que no sean en inglés | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f1e0373-eadf-4c6d-9a38-a34d847f310f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238692"
 ---
 # <a name="how-to-define-out-of-range-numeric-dimension-alerts-in-non-english-installations"></a>Cómo definir alertas de dimensiones numéricas fuera de rango en instalaciones cuyo idioma no sea el inglés
 Al establecer alertas que incluyan una condición para un valor que está fuera de la dimensión de rango numérico en instalaciones que no sean en inglés, debe modificar manualmente la definición de BAM con la versión localizada de la cadena **fuera del intervalo**.  

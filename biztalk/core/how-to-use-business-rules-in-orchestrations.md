@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar Business reglas en las orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar Business reglas en las orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions, business rules
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, orchestrations
 - orchestrations, business rules
 ms.assetid: d20473c2-267f-4a44-93c3-df6ef655020c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255572"
 ---
 # <a name="how-to-use-business-rules-in-orchestrations"></a>Cómo usar reglas de negocios en orquestaciones
 Puede crear una instancia de una directiva de reglas de negocios y ejecutarla en la orquestación. Para ello, agregue una forma Reglas de llamada dentro de un ámbito de transacción de carácter atómico y configure una directiva dentro de ella.  

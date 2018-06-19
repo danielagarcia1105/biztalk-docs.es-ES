@@ -1,14 +1,14 @@
 ---
-title: "Creación de instancias del servicio de Bus de sucesos SAE | Documentos de Microsoft"
-ms.custom: 
+title: Creación de instancias del servicio de Bus de sucesos SAE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 454bdde7-45a6-41ab-9196-f662273f0f2b
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238420"
 ---
 # <a name="creating-instances-of-the-bam-event-bus-service"></a>Creación de instancias del servicio de Bus de eventos BAM
 El servicio de bus de eventos BAM se ejecuta en un host de aplicación de BizTalk. Se puede utilizar el host predeterminado para alojar el servicio de bus de eventos BAM o, como alternativa, crear un nuevo host. Si un host aloja el servicio de bus de eventos BAM, todas las nuevas instancias de ese host que se creen   

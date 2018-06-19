@@ -1,11 +1,11 @@
 ---
-title: "La inclusión de Back-end invocación | Documentos de Microsoft"
-ms.custom: 
+title: La inclusión de Back-end invocación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MessageBox database, performance
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Inline Invocation of Back-End Processes [service solutions], performance
 - performance, MessageBox database
 ms.assetid: 991d080f-a4cc-4f14-bab3-3b8b74636daf
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257188"
 ---
 # <a name="inlining-back-end-invocation"></a>La inclusión de Back-end invocación
 La versión de llamada en línea de las soluciones completas proporciona los tiempos más rápidos de procesamiento. La versión en línea elimina la sobrecarga que se deriva de guardar los mensajes de solicitud y respuesta entre los sistemas servidor y la base de datos de cuadro de mensajes. En la versión de adaptador, el mensaje pasa de la orquestación de envío al cuadro de mensajes. El host que ejecuta el adaptador recoge el mensaje y lo envía al proceso de servidor al enviarlo de nuevo al cuadro de mensajes.  

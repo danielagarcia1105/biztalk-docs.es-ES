@@ -1,14 +1,14 @@
 ---
-title: "Configuración del Host Local (configuración de intercambio de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del Host Local (configuración de intercambio de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c66c1e63-c654-4ccb-b424-34c06f1ce94e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234756"
 ---
 # <a name="configuring-local-host-settings-x12-interchange-settings"></a>Configuración de las opciones de host local (configuración de intercambio X12)
 La configuración de host local rige cómo se procesan los intercambios EDI. La configuración de esta página puede dividirse en dos categorías: configuración del receptor (para intercambios de entrada) y configuración del remitente (para intercambios de salida). Como parte de la configuración del receptor, puede especificar si un lote entrante se dividirá en conjuntos de transacciones o se conservará tal cual. Si se conserva, puede especificar si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspende el intercambio o el conjunto de transacciones en caso de que se produzca un error. Como parte de la configuración del remitente, se puede especificar cómo se generan los números de control de los mensajes de salida.  

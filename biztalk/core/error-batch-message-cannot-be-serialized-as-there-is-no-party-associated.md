@@ -1,14 +1,14 @@
 ---
-title: "No se puede serializar el mensaje por lotes porque no hay ninguna entidad asociada con el puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: No se puede serializar el mensaje por lotes porque no hay ninguna entidad asociada con el puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d697ff9c-a6d1-4a3c-9ec3-4cd496f7eec2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241484"
 ---
 # <a name="batch-message-cannot-be-serialized-as-there-is-no-party-associated-with-send-port"></a>El mensaje de procesamiento por lotes no puede serializarse puesto que no existe ninguna entidad asociada al puerto de envío
 ## <a name="details"></a>Detalles  

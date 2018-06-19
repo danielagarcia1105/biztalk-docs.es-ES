@@ -1,11 +1,11 @@
 ---
-title: "Asistente para la configuración de línea de comandos para el adaptador de MQSeries | Documentos de Microsoft"
-ms.custom: 
+title: Asistente para la configuración de línea de comandos para el adaptador de MQSeries | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [MQSeries adapters], silent configuration
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Command-Line Configuration Wizard
 - MQSeries adapters, Command-Line Configuration Wizard
 ms.assetid: cab905d1-fe19-4d6a-be1b-f561e133e1d2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232060"
 ---
 # <a name="command-line-configuration-wizard-for-the-mqseries-adapter"></a>Asistente para la configuración de línea de comandos para el adaptador de MQSeries
 El asistente dispone de cuatro opciones para instalar, desinstalar y registrar acciones.  

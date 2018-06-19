@@ -1,14 +1,14 @@
 ---
-title: "Cómo seleccionar varios vínculos y Functoids | Documentos de Microsoft"
-ms.custom: 
+title: Cómo seleccionar varios vínculos y Functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9ae50cb-c212-48f3-9dfb-74df282645c5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255228"
 ---
 # <a name="how-to-select-multiple-links-and-functoids"></a>Selección de varios vínculos y functoids
 Si desea realizar una operación similar en un grupo de functoids y/o vínculos en un mapa, puede seleccionar ese grupo de functoids y/o vínculos todos a la vez. Este tema proporciona información acerca de cómo realizar esta operación.  

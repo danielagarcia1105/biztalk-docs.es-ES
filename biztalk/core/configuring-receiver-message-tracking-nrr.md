@@ -1,14 +1,14 @@
 ---
-title: "Configuración del receptor de mensajes seguimiento (NRR) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del receptor de mensajes seguimiento (NRR) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce30737a-341b-45be-81a0-a7336219185e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233364"
 ---
 # <a name="configuring-receiver-message-tracking-nrr"></a>Configuración del seguimiento de mensajes de receptor (NRR)
 Como parte de la configuración de esta página, puede especificar si los mensajes entrantes y sus confirmaciones (MDN) se almacenan en la base de datos sin repudio. Para obtener más información, consulte [procesamiento de AS2 en BizTalk Server](../core/as2-processing-in-biztalk-server.md).  

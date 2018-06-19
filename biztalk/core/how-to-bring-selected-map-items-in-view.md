@@ -1,14 +1,14 @@
 ---
-title: "Cómo colocar el mapa seleccionado elementos en la vista | Documentos de Microsoft"
-ms.custom: 
+title: Cómo colocar el mapa seleccionado elementos en la vista | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e287b22-5738-428a-aa35-cced877e51ea
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005549"
 ---
 # <a name="how-to-bring-selected-map-items-in-view"></a>Agregación de elementos de asignación seleccionados en la vista
 Con las versiones anteriores del Asignador de BizTalk, si un mapa comprendía esquemas grandes, era necesario desplazarse por el panel de esquema de origen, la página de cuadrícula y el panel de esquema de destino para llevar todos los elementos del mapa relevantes a una única vista. El asignador de BizTalk con BizTalk Server le permite llevar todos los elementos del mapa relevantes del functoid/vínculo seleccionado en una única vista desplazando automáticamente la página de cuadrícula. En este tema se proporciona información acerca de cómo realizar esta operación.  

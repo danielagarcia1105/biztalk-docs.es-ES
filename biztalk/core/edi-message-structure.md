@@ -1,14 +1,14 @@
 ---
 title: Estructura de mensaje EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c9a0447-447f-483c-825d-547c06ad691e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239636"
 ---
 # <a name="edi-message-structure"></a>Estructura de los mensajes EDI
 Los mensajes EDI constan de un sobre y series jerárquicas de elementos estructurales. El sobre contiene un conjunto de encabezados y finalizadores, cada conjunto de éstos describe y contiene un elemento estructural. Estos elementos estructurales son los siguientes:  

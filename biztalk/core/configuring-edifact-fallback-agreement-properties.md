@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233236"
 ---
 # <a name="configuring-edifact-fallback-agreement-properties"></a>Configuración de las propiedades de acuerdos de reserva de EDIFACT
 Las propiedades descritas en esta sección se aplican siempre que se realizan intercambios cifrados de EDIFACT (incluido HIPAA) y que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede determinar el acuerdo al que hacen referencia los intercambios (de entrada o salida). En esta sección también se describe la configuración general de reserva común en los mensajes codificados X12 y EDIFACT.  

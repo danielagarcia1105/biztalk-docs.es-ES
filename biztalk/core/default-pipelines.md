@@ -1,11 +1,11 @@
 ---
 title: Predeterminado canalizaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, PassThruTransmit
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - Microsoft.BizTalk.DefaultPipelines assembly
 - pipelines, default
 ms.assetid: 7d82bb2c-c7f1-44a1-9e1b-89b0bb806845
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239308"
 ---
 # <a name="default-pipelines"></a>Canalizaciones predeterminadas
 Cuando crea una nueva aplicación, las canalizaciones predeterminadas se crean e implementan de forma predeterminada y aparecen en el ensamblado Microsoft.BizTalk.DefaultPipelines, en la carpeta \References, de todos los proyectos de BizTalk. Las canalizaciones predeterminadas no pueden modificarse en el Diseñador de canalizaciones. Estas canalizaciones se pueden seleccionar al configurar un puerto de envío o una ubicación de recepción en el Explorador de BizTalk. En este tema se describen  las canalizaciones predeterminadas y cuándo deben utilizarse.  

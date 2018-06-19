@@ -1,14 +1,14 @@
 ---
-title: "Cómo mover y copiar nodos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover y copiar nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4f1ec14-c607-4da3-9139-73a61963b819
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254772"
 ---
 # <a name="how-to-move-and-copy-nodes"></a>Cómo mover y copiar nodos
 Es probable que en determinadas situaciones desee mover un nodo existente a otra ubicación en el árbol de esquema. Asimismo, puede ahorrar tiempo si copia un nodo existente y luego lo pega en una ubicación diferente en el árbol de esquema. Este tema proporciona instrucciones paso a paso para realizar estas tareas.  

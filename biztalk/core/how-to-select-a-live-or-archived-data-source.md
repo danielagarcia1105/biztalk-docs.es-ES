@@ -1,11 +1,11 @@
 ---
-title: "Cómo seleccionar un origen de datos activos o archivados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo seleccionar un origen de datos activos o archivados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Management database, archived data
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - real-time data, Management database
 - archived data, HAT
 ms.assetid: e2325823-22e1-4a1a-865b-15757b215b29
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255292"
 ---
 # <a name="how-to-select-a-live-or-archived-data-source"></a>Cómo seleccionar un origen de datos activo o archivado
 BizTalktracking permite obtener acceso a los datos archivados y dinámicos. Seleccione un origen de datos activos o archivados en la página principal **administración de BizTalk Server** nodo consola de administración de BizTalk Server.  El origen predeterminado son los datos activos, que se recuperan de la base de datos de administración de BizTalk. Si decide utilizar datos archivados, deberá seleccionar los servidores y bases de datos apropiados con los que desee trabajar.  

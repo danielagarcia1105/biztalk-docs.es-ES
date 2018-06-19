@@ -1,14 +1,14 @@
 ---
 title: Establecer el archivo de esquema y propiedades de elementos de esquema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1dc21bfe-e1a3-4d59-abca-d93df95749a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255260"
 ---
 # <a name="how-to-set-schema-file-and-schema-item-properties"></a>Cómo establecer el archivo de esquema y las propiedades de los elementos del esquema
 Las propiedades del archivo de esquema y las propiedades del elemento se establecen en la ventana Propiedades de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. En este tema se describen los pasos necesarios para examinar y establecer las propiedades de archivos de esquema y elemento.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo BizTalk Server crea una instancia de un adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo BizTalk Server crea una instancia de un adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ebe7585-5939-4142-9281-990b4849e28d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246700"
 ---
 # <a name="how-biztalk-server-instantiates-an-adapter"></a>Cómo crea BizTalk Server una instancia de un adaptador
 Cuando se inicia el servicio de BizTalk, se crean instancias de todos los adaptadores de recepción siempre y cuando tengan configuradas una o varias ubicaciones de recepción y estén activas. De forma predeterminada, no se crea ninguna instancia de un adaptador de envío hasta que el motor de mensajería quita de la cola el primer mensaje que se va a enviar mediante dicho adaptador de envío. (A veces se denomina "creación diferida".) Sin embargo, si tiene que crear una instancia de un adaptador de envío al iniciar el servicio, puede usar el **InitTransmitterOnServiceStart** capacidad del adaptador. Esto indica al motor de mensajería que cree el adaptador de envío al iniciar el servicio, en lugar de utilizar la creación diferida predeterminada. El enfoque de creación diferida predeterminada ayuda a reducir la cantidad de recursos del sistema utilizados cuando los adaptadores no están configurados en extremos.  

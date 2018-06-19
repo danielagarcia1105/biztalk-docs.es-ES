@@ -1,11 +1,11 @@
 ---
-title: "Codificación de caracteres en el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft"
-ms.custom: 
+title: Codificación de caracteres en el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Assembler [pipeline component], character encoding
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - XMLNorm.TargetCharset property
 - Target Charset property
 ms.assetid: 0cf3c0fd-f036-4190-83ce-9064ef4e823c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232124"
 ---
 # <a name="character-encoding-in-the-flat-file-assembler-pipeline-component"></a>Codificación de caracteres en el componente de canalización de ensamblador de archivo sin formato
 El ensamblador de archivo sin formato puede crear mensajes con una codificación de caracteres especificada por el usuario. Puede especificar la codificación de caracteres en varios niveles:  

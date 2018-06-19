@@ -1,14 +1,14 @@
 ---
-title: "Interfaces para un proceso en el adaptador de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces para un proceso en el adaptador de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ed668d9-7512-4026-a8f3-df05aeed4df6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257652"
 ---
 # <a name="interfaces-for-an-in-process-receive-adapter"></a>Interfaces de un adaptador de recepción de tipo En curso
 El motor de mensajería crea instancias y configura los adaptadores de tipo En curso, pasando el proxy de transporte para permitir que el adaptador tenga acceso a su funcionalidad. Para habilitar la configuración y el enlace al proxy de transporte, los adaptadores deben implementar las interfaces de configuración siguientes:  

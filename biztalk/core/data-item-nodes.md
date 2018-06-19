@@ -1,11 +1,11 @@
 ---
 title: Nodos de elemento de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definition files [BAM], data items
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, node descriptions
 - Tracking Profile Editor, definition files [BAM]
 ms.assetid: 95856bfa-90e3-49d9-b55b-5f1b35a23f78
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238028"
 ---
 # <a name="data-item-nodes"></a>Nodos Elemento de datos
 Los nodos Elemento de datos existen en el archivo de definición de actividad que el programador importa desde el modelo de observación creado por el analista de negocios. El Editor de perfiles de seguimiento (TPE) les asigna un nombre en función de los elementos de datos de los que se efectúa un seguimiento, por ejemplo Nombre del cliente. A continuación, se descargan los elementos de datos, uno o varios, desde la vista Esquema de mensaje hasta el nodo que corresponda al nombre del cliente.  

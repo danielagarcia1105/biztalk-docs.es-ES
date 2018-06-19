@@ -1,11 +1,11 @@
 ---
 title: Configurar los adaptadores de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - NetTcpBinding [WCF adapters]
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - bindings, pre-defined [WCF adapters]
 - WCF adapters, configuring
 ms.assetid: af01e2d4-303d-407a-b853-dd90b0246a8a
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233164"
 ---
 # <a name="configuring-the-wcf-adapters"></a>Configurar adaptadores de WCF
 Los adaptadores de BizTalk para Windows Communication Foundation (WFC) permiten que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se comunique con aplicaciones basadas en WCF. Los adaptadores de WCF de BizTalk incluyen cinco adaptadores físicos que representan los enlaces predefinidos de WCF:**BasicHttpBinding**, **WsHttpBinding**, **NetTcpBinding**,  **NetNamedPipeBinding**, y **NetMsmqBinding**. Se proporcionan adaptadores de WCF para los enlaces predefinidos para permitir configurar de forma sencilla la información necesaria para la mayoría de los requisitos de la aplicación.  

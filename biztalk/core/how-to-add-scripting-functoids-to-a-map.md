@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248476"
 ---
 # <a name="how-to-add-scripting-functoids-to-a-map"></a>Cómo agregar functoids de secuencia de comandos a una asignación
 El **secuencias de comandos** functoid le permite utilizar secuencias de comandos personalizadas o código en tiempo de ejecución para realizar funciones de lo contrario no está disponibles. Por ejemplo, se puede llamar a un objeto COM en tiempo de ejecución mediante la **secuencias de comandos** functoid y escribir sus propios scripts personalizados.  

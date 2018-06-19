@@ -1,14 +1,14 @@
 ---
 title: Elemento estructural de intercambio EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03f47ae2-fa0f-4d88-a700-85f3d515d2d0
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239532"
 ---
 # <a name="edi-interchange-structural-element"></a>Elemento estructural de intercambio EDI
 El intercambio es el elemento estructural de nivel más alto de un mensaje EDI. Consta de una colección de uno o más grupos intercambiados por dos socios comerciales. El destino de un intercambio debe ser un único socio comercial. Los intercambios pueden constar de conjuntos de transacciones/mensajes de uno o más tipos.  

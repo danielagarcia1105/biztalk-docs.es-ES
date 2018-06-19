@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar el inicio de sesión único | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el inicio de sesión único | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 511edc1d-de82-4d17-88ea-6cacfccde10d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247772"
 ---
 # <a name="how-to-configure-single-sign-on"></a>Cómo configurar el inicio de sesión único
 Antes de obtener acceso al inicio de sesión único (SSO) empresarial, debería estar seguro de que se ha configurado correctamente para el usuario actual. Para la mayoría de las configuraciones, use uno de dos interfaces. `ISSOAdmin`es la interfaz de administración general que le permite crear nuevas aplicaciones afiliadas. Sin embargo, si usa ISSOAdmin.GetGlobalInfo e ISSOAdmin.UpdateGlobalInfo, puede establecer una serie de valores de administración y marcas. Una posible tarea, como se describe en el procedimiento siguiente, consiste en asegurarse de que se ha habilitado la compra de vales SSO.  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un controlador de envío MSMQ | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un controlador de envío MSMQ | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, send handlers
 - configuring [MSMQ adapters], send handlers
 - send handlers, MSMQ adapters
 ms.assetid: 21917596-f27a-473b-859e-186ab5f4cd94
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248268"
 ---
 # <a name="how-to-configure-an-msmq-send-handler"></a>Cómo configurar un controlador de envío MSMQ
 El siguiente procedimiento se utiliza para modificar las variables globales de un controlador de envío MSMQ.  

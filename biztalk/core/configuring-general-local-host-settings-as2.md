@@ -1,14 +1,14 @@
 ---
-title: "Configuración de Host Local generales (AS2) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de Host Local generales (AS2) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 980daac2-8387-44cc-ae55-38639f759668
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233820"
 ---
 # <a name="configuring-general-local-host-settings-as2"></a>Configuración de las opciones de host local generales (AS2)
 Como parte de la configuración general del host local, puede especificar el tipo de contenido de los mensajes AS2 y si el nombre de archivo se conserva como parte del encabezado de mensaje AS2.  

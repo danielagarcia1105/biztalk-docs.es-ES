@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear asignaciones de varias partes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear asignaciones de varias partes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f1d4385-3d95-442c-b2b9-bfe09ce3d5fd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248564"
 ---
 # <a name="how-to-create-multi-part-mappings"></a>Cómo crear asignaciones de varias partes
 Si tiene varias asignaciones que se utilizan juntas, necesitará combinarlas en una orquestación para probarlas conjuntamente. El **comprobar asignación** comando funciona en solo una asignación a la vez.  

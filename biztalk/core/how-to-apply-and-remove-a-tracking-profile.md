@@ -1,11 +1,11 @@
 ---
-title: "Cómo aplicar y quitar un perfil de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo aplicar y quitar un perfil de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, tracking profiles
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tracking profiles, deleting
 - testing, tracking profiles
 ms.assetid: 77cef14b-c390-4da7-a383-b3abe414a168
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248300"
 ---
 # <a name="how-to-apply-and-remove-a-tracking-profile"></a>Cómo aplicar y quitar un perfil de seguimiento
 Tras crear o modificar el perfil de seguimiento, el siguiente paso es aplicarlo a una base de datos de prueba y comprobar el resultado en la prueba de integración. Puede aplicar el perfil de seguimiento desde el propio Editor de perfiles de seguimiento (TPE) o mediante la línea de comandos.  

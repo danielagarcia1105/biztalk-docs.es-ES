@@ -1,11 +1,11 @@
 ---
-title: "Proceso de implementación | Documentos de Microsoft"
-ms.custom: 
+title: Proceso de implementación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, deploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - SSO, LogonExternalUser test
 - SSO, security
 ms.assetid: 7dd4c022-c70b-467a-bf94-dc4ac6029f81
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240668"
 ---
 # <a name="deployment-process"></a>Proceso de implementación
 Los pasos siguientes ofrecen información general de alto nivel de una implementación segura de inicio de sesión único empresarial. Para conocer los procedimientos detallados que se deben realizar en SQL Server, vea la documentación de SQL Server.  

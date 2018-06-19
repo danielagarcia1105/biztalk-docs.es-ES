@@ -1,17 +1,17 @@
 ---
-title: "Definición de agregaciones en tiempo real | Documentos de Microsoft"
-ms.custom: 
+title: Definición de agregaciones en tiempo real | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - real-time data, aggregating
 - aggregations [BAM], real-time data
 ms.assetid: cb3d7124-1663-4af2-9540-4171cc51568a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238684"
 ---
 # <a name="defining-real-time-aggregations"></a>Definición de agregaciones en tiempo real
 A veces, las agregaciones multidimensionales tienen sectores con tales limitaciones temporales que conviene tenerlos disponibles en tiempo real. Por ejemplo, una empresa vende productos perecederos y el usuario desea tener disponible en tiempo real la agregación de la cantidad de productos en diferentes fases de entrega. Al mismo tiempo, también desea tener otras agregaciones, tal como la edad de los clientes, pero solo a finales de mes para el análisis de inteligencia empresarial.  

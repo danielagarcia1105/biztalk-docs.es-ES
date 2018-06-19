@@ -1,14 +1,14 @@
 ---
-title: "Cómo editar los colores de consola para BTSTask | Documentos de Microsoft"
-ms.custom: 
+title: Cómo editar los colores de consola para BTSTask | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 725dcb7b-5a19-4166-9d1c-93f30ddca201
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254044"
 ---
 # <a name="how-to-edit-the-console-colors-for-btstask"></a>Cómo editar los colores de la consola para BTSTask
 En este tema se describe cómo editar los colores de primer plano que BTSTask muestra en la consola. Si el color de fondo de la consola es blanco, tendrá dificultad en lee el resultado predeterminado de la consola de BTSTask y tendrá que modificar los colores de primer plano de la consola.  

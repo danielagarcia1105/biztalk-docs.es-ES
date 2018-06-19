@@ -1,11 +1,11 @@
 ---
 title: Identificar los datos de seguimiento perdidos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data loss, HAT
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - MessageBox database, Operation View tool
 - Operation View tool, data loss
 ms.assetid: 1ac13e2c-cd5e-437e-b924-d4547931874e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256708"
 ---
 # <a name="identifying-lost-tracking-data"></a>Identificar datos de seguimiento perdidos
 Puede usar la consola de administración de BizTalk Server para que le ayude a identificar los datos de seguimiento que se han perdido como resultado de un error de hardware. Puede usar la consola de administración de BizTalk Server para datos archivados o activos.  

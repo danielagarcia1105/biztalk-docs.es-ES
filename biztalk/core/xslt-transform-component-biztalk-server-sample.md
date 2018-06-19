@@ -1,11 +1,11 @@
 ---
 title: XSLT transformar el componente (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - XSLT, examples
 - examples, XSLT
 ms.assetid: 9152e897-4db9-4924-b37e-fd9e908dbef1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974930"
 ---
 # <a name="xslt-transform-component-biztalk-server-sample"></a>Componente de transformación de XSLT (ejemplo de BizTalk Server)
 El ejemplo de componente de transformación de XSLT muestra cómo escribir un componente de canalización personalizado que modifique un mensaje XML mediante XSLT.  
@@ -34,7 +35,7 @@ El ejemplo de componente de transformación de XSLT muestra cómo escribir un co
 2.  La canalización transforma el documento XML en el cuerpo de HTML de un mensaje de correo electrónico mediante Transform.xsl.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Pipelines\XslTransformComponent\  
+ *\<Ejemplos de ruta de acceso\>* \Pipelines\XslTransformComponent\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -60,7 +61,7 @@ El ejemplo de componente de transformación de XSLT muestra cómo escribir un co
   
 1.  En una ventana de comandos, cambie el directorio (**cd)** a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Pipelines\XslTransformComponent  
+     *\<Ejemplos de ruta de acceso\>* \Pipelines\XslTransformComponent  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   

@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar expresiones para transformar dinámica mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar expresiones para transformar dinámica mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48387d97-9312-4df5-b614-727ea9035bf8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256940"
 ---
 # <a name="how-to-use-expressions-to-dynamic-transform-messages"></a>Cómo usar expresiones para transformar mensajes de forma dinámica
 En la orquestación, puede usar expresiones para transformar mensajes de forma dinámica. XLANG expone un método de transformación que se pueda llamar desde una **asignación de mensajes** forma dentro de un **construir mensaje** forma. Este es el mismo método que se llama cuando un **transformar** forma se utiliza, pero permite transformar mediante programación los mensajes mediante la asignación designada en la orquestación. Esto resulta útil en los procesamientos de mensajes de tipo independiente. Por ejemplo, si tiene un proceso empresarial que necesita elegir entre una serie de asignaciones para transformar mensajes entrantes según los parámetros que los mensajes entrantes recibidos proporcionaron, puede conseguirlo mediante el uso del método de transformación en la forma Expresión mientras mantiene intacto su proceso empresarial general.  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar mensajes Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar mensajes Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, Web messages
 - Web messages, creating
 - Web services, Web messages
 ms.assetid: a67b810c-4966-49e0-9fe6-0ac2974528e0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247180"
 ---
 # <a name="how-to-add-web-messages"></a>Cómo agregar mensajes web
 Cree variables de mensajes Web en la ventana Vista orquestación. Debe establecer el tipo de mensaje para el mensaje Web como un tipo de mensaje Web.  

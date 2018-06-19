@@ -1,18 +1,18 @@
 ---
-title: "Opciones de menú del TPE | Documentos de Microsoft"
-ms.custom: 
+title: Opciones de menú del TPE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, menu options
 - activities [BAM], importing
 - activities [BAM], definitions
 ms.assetid: 5179fcb5-6dab-481d-ad89-3868c8b07383
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010629"
 ---
 # <a name="tpe-menu-options"></a>Opciones de menú del TPE
 En este tema se describen las opciones de menú del Editor de perfiles de seguimiento (TPE). Los menús principales incluyen Archivo, Herramientas y Ayuda.  

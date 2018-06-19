@@ -1,14 +1,14 @@
 ---
-title: "Validación de instancia | Documentos de Microsoft"
-ms.custom: 
+title: Validación de instancia | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f906f2e9-2bf9-448b-927f-dd2d7d9b2272
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257380"
 ---
 # <a name="instance-validation"></a>Validación de instancia
 El Editor de BizTalk, se invoca el **IInstanceValidator.ValidateInstance** método de una extensión cuando se cumplen las condiciones siguientes:  

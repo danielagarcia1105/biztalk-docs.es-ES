@@ -1,14 +1,14 @@
 ---
-title: "Patrones de intercambio para adaptadores de envío | Documentos de Microsoft"
-ms.custom: 
+title: Patrones de intercambio para adaptadores de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ad65fb5-640d-4bd2-aabe-946210f58a22
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248356"
 ---
 # <a name="exchange-patterns-for-send-adapters"></a>Patrones de intercambio para adaptadores de envío
 Los adaptadores de envío son mensajes entregados desde el motor de mensajería de BizTalk cuya transmisión debe efectuarse a través de la red. Estos mensajes pueden enviarse mediante un patrón de intercambio de mensajes bidireccional o unidireccional. Un adaptador que controla este patrón de intercambio de mensajes bidireccional se conoce como adaptador de petición-respuesta.  

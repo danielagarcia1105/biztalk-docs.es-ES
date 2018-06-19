@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar un ensamblado. NET, certificado ni ningún otro artefacto de recurso de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar un ensamblado. NET, certificado ni ningún otro artefacto de recurso de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - virtual directories, deleting
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - deleting, artifacts
 - deleting, certificates
 ms.assetid: b84eebac-261d-495f-80cd-ddda5bb08bef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008317"
 ---
 # <a name="how-to-remove-a-net-assembly-certificate-or-other-resource-artifact-from-an-application"></a>Cómo quitar un ensamblado .NET, certificado u otro artefacto de recurso de una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para quitar los siguientes artefactos de recurso de una aplicación de BizTalk. Siga los procedimientos que se describen en este tema para quitar el artefacto de la base de datos de administración de BizTalk. No quita los artefactos del sistema de archivos, almacén de certificados, de Internet Information Services (IIS) o del Registro de Windows, si se encuentra en alguna de estas ubicaciones. Además, si quita un archivo de enlace, los enlaces permanecen sin cambios; solo se quita el archivo de enlace.  

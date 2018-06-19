@@ -1,14 +1,14 @@
 ---
-title: "Integración de MSBUILD | Documentos de Microsoft"
-ms.custom: 
+title: Integración de MSBUILD | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f33e6078-49a6-4b58-a7bb-3b76c235712f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007277"
 ---
 # <a name="msbuild-integration"></a>Integración de MSBUILD
 Visual Studio usa el formato de archivo de proyecto MSBUILD para almacenar información de compilación sobre proyectos administrados, incluidos los proyectos de BizTalk Server, y puede crear proyectos de BizTalk en un equipo con o sin [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Esta sección ofrece información detallada sobre esta nueva característica.  

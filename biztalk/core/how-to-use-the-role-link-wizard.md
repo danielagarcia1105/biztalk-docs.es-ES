@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar el Asistente para vínculo de función | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el Asistente para vínculo de función | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - links [roles]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - role links, Role Link Wizard [Orchestration Designer]
 - links [roles], about links
 ms.assetid: ddc33d87-c08d-4193-9483-4644ef302853
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255860"
 ---
 # <a name="how-to-use-the-role-link-wizard"></a>Cómo usar al Asistente para vínculo de función
 El Asistente para vínculo de rol permite crear un vínculo de rol nuevo o modificar uno existente. Lo puede usar para establecer o ver el nombre, tipo y restricción de acceso del vínculo de rol, así como para ver el rol de implementaciones y el rol de usos que componen el tipo de vínculo de rol. Para entender cómo funcionan los vínculos de rol, vea [Using Role Links en orquestaciones](../core/using-role-links-in-orchestrations.md).  

@@ -1,11 +1,11 @@
 ---
-title: "Resolución de entidades personalizadas (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Resolución de entidades personalizadas (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - parties, pipeline components [custom]
 - parties, custom
 ms.assetid: 1f88450f-5fe9-486d-bfb8-fd11181c78b4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238700"
 ---
 # <a name="custom-party-resolution-biztalk-server-sample"></a>Resolución de entidades personalizadas (ejemplo de BizTalk Server)
 El ejemplo de resolución de entidades personalizadas muestra cómo escribir un componente de canalización personalizada para resolver una entidad personalizada.  
@@ -38,7 +39,7 @@ El ejemplo de resolución de entidades personalizadas muestra cómo escribir un 
 3.  El mensaje XML se escribe en una carpeta.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Pipelines\CustomPartyResolution\  
+ *\<Ejemplos de ruta de acceso >* \Pipelines\CustomPartyResolution\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -66,7 +67,7 @@ El ejemplo de resolución de entidades personalizadas muestra cómo escribir un 
   
 1.  En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Pipelines\CustomPartyResolution\  
+     *\<Ejemplos de ruta de acceso >* \Pipelines\CustomPartyResolution\  
   
 2.  Ejecute el archivo Setup.bat que realizará las acciones siguientes:  
   
@@ -76,7 +77,7 @@ El ejemplo de resolución de entidades personalizadas muestra cómo escribir un 
   
     -   Genera e implementa el componente de canalización de resolución de entidades personalizadas.  
   
-    -   Copia el componente de canalización generado para el  *\<ruta de acceso de instalación >*directorio \Pipeline Components.  
+    -   Copia el componente de canalización generado para el  *\<ruta de acceso de instalación >* directorio \Pipeline Components.  
   
     -   Crea los puertos de envío y recepción.  
   

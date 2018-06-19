@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22234236"
 ---
 # <a name="agreement-resolution-schema-discovery-and-authorization-for-received-edi-messages"></a>Resolución de acuerdos, detección de esquemas y autorización para los mensajes EDI recibidos
 Cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un mensaje EDI, la canalización de recepción EDI realiza la búsqueda de acuerdos de socio comercial, la detección de esquemas y los procesos de autorización para determinar el modo en que se procesa el mensaje.  

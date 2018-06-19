@@ -1,14 +1,14 @@
 ---
-title: "No válido o ausente ASN.1 OID de datos comprimidos detectado durante el proceso de descompresión | Documentos de Microsoft"
-ms.custom: 
+title: No válido o ausente ASN.1 OID de datos comprimidos detectado durante el proceso de descompresión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0171daa8-289a-43f1-8cbf-d779ef9dc2ea
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241756"
 ---
 # <a name="invalid-or-missing-asn1-compressed-data-oid-encountered-during-decompression-processing"></a>OID de datos comprimidos ASN.1 ausente o no válido detectado durante el proceso de descompresión
 ## <a name="details"></a>Detalles  

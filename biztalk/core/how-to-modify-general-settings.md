@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255988"
 ---
 # <a name="how-to-modify-general-settings"></a>Modificación de la configuración general
 Mediante el panel de configuración, se pueden modificar los valores de la configuración general de un host determinado de un grupo de BizTalk. En este tema se proporcionan instrucciones paso a paso para realizar esta operación.  

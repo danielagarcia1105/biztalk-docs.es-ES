@@ -1,14 +1,14 @@
 ---
-title: "Configurar puertos para una solución EDI | Documentos de Microsoft"
-ms.custom: 
+title: Configurar puertos para una solución EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94445da5-9ee0-4006-a8c2-3919f128a575
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233140"
 ---
 # <a name="configuring-ports-for-an-edi-solution"></a>Configurar puertos para una solución EDI
 Para recibir y enviar mensajes EDI así como confirmaciones, cree los siguientes puertos de recepción y de envío:  

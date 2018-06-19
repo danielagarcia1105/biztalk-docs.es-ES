@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear una consulta de búsqueda de actividad | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear una consulta de búsqueda de actividad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Query Builder [BAM portal], creating queries
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], saving queries
 - queries [BAM], opening
 ms.assetid: 7940e47d-10e4-4eb1-b4e6-a8b98461e3a8
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250252"
 ---
 # <a name="how-to-create-a-query-in-activity-search"></a>Cómo crear una consulta en Búsqueda de actividad
 Los usuarios empresariales finales que necesiten recibir notificaciones de eventos y estados relativos a su actividad empresarial deben utilizar consultas para crear búsquedas de actividad en las que basar las alertas.  

@@ -1,18 +1,18 @@
 ---
 title: Recomendaciones de seguridad del adaptador HTTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, HTTP adapters
 - configuring [HTTP adapters], security
 - HTTP adapters, security
 ms.assetid: ef6043c2-c62a-40e5-b2e1-53e60f87a761
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256764"
 ---
 # <a name="http-adapter-security-recommendations"></a>Recomendaciones de seguridad del adaptador HTTP
 El adaptador de HTTP se usa para intercambiar información entre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y una aplicación por medio del Protocolo de transferencia de hipertexto (HTTP). Las aplicaciones pueden enviar mensajes a un servidor mediante el envío de solicitudes HTTP POST o HTTP GET a una dirección URL de HTTP concreta. Para obtener más información acerca del adaptador HTTP, consulte [adaptador de HTTP](../core/http-adapter.md). Se recomienda seguir estas directrices para proteger e implementar el adaptador de HTTP en su entorno:  

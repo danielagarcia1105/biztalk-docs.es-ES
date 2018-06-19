@@ -1,11 +1,11 @@
 ---
-title: "Factores que influyen en el rendimiento máximo sostenible | Documentos de Microsoft"
-ms.custom: 
+title: Factores que influyen en el rendimiento máximo sostenible | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maximum sustainable throughput (MST), maintenance
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - maximum sustainable throughput (MST), sustainable load test
 - sustainable performance
 ms.assetid: 99b99655-bc77-425c-a133-204781d7c430
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245844"
 ---
 # <a name="factors-that-affect-maximum-sustainable-performance"></a>Factores que afectan al rendimiento sostenible máximo
 Una amplia gama de factores afecta al rendimiento sostenible máximo entre los que se incluyen los recursos de servidor disponibles, el tipo de características utilizadas en la solución, el tamaño de los mensajes y la carga global de mensajes. Existen otros factores que se deben tener en cuanto aunque no sean tan evidentes. A la hora de estimar el rendimiento sostenible máximo, también deben tenerse en cuenta los siguientes factores:  

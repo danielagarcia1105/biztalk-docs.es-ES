@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el envío del adaptador de MQSeries y controladores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el envío del adaptador de MQSeries y controladores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive handlers, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send handlers, MQSeries adapters
 - configuring [MQSeries adapters], send handlers
 ms.assetid: e1cfc415-50d2-440b-9301-ad69da28ad3e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248236"
 ---
 # <a name="how-to-configure-mqseries-adapter-send-and-receive-handlers"></a>Controladores de recepción y envío de cómo configurar el adaptador de MQSeries
 Puede configurar algunas propiedades para los controladores de recepción y envío del adaptador de MQSeries mediante la consola de administración de BizTalk Server. El proceso se describe en [cómo configurar ubicaciones de recepción de MQSeries adaptador y puertos de envío](../core/how-to-configure-mqseries-adapter-receive-locations-and-send-ports.md) establece los valores para la mayoría de las propiedades del controlador de envío.  

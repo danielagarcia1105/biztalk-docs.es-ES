@@ -1,14 +1,14 @@
 ---
-title: "Cómo administrar otras ventanas de Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar otras ventanas de Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b86f50e2-ca25-4521-b31a-06ac16f129b1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254444"
 ---
 # <a name="how-to-manage-other-visual-studio-windows"></a>Cómo administrar otras ventanas de Visual Studio
 Algunas operaciones del Editor de BizTalk utilizan otras ventanas de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], a saber, las ventanas Resultados y Lista de tareas. Estas ventanas sirven para mostrar los resultados de operaciones, como generar mensajes de instancia de ejemplo y validar esquemas e instancias. Este tema proporciona instrucciones paso a paso acerca de cómo administrar estas ventanas.  

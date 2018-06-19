@@ -1,14 +1,14 @@
 ---
-title: "Cómo probar y depurar un adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo probar y depurar un adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cf6563ea-b4ea-4617-b3da-d31250d002ab
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256868"
 ---
 # <a name="how-to-test-and-debug-an-adapter"></a>Cómo probar y depurar un adaptador
 La depuración de problemas en tiempo de ejecución requiere a menudo llevar a cabo un enfoque desde varias perspectivas. Los datos se deben recopilar de varios orígenes, por ejemplo, el seguimiento del software, los contadores de rendimiento, las entradas del registro de eventos, los eventos de Instrumental de administración de Windows (WMI) y el código de origen de la depuración, con el fin de determinar la causa de los problemas o errores en el software.  

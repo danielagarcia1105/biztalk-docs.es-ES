@@ -1,14 +1,14 @@
 ---
-title: "El valor de propiedad de entero sin signo no es válido | Documentos de Microsoft"
-ms.custom: 
+title: El valor de propiedad de entero sin signo no es válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63b0398f-7848-4971-8c08-95923d80cbe3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278180"
 ---
 # <a name="the-unsigned-integer-property-value-is-not-valid"></a>El valor de propiedad unsigned integer no es válido
 ## <a name="details"></a>Detalles  

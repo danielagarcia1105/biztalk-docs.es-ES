@@ -1,14 +1,14 @@
 ---
-title: "Cómo copiar los datos en el contexto del mensaje como campos de propiedades | Documentos de Microsoft"
-ms.custom: 
+title: Cómo copiar los datos en el contexto del mensaje como campos de propiedades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fdfe475-d9b4-4cf9-898f-dbd7e719c27c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249988"
 ---
 # <a name="how-to-copy-data-to-the-message-context-as-property-fields"></a>Cómo copiar los datos en el contexto del mensaje como campos de propiedades
 Puede promocionar una propiedad como un **campo de propiedad** de la misma manera como promocionar una propiedad como un **campo distintivo**, y también puede usar el **promoción rápida** característica a simplificar el proceso.  

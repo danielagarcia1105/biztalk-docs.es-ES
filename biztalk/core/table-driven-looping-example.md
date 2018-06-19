@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Table Looping functoids, code sample
 - code samples, Table Extractor functoids
 ms.assetid: d890bdb1-12a6-4001-9748-737b1f2bab79
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25974538"
 ---
 # <a name="table-driven-looping-example"></a>Ejemplo de bucle controlado por tablas
 Esta sección describen brevemente una asignación que utiliza el **bucle de tabla** y **Extractor de tablas** functoids. Para obtener información detallada acerca de la selección, colocación, vinculación y configuración de los functoids, consulte [cómo agregar Functoids de bucle y tabla extractor de tablas a un mapa](../core/how-to-add-table-looping-and-table-extractor-functoids-to-a-map.md).  

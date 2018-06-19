@@ -1,17 +1,17 @@
 ---
 title: Enterprise Single Sign-On (SSO) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, about SSO
 - SSO
 ms.assetid: beab96f7-f026-4ae1-8462-a165ad76bbec
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240156"
 ---
 # <a name="enterprise-single-sign-on-sso"></a>Inicio de sesión único (SSO) empresarial.
 El inicio de sesión único (SSO) empresarial proporciona servicios para almacenar y transmitir credenciales de usuario cifradas a través de los límites locales y de red, incluidos los límites de dominio. SSO almacena las credenciales en la base de datos de SSO. Puesto que SSO proporciona una solución de inicio de sesión único (SSO) genérica, las aplicaciones de software intermedio y los adaptadores personalizados pueden aprovechar SSO para almacenar las credenciales de usuario y transmitirlas por el entorno de forma segura. Los usuarios finales no necesitan recordar distintas credenciales para aplicaciones diferentes.  

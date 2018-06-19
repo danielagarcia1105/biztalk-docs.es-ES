@@ -1,14 +1,14 @@
 ---
-title: "Cómo insertar un registro, el elemento de campo o el nodo de atributo de campo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo insertar un registro, el elemento de campo o el nodo de atributo de campo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c26f2281-f1b8-4788-8593-8d6ad29a53f0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255100"
 ---
 # <a name="how-to-insert-a-record-field-element-or-field-attribute-node"></a>Cómo insertar un registro, el elemento de campo o el nodo de atributo de campo
 **Registro** nodos (incluyendo el **raíz** nodo), **atributo de campo** nodos, y **elemento de campo** nodos sean únicos en que puede cambiar el nombre para que sus nombres representan los nombres de los elementos reales, con nombre personalizado en un mensaje de instancia correspondiente. Por ejemplo, si asigna el nombre un **registro** nodo FullName, en la ubicación correspondiente en un mensaje de instancia que se espera un elemento XML denominado FullName. Si ese **registro** nodo denominado FullName tiene un elemento secundario **atributo de campo** nodo con el nombre RequireFullMiddleName (con sus **Min Occurs** y **Max Occurs** propiedades establecidas en **1**), el **FullName** elemento en un mensaje de instancia correspondiente deberá tener un atributo denominado **RequireFullMiddleName** asociados a él.  

@@ -1,14 +1,14 @@
 ---
-title: "ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión | Documentos de Microsoft"
-ms.custom: 
+title: ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b73ce58-d827-4ffc-b2d7-78836298efc8
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241020"
 ---
 # <a name="invalid-or-missing-trailing-asn1-cms-compressed-structure-bytes-during-decompression-processing"></a>ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión
 ## <a name="details"></a>Detalles  

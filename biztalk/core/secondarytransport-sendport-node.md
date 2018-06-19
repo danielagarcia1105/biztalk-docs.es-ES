@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271308"
 ---
 # <a name="secondarytransport-sendport-node"></a>SecondaryTransport (nodo puertoEnvío)
 El nodo SecondaryTransport del nodo puertoEnvío de un archivo de enlace proporciona información específica acerca del transporte secundario enlazado a un puerto de envío que se exporta con el archivo de enlace. Si se especifica un transporte secundario, este se usa tras agotar todos los reintentos con el transporte primario.  

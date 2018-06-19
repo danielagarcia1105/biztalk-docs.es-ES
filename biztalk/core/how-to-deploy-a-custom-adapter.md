@@ -1,14 +1,14 @@
 ---
-title: "Cómo implementar un adaptador personalizado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo implementar un adaptador personalizado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f17b336c-6232-4889-ab7e-92b83fab0f5f
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250300"
 ---
 # <a name="how-to-deploy-a-custom-adapter"></a>Cómo implementar un adaptador personalizado
 Un proceso completo de instalación de adaptador se compone de los siguientes pasos:  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239956"
 ---
 # <a name="enlisted-party-enlisted-parties-node"></a>Entidad dada de alta (nodo de Entidades dadas de alta)
 El nodo Entidad dada de alta de un archivo de enlace contiene información específica acerca de una entidad dada de alta asociada a un rol que se exporta con el archivo de enlace.  

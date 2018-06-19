@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar una nueva base de datos de cuadro de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar una nueva base de datos de cuadro de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adding, MessageBox database
 - MessageBox database, adding
 - managing [MessageBox database], adding
 ms.assetid: 98d850dc-fe3e-43dd-8b5d-9b8c23c006ae
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247244"
 ---
 # <a name="how-to-add-a-new-messagebox-database"></a>Cómo agregar una nueva base de datos de cuadro de mensajes
 Utilice la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para agregar una nueva base de datos de cuadro de mensaje a la implementación de BizTalk Server. Las bases de datos de cuadro de mensajes son la base para los elementos de equilibrio de carga de red entre servidores que realizan procesamiento cooperativo. Para aumentar el número de mensajes que puede procesar el sistema, puede ser necesario agregar bases de datos de cuadro de mensajes adicionales.  

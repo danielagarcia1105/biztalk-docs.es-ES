@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241604"
 ---
 # <a name="error---schema-file-not-in-build"></a>Error: el archivo de esquema no está en compilación
 **Explicación**  

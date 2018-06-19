@@ -1,14 +1,14 @@
 ---
-title: "Recomendaciones para la fase implementación | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones para la fase implementación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04877156-cc32-480b-8410-d26eb073c327
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257404"
 ---
 # <a name="implementation-phase-recommendations"></a>Recomendaciones para la fase de implementación
 En la fase de implementación se toman los requisitos y los productos de la fase de diseño y se implementan mediante las tecnologías apropiadas. En el caso de las pruebas de validación, es en esta fase cuando se completan y automatizan los casos de prueba en preparación de las pruebas de validación. Normalmente, gran parte de las pruebas de las versiones anteriores del sistema también se llevan a cabo durante esta fase, no solo para validar el sistema, sino también para comprobar que no existan problemas con los propios casos de prueba.  

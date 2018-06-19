@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear suscripciones de recepción en Orquestaciones invocadas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear suscripciones de recepción en Orquestaciones invocadas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3423309a-cb5a-40a5-9582-6ee3ac82b538
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250148"
 ---
 # <a name="how-to-create-receive-subscriptions-at-invoked-orchestrations"></a>Cómo crear suscripciones de recepción en orquestaciones invocadas
 Aunque puede pasar mensajes como parámetros a través de la **Iniciar orquestación** forma cuando se inicia una orquestación, en algunos casos puede que desee para enviar mensajes desde la orquestación del autor a la orquestación invocada después de la invocación. Por ejemplo, es posible que no sepa qué mensajes quiere pasar en el momento de la llamada o que otras orquestaciones necesiten enviar mensajes a la orquestación invocada de forma dinámica.  

@@ -1,14 +1,14 @@
 ---
 title: Extender el Editor de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77c93ab2-0a9b-4c9d-81e5-3871fc8e6e13
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246244"
 ---
 # <a name="extending-biztalk-editor"></a>Extender el Editor de BizTalk
 El Editor de BizTalk está diseñado para permitir extensiones que sean compatibles con formatos alternativos de mensajes de instancia. De hecho, el formato XML es el único formato integrado en el Editor de BizTalk. Incluso la compatibilidad de los formatos de archivo sin formato, que se incluye en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], está implementada como una extensión del Editor de BizTalk, y sirve por tanto como ejemplo del tipo de funcionalidad que se puede agregar con tales extensiones.  

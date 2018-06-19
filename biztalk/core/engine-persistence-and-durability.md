@@ -1,14 +1,14 @@
 ---
 title: Motor de persistencia y durabilidad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9bd209e9-75d2-422f-b3b2-377986f41f2f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242596"
 ---
 # <a name="engine-persistence-and-durability"></a>Persistencia y durabilidad del motor
 En esta sección se explica cómo BizTalk Server integra de forma confiable procesos empresariales de acoplamiento flexible al guardar el estado de los procesos en el disco a través de SQL Server. Al guardar el estado en los momentos oportunos y utilizar transacciones, el sistema garantiza que no se pierda ningún estado de los procesos aunque se produzcan errores de hardware o software. A esto se le denomina durabilidad del sistema.  

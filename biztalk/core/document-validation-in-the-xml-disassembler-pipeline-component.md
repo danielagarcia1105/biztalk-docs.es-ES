@@ -1,11 +1,11 @@
 ---
-title: "Documento de validación en el componente de canalización de desensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Documento de validación en el componente de canalización de desensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Validate Document Structure property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - XML Disassembler [pipeline component], document validation
 - XML Disassembler [pipeline component], warnings
 ms.assetid: feb25033-46d3-48ed-8e1f-0cd123e94149
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239388"
 ---
 # <a name="document-validation-in-the-xml-disassembler-pipeline-component"></a>Validación de documentos en el componente de canalización de desensamblador XML
 De forma predeterminada, el desensamblador XML no valida los documentos XML con respecto a un esquema. Sin embargo, puede configurar el desensamblador XML para validar un documento XML mediante el establecimiento del **validar la estructura del documento** propiedad.  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo cambiar la aplicación predeterminada | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar la aplicación predeterminada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, default
 - applications, modifying
 - modifying, applications
 ms.assetid: cfa5e88f-0bbb-4edd-a840-722dcdcce266
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247988"
 ---
 # <a name="how-to-change-the-default-application"></a>Cómo cambiar la aplicación predeterminada
 En este tema se describe cómo cambiar la aplicación predeterminada mediante la edición de las propiedades de una aplicación en la consola de administración de BizTalk Server. También puede cambiar la aplicación predeterminada mediante la creación de una nueva aplicación y especificar que la aplicación de forma predeterminada, como se describe en [cómo crear una aplicación](../core/how-to-create-an-application.md).  

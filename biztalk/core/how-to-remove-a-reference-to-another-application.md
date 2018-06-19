@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254364"
 ---
 # <a name="how-to-remove-a-reference-to-another-application"></a>Cómo quitar una referencia a otra aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server para quitar una referencia de una aplicación a otra. Las referencias se quitan cuando se deja de utilizar un artefacto en la aplicación actual que existe en otra aplicación del mismo grupo de BizTalk. Para obtener más información sobre cómo agregar referencias, vea [cómo agregar una referencia a otra aplicación](../core/how-to-add-a-reference-to-another-application.md).  

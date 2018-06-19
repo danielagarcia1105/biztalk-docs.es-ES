@@ -1,14 +1,14 @@
 ---
-title: "Cómo controlan los mensajes de gran tamaño en adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Cómo controlan los mensajes de gran tamaño en adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c48671fd-b6cf-4507-92b4-35a4cd135714
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247020"
 ---
 # <a name="how-adapters-handle-large-messages"></a>Cómo controlan los mensajes de gran tamaño en adaptadores
 El motor de mensajería de BizTalk puede procesar mensajes muy grandes; no imponen restricción alguna al tamaño máximo de un mensaje. Sin embargo, debería considerar la limitación del tamaño de los mensajes para mantener una administración de recursos y un rendimiento óptimos. A medida que aumenta el tamaño de los mensajes, disminuye el número de mensajes procesados por segundo. Tenga en cuenta el tamaño promedio de mensaje, el tipo de mensaje y el número de mensajes que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa para diseñar el escenario y planear la capacidad.  

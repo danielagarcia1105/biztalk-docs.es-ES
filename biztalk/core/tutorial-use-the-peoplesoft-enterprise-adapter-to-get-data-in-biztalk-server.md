@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar el adaptador de BizTalk para PeopleSoft Enterprise para recuperar datos de PeopleSoft Enterprise | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c173fa4c-911e-4fa3-813f-e8f36b0049a5
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975530"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-retrieve-data-from-peoplesoft-enterprise"></a>Tutorial: Uso del adaptador de BizTalk para PeopleSoft Enterprise para recuperar datos de PeopleSoft Enterprise
 El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para ejecutar una consulta en un sistema PeopleSoft y devolver los resultados de la misma. En este tutorial se describe un ejemplo de SDK que muestra esta función.  

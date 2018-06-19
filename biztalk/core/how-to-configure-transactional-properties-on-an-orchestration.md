@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar propiedades de transacción en una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar propiedades de transacción en una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, configuring
 - transactions, atomic
 ms.assetid: 8eec6019-4d96-4ed6-8a90-9403738d8af4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248820"
 ---
 # <a name="how-to-configure-transactional-properties-on-an-orchestration"></a>Cómo configurar propiedades de transacción en una orquestación
 Una orquestación puede tratarse como una transacción atómica, una transacción de larga ejecución o como ninguna de ellas.  

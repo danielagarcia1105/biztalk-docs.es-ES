@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b6337df9-8c2e-4d4a-a64b-cc040f83bd91
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255516"
 ---
 # <a name="how-to-search-for-tracked-service-instances"></a>Búsqueda de instancias de servicio supervisadas
 Puede usar el **consulta** pestaña en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración para buscar todas las instancias de servicio controladas. Para localizar instancias de servicio, puede buscar el nombre y la versión del ensamblado, el tiempo de inicio y fin de vigencia, el nombre o identificador de instancia de la clase de servicio, el nombre de host, el código de error y el estado de la instancia de servicio.  

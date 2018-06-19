@@ -1,14 +1,14 @@
 ---
-title: "Editor de cuadro de diálogo Modal personalizado para la configuración del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Editor de cuadro de diálogo Modal personalizado para la configuración del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 213d5d47-80c1-4b2d-8194-1426982be137
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239236"
 ---
 # <a name="custom-modal-dialog-editor-for-adapter-configuration"></a>Editor de cuadro de diálogo Modal personalizado para la configuración del adaptador
 El código del editor personalizado muestra un editor derivado de la **System.Drawing.Design.UITypeEditor** clase, que muestra un cuadro de diálogo emergente modal para escribir una contraseña. El **GetEditStyle** reemplazo del método devuelve **UIEditorEditStyle.Modal** para indicar un subcontrol de formulario modal. El método de servicio **ShowDialog** administra el control creado con **CreatePassword**. **ShowDialog** devuelve un **DialogResult** que se trata de la manera habitual (por ejemplo, una instrucción switch) con el **DialogResult.OK** cambiar solo el valor de caso.  
