@@ -1,14 +1,14 @@
 ---
-title: "Cómo asignar Values2 de propiedad de contexto de mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar Values2 de propiedad de contexto de mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 137f82ab-f301-465d-be78-a6e67971dd3b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247212"
 ---
 # <a name="how-to-assign-message-context-property-values"></a>Cómo asignar valores de propiedad de contexto de mensaje
 Para administrar la sesión de conexión de J.D. Edwards OneWorld a partir de una orquestación de BizTalk, debe agregar la referencia a Microsoft.BizTalk.Adapters.JDEProperties.dll al proyecto. Este ensamblado se encuentra en %SystemDrive%\Archivos de programa\Archivos comunes\Microsoft BizTalk Adapters for Enterprise Applications\bin.  

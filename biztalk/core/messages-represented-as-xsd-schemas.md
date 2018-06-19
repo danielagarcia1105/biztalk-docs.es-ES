@@ -1,18 +1,18 @@
 ---
 title: Mensajes representan como esquemas XSD | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Message Assignment shape [Orchestration Designer], maps
 - maps, transforms
 - Expression Editor, assigning maps
 ms.assetid: 646e84d4-1dcc-4f92-9205-84cb6c7df297
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262972"
 ---
 # <a name="messages-represented-as-xsd-schemas"></a>Mensajes representados como esquemas XSD
 Una instancia XML de plantilla del tipo de mensaje XSD se define en el momento del diseño y luego se guarda en el disco. En tiempo de ejecución, un componente .NET toma el XML del disco y lo devuelve como XmlDocument. El código de orquestación puede asignar este resultado XmlDocument a la instancia del mensaje declarado en la orquestación.  

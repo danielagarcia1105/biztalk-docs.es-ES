@@ -1,11 +1,11 @@
 ---
-title: "Cómo controlar el tamaño de la lista de resultados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo controlar el tamaño de la lista de resultados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - results list [Orchestration Debugger], deleting columns
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - results list [Orchestration Designer]
 - results list [Orchestration Debugger], adding columns
 ms.assetid: 4d41003f-5ea9-4599-8ec0-737c342ffdbd
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249740"
 ---
 # <a name="how-to-control-the-size-of-the-results-list"></a>Cómo controlar el tamaño de la lista Resultados
 En el **concentrador de grupo** página de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, los resultados de consulta panel contiene tantas columnas de información que tenga que desplazarse para verlas. Puede agregar o quitar columnas del panel para mostrar únicamente la información que necesite. Para agregar o quitar columnas, haga clic en cualquier parte del panel de resultados de consulta y haga clic en **agregar o quitar columnas** en el menú contextual.  

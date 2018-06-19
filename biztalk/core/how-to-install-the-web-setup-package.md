@@ -1,18 +1,18 @@
 ---
-title: "Cómo instalar el paquete de instalación de Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar el paquete de instalación de Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, Web services
 - Web services, deploying
 - Web services, installing
 ms.assetid: c6b38a2f-ad07-4ccd-b267-9e3510df88c3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254132"
 ---
 # <a name="how-to-install-the-web-setup-package"></a>Cómo instalar el paquete de instalación de Web
 Utilice el contenido de la carpeta de distribución para instalar el servicio Web en un equipo de destino.  

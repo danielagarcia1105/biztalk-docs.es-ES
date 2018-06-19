@@ -1,11 +1,11 @@
 ---
 title: Hosts de procesamiento escalado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - high availability
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - hosts, scaling
 - clustering
 ms.assetid: c72ce8fc-7593-4700-8398-23d1a20515c3
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269332"
 ---
 # <a name="scaled-out-processing-hosts"></a>Hosts de procesamiento escalados horizontalmente
 Un host de procesamiento escalado horizontalmente mejora el rendimiento y proporciona alta disponibilidad aislando la funcionalidad de orquestación en dos o más equipos host. Este aislamiento permite agregar varios equipos a un host de procesamiento para obtener redundancia. Un host de procesamiento en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ejecuta uno o más host instancias que coordenadas procesos empresariales distintos y crea una instancia de objetos de programación para orquestaciones.  

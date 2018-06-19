@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar una secuencia de comandos previa y posteriores al procesamiento de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar una secuencia de comandos previa y posteriores al procesamiento de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [scripts], deleting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - scripts, deleting
 - applications, scripts
 ms.assetid: 7911f098-97f2-4a5d-87fe-20b55231113e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254764"
 ---
 # <a name="how-to-remove-a-pre--or-post-processing-script-from-an-application"></a>Cómo quitar secuencias de comandos previas o posteriores al procesamiento de una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para quitar una secuencia de comandos previa o posterior al procesamiento de una aplicación. Esta acción quita la secuencia de comandos de la base de datos de administración de BizTalk, de modo que no se exportará en el archivo .msi de la aplicación. De este modo no se quita la secuencia de comandos del sistema de archivos local, si existe en esta ubicación.  

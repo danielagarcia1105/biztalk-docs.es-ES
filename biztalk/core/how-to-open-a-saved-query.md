@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254596"
 ---
 # <a name="how-to-open-a-saved-query"></a>Cómo abrir una consulta guardada
 Se puede abrir una consulta guardada directamente desde la carpeta en la que se guardó la consulta o desde la consola de administración de BizTalk Server. Si abre la consulta directamente desde la carpeta, se abre el grupo de BizTalk Server correspondiente en la consola de administración. Si abre la consulta desde la consola de administración, tiene la opción de ejecutar la consulta en cualquiera de los grupos que se muestran en la lista.  

@@ -30,6 +30,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22248132"
 ---
 # <a name="how-to-copy-tracked-messages-into-the-biztalk-tracking-database"></a>Cómo copiar mensajes de los que se ha realizado un seguimiento en la base de datos de seguimiento de BizTalk
 El proceso de archivo y purga puede obtener acceso a las bases de datos de servidores SQL Server diferentes o actualizarlas, por lo que es preciso configurar servidores vinculados entre las instancias implicadas de servidor SQL Server. Puede copiar directamente mensajes de los que se ha efectuado un seguimiento del servidor de base de datos de cuadro de mensajes (BizTalkMsgBoxDb) a la base de datos de seguimiento de BizTalk (BizTalkDTADb) a través de un servidor vinculado. Debe configurar servidores vinculados entre:  

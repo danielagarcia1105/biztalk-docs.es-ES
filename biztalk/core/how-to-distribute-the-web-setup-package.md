@@ -1,18 +1,18 @@
 ---
-title: "Cómo distribuir el paquete de instalación de Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo distribuir el paquete de instalación de Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, Web services
 - Web services, distributing
 - Web services, deploying
 ms.assetid: 0db71fdf-80d9-4ad5-b0d4-730d0bb549d4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254124"
 ---
 # <a name="how-to-distribute-the-web-setup-package"></a>Cómo distribuir el paquete de instalación de Web
 Después de crear el paquete de instalación, necesita crear una carpeta de distribución en la que el archivo MSI y el archivo BindingInfo.xml se copian para configurar el servicio Web.  

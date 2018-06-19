@@ -1,18 +1,18 @@
 ---
-title: "Aspectos destacados de la implementación del servicio en la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Aspectos destacados de la implementación del servicio en la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, performance
 - performance, service solutions
 - service solution tutorial, implementing
 ms.assetid: 3dbd8dfd-45b7-4290-ba07-b0c5e6264629
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257756"
 ---
 # <a name="implementation-highlights-of-the-service-oriented-solution"></a>Aspectos destacados de la implementación del servicio en la solución orientada a servicios
 Una solución resuelve un problema concreto en un contexto específico. La solución orientada a servicios no es una excepción y es específica para Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y el escenario. Para obtener más información acerca del escenario de Woodgrove Bank, vea [descripción de la solución orientada a servicios](../core/understanding-the-service-oriented-solution.md).  

@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de recepción de interfaces para un aislado | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de recepción de interfaces para un aislado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c6b195e-76bf-4c3e-a324-5513bc24fed1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257772"
 ---
 # <a name="interfaces-for-an-isolated-receive-adapter"></a>Interfaces de un adaptador de recepción aislado
 Aisladas de recepción adaptadores se hospedan en un espacio de proceso distinto de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proceso. Para interactuar con el motor de mensajería, un adaptador de recepción aislado se registra a sí mismo en el inicio de modo que el motor pueda configurarlo y controlarlo. El adaptador crea el proxy de transporte, las consultas para la interfaz **IBTTransportProxy**y las llamadas **IBTTransportProxy.RegisterIsolatedReceiver** para registrar su  **IBTTransportConfig** interfaz de devolución de llamada con el motor de mensajería. Esta llamada sincrónica se produce antes de que el adaptador envía su primer mensaje a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esto permite que el motor de mensajería devuelva la llamada al adaptador y le indique qué extremos están activos y en cuáles hay que escuchar los mensajes entrantes. Los adaptadores aislados deben implementar las interfaces siguientes:  

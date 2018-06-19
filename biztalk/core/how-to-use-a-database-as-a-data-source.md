@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255716"
 ---
 # <a name="how-to-use-a-database-as-a-data-source"></a>Cómo utilizar una base de datos como origen de datos
 Puede especificar una base de datos como origen de datos. A continuación, puede seleccionar una tabla o columna de tabla de la base de datos y arrastrarla hasta una definición de vocabulario o regla para utilizarla como un hecho.  

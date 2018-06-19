@@ -1,11 +1,11 @@
 ---
-title: "Nodos de relación | Documentos de Microsoft"
-ms.custom: 
+title: Nodos de relación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definition files [BAM], relationships
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, node descriptions
 - Tracking Profile Editor, definition files [BAM]
 ms.assetid: 74090133-24d1-4aba-a4fc-f12d19c881fb
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268252"
 ---
 # <a name="relationship-nodes"></a>Nodos de relación
 Las carpetas de relación se utilizan siempre que un archivo de definición de actividad contenga más de una actividad. Los nombres de las carpetas coinciden con el nombre de la actividad asociada. El vínculo se crea haciendo coincidir el nombre de la carpeta de relación con el Id. de la actividad relacionada, así como los valores de los elementos de datos. Cada relación se define utilizando un nodo independiente.  

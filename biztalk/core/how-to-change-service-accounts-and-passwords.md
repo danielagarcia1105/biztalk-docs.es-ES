@@ -1,14 +1,14 @@
 ---
-title: "Cómo cambiar contraseñas y cuentas de servicio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar contraseñas y cuentas de servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dff53d6b-c262-4b66-b822-1c61f54ae105
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248892"
 ---
 # <a name="how-to-change-service-accounts-and-passwords"></a>Cómo cambiar contraseñas y cuentas de servicio
 Por lo general, tras configurar BizTalk Server, las organizaciones requieren cambiar las contraseñas o las cuentas de servicio mediante directivas de cuentas, como la directiva de contraseñas o la de bloqueo de cuentas. Para obtener más información acerca de las directivas de cuenta, vea el sitio Web de Microsoft TechNet en [http://go.microsoft.com/fwlink/?LinkId=62172](http://go.microsoft.com/fwlink/?LinkId=62172).  

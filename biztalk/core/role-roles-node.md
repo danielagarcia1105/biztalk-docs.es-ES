@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268700"
 ---
 # <a name="role-roles-node"></a>Rol (nodo Roles)
 El nodo Rol del nodo Roles de un archivo de enlace especifica información acerca de un rol enlazado a un servicio que se exporta con el archivo de enlace.  

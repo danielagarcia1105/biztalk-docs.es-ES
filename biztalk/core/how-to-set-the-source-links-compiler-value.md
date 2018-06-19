@@ -1,14 +1,14 @@
 ---
-title: "Cómo establecer el origen de vínculos de compilador valor | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer el origen de vínculos de compilador valor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4edd1d73-78d1-468d-806a-3f6f258ee375
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255836"
 ---
 # <a name="how-to-set-the-source-links-compiler-value"></a>Cómo establecer el valor del compilador de vínculos de origen
 Puede usar el **vínculos de origen** propiedad de un vínculo para especificar cómo se recuperan desde el nodo de origen y se aplica al nodo de destino un valor. En este tema se explican las opciones disponibles y cómo elegir entre ellas.  

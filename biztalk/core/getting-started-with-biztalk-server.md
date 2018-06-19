@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247172"
 ---
 # <a name="getting-started-with-biztalk-server"></a>Introducción a BizTalk Server
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]es un [publicar y suscribirse arquitectura](../core/publish-and-subscribe-architecture.md) que [utiliza adaptadores](../core/using-adapters.md) enviar y recibir mensajes, implementa [procesos empresariales a través de orquestación](../core/defining-business-processes.md)e incluye [administración y seguimiento](../core/management-and-tracking-architecture.md) de estas partes diferentes. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]También incluye [administración de socios comerciales](../core/trading-partner-management-using-biztalk-server.md) para la mensajería negocio a negocio, [alta disponibilidad](../core/planning-for-high-availability3.md) para maximizar el tiempo de actividad, una plataforma de desarrollo para [crear sus propios componentes](../core/developing-custom-components.md), una consola de administración para [administrar los artefactos de](../core/operational-and-administrative-tasks-in-your-biztalk-environment.md)y para administrar la supervisión de la actividad económica [agregaciones, alertas y perfiles](../core/using-business-activity-monitoring.md).

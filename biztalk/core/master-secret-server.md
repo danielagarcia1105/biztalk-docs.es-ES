@@ -1,11 +1,11 @@
 ---
 title: Servidor secreto principal | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, about Master Secret server
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Master Secret server, encryption key
 - SSO, Master Secret server
 ms.assetid: 93685a19-6c27-45db-bfc1-957574362687
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262516"
 ---
 # <a name="master-secret-server"></a>Servidor secreto principal
 El servidor secreto principal es el servidor de inicio de sesión único empresarial (SSO) que almacena el secreto principal (clave de cifrado). Este servidor genera el secreto principal cuando lo solicita un administrador de SSO y lo almacena cifrado en el Registro. Sólo los administradores de inicio de sesión único pueden obtener acceso al secreto principal.  

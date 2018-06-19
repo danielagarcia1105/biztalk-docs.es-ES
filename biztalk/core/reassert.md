@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269652"
 ---
 # <a name="reassert"></a>Reassert
 Para *imponer* significa llamar a la **Assert** función en un objeto que ya está en el motor de la memoria de trabajo. Un comando reassert es equivalente a emitir un comando retract y, a continuación, un comando assert para el objeto.  

@@ -1,14 +1,14 @@
 ---
-title: "El primer elemento del lote excedía el conjunto de criterios de versión de recuento de caracteres | Documentos de Microsoft"
-ms.custom: 
+title: El primer elemento del lote excedía el conjunto de criterios de versión de recuento de caracteres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4b06f8f-247d-4e93-8c4e-5e86e4ad70c9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241556"
 ---
 # <a name="the-first-element-of-the-batch-exceeded-the-character-count-release-criteria-set"></a>El primer elemento del lote excedía el recuento de caracteres, el criterio de publicación establecido
 ## <a name="details"></a>Detalles  

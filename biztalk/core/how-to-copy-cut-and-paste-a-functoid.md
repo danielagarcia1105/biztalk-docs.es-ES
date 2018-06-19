@@ -1,14 +1,14 @@
 ---
-title: "Cómo copiar, cortar y pegar un Functoid | Documentos de Microsoft"
-ms.custom: 
+title: Cómo copiar, cortar y pegar un Functoid | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 825847e4-87db-4b40-8e5d-5b5b1c79c6de
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249532"
 ---
 # <a name="how-to-copy-cut-and-paste-a-functoid"></a>Cómo copiar, cortar y pegar un functoid
 La característica de copiar, cortar y pegar del Asignador de BizTalk permite la reutilización de functoids. En una asignación, puede copiar y cortar uno o varios functoids de una página de cuadrícula y pegarlos en otra. En este tema se proporcionan instrucciones detalladas para realizar estas operaciones.  

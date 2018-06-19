@@ -1,14 +1,14 @@
 ---
-title: "Tutorial (EDIFACT): Recibir intercambios EDI y devolver una confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial (EDIFACT): Recibir intercambios EDI y devolver una confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02751f0c-8e7e-4879-93e4-8bc475640756
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291940"
 ---
 # <a name="walkthrough-edifact-receiving-edi-interchanges-and-sending-back-an-acknowledgement"></a>Tutorial (EDIFACT): Recepción de intercambios EDI y devolución de una confirmación
 Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para recibir intercambios de EDIFACT mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En esta solución, se envía un intercambio EDIFACT desde un socio comercial, Fabrikam, a otro, Contoso.  

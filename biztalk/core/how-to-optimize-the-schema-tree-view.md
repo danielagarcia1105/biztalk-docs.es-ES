@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab4ad6b5-5bbd-443b-9041-6cddf9d64735
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22255348"
 ---
 # <a name="how-to-optimize-the-schema-tree-view"></a>Optimización de la vista del árbol de esquema
 Puede usar el **la vista de relevancia** en el asignador de BizTalk para optimizar el origen o árboles de esquema de destino. En este tema se proporcionan instrucciones sobre cómo realizar la operación.  

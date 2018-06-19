@@ -1,14 +1,14 @@
 ---
 title: Desarrollar Functoids personalizados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77419e1f-9f01-44ac-bf5b-a393f1d17f61
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242052"
 ---
 # <a name="developing-custom-functoids"></a>Desarrollar Functoids personalizados
 Aunque [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona muchos functoids para admitir una gran cantidad de operaciones diferentes, probablemente se encontrará con una situación que requiera un enfoque distinto. Los functoids personalizados proporcionan una forma de ampliar la variedad de operaciones disponibles dentro del entorno de asignación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Cada functoid personalizado se implementa como un ensamblado .NET utilizando las clases derivadas de **Microsoft.BizTalk.BaseFunctoids**. Un ensamblado puede contener más de un functoid personalizado.  

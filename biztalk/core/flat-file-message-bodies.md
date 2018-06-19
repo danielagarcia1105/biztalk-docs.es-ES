@@ -1,14 +1,14 @@
 ---
 title: Cuerpos de mensaje de archivo sin formato | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 097e49a1-75d2-44a4-9372-d78de7b7597c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246788"
 ---
 # <a name="flat-file-message-bodies"></a>Cuerpos de los mensajes de archivo sin formato
 El cuerpo del mensaje de una instancia de archivo sin formato es necesario y es lo que procesa el desensamblador de archivos sin formato en uno o más mensajes de instancia XML. Para saber qué datos debe contar el cuerpo del mensaje de una instancia de archivo sin formato de entrada, debe configurar el desensamblador de archivos sin formato con el esquema de archivo sin formato correspondiente al cuerpo. Puede especificar el esquema mediante la **esquema de documento** propiedad en tiempo de diseño del desensamblador de archivos sin formato o **XMLNORM. DocumentSpecName** propiedad de contexto de mensaje. Como los mensajes de instancia de archivo sin formato deben tener la parte del cuerpo, tendrá que configurar el esquema apropiado con uno de estos dos métodos.  

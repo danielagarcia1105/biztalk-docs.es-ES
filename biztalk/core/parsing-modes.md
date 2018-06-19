@@ -1,17 +1,17 @@
 ---
-title: "Modos de análisis | Documentos de Microsoft"
-ms.custom: 
+title: Modos de análisis | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], code samples
 - pipeline components [custom], parsing
 ms.assetid: b1188720-e5ae-47ae-ab8e-16d7ed08b778
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263308"
 ---
 # <a name="parsing-modes"></a>Modos de análisis
 El modo de análisis es un atributo en el registro schemaInfo que tiene dos modos: velocidad y complejidad. La propiedad Optimización del analizador se puede configurar dentro del Editor de esquemas de BizTalk.  

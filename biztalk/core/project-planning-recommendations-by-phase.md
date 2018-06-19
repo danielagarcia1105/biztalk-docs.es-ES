@@ -1,17 +1,17 @@
 ---
-title: "Recomendaciones para la planificación de proyectos por fases | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones para la planificación de proyectos por fases | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - planning, performance
 - performance, planning
 ms.assetid: 422f05e3-5ad4-4f47-9be3-c229a20a6ef3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264956"
 ---
 # <a name="project-planning-recommendations-by-phase"></a>Recomendaciones de planeación de proyectos por fases
 Actualmente existen varios modelos de ciclo de vida del desarrollo de software, cada uno con sus propios enfoques, ventajas y limitaciones. El objetivo de esta sección es proporcionar un conjunto de recomendaciones que le ayudarán a planear de forma adecuada un proyecto de desarrollo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] correcto.  

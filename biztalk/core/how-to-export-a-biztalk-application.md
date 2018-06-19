@@ -1,11 +1,11 @@
 ---
-title: "Cómo exportar una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, exporting
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - applications, warnings
 - exporting, security
 ms.assetid: a1d6ffca-3d29-44c7-a811-6cf8b42e23f6
-caps.latest.revision: "50"
+caps.latest.revision: 50
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255956"
 ---
 # <a name="how-to-export-a-biztalk-application"></a>Cómo exportar una aplicación de BizTalk
 En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o la línea de comandos para exportar una aplicación. Exportar una aplicación de BizTalk genera un archivo (.msi) de Windows Installer que contiene la aplicación y los artefactos seleccionados para que se exportaran. La opción predeterminada es seleccionar todos los artefactos de la aplicación, pero puede seleccionar un subconjunto de ellos. A continuación, puede importar el archivo .msi a otro grupo de BizTalk para agregar los artefactos a una aplicación existente de un grupo nuevo, actualizar los artefactos de una aplicación existente o crear una aplicación nueva en el grupo que contiene los artefactos que se van a importar. Para obtener más información, consulte [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md). Utiliza también el archivo .msi para instalar la aplicación en los equipos que vayan a ejecutarla, tal y como se describe en [cómo instalar una aplicación de BizTalk](../core/how-to-install-a-biztalk-application.md). Si la aplicación incluye artefactos basados archivos, debe instalarla antes de que pueda funcionar.  

@@ -1,14 +1,14 @@
 ---
 title: Campo consideraciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d7f1853-60ed-49c2-a592-61bde5445d36
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245788"
 ---
 # <a name="field-considerations"></a>Consideraciones de campo
 Hay una serie de cuestiones que debe tener en cuenta al trabajar con **elemento de campo** y **atributo de campo** nodos en los esquemas. Esto incluye las diferencias básicas relacionadas con cuándo se debe utilizar cada uno de estos tipos de nodos, así como consideraciones más específicas relativas a la especificación de longitudes, justificación y relleno de los campos. Esta sección proporciona información acerca de estas consideraciones.  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear expresiones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear expresiones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, expressions [Expression Editor]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Expression Editor, editing expressions
 - Expression Editor, creating expressions
 ms.assetid: 48f8b00f-6ef1-4145-ad17-15c95518fc8a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248868"
 ---
 # <a name="how-to-create-expressions"></a>Cómo crear expresiones
 El Editor de expresiones de BizTalk le permite crear expresiones XLANG/s para ampliar las capacidades de varias formas del Diseñador de orquestaciones. Puede crear expresiones XLANG/s para tomar decisiones, establecer retrasos, realizar llamadas .NET y probar condiciones de bucle WHILE.  

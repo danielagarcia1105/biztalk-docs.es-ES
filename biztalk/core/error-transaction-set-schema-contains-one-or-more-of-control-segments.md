@@ -1,14 +1,14 @@
 ---
 title: Esquema del conjunto de transacciones contiene uno o varios de control segmentos ISA, IEA, GS, GE | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7589d8f0-c727-47df-afbc-77b0f190f3e2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241828"
 ---
 # <a name="transaction-set-schema-contains-one-or-more-of-control-segments-isa-iea-gs-ge"></a>El esquema de conjunto de transacciones contiene uno o más segmentos de control ISA, IEA, GS, GE.
 ## <a name="details"></a>Detalles  

@@ -1,17 +1,17 @@
 ---
-title: "Cómo agregar un bloque de compensación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un bloque de compensación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - compensations, compensation blocks
 - compensation blocks, adding
 ms.assetid: 1bdeed92-3144-44ef-ad0d-1c6976f46a36
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246540"
 ---
 # <a name="how-to-add-a-compensation-block"></a>Cómo agregar un bloque de compensación
 Si no agrega su propia compensación, el motor de tiempo de ejecución llevará a cabo una compensación predeterminada que invoca las compensaciones de las transacciones anidadas contenidas en la transacción actual. En primer lugar, invoca la compensación de la transacción completada más recientemente y va retrocediendo hasta que se han compensado todas las transacciones anidadas.  

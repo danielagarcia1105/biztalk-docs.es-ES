@@ -1,14 +1,14 @@
 ---
-title: "Cómo establecer las propiedades del nodo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer las propiedades del nodo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0c79eac-d9ba-45e2-a6e9-770b2bcb2067
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255452"
 ---
 # <a name="how-to-set-node-properties"></a>Cómo establecer propiedades de nodo
 Tras insertar un nodo en un esquema de BizTalk, normalmente tendrá que cambiar los valores predeterminados de las propiedades de dicho nodo. Cada tipo de nodo tiene un conjunto específico de propiedades y, dentro de dicho conjunto, la configuración de una propiedad puede afectar a la disponibilidad de otras propiedades. Por ejemplo, antes de establecer el **carácter de ajuste predeterminado** propiedad de la **esquema** nodo, debe establecer el **tipo de carácter de ajuste predeterminado** propiedad a cualquier **Caracteres** o **Hexadecimal**, con lo que se establece el formato en el que se va a representar la propiedad anterior. Además, de estas propiedades está disponible, ni es toda la **analizar** propiedad categoría a la que pertenecen, a menos que **extensión de archivo sin formato** se habilita mediante la **Editor de esquemas Extensiones** propiedad.  

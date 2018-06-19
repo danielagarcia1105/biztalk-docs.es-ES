@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288484"
 ---
 # <a name="wcf-custom-adapter"></a>Adaptador de WCF-Custom.
 El adaptador WCF-Custom es un adaptador en proceso para permitir configurar ubicaciones de recepción y puertos de envío con cualquier configuración de enlace y comportamiento para Windows Communication Foundation (WCF) que se aplica a [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar el adaptador de WCF-Custom para escenarios en los que no son compatibles los adaptadores de WCF. El adaptador de WCF-Custom también le permite utilizar los puntos de extensibilidad WCF en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

@@ -1,14 +1,14 @@
 ---
 title: Administrar lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82755840-4e00-4fed-80e0-1a22b248c0bf
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263492"
 ---
 # <a name="managing-batches"></a>Administración de lotes
 Cómo controlar manualmente la versión de procesar por lotes los intercambios, mediante el uso de los controles en la parte superior de la **configuración de lote** página de la ficha de acuerdo unidireccional el **propiedades del acuerdo de** cuadro de diálogo (en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Consola de administración) para X12 y codificación EDIFACT. En estos procedimientos se realizan mediante los siguientes controles:  

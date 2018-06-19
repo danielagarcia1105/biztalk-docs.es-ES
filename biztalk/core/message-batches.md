@@ -1,14 +1,14 @@
 ---
 title: Lotes de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f893d16-2670-4463-9a89-6f5be912a045
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262724"
 ---
 # <a name="message-batches"></a>Lotes de mensajes
 Cuando el adaptador tiene un grupo de mensajes que hay que procesar al mismo tiempo, debe dividir estos mensajes en lotes para optimizar el rendimiento. Mediante programación, los lotes de mensajes consisten en colecciones de mensajes con una operación asociada. Agrupar los mensajes en un lote, en lugar de enviar los mensajes de forma individual, optimizar el uso de recursos y tareas de procesamiento. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]utiliza el procesamiento por lotes para:  

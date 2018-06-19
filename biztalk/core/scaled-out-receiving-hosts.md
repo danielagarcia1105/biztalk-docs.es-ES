@@ -1,11 +1,11 @@
 ---
-title: "Hosts de recepción escalados | Documentos de Microsoft"
-ms.custom: 
+title: Hosts de recepción escalados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2016-03-17
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
@@ -34,7 +34,7 @@ helpviewer_keywords:
 - File adapters, scaling
 - clustering
 ms.assetid: 94f35426-37fa-4ad2-8e35-d82fdca02262
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -43,6 +43,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272556"
 ---
 # <a name="scaled-out-receiving-hosts"></a>Hosts de recepción escalados
 Cuando un host contiene un elemento de recepción, como una canalización o una ubicación de recepción, actúa como un límite de seguridad y la descodificación y descifrado de mensajes tiene lugar en una canalización del host. Para lograr que la disponibilidad de los hosts de recepción sea muy alta, debe disponer de dos o más equipos con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que ejecuten instancias de cada host de recepción. Mediante el escalado horizontal de los hosts de recepción garantiza la disponibilidad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] las implementaciones que son de uso intensivo de mensajería. Si bien estas implementaciones llevan a cabo un procesamiento mínimo de orquestación, pueden enrutar muchos mensajes de varios tipos a gran velocidad y con gran confiabilidad.  

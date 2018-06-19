@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar un controlador de envío WCF-NetTcp | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un controlador de envío WCF-NetTcp | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send handlers, WCF-NetTcp adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF-NetTcp adapters, global variables
 - configuring [WCF-NetTcp adapters], global variables
 ms.assetid: c60fe03d-7e11-4e08-9a24-8ff443eee9c1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247916"
 ---
 # <a name="how-to-configure-a-wcf-nettcp-send-handler"></a>Cómo configurar un controlador de envío WCF-NetTcp
 Para configurar el controlador de envío WCF-NetTcp, siga este procedimiento:  

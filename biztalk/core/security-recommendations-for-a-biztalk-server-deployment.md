@@ -1,11 +1,11 @@
 ---
-title: "Recomendaciones de seguridad para una implementación de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones de seguridad para una implementación de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - channel level encryption
 - security, permissions
 ms.assetid: 033fff11-d989-46ba-83ed-5063f7cd7818
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272452"
 ---
 # <a name="security-recommendations-for-a-biztalk-server-deployment"></a>Recomendaciones de seguridad para una implementación de BizTalk Server
 Esta sección contiene recomendaciones de alto nivel independientes de las características para proteger el entorno de Microsoft BizTalk Server.  

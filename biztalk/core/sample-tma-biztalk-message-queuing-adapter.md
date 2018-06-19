@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: BizTalk adaptador de Message Queue | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security examples [TMA], MSMQ adapters
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - DFD, MSMQ adapters
 - MSMQ adapters, data flow
 ms.assetid: 15b4a540-2fcd-4668-b4b4-757f23ebd83e
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272460"
 ---
 # <a name="sample-tma-biztalk-message-queuing-adapter"></a>TMA de ejemplo: El adaptador de BizTalk para Message Queue
 En este tema se presenta el análisis de modelo de amenazas (TMA) para el escenario del adaptador de Message Queue Server de BizTalk de la arquitectura de ejemplo.  
@@ -58,7 +59,7 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) para el escena
   
 -   **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
--   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios. La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes del servidor de BizTalk Server.  
+-   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes del servidor de BizTalk Server.  
   
  **Tabla 1: lista de amenazas identificadas**  
   
@@ -70,7 +71,7 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) para el escena
 |Un usuario malintencionado podría manipular los mensajes antes que el servidor BizTalk Server los reciba.|Un usuario malintencionado puede interceptar el mensaje mientras está en tránsito y modificarlo.|Cuerpo del mensaje|Manipulación de datos<br /><br /> Revelación de información|  
   
 ## <a name="step-3-review-threats-biztalk-message-queuing-adapter-scenario"></a>Paso 3. Analizar las amenazas (escenario del adaptador puesta en cola de mensaje de BizTalk)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de BizTalk para Message Queue para la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de BizTalk para Message Queue para la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  En la tabla siguiente enumera la evaluación del riesgo de las amenazas identificadas al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes hacia y desde BizTalk Server.  
   
