@@ -1,14 +1,14 @@
 ---
-title: "Apéndice: Scripts | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice: Scripts | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b6394321-13c9-4b1d-b529-eba3d53b33c4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299916"
 ---
 # <a name="appendix-scripts"></a><span data-ttu-id="4457c-102">Apéndice: secuencias de comandos</span><span class="sxs-lookup"><span data-stu-id="4457c-102">Appendix: Scripts</span></span>
 <span data-ttu-id="4457c-103">Las secuencias de comandos siguientes se incluyen en este módulo de administración.</span><span class="sxs-lookup"><span data-stu-id="4457c-103">The following scripts are included in this management pack.</span></span>  

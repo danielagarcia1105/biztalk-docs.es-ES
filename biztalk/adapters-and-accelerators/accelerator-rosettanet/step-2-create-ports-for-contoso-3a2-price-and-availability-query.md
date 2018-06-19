@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210148"
 ---
 # <a name="step-2-creating-ports-for-the-contoso-3a2-price-and-availability-queryresponse-scenario"></a><span data-ttu-id="31c70-102">Paso 2: Creación de puertos para el precio de 3A2 de Contoso y el escenario de la consulta/respuesta de disponibilidad</span><span class="sxs-lookup"><span data-stu-id="31c70-102">Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario</span></span>
 <span data-ttu-id="31c70-103">En este paso, creará puertos de envío mediante el adaptador de SQL proporcionado por el servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="31c70-103">In this step, you create send ports using the SQL adapter provided by BizTalk Server.</span></span> <span data-ttu-id="31c70-104">Usará el puerto SQL para enviar la respuesta de precio y disponibilidad 3A2 al sistema ERP de Contoso y recibirla de él.</span><span class="sxs-lookup"><span data-stu-id="31c70-104">You use the SQL port for sending and receiving the 3A2 Price and Availability response to and from the ERP system for Contoso.</span></span>  

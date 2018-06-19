@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Probar la preparación operativa | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Probar la preparación operativa | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ecdf2609-ba77-4756-a949-ab4e10c54313
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299276"
 ---
 # <a name="checklist-testing-operational-readiness"></a><span data-ttu-id="0c4b3-102">Lista de comprobación: Probar la preparación operativa</span><span class="sxs-lookup"><span data-stu-id="0c4b3-102">Checklist: Testing Operational Readiness</span></span>
 <span data-ttu-id="0c4b3-103">Pruebas de preparación operativa son un procedimiento vital que a menudo se pasa por alto o se lleva a cabo mínimamente.</span><span class="sxs-lookup"><span data-stu-id="0c4b3-103">Testing for operational readiness is a vital procedure that is often overlooked or is performed only minimally.</span></span> <span data-ttu-id="0c4b3-104">Realizar pruebas minuciosas son un requisito fundamental de cualquier aplicación de nivel empresarial, y una solución desarrollada con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no es ninguna excepción.</span><span class="sxs-lookup"><span data-stu-id="0c4b3-104">Thorough testing is a critical requirement of any enterprise-level application, and a solution developed using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is no exception.</span></span> <span data-ttu-id="0c4b3-105">Como mínimo, debe realizar las siguientes pruebas antes de mover una solución de BizTalk en producción:</span><span class="sxs-lookup"><span data-stu-id="0c4b3-105">At a minimum, you should perform the following testing before moving a BizTalk solution into production:</span></span>  

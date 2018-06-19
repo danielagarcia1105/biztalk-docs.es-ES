@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 11053 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 11053 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 923ce671-6d52-44b2-ae77-7b16fcb50dac
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277108"
 ---
 # <a name="single-sign-on-event-11053"></a><span data-ttu-id="90929-102">Inicio de sesión único: Evento 11053</span><span class="sxs-lookup"><span data-stu-id="90929-102">Single Sign-On: Event 11053</span></span>
 ## <a name="details"></a><span data-ttu-id="90929-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="90929-103">Details</span></span>  

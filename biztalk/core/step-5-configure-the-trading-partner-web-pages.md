@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Configurar las páginas Web de socio comercial | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Configurar las páginas Web de socio comercial | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 38c3054d-932a-42b6-a821-8b30604d8426
-caps.latest.revision: "38"
+caps.latest.revision: 38
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23980772"
 ---
 # <a name="step-5-configure-the-trading-partner-web-pages"></a><span data-ttu-id="20491-102">Paso 5: Configurar las páginas Web de socios comerciales</span><span class="sxs-lookup"><span data-stu-id="20491-102">Step 5: Configure the Trading Partner Web Pages</span></span>
 <span data-ttu-id="20491-103">![El paso 5 de 11](../core/media/tut-step5-of-11.gif "Tut_Step5_of_11")</span><span class="sxs-lookup"><span data-stu-id="20491-103">![Step 5 of 11](../core/media/tut-step5-of-11.gif "Tut_Step5_of_11")</span></span>  

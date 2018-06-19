@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214164"
 ---
 # <a name="supporting-secure-sockets-layer-ssl"></a><span data-ttu-id="5c991-102">Compatibilidad con capa de Sockets seguros (SSL)</span><span class="sxs-lookup"><span data-stu-id="5c991-102">Supporting Secure Sockets Layer (SSL)</span></span>
 <span data-ttu-id="5c991-103">Para implementar el protocolo de capa de Sockets seguros (SSL) en la implementación entre los equipos cliente y los servidores MRSR, es necesario solicitar y configurar un certificado de "Autenticación de servidor" en los servidores de Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="5c991-103">To implement the Secure Sockets Layer (SSL) protocol in your deployment between the client computers and the MRSR servers, you need to request and configure a "Server Authentication" certificate on your Internet Information Services (IIS) servers.</span></span>  

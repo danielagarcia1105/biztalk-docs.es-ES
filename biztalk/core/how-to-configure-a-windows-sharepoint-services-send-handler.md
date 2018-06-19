@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar Windows SharePoint Services envían controlador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar Windows SharePoint Services envían controlador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], send handlers
 - send handlers, Windows SharePoint Services adapters
 - Windows SharePoint Services adapters, send handlers
 ms.assetid: 457767d9-6e39-4553-9bbe-212fcb7c04bc
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969138"
 ---
 # <a name="how-to-configure-a-windows-sharepoint-services-send-handler"></a><span data-ttu-id="05d5a-102">Cómo configurar un controlador de envío de Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="05d5a-102">How to Configure a Windows SharePoint Services Send Handler</span></span>
 <span data-ttu-id="05d5a-103">Siga el procedimiento siguiente para modificar el host al que está asociado el controlador de recepción de Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="05d5a-103">Use the following procedure to change the host with which the Windows SharePoint Services send handler is associated.</span></span>  

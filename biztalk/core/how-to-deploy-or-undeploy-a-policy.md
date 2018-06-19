@@ -1,11 +1,11 @@
 ---
-title: "Cómo implementar o anular la implementación de una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo implementar o anular la implementación de una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [policies], undeploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - policies, undeploying
 - undeploying, policies
 ms.assetid: 9d26d4fe-9673-4baa-9927-02efda56b7a4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970106"
 ---
 # <a name="how-to-deploy-or-undeploy-a-policy"></a><span data-ttu-id="37b31-102">Cómo implementar o anular la implementación de una directiva</span><span class="sxs-lookup"><span data-stu-id="37b31-102">How to Deploy or Undeploy a Policy</span></span>
 <span data-ttu-id="37b31-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para implementar o anular la implementación de una directiva de forma manual.</span><span class="sxs-lookup"><span data-stu-id="37b31-103">This topic describes how to use the BizTalk Server Administration console to deploy or undeploy a policy manually.</span></span> <span data-ttu-id="37b31-104">Además, al iniciar una aplicación, las directivas que contenga se implementan automáticamente, y cuando se detiene, se anula de forma automáticamente la implementación de las directivas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="37b31-104">In addition, starting an application automatically deploys any policies it contains, and stopping an application automatically undeploys its policies.</span></span> <span data-ttu-id="37b31-105">Al implementar una directiva, entra en vigor en la aplicación que la usa.</span><span class="sxs-lookup"><span data-stu-id="37b31-105">Deploying a policy puts it into effect in the application that uses it.</span></span> <span data-ttu-id="37b31-106">Al anular la implementación de una directiva, se desactiva de modo que deja de funcionar en cualquier aplicación del grupo de BizTalk que la use.</span><span class="sxs-lookup"><span data-stu-id="37b31-106">Undeploying a policy makes it inactive so that it no longer functions in any application that uses it in the BizTalk group.</span></span>  

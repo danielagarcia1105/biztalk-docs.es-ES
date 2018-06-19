@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8fd279fb-2c68-4de4-a586-5a8e42a685ff
-caps.latest.revision: ''
+caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "23450301"
 ---
 # <a name="adapters-in-biztalk-server"></a><span data-ttu-id="089f1-103">Adaptadores de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="089f1-103">Adapters in BizTalk Server</span></span>
 <span data-ttu-id="089f1-104">Uno de los principales objetivos del diseño de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es facilitar el intercambio de documentos empresariales entre socios comerciales.</span><span class="sxs-lookup"><span data-stu-id="089f1-104">One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to facilitate the exchange of business documents between trading partners.</span></span> <span data-ttu-id="089f1-105">Para contribuir a lograr este objetivo, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye varios adaptadores que proporcionan conectividad entre BizTalk Server y socios comerciales mediante los protocolos de datos y formatos de documento comúnmente reconocidos.</span><span class="sxs-lookup"><span data-stu-id="089f1-105">To help meet this goal, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several adapters that provide connectivity between BizTalk Server and trading partners using commonly recognized data protocols and document formats.</span></span> <span data-ttu-id="089f1-106">Este tema explica lo que es un adaptador y por qué se utiliza.</span><span class="sxs-lookup"><span data-stu-id="089f1-106">This topic discusses what an adapter is and why you use an adapter.</span></span>  

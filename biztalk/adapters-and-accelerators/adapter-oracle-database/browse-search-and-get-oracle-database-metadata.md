@@ -1,11 +1,11 @@
 ---
 title: Explorar, buscar y obtener los metadatos de la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MetadataExchange
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - IMetadataRetrievalContract
 - SQLEXECUTE
 ms.assetid: 828d5a8e-f0a3-47b4-8298-5571cff64b52
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215356"
 ---
 # <a name="browse-search-and-get-oracle-database-metadata"></a><span data-ttu-id="6d06e-102">Explorar, buscar y obtener los metadatos de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="6d06e-102">Browse, search, and get Oracle Database metadata</span></span>
 <span data-ttu-id="6d06e-103">El[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies de metadatos de la base de datos de Oracle que describe la estructura del mensaje para la comunicación con la base de datos de Oracle mediante el adaptador.</span><span class="sxs-lookup"><span data-stu-id="6d06e-103">The[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces metadata from the Oracle database that describes the message structure for communicating with the Oracle database using the adapter.</span></span> <span data-ttu-id="6d06e-104">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con dos interfaces para recuperar los metadatos.</span><span class="sxs-lookup"><span data-stu-id="6d06e-104">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports two interfaces for retrieving metadata.</span></span>  

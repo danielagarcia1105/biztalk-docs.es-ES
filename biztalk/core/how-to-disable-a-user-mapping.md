@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO maps], disabling
 - maps [SSO], disabling
 ms.assetid: 9b6eaff2-674b-49f7-8d5c-3e040a7dc7f8
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968954"
 ---
 # <a name="how-to-disable-a-user-mapping"></a><span data-ttu-id="e37ca-102">Cómo deshabilitar una asignación de usuario</span><span class="sxs-lookup"><span data-stu-id="e37ca-102">How to Disable a User Mapping</span></span>
 <span data-ttu-id="e37ca-103">Puede deshabilitar una asignación de usuarios cuando desee desactivar todas las operaciones que están asociadas a una asignación determinada.</span><span class="sxs-lookup"><span data-stu-id="e37ca-103">You can disable a user mapping when you want to turn off all operations associated with a given mapping.</span></span> <span data-ttu-id="e37ca-104">Debe deshabilitar una asignación de usuarios antes de que pueda quitarla.</span><span class="sxs-lookup"><span data-stu-id="e37ca-104">You must disable a user mapping before you can remove it.</span></span>  

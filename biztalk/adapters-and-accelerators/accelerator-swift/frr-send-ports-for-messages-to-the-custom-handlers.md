@@ -1,11 +1,11 @@
 ---
-title: "FRR puertos de envío de mensajes a los controladores personalizados | Documentos de Microsoft"
-ms.custom: 
+title: FRR puertos de envío de mensajes a los controladores personalizados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, send ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - send ports, FRR
 - send ports, custom handlers
 ms.assetid: 486d7410-fde1-4a9b-a9c2-64c1ed85ebc0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207836"
 ---
 # <a name="frr-send-ports-for-messages-to-the-custom-handlers"></a><span data-ttu-id="f7338-102">FRR puertos de envío de mensajes a los controladores personalizados</span><span class="sxs-lookup"><span data-stu-id="f7338-102">FRR Send Ports for Messages to the Custom Handlers</span></span>
 <span data-ttu-id="f7338-103">Para habilitar a los controladores personalizados para FRR, debe crear una serie de puertos de envío FRR, cada uno de los cuales enruta una copia de un mensaje original de un tipo determinado para los controladores personalizados.</span><span class="sxs-lookup"><span data-stu-id="f7338-103">To enable custom handlers for FRR, you must create a series of FRR send ports, each one of which routes a copy of an original message of a certain type to the custom handlers.</span></span> <span data-ttu-id="f7338-104">Estos puertos de envío deben tienen los siguientes componentes de canalización:</span><span class="sxs-lookup"><span data-stu-id="f7338-104">These send ports must have the following pipeline components:</span></span>  

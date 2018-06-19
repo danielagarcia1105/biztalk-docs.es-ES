@@ -1,15 +1,15 @@
 ---
 title: Agregar el adaptador de BizTalk para JD Edwards OneWorld | Documentos de Microsoft
-description: "Agregar JD Edwards OneWorld a administración de BizTalk, cree el puerto de envío, configurar las propiedades de transporte y use las canalizaciones XMLReceive y XMLTransmit al usar el adaptador de JD Edwards OneWorld en BizTalk Server"
-ms.custom: 
+description: Agregar JD Edwards OneWorld a administración de BizTalk, cree el puerto de envío, configurar las propiedades de transporte y use las canalizaciones XMLReceive y XMLTransmit al usar el adaptador de JD Edwards OneWorld en BizTalk Server
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03126f4e-9156-4c0c-ab5c-0627f0c05263
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014259"
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a><span data-ttu-id="f1b15-103">Configurar los artefactos de JD Edwards EnterpriseOne en administración de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f1b15-103">Configure JD Edwards EnterpriseOne artifacts in BizTalk Administration</span></span>
 <span data-ttu-id="f1b15-104">El adaptador de BizTalk para JD Edwards OneWorld contiene las carpetas Controlador de recepción y Controlador de envío.</span><span class="sxs-lookup"><span data-stu-id="f1b15-104">Microsoft BizTalk Adapter for JD Edwards OneWorld contains both the Receive Handler and Send Handler folders.</span></span> <span data-ttu-id="f1b15-105">La carpeta Controlador de envío contiene BizTalkServerApplication.</span><span class="sxs-lookup"><span data-stu-id="f1b15-105">The Send Handler folder contains BizTalkServerApplication.</span></span> <span data-ttu-id="f1b15-106">El adaptador de BizTalk para JD Edwards OneWorld se puede crear; se ejecuta en curso con BizTalk Server y no se ejecuta en un proceso de host aislado.</span><span class="sxs-lookup"><span data-stu-id="f1b15-106">BizTalk Adapter for JD Edwards OneWorld is creatable; it runs in-process with BizTalk Server and does not run in an isolated host process.</span></span>  

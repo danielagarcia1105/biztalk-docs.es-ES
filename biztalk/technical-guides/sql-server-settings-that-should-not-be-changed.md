@@ -1,15 +1,15 @@
 ---
-title: "Configuración de SQL Server no se cambie | Documentos de Microsoft"
-description: "Max Degree of Parallelism, de creación automática de estadísticas de la actualización automática de estadísticas y volver a generar índices en BizTalk Server"
-ms.custom: 
+title: Configuración de SQL Server no se cambie | Documentos de Microsoft
+description: Max Degree of Parallelism, de creación automática de estadísticas de la actualización automática de estadísticas y volver a generar índices en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4b383bfb-c3d9-47d4-b294-f6be94302734
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015371"
 ---
 # <a name="sql-server-settings-that-should-not-be-changed"></a><span data-ttu-id="1d41e-103">Configuración de SQL Server que no se debe cambiar</span><span class="sxs-lookup"><span data-stu-id="1d41e-103">SQL Server Settings That Should Not Be Changed</span></span>
 <span data-ttu-id="1d41e-104">Al configurar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] durante los procedimientos de preparación operativa para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], no debe realizar cambios en las configuraciones siguientes.</span><span class="sxs-lookup"><span data-stu-id="1d41e-104">When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] during the operational readiness procedures for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you should not make changes to the following settings.</span></span>  

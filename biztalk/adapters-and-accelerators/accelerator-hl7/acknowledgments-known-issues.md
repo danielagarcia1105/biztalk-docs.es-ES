@@ -1,17 +1,17 @@
 ---
 title: Problemas conocidos de confirmaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - known issues, acknowledgements
 - acknowledgements, known issues
 ms.assetid: cb45f80e-ba89-4b3f-a770-4b1cf9b8e220
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204580"
 ---
 # <a name="acknowledgments-known-issues"></a><span data-ttu-id="84b5e-102">Problemas conocidos de confirmaciones</span><span class="sxs-lookup"><span data-stu-id="84b5e-102">Acknowledgments Known Issues</span></span>
 <span data-ttu-id="84b5e-103">Esta sección contiene información útil que puede ayudar a evitar errores de confirmación (ACK).</span><span class="sxs-lookup"><span data-stu-id="84b5e-103">This section contains useful information that may help you avoid acknowledgment (ACK) errors.</span></span>  

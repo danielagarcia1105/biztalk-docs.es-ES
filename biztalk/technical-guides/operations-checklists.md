@@ -1,14 +1,14 @@
 ---
-title: "Listas de comprobación de operaciones | Documentos de Microsoft"
-ms.custom: 
+title: Listas de comprobación de operaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a5c625a-6087-4054-a143-f0b56684a780
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299644"
 ---
 # <a name="operations-checklists"></a><span data-ttu-id="bb3e6-102">Listas de comprobación de operaciones</span><span class="sxs-lookup"><span data-stu-id="bb3e6-102">Operations Checklists</span></span>
 <span data-ttu-id="bb3e6-103">Esta sección contiene listas de comprobación para implementar y mantener [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="bb3e6-103">This section contains checklists for deploying and maintaining [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Creación e implementación de las canalizaciones de A4SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Creación e implementación de las canalizaciones de A4SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, pipelines
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipelines, deploying
 - pipelines, creating
 ms.assetid: 2a614510-7e15-4e88-9012-fc019d3aefee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210956"
 ---
 # <a name="creating-and-deploying-a4swift-pipelines"></a><span data-ttu-id="07819-102">Creación e implementación de las canalizaciones de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="07819-102">Creating and Deploying A4SWIFT Pipelines</span></span>
 <span data-ttu-id="07819-103">Realice los pasos siguientes para crear e implementar canalizaciones SWIFT reparación de mensajes y nuevo envío, tal como se muestra en la ilustración siguiente.</span><span class="sxs-lookup"><span data-stu-id="07819-103">Perform the following steps to create and deploy SWIFT pipelines for message repair and new submission, as shown in the following figure.</span></span>  

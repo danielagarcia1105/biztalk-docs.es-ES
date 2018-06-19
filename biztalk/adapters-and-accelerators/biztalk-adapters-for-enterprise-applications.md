@@ -1,15 +1,15 @@
 ---
 title: Adaptadores de aplicaciones empresariales | Documentos de Microsoft
 description: Microsoft BizTalk Adapters para aplicaciones empresariales incluye JD Edwards EnterpriseOne, JD Edwards OneWorld, PeopleSoft Enterprise, TIBCO Enterprise Message Service y TIBCO Rendezvous para usar en BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1960a5a-d627-42ce-8898-5df444846fea
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24016139"
 ---
 # <a name="enterprise-applications-adapters-in-biztalk-server"></a><span data-ttu-id="537c2-103">Adaptadores de aplicaciones empresariales de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="537c2-103">Enterprise Applications adapters in BizTalk Server</span></span>
 

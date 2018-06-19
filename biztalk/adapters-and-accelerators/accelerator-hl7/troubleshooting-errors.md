@@ -1,17 +1,17 @@
 ---
-title: "Solución de problemas de errores | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de errores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, troubleshooting
 - troubleshooting, errors
 ms.assetid: 08cc95a3-4be9-450f-a015-e031011158f7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207172"
 ---
 # <a name="troubleshooting-errors"></a><span data-ttu-id="9d281-102">Solución de problemas de errores</span><span class="sxs-lookup"><span data-stu-id="9d281-102">Troubleshooting Errors</span></span>
 <span data-ttu-id="9d281-103">Esta sección trata sobre los problemas relacionados con [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generado errores.</span><span class="sxs-lookup"><span data-stu-id="9d281-103">This section addresses issues related to [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generated errors.</span></span>  

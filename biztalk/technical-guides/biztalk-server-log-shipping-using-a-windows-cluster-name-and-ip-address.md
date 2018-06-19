@@ -1,14 +1,14 @@
 ---
-title: "Con un nombre de clúster de Windows y la dirección IP de trasvase de registros de servidor BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Con un nombre de clúster de Windows y la dirección IP de trasvase de registros de servidor BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82ef6908-6009-4d06-8315-0bc85a0aad18
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300068"
 ---
 # <a name="biztalk-server-log-shipping-using-a-windows-cluster-name-and-ip-address"></a><span data-ttu-id="0ac58-102">El servidor BizTalk Server trasvase de registros mediante una dirección IP y el nombre del clúster de Windows</span><span class="sxs-lookup"><span data-stu-id="0ac58-102">BizTalk Server Log Shipping Using a Windows Cluster Name and IP Address</span></span>
 <span data-ttu-id="0ac58-103">Es posible simplificar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trasvase de registros mediante el uso de dos instancias de un [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] clúster como los servidores de origen y destino en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenario de trasvase de registros.</span><span class="sxs-lookup"><span data-stu-id="0ac58-103">It is possible to simplify [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping by using two instances of a [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] cluster as the source and destination servers in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping scenario.</span></span> <span data-ttu-id="0ac58-104">A continuación, en el caso de un evento de recuperación ante desastres, recuperación de base de datos se ha simplificado cambiando simplemente el nombre y los recursos de dirección IP asociados con el clúster [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias tal y como se describe a continuación.</span><span class="sxs-lookup"><span data-stu-id="0ac58-104">Then, in the event of a disaster recovery event, database recovery is simplified by merely switching the name and IP address resources associated with the clustered [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instances as described below.</span></span> <span data-ttu-id="0ac58-105">Cuando se usa este enfoque no es necesario para ejecutar el script de UpdateDatabase.vbs tal como se describe en el tema [cómo restaurar bases de datos en el trabajo de copia de seguridad de BizTalk Server](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md) porque el nombre de la base de datos se modifica.</span><span class="sxs-lookup"><span data-stu-id="0ac58-105">When using this approach there is no need to run the UpdateDatabase.vbs script as described in the topic [How to Restore Databases in the Backup BizTalk Server Job](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md) because the database name is unchanged.</span></span>  

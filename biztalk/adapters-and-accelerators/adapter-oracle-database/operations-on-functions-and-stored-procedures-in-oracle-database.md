@@ -1,11 +1,11 @@
 ---
 title: Operaciones en funciones y procedimientos almacenados en la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - REF CURSOR
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - RECORD type
 - overloaded functions and procedures
 ms.assetid: 18072b58-65b2-4da5-9433-ea0da4e2d4f4
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214956"
 ---
 # <a name="operations-on-functions-and-stored-procedures-in-oracle-database"></a><span data-ttu-id="a4dae-102">Operaciones en funciones y procedimientos almacenados en la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="a4dae-102">Operations on functions and stored procedures in Oracle Database</span></span>
 <span data-ttu-id="a4dae-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] es compatible con las funciones, procedimientos y paquetes de Oracle de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="a4dae-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports Oracle functions, procedures, and packages in the following manner:</span></span>  

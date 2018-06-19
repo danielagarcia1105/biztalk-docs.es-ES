@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205028"
 ---
 # <a name="acknowledgment-tab"></a><span data-ttu-id="e4aaf-102">Ficha de confirmación</span><span class="sxs-lookup"><span data-stu-id="e4aaf-102">Acknowledgment Tab</span></span>
 <span data-ttu-id="e4aaf-103">Usa el **confirmación** ficha para especificar las propiedades de confirmación de confirmaciones entrantes y generadas.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-103">You use the **Acknowledgment** tab to specify the acknowledgment properties for inbound and generated acknowledgments.</span></span>  

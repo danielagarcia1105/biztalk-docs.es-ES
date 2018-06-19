@@ -1,11 +1,11 @@
 ---
-title: "Solo el inicio de sesión de soporte técnico para el adaptador de SOAP | Documentos de Microsoft"
-ms.custom: 
+title: Solo el inicio de sesión de soporte técnico para el adaptador de SOAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, SOAP adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SOAP adapters, SSO
 - SharePoint Portal server
 ms.assetid: c7bf755c-c37d-4b19-9817-a7f42e1e9656
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277556"
 ---
 # <a name="single-sign-on-support-for-the-soap-adapter"></a><span data-ttu-id="e8598-102">Compatibilidad de inicio de sesión único para el adaptador de SOAP</span><span class="sxs-lookup"><span data-stu-id="e8598-102">Single Sign-On Support for the SOAP Adapter</span></span>
 <span data-ttu-id="e8598-103">Puede usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar el inicio de sesión único (SSO) empresarial para su uso con la ubicación de recepción o el puerto de envío de SOAP.</span><span class="sxs-lookup"><span data-stu-id="e8598-103">You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure Enterprise Single Sign-On (SSO) for use with the SOAP receive location or send port.</span></span> <span data-ttu-id="e8598-104">En este tema se describe el funcionamiento de SSO con el adaptador de SOAP.</span><span class="sxs-lookup"><span data-stu-id="e8598-104">This topic describes how SSO works with the SOAP adapter.</span></span>  

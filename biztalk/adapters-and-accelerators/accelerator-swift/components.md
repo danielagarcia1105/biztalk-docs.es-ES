@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210516"
 ---
 # <a name="components"></a><span data-ttu-id="df77a-102">Components</span><span class="sxs-lookup"><span data-stu-id="df77a-102">Components</span></span>
 <span data-ttu-id="df77a-103">Usa [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] componentes para implementar soluciones de middleware centradas en SWIFT que facilitan la comerciales relaciones, integración de aplicaciones empresariales (EAI) y aplicación y automatización del flujo de trabajo de negocios de socios comerciales.</span><span class="sxs-lookup"><span data-stu-id="df77a-103">You use [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] components to implement SWIFT-centric middleware solutions that facilitate trading partner relationships, enterprise application integration (EAI), and application and business workflow automation.</span></span> <span data-ttu-id="df77a-104">Estos componentes incluyen:</span><span class="sxs-lookup"><span data-stu-id="df77a-104">These components include:</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213916"
 ---
 # <a name="tools"></a><span data-ttu-id="4a3f1-102">Herramientas</span><span class="sxs-lookup"><span data-stu-id="4a3f1-102">Tools</span></span>
 <span data-ttu-id="4a3f1-103">Esta sección proporciona instrucciones para usar utilidades incluidas en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK).</span><span class="sxs-lookup"><span data-stu-id="4a3f1-103">This section provides instructions for using utilities included in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Software Development Kit (SDK).</span></span>  

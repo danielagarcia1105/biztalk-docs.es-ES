@@ -1,17 +1,17 @@
 ---
 title: 'Paso 7: Configurar los servidores front-end HTTP de BizTalk | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, HTTP servers
 - HTTP server, configuring
 ms.assetid: 6b7e0b48-bb20-42f4-84a5-092ff3a02741
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213940"
 ---
 # <a name="step-7-configuring-the-biztalk-http-front-end-servers"></a><span data-ttu-id="4928d-102">Paso 7: Configurar los servidores front-end HTTP de BizTalk</span><span class="sxs-lookup"><span data-stu-id="4928d-102">Step 7: Configuring the BizTalk HTTP Front-End Servers</span></span>
 <span data-ttu-id="4928d-103">Esta sección proporciona instrucciones sobre cómo configurar los servidores Web de su [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] implementación.</span><span class="sxs-lookup"><span data-stu-id="4928d-103">This section provides guidelines on configuring the Web servers in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment.</span></span>  

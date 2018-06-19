@@ -1,17 +1,17 @@
 ---
-title: "Agregar componentes de canalización SWIFT al cuadro de herramientas | Documentos de Microsoft"
-ms.custom: 
+title: Agregar componentes de canalización SWIFT al cuadro de herramientas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - toolbox, adding pipelines
 - pipelines, adding to toolbox
 ms.assetid: 3821c10e-ef9b-4657-b934-cff6d096f654
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208932"
 ---
 # <a name="adding-swift-pipeline-components-to-the-toolbox"></a><span data-ttu-id="be71b-102">Agregar componentes de canalización SWIFT al cuadro de herramientas</span><span class="sxs-lookup"><span data-stu-id="be71b-102">Adding SWIFT Pipeline Components to the Toolbox</span></span>
 <span data-ttu-id="be71b-103">Debe agregar los componentes de canalización SWIFT a la [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] cuadro de herramientas, para que pueda crear canalizaciones personalizadas mediante estos componentes.</span><span class="sxs-lookup"><span data-stu-id="be71b-103">You must add the SWIFT pipeline components to the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Toolbox, so that you can create custom pipelines using these components.</span></span> <span data-ttu-id="be71b-104">Esto es necesario para crear canalizaciones de reparación de mensajes y nuevo envío o conciliación de respuesta de FIN.</span><span class="sxs-lookup"><span data-stu-id="be71b-104">This is required to create pipelines for either Message Repair and New Submission or FIN Response Reconciliation.</span></span>  

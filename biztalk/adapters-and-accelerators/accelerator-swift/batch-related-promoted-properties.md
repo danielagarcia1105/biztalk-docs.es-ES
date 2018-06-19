@@ -1,17 +1,17 @@
 ---
 title: Propiedades promocionan, relacionadas con el lote | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, batch related properties
 - batching, promoted properties
 ms.assetid: 00df1d8f-2f3f-4e3f-9983-37dcf3514fd8
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210548"
 ---
 # <a name="batch-related-promoted-properties"></a><span data-ttu-id="1f2e6-102">Propiedades promocionadas relacionadas con el lote</span><span class="sxs-lookup"><span data-stu-id="1f2e6-102">Batch-Related Promoted Properties</span></span>
 <span data-ttu-id="1f2e6-103">Cuando el Desensamblador SWIFT publica un mensaje que procede de un lote de entrada a la base de datos de cuadro de mensajes, el Desensamblador marca el mensaje con especial [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] promocionar propiedades que son específicas de los mensajes por lotes.</span><span class="sxs-lookup"><span data-stu-id="1f2e6-103">When the SWIFT disassembler publishes a message that originated from an inbound batch to the MessageBox database, the disassembler marks the message with special [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] promoted properties that are specific to batch messages.</span></span> <span data-ttu-id="1f2e6-104">Estas propiedades proporcionan información de contexto, como el lote que se originó un mensaje desde la posición ordinal que se encontraba en el lote, que se conservan los elementos de A4SWIFT y así sucesivamente.</span><span class="sxs-lookup"><span data-stu-id="1f2e6-104">These properties provide context information, such as which batch a message originated from, what ordinal position it was in within the batch, which parts A4SWIFT has preserved, and so forth.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="1f2e6-110">**A4SWIFT_PosInBatch**</span><span class="sxs-lookup"><span data-stu-id="1f2e6-110">**A4SWIFT_PosInBatch**</span></span>  
   
- <span data-ttu-id="1f2e6-111">Para obtener información sobre estas y otras propiedades promocionadas, consulte [A4SWIFT_ * las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="1f2e6-111">For information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+ <span data-ttu-id="1f2e6-111">Para obtener información sobre estas y otras propiedades promocionadas, consulte [A4SWIFT_ \* las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="1f2e6-111">For information about these and other promoted properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
 ## <a name="failures-during-batch-processing"></a><span data-ttu-id="1f2e6-112">Errores durante el procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="1f2e6-112">Failures During Batch Processing</span></span>  
  <span data-ttu-id="1f2e6-113">Cuando el Desensamblador SWIFT encuentra errores de mensaje (análisis o validación) durante el procesamiento por lotes (**entrada anulando** establecido en **True**), su comportamiento depende de la configuración del procesamiento por lotes, como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="1f2e6-113">When the SWIFT disassembler encounters message failures (parsing or validation) during batch processing (**Inbound Debatching** set to **True**), its behavior depends upon the batching configuration, as follows:</span></span>  

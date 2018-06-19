@@ -1,11 +1,11 @@
 ---
-title: "Validación de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Validación de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, acknowledgements
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - acknowledgements, messages
 - messages, validating
 ms.assetid: 7dba0f40-5e19-4598-82cb-22c71e9536c6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206892"
 ---
 # <a name="validating-messages"></a><span data-ttu-id="1f12f-102">Validación de mensajes</span><span class="sxs-lookup"><span data-stu-id="1f12f-102">Validating Messages</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="1f12f-103">Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) admite el envío de confirmaciones (ACK) para los mensajes entrantes de una aplicación o socio en forma de una recepción de XML de HL7 que puedan necesitar la conversión a un HL7 codificado el mensaje de confirmación.</span><span class="sxs-lookup"><span data-stu-id="1f12f-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) supports sending acknowledgments (ACK) for inbound messages from an application or trading partner in the form of an HL7 XML receipt that might need conversion to an HL7 encoded ACK message.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="1f12f-104">Normalmente genera una confirmación después de que comprueba el mensaje entrante con la especificación de documento de entrada relevantes (formato correspondiente al socio comercial).</span><span class="sxs-lookup"><span data-stu-id="1f12f-104"> typically generates a receipt after it checks the inbound message against the relevant inbound (trading-partner format) document specification.</span></span> <span data-ttu-id="1f12f-105">Cuando todos los segmentos supera la validación, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] devuelve una confirmación que indica la aceptación a la aplicación.</span><span class="sxs-lookup"><span data-stu-id="1f12f-105">When all the segments pass validation, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] returns a receipt that indicates acceptance to the application.</span></span> <span data-ttu-id="1f12f-106">En caso contrario, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] genera una notificación que indica error o error o rechazar.</span><span class="sxs-lookup"><span data-stu-id="1f12f-106">Otherwise, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates a receipt indicating error or failure/reject.</span></span>  

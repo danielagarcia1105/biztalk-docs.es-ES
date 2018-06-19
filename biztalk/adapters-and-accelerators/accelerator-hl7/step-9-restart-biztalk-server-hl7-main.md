@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206292"
 ---
 # <a name="step-9-restart-biztalk-serverhl7main"></a><span data-ttu-id="62665-102">Paso 9: Reiniciar BizTalk Server_hl7_main</span><span class="sxs-lookup"><span data-stu-id="62665-102">Step 9: Restart BizTalk Server_hl7_main</span></span>
 <span data-ttu-id="62665-103">En este paso, reinicie [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] en orden para que los cambios realizados en este tutorial surta efecto.</span><span class="sxs-lookup"><span data-stu-id="62665-103">In this step, you restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] in order for the changes you made in this tutorial to take effect.</span></span>  

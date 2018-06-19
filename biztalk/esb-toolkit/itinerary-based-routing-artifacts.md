@@ -1,14 +1,14 @@
 ---
 title: Artefactos de enrutamientos basados en itinerario | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cff38ab7-5a16-42cc-9065-075e9db7acd3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296828"
 ---
 # <a name="itinerary-based-routing-artifacts"></a><span data-ttu-id="f746c-102">Artefactos de enrutamientos basados en itinerario</span><span class="sxs-lookup"><span data-stu-id="f746c-102">Itinerary-Based Routing Artifacts</span></span>
 <span data-ttu-id="f746c-103">Las capacidades de enrutamiento basado en itinerario el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluyen un conjunto de claves de los artefactos definidos en varios ensamblados.</span><span class="sxs-lookup"><span data-stu-id="f746c-103">The itinerary-based routing capabilities of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] include a set of key artifacts defined in multiple assemblies.</span></span> <span data-ttu-id="f746c-104">Las siguientes tablas enumeran estos artefactos por categoría para ayudar a los programadores al trabajar con y extender la implementación del enrutamiento basado en itinerario con implementaciones de servicio itinerarios de ESB adicionales.</span><span class="sxs-lookup"><span data-stu-id="f746c-104">The following tables list these artifacts by category to assist developers when working with and extending the itinerary-based routing implementation with additional ESB itinerary service implementations.</span></span>  

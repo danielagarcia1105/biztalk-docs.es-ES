@@ -1,15 +1,15 @@
 ---
 title: Kit de herramientas de Microsoft BizTalk ESB | Documentos de Microsoft
-description: "Introducción, los escenarios comunes y los componentes del Kit de herramientas de ESB en BizTalk Server"
-caps.latest.revision: "14"
+description: Introducción, los escenarios comunes y los componentes del Kit de herramientas de ESB en BizTalk Server
+caps.latest.revision: 14
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 17ffaebc-7e33-4de8-8e94-109cd5d16ca0
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297036"
 ---
 # <a name="microsoft-biztalk-esb-toolkit"></a><span data-ttu-id="8497a-103">Kit de herramientas de Microsoft BizTalk ESB</span><span class="sxs-lookup"><span data-stu-id="8497a-103">Microsoft BizTalk ESB Toolkit</span></span>
 <span data-ttu-id="8497a-104">![Logotipo del Kit de herramientas de BizTalk ESB](../esb-toolkit/media/biztalkesbtoolkitlogo.gif "BizTalkESBToolkitLogo")</span><span class="sxs-lookup"><span data-stu-id="8497a-104">![BizTalk ESB Toolkit Logo](../esb-toolkit/media/biztalkesbtoolkitlogo.gif "BizTalkESBToolkitLogo")</span></span>  
@@ -25,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="summary"></a><span data-ttu-id="8497a-105">Resumen</span><span class="sxs-lookup"><span data-stu-id="8497a-105">Summary</span></span>  
  <span data-ttu-id="8497a-106">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] utiliza [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] para admitir una arquitectura de mensajería con acoplamiento flexible.</span><span class="sxs-lookup"><span data-stu-id="8497a-106">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] uses [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] to support a loosely coupled messaging architecture.</span></span> <span data-ttu-id="8497a-107">BizTalk Server incluye un eficaz mecanismo de publicación o suscripción para aplicaciones de mensajería que funciona al crear y completar suscripciones, lo que proporciona una plataforma escalable y de gran eficacia para aplicaciones de arquitectura orientada a servicios (SOA).</span><span class="sxs-lookup"><span data-stu-id="8497a-107">BizTalk Server includes a powerful publish/subscribe mechanism for messaging applications that works by creating and filling subscriptions, which provides a highly efficient and scalable platform for service-oriented architecture (SOA) applications.</span></span>  
   
- <span data-ttu-id="8497a-108">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] amplía la funcionalidad de BizTalk Server proporciona una gama de nuevas capacidades que se centra en crear aplicaciones sólidas, conectadas, orientadas a servicios que incorporan la invocación del servicio basado en itinerario de servicio ligera composición, resolución dinámica de extremos y asignaciones, servicio Web y WS-* integración, la administración de errores y reporting e integración con soluciones de regulación de SOA de terceros.</span><span class="sxs-lookup"><span data-stu-id="8497a-108">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extends the functionality of BizTalk Server to provide a range of new capabilities focused on building robust, connected, service-oriented applications that incorporate itinerary-based service invocation for lightweight service composition, dynamic resolution of endpoints and maps, Web service and WS-* integration, fault management and reporting, and integration with third-party SOA governance solutions.</span></span>  
+ <span data-ttu-id="8497a-108">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] amplía la funcionalidad de BizTalk Server proporciona una gama de nuevas capacidades que se centra en crear aplicaciones sólidas, conectadas, orientadas a servicios que incorporan la invocación del servicio basado en itinerario de servicio ligera composición, resolución dinámica de extremos y asignaciones, servicio Web y WS-\* integración, la administración de errores y reporting e integración con soluciones de regulación de SOA de terceros.</span><span class="sxs-lookup"><span data-stu-id="8497a-108">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extends the functionality of BizTalk Server to provide a range of new capabilities focused on building robust, connected, service-oriented applications that incorporate itinerary-based service invocation for lightweight service composition, dynamic resolution of endpoints and maps, Web service and WS-\* integration, fault management and reporting, and integration with third-party SOA governance solutions.</span></span>  
   
 ## <a name="overview"></a><span data-ttu-id="8497a-109">Información general</span><span class="sxs-lookup"><span data-stu-id="8497a-109">Overview</span></span>  
  <span data-ttu-id="8497a-110">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona una guía de arquitectura, patrones y una colección de componentes de BizTalk Server y .NET Framework para simplificar el desarrollo de un Bus de servicio empresarial (ESB) en la plataforma de Microsoft y para permitir que los clientes de Microsoft extender sus propias soluciones de mensajería e integración.</span><span class="sxs-lookup"><span data-stu-id="8497a-110">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] provides architectural guidance, patterns, and a collection of BizTalk Server and .NET Framework components to simplify the development of an Enterprise Service Bus (ESB) on the Microsoft platform and to allow Microsoft customers to extend their own messaging and integration solutions.</span></span>  

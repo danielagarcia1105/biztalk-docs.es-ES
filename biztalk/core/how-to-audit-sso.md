@@ -22,6 +22,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25969506"
 ---
 # <a name="how-to-audit-sso"></a><span data-ttu-id="9c5b4-102">Cómo auditar SSO</span><span class="sxs-lookup"><span data-stu-id="9c5b4-102">How to Audit SSO</span></span>
 <span data-ttu-id="9c5b4-103">Puede utilizar el Complemento MMC o la línea de comandos para establecer los niveles de auditoría positivo y negativo.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-103">You can use the MMC Snap-In or the command line to set both the positive and negative auditing levels.</span></span> <span data-ttu-id="9c5b4-104">Los resultados de la auditoría se almacenan tanto en los registros de sucesos como en los de auditoría de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-104">Results of the auditing are stored in both the event logs and the audit logs of the database.</span></span>  
@@ -80,7 +81,7 @@ ms.lasthandoff: 04/20/2018
   
 2.  <span data-ttu-id="9c5b4-129">En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-129">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="9c5b4-130">El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-130">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="9c5b4-131">Tipo de **ssomanage-updatedb \<archivo de actualización\>**, donde  **\<archivo de actualización\>**es la ruta de acceso y nombre del archivo.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-131">Type **ssomanage –updatedb \<update file\>**, where **\<update file\>**is the path and name of the file.</span></span>  
+3.  <span data-ttu-id="9c5b4-131">Tipo de **ssomanage-updatedb \<archivo de actualización\>**, donde  **\<archivo de actualización\>** es la ruta de acceso y nombre del archivo.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-131">Type **ssomanage –updatedb \<update file\>**, where **\<update file\>** is the path and name of the file.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="9c5b4-132">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="9c5b4-132">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

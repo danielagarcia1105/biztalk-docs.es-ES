@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967538"
 ---
 # <a name="step-3-submitting-a-3a2-request"></a><span data-ttu-id="e2e2d-102">Paso 3: Enviar una solicitud de 3A2</span><span class="sxs-lookup"><span data-stu-id="e2e2d-102">Step 3: Submitting a 3A2 Request</span></span>
 <span data-ttu-id="e2e2d-103">En este paso, se preparará y enviará una solicitud con el proceso de interfaz de socio (PIP) para un 3A2 - solicitud precio y disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="e2e2d-103">In this step, you prepare and submit a request using the Partner Interface Process (PIP) for a 3A2 - Request Price and Availability.</span></span> <span data-ttu-id="e2e2d-104">Este PIP permite a una organización de comprador obtener información sobre un determinado producto, como el precio y el número de unidades disponibles.</span><span class="sxs-lookup"><span data-stu-id="e2e2d-104">This PIP enables a buyer organization to obtain information about a certain product, such as price and number of available units.</span></span> <span data-ttu-id="e2e2d-105">El comprador, a continuación, puede procesar esta información a través de las reglas de negocios para determinar si se debe adquirir el producto del proveedor.</span><span class="sxs-lookup"><span data-stu-id="e2e2d-105">The buyer can then process that information through business rules to determine whether to purchase the product from the supplier.</span></span>  

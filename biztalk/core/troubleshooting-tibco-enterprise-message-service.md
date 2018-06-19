@@ -1,15 +1,15 @@
 ---
 title: Solucionar problemas de TIBCO Enterprise Message Service | Documentos de Microsoft
-description: "Errores de instalación y el uso de seguimiento de eventos para solucionar problemas de adaptador de TIBCO EMS en BizTalk Server"
-ms.custom: 
+description: Errores de instalación y el uso de seguimiento de eventos para solucionar problemas de adaptador de TIBCO EMS en BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ff938e08-1676-4b05-a679-726f5a86dbca
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013243"
 ---
 # <a name="troubleshooting-tibco-enterprise-message-service"></a><span data-ttu-id="7a288-103">Solución de problemas de TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="7a288-103">Troubleshooting TIBCO Enterprise Message Service</span></span>
 

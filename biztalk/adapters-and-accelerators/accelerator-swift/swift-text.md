@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214524"
 ---
 # <a name="swift-text"></a><span data-ttu-id="ae5fb-102">Texto SWIFT</span><span class="sxs-lookup"><span data-stu-id="ae5fb-102">SWIFT Text</span></span>
 <span data-ttu-id="ae5fb-103">El texto del mensaje constituye la carga del mensaje (FIN) financiero y contiene todos los campos de datos excepto los campos que contienen el remitente, el receptor y el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="ae5fb-103">The message text makes up the payload of the financial (FIN) message, and contains all of the data fields except the fields containing the sender, receiver, and message type.</span></span> <span data-ttu-id="ae5fb-104">Estos tres campos se encuentran en la parte de encabezado.</span><span class="sxs-lookup"><span data-stu-id="ae5fb-104">These three fields are contained in the header portion.</span></span> <span data-ttu-id="ae5fb-105">Algunos mensajes también contienen un encabezado de usuario opcionales, que también puede proporcionar información de procesamiento.</span><span class="sxs-lookup"><span data-stu-id="ae5fb-105">Some messages also contain an optional User Header, which may also provide processing information.</span></span>  

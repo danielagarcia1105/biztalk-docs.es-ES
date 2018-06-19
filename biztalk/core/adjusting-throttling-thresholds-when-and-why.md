@@ -1,14 +1,14 @@
 ---
-title: "Ajustar umbrales de limitación: Cuándo y por qué | Documentos de Microsoft"
-ms.custom: 
+title: 'Ajustar umbrales de limitación: Cuándo y por qué | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9afb26c8-e5f4-4b78-9a45-a1263e3cb6ab
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229932"
 ---
 # <a name="adjusting-throttling-thresholds-when-and-why"></a><span data-ttu-id="ada14-102">Ajustar umbrales de limitación: Cuándo y por qué</span><span class="sxs-lookup"><span data-stu-id="ada14-102">Adjusting Throttling Thresholds: When and Why</span></span>
 <span data-ttu-id="ada14-103">Cuando se trata de la limitación, un tamaño no se ajusta a todo.</span><span class="sxs-lookup"><span data-stu-id="ada14-103">When it comes to throttling, one size does not fit all.</span></span> <span data-ttu-id="ada14-104">Existe una serie de factores que determinarán lo que será una configuración óptima.</span><span class="sxs-lookup"><span data-stu-id="ada14-104">There are a range of factors that will determine what the optimal settings should be.</span></span> <span data-ttu-id="ada14-105">BizTalk Server proporciona los valores predeterminados que se ha probado que protegen con eficacia un sistema de aspectos como la sobrecarga que supone el trabajo acumulado.</span><span class="sxs-lookup"><span data-stu-id="ada14-105">Out of the box, BizTalk Server provides default values that have been proven through testing to effectively protect a system from things like backlog overages.</span></span> <span data-ttu-id="ada14-106">Sin embargo, para determinados escenarios, puede ser demasiado agresivo.</span><span class="sxs-lookup"><span data-stu-id="ada14-106">However, for some scenarios, this may be too aggressive.</span></span> <span data-ttu-id="ada14-107">Los siguientes ejemplos muestran esta función.</span><span class="sxs-lookup"><span data-stu-id="ada14-107">The following examples illustrate this point.</span></span>  

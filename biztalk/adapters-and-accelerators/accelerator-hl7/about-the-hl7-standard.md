@@ -1,18 +1,18 @@
 ---
-title: "Acerca del estándar HL7 | Documentos de Microsoft"
-ms.custom: 
+title: Acerca del estándar HL7 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - standards [HL7]
 - HL7, standards
 - Health Level Seven (HL7)
 ms.assetid: 15f26ae3-d1ad-40a4-aafe-7148ef30cadb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204844"
 ---
 # <a name="about-the-hl7-standard"></a><span data-ttu-id="73413-102">Acerca del estándar HL7</span><span class="sxs-lookup"><span data-stu-id="73413-102">About the HL7 Standard</span></span>
 <span data-ttu-id="73413-103">El propósito de la salud nivel siete (HL7) estándar es facilitar la comunicación en entornos de atención médica.</span><span class="sxs-lookup"><span data-stu-id="73413-103">The purpose of the Health Level Seven (HL7) standard is to facilitate communication in health care environments.</span></span> <span data-ttu-id="73413-104">El objetivo principal es proporcionar un estándar para el intercambio de datos entre aplicaciones informáticas sanitaria eliminan o reducen considerablemente el mantenimiento de programación y el programa de interfaz personalizada que en caso contrario, podrían ser necesario.</span><span class="sxs-lookup"><span data-stu-id="73413-104">The primary goal is to provide standards for the exchange of data among health care computer applications that eliminate or substantially reduce the custom interface programming and program maintenance that may otherwise be required.</span></span> <span data-ttu-id="73413-105">Puede designar este objetivo principal como un conjunto de objetivos:</span><span class="sxs-lookup"><span data-stu-id="73413-105">You can delineate this primary goal as a set of goals:</span></span>  

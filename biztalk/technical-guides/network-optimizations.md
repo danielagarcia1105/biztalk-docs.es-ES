@@ -1,14 +1,14 @@
 ---
 title: Optimizaciones de red | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9ff0392f-37ae-4ca6-8cc6-d53065de64c5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298764"
 ---
 # <a name="network-optimizations"></a><span data-ttu-id="659c6-102">Optimizaciones de red</span><span class="sxs-lookup"><span data-stu-id="659c6-102">Network Optimizations</span></span>
 <span data-ttu-id="659c6-103">En un entorno de BizTalk Server donde los equipos de BizTalk Server son independientes de los equipos de SQL Server, cada mensaje procesado por el servidor BizTalk Server requiere comunicación a través de la red.</span><span class="sxs-lookup"><span data-stu-id="659c6-103">In a BizTalk Server environment where the BizTalk Server computer(s) are separate from the SQL Server computer(s), each and every message processed by BizTalk Server requires communication over the network.</span></span> <span data-ttu-id="659c6-104">Esta comunicación incluye el tráfico considerable entre los equipos de BizTalk Server y las bases de datos de cuadro de mensaje de BizTalk, las bases de datos de administración de BizTalk, las bases de datos BAM y otras bases de datos.</span><span class="sxs-lookup"><span data-stu-id="659c6-104">This communication includes considerable traffic between the BizTalk Server computers and the BizTalk Message Box database(s), the BizTalk Management database(s), the BAM databases, and other databases.</span></span> <span data-ttu-id="659c6-105">En escenarios de carga elevada, esta comunicación, puede dar lugar a que el tráfico de red considerable y puede convertirse en un cuello de botella, especialmente cuando no se han optimizado configuración de red, no hay suficientes tarjetas de interfaz de red se instalan o no hay suficiente ancho de banda es está disponible.</span><span class="sxs-lookup"><span data-stu-id="659c6-105">In high-load scenarios, this communication can result in considerable network traffic and can become a bottleneck, especially when network settings have not been optimized, not enough network interface cards are installed, or insufficient network bandwidth is available.</span></span>  

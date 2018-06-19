@@ -1,14 +1,14 @@
 ---
 title: Entornos con pocos privilegios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: abdc45d0-b63a-4b6c-80c4-1f8e87644cd9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298300"
 ---
 # <a name="low-privilege-environments"></a><span data-ttu-id="77b88-102">Entornos con pocos privilegios</span><span class="sxs-lookup"><span data-stu-id="77b88-102">Low-Privilege Environments</span></span>
 <span data-ttu-id="77b88-103">Varios flujos de trabajo que se incluyen con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración requiere permisos elevados para realizar determinadas acciones.</span><span class="sxs-lookup"><span data-stu-id="77b88-103">Several workflows that are included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack require elevated permissions to perform certain actions.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="77b88-104">Módulo de administración le permite realizar funciones básicas de supervisión en un entorno con pocos privilegios.</span><span class="sxs-lookup"><span data-stu-id="77b88-104"> Management Pack enables you to perform basic monitoring functionalities in a low privilege environment.</span></span> <span data-ttu-id="77b88-105">Hay dos funciones administrativas: el Administrador de BizTalk Server y el operador de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="77b88-105">There are two Administrative Roles: the BizTalk Server Administrator, and the BizTalk Server Operator.</span></span> <span data-ttu-id="77b88-106">El Administrador de BizTalk Server tiene una función de muchos privilegios, con acceso a los datos de configuración y de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="77b88-106">The BizTalk Server Administrator is a high privilege role with access to configuration and tracking data.</span></span> <span data-ttu-id="77b88-107">El Administrador de BizTalk Server puede realizar todas las tareas administrativas claves tales dar de alta e iniciar los artefactos.</span><span class="sxs-lookup"><span data-stu-id="77b88-107">The BizTalk Server Administrator can perform all key administrative tasks such enlisting and starting artifacts.</span></span> <span data-ttu-id="77b88-108">El Operador de BizTalk Server tiene una función de pocos privilegios, con acceso sólo para supervisar y solucionar problemas de acciones.</span><span class="sxs-lookup"><span data-stu-id="77b88-108">The BizTalk Server Operator is a low privilege role with access only to monitoring and troubleshooting actions.</span></span> <span data-ttu-id="77b88-109">Para obtener más información, consulte [derechos de usuario mínimos de seguridad](http://technet.microsoft.com/library/aa559845\(BTS.80\).aspx).</span><span class="sxs-lookup"><span data-stu-id="77b88-109">For more information, see [Minimum Security User Rights](http://technet.microsoft.com/library/aa559845\(BTS.80\).aspx).</span></span>  

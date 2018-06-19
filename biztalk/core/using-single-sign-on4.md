@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-tibco-ems/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 6715342fde73a5243f1d076e0863ba796fb231a0
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013563"
 ---
 # <a name="using-single-sign-on"></a><span data-ttu-id="0b492-101">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="0b492-101">Using Single Sign-On</span></span>
 <span data-ttu-id="0b492-102">Microsoft BizTalk Adapter para TIBCO Enterprise Message Service admite el inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="0b492-102">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service provides Single Sign-On (SSO) support.</span></span> <span data-ttu-id="0b492-103">Una aplicación afiliada creada por las herramientas de inicio de sesión único empresarial representa un sistema servidor como TIBCO Enterprise Message Service.</span><span class="sxs-lookup"><span data-stu-id="0b492-103">An affiliate application created by Enterprise Single Sign-On tools represents a server system such as TIBCO Enterprise Message Service.</span></span>  

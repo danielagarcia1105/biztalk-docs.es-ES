@@ -1,14 +1,14 @@
 ---
 title: Grupos de dominio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9adc090e-e18c-46b6-b985-49b200d42966
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968290"
 ---
 # <a name="domain-groups-in-biztalk"></a><span data-ttu-id="b5244-102">Grupos de dominio de BIzTalk</span><span class="sxs-lookup"><span data-stu-id="b5244-102">Domain Groups in BIzTalk</span></span>
 <span data-ttu-id="b5244-103">BizTalk Server admite cuentas de grupo de dominio y de usuario en configuraciones de uno y de varios equipos.</span><span class="sxs-lookup"><span data-stu-id="b5244-103">BizTalk Server supports domain group and user accounts in both single and multiple computer configurations.</span></span> <span data-ttu-id="b5244-104">Para configuraciones de varios equipos, debe observar los requisitos mencionados en esta sección y en el apartado Consideraciones para crear un entorno multiservidor de la Guía de instalación.</span><span class="sxs-lookup"><span data-stu-id="b5244-104">For multiple computer configurations, you must observe the requirements provided in this section and in the Considerations for Multiserver Environments in the Installation Guide.</span></span> <span data-ttu-id="b5244-105">Para obtener más información, consulte el [Introducción a la instalación](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).</span><span class="sxs-lookup"><span data-stu-id="b5244-105">For more information, see the [installation overview](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).</span></span>  

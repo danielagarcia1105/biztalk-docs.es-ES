@@ -1,11 +1,11 @@
 ---
-title: "Esquemas de mensaje para la eliminación de básicas Insert, Update y seleccione las operaciones en tablas y vistas | Documentos de Microsoft"
-ms.custom: 
+title: Esquemas de mensaje para la eliminación de básicas Insert, Update y seleccione las operaciones en tablas y vistas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations on tables, message actions for
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - table operations, message schemas for
 - operations on tables, message structure for
 ms.assetid: 8228d5e6-14af-49e0-b34b-be03aea59189
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216004"
 ---
 # <a name="message-schemas-for-the-basic-insert-update-delete-and-select-operations-on-tables-and-views"></a><span data-ttu-id="74847-102">Esquemas de mensaje para la inserción básico, actualizar, eliminar y seleccione las operaciones en tablas y vistas</span><span class="sxs-lookup"><span data-stu-id="74847-102">Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views</span></span>
 <span data-ttu-id="74847-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies básicas inserción, Update, Delete, y las operaciones Select para cada tabla y ver en la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="74847-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces basic Insert, Update, Delete, and Select operations for each table and view in the Oracle database.</span></span> <span data-ttu-id="74847-104">Estas operaciones realizan la instrucción SQL correspondiente calificada por una cláusula WHERE.</span><span class="sxs-lookup"><span data-stu-id="74847-104">These operations perform the appropriate SQL statement qualified by a WHERE clause.</span></span> <span data-ttu-id="74847-105">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] usa fuertemente tipada de registros y conjuntos de registros en estas operaciones.</span><span class="sxs-lookup"><span data-stu-id="74847-105">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses strongly-typed records and record sets in these operations.</span></span>  

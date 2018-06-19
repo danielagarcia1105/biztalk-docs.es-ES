@@ -1,14 +1,14 @@
 ---
-title: "Archivos de este módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Archivos de este módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 690bfac3-ef0a-49c9-942c-96bda2e24d09
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297564"
 ---
 # <a name="files-in-this-management-pack"></a><span data-ttu-id="83572-102">Archivos de este módulo de administración</span><span class="sxs-lookup"><span data-stu-id="83572-102">Files in This Management Pack</span></span>
 <span data-ttu-id="83572-103">Para supervisar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], primero debe descargar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración de [System Center Management Pack Catalog](http://www.microsoft.com/download/details.aspx?id=39617) (http://www.microsoft.com/download/details.aspx?id=39617).</span><span class="sxs-lookup"><span data-stu-id="83572-103">To monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must first download the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack from [System Center Management Pack Catalog](http://www.microsoft.com/download/details.aspx?id=39617) (http://www.microsoft.com/download/details.aspx?id=39617).</span></span> <span data-ttu-id="83572-104">El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración incluye los siguientes archivos:</span><span class="sxs-lookup"><span data-stu-id="83572-104">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack includes the following files:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "¿Qué es SWIFTNet? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es SWIFTNet? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2b074385-352c-40f4-b73e-1891c627aa4e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225316"
 ---
 # <a name="what-is-swiftnet"></a><span data-ttu-id="ceb2b-103">¿Qué es SWIFTNet?</span><span class="sxs-lookup"><span data-stu-id="ceb2b-103">What Is SWIFTNet?</span></span>
 <span data-ttu-id="ceb2b-104">Como un solución estándar del sector para la industria financieros, de propósito general SWIFTNet proporciona una interfaz independiente de la aplicación, una sola ventana para todas las aplicaciones conectadas de todas las instituciones que participan en la Comunidad financiera global.</span><span class="sxs-lookup"><span data-stu-id="ceb2b-104">As a general purpose, industry-standard solution for the financial industry, SWIFTNet provides an application-independent, single window interface to all the connected applications of all the institutions participating in the global financial community.</span></span> <span data-ttu-id="ceb2b-105">El acceso real se controla por las decisiones de directiva de negocio de cada administrador de servicios, no por las limitaciones técnicas de la infraestructura.</span><span class="sxs-lookup"><span data-stu-id="ceb2b-105">Actual access is controlled by the business policy decisions of each Service Administrator, not by the technical limitations of the infrastructure.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Cualquier atributo nodos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa2d25bc-3a8f-4fd9-acad-341b8e80c737
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964650"
 ---
 # <a name="any-attribute-nodes"></a><span data-ttu-id="7e9af-102">Nodos Cualquier atributo</span><span class="sxs-lookup"><span data-stu-id="7e9af-102">Any Attribute Nodes</span></span>
 <span data-ttu-id="7e9af-103">En el Editor de BizTalk, puede usar un **cualquier atributo** nodo para indicar un elemento (conocido) dentro de un mensaje de instancia para el que pueden aparecer cero o más atributos desconocidos.</span><span class="sxs-lookup"><span data-stu-id="7e9af-103">In BizTalk Editor, you can use an **Any Attribute** node to indicate a (known) element within an instance message for which zero or more unknown attributes may appear.</span></span> <span data-ttu-id="7e9af-104">Esto resulta útil para las situaciones en las que sabe que un elemento específico estará presente en una ubicación específica de un mensaje de instancia, pero no está seguro de qué atributos incluirá exactamente dicho elemento.</span><span class="sxs-lookup"><span data-stu-id="7e9af-104">This accommodates situations in which you know that a particular element will be present at a particular location within an instance message, but you are not sure exactly what attributes that element might include.</span></span> <span data-ttu-id="7e9af-105">Si coloca un **cualquier atributo** nodo dentro de la **registro** nodo asociado con el elemento correspondiente, BizTalk puede procesar dicho elemento, con el único requisito que se va a que los atributos asociados son sintácticamente correcto (attributeName = "attributeValue").</span><span class="sxs-lookup"><span data-stu-id="7e9af-105">If you place an **Any Attribute** node within the **Record** node associated with the relevant element, BizTalk can process that element, with the only requirement being that any associated attributes are syntactically correct (attributeName="attributeValue").</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Cree mapas de | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc9f8ad1-4aad-4866-8aa4-4877fdc5e5f9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969114"
 ---
 # <a name="creating-maps"></a><span data-ttu-id="8f2b0-102">Crear asignaciones</span><span class="sxs-lookup"><span data-stu-id="8f2b0-102">Creating Maps</span></span>
 <span data-ttu-id="8f2b0-103">La interfaz de usuario principal para el asignador de BizTalk se muestra en una pestaña en la [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana de edición.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-103">The primary user interface for BizTalk Mapper is displayed on a tab within the [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] editing window.</span></span> <span data-ttu-id="8f2b0-104">Esta presentación se divide en tres paneles distintos.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-104">This display is divided into three panes.</span></span> <span data-ttu-id="8f2b0-105">El panel de la izquierda muestra el esquema de origen como un árbol.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-105">The left pane displays the source schema as a tree.</span></span> <span data-ttu-id="8f2b0-106">El panel de la derecha muestra el esquema de destino como un árbol.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-106">The right pane displays the destination schema as a tree.</span></span> <span data-ttu-id="8f2b0-107">El panel central muestra la cuadrícula como varias páginas.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-107">The middle pane displays the grid as multiple pages.</span></span> <span data-ttu-id="8f2b0-108">Para indicar cómo desea asignar los datos del esquema de origen al de destino, dibuje líneas entre los registros y los campos que desea asignar.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-108">To indicate how you want to map data from the source schema to the destination schema, you draw lines between the records and fields you want to map.</span></span> <span data-ttu-id="8f2b0-109">Estas líneas se llaman *vínculos*, y son la manera más sencilla para especificar la asignación de datos.</span><span class="sxs-lookup"><span data-stu-id="8f2b0-109">These lines are called *links*, and they are the most basic way to specify the mapping of data.</span></span> <span data-ttu-id="8f2b0-110">Para obtener más información acerca de la vinculación de registros y campos, consulte [vínculos en asignaciones](../core/links-in-maps.md).</span><span class="sxs-lookup"><span data-stu-id="8f2b0-110">For more information about linking records and fields, see [Links in Maps](../core/links-in-maps.md).</span></span>  

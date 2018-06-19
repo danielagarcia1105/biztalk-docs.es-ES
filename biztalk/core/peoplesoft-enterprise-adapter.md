@@ -1,15 +1,15 @@
 ---
 title: Adaptador de PeopleSoft Enterprise | Documentos de Microsoft
-description: "Instalar, recorre tutoriales paso a paso, obtenga información acerca de la arquitectura, utilizan la seguridad SSO, crear las aplicaciones, importar el archivo de enlace y agregar el control de excepciones cuando se usa el adaptador de BizTalk para PeopleSoft Enterprise en BizTalk Server"
-ms.custom: 
+description: Instalar, recorre tutoriales paso a paso, obtenga información acerca de la arquitectura, utilizan la seguridad SSO, crear las aplicaciones, importar el archivo de enlace y agregar el control de excepciones cuando se usa el adaptador de BizTalk para PeopleSoft Enterprise en BizTalk Server
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6c3dd7fd-3566-4063-a2fd-2acbe64d2885
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013411"
 ---
 # <a name="peoplesoft-enterprise-adapter"></a><span data-ttu-id="93b13-103">Adaptador PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="93b13-103">PeopleSoft Enterprise Adapter</span></span>
 <span data-ttu-id="93b13-104">Microsoft BizTalk Adapter para PeopleSoft Enterprise permite usar objetos de PeopleSoft dentro de la aplicación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="93b13-104">Microsoft BizTalk Adapter for PeopleSoft Enterprise enables you to use PeopleSoft objects within your BizTalk Server application.</span></span> <span data-ttu-id="93b13-105">Las siguientes secciones describe cómo configurar el adaptador para tener acceso a información específica de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="93b13-105">The following sections discuss setting up the adapter to access PeopleSoft-specific information.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Investigación de cuellos de botella | Documentos de Microsoft"
-ms.custom: 
+title: Investigación de cuellos de botella | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2ab8e485-ffe5-4f71-9ce2-f72c0c939e5d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298844"
 ---
 # <a name="investigating-bottlenecks"></a><span data-ttu-id="74510-102">Investigación de cuellos de botella</span><span class="sxs-lookup"><span data-stu-id="74510-102">Investigating Bottlenecks</span></span>
 <span data-ttu-id="74510-103">Este tema describe un proceso recomendado para investigar los cuellos de botella.</span><span class="sxs-lookup"><span data-stu-id="74510-103">This topic describes a recommended process for investigating bottlenecks.</span></span>  

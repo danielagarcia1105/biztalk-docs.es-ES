@@ -1,17 +1,17 @@
 ---
-title: "Condiciones de Error de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: Condiciones de Error de confirmación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, errors
 - errors, acknowledgements
 ms.assetid: 605c7fa0-2365-4cb6-92fb-6df570905ca8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204588"
 ---
 # <a name="acknowledgment-error-conditions"></a><span data-ttu-id="a3cd2-102">Condiciones de Error de confirmación</span><span class="sxs-lookup"><span data-stu-id="a3cd2-102">Acknowledgment Error Conditions</span></span>
 <span data-ttu-id="a3cd2-103">Las siguientes condiciones se producen un error irrecuperable condición cuando [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) es la confirmación de procesamiento de mensajes (ACK):</span><span class="sxs-lookup"><span data-stu-id="a3cd2-103">The following conditions will result in a fatal error condition when [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is processing acknowledgment (ACK) messages:</span></span>  

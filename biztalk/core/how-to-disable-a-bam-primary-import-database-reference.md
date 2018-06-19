@@ -1,14 +1,14 @@
 ---
-title: "Cómo deshabilitar una referencia de base de datos de importación principal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo deshabilitar una referencia de base de datos de importación principal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 78d2d644-6ebb-4051-ae59-af7d0fb75753
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968898"
 ---
 # <a name="how-to-disable-a-bam-primary-import-database-reference"></a><span data-ttu-id="5767f-102">Cómo deshabilitar una referencia de base de datos de importación principal de BAM</span><span class="sxs-lookup"><span data-stu-id="5767f-102">How to Disable a BAM Primary Import Database Reference</span></span>
 <span data-ttu-id="5767f-103">Los administradores utilizan el **disable-reference** comando para deshabilitar una referencia a una base de datos de importación principal de BAM especificado.</span><span class="sxs-lookup"><span data-stu-id="5767f-103">Administrators use the **disable-reference** command to disable a reference to a specified BAM Primary Import database.</span></span>  

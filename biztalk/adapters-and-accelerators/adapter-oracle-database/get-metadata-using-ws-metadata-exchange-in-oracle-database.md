@@ -1,17 +1,17 @@
 ---
 title: Obtener metadatos con WS-Metadata Exchange en la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WS-Metadata Exchange, retrieving metadata
 - metadata, retrieving using WS-Metadata Exchange
 ms.assetid: 6ff34438-7260-489d-a5f0-6e53f8fe43be
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214860"
 ---
 # <a name="get-metadata-using-ws-metadata-exchange-in-oracle-database"></a><span data-ttu-id="6395b-102">Obtener metadatos con WS-Metadata Exchange en la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="6395b-102">Get Metadata Using WS-Metadata Exchange in Oracle Database</span></span>
 <span data-ttu-id="6395b-103">Como un [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] enlace personalizado, el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un extremo de WS-Metadata Exchange (MEX) que puede usar para recuperar metadatos para operaciones específicas de la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span><span class="sxs-lookup"><span data-stu-id="6395b-103">As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding, the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes a WS-Metadata Exchange (MEX) endpoint that you can use to retrieve metadata for specific operations from the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span>  

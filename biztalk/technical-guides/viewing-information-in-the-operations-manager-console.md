@@ -1,14 +1,14 @@
 ---
-title: "Ver la información en la consola de Operations Manager | Documentos de Microsoft"
-ms.custom: 
+title: Ver la información en la consola de Operations Manager | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6acdf425-4c36-4d89-9493-81b33481fe6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302564"
 ---
 # <a name="viewing-information-in-the-operations-manager-console"></a><span data-ttu-id="f2a6b-102">Ver información en la consola de Operations Manager</span><span class="sxs-lookup"><span data-stu-id="f2a6b-102">Viewing Information in the Operations Manager Console</span></span>
 <span data-ttu-id="f2a6b-103">Usar las vistas proporcionadas con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack para conocer la disponibilidad actual, la configuración, el estado y el rendimiento de su entorno de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="f2a6b-103">Use the views provided with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack to understand the current availability, configuration, health, and performance of your BizTalk Server environment.</span></span> <span data-ttu-id="f2a6b-104">Una vista puede contener una larga lista de objetos.</span><span class="sxs-lookup"><span data-stu-id="f2a6b-104">A view can contain a lengthy list of objects.</span></span> <span data-ttu-id="f2a6b-105">Para buscar un objeto o grupo de objetos específico, puede usar los botones Ámbito, Búsqueda y Buscar de la barra de herramientas de Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="f2a6b-105">To find a specific object or group of objects, you can use the Scope, Search, and Find buttons on the Operations Manager toolbar.</span></span> <span data-ttu-id="f2a6b-106">Para obtener más información, vea los temas de administración de supervisión datos mediante ámbito, búsqueda y busque el tema en la Ayuda de Operations Manager 2007 R2\2012.</span><span class="sxs-lookup"><span data-stu-id="f2a6b-106">For more information, see the How to Manage Monitoring Data Using Scope, Search, and Find topic in Operations Manager 2007 R2\2012 Help.</span></span>  

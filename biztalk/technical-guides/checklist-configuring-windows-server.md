@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Configurar Windows Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Configurar Windows Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebd7ea95-cc73-4c98-a796-193f394fb5b8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299852"
 ---
 # <a name="checklist-configuring-windows-server"></a><span data-ttu-id="33c01-102">Lista de comprobación: Configurar Windows Server</span><span class="sxs-lookup"><span data-stu-id="33c01-102">Checklist: Configuring Windows Server</span></span>
 <span data-ttu-id="33c01-103">En este tema se enumera los pasos que deben seguirse al preparar Windows Server para su uso en producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="33c01-103">This topic lists steps that you should follow when preparing Windows Server for use in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217380"
 ---
 # <a name="message-versioning-support"></a><span data-ttu-id="4e46d-102">Compatibilidad de versiones de mensaje</span><span class="sxs-lookup"><span data-stu-id="4e46d-102">Message Versioning Support</span></span>
 <span data-ttu-id="4e46d-103">El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] admite el control de versiones mediante la inclusión de un componente de la cadena de versión de las acciones de mensajes, los espacios de nombres e identificadores de nodo exhibe para las operaciones.</span><span class="sxs-lookup"><span data-stu-id="4e46d-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations.</span></span> <span data-ttu-id="4e46d-104">La versión actual es http://Microsoft.LobServices.Sap/2007/03.</span><span class="sxs-lookup"><span data-stu-id="4e46d-104">The current version is http://Microsoft.LobServices.Sap/2007/03.</span></span> <span data-ttu-id="4e46d-105">Esto significa que para una solicitud de cambio con el nombre "RFC_SAMPLE", la operación de RFC obtenida por el adaptador tiene lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="4e46d-105">This means that for an RFC named "RFC_SAMPLE", the RFC operation surfaced by the adapter has the following:</span></span>  

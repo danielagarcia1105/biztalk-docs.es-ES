@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de cambio de base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be1eacf1-7fba-4eca-b35b-9770904d9ebd
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217332"
 ---
 # <a name="receive-database-change-notifications"></a><span data-ttu-id="a9c57-102">Recibir notificaciones de cambio de base de datos</span><span class="sxs-lookup"><span data-stu-id="a9c57-102">Receive database change notifications</span></span>
 <span data-ttu-id="a9c57-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] es compatible con la característica de notificación de cambio de base de datos de ODP.NET.</span><span class="sxs-lookup"><span data-stu-id="a9c57-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports the ODP.NET Database Change Notification feature.</span></span> <span data-ttu-id="a9c57-104">Con esta característica, los clientes de adaptador pueden registrar una instrucción SELECT como las notificaciones de consulta en la base de datos y la base de datos envía una notificación al cliente de adaptador como y cuando el conjunto de resultados de los cambios de la instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="a9c57-104">Using this feature, the adapter clients can register a SELECT statement as the notification query on the database, and the database sends a notification to the adapter client as and when the result set of the SELECT statement changes.</span></span> <span data-ttu-id="a9c57-105">La notificación de cambio de la base de datos se implementa en el adaptador mediante la clase OracleDependency.</span><span class="sxs-lookup"><span data-stu-id="a9c57-105">The database change notification is implemented in the adapter using the OracleDependency class.</span></span> <span data-ttu-id="a9c57-106">Para más información específica de Oracle sobre la característica de compatibilidad de base de datos modificados en ODP.NET y la clase OracleDependency, vaya a [http://go.microsoft.com/fwlink/p/?LinkId=124801](http://go.microsoft.com/fwlink/p/?LinkId=124801).</span><span class="sxs-lookup"><span data-stu-id="a9c57-106">For more Oracle-specific information about the Database Change Support feature in ODP.NET and the OracleDependency class, go to [http://go.microsoft.com/fwlink/p/?LinkId=124801](http://go.microsoft.com/fwlink/p/?LinkId=124801).</span></span>  

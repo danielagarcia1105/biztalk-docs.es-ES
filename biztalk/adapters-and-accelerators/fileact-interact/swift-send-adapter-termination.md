@@ -1,14 +1,14 @@
 ---
-title: "Terminación de adaptador de envío de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Terminación de adaptador de envío de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 42a335d3-8c4c-4122-9731-b3ec33982b70
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224484"
 ---
 # <a name="swift-send-adapter-termination"></a><span data-ttu-id="95fb0-102">Finalización del adaptador de envío SWIFT</span><span class="sxs-lookup"><span data-stu-id="95fb0-102">SWIFT Send Adapter Termination</span></span>
 <span data-ttu-id="95fb0-103">El adaptador debe finalizar correctamente cuando el servicio de BizTalk está apagado.</span><span class="sxs-lookup"><span data-stu-id="95fb0-103">The adapter must terminate gracefully when the BizTalk service is shutdown.</span></span> <span data-ttu-id="95fb0-104">La secuencia se muestra en la ilustración siguiente.</span><span class="sxs-lookup"><span data-stu-id="95fb0-104">The sequence is shown in the following figure.</span></span>  

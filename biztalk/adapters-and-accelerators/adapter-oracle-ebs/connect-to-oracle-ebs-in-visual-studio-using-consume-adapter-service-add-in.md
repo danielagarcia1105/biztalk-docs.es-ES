@@ -1,14 +1,14 @@
 ---
 title: Conectarse a Oracle E-Business Suite en Visual Studio usando el complemento Consume Adapter Service | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62d60216-5065-4048-b073-8618b7685e00
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217156"
 ---
 # <a name="connect-to-oracle-e-business-suite-in-visual-studio-using-consume-adapter-service-add-in"></a><span data-ttu-id="013d2-102">Conectarse a Oracle E-Business Suite en Visual Studio usando el complemento Consume Adapter Service</span><span class="sxs-lookup"><span data-stu-id="013d2-102">Connect to Oracle E-Business Suite in Visual Studio using Consume Adapter Service Add-in</span></span>
 <span data-ttu-id="013d2-103">El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] se instala al instalar [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="013d2-103">The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] is installed when you install [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span> <span data-ttu-id="013d2-104">El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] carga todos los enlaces de WCF-Custom instalados en el equipo.</span><span class="sxs-lookup"><span data-stu-id="013d2-104">The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] loads all the WCF-Custom bindings installed on the computer.</span></span> <span data-ttu-id="013d2-105">Para conectarse a Oracle E-Business Suite con basadas en WCF [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] en un proyecto de BizTalk, debe utilizar el **oracleEBSBinding**.</span><span class="sxs-lookup"><span data-stu-id="013d2-105">To connect to Oracle E-Business Suite using the WCF-based [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] in a BizTalk project, you must use the **oracleEBSBinding**.</span></span>  

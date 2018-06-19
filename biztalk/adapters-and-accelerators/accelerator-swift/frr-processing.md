@@ -1,18 +1,18 @@
 ---
 title: Procesamiento de FRR | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, processing
 - FRR, components
 - FRR, process flow
 ms.assetid: 8b064d18-5ee7-44fd-95d1-9a0d66f1ad1a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208972"
 ---
 # <a name="frr-processing"></a><span data-ttu-id="c6000-102">Procesamiento de FRR</span><span class="sxs-lookup"><span data-stu-id="c6000-102">FRR Processing</span></span>
 <span data-ttu-id="c6000-103">El [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] característica Conciliación de respuesta de FIN (FRR) pone en correlación mensajes FIN de SWIFT Alliance acceso (AAS) con el mensaje original desde [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] que responde el mensaje AAS.</span><span class="sxs-lookup"><span data-stu-id="c6000-103">The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FIN Response Reconciliation (FRR) feature correlates FIN messages from the SWIFT Alliance Access (SAA) with the original message from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] that the SAA message responds to.</span></span> <span data-ttu-id="c6000-104">Cada vez que [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] envía un mensaje original, las cachés FRR una copia de cualquier mensaje enlazado para SWIFT y que no haya dejado de procesamiento.</span><span class="sxs-lookup"><span data-stu-id="c6000-104">Whenever [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] sends an original message, FRR caches a copy of any message that is bound for SWIFT and that has not failed processing.</span></span> <span data-ttu-id="c6000-105">A continuación, supervisa el cuadro de mensajes para los mensajes de respuesta devueltos por AAS a [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]y recoge los mensajes de confirmación/NAK que corresponde a la copia del mensaje almacenado en caché.</span><span class="sxs-lookup"><span data-stu-id="c6000-105">It then monitors the MessageBox for response messages returned by SAA to [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], and picks up any ACK/NAK messages that corresponds to the cached message copy.</span></span>  

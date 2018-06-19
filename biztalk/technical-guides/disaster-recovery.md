@@ -1,14 +1,14 @@
 ---
-title: "Recuperación ante desastres | Documentos de Microsoft"
-ms.custom: 
+title: Recuperación ante desastres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 729b3aa0-79dd-4e36-ac5c-4e733afe4156
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297636"
 ---
 # <a name="disaster-recovery"></a><span data-ttu-id="12c5d-102">Recuperación ante desastres</span><span class="sxs-lookup"><span data-stu-id="12c5d-102">Disaster Recovery</span></span>
 <span data-ttu-id="12c5d-103">Procedimientos de recuperación ante desastres mejoran la disponibilidad del sistema que emplean pasos para reanudar el funcionamiento de un sistema que haya fallado.</span><span class="sxs-lookup"><span data-stu-id="12c5d-103">Disaster recovery procedures improve system availability by employing steps to resume operation of a failed system.</span></span> <span data-ttu-id="12c5d-104">Recuperación ante desastres difiere de tolerancia a errores en que la recuperación ante desastres normalmente requiere la intervención manual para restaurar el sistema, errores, mientras que un diseño de tolerancia puede seguir funcionando sin intervención manual si el sistema encuentra un error condición.</span><span class="sxs-lookup"><span data-stu-id="12c5d-104">Disaster recovery differs from fault tolerance in that disaster recovery typically requires manual intervention to restore the failed system whereas a fault-tolerant design can continue to operate without manual intervention if the system encounters a failure condition.</span></span>  

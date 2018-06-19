@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22297188"
 ---
 # <a name="the-sample-itinerary-scenarios"></a><span data-ttu-id="f8af4-102">Los escenarios de itinerarios de ejemplo</span><span class="sxs-lookup"><span data-stu-id="f8af4-102">The Sample Itinerary Scenarios</span></span>
 <span data-ttu-id="f8af4-103">En la tabla siguiente enumera todos los archivos de itinerario predefinidos incluidos con el ejemplo de itinerario en rampa.</span><span class="sxs-lookup"><span data-stu-id="f8af4-103">The following table lists all the predefined Itinerary files included with the Itinerary On-Ramp sample.</span></span> <span data-ttu-id="f8af4-104">Estos se encuentran en la carpeta \Source\Samples\Itinerary\Itineraries.</span><span class="sxs-lookup"><span data-stu-id="f8af4-104">These are located in the \Source\Samples\Itinerary\Itineraries folder.</span></span>  

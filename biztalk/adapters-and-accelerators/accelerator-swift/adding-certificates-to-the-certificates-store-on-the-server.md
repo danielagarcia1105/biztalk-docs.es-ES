@@ -1,17 +1,17 @@
 ---
-title: "Agregar certificados al almacén de certificados en el servidor | Documentos de Microsoft"
-ms.custom: 
+title: Agregar certificados al almacén de certificados en el servidor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, adding to certificates store
 - certificates store
 ms.assetid: 075cfae8-dce7-46f7-9539-796f03229ea2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209572"
 ---
 # <a name="adding-certificates-to-the-certificates-store-on-the-server"></a><span data-ttu-id="b8e46-102">Agregar certificados al almacén de certificados en el servidor</span><span class="sxs-lookup"><span data-stu-id="b8e46-102">Adding Certificates to the Certificates Store on the Server</span></span>
 <span data-ttu-id="b8e46-103">Siga estos pasos para agregar certificados a la carpeta de otras personas en el almacén de certificados (equipo Local) en el equipo del servidor.</span><span class="sxs-lookup"><span data-stu-id="b8e46-103">Use the following steps to add certificates to the Other People folder in the Certificates (Local Computer) store on the server computer.</span></span>  

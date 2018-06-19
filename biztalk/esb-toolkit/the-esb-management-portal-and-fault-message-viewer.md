@@ -1,14 +1,14 @@
 ---
-title: "El Portal de administración de ESB y error mensaje Visor | Documentos de Microsoft"
-ms.custom: 
+title: El Portal de administración de ESB y error mensaje Visor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4a1636c-2e45-4ee5-92c2-81c976582da3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295212"
 ---
 # <a name="the-esb-management-portal-and-fault-message-viewer"></a><span data-ttu-id="054dc-102">El Portal de administración de ESB y el Visor de mensajes de error</span><span class="sxs-lookup"><span data-stu-id="054dc-102">The ESB Management Portal and Fault Message Viewer</span></span>
 <span data-ttu-id="054dc-103">Un componente importante de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] está basado en Web portal que proporciona una amplia gama de excepción características de notificación de alerta y administración; además, actúa como la administración de configuración útil y Universal Description, Discovery and Integration ( Interfaz de registro UDDI).</span><span class="sxs-lookup"><span data-stu-id="054dc-103">A major component of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is a Web-based portal that provides a wide range of exception management and alert notification features; in addition, it acts as a useful configuration management and Universal Description, Discovery, and Integration (UDDI) registration interface.</span></span> <span data-ttu-id="054dc-104">La figura 1 muestra la página principal del portal, que proporciona información general sobre el estado de las aplicaciones que se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="054dc-104">Figure 1 shows the home page of the portal, which provides an overview of the health of the currently running applications.</span></span>  

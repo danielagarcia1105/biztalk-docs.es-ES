@@ -1,17 +1,17 @@
 ---
 title: Trabajar con PIP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PIPs, developing
 - developing, PIPs
 ms.assetid: c1f62589-bcd5-459e-aab4-debf68cbb6c2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209156"
 ---
 # <a name="working-with-pips"></a><span data-ttu-id="96777-102">Trabajar con PIP</span><span class="sxs-lookup"><span data-stu-id="96777-102">Working with PIPs</span></span>
 <span data-ttu-id="96777-103">Los temas de esta sección describen cómo trabajar con procesos de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="96777-103">The topics in this section describe how to work with Partner Interface Processes (PIPs).</span></span> <span data-ttu-id="96777-104">PIP define procesos empresariales entre socios comerciales, proporciona definiciones de procesos empresariales comunes para todos los intercambios de mensajes de RosettaNet.</span><span class="sxs-lookup"><span data-stu-id="96777-104">PIPs define business processes between trading partners, providing common business-process definitions for all RosettaNet message exchanges.</span></span> <span data-ttu-id="96777-105">PIP especifica el contenido del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="96777-105">PIPs specify the service content of messages.</span></span>  

@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204516"
 ---
 # <a name="batch-definition-tab"></a><span data-ttu-id="0328b-102">Pestaña de la definición de proceso por lotes</span><span class="sxs-lookup"><span data-stu-id="0328b-102">Batch Definition Tab</span></span>
 <span data-ttu-id="0328b-103">Usa el **definición por lotes** ficha para habilitar la entrada por lotes de procesamiento por lotes, en / lote espera de procesamiento por lotes y seleccione los esquemas disponibles para el procesamiento por lotes saliente.</span><span class="sxs-lookup"><span data-stu-id="0328b-103">You use the **Batch Definition** tab to enable inbound batching, batch in/batch out batching, and select available schemas for outbound batching.</span></span>  

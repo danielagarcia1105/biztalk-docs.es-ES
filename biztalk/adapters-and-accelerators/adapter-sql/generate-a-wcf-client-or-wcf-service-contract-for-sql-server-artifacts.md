@@ -1,14 +1,14 @@
 ---
 title: Generar un cliente de WCF o un contrato de servicio WCF de artefactos SQL Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fa7d8c0-8ee4-41e7-9394-d22e87e09391
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225260"
 ---
 # <a name="generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts"></a><span data-ttu-id="f50ea-102">Generar un cliente de WCF o un contrato de servicio WCF de artefactos SQL Server</span><span class="sxs-lookup"><span data-stu-id="f50ea-102">Generate a WCF Client or WCF Service Contract for SQL Server Artifacts</span></span>
 <span data-ttu-id="f50ea-103">Puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] generar una clase de cliente WCF destinada a operaciones seleccionadas en artefactos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="f50ea-103">You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class targeted at selected operations on SQL Server artifacts.</span></span> <span data-ttu-id="f50ea-104">También puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe) para generar la clase de cliente WCF; Sin embargo, la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] expone la funcionalidad de la herramienta de utilidad de metadatos de ServiceModel mediante una interfaz estándar de Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="f50ea-104">You can also use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class; however, the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] exposes the functionality of the ServiceModel Metadata Utility Tool through a standard Microsoft Windows interface.</span></span> <span data-ttu-id="f50ea-105">También proporciona capacidades de exploración y búsqueda que no están disponibles con la herramienta svcutil.exe y genera un archivo de configuración basado en las propiedades de enlace que se selecciona cuando se conecta a la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="f50ea-105">It also provides browse and search capabilities that are not available with the svcutil.exe tool, and generates a configuration file based on the binding properties that you select when you connect to the SQL Server database.</span></span>  

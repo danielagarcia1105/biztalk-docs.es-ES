@@ -1,17 +1,17 @@
 ---
-title: "Distribución de certificados digitales | Documentos de Microsoft"
-ms.custom: 
+title: Distribución de certificados digitales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - digital signatures
 - security, digital signatures
 ms.assetid: 3e93a405-3c9b-43f5-bbdf-bec25d43eb45
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209420"
 ---
 # <a name="distributing-digital-certificates"></a><span data-ttu-id="c8fb1-102">Distribución de certificados digitales</span><span class="sxs-lookup"><span data-stu-id="c8fb1-102">Distributing Digital Certificates</span></span>
 <span data-ttu-id="c8fb1-103">Certificados digitales que se utiliza para la firma digital normalmente se emite y se distribuyen a las estaciones de trabajo de usuario por entidades de certificación (CA), ya sea entidades comerciales externas, como VeriSign o entidades de certificación internas hospedado en una organización.</span><span class="sxs-lookup"><span data-stu-id="c8fb1-103">Digital certificates used for digital signing are typically issued and distributed to user workstations by certification authorities (CAs)—either external commercial entities such as VeriSign, or internal CAs hosted in an organization.</span></span> <span data-ttu-id="c8fb1-104">Los tipos (puntos fuertes de cifrado y algoritmos de cifrado) de certificados digitales usados pueden diferir de una organización a otra.</span><span class="sxs-lookup"><span data-stu-id="c8fb1-104">The types (encryption algorithms and cipher strengths) of digital certificates used may differ from organization to organization.</span></span> [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]<span data-ttu-id="c8fb1-105">puede firmar digitalmente un formulario con cualquier formato de certificado que se compone de una clave privada y tiene una firma Digital o un valor cifrado para el atributo uso de clave.</span><span class="sxs-lookup"><span data-stu-id="c8fb1-105"> can digitally sign a form using any certificate format that is made up of a private key and has a Digital Signature and/or an Encryption value for the Key Usage attribute.</span></span> <span data-ttu-id="c8fb1-106">Además, el propósito del certificado debe establecerse como autenticación de cliente.</span><span class="sxs-lookup"><span data-stu-id="c8fb1-106">Additionally, the purpose of the certificate should be set as Client Authentication.</span></span>  

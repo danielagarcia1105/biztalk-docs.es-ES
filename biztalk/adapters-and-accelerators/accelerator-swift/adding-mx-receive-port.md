@@ -1,14 +1,14 @@
 ---
-title: "Puerto de recepción de agregar MX | Documentos de Microsoft"
-ms.custom: 
+title: Puerto de recepción de agregar MX | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4818d6af-df1d-481e-becf-1af633735248
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209484"
 ---
 # <a name="adding-mx-receive-port"></a><span data-ttu-id="b7511-102">Agregar MX de puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="b7511-102">Adding MX Receive Port</span></span>
 <span data-ttu-id="b7511-103">**Para agregar un MX de puerto de recepción:**</span><span class="sxs-lookup"><span data-stu-id="b7511-103">**To add an MX receive port:**</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  <span data-ttu-id="b7511-109">Haga clic en **ubicaciones de recepción**, seleccione **New**y, a continuación, haga clic en **ubicación de recepción unidireccional**.</span><span class="sxs-lookup"><span data-stu-id="b7511-109">Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.</span></span>  
   
-7.  <span data-ttu-id="b7511-110">En el, seleccione un cuadro de diálogo de puerto de recepción, haga clic en **puerto de recepción de MX_**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="b7511-110">In the Select a Receive Port dialog box, click **MX_ Receive Port**, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="b7511-110">En el, seleccione un cuadro de diálogo de puerto de recepción, haga clic en **puerto de recepción de MX_** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="b7511-110">In the Select a Receive Port dialog box, click **MX_ Receive Port**, and then click **OK**.</span></span>  
   
 8.  <span data-ttu-id="b7511-111">En el cuadro de diálogo Propiedades de la ubicación de recepción, en el cuadro Nombre, escriba **ubicación de recepción de MX_**.</span><span class="sxs-lookup"><span data-stu-id="b7511-111">In the Receive Location Properties dialog box, in the Name box, type **MX_ Receive Location**.</span></span>  
   

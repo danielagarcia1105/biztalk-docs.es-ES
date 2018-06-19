@@ -1,14 +1,14 @@
 ---
 title: Completar operaciones compuestas en Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 886d066d-2ec8-41b4-bdd5-d8afcb5e3e58
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967810"
 ---
 # <a name="complete-composite-operations-on-oracle-e-business-suite"></a><span data-ttu-id="3ce81-102">Completar operaciones compuestas en Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="3ce81-102">Complete composite operations on Oracle E-Business Suite</span></span>
 <span data-ttu-id="3ce81-103">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] permite a los clientes de adaptador realizar operaciones compuestas en base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="3ce81-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform composite operations on Oracle database.</span></span> <span data-ttu-id="3ce81-104">Puede incluir una operación compuesta:</span><span class="sxs-lookup"><span data-stu-id="3ce81-104">A composite operation can include:</span></span>  

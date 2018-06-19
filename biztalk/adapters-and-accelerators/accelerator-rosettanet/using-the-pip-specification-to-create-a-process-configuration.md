@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process configuration, PIPs
 - PIPs, process configuration
 ms.assetid: 64f0f5fb-f880-4ef1-95d7-2575b8d0bcff
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22207828"
 ---
 # <a name="using-the-pip-specification-to-create-a-process-configuration"></a><span data-ttu-id="ab33c-102">Mediante la especificación de PIP para crear una configuración de procesos</span><span class="sxs-lookup"><span data-stu-id="ab33c-102">Using the PIP Specification to Create a Process Configuration</span></span>
 <span data-ttu-id="ab33c-103">Después de descargar un proceso de interfaz de socio (PIP) de la organización RosettaNet (en RosettaNet.org), el paquete de descarga incluye un documento de especificación de PIP.</span><span class="sxs-lookup"><span data-stu-id="ab33c-103">After you download a Partner Interface Process (PIP) from the RosettaNet organization (from RosettaNet.org), the download package includes a PIP specification document.</span></span> <span data-ttu-id="ab33c-104">Este documento contiene instrucciones sobre la configuración que desea usar al crear una configuración de procesos en el [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="ab33c-104">This document contains guidance on what settings to use when you create a process configuration in the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console.</span></span>  

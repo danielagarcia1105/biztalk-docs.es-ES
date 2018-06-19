@@ -1,14 +1,14 @@
 ---
 title: Instalar BizTalk Server 2010 Accelerator para SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 78d996ce-40ea-4d01-b083-c55ccace4b26
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298108"
 ---
 # <a name="installing-biztalk-server-2010-accelerator-for-swift"></a><span data-ttu-id="1f04b-102">Instalación del Acelerador de BizTalk Server 2010 para SWIFT</span><span class="sxs-lookup"><span data-stu-id="1f04b-102">Installing BizTalk Server 2010 Accelerator for SWIFT</span></span>
 <span data-ttu-id="1f04b-103">![Logotipo de](../technical-guides/media/bts-10-installaccelerator-logo.gif "BTS_10_InstallAccelerator_Logo")</span><span class="sxs-lookup"><span data-stu-id="1f04b-103">![Logo](../technical-guides/media/bts-10-installaccelerator-logo.gif "BTS_10_InstallAccelerator_Logo")</span></span>  

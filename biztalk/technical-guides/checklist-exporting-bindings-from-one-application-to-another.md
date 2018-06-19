@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Exportar enlaces desde una aplicación a otra | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Exportar enlaces desde una aplicación a otra | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 152924e6-da64-4db9-a852-bdb4e79687fb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299812"
 ---
 # <a name="checklist-exporting-bindings-from-one-application-to-another"></a><span data-ttu-id="52c21-102">Lista de comprobación: Exportar enlaces desde una aplicación a otra</span><span class="sxs-lookup"><span data-stu-id="52c21-102">Checklist: Exporting Bindings from One Application to Another</span></span>
 <span data-ttu-id="52c21-103">En este tema se describe los pasos necesarios para transferir los enlaces de una aplicación a otra aplicación en el entorno de producción o desarrollo.</span><span class="sxs-lookup"><span data-stu-id="52c21-103">This topic describes the steps involved in transferring the bindings of one application to another application in either a development or production environment.</span></span> <span data-ttu-id="52c21-104">Este proceso es similar al proceso de implementar una aplicación con un archivo MSI.</span><span class="sxs-lookup"><span data-stu-id="52c21-104">This process is similar to the process of deploying an application using an .msi file.</span></span> <span data-ttu-id="52c21-105">Sin embargo, cuando se implementa una aplicación mediante un archivo .msi, el proceso creará automáticamente la aplicación.</span><span class="sxs-lookup"><span data-stu-id="52c21-105">However, when you deploy an application using an .msi file, the process will automatically create the application.</span></span> <span data-ttu-id="52c21-106">Cuando la transferencia de los enlaces de una aplicación a otra, por otro lado, la aplicación de destino ya debe existir.</span><span class="sxs-lookup"><span data-stu-id="52c21-106">When you transfer the bindings from one application to another, on the other hand, the destination application must already exist.</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Tipos de datos de Oracle base de datos LOB utilizando el modelo del canal de WCF de streaming | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - streaming, Oracle LOB data types
 - WCF channel model, streaming Oracle LOB data types
 ms.assetid: 513a7cb8-495d-4019-bce1-b5babca3629f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215796"
 ---
 # <a name="streaming-oracle-database-lob-data-types-using-the-wcf-channel-model"></a><span data-ttu-id="60972-102">Transmisión por secuencias tipos de datos LOB de base de datos de Oracle, utilizando el modelo del canal de WCF</span><span class="sxs-lookup"><span data-stu-id="60972-102">Streaming Oracle Database LOB Data Types Using the WCF Channel Model</span></span>
 <span data-ttu-id="60972-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite-to-end de transmisión por secuencias de datos LOB para determinadas operaciones.</span><span class="sxs-lookup"><span data-stu-id="60972-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports end-to-end streaming of LOB data for certain operations.</span></span> <span data-ttu-id="60972-104">Las secciones de este tema describen cómo implementar la transmisión por secuencias de datos LOB cuando se usa el modelo de canal WCF.</span><span class="sxs-lookup"><span data-stu-id="60972-104">The sections in this topic describe how to implement streaming for LOB data when you use the WCF channel model.</span></span>  

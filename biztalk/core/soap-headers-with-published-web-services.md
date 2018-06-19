@@ -1,11 +1,11 @@
 ---
 title: Encabezados SOAP con servicios Web publicados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, SOAP headers
 - SOAP headers, Web services
 ms.assetid: 4fe54745-51dd-4425-882f-3f256a4ba393
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277172"
 ---
 # <a name="soap-headers-with-published-web-services"></a><span data-ttu-id="b405e-102">Encabezados SOAP con servicios Web publicados</span><span class="sxs-lookup"><span data-stu-id="b405e-102">SOAP Headers with Published Web Services</span></span>
 <span data-ttu-id="b405e-103">Puede agregar encabezados SOAP a los servicios Web publicados.</span><span class="sxs-lookup"><span data-stu-id="b405e-103">You can add SOAP headers to your published Web services.</span></span> <span data-ttu-id="b405e-104">En el Asistente de publicación BizTalk Web Services en el **propiedades del servicio Web** página, puede comprobar la **encabezados SOAP agregar** para agregar encabezados SOAP a los servicios Web publicados.</span><span class="sxs-lookup"><span data-stu-id="b405e-104">In the BizTalk Web Services Publishing Wizard on the **Web Services Properties** page, you can check the **Add SOAP headers** box to add SOAP headers to your published Web services.</span></span>  

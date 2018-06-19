@@ -1,17 +1,17 @@
 ---
-title: "Obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, setting
 - binding properties
 ms.assetid: 9cb83c1c-2f04-4f9e-8471-7f6db918da0d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967978"
 ---
 # <a name="read-about-biztalk-adapter-for-mysap-business-suite-binding-properties"></a><span data-ttu-id="ec5f3-102">Obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="ec5f3-102">Read about BizTalk Adapter for mySAP Business Suite binding properties</span></span>
 <span data-ttu-id="ec5f3-103">La [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] expone varias propiedades de enlace que le permiten controlar parte de su comportamiento de tiempo de diseño y tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="ec5f3-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several binding properties that enable you to control some of its run-time and design-time behavior.</span></span> <span data-ttu-id="ec5f3-104">En esta sección se describe estas propiedades de enlace y proporciona vínculos a temas que explican cómo establecerlas.</span><span class="sxs-lookup"><span data-stu-id="ec5f3-104">This section describes these binding properties and provides links to topics that explain how you can set them.</span></span>  

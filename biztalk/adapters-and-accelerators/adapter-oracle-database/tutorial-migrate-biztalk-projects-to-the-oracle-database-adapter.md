@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Migrar proyectos de BizTalk para el adaptador de la base de datos de Oracle | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a393219-bae8-4e08-acc8-76986600d0de
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215348"
 ---
 # <a name="tutorial-migrate-biztalk-projects-to-the-oracle-database-adapter"></a><span data-ttu-id="d6a3b-102">Tutorial: Migrar proyectos de BizTalk para el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="d6a3b-102">Tutorial: Migrate BizTalk Projects to the Oracle Database adapter</span></span>
 <span data-ttu-id="d6a3b-103">El adaptador de BizTalk ODBC para Oracle base de datos que se incluye con Microsoft BizTalk Server difiere basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en muchos aspectos, como:</span><span class="sxs-lookup"><span data-stu-id="d6a3b-103">The BizTalk ODBC Adapter for Oracle Database that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in many aspects, including:</span></span>  

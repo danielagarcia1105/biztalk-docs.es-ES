@@ -1,14 +1,14 @@
 ---
 title: Mantenimiento administrativa | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67cdf9d7-5448-40c5-8c5f-eae0e281d22c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299740"
 ---
 # <a name="administrative-maintenance"></a><span data-ttu-id="56cf4-102">Mantenimiento administrativo</span><span class="sxs-lookup"><span data-stu-id="56cf4-102">Administrative Maintenance</span></span>
 <span data-ttu-id="56cf4-103">Esta sección proporciona información acerca de cómo puede resolver problemas de administración con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema.</span><span class="sxs-lookup"><span data-stu-id="56cf4-103">This section provides information about how you can resolve administration issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span> <span data-ttu-id="56cf4-104">Estos problemas pueden ser detectados por las comprobaciones de mantenimiento rutinarias que se realizan en el [listas de comprobación de mantenimiento de rutina](../technical-guides/routine-maintenance-checklists.md) sección.</span><span class="sxs-lookup"><span data-stu-id="56cf4-104">These issues may be discovered by the routine maintenance checks that are performed in the [Routine Maintenance Checklists](../technical-guides/routine-maintenance-checklists.md) section.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Sondeo de base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c3aef30-956d-4585-b2de-7eebb919fab5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214180"
 ---
 # <a name="poll-oracle-database-using-biztalk-server"></a><span data-ttu-id="51841-102">Sondeo de base de datos de Oracle mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="51841-102">Poll Oracle Database using BizTalk Server</span></span>
 <span data-ttu-id="51841-103">Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de sondeo de base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="51841-103">You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive polling-based messages from Oracle database.</span></span> <span data-ttu-id="51841-104">El adaptador proporciona dos maneras de sondeo de la base de datos de Oracle:</span><span class="sxs-lookup"><span data-stu-id="51841-104">The adapter provides two ways of polling the Oracle database:</span></span>  

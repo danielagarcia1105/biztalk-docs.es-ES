@@ -1,14 +1,14 @@
 ---
 title: Utilizar el adaptador de Oracle E-Business Suite con SharePoint | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d431f8a6-9812-4783-b9f4-34ceb73cf8ba
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215308"
 ---
 # <a name="use-the-oracle-e-business-suite-adapter-with-sharepoint"></a><span data-ttu-id="6b3a2-102">Utilizar el adaptador de Oracle E-Business Suite con SharePoint</span><span class="sxs-lookup"><span data-stu-id="6b3a2-102">Use the Oracle E-Business Suite adapter with SharePoint</span></span>
 <span data-ttu-id="6b3a2-103">Mayoría de las aplicaciones de negocio (LOB) tiene propietarios interfaces que son accesibles a relativamente pocas personas con los conocimientos necesarios en la materia.</span><span class="sxs-lookup"><span data-stu-id="6b3a2-103">Most line-of-business (LOB) applications have proprietary interfaces that are accessible to relatively few people with the required subject matter expertise.</span></span> <span data-ttu-id="6b3a2-104">Sin embargo, como información relevante de necesidad de los trabajadores de información de todos los niveles de una organización, los expertos en la materia deben exportar los datos necesarios a aplicaciones más conocidas, como Microsoft Excel, los trabajadores de información utilizan la información.</span><span class="sxs-lookup"><span data-stu-id="6b3a2-104">However, because information workers need relevant information at all levels in an organization, the subject matter experts have to export required data into more familiar applications, like Microsoft Excel, for information workers to consume the information.</span></span>  

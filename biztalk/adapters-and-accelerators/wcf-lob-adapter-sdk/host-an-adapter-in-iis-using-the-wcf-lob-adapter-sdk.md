@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25967570"
 ---
 # <a name="host-an-adapter-in-iis-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="74e8d-102">Hospedar un adaptador en IIS mediante el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="74e8d-102">Host an adapter in IIS using the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="74e8d-103">Esta sección contiene información sobre el hospedaje de un adaptador que se compila mediante la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] en Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="74e8d-103">This section contains information about hosting an adapter built by using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] in Internet Information Services (IIS).</span></span> <span data-ttu-id="74e8d-104">Para obtener más información sobre otras opciones de hospedaje, vea [servicios de hospedaje](https://msdn.microsoft.com/library/ms730158.aspx).</span><span class="sxs-lookup"><span data-stu-id="74e8d-104">For more information about other hosting options, see [Hosting Services](https://msdn.microsoft.com/library/ms730158.aspx).</span></span>
@@ -42,7 +43,7 @@ ms.lasthandoff: 04/20/2018
   
 1.  <span data-ttu-id="74e8d-124">Abra [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="74e8d-124">Open [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="74e8d-125">En el **archivo** menú, seleccione **New**y, a continuación, seleccione **sitio Web**.</span><span class="sxs-lookup"><span data-stu-id="74e8d-125">On the **File** menu, select **New**, and then select **Web Site**.</span></span>  
   
-2.  <span data-ttu-id="74e8d-126">En **plantillas**, seleccione **Visual C#**y seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="74e8d-126">In **Templates**, select **Visual C#**, and select **WCF Adapter Service**.</span></span>  
+2.  <span data-ttu-id="74e8d-126">En **plantillas**, seleccione **Visual C#** y seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="74e8d-126">In **Templates**, select **Visual C#**, and select **WCF Adapter Service**.</span></span>  
   
 3.  <span data-ttu-id="74e8d-127">Especifique la carpeta para guardar la solución y, a continuación, seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="74e8d-127">Enter the folder to save the solution, and then select **OK**.</span></span> <span data-ttu-id="74e8d-128">El **Asistente para desarrollo de servicio de adaptador de WCF** inicia.</span><span class="sxs-lookup"><span data-stu-id="74e8d-128">The **WCF Adapter Service Development Wizard** starts.</span></span>  
   

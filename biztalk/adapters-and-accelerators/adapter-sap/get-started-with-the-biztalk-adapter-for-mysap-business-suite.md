@@ -1,15 +1,15 @@
 ---
 title: Empezar a trabajar con el adaptador de BizTalk para mySAP Business Suite | Documentos de Microsoft
-description: "Instalar RFC personalizadas, obtenga información acerca del adaptador, completar tareas RFC e IDOC en SAP, paso a través de tutoriales para usar el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Instalar RFC personalizadas, obtenga información acerca del adaptador, completar tareas RFC e IDOC en SAP, paso a través de tutoriales para usar el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2013253-f911-4e35-a33a-b4a9bcb136aa
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216324"
 ---
 # <a name="get-started-with-the-biztalk-adapter-for-mysap-business-suite"></a><span data-ttu-id="80253-103">Empezar a trabajar con el adaptador de BizTalk para mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="80253-103">Get started with the BizTalk Adapter for mySAP Business Suite</span></span>
 <span data-ttu-id="80253-104">Esta sección proporciona información general sobre el adaptador, los requisitos previos y los temas para los usuarios que están familiarizados con Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="80253-104">This section provides an overview of the adapter, prerequisites, and topics for users who are new to Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span></span> <span data-ttu-id="80253-105">Describe las características de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] y las distintas operaciones que se pueden realizar en el sistema SAP mediante el adaptador.</span><span class="sxs-lookup"><span data-stu-id="80253-105">It discusses the features of [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] and the different operations that can be performed on the SAP system using the adapter.</span></span>  

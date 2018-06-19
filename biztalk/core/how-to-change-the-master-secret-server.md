@@ -1,11 +1,11 @@
 ---
-title: "Cómo cambiar el servidor secreto principal | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el servidor secreto principal | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, promoting
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - modifying, Master Secret server
 - Master Secret server, changing
 ms.assetid: 44a786ca-4645-44a8-b33e-d0019f0aeca9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969362"
 ---
 # <a name="how-to-change-the-master-secret-server"></a><span data-ttu-id="32bb6-102">Cómo cambiar el servidor secreto principal</span><span class="sxs-lookup"><span data-stu-id="32bb6-102">How to Change the Master Secret Server</span></span>
 <span data-ttu-id="32bb6-103">Después de configurar el servidor secreto principal y la base de datos de SSO, podrá cambiar el servidor secreto principal siempre que el original haya fallado y no pueda recuperarse.</span><span class="sxs-lookup"><span data-stu-id="32bb6-103">After you set up the master secret server and configure the SSO database, you can change the master secret server if the original master secret server fails and cannot be recovered.</span></span> <span data-ttu-id="32bb6-104">Para cambiar el servidor secreto principal, deberá promover un servidor de SSO para convertirlo en servidor secreto principal.</span><span class="sxs-lookup"><span data-stu-id="32bb6-104">To change the master secret server, you need to promote an SSO server to become the master secret server.</span></span>  

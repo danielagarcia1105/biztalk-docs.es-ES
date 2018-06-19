@@ -1,14 +1,14 @@
 ---
 title: Ejemplos de mensajes de MT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 629042cc-b941-4c58-b0dd-ede056caf573
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208892"
 ---
 # <a name="examples-of-mt-messages"></a><span data-ttu-id="d1725-102">Ejemplos de mensajes de MT</span><span class="sxs-lookup"><span data-stu-id="d1725-102">Examples of MT Messages</span></span>
 <span data-ttu-id="d1725-103">**Comandos para generar la solución (plantilla de formulario de InfoPath) para los mensajes de MT diferentes:**</span><span class="sxs-lookup"><span data-stu-id="d1725-103">**Commands to generate the solution (InfoPath form template) for the Different MT messages:**</span></span>  

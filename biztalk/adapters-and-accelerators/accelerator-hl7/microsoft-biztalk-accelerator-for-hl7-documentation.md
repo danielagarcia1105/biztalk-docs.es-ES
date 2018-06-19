@@ -1,15 +1,15 @@
 ---
-title: "Acelerador de Microsoft BizTalk para HL7 documentación | Documentos de Microsoft"
-description: "Vínculos rápidos a instalar, empezar a trabajar, aprender, programación y las herramientas, el procesamiento por lotes y solución de problemas del Acelerador para HL7 en BizTalk Server"
-ms.custom: 
+title: Acelerador de Microsoft BizTalk para HL7 documentación | Documentos de Microsoft
+description: Vínculos rápidos a instalar, empezar a trabajar, aprender, programación y las herramientas, el procesamiento por lotes y solución de problemas del Acelerador para HL7 en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa333ee8-ba93-4a61-9c0a-94e64627b8cf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206076"
 ---
 # <a name="microsoft-biztalk-accelerator-for-hl7-documentation"></a><span data-ttu-id="02ae2-103">Acelerador de Microsoft BizTalk para HL7 documentación</span><span class="sxs-lookup"><span data-stu-id="02ae2-103">Microsoft BizTalk Accelerator for HL7 documentation</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="02ae2-104">[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] documentación describe lo que es nueva con los diferentes [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] versiones, se muestra cómo instalar [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], incluye tutoriales paso a paso y se proporciona información para conocer HL7, las tareas de desarrollo y las tareas operativas.</span><span class="sxs-lookup"><span data-stu-id="02ae2-104"> [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] documentation describes what's new with the different [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] versions, shows you how to install [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], includes step-by-step tutorials, and provides information to learn about HL7, development tasks, and operational tasks.</span></span>   

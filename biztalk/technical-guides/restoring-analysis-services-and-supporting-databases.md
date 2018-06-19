@@ -1,14 +1,14 @@
 ---
-title: "Restaurar los servicios de análisis y compatibilidad con bases de datos | Documentos de Microsoft"
-ms.custom: 
+title: Restaurar los servicios de análisis y compatibilidad con bases de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 490ad0fb-7805-4ebc-9bc5-117d52d7c3a8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301996"
 ---
 # <a name="restoring-analysis-services-and-supporting-databases"></a><span data-ttu-id="7043f-102">Restaurar los servicios de análisis y compatibilidad con bases de datos</span><span class="sxs-lookup"><span data-stu-id="7043f-102">Restoring Analysis Services and Supporting Databases</span></span>
 <span data-ttu-id="7043f-103">Hay dos [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] bases de datos de Analysis Services que deben restaurarse en un escenario de recuperación ante desastres:</span><span class="sxs-lookup"><span data-stu-id="7043f-103">There are two [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases that must be restored in a disaster recovery scenario:</span></span>  

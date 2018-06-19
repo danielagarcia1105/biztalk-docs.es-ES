@@ -1,17 +1,17 @@
 ---
-title: "Configurar el URI de conexión para el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el URI de conexión para el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI, specifying at design time
 - connection URI, specifying at run time
 ms.assetid: 9f302b67-0bcc-44d1-9517-10d402873540
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216948"
 ---
 # <a name="configure-the-connection-uri-for-the-oracle-database-adapter"></a><span data-ttu-id="ecae4-102">Configurar el URI de conexión para el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="ecae4-102">Configure the connection URI for the Oracle Database adapter</span></span>
 <span data-ttu-id="ecae4-103">Un URI de conexión es una cadena de conexión que contiene los parámetros necesarios para conectarse a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="ecae4-103">A connection URI is a connection string that contains parameters required to connect to the Oracle database.</span></span> <span data-ttu-id="ecae4-104">Al usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], debe especificar el URI para conectarse a la base de datos de Oracle para generar los metadatos.</span><span class="sxs-lookup"><span data-stu-id="ecae4-104">While using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the URI to connect to the Oracle database to generate the metadata.</span></span> <span data-ttu-id="ecae4-105">Al configurar una orquestación mediante el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, debe especificar el URI para conectarse a la base de datos de Oracle para realizar operaciones.</span><span class="sxs-lookup"><span data-stu-id="ecae4-105">While configuring an orchestration using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you must specify the URI to connect to the Oracle database to perform operations.</span></span>  

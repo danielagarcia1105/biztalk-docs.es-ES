@@ -1,15 +1,15 @@
 ---
 title: Crear tokens de entorno y variables | Documentos de Microsoft"
-description: "Actualizar el archivo de enlace para utilizar los tokens de entorno y crear variables en VSTS para automatizar la implementación de aplicaciones de BizTalk Server"
-ms.custom: 
+description: Actualizar el archivo de enlace para utilizar los tokens de entorno y crear variables en VSTS para automatizar la implementación de aplicaciones de BizTalk Server
+ms.custom: ''
 ms.date: 11/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.prod: biztalk-server
 ms.topic: article
 ms.assetid: 28bb2d4a-f45c-466d-ba65-0ca8cad0bffd
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: tordgladnordahl
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/09/2017
+ms.locfileid: "24054572"
 ---
 # <a name="configure-environmental-tokens-and-variables-for-automatic-deployment"></a><span data-ttu-id="c66cd-103">Configurar los tokens de entorno y variables para la implementación automática</span><span class="sxs-lookup"><span data-stu-id="c66cd-103">Configure environmental tokens and variables for automatic deployment</span></span>
 <span data-ttu-id="c66cd-104">Usar variables de Visual Studio Team Services (VSTS) en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] archivos de enlace.</span><span class="sxs-lookup"><span data-stu-id="c66cd-104">Use Visual Studio Team Services (VSTS) variables in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] binding files.</span></span>

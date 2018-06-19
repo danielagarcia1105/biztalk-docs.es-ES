@@ -1,17 +1,17 @@
 ---
 title: Extender HL7 2.X esquemas con objetos de Z | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, Z objects
 - Z objects, extending 2.X schemas
 ms.assetid: 0980d919-eb81-4c65-b0f7-f17f7cfef6b3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204660"
 ---
 # <a name="extending-hl7-2x-schemas-with-z-objects"></a><span data-ttu-id="ea5a7-102">Extender HL7 2.X esquemas con objetos de Z</span><span class="sxs-lookup"><span data-stu-id="ea5a7-102">Extending HL7 2.X Schemas with Z Objects</span></span>
 <span data-ttu-id="ea5a7-103">La organización de HL7 define HL7 2.X esquemas y se espera que todos los remitentes y receptores reconocer y utilizar estos esquemas, tal y como define la organización.</span><span class="sxs-lookup"><span data-stu-id="ea5a7-103">The HL7 organization defines HL7 2.X schemas, and expects all senders and receivers to recognize and use these schemas as the organization defines them.</span></span> <span data-ttu-id="ea5a7-104">Conforme a los esquemas garantiza para la interoperabilidad.</span><span class="sxs-lookup"><span data-stu-id="ea5a7-104">Conforming to the schemas ensures for interoperability.</span></span> <span data-ttu-id="ea5a7-105">Sin embargo, el estándar HL7 le permite personalizar HL7 existente 2.X esquemas para sus fines locales específicos.</span><span class="sxs-lookup"><span data-stu-id="ea5a7-105">However, the HL7 standard enables you to customize existing HL7 2.X schemas for your specific local purposes.</span></span> <span data-ttu-id="ea5a7-106">También puede definir objetos y esquemas completamente nuevos.</span><span class="sxs-lookup"><span data-stu-id="ea5a7-106">You can also define entirely new schemas and objects.</span></span> <span data-ttu-id="ea5a7-107">Para ello, con qué las HL7 estándares llamadas a objetos de Z.</span><span class="sxs-lookup"><span data-stu-id="ea5a7-107">You do so with what the HL7 standard calls Z objects.</span></span>  

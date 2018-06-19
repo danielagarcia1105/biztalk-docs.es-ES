@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 72cdd3553289df39442b71730a61e3271db381e7
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013147"
 ---
 # <a name="how-to-set-send-pipelines-for-tibco-rendezvous"></a><span data-ttu-id="8c287-101">Establecimiento de canalizaciones de envío para TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="8c287-101">How to Set Send Pipelines for TIBCO Rendezvous</span></span>
 <span data-ttu-id="8c287-102">Microsoft BizTalk Adapter para TIBCO Rendezvous requiere que seleccione XMLTransmit y XMLReceive para las canalizaciones de envío y recepción respectivamente.</span><span class="sxs-lookup"><span data-stu-id="8c287-102">Microsoft BizTalk Adapter for TIBCO Rendezvous requires that you select XMLTransmit and XMLReceive for the send and receive pipelines respectively.</span></span>  

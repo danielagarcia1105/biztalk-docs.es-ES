@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204340"
 ---
 # <a name="dftp03-in-v2xml-24"></a><span data-ttu-id="1029d-102">DFT_P03 de V2. 2.4 DE XML</span><span class="sxs-lookup"><span data-stu-id="1029d-102">DFT_P03 in V2.XML 2.4</span></span>
 <span data-ttu-id="1029d-103">Debe cambiar manualmente el código siguiente en el esquema DFT_P03 V2. 2.4 XML después de ejecutar la herramienta Update2XMLSchema:</span><span class="sxs-lookup"><span data-stu-id="1029d-103">You must manually change the following code in the DFT_P03 schema in V2.XML 2.4 after running the Update2XMLSchema tool:</span></span>  

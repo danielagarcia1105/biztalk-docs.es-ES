@@ -13,7 +13,7 @@ helpviewer_keywords:
 - certificates, certificate sources
 - certificates, importing
 ms.assetid: 3e98fb56-4368-46f3-9329-c44fed11f4fb
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22210236"
 ---
 # <a name="certificate-sources-and-stores"></a><span data-ttu-id="99ef2-102">Orígenes de certificados y almacenes</span><span class="sxs-lookup"><span data-stu-id="99ef2-102">Certificate Sources and Stores</span></span>
 <span data-ttu-id="99ef2-103">Este tema describe dónde desea importar certificados desde y dónde se almacenarán los certificados.</span><span class="sxs-lookup"><span data-stu-id="99ef2-103">This topic describes where to import certificates from, and where to store certificates.</span></span>  

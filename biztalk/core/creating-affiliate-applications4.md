@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Single Sign-On, creating tickets
 - SSO tickets
 ms.assetid: 790fbe21-8081-4d57-803f-23014c8a3135
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24015091"
 ---
 # <a name="creating-affiliate-applications"></a><span data-ttu-id="e40cb-102">Crear aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="e40cb-102">Creating Affiliate Applications</span></span>
 <span data-ttu-id="e40cb-103">Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliadas con SSO.</span><span class="sxs-lookup"><span data-stu-id="e40cb-103">The following steps describe how to get started with affiliate applications using SSO.</span></span>  
