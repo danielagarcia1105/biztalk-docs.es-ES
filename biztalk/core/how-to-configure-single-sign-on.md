@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar el inicio de sesión único | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el inicio de sesión único | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 511edc1d-de82-4d17-88ea-6cacfccde10d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247772"
 ---
 # <a name="how-to-configure-single-sign-on"></a><span data-ttu-id="42c85-102">Cómo configurar el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="42c85-102">How to Configure Single Sign-On</span></span>
 <span data-ttu-id="42c85-103">Antes de obtener acceso al inicio de sesión único (SSO) empresarial, debería estar seguro de que se ha configurado correctamente para el usuario actual.</span><span class="sxs-lookup"><span data-stu-id="42c85-103">Before accessing Enterprise Single Sign-On, you should make sure that Enterprise Single Sign-On is set correctly for the current user.</span></span> <span data-ttu-id="42c85-104">Para la mayoría de las configuraciones, use uno de dos interfaces.</span><span class="sxs-lookup"><span data-stu-id="42c85-104">For most configurations, you use one of two interfaces.</span></span> <span data-ttu-id="42c85-105">`ISSOAdmin`es la interfaz de administración general que le permite crear nuevas aplicaciones afiliadas.</span><span class="sxs-lookup"><span data-stu-id="42c85-105">`ISSOAdmin` is the general administration interface that enables you to create new affiliation applications.</span></span> <span data-ttu-id="42c85-106">Sin embargo, si usa ISSOAdmin.GetGlobalInfo e ISSOAdmin.UpdateGlobalInfo, puede establecer una serie de valores de administración y marcas.</span><span class="sxs-lookup"><span data-stu-id="42c85-106">However, by using ISSOAdmin.GetGlobalInfo and ISSOAdmin.UpdateGlobalInfo, you can set a variety of flags and administration values.</span></span> <span data-ttu-id="42c85-107">Una posible tarea, como se describe en el procedimiento siguiente, consiste en asegurarse de que se ha habilitado la compra de vales SSO.</span><span class="sxs-lookup"><span data-stu-id="42c85-107">One possible task, as described in the following procedure, is to ensure that SSO ticketing has been enabled.</span></span>  

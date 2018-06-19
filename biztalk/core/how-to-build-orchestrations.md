@@ -1,11 +1,11 @@
 ---
-title: "Cómo generar orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo generar orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - building, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - projects, building
 - orchestrations, building
 ms.assetid: f12d5da0-fbae-4f0e-85bf-1ca2e9bf7d62
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248148"
 ---
 # <a name="how-to-build-orchestrations"></a><span data-ttu-id="3dc07-102">Cómo generar orquestaciones</span><span class="sxs-lookup"><span data-stu-id="3dc07-102">How to Build Orchestrations</span></span>
 <span data-ttu-id="3dc07-103">Tras finalizar el diseño de una orquestación, se crea el proyecto de BizTalk en un ensamblado que encapsula una orquestación ejecutable.</span><span class="sxs-lookup"><span data-stu-id="3dc07-103">After you have completed an orchestration drawing, you build your BizTalk project into an assembly that encapsulates an executable orchestration.</span></span>  

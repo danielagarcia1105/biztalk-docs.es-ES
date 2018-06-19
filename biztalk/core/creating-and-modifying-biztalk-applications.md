@@ -1,11 +1,11 @@
 ---
-title: "Creación y modificación de las aplicaciones de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Creación y modificación de las aplicaciones de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], modifying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - modifying, applications
 - creating, applications
 ms.assetid: d6c9ff3a-3903-40ec-bcaa-e46cbaf8a58d
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238148"
 ---
 # <a name="creating-and-modifying-biztalk-applications"></a><span data-ttu-id="54a92-102">Crear y modificar aplicaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="54a92-102">Creating and Modifying BizTalk Applications</span></span>
 <span data-ttu-id="54a92-103">En esta sección se describe cómo usar la consola de administración de BizTalk Server o herramienta de línea de comandos BTSTask para crear, configurar y modificar aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="54a92-103">This section describes how to use the BizTalk Server Administration console or the BTSTask command-line tool to create, configure, and modify BizTalk applications.</span></span>  

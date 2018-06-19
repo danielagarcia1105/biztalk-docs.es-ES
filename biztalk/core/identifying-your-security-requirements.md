@@ -1,18 +1,18 @@
 ---
 title: Identificar los requisitos de seguridad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, configuring
 - planning, security
 - security, planning
 ms.assetid: 5a12c959-59b5-4d44-b2f4-e1ed7053ffd5
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257636"
 ---
 # <a name="identifying-your-security-requirements"></a><span data-ttu-id="6caa1-102">Identificar los requisitos de seguridad</span><span class="sxs-lookup"><span data-stu-id="6caa1-102">Identifying Your Security Requirements</span></span>
 <span data-ttu-id="6caa1-103">Las respuestas a las preguntas siguientes le ayudarán a planear la mejor forma de implementar BizTalk Server en su entorno.</span><span class="sxs-lookup"><span data-stu-id="6caa1-103">The answers to the following questions help you plan the best way to deploy BizTalk Server in your environment.</span></span>  

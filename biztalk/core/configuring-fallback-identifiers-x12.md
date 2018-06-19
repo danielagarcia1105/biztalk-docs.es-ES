@@ -1,14 +1,14 @@
 ---
-title: "Configuración de identificadores de reserva (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de identificadores de reserva (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2cb5b32c-96ec-4192-9a10-6668a2cb1195
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233532"
 ---
 # <a name="configuring-fallback-identifiers-x12"></a><span data-ttu-id="acb0f-102">Configuración de identificadores de reserva (X12)</span><span class="sxs-lookup"><span data-stu-id="acb0f-102">Configuring Fallback Identifiers (X12)</span></span>
 <span data-ttu-id="acb0f-103">En el acuerdo de reserva, debe establecer las propiedades Autorización y Seguridad de X12, para asegurarse de que los destinatarios no autorizados no van a recibir el intercambio.</span><span class="sxs-lookup"><span data-stu-id="acb0f-103">In the fallback agreement, you must set the X12 authorization and security properties in order to verify that the interchange is not being received by unauthorized recipients.</span></span>  

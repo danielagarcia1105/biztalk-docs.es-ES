@@ -1,14 +1,14 @@
 ---
 title: EDI y AS2 informes de estado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a9e58b29-9be0-41d6-ad35-1aae28e1a784
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241388"
 ---
 # <a name="edi-and-as2-status-reporting"></a><span data-ttu-id="cc70f-102">Informes de estado de EDI y AS2</span><span class="sxs-lookup"><span data-stu-id="cc70f-102">EDI and AS2 Status Reporting</span></span>
 <span data-ttu-id="cc70f-103">Los informes de estado de EDI permiten que el personal de operaciones realice el seguimiento de las transmisiones EDI y AS2.</span><span class="sxs-lookup"><span data-stu-id="cc70f-103">EDI status reporting enables operations personnel to track the status of EDI and AS2 transmissions.</span></span> <span data-ttu-id="cc70f-104">Si están habilitados, los informes de estado proporcionan información completa sobre el estado de la transacción de intercambio de un documento, incluidos el intercambio y las confirmaciones correlacionadas.</span><span class="sxs-lookup"><span data-stu-id="cc70f-104">If enabled, status reports provide comprehensive status of a document exchange transaction, including an interchange and any acknowledgments correlated to the interchange.</span></span> <span data-ttu-id="cc70f-105">Estos informes proporcionan datos sobre el procesamiento de la recepción, la validación, el proceso por lotes y la confirmación de los mensajes EDI y AS2.</span><span class="sxs-lookup"><span data-stu-id="cc70f-105">These reports provide data on receipt, validation, batching, and acknowledgment processing of EDI and AS2 messages.</span></span>  

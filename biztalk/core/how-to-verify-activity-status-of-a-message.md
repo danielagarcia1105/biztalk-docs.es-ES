@@ -1,11 +1,11 @@
 ---
-title: "Cómo comprobar el estado de actividad de un mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Cómo comprobar el estado de actividad de un mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities, verifying status
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - verifying message status in PeopleSoft
 - messages, verifying status
 ms.assetid: b8cee6f9-0f65-4228-a87a-3f3aca6182bf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256548"
 ---
 # <a name="how-to-verify-activity-status-of-a-message"></a><span data-ttu-id="1e1cb-102">Cómo comprobar el estado de actividad de un  mensaje</span><span class="sxs-lookup"><span data-stu-id="1e1cb-102">How to Verify Activity Status of a Message</span></span>
 <span data-ttu-id="1e1cb-103">Para crear un host y un puerto HTTP de PeopleSoft donde PeopleSoft envíe los eventos, se usa el Agente de integración de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="1e1cb-103">You use the PeopleSoft Integration Broker to create a PeopleSoft HTTP Host and Port where PeopleSoft sends events.</span></span> <span data-ttu-id="1e1cb-104">Para asegurarse de que el mensaje esté activo y enrutado, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="1e1cb-104">You make sure that the message is active and routed by following these steps.</span></span>  

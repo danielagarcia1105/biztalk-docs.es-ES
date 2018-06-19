@@ -1,14 +1,14 @@
 ---
-title: "Editor desplegable personalizado para la configuración del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Editor desplegable personalizado para la configuración del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4a1b0961-652f-42b8-a18a-17abe9542cdd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238500"
 ---
 # <a name="custom-drop-down-editor-for-adapter-configuration"></a><span data-ttu-id="70cad-102">Editor desplegable personalizado para la configuración del adaptador</span><span class="sxs-lookup"><span data-stu-id="70cad-102">Custom Drop-Down Editor for Adapter Configuration</span></span>
 <span data-ttu-id="70cad-103">El código del editor personalizado muestra un editor derivado de la **System.Drawing.Design.UITypeEditor** clase, que muestra un cuadro de texto de la lista desplegable para especificar una contraseña.</span><span class="sxs-lookup"><span data-stu-id="70cad-103">The code for the custom editor shows an editor derived from the **System.Drawing.Design.UITypeEditor** class that displays a drop-down text box for entering a password.</span></span> <span data-ttu-id="70cad-104">El **GetEditStyle** invalidar devuelve **UIEditorEditStyle.DropDown** para indicar un subcontrol desplegable.</span><span class="sxs-lookup"><span data-stu-id="70cad-104">The **GetEditStyle** override returns **UIEditorEditStyle.DropDown** to indicate a drop-down subcontrol.</span></span> <span data-ttu-id="70cad-105">Los métodos de servicio **DropDownControl** y **CloseDropDown** administrar el control creado con **CreatePassword**.</span><span class="sxs-lookup"><span data-stu-id="70cad-105">The service methods **DropDownControl** and **CloseDropDown** manage the control created with **CreatePassword**.</span></span>  

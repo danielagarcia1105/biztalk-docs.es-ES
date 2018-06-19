@@ -1,11 +1,11 @@
 ---
 title: Solicitar asistencia | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Query Builder [BAM portal], technical assistance
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], viewing details
 - queries [BAM], viewing details
 ms.assetid: d41de170-f497-47dc-896d-e79c04f0649b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268596"
 ---
 # <a name="request-assistance"></a><span data-ttu-id="487f8-102">Solicitar asistencia</span><span class="sxs-lookup"><span data-stu-id="487f8-102">Request Assistance</span></span>
 <span data-ttu-id="487f8-103">Cuando necesite ayuda del administrador del sistema o de otra persona de soporte técnico con su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementación, puede usar el **asistencia** situado en la parte inferior de la **resultados** detalle página para colocar una solicitud de asistencia.</span><span class="sxs-lookup"><span data-stu-id="487f8-103">When you require assistance from your systems administrator or other support person with your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation, you can use the **Assistance** button at the bottom of the **Results** detail page to place an assistance request.</span></span>  

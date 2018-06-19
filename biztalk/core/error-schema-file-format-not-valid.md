@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241956"
 ---
 # <a name="error---schema-file-format-not-valid"></a><span data-ttu-id="022b2-102">Error: formato de archivo de esquema no válido</span><span class="sxs-lookup"><span data-stu-id="022b2-102">Error - Schema File Format Not Valid</span></span>
 <span data-ttu-id="022b2-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="022b2-103">**Explanation**</span></span>  

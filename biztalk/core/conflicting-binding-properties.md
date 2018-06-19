@@ -1,14 +1,14 @@
 ---
 title: En conflicto propiedades de enlace | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b08c317e-a617-464b-9ee4-007fb41d99b2
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233244"
 ---
 # <a name="conflicting-binding-properties"></a><span data-ttu-id="9d32b-102">Propiedades de enlace conflictivas</span><span class="sxs-lookup"><span data-stu-id="9d32b-102">Conflicting binding properties</span></span>
 ## <a name="details"></a><span data-ttu-id="9d32b-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="9d32b-103">Details</span></span>  

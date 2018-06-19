@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239860"
 ---
 # <a name="engine-control-functions"></a><span data-ttu-id="d3d9c-102">Funciones de control del motor</span><span class="sxs-lookup"><span data-stu-id="d3d9c-102">Engine Control Functions</span></span>
 <span data-ttu-id="d3d9c-103">En esta sección se explican los comportamientos asociados con varias funciones de control del motor de reglas de negocios que permiten a una aplicación o a una directiva controlar los datos de la memoria de trabajo del motor de reglas.</span><span class="sxs-lookup"><span data-stu-id="d3d9c-103">This section explains the behaviors associated with several Business Rule engine control functions that allow an application or policy to control the facts in the rule engine's working memory.</span></span> <span data-ttu-id="d3d9c-104">La presencia de datos en la memoria de trabajo determina las condiciones que se evalúan y las acciones que se ejecutan.</span><span class="sxs-lookup"><span data-stu-id="d3d9c-104">The presence of facts in the working memory drives the conditions that are evaluated and the actions that are executed.</span></span>  

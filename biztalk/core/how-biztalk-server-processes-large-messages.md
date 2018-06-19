@@ -1,14 +1,14 @@
 ---
-title: "Cómo BizTalk Server procesa los mensajes grandes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo BizTalk Server procesa los mensajes grandes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62c070be-dff5-4349-9e36-dd3a7caf1752
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249636"
 ---
 # <a name="how-biztalk-server-processes-large-messages"></a><span data-ttu-id="3afe9-102">Cómo procesa BizTalk Server los mensajes de gran tamaño</span><span class="sxs-lookup"><span data-stu-id="3afe9-102">How BizTalk Server Processes Large Messages</span></span>
 ## <a name="what-is-a-large-message"></a><span data-ttu-id="3afe9-103">¿Qué es un mensaje de gran tamaño?</span><span class="sxs-lookup"><span data-stu-id="3afe9-103">What is a large message?</span></span>  

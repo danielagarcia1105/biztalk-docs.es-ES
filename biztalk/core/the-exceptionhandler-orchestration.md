@@ -1,11 +1,11 @@
 ---
-title: "La orquestación de ExceptionHandler | Documentos de Microsoft"
-ms.custom: 
+title: La orquestación de ExceptionHandler | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, systems
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, errors [process management solutions]
 - process management solution tutorial, errors
 ms.assetid: ac154e76-9dfe-433a-948b-e098df705fe5
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280028"
 ---
 # <a name="the-exceptionhandler-orchestration"></a><span data-ttu-id="6fe37-102">ExceptionHandler (orquestación)</span><span class="sxs-lookup"><span data-stu-id="6fe37-102">The ExceptionHandler Orchestration</span></span>
 <span data-ttu-id="6fe37-103">La solución de administración de procesos empresariales utiliza dos tipos de excepciones: excepciones del sistema y las excepciones de aplicación.</span><span class="sxs-lookup"><span data-stu-id="6fe37-103">The Business Process Management solution uses two kinds of exceptions: system exceptions and application exceptions.</span></span> <span data-ttu-id="6fe37-104">Excepciones del sistema incluyen problemas como los errores de recursos: un error, por ejemplo una conexión de red.</span><span class="sxs-lookup"><span data-stu-id="6fe37-104">System exceptions include things like resource errors—a network connection failing, for example.</span></span> <span data-ttu-id="6fe37-105">Es probable que dichos problemas se puedan resolver por sí mismos tras un período y que la solución vuelva a intentar repetir todas las operaciones que provocan excepciones del sistema.</span><span class="sxs-lookup"><span data-stu-id="6fe37-105">There is a chance that such a problem may resolve itself after an interval so that the solution retries all operations that produce system exceptions.</span></span> <span data-ttu-id="6fe37-106">Las excepciones de aplicación surgen por problemas con menos probabilidades de resolverse por sí mismos, como los errores lógicos o algunos tipos de incoherencia.</span><span class="sxs-lookup"><span data-stu-id="6fe37-106">Application exceptions are produced by things less likely to resolve themselves, such as logical errors or some form of inconsistency.</span></span> <span data-ttu-id="6fe37-107">La solución utiliza la **ExceptionHandlerOrch** orquestación para procesar los errores de aplicación y del sistema.</span><span class="sxs-lookup"><span data-stu-id="6fe37-107">The solution uses the **ExceptionHandlerOrch** orchestration to process both system and application errors.</span></span>  

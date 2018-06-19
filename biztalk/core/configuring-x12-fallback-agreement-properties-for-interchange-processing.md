@@ -1,14 +1,14 @@
 ---
-title: "Configuración de X12 propiedades de acuerdo de reserva para el procesamiento de intercambio | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de X12 propiedades de acuerdo de reserva para el procesamiento de intercambio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5e7109e7-d343-45d5-9c9a-bc616b0ba3e1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232924"
 ---
 # <a name="configuring-x12-fallback-agreement-properties-for-interchange-processing"></a><span data-ttu-id="03a2f-102">Configuración de las propiedades de acuerdos de reserva de X12 para el procesamiento de intercambio</span><span class="sxs-lookup"><span data-stu-id="03a2f-102">Configuring X12 Fallback Agreement Properties for Interchange Processing</span></span>
 <span data-ttu-id="03a2f-103">Las propiedades de procesamiento de intercambio X12 definen el modo en que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa el sobre de un intercambio codificado con X12 recibido de una entidad.</span><span class="sxs-lookup"><span data-stu-id="03a2f-103">X12 interchange processing properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the envelope of an X12-encoded interchange received from a party.</span></span>  

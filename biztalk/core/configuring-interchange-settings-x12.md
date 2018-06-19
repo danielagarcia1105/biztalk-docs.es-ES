@@ -1,14 +1,14 @@
 ---
-title: "Configuración de intercambio configuración (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de intercambio configuración (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9db609eb-76e6-4548-9a4e-1673c01f0c76
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232940"
 ---
 # <a name="configuring-interchange-settings-x12"></a><span data-ttu-id="f279c-102">Configuración de las opciones de intercambio (X12)</span><span class="sxs-lookup"><span data-stu-id="f279c-102">Configuring Interchange Settings (X12)</span></span>
 <span data-ttu-id="f279c-103">Las propiedades de procesamiento de intercambio X12 definen el modo en que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa el sobre de un intercambio codificado con X12 recibido de una entidad.</span><span class="sxs-lookup"><span data-stu-id="f279c-103">X12 interchange processing properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the envelope of an X12-encoded interchange received from a party.</span></span>  

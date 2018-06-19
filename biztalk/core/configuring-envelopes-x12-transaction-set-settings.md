@@ -1,14 +1,14 @@
 ---
-title: "Configuración de sobres (configuración de conjunto de transacciones de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de sobres (configuración de conjunto de transacciones de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9313a7b9-72fa-4071-8c65-007371643179
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234340"
 ---
 # <a name="configuring-envelopes-x12-transaction-set-settings"></a><span data-ttu-id="796af-102">Configuración de sobres (configuración del conjunto de transacciones X12)</span><span class="sxs-lookup"><span data-stu-id="796af-102">Configuring Envelopes (X12-Transaction Set Settings)</span></span>
 <span data-ttu-id="796af-103">En el **sobres** página de la **configuración del conjunto de transacciones** sección, defina cómo BizTalk Server genera los segmentos GS y ST para un intercambio codificado en X12 que envía a la entidad.</span><span class="sxs-lookup"><span data-stu-id="796af-103">In the **Envelops** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the GS and ST segments for an X12-encoded interchange that it sends to the party.</span></span> <span data-ttu-id="796af-104">El segmento GS identifica y especifica un grupo funcional para un intercambio con codificación X12.</span><span class="sxs-lookup"><span data-stu-id="796af-104">A GS segment identifies and specifies a functional group for an X12-encoded interchange.</span></span> <span data-ttu-id="796af-105">El segmento ST es el encabezado de mensaje para el intercambio con codificación X12.</span><span class="sxs-lookup"><span data-stu-id="796af-105">An ST segment is the message header for an X12-encoded interchange.</span></span>  

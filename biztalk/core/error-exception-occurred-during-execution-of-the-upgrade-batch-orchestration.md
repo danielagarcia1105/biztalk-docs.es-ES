@@ -1,14 +1,14 @@
 ---
-title: "Se ha producido una excepción durante la ejecución de la orquestación de lote de actualización | Documentos de Microsoft"
-ms.custom: 
+title: Se ha producido una excepción durante la ejecución de la orquestación de lote de actualización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2221a498-98aa-43ab-bc4e-34dcbd92dcf0
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006669"
 ---
 # <a name="an-exception-has-occurred-during-the-execution-of-the-upgrade-batch-orchestration"></a><span data-ttu-id="98625-102">Se produjo una excepción durante la ejecución de la orquestación del lote de actualización</span><span class="sxs-lookup"><span data-stu-id="98625-102">An exception has occurred during the execution of the upgrade batch orchestration</span></span>
 ## <a name="details"></a><span data-ttu-id="98625-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="98625-103">Details</span></span>  

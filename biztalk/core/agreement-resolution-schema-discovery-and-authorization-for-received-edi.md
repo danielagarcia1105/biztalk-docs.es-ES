@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22234236"
 ---
 # <a name="agreement-resolution-schema-discovery-and-authorization-for-received-edi-messages"></a><span data-ttu-id="1c6b2-102">Resolución de acuerdos, detección de esquemas y autorización para los mensajes EDI recibidos</span><span class="sxs-lookup"><span data-stu-id="1c6b2-102">Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages</span></span>
 <span data-ttu-id="1c6b2-103">Cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un mensaje EDI, la canalización de recepción EDI realiza la búsqueda de acuerdos de socio comercial, la detección de esquemas y los procesos de autorización para determinar el modo en que se procesa el mensaje.</span><span class="sxs-lookup"><span data-stu-id="1c6b2-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI message, the EDI receive pipeline performs trading partner agreement lookup, schema discovery, and authorization processes to determine how to process the message.</span></span>  

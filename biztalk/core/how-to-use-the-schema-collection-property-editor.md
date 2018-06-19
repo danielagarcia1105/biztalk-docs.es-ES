@@ -1,18 +1,18 @@
 ---
-title: "Cómo usar el Editor de propiedades de la colección de esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el Editor de propiedades de la colección de esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, Schema Collection Property Editor
 - Schema Collection Property Editor
 - pipelines, Schema Collection Property Editor
 ms.assetid: 1f0c0710-8a7c-4076-ab87-e6b8b9a928a8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256300"
 ---
 # <a name="how-to-use-the-schema-collection-property-editor"></a><span data-ttu-id="075fd-102">Cómo usar el Editor de propiedades de la colección de esquema</span><span class="sxs-lookup"><span data-stu-id="075fd-102">How to Use the Schema Collection Property Editor</span></span>
 <span data-ttu-id="075fd-103">El Editor de propiedades de colección de esquema se utiliza para seleccionar esquemas para el componente de canalización.</span><span class="sxs-lookup"><span data-stu-id="075fd-103">You use the Schema Collection Property Editor to select schemas for your pipeline component.</span></span>  

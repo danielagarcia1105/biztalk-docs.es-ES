@@ -1,14 +1,14 @@
 ---
-title: "Configurar puertos para una solución AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Configurar puertos para una solución AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 715358b1-4226-476b-b0de-2b91434aa24c
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233588"
 ---
 # <a name="configuring-ports-for-an-as2-solution"></a><span data-ttu-id="5dcbd-102">Configurar puertos para una solución AS2</span><span class="sxs-lookup"><span data-stu-id="5dcbd-102">Configuring Ports for an AS2 Solution</span></span>
 <span data-ttu-id="5dcbd-103">Puede usar los siguientes puertos de recepción y envío para transmitir mensajes EDI y no pertenecientes a EDI a través de AS2:</span><span class="sxs-lookup"><span data-stu-id="5dcbd-103">You can use the following receive and send ports to transmit EDI and non-EDI messages over AS2:</span></span>  

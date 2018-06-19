@@ -1,14 +1,14 @@
 ---
-title: "Cómo habilitar enrutamiento para mensajes con errores | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar enrutamiento para mensajes con errores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d33beed4-1ae2-4282-95ac-5d68aab7fb5d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254116"
 ---
 # <a name="how-to-enable-routing-for-failed-messages"></a><span data-ttu-id="b9ac5-102">Cómo habilitar el enrutamiento para mensajes con errores</span><span class="sxs-lookup"><span data-stu-id="b9ac5-102">How to Enable Routing for Failed Messages</span></span>
 <span data-ttu-id="b9ac5-103">El enrutamiento de mensajes con errores es una propiedad de los puertos de envío y recepción y se habilita mediante la opción “Habilitar enrutamiento para mensajes con errores” de la página de propiedades del puerto.</span><span class="sxs-lookup"><span data-stu-id="b9ac5-103">Failed message routing is a property of send and receive ports, and is enabled by indicating "Enable routing for failed messages" on the port's property page.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "La actividad económica (BAM) de supervisión | Documentos de Microsoft"
-ms.custom: 
+title: La actividad económica (BAM) de supervisión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, tools
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - BAM, BAM Management utility
 - BAM, processing
 ms.assetid: a8ad48b1-6891-4bbb-b125-27d224e49293
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234788"
 ---
 # <a name="business-activity-monitoring-bam"></a><span data-ttu-id="ab884-102">Supervisión de la actividad económica (SAE)</span><span class="sxs-lookup"><span data-stu-id="ab884-102">Business Activity Monitoring (BAM)</span></span>
 <span data-ttu-id="ab884-103">El diagrama siguiente muestra la arquitectura de la característica Supervisión de la actividad económica (BAM).</span><span class="sxs-lookup"><span data-stu-id="ab884-103">The following diagram illustrates the architecture for the Business Activity Monitoring (BAM) feature.</span></span>  

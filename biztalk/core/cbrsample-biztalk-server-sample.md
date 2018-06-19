@@ -17,7 +17,7 @@ helpviewer_keywords:
 - examples, filters
 - messages, examples
 ms.assetid: 8fba494c-9257-4eed-8b6a-867056147c2c
-caps.latest.revision: ''
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22234732"
 ---
 # <a name="cbrsample-biztalk-server-sample"></a><span data-ttu-id="2f8de-102">CBRSample (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="2f8de-102">CBRSample (BizTalk Server Sample)</span></span>
 <span data-ttu-id="2f8de-103">El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida para transformar y enrutar mensajes de instancias basándose en su contenido.</span><span class="sxs-lookup"><span data-stu-id="2f8de-103">The CBRSample sample demonstrates how to apply filters and an outbound map to transform and route instance messages based on content.</span></span>  
@@ -116,7 +117,7 @@ ms.lasthandoff: 03/23/2018
   
 1.  <span data-ttu-id="2f8de-177">En la consola de administración de BizTalk Server, expanda **puertos de envío**, haga clic en **CBRUSSendPort**y, a continuación, haga clic en **editar**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-177">In the BizTalk Server Administration console, expand **Send Ports**, right-click **CBRUSSendPort**, and then click **Edit**.</span></span>  
   
-2.  <span data-ttu-id="2f8de-178">En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==**y la configuración de la **Valor** columna **100**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-178">In the **Static One-Way Send Port Properties** dialog box, in the folder tree to the left of the dialog box, select **Filters & Mapping &#124; Filters**, and then add a new row by setting **Property** to **CBRSample.CountryCode**, leaving the **Operator** column set to **==**, and setting the **Value** column to **100**.</span></span>  
+2.  <span data-ttu-id="2f8de-178">En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==** y la configuración de la **Valor** columna **100**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-178">In the **Static One-Way Send Port Properties** dialog box, in the folder tree to the left of the dialog box, select **Filters & Mapping &#124; Filters**, and then add a new row by setting **Property** to **CBRSample.CountryCode**, leaving the **Operator** column set to **==**, and setting the **Value** column to **100**.</span></span>  
   
 3.  <span data-ttu-id="2f8de-179">En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2USMap**, y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-179">In the folder tree to the left of the dialog box, select **Filters & Mapping &#124; Outbound Maps**, set the **Map to apply** property to **CBRSample.CBRInput2USMap**, and then click **OK**.</span></span> <span data-ttu-id="2f8de-180">Puede que tenga que hacer clic en el botón de desplazamiento para ver la asignación.</span><span class="sxs-lookup"><span data-stu-id="2f8de-180">You may have to click the scroll button to bring the map into view.</span></span>  
   
@@ -124,7 +125,7 @@ ms.lasthandoff: 03/23/2018
   
 1.  <span data-ttu-id="2f8de-182">En la consola de administración de BizTalk Server, expanda **puertos de envío**, haga clic en **CBRCANSendPort**y, a continuación, haga clic en **editar**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-182">In the BizTalk Server Administration console, expand **Send Ports**, right-click **CBRCANSendPort**, and then click **Edit**.</span></span>  
   
-2.  <span data-ttu-id="2f8de-183">En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==**y la configuración de la **Valor** columna **200**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-183">In the **Static One-Way Send Port Properties** dialog box, in the folder tree to the left of the dialog box, select **Filters & Mapping &#124; Filters**, and then add a new row by setting **Property** to **CBRSample.CountryCode**, leaving the **Operator** column set to **==**, and setting the **Value** column to **200**.</span></span>  
+2.  <span data-ttu-id="2f8de-183">En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==** y la configuración de la **Valor** columna **200**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-183">In the **Static One-Way Send Port Properties** dialog box, in the folder tree to the left of the dialog box, select **Filters & Mapping &#124; Filters**, and then add a new row by setting **Property** to **CBRSample.CountryCode**, leaving the **Operator** column set to **==**, and setting the **Value** column to **200**.</span></span>  
   
 3.  <span data-ttu-id="2f8de-184">En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2CANMap** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2f8de-184">In the folder tree to the left of the dialog box, select **Filters & Mapping &#124; Outbound Maps**, set the **Map to apply** property to **CBRSample.CBRInput2CANMap**, and then click **OK**.</span></span>  
   

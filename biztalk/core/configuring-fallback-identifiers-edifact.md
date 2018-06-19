@@ -1,14 +1,14 @@
 ---
-title: "Configuración de identificadores de reserva (EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de identificadores de reserva (EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2ce56c1-44f1-42dc-94e8-36e5ba664f53
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233556"
 ---
 # <a name="configuring-fallback-identifiers-edifact"></a><span data-ttu-id="b52f2-102">Configuración de identificadores de reserva (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="b52f2-102">Configuring Fallback Identifiers (EDIFACT)</span></span>
 <span data-ttu-id="b52f2-103">En el acuerdo de reserva, debe establecer la contraseña de referencia del destinatario para comprobar que no se recibe el intercambio por parte de destinatarios no autorizados.</span><span class="sxs-lookup"><span data-stu-id="b52f2-103">In the fallback agreement, you must set the recipient reference password, in order to verify that the interchange is not being received by unauthorized recipients.</span></span>  

@@ -1,15 +1,15 @@
 ---
 title: Cree un nuevo Host | Documentos de Microsoft
 descriptions: Use BizTalk Administration to create a new host in BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 811e6e57-5c37-471a-aff4-5b2b68c367b1
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250204"
 ---
 # <a name="create-a-new-host"></a><span data-ttu-id="c0210-102">Cree un nuevo Host</span><span class="sxs-lookup"><span data-stu-id="c0210-102">Create a New Host</span></span>
 <span data-ttu-id="c0210-103">Un host de BizTalk es un contenedor lógico para elementos como controladores de adaptadores, ubicaciones de recepción (incluidas las canalizaciones) y orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="c0210-103">A BizTalk Host is a logical container for items such as adapter handlers, receive locations (including pipelines), and orchestrations.</span></span> <span data-ttu-id="c0210-104">Se recomienda utilizar hosts diferentes para el procesamiento, la recepción y el envío de mensajes, y utilizar también hosts diferentes para elementos de confianza y no de confianza con el fin de facilitar la implementación de medidas de seguridad y facilitar la administración de los hosts.</span><span class="sxs-lookup"><span data-stu-id="c0210-104">We recommend that you use separate hosts for processing, receiving, and sending messages, and that you use separate hosts for trusted and non-trusted items to facilitate implementing security measures and to improve manageability of the hosts.</span></span> <span data-ttu-id="c0210-105">Tan sólo es posible instalar una instancia de un host por cada servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="c0210-105">You can install only one instance of a host per BizTalk server.</span></span> <span data-ttu-id="c0210-106">Para obtener más información acerca de los hosts, consulte [Hosts](../core/hosts.md).</span><span class="sxs-lookup"><span data-stu-id="c0210-106">For more information about hosts, see [Hosts](../core/hosts.md).</span></span>  

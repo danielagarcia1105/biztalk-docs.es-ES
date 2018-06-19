@@ -1,11 +1,11 @@
 ---
 title: Consideraciones para instalar BizTalk Server en un Cluster2 de servidor de Windows | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Configure Your Server Wizard
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Network DTC access
 - MSDTC
 ms.assetid: 4daea7c6-7d26-440c-a2a0-fa018a25b2b3
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237940"
 ---
 # <a name="considerations-for-installing-biztalk-server-on-a-windows-server-cluster"></a><span data-ttu-id="54003-102">Consideraciones para instalar BizTalk Server en un clúster de servidores Windows Server</span><span class="sxs-lookup"><span data-stu-id="54003-102">Considerations for Installing BizTalk Server on a Windows Server Cluster</span></span>
 <span data-ttu-id="54003-103">Es preciso realizar consideraciones especiales al instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un clúster de Windows Server.</span><span class="sxs-lookup"><span data-stu-id="54003-103">Special considerations must be made when installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a Windows Server cluster.</span></span> <span data-ttu-id="54003-104">En este tema, se enumeran estas consideraciones.</span><span class="sxs-lookup"><span data-stu-id="54003-104">This topic lists these considerations.</span></span>  

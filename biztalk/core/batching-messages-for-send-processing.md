@@ -1,14 +1,14 @@
 ---
-title: "Procesamiento de envío de mensajes por lotes para | Documentos de Microsoft"
-ms.custom: 
+title: Procesamiento de envío de mensajes por lotes para | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d9115ec-13bc-41a8-8928-57b168c95af4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232460"
 ---
 # <a name="batching-messages-for-send-processing"></a><span data-ttu-id="98830-102">Procesar mensajes por lotes para el procesamiento de envío</span><span class="sxs-lookup"><span data-stu-id="98830-102">Batching Messages for Send Processing</span></span>
 ## <a name="send-adapter-batch-management"></a><span data-ttu-id="98830-103">Administración de lotes del adaptador de envío</span><span class="sxs-lookup"><span data-stu-id="98830-103">Send Adapter Batch Management</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234860"
 ---
 # <a name="configuring-business-profile-properties"></a><span data-ttu-id="c79b0-102">Configuración de propiedades de perfil de negocio</span><span class="sxs-lookup"><span data-stu-id="c79b0-102">Configuring Business Profile Properties</span></span>
 <span data-ttu-id="c79b0-103">Un perfil de negocio representa una división de negocio de una organización.</span><span class="sxs-lookup"><span data-stu-id="c79b0-103">A business profile represents a business division in an organization.</span></span> <span data-ttu-id="c79b0-104">Al igual que una organización puede tener muchas divisiones (contabilidad, compras, envíos, etc.), una entidad puede tener muchos perfiles de negocio, cada uno de los cuales representa una división de negocio de una organización.</span><span class="sxs-lookup"><span data-stu-id="c79b0-104">Just like an organization can have many divisions (accounting, purchase, shipping, etc.), a party can have many business profiles, each representing a business division in an organization.</span></span> <span data-ttu-id="c79b0-105">Las propiedades del perfil de negocio contienen la información siguiente:</span><span class="sxs-lookup"><span data-stu-id="c79b0-105">Business profile properties contain the following information:</span></span>  

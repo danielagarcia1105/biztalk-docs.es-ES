@@ -1,11 +1,11 @@
 ---
-title: "Opciones de configuración de autenticación para un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Opciones de configuración de autenticación para un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - configuring, receive ports
 - authenticating, receive ports
 ms.assetid: ce213ef0-ae91-47cf-84bf-0f86cc684bce
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248812"
 ---
 # <a name="how-to-configure-authentication-options-for-a-receive-port"></a><span data-ttu-id="3e6c8-102">Cómo configurar opciones de autenticación para un puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="3e6c8-102">How to Configure Authentication Options for a Receive Port</span></span>
 <span data-ttu-id="3e6c8-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para configurar opciones de autenticación de mensajes para un puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="3e6c8-103">This topic describes how to use the BizTalk Server Administration console to configure message authentication options for a receive port.</span></span> <span data-ttu-id="3e6c8-104">Estas opciones entra en vigor cuando se configura la autenticación de resolución de entidades.</span><span class="sxs-lookup"><span data-stu-id="3e6c8-104">These options take effect when party resolution authentication is configured.</span></span> <span data-ttu-id="3e6c8-105">Las opciones son:</span><span class="sxs-lookup"><span data-stu-id="3e6c8-105">The options are:</span></span>  

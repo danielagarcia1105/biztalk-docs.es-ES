@@ -1,14 +1,14 @@
 ---
-title: "Cómo mover y copiar nodos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover y copiar nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4f1ec14-c607-4da3-9139-73a61963b819
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254772"
 ---
 # <a name="how-to-move-and-copy-nodes"></a><span data-ttu-id="e6cac-102">Cómo mover y copiar nodos</span><span class="sxs-lookup"><span data-stu-id="e6cac-102">How to Move and Copy Nodes</span></span>
 <span data-ttu-id="e6cac-103">Es probable que en determinadas situaciones desee mover un nodo existente a otra ubicación en el árbol de esquema.</span><span class="sxs-lookup"><span data-stu-id="e6cac-103">You will probably encounter situations where you want to move an existing node to a different location in the schema tree.</span></span> <span data-ttu-id="e6cac-104">Asimismo, puede ahorrar tiempo si copia un nodo existente y luego lo pega en una ubicación diferente en el árbol de esquema.</span><span class="sxs-lookup"><span data-stu-id="e6cac-104">You might also be able to save time by making a copy of an existing node and then pasting it into a different location in the schema tree.</span></span> <span data-ttu-id="e6cac-105">Este tema proporciona instrucciones paso a paso para realizar estas tareas.</span><span class="sxs-lookup"><span data-stu-id="e6cac-105">This topic provides step-by-step instructions for performing these tasks.</span></span>  

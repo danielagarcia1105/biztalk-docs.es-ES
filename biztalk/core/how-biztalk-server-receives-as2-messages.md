@@ -1,14 +1,14 @@
 ---
-title: "Cómo BizTalk Server recibe mensajes AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo BizTalk Server recibe mensajes AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccfb4f6c-1fec-4af5-99e5-12634071dd3a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246644"
 ---
 # <a name="how-biztalk-server-receives-as2-messages"></a><span data-ttu-id="ca207-102">Cómo BizTalk Server recibe mensajes AS2</span><span class="sxs-lookup"><span data-stu-id="ca207-102">How BizTalk Server Receives AS2 Messages</span></span>
 <span data-ttu-id="ca207-103">En esta sección se describe cómo los componentes de AS2 de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesan los mensajes AS2 salientes.</span><span class="sxs-lookup"><span data-stu-id="ca207-103">This section describes how the AS2 components in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process outgoing AS2 messages.</span></span>  

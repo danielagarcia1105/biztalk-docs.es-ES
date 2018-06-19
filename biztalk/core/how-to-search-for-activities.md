@@ -1,17 +1,17 @@
 ---
-title: "Búsqueda de actividades | Documentos de Microsoft"
-ms.custom: 
+title: Búsqueda de actividades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - databases [BAM], searching
 - BAM portal, searching databases
 ms.assetid: c29c86e1-ef22-4d71-b646-bc2a6f496553
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255212"
 ---
 # <a name="how-to-search-for-activities"></a><span data-ttu-id="e8284-102">Búsqueda de actividades</span><span class="sxs-lookup"><span data-stu-id="e8284-102">How to Search for Activities</span></span>
 <span data-ttu-id="e8284-103">Use la Búsqueda de la actividad económica en el portal web de BAM para buscar los datos de seguimiento (también denominados instancias) que se encuentran almacenados en la base de datos de BAM.</span><span class="sxs-lookup"><span data-stu-id="e8284-103">Use the Business Activity Search on the BAM Web portal to search the tracking data, also known as instances, stored in the BAM database.</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "Configuración del grupo de actualización | Documentos de Microsoft"
-description: "Cambiar la configuración de rendimiento del grupo con la administración de BizTalk Server"
-ms.custom: 
+title: Configuración del grupo de actualización | Documentos de Microsoft
+description: Cambiar la configuración de rendimiento del grupo con la administración de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fe0cbeb8-23d6-45cf-8535-c989914f5124
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254812"
 ---
 # <a name="how-to-update-the-biztalk-group-settings"></a><span data-ttu-id="f2851-103">Cómo actualizar la configuración del grupo de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f2851-103">How to update the BizTalk group settings</span></span>
 <span data-ttu-id="f2851-104">Mediante el panel de configuración, se puede modificar la información de configuración que se usa en todos los equipos de un grupo de BizTalk determinado.</span><span class="sxs-lookup"><span data-stu-id="f2851-104">Using the Settings Dashboard, you can modify the configuration information used across all machines in a given BizTalk group.</span></span> <span data-ttu-id="f2851-105">En este tema se proporciona el procedimiento paso a paso para modificar la configuración de rendimiento a nivel de grupo en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f2851-105">This topic provides the step-by-step procedure to modify the group-level performance settings in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="f2851-106">Esta configuración es aplicable a todos los equipos de un grupo determinado.</span><span class="sxs-lookup"><span data-stu-id="f2851-106">These settings are applicable for all the machines in a given group.</span></span>  

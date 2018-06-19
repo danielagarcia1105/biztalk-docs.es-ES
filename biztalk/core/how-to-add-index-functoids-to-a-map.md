@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar Functoids de índice a un mapa | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar Functoids de índice a un mapa | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbfccfcc-c333-422f-b40b-13ca4152e588
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247676"
 ---
 # <a name="how-to-add-index-functoids-to-a-map"></a><span data-ttu-id="2077e-102">Cómo agregar functoids de índice a una asignación</span><span class="sxs-lookup"><span data-stu-id="2077e-102">How to Add Index Functoids to a Map</span></span>
 <span data-ttu-id="2077e-103">El **índice** functoid le permite seleccionar información de un registro específico en una serie de registros de bucle.</span><span class="sxs-lookup"><span data-stu-id="2077e-103">The **Index** functoid enables you to select information from a specific record in a series of looping records.</span></span> <span data-ttu-id="2077e-104">Cada **índice** functoid selecciona información de un solo campo.</span><span class="sxs-lookup"><span data-stu-id="2077e-104">Each **Index** functoid selects information from a single field.</span></span>  

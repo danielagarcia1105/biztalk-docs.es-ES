@@ -1,14 +1,14 @@
 ---
-title: "Cómo capturar un volcado de memoria de un proceso de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo capturar un volcado de memoria de un proceso de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8053fcf3-b331-4245-b3c3-21290463e0c0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247580"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-biztalk-process"></a><span data-ttu-id="7865a-102">Cómo capturar un volcado de memoria de un proceso de BizTalk</span><span class="sxs-lookup"><span data-stu-id="7865a-102">How to Capture a Memory Dump of a BizTalk Process</span></span>
 <span data-ttu-id="7865a-103">Es posible que, en determinadas circunstancias, sea necesario capturar un volcado de memoria de un proceso que se está ejecutando en un servidor de BizTalk Server para realizar un análisis en profundidad del proceso.</span><span class="sxs-lookup"><span data-stu-id="7865a-103">Under certain circumstances it may be necessary to capture a memory dump of a process running on a BizTalk Server to perform an in depth analysis of the process.</span></span> <span data-ttu-id="7865a-104">A continuación se indican las situaciones que pueden requerir el análisis de un volcado de memoria:</span><span class="sxs-lookup"><span data-stu-id="7865a-104">Situations that may require analysis of a memory dump include the following:</span></span>  

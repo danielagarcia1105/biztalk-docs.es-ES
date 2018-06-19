@@ -1,14 +1,14 @@
 ---
 title: Directrices para solucionar problemas de permisos de los servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e29543e9-9b87-437b-ac91-8f1cce01fab4
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246780"
 ---
 # <a name="guidelines-for-resolving-web-services-permissions-problems"></a><span data-ttu-id="c45e7-102">Directrices para solucionar problemas de permisos de servicios web</span><span class="sxs-lookup"><span data-stu-id="c45e7-102">Guidelines for Resolving Web Services Permissions Problems</span></span>
 <span data-ttu-id="c45e7-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suele usar servicios web junto con el adaptador de SOAP, así como al publicar orquestaciones como servicios web.</span><span class="sxs-lookup"><span data-stu-id="c45e7-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Web services for use with the SOAP adapter and when publishing orchestrations as Web services.</span></span> <span data-ttu-id="c45e7-104">Este tema proporciona directrices generales para minimizar los problemas con los permisos de servicios Web, así como pasos que pueden seguirse para resolver los problemas de ese tipo que afecten a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c45e7-104">This topic provides some general guidelines for minimizing Web services permissions problems and steps that you can follow to troubleshoot Web services permissions problems that affect [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

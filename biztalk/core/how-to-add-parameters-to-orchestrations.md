@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247364"
 ---
 # <a name="how-to-add-parameters-to-orchestrations"></a><span data-ttu-id="7fe57-102">Cómo agregar parámetros a orquestaciones</span><span class="sxs-lookup"><span data-stu-id="7fe57-102">How to Add Parameters to Orchestrations</span></span>
 <span data-ttu-id="7fe57-103">Puede especificar qué parámetros debería tomar la orquestación en la ventana Vista orquestación.</span><span class="sxs-lookup"><span data-stu-id="7fe57-103">You can specify what parameters your orchestration should take in the Orchestration View window.</span></span> <span data-ttu-id="7fe57-104">Una orquestación puede tomar los siguientes elementos como parámetros:</span><span class="sxs-lookup"><span data-stu-id="7fe57-104">An orchestration can take the following items as parameters:</span></span>  

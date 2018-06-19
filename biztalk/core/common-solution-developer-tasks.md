@@ -1,14 +1,14 @@
 ---
 title: Tareas comunes de programadores de soluciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3439e185-bce1-4df9-848f-c96f08b66604
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232364"
 ---
 # <a name="common-solution-developer-tasks"></a><span data-ttu-id="b4420-102">Tareas comunes de programadores de soluciones</span><span class="sxs-lookup"><span data-stu-id="b4420-102">Common Solution Developer Tasks</span></span>
 <span data-ttu-id="b4420-103">Los programadores de soluciones diseñan las soluciones de BizTalk Server mediante las tecnologías y las herramientas de desarrollo, así como mediante Microsoft .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="b4420-103">Solution developers design and develop BizTalk Server solutions using BizTalk Server development tools and technologies as well as the Microsoft .NET Framework.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Interfaces para un adaptador de envío asincrónica transaccional compatible con lotes | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces para un adaptador de envío asincrónica transaccional compatible con lotes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5b2dbdf-e6ba-4b58-a0a5-fc78feaf5c35
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257716"
 ---
 # <a name="interfaces-for-a-transactional-asynchronous-batch-supported-send-adapter"></a><span data-ttu-id="da89f-102">Interfaces de un adaptador de envío asíncrono transaccional compatible con lotes</span><span class="sxs-lookup"><span data-stu-id="da89f-102">Interfaces for a Transactional Asynchronous Batch-Supported Send Adapter</span></span>
 <span data-ttu-id="da89f-103">Un adaptador de envío puede crear y controlar transacciones cuando se necesite la transmisión transaccional de mensajes.</span><span class="sxs-lookup"><span data-stu-id="da89f-103">A send adapter can create and control transactions when transactional transmission of messages is required.</span></span> <span data-ttu-id="da89f-104">Para admitir el envío transaccional, un adaptador debe implementar las interfaces siguientes:</span><span class="sxs-lookup"><span data-stu-id="da89f-104">To support transactional send, an adapter needs to implement the following interfaces:</span></span>  

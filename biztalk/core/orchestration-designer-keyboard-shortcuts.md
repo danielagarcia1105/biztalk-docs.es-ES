@@ -1,17 +1,17 @@
 ---
-title: "Métodos abreviados de teclado del Diseñador de orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados de teclado del Diseñador de orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: 8faccbb0-8796-4caf-b6b7-45be42c1e829
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263300"
 ---
 # <a name="orchestration-designer-keyboard-shortcuts"></a><span data-ttu-id="d7df9-102">Métodos abreviados de teclado del Diseñador de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="d7df9-102">Orchestration Designer Keyboard Shortcuts</span></span>
 <span data-ttu-id="d7df9-103">La superficie de diseño del Diseñador de orquestaciones proporciona acceso completo a todas sus funciones mediante el teclado.</span><span class="sxs-lookup"><span data-stu-id="d7df9-103">The Orchestration Designer design surface provides full accessibility using the keyboard.</span></span> <span data-ttu-id="d7df9-104">Esto queda demostrado al abrir la superficie de diseño, lo que puede hacer en Visual Studio seleccionando las opciones de menú a partir del **New** opción el **archivo**menú.</span><span class="sxs-lookup"><span data-stu-id="d7df9-104">This accessibility begins when you open the design surface, which you can do in Visual Studio by selecting menu options beginning with the **New** option on the **File**menu.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246484"
 ---
 # <a name="how-to-add-a-component-to-a-pipeline"></a><span data-ttu-id="4d361-102">Cómo agregar un componente a una canalización</span><span class="sxs-lookup"><span data-stu-id="4d361-102">How to Add a Component to a Pipeline</span></span>
 <span data-ttu-id="4d361-103">Los componentes se agregan a las canalizaciones arrastrándolos desde el cuadro de herramientas hasta la superficie de diseño.</span><span class="sxs-lookup"><span data-stu-id="4d361-103">You add components to pipelines by dragging from the Toolbox to the design surface.</span></span>  

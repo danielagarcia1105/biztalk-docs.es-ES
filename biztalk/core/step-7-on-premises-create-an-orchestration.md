@@ -1,14 +1,14 @@
 ---
-title: "Paso 7 (de forma local): Crear una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 7 (de forma local): Crear una orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c0b6d0e-cf00-4eee-9b89-28210bad46f4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280228"
 ---
 # <a name="step-7-on-premises-create-an-orchestration"></a><span data-ttu-id="94cc7-102">Paso 7 (de forma local): Crear una orquestación</span><span class="sxs-lookup"><span data-stu-id="94cc7-102">Step 7 (On Premises): Create an Orchestration</span></span>
 <span data-ttu-id="94cc7-103">Según el escenario empresarial, después [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe el mensaje de pedido de ventas de la cola de Bus de servicio, debe comprobar si la cantidad pedida en el mensaje es mayor que 100.</span><span class="sxs-lookup"><span data-stu-id="94cc7-103">According to the business scenario, after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives the sales order message from the Service Bus Queue, it needs to check whether the quantity ordered in the message is greater than 100.</span></span> <span data-ttu-id="94cc7-104">Si la cantidad es mayor que 100, el mensaje se inserta en la **SalesOrder** tabla.</span><span class="sxs-lookup"><span data-stu-id="94cc7-104">If the quantity is greater than 100, the message is inserted into the **SalesOrder** table.</span></span> <span data-ttu-id="94cc7-105">En caso contrario, el mensaje se envía a una ubicación de archivos compartidos.</span><span class="sxs-lookup"><span data-stu-id="94cc7-105">Otherwise, the message is sent to a shared file location.</span></span> <span data-ttu-id="94cc7-106">Northwind consigue su lógica de negocios creando una orquestación.</span><span class="sxs-lookup"><span data-stu-id="94cc7-106">Northwind achieves this business logic by creating an orchestration.</span></span> <span data-ttu-id="94cc7-107">Este tema proporciona instrucciones paso a paso sobre cómo crear la orquestación.</span><span class="sxs-lookup"><span data-stu-id="94cc7-107">This topic provides step-by-step guidance on how to create the orchestration.</span></span>  

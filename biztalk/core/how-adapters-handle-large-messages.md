@@ -1,14 +1,14 @@
 ---
-title: "Cómo controlan los mensajes de gran tamaño en adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Cómo controlan los mensajes de gran tamaño en adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c48671fd-b6cf-4507-92b4-35a4cd135714
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247020"
 ---
 # <a name="how-adapters-handle-large-messages"></a><span data-ttu-id="1f116-102">Cómo controlan los mensajes de gran tamaño en adaptadores</span><span class="sxs-lookup"><span data-stu-id="1f116-102">How Adapters Handle Large Messages</span></span>
 <span data-ttu-id="1f116-103">El motor de mensajería de BizTalk puede procesar mensajes muy grandes; no imponen restricción alguna al tamaño máximo de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="1f116-103">The BizTalk Messaging Engine can process very large messages and imposes no restriction on the maximum size of a message.</span></span> <span data-ttu-id="1f116-104">Sin embargo, debería considerar la limitación del tamaño de los mensajes para mantener una administración de recursos y un rendimiento óptimos.</span><span class="sxs-lookup"><span data-stu-id="1f116-104">However, you should consider limits to message size to maintain optimum performance and resource management.</span></span> <span data-ttu-id="1f116-105">A medida que aumenta el tamaño de los mensajes, disminuye el número de mensajes procesados por segundo.</span><span class="sxs-lookup"><span data-stu-id="1f116-105">As message size increases the number of messages processed per second decreases.</span></span> <span data-ttu-id="1f116-106">Tenga en cuenta el tamaño promedio de mensaje, el tipo de mensaje y el número de mensajes que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa para diseñar el escenario y planear la capacidad.</span><span class="sxs-lookup"><span data-stu-id="1f116-106">Consider the average message size, message type, and number of messages being processed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when designing your scenario and planning for capacity.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Recomendaciones para la fase de la versión | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones para la fase de la versión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c5ac72aa-decd-4b3e-be34-e585e54568b3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268708"
 ---
 # <a name="release-phase-recommendations"></a><span data-ttu-id="f75d8-102">Recomendaciones para la fase de lanzamiento</span><span class="sxs-lookup"><span data-stu-id="f75d8-102">Release Phase Recommendations</span></span>
 <span data-ttu-id="f75d8-103">La fase de lanzamiento implica la propagación del sistema ya validado en el hardware de producción.</span><span class="sxs-lookup"><span data-stu-id="f75d8-103">The release phase involves propagating the now validated system onto the production hardware.</span></span>  

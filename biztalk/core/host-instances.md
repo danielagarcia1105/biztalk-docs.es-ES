@@ -1,17 +1,17 @@
 ---
 title: Instancias de host | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host instances, about host instances
 - host instances
 ms.assetid: 6c47b209-94da-4b76-af05-aef6d0145de2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246220"
 ---
 # <a name="host-instances"></a><span data-ttu-id="52a66-102">Instancias de host</span><span class="sxs-lookup"><span data-stu-id="52a66-102">Host Instances</span></span>
 <span data-ttu-id="52a66-103">A *instancia de host* es la instalación física de un host en un servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="52a66-103">A *host instance* is the physical installation of a host in a BizTalk Server.</span></span> <span data-ttu-id="52a66-104">Un administrador utiliza la consola de administración de BizTalk o el Instrumental de administración de Windows (WMI) para instalar instancias de host.</span><span class="sxs-lookup"><span data-stu-id="52a66-104">An administrator uses Windows Management Instrumentation (WMI) or the BizTalk Administration Console to install host instances.</span></span> <span data-ttu-id="52a66-105">Un servidor BizTalk Server puede admitir varias instancias de host.</span><span class="sxs-lookup"><span data-stu-id="52a66-105">A BizTalk Server can support multiple host instances.</span></span>  

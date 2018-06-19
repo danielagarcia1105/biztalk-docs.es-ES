@@ -1,14 +1,14 @@
 ---
-title: "Se produjo un error en el procesamiento de X12 mensajes en el puerto de envío: no existen acuerdos de pares de calificador de identificador de destinatario y remitente | Documentos de Microsoft"
-ms.custom: 
+title: 'Se produjo un error en el procesamiento de X12 mensajes en el puerto de envío: no existen acuerdos de pares de calificador de identificador de destinatario y remitente | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72ae7926-f5c1-42f4-8c29-11f34c138dd4
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240860"
 ---
 # <a name="a-failure-occurred-in-processing-x12-message-on-send-port-no-agreement-for-receiver-and-sender-identifier-qualifier-pairs"></a><span data-ttu-id="f49b1-102">Se produjo un error en el procesamiento de X12 mensajes en el puerto de envío: no existen acuerdos de pares de calificador de identificador de destinatario y remitente</span><span class="sxs-lookup"><span data-stu-id="f49b1-102">A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs</span></span>
 ## <a name="details"></a><span data-ttu-id="f49b1-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="f49b1-103">Details</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo instalar los certificados para mensajes cifrados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar los certificados para mensajes cifrados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e11fdb81-041c-4ba6-849d-d511ead0e8be
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254780"
 ---
 # <a name="how-to-install-the-certificates-for-encrypted-messages"></a><span data-ttu-id="721c7-102">Cómo instalar los certificados para mensajes cifrados</span><span class="sxs-lookup"><span data-stu-id="721c7-102">How to Install the Certificates for Encrypted Messages</span></span>
 <span data-ttu-id="721c7-103">En el siguiente procedimiento se enumeran los pasos de nivel superior que debe seguir para instalar los certificados que le permitirán recibir y enviar mensajes cifrados.</span><span class="sxs-lookup"><span data-stu-id="721c7-103">The following procedure lists the high-level steps that you have to follow to install the certificates for receiving and sending encrypted messages.</span></span>  

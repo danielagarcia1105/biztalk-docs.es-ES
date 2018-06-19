@@ -1,17 +1,17 @@
 ---
-title: "Cómo crear una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, creating
 - creating, applications
 ms.assetid: 6a8682a7-3bef-4978-996f-5a9c5154ce62
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250140"
 ---
 # <a name="how-to-create-an-application"></a><span data-ttu-id="7d2fb-102">Cómo crear una aplicación</span><span class="sxs-lookup"><span data-stu-id="7d2fb-102">How to Create an Application</span></span>
 <span data-ttu-id="7d2fb-103">Hay tres maneras de crear una nueva aplicación de BizTalk:</span><span class="sxs-lookup"><span data-stu-id="7d2fb-103">There are three ways to create a new BizTalk application:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, deleting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deleting, SSO
 - deleting, Master Secret server
 ms.assetid: 0e1ad8e3-0938-4f36-b85b-4631d0eeb8c9
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254660"
 ---
 # <a name="how-to-remove-sso"></a><span data-ttu-id="4a589-102">Cómo quitar SSO</span><span class="sxs-lookup"><span data-stu-id="4a589-102">How to Remove SSO</span></span>
 <span data-ttu-id="4a589-103">Si se quita BizTalk Server, el inicio de sesión único (SSO) empresarial deja de estar configurado a menos que haya un programa dependiente que lo utilice.</span><span class="sxs-lookup"><span data-stu-id="4a589-103">If you remove BizTalk Server, Enterprise Single Sign-On (SSO) is no longer configured unless a dependent product is using it.</span></span> <span data-ttu-id="4a589-104">No obstante, no se quita.</span><span class="sxs-lookup"><span data-stu-id="4a589-104">However, it is not removed.</span></span> <span data-ttu-id="4a589-105">Debe quitar SSO por separado.</span><span class="sxs-lookup"><span data-stu-id="4a589-105">You must remove SSO separately.</span></span> <span data-ttu-id="4a589-106">Asimismo, se puede restaurar la información de configuración, incluido el secreto principal, para reutilizar los datos existentes.</span><span class="sxs-lookup"><span data-stu-id="4a589-106">You can also restore configuration information including the master secret to reuse existing data.</span></span> <span data-ttu-id="4a589-107">Para obtener más información, consulte [cómo restaurar el secreto principal](../core/how-to-restore-the-master-secret.md).</span><span class="sxs-lookup"><span data-stu-id="4a589-107">For more information, see [How to Restore the Master Secret](../core/how-to-restore-the-master-secret.md).</span></span>  

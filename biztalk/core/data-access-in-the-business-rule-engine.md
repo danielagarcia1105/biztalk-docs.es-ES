@@ -1,18 +1,18 @@
 ---
 title: Acceso a datos en el motor de reglas de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Engine, data access
 - Business Rules Engine, helper classes
 - data, data access
 ms.assetid: 38da32af-1e0d-43fb-b946-fb49a11f1681
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238620"
 ---
 # <a name="data-access-in-the-business-rule-engine"></a><span data-ttu-id="2f245-102">Acceso a datos en el motor de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="2f245-102">Data Access in the Business Rule Engine</span></span>
 <span data-ttu-id="2f245-103">El motor de reglas admite solo objetos .NET de forma nativa.</span><span class="sxs-lookup"><span data-stu-id="2f245-103">The rule engine supports only .NET objects natively.</span></span> <span data-ttu-id="2f245-104">Para controlar datos de una base de datos, puede utilizar directamente los objetos ADO.NET pero el motor proporciona algunas clases auxiliares para simplificar el uso de datos de bases de datos de reglas.</span><span class="sxs-lookup"><span data-stu-id="2f245-104">To handle data from a database, you can use the ADO.NET objects directly, but the engine provides some helper classes to simplify the use of database data from rules.</span></span> <span data-ttu-id="2f245-105">El motor de reglas amplía su compatibilidad exponiendo tres tipos relacionados con la base de datos: **TypedDataRow**, **TypedDataTable**, y **DataConnection**.</span><span class="sxs-lookup"><span data-stu-id="2f245-105">The rule engine extends its support by exposing three database-related types: **TypedDataRow**, **TypedDataTable**, and **DataConnection**.</span></span> <span data-ttu-id="2f245-106">En esta sección se describen estas clases auxiliares, se proporcionan recomendaciones sobre cuándo utilizar cada tipo y se analizan algunas implicaciones de rendimiento a la hora de utilizarlas.</span><span class="sxs-lookup"><span data-stu-id="2f245-106">This section describes these helper classes, gives recommendations about when to use each type, and discusses some performance implications when using them.</span></span>  

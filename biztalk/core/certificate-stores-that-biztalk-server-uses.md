@@ -1,11 +1,11 @@
 ---
 title: Almacenes de certificados que utiliza BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public key certificates
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - certificates, certificate stores
 - certificate stores
 ms.assetid: 29b65913-be3b-45d9-9865-02e52e4370f4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233804"
 ---
 # <a name="certificate-stores-that-biztalk-server-uses"></a><span data-ttu-id="646a0-102">Almacenes de certificados que BizTalk Server usa</span><span class="sxs-lookup"><span data-stu-id="646a0-102">Certificate Stores that BizTalk Server Uses</span></span>
 <span data-ttu-id="646a0-103">BizTalk Server utiliza dos tipos de almacén de certificados: Otras personas, para claves públicas, y Personal, para cada cuenta de servicio de instancia de host para la clave privada.</span><span class="sxs-lookup"><span data-stu-id="646a0-103">BizTalk Server uses two types of certificate stores, the Other People certificate store for public keys, and the Personal certificate store for each host instance service account for the private key.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Las versiones del proyecto de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dcdd5354-6335-4320-adbf-28ac934c9ce6
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234196"
 ---
 # <a name="biztalk-server-project-versioning"></a><span data-ttu-id="2305d-102">Control de versiones del proyecto de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="2305d-102">BizTalk Server Project Versioning</span></span>
 <span data-ttu-id="2305d-103">Al desarrollar con la [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)], control de versiones se rige por un conjunto estándar de reglas que trabajan para minimizar el impacto de los cambios de números de versión.</span><span class="sxs-lookup"><span data-stu-id="2305d-103">When developing with the [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)], versioning is governed by a standard set of rules that work to minimize the impact of version number changes.</span></span> <span data-ttu-id="2305d-104">Dependiendo de cómo un [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]se implementa la aplicación o componente, las dependencias se pueden administrar mediante un archivo de configuración de la aplicación, a través de la instalación de XCOPY, o por otro [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] mecanismos de implementación.</span><span class="sxs-lookup"><span data-stu-id="2305d-104">Depending on how a [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]application or component is deployed, dependencies can be handled by an application configuration file, through XCOPY installation, or by other [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] deployment mechanisms.</span></span> <span data-ttu-id="2305d-105">Tal y como se mostrará en las siguientes secciones, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] agrega una complejidad adicional al control de versiones y dependencias.</span><span class="sxs-lookup"><span data-stu-id="2305d-105">As the following sections will show, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adds additional complexity to versioning and dependencies.</span></span>  
@@ -69,7 +70,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="2305d-170">En el Bloc de notas, en el **archivo** menú, haga clic en **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="2305d-170">In Notepad, on the **File** menu, click **Open**.</span></span> <span data-ttu-id="2305d-171">En el **abiertos** cuadro de diálogo, seleccione la asignación de archivos desea modificar y, a continuación, haga clic en **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="2305d-171">In the **Open** dialog box, select the map file you want to modify, and then click **Open**.</span></span>  
   
-3.  <span data-ttu-id="2305d-172">En el menú **Edición** , haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="2305d-172">On the **Edit** menu, click **Find**.</span></span> <span data-ttu-id="2305d-173">En el **buscar** diálogo cuadro, escriba **ensamblado =**y, a continuación, haga clic en **Buscar siguiente**.</span><span class="sxs-lookup"><span data-stu-id="2305d-173">In the **Find** dialog box, enter **Assembly=**, and then click **Find Next**.</span></span>  
+3.  <span data-ttu-id="2305d-172">En el menú **Edición** , haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="2305d-172">On the **Edit** menu, click **Find**.</span></span> <span data-ttu-id="2305d-173">En el **buscar** diálogo cuadro, escriba **ensamblado =** y, a continuación, haga clic en **Buscar siguiente**.</span><span class="sxs-lookup"><span data-stu-id="2305d-173">In the **Find** dialog box, enter **Assembly=**, and then click **Find Next**.</span></span>  
   
 4.  <span data-ttu-id="2305d-174">Si hay una referencia de secuencia de comandos a un ensamblado externo, el Bloc de notas debería buscar un elemento XML como el siguiente:</span><span class="sxs-lookup"><span data-stu-id="2305d-174">If there is a script reference to an external assembly, Notepad should find an XML element like the following:</span></span>  
   

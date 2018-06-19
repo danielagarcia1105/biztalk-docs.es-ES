@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar asignaciones de entrada para un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar asignaciones de entrada para un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send ports], inbound maps
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [send ports], configuring
 - send ports, configuring
 ms.assetid: 213c66ba-928f-4c00-9a87-f45eaa9f7dca
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248468"
 ---
 # <a name="how-to-configure-inbound-maps-for-a-send-port"></a><span data-ttu-id="68700-102">Cómo configurar asignaciones de entrada para un puerto de envío</span><span class="sxs-lookup"><span data-stu-id="68700-102">How to Configure Inbound Maps for a Send Port</span></span>
 <span data-ttu-id="68700-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para configurar asignaciones de entrada para un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="68700-103">This topic describes how to use the BizTalk Server Administration console to configure inbound maps for a send port.</span></span> <span data-ttu-id="68700-104">Las asignaciones de entrada se utilizan únicamente con puertos de envío de petición-respuesta estáticos o dinámicos.</span><span class="sxs-lookup"><span data-stu-id="68700-104">Inbound maps are used only with dynamic or static solicit-response send ports.</span></span> <span data-ttu-id="68700-105">Se utiliza una asignación para aplicar una transformación XSL a un mensaje de respuesta recibido por el puerto, sin tener que procesar el mensaje a través de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="68700-105">You use a map to apply an XSL transformation to a response message received by the port without processing the message through an orchestration.</span></span> <span data-ttu-id="68700-106">Es posible agregar una asignación de entrada, quitar una asignación o cambiar una ya existente por otra distinta.</span><span class="sxs-lookup"><span data-stu-id="68700-106">You can add an inbound map, remove a map, or change an existing map to a different one.</span></span> <span data-ttu-id="68700-107">Puede agregar más de una asignación a un puerto de envío, aunque cada una de las asignaciones debe tener un único esquema de origen.</span><span class="sxs-lookup"><span data-stu-id="68700-107">You can add more than one map to a send port, but each map must have a unique source schema.</span></span> <span data-ttu-id="68700-108">Para obtener información general acerca de las asignaciones, vea [asigna](../core/maps.md).</span><span class="sxs-lookup"><span data-stu-id="68700-108">For background information about maps, see [Maps](../core/maps.md).</span></span>  

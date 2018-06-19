@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Componente de COM | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86a4f2fc-bbbe-4b4a-8008-2c79b3ebb6a1
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233956"
 ---
 # <a name="addresource-command-com-component"></a><span data-ttu-id="c9a23-102">AddResource (comando): Componente de COM</span><span class="sxs-lookup"><span data-stu-id="c9a23-102">AddResource Command: COM Component</span></span>
 <span data-ttu-id="c9a23-103">Para agregar un componente COM no administrado a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: com** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="c9a23-103">To add an unmanaged COM component to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Com** for the Type parameter.</span></span> <span data-ttu-id="c9a23-104">Ejecutar este comando agrega el componente COM a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c9a23-104">Running this command adds the COM component to the BizTalk Management database.</span></span> <span data-ttu-id="c9a23-105">Además, el componente COM aparece en la consola de administración de BizTalk Server, en la carpeta Recursos de la aplicación a la que lo agregó.</span><span class="sxs-lookup"><span data-stu-id="c9a23-105">The COM component is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it.</span></span> <span data-ttu-id="c9a23-106">Además, el componente se enumera cuando se usa el [comando ListApp](../core/listapp-command.md).</span><span class="sxs-lookup"><span data-stu-id="c9a23-106">In addition, the component is listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  

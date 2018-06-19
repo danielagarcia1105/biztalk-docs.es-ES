@@ -1,14 +1,14 @@
 ---
 title: Mostrar un EDI o informes de estado de AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60968c3d-6329-411f-9f10-1dd4a6cc9d79
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242340"
 ---
 # <a name="displaying-an-edi-or-as2-status-report"></a><span data-ttu-id="5b015-102">Mostrar un informe de estado de EDI o AS2</span><span class="sxs-lookup"><span data-stu-id="5b015-102">Displaying an EDI or AS2 Status Report</span></span>
 <span data-ttu-id="5b015-103">Al habilitar los informes de estado de EDI y AS2, tendrá acceso a los siguientes informes de estado:</span><span class="sxs-lookup"><span data-stu-id="5b015-103">When EDI and AS2 status reports are enabled, you will have access to the following status reports:</span></span>  

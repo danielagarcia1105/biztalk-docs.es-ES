@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22248676"
 ---
 # <a name="how-to-configure-node-hierarchy-matching"></a><span data-ttu-id="934ff-102">Cómo configurar coincidencia de jerarquía de nodos</span><span class="sxs-lookup"><span data-stu-id="934ff-102">How to Configure Node Hierarchy Matching</span></span>
 <span data-ttu-id="934ff-103">Cuando se crea un vínculo en una asignación, el Asignador de BizTalk crea automáticamente vínculos de compilador para implementar el vínculo diseñado.</span><span class="sxs-lookup"><span data-stu-id="934ff-103">When you create a link in a map, the BizTalk Mapper automatically creates compiler links to implement the link you have drawn.</span></span> <span data-ttu-id="934ff-104">El **vínculos de destino** propiedad de un vínculo controla cómo el asignador de BizTalk dibuja los vínculos de compilador.</span><span class="sxs-lookup"><span data-stu-id="934ff-104">The **Target Links** property of a link controls how the BizTalk Mapper draws the compiler links.</span></span> <span data-ttu-id="934ff-105">En este tema se proporciona información acerca de cómo establecer los vínculos de destino.</span><span class="sxs-lookup"><span data-stu-id="934ff-105">This topic provides information about how to set the target links.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo ver las actividades individuales | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver las actividades individuales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], viewing
 - BAM portal, activities
 - viewing, activities [BAM portal]
 ms.assetid: 090b6c81-8093-44d9-b50c-a98702d2fbcd
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255980"
 ---
 # <a name="how-to-view-an-individual-activity"></a><span data-ttu-id="13e7e-102">Visualización de actividades individuales</span><span class="sxs-lookup"><span data-stu-id="13e7e-102">How to View an Individual Activity</span></span>
 <span data-ttu-id="13e7e-103">Las actividades se ven en la página de resultados de búsqueda de actividad económica del portal web de BAM.</span><span class="sxs-lookup"><span data-stu-id="13e7e-103">You view activities in the Business Activity Search Results page of the BAM Web portal.</span></span> <span data-ttu-id="13e7e-104">Para que conocer los pasos de búsqueda de actividades, vea [cómo buscar actividades](../core/how-to-search-for-activities.md).</span><span class="sxs-lookup"><span data-stu-id="13e7e-104">For the steps to search for activities, see [How to Search for Activities](../core/how-to-search-for-activities.md).</span></span>  

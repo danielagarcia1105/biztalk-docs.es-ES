@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240588"
 ---
 # <a name="error---index-functoid-has-negative-index"></a><span data-ttu-id="aedbc-102">Error - el Functoid de índice tiene un índice negativo</span><span class="sxs-lookup"><span data-stu-id="aedbc-102">Error - Index Functoid Has Negative Index</span></span>
 <span data-ttu-id="aedbc-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="aedbc-103">**Error Code**</span></span>  

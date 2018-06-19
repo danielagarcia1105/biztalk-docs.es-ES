@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22233036"
 ---
 # <a name="configuring-fallback-envelope-properties-edifact-interchange-settngs"></a><span data-ttu-id="d371d-102">Configuración de propiedades de sobre de reserva (configuración de intercambio EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="d371d-102">Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs)</span></span>
 <span data-ttu-id="d371d-103">Esta sección proporciona instrucciones acerca de cómo configurar el sobre para mensajes EDIFACT salientes.</span><span class="sxs-lookup"><span data-stu-id="d371d-103">This section provides instructions on how to configure the envelope for outgoing EDIFACT messages.</span></span>  

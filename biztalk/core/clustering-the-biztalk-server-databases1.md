@@ -1,11 +1,11 @@
 ---
-title: "Agrupación en clústeres el servidor BizTalk Server Databases1 | Documentos de Microsoft"
-ms.custom: 
+title: Agrupación en clústeres el servidor BizTalk Server Databases1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - clustering, how to
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - clustering, databases
 - clustering, prerequisites
 ms.assetid: 9a1ed843-483b-4a56-961b-bc6801a07b64
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232436"
 ---
 # <a name="clustering-the-biztalk-server-databases"></a><span data-ttu-id="8f067-102">Agrupar las bases de datos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="8f067-102">Clustering the BizTalk Server Databases</span></span>
 <span data-ttu-id="8f067-103">En esta sección se proporcionan directrices para implementar una solución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con alta disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="8f067-103">This section provides guidelines for deploying a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution with high availability.</span></span> <span data-ttu-id="8f067-104">Si la base de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deja de estar disponible, el entorno de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no funcionará correctamente.</span><span class="sxs-lookup"><span data-stu-id="8f067-104">If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases become unavailable, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment will not function correctly.</span></span> <span data-ttu-id="8f067-105">Para proporcionar una alta disponibilidad, puede crear un clúster de Microsoft SQL Server para las bases de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], tal como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="8f067-105">To provide high availability, you can create a Microsoft SQL Server cluster for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, as shown in the following figure.</span></span>  

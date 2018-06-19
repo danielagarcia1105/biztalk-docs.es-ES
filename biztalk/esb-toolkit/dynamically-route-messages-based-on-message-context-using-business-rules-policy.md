@@ -1,14 +1,14 @@
 ---
-title: "Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d3b68de-6b24-46fe-ae0d-91afb630bc19
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008821"
 ---
 # <a name="how-to-dynamically-route-a-message-based-on-message-context-using-a-business-rules-policy"></a><span data-ttu-id="2aa86-102">Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="2aa86-102">How to: Dynamically Route a Message Based on Message Context Using a Business Rules Policy</span></span>
 ## <a name="goal"></a><span data-ttu-id="2aa86-103">Objetivo</span><span class="sxs-lookup"><span data-stu-id="2aa86-103">Goal</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 12/01/2017
   
  <span data-ttu-id="2aa86-116">**Para agregar una regla de enrutamiento para los pedidos de América del Norte**</span><span class="sxs-lookup"><span data-stu-id="2aa86-116">**To add a routing rule for North American orders**</span></span>  
   
-1.  <span data-ttu-id="2aa86-117">En el **RouteBasedOnMessageType** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-117">In the **RouteBasedOnMessageType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="2aa86-118">Nombre de la regla **SetNAOrderEndpoint**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-118">Name the rule **SetNAOrderEndpoint**.</span></span>  
+1.  <span data-ttu-id="2aa86-117">En el **RouteBasedOnMessageType** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-117">In the **RouteBasedOnMessageType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="2aa86-118">Nombre de la regla **SetNAOrderEndpoint**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-118">Name the rule **SetNAOrderEndpoint**.</span></span>  
   
 2.  <span data-ttu-id="2aa86-119">En la ventana de la regla, haga clic en **condiciones**, seleccione **predicados**y, a continuación, haga clic en **igual**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-119">In the Rule window, right-click **Conditions**, point to **Predicates**, and then click **Equal**.</span></span>  
   
@@ -55,7 +56,7 @@ ms.lasthandoff: 12/01/2017
   
 5.  <span data-ttu-id="2aa86-125">En el Explorador de hechos, expanda el **ESB. EndPointInfo** vocabulario, expanda **versión 1.0**y, a continuación, arrastre el **establecer ubicación de transporte saliente de punto final** definición a **acciones**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-125">In Facts Explorer, expand the **ESB.EndPointInfo** vocabulary, expand **Version 1.0**, and then drag the **Set End Point Outbound Transport Location** definition to **Actions**.</span></span>  
   
-6.  <span data-ttu-id="2aa86-126">Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **C:\HowTos\Out\NorthAmerica%MessageID%.xml**</span><span class="sxs-lookup"><span data-stu-id="2aa86-126">Click **\<empty string\>**, and then type **C:\HowTos\Out\NorthAmerica%MessageID%.xml**</span></span>  
+6.  <span data-ttu-id="2aa86-126">Haga clic en  **\<una cadena vacía\>** y, a continuación, escriba **C:\HowTos\Out\NorthAmerica%MessageID%.xml**</span><span class="sxs-lookup"><span data-stu-id="2aa86-126">Click **\<empty string\>**, and then type **C:\HowTos\Out\NorthAmerica%MessageID%.xml**</span></span>  
   
 7.  <span data-ttu-id="2aa86-127">En el Explorador de hechos, arrastre el **establecer tipo de transporte saliente de punto final** definición a **acciones**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-127">From Facts Explorer, drag the **Set End Point Outbound Transport Type** definition to **Actions**.</span></span>  
   
@@ -65,7 +66,7 @@ ms.lasthandoff: 12/01/2017
   
  <span data-ttu-id="2aa86-130">**Para publicar e implementar la directiva**</span><span class="sxs-lookup"><span data-stu-id="2aa86-130">**To publish and deploy the policy**</span></span>  
   
-1.  <span data-ttu-id="2aa86-131">En el Explorador de directivas, en la **RouteBasedOnMessageType** directiva, haga clic derecho **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-131">In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
+1.  <span data-ttu-id="2aa86-131">En el Explorador de directivas, en la **RouteBasedOnMessageType** directiva, haga clic derecho **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-131">In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
   
 2.  <span data-ttu-id="2aa86-132">En el Explorador de directivas, en la **RouteBasedOnMessageType** directiva, haga clic derecho **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="2aa86-132">In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 - Published**, and then click **Deploy**.</span></span>  
   

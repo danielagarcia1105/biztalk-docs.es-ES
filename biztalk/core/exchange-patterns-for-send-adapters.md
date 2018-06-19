@@ -1,14 +1,14 @@
 ---
-title: "Patrones de intercambio para adaptadores de envío | Documentos de Microsoft"
-ms.custom: 
+title: Patrones de intercambio para adaptadores de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ad65fb5-640d-4bd2-aabe-946210f58a22
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248356"
 ---
 # <a name="exchange-patterns-for-send-adapters"></a><span data-ttu-id="24a4e-102">Patrones de intercambio para adaptadores de envío</span><span class="sxs-lookup"><span data-stu-id="24a4e-102">Exchange Patterns for Send Adapters</span></span>
 <span data-ttu-id="24a4e-103">Los adaptadores de envío son mensajes entregados desde el motor de mensajería de BizTalk cuya transmisión debe efectuarse a través de la red.</span><span class="sxs-lookup"><span data-stu-id="24a4e-103">Send adapters are delivered messages from the BizTalk Messaging Engine to be transmitted over the wire.</span></span> <span data-ttu-id="24a4e-104">Estos mensajes pueden enviarse mediante un patrón de intercambio de mensajes bidireccional o unidireccional.</span><span class="sxs-lookup"><span data-stu-id="24a4e-104">These messages may be sent by using a one-way or two-way message exchange pattern.</span></span> <span data-ttu-id="24a4e-105">Un adaptador que controla este patrón de intercambio de mensajes bidireccional se conoce como adaptador de petición-respuesta.</span><span class="sxs-lookup"><span data-stu-id="24a4e-105">An adapter that handles this two-way message exchange pattern is called a Solicit-Response adapter.</span></span>  

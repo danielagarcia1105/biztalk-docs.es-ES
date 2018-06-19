@@ -1,17 +1,17 @@
 ---
-title: "Métodos abreviados específicos para conectores de puertos de teclado | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados específicos para conectores de puertos de teclado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: 140d156f-b294-47ad-9b7c-931a31959d31
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261860"
 ---
 # <a name="keyboard-shortcuts-specific-to-port-connectors"></a><span data-ttu-id="ab31c-102">Métodos abreviados de teclado específicos para conectores de puertos</span><span class="sxs-lookup"><span data-stu-id="ab31c-102">Keyboard Shortcuts Specific to Port Connectors</span></span>
 <span data-ttu-id="ab31c-103">Los siguientes métodos abreviados de teclado son específicos para conectores de puertos.</span><span class="sxs-lookup"><span data-stu-id="ab31c-103">The following keyboard shortcuts are specific to Port Connectors.</span></span>  

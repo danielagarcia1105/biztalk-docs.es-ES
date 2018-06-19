@@ -1,14 +1,14 @@
 ---
-title: "Cómo administrar la vista XSD | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar la vista XSD | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3245ebf0-6128-47b4-8e88-ea06ececbc15
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254436"
 ---
 # <a name="how-to-manage-the-xsd-view"></a><span data-ttu-id="20abe-102">Cómo administrar la vista XSD</span><span class="sxs-lookup"><span data-stu-id="20abe-102">How to Manage the XSD View</span></span>
 <span data-ttu-id="20abe-103">Las tareas de administración con respecto a la vista XSD se pueden dividir en tres categorías: cambiar el tamaño, cambiar el color de fondo y la fuente y cambiar las características de actualización.</span><span class="sxs-lookup"><span data-stu-id="20abe-103">Management tasks with respect to the XSD view can be divided into three categories: changing its size, changing its background color and font, and changing its refresh characteristics.</span></span>  

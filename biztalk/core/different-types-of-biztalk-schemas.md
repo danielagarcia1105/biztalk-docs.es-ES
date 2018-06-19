@@ -1,14 +1,14 @@
 ---
 title: Diferentes tipos de esquemas de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad8847d3-6f0e-4982-b4a8-92a5f39a4b48
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240284"
 ---
 # <a name="different-types-of-biztalk-schemas"></a><span data-ttu-id="f25c9-102">Tipos de esquemas de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f25c9-102">Different Types of BizTalk Schemas</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="f25c9-103">admite los siguientes cuatro tipos de esquemas:</span><span class="sxs-lookup"><span data-stu-id="f25c9-103"> supports the following four types of schemas:</span></span>  

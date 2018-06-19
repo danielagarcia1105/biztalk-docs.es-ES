@@ -1,11 +1,11 @@
 ---
-title: "Definición de datos de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Definición de datos de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], dimensions
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - monitoring business activities [BAM], milestone groups
 - aggregations [BAM], real-time data
 ms.assetid: 501a1c08-3979-4a99-94d9-0d1b5ec4266b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242940"
 ---
 # <a name="defining-data-in-bam"></a><span data-ttu-id="fed81-102">Definir datos en BAM</span><span class="sxs-lookup"><span data-stu-id="fed81-102">Defining Data in BAM</span></span>
 <span data-ttu-id="fed81-103">El complemento de BAM para Excel sirve para definir los datos que BAM debe recopilar y para definir la forma en que se compartirán.</span><span class="sxs-lookup"><span data-stu-id="fed81-103">You use the BAM Excel Add-in to define the data you want BAM to collect, and define the way in which the data will be shared.</span></span> <span data-ttu-id="fed81-104">Las actividades de BAM sirven para definir datos; las vistas de BAM, para definir los datos que pueden ver otros usuarios.</span><span class="sxs-lookup"><span data-stu-id="fed81-104">You use BAM activities to define the data, and you use BAM views to define the data that other users can see.</span></span>  

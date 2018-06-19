@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la forma de orquestación de llamada | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma de orquestación de llamada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Orchestration shape [Orchestration Designer], parameters
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Call Orchestration shape [Orchestration Designer], referencing orchestrations
 - orchestrations, parameters
 ms.assetid: 718ce2a0-ac08-4662-8b4e-1be279dbc749
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249708"
 ---
 # <a name="how-to-configure-the-call-orchestration-shape"></a><span data-ttu-id="46049-102">Cómo configurar la forma Orquestación de llamada</span><span class="sxs-lookup"><span data-stu-id="46049-102">How to Configure the Call Orchestration Shape</span></span>
 <span data-ttu-id="46049-103">El **orquestación de llamada** forma puede utilizarse para llamar a una orquestación que se hace referencia en otro proyecto de forma sincrónica.</span><span class="sxs-lookup"><span data-stu-id="46049-103">The **Call Orchestration** shape can be used to synchronously call an orchestration that is referenced in another project.</span></span> <span data-ttu-id="46049-104">Esto permite volver a utilizar patrones de flujo de trabajo de orquestaciones comunes en los proyectos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="46049-104">This allows for reuse of common orchestration workflow patterns across BizTalk projects.</span></span> <span data-ttu-id="46049-105">Cuando se invoca otra orquestación anidada sincrónicamente con la **orquestación de llamada** forma la orquestación envolvente espera a que la orquestación anidada finalice antes de continuar.</span><span class="sxs-lookup"><span data-stu-id="46049-105">When you invoke another nested orchestration synchronously with the **Call Orchestration** shape the enclosing orchestration waits for the nested orchestration to finish before continuing.</span></span>  

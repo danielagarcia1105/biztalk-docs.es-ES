@@ -1,11 +1,11 @@
 ---
 title: Generar XML o esquema en PeopleSoft | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - generating schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - generating XML
 - XML, generating
 ms.assetid: adfe2936-0dc2-42d2-b26a-718f8cc57eff
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246692"
 ---
 # <a name="generating-xml-or-schema-in-peoplesoft"></a><span data-ttu-id="12c9d-102">Generación de XML o esquema en PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="12c9d-102">Generating XML or Schema in PeopleSoft</span></span>
 <span data-ttu-id="12c9d-103">En el procedimiento siguiente se describe cómo usar PeopleSoft Enterprise para crear un archivo XML y desencadenar un evento de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="12c9d-103">The following procedure describes how to use PeopleSoft Enterprise to create an XML file and trigger a PeopleSoft event.</span></span> <span data-ttu-id="12c9d-104">Para ello, se debe realizar un cambio en el entorno de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="12c9d-104">To do this, you change something in the PeopleSoft environment.</span></span> <span data-ttu-id="12c9d-105">El cambio activa el archivo XML, que se envía a la carpeta de archivos que estableció en la orquestación que se va a supervisar.</span><span class="sxs-lookup"><span data-stu-id="12c9d-105">The change activates an XML file, which is sent to the file folder that you set in your orchestration to be monitored.</span></span> <span data-ttu-id="12c9d-106">Después, en BizTalk Server, se importa el XML y se genera un esquema.</span><span class="sxs-lookup"><span data-stu-id="12c9d-106">Later, in BizTalk Server, you import the XML and generate a schema.</span></span>  

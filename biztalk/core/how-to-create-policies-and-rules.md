@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear directivas y reglas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear directivas y reglas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, business rules
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - policies, arguments
 - policies, creating
 ms.assetid: 59f06a67-edde-443b-9fbb-55ec4429837a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250332"
 ---
 # <a name="how-to-create-policies-and-rules"></a><span data-ttu-id="725c3-102">Cómo crear directivas y reglas</span><span class="sxs-lookup"><span data-stu-id="725c3-102">How to Create Policies and Rules</span></span>
 <span data-ttu-id="725c3-103">Puede crear reglas con condiciones que son agrupaciones lógicas de operadores lógicos (**AND**, **OR**, y **no**) aplicadas a predicados (funciones integrados o definidos por el usuario u operadores) que toman argumentos (referencias de hechos integrados o definidos por el usuario).</span><span class="sxs-lookup"><span data-stu-id="725c3-103">You can create rules with conditions that are logical groupings of logical operators (**AND**, **OR**, and **NOT**) applied to predicates (built-in or user-defined functions or operators) that take arguments (built-in or user-defined fact references).</span></span> <span data-ttu-id="725c3-104">También puede hacer clic **condiciones** o en operadores lógicos y seleccionar un operador lógico o predicado integrado en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="725c3-104">You can also right-click **Conditions** or logical operators and select a logical operator or built-in predicate from the context menu.</span></span>  
@@ -50,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-add-a-rule-to-a-policy-version"></a><span data-ttu-id="725c3-114">Para agregar una regla a una versión de directiva</span><span class="sxs-lookup"><span data-stu-id="725c3-114">To add a rule to a policy version</span></span>  
   
--   <span data-ttu-id="725c3-115">En el panel Explorador de directivas, expanda [**la directiva de**], haga clic en **versión 1.0 (sin guardar)**y, a continuación, seleccione **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="725c3-115">In the Policy Explorer pane, expand [**your policy**], right-click **Version 1.0 (not saved)**, and then select **Add New Rule**.</span></span>  
+-   <span data-ttu-id="725c3-115">En el panel Explorador de directivas, expanda [**la directiva de**], haga clic en **versión 1.0 (sin guardar)** y, a continuación, seleccione **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="725c3-115">In the Policy Explorer pane, expand [**your policy**], right-click **Version 1.0 (not saved)**, and then select **Add New Rule**.</span></span>  
   
 ### <a name="to-add-a-logical-operator-to-a-rule-condition"></a><span data-ttu-id="725c3-116">Para agregar un operador lógico a una condición de regla</span><span class="sxs-lookup"><span data-stu-id="725c3-116">To add a logical operator to a rule condition</span></span>  
   

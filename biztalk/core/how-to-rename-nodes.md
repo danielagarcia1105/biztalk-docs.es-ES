@@ -1,14 +1,14 @@
 ---
-title: "Cómo cambiar el nombre de los nodos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el nombre de los nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed703a3f-7e47-4adf-aed4-e5133470a979
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255252"
 ---
 # <a name="how-to-rename-nodes"></a><span data-ttu-id="27a15-102">Cómo cambiar el nombre de nodos</span><span class="sxs-lookup"><span data-stu-id="27a15-102">How to Rename Nodes</span></span>
 <span data-ttu-id="27a15-103">Es probable que en alguna ocasión desee cambiar el nombre de los nodos existentes.</span><span class="sxs-lookup"><span data-stu-id="27a15-103">There will probably be times when you want to rename existing nodes.</span></span> <span data-ttu-id="27a15-104">En este tema se describen dos formas posibles de realizar esta tarea.</span><span class="sxs-lookup"><span data-stu-id="27a15-104">This topic describes two variations on this task.</span></span>  

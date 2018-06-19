@@ -1,14 +1,14 @@
 ---
-title: "Getuserkey (operación) | Documentos de Microsoft"
-ms.custom: 
+title: Getuserkey (operación) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9353a7f0-9bbd-4cfa-92e6-ed2b86e3a88e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246124"
 ---
 # <a name="getuserkey"></a><span data-ttu-id="c4fac-102">GetUserKey (operación)</span><span class="sxs-lookup"><span data-stu-id="c4fac-102">GetUserKey</span></span>
 <span data-ttu-id="c4fac-103">Inserta la clave usuario actual en la pila.</span><span class="sxs-lookup"><span data-stu-id="c4fac-103">Pushes the current user key onto the stack.</span></span>  

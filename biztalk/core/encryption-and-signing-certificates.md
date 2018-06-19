@@ -1,11 +1,11 @@
 ---
 title: Cifrado y certificados de firma | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - messages, certificates
 - security, encryption
 ms.assetid: 3c3f9de5-4156-4133-8d5e-c30b142b6d61
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241692"
 ---
 # <a name="encryption-and-signing-certificates"></a><span data-ttu-id="f4243-102">Cifrado y certificados de firma</span><span class="sxs-lookup"><span data-stu-id="f4243-102">Encryption and Signing Certificates</span></span>
 <span data-ttu-id="f4243-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se apoya en gran medida en la seguridad que ofrecen los certificados.</span><span class="sxs-lookup"><span data-stu-id="f4243-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] relies heavily on the security provided by certificates.</span></span> <span data-ttu-id="f4243-104">BizTalk Server usa certificados para el cifrado y la aplicación de firmas digitales, lo que le permite enviar y recibir datos fiables y garantizar que los datos procesados sean seguros.</span><span class="sxs-lookup"><span data-stu-id="f4243-104">By using certificates for encryption and digital signatures, BizTalk Server can send and receive data that can be trusted, and can help ensure that the data it processes is secure.</span></span> <span data-ttu-id="f4243-105">Tanto el cifrado como las firmas digitales utilizan un certificado de clave pública y un certificado de clave privada.</span><span class="sxs-lookup"><span data-stu-id="f4243-105">For both encryption and digital signatures, there is a public key certificate and a private key certificate.</span></span> <span data-ttu-id="f4243-106">En el caso del cifrado, el remitente del mensaje utiliza el certificado de clave pública del receptor para cifrar el mensaje, mientras que el receptor del mensaje (BizTalk Server) utiliza su clave privada para descifrarlo.</span><span class="sxs-lookup"><span data-stu-id="f4243-106">For encryption, the sender of the message uses the receiver's public key certificate to encrypt the message, while the receiver of the message (BizTalk Server) uses its private key to decrypt the message.</span></span> <span data-ttu-id="f4243-107">En el caso de las firmas digitales, el remitente del mensaje utiliza un certificado de clave privada para firmar el mensaje y el receptor del mensaje (BizTalk Server) utiliza el certificado de clave pública del remitente para comprobar la firma.</span><span class="sxs-lookup"><span data-stu-id="f4243-107">For digital signatures, the sender of the message uses a private key certificate to sign the message, and the receiver of the message (BizTalk Server) uses the public key certificate of the sender to verify the signature.</span></span>  

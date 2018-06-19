@@ -1,14 +1,14 @@
 ---
-title: "Estado de intercambio y el informe de estado de confirmación detalles | Documentos de Microsoft"
-ms.custom: 
+title: Estado de intercambio y el informe de estado de confirmación detalles | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebba4af5-6dff-4bb8-9c63-739ef49bbbb8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257644"
 ---
 # <a name="interchange-status-and-ack-details-status-report"></a><span data-ttu-id="47ede-102">Detalles de la confirmación y del estado del intercambio (informe de estado)</span><span class="sxs-lookup"><span data-stu-id="47ede-102">Interchange Status and ACK Details Status Report</span></span>
 <span data-ttu-id="47ede-103">Este informe de estado muestra detalles de un intercambio, así como de su confirmación (técnica) del intercambio y de las confirmaciones funcionales correlacionadas.</span><span class="sxs-lookup"><span data-stu-id="47ede-103">This status report displays details of an interchange and its correlated interchange (technical) acknowledgment and functional acknowledgments.</span></span> <span data-ttu-id="47ede-104">Mostrar este informe con el botón secundario de un intercambio en el informe de estado de confirmación y del intercambio y, a continuación, haga clic en **detalles de confirmación y del estado de intercambio**.</span><span class="sxs-lookup"><span data-stu-id="47ede-104">You display this report for right-clicking an interchange within the Interchange/ACK status report, and then clicking **Interchange status and ack details**.</span></span>  

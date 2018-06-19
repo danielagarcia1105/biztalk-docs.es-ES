@@ -1,14 +1,14 @@
 ---
-title: "Configuración de sobres (configuración de intercambio de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de sobres (configuración de intercambio de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4fade73-14cf-475c-81b5-6102c75db991
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233420"
 ---
 # <a name="configuring-envelopes-x12-interchange-settings"></a><span data-ttu-id="8bfe0-102">Configuración de sobres (configuración de intercambio de X12)</span><span class="sxs-lookup"><span data-stu-id="8bfe0-102">Configuring Envelopes (X12-Interchange Settings)</span></span>
 <span data-ttu-id="8bfe0-103">La configuración de generación de sobres de intercambio X12 define cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera el sobre de un intercambio con codificación X12 que va a enviarse a la entidad de recepción.</span><span class="sxs-lookup"><span data-stu-id="8bfe0-103">X12 interchange envelope generation settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates the envelope of an X12-encoded interchange to be sent to the receiving party.</span></span> <span data-ttu-id="8bfe0-104">En esta sección, se define cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera el segmento ISA para un intercambio con codificación X12 que envía a la entidad.</span><span class="sxs-lookup"><span data-stu-id="8bfe0-104">In this section, you define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates the ISA segment for an X12-encoded interchange that it sends to the party.</span></span> <span data-ttu-id="8bfe0-105">Un segmento ISA es el encabezado de control de intercambio para un intercambio con codificación X12.</span><span class="sxs-lookup"><span data-stu-id="8bfe0-105">An ISA segment is the interchange control header for an X12-encoded interchange.</span></span>  

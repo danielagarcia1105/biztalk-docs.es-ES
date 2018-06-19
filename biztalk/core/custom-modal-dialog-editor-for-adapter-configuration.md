@@ -1,14 +1,14 @@
 ---
-title: "Editor de cuadro de diálogo Modal personalizado para la configuración del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Editor de cuadro de diálogo Modal personalizado para la configuración del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 213d5d47-80c1-4b2d-8194-1426982be137
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239236"
 ---
 # <a name="custom-modal-dialog-editor-for-adapter-configuration"></a><span data-ttu-id="59162-102">Editor de cuadro de diálogo Modal personalizado para la configuración del adaptador</span><span class="sxs-lookup"><span data-stu-id="59162-102">Custom Modal Dialog Editor for Adapter Configuration</span></span>
 <span data-ttu-id="59162-103">El código del editor personalizado muestra un editor derivado de la **System.Drawing.Design.UITypeEditor** clase, que muestra un cuadro de diálogo emergente modal para escribir una contraseña.</span><span class="sxs-lookup"><span data-stu-id="59162-103">The code for the custom editor shows an editor derived from the **System.Drawing.Design.UITypeEditor** class that displays a modal pop-up dialog box for entering a password.</span></span> <span data-ttu-id="59162-104">El **GetEditStyle** reemplazo del método devuelve **UIEditorEditStyle.Modal** para indicar un subcontrol de formulario modal.</span><span class="sxs-lookup"><span data-stu-id="59162-104">The **GetEditStyle** method override returns **UIEditorEditStyle.Modal** to indicate a modal form subcontrol.</span></span> <span data-ttu-id="59162-105">El método de servicio **ShowDialog** administra el control creado con **CreatePassword**.</span><span class="sxs-lookup"><span data-stu-id="59162-105">The service method **ShowDialog** manages the control created with **CreatePassword**.</span></span> <span data-ttu-id="59162-106">**ShowDialog** devuelve un **DialogResult** que se trata de la manera habitual (por ejemplo, una instrucción switch) con el **DialogResult.OK** cambiar solo el valor de caso.</span><span class="sxs-lookup"><span data-stu-id="59162-106">**ShowDialog** returns a **DialogResult** that is handled in the usual way (for example, a switch statement) with the **DialogResult.OK** case changing value only.</span></span>  

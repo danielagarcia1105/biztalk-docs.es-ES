@@ -1,14 +1,14 @@
 ---
-title: "Error durante la serialización. El X12 intercambio contenía los errores siguientes | Documentos de Microsoft"
-ms.custom: 
+title: Error durante la serialización. El X12 intercambio contenía los errores siguientes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c9ca3314-6c66-4400-816a-f9c7c7915122
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241228"
 ---
 # <a name="error-encountered-during-serialization-the-x12-interchange-had-the-following-errors"></a><span data-ttu-id="a9ee2-103">Error durante la serialización.</span><span class="sxs-lookup"><span data-stu-id="a9ee2-103">Error encountered during serialization.</span></span> <span data-ttu-id="a9ee2-104">El intercambio X12 contenía los errores siguientes</span><span class="sxs-lookup"><span data-stu-id="a9ee2-104">The X12 interchange had the following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="a9ee2-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="a9ee2-105">Details</span></span>  

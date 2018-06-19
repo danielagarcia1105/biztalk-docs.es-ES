@@ -1,11 +1,11 @@
 ---
 title: Mensajes de error | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - error messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, errors
 - error messages, sending
 ms.assetid: 33d62260-b5e0-4d14-b2d2-996733d588e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245900"
 ---
 # <a name="fault-messages"></a><span data-ttu-id="607ee-102">Mensajes de error</span><span class="sxs-lookup"><span data-stu-id="607ee-102">Fault Messages</span></span>
 <span data-ttu-id="607ee-103">Los puertos de solicitud-respuesta pueden tener mensajes de error asociados de modo que si se produce un error después de que se ha enviado una solicitud, el servicio de respuesta puede comunicar el error al solicitante, en vez de la respuesta.</span><span class="sxs-lookup"><span data-stu-id="607ee-103">Request-response ports can have fault messages associated with them, so that if something goes wrong after a request is sent, the responding service can communicate the error to the requester, in lieu of the response.</span></span>  

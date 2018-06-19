@@ -1,11 +1,11 @@
 ---
-title: "Cómo cambiar el URI de un servicio Web consumido | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el URI de un servicio Web consumido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, modifying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - consuming [Web services]
 - modifying, Web services
 ms.assetid: 907de565-8c99-4d34-939f-fd3dba37dd11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247404"
 ---
 # <a name="how-to-change-the-uri-of-a-consumed-web-service"></a><span data-ttu-id="5a361-102">Cómo cambiar el URI de un servicio web consumido</span><span class="sxs-lookup"><span data-stu-id="5a361-102">How to Change the URI of a Consumed Web Service</span></span>
 <span data-ttu-id="5a361-103">Después de implementar la orquestación, BizTalk Server configura un puerto de envío para cada servicio Web al que la orquestación hace referencia.</span><span class="sxs-lookup"><span data-stu-id="5a361-103">After you deploy your orchestration, BizTalk Server configures a send port for each Web service that the orchestration references.</span></span> <span data-ttu-id="5a361-104">De forma predeterminada, BizTalk utiliza la URL del servicio Web en tiempo de ejecución para la misma URL para el servicio Web importado.</span><span class="sxs-lookup"><span data-stu-id="5a361-104">By default, BizTalk uses the URL of the Web service at run time for the same URL for the imported Web service.</span></span> <span data-ttu-id="5a361-105">Puede cambiar esta dirección URL mediante la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="5a361-105">You can change this URL using BizTalk Server Administration console.</span></span>  

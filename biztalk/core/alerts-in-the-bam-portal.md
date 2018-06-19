@@ -1,11 +1,11 @@
 ---
 title: Alertas del Portal de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Alert Management page [BAM portal]
 - alerts, subscriptions
 ms.assetid: 715a4187-aafa-46be-8b00-8eaba2e569e5
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232716"
 ---
 # <a name="alerts-in-the-bam-portal"></a><span data-ttu-id="8abfa-102">Alertas del portal de BAM</span><span class="sxs-lookup"><span data-stu-id="8abfa-102">Alerts in the BAM Portal</span></span>
 <span data-ttu-id="8abfa-103">Las alertas le permiten definir eventos importantes acerca de su proceso empresarial, como los indicadores clave de rendimiento (KPI) que se pueden entregar a usuarios en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="8abfa-103">Alerts allow you to define important events about your business process, such as Key Performance Indicators (KPIs), that can be delivered to users on a real-time basis.</span></span> <span data-ttu-id="8abfa-104">Los usuarios se suscriben a alertas para recibir notificaciones del evento empresarial que supervisa la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-104">Users subscribe to alerts to receive notification of the business event that the alert monitors.</span></span>  
@@ -58,7 +59,7 @@ ms.lasthandoff: 09/20/2017
   
 |<span data-ttu-id="8abfa-148">Nombre de campo</span><span class="sxs-lookup"><span data-stu-id="8abfa-148">Field Name</span></span>|<span data-ttu-id="8abfa-149">Contenido</span><span class="sxs-lookup"><span data-stu-id="8abfa-149">Contents</span></span>|  
 |----------------|--------------|  
-|<span data-ttu-id="8abfa-150">Nombre</span><span class="sxs-lookup"><span data-stu-id="8abfa-150">Name</span></span>|<span data-ttu-id="8abfa-151">Nombre de la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-151">The name of the alert.</span></span> <span data-ttu-id="8abfa-152">El nombre del alerta se utiliza como el asunto de las alertas que se entregan mediante correo electrónico y como el nombre de archivo para las alertas que se entregan como archivo.</span><span class="sxs-lookup"><span data-stu-id="8abfa-152">The name of the alert is used as the subject of alerts delivered as e-mail and as the file name for alerts delivered as a file.</span></span> <span data-ttu-id="8abfa-153">**Nota:** nombres están limitados a 100 caracteres y no puede contener los caracteres siguientes: ~! @# $% ^&amp;* ();</span><span class="sxs-lookup"><span data-stu-id="8abfa-153">**Note:**  Names are limited to 100 characters and cannot contain the following characters, ~!@#$%^&amp;*();</span></span>|  
+|<span data-ttu-id="8abfa-150">Nombre</span><span class="sxs-lookup"><span data-stu-id="8abfa-150">Name</span></span>|<span data-ttu-id="8abfa-151">Nombre de la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-151">The name of the alert.</span></span> <span data-ttu-id="8abfa-152">El nombre del alerta se utiliza como el asunto de las alertas que se entregan mediante correo electrónico y como el nombre de archivo para las alertas que se entregan como archivo.</span><span class="sxs-lookup"><span data-stu-id="8abfa-152">The name of the alert is used as the subject of alerts delivered as e-mail and as the file name for alerts delivered as a file.</span></span> <span data-ttu-id="8abfa-153">**Nota:** nombres están limitados a 100 caracteres y no puede contener los caracteres siguientes: ~! @# $% ^&amp;\* ();</span><span class="sxs-lookup"><span data-stu-id="8abfa-153">**Note:**  Names are limited to 100 characters and cannot contain the following characters, ~!@#$%^&amp;\*();</span></span>|  
 |<span data-ttu-id="8abfa-154">de mensaje</span><span class="sxs-lookup"><span data-stu-id="8abfa-154">Message</span></span>|<span data-ttu-id="8abfa-155">Texto del mensaje que se entregará con la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-155">The text of the message that will be delivered with the alert.</span></span>|  
 |<span data-ttu-id="8abfa-156">Prioridad</span><span class="sxs-lookup"><span data-stu-id="8abfa-156">Priority</span></span>|<span data-ttu-id="8abfa-157">Indica la gravedad del problema que comunica la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-157">Indicates the severity of the issue the alert is reporting.</span></span> <span data-ttu-id="8abfa-158">Los niveles de prioridad son Superior, Medio e Inferior.</span><span class="sxs-lookup"><span data-stu-id="8abfa-158">The priority levels are High, Medium, and Low.</span></span> <span data-ttu-id="8abfa-159">Para alertas que se entregan por correo electrónico, este valor determina el tipo de indicador de nivel de importancia en el mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="8abfa-159">For alerts delivered by e-mail, this setting determines the type of importance flag on the e-mail message.</span></span>|  
 |<span data-ttu-id="8abfa-160">Propietarios</span><span class="sxs-lookup"><span data-stu-id="8abfa-160">Owners</span></span>|<span data-ttu-id="8abfa-161">Propietario de la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-161">The owner of the alert.</span></span> <span data-ttu-id="8abfa-162">El valor predeterminado para el propietario es el mismo que el del creador de la alerta.</span><span class="sxs-lookup"><span data-stu-id="8abfa-162">The default value for the owner is the same as the creator of the alert.</span></span> <span data-ttu-id="8abfa-163">En el caso de varios propietarios, éstos se especifican como una lista delimitada por punto y coma.</span><span class="sxs-lookup"><span data-stu-id="8abfa-163">Multiple owners are entered as a semi-colon delimited list.</span></span>|  

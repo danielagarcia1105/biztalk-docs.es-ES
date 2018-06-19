@@ -1,14 +1,14 @@
 ---
-title: "¿Cómo se codifican los caracteres del nombre de nodo | Documentos de Microsoft"
-ms.custom: 
+title: ¿Cómo se codifican los caracteres del nombre de nodo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6462856b-7a52-40c9-9aff-c0579130eec9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247004"
 ---
 # <a name="how-node-name-characters-get-encoded"></a><span data-ttu-id="100b2-102">Cómo se codifican los caracteres de los nombres de nodo</span><span class="sxs-lookup"><span data-stu-id="100b2-102">How Node Name Characters Get Encoded</span></span>
 <span data-ttu-id="100b2-103">Si usa un carácter que no se permite en un nombre de nodo, el Editor de BizTalk le pedirá confirmación, que le pregunta si desea continuar con el carácter no permitido o caracteres codificados (**Aceptar** o **cancelar**).</span><span class="sxs-lookup"><span data-stu-id="100b2-103">If you use a character that is not allowed in a node name, BizTalk Editor prompts you, asking if you want to proceed with the disallowed character or characters encoded (**OK** or **Cancel**).</span></span> <span data-ttu-id="100b2-104">Si continúa, los caracteres no permitidos se codificarán del modo siguiente:</span><span class="sxs-lookup"><span data-stu-id="100b2-104">If you proceed, each disallowed character is encoded as follows:</span></span>  

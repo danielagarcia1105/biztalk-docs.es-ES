@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ensamblador EDI | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ensamblador EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3785870-08ab-4fc2-8f7e-7c5a37639a7a
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22250492"
 ---
 # <a name="how-the-edi-assembler-works"></a><span data-ttu-id="0e53b-102">Cómo funciona el ensamblador EDI</span><span class="sxs-lookup"><span data-stu-id="0e53b-102">How the EDI Assembler Works</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0e53b-103"> realiza la mayoría del procesamiento de intercambios codificados en EDI que se van a enviar en la canalización de envío de EDI (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`).</span><span class="sxs-lookup"><span data-stu-id="0e53b-103"> performs most processing of EDI-encoded interchanges to be sent in the EDI Send Pipeline (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`).</span></span> <span data-ttu-id="0e53b-104">La canalización incluye el componente de canalización del ensamblador EDI que realiza el siguiente procesamiento:</span><span class="sxs-lookup"><span data-stu-id="0e53b-104">This pipeline includes the EDI assembler pipeline component, which performs the following processing:</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Configurar certificados para AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c160f294-7529-4e0a-876c-5827feaed067
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234660"
 ---
 # <a name="configuring-certificates-for-as2"></a><span data-ttu-id="383f0-102">Configurar certificados para AS2</span><span class="sxs-lookup"><span data-stu-id="383f0-102">Configuring Certificates for AS2</span></span>
 <span data-ttu-id="383f0-103">Para asegurar la transferencia de datos AS2 usando el cifrado y las firmas digitales, debe haber instalado los certificados adecuados, además de la configuración de AS2 adecuada en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="383f0-103">To help secure AS2 data transfer using encryption and digital signatures, you must have the appropriate certificates installed, in addition to the appropriate AS2 configuration on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="383f0-104">En este tema se describen los certificados necesarios, el modo de configurarlos y los problemas comunes que pueden plantear.</span><span class="sxs-lookup"><span data-stu-id="383f0-104">This topic describes the certificates required, how to configure them, and common issues with them.</span></span>  

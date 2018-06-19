@@ -1,11 +1,11 @@
 ---
-title: "El procesamiento en la orquestación OrderBroker | Documentos de Microsoft"
-ms.custom: 
+title: El procesamiento en la orquestación OrderBroker | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - examples, orchestration processing [process management solution]
 - scopes, nesting
 ms.assetid: c296e00c-b3ad-4161-baf7-258899185c34
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266636"
 ---
 # <a name="processing-in-the-orderbroker-orchestration"></a><span data-ttu-id="9ab9b-102">Procesamiento en la orquestación OrderBroker</span><span class="sxs-lookup"><span data-stu-id="9ab9b-102">Processing in the OrderBroker Orchestration</span></span>
 <span data-ttu-id="9ab9b-103">Esta sección se describe cómo el **OrderBroker** orquestación recibe pedidos y prepararlos para un administrador de procesos.</span><span class="sxs-lookup"><span data-stu-id="9ab9b-103">This section describes how the **OrderBroker** orchestration takes orders and prepares them for a process manager.</span></span> <span data-ttu-id="9ab9b-104">La sección empieza con una descripción del funcionamiento general de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="9ab9b-104">The section begins by discussing the general workings of the orchestration.</span></span> <span data-ttu-id="9ab9b-105">A continuación, se explica cómo la orquestación procesa un mensaje.</span><span class="sxs-lookup"><span data-stu-id="9ab9b-105">The next part discusses how the orchestration processes a message.</span></span> <span data-ttu-id="9ab9b-106">Por último, se indica cómo la orquestación usa una transacción atómica para mejorar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="9ab9b-106">It then highlights how the orchestration uses an atomic transaction to improve performance.</span></span>  

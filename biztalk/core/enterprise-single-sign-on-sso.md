@@ -1,17 +1,17 @@
 ---
 title: Enterprise Single Sign-On (SSO) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, about SSO
 - SSO
 ms.assetid: beab96f7-f026-4ae1-8462-a165ad76bbec
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240156"
 ---
 # <a name="enterprise-single-sign-on-sso"></a><span data-ttu-id="df6ec-102">Inicio de sesión único (SSO) empresarial.</span><span class="sxs-lookup"><span data-stu-id="df6ec-102">Enterprise Single Sign-On (SSO)</span></span>
 <span data-ttu-id="df6ec-103">El inicio de sesión único (SSO) empresarial proporciona servicios para almacenar y transmitir credenciales de usuario cifradas a través de los límites locales y de red, incluidos los límites de dominio.</span><span class="sxs-lookup"><span data-stu-id="df6ec-103">Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local and network boundaries, including domain boundaries.</span></span> <span data-ttu-id="df6ec-104">SSO almacena las credenciales en la base de datos de SSO.</span><span class="sxs-lookup"><span data-stu-id="df6ec-104">SSO stores the credentials in the SSO database.</span></span> <span data-ttu-id="df6ec-105">Puesto que SSO proporciona una solución de inicio de sesión único (SSO) genérica, las aplicaciones de software intermedio y los adaptadores personalizados pueden aprovechar SSO para almacenar las credenciales de usuario y transmitirlas por el entorno de forma segura.</span><span class="sxs-lookup"><span data-stu-id="df6ec-105">Because SSO provides a generic single sign-on solution, middleware applications and custom adapters can leverage SSO to securely store and transmit user credentials across the environment.</span></span> <span data-ttu-id="df6ec-106">Los usuarios finales no necesitan recordar distintas credenciales para aplicaciones diferentes.</span><span class="sxs-lookup"><span data-stu-id="df6ec-106">End users do not have to remember different credentials for different applications.</span></span>  

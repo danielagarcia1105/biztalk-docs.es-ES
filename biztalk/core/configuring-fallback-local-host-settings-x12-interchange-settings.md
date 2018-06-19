@@ -1,14 +1,14 @@
 ---
-title: "Configuración de Host Local de reserva (configuración de intercambio de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de Host Local de reserva (configuración de intercambio de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b552fa2b-1154-491f-9bcf-aaba3b8f343f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233964"
 ---
 # <a name="configuring-fallback-local-host-settings-x12-interchange-settings"></a><span data-ttu-id="f5d47-102">Configuración de las opciones de host local de reserva (configuración de intercambio X12)</span><span class="sxs-lookup"><span data-stu-id="f5d47-102">Configuring Fallback Local Host Settings (X12-Interchange Settings)</span></span>
 <span data-ttu-id="f5d47-103">La configuración de host local rige cómo se procesan los intercambios EDI.</span><span class="sxs-lookup"><span data-stu-id="f5d47-103">The local host settings govern how the EDI interchanges are processed.</span></span> <span data-ttu-id="f5d47-104">La configuración de esta página puede dividirse en dos categorías: configuración del receptor (para intercambios de entrada) y configuración del remitente (para intercambios de salida).</span><span class="sxs-lookup"><span data-stu-id="f5d47-104">The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges).</span></span> <span data-ttu-id="f5d47-105">Como parte de la configuración del destinatario, puede especificar cómo se generará ST02, el número de control de confirmación.</span><span class="sxs-lookup"><span data-stu-id="f5d47-105">As part of the receiver’s settings, you can specify how the ST02 will be generated, the acknowledgement control number.</span></span> <span data-ttu-id="f5d47-106">Como parte de la configuración del remitente, se puede especificar cómo se generan los números de control de mensajes de salida.</span><span class="sxs-lookup"><span data-stu-id="f5d47-106">As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages.</span></span>  

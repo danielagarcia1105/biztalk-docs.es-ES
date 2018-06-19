@@ -1,17 +1,17 @@
 ---
-title: "Cómo agregar un Block2 de excepción Catch | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un Block2 de excepción Catch | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Catch Exception blocks
 - exceptions, Catch Exception blocks
 ms.assetid: 7c8b6024-e8dc-4417-83f9-bf4032644b91
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246844"
 ---
 # <a name="how-to-add-a-catch-exception-block"></a><span data-ttu-id="d905f-102">Cómo agregar un bloque Excepción de filtrado</span><span class="sxs-lookup"><span data-stu-id="d905f-102">How to Add a Catch Exception Block</span></span>
 <span data-ttu-id="d905f-103">El **excepción de filtrado** de bloqueo representa un controlador de excepciones.</span><span class="sxs-lookup"><span data-stu-id="d905f-103">The **Catch Exception** block represents an exception handler.</span></span> <span data-ttu-id="d905f-104">**Detectar excepciones** bloques se adjuntan al final de un **ámbito** forma en el Diseñador de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="d905f-104">**Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer.</span></span> <span data-ttu-id="d905f-105">Puede adjuntar tantos **excepción de filtrado** bloquea según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="d905f-105">You can attach as many **Catch Exception** blocks as you need.</span></span>  

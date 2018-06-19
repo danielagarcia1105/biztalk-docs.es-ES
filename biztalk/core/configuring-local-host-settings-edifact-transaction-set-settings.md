@@ -1,14 +1,14 @@
 ---
-title: "Configuración del Host Local (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del Host Local (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f7c9cb9-7b4b-41de-a3f3-c0519b18673c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234204"
 ---
 # <a name="configuring-local-host-settings-edifact-transaction-set-settings"></a><span data-ttu-id="e5553-102">Configuración de las opciones de host local (configuración del conjunto de transacciones de EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="e5553-102">Configuring Local Host Settings (EDIFACT-Transaction Set Settings)</span></span>
 <span data-ttu-id="e5553-103">Para procesar un intercambio entrante, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe determinar el esquema que necesita usar en el procesamiento y la validación del intercambio.</span><span class="sxs-lookup"><span data-stu-id="e5553-103">To process an incoming interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] must determine the schema that it needs to use in processing and validating the interchange.</span></span> <span data-ttu-id="e5553-104">Esto consiste en determinar el espacio de nombres de destino asociado al esquema y el esquema que se va a utilizar.</span><span class="sxs-lookup"><span data-stu-id="e5553-104">This consists of determining the target namespace associated with the schema, and determining the schema to be used.</span></span> <span data-ttu-id="e5553-105">En esta página de acuerdo de la entidad, especifique las propiedades que se van a usar en la determinación del espacio de nombres de destino.</span><span class="sxs-lookup"><span data-stu-id="e5553-105">In this page of the party agreement, you enter the properties to be used in determining the target namespace.</span></span> <span data-ttu-id="e5553-106">Cómo BizTalk Server determina el esquema se describe en [resolución de acuerdos, detección de esquemas y autorización para los mensajes de EDI recibidos](../core/agreement-resolution-schema-discovery-and-authorization-for-received-edi.md).</span><span class="sxs-lookup"><span data-stu-id="e5553-106">How BizTalk Server determines the schema is described in [Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages](../core/agreement-resolution-schema-discovery-and-authorization-for-received-edi.md).</span></span>  

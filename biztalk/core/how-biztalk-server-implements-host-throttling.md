@@ -17,7 +17,7 @@ helpviewer_keywords:
 - host throttling, user controlled throttling
 - host throttling, strategies
 ms.assetid: 46d3c3de-66b9-4c8a-8369-e68563fc9c40
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22250660"
 ---
 # <a name="how-biztalk-server-implements-host-throttling"></a><span data-ttu-id="af1e1-102">Cómo implementa BizTalk Server la limitación de host</span><span class="sxs-lookup"><span data-stu-id="af1e1-102">How BizTalk Server Implements Host Throttling</span></span>
 <span data-ttu-id="af1e1-103">El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] continuamente, el mecanismo de limitación de host supervisa para una condición de limitación, calcula la gravedad de la condición de limitación y aplica progresivamente la limitación según la gravedad calculada de host.</span><span class="sxs-lookup"><span data-stu-id="af1e1-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host throttling mechanism continually monitors for a throttling condition, calculates the severity of the throttling condition, and applies host throttling progressively depending on the calculated severity.</span></span> <span data-ttu-id="af1e1-104">El mecanismo de limitación se ajusta automáticamente y son adecuadas para la mayoría de las opciones de configuración predeterminadas [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenarios de procesamiento.</span><span class="sxs-lookup"><span data-stu-id="af1e1-104">The throttling mechanism is self tuning and the default configuration options are suitable for the majority of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processing scenarios.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="af1e1-105"> limitación de host expone varias opciones configurables que pueden usarse para optimizar la limitación en escenarios concretos.</span><span class="sxs-lookup"><span data-stu-id="af1e1-105"> host throttling exposes several configurable options that can be used to tune throttling for specific scenarios.</span></span> <span data-ttu-id="af1e1-106">Para obtener información acerca de cómo cambiar estas opciones de configuración, consulte [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md).</span><span class="sxs-lookup"><span data-stu-id="af1e1-106">For information about changing these configuration options, see [How to Modify Host Settings](../core/how-to-modify-host-settings.md).</span></span>  

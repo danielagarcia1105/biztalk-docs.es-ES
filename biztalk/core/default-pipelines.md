@@ -1,11 +1,11 @@
 ---
 title: Predeterminado canalizaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, PassThruTransmit
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - Microsoft.BizTalk.DefaultPipelines assembly
 - pipelines, default
 ms.assetid: 7d82bb2c-c7f1-44a1-9e1b-89b0bb806845
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239308"
 ---
 # <a name="default-pipelines"></a><span data-ttu-id="1a32f-102">Canalizaciones predeterminadas</span><span class="sxs-lookup"><span data-stu-id="1a32f-102">Default Pipelines</span></span>
 <span data-ttu-id="1a32f-103">Cuando crea una nueva aplicación, las canalizaciones predeterminadas se crean e implementan de forma predeterminada y aparecen en el ensamblado Microsoft.BizTalk.DefaultPipelines, en la carpeta \References, de todos los proyectos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="1a32f-103">When you create a new application, the default pipelines are created and deployed by default and appear in the Microsoft.BizTalk.DefaultPipelines assembly in the \References folder for every BizTalk project.</span></span> <span data-ttu-id="1a32f-104">Las canalizaciones predeterminadas no pueden modificarse en el Diseñador de canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="1a32f-104">The default pipelines cannot be modified in Pipeline Designer.</span></span> <span data-ttu-id="1a32f-105">Estas canalizaciones se pueden seleccionar al configurar un puerto de envío o una ubicación de recepción en el Explorador de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="1a32f-105">These pipelines can be selected when configuring a send port or receive location in BizTalk Explorer.</span></span> <span data-ttu-id="1a32f-106">En este tema se describen  las canalizaciones predeterminadas y cuándo deben utilizarse.</span><span class="sxs-lookup"><span data-stu-id="1a32f-106">This topic describes the default pipelines and when to use them.</span></span>  

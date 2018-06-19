@@ -1,17 +1,17 @@
 ---
-title: "Control de excepciones en la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Control de excepciones en la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, tutorials
 - process management solution tutorial, errors
 ms.assetid: ac9fcb33-7dac-448e-88b8-04d4d439ea6a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245884"
 ---
 # <a name="exception-handling-in-the-business-process-management-solution"></a><span data-ttu-id="734d3-102">Control de excepciones en la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="734d3-102">Exception Handling in the Business Process Management Solution</span></span>
 <span data-ttu-id="734d3-103">La solución Administración de procesos empresariales utiliza una orquestación de control de excepciones especial, así como el control de excepciones estándar de BizTalk Server. Además, para los errores de adaptadores, canalizaciones, asignaciones y enrutamiento, usa la nueva característica de informes de errores.</span><span class="sxs-lookup"><span data-stu-id="734d3-103">The business process management solution uses a special exception handling orchestration, as well as the standard BizTalk Server exception handling, and for adapter, pipeline, mapping, and routing failures, the new error reporting feature.</span></span> <span data-ttu-id="734d3-104">Este sistema personalizado se basa en el **ExceptionHandler** orquestación.</span><span class="sxs-lookup"><span data-stu-id="734d3-104">This customized system is built around the **ExceptionHandler** orchestration.</span></span> <span data-ttu-id="734d3-105">La solución utiliza la **ExceptionHandler** orquestación para volver a intentar una operación o volver a intentar una llamada que podría realizarse correctamente después de un problema transitorio.</span><span class="sxs-lookup"><span data-stu-id="734d3-105">The solution uses the **ExceptionHandler** orchestration to retry an operation or to retry a call that might succeed after a transient problem.</span></span>  

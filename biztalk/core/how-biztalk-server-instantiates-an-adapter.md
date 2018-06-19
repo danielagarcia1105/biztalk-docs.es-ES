@@ -1,14 +1,14 @@
 ---
-title: "Cómo BizTalk Server crea una instancia de un adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo BizTalk Server crea una instancia de un adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ebe7585-5939-4142-9281-990b4849e28d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246700"
 ---
 # <a name="how-biztalk-server-instantiates-an-adapter"></a><span data-ttu-id="0a027-102">Cómo crea BizTalk Server una instancia de un adaptador</span><span class="sxs-lookup"><span data-stu-id="0a027-102">How BizTalk Server Instantiates an Adapter</span></span>
 <span data-ttu-id="0a027-103">Cuando se inicia el servicio de BizTalk, se crean instancias de todos los adaptadores de recepción siempre y cuando tengan configuradas una o varias ubicaciones de recepción y estén activas.</span><span class="sxs-lookup"><span data-stu-id="0a027-103">When the BizTalk service starts, all receive adapters are instantiated, as long as they have one or more configured and active receive locations.</span></span> <span data-ttu-id="0a027-104">De forma predeterminada, no se crea ninguna instancia de un adaptador de envío hasta que el motor de mensajería quita de la cola el primer mensaje que se va a enviar mediante dicho adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="0a027-104">By default a send adapter is not instantiated until the Messaging Engine removes from the queue the first message to be sent by using that send adapter.</span></span> <span data-ttu-id="0a027-105">(A veces se denomina "creación diferida".) Sin embargo, si tiene que crear una instancia de un adaptador de envío al iniciar el servicio, puede usar el **InitTransmitterOnServiceStart** capacidad del adaptador.</span><span class="sxs-lookup"><span data-stu-id="0a027-105">(This is sometimes called "lazy creation.") However, if you need to instantiate a send adapter on service startup, you can use the **InitTransmitterOnServiceStart** adapter capability.</span></span> <span data-ttu-id="0a027-106">Esto indica al motor de mensajería que cree el adaptador de envío al iniciar el servicio, en lugar de utilizar la creación diferida predeterminada.</span><span class="sxs-lookup"><span data-stu-id="0a027-106">This directs the Messaging Engine to create the send adapter on service startup rather than using the default lazy creation.</span></span> <span data-ttu-id="0a027-107">El enfoque de creación diferida predeterminada ayuda a reducir la cantidad de recursos del sistema utilizados cuando los adaptadores no están configurados en extremos.</span><span class="sxs-lookup"><span data-stu-id="0a027-107">The default lazy creation approach helps to reduce the amount of system resources used when adapters are not configured on endpoints.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254300"
 ---
 # <a name="how-to-modify-net-clr-settings"></a><span data-ttu-id="b377f-102">Modificación de la configuración de .NET CLR</span><span class="sxs-lookup"><span data-stu-id="b377f-102">How to Modify .NET CLR Settings</span></span>
 <span data-ttu-id="b377f-103">Para actualizar la cantidad de subprocesos de Windows disponibles en el grupo de subprocesos .NET asociado a una instancia del host de BizTalk, puede modificar los valores de hospedaje de Common Runtime Language (CLR) apropiados desde el panel de configuración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b377f-103">To update the number of Windows threads available in the .NET thread pool associated with an instance of a BizTalk host, you can modify the appropriate Common Runtime Language (CLR) Hosting values using the BizTalk Settings Dashboard.</span></span> <span data-ttu-id="b377f-104">En este tema se proporciona el procedimiento paso a paso para modificar esta configuración.</span><span class="sxs-lookup"><span data-stu-id="b377f-104">This topic provides the step-by-step procedure to modify these settings.</span></span>  

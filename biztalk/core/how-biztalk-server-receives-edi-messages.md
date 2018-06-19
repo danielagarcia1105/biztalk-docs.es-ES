@@ -1,14 +1,14 @@
 ---
-title: "Cómo BizTalk Server recibe mensajes EDI | Documentos de Microsoft"
-ms.custom: 
+title: Cómo BizTalk Server recibe mensajes EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f3bb88c-9226-4791-b100-ba68dea45278
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246444"
 ---
 # <a name="how-biztalk-server-receives-edi-messages"></a><span data-ttu-id="d55d9-102">Cómo BizTalk Server recibe mensajes EDI</span><span class="sxs-lookup"><span data-stu-id="d55d9-102">How BizTalk Server Receives EDI Messages</span></span>
 <span data-ttu-id="d55d9-103">Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un mensaje EDI, lleva a cabo la búsqueda de acuerdo de socio comercial y la detección de esquemas, valida el mensaje, envía una confirmación (si fuese necesario) y analiza el lote de EDI.</span><span class="sxs-lookup"><span data-stu-id="d55d9-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI message, it performs trading partner agreement lookup and schema discovery, validates the message, sends an acknowledgment (if appropriate), and parses the EDI batch.</span></span> <span data-ttu-id="d55d9-104">Este procesamiento lo realiza el desensamblador EDI en la canalización de recepción EDI.</span><span class="sxs-lookup"><span data-stu-id="d55d9-104">This processing is performed by the EDI disassembler in the EDI Receive Pipeline.</span></span>  

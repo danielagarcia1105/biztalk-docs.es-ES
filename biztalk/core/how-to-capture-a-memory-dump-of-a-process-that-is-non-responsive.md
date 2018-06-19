@@ -1,14 +1,14 @@
 ---
-title: "Cómo capturar un volcado de memoria de un proceso que no responde | Documentos de Microsoft"
-ms.custom: 
+title: Cómo capturar un volcado de memoria de un proceso que no responde | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ad53376-2fab-4dee-8a6a-a44d157390f2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248588"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-non-responsive"></a><span data-ttu-id="79408-102">Cómo capturar un volcado de memoria de un proceso que no responde</span><span class="sxs-lookup"><span data-stu-id="79408-102">How to Capture a Memory Dump of a Process that is Non Responsive</span></span>
 <span data-ttu-id="79408-103">El proceso de BizTalk BTSNTSvc.exe se define como **francesa** cuando el proceso parece que deja de responder.</span><span class="sxs-lookup"><span data-stu-id="79408-103">The BizTalk process BTSNTSvc.exe is defined as **hanging** when the process seems to stop responding.</span></span> <span data-ttu-id="79408-104">Los síntomas comunes de que un proceso no responde incluyen los siguientes:</span><span class="sxs-lookup"><span data-stu-id="79408-104">Common symptoms of a process hang include:</span></span>  

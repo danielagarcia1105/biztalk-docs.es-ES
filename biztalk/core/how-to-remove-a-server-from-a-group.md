@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar un servidor de un grupo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar un servidor de un grupo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, servers
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - servers, groups
 - deleting, servers
 ms.assetid: 85596e18-fa17-4f44-bc20-2e4cb578e109
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255388"
 ---
 # <a name="how-to-remove-a-server-from-a-group"></a><span data-ttu-id="66471-102">Cómo quitar un servidor de un grupo</span><span class="sxs-lookup"><span data-stu-id="66471-102">How to Remove a Server from a Group</span></span>
 <span data-ttu-id="66471-103">Un servidor sólo se puede asociar con un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="66471-103">A server can only be associated with one BizTalk group.</span></span> <span data-ttu-id="66471-104">Si un servidor pertenece ya a otro grupo, debe quitar primero ese servidor del grupo actual para poder agregarlo al grupo nuevo.</span><span class="sxs-lookup"><span data-stu-id="66471-104">If a server already belongs to another group, you must first remove that server from its current group before you can add it to a new group.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Configuración de firma, compresión y cifrado en el transporte de AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de firma, compresión y cifrado en el transporte de AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc3537a7-c065-4a33-a375-29e7902b5ffa
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233980"
 ---
 # <a name="configuring-signing-compression-and-encryption-in-as2-transport"></a><span data-ttu-id="25a6b-102">Configurar la firma, la compresión y el cifrado en el transporte AS2</span><span class="sxs-lookup"><span data-stu-id="25a6b-102">Configuring Signing, Compression, and Encryption in AS2 Transport</span></span>
 <span data-ttu-id="25a6b-103">Puede configurar las firmas digitales, así como la verificación, el cifrado y el descifrado de firmas desde la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="25a6b-103">You can configure digital signatures, signature verification, encryption, and decryption from within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.</span></span> <span data-ttu-id="25a6b-104">Para llevar a cabo esta configuración, es preciso establecer las propiedades adecuadas para las canalizaciones AS2 y las entidades de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="25a6b-104">This configuration requires that you set the appropriate properties for the AS2 pipelines and BizTalk parties.</span></span>  

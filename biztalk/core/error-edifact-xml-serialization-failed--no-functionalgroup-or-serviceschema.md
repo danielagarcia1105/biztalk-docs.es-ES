@@ -1,14 +1,14 @@
 ---
-title: "Error de serialización Xml de intercambio de EDIFACT debido a una estructura no válida, sin FunctionalGroup o ServiceSchema | Documentos de Microsoft"
-ms.custom: 
+title: Error de serialización Xml de intercambio de EDIFACT debido a una estructura no válida, sin FunctionalGroup o ServiceSchema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 530faadd-e301-4743-b4b3-b04ba7578f1d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241444"
 ---
 # <a name="edifact-interchange-xml-serialization-failed-due-to-invalid-structure-no-functionalgroup-or-serviceschema"></a><span data-ttu-id="6441e-102">Error de serialización Xml de intercambio Edifact debido a una estructura no válida, sin FunctionalGroup o ServiceSchema</span><span class="sxs-lookup"><span data-stu-id="6441e-102">Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema</span></span>
 ## <a name="details"></a><span data-ttu-id="6441e-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="6441e-103">Details</span></span>  

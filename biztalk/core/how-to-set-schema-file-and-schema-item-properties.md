@@ -1,14 +1,14 @@
 ---
 title: Establecer el archivo de esquema y propiedades de elementos de esquema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1dc21bfe-e1a3-4d59-abca-d93df95749a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255260"
 ---
 # <a name="how-to-set-schema-file-and-schema-item-properties"></a><span data-ttu-id="9ac54-102">Cómo establecer el archivo de esquema y las propiedades de los elementos del esquema</span><span class="sxs-lookup"><span data-stu-id="9ac54-102">How to Set Schema File and Schema Item Properties</span></span>
 <span data-ttu-id="9ac54-103">Las propiedades del archivo de esquema y las propiedades del elemento se establecen en la ventana Propiedades de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="9ac54-103">Both schema file properties and item properties are set in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.</span></span> <span data-ttu-id="9ac54-104">En este tema se describen los pasos necesarios para examinar y establecer las propiedades de archivos de esquema y elemento.</span><span class="sxs-lookup"><span data-stu-id="9ac54-104">This topic describes the steps required to examine and/or set schema file/item properties.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270252"
 ---
 # <a name="service-services-node"></a><span data-ttu-id="44ff2-102">Servicio (nodo de servicios)</span><span class="sxs-lookup"><span data-stu-id="44ff2-102">Service (Services Node)</span></span>
 <span data-ttu-id="44ff2-103">El nodo Servicio de un archivo de enlace contiene información específica acerca de un servicio que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="44ff2-103">The Service node of a binding file contains information about a service exported with the binding file.</span></span> <span data-ttu-id="44ff2-104">El nodo de servicio también contiene nodos que describen los puertos y los roles asociados al servicio, así como un nodo que describe el host asociado con el servicio.</span><span class="sxs-lookup"><span data-stu-id="44ff2-104">The service node also contains nodes that describe the ports and roles associated with the service and a node that describes the host associated with the service.</span></span>  

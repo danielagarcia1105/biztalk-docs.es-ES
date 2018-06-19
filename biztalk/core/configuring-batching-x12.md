@@ -1,14 +1,14 @@
 ---
 title: Configurar el procesamiento por lotes (X12) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f4f9e7b-262d-488e-9a04-088aad289d70
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234780"
 ---
 # <a name="configuring-batching-x12"></a><span data-ttu-id="345cd-102">Configuración del procesamiento por lotes (X12)</span><span class="sxs-lookup"><span data-stu-id="345cd-102">Configuring Batching (X12)</span></span>
 <span data-ttu-id="345cd-103">Los lotes definen cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera y envía lotes EDI a la entidad.</span><span class="sxs-lookup"><span data-stu-id="345cd-103">Batches define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates and sends an EDI batches to the party.</span></span>  

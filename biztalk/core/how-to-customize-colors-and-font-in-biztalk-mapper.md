@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250396"
 ---
 # <a name="how-to-customize-colors-and-font-in-biztalk-mapper"></a><span data-ttu-id="c0e69-102">Cómo personalizar colores y fuentes en el Asignador de BizTalk</span><span class="sxs-lookup"><span data-stu-id="c0e69-102">How to Customize Colors and Font in BizTalk Mapper</span></span>
 <span data-ttu-id="c0e69-103">Puede cambiar los colores asociados con diversos tipos de vínculos y el color de los objetos seleccionados en la vista de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="c0e69-103">You can change the colors associated with various types of links and the color of selected objects in the Grid view.</span></span> <span data-ttu-id="c0e69-104">También puede cambiar la fuente utilizada para mostrar los nodos de árbol de esquema.</span><span class="sxs-lookup"><span data-stu-id="c0e69-104">You can also change the font used to display the schema tree nodes.</span></span> <span data-ttu-id="c0e69-105">En este tema se proporcionan instrucciones paso a paso para realizar estos cambios.</span><span class="sxs-lookup"><span data-stu-id="c0e69-105">This topic provides step-by-step instructions for making such changes.</span></span>  

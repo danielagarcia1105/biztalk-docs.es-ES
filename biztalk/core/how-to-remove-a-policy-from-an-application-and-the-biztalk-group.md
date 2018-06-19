@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar una directiva de una aplicación y el grupo de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar una directiva de una aplicación y el grupo de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, policies
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [policies], groups
 - applications, policies
 ms.assetid: e9882cb3-8808-4258-a107-a24905290288
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254516"
 ---
 # <a name="how-to-remove-a-policy-from-an-application-and-the-biztalk-group"></a><span data-ttu-id="92f60-102">Cómo quitar una directiva de una aplicación y del grupo de BizTalk</span><span class="sxs-lookup"><span data-stu-id="92f60-102">How to Remove a Policy from an Application and the BizTalk Group</span></span>
 <span data-ttu-id="92f60-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para quitar una directiva de una aplicación y la base de datos del motor de reglas del grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="92f60-103">This topic describes how to use the BizTalk Server Administration console or the command-line to remove a policy from an application and the Rule Engine database for the BizTalk group.</span></span>  

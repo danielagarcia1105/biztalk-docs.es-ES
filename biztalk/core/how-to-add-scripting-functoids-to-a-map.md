@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248476"
 ---
 # <a name="how-to-add-scripting-functoids-to-a-map"></a><span data-ttu-id="2c6dd-102">Cómo agregar functoids de secuencia de comandos a una asignación</span><span class="sxs-lookup"><span data-stu-id="2c6dd-102">How to Add Scripting Functoids to a Map</span></span>
 <span data-ttu-id="2c6dd-103">El **secuencias de comandos** functoid le permite utilizar secuencias de comandos personalizadas o código en tiempo de ejecución para realizar funciones de lo contrario no está disponibles.</span><span class="sxs-lookup"><span data-stu-id="2c6dd-103">The **Scripting** functoid enables you to use custom script or code at run time to perform functions otherwise not available.</span></span> <span data-ttu-id="2c6dd-104">Por ejemplo, se puede llamar a un objeto COM en tiempo de ejecución mediante la **secuencias de comandos** functoid y escribir sus propios scripts personalizados.</span><span class="sxs-lookup"><span data-stu-id="2c6dd-104">For example, you can call a COM object at run time by using the **Scripting** functoid and writing your own custom script.</span></span>  

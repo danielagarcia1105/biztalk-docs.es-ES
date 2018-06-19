@@ -1,11 +1,11 @@
 ---
-title: "Vista carga de mensajería | Documentos de Microsoft"
-ms.custom: 
+title: Vista carga de mensajería | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Messaging Payload view [Tracking Profile Editor]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - message schemas, payloads
 - Tracking Profile Editor, Messaging Payload view
 ms.assetid: 2bc247c5-5b31-4cd7-8377-ff9614df1320
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263028"
 ---
 # <a name="messaging-payload-view"></a><span data-ttu-id="11f73-102">Carga de mensajería (vista)</span><span class="sxs-lookup"><span data-stu-id="11f73-102">Messaging Payload View</span></span>
 <span data-ttu-id="11f73-103">La vista Carga de mensajería muestra el esquema del mensaje XML asociado a la acción seleccionada (por ejemplo, Mensaje enviado o recibido).</span><span class="sxs-lookup"><span data-stu-id="11f73-103">The Messaging Payload view displays the schema of the XML message associated with the selected action (for example, Message Sent or Received).</span></span> <span data-ttu-id="11f73-104">La vista está disponible desde el menú contextual para algunas de las formas de la vista Programación de orquestación.</span><span class="sxs-lookup"><span data-stu-id="11f73-104">The view is available from the shortcut menu for some of the shapes in the Orchestration Schedule view.</span></span>  

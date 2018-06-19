@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255988"
 ---
 # <a name="how-to-modify-general-settings"></a><span data-ttu-id="61bb9-102">Modificación de la configuración general</span><span class="sxs-lookup"><span data-stu-id="61bb9-102">How to Modify General Settings</span></span>
 <span data-ttu-id="61bb9-103">Mediante el panel de configuración, se pueden modificar los valores de la configuración general de un host determinado de un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="61bb9-103">Using the Settings Dashboard, you can modify the general configuration settings of a given host, across a BizTalk group.</span></span> <span data-ttu-id="61bb9-104">En este tema se proporcionan instrucciones paso a paso para realizar esta operación.</span><span class="sxs-lookup"><span data-stu-id="61bb9-104">This topic provides the step-by-step procedure to perform this operation.</span></span>  

@@ -1,18 +1,18 @@
 ---
 title: Recomendaciones de seguridad del adaptador HTTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, HTTP adapters
 - configuring [HTTP adapters], security
 - HTTP adapters, security
 ms.assetid: ef6043c2-c62a-40e5-b2e1-53e60f87a761
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256764"
 ---
 # <a name="http-adapter-security-recommendations"></a><span data-ttu-id="37c4f-102">Recomendaciones de seguridad del adaptador HTTP</span><span class="sxs-lookup"><span data-stu-id="37c4f-102">HTTP Adapter Security Recommendations</span></span>
 <span data-ttu-id="37c4f-103">El adaptador de HTTP se usa para intercambiar información entre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y una aplicación por medio del Protocolo de transferencia de hipertexto (HTTP).</span><span class="sxs-lookup"><span data-stu-id="37c4f-103">You use the HTTP adapter to exchange information between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and an application by means of the Hypertext Transfer Protocol (HTTP).</span></span> <span data-ttu-id="37c4f-104">Las aplicaciones pueden enviar mensajes a un servidor mediante el envío de solicitudes HTTP POST o HTTP GET a una dirección URL de HTTP concreta.</span><span class="sxs-lookup"><span data-stu-id="37c4f-104">Applications can send messages to a server by sending HTTP POST or HTTP GET requests to a specified HTTP URL.</span></span> <span data-ttu-id="37c4f-105">Para obtener más información acerca del adaptador HTTP, consulte [adaptador de HTTP](../core/http-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="37c4f-105">For more information about the HTTP adapter, see [HTTP Adapter](../core/http-adapter.md).</span></span> <span data-ttu-id="37c4f-106">Se recomienda seguir estas directrices para proteger e implementar el adaptador de HTTP en su entorno:</span><span class="sxs-lookup"><span data-stu-id="37c4f-106">It is recommended that you use the following guidelines for securing and deploying the HTTP adapter in your environment:</span></span>  

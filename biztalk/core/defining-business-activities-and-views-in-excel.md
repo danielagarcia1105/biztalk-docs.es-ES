@@ -1,17 +1,17 @@
 ---
-title: "Definir actividades económicas y vistas en Excel | Documentos de Microsoft"
-ms.custom: 
+title: Definir actividades económicas y vistas en Excel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], creating business activities
 - monitoring business activities [BAM], creating business activities
 ms.assetid: 000532f0-cb9a-40ac-a6c5-a8bd4e49f8d0
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239684"
 ---
 # <a name="defining-business-activities-and-views-in-excel"></a><span data-ttu-id="1bb46-102">Definición de actividades económicas y vistas en Excel</span><span class="sxs-lookup"><span data-stu-id="1bb46-102">Defining Business Activities and Views in Excel</span></span>
 <span data-ttu-id="1bb46-103">El primer paso para crear cualquier solución de BAM es identificar los datos que le interesan y la forma en que deben interpretarse.</span><span class="sxs-lookup"><span data-stu-id="1bb46-103">Your first step in creating any BAM solution is to identify what data you're interested in and how that data should be interpreted.</span></span> <span data-ttu-id="1bb46-104">Para ello, debe usar el complemento BAM para Excel.</span><span class="sxs-lookup"><span data-stu-id="1bb46-104">To do this, you use the BAM Add-in for Excel.</span></span> <span data-ttu-id="1bb46-105">Dicho complemento permite definir una lista de los datos de interés definiendo una actividad económica.</span><span class="sxs-lookup"><span data-stu-id="1bb46-105">The add-in allows you to define a wish-list of the data of interest by defining a business activity.</span></span> <span data-ttu-id="1bb46-106">También puede definir la forma en que los datos deben interpretarse y mostrarse a distintas categorías de usuarios empresariales.</span><span class="sxs-lookup"><span data-stu-id="1bb46-106">You can also define the way the data should be interpreted and shown to different categories of business users.</span></span>  

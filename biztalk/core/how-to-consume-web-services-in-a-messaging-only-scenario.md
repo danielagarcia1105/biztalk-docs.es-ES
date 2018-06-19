@@ -1,14 +1,14 @@
 ---
-title: "Cómo consumir Web Services en un escenario únicamente de mensajería | Documentos de Microsoft"
-ms.custom: 
+title: Cómo consumir Web Services en un escenario únicamente de mensajería | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66873959-5b1b-4d9b-ad19-f083670420b8
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249428"
 ---
 # <a name="how-to-consume-web-services-in-a-messaging-only-scenario"></a><span data-ttu-id="3ba0e-102">Cómo consumir servicios web en un escenario únicamente de mensajería</span><span class="sxs-lookup"><span data-stu-id="3ba0e-102">How to Consume Web Services in a Messaging Only Scenario</span></span>
 <span data-ttu-id="3ba0e-103">Una de las nuevas mejoras del adaptador de SOAP es la capacidad de para llamar a los servicios Web en un escenario únicamente de mensajería mediante el uso de puertos de envío de enrutamiento basados en el contenido.</span><span class="sxs-lookup"><span data-stu-id="3ba0e-103">One of the new enhancements for the SOAP adapter is ability to call Web services in a messaging only scenario by using content-based routing send ports.</span></span> <span data-ttu-id="3ba0e-104">Esta característica hace posible la consumición de servicios Web sin crear orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="3ba0e-104">This feature makes it possible to consume Web services without creating orchestrations.</span></span> <span data-ttu-id="3ba0e-105">Además, proporciona un mayor rendimiento para consumir servicios Web, ya que los mensajes no pasan a través de las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="3ba0e-105">It also provides better performance to consume Web services because messages do not pass through orchestrations.</span></span>  

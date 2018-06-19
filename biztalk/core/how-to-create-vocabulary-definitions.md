@@ -1,18 +1,18 @@
 ---
-title: "Cómo crear definiciones de vocabulario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear definiciones de vocabulario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
 - vocabularies, creating
 - vocabularies, definitions
 ms.assetid: 6f8fc4c2-2c46-4a7d-a02f-89de0396e3e2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250564"
 ---
 # <a name="how-to-create-vocabulary-definitions"></a><span data-ttu-id="bb94e-102">Cómo crear definiciones de vocabulario</span><span class="sxs-lookup"><span data-stu-id="bb94e-102">How to Create Vocabulary Definitions</span></span>
 <span data-ttu-id="bb94e-103">Puede utilizar el Asistente para definición de vocabulario para crear definiciones de vocabulario.</span><span class="sxs-lookup"><span data-stu-id="bb94e-103">You can use the Vocabulary Definition Wizard to create vocabulary definitions.</span></span> <span data-ttu-id="bb94e-104">Es posible definir una definición de vocabulario como un valor, un rango de valores, un conjunto de valores constantes o elementos de un ensamblado .NET, un documento XML o una tabla de base de datos.</span><span class="sxs-lookup"><span data-stu-id="bb94e-104">You can define a vocabulary definition as a constant value, a range of values, a set of values, or elements of a .NET assembly, XML document, or database table.</span></span> <span data-ttu-id="bb94e-105">Si selecciona una variable pública, habrá **obtener** y **establecer** opciones al igual que en el Asistente para definición de base de datos y XML.</span><span class="sxs-lookup"><span data-stu-id="bb94e-105">If you select a public variable, there will be **Get** and **Set** options just like in Database and XML definition wizard.</span></span>  

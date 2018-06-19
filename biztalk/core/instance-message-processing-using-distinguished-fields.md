@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22257516"
 ---
 # <a name="instance-message-processing-using-distinguished-fields"></a><span data-ttu-id="4207c-102">Procesar mensajes de instancia con campos distintivos</span><span class="sxs-lookup"><span data-stu-id="4207c-102">Instance Message Processing Using Distinguished Fields</span></span>
 <span data-ttu-id="4207c-103">Promocionar propiedades mediante la **campo distintivo** mecanismo no requiere la creación de un esquema de propiedad.</span><span class="sxs-lookup"><span data-stu-id="4207c-103">Promoting properties by using the **Distinguished Field** mechanism does not require the creation of a property schema.</span></span> <span data-ttu-id="4207c-104">Como con la promoción de propiedades, use el **promocionar propiedades** cuadro de diálogo, que es accesible mediante la **promocionar propiedades** propiedad de la **esquema** nodo esquemas de mensaje o mediante el **promover &#124; mostrar promociones** comando el **BizTalk** o menús contextuales.</span><span class="sxs-lookup"><span data-stu-id="4207c-104">As with all property promotion, you use the **Promote Properties** dialog box, which is accessible by using the **Promote Properties** property of the **Schema** node in message schemas, or by using the **Promote &#124; Show Promotions** command on the **BizTalk** or shortcut menus.</span></span>  

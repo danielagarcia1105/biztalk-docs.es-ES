@@ -1,11 +1,11 @@
 ---
-title: "Cómo ejecutar el Asistente para configuración de puertos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ejecutar el Asistente para configuración de puertos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Port Configuration Wizard [Orchestration Designer], starting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ports, Port Configuration Wizard [Orchestration Designer]
 - Port Configuration Wizard [Orchestration Designer]
 ms.assetid: 8035ce32-5ed4-49cb-b6f0-998b0460751e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255796"
 ---
 # <a name="how-to-run-the-port-configuration-wizard"></a><span data-ttu-id="a5f84-102">Cómo ejecutar el Asistente para configuración de puertos</span><span class="sxs-lookup"><span data-stu-id="a5f84-102">How to Run the Port Configuration Wizard</span></span>
 <span data-ttu-id="a5f84-103">Utilice el Asistente para configuración de puertos para crear y configurar un puerto en el Diseñador de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="a5f84-103">You use the Port Configuration Wizard to create and configure a port in Orchestration Designer.</span></span> <span data-ttu-id="a5f84-104">Un puerto debe tener asociado un tipo de puerto. Use el Asistente para seleccionar un tipo de puerto existente o para crear un nuevo tipo de puerto.</span><span class="sxs-lookup"><span data-stu-id="a5f84-104">A port must have a port type associated with it, and you use the wizard to select an existing port type or to create a new port type.</span></span> <span data-ttu-id="a5f84-105">Para obtener más información sobre los puertos y tipos de puertos, consulte [mediante puertos en orquestaciones](../core/using-ports-in-orchestrations.md).</span><span class="sxs-lookup"><span data-stu-id="a5f84-105">For more information about ports and port types, see [Using Ports in Orchestrations](../core/using-ports-in-orchestrations.md).</span></span>  

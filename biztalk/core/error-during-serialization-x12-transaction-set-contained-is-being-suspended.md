@@ -1,14 +1,14 @@
 ---
-title: "Error durante la serialización. El conjunto de transacciones contenido en el grupo funcional se está suspendiendo por los siguientes errores de X12 | Documentos de Microsoft"
-ms.custom: 
+title: Error durante la serialización. El conjunto de transacciones contenido en el grupo funcional se está suspendiendo por los siguientes errores de X12 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 49b13038-2637-4435-91e9-d6fe2b80ca7a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241428"
 ---
 # <a name="error-encountered-during-serialization-the-x12-transaction-set-contained-in-functional-group-is-being-suspended-with-following-errors"></a><span data-ttu-id="5e905-103">Error durante la serialización.</span><span class="sxs-lookup"><span data-stu-id="5e905-103">Error encountered during serialization.</span></span> <span data-ttu-id="5e905-104">El conjunto de transacciones X12 contenido en el grupo funcional se está suspendiendo por los errores siguientes</span><span class="sxs-lookup"><span data-stu-id="5e905-104">The X12 transaction set contained in functional group is being suspended with following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="5e905-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="5e905-105">Details</span></span>  

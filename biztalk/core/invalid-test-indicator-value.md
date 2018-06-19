@@ -1,14 +1,14 @@
 ---
-title: "El valor del indicador de prueba no válido. | Documentos de Microsoft"
-ms.custom: 
+title: El valor del indicador de prueba no válido. | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5d81d501-4020-4ff9-955c-5674a99d250b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261796"
 ---
 # <a name="invalid-test-indicator-value"></a><span data-ttu-id="db571-102">Valor del indicador de prueba no válido.</span><span class="sxs-lookup"><span data-stu-id="db571-102">Invalid Test Indicator Value</span></span>
 ## <a name="details"></a><span data-ttu-id="db571-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="db571-103">Details</span></span>  

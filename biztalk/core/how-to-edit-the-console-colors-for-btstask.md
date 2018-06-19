@@ -1,14 +1,14 @@
 ---
-title: "Cómo editar los colores de consola para BTSTask | Documentos de Microsoft"
-ms.custom: 
+title: Cómo editar los colores de consola para BTSTask | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 725dcb7b-5a19-4166-9d1c-93f30ddca201
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254044"
 ---
 # <a name="how-to-edit-the-console-colors-for-btstask"></a><span data-ttu-id="de9f2-102">Cómo editar los colores de la consola para BTSTask</span><span class="sxs-lookup"><span data-stu-id="de9f2-102">How to Edit the Console Colors for BTSTask</span></span>
 <span data-ttu-id="de9f2-103">En este tema se describe cómo editar los colores de primer plano que BTSTask muestra en la consola.</span><span class="sxs-lookup"><span data-stu-id="de9f2-103">This topic describes how to edit the foreground colors that BTSTask outputs to the console.</span></span> <span data-ttu-id="de9f2-104">Si el color de fondo de la consola es blanco, tendrá dificultad en lee el resultado predeterminado de la consola de BTSTask y tendrá que modificar los colores de primer plano de la consola.</span><span class="sxs-lookup"><span data-stu-id="de9f2-104">If your console background color is white, you will have difficulty reading the default BTSTask console output and will need to modify the console foreground colors.</span></span>  

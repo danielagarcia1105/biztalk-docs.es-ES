@@ -15,7 +15,7 @@ helpviewer_keywords:
 - service instances, searching
 - service instances, running
 ms.assetid: fc65bf33-c013-4e6a-b9fd-b4536811e7b4
-caps.latest.revision: ''
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255204"
 ---
 # <a name="how-to-search-for-running-service-instances"></a><span data-ttu-id="873e8-102">Cómo buscar instancias de servicio en ejecución</span><span class="sxs-lookup"><span data-stu-id="873e8-102">How to Search for Running Service Instances</span></span>
 <span data-ttu-id="873e8-103">Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar una determinada deshidratada, activa, en el punto de interrupción, programada y volver a intentar la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="873e8-103">You can use the **Query** tab in the BizTalk Server Administration Console to search for a specific dehydrated, active, in breakpoint, scheduled, and retrying service instance.</span></span>  

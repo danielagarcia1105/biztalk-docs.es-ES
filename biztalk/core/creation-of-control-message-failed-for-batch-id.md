@@ -1,14 +1,14 @@
 ---
-title: "Error de creación del mensaje de Control para el identificador de lote | Documentos de Microsoft"
-ms.custom: 
+title: Error de creación del mensaje de Control para el identificador de lote | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f03078e7-46b0-4082-9d66-6b892152a12d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238196"
 ---
 # <a name="creation-of-control-message-failed-for-batch-id"></a><span data-ttu-id="f0ca6-102">Error en la creación del mensaje de control para el identificador del lote</span><span class="sxs-lookup"><span data-stu-id="f0ca6-102">Creation of Control Message failed for Batch id</span></span>
 ## <a name="details"></a><span data-ttu-id="f0ca6-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="f0ca6-103">Details</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240788"
 ---
 # <a name="error---table-looping-functoid-without-link-to-destination-schema"></a><span data-ttu-id="57b24-102">Error - el Functoid sin vínculo a esquema de destino de bucle de tabla</span><span class="sxs-lookup"><span data-stu-id="57b24-102">Error - Table Looping Functoid Without Link to Destination Schema</span></span>
 <span data-ttu-id="57b24-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="57b24-103">**Error Code**</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Seguimiento de estado y actividad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c5d7415-38da-47b5-8dbc-0a2ea74548d9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246604"
 ---
 # <a name="health-and-activity-tracking"></a><span data-ttu-id="455c7-102">Seguimiento de estado y actividad</span><span class="sxs-lookup"><span data-stu-id="455c7-102">Health and Activity Tracking</span></span>
 <span data-ttu-id="455c7-103">El **mantenimiento y seguimiento de actividad (HAT)** se quitó la herramienta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009.</span><span class="sxs-lookup"><span data-stu-id="455c7-103">The **Health and Activity Tracking (HAT)** tool was removed in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009.</span></span>  <span data-ttu-id="455c7-104">La función de la herramienta HAT era realizar el seguimiento y mostrar información relacionada con live y datos históricos de mensajes almacenan en la base de datos de seguimiento de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="455c7-104">The role of the HAT tool was to track and display information relating to live and historical message data stored in the BizTalk Tracking database.</span></span>  <span data-ttu-id="455c7-105">La herramienta permitía depurar el flujo de una orquestación y la capacidad para ver el flujo de un mensaje a través de una visualización secuencial.</span><span class="sxs-lookup"><span data-stu-id="455c7-105">The tool allowed debugging of the flow of an orchestration and the ability to view the flow of a message through a sequential display.</span></span>  <span data-ttu-id="455c7-106">Un generador de consultas permitía realizar consultas estándar y personalizadas de los datos de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="455c7-106">A Query Builder allowed standard and custom queries of the tracking data.</span></span>  

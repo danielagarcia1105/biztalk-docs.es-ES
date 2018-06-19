@@ -1,11 +1,11 @@
 ---
 title: 'Arquitectura de ejemplo: Servidor BizTalk Server Base | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - BizTalk Server, architecture
 - architecture, security
 ms.assetid: 7ccc1ef3-670f-423f-b6ca-3d56b9bbeabf
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271196"
 ---
 # <a name="sample-architecture-base-biztalk-server"></a><span data-ttu-id="e4bfd-102">Arquitectura de ejemplo: servidor BizTalk Server base</span><span class="sxs-lookup"><span data-stu-id="e4bfd-102">Sample Architecture: Base BizTalk Server</span></span>
 <span data-ttu-id="e4bfd-103">En este tema, se analiza la arquitectura de ejemplo básica.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-103">This topic discusses the base sample architecture.</span></span> <span data-ttu-id="e4bfd-104">y se describen los componentes de una implementación de BizTalk Server que son independientes de los adaptadores.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-104">It describes the components in a BizTalk Server deployment that are adapter-independent.</span></span> <span data-ttu-id="e4bfd-105">Se recomienda que todas las implementaciones de BizTalk Server cuenten, como mínimo, con estos componentes.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-105">We recommend that any BizTalk Server deployment have at least these components.</span></span>  

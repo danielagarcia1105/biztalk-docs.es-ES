@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5e19dd4d-9f2c-4a17-9437-8701e1c274fb
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22232860"
 ---
 # <a name="btswebsvcpub-command-line-reference"></a><span data-ttu-id="6c445-102">Referencia de línea de comandos de BTSWebSvcPub</span><span class="sxs-lookup"><span data-stu-id="6c445-102">BTSWebSvcPub Command-Line Reference</span></span>
 <span data-ttu-id="6c445-103">Esta sección proporciona información de referencia para la herramientas de línea de comandos de BTSWebSvcPub incluidas en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="6c445-103">This topic provides reference information for the BTSWebSvcPub command-line tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="6c445-104">Puede utilizar BTSWebSvcPub para crear servicios Web (.asmx) para publicar orquestaciones mediante los servicios Web como se muestra a continuación:</span><span class="sxs-lookup"><span data-stu-id="6c445-104">You can use BTSWebSvcPub to create Web services (.asmx) for publishing orchestrations through Web services as follows:</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Errores del Editor de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Editor, error messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - troubleshooting, error messages [BizTalk Editor]
 - error messages, BizTalk Editor
 ms.assetid: d044af11-708a-4365-a105-dd19a2c610a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232852"
 ---
 # <a name="biztalk-editor-errors"></a><span data-ttu-id="79c12-102">Errores del Editor de BizTalk</span><span class="sxs-lookup"><span data-stu-id="79c12-102">BizTalk Editor Errors</span></span>
 <span data-ttu-id="79c12-103">Esta sección proporciona información adicional acerca de los mensajes de compilación asociados al Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="79c12-103">This section provides supplemental information about compilation messages associated with BizTalk Editor.</span></span> <span data-ttu-id="79c12-104">Para obtener acceso a esta información, presione la tecla F1 cuando se seleccione uno de los mensajes correspondientes en la ventana Lista de tareas de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="79c12-104">You can access this information using the F1 key when one of the relevant messages is selected in the Task List window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="79c12-105">Para obtener información conceptual y de procedimiento acerca del Editor de BizTalk, consulte [crear esquemas de uso del Editor BizTalk](../core/creating-schemas-using-biztalk-editor.md).</span><span class="sxs-lookup"><span data-stu-id="79c12-105">For conceptual and procedural information about BizTalk Editor, see [Creating Schemas Using BizTalk Editor](../core/creating-schemas-using-biztalk-editor.md).</span></span>  

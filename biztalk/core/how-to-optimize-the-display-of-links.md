@@ -1,14 +1,14 @@
 ---
-title: "Cómo optimizar la presentación de vínculos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo optimizar la presentación de vínculos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a9e16ff-01d3-4b7d-91c4-59d17266ee6d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254388"
 ---
 # <a name="how-to-optimize-the-display-of-links"></a><span data-ttu-id="8a1d2-102">Optimización de la visualización de vínculos</span><span class="sxs-lookup"><span data-stu-id="8a1d2-102">How to Optimize the Display of Links</span></span>
 <span data-ttu-id="8a1d2-103">Cuando los esquemas son grandes, los mapas pueden incluir un elevado número de enlaces entre los esquemas de origen y de destino.</span><span class="sxs-lookup"><span data-stu-id="8a1d2-103">When the schemas are big, your maps might include a large number of links between the source and the destination schemas.</span></span> <span data-ttu-id="8a1d2-104">Con muchos enlaces que atraviesen la superficie del mapa, puede que sea difícil realizar un seguimiento de un vínculo o de otro objeto con el que tenga que trabajar.</span><span class="sxs-lookup"><span data-stu-id="8a1d2-104">With many links across the map surface, you may find it difficult to track a link or an object you need to work on.</span></span> <span data-ttu-id="8a1d2-105">Además, puede resultar difícil realizar un seguimiento de una relación de extremo a extremo entre un esquema de origen, los vínculos, los functoids y el esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="8a1d2-105">Also, it can be difficult for you to track an end-to-end relationship between a source schema, the links, the functoids, and the destination schema.</span></span> <span data-ttu-id="8a1d2-106">En el Asignador de BizTalk, podrá administrar mejor esquemas grandes y complejos y mostrar una visualización optimizada de los vínculos en el mapa.</span><span class="sxs-lookup"><span data-stu-id="8a1d2-106">In the BizTalk Mapper, you can better manage complex and large schemas, and bring out an optimized display of links in the map.</span></span> <span data-ttu-id="8a1d2-107">En este tema se proporcionan detalles acerca de cómo ver los vínculos.</span><span class="sxs-lookup"><span data-stu-id="8a1d2-107">This topic provides details about how to view links.</span></span>  

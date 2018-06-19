@@ -1,11 +1,11 @@
 ---
-title: "Alta disponibilidad para el inicio de sesión único empresarial | Documentos de Microsoft"
-ms.custom: 
+title: Alta disponibilidad para el inicio de sesión único empresarial | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2016-02-29
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, availability
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Master Secret server, high availability
 - SSO, high availability
 ms.assetid: 6c631b5c-7147-4cc0-b58a-6749e83df9d3
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247532"
 ---
 # <a name="high-availability-for-enterprise-single-sign-on"></a><span data-ttu-id="95c7d-102">Alta disponibilidad del inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="95c7d-102">High Availability for Enterprise Single Sign-On</span></span>
 <span data-ttu-id="95c7d-103">Aunque no utilice la funcionalidad de inicio de sesión único (SSO) empresarial para asignar credenciales e inicios de sesión únicos, SSO es una parte fundamental de la infraestructura global de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ya que BizTalk Server utiliza SSO para proteger la información de las ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="95c7d-103">Even if you do not use the Enterprise Single-Sign-On (SSO) functionality for mapping credentials and single sign-on, SSO is a critical part of the overall Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] infrastructure, because BizTalk Server uses SSO to help secure information for the receive locations.</span></span>  

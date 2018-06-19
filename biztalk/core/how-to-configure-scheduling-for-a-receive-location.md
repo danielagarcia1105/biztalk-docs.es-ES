@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la programación de una ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la programación de una ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, receive locations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - scheduling, receive locations
 - managing [receive locations], configuring
 ms.assetid: 2653e1c3-ddbd-4d3f-be64-2a5fcd7cf267
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248708"
 ---
 # <a name="how-to-configure-scheduling-for-a-receive-location"></a><span data-ttu-id="a6fdc-102">Cómo configurar la programación de una ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="a6fdc-102">How to Configure Scheduling for a Receive Location</span></span>
 <span data-ttu-id="a6fdc-103">En este tema, se describe cómo utilizar la consola de administración de BizTalk Server para configurar las propiedades de programación para una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-103">This topic describes how to use the BizTalk Server Administration console to configure scheduling properties for a receive location.</span></span> <span data-ttu-id="a6fdc-104">Puede especificar las fechas cuando desee que la ubicación de recepción comience a procesar mensajes o bien cuando desee que la ubicación de recepción detenga ese procesamiento.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-104">You can specify the dates when you want the receive location to start and stop processing messages.</span></span> <span data-ttu-id="a6fdc-105">También puede especificar determinadas horas del día durante las que desea que la ubicación de recepción procese mensajes.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-105">You can also specify certain times of the day during which you want the receive location to process messages.</span></span>  

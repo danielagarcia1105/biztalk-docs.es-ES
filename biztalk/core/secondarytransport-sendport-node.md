@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271308"
 ---
 # <a name="secondarytransport-sendport-node"></a><span data-ttu-id="d0f57-102">SecondaryTransport (nodo puertoEnvío)</span><span class="sxs-lookup"><span data-stu-id="d0f57-102">SecondaryTransport (SendPort Node)</span></span>
 <span data-ttu-id="d0f57-103">El nodo SecondaryTransport del nodo puertoEnvío de un archivo de enlace proporciona información específica acerca del transporte secundario enlazado a un puerto de envío que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="d0f57-103">The SecondaryTransport node of the SendPort node of a binding file provides specific information about the secondary transport that is bound to a send port exported with the binding file.</span></span> <span data-ttu-id="d0f57-104">Si se especifica un transporte secundario, este se usa tras agotar todos los reintentos con el transporte primario.</span><span class="sxs-lookup"><span data-stu-id="d0f57-104">If a secondary transport is specified, it is used when all retry attempts with the primary transport have been exhausted.</span></span>  

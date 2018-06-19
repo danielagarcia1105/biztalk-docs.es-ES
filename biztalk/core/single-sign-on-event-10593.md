@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10593 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10593 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4433522c-038d-4eaf-b9b7-19df8b7bd52d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270596"
 ---
 # <a name="single-sign-on-event-10593"></a><span data-ttu-id="a33fa-102">Inicio de sesión único: Evento 10593</span><span class="sxs-lookup"><span data-stu-id="a33fa-102">Single Sign-On: Event 10593</span></span>
 ## <a name="details"></a><span data-ttu-id="a33fa-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="a33fa-103">Details</span></span>  

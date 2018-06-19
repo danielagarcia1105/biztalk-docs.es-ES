@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar ubicación de recepción de SOAP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar ubicación de recepción de SOAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SOAP adapters], virtual directories
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - SOAP adapters, virtual directories
 - receive locations, SOAP adapters
 ms.assetid: 7e348409-9181-47e4-b3c0-c73eb2acffa3
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250164"
 ---
 # <a name="how-to-configure-a-soap-receive-location"></a><span data-ttu-id="a146e-102">Cómo configurar una ubicación de recepción de SOAP</span><span class="sxs-lookup"><span data-stu-id="a146e-102">How to Configure a SOAP Receive Location</span></span>
 <span data-ttu-id="a146e-103">Puede configurar una ubicación de recepción SOAP mediante programación o con la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a146e-103">You can configure a SOAP receive location either programmatically or by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

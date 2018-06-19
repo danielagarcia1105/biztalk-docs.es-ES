@@ -1,11 +1,11 @@
 ---
 title: Aplicaciones afiliadas de SSO | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, designing applications
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - SSO, applications
 - applications [SSO], designing
 ms.assetid: 002ecf7e-4d52-425a-9498-0e7bd6545047
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975744"
 ---
 # <a name="sso-affiliate-applications"></a><span data-ttu-id="acb7b-102">Aplicaciones afiliadas de SSO</span><span class="sxs-lookup"><span data-stu-id="acb7b-102">SSO Affiliate Applications</span></span>
 <span data-ttu-id="acb7b-103">Las aplicaciones afiliadas de Inicio de sesión único (SSO) empresarial son entidades lógicas que representan un sistema o subsistema, como un host, un sistema back-end o una línea de aplicación empresarial, a los que se conecta mediante SSO.</span><span class="sxs-lookup"><span data-stu-id="acb7b-103">The Enterprise Single Sign-On (SSO) Affiliate applications are logical entities that represent a system or sub-system such as a host, back-end system, or line of business application to which you are connecting using SSO.</span></span> <span data-ttu-id="acb7b-104">Una aplicación afiliada puede representar un sistema back-end, como un equipo UNIX o gran sistema.</span><span class="sxs-lookup"><span data-stu-id="acb7b-104">An affiliate application can represent a back-end system such as a mainframe or UNIX computer.</span></span> <span data-ttu-id="acb7b-105">También puede representar una aplicación, como SAP o una subdivisión del sistema, como los subsistemas "Beneficios" o "Recibos de pago".</span><span class="sxs-lookup"><span data-stu-id="acb7b-105">It can also represent an application such as SAP, or a subdivision of the system, such as the "Benefits" or "Pay stub" sub-systems.</span></span>  

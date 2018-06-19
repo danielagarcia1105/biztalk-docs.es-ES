@@ -1,14 +1,14 @@
 ---
 title: EDI encabezados y finalizadores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf1dae3-9570-413d-a85d-94dcbb561906
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241932"
 ---
 # <a name="edi-headers-and-trailers"></a><span data-ttu-id="63260-102">Encabezados y finalizadores EDI</span><span class="sxs-lookup"><span data-stu-id="63260-102">EDI Headers and Trailers</span></span>
 <span data-ttu-id="63260-103">Las partes de un intercambio EDI se delimitan por encabezados y finalizadores que deben cumplir los estándares de X12 o EDIFACT.</span><span class="sxs-lookup"><span data-stu-id="63260-103">The parts of an EDI interchange are delimited by headers and trailers that must conform to the X12 or EDIFACT standards.</span></span> <span data-ttu-id="63260-104">El encabezado y el finalizador de control de intercambio se utilizan sólo una vez; el grupo funcional y los finalizadores y encabezados del conjunto de transacciones se repiten si los conjuntos de transacciones y los grupos se procesan por lotes en el intercambio.</span><span class="sxs-lookup"><span data-stu-id="63260-104">The interchange control header and trailer occur just once; the functional group and transaction set headers and trailers are repeated if the transaction sets and groups are batched within the interchange.</span></span> <span data-ttu-id="63260-105">Todos los encabezados y finalizadores se componen de una serie de elementos de datos que contienen información acerca del contenido del encabezado y del finalizador.</span><span class="sxs-lookup"><span data-stu-id="63260-105">Each of the headers and trailers consists of a series of data elements that contain information about the content that the header and trailer contain.</span></span>  

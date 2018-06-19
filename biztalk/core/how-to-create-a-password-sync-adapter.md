@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear un adaptador de sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un adaptador de sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: caa5bd13-efd9-4544-b5df-17d01c6ac5d8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249372"
 ---
 # <a name="how-to-create-a-password-sync-adapter"></a><span data-ttu-id="f2940-102">Cómo crear un adaptador de sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="f2940-102">How to Create a Password Sync Adapter</span></span>
 <span data-ttu-id="f2940-103">Un adaptador de sincronización de contraseñas (PS) es una aplicación que utiliza el componente Aplicación auxiliar de sincronización de contraseñas para pasar notificaciones a inicio de sesión único empresarial (SSO) y recibirlas de éste.</span><span class="sxs-lookup"><span data-stu-id="f2940-103">A password sync (PS) adapter is an application that uses the Password Sync Helper component to pass notifications to and from Enterprise Single Sign-On (SSO).</span></span> <span data-ttu-id="f2940-104">Tenga en cuenta que aunque el componente Aplicación auxiliar de PS exponga una interfaz COM y .NET Framework, el adaptador no tiene por qué ser un componente COM.</span><span class="sxs-lookup"><span data-stu-id="f2940-104">Note that although the PS Helper component exposes a COM and a .NET Framework interface, your adapter does not necessarily have to be a COM component.</span></span> <span data-ttu-id="f2940-105">Puede diseñar el adaptador como un proceso independiente, una aplicación COM+ o un servicio de Windows.</span><span class="sxs-lookup"><span data-stu-id="f2940-105">You can design your adapter as a stand-alone process, a COM+ application, or a Windows service.</span></span>  

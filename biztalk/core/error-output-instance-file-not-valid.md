@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240364"
 ---
 # <a name="error---output-instance-file-not-valid"></a><span data-ttu-id="53d96-102">Error: archivo de instancia de salida no válido</span><span class="sxs-lookup"><span data-stu-id="53d96-102">Error - Output Instance File Not Valid</span></span>
 <span data-ttu-id="53d96-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="53d96-103">**Explanation**</span></span>  

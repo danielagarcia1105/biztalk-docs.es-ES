@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240324"
 ---
 # <a name="error---no-assembly-for-scripting-functoid"></a><span data-ttu-id="e9afe-102">Error: no hay ensamblado para el Functoid de secuencias de comandos</span><span class="sxs-lookup"><span data-stu-id="e9afe-102">Error - No Assembly for Scripting Functoid</span></span>
 <span data-ttu-id="e9afe-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="e9afe-103">**Error Code**</span></span>  

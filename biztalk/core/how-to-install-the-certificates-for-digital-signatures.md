@@ -1,14 +1,14 @@
 ---
-title: "Cómo instalar los certificados para las firmas digitales | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar los certificados para las firmas digitales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 910ccd84-c022-46a5-a9de-b99046a480b8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255164"
 ---
 # <a name="how-to-install-the-certificates-for-digital-signatures"></a><span data-ttu-id="b4d61-102">Cómo instalar los certificados para firmas digitales</span><span class="sxs-lookup"><span data-stu-id="b4d61-102">How to install the Certificates for Digital Signatures</span></span>
 <span data-ttu-id="b4d61-103">En el siguiente procedimiento se enumeran los pasos de nivel superior que debe seguir para instalar los certificados que le permitirán recibir y enviar mensajes firmados.</span><span class="sxs-lookup"><span data-stu-id="b4d61-103">The following procedure lists the high-level steps that you have to follow to install the certificates for receiving and sending signed messages.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Crear vínculos | Documentos de Microsoft"
-ms.custom: 
+title: Crear vínculos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, links
 - BizTalk Mapper, links
 ms.assetid: e8596c50-62e9-40a7-ad61-29cbdb4f4fc9
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238572"
 ---
 # <a name="creating-links"></a><span data-ttu-id="21081-102">Crear vínculos</span><span class="sxs-lookup"><span data-stu-id="21081-102">Creating Links</span></span>
 <span data-ttu-id="21081-103">El Asignador de BizTalk facilita la automatización de algunos elementos que intervendrán en la creación de vínculos.</span><span class="sxs-lookup"><span data-stu-id="21081-103">BizTalk Mapper helps you automate some elements involved in link creation.</span></span> <span data-ttu-id="21081-104">La creación de vínculos simples es similar a los tipos de datos simples.</span><span class="sxs-lookup"><span data-stu-id="21081-104">Simple link creation is similar to simple data types.</span></span> <span data-ttu-id="21081-105">Existen formas más sofisticadas de crear vínculos que son más parecidas a las asignaciones de estructuras en un lenguaje de programación.</span><span class="sxs-lookup"><span data-stu-id="21081-105">There are more sophisticated forms of link creation that are more like structure assignment in a programming language.</span></span> <span data-ttu-id="21081-106">Un ejemplo es la creación de un vínculo simple que especifique cómo se van a pasar varios elementos de datos de mensajes de instancia de entrada a los correspondientes mensajes de instancia de salida.</span><span class="sxs-lookup"><span data-stu-id="21081-106">An example is a single link creation that specifies how multiple items of data are to be moved from input instance messages to corresponding output instance messages.</span></span>  

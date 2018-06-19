@@ -1,18 +1,18 @@
 ---
-title: "Cómo iniciar una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo iniciar una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], starting
 - starting, orchestrations
 - orchestrations, starting
 ms.assetid: 83411279-ee6f-4d68-aa3b-b5cd5e106088
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255428"
 ---
 # <a name="how-to-start-an-orchestration"></a><span data-ttu-id="e3bec-102">Cómo iniciar una orquestación</span><span class="sxs-lookup"><span data-stu-id="e3bec-102">How to Start an Orchestration</span></span>
 <span data-ttu-id="e3bec-103">En este tema se explica cómo utilizar la consola de administración de BizTalk Server para iniciar una orquestación.</span><span class="sxs-lookup"><span data-stu-id="e3bec-103">This topic describes how to use the BizTalk Server Administration console to start an orchestration.</span></span> <span data-ttu-id="e3bec-104">Al iniciar una orquestación, ésta comienza a procesar mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="e3bec-104">When you start an orchestration, it begins processing incoming messages.</span></span>  

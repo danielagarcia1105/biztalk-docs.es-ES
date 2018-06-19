@@ -1,11 +1,11 @@
 ---
-title: "Solución de administración de procesos de componentes de la empresa | Documentos de Microsoft"
-ms.custom: 
+title: Solución de administración de procesos de componentes de la empresa | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, back-end systems, process management solutions
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - assemblies, process management solutions
 - process management solution tutorial, assemblies
 ms.assetid: e3ccebb9-b677-4c17-acd2-0f986f7bd3f0
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234148"
 ---
 # <a name="components-of-the-business-process-management-solution"></a><span data-ttu-id="419f4-102">Componentes de la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="419f4-102">Components of the Business Process Management Solution</span></span>
 <span data-ttu-id="419f4-103">En esta sección se describen los principales componentes de BizTalk Server de la solución Administración de procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="419f4-103">This section describes the major BizTalk Server components of the Business Process Management Solution.</span></span> <span data-ttu-id="419f4-104">Para obtener información acerca de los archivos de origen, consulte [inventario de archivos para la solución de administración de procesos empresariales](../core/file-inventory-for-the-business-process-management-solution.md).</span><span class="sxs-lookup"><span data-stu-id="419f4-104">For information about the source files, see [File Inventory for the Business Process Management Solution](../core/file-inventory-for-the-business-process-management-solution.md).</span></span>  

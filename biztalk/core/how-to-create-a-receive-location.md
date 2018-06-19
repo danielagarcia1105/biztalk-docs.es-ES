@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249692"
 ---
 # <a name="how-to-create-a-receive-location"></a><span data-ttu-id="25034-102">Cómo crear una ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="25034-102">How to Create a Receive Location</span></span>
 <span data-ttu-id="25034-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para crear una nueva ubicación de recepción y especificar el puerto de recepción al que pertenece.</span><span class="sxs-lookup"><span data-stu-id="25034-103">This topic describes how to use the BizTalk Server Administration console to create a new receive location and specify the receive port to which it belongs.</span></span> <span data-ttu-id="25034-104">Una ubicación de recepción es una dirección a la que llegan los mensajes de entrada, así como la canalización de mensajería que procesa los mensajes recibidos en dicha dirección.</span><span class="sxs-lookup"><span data-stu-id="25034-104">A receive location is an address where inbound messages arrive as well as the messaging pipeline that processes messages received at that address.</span></span>  

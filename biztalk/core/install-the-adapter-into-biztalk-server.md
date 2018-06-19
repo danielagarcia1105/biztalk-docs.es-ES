@@ -1,14 +1,14 @@
 ---
 title: Instalar el adaptador en BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1164468d-75a9-4116-87a6-6055948c198b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257724"
 ---
 # <a name="install-the-adapter-into-biztalk-server"></a><span data-ttu-id="f18b8-102">Instalar el adaptador en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="f18b8-102">Install the Adapter into BizTalk Server</span></span>
 <span data-ttu-id="f18b8-103">Una vez escritas las entradas apropiadas de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el Registro, es preciso agregar el adaptador a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="f18b8-103">After the proper [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entries have been written to the registry the adapter must be added to the BizTalk Management database.</span></span> <span data-ttu-id="f18b8-104">Después de agregar el adaptador a esta base de datos, ya es un adaptador configurado de manera activa capaz de procesar mensajes cuando su configuración es correcta.</span><span class="sxs-lookup"><span data-stu-id="f18b8-104">After the adapter is added to this database it is an actively configured adapter and can process messages when it is properly configured.</span></span> <span data-ttu-id="f18b8-105">Para instalar el adaptador en la base de datos se utiliza la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f18b8-105">You install the adapter into the database by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="f18b8-106">Después de instalar el adaptador en la base de datos, reinicie la instancia de host.</span><span class="sxs-lookup"><span data-stu-id="f18b8-106">After installing the adapter in the database, restart the host instance.</span></span>  

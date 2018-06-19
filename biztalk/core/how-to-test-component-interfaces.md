@@ -1,17 +1,17 @@
 ---
-title: "Cómo probar Interfaces de componentes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo probar Interfaces de componentes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing component interfaces
 - component interfaces, testing
 ms.assetid: d637f76d-170d-4543-a2b2-a4ac4001386b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256572"
 ---
 # <a name="how-to-test-component-interfaces"></a><span data-ttu-id="04276-102">Cómo comprobar interfaces de componentes</span><span class="sxs-lookup"><span data-stu-id="04276-102">How to Test Component Interfaces</span></span>
 <span data-ttu-id="04276-103">El adaptador de Microsoft BizTalk para PeopleSoft Enterprise utiliza interfaces de componentes y metadatos de PeopleSoft, lo que le permite controlar interfaces de componentes nuevas o modificadas.</span><span class="sxs-lookup"><span data-stu-id="04276-103">Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and component interfaces; therefore, it can handle new or modified component interfaces.</span></span> <span data-ttu-id="04276-104">El adaptador no realiza suposición alguna de las interfaces de componentes; sólo asume que son lógicas y válidas.</span><span class="sxs-lookup"><span data-stu-id="04276-104">The adapter makes no assumptions about component interfaces except that they are logical and valid.</span></span> <span data-ttu-id="04276-105">Por consiguiente, cada interfaz de componente debe comprobarse antes de que se utilice como origen para el adaptador.</span><span class="sxs-lookup"><span data-stu-id="04276-105">Therefore, each component interface must be tested before it is used as a source for the adapter.</span></span>  

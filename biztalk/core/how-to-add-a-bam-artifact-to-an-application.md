@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un artefacto de BAM a una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un artefacto de BAM a una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, definition files [BAM]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [applications], definition files [BAM]
 - definition files [BAM], managing
 ms.assetid: 86f19030-e510-4527-ba74-10498c361c00
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247428"
 ---
 # <a name="how-to-add-a-bam-artifact-to-an-application"></a><span data-ttu-id="68264-102">Cómo agregar un artefacto de BAM a una aplicación</span><span class="sxs-lookup"><span data-stu-id="68264-102">How to Add a BAM Artifact to an Application</span></span>
 <span data-ttu-id="68264-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un artefacto de BAM a una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="68264-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a BAM artifact to a BizTalk application.</span></span> <span data-ttu-id="68264-104">Al agregar un archivo de definiciones de BAM no se implementa la definición de BAM.</span><span class="sxs-lookup"><span data-stu-id="68264-104">Adding a BAM definition file does not deploy the BAM definition.</span></span> <span data-ttu-id="68264-105">La definición de BAM se implementa cuando se importa el archivo .msi de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="68264-105">The BAM definition is deployed when the application .msi file is imported.</span></span>  

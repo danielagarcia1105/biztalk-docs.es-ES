@@ -1,14 +1,14 @@
 ---
 title: Comando ExportApp | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6217d0f1-cf39-4520-87c8-8d25b21865af
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246276"
 ---
 # <a name="exportapp-command"></a><span data-ttu-id="6378b-102">ExportApp (comando)</span><span class="sxs-lookup"><span data-stu-id="6378b-102">ExportApp Command</span></span>
 <span data-ttu-id="6378b-103">Exporta una aplicación de BizTalk a un archivo .msi.</span><span class="sxs-lookup"><span data-stu-id="6378b-103">Exports a BizTalk application to an .msi file.</span></span> <span data-ttu-id="6378b-104">Si existe un archivo .msi que ya tiene el mismo nombre de archivo y ruta de acceso, se sobrescribe el archivo existente .msi.</span><span class="sxs-lookup"><span data-stu-id="6378b-104">If an .msi file having the same file name and path already exists, the existing .msi file is overwritten.</span></span>  

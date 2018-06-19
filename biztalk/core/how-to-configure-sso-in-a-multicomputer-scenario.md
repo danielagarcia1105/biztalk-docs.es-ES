@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar SSO en un escenario de varios equipos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar SSO en un escenario de varios equipos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, SSO
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Master Secret server, configuring
 - SSO, multiple computers
 ms.assetid: 4511a03d-96f2-45f0-9891-e8b3e253499c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248756"
 ---
 # <a name="how-to-configure-sso-in-a-multicomputer-scenario"></a><span data-ttu-id="4fb95-102">Cómo configurar SSO en un escenario de varios equipos</span><span class="sxs-lookup"><span data-stu-id="4fb95-102">How to Configure SSO in a Multicomputer Scenario</span></span>
 <span data-ttu-id="4fb95-103">Esta sección contiene instrucciones para configurar el inicio de sesión único (SSO) empresarial en un escenario de tres equipos.</span><span class="sxs-lookup"><span data-stu-id="4fb95-103">This section contains instructions for configuring Enterprise Single Sign-On (SSO) in a three-computer scenario.</span></span>  

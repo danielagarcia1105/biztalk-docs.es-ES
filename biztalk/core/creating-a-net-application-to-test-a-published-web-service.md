@@ -1,17 +1,17 @@
 ---
-title: "Crear una aplicación .NET para probar un servicio Web publicado | Documentos de Microsoft"
-ms.custom: 
+title: Crear una aplicación .NET para probar un servicio Web publicado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, Web services
 - Web services, testing
 ms.assetid: 94b2223b-45d7-4b86-b4ec-87cc027d7e2a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237956"
 ---
 # <a name="creating-a-net-application-to-test-a-published-web-service"></a><span data-ttu-id="6d77a-102">Crear una aplicación .NET para probar un servicio Web publicado</span><span class="sxs-lookup"><span data-stu-id="6d77a-102">Creating a .NET Application to Test a Published Web Service</span></span>
 <span data-ttu-id="6d77a-103">Para probar un servicio Web publicado, puede crear una aplicación de cliente Web de ASP.NET que consuma el servicio Web publicado.</span><span class="sxs-lookup"><span data-stu-id="6d77a-103">To test your published Web service, you can create an ASP.NET Web client application that consumes your published Web service.</span></span> <span data-ttu-id="6d77a-104">La colección de ayuda de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] contiene un tutorial valioso para crear una aplicación cliente web de ASP.NET.</span><span class="sxs-lookup"><span data-stu-id="6d77a-104">The [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection contains a valuable walkthrough for creating an ASP.NET Web client application.</span></span> <span data-ttu-id="6d77a-105">Se puede utilizar el tutorial para probar el servicio Web publicado.</span><span class="sxs-lookup"><span data-stu-id="6d77a-105">You can use the walkthrough to test your published Web service.</span></span>  

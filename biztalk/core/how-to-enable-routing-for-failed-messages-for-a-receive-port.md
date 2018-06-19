@@ -1,11 +1,11 @@
 ---
-title: "Cómo habilitar enrutamiento para mensajes con errores para un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar enrutamiento para mensajes con errores para un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive ports, routing
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - routing, failed messages
 - errors, receive ports
 ms.assetid: 22366664-545d-4981-9bde-4df48b115002
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254092"
 ---
 # <a name="how-to-enable-routing-for-failed-messages-for-a-receive-port"></a><span data-ttu-id="a8144-102">Cómo habilitar el enrutamiento para mensajes con errores para un puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="a8144-102">How to Enable Routing for Failed Messages for a Receive Port</span></span>
 <span data-ttu-id="a8144-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para habilitar el enrutamiento para los mensajes procesados por un puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="a8144-103">This topic describes how to use the BizTalk Server Administration console to enable routing for the messages processed by a receive port.</span></span> <span data-ttu-id="a8144-104">Al habilitar esta opción, BizTalk Server intentará enrutar cualquier mensaje con errores de procesamiento a una aplicación de suscripción (por ejemplo, a otra programación de orquestación o puerto de recepción).</span><span class="sxs-lookup"><span data-stu-id="a8144-104">When you enable this option, BizTalk Server will attempt to route any message that fails processing to a subscribing application (such as another receive port or orchestration schedule).</span></span> <span data-ttu-id="a8144-105">Cuando esta opción no está habilitada (lo que ocurre de forma predeterminada), BizTalk Server suspende los mensajes con errores y genera una confirmación negativa (NACK).</span><span class="sxs-lookup"><span data-stu-id="a8144-105">When this option is not enabled (the default), BizTalk Server suspends failed messages and generates a negative acknowledgment (NACK).</span></span> <span data-ttu-id="a8144-106">Para obtener información general sobre la administración de mensajes con errores, vea [enrutamiento de mensajes de error utilizando](../core/using-failed-message-routing.md).</span><span class="sxs-lookup"><span data-stu-id="a8144-106">For background information about managing failed messages, see [Using Failed Message Routing](../core/using-failed-message-routing.md).</span></span>  

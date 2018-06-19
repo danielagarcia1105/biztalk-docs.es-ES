@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256636"
 ---
 # <a name="how-to-use-a-net-assembly-as-a-data-source"></a><span data-ttu-id="aaeb1-102">Cómo utilizar un ensamblado .NET como origen de datos</span><span class="sxs-lookup"><span data-stu-id="aaeb1-102">How to Use a .NET Assembly as a Data Source</span></span>
 <span data-ttu-id="aaeb1-103">Puede especificar un ensamblado .NET como origen de datos.</span><span class="sxs-lookup"><span data-stu-id="aaeb1-103">You can specify a .NET assembly as a data source.</span></span> <span data-ttu-id="aaeb1-104">A continuación, puede seleccionar una clase o miembro de clase del ensamblado y arrastrarla hasta una definición de vocabulario o regla.</span><span class="sxs-lookup"><span data-stu-id="aaeb1-104">You can subsequently select a class or class member from the assembly, and drag it onto a vocabulary definition or rule.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255060"
 ---
 # <a name="how-to-save-a-pipeline"></a><span data-ttu-id="4d97b-102">Cómo guardar una canalización</span><span class="sxs-lookup"><span data-stu-id="4d97b-102">How to Save a Pipeline</span></span>
 <span data-ttu-id="4d97b-103">Al guardar una canalización se almacena información sobre su configuración en un archivo .btp, en el que se especifica:</span><span class="sxs-lookup"><span data-stu-id="4d97b-103">Saving a pipeline stores information about the pipeline configuration to a .btp file, which specifies:</span></span>  

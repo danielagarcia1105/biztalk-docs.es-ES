@@ -1,17 +1,17 @@
 ---
-title: "Cómo volver a conectar a un grupo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo volver a conectar a un grupo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, reconnecting
 - managing [groups], connecting, reconnecting
 ms.assetid: 880eb57a-d986-43ed-af8f-9b90adcf0ca1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254156"
 ---
 # <a name="how-to-reconnect-to-a-group"></a><span data-ttu-id="b5068-102">Cómo volver a conectarse a un grupo</span><span class="sxs-lookup"><span data-stu-id="b5068-102">How to Reconnect to a Group</span></span>
 <span data-ttu-id="b5068-103">Un grupo que había conectado anteriormente al servidor BizTalk Server puede aparecer, en ocasiones, como no disponible en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b5068-103">A group that you previously connected to your BizTalk server may sometimes appear as unavailable in the BizTalk Server Administration Console.</span></span> <span data-ttu-id="b5068-104">Por ejemplo, un grupo puede dejar de estar disponible para la consola de administración cuando se reinicia el equipo donde reside el grupo.</span><span class="sxs-lookup"><span data-stu-id="b5068-104">For example, a group can become unavailable to the Administration Console when the computer where the group resides is restarted.</span></span> <span data-ttu-id="b5068-105">Puede volver a conectarse a un grupo de BizTalk Server no está disponible mediante el uso de **actualizar** si el grupo no está disponible.</span><span class="sxs-lookup"><span data-stu-id="b5068-105">You can reconnect to an unavailable BizTalk Server group by using **Refresh** if the group is unavailable.</span></span>  

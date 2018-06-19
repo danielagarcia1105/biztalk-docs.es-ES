@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241892"
 ---
 # <a name="error---native-input-file-does-not-exist"></a><span data-ttu-id="a99c6-102">Error: archivo de entrada nativo no existe</span><span class="sxs-lookup"><span data-stu-id="a99c6-102">Error - Native Input File Does Not Exist</span></span>
 <span data-ttu-id="a99c6-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="a99c6-103">**Error Code**</span></span>  

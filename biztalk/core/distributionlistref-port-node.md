@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239756"
 ---
 # <a name="distributionlistref-port-node"></a><span data-ttu-id="6988c-102">DistributionListRef (nodo Puerto)</span><span class="sxs-lookup"><span data-stu-id="6988c-102">DistributionListRef (Port Node)</span></span>
 <span data-ttu-id="6988c-103">El nodo DistributionListRef del nodo Puerto de un archivo de enlace contiene información acerca de una lista de distribución a la que hace referencia un servicio.</span><span class="sxs-lookup"><span data-stu-id="6988c-103">The DistributionListRef node of the Port node of a binding file contains information about a distribution list that is referenced by a service.</span></span>  

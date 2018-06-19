@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar el bucle de tabla y Functoids de extractor de tablas a una asignación de tabla | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar el bucle de tabla y Functoids de extractor de tablas a una asignación de tabla | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c837ab8-55db-471a-af26-9fbd0497d7d4
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249796"
 ---
 # <a name="how-to-add-table-looping-and-table-extractor-functoids-to-a-map"></a><span data-ttu-id="52271-102">Cómo agregar functoids de bucle de tabla y de extractor de tablas a una asignación</span><span class="sxs-lookup"><span data-stu-id="52271-102">How to Add Table Looping and Table Extractor Functoids to a Map</span></span>
 <span data-ttu-id="52271-103">El **bucle de tabla** y **Extractor de tablas** functoids se usan juntos.</span><span class="sxs-lookup"><span data-stu-id="52271-103">The **Table Looping** and **Table Extractor** functoids are used together.</span></span> <span data-ttu-id="52271-104">El **bucle de tabla** el functoid tiene una tabla interna configurable.</span><span class="sxs-lookup"><span data-stu-id="52271-104">The **Table Looping** functoid has an internal table you configure.</span></span> <span data-ttu-id="52271-105">Para cada entrada de registro o campo, el **bucle de tabla** functoid genera las filas de la tabla, de uno en uno.</span><span class="sxs-lookup"><span data-stu-id="52271-105">For each input record or field, the **Table Looping** functoid outputs the rows of the table, one at a time.</span></span> <span data-ttu-id="52271-106">El **Extractor de tablas** functoid extrae el elemento deseado de una fila y lo pasa al mensaje de instancia de salida.</span><span class="sxs-lookup"><span data-stu-id="52271-106">The **Table Extractor** functoid extracts the desired item from a row and passes it on to the output instance message.</span></span>  

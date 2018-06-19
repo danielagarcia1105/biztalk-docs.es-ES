@@ -1,14 +1,14 @@
 ---
-title: "No se puede enrutar el mensaje a la orquestación por lotes no se pudo determinar el tipo de codificación | Documentos de Microsoft"
-ms.custom: 
+title: No se puede enrutar el mensaje a la orquestación por lotes no se pudo determinar el tipo de codificación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d2ee38d-22c0-4fcf-bb68-b2ef00088c4c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241948"
 ---
 # <a name="the-message-cannot-be-routed-to-the-batching-orchestration-as-the-encoding-type-could-not-be-determined"></a><span data-ttu-id="81ffa-102">El mensaje no puede enrutarse a la orquestación de procesamiento por lotes. No se pudo determinar el tipo de codificación</span><span class="sxs-lookup"><span data-stu-id="81ffa-102">The message cannot be routed to the batching orchestration as the Encoding type could not be determined</span></span>
 ## <a name="details"></a><span data-ttu-id="81ffa-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="81ffa-103">Details</span></span>  

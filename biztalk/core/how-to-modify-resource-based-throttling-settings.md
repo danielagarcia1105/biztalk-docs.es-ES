@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255828"
 ---
 # <a name="how-to-modify-resource-based-throttling-settings"></a><span data-ttu-id="35a8a-102">Modificación de la configuración de límites basada en recursos</span><span class="sxs-lookup"><span data-stu-id="35a8a-102">How to Modify Resource Based Throttling Settings</span></span>
 <span data-ttu-id="35a8a-103">Mediante el uso del Panel de configuración, puede modificar la configuración de limitación basada en recursos de un host dado en todo el Grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="35a8a-103">Using the Settings Dashboard, you can modify the resource based throttling configuration settings of a given host, across the BizTalk Group.</span></span> <span data-ttu-id="35a8a-104">Estas opciones se aplican a todas las instancias de host asignadas al host dado.</span><span class="sxs-lookup"><span data-stu-id="35a8a-104">These settings apply to all host instances assigned to the given host.</span></span> <span data-ttu-id="35a8a-105">En este tema se proporciona el procedimiento paso a paso para modificar esta configuración.</span><span class="sxs-lookup"><span data-stu-id="35a8a-105">This topic provides the step-by-step procedure to modify these settings.</span></span>  

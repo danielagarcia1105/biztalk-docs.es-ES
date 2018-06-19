@@ -1,14 +1,14 @@
 ---
 title: Estructura de un mensaje de archivo sin formato | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00f2adf6-a47c-498b-b5ae-c6bd55bafceb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278940"
 ---
 # <a name="structure-of-a-flat-file-message"></a><span data-ttu-id="691ba-102">Estructura de un mensaje de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="691ba-102">Structure of a Flat File Message</span></span>
 <span data-ttu-id="691ba-103">En el contexto de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], un mensaje de instancia de archivo sin formato es un archivo de texto que puede contener tres partes lógicas: un encabezado, un cuerpo y un finalizador, en ese orden.</span><span class="sxs-lookup"><span data-stu-id="691ba-103">In the context of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], a flat file instance message is a text file that can contain three logical parts: a header, a body, and a trailer, in that order.</span></span> <span data-ttu-id="691ba-104">Tanto el encabezado como el finalizador son opcionales.</span><span class="sxs-lookup"><span data-stu-id="691ba-104">Both the header and the trailer are optional.</span></span> <span data-ttu-id="691ba-105">En el siguiente ejemplo se muestra un mensaje de instancia de archivo sin formato formado por tres partes, donde el cuerpo aparece en negrita.</span><span class="sxs-lookup"><span data-stu-id="691ba-105">The following example shows a flat file instance message that consists of all three parts, with the body shown in bold type.</span></span>  

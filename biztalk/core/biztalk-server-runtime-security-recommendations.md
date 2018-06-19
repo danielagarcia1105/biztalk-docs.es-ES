@@ -1,11 +1,11 @@
 ---
-title: "Recomendaciones de seguridad en tiempo de ejecución de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones de seguridad en tiempo de ejecución de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, runtime
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - DACLs
 - .NET Framework Code Access Security Mechanism
 ms.assetid: 1933789d-b79a-47ad-8f70-6f1e99bc2be0
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232236"
 ---
 # <a name="biztalk-server-runtime-security-recommendations"></a><span data-ttu-id="57ec3-102">Recomendaciones de seguridad en tiempo de ejecución de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="57ec3-102">BizTalk Server Runtime Security Recommendations</span></span>
 <span data-ttu-id="57ec3-103">Debe instalar el tiempo de ejecución de BizTalk Server, o el motor, en todos los equipos en los que desea recibir, enviar, procesar o realizar seguimiento de mensajes.</span><span class="sxs-lookup"><span data-stu-id="57ec3-103">You must install the BizTalk Server runtime, or engine, on all the computers from which you want to receive, send, process, and track messages.</span></span> <span data-ttu-id="57ec3-104">Es decir, debe instalar los componentes de tiempo de ejecución en cualquier equipo en el que cree una instancia de host de BizTalk (servidores de procesamiento).</span><span class="sxs-lookup"><span data-stu-id="57ec3-104">In other words, you must install the run time components on any computer where you create a BizTalk Host instance (processing servers).</span></span> <span data-ttu-id="57ec3-105">Se recomienda seguir estas directrices para proteger e implementar el tiempo de ejecución de BizTalk Server en su entorno.</span><span class="sxs-lookup"><span data-stu-id="57ec3-105">It is recommended you follow these guidelines for securing and deploying the BizTalk Server runtime in your environment.</span></span>  

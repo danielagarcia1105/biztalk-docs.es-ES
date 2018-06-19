@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256644"
 ---
 # <a name="identifying-performance-bottlenecks"></a><span data-ttu-id="c0398-102">Identificar cuellos de botella de rendimiento</span><span class="sxs-lookup"><span data-stu-id="c0398-102">Identifying Performance Bottlenecks</span></span>
 <span data-ttu-id="c0398-103">En un entorno ideal, cuando un sistema se ejecuta al máximo de su capacidad (utilización óptima de los recursos disponibles), es posible lograr un rendimiento sostenible, lo que da lugar a una disminución del costo total de propiedad (TCO).</span><span class="sxs-lookup"><span data-stu-id="c0398-103">Ideally, when a system is running at almost full capacity (optimal utilization of available resources), sustainable throughput can be achieved, lowering total cost of ownership (TCO).</span></span>  

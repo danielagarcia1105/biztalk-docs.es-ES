@@ -1,14 +1,14 @@
 ---
-title: "Cómo establecer dinámicamente el URI de un servicio Web consumido | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer dinámicamente el URI de un servicio Web consumido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95829a28-7898-4757-87cc-40fc99bf707e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254940"
 ---
 # <a name="how-to-dynamically-set-the-uri-of-a-consumed-web-service"></a><span data-ttu-id="60398-102">Cómo definir de forma dinámica el URI de un servicio Web utilizado</span><span class="sxs-lookup"><span data-stu-id="60398-102">How to Dynamically Set the URI of a Consumed Web Service</span></span>
 <span data-ttu-id="60398-103">Cuando se crea un puerto Web para un servicio Web consumido, puede seleccionar un enlace de puerto dinámico.</span><span class="sxs-lookup"><span data-stu-id="60398-103">When you create a Web port for a consumed Web service, you can select a dynamic port binding.</span></span> <span data-ttu-id="60398-104">Cuando seleccione un enlace de puerto dinámico, debe definir el URI del servicio Web consumido en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="60398-104">When you select a dynamic port binding, you must set the URI of the consumed Web service at run time.</span></span> <span data-ttu-id="60398-105">El URI seleccionado debe llamar un servicio Web que tenga el mismo proxy Web que el servico Web utilizado para crear el tipo de puerto Web.</span><span class="sxs-lookup"><span data-stu-id="60398-105">The selected URI must call a Web service that has the same Web proxy as the Web service that you used to create the Web port type.</span></span>  

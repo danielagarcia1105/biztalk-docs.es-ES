@@ -1,11 +1,11 @@
 ---
 title: Estructura y los trabajos de la base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PurgeSubscriptionsJob_BizTalkMsgBoxDb job
@@ -32,7 +32,7 @@ helpviewer_keywords:
 - jobs [SQL Server Agent], Tracking database
 - MessageBox_DeadProcesses_Cleanup_BizTalkMsgBoxDb job
 ms.assetid: f5f6b17d-0f5e-4821-a7eb-c345234ffc65
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -41,6 +41,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240564"
 ---
 # <a name="database-structure-and-jobs"></a><span data-ttu-id="a0b18-102">Estructura de base de datos y trabajos</span><span class="sxs-lookup"><span data-stu-id="a0b18-102">Database Structure and Jobs</span></span>
 <span data-ttu-id="a0b18-103">Este tema describe la estructura de base de datos y los trabajos de la base de datos para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a0b18-103">This topic discusses the database structure and database jobs for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

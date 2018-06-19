@@ -1,11 +1,11 @@
 ---
 title: Ciclo de vida de un mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MessageBox database
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - orchestrations, about orchestrations
 - messages, send ports
 ms.assetid: d2374f86-9b5f-404f-ba7b-9cab69873fa8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262828"
 ---
 # <a name="lifecycle-of-a-message"></a><span data-ttu-id="a00fc-102">Ciclo de vida de un mensaje</span><span class="sxs-lookup"><span data-stu-id="a00fc-102">Lifecycle of a Message</span></span>
 <span data-ttu-id="a00fc-103">La ilustración siguiente ofrece información general de alto nivel de la arquitectura de BizTalk Server desde el punto de vista de la mensajería.</span><span class="sxs-lookup"><span data-stu-id="a00fc-103">The following figure provides a high-level overview of the BizTalk Server architecture from a messaging perspective.</span></span>  

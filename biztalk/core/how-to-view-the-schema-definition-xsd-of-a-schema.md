@@ -1,11 +1,11 @@
 ---
-title: "Cómo ver la definición de esquema (XSD) de un esquema | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver la definición de esquema (XSD) de un esquema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, viewing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - schemas, schema definition (XSD)
 - managing [schemas], schema definition (XSD)
 ms.assetid: 21b6d9e6-5737-4334-9fe6-15ae01f90c0d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256444"
 ---
 # <a name="how-to-view-the-schema-definition-xsd-of-a-schema"></a><span data-ttu-id="6ca0a-102">Cómo ver la definición de esquemas (XSD) de un esquema</span><span class="sxs-lookup"><span data-stu-id="6ca0a-102">How to View the Schema Definition (XSD) of a Schema</span></span>
 <span data-ttu-id="6ca0a-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para ver la definición de esquemas (XSD) de un esquema.</span><span class="sxs-lookup"><span data-stu-id="6ca0a-103">This topic describes how to use the BizTalk Server Administration console to view the schema definition (XSD) of a schema.</span></span> <span data-ttu-id="6ca0a-104">Puede que desee hacerlo para solucionar errores de validación de esquemas o para validar que se ha implementado el esquema correcto.</span><span class="sxs-lookup"><span data-stu-id="6ca0a-104">You might want to do this to troubleshoot schema validation errors or validate that the correct schema is deployed.</span></span>  

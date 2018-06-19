@@ -1,14 +1,14 @@
 ---
 title: Generar un mensaje AS2 saliente | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 288c8101-9a96-4f98-ae18-df43c7cdb3a0
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246548"
 ---
 # <a name="generating-an-outgoing-as2-message"></a><span data-ttu-id="7a8fe-102">Generar un mensaje AS2 saliente</span><span class="sxs-lookup"><span data-stu-id="7a8fe-102">Generating an Outgoing AS2 Message</span></span>
 <span data-ttu-id="7a8fe-103">Las canalizaciones de envío AS2EDISend y AS2Send generan un mensaje saliente como se explica a continuación.</span><span class="sxs-lookup"><span data-stu-id="7a8fe-103">The AS2EDISend and AS2Send send pipelines generate an outbound message as follows.</span></span> <span data-ttu-id="7a8fe-104">Cada canalización utiliza las propiedades en la ficha de acuerdo unidireccional del **propiedades del acuerdo de** cuadro de diálogo para generar el mensaje AS2 saliente.</span><span class="sxs-lookup"><span data-stu-id="7a8fe-104">Each pipeline uses the properties in the one-way agreement tab of the **Agreement Properties** dialog box to generate the outgoing AS2 message.</span></span>  

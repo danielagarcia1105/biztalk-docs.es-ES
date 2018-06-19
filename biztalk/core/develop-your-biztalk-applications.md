@@ -1,14 +1,14 @@
 ---
 title: Desarrollar las aplicaciones de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f124ec8-95d9-4c20-bdbe-3d086b594e95
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238820"
 ---
 # <a name="develop-your-biztalk-applications"></a><span data-ttu-id="5f078-102">Desarrollar las aplicaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="5f078-102">Develop your BizTalk applications</span></span>
 <span data-ttu-id="5f078-103">Esta sección contiene información para programadores cuya misión es crear aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="5f078-103">This section contains information for developers who are tasked with creating BizTalk applications.</span></span> <span data-ttu-id="5f078-104">Una vez creadas estas aplicaciones, normalmente son administradas por un administrador, mediante la información contenida en las operaciones y las tareas administrativas.</span><span class="sxs-lookup"><span data-stu-id="5f078-104">Once these applications are created, they are usually managed by an administrator, using information found in the Operations and Administrative Tasks.</span></span>  

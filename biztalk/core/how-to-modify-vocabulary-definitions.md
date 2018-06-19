@@ -1,11 +1,11 @@
 ---
-title: "Cómo modificar las definiciones de vocabulario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar las definiciones de vocabulario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - vocabularies, facts
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - vocabularies, definitions
 - vocabularies, modifying
 ms.assetid: 866bb9b9-34e1-4a05-a84e-540c7f7fae3b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254172"
 ---
 # <a name="how-to-modify-vocabulary-definitions"></a><span data-ttu-id="0097c-102">Cómo modificar definiciones de vocabulario</span><span class="sxs-lookup"><span data-stu-id="0097c-102">How to Modify Vocabulary Definitions</span></span>
 <span data-ttu-id="0097c-103">Puede modificar una definición de vocabulario en una versión no publicada de un vocabulario mediante el Asistente para definición de vocabulario con objeto de cambiar el nombre para mostrar o modificar el enlace asociado con el nombre para mostrar.</span><span class="sxs-lookup"><span data-stu-id="0097c-103">You can modify a vocabulary definition in an unpublished version of a vocabulary by using the Vocabulary Definition Wizard to change the display name or to change the binding associated with the display name.</span></span>  

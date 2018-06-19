@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246100"
 ---
 # <a name="halt"></a><span data-ttu-id="83967-102">Detener</span><span class="sxs-lookup"><span data-stu-id="83967-102">Halt</span></span>
 <span data-ttu-id="83967-103">Puede usar el **detener** función para detener la ejecución del motor de reglas actual.</span><span class="sxs-lookup"><span data-stu-id="83967-103">You can use the **Halt** function to halt the current rule engine execution.</span></span> <span data-ttu-id="83967-104">El **detener** función toma un parámetro de tipo `Boolean`.</span><span class="sxs-lookup"><span data-stu-id="83967-104">The **Halt** function takes one parameter of type `Boolean`.</span></span> <span data-ttu-id="83967-105">Si se especifica el valor del parámetro como `true`, el motor de reglas también borrará la agenda que contiene las reglas candidatas pendientes.</span><span class="sxs-lookup"><span data-stu-id="83967-105">If you specify the value for the parameter as `true`, the rule engine also clears the agenda that contains the pending candidate rules.</span></span>  

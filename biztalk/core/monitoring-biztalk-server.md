@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 96e244dc-b826-4a9f-a4e1-6dabc41eb144
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22265364"
 ---
 # <a name="monitoring-biztalk-server"></a><span data-ttu-id="c8a8f-103">Supervisión de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="c8a8f-103">Monitoring BizTalk Server</span></span>
 <span data-ttu-id="c8a8f-104">Supervisar las aplicaciones y la infraestructura de BizTalk Server de forma periódica y solucionar los problemas que encuentre ayuda a mantener las aplicaciones de BizTalk Server accesibles a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="c8a8f-104">Monitoring your BizTalk Server applications and infrastructure on a regular basis and resolving any issues that you find helps to keep your BizTalk Server applications accessible to your users.</span></span> <span data-ttu-id="c8a8f-105">El objetivo de la supervisión es tratar de minimizar la cantidad de tiempo que permanece una excepción sin detectar y, por lo tanto, sin resolver.</span><span class="sxs-lookup"><span data-stu-id="c8a8f-105">The goal of monitoring is to minimize the amount of time that an exception goes undetected and, therefore, unresolved.</span></span> <span data-ttu-id="c8a8f-106">Además, puede usar la supervisión para que le ayude a detectar situaciones que puedan causar una excepción.</span><span class="sxs-lookup"><span data-stu-id="c8a8f-106">Additionally, you can use monitoring to help detect situations that might cause an exception.</span></span>  

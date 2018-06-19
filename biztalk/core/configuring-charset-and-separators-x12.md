@@ -1,14 +1,14 @@
 ---
-title: "Configuración de juego de caracteres y separadores (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de juego de caracteres y separadores (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6249f2e1-70b0-4960-bbc4-0c3fefd26faa
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234500"
 ---
 # <a name="configuring-charset-and-separators-x12"></a><span data-ttu-id="9d716-102">Configuración de juego de caracteres y separadores (X12)</span><span class="sxs-lookup"><span data-stu-id="9d716-102">Configuring Charset and Separators (X12)</span></span>
 <span data-ttu-id="9d716-103">En el acuerdo de socios comerciales, puede especificar el juego de caracteres que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará para validar las propiedades de entidad al crear el sobre para un mensaje X12 saliente.</span><span class="sxs-lookup"><span data-stu-id="9d716-103">In the partner agreement, you can specify the character set that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing X12 message.</span></span> <span data-ttu-id="9d716-104">También puede especificar los separadores y terminadores que se usarán para los segmentos del intercambio.</span><span class="sxs-lookup"><span data-stu-id="9d716-104">You can also specify what separators and terminators will be used for the segments in the interchange.</span></span>  

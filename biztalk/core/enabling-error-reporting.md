@@ -1,14 +1,14 @@
 ---
 title: Habilitar informes de errores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1131bbd5-7ab3-4422-b6df-747c722f0b2c
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241252"
 ---
 # <a name="enabling-error-reporting"></a><span data-ttu-id="3369c-102">Habilitar informes de errores</span><span class="sxs-lookup"><span data-stu-id="3369c-102">Enabling Error Reporting</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="3369c-103"> le permite seleccionar la opción de si visualizar las advertencias y errores solucionados en el visor de eventos de Windows.</span><span class="sxs-lookup"><span data-stu-id="3369c-103"> enables you to select whether you want to display enhanced errors and warnings in the Windows Event Viewer.</span></span>  

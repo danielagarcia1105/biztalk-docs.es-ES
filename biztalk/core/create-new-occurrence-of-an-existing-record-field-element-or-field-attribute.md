@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear una nueva instancia de un registro existente, el elemento de campo o el nodo de atributo de campo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear una nueva instancia de un registro existente, el elemento de campo o el nodo de atributo de campo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02380f68-056c-47c4-a0d6-61d599a4685d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238180"
 ---
 # <a name="how-to-create-a-new-occurrence-of-an-existing-record-field-element-or-field-attribute-node"></a><span data-ttu-id="b5dfc-102">Cómo crear una nueva instancia de un registro existente, el elemento de campo o el nodo de atributo de campo</span><span class="sxs-lookup"><span data-stu-id="b5dfc-102">How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node</span></span>
 <span data-ttu-id="b5dfc-103">Puede crear nuevas instancias de un miembro de **registro**, **elemento de campo**, o **atributo de campo** nodo tal que las modificaciones siguientes en cualquier instancia se reflejan en todos los instancias.</span><span class="sxs-lookup"><span data-stu-id="b5dfc-103">You can create new instances of an existing **Record**, **Field Element**, or **Field Attribute** node such that subsequent modifications to any instance are reflected in all instances.</span></span>  

@@ -1,18 +1,18 @@
 ---
 title: Identificar las posibles amenazas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - planning, security
 - security, potential threats
 - security, planning
 ms.assetid: 1d70a0c1-6daf-47bb-af15-a4b35a7bafc2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,9 +21,10 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257500"
 ---
 # <a name="identifying-potential-threats"></a><span data-ttu-id="fa8d5-102">Identificar las posibles amenazas</span><span class="sxs-lookup"><span data-stu-id="fa8d5-102">Identifying Potential Threats</span></span>
-<span data-ttu-id="fa8d5-103">Puede utilizar el modelo STRIDE para identificar posibles amenazas para la implementación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="fa8d5-103">You can use the STRIDE model to identify potential threats to your BizTalk Server deployment.</span></span> <span data-ttu-id="fa8d5-104">STRIDE es un acrónimo derivado de las siguientes categorías: *S*identidad poofing, *T*lteración con datos, *R*epudiation, *I* revelación de información, *d.*denegación de servicio y elevación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="fa8d5-104">STRIDE is an acronym derived from the following categories: *S*poofing identity, *T*ampering with data, *R*epudiation, *I*nformation disclosure, *D*enial of service, and Elevation of privileges.</span></span> <span data-ttu-id="fa8d5-105">Esta sección contiene ejemplo de posibles amenazas para el entorno de BizTalk Server y mecanismos para mitigarlas.</span><span class="sxs-lookup"><span data-stu-id="fa8d5-105">This section contains examples of potential threats to a BizTalk Server environment, and mechanisms to mitigate them.</span></span>  
+<span data-ttu-id="fa8d5-103">Puede utilizar el modelo STRIDE para identificar posibles amenazas para la implementación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="fa8d5-103">You can use the STRIDE model to identify potential threats to your BizTalk Server deployment.</span></span> <span data-ttu-id="fa8d5-104">STRIDE es un acrónimo derivado de las siguientes categorías: *S*identidad poofing, *T*lteración con datos, *R*epudiation, *I* revelación de información, *d.* denegación de servicio y elevación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="fa8d5-104">STRIDE is an acronym derived from the following categories: *S*poofing identity, *T*ampering with data, *R*epudiation, *I*nformation disclosure, *D*enial of service, and Elevation of privileges.</span></span> <span data-ttu-id="fa8d5-105">Esta sección contiene ejemplo de posibles amenazas para el entorno de BizTalk Server y mecanismos para mitigarlas.</span><span class="sxs-lookup"><span data-stu-id="fa8d5-105">This section contains examples of potential threats to a BizTalk Server environment, and mechanisms to mitigate them.</span></span>  
   
  <span data-ttu-id="fa8d5-106">**Suplantación de identidad**</span><span class="sxs-lookup"><span data-stu-id="fa8d5-106">**Spoofing identity**</span></span>  
   

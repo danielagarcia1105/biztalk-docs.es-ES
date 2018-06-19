@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar el comportamiento del Interceptor BAM al archivo Machine.config | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar el comportamiento del Interceptor BAM al archivo Machine.config | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2ea09925-264f-4976-8e34-f63bad70f886
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248828"
 ---
 # <a name="how-to-add-the-bam-interceptor-behavior-to-the-machineconfig-file"></a><span data-ttu-id="cddda-102">Cómo agregar el comportamiento del interceptor de BAM al archivo Machine.config.</span><span class="sxs-lookup"><span data-stu-id="cddda-102">How to Add the BAM Interceptor Behavior to the Machine.config File</span></span>
 <span data-ttu-id="cddda-103">Para interceptar datos en BAM, debe agregar el comportamiento del interceptor de BAM al archivo machine.config de Microsoft .NET.</span><span class="sxs-lookup"><span data-stu-id="cddda-103">To intercept data in BAM, you must add the BAM interceptor behavior to the Microsoft .NET machine.config file.</span></span> <span data-ttu-id="cddda-104">Hay dos maneras de hacerlo:</span><span class="sxs-lookup"><span data-stu-id="cddda-104">You can do this in two ways:</span></span>  

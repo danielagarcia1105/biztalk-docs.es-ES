@@ -1,14 +1,14 @@
 ---
-title: "Error de serialización Xml de intercambio EDIFACT debido a la estructura no válida, sin transactionSet o UNE | Documentos de Microsoft"
-ms.custom: 
+title: Error de serialización Xml de intercambio EDIFACT debido a la estructura no válida, sin transactionSet o UNE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3ce1c219-f2ed-46c1-ae4b-8a4206f7cd01
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241732"
 ---
 # <a name="edifact-interchange-xml-serialization-failed-due-to-invalid-structure-no-transactionset-or-une"></a><span data-ttu-id="22596-102">Error de serialización Xml de intercambio Edifact debido a una estructura no válida, sin TransactionSet o UNE</span><span class="sxs-lookup"><span data-stu-id="22596-102">Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE</span></span>
 ## <a name="details"></a><span data-ttu-id="22596-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="22596-103">Details</span></span>  

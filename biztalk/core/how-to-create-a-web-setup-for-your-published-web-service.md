@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear un programa de instalación de Web para el servicio Web publicado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un programa de instalación de Web para el servicio Web publicado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, Web services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Web services, .msi file
 - .msi files, Web services
 ms.assetid: 77c86242-1d27-4d99-ae00-fe2614bc13ef
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249684"
 ---
 # <a name="how-to-create-a-web-setup-for-your-published-web-service"></a><span data-ttu-id="78143-102">Cómo crear una configuración Web para el servicio Web publicado</span><span class="sxs-lookup"><span data-stu-id="78143-102">How to Create a Web Setup for Your Published Web Service</span></span>
 <span data-ttu-id="78143-103">Puede crear un paquete de instalación para facilitar la configuración del servicio Web en un entorno de producción.</span><span class="sxs-lookup"><span data-stu-id="78143-103">You can create an installation package to facilitate setting up your Web service in a production environment.</span></span> <span data-ttu-id="78143-104">Esto produce un archivo .MSI.</span><span class="sxs-lookup"><span data-stu-id="78143-104">This produces an .MSI file.</span></span>  

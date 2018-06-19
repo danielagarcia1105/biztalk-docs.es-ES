@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233324"
 ---
 # <a name="configuring-as2-pipeline-properties"></a><span data-ttu-id="3d00a-102">Configurar propiedades de canalización de AS2</span><span class="sxs-lookup"><span data-stu-id="3d00a-102">Configuring AS2 Pipeline Properties</span></span>
 <span data-ttu-id="3d00a-103">Las propiedades de canalización se usan en el proceso de mensajes AS2 entrantes y salientes cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha podido determinar el acuerdo que resuelve el intercambio de envío o recepción.</span><span class="sxs-lookup"><span data-stu-id="3d00a-103">Pipeline properties are used in processing an incoming or outgoing AS2 message when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has not been able to determine the agreement that resolves to the sent or received interchange.</span></span>  

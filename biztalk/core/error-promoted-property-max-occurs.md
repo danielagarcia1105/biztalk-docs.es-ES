@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239868"
 ---
 # <a name="error---promoted-property-max-occurs"></a><span data-ttu-id="474ca-102">Error: número máximo de coincidencias de propiedad promocionada se produce</span><span class="sxs-lookup"><span data-stu-id="474ca-102">Error - Promoted Property Max Occurs</span></span>
 <span data-ttu-id="474ca-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="474ca-103">**Error Code**</span></span>  

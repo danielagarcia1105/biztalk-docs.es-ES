@@ -1,14 +1,14 @@
 ---
-title: "Cómo diagnosticar problemas con el adaptador de FTP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo diagnosticar problemas con el adaptador de FTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 499d23d3-b705-4527-9929-147be157e6b3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248772"
 ---
 # <a name="how-to-diagnose-problems-with-the-ftp-adapter"></a><span data-ttu-id="4ecfa-102">Cómo diagnosticar problemas con el adaptador de FTP</span><span class="sxs-lookup"><span data-stu-id="4ecfa-102">How to Diagnose Problems with the FTP Adapter</span></span>
 <span data-ttu-id="4ecfa-103">Esta sección contiene los pasos que pueden seguirse para ayudar al diagnóstico de problemas con el adaptador de FTP.</span><span class="sxs-lookup"><span data-stu-id="4ecfa-103">This section contains steps that can be followed to help diagnose problems with the FTP adapter.</span></span>  

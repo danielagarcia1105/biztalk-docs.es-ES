@@ -1,18 +1,18 @@
 ---
-title: "Cómo cambiar el nombre de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el nombre de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - naming conventions, renaming
 - naming conventions, applications
 - applications, renaming
 ms.assetid: ae59c792-44bd-43e0-a4ae-e67bcad2e128
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248196"
 ---
 # <a name="how-to-change-the-name-of-an-application"></a><span data-ttu-id="a4376-102">Cómo cambiar el nombre de una aplicación</span><span class="sxs-lookup"><span data-stu-id="a4376-102">How to Change the Name of an Application</span></span>
 <span data-ttu-id="a4376-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para cambiar el nombre de una aplicación.</span><span class="sxs-lookup"><span data-stu-id="a4376-103">This topic describes how to use the BizTalk Server Administration console to change the name of an application.</span></span> <span data-ttu-id="a4376-104">Es preciso que el nombre de la aplicación que usa no exista en el grupo.</span><span class="sxs-lookup"><span data-stu-id="a4376-104">The application name that you use cannot already exist in the group.</span></span>  

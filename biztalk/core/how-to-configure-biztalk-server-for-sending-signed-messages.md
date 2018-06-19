@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar el servidor BizTalk Server para enviar mensajes firmados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el servidor BizTalk Server para enviar mensajes firmados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be86fbb3-de80-4d9f-bcf0-c61347704229
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249028"
 ---
 # <a name="how-to-configure-biztalk-server-for-sending-signed-messages"></a><span data-ttu-id="e6049-102">Cómo configurar BizTalk Server para el envío de mensajes firmados</span><span class="sxs-lookup"><span data-stu-id="e6049-102">How to Configure BizTalk Server for Sending Signed Messages</span></span>
 <span data-ttu-id="e6049-103">El procedimiento siguiente indica los pasos que debe seguir para configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que envíe mensajes firmados.</span><span class="sxs-lookup"><span data-stu-id="e6049-103">The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send signed messages.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Configuración de sobres (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de sobres (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec140def-6155-4b8a-8489-6e0a530bd697
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234636"
 ---
 # <a name="configuring-envelopes-edifact-transaction-set-settings"></a><span data-ttu-id="520a7-102">Configuración de sobres (configuración del conjunto de transacciones EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="520a7-102">Configuring Envelopes (EDIFACT-Transaction Set Settings)</span></span>
 <span data-ttu-id="520a7-103">En el **sobres** página de la **configuración del conjunto de transacciones** sección, defina cómo BizTalk Server genera los segmentos UNG y UNH para un intercambio con codificación EDIFACT que envía a la entidad.</span><span class="sxs-lookup"><span data-stu-id="520a7-103">In the **Envelopes** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the UNG and UNH segments for an EDIFACT-encoded interchange that it sends to the party.</span></span>  

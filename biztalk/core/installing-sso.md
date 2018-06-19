@@ -1,17 +1,17 @@
 ---
 title: Instalar SSO | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, SSO
 - SSO, installing
 ms.assetid: eaf1cab7-e190-40a4-8272-cbdaafa53cf2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257076"
 ---
 # <a name="installing-sso"></a><span data-ttu-id="9d6be-102">Instalación de SSO</span><span class="sxs-lookup"><span data-stu-id="9d6be-102">Installing SSO</span></span>
 <span data-ttu-id="9d6be-103">Las secciones siguientes contienen información relativa a la instalación de la característica de inicio de sesión único (SSO) empresarial.</span><span class="sxs-lookup"><span data-stu-id="9d6be-103">The following sections contain information regarding installation of the Enterprise Single Sign-On feature.</span></span> <span data-ttu-id="9d6be-104">Debido a la compleja relación que hay entre SSO y otras características y sistemas, y dada su importancia para la seguridad del sistema, es conveniente que lea detenidamente esta sección antes de proceder a la instalación de inicio de sesión único (SSO) empresarial.</span><span class="sxs-lookup"><span data-stu-id="9d6be-104">Because of the complex relationships between SSO and other features and systems, and because of its importance to system security, you should read this section carefully before installing Enterprise Single Sign-On.</span></span>  

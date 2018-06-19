@@ -1,11 +1,11 @@
 ---
 title: Construir mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - modifying, messages
 - messages, creating
 ms.assetid: c9fc1e97-ff53-42e2-848c-6c8fae7c9122
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237820"
 ---
 # <a name="constructing-messages"></a><span data-ttu-id="fcd07-102">Construir mensajes</span><span class="sxs-lookup"><span data-stu-id="fcd07-102">Constructing Messages</span></span>
 <span data-ttu-id="fcd07-103">Construya un mensaje en el momento en que escriba un mensaje en la orquestación, mediante la recepción o asignación de valores a una variable de mensaje.</span><span class="sxs-lookup"><span data-stu-id="fcd07-103">You construct a message any time that you introduce a message into your orchestration, either by receiving it or by assigning values to a message variable.</span></span> <span data-ttu-id="fcd07-104">Cualquier mensaje que construya debe tener un tipo de mensaje, de modo que el motor de tiempo de ejecución tenga una descripción completa del objeto con el que se está trabajando.</span><span class="sxs-lookup"><span data-stu-id="fcd07-104">Any message that you construct must have a message type, so that the runtime engine has a complete description of the object that it is working with.</span></span> <span data-ttu-id="fcd07-105">El tipo de mensajes de varias partes puede estar definido por el usuario; puede ser una clase .NET o un esquema.</span><span class="sxs-lookup"><span data-stu-id="fcd07-105">The multi-part message type can be user-defined, it can be a .NET class, or it can be a schema.</span></span> <span data-ttu-id="fcd07-106">Puede construir mensajes de varias formas: puede invocar una clase .NET para crear un mensaje, asignar un mensaje a otro o usar una transformación para asignar determinados valores dentro de un mensaje a valores dentro de otro mensaje.</span><span class="sxs-lookup"><span data-stu-id="fcd07-106">You can construct messages in various ways: you can invoke a .NET class to create a message, assign one message to another, or use a transform to map certain values within a message to values within another message.</span></span> <span data-ttu-id="fcd07-107">Los mensajes también se construyen mediante una acción de recepción o cuando la orquestación acepta un mensaje como parámetro.</span><span class="sxs-lookup"><span data-stu-id="fcd07-107">Messages are also constructed by a receive action or when your orchestration accepts a message as a parameter.</span></span>  

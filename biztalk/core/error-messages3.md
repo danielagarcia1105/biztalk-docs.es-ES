@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241780"
 ---
 # <a name="error-messages"></a><span data-ttu-id="5c59c-102">mensajes de error</span><span class="sxs-lookup"><span data-stu-id="5c59c-102">Error Messages</span></span>
 <span data-ttu-id="5c59c-103">En la tabla siguiente se enumeran mensajes de error de las interfaces de componentes del sistema PeopleSoft Enterprise, sus descripciones y posibles correcciones.</span><span class="sxs-lookup"><span data-stu-id="5c59c-103">The following table lists error messages in the PeopleSoft Enterprise system's component interfaces, their descriptions, and possible corrections.</span></span>  

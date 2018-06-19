@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240812"
 ---
 # <a name="error---unspecified-fatal-error"></a><span data-ttu-id="0432e-102">Error: Error grave no especificado</span><span class="sxs-lookup"><span data-stu-id="0432e-102">Error - Unspecified Fatal Error</span></span>
 <span data-ttu-id="0432e-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="0432e-103">**Error Code**</span></span>  

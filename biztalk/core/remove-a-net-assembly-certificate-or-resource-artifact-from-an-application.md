@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar un ensamblado. NET, certificado ni ningún otro artefacto de recurso de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar un ensamblado. NET, certificado ni ningún otro artefacto de recurso de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - virtual directories, deleting
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - deleting, artifacts
 - deleting, certificates
 ms.assetid: b84eebac-261d-495f-80cd-ddda5bb08bef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008317"
 ---
 # <a name="how-to-remove-a-net-assembly-certificate-or-other-resource-artifact-from-an-application"></a><span data-ttu-id="e165a-102">Cómo quitar un ensamblado .NET, certificado u otro artefacto de recurso de una aplicación</span><span class="sxs-lookup"><span data-stu-id="e165a-102">How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application</span></span>
 <span data-ttu-id="e165a-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para quitar los siguientes artefactos de recurso de una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="e165a-103">This topic describes how to use the BizTalk Server Administration console or the command line to remove the following resource artifacts from a BizTalk application.</span></span> <span data-ttu-id="e165a-104">Siga los procedimientos que se describen en este tema para quitar el artefacto de la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="e165a-104">Using the procedures in this topic removes the artifact from the BizTalk Management database.</span></span> <span data-ttu-id="e165a-105">No quita los artefactos del sistema de archivos, almacén de certificados, de Internet Information Services (IIS) o del Registro de Windows, si se encuentra en alguna de estas ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="e165a-105">It does not remove the artifact from the file system, certificate store, Internet Information Services (IIS), or the Windows registry, if it exists in any of these locations.</span></span> <span data-ttu-id="e165a-106">Además, si quita un archivo de enlace, los enlaces permanecen sin cambios; solo se quita el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="e165a-106">In addition, if you remove a binding file, the bindings remain unchanged – only the binding file is removed.</span></span>  

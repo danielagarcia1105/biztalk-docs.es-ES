@@ -1,11 +1,11 @@
 ---
-title: "Cómo dar de baja un puerto de envío o grupo de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo dar de baja un puerto de envío o grupo de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - unenlisting, send port groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - unenlisting, send ports
 - send ports, unenlisting
 ms.assetid: 3185adad-2efa-4abd-a532-77ae6c7b4c1d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256676"
 ---
 # <a name="how-to-unenlist-a-send-port-or-send-port-group"></a><span data-ttu-id="29b65-102">Cómo dar de baja un puerto de envío o un grupo de puertos de envío</span><span class="sxs-lookup"><span data-stu-id="29b65-102">How to Unenlist a Send Port or Send Port Group</span></span>
 <span data-ttu-id="29b65-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para dar de baja un puerto de envío o un grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="29b65-103">This topic describes how to use the BizTalk Server Administration console to unenlist a send port or send port group.</span></span> <span data-ttu-id="29b65-104">Al dar de baja un puerto de envío o un grupo de puertos de envío, se eliminan todas las suscripciones asociadas con el puerto de envío o con el grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="29b65-104">Unenlisting a send port or send port group eliminates all subscriptions associated with that send port or send port group.</span></span> <span data-ttu-id="29b65-105">Es posible dar de baja los grupos de puertos de envío o los puertos de envío que estén detenidos o en ejecución.</span><span class="sxs-lookup"><span data-stu-id="29b65-105">You can unenlist both running and stopped send ports or send port groups.</span></span> <span data-ttu-id="29b65-106">Al dar de baja un puerto de envío o un grupo de puertos de envío, éstos se detienen.</span><span class="sxs-lookup"><span data-stu-id="29b65-106">Unenlisting a send port or send port group automatically stops it.</span></span>  

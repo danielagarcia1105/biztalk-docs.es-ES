@@ -1,14 +1,14 @@
 ---
-title: "Cómo administrar otras ventanas de Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar otras ventanas de Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b86f50e2-ca25-4521-b31a-06ac16f129b1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254444"
 ---
 # <a name="how-to-manage-other-visual-studio-windows"></a><span data-ttu-id="fa006-102">Cómo administrar otras ventanas de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="fa006-102">How to Manage Other Visual Studio Windows</span></span>
 <span data-ttu-id="fa006-103">Algunas operaciones del Editor de BizTalk utilizan otras ventanas de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], a saber, las ventanas Resultados y Lista de tareas.</span><span class="sxs-lookup"><span data-stu-id="fa006-103">Certain operations in BizTalk Editor use other Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] windows, namely the Output window and the Task List window.</span></span> <span data-ttu-id="fa006-104">Estas ventanas sirven para mostrar los resultados de operaciones, como generar mensajes de instancia de ejemplo y validar esquemas e instancias.</span><span class="sxs-lookup"><span data-stu-id="fa006-104">These windows are used to display output from operations, such as generating sample instance messages and validating schemas and instances.</span></span> <span data-ttu-id="fa006-105">Este tema proporciona instrucciones paso a paso acerca de cómo administrar estas ventanas.</span><span class="sxs-lookup"><span data-stu-id="fa006-105">This topic provides step-by-step instructions about managing these windows.</span></span>  

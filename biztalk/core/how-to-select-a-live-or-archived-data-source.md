@@ -1,11 +1,11 @@
 ---
-title: "Cómo seleccionar un origen de datos activos o archivados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo seleccionar un origen de datos activos o archivados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Management database, archived data
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - real-time data, Management database
 - archived data, HAT
 ms.assetid: e2325823-22e1-4a1a-865b-15757b215b29
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255292"
 ---
 # <a name="how-to-select-a-live-or-archived-data-source"></a><span data-ttu-id="e7ebd-102">Cómo seleccionar un origen de datos activo o archivado</span><span class="sxs-lookup"><span data-stu-id="e7ebd-102">How to Select a Live or Archived Data Source</span></span>
 <span data-ttu-id="e7ebd-103">BizTalktracking permite obtener acceso a los datos archivados y dinámicos.</span><span class="sxs-lookup"><span data-stu-id="e7ebd-103">BizTalktracking enables you to access both archived and live data.</span></span> <span data-ttu-id="e7ebd-104">Seleccione un origen de datos activos o archivados en la página principal **administración de BizTalk Server** nodo consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="e7ebd-104">You select a live or archived data source from the main **BizTalk Server Administration** node BizTalk Server Administration Console.</span></span>  <span data-ttu-id="e7ebd-105">El origen predeterminado son los datos activos, que se recuperan de la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="e7ebd-105">The default source is live data, retrieved from the BizTalk Management database.</span></span> <span data-ttu-id="e7ebd-106">Si decide utilizar datos archivados, deberá seleccionar los servidores y bases de datos apropiados con los que desee trabajar.</span><span class="sxs-lookup"><span data-stu-id="e7ebd-106">If you choose to work with archived data, you must select the appropriate server/s and database/s with which to work.</span></span>  

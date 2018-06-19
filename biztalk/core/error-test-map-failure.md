@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241628"
 ---
 # <a name="error---test-map-failure"></a><span data-ttu-id="4d2f0-102">Error: error de asignación de prueba</span><span class="sxs-lookup"><span data-stu-id="4d2f0-102">Error - Test Map Failure</span></span>
 <span data-ttu-id="4d2f0-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="4d2f0-103">**Error Code**</span></span>  

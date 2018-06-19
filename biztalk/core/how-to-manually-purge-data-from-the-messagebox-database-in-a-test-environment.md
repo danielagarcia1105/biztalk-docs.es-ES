@@ -1,14 +1,14 @@
 ---
-title: "Cómo purgar datos manualmente desde la base de datos de cuadro de mensajes en un entorno de prueba | Documentos de Microsoft"
-ms.custom: 
+title: Cómo purgar datos manualmente desde la base de datos de cuadro de mensajes en un entorno de prueba | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 398991a9-344a-487a-a817-dfc97d48ebe6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254060"
 ---
 # <a name="how-to-manually-purge-data-from-the-messagebox-database-in-a-test-environment"></a><span data-ttu-id="92c9e-102">Purga manual de datos de la base de datos de cuadro de mensaje en un entorno de prueba</span><span class="sxs-lookup"><span data-stu-id="92c9e-102">How to Manually Purge Data from the MessageBox Database in a Test Environment</span></span>
 <span data-ttu-id="92c9e-103">Al ejecutar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno de desarrollo o prueba, los datos almacenados en la base de datos de cuadro de mensajes no son normalmente datos económicos importantes "activos", por lo cual pueden eliminarse.</span><span class="sxs-lookup"><span data-stu-id="92c9e-103">When running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a development or test environment, data that is stored in the MessageBox database is not usually business critical "live" data and therefore may be deleted.</span></span> <span data-ttu-id="92c9e-104">En estos casos, es posible que necesite un método "rápido y sucio" para depurar datos desde la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="92c9e-104">In these scenarios, you may need a "quick and dirty" method for purging data from the MessageBox database.</span></span> <span data-ttu-id="92c9e-105">Siga los procedimientos de este tema para depurar datos manualmente desde la base de datos de cuadro de mensajes usando el procedimiento almacenado bts_CleanupMsgbox.</span><span class="sxs-lookup"><span data-stu-id="92c9e-105">Follow the procedures in this topic to manually purge data from the MessageBox database using the bts_CleanupMsgbox stored procedure.</span></span>  

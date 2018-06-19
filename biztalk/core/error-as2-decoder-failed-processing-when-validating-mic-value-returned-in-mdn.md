@@ -1,14 +1,14 @@
 ---
 title: El descodificador AS2 no pudo procesar al validar el valor MIC devuelto en MDN | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3fe2d76d-b0f1-4118-8483-547c2c9fffb7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241340"
 ---
 # <a name="the-as2-decoder-failed-processing-when-validating-the-mic-value-returned-in-the-mdn"></a><span data-ttu-id="142e6-102">Error de procesamiento de descodificador AS2 al validar el valor MIC devuelto en MDN</span><span class="sxs-lookup"><span data-stu-id="142e6-102">The AS2 Decoder failed processing when validating the MIC value returned in the MDN</span></span>
 ## <a name="details"></a><span data-ttu-id="142e6-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="142e6-103">Details</span></span>  

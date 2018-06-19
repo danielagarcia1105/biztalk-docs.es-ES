@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un certificado a una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un certificado a una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, certificates
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [certificates], applications
 - managing [resources], certificates
 ms.assetid: 7c615002-6627-4134-9c2b-bf1c89d626c2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248180"
 ---
 # <a name="how-to-add-a-certificate-to-an-application"></a><span data-ttu-id="b7fdd-102">Cómo agregar un certificado a una aplicación</span><span class="sxs-lookup"><span data-stu-id="b7fdd-102">How to Add a Certificate to an Application</span></span>
 <span data-ttu-id="b7fdd-103">En este tema se describe cómo utilizar la línea de comandos para agregar un certificado a una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b7fdd-103">This topic describes how to use the command line to add a certificate to a BizTalk application.</span></span> <span data-ttu-id="b7fdd-104">Esta opción no está disponible en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b7fdd-104">This option is not available in the BizTalk Server Administration console.</span></span> <span data-ttu-id="b7fdd-105">Puede agregar un certificado a una aplicación de BizTalk, de modo que pueda transportar el certificado de un grupo de BizTalk a otro, empaquetado con una aplicación.</span><span class="sxs-lookup"><span data-stu-id="b7fdd-105">You add a certificate to a BizTalk application so that you can transport the certificate from one BizTalk group to another, packaged with an application.</span></span> <span data-ttu-id="b7fdd-106">Puede usar certificados para comprobar identidades y establecer vínculos seguros para los puertos de envío y las ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="b7fdd-106">You use certificates to verify identities and to establish secure links for send ports and receive locations.</span></span> <span data-ttu-id="b7fdd-107">Para obtener más información, consulte [cómo asignar un certificado a un puerto de envío](../core/how-to-assign-a-certificate-to-a-send-port.md) y [cómo asignar un certificado a una ubicación de recepción](../core/how-to-assign-a-certificate-to-a-receive-location.md).</span><span class="sxs-lookup"><span data-stu-id="b7fdd-107">For more information, see [How to Assign a Certificate to a Send Port](../core/how-to-assign-a-certificate-to-a-send-port.md) and [How to Assign a Certificate to a Receive Location](../core/how-to-assign-a-certificate-to-a-receive-location.md).</span></span>  

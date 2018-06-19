@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear una asignación sin asignaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear una asignación sin asignaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 520ec44f-5aca-4271-8835-b8e784214061
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248796"
 ---
 # <a name="how-to-create-a-map-without-maps"></a><span data-ttu-id="9fb33-102">Cómo crear una asignación sin asignaciones</span><span class="sxs-lookup"><span data-stu-id="9fb33-102">How to Create a Map without Maps</span></span>
 <span data-ttu-id="9fb33-103">Si dispone de código XSLT que ha estado utilizando para convertir mensajes de instancia, puede utilizar este código directamente en vez de crear una asignación.</span><span class="sxs-lookup"><span data-stu-id="9fb33-103">If you have XSLT code you have been using to convert instance messages, you can use that code directly instead of creating a map.</span></span>  

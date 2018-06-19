@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con SSO para adaptadores de envío | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con SSO para adaptadores de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 45dc2597-0036-4444-8b35-d18621b003d8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278436"
 ---
 # <a name="sso-support-for-send-adapters"></a><span data-ttu-id="5f1c8-102">Compatibilidad de SSO para adaptadores de envío</span><span class="sxs-lookup"><span data-stu-id="5f1c8-102">SSO Support for Send Adapters</span></span>
 <span data-ttu-id="5f1c8-103">El inicio de sesión único (SSO) empresarial proporciona servicios para almacenar y transmitir credenciales de usuario cifradas a través de los límites locales, de red y de dominio.</span><span class="sxs-lookup"><span data-stu-id="5f1c8-103">Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local, network, and domain boundaries.</span></span> <span data-ttu-id="5f1c8-104">Cuando crea un adaptador de transporte, puede aprovechar las API de SSO para controlar las credenciales de usuario que un adaptador de transporte usa para tener acceso a las aplicaciones servidor.</span><span class="sxs-lookup"><span data-stu-id="5f1c8-104">When you create a transport adapter, you can leverage SSO APIs to handle the user credentials that a transport adapter uses to access back-end applications.</span></span>  

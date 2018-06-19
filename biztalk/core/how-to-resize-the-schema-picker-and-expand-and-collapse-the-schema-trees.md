@@ -1,14 +1,14 @@
 ---
-title: "Cómo cambiar el tamaño del selector de esquema y expandir y contraer los árboles de esquema | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el tamaño del selector de esquema y expandir y contraer los árboles de esquema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 267ea17d-54fe-4031-a044-719606489f24
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254820"
 ---
 # <a name="how-to-resize-the-schema-picker-and-expand-and-collapse-the-schema-trees"></a><span data-ttu-id="169ab-102">Cómo cambiar el tamaño del selector de esquema y expandir y contraer los árboles de esquema</span><span class="sxs-lookup"><span data-stu-id="169ab-102">How to resize the schema picker, and expand and collapse the schema trees</span></span>
 <span data-ttu-id="169ab-103">Al desarrollar asignaciones de BizTalk, es probable que necesite expandir y contraer los árboles de esquema de origen y de destino para mostrar u ocultar los diversos nodos de esquema.</span><span class="sxs-lookup"><span data-stu-id="169ab-103">When developing BizTalk maps, you are likely to need to expand and collapse the source and destination schema trees to expose or to hide the various schema nodes.</span></span> <span data-ttu-id="169ab-104">Este tema proporciona instrucciones paso a paso para cambiar el tamaño del selector de esquema y para expandir y contraer el árbol de esquema.</span><span class="sxs-lookup"><span data-stu-id="169ab-104">This topic provides step-by-step instructions to resize the schema picker, and to expand and collapse the schema tree.</span></span>  

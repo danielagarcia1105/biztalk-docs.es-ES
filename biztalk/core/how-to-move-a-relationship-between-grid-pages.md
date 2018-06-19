@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255092"
 ---
 # <a name="how-to-move-a-relationship-between-grid-pages"></a><span data-ttu-id="e9d53-102">Mover una relación entre las páginas de cuadrícula</span><span class="sxs-lookup"><span data-stu-id="e9d53-102">How to Move a Relationship Between Grid Pages</span></span>
 <span data-ttu-id="e9d53-103">Las asignaciones grandes incluyen numerosos conjuntos de functoids y vínculos, por lo cual pueden perjudicarle la identificación de los vínculos que unen varios functoids.</span><span class="sxs-lookup"><span data-stu-id="e9d53-103">Large maps include many sets of functoids and links, which can make it difficult for you to identify the links joining multiple functoids.</span></span> <span data-ttu-id="e9d53-104">En tal caso, es posible que desee mover un conjunto similar de functoids y vínculos a una página de cuadrícula diferente para que la asignación resulte más legible.</span><span class="sxs-lookup"><span data-stu-id="e9d53-104">In such a scenario, you might want to move a similar set of functoids and links to a different grid page to make the map more readable.</span></span> <span data-ttu-id="e9d53-105">En este tema se proporcionan instrucciones detalladas para realizar la operación.</span><span class="sxs-lookup"><span data-stu-id="e9d53-105">This topic provides step-by-step instructions to perform the operation.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
 3.  <span data-ttu-id="e9d53-124">En el **moverse a la página** cuadro de diálogo, seleccione la página de cuadrícula de destino al que desea mover la relación y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e9d53-124">In the **Move to Page** dialog box, select the target grid page to which you want to move the relationship, and then click **OK**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="e9d53-125">También puede crear una nueva página seleccionando  **\*(Agregar nueva página)**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e9d53-125">You can also create a new page by selecting **\*(add new page)**, and then clicking **OK**.</span></span>  
+    >  <span data-ttu-id="e9d53-125">También puede crear una nueva página seleccionando  **\*(Agregar nueva página)** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e9d53-125">You can also create a new page by selecting **\*(add new page)**, and then clicking **OK**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="e9d53-126">Como alternativa, puede presionar CTRL+M, CTRL+A para agregar una nueva página de cuadrícula en una asignación.</span><span class="sxs-lookup"><span data-stu-id="e9d53-126">Alternatively, you can press CTRL+M, CTRL+A to add a new grid page in a map.</span></span> <span data-ttu-id="e9d53-127">Para obtener una lista de métodos abreviados del asignador, vea [métodos abreviados de teclado del asignador de BizTalk](../core/biztalk-mapper-keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="e9d53-127">For a list of Mapper shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241924"
 ---
 # <a name="error---schema-root-reference-empty"></a><span data-ttu-id="97e04-102">Error: referencia raíz de esquema vacía</span><span class="sxs-lookup"><span data-stu-id="97e04-102">Error - Schema Root Reference Empty</span></span>
 <span data-ttu-id="97e04-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="97e04-103">**Error Code**</span></span>  

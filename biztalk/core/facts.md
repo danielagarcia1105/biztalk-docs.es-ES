@@ -1,11 +1,11 @@
 ---
 title: Hechos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Engine, facts
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - business rules, facts
 - facts
 ms.assetid: 8f8086e4-fa16-49e8-8191-3d397330937f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245796"
 ---
 # <a name="facts"></a><span data-ttu-id="3b09f-102">Hechos</span><span class="sxs-lookup"><span data-stu-id="3b09f-102">Facts</span></span>
 <span data-ttu-id="3b09f-103">Los hechos son elementos discretos de información acerca del mundo.</span><span class="sxs-lookup"><span data-stu-id="3b09f-103">Facts are discrete pieces of information about the world.</span></span> <span data-ttu-id="3b09f-104">Hechos pueden tener diferentes orígenes (sistemas de eventos, objetos en las aplicaciones empresariales, tablas de base de datos etc.) y se deben incluir en el motor de reglas de negocios en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="3b09f-104">Facts can originate from many sources (event systems, objects in business applications, database tables, and so on), and must be fed into the Business Rule engine in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] by using one of the following elements:</span></span>  

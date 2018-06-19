@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la forma acciones paralelas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma acciones paralelas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Parallel Actions shape [Orchestration Designer], Terminate shape [Orchestration Designer]
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Terminate shape [Orchestration Designer], Parallel Actions shape [Orchestration Designer]
 - Parallel Actions shape [Orchestration Designer], configuring
 ms.assetid: 396d6182-f5dd-4aab-9edc-92efe236fd3e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247804"
 ---
 # <a name="how-to-configure-the-parallel-actions-shape"></a><span data-ttu-id="56d9b-102">Cómo configurar la forma Acciones paralelas</span><span class="sxs-lookup"><span data-stu-id="56d9b-102">How to Configure the Parallel Actions Shape</span></span>
 ![](../core/media/ebiz-orch-paralactions.gif "ebiz_orch_paralactions")  

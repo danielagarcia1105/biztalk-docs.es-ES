@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ad7119b-4e39-43df-9dba-a04382eb6db2
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22246716"
 ---
 # <a name="flat-file-messages-with-delimited-records"></a><span data-ttu-id="ff444-102">Mensajes de archivo sin formato con registros delimitados</span><span class="sxs-lookup"><span data-stu-id="ff444-102">Flat File Messages with Delimited Records</span></span>
 <span data-ttu-id="ff444-103">Los registros delimitados de un mensaje de instancia de archivo sin formato contienen registros o campos individuales (elementos de datos) anidados, separados con un carácter o un conjunto de caracteres predefinido.</span><span class="sxs-lookup"><span data-stu-id="ff444-103">Delimited records within a flat file instance message contain nested records and/or individual fields (items of data) that are separated by a predefined character or set of characters.</span></span> <span data-ttu-id="ff444-104">Los campos se analizan según estos delimitadores de separación.</span><span class="sxs-lookup"><span data-stu-id="ff444-104">The fields are parsed according to these separating delimiters.</span></span> <span data-ttu-id="ff444-105">Por ejemplo, considere los siguientes registros delimitados de un mensaje de instancia de archivo sin formato con dos elementos de línea de un pedido hipotético:</span><span class="sxs-lookup"><span data-stu-id="ff444-105">For example, consider the following delimited records from a flat file instance message, which contain two line items from a hypothetical purchase order:</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240572"
 ---
 # <a name="error---children-of-mass-copy-functoid-generate-code"></a><span data-ttu-id="182bb-102">Error: los elementos secundarios del Functoid de copia masiva generan código</span><span class="sxs-lookup"><span data-stu-id="182bb-102">Error - Children of Mass Copy Functoid Generate Code</span></span>
 <span data-ttu-id="182bb-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="182bb-103">**Error Code**</span></span>  

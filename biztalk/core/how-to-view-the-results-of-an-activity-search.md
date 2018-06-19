@@ -1,11 +1,11 @@
 ---
-title: "Cómo ver los resultados de una búsqueda de actividad | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver los resultados de una búsqueda de actividad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [BAM], activity searches
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - queries [BAM], viewing details
 - Query Builder [BAM portal], viewing results
 ms.assetid: d45cd777-d798-4f3b-ad9a-5121168d7b99
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257732"
 ---
 # <a name="how-to-view-the-results-of-an-activity-search"></a><span data-ttu-id="c1b30-102">Cómo ver los resultados de una búsqueda de actividad</span><span class="sxs-lookup"><span data-stu-id="c1b30-102">How to View the Results of an Activity Search</span></span>
 <span data-ttu-id="c1b30-103">Los usuarios pueden ver los resultados de una consulta haciendo clic en el **Ejecutar consulta** botón en la sección superior del marco de contenido del portal de BAM.</span><span class="sxs-lookup"><span data-stu-id="c1b30-103">Users can view the results of a query by clicking the **Execute Query** button in the upper section of the content frame of the BAM portal.</span></span> <span data-ttu-id="c1b30-104">Los resultados de la consulta se muestran en la **resultados** sección en la parte inferior del marco.</span><span class="sxs-lookup"><span data-stu-id="c1b30-104">The results of the query are displayed in the **Results** section at the bottom of the frame.</span></span>  

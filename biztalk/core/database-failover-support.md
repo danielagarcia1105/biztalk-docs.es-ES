@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad de conmutación por error de la base de datos | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad de conmutación por error de la base de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 09347fdd-2929-4ed9-b0d8-698508663ecd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238636"
 ---
 # <a name="database-failover-support"></a><span data-ttu-id="9b64c-102">Compatibilidad con la conmutación por error de la base de datos</span><span class="sxs-lookup"><span data-stu-id="9b64c-102">Database Failover Support</span></span>
 <span data-ttu-id="9b64c-103">Puede pasar una instancia de la **PolicyFetchErrorHandler** delegado como un parámetro a los constructores sobrecargados de la **directiva** clase.</span><span class="sxs-lookup"><span data-stu-id="9b64c-103">You can pass an instance of the **PolicyFetchErrorHandler** delegate as a parameter to overloaded constructors of the **Policy** class.</span></span> <span data-ttu-id="9b64c-104">Cuando se produce un error al capturar los detalles de la directiva de la base de datos, se invoca la instancia del delegado.</span><span class="sxs-lookup"><span data-stu-id="9b64c-104">When an error occurs while fetching the policy details from the database, the delegate instance is invoked.</span></span> <span data-ttu-id="9b64c-105">También puede usar un bloque try-catch para capturar **capturar** y **RuleStoreCompatibilityException** las excepciones que se producen cuando el motor de reglas no se puede conectar al motor de reglas base de datos.</span><span class="sxs-lookup"><span data-stu-id="9b64c-105">You can also use a try-catch block to trap **RuleStoreConnectionException** and **RuleStoreCompatibilityException** exceptions that are raised when the rule engine fails to connect to the Rule Engine database.</span></span>  

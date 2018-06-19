@@ -1,15 +1,15 @@
 ---
 title: Mover las bases de datos de servidor BizTalk Server | Documentos de Microsoft
 description: Pasos para mover las bases de datos de BizTalk Server a un nuevo servidor, incluidos detener los servicios y con los trabajos de agente SQL Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec302e6d-c89d-4fe7-849f-97b5566e8ba4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254180"
 ---
 # <a name="how-to-move-the-biztalk-server-databases"></a><span data-ttu-id="e5c16-103">Movimiento de bases de datos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e5c16-103">How to Move the BizTalk Server Databases</span></span>
 

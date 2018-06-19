@@ -1,11 +1,11 @@
 ---
-title: "Configurar componentes de canalización nativos | Documentos de Microsoft"
-ms.custom: 
+title: Configurar componentes de canalización nativos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Pipeline Designer, pipeline components
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Pipeline Designer, code sample
 - IPersistPropertyBag interface
 ms.assetid: a3332a60-8cd6-43fa-9ecf-e1e54e71fef7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233180"
 ---
 # <a name="configuring-native-pipeline-components"></a><span data-ttu-id="4be27-102">Configurar componentes de canalización nativos</span><span class="sxs-lookup"><span data-stu-id="4be27-102">Configuring Native Pipeline Components</span></span>
 <span data-ttu-id="4be27-103">Los componentes de canalización pueden exponer sus propiedades personalizadas en tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="4be27-103">Pipeline components can expose their own custom properties at design time.</span></span> <span data-ttu-id="4be27-104">Cualquier propiedad pública definida en el componente se procesará en el Diseñador de canalizaciones siempre que los descriptores de acceso de lectura y escritura para esta propiedad estén implementados.</span><span class="sxs-lookup"><span data-stu-id="4be27-104">Any public property defined in the component will be rendered in Pipeline Designer providing that read and write accessors for that property are implemented.</span></span> <span data-ttu-id="4be27-105">El Diseñador de canalizaciones mostrará las propiedades del componente según su declaración; por ejemplo, si la propiedad se declara como de solo lectura, se mostrará como tal en el Diseñador de canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="4be27-105">Pipeline Designer will display the component properties in accordance with their declaration; for example, if the property is declared as read-only, it will be displayed as such in Pipeline Designer.</span></span>  

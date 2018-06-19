@@ -1,18 +1,18 @@
 ---
-title: "Cómo asignar un certificado a una ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar un certificado a una ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, receive locations
 - receive locations, certificates
 - managing [receive locations], certificates
 ms.assetid: 54ae300e-62c5-480f-a9b7-e5c3457a0f80
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248036"
 ---
 # <a name="how-to-assign-a-certificate-to-a-receive-location"></a><span data-ttu-id="3f442-102">Cómo asignar un certificado a una ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="3f442-102">How to Assign a Certificate to a Receive Location</span></span>
 <span data-ttu-id="3f442-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para asignar un certificado de seguridad a una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="3f442-103">This topic describes how to use the BizTalk Server Administration console to assign a security certificate to a receive location.</span></span> <span data-ttu-id="3f442-104">Este procedimiento sólo debe realizarse en una ubicación de recepción bidireccional.</span><span class="sxs-lookup"><span data-stu-id="3f442-104">You can perform this procedure on a two-way receive location only.</span></span> <span data-ttu-id="3f442-105">El certificado debe existir en el almacén de certificados Otras personas del equipo en el que se ejecuta BizTalk Server o, de lo contrario, no se procesarán los mensajes asociados con esta ubicación de recepción y se registrarán errores.</span><span class="sxs-lookup"><span data-stu-id="3f442-105">The certificate must exist in the Other People certificate store on the computer running BizTalk Server, or messages associated with this receive location will not be processed, and errors will be logged.</span></span>  

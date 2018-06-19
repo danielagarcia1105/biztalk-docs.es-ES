@@ -1,14 +1,14 @@
 ---
-title: "Disposition-Notification-Option no es válido | Documentos de Microsoft"
-ms.custom: 
+title: Disposition-Notification-Option no es válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1b807a8-eec9-45a5-83cc-075c91b4bc9e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239052"
 ---
 # <a name="disposition-notification-option-is-invalid"></a><span data-ttu-id="e2381-102">Disposition-Notification-Option no es válido</span><span class="sxs-lookup"><span data-stu-id="e2381-102">Disposition-Notification-Option is invalid</span></span>
 ## <a name="details"></a><span data-ttu-id="e2381-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="e2381-103">Details</span></span>  

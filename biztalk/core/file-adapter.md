@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247092"
 ---
 # <a name="file-adapter"></a><span data-ttu-id="58ebb-102">adaptador de archivo</span><span class="sxs-lookup"><span data-stu-id="58ebb-102">File Adapter</span></span>
 <span data-ttu-id="58ebb-103">El adaptador de archivo transfiere archivos dentro y fuera de Microsoft BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="58ebb-103">The File adapter transfers files into and out of Microsoft BizTalk Server.</span></span> <span data-ttu-id="58ebb-104">El adaptador de archivo consta de dos adaptadores: un adaptador de recepción y un adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="58ebb-104">The File adapter consists of two adapters — a receive adapter and a send adapter.</span></span>  

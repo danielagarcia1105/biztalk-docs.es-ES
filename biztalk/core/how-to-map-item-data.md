@@ -1,11 +1,11 @@
 ---
-title: "Cómo asignar datos de elemento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar datos de elemento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data extraction
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tracking profiles, orchestrations
 - tracking profiles, data extraction
 ms.assetid: ae8b395e-152a-4e08-af31-3c9276f52711
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253956"
 ---
 # <a name="how-to-map-item-data"></a><span data-ttu-id="9ad7d-102">Cómo asignar datos de elemento</span><span class="sxs-lookup"><span data-stu-id="9ad7d-102">How to Map Item Data</span></span>
 <span data-ttu-id="9ad7d-103">Los datos de elemento se asignan para definir la extracción de datos de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="9ad7d-103">You map item data to define the data extraction from an orchestration.</span></span>  

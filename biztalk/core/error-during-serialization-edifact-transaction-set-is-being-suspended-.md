@@ -1,15 +1,15 @@
 ---
 title: Conjunto de contenido en el error de intercambio de transacciones de EDIFACT | Documentos de Microsoft
-description: "Error durante la serialización. El conjunto de transacciones contenido en el intercambio (sin grupo) se está suspendiendo por los errores siguientes"
-ms.custom: 
+description: Error durante la serialización. El conjunto de transacciones contenido en el intercambio (sin grupo) se está suspendiendo por los errores siguientes
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a0a33ac-d83e-495c-ba75-88c15ad7cfcd
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241476"
 ---
 # <a name="edifact-transaction-set-is-suspended-error-and-details"></a><span data-ttu-id="d781c-104">Conjunto de transacciones de EDIFACT es detalles y error suspendido</span><span class="sxs-lookup"><span data-stu-id="d781c-104">Edifact transaction set is suspended error and details</span></span>
 

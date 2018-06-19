@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240372"
 ---
 # <a name="error---link-option-conflict"></a><span data-ttu-id="63ee2-102">Error: conflicto entre las opciones vínculo</span><span class="sxs-lookup"><span data-stu-id="63ee2-102">Error - Link Option Conflict</span></span>
 <span data-ttu-id="63ee2-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="63ee2-103">**Error Code**</span></span>  

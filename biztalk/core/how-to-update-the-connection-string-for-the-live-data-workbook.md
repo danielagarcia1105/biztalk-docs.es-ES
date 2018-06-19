@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar la cadena de conexión para el libro de datos en directo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar la cadena de conexión para el libro de datos en directo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d2702fb-637c-46db-8b62-08ae15f983ba
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255316"
 ---
 # <a name="how-to-update-the-connection-string-for-the-live-data-workbook"></a><span data-ttu-id="59258-102">Cómo actualizar la cadena de conexión del libro de trabajo de datos activos</span><span class="sxs-lookup"><span data-stu-id="59258-102">How to Update the Connection String for the Live Data Workbook</span></span>
 <span data-ttu-id="59258-103">Cuando mueve la base de datos de importación principal de BAM a otro servidor, la cadena de conexión de un libro de trabajo de datos activos de BAM se debe actualizar para señalar al nuevo servidor.</span><span class="sxs-lookup"><span data-stu-id="59258-103">When you move the BAM Primary Import database to another server, the connection string in a BAM live data workbook must be updated to point to the new server.</span></span> <span data-ttu-id="59258-104">Se utiliza el complemento de BAM para Excel para realizar esta actualización.</span><span class="sxs-lookup"><span data-stu-id="59258-104">You use the BAM Add-in for Excel to make this update.</span></span>  

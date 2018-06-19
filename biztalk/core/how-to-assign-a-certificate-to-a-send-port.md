@@ -1,11 +1,11 @@
 ---
-title: "Cómo asignar un certificado a un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar un certificado a un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, assigning
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - assigning certificates
 - certificates, send ports
 ms.assetid: ba9e9c8b-f5b6-4fee-9e89-31b0f1df6ed4
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247484"
 ---
 # <a name="how-to-assign-a-certificate-to-a-send-port"></a><span data-ttu-id="65412-102">Cómo asignar un certificado a un puerto de envío</span><span class="sxs-lookup"><span data-stu-id="65412-102">How to Assign a Certificate to a Send Port</span></span>
 <span data-ttu-id="65412-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para asignar un certificado de seguridad a un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="65412-103">This topic describes how to use the BizTalk Server Administration console to assign a security certificate to a send port.</span></span> <span data-ttu-id="65412-104">El certificado debe existir en el almacén de certificados Otras personas del equipo en el que se ejecuta BizTalk Server o, de lo contrario, no se procesarán los mensajes asociados con este puerto de envío y se registrarán errores.</span><span class="sxs-lookup"><span data-stu-id="65412-104">The certificate must exist in the Other People certificate store on the computer running BizTalk Server, or messages associated with this send port will not be processed, and errors will be logged.</span></span>  

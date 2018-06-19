@@ -1,11 +1,11 @@
 ---
 title: Consumir servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, Web services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, consuming
 - Web services, orchestrations
 ms.assetid: 803ba623-86e7-479a-a4b6-5b576fee8825
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237828"
 ---
 # <a name="consuming-web-services"></a><span data-ttu-id="aac9c-102">Consumir servicios web</span><span class="sxs-lookup"><span data-stu-id="aac9c-102">Consuming Web Services</span></span>
 <span data-ttu-id="aac9c-103">Consumir servicios Web le permite agregar al proceso empresarial servicios Web existentes.</span><span class="sxs-lookup"><span data-stu-id="aac9c-103">Consuming Web services enables you to add existing Web services to your business process.</span></span> <span data-ttu-id="aac9c-104">Es posible agregar varios servicios Web a una orquestación única.</span><span class="sxs-lookup"><span data-stu-id="aac9c-104">You can aggregate several Web services into a single orchestration.</span></span>  

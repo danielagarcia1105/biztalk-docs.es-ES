@@ -1,14 +1,14 @@
 ---
-title: "Configuración de certificados de firma (AS2) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de certificados de firma (AS2) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8539e210-1656-4fff-b026-36b81689061f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233268"
 ---
 # <a name="configuring-signature-certificates-as2"></a><span data-ttu-id="2eeb9-102">Configuración de certificados de firma (AS2)</span><span class="sxs-lookup"><span data-stu-id="2eeb9-102">Configuring Signature Certificates (AS2)</span></span>
 <span data-ttu-id="2eeb9-103">Como parte de la configuración de esta página, puede especificar los certificados que se deben usar para firmar todos los mensajes salientes y el MDN que se resuelve en este acuerdo.</span><span class="sxs-lookup"><span data-stu-id="2eeb9-103">As part of the settings on this page, you can specify the certificates to be used for signing all outgoing messages and MDN that resolve to this agreement.</span></span> <span data-ttu-id="2eeb9-104">La configuración de esta página invalida la configuración de certificado proporcionada en las propiedades del grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="2eeb9-104">The settings on this page override the certificate settings provided as part of the BizTalk Group properties.</span></span> <span data-ttu-id="2eeb9-105">Para obtener más información sobre cómo se usan certificados, consulte [configurar certificados para AS2](../core/configuring-certificates-for-as2.md).</span><span class="sxs-lookup"><span data-stu-id="2eeb9-105">For more information on how certificates are used, see [Configuring Certificates for AS2](../core/configuring-certificates-for-as2.md).</span></span>  

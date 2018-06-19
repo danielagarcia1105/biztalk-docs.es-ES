@@ -1,14 +1,14 @@
 ---
 title: Consideraciones para trabajar con las API BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd8ccf63-6989-4ad6-a193-cf3043e9a466
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237844"
 ---
 # <a name="considerations-for-working-with-bam-apis"></a><span data-ttu-id="f46a7-102">Consideraciones para trabajar con API de BAM</span><span class="sxs-lookup"><span data-stu-id="f46a7-102">Considerations for Working with BAM APIs</span></span>
 <span data-ttu-id="f46a7-103">Cuando se utiliza un objeto "Microsoft.BizTalk.Bam.EventObservation.EventStream", por ejemplo DirectEventStream, BufferedEventStream, MessagingEventStream u OrchestrationEventStream, BAM captura hitos como los que se registran automáticamente en formato de hora universal coordinada (UTC) (también hace referencia a la hora del meridiano de Greenwich).</span><span class="sxs-lookup"><span data-stu-id="f46a7-103">When using an  "Microsoft.BizTalk.Bam.EventObservation.EventStream" object, such as DirectEventStream, BufferedEventStream, MessagingEventStream, or OrchestrationEventStream, BAM captures milestones such that they are automatically recorded in Coordinated Universal Time (UTC) format (this is also referred to as Greenwich Mean Time).</span></span> <span data-ttu-id="f46a7-104">Cuando envía la fecha y hora a BAM mediante las API, se reciben en el formato enviado sin conversión a formato UTC.</span><span class="sxs-lookup"><span data-stu-id="f46a7-104">When you send date/times to BAM using the APIs they are received in the format sent with no conversion to UTC format.</span></span> <span data-ttu-id="f46a7-105">Tenga en cuenta las siguientes consideraciones cuando desarrolle sus soluciones de BAM:</span><span class="sxs-lookup"><span data-stu-id="f46a7-105">You should take the following considerations into account when you are developing your BAM solutions:</span></span>  

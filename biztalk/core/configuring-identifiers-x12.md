@@ -1,14 +1,14 @@
 ---
-title: "Configuración de identificadores (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de identificadores (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 665698d1-c46c-4149-9715-381b4966dd92
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234140"
 ---
 # <a name="configuring-identifiers-x12"></a><span data-ttu-id="f87ff-102">Configuración de identificadores (X12)</span><span class="sxs-lookup"><span data-stu-id="f87ff-102">Configuring Identifiers (X12)</span></span>
 <span data-ttu-id="f87ff-103">En el acuerdo de socio comercial, debe establecer el X12 destinatarios no autorización propiedades autorización y seguridad para comprobar que no se recibe el intercambio.</span><span class="sxs-lookup"><span data-stu-id="f87ff-103">In the partner agreement, you must set the X12 authorization and security properties in order to verify that the interchange is not being received by unauthorized recipients.</span></span>  

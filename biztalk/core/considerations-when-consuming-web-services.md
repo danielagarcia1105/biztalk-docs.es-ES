@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al consumir servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea7038dc-4740-4c0a-b6a1-08bc22f42bc2
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242004"
 ---
 # <a name="considerations-when-consuming-web-services"></a><span data-ttu-id="eaaa2-102">Consideraciones al consumir servicios Web</span><span class="sxs-lookup"><span data-stu-id="eaaa2-102">Considerations When Consuming Web Services</span></span>
 <span data-ttu-id="eaaa2-103">Esta sección proporciona información que es necesario tener en cuenta a la hora de consumir servicios Web.</span><span class="sxs-lookup"><span data-stu-id="eaaa2-103">This section provides information that you should take into consideration when consuming Web services.</span></span>  

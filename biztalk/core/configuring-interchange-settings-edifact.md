@@ -1,14 +1,14 @@
 ---
-title: "Configuración de intercambio (EDIFACT) de configuración | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de intercambio (EDIFACT) de configuración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8873a88c-89c7-49b0-9886-5fc603947643
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232948"
 ---
 # <a name="configuring-interchange-settings-edifact"></a><span data-ttu-id="96aea-102">Configuración de las opciones de intercambio (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="96aea-102">Configuring Interchange Settings (EDIFACT)</span></span>
 <span data-ttu-id="96aea-103">Las propiedades de procesamiento de intercambio de EDIFACT definen cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa el sobre de un intercambio codificado en EDIFACT recibido de una entidad.</span><span class="sxs-lookup"><span data-stu-id="96aea-103">EDIFACT interchange processing properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process the envelope of an EDIFACT-encoded interchange received from a party.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Adaptador de archivo | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, File adapters
 - security examples [TMA], File adapters
 ms.assetid: bcb862c0-fe02-4335-8b59-242d28049e3f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271892"
 ---
 # <a name="sample-tma-file-adapter"></a><span data-ttu-id="9896f-102">TMA de ejemplo: Adaptador de archivo</span><span class="sxs-lookup"><span data-stu-id="9896f-102">Sample TMA: File Adapter</span></span>
 <span data-ttu-id="9896f-103">En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario del adaptador de archivo de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="9896f-103">This topic presents the threat model analysis (TMA) for the File adapter scenario for the sample architecture.</span></span> <span data-ttu-id="9896f-104">En la siguiente ilustración muestra la arquitectura de ejemplo para el escenario del adaptador de archivo.</span><span class="sxs-lookup"><span data-stu-id="9896f-104">The following figure shows the sample architecture for the File adapter scenario.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="9896f-126">**Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita anteriormente en "Recopilar fondo información de archivo de escenario del adaptador" y "Información general para todos los escenarios".</span><span class="sxs-lookup"><span data-stu-id="9896f-126">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in "Collect Background Information for File Adapter Scenario" and "Background Information for all Scenarios."</span></span>  
   
--   <span data-ttu-id="9896f-127">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="9896f-127">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="9896f-128">La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de archivo para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="9896f-128">The following table lists the threats we identified when you use the File adapter to send and receive messages to and from BizTalk Server.</span></span>  
+-   <span data-ttu-id="9896f-127">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="9896f-127">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="9896f-128">La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de archivo para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="9896f-128">The following table lists the threats we identified when you use the File adapter to send and receive messages to and from BizTalk Server.</span></span>  
   
  <span data-ttu-id="9896f-129">**Tabla 1: lista de amenazas identificadas**</span><span class="sxs-lookup"><span data-stu-id="9896f-129">**Table 1 List of identifies threats**</span></span>  
   
@@ -70,7 +71,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="9896f-139">Un usuario no autorizado podría enviar mensajes a BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="9896f-139">Unauthorized user can submit messages to BizTalk Server</span></span>|<span data-ttu-id="9896f-140">Si los usuarios tienen permisos de escritura en la carpeta de archivos en la que BizTalk Server recoge los mensajes, un usuario no autorizado podría enviar mensajes a BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="9896f-140">If a user has write permissions to the file folder from which BizTalk Server picks up messages, an unauthorized user can submit messages to BizTalk Server.</span></span>|<span data-ttu-id="9896f-141">Cuerpo del mensaje</span><span class="sxs-lookup"><span data-stu-id="9896f-141">Message body</span></span>|<span data-ttu-id="9896f-142">Denegación del servicio</span><span class="sxs-lookup"><span data-stu-id="9896f-142">Denial of service</span></span><br /><br /> <span data-ttu-id="9896f-143">Elevación de privilegios</span><span class="sxs-lookup"><span data-stu-id="9896f-143">Elevation of privileges</span></span>|  
   
 ## <a name="step-3-review-threats-file-adapter-scenario"></a><span data-ttu-id="9896f-144">Paso 3.</span><span class="sxs-lookup"><span data-stu-id="9896f-144">Step 3.</span></span> <span data-ttu-id="9896f-145">Analizar las amenazas (escenario del adaptador de archivo)</span><span class="sxs-lookup"><span data-stu-id="9896f-145">Review Threats (File Adapter Scenario)</span></span>  
- <span data-ttu-id="9896f-146">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de archivo de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="9896f-146">This section provides the results of the risk analysis we did for threats we identified for the File adapter scenario for the sample architecture.</span></span> <span data-ttu-id="9896f-147">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="9896f-147">After the main threat model meeting, we reviewed the threats and used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
+ <span data-ttu-id="9896f-146">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de archivo de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="9896f-146">This section provides the results of the risk analysis we did for threats we identified for the File adapter scenario for the sample architecture.</span></span> <span data-ttu-id="9896f-147">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="9896f-147">After the main threat model meeting, we reviewed the threats and used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
   
  <span data-ttu-id="9896f-148">La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de archivo para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="9896f-148">The following table lists the risk ratings for the threats we identified when you use the File adapter to send and receive messages to and from BizTalk Server.</span></span>  
   

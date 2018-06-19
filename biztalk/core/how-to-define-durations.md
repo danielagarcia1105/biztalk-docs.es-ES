@@ -1,17 +1,17 @@
 ---
-title: "Cómo definir duraciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo definir duraciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business activities, time intervals
 - BAM View Wizard, configuring time intervals
 ms.assetid: 82bb742a-0271-4ece-8a5c-0260322ac545
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248788"
 ---
 # <a name="how-to-define-durations"></a><span data-ttu-id="e5b47-102">Definición de duraciones</span><span class="sxs-lookup"><span data-stu-id="e5b47-102">How to Define Durations</span></span>
 <span data-ttu-id="e5b47-103">La duración especifica la cantidad de tiempo, definida mediante un hito inicial y otro final, de un elemento de actividad dado.</span><span class="sxs-lookup"><span data-stu-id="e5b47-103">Duration specifies the amount of time, defined by a beginning and ending milestone for a particular activity item.</span></span> <span data-ttu-id="e5b47-104">Por ejemplo, el número de días de validez de un pedido.</span><span class="sxs-lookup"><span data-stu-id="e5b47-104">For example, the number of days a PO is valid.</span></span>  

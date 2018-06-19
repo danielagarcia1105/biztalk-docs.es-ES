@@ -1,14 +1,14 @@
 ---
-title: "Configurar un puerto de envío dinámico para enviar intercambios y confirmaciones EDI | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un puerto de envío dinámico para enviar intercambios y confirmaciones EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a124059c-c29c-4a7f-a8a3-13dffc09ae5c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232820"
 ---
 # <a name="configuring-a-dynamic-send-port-to-send-edi-interchanges-and-acknowledgments"></a><span data-ttu-id="932a8-102">Configurar un puerto de envío dinámico para enviar intercambios y confirmaciones EDI</span><span class="sxs-lookup"><span data-stu-id="932a8-102">Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments</span></span>
 <span data-ttu-id="932a8-103">Para enviar una confirmación o intercambio EDI, puede usar un puerto de envío estático o dinámico.</span><span class="sxs-lookup"><span data-stu-id="932a8-103">To send an EDI acknowledgment or interchange, you can use either a static send port or a dynamic send port.</span></span> <span data-ttu-id="932a8-104">Un puerto de envío dinámico permite enviar un intercambio a un destino entre varios, ya que resuelve el acuerdo y determina la dirección de destino en función del valor de la propiedad de contexto DestinationPartyName.</span><span class="sxs-lookup"><span data-stu-id="932a8-104">A dynamic send port enables you to send an interchange to any one of multiple destinations, because it resolves the agreement and determines the destination address based upon the value in the DestinationPartyName context property.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "El Functoid de iteración | Documentos de Microsoft"
-ms.custom: 
+title: El Functoid de iteración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Iteration functoids
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - And functoids
 - Less Than or Equal To functoids
 ms.assetid: 24d8911d-2282-4b07-910c-eb2e846dc1f9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261972"
 ---
 # <a name="iteration-functoid"></a><span data-ttu-id="b3c76-102">Iteración (functoid)</span><span class="sxs-lookup"><span data-stu-id="b3c76-102">Iteration Functoid</span></span>
 <span data-ttu-id="b3c76-103">El **iteración** functoid salidas el índice del registro actual en un bucle de la estructura, empezando por 1 para el primer registro, 2 para el segundo registro y así sucesivamente.</span><span class="sxs-lookup"><span data-stu-id="b3c76-103">The **Iteration** functoid outputs the index of the current record in a looping structure, beginning at 1 for the first record, 2 for the second record, and so on.</span></span>  

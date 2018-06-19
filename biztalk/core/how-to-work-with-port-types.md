@@ -1,11 +1,11 @@
 ---
-title: "Cómo trabajar con tipos de puertos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo trabajar con tipos de puertos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, port types
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - ports, port types
 - port types, one-way
 ms.assetid: 78ac731e-c330-4888-a9ee-10523fef8ed0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257132"
 ---
 # <a name="how-to-work-with-port-types"></a><span data-ttu-id="eb3cc-102">Cómo trabajar con tipos de puerto</span><span class="sxs-lookup"><span data-stu-id="eb3cc-102">How to Work with Port Types</span></span>
 <span data-ttu-id="eb3cc-103">Un tipo de puerto consta de un patrón de comunicación, un conjunto de operaciones (solicitudes o respuestas) y los tipos de mensaje con los que pueden trabajar esas operaciones.</span><span class="sxs-lookup"><span data-stu-id="eb3cc-103">A port type consists of a communication pattern, a set of operations (requests or responses), and the message types that those operations can work on.</span></span> <span data-ttu-id="eb3cc-104">El patrón puede ser unidireccional o de solicitud-respuesta (bidireccional), y todas las operaciones definidas en ese tipo de puerto deben utilizar el mismo patrón.</span><span class="sxs-lookup"><span data-stu-id="eb3cc-104">The pattern can be either one-way or request-response (two-way), and all operations defined on that port type must use the same pattern.</span></span> <span data-ttu-id="eb3cc-105">Tenga en cuenta que los tipos de puerto son independientes de la dirección: la dirección se especifica en cada puerto.</span><span class="sxs-lookup"><span data-stu-id="eb3cc-105">Note that port types are direction-agnostic: direction is specified on individual ports.</span></span>  

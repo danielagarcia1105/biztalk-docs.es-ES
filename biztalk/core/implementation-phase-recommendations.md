@@ -1,14 +1,14 @@
 ---
-title: "Recomendaciones para la fase implementación | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones para la fase implementación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04877156-cc32-480b-8410-d26eb073c327
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257404"
 ---
 # <a name="implementation-phase-recommendations"></a><span data-ttu-id="35c29-102">Recomendaciones para la fase de implementación</span><span class="sxs-lookup"><span data-stu-id="35c29-102">Implementation Phase Recommendations</span></span>
 <span data-ttu-id="35c29-103">En la fase de implementación se toman los requisitos y los productos de la fase de diseño y se implementan mediante las tecnologías apropiadas.</span><span class="sxs-lookup"><span data-stu-id="35c29-103">The implementation phase takes the requirements and design phase products and implements them using appropriate technologies.</span></span> <span data-ttu-id="35c29-104">En el caso de las pruebas de validación, es en esta fase cuando se completan y automatizan los casos de prueba en preparación de las pruebas de validación.</span><span class="sxs-lookup"><span data-stu-id="35c29-104">In the case of validation testing, it is during this phase that test cases are completed and automated in preparation for validation testing.</span></span> <span data-ttu-id="35c29-105">Normalmente, gran parte de las pruebas de las versiones anteriores del sistema también se llevan a cabo durante esta fase, no solo para validar el sistema, sino también para comprobar que no existan problemas con los propios casos de prueba.</span><span class="sxs-lookup"><span data-stu-id="35c29-105">Typically, a lot of testing on the early system versions is also performed during this phase, not only to validate the system, but to validate that there are no problems with the test cases themselves.</span></span>  

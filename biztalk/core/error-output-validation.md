@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241196"
 ---
 # <a name="error---output-validation"></a><span data-ttu-id="687d3-102">Error: validación de salida</span><span class="sxs-lookup"><span data-stu-id="687d3-102">Error - Output Validation</span></span>
 <span data-ttu-id="687d3-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="687d3-103">**Error Code**</span></span>  

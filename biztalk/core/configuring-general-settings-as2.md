@@ -1,14 +1,14 @@
 ---
-title: "Configuración General (AS2) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración General (AS2) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8592c52e-5156-418c-9c49-7478f73c372e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234628"
 ---
 # <a name="configuring-general-settings-as2"></a><span data-ttu-id="f33be-102">Configuración general (AS2)</span><span class="sxs-lookup"><span data-stu-id="f33be-102">Configuring General Settings (AS2)</span></span>
 <span data-ttu-id="f33be-103">Como parte de la configuración general, se especifica el nombre del acuerdo, el protocolo que usará (AS2), las entidades y perfiles entre los que se produce el acuerdo, así como si estará habilitada la notificación de todos los mensajes procesados mediante el acuerdo.</span><span class="sxs-lookup"><span data-stu-id="f33be-103">As part of the general settings, you specify agreement name, the protocol it will use (AS2), the parties and profiles that the agreement is between, and whether to have reporting enabled for all messages processed through the agreement.</span></span> <span data-ttu-id="f33be-104">También puede especificar la información de contacto de las entidades como parte del acuerdo.</span><span class="sxs-lookup"><span data-stu-id="f33be-104">You can also specify the party contact information as part of the agreement.</span></span>  

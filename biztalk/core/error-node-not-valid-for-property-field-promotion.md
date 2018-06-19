@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240188"
 ---
 # <a name="error---node-not-valid-for-property-field-promotion"></a><span data-ttu-id="298da-102">Error: nodo no válido para promoción de campos de propiedad</span><span class="sxs-lookup"><span data-stu-id="298da-102">Error - Node Not Valid For Property Field Promotion</span></span>
 <span data-ttu-id="298da-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="298da-103">**Error Code**</span></span>  

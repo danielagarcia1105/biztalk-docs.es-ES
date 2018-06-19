@@ -1,11 +1,11 @@
 ---
 title: Adaptador de HTTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, receive adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send adapters, HTTP adapters
 - HTTP adapters, about HTTP adapters
 ms.assetid: a9423052-8392-4006-ab46-79834169c796
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256052"
 ---
 # <a name="http-adapter"></a><span data-ttu-id="60844-102">Adaptador de HTTP</span><span class="sxs-lookup"><span data-stu-id="60844-102">HTTP Adapter</span></span>
 <span data-ttu-id="60844-103">El adaptador de HTTP se emplea para intercambiar información entre Microsoft BizTalk Server y una aplicación por medio del protocolo HTTP.</span><span class="sxs-lookup"><span data-stu-id="60844-103">You use the HTTP adapter to exchange information between Microsoft BizTalk Server and an application by means of the HTTP protocol.</span></span> <span data-ttu-id="60844-104">HTTP es el protocolo principal para el intercambio de mensajes entre empresas.</span><span class="sxs-lookup"><span data-stu-id="60844-104">HTTP is the primary protocol for interbusiness message exchange.</span></span> <span data-ttu-id="60844-105">Las aplicaciones pueden enviar mensajes a un servidor mediante el envío de solicitudes HTTP POST o HTTP GET a una dirección URL de HTTP concreta.</span><span class="sxs-lookup"><span data-stu-id="60844-105">Applications can send messages to a server by sending HTTP POST or HTTP GET requests to a specified HTTP URL.</span></span> <span data-ttu-id="60844-106">El adaptador HTTP recibe solicitudes HTTP y las envía al servidor BizTalk Server para su procesamiento.</span><span class="sxs-lookup"><span data-stu-id="60844-106">The HTTP adapter receives the HTTP requests and submits them to BizTalk Server for processing.</span></span> <span data-ttu-id="60844-107">Del mismo modo, BizTalk Server puede transmitir mensajes a aplicaciones remotas mediante el envío de solicitudes HTTP POST a una dirección URL de HTTP concreta.</span><span class="sxs-lookup"><span data-stu-id="60844-107">Similarly, BizTalk Server can transmit messages to remote applications by sending HTTP POST requests to a specified HTTP URL.</span></span>  

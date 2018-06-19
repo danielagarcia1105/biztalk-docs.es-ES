@@ -1,11 +1,11 @@
 ---
-title: "Implementar un método Seek en un componente de canalización de transmisión por secuencias administrado | Documentos de Microsoft"
-ms.custom: 
+title: Implementar un método Seek en un componente de canalización de transmisión por secuencias administrado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline interfaces, IStream interface
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - IStream interface
 - Seek method
 ms.assetid: 2e546c41-822d-4e22-a8f6-8959072ef3d2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256524"
 ---
 # <a name="implementing-a-seek-method-in-a-managed-streaming-pipeline-component"></a><span data-ttu-id="41a45-102">Implementar un método Seek en un componente de canalización administrado de transmisión por secuencias</span><span class="sxs-lookup"><span data-stu-id="41a45-102">Implementing a Seek Method in a Managed Streaming Pipeline Component</span></span>
 <span data-ttu-id="41a45-103">Nativo **IStream** interfaz no proporciona un método para comprobar la posición de la secuencia actual, por lo que el motor de mensajería usa las siguientes **Seek** método.</span><span class="sxs-lookup"><span data-stu-id="41a45-103">The native **IStream** interface does not provide a method to check the current stream position, so the messaging engine uses the following **Seek** method.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Cómo crear un servidor vinculado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un servidor vinculado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - servers, linking for backups
 - backing up, linking servers
 ms.assetid: 7d4aba3d-77c0-4cdf-8547-71e821ce34a1
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249812"
 ---
 # <a name="how-to-create-a-linked-server"></a><span data-ttu-id="43be6-102">Crear un servidor vinculado</span><span class="sxs-lookup"><span data-stu-id="43be6-102">How to Create a Linked Server</span></span>
 <span data-ttu-id="43be6-103">Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en una topología distribuida, las bases de datos que pertenecen a un grupo de BizTalk existen en varios servidores [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="43be6-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed in a distributed topology, the databases that belong to a BizTalk Group exist on multiple [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span></span> <span data-ttu-id="43be6-104">Debe configurar una conexión de servidor vinculada con cada uno de los servidores remotos para poder realizar una copia de seguridad de todo el entorno BizTalk desde el servidor de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="43be6-104">You must configure a linked server connection to each of the remote servers before you can back up the entire BizTalk environment from the BizTalk Management server.</span></span> <span data-ttu-id="43be6-105">Un servidor vinculado es un origen de datos OLE DB que se usa en consultas de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] distribuidas.</span><span class="sxs-lookup"><span data-stu-id="43be6-105">A linked server is an OLE DB data source that is used in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] distributed queries.</span></span>  

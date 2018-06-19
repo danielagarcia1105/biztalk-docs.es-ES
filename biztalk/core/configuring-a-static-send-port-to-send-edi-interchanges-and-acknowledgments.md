@@ -1,14 +1,14 @@
 ---
-title: "Configurar un puerto de envío estático para enviar intercambios y confirmaciones EDI | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un puerto de envío estático para enviar intercambios y confirmaciones EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b432c5e-ea0c-4174-bb4a-958b061c1827
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234460"
 ---
 # <a name="configuring-a-static-send-port-to-send-edi-interchanges-and-acknowledgments"></a><span data-ttu-id="28107-102">Configurar un puerto de envío estático para enviar intercambios y confirmaciones EDI</span><span class="sxs-lookup"><span data-stu-id="28107-102">Configuring a Static Send Port to Send EDI Interchanges and Acknowledgments</span></span>
 <span data-ttu-id="28107-103">Para enviar una confirmación o intercambio EDI, puede usar un puerto de envío unidireccional estático o un puerto de envío estático (bidireccional) de petición-respuesta.</span><span class="sxs-lookup"><span data-stu-id="28107-103">To send an EDI acknowledgment or interchange, you can use either a static one-way send port or a static solicit-response (two-way) send port.</span></span>  

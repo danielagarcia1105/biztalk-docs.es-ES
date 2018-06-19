@@ -1,14 +1,14 @@
 ---
-title: "Cómo vincular registros automáticamente | Documentos de Microsoft"
-ms.custom: 
+title: Cómo vincular registros automáticamente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc2926c7-07c2-45d1-afde-d3f894f6b88d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254852"
 ---
 # <a name="how-to-link-records-automatically"></a><span data-ttu-id="07dae-102">Cómo vincular registros automáticamente</span><span class="sxs-lookup"><span data-stu-id="07dae-102">How to Link Records Automatically</span></span>
 <span data-ttu-id="07dae-103">El Asignador de BizTalk proporciona ayuda justo cuando es necesaria, mediante un menú contextual en el que se pueden crear enlaces entre dos elementos de registro de esquemas de origen y destino.</span><span class="sxs-lookup"><span data-stu-id="07dae-103">The BizTalk Mapper provides you with just-in-time assistance, through a shortcut menu, when you create links between two record elements of source and destination schemas.</span></span> <span data-ttu-id="07dae-104">En este tema se proporciona información sobre cómo usar el menú contextual para llevar a cabo las operaciones de enlace.</span><span class="sxs-lookup"><span data-stu-id="07dae-104">This topic provides information about how to use the shortcut menu to perform the linking operations.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Patrones de intercambio para adaptadores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Patrones de intercambio para adaptadores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e505559e-66be-4c32-a2a8-a242cba10000
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246300"
 ---
 # <a name="exchange-patterns-for-receive-adapters"></a><span data-ttu-id="d773a-102">Intercambiar patrones para adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="d773a-102">Exchange Patterns for Receive Adapters</span></span>
 <span data-ttu-id="d773a-103">Recepción adaptadores de recepción de datos de "cable" y enviarla como un mensaje en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="d773a-103">Receive adapters receive data from the "wire" and submit it as a message into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="d773a-104">Este proceso de envío puede ser un patrón de intercambio de mensajes unidireccional o bidireccional.</span><span class="sxs-lookup"><span data-stu-id="d773a-104">This submittal process can be a one-way or a two-way message exchange pattern.</span></span>  

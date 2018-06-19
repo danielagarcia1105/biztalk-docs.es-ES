@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238748"
 ---
 # <a name="designing-orchestration-flow"></a><span data-ttu-id="b6c2b-102">Diseñar el flujo de las orquestaciones</span><span class="sxs-lookup"><span data-stu-id="b6c2b-102">Designing Orchestration Flow</span></span>
 <span data-ttu-id="b6c2b-103">En esta sección se muestra cómo diseñar el flujo de los procesos empresariales en las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="b6c2b-103">This section shows how to design your business process flow in orchestrations.</span></span>  

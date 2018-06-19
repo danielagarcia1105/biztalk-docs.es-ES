@@ -1,17 +1,17 @@
 ---
-title: "Administración de la infraestructura dinámica de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Administración de la infraestructura dinámica de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - infrastructure, managing [BAM]
 - managing [BAM], infrastructure
 ms.assetid: af8a76b5-407a-484d-aff4-0d911f88313e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007517"
 ---
 # <a name="managing-the-bam-dynamic-infrastructure"></a><span data-ttu-id="b52b6-102">Administrar la infraestructura dinámica de BAM</span><span class="sxs-lookup"><span data-stu-id="b52b6-102">Managing the BAM Dynamic Infrastructure</span></span>
 <span data-ttu-id="b52b6-103">Las características de Supervisión de la actividad económica (BAM) utilizan una infraestructura de generación dinámica de SQL y de procesamiento analítico en línea (OLAP).</span><span class="sxs-lookup"><span data-stu-id="b52b6-103">Business Activity Monitoring (BAM) features use a dynamically generated SQL and online analytical processing (OLAP) infrastructure.</span></span> <span data-ttu-id="b52b6-104">Los administradores usan la utilidad de administración de BAM para implementar el libro de definiciones de BAM o archivo XML, que se encargará de desarrollar el analista de negocios.</span><span class="sxs-lookup"><span data-stu-id="b52b6-104">Administrators use the BAM Management utility to deploy the BAM definition workbook or XML file, which the business analyst develops.</span></span>  

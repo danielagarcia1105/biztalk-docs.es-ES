@@ -1,14 +1,14 @@
 ---
-title: "Error durante la serialización. El intercambio de Edifact que no contenía un grupo presentaba los errores siguientes | Documentos de Microsoft"
-ms.custom: 
+title: Error durante la serialización. El intercambio de Edifact que no contenía un grupo presentaba los errores siguientes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af693139-e4cd-4bcb-922c-79caa148d3b7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241764"
 ---
 # <a name="error-encountered-during-serialization-the-edifact-interchange-which-did-not-contain-a-group-had-the-following-errors"></a><span data-ttu-id="67219-103">Error durante la serialización.</span><span class="sxs-lookup"><span data-stu-id="67219-103">Error encountered during serialization.</span></span> <span data-ttu-id="67219-104">El intercambio Edifact que no contenía un grupo presentaba los errores siguientes</span><span class="sxs-lookup"><span data-stu-id="67219-104">The Edifact interchange which did not contain a group had the following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="67219-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="67219-105">Details</span></span>  

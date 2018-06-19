@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233220"
 ---
 # <a name="configuring-x12-fallback-agreement-properties"></a><span data-ttu-id="4c15a-102">Configuración de las propiedades del acuerdo de reserva de X12</span><span class="sxs-lookup"><span data-stu-id="4c15a-102">Configuring X12 Fallback Agreement Properties</span></span>
 <span data-ttu-id="4c15a-103">Las propiedades descritas en esta sección se aplican siempre que se realizan intercambios cifrados de X12 (incluido HIPAA) y que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede determinar el acuerdo al que hacen referencia los intercambios (de entrada o salida).</span><span class="sxs-lookup"><span data-stu-id="4c15a-103">The properties described in this section apply whenever X12-encoded interchanges (including HIPAA) are exchanged and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cannot determine the agreement that the interchanges (inbound or outbound) resolve to.</span></span> <span data-ttu-id="4c15a-104">En esta sección también se describe la configuración general de reserva común en los mensajes codificados X12 y EDIFACT.</span><span class="sxs-lookup"><span data-stu-id="4c15a-104">This section also describes general fallback settings common to both X12 and EDIFACT encoded messages.</span></span>  

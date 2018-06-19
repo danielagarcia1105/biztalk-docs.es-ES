@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246340"
 ---
 # <a name="ftp-adapter"></a><span data-ttu-id="9a911-102">Adaptador de FTP</span><span class="sxs-lookup"><span data-stu-id="9a911-102">FTP Adapter</span></span>
 <span data-ttu-id="9a911-103">El adaptador de FTP intercambia datos entre un servidor FTP y Microsoft BizTalk Server, y permite la integración de datos imprescindibles almacenados en una gran variedad de plataformas con aplicaciones de líneas de negocios.</span><span class="sxs-lookup"><span data-stu-id="9a911-103">The FTP adapter exchanges data between an FTP server and Microsoft BizTalk Server, and allows for the integration of vital data stored on a variety of platforms with line-of-business applications.</span></span> <span data-ttu-id="9a911-104">El adaptador se puede conectar con el servidor FTP a través de un servidor proxy SOCKS4 o SOCKS5.</span><span class="sxs-lookup"><span data-stu-id="9a911-104">The adapter can connect to the FTP server via SOCKS4 or SOCKS5 proxy server.</span></span>  

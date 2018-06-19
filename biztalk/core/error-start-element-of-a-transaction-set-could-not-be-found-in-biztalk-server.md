@@ -1,14 +1,14 @@
 ---
-title: "Detectado un error tras procesar conjuntos de transacciones porque no se encontró el elemento de inicio de un conjunto de transacciones | Documentos de Microsoft"
-ms.custom: 
+title: Detectado un error tras procesar conjuntos de transacciones porque no se encontró el elemento de inicio de un conjunto de transacciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5380aee-1632-4cdf-98a1-aff87574ce4f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241812"
 ---
 # <a name="error-encountered-after-processing-transaction-sets-because-the-start-element-of-a-transaction-set-could-not-be-found"></a><span data-ttu-id="c89f8-102">Se detectó un error tras procesar conjuntos de transacciones porque no se encontró el elemento de inicio de un conjunto de transacciones</span><span class="sxs-lookup"><span data-stu-id="c89f8-102">Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found</span></span>
 ## <a name="details"></a><span data-ttu-id="c89f8-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="c89f8-103">Details</span></span>  

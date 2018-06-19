@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el componente de canalización de validador XML | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de validador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Validator [pipeline component]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipeline components, XML Validator
 - receive pipelines, validating
 ms.assetid: 3b3becaf-703c-4399-a5ed-e7082e31e6e9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248388"
 ---
 # <a name="how-to-configure-the-xml-validator-pipeline-component"></a><span data-ttu-id="61635-102">Cómo configurar el componente de canalización de validador XML</span><span class="sxs-lookup"><span data-stu-id="61635-102">How to Configure the XML Validator Pipeline Component</span></span>
 <span data-ttu-id="61635-103">El componente de canalización de validador XML puede utilizarse en cualquier fase (excepto en desensamblar o ensamblar) tanto en una canalización de envío como de recepción.</span><span class="sxs-lookup"><span data-stu-id="61635-103">The XML Validator pipeline component can be used in any stage (except Disassemble or Assemble) in a send or receive pipeline.</span></span>  

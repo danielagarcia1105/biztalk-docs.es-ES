@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad con tipos definidos por el usuario de Oracle en base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68edf0f2-a798-4096-86ca-85d2cfa9088a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006925"
 ---
 # <a name="support-for-oracle-user-defined-types-in-oracle-database"></a><span data-ttu-id="180a2-102">Compatibilidad con tipos definidos por el usuario de Oracle en base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="180a2-102">Support for Oracle User-Defined Types in Oracle Database</span></span>
 <span data-ttu-id="180a2-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite la realización de operaciones en artefactos en la base de datos de Oracle que contienen tipos de Oracle User-Defined (UDT).</span><span class="sxs-lookup"><span data-stu-id="180a2-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports performing operations on artifacts in the Oracle database that contain Oracle User-Defined Types (UDTs).</span></span> <span data-ttu-id="180a2-104">Los UDT pueden estar presentes en los siguientes artefactos:</span><span class="sxs-lookup"><span data-stu-id="180a2-104">The UDTs can be present in the following artifacts:</span></span>  

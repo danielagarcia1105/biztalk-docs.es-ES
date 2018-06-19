@@ -1,18 +1,18 @@
 ---
-title: "Cómo habilitar una ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar una ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enabling, receive locations
 - managing [receive locations], enabling
 - receive locations, enabling
 ms.assetid: ea1647cd-7bcb-4603-a64e-23b3fb0622a5
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253844"
 ---
 # <a name="how-to-enable-a-receive-location"></a><span data-ttu-id="f4ee2-102">Cómo habilitar una ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="f4ee2-102">How to Enable a Receive Location</span></span>
 <span data-ttu-id="f4ee2-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para habilitar una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="f4ee2-103">This topic describes how to use the BizTalk Server Administration console to enable a receive location.</span></span> <span data-ttu-id="f4ee2-104">La ubicación de recepción debe estar habilitada para poder recibir mensajes.</span><span class="sxs-lookup"><span data-stu-id="f4ee2-104">A receive location must be enabled before it can receive messages.</span></span>  

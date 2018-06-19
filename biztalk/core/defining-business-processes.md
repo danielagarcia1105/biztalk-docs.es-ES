@@ -1,14 +1,14 @@
 ---
 title: Definir procesos empresariales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5e0fdfe-e298-4f32-a7c5-d081b926a206
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22243276"
 ---
 # <a name="defining-business-processes"></a><span data-ttu-id="4c941-102">Definir procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="4c941-102">Defining Business Processes</span></span>
 <span data-ttu-id="4c941-103">El intercambio de mensajes entre distintos sistemas es un trámite necesario para resolver los problemas a los que se enfrenta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4c941-103">The exchange of messages between different systems is a necessary part of solving the problems that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] addresses.</span></span> <span data-ttu-id="4c941-104">Sin embargo, el verdadero objetivo consiste en definir y ejecutar los procesos empresariales basados en las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="4c941-104">The real goal, however, is to define and execute business processes based on the applications.</span></span> <span data-ttu-id="4c941-105">El motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa orquestaciones para definir la lógica de estos procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="4c941-105">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine uses orchestrations to define the logic of these business processes.</span></span> <span data-ttu-id="4c941-106">Para crear y evaluar grupos de reglas de negocios, se utiliza el motor de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="4c941-106">To create and evaluate groups of business rules, it uses the Business Rule Engine.</span></span> <span data-ttu-id="4c941-107">En esta sección se describen las orquestaciones y el motor de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="4c941-107">This section describes both orchestrations and the Business Rule Engine.</span></span>  

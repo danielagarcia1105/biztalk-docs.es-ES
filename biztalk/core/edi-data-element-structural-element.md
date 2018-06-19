@@ -1,14 +1,14 @@
 ---
 title: Elemento estructural de elemento de datos EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 775e8b87-b952-46d2-a506-5174d216a9aa
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239476"
 ---
 # <a name="edi-data-element-structural-element"></a><span data-ttu-id="4aaa9-102">Elemento estructural de elemento de datos EDI</span><span class="sxs-lookup"><span data-stu-id="4aaa9-102">EDI Data Element Structural Element</span></span>
 <span data-ttu-id="4aaa9-103">El elemento de datos es la unidad de datos principal del mensaje.</span><span class="sxs-lookup"><span data-stu-id="4aaa9-103">The data element is the primary unit of data in the message.</span></span> <span data-ttu-id="4aaa9-104">Los elementos de datos se separan mediante el separador de elementos de datos, que es un asterisco de forma predeterminada para X12 y un signo más de manera predeterminada para EDIFACT.</span><span class="sxs-lookup"><span data-stu-id="4aaa9-104">Data elements are separated by the data element separator, which is an asterisk by default for X12 and a plus sign by default for EDIFACT.</span></span> <span data-ttu-id="4aaa9-105">La opcionalidad de elementos de datos se define como obligatorio, opcional o condicional.</span><span class="sxs-lookup"><span data-stu-id="4aaa9-105">The optionality of data elements is defined as mandatory, optional, or conditional.</span></span>  

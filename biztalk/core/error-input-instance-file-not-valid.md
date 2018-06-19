@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241220"
 ---
 # <a name="error---input-instance-file-not-valid"></a><span data-ttu-id="a10eb-102">Error: el archivo de instancia de entrada no es válido</span><span class="sxs-lookup"><span data-stu-id="a10eb-102">Error - Input Instance File Not Valid</span></span>
 <span data-ttu-id="a10eb-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="a10eb-103">**Explanation**</span></span>  

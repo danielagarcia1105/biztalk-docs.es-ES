@@ -1,14 +1,14 @@
 ---
-title: "Trabajar en el Diseñador de itinerarios | Documentos de Microsoft"
-ms.custom: 
+title: Trabajar en el Diseñador de itinerarios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 06742cb8-f6d6-46e2-adc0-6be9a3d6a447
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976786"
 ---
 # <a name="working-in-itinerary-designer"></a><span data-ttu-id="c9c3d-102">Trabajar en el Diseñador de itinerarios</span><span class="sxs-lookup"><span data-stu-id="c9c3d-102">Working in Itinerary Designer</span></span>
 <span data-ttu-id="c9c3d-103">Después de crear un proyecto de Microsoft Visual C#, puede crear nuevos modelos itinerarios y agregar itinerarios existentes al proyecto.</span><span class="sxs-lookup"><span data-stu-id="c9c3d-103">After you create a Microsoft Visual C# project, you can create new itinerary models and add existing itineraries to the project.</span></span> <span data-ttu-id="c9c3d-104">Los pasos siguientes describen cómo crear un nuevo itinerario, agregar un modelo de itinerarios existente o cambiar el nombre de un itinerario.</span><span class="sxs-lookup"><span data-stu-id="c9c3d-104">The following steps describe how to create a new itinerary, add an existing itinerary model, or change the name of an itinerary.</span></span>  

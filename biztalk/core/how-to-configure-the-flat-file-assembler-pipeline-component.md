@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, Flat File Assembler
 - Flat File Assembler [pipeline component], configuring
 - messages, flat files
 ms.assetid: 5af61bba-4eb2-4bb9-a655-394a76d08d3b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248636"
 ---
 # <a name="how-to-configure-the-flat-file-assembler-pipeline-component"></a><span data-ttu-id="7c877-102">Cómo configurar el componente de canalización de ensamblador de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="7c877-102">How to Configure the Flat File Assembler Pipeline Component</span></span>
 <span data-ttu-id="7c877-103">El componente de canalización de ensamblador de archivo sin formato se utiliza para serializar un documento XML en un formato de archivo sin formato delimitado o posicional antes de enviarlo fuera del servidor.</span><span class="sxs-lookup"><span data-stu-id="7c877-103">The Flat File Assembler pipeline component is used to serialize an XML document into delimited or positional flat file format before sending it out of the server.</span></span>  

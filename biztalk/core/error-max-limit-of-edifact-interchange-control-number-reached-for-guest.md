@@ -1,14 +1,14 @@
 ---
-title: "Ha alcanzado el límite máximo permitido del número aceptable de control de intercambio de Edifact para la configuración de invitado | Documentos de Microsoft"
-ms.custom: 
+title: Ha alcanzado el límite máximo permitido del número aceptable de control de intercambio de Edifact para la configuración de invitado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5d2dcc0-61fd-47c9-9339-8a85319c5398
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241532"
 ---
 # <a name="max-limit-of-acceptable-edifact-interchange-control-number-has-reached-for-guest-settings"></a><span data-ttu-id="3dbfb-102">Se ha alcanzado el límite máximo permitido para el número de control de intercambio Edifact en la configuración de Invitado</span><span class="sxs-lookup"><span data-stu-id="3dbfb-102">Max limit of acceptable Edifact interchange control number has reached for Guest settings</span></span>
 ## <a name="details"></a><span data-ttu-id="3dbfb-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="3dbfb-103">Details</span></span>  

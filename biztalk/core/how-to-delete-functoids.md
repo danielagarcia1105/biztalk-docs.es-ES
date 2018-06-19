@@ -1,14 +1,14 @@
 ---
-title: "Cómo eliminar Functoids | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar Functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5e52f43f-33ca-452b-a69f-94bd4bb5debd
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248980"
 ---
 # <a name="how-to-delete-functoids"></a><span data-ttu-id="b4a35-102">Cómo eliminar functoids</span><span class="sxs-lookup"><span data-stu-id="b4a35-102">How to Delete Functoids</span></span>
 <span data-ttu-id="b4a35-103">Cuando se desarrollan asignaciones, a veces deberá eliminar un functoid existente.</span><span class="sxs-lookup"><span data-stu-id="b4a35-103">When developing maps, you will sometimes need to delete an existing functoid.</span></span> <span data-ttu-id="b4a35-104">Eliminar un functoid también elimina los vínculos de entrada y salida asociados, así como cualquier parámetro de entrada adicional, especificación de secuencia de comandos y configuración de cuadrícula de tabla.</span><span class="sxs-lookup"><span data-stu-id="b4a35-104">Deleting a functoid also deletes the associated input and output links, as well as any additional input parameters, script specification, and table grid configuration.</span></span>  

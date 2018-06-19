@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar la forma Iniciar excepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma Iniciar excepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Throw Exception shape [Orchestration Designer]
 - orchestrations, errors
 - Orchestration Designer, errors
 ms.assetid: d3190f1b-db5e-4988-bff6-f7a276760ece
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248084"
 ---
 # <a name="how-to-configure-the-throw-exception-shape"></a><span data-ttu-id="a229f-102">Cómo configurar la forma Iniciar excepción</span><span class="sxs-lookup"><span data-stu-id="a229f-102">How to Configure the Throw Exception Shape</span></span>
 <span data-ttu-id="a229f-103">Puede iniciar excepciones explícitamente en una orquestación mediante el uso de la **Iniciar excepción** forma.</span><span class="sxs-lookup"><span data-stu-id="a229f-103">You can explicitly throw exceptions in an orchestration by using the **Throw Exception** shape.</span></span> <span data-ttu-id="a229f-104">Cuando se lleva a cabo el inicio, el motor de tiempo de ejecución buscará el controlador de excepción más próximo que pueda controlar el tipo de excepción que se inicia.</span><span class="sxs-lookup"><span data-stu-id="a229f-104">When the throw is performed, the runtime engine will search for the nearest exception handler that can handle the type of exception being thrown.</span></span>  

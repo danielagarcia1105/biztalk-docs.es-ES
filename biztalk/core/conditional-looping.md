@@ -1,18 +1,18 @@
 ---
 title: Bucle condicional | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Looping functoids, conditional
 - Equal functoids
 - maps, conditional looping
 ms.assetid: eb16efb8-b12c-47d6-afc9-579fc85ea59c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231980"
 ---
 # <a name="conditional-looping"></a><span data-ttu-id="03790-102">Bucle condicional</span><span class="sxs-lookup"><span data-stu-id="03790-102">Conditional Looping</span></span>
 <span data-ttu-id="03790-103">Puede agregar condiciones a una **bucle** functoid vinculándose a la salida de un **bucle** functoid y un **lógicos** functoid en el mismo registro de destino.</span><span class="sxs-lookup"><span data-stu-id="03790-103">You can add conditions to a **Looping** functoid by linking the output of a **Looping** functoid and a **Logical** functoid to the same destination record.</span></span> <span data-ttu-id="03790-104">Los registros de destino solo se crean cuando se cumple la condición lógica.</span><span class="sxs-lookup"><span data-stu-id="03790-104">The destination records are created only when the logical condition is met.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo importar una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo importar una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, planning
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - applications, importing
 - importing, planning
 ms.assetid: 51169f35-d572-4612-9104-a59908e24874
-caps.latest.revision: "70"
+caps.latest.revision: 70
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010373"
 ---
 # <a name="how-to-import-a-biztalk-application"></a><span data-ttu-id="9969c-102">Cómo importar una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="9969c-102">How to Import a BizTalk Application</span></span>
 <span data-ttu-id="9969c-103">En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o la línea de comandos para importar una aplicación de BizTalk en un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="9969c-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or the command line import a BizTalk application into a BizTalk group.</span></span> <span data-ttu-id="9969c-104">La importación de una aplicación de BizTalk registra los artefactos en la base de datos de administración de BizTalk y escribe los datos de aquéllos en las bases de datos de BizTalk apropiadas.</span><span class="sxs-lookup"><span data-stu-id="9969c-104">Importing a BizTalk application registers the artifacts in the BizTalk Management database and writes the data of the artifacts to the appropriate BizTalk databases.</span></span> <span data-ttu-id="9969c-105">Para obtener más información, consulte [¿qué ocurre cuando artefactos se importarán](../core/what-happens-when-artifacts-are-imported.md).</span><span class="sxs-lookup"><span data-stu-id="9969c-105">For details, see [What Happens When Artifacts Are Imported](../core/what-happens-when-artifacts-are-imported.md).</span></span> <span data-ttu-id="9969c-106">Cuando se instala una aplicación, ésta no se instala.</span><span class="sxs-lookup"><span data-stu-id="9969c-106">Importing an application does not install the application.</span></span> <span data-ttu-id="9969c-107">Antes de poder ejecutar una aplicación que incluya artefactos basados en archivos, es preciso instalarla.</span><span class="sxs-lookup"><span data-stu-id="9969c-107">You must install an application that includes file-based artifacts before it can run.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Crear un entorno de alta disponibilidad BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, high availability
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - clustering, databases
 - installation, availability
 ms.assetid: 758eb3bd-a25b-4863-a4ca-d7a1635f7542
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239404"
 ---
 # <a name="creating-a-highly-available-biztalk-server-environment"></a><span data-ttu-id="fc25d-102">Crear un entorno de BizTalk Server de alta disponibilidad</span><span class="sxs-lookup"><span data-stu-id="fc25d-102">Creating a Highly Available BizTalk Server Environment</span></span>
 <span data-ttu-id="fc25d-103">Esta sección describe cómo proporcionar alta disponibilidad para los datos y las comunicaciones en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cuando se integra diversos sistemas y aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="fc25d-103">This section describes how to provide high availability for the data and communications in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when integrating disparate systems and applications.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="fc25d-104">separa los datos de los hosts que procesan los datos, lo que permite resolver problemas ajustando la escala de las bases de datos de disponibilidad y hospeda de forma independiente.</span><span class="sxs-lookup"><span data-stu-id="fc25d-104"> separates the data from the hosts that process the data, enabling you to resolve availability issues by scaling the databases and hosts independently.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo enumerar los cambios en la infraestructura de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo enumerar los cambios en la infraestructura de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definitions [BAM], listing infrastructure changes
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Get-Changes command [BAM]
 - infrastructure, listing changes [BAM]
 ms.assetid: 3feacd7d-6f42-4626-835b-0dc3befc9fd6
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253924"
 ---
 # <a name="how-to-list-changes-to-the-bam-infrastructure"></a><span data-ttu-id="097a7-102">Cómo enumerar cambios en la estructura de BAM</span><span class="sxs-lookup"><span data-stu-id="097a7-102">How to List Changes to the BAM Infrastructure</span></span>
 <span data-ttu-id="097a7-103">Los administradores utilizan el **get-changes** comando de la utilidad de administración de BAM para enumerar información actual acerca de una definición de BAM implementada.</span><span class="sxs-lookup"><span data-stu-id="097a7-103">Administrators use the **get-changes** command of the BAM Management utility to list current information about a deployed BAM definition.</span></span> <span data-ttu-id="097a7-104">También puede utilizar el comando get-changes para enumerar los artefactos de implementación en la base de datos de importación principal de BAM.</span><span class="sxs-lookup"><span data-stu-id="097a7-104">You can also use the get-changes command to list current deployment artifacts in the BAM Primary Import database.</span></span>  

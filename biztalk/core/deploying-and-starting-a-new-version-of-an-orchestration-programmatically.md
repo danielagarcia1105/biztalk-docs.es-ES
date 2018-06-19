@@ -1,14 +1,14 @@
 ---
-title: "Implementar e iniciar una nueva versión de una orquestación mediante programación | Documentos de Microsoft"
-ms.custom: 
+title: Implementar e iniciar una nueva versión de una orquestación mediante programación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f90025ec-3641-49ef-8918-88238d6ad420
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239028"
 ---
 # <a name="deploying-and-starting-a-new-version-of-an-orchestration-programmatically"></a><span data-ttu-id="04c2d-102">Implementar e iniciar una nueva versión de una orquestación mediante programación</span><span class="sxs-lookup"><span data-stu-id="04c2d-102">Deploying and Starting a New Version of an Orchestration Programmatically</span></span>
 <span data-ttu-id="04c2d-103">El código de este tema ilustra cómo implementar e iniciar una nueva versión de la orquestación rápidamente.</span><span class="sxs-lookup"><span data-stu-id="04c2d-103">The code in this topic illustrates how to quickly deploy and start a new version of the orchestration.</span></span> <span data-ttu-id="04c2d-104">Puesto que las operaciones manuales pueden tardar varios segundos en llevarse a cabo, dar de baja una orquestación manualmente y después iniciar una nueva versión de ésta puede producir mensajes suspendidos o duplicados.</span><span class="sxs-lookup"><span data-stu-id="04c2d-104">Because manual operations can take a few seconds to perform, manually unenlisting an orchestration and then starting a new version of it can result in suspended or duplicate messages.</span></span> <span data-ttu-id="04c2d-105">El método mediante programación que se ilustra en este tema le permite llevar a cabo estas operaciones de un modo mucho más rápido y como una sola transacción, lo que reduce las probabilidades de generar mensajes suspendidos y duplicados, de modo que, si se produce un error en una transacción, ambas orquestaciones se mantienen en el estado que tenían al principio.</span><span class="sxs-lookup"><span data-stu-id="04c2d-105">The programmatic method illustrated in this topic allows you to perform these operations much more quickly – reducing the likelihood of suspended and duplicate messages – and as a single transaction, so that if one operation fails, both orchestrations are left in the same state as they were at the beginning.</span></span>  

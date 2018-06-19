@@ -1,18 +1,18 @@
 ---
-title: "Nodos de referencia de dirección URL de documento | Documentos de Microsoft"
-ms.custom: 
+title: Nodos de referencia de dirección URL de documento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Document Reference URL nodes [Tracking Profile Editor]
 - Tracking Profile Editor, node descriptions
 - definition files [BAM], related documents
 ms.assetid: 38c8ae50-ed56-451c-9549-db852d4770e5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238972"
 ---
 # <a name="document-reference-url-nodes"></a><span data-ttu-id="b871b-102">Nodos de URL de referencia de documento</span><span class="sxs-lookup"><span data-stu-id="b871b-102">Document Reference URL Nodes</span></span>
 <span data-ttu-id="b871b-103">Existen nodos de URL de referencia de documento en el archivo de definición de actividad que el programador importa desde el trabajador del conocimiento que creó el modelo de observación.</span><span class="sxs-lookup"><span data-stu-id="b871b-103">Document Reference URL nodes exist in the activity definition file that the developer imports from the knowledge worker created observation model.</span></span> <span data-ttu-id="b871b-104">Los nodos de URL de referencia de documento incluyen referencias a la ubicación que contiene un documento que está relacionado con esta actividad.</span><span class="sxs-lookup"><span data-stu-id="b871b-104">Document Reference URL nodes contain references to a location that contains a document that is related to this activity.</span></span> <span data-ttu-id="b871b-105">Puede ser cualquier tipo de documento, por ejemplo, una actividad que representa un flujo de trabajo de aprobación de pedido, y puede que la URL de referencia de documento señale al documento de pedido subyacente.</span><span class="sxs-lookup"><span data-stu-id="b871b-105">This can be any type of document, for example an activity that represents a purchase order approval work flow, the Document Reference URL might point to the underlying purchase order document.</span></span>  

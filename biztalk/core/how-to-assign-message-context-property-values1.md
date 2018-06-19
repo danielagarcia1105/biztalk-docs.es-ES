@@ -1,14 +1,14 @@
 ---
-title: "Cómo asignar Values1 de propiedad de contexto de mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar Values1 de propiedad de contexto de mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7e76c62-3110-482c-8083-84d411e6f475
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247308"
 ---
 # <a name="how-to-assign-message-context-property-values"></a><span data-ttu-id="9a0d5-102">Cómo asignar valores de propiedad de contexto de mensaje</span><span class="sxs-lookup"><span data-stu-id="9a0d5-102">How to Assign Message Context Property Values</span></span>
 <span data-ttu-id="9a0d5-103">Para administrar la sesión de conexión del adaptador de J.D. Edwards EnterpriseOne a partir de una orquestación de BizTalk, debe agregar la referencia a Microsoft.BizTalk.Adapters.JDEProperties.dll al proyecto.</span><span class="sxs-lookup"><span data-stu-id="9a0d5-103">To manage the JD Edwards EnterpriseOne Adapter connection session from a BizTalk orchestration, you must add the reference to Microsoft.BizTalk.Adapters.JDEProperties.dll in your project.</span></span> <span data-ttu-id="9a0d5-104">Este ensamblado se encuentra en %SystemDrive%\Archivos de programa\Archivos comunes\Microsoft BizTalk Adapters for Enterprise Applications\bin.</span><span class="sxs-lookup"><span data-stu-id="9a0d5-104">This assembly is located in %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.</span></span>  

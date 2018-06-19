@@ -1,17 +1,17 @@
 ---
-title: "Componente de canalización de ensamblador de archivos planos | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de ensamblador de archivos planos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, Flat File Assembler
 - Flat File Assembler [pipeline component]
 ms.assetid: 3c851771-55b2-4d21-9291-d707dd66837c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245868"
 ---
 # <a name="flat-file-assembler-pipeline-component"></a><span data-ttu-id="5ec7b-102">Componente de canalización de ensamblador de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="5ec7b-102">Flat File Assembler Pipeline Component</span></span>
 <span data-ttu-id="5ec7b-103">Un ensamblador de archivo sin formato combina documentos individuales en un lote y, opcionalmente, le agrega un encabezado o finalizador (o ambos).</span><span class="sxs-lookup"><span data-stu-id="5ec7b-103">A Flat File Assembler combines individual documents into a batch and optionally adds a header or trailer (or both) to it.</span></span> <span data-ttu-id="5ec7b-104">Para obtener más información acerca de los archivos sin formato, vea [mensajes de archivo sin formato con registros delimitados](../core/flat-file-messages-with-delimited-records.md).</span><span class="sxs-lookup"><span data-stu-id="5ec7b-104">For more information about flat files, see [Flat File Messages with Delimited Records](../core/flat-file-messages-with-delimited-records.md).</span></span> <span data-ttu-id="5ec7b-105">Consulte también [mensajes de archivo sin formato con registros posicionales](../core/flat-file-messages-with-positional-records.md).</span><span class="sxs-lookup"><span data-stu-id="5ec7b-105">Also see [Flat File Messages with Positional Records](../core/flat-file-messages-with-positional-records.md).</span></span>  

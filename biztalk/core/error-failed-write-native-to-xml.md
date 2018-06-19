@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239812"
 ---
 # <a name="error---failed-write-native-to-xml"></a><span data-ttu-id="a0a6a-102">Error: no se pudo escribir el nativo en XML</span><span class="sxs-lookup"><span data-stu-id="a0a6a-102">Error - Failed Write Native to XML</span></span>
 <span data-ttu-id="a0a6a-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="a0a6a-103">**Error Code**</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Controlar el flujo en el adaptador de BizTalk para JD Edwards OneWorld | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection pooling
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - apartment threading
 - apartment threading, business functions
 ms.assetid: 1ec865d0-2257-453b-9230-1f3787ebac38
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237980"
 ---
 # <a name="control-flow-in-biztalk-adapter-for-jd-edwards-oneworld"></a><span data-ttu-id="e3f92-102">Control del flujo del adaptador de BizTalk para JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="e3f92-102">Control Flow in BizTalk Adapter for JD Edwards OneWorld</span></span>
 <span data-ttu-id="e3f92-103">En este tema se tratan los flujos de control de tiempo de diseño y de tiempo de ejecución en el Adaptador de Microsoft BizTalk para JD Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="e3f92-103">This topic discusses the design time and run-time control flows in Microsoft BizTalk Adapter for JD Edwards OneWorld.</span></span>  

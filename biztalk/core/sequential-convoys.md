@@ -1,17 +1,17 @@
 ---
 title: Convoyes secuenciales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - convoy sets
 - correlation sets, sequential receive tasks
 ms.assetid: f05ff42c-2236-42a3-8166-19700e0c3d97
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271588"
 ---
 # <a name="sequential-convoys"></a><span data-ttu-id="b3d60-102">Convoyes secuenciales</span><span class="sxs-lookup"><span data-stu-id="b3d60-102">Sequential Convoys</span></span>
 <span data-ttu-id="b3d60-103">Un convoy secuencial permite unir varios mensajes individuales para obtener un resultado necesario.</span><span class="sxs-lookup"><span data-stu-id="b3d60-103">A sequential convoy enables multiple single messages to join together to achieve a required result.</span></span> <span data-ttu-id="b3d60-104">Un convoy secuencial es un conjunto de mensajes relacionados que tienen un orden predefinido.</span><span class="sxs-lookup"><span data-stu-id="b3d60-104">A sequential convoy is a set of related messages that have a predefined order.</span></span> <span data-ttu-id="b3d60-105">Aunque los mensajes no tienen que ser exactamente iguales, BizTalk Server debe recibirlos en orden secuencial.</span><span class="sxs-lookup"><span data-stu-id="b3d60-105">Although the messages do not have to be exactly the same, BizTalk Server must receive them in a sequential order.</span></span>  

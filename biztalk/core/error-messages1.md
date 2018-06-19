@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241620"
 ---
 # <a name="error-messages"></a><span data-ttu-id="05008-102">mensajes de error</span><span class="sxs-lookup"><span data-stu-id="05008-102">Error Messages</span></span>
 <span data-ttu-id="05008-103">En la tabla siguiente se describen los mensajes de error del sistema JD Edwards EnterpriseOne y se proporcionan posibles correcciones para ellos.</span><span class="sxs-lookup"><span data-stu-id="05008-103">The following table describes error messages in the JD Edwards EnterpriseOne system and provides possible corrections for them.</span></span>  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, .NET assemblies
 - .NET assemblies, adding to applications
 ms.assetid: 75dc3303-a622-40df-881e-3109cbc81c91
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22249236"
 ---
 # <a name="how-to-add-a-net-assembly-to-an-application"></a><span data-ttu-id="a46cb-102">Cómo agregar un ensamblado .NET a una aplicación</span><span class="sxs-lookup"><span data-stu-id="a46cb-102">How to Add a .NET Assembly to an Application</span></span>
 <span data-ttu-id="a46cb-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un ensamblado .NET (que no sea un ensamblado de BizTalk) a una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a46cb-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a .NET assembly that is not a BizTalk assembly to a BizTalk application.</span></span> <span data-ttu-id="a46cb-104">Al agregar un ensamblado .NET a una aplicación, tenga en cuenta que los siguientes puntos son importantes:</span><span class="sxs-lookup"><span data-stu-id="a46cb-104">When adding a .NET assembly to an application, bear in mind the following important points:</span></span>  
@@ -76,7 +77,7 @@ ms.lasthandoff: 03/23/2018
   
 2.  <span data-ttu-id="a46cb-145">Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación.</span><span class="sxs-lookup"><span data-stu-id="a46cb-145">Type the following command, substituting the appropriate values, as described in the following table.</span></span>  
   
-     <span data-ttu-id="a46cb-146">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**&#124;**RegasmOnInstall**&#124;**RegsvcsOnInstall**] [**/Server:***value*] [**/Database:***value*]</span><span class="sxs-lookup"><span data-stu-id="a46cb-146">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**&#124;**RegasmOnInstall**&#124;**RegsvcsOnInstall**] [**/Server:***value*] [**/Database:***value*]</span></span>  
+     <span data-ttu-id="a46cb-146">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly** [**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **&#124;** RegasmOnInstall **&#124;** RegsvcsOnInstall **] [**/Server:***value*] [**/Database:*** value*]</span><span class="sxs-lookup"><span data-stu-id="a46cb-146">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly** [**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **&#124;** RegasmOnInstall **&#124;** RegsvcsOnInstall **] [**/Server:***value*] [**/Database:*** value*]</span></span>  
   
      <span data-ttu-id="a46cb-147">Ejemplo:</span><span class="sxs-lookup"><span data-stu-id="a46cb-147">Example:</span></span>  
   

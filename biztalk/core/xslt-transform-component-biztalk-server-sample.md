@@ -1,11 +1,11 @@
 ---
 title: XSLT transformar el componente (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - XSLT, examples
 - examples, XSLT
 ms.assetid: 9152e897-4db9-4924-b37e-fd9e908dbef1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974930"
 ---
 # <a name="xslt-transform-component-biztalk-server-sample"></a><span data-ttu-id="0ce99-102">Componente de transformación de XSLT (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="0ce99-102">XSLT Transform Component (BizTalk Server Sample)</span></span>
 <span data-ttu-id="0ce99-103">El ejemplo de componente de transformación de XSLT muestra cómo escribir un componente de canalización personalizado que modifique un mensaje XML mediante XSLT.</span><span class="sxs-lookup"><span data-stu-id="0ce99-103">The XSLT Transform Component sample demonstrates how to write a custom pipeline component to transform an XML message using XSLT.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/28/2017
 2.  <span data-ttu-id="0ce99-107">La canalización transforma el documento XML en el cuerpo de HTML de un mensaje de correo electrónico mediante Transform.xsl.</span><span class="sxs-lookup"><span data-stu-id="0ce99-107">The pipeline transforms the XML document into the HTML body of an e-mail message using Transform.xsl.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="0ce99-108">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="0ce99-108">Where to Find This Sample</span></span>  
- <span data-ttu-id="0ce99-109">*\<Ejemplos de ruta de acceso\>*\Pipelines\XslTransformComponent\\</span><span class="sxs-lookup"><span data-stu-id="0ce99-109">*\<Samples Path\>*\Pipelines\XslTransformComponent\\</span></span>  
+ <span data-ttu-id="0ce99-109">*\<Ejemplos de ruta de acceso\>* \Pipelines\XslTransformComponent\\</span><span class="sxs-lookup"><span data-stu-id="0ce99-109">*\<Samples Path\>* \Pipelines\XslTransformComponent\\</span></span>  
   
  <span data-ttu-id="0ce99-110">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="0ce99-110">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="0ce99-140">En una ventana de comandos, cambie el directorio (**cd)** a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="0ce99-140">In a command window, change directory (**cd)** to the following folder:</span></span>  
   
-     <span data-ttu-id="0ce99-141">*\<Ejemplos de ruta de acceso\>*\Pipelines\XslTransformComponent</span><span class="sxs-lookup"><span data-stu-id="0ce99-141">*\<Samples Path\>*\Pipelines\XslTransformComponent</span></span>  
+     <span data-ttu-id="0ce99-141">*\<Ejemplos de ruta de acceso\>* \Pipelines\XslTransformComponent</span><span class="sxs-lookup"><span data-stu-id="0ce99-141">*\<Samples Path\>* \Pipelines\XslTransformComponent</span></span>  
   
 2.  <span data-ttu-id="0ce99-142">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="0ce99-142">Run the file Setup.bat, which performs the following actions:</span></span>  
   

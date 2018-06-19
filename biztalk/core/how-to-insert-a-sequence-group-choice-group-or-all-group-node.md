@@ -1,14 +1,14 @@
 ---
-title: "Cómo insertar un grupo de secuencias, grupo de elecciones o nodo de todos los grupos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo insertar un grupo de secuencias, grupo de elecciones o nodo de todos los grupos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19aee400-1369-4310-b1b4-1bfeb2643236
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254844"
 ---
 # <a name="how-to-insert-a-sequence-group-choice-group-or-all-group-node"></a><span data-ttu-id="8e6fc-102">Cómo insertar un grupo de secuencias, grupo de elecciones o nodo de todos los grupos</span><span class="sxs-lookup"><span data-stu-id="8e6fc-102">How to Insert a Sequence Group, Choice Group, or All Group Node</span></span>
 <span data-ttu-id="8e6fc-103">El Editor de BizTalk admite tres tipos de nodos de grupo para los elementos: **grupo de secuencias**, **grupo de elecciones**, y **todos los grupos**.</span><span class="sxs-lookup"><span data-stu-id="8e6fc-103">BizTalk Editor supports three types of group nodes for elements: **Sequence Group**, **Choice Group**, and **All Group**.</span></span> <span data-ttu-id="8e6fc-104">Estos tipos de nodos de grupo establecen distintas restricciones en los nodos secundarios del grupo de los mensajes de instancia correspondientes.</span><span class="sxs-lookup"><span data-stu-id="8e6fc-104">These different types of group nodes establish different constraints on the child nodes of the group in corresponding instance messages.</span></span> <span data-ttu-id="8e6fc-105">Para obtener información acerca de las restricciones de estos tipos de nodos de grupo, consulte directamente la información disponible en Internet sobre el lenguaje de definición de esquemas XML (XSD).</span><span class="sxs-lookup"><span data-stu-id="8e6fc-105">For information about the constraints of these different types of groups, you should refer directly to information about the XML Schema definition (XSD) language on the Web.</span></span> <span data-ttu-id="8e6fc-106">Para obtener vínculos a esta información, consulte [recursos XSD en Internet](../core/xsd-resources-on-the-web.md).</span><span class="sxs-lookup"><span data-stu-id="8e6fc-106">For links to this information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).</span></span>  

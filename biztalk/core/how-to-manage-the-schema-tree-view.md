@@ -1,14 +1,14 @@
 ---
-title: "Cómo administrar la vista de árbol de esquema | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar la vista de árbol de esquema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97fb7a88-e38a-4abb-93bc-a5be1bd091e6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254908"
 ---
 # <a name="how-to-manage-the-schema-tree-view"></a><span data-ttu-id="3b391-102">Cómo administrar la vista de árbol de esquema</span><span class="sxs-lookup"><span data-stu-id="3b391-102">How to Manage the Schema Tree View</span></span>
 <span data-ttu-id="3b391-103">Tareas de administración con respecto a la vista de árbol de esquema pueden dividirse en cuatro categorías: cambiar el tamaño, cambiar el color de fondo y la fuente, cambiar su uso de los cuadros de diálogo de advertencia y expandir y contraer la estructura del árbol.</span><span class="sxs-lookup"><span data-stu-id="3b391-103">Management tasks with respect to the schema tree view can be divided into four categories: changing its size, changing its background color and font, changing its use of warning dialogs, and expanding and collapsing its tree structure.</span></span> <span data-ttu-id="3b391-104">Este tema proporciona instrucciones paso a paso para esta serie de tareas.</span><span class="sxs-lookup"><span data-stu-id="3b391-104">This topic provides step-by-step instructions for these various tasks.</span></span>  

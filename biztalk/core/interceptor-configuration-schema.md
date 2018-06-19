@@ -1,14 +1,14 @@
 ---
-title: "Esquema de configuración de interceptor | Documentos de Microsoft"
-ms.custom: 
+title: Esquema de configuración de interceptor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be33b0a4-49ea-48c8-8ae9-b050b6047cda
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257660"
 ---
 # <a name="interceptor-configuration-schema"></a><span data-ttu-id="a841b-102">Esquema de configuración del interceptor</span><span class="sxs-lookup"><span data-stu-id="a841b-102">Interceptor Configuration Schema</span></span>
 <span data-ttu-id="a841b-103">Esta sección contiene el esquema de configuración habitual del interceptor.</span><span class="sxs-lookup"><span data-stu-id="a841b-103">This section contains the common interceptor configuration schema.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239340"
 ---
 # <a name="distributionlist-distributionlistcollection-node"></a><span data-ttu-id="23683-102">DistributionList (nodo DistributionListCollection)</span><span class="sxs-lookup"><span data-stu-id="23683-102">DistributionList (DistributionListCollection Node)</span></span>
 <span data-ttu-id="23683-103">El nodo DistributionList de un archivo de enlace contiene información específica acerca de una lista de distribución que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="23683-103">The DistributionList node of a binding file contains specific information about a distribution list that is exported with the binding file.</span></span> <span data-ttu-id="23683-104">A una lista de distribución se hace referencia como un grupo de puertos de envío en el administrador de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="23683-104">A distribution list is referred to as a send port group in the BizTalk Server Administrator.</span></span>  

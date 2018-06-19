@@ -1,14 +1,14 @@
 ---
-title: "Componentes de recepción EDI | Documentos de Microsoft"
-ms.custom: 
+title: Componentes de recepción EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d3b82e8-1168-4c2c-bf1a-886b43ff8108
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241700"
 ---
 # <a name="edi-receive-components"></a><span data-ttu-id="38b7e-102">Componentes de recepción de EDI</span><span class="sxs-lookup"><span data-stu-id="38b7e-102">EDI Receive Components</span></span>
 <span data-ttu-id="38b7e-103">La canalización y los componentes de canalización descritos en este tema procesan los mensajes EDI que no son mensajes EDI o AS2.</span><span class="sxs-lookup"><span data-stu-id="38b7e-103">The pipeline and pipeline components described in this topic process EDI messages that are not EDI/AS2 messages.</span></span> <span data-ttu-id="38b7e-104">Para obtener información acerca del procesamiento de EDI o AS2 recibidos o mensajes que no sean EDI o AS2, vea [componentes de recepción de AS2](../core/as2-receive-components.md).</span><span class="sxs-lookup"><span data-stu-id="38b7e-104">For information about the processing of received EDI/AS2 or non-EDI/AS2 messages, see [AS2 Receive Components](../core/as2-receive-components.md).</span></span> <span data-ttu-id="38b7e-105">Tenga en cuenta que los componentes de recepción de AS2 realizan procesamiento de EDI además del de AS2.</span><span class="sxs-lookup"><span data-stu-id="38b7e-105">Note that AS2 receive components perform EDI processing in addition to AS2 processing.</span></span>  

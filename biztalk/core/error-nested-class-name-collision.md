@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240948"
 ---
 # <a name="error---nested-class-name-collision"></a><span data-ttu-id="faa22-102">Error: colisión de nombre de clase anidada</span><span class="sxs-lookup"><span data-stu-id="faa22-102">Error - Nested Class Name Collision</span></span>
 <span data-ttu-id="faa22-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="faa22-103">**Error Code**</span></span>  

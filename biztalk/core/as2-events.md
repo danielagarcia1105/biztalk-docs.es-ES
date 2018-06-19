@@ -1,14 +1,14 @@
 ---
 title: AS2 Eventos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c9de140d-8961-4c19-a2e5-14631016541f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233596"
 ---
 # <a name="as2-events"></a><span data-ttu-id="e357c-102">Eventos de AS2</span><span class="sxs-lookup"><span data-stu-id="e357c-102">AS2 Events</span></span>
 <span data-ttu-id="e357c-103">La tabla siguiente lista mensajes de eventos que se pueden publicar en el registro de eventos durante el procesamiento de AS2.</span><span class="sxs-lookup"><span data-stu-id="e357c-103">The following table lists event messages that may be posted in the event log during AS2 processing.</span></span>  

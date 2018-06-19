@@ -1,17 +1,17 @@
 ---
-title: "Componente de canalización de descodificador de MIME-SMIME | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de descodificador de MIME-SMIME | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, MIME/SMIME Decoder
 - MIME/SMIME Decoder [pipeline component]
 ms.assetid: ff6c963c-1b5c-4be4-9eef-3ec9a018e7fd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263228"
 ---
 # <a name="mime-smime-decoder-pipeline-component"></a><span data-ttu-id="19ca5-102">Componente de canalización de descodificador de MIME-SMIME</span><span class="sxs-lookup"><span data-stu-id="19ca5-102">MIME-SMIME Decoder Pipeline Component</span></span>
 <span data-ttu-id="19ca5-103">El componente de descodificador de MIME/SMIME proporciona funcionalidad de descodificación MIME para los mensajes.</span><span class="sxs-lookup"><span data-stu-id="19ca5-103">The MIME/SMIME Decoder component provides MIME decoding functionality for messages.</span></span> <span data-ttu-id="19ca5-104">Este componente de canalización puede situarse en la fase de decodificación de una canalización de recepción, y admite decodificación de 7bits, 8bits, binaria, quoted-printable, UUEncode y base64.</span><span class="sxs-lookup"><span data-stu-id="19ca5-104">This pipeline component can be placed into the Decode stage of a receive pipeline, and it supports 7bit, 8bit, binary, quoted-printable, UUEncode, and base64 decoding.</span></span> <span data-ttu-id="19ca5-105">Los cambios del juego de caracteres de datos localizados no afectarán a la descodificación.</span><span class="sxs-lookup"><span data-stu-id="19ca5-105">Localized data character set changes will not affect the decoding.</span></span>  

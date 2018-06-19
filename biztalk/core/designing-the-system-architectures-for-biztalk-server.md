@@ -1,17 +1,17 @@
 ---
-title: "Diseñar las arquitecturas de sistema de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Diseñar las arquitecturas de sistema de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, security
 - security, deploying
 ms.assetid: b7ded72a-2487-4bb7-9894-cd13235a52c7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239276"
 ---
 # <a name="designing-the-system-architectures-for-biztalk-server"></a><span data-ttu-id="432d9-102">Diseñar las arquitecturas del sistema de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="432d9-102">Designing the System Architectures for BizTalk Server</span></span>
 <span data-ttu-id="432d9-103">Los requisitos de la implementación de Microsoft® BizTalk® Server en cuanto a seguridad, rendimiento, disponibilidad y funcionamiento dependen en gran medida de las necesidades, los requisitos, los socios comerciales, el tamaño, etc., de la empresa.</span><span class="sxs-lookup"><span data-stu-id="432d9-103">The requirements of your Microsoft® BizTalk® Server deployment for security, performance, availability, and operation are highly dependent on your business needs, requirements, partners, company size, and so on.</span></span> <span data-ttu-id="432d9-104">Aunque es difícil considerar una configuración cualquiera de componentes de BizTalk Server como típica y proporcionar instrucciones para ella, en esta sección se proporcionan instrucciones y recomendaciones sobre cómo configurar las distintas características de BizTalk Server en una configuración segura distribuida para el entorno de producción de una empresa de gran tamaño.</span><span class="sxs-lookup"><span data-stu-id="432d9-104">While it is difficult to consider any single configuration of BizTalk Server components as typical and provide prescriptive guidance for it, this section provides guidance and recommendations on how to configure the different BizTalk Server features in a distributed, secure configuration for the production environment of a large enterprise.</span></span>  

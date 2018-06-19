@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar el servidor BizTalk Server para recibir mensajes cifrados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el servidor BizTalk Server para recibir mensajes cifrados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bd1e7e4c-f80c-468e-aa86-7c18406feead
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249772"
 ---
 # <a name="how-to-configure-biztalk-server-for-receiving-encrypted-messages"></a><span data-ttu-id="4c53d-102">Cómo configurar BizTalk Server para la recepción de mensajes cifrados</span><span class="sxs-lookup"><span data-stu-id="4c53d-102">How to Configure BizTalk Server for Receiving Encrypted Messages</span></span>
 <span data-ttu-id="4c53d-103">En el siguiente procedimiento se enumeran los pasos que debe seguir para configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes cifrados.</span><span class="sxs-lookup"><span data-stu-id="4c53d-103">The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive encrypted messages.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246500"
 ---
 # <a name="how-environment-variables-indicate-deployment-state"></a><span data-ttu-id="e2184-102">Cómo las variables de entorno indican el estado de la implementación</span><span class="sxs-lookup"><span data-stu-id="e2184-102">How Environment Variables Indicate Deployment State</span></span>
 <span data-ttu-id="e2184-103">Una vez invocada, una secuencia de comandos previa o posterior al procesamiento puede determinar el estado de implementación (instalar, importar, eliminar, desinstalar, deshacer importación o deshacer instalación) que se está ejecutando mediante la comprobación de las variables de entorno BTAD_ChangeRequestAction, BTAD_InstallMode y BTAD_HostClass.</span><span class="sxs-lookup"><span data-stu-id="e2184-103">Once invoked, a pre- or post-processing script can determine in which deployment state (install, import, delete, uninstall, import rollback, or install rollback) it is running by checking the environment variables BTAD_ChangeRequestAction, BTAD_InstallMode and BTAD_HostClass.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240556"
 ---
 # <a name="error---map-needs-to-be-migrated"></a><span data-ttu-id="e6855-102">Error: asignación debe migrar</span><span class="sxs-lookup"><span data-stu-id="e6855-102">Error - Map Needs to be Migrated</span></span>
 <span data-ttu-id="e6855-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="e6855-103">**Error Code**</span></span>  

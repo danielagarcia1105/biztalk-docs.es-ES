@@ -1,14 +1,14 @@
 ---
 title: Elemento estructural de EDI grupo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 100a7118-9c02-474e-8685-9e4bb6f52e81
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242524"
 ---
 # <a name="edi-group-structural-element"></a><span data-ttu-id="9a55b-102">Elemento estructural de grupo EDI</span><span class="sxs-lookup"><span data-stu-id="9a55b-102">EDI Group Structural Element</span></span>
 <span data-ttu-id="9a55b-103">El grupo contiene uno o más conjuntos de transacciones.</span><span class="sxs-lookup"><span data-stu-id="9a55b-103">The group contains one or more transaction sets.</span></span> <span data-ttu-id="9a55b-104">Un grupo de EDIFACT debe contener conjuntos de transacciones del mismo tipo.</span><span class="sxs-lookup"><span data-stu-id="9a55b-104">An EDIFACT group must contain transaction sets of the same type.</span></span> <span data-ttu-id="9a55b-105">Un grupo de X12 puede contener conjuntos de transacciones de tipo similar (en función de la asignación de conjunto de transacciones - grupo (GS01-ST01)) o conjuntos de transacciones del mismo tipo.</span><span class="sxs-lookup"><span data-stu-id="9a55b-105">An X12 group may contain transaction sets of similar type (based on the transaction set – group (GS01-ST01) mapping) or transaction sets of the same type.</span></span> <span data-ttu-id="9a55b-106">La tabla siguiente conjuntos de transacciones de listas X12 similar (ST01), que pueden incluirse en un único grupo (GS01).</span><span class="sxs-lookup"><span data-stu-id="9a55b-106">The table below lists similar X12 transaction sets (ST01), which can occur together in a single group (GS01).</span></span>  

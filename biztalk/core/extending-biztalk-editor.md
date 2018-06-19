@@ -1,14 +1,14 @@
 ---
 title: Extender el Editor de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77c93ab2-0a9b-4c9d-81e5-3871fc8e6e13
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246244"
 ---
 # <a name="extending-biztalk-editor"></a><span data-ttu-id="83760-102">Extender el Editor de BizTalk</span><span class="sxs-lookup"><span data-stu-id="83760-102">Extending BizTalk Editor</span></span>
 <span data-ttu-id="83760-103">El Editor de BizTalk está diseñado para permitir extensiones que sean compatibles con formatos alternativos de mensajes de instancia.</span><span class="sxs-lookup"><span data-stu-id="83760-103">BizTalk Editor is designed to allow extensions that support alternative instance message formats.</span></span> <span data-ttu-id="83760-104">De hecho, el formato XML es el único formato integrado en el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="83760-104">In fact, the XML format is the only format that is built into BizTalk Editor.</span></span> <span data-ttu-id="83760-105">Incluso la compatibilidad de los formatos de archivo sin formato, que se incluye en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], está implementada como una extensión del Editor de BizTalk, y sirve por tanto como ejemplo del tipo de funcionalidad que se puede agregar con tales extensiones.</span><span class="sxs-lookup"><span data-stu-id="83760-105">Even support for flat file formats, which is included in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], is implemented as a BizTalk Editor extension, thereby serving as a good example of the type of functionality that can be added by such extensions.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Configurar propiedades de AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a28531d-da25-4f31-a822-734644d4bbd8
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232756"
 ---
 # <a name="configuring-as2-properties"></a><span data-ttu-id="8de7d-102">Configuración de las propiedades AS2</span><span class="sxs-lookup"><span data-stu-id="8de7d-102">Configuring AS2 Properties</span></span>
 <span data-ttu-id="8de7d-103">BizTalk Server utiliza propiedades de AS2 para procesar mensajes codificados EDIINT/AS2 entrantes y salientes a través del transporte HTTP/HTTPS.</span><span class="sxs-lookup"><span data-stu-id="8de7d-103">BizTalk Server uses AS2 properties to process incoming and outgoing EDIINT/AS2-encoded messages over HTTP/HTTPS transport.</span></span> <span data-ttu-id="8de7d-104">En esta sección se describe cómo crear entidades para el transporte de mensajes AS2 y cómo crear acuerdos de AS2 entre las entidades.</span><span class="sxs-lookup"><span data-stu-id="8de7d-104">This section describes how to create parties for AS2 message transport and how to create AS2 agreements between the parties.</span></span>  

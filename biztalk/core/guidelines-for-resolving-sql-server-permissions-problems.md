@@ -1,14 +1,14 @@
 ---
 title: Directrices para solucionar problemas de permisos de SQL Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c24512-5f65-4363-b806-8dd52b22f179
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246908"
 ---
 # <a name="guidelines-for-resolving-sql-server-permissions-problems"></a><span data-ttu-id="aff05-102">Directrices para solucionar problemas de permisos de SQL Server</span><span class="sxs-lookup"><span data-stu-id="aff05-102">Guidelines for Resolving SQL Server Permissions Problems</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="aff05-103"> hace un gran uso de las bases de datos de Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] para operaciones en tiempo de ejecución y, por tanto, es importante que los permisos de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] se establezcan correctamente.</span><span class="sxs-lookup"><span data-stu-id="aff05-103"> makes extensive use of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] databases for run-time operations and as such, it is important that the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] permissions are set correctly.</span></span> <span data-ttu-id="aff05-104">Este tema proporciona directrices generales para minimizar los problemas con los permisos de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], así como los pasos que pueden seguirse para resolver los problemas de ese tipo de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] que afecten a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="aff05-104">This topic provides some general guidelines for minimizing [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] permissions problems and steps that you can follow to troubleshoot [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] permissions problems that affect [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

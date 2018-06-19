@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al crear planos esquemas de mensaje de archivo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52271b17-4f0b-4286-a462-cd5951ae49aa
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237900"
 ---
 # <a name="considerations-when-creating-flat-file-message-schemas"></a><span data-ttu-id="b5a95-102">Consideraciones al crear sin formato de archivo esquemas de mensaje</span><span class="sxs-lookup"><span data-stu-id="b5a95-102">Considerations When Creating Flat File Message Schemas</span></span>
 <span data-ttu-id="b5a95-103">Es necesario tener en cuenta una serie de cuestiones al trabajar con esquemas de mensajes de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="b5a95-103">There are a number of considerations when working with flat file message schemas.</span></span> <span data-ttu-id="b5a95-104">Esto incluye consideraciones aplicables a todos los esquemas de archivo sin formato, así como consideraciones que se aplican de forma específica a los registros posicionales, los registros delimitados, los campos posicionales o los campos delimitados.</span><span class="sxs-lookup"><span data-stu-id="b5a95-104">This includes considerations that apply to all flat file schemas, as well as considerations that apply specifically to positional records, delimited records, positional fields, or delimited fields.</span></span> <span data-ttu-id="b5a95-105">También existen consideraciones acerca de cómo interpretar de otro modo los caracteres especiales para que se consideren como datos normales.</span><span class="sxs-lookup"><span data-stu-id="b5a95-105">There are also considerations about how to interpret otherwise special characters as regular data.</span></span> <span data-ttu-id="b5a95-106">Esta sección proporciona información acerca de estas consideraciones.</span><span class="sxs-lookup"><span data-stu-id="b5a95-106">This section provides information about these considerations.</span></span>  

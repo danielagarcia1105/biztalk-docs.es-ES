@@ -1,14 +1,14 @@
 ---
-title: "Preguntas y respuestas de solución de problemas generales | Documentos de Microsoft"
-ms.custom: 
+title: Preguntas y respuestas de solución de problemas generales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2f89d92-0a97-4017-8b8e-6afd8b20eaf4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247108"
 ---
 # <a name="general-troubleshooting-questions-and-answers"></a><span data-ttu-id="96536-102">Preguntas y respuestas generales de solución de problemas</span><span class="sxs-lookup"><span data-stu-id="96536-102">General Troubleshooting Questions and Answers</span></span>
 <span data-ttu-id="96536-103">En este tema se incluyen preguntas y respuestas para ayudarle a resolver problemas con el Asignador de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="96536-103">This topic has questions and answers to help you resolve issues with the BizTalk Mapper.</span></span>  

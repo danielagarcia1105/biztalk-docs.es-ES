@@ -1,14 +1,14 @@
 ---
-title: "Cómo insertar un registro, el elemento de campo o el nodo de atributo de campo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo insertar un registro, el elemento de campo o el nodo de atributo de campo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c26f2281-f1b8-4788-8593-8d6ad29a53f0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255100"
 ---
 # <a name="how-to-insert-a-record-field-element-or-field-attribute-node"></a><span data-ttu-id="2f2af-102">Cómo insertar un registro, el elemento de campo o el nodo de atributo de campo</span><span class="sxs-lookup"><span data-stu-id="2f2af-102">How to Insert a Record, Field Element, or Field Attribute Node</span></span>
 <span data-ttu-id="2f2af-103">**Registro** nodos (incluyendo el **raíz** nodo), **atributo de campo** nodos, y **elemento de campo** nodos sean únicos en que puede cambiar el nombre para que sus nombres representan los nombres de los elementos reales, con nombre personalizado en un mensaje de instancia correspondiente.</span><span class="sxs-lookup"><span data-stu-id="2f2af-103">**Record** nodes (including the **Root** node), **Field Attribute** nodes, and **Field Element** nodes are unique in that they can be renamed so that their names represent the names of the actual, custom-named elements in a corresponding instance message.</span></span> <span data-ttu-id="2f2af-104">Por ejemplo, si asigna el nombre un **registro** nodo FullName, en la ubicación correspondiente en un mensaje de instancia que se espera un elemento XML denominado FullName.</span><span class="sxs-lookup"><span data-stu-id="2f2af-104">For example, if you name a **Record** node FullName, at the corresponding location in an instance message an XML element named FullName is expected.</span></span> <span data-ttu-id="2f2af-105">Si ese **registro** nodo denominado FullName tiene un elemento secundario **atributo de campo** nodo con el nombre RequireFullMiddleName (con sus **Min Occurs** y **Max Occurs** propiedades establecidas en **1**), el **FullName** elemento en un mensaje de instancia correspondiente deberá tener un atributo denominado **RequireFullMiddleName** asociados a él.</span><span class="sxs-lookup"><span data-stu-id="2f2af-105">If that **Record** node named FullName has a child **Field Attribute** node named RequireFullMiddleName (with its **Min Occurs** and **Max Occurs** properties set to **1**), the **FullName** element in a corresponding instance message will need to have an attribute named **RequireFullMiddleName** associated with it.</span></span>  

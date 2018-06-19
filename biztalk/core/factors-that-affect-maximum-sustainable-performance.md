@@ -1,11 +1,11 @@
 ---
-title: "Factores que influyen en el rendimiento máximo sostenible | Documentos de Microsoft"
-ms.custom: 
+title: Factores que influyen en el rendimiento máximo sostenible | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maximum sustainable throughput (MST), maintenance
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - maximum sustainable throughput (MST), sustainable load test
 - sustainable performance
 ms.assetid: 99b99655-bc77-425c-a133-204781d7c430
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245844"
 ---
 # <a name="factors-that-affect-maximum-sustainable-performance"></a><span data-ttu-id="06d97-102">Factores que afectan al rendimiento sostenible máximo</span><span class="sxs-lookup"><span data-stu-id="06d97-102">Factors that Affect Maximum Sustainable Performance</span></span>
 <span data-ttu-id="06d97-103">Una amplia gama de factores afecta al rendimiento sostenible máximo entre los que se incluyen los recursos de servidor disponibles, el tipo de características utilizadas en la solución, el tamaño de los mensajes y la carga global de mensajes.</span><span class="sxs-lookup"><span data-stu-id="06d97-103">Maximum sustainable throughput is directly impacted by a wide range of factors such as available server resources, the type of features used in the solution, message size, and overall message load.</span></span> <span data-ttu-id="06d97-104">Existen otros factores que se deben tener en cuanto aunque no sean tan evidentes.</span><span class="sxs-lookup"><span data-stu-id="06d97-104">There are other factors to be considered though that may not be immediately obvious.</span></span> <span data-ttu-id="06d97-105">A la hora de estimar el rendimiento sostenible máximo, también deben tenerse en cuenta los siguientes factores:</span><span class="sxs-lookup"><span data-stu-id="06d97-105">The following factors should also be considered when estimating maximum sustainable performance:</span></span>  

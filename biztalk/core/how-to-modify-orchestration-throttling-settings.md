@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254628"
 ---
 # <a name="how-to-modify-orchestration-throttling-settings"></a><span data-ttu-id="584e2-102">Modificación de la configuración de limitación de la orquestación</span><span class="sxs-lookup"><span data-stu-id="584e2-102">How to Modify Orchestration Throttling Settings</span></span>
 <span data-ttu-id="584e2-103">Mediante el uso del Panel de configuración de BizTalk, puede modificar la configuración de limitación de orquestación de un host dado en todo el Grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="584e2-103">Using the BizTalk Settings Dashboard, you can modify the orchestration throttling configuration settings of a given host, across the BizTalk Group.</span></span> <span data-ttu-id="584e2-104">Estas opciones se aplican a todas las instancias de host asignadas al host dado.</span><span class="sxs-lookup"><span data-stu-id="584e2-104">These settings apply to all host instances assigned to the given host.</span></span> <span data-ttu-id="584e2-105">En este tema se proporciona el procedimiento paso a paso para modificar esta configuración.</span><span class="sxs-lookup"><span data-stu-id="584e2-105">This topic provides the step-by-step procedure to modify these settings.</span></span>  

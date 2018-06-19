@@ -1,14 +1,14 @@
 ---
-title: "Configuración de reserva para el protocolo está en estado deshabilitado | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de reserva para el protocolo está en estado deshabilitado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f14a5e46-1028-4250-af7b-8137fa927d7e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245780"
 ---
 # <a name="fallback-settings-for-the-protocol-is-in-disabled-state"></a><span data-ttu-id="16133-102">La configuración de reserva para el protocolo tiene el estado Deshabilitado</span><span class="sxs-lookup"><span data-stu-id="16133-102">Fallback Settings for the Protocol is in Disabled state</span></span>
 ## <a name="details"></a><span data-ttu-id="16133-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="16133-103">Details</span></span>  

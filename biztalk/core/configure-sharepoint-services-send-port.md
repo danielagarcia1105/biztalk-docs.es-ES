@@ -1,14 +1,14 @@
 ---
-title: "Configurar el puerto de envío de SharePoint Services | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el puerto de envío de SharePoint Services | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36aadbc2-316f-4e1c-a5a8-b162470acf9e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22235036"
 ---
 # <a name="configure-sharepoint-services-send-port"></a><span data-ttu-id="25b13-102">Configurar un puerto de envío de SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="25b13-102">Configure SharePoint Services Send Port</span></span>
 <span data-ttu-id="25b13-103">En este tema, se compara un puerto de envío estático con un puerto de envío dinámico y también se incluyen los pasos para crear un puerto de envío [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="25b13-103">This topic compares a Static Send Port with a Dynamic Send Port and also lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] send port.</span></span> <span data-ttu-id="25b13-104">Concretamente:</span><span class="sxs-lookup"><span data-stu-id="25b13-104">Specifically:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Configurar un archivo de ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Configurar un archivo de ubicación de recepción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df591263-964a-4ad8-bc3a-a553de8dae4f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278260"
 ---
 # <a name="step-1-configure-a-file-receive-location"></a><span data-ttu-id="78d59-102">Paso 1: Configurar un archivo de ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="78d59-102">Step 1: Configure a FILE Receive Location</span></span>
 <span data-ttu-id="78d59-103">En este tema configurará una ubicación de recepción de FILE que consume el mensaje de solicitud ficticio que coloca en una carpeta de archivos para invocar el puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="78d59-103">In this topic, you configure a FILE receive location that consumes the dummy request message that you drop to a file folder to invoke the send port.</span></span>  

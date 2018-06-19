@@ -1,14 +1,14 @@
 ---
-title: "Configuración de las propiedades de confirmación de reserva (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades de confirmación de reserva (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce33f5dd-fbd5-448c-8ea3-05dd1467131a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232836"
 ---
 # <a name="configuring-fallback-acknowledgement-properties-x12"></a><span data-ttu-id="9c816-102">Configuración de propiedades de confirmación de reserva (X12)</span><span class="sxs-lookup"><span data-stu-id="9c816-102">Configuring Fallback Acknowledgement Properties (X12)</span></span>
 <span data-ttu-id="9c816-103">En el acuerdo de reserva, puede especificar cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera confirmaciones en respuesta a intercambios codificados en X12 recibidos de la entidad y el tipo de confirmación devuelta a una entidad.</span><span class="sxs-lookup"><span data-stu-id="9c816-103">In the fallback agreement, you can specify how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates acknowledgments in response to X12-encoded interchanges received from the party and what type of acknowledgment to return to a party.</span></span> <span data-ttu-id="9c816-104">Esta sección proporciona instrucciones acerca de cómo hacer lo mismo.</span><span class="sxs-lookup"><span data-stu-id="9c816-104">This section provides instructions on how to do the same.</span></span>  

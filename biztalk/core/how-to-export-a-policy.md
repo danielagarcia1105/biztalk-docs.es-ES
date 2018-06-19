@@ -1,18 +1,18 @@
 ---
-title: "Cómo exportar una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [policies], exporting
 - policies, exporting
 - exporting, policies
 ms.assetid: 2e46d96a-7762-479b-be20-bd590b2a4f0a
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254916"
 ---
 # <a name="how-to-export-a-policy"></a><span data-ttu-id="d61e1-102">Cómo exportar una directiva</span><span class="sxs-lookup"><span data-stu-id="d61e1-102">How to Export a Policy</span></span>
 <span data-ttu-id="d61e1-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para exportar una o varias directivas y sus vocabularios asociados.</span><span class="sxs-lookup"><span data-stu-id="d61e1-103">This topic describes how to use the BizTalk Server Administration console or the command line to export one or more policies and associated vocabularies.</span></span>  

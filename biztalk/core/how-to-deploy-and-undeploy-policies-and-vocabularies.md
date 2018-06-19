@@ -1,11 +1,11 @@
 ---
-title: "Cómo implementar y anular la implementación de directivas y vocabularios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo implementar y anular la implementación de directivas y vocabularios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, policies
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - policies, undeploying
 - vocabularies, deploying
 ms.assetid: 9a7e3310-54b7-482c-8210-b4b11fde4c49
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249572"
 ---
 # <a name="how-to-deploy-and-undeploy-policies-and-vocabularies"></a><span data-ttu-id="01523-102">Cómo implementar y anular la implementación de directivas y vocabularios</span><span class="sxs-lookup"><span data-stu-id="01523-102">How to Deploy and Undeploy Policies and Vocabularies</span></span>
 <span data-ttu-id="01523-103">Puede utilizar el Asistente para implementar el motor de reglas para implementar o anular la implementación de una directiva.</span><span class="sxs-lookup"><span data-stu-id="01523-103">You can use the Rule Engine Deployment Wizard to deploy or undeploy a policy.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar perfiles de seguimiento huérfanos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar perfiles de seguimiento huérfanos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, tracking profiles
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tracking profiles, deleting
 - activities, tracking profiles
 ms.assetid: e8923dab-5d02-41a3-840b-104b20624e6c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255404"
 ---
 # <a name="how-to-remove-orphaned-tracking-profiles"></a><span data-ttu-id="00ce1-102">Cómo quitar perfiles de seguimiento huérfanos</span><span class="sxs-lookup"><span data-stu-id="00ce1-102">How to Remove Orphaned Tracking Profiles</span></span>
 <span data-ttu-id="00ce1-103">Los perfiles de seguimiento están asociados a una actividad.</span><span class="sxs-lookup"><span data-stu-id="00ce1-103">Tracking profiles are associated with an activity.</span></span> <span data-ttu-id="00ce1-104">Cuando una actividad no está implementada, los perfiles de seguimiento pueden quedarse “huérfanos”, lo que significa que dejan de estar asociados a una actividad.</span><span class="sxs-lookup"><span data-stu-id="00ce1-104">If an activity is undeployed, the associated tracking profiles can become orphaned, which means they are no longer associated with an activity.</span></span> <span data-ttu-id="00ce1-105">Puede utilizar el procedimiento siguiente para quitar el perfil de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="00ce1-105">You can use the following procedure to remove the tracking profile.</span></span>  

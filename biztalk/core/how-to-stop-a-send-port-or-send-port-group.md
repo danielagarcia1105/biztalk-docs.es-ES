@@ -1,11 +1,11 @@
 ---
-title: "Cómo detener un puerto de envío o un grupo de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo detener un puerto de envío o un grupo de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send ports], stopping
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - stopping, send port groups
 - send ports, stopping
 ms.assetid: a7a5eab3-34fe-4417-900a-c37ec16ec009
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255324"
 ---
 # <a name="how-to-stop-a-send-port-or-send-port-group"></a><span data-ttu-id="33aa1-102">Cómo detener un puerto de envío o un grupo de puertos de envío</span><span class="sxs-lookup"><span data-stu-id="33aa1-102">How to Stop a Send Port or Send Port Group</span></span>
 <span data-ttu-id="33aa1-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para detener un puerto de envío o un grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="33aa1-103">This topic describes how to use the BizTalk Server Administration console to stop a send port or send port group.</span></span> <span data-ttu-id="33aa1-104">Al detener un puerto de envío o un grupo de puertos de envío, deja de procesar mensajes.</span><span class="sxs-lookup"><span data-stu-id="33aa1-104">When you stop a send port or send port group, it no longer processes messages.</span></span> <span data-ttu-id="33aa1-105">BizTalk Server suspende todos los mensajes de activación de un puerto de envío o un grupo de puertos de envío detenido.</span><span class="sxs-lookup"><span data-stu-id="33aa1-105">BizTalk Server suspends all activation messages to a stopped send port or send port group.</span></span> <span data-ttu-id="33aa1-106">La detención de un grupo de puertos de envío no afecta al estado de ninguno de los puertos de envío que contiene.</span><span class="sxs-lookup"><span data-stu-id="33aa1-106">Stopping a send port group does not affect the state of any send ports that it contains.</span></span>  

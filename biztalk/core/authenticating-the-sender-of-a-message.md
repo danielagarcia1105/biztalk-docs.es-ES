@@ -1,11 +1,11 @@
 ---
-title: "Autenticación del remitente de un mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Autenticación del remitente de un mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - parties, authenticating
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - authenticating, digital signatures
 - authenticating, messages
 ms.assetid: 813a2fb9-0346-4129-9cc5-1713f72a491e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232012"
 ---
 # <a name="authenticating-the-sender-of-a-message"></a><span data-ttu-id="a2010-102">Autenticación del remitente de un mensaje</span><span class="sxs-lookup"><span data-stu-id="a2010-102">Authenticating the Sender of a Message</span></span>
 <span data-ttu-id="a2010-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa diferentes mecanismos para comprobar si una entidad o un proceso son quienes dicen ser.</span><span class="sxs-lookup"><span data-stu-id="a2010-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses different mechanisms to verify that a party is who they claim to be, or that a process is what it claims to be.</span></span> <span data-ttu-id="a2010-104">Además, el usuario puede especificar si el proceso puede retransmitir a BizTalk Server quién es el remitente original del mensaje y si BizTalk Server reconoce a esa entidad como socio.</span><span class="sxs-lookup"><span data-stu-id="a2010-104">Furthermore, you can specify whether the process can relay to BizTalk Server who the original sender of the message is, and whether BizTalk Server recognizes the party as a partner.</span></span>  

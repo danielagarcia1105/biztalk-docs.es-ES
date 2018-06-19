@@ -1,11 +1,11 @@
 ---
 title: Propiedades de fecha de vigencia | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - effective-dated items
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - EFFDT
 - planned items, scheduling and tracking
 ms.assetid: 0d9a153c-7ea5-41cf-9e4e-055e1c18f64b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240148"
 ---
 # <a name="effective-date-properties"></a><span data-ttu-id="3e392-102">Propiedades de fecha efectiva</span><span class="sxs-lookup"><span data-stu-id="3e392-102">Effective Date Properties</span></span>
 <span data-ttu-id="3e392-103">PeopleSoft Enterprise permite programar y realizar un seguimiento de los elementos planificados usando una propiedad especial denominada Fecha de vigencia (abreviada como EFFDT por sus siglas en inglés).</span><span class="sxs-lookup"><span data-stu-id="3e392-103">PeopleSoft Enterprise provides the ability to schedule and keep track of planned items by using a special property called Effective Date (abbreviated EFFDT).</span></span> <span data-ttu-id="3e392-104">Tales elementos están en vigor o meramente planificados, en función de si su fecha es anterior o posterior a la fecha actual de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="3e392-104">Such items are either in effect or merely planned, depending on whether their date is before or after the PeopleSoft current date.</span></span>  

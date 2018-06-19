@@ -1,17 +1,17 @@
 ---
 title: Seguridad y Windows Installer | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, Windows installer
 - Windows installer
 ms.assetid: efa68c3e-2006-4665-bd41-07defaf4e2e2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269788"
 ---
 # <a name="security-and-windows-installer"></a><span data-ttu-id="edfca-102">Seguridad y Windows Installer</span><span class="sxs-lookup"><span data-stu-id="edfca-102">Security and Windows Installer</span></span>
 <span data-ttu-id="edfca-103">Windows Installer es una eficaz herramienta para instalar y actualizar aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="edfca-103">Windows Installer is a powerful tool for installing and updating BizTalk applications.</span></span> <span data-ttu-id="edfca-104">Al usar Windows Installer, se deben tener en cuenta los problemas de seguridad que pueden ocasionar los creadores malintencionados de archivos .msi (Windows Installer), además de adoptar las medidas oportunas para evitarlos.</span><span class="sxs-lookup"><span data-stu-id="edfca-104">When using Windows Installer, you should be aware of the security issues that can be created by malicious Windows Installer (.msi) file creators and take steps to prevent them.</span></span>  

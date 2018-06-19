@@ -1,14 +1,14 @@
 ---
-title: "Cómo diagnosticar problemas con Windows SharePoint Services adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo diagnosticar problemas con Windows SharePoint Services adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55c29569-3814-43a7-93f8-a39c3464a831
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249004"
 ---
 # <a name="how-to-diagnose-problems-with-the-windows-sharepoint-services-adapter"></a><span data-ttu-id="0150d-102">Diagnóstico de problemas con el adaptador de Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="0150d-102">How to Diagnose Problems with the Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="0150d-103">Esta sección contiene los pasos que pueden seguirse para ayudar al diagnóstico de problemas con el adaptador de Windows Sharepoint Services.</span><span class="sxs-lookup"><span data-stu-id="0150d-103">This section contains steps that can be followed to help diagnose problems with the Windows Sharepoint Services adapter.</span></span>  

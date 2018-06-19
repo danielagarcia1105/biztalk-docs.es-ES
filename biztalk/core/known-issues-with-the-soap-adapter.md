@@ -1,14 +1,14 @@
 ---
 title: Problemas conocidos con el adaptador de SOAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a3229d73-170d-42b7-bab9-12ae5f2d0fa7
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262852"
 ---
 # <a name="known-issues-with-the-soap-adapter"></a><span data-ttu-id="555e8-102">Problemas conocidos del adaptador de SOAP</span><span class="sxs-lookup"><span data-stu-id="555e8-102">Known Issues with the SOAP Adapter</span></span>
 <span data-ttu-id="555e8-103">Esta sección contiene información que puede servir de ayuda para evitar errores.</span><span class="sxs-lookup"><span data-stu-id="555e8-103">This section contains information that may help you avoid errors.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Desarrollar aplicaciones de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99b56f86-d8e4-4f4a-9ce9-9f476ba88ea8
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239604"
 ---
 # <a name="developing-biztalk-server-applications"></a><span data-ttu-id="bca06-102">Desarrollar aplicaciones de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="bca06-102">Developing BizTalk Server Applications</span></span>
 <span data-ttu-id="bca06-103">Esta sección contiene información para programadores cuya misión es crear proyectos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="bca06-103">This section contains information for developers who are tasked with creating BizTalk projects.</span></span> <span data-ttu-id="bca06-104">Los proyectos se crean utilizando el entorno de diseño del sistema del proyecto de BizTalk, que permite diseñar, organizar y generar varios elementos de aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="bca06-104">Projects are created using the BizTalk project System Design Environment, which allows you to design, organize, and build the various elements of BizTalk applications.</span></span> <span data-ttu-id="bca06-105">En las siguientes secciones se describe el proceso detalladamente.</span><span class="sxs-lookup"><span data-stu-id="bca06-105">The following sections describe this process in detail.</span></span>  

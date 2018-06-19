@@ -1,14 +1,14 @@
 ---
-title: "Configuración de la validación (configuración de conjunto de transacciones de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de la validación (configuración de conjunto de transacciones de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0245be7f-d212-43b1-bfef-cbcbd851b5c0
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234268"
 ---
 # <a name="configuring-validation-x12-transaction-set-settings"></a><span data-ttu-id="ac91d-102">Configuración de la validación (configuración del conjunto de transacciones X12)</span><span class="sxs-lookup"><span data-stu-id="ac91d-102">Configuring Validation (X12-Transaction Set Settings)</span></span>
 <span data-ttu-id="ac91d-103">La configuración de validación del conjunto de transacciones define el modo en que BizTalk Server valida los conjuntos de transacciones recibidos desde una entidad.</span><span class="sxs-lookup"><span data-stu-id="ac91d-103">The transaction set validation settings define how BizTalk Server validates the transaction sets received from a party.</span></span> <span data-ttu-id="ac91d-104">Como parte de la configuración de validación, puede especificar qué tipo de validación realizará BizTalk Server en un intercambio entrante.</span><span class="sxs-lookup"><span data-stu-id="ac91d-104">As part of validation settings you can specify which type of validation BizTalk Server will perform on an incoming interchange</span></span>  

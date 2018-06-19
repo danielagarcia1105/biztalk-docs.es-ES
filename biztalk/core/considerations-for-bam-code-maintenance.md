@@ -1,17 +1,17 @@
 ---
-title: "Consideraciones para BAM código mantenimiento | Documentos de Microsoft"
-ms.custom: 
+title: Consideraciones para BAM código mantenimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, code maintenance
 - BAMInterceptor class
 ms.assetid: e1f1d8e0-207c-47e1-b9bd-a473c86922ce
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238100"
 ---
 # <a name="considerations-for-bam-code-maintenance"></a><span data-ttu-id="7e07e-102">Consideraciones sobre el mantenimiento de códigos de BAM</span><span class="sxs-lookup"><span data-stu-id="7e07e-102">Considerations for BAM Code Maintenance</span></span>
 <span data-ttu-id="7e07e-103">Cuando decida cómo instrumentar la aplicación para usar BAM, debe considerar la posibilidad de que las necesidades cambiarán.</span><span class="sxs-lookup"><span data-stu-id="7e07e-103">When you decide how to instrument your application to use BAM, you should consider the likelihood that requirements will change.</span></span> <span data-ttu-id="7e07e-104">Si llama métodos en una de las clases [Microsoft.BizTalk.Bam.EventObservation.EventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.eventstream.aspx) para escribir los datos que se supervisan, básicamente está "codificando" el modelo de observación en la aplicación.</span><span class="sxs-lookup"><span data-stu-id="7e07e-104">If you call methods on one of the [Microsoft.BizTalk.Bam.EventObservation.EventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.eventstream.aspx) classes to write the data that is being monitored, you are essentially “hard-coding” the observation model into the application.</span></span> <span data-ttu-id="7e07e-105">Si necesita cambiar qué datos se supervisan, deberá desactivar la aplicación, modificar el código, recompilar la aplicación y, a continuación, volver a implementar la aplicación actualizada.</span><span class="sxs-lookup"><span data-stu-id="7e07e-105">If you need to change which data is being monitored, you will have to take the application offline, change the code, recompile the application, and then redeploy the updated application.</span></span>  

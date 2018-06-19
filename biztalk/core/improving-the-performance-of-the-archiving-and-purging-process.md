@@ -1,11 +1,11 @@
 ---
 title: Mejorar el rendimiento del archivado y purga de proceso | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - archiving [Tracking database], system performance
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - performance, purging
 - purging, system performance
 ms.assetid: d65da58d-65e0-4f6c-8b15-5d4448049b42
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257844"
 ---
 # <a name="improving-the-performance-of-the-archiving-and-purging-process"></a><span data-ttu-id="f4af7-102">Mejorar el rendimiento del proceso de archivo y purga</span><span class="sxs-lookup"><span data-stu-id="f4af7-102">Improving the Performance of the Archiving and Purging Process</span></span>
 <span data-ttu-id="f4af7-103">La cantidad de datos almacenados en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos pueden incrementarse muy rápidamente según cómo se haya diseñado el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenario, según el número y tamaño de los mensajes procesados por el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenario y, en función de cómo disponen de configurar el seguimiento.</span><span class="sxs-lookup"><span data-stu-id="f4af7-103">The amount of data stored in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases can grow very quickly depending on how you have designed your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] scenario, depending on the number and size of messages processed by your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] scenario, and depending on how you have configured tracking.</span></span> <span data-ttu-id="f4af7-104">Al mantener el tamaño de la base de datos en un nivel correcto, el procesamiento será más eficaz y la cantidad de datos estará normalizada en cualquier momento.</span><span class="sxs-lookup"><span data-stu-id="f4af7-104">By maintaining your database size at a healthy level, processing is more efficient and the amount of data in your system is normalized at any given time.</span></span> <span data-ttu-id="f4af7-105">Con ello, se proporciona un rendimiento eficaz y coherente.</span><span class="sxs-lookup"><span data-stu-id="f4af7-105">This provides efficient and consistent performance.</span></span> <span data-ttu-id="f4af7-106">Al automatizar este proceso, se libera al usuario de la carga del mantenimiento manual de las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="f4af7-106">By automating this process you free yourself of the burden of manually maintaining your databases.</span></span>  

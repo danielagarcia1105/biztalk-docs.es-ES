@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar asignaciones de entrada para un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar asignaciones de entrada para un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - maps, inbound
 - managing [receive ports], inbound maps
 ms.assetid: b7448b39-f024-4353-818b-f753c2d60751
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248308"
 ---
 # <a name="how-to-configure-inbound-maps-for-a-receive-port"></a><span data-ttu-id="8a73a-102">Cómo configurar asignaciones de entrada para un puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="8a73a-102">How to Configure Inbound Maps for a Receive Port</span></span>
 <span data-ttu-id="8a73a-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para configurar asignaciones de entrada para un puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="8a73a-103">This topic describes how to use the BizTalk Server Administration console to configure inbound maps for a receive port.</span></span> <span data-ttu-id="8a73a-104">Las asignaciones de entrada pueden utilizarse para transformar mensajes de entrada de un esquema a otro (por ejemplo, para transformar mensajes recibidos de un socio comercial en un esquema utilizado en su empresa).</span><span class="sxs-lookup"><span data-stu-id="8a73a-104">You use inbound maps to transform inbound messages from one schema to another; for example to transform messages received from a partner into a schema that your company uses.</span></span>  

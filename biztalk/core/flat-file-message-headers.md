@@ -1,14 +1,14 @@
 ---
 title: Encabezados de mensaje de archivo sin formato | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1981daaf-149a-426d-9a2f-5fcf64bce185
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246356"
 ---
 # <a name="flat-file-message-headers"></a><span data-ttu-id="54873-102">Encabezados de los mensajes de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="54873-102">Flat File Message Headers</span></span>
 <span data-ttu-id="54873-103">El análisis del encabezado del mensaje de instancia de archivo sin formato opcional el Desensamblador de archivos sin formato se controla mediante el esquema de archivo sin formato que se ha configurado en el **esquema de encabezado** propiedad en tiempo de diseño del desensamblador de archivos sin formato o el **XMLNORM. HeaderSpecName** propiedad de contexto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="54873-103">The parsing of the optional flat file instance message header by the flat file disassembler is controlled by the flat file schema that you have configured in the **Header schema** design-time property of the flat file disassembler or the **XMLNORM.HeaderSpecName** message context property.</span></span> <span data-ttu-id="54873-104">Si no ha especificado un esquema con uno de estos dos métodos, el desensamblador de archivos sin formato considera que el mensaje de instancia de archivo sin formato no contiene ningún encabezado.</span><span class="sxs-lookup"><span data-stu-id="54873-104">If you have not specified a schema using one of these two methods, the flat file disassembler assumes that the flat file instance message does not contain a header.</span></span>  

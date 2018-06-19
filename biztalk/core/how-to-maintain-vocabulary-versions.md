@@ -1,11 +1,11 @@
 ---
-title: "Cómo mantener versiones de vocabulario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mantener versiones de vocabulario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - updating, vocabularies
 - vocabularies, updating
 ms.assetid: 43593c6f-4590-4940-ac17-4015928e5838
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254372"
 ---
 # <a name="how-to-maintain-vocabulary-versions"></a><span data-ttu-id="544d4-102">Cómo mantener versiones de vocabulario</span><span class="sxs-lookup"><span data-stu-id="544d4-102">How to Maintain Vocabulary Versions</span></span>
 <span data-ttu-id="544d4-103">Cuando haya agregado definiciones de vocabulario a una versión, puede guardar la versión en el almacén de reglas para su posterior desarrollo, o puede publicar la versión para crear un conjunto de términos enlazados con datos bien definido e inmutable que esté disponible para que los usuarios lo vayan agregando a las reglas conforme desarrollen directivas.</span><span class="sxs-lookup"><span data-stu-id="544d4-103">When you have added vocabulary definitions to a version of your vocabulary, you can save the version to the rule store for further development, or you can publish the version to create a well-defined, immutable set of data-bound terms that are available to users to add to rules as they develop their policies.</span></span> <span data-ttu-id="544d4-104">Observe que las reglas existentes seguirán señalando a las versiones antiguas.</span><span class="sxs-lookup"><span data-stu-id="544d4-104">Note that fact that existing rules will still point to the old versions.</span></span>  

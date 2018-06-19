@@ -1,11 +1,11 @@
 ---
-title: "Diseñar con patrones: la solución orientada | Documentos de Microsoft"
-ms.custom: 
+title: 'Diseñar con patrones: la solución orientada | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - patterns [service solutions], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - patterns [service solutions], designing
 - designing, programming patterns
 ms.assetid: c196cd9d-2b2d-4548-bc7d-26196f7c2878
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240196"
 ---
 # <a name="designing-with-patterns-the-service-oriented-solution"></a><span data-ttu-id="36aad-102">Diseñar con patrones: solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="36aad-102">Designing with Patterns: the Service Oriented Solution</span></span>
 <span data-ttu-id="36aad-103">La solución orientada a servicios muestra cómo exponer una aplicación de BizTalk como un servicio para que la utilicen otras aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="36aad-103">The service-oriented solution shows how to expose a BizTalk application as a service for use by other applications.</span></span> <span data-ttu-id="36aad-104">La presentación de una aplicación como un servicio permite que otras aplicaciones consuman fácilmente la información y la utilicen en los servicios que proporcionan.</span><span class="sxs-lookup"><span data-stu-id="36aad-104">Presenting an application as a service enables other applications to easily consume the information and use it in the services that they provide.</span></span> <span data-ttu-id="36aad-105">Para obtener más información acerca del servicio de interfaces vea "Service Interface" en [http://go.microsoft.com/fwlink/?LinkId=46185](http://go.microsoft.com/fwlink/?LinkId=46185).</span><span class="sxs-lookup"><span data-stu-id="36aad-105">For more information about service interfaces see "Service Interface" at [http://go.microsoft.com/fwlink/?LinkId=46185](http://go.microsoft.com/fwlink/?LinkId=46185).</span></span> <span data-ttu-id="36aad-106">Para obtener más información acerca de la integración orientada a servicios, vea "Service-Oriented Integration" en [http://go.microsoft.com/fwlink/?LinkId=46186](http://go.microsoft.com/fwlink/?LinkId=46186).</span><span class="sxs-lookup"><span data-stu-id="36aad-106">For more information about service-oriented integration see "Service-Oriented Integration" at [http://go.microsoft.com/fwlink/?LinkId=46186](http://go.microsoft.com/fwlink/?LinkId=46186).</span></span>  

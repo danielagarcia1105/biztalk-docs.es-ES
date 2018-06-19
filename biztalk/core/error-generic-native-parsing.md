@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240452"
 ---
 # <a name="error---generic-native-parsing"></a><span data-ttu-id="08746-102">Error: análisis nativo genérico</span><span class="sxs-lookup"><span data-stu-id="08746-102">Error - Generic Native Parsing</span></span>
 <span data-ttu-id="08746-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="08746-103">**Error Code**</span></span>  

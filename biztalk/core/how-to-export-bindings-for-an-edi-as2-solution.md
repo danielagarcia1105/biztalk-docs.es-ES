@@ -1,14 +1,14 @@
 ---
-title: "Cómo exportar enlaces para una solución EDI AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar enlaces para una solución EDI AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 856ab630-66c4-4496-884a-fdbe641143c5
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255652"
 ---
 # <a name="how-to-export-bindings-for-an-edi-as2-solution"></a><span data-ttu-id="7186e-102">Cómo exportar enlaces para una solución EDI y AS2</span><span class="sxs-lookup"><span data-stu-id="7186e-102">How to Export Bindings for an EDI-AS2 Solution</span></span>
 <span data-ttu-id="7186e-103">En este tema se describe cómo exportar la configuración de un equipo configurado como solución EDI y/o AS2.</span><span class="sxs-lookup"><span data-stu-id="7186e-103">This topic describes how to export the configuration from a computer set up as an EDI and/or AS2 solution.</span></span> <span data-ttu-id="7186e-104">Permite definir la misma configuración en otro equipo de forma automática.</span><span class="sxs-lookup"><span data-stu-id="7186e-104">This enables you to set up the same configuration on another computer in an automated fashion.</span></span> <span data-ttu-id="7186e-105">Puede exportar los enlaces desde una aplicación, un grupo o un ensamblado.</span><span class="sxs-lookup"><span data-stu-id="7186e-105">You can export the bindings from an application, group, or assembly.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo administrar vistas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar vistas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4a865d7-b319-4264-a085-15f2155bdb2d
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254644"
 ---
 # <a name="how-to-manage-views"></a><span data-ttu-id="6c814-102">Administración de vistas</span><span class="sxs-lookup"><span data-stu-id="6c814-102">How to Manage Views</span></span>
 <span data-ttu-id="6c814-103">En el proceso de desarrollar asignaciones de BizTalk, tal vez decida cambiar los tamaños de las vistas de árbol de esquema de origen y de destino, o el tamaño de la vista de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="6c814-103">In the process of developing BizTalk maps, you may want to change the sizes of the source or destination schema tree views, or the size of the grid view.</span></span> <span data-ttu-id="6c814-104">A veces, deseará abrir la asignación en la misma vista que ha cerrado previamente.</span><span class="sxs-lookup"><span data-stu-id="6c814-104">Sometimes, you may want to open your map in the same view you had closed earlier.</span></span> <span data-ttu-id="6c814-105">En este tema se proporcionan instrucciones paso a paso para estas tareas.</span><span class="sxs-lookup"><span data-stu-id="6c814-105">This topic provides step-by-step instructions for these tasks.</span></span>  

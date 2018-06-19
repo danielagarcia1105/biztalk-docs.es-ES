@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Crear una directiva empresarial sencilla | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02d35735-dce2-4ee2-965e-dae307a125b0
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975829"
 ---
 # <a name="walkthrough-creating-a-simple-business-policy"></a><span data-ttu-id="44f76-102">Tutorial: Crear una directiva empresarial sencilla</span><span class="sxs-lookup"><span data-stu-id="44f76-102">Walkthrough: Creating a Simple Business Policy</span></span>
 <span data-ttu-id="44f76-103">Este tutorial proporciona procedimientos paso a paso para que usar el Compositor de reglas de negocio para crear una directiva empresarial sencilla denominada **ProcessPurchaseOrder** que contiene una regla denominada **ApprovedRule**.</span><span class="sxs-lookup"><span data-stu-id="44f76-103">This walkthrough provides step-by-step procedures for using the Business Rule Composer to create a simple business policy named **ProcessPurchaseOrder** containing a rule named **ApprovedRule**.</span></span> <span data-ttu-id="44f76-104">El **ApprovedRule** regla espera que el usuario para enviar un documento XML como un hecho y establece el valor de la **estado** campo en el documento a **aprobado** si el valor de la  **Cantidad** campo es menor o igual a **500**.</span><span class="sxs-lookup"><span data-stu-id="44f76-104">The **ApprovedRule** rule expects the user to submit an XML document as a fact, and sets the value of the **Status** field in the document to **Approved** if the value of the **Quantity** field is less than or equal to **500**.</span></span>  
@@ -97,7 +98,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="44f76-134">Haga clic en **versión 1.0**y, a continuación, haga clic en **AddNewRule**.</span><span class="sxs-lookup"><span data-stu-id="44f76-134">Right-click **Version 1.0**, and then click **AddNewRule**.</span></span>  
   
-5.  <span data-ttu-id="44f76-135">Edite el nombre de la regla de **Rule1** a **ApprovalRule** y presione ENTRAR**.**</span><span class="sxs-lookup"><span data-stu-id="44f76-135">Edit the name of the rule from **Rule1** to **ApprovalRule** and press ENTER**.**</span></span> <span data-ttu-id="44f76-136">También puede cambiar el nombre de la regla en el **propiedades** ventana.</span><span class="sxs-lookup"><span data-stu-id="44f76-136">You can also change the name of the rule in the **Properties** window.</span></span>  
+5.  <span data-ttu-id="44f76-135">Edite el nombre de la regla de **Rule1** a **ApprovalRule** y presione ENTRAR **.**</span><span class="sxs-lookup"><span data-stu-id="44f76-135">Edit the name of the rule from **Rule1** to **ApprovalRule** and press ENTER **.**</span></span> <span data-ttu-id="44f76-136">También puede cambiar el nombre de la regla en el **propiedades** ventana.</span><span class="sxs-lookup"><span data-stu-id="44f76-136">You can also change the name of the rule in the **Properties** window.</span></span>  
   
 6.  <span data-ttu-id="44f76-137">En la ventana Explorador de hechos, haga clic en el **esquemas XML** ficha.</span><span class="sxs-lookup"><span data-stu-id="44f76-137">In the Facts Explorer window, click the **XML Schemas** tab.</span></span>  
   
@@ -130,7 +131,7 @@ ms.lasthandoff: 11/28/2017
   
 14. <span data-ttu-id="44f76-153">En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **aprobado**.</span><span class="sxs-lookup"><span data-stu-id="44f76-153">In the THEN pane, click **\<Enter a value\>** and then type **Approved**.</span></span>  
   
-15. <span data-ttu-id="44f76-154">En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="44f76-154">In the Policy Explorer window, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
+15. <span data-ttu-id="44f76-154">En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="44f76-154">In the Policy Explorer window, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
   
 ## <a name="comments"></a><span data-ttu-id="44f76-155">Comentarios</span><span class="sxs-lookup"><span data-stu-id="44f76-155">Comments</span></span>  
   

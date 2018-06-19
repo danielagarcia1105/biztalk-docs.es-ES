@@ -1,11 +1,11 @@
 ---
 title: Las bases de datos de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Notification Services Application database [BAM]
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - Tracking database
 - MessageBox database
 ms.assetid: bb504a26-cae6-4f2a-9b86-3554ef8f6045
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242612"
 ---
 # <a name="databases-in-biztalk-server"></a><span data-ttu-id="1891d-102">Bases de datos en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="1891d-102">Databases in BizTalk Server</span></span>
 <span data-ttu-id="1891d-103">Microsoft BizTalk Server instala varias bases de datos en el servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="1891d-103">Microsoft BizTalk Server installs several databases in SQL Server.</span></span> <span data-ttu-id="1891d-104">Este tema describen estas bases de datos y los grupos de lógica SQL utilizados por estas bases de datos.</span><span class="sxs-lookup"><span data-stu-id="1891d-104">This topic describes these databases, and the SQL logic groups used by these databases.</span></span>  

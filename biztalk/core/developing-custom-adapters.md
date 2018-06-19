@@ -1,14 +1,14 @@
 ---
 title: Desarrollar adaptadores personalizados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44765fbb-b24d-43b6-a40c-d28e319b90a5
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239916"
 ---
 # <a name="developing-custom-adapters"></a><span data-ttu-id="0a881-102">Desarrollar adaptadores personalizados</span><span class="sxs-lookup"><span data-stu-id="0a881-102">Developing Custom Adapters</span></span>
 <span data-ttu-id="0a881-103">Para intercambiar mensajes con sistemas externos, aplicaciones y entidades, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el concepto de un adaptador.</span><span class="sxs-lookup"><span data-stu-id="0a881-103">To exchange messages with external systems, applications, and entities, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the concept of an adapter.</span></span> <span data-ttu-id="0a881-104">Los adaptadores son COM o [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] componentes que transfieren mensajes desde y hacia el final de negocios.</span><span class="sxs-lookup"><span data-stu-id="0a881-104">Adapters are COM or [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] components that transfer messages to and from business end.</span></span> <span data-ttu-id="0a881-105">puntos (por ejemplo, sistemas de archivos, bases de datos y aplicaciones empresariales personalizadas) mediante el uso de varios protocolos de comunicación.</span><span class="sxs-lookup"><span data-stu-id="0a881-105">points (such as file systems, databases, and custom business applications) by using various communication protocols.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0a881-106">proporciona adaptadores nativos compatibles con varios protocolos.</span><span class="sxs-lookup"><span data-stu-id="0a881-106"> provides native adapters that support various protocols.</span></span> <span data-ttu-id="0a881-107">Estos incluyen:</span><span class="sxs-lookup"><span data-stu-id="0a881-107">These include:</span></span>  

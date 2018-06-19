@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear suscripciones de recepción en Orquestaciones invocadas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear suscripciones de recepción en Orquestaciones invocadas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3423309a-cb5a-40a5-9582-6ee3ac82b538
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250148"
 ---
 # <a name="how-to-create-receive-subscriptions-at-invoked-orchestrations"></a><span data-ttu-id="1cfe1-102">Cómo crear suscripciones de recepción en orquestaciones invocadas</span><span class="sxs-lookup"><span data-stu-id="1cfe1-102">How to Create Receive Subscriptions at Invoked Orchestrations</span></span>
 <span data-ttu-id="1cfe1-103">Aunque puede pasar mensajes como parámetros a través de la **Iniciar orquestación** forma cuando se inicia una orquestación, en algunos casos puede que desee para enviar mensajes desde la orquestación del autor a la orquestación invocada después de la invocación.</span><span class="sxs-lookup"><span data-stu-id="1cfe1-103">Although you can pass messages as parameters through the **Start Orchestration** shape when you start an orchestration, in some scenarios you may want to send messages from the caller orchestration to the invoked orchestration after the invocation.</span></span> <span data-ttu-id="1cfe1-104">Por ejemplo, es posible que no sepa qué mensajes quiere pasar en el momento de la llamada o que otras orquestaciones necesiten enviar mensajes a la orquestación invocada de forma dinámica.</span><span class="sxs-lookup"><span data-stu-id="1cfe1-104">For example, you may not know what messages you want to pass at the time of invocation, or other orchestrations may need to send messages to the invoked orchestration dynamically.</span></span>  

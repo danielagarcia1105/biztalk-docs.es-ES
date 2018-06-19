@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar una nueva base de datos de cuadro de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar una nueva base de datos de cuadro de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adding, MessageBox database
 - MessageBox database, adding
 - managing [MessageBox database], adding
 ms.assetid: 98d850dc-fe3e-43dd-8b5d-9b8c23c006ae
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247244"
 ---
 # <a name="how-to-add-a-new-messagebox-database"></a><span data-ttu-id="75e24-102">Cómo agregar una nueva base de datos de cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="75e24-102">How to Add a New MessageBox Database</span></span>
 <span data-ttu-id="75e24-103">Utilice la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para agregar una nueva base de datos de cuadro de mensaje a la implementación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="75e24-103">You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console to add a new MessageBox database to your BizTalk Server deployment.</span></span> <span data-ttu-id="75e24-104">Las bases de datos de cuadro de mensajes son la base para los elementos de equilibrio de carga de red entre servidores que realizan procesamiento cooperativo.</span><span class="sxs-lookup"><span data-stu-id="75e24-104">MessageBox databases are the basis for load-balancing work items across servers that do cooperative processing.</span></span> <span data-ttu-id="75e24-105">Para aumentar el número de mensajes que puede procesar el sistema, puede ser necesario agregar bases de datos de cuadro de mensajes adicionales.</span><span class="sxs-lookup"><span data-stu-id="75e24-105">To increase the number of messages that your system can process, you may need to add additional MessageBox databases.</span></span>  

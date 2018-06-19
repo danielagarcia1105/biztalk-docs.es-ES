@@ -1,14 +1,14 @@
 ---
 title: Datos almacenados para informes de estado de procesamiento por lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d55aa0e1-095f-434e-8530-f1a946ad4430
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238596"
 ---
 # <a name="data-stored-for-batching-status-reports"></a><span data-ttu-id="31cd3-102">Datos almacenados para informes de estado de procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="31cd3-102">Data Stored for Batching Status Reports</span></span>
 <span data-ttu-id="31cd3-103">Cuando el **activar informes** propiedad está seleccionada para un acuerdo, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] almacenará el estado de cada instancia de procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="31cd3-103">When the **Turn ON Reporting** property is selected for an agreement, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store the status of each batching instance.</span></span> <span data-ttu-id="31cd3-104">Esta propiedad es en disponibles en la **propiedades generales** página de la **General** pestaña en el **propiedades del acuerdo de** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="31cd3-104">This property is in available in the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="31cd3-105">El estado puede ser cualquiera de los siguientes valores:</span><span class="sxs-lookup"><span data-stu-id="31cd3-105">The status can be any of the following:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Consideraciones al consumir servicios WCF con WCF adaptadores de envío | Documentos de Microsoft"
-ms.custom: 
+title: Consideraciones al consumir servicios WCF con WCF adaptadores de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - consuming, WCF services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - consuming, best practices
 - WCF services, consuming
 ms.assetid: 8bbcfd99-3495-458d-bd7a-6d170a29dde2
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238804"
 ---
 # <a name="considerations-when-consuming-wcf-services-with-the-wcf-send-adapters"></a><span data-ttu-id="b26e6-102">Consideraciones al consumir servicios WCF con los adaptadores de envío WCF</span><span class="sxs-lookup"><span data-stu-id="b26e6-102">Considerations When Consuming WCF Services with the WCF Send Adapters</span></span>
 <span data-ttu-id="b26e6-103">Este tema proporciona información que es necesario tener en cuenta a la hora de consumir servicios WCF con los adaptadores de WCF.</span><span class="sxs-lookup"><span data-stu-id="b26e6-103">This topic provides information that you should take into consideration when consuming WCF services with the WCF adapters.</span></span>  

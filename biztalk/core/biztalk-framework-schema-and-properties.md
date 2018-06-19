@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8986e4a7-0c0a-415f-8a74-4fca71d3f1b5
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22232724"
 ---
 # <a name="biztalk-framework-schema-and-properties"></a><span data-ttu-id="0fe8c-102">Propiedades y esquema de BizTalk Framework</span><span class="sxs-lookup"><span data-stu-id="0fe8c-102">BizTalk Framework Schema and Properties</span></span>
 <span data-ttu-id="0fe8c-103">El **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** espacio de nombres contiene propiedades que puede utilizar para establecer propiedades de contexto de mensajes y partes para el componente de canalización de desensamblador de BizTalk Framework.</span><span class="sxs-lookup"><span data-stu-id="0fe8c-103">The **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** namespace contains properties you can use to set message and part context properties for the BizTalk Framework Disassembler pipeline component.</span></span> <span data-ttu-id="0fe8c-104">El componente de canalización de desensamblador de BizTalk Framework utiliza estas propiedades para generar los encabezados apropiados en el mensaje que se crea.</span><span class="sxs-lookup"><span data-stu-id="0fe8c-104">The BizTalk Framework Disassembler pipeline component uses these properties to generate the appropriate headers in the message that is created.</span></span> <span data-ttu-id="0fe8c-105">La tabla siguiente describe las propiedades de BizTalk Framework.</span><span class="sxs-lookup"><span data-stu-id="0fe8c-105">The following table describes the BizTalk Framework properties.</span></span>  

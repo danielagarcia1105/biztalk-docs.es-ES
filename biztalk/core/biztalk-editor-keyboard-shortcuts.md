@@ -1,17 +1,17 @@
 ---
-title: "Métodos abreviados de teclado del Editor de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados de teclado del Editor de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Editor, keyboard shortcuts
 - keyboard shortcuts, BizTalk Editor
 ms.assetid: 20674105-3e85-4115-b816-110639b2238c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233292"
 ---
 # <a name="biztalk-editor-keyboard-shortcuts"></a><span data-ttu-id="cf4bd-102">Métodos abreviados de teclado del Editor de BizTalk</span><span class="sxs-lookup"><span data-stu-id="cf4bd-102">BizTalk Editor Keyboard Shortcuts</span></span>
 <span data-ttu-id="cf4bd-103">Como en cualquier aplicación estándar de Microsoft Windows, puede utilizar métodos abreviados de teclado en el Editor de BizTalk para tener acceso a comandos que, por otra parte, están disponibles mediante los menús.</span><span class="sxs-lookup"><span data-stu-id="cf4bd-103">As in any standard Microsoft Windows application, you can use keyboard shortcuts in BizTalk Editor to access commands that are otherwise available by using menus.</span></span> <span data-ttu-id="cf4bd-104">La tabla siguiente describe los métodos abreviados de teclado disponibles.</span><span class="sxs-lookup"><span data-stu-id="cf4bd-104">The following table describes the available keyboard shortcuts.</span></span>  

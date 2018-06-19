@@ -1,11 +1,11 @@
 ---
-title: "Características de seguridad de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Características de seguridad de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Server, security
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - data, security
 - messages, security
 ms.assetid: 5ab15023-fa71-439e-b3aa-420fe28806fa
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269908"
 ---
 # <a name="security-features-in-biztalk-server"></a><span data-ttu-id="97e44-102">Características de seguridad en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="97e44-102">Security Features in BizTalk Server</span></span>
 <span data-ttu-id="97e44-103">Microsoft® BizTalk® Server proporciona una puerta de enlace estándar para enviar y recibir documentos dentro de una intranet y a través de Internet.</span><span class="sxs-lookup"><span data-stu-id="97e44-103">Microsoft® BizTalk® Server provides a standard gateway for sending and receiving documents both within an intranet and through the Internet.</span></span> <span data-ttu-id="97e44-104">Los mensajes enviados y recibidos por BizTalk Server pueden ser de importancia crucial para la empresa, por lo que es importante contemplar medidas para proteger esos mensajes y la información que contienen tanto durante su tránsito como durante su proceso y almacenamiento por BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="97e44-104">Due to the possible business-critical nature of the messages sent to and from BizTalk Server, it is important to consider measures to help secure these messages and the information they contain both as they are in transit and while BizTalk Server processes and stores them.</span></span> <span data-ttu-id="97e44-105">Esta sección proporciona información acerca de las características de seguridad de BizTalk Server y cómo utilizarlas para ayudar a proteger los datos y el entorno.</span><span class="sxs-lookup"><span data-stu-id="97e44-105">This section provides information about the BizTalk Server security features, and how you can use them to help secure your data and environment.</span></span>  

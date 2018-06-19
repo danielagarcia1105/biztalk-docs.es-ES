@@ -1,14 +1,14 @@
 ---
-title: "Habilitar la recepción de varios intercambios en un único mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Habilitar la recepción de varios intercambios en un único mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c98bcd2e-495a-49d8-a471-6e23b1e161f9
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240836"
 ---
 # <a name="enabling-the-receiving-of-multiple-interchanges-in-a-single-message"></a><span data-ttu-id="16f40-102">Habilitar la recepción de varios intercambios en un único mensaje</span><span class="sxs-lookup"><span data-stu-id="16f40-102">Enabling the Receiving of Multiple Interchanges in a Single Message</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="16f40-103"> puede procesar un mensaje que contiene varios intercambios.</span><span class="sxs-lookup"><span data-stu-id="16f40-103"> can process a message that contains multiple interchanges.</span></span> <span data-ttu-id="16f40-104">Por ejemplo, un mensaje X12 incluye varios encabezados ISA y finalizadores IEA.</span><span class="sxs-lookup"><span data-stu-id="16f40-104">For an X12 message, such a message would include multiple ISA headers and IEA trailers.</span></span> <span data-ttu-id="16f40-105">Por otro lado, un mensaje EDIFACT incluye varios encabezados UNA/UNB y finalizadores UNZ.</span><span class="sxs-lookup"><span data-stu-id="16f40-105">For an EDIFACT message, such a message would include multiple UNA/UNB headers and UNZ trailers.</span></span>  

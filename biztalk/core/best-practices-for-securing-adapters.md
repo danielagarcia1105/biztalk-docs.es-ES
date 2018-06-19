@@ -1,11 +1,11 @@
 ---
-title: "Prácticas recomendadas para proteger los adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Prácticas recomendadas para proteger los adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, security
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - best practices, security
 - adapters, best practices
 ms.assetid: 004e1a01-b316-4eee-967f-5a806431de2b
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233300"
 ---
 # <a name="best-practices-for-securing-adapters"></a><span data-ttu-id="5c849-102">Prácticas recomendadas para proteger los adaptadores</span><span class="sxs-lookup"><span data-stu-id="5c849-102">Best Practices for Securing Adapters</span></span>
 <span data-ttu-id="5c849-103">En este tema se ofrece una lista de las prácticas recomendadas para la seguridad de los adaptadores.</span><span class="sxs-lookup"><span data-stu-id="5c849-103">This topic provides a list of best practices for adapter security.</span></span>  

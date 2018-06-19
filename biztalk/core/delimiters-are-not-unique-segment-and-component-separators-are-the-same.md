@@ -1,14 +1,14 @@
 ---
-title: "Delimitadores no son únicos, los separadores de segmento y el componente son los mismos | Documentos de Microsoft"
-ms.custom: 
+title: Delimitadores no son únicos, los separadores de segmento y el componente son los mismos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 13c41899-02af-4678-a4ad-f3dc48c1fdfb
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238444"
 ---
 # <a name="delimiters-are-not-unique-segment-and-component-separators-are-the-same"></a><span data-ttu-id="882e4-102">Los delimitadores no son únicos. Los separadores de segmento y de componente coinciden.</span><span class="sxs-lookup"><span data-stu-id="882e4-102">Delimiters are not unique, segment and component separators are the same</span></span>
 ## <a name="details"></a><span data-ttu-id="882e4-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="882e4-103">Details</span></span>  

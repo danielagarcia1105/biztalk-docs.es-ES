@@ -1,17 +1,17 @@
 ---
-title: "Cómo mover la Database1 de esquema de estrella de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la Database1 de esquema de estrella de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Star Schema database [BAM], migrating
 - migrating, Star Schema database [BAM]
 ms.assetid: b4a5f8fc-0dc4-4987-b96f-ecd49bd4dba3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254244"
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a><span data-ttu-id="11795-102">Cómo mover la base de datos de esquema de estrella de BAM</span><span class="sxs-lookup"><span data-stu-id="11795-102">How to Move the BAM Star Schema Database</span></span>
 <span data-ttu-id="11795-103">Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.</span><span class="sxs-lookup"><span data-stu-id="11795-103">You can use this procedure to move the BAM Star Schema database to another server.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="11795-107">Obtenga una copia del archivo .xml utilizado para restaurar BAM:</span><span class="sxs-lookup"><span data-stu-id="11795-107">Get a copy of the .xml file used for restoring BAM:</span></span>  
   
-    1.  <span data-ttu-id="11795-108">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-108">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="11795-108">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-108">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="11795-109">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="11795-109">At the command prompt, navigate to the following directory:</span></span>  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  <span data-ttu-id="11795-117">Guarde el archivo BAMConfiguration.xml y ciérrelo.</span><span class="sxs-lookup"><span data-stu-id="11795-117">Save and close the BAMConfiguration.xml file.</span></span>  
   
-7.  <span data-ttu-id="11795-118">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-118">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="11795-118">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-118">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 8.  <span data-ttu-id="11795-119">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="11795-119">At the command prompt, navigate to the following directory:</span></span>  
   

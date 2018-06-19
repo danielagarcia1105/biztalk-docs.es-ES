@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar un controlador de envío WCF-Custom | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un controlador de envío WCF-Custom | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00758b87-dffb-488b-9cf3-564d0ccd5938
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249340"
 ---
 # <a name="how-to-configure-a-wcf-custom-send-handler"></a><span data-ttu-id="b6372-102">Configuración de un controlador de envío de WCF-Custom</span><span class="sxs-lookup"><span data-stu-id="b6372-102">How to Configure a WCF-Custom Send Handler</span></span>
 <span data-ttu-id="b6372-103">Debe configurar las propiedades del controlador de envío si desea que [!INCLUDE[wcfadapter_short](../includes/wcfadapter-short-md.md)] busque las extensiones de comportamiento personalizado en otras ubicaciones aparte de machine.config.</span><span class="sxs-lookup"><span data-stu-id="b6372-103">You must configure the send handler properties if you want the [!INCLUDE[wcfadapter_short](../includes/wcfadapter-short-md.md)] to look up the custom behavior extensions from locations other than machine.config.</span></span>  
