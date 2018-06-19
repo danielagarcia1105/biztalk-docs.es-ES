@@ -1,14 +1,14 @@
 ---
 title: Trabajar con excepciones y mensajes de error | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad4006d4-efa1-431a-a15e-725094c961c8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295036"
 ---
 # <a name="working-with-exceptions-and-fault-messages"></a><span data-ttu-id="9d52a-102">Trabajar con excepciones y mensajes de error</span><span class="sxs-lookup"><span data-stu-id="9d52a-102">Working with Exceptions and Fault Messages</span></span>
 <span data-ttu-id="9d52a-103">En esta sección se describe los métodos que se puede utilizar el Portal de administración de ESB para ver los mensajes de error generados cuando se producen errores, según las siguientes tareas comunes para supervisar el comportamiento de las aplicaciones:</span><span class="sxs-lookup"><span data-stu-id="9d52a-103">This section describes the methods by which the ESB Management Portal can be used to monitor the behavior of applications by viewing fault messages generated when errors occur, according to the following common tasks:</span></span>  

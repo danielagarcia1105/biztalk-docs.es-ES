@@ -1,14 +1,14 @@
 ---
 title: Las cuentas de usuario y funciones de trasvase de registros | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2056ea90-5e9f-4501-95d6-18c905db4023
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010605"
 ---
 # <a name="log-shipping-user-accounts-and-roles"></a><span data-ttu-id="c2b40-102">Roles y cuentas de usuario de trasvase de registros</span><span class="sxs-lookup"><span data-stu-id="c2b40-102">Log Shipping User Accounts and Roles</span></span>
 <span data-ttu-id="c2b40-103">Trasvase de registros está controlado por un trabajo del Agente SQL Server para automatizar el proceso de restauración de registros y copias de seguridad de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="c2b40-103">BizTalk Server log shipping is driven by a SQL Server Agent job to automate the process of restoring backups and logs.</span></span> <span data-ttu-id="c2b40-104">Permisos incorrectos pueden hacer que las operaciones de restauración realizadas por el trasvase de registros de servidor BizTalk Server para producirá un error.</span><span class="sxs-lookup"><span data-stu-id="c2b40-104">Incorrect permissions can cause restore operations performed by BizTalk Server log shipping to fail.</span></span> <span data-ttu-id="c2b40-105">La cuenta de usuario configurada para restaurar las bases de datos debe tener acceso a la instancia de base de datos de producción que hospeda la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c2b40-105">The user account configured to restore databases must have access to the production database instance that hosts the BizTalk Management database.</span></span> <span data-ttu-id="c2b40-106">En la mayoría de los casos esto significa que la cuenta de servicio para el trabajo de agente SQL Server que se imponen el trabajo de trasvase de registros de servidor BizTalk Server en la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia requiere un inicio de sesión y permisos en la instancia de base de datos de producción que hospeda el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]base de datos de administración.</span><span class="sxs-lookup"><span data-stu-id="c2b40-106">In most cases this means that the service account for the SQL Server Agent job driving the BizTalk Server log shipping job on the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance requires a login and permissions on the production database instance that hosts the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] management database.</span></span> <span data-ttu-id="c2b40-107">Se supone que la cuenta de servicio del Agente SQL Server está configurada como el propietario del trabajo.</span><span class="sxs-lookup"><span data-stu-id="c2b40-107">This assumes that the SQL Server Agent service account is configured as the job owner.</span></span>  

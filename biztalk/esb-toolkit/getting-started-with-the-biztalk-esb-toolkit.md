@@ -1,14 +1,14 @@
 ---
-title: "Cómo empezar a usar el Kit de herramientas de ESB de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo empezar a usar el Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59fee2fc-6689-445a-aaf7-2b0aafa71db5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294532"
 ---
 # <a name="getting-started-with-the-biztalk-esb-toolkit"></a><span data-ttu-id="462ae-102">Cómo empezar a usar el Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="462ae-102">Getting Started with the BizTalk ESB Toolkit</span></span>
 <span data-ttu-id="462ae-103">En este tema se explica los conceptos para el diseño y el funcionamiento de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] componentes y servicios que se utilizan para compilar soluciones basadas en ESB.</span><span class="sxs-lookup"><span data-stu-id="462ae-103">This topic explains the concepts for the design and operation of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] components and services used to build ESB-enabled solutions.</span></span> <span data-ttu-id="462ae-104">Este tema incluye las siguientes secciones de tema:</span><span class="sxs-lookup"><span data-stu-id="462ae-104">This topic includes the following topic sections:</span></span>  

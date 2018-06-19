@@ -1,14 +1,14 @@
 ---
-title: "Codificación de caracteres | Documentos de Microsoft"
-ms.custom: 
+title: Codificación de caracteres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a0c21c8-3318-4533-9734-89302527cb67
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014683"
 ---
 # <a name="character-encoding"></a><span data-ttu-id="e007d-102">Codificación de caracteres</span><span class="sxs-lookup"><span data-stu-id="e007d-102">Character Encoding</span></span>
 <span data-ttu-id="e007d-103">TIBCO Enterprise Message Service (EMS) admite distintas codificaciones de caracteres en los mensajes que el adaptador de BizTalk para TIBCO EMS transmite a EMS.</span><span class="sxs-lookup"><span data-stu-id="e007d-103">TIBCO Enterprise Message Service (EMS) supports different character encoding in the messages transmitted to EMS by BizTalk Adapter for TIBCO EMS.</span></span> <span data-ttu-id="e007d-104">Los mensajes se cifran mediante la codificación UTF-8 predeterminada.</span><span class="sxs-lookup"><span data-stu-id="e007d-104">Messages are encoded using the default UTF-8 encoding.</span></span> <span data-ttu-id="e007d-105">Cuando se reciben mensajes, el adaptador determina su codificación y convierte las cadenas apropiadas a UTF-8 antes de pasarlos a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="e007d-105">When receiving messages, the adapter determines the encoding of the message and converts the appropriate strings to UTF-8 before providing the message to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="e007d-106">Todas las conversiones de caracteres utilizan las clases de Microsoft .NET Framework, por lo tanto, el adaptador admite las conversiones de caracteres proporcionadas por este mismo marco de trabajo.</span><span class="sxs-lookup"><span data-stu-id="e007d-106">All character conversions use the Microsoft .NET Framework classes; therefore the adapter supports the character conversions provided by this same framework.</span></span>  

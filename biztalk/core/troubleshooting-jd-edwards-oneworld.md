@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de JD Edwards OneWorld | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de JD Edwards OneWorld | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 15d73c2a-c6ee-46bf-8837-9c6ae3b098d2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015611"
 ---
 # <a name="troubleshooting-jd-edwards-oneworld"></a><span data-ttu-id="200dc-102">Solución de problemas de JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="200dc-102">Troubleshooting JD Edwards OneWorld</span></span>
 

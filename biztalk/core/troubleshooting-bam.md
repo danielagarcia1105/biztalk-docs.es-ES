@@ -1,14 +1,14 @@
 ---
 title: Solucionar problemas de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e63299a8-5c74-4337-ba20-3213e0c6ea1f
-caps.latest.revision: 
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710259"
 ---
 # <a name="troubleshooting-bam"></a><span data-ttu-id="3f2c7-102">Solución de problemas de BAM</span><span class="sxs-lookup"><span data-stu-id="3f2c7-102">Troubleshooting BAM</span></span>
 <span data-ttu-id="3f2c7-103">En este tema se proporciona información que le ayudará a solucionar problemas que se pueden encontrar al usar la Supervisión de la actividad económica (BAM).</span><span class="sxs-lookup"><span data-stu-id="3f2c7-103">This topic provides information to help you troubleshoot problems you might encounter when using Business Activity Monitoring (BAM).</span></span>  
@@ -120,7 +121,7 @@ Failed to get data.  If available, errors returned from the provider are listed 
   
 3.  <span data-ttu-id="3f2c7-159">Haga doble clic en la conexión de red (por ejemplo, la conexión de área Local) y seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="3f2c7-159">Right-click on the network connection (like Local Area Connection), and select **Properties**.</span></span>  
   
-4.  <span data-ttu-id="3f2c7-160">En el **conexión de área Local** página, seleccione **protocolo de Internet versión 4 (TCP/IPv4)**y haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="3f2c7-160">On the **Local Area Connection** page, select **Internet Protocol Version 4 (TCP/IPv4)**, and click **Properties**.</span></span>  
+4.  <span data-ttu-id="3f2c7-160">En el **conexión de área Local** página, seleccione **protocolo de Internet versión 4 (TCP/IPv4)** y haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="3f2c7-160">On the **Local Area Connection** page, select **Internet Protocol Version 4 (TCP/IPv4)**, and click **Properties**.</span></span>  
   
 5.  <span data-ttu-id="3f2c7-161">Haga clic en **Avanzado**.</span><span class="sxs-lookup"><span data-stu-id="3f2c7-161">Click **Advanced**.</span></span> <span data-ttu-id="3f2c7-162">En el **configuración de adelanto de TCP/IP** página, haga clic en el **DNS** ficha.</span><span class="sxs-lookup"><span data-stu-id="3f2c7-162">On the **Advance TCP/IP Settings** page, click the **DNS** tab.</span></span>  
   

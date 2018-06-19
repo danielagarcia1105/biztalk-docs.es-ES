@@ -1,18 +1,18 @@
 ---
-title: "Cómo recorrer en iteración ArrayList en reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo recorrer en iteración ArrayList en reglas de negocios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Framework, ArrayList
 - business rules, arrays
 - Business Rules Framework, programming
 ms.assetid: 935e8648-72dc-4128-986c-72b0487bc074
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970794"
 ---
 # <a name="how-to-iterate-arraylist-in-business-rules"></a><span data-ttu-id="65ff5-102">Cómo recorrer en iteración ArrayList en reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="65ff5-102">How to Iterate ArrayList in Business Rules</span></span>
 <span data-ttu-id="65ff5-103">Esta sección proporciona un ejemplo de cómo recorrer en iteración los miembros de un **ArrayList** en reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="65ff5-103">This section provides an example of iterating through members of an **ArrayList** in business rules.</span></span>  

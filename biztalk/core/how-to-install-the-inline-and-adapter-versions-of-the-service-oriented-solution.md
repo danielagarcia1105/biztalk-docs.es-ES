@@ -1,14 +1,14 @@
 ---
-title: "Instalar el en línea y las versiones de adaptador del servicio en la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Instalar el en línea y las versiones de adaptador del servicio en la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6050cfe9-4e94-4a55-8b24-fbcc74d9e8f4
-caps.latest.revision: "97"
+caps.latest.revision: 97
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010741"
 ---
 # <a name="how-to-install-the-inline-and-adapter-versions-of-the-service-oriented-solution"></a><span data-ttu-id="ecb97-102">Cómo instalar las versiones de adaptador y en línea de la solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="ecb97-102">How to Install the Inline and Adapter Versions of the Service Oriented Solution</span></span>
 <span data-ttu-id="ecb97-103">Los pasos siguientes describen cómo preparar el equipo para instalar las versiones de adaptador y en línea de la solución orientada a servicios y cómo realizar la instalación en el mismo.</span><span class="sxs-lookup"><span data-stu-id="ecb97-103">The following steps describe how to prepare the computer for installing the inline and adapter versions of the service oriented solution, and how to install the solution on this computer.</span></span>  
@@ -365,9 +366,9 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="ecb97-260">En el **Internet Information Services (IIS) Manager**, expanda **sitios Web**, expanda la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="ecb97-260">In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, expand the **Default Web Site**, right-click Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions, and then click **Properties**.</span></span>  
   
-    1.  <span data-ttu-id="ecb97-261">En el **seguridad de directorios** , haga clic en **editar** modificar **autenticación y control de acceso**.</span><span class="sxs-lookup"><span data-stu-id="ecb97-261">In the **Directory Security** tab, click **Edit** to modify **Authentication and access control**.</span></span> <span data-ttu-id="ecb97-262">Seleccione **la autenticación básica (la contraseña se envía en texto no cifrado)**y desactive las demás **de acceso de autenticación** casillas de verificación.</span><span class="sxs-lookup"><span data-stu-id="ecb97-262">Select **Basic authentication (password is sent in clear text)**, and clear other **Authentication access** checkboxes.</span></span> <span data-ttu-id="ecb97-263">Haga clic en **Aceptar** para cerrar el **métodos de autenticación** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="ecb97-263">Click **OK** to close the **Authentication Methods** dialog box.</span></span>  
+    1.  <span data-ttu-id="ecb97-261">En el **seguridad de directorios** , haga clic en **editar** modificar **autenticación y control de acceso**.</span><span class="sxs-lookup"><span data-stu-id="ecb97-261">In the **Directory Security** tab, click **Edit** to modify **Authentication and access control**.</span></span> <span data-ttu-id="ecb97-262">Seleccione **la autenticación básica (la contraseña se envía en texto no cifrado)** y desactive las demás **de acceso de autenticación** casillas de verificación.</span><span class="sxs-lookup"><span data-stu-id="ecb97-262">Select **Basic authentication (password is sent in clear text)**, and clear other **Authentication access** checkboxes.</span></span> <span data-ttu-id="ecb97-263">Haga clic en **Aceptar** para cerrar el **métodos de autenticación** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="ecb97-263">Click **OK** to close the **Authentication Methods** dialog box.</span></span>  
   
-    2.  <span data-ttu-id="ecb97-264">En el **seguridad de directorios** , haga clic en **editar** en el **una comunicación segura** cuadro del grupo y, a continuación, busque **Requerir canal seguro (SSL)**en la **comunicaciones seguras** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="ecb97-264">In the **Directory Security** tab, click **Edit** under the **Secure Communication** group box, and then check **Require secure channel (SSL)** in the **Secure Communications** dialog box.</span></span>  
+    2.  <span data-ttu-id="ecb97-264">En el **seguridad de directorios** , haga clic en **editar** en el **una comunicación segura** cuadro del grupo y, a continuación, busque **Requerir canal seguro (SSL)** en la **comunicaciones seguras** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="ecb97-264">In the **Directory Security** tab, click **Edit** under the **Secure Communication** group box, and then check **Require secure channel (SSL)** in the **Secure Communications** dialog box.</span></span>  
   
     3.  <span data-ttu-id="ecb97-265">En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** al grupo de aplicaciones que creó en el procedimiento "para crear un nuevo grupo de aplicaciones de IIS para los servicios Web de transacciones pendientes".</span><span class="sxs-lookup"><span data-stu-id="ecb97-265">In the **Virtual Directory** tab, set the **Application Pool** to the application pool that you created in the procedure "To create a new IIS application pool for the Pending Transaction Web services".</span></span>  
   
@@ -461,7 +462,7 @@ ms.lasthandoff: 12/01/2017
   
     2.  <span data-ttu-id="ecb97-321">En el **especificar Or Locate An Object** página, haga clic en **examinar**, elija SOHISTIUsingCOM.TLB en la carpeta %BTSSolutionsPath%\SO\MFAccess\HISTIComponent y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="ecb97-321">On the **Specify Or Locate An Object** page, click **Browse**, choose the SOHISTIUsingCOM.TLB in the %BTSSolutionsPath%\SO\MFAccess\HISTIComponent folder, and then click **Next**.</span></span>  
   
-    3.  <span data-ttu-id="ecb97-322">En el **Define Environment Characteristics para el objeto COM** página, seleccione **btsscn SO TI Component** para el **aplicación COM +**y, a continuación, haga clic en **siguiente** .</span><span class="sxs-lookup"><span data-stu-id="ecb97-322">On the **Define Environment Characteristics for The COM Object** page, select **BTSScn SO TI Component** for the **COM+ application**, and then click **Next**.</span></span>  
+    3.  <span data-ttu-id="ecb97-322">En el **Define Environment Characteristics para el objeto COM** página, seleccione **btsscn SO TI Component** para el **aplicación COM +** y, a continuación, haga clic en **siguiente** .</span><span class="sxs-lookup"><span data-stu-id="ecb97-322">On the **Define Environment Characteristics for The COM Object** page, select **BTSScn SO TI Component** for the **COM+ application**, and then click **Next**.</span></span>  
   
     4.  <span data-ttu-id="ecb97-323">En el **Define Remote Environment** página, seleccione el entorno remoto que ha creado en el procedimiento anterior para el **entorno remoto y, a continuación, haga clic en siguiente.**</span><span class="sxs-lookup"><span data-stu-id="ecb97-323">On the **Define Remote Environment** page, select the remote environment that you created in the previous procedure for the **Remote environment, and then click Next.**</span></span>  
   

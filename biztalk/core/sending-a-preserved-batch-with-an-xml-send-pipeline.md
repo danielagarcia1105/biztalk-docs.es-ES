@@ -1,14 +1,14 @@
 ---
-title: "Enviar un lote conservado con un documento XML de canalización de envío | Documentos de Microsoft"
-ms.custom: 
+title: Enviar un lote conservado con un documento XML de canalización de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6765576a-134f-4856-911c-2f603b6479bd
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269828"
 ---
 # <a name="sending-a-preserved-batch-with-an-xml-send-pipeline"></a><span data-ttu-id="c083f-102">Enviar un lote conservado con una canalización de envío XML</span><span class="sxs-lookup"><span data-stu-id="c083f-102">Sending a Preserved Batch with an XML Send Pipeline</span></span>
 <span data-ttu-id="c083f-103">Por lo general, se envía un lote conservado mediante una canalización de envío EDI.</span><span class="sxs-lookup"><span data-stu-id="c083f-103">Normally, a preserved batch is sent using an EDI send pipeline.</span></span> <span data-ttu-id="c083f-104">No obstante, se puede usar una canalización de envío XML para enviar un lote conservado.</span><span class="sxs-lookup"><span data-stu-id="c083f-104">However, you can also use an XML send pipeline to send a preserved batch.</span></span> <span data-ttu-id="c083f-105">Puesto que el lote conservado que se genera y se coloca en el cuadro de mensajes a través de la canalización de recepción EDI se encuentra en formato XML, la canalización de envío XML debe pasar junto con el lote en formato XML.</span><span class="sxs-lookup"><span data-stu-id="c083f-105">Since the preserved batch that is generated and dropped in the MessageBox by the EDI receive pipeline is in the XML format, the XML send pipeline would pass along the batch in XML format.</span></span>  

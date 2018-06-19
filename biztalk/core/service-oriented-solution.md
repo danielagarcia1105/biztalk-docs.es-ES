@@ -1,11 +1,11 @@
 ---
-title: "Solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solutions
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - business solutions, Web services
 - business solutions, service solutions
 ms.assetid: ce7cdf8d-ecaf-4a6a-9536-a9cf5d7f874f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271372"
 ---
 # <a name="service-oriented-solution"></a><span data-ttu-id="ab700-102">Solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="ab700-102">Service Oriented Solution</span></span>
 <span data-ttu-id="ab700-103">La solución orientada a servicios muestra cómo presentar una aplicación de BizTalk como un servicio que esté disponible como un servicio Web y en formularios a los que puedan tener acceso aplicaciones heredadas.</span><span class="sxs-lookup"><span data-stu-id="ab700-103">The service oriented solution shows how to present a BizTalk application as a service that is available as a Web service and in forms accessible to legacy applications.</span></span> <span data-ttu-id="ab700-104">La solución también demuestra cómo comunicarse con procesos de servidor como servicios Web, además de cómo agregar respuestas de varios sistemas de servidor.</span><span class="sxs-lookup"><span data-stu-id="ab700-104">The solution also shows how to communicate with back-end processes as Web services, as well as how to aggregate responses from multiple back-end systems.</span></span>  

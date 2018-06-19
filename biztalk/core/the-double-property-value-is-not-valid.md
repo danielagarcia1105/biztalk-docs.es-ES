@@ -1,14 +1,14 @@
 ---
-title: "El valor de propiedad doble no es válido | Documentos de Microsoft"
-ms.custom: 
+title: El valor de propiedad doble no es válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5e799d8-5fbb-4262-9d1f-4954ba0e0237
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279476"
 ---
 # <a name="the-double-property-value-is-not-valid"></a><span data-ttu-id="7d9ad-102">El valor de propiedad doble no es válido.</span><span class="sxs-lookup"><span data-stu-id="7d9ad-102">The double property value is not valid</span></span>
 ## <a name="details"></a><span data-ttu-id="7d9ad-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="7d9ad-103">Details</span></span>  

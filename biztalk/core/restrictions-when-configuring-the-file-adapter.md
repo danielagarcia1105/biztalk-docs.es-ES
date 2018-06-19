@@ -1,17 +1,17 @@
 ---
 title: Restricciones al configurar el adaptador de archivo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [File adapters], restrictions
 - File adapters, restrictions
 ms.assetid: 8d8137a7-5b16-4ae3-a0a7-6d114324bdf3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975138"
 ---
 # <a name="restrictions-when-configuring-the-file-adapter"></a><span data-ttu-id="4f38b-102">Restricciones al configurar el adaptador de archivo</span><span class="sxs-lookup"><span data-stu-id="4f38b-102">Restrictions when configuring the File adapter</span></span>
 <span data-ttu-id="4f38b-103">Restricciones y reglas al usar el adaptador de archivo.</span><span class="sxs-lookup"><span data-stu-id="4f38b-103">Restrictions and rules when using the file adapter.</span></span>
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="4f38b-111">La máscara de archivo y el nombre de archivo no distinguen entre mayúsculas y minúsculas.</span><span class="sxs-lookup"><span data-stu-id="4f38b-111">The file mask and file name are not case-sensitive.</span></span>  
   
--   <span data-ttu-id="4f38b-112">El nombre de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ?</span><span class="sxs-lookup"><span data-stu-id="4f38b-112">The file name cannot contain any of the following characters: \< \> : / &#124; " ?</span></span> <span data-ttu-id="4f38b-113">* ;</span><span class="sxs-lookup"><span data-stu-id="4f38b-113">* ;</span></span>  
+-   <span data-ttu-id="4f38b-112">El nombre de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ?</span><span class="sxs-lookup"><span data-stu-id="4f38b-112">The file name cannot contain any of the following characters: \< \> : / &#124; " ?</span></span> <span data-ttu-id="4f38b-113">\* ;</span><span class="sxs-lookup"><span data-stu-id="4f38b-113">\* ;</span></span>  
   
 -   <span data-ttu-id="4f38b-114">La máscara de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ;</span><span class="sxs-lookup"><span data-stu-id="4f38b-114">The file mask cannot contain any of the following characters: \< \> : / &#124; " ;</span></span> 
   
@@ -120,13 +121,13 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="4f38b-191">Puede especificar la ruta de acceso de archivo con formato de convención de nomenclatura universal (UNC, Universal Naming Convention) (por ejemplo, \\ \\ < *server* \> \\ <  *compartir*\>).</span><span class="sxs-lookup"><span data-stu-id="4f38b-191">You can specify the file path by using Universal Naming Convention (UNC) format (for example, \\\\<*server*\>\\<*share*\>).</span></span>  
   
--   <span data-ttu-id="4f38b-192">Si la ruta de acceso de archivo está en formato UNC, el nombre del servidor no debe contener los siguientes caracteres: ' ~!</span><span class="sxs-lookup"><span data-stu-id="4f38b-192">If the file path is in UNC format, the server name must not contain the following characters: \` ~ !</span></span> <span data-ttu-id="4f38b-193">@ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ?</span><span class="sxs-lookup"><span data-stu-id="4f38b-193">@ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ?</span></span> <span data-ttu-id="4f38b-194">;</span><span class="sxs-lookup"><span data-stu-id="4f38b-194">;</span></span>  
+-   <span data-ttu-id="4f38b-192">Si la ruta de acceso de archivo está en formato UNC, el nombre del servidor no debe contener los siguientes caracteres: ' ~!</span><span class="sxs-lookup"><span data-stu-id="4f38b-192">If the file path is in UNC format, the server name must not contain the following characters: \` ~ !</span></span> <span data-ttu-id="4f38b-193">@ # $ ^ & \* ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ?</span><span class="sxs-lookup"><span data-stu-id="4f38b-193">@ # $ ^ & \* ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ?</span></span> <span data-ttu-id="4f38b-194">;</span><span class="sxs-lookup"><span data-stu-id="4f38b-194">;</span></span>  
   
 -   <span data-ttu-id="4f38b-195">No se puede utilizar primario (\\... \\) y actual (\\.\\) símbolos de carpeta en cualquier parte de la ruta de acceso de archivo.</span><span class="sxs-lookup"><span data-stu-id="4f38b-195">You cannot use parent (\\..\\) and current (\\.\\) folder symbols in any part of the file path.</span></span>  
   
 -   <span data-ttu-id="4f38b-196">La ruta de acceso de archivos no distingue mayúsculas de minúsculas.</span><span class="sxs-lookup"><span data-stu-id="4f38b-196">The file path is not case-sensitive.</span></span>  
   
--   <span data-ttu-id="4f38b-197">La ruta de acceso de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ?</span><span class="sxs-lookup"><span data-stu-id="4f38b-197">The file path cannot contain any of the following characters: \< \> : / &#124; " ?</span></span> <span data-ttu-id="4f38b-198">* ;</span><span class="sxs-lookup"><span data-stu-id="4f38b-198">* ;</span></span>  
+-   <span data-ttu-id="4f38b-197">La ruta de acceso de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ?</span><span class="sxs-lookup"><span data-stu-id="4f38b-197">The file path cannot contain any of the following characters: \< \> : / &#124; " ?</span></span> <span data-ttu-id="4f38b-198">\* ;</span><span class="sxs-lookup"><span data-stu-id="4f38b-198">\* ;</span></span>  
   
 -   <span data-ttu-id="4f38b-199">No se pueden usar los siguientes nombres de dispositivo reservados en la ruta de acceso de archivos: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9.</span><span class="sxs-lookup"><span data-stu-id="4f38b-199">You cannot use the following reserved device names in the file path: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.</span></span>  
   

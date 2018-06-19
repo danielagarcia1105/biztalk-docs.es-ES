@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de servicios Web | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de servicios Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c32bf542-dcc6-4727-b31f-52bb19d4b89d
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287492"
 ---
 # <a name="troubleshooting-web-services"></a><span data-ttu-id="b467d-102">Solución de problemas de servicios Web</span><span class="sxs-lookup"><span data-stu-id="b467d-102">Troubleshooting Web Services</span></span>
 <span data-ttu-id="b467d-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suele usar servicios web junto con el adaptador de SOAP, así como al publicar orquestaciones como servicios web.</span><span class="sxs-lookup"><span data-stu-id="b467d-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Web services for use with the SOAP adapter and when publishing orchestrations as Web services.</span></span> <span data-ttu-id="b467d-104">Este tema proporciona algunos pasos que puede seguir para solucionar problemas de servicios Web, además de problemas habituales de algunos servicios Web y cómo solucionar dichos problemas.</span><span class="sxs-lookup"><span data-stu-id="b467d-104">This topic provides some steps that you can follow to troubleshoot Web services, as well as some common Web services problems and how to resolve those problems.</span></span>  

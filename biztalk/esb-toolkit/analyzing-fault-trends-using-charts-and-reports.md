@@ -1,14 +1,14 @@
 ---
-title: "Error de análisis de tendencias utilizando gráficos e informes | Documentos de Microsoft"
-ms.custom: 
+title: Error de análisis de tendencias utilizando gráficos e informes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f46dddb-bb9b-498d-bef3-ad9664f6c8ec
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290468"
 ---
 # <a name="analyzing-fault-trends-using-charts-and-reports"></a><span data-ttu-id="d1c3f-102">Analizar las tendencias de errores mediante gráficos e informes</span><span class="sxs-lookup"><span data-stu-id="d1c3f-102">Analyzing Fault Trends Using Charts and Reports</span></span>
 <span data-ttu-id="d1c3f-103">Esta sección describe los gráficos e informes que genera el Portal de administración de ESB.</span><span class="sxs-lookup"><span data-stu-id="d1c3f-103">This section describes the charts and reports that the ESB Management Portal generates.</span></span> <span data-ttu-id="d1c3f-104">Estos gráficos e informes proporcionan valiosa información detallada y tendencias de errores, las alertas y reenvío de mensajes.</span><span class="sxs-lookup"><span data-stu-id="d1c3f-104">These charts and reports provide valuable detail and trend information for faults, alerts, and message resubmission.</span></span> <span data-ttu-id="d1c3f-105">Puede ver lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d1c3f-105">You can view the following:</span></span>  

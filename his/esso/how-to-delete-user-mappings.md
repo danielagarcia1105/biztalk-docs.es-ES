@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82c4cdff-b82d-4cfd-8e20-220a2fe78656
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: a9d0a31c3dbc9d5980f59d9f30d20ec15f603a38
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30251088"
 ---
 # <a name="how-to-delete-user-mappings"></a><span data-ttu-id="1c7a3-102">Cómo eliminar asignaciones de usuario</span><span class="sxs-lookup"><span data-stu-id="1c7a3-102">How to Delete User Mappings</span></span>
 <span data-ttu-id="1c7a3-103">Utilice estos comandos para eliminar una o varias asignaciones de usuario, como especificó en el archivo XML.</span><span class="sxs-lookup"><span data-stu-id="1c7a3-103">Use these commands to delete one or more user mappings, as specified in the XML file.</span></span> <span data-ttu-id="1c7a3-104">A continuación, se muestra un archivo XML de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="1c7a3-104">The following is an example XML file.</span></span>  

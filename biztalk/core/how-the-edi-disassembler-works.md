@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8da91ba4-e1c9-4e6b-bbd1-fe71ea880118
-caps.latest.revision: ''
+caps.latest.revision: 43
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010669"
 ---
 # <a name="how-the-edi-disassembler-works"></a><span data-ttu-id="6158f-102">Cómo funciona el desensamblador EDI</span><span class="sxs-lookup"><span data-stu-id="6158f-102">How the EDI Disassembler Works</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="6158f-103"> realiza la mayoría del procesamiento para los intercambios codificados en EDI recibidos en la canalización de recepción EDI (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`).</span><span class="sxs-lookup"><span data-stu-id="6158f-103"> performs most processing for received EDI-encoded interchanges in the EDI Receive Pipeline (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`).</span></span> <span data-ttu-id="6158f-104">La canalización incluye el componente de canalización del componente de canalización de desensamblador EDI que realiza el siguiente procesamiento:</span><span class="sxs-lookup"><span data-stu-id="6158f-104">This pipeline includes the EDI disassembler pipeline component, which performs the following processing:</span></span>  

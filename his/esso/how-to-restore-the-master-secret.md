@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b331c9c5-ca90-4a05-b3f6-59db88bf73dc
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 5e640f2762ed9f9cc03a7795062c98a6aa76a59d
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250952"
 ---
 # <a name="how-to-restore-the-master-secret"></a><span data-ttu-id="02a36-102">Cómo restaurar el secreto principal</span><span class="sxs-lookup"><span data-stu-id="02a36-102">How to Restore the Master Secret</span></span>
 <span data-ttu-id="02a36-103">Como parte de los procedimientos de recuperación de datos, es posible que deba restaurar el secreto principal para poder reutilizar los datos existentes.</span><span class="sxs-lookup"><span data-stu-id="02a36-103">As part of data recovery procedures, you might have to restore the master secret to reuse existing data.</span></span> <span data-ttu-id="02a36-104">Para llevar a cabo esta tarea, debe iniciar sesión en el servidor secreto principal mediante el uso de una cuenta que sea un administrador de Windows y un administrador de inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="02a36-104">To perform this task, you must log on to the master secret server by using an account that is both a Windows administrator and a Single Sign-On (SSO) administrator.</span></span>  

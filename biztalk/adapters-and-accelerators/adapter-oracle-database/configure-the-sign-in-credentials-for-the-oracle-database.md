@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216548"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-oracle-database"></a><span data-ttu-id="cd7b7-102">Configurar el inicio de sesión en las credenciales para la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="cd7b7-102">Configure the sign in credentials for the Oracle Database</span></span>
 <span data-ttu-id="cd7b7-103">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requiere que los clientes de adaptador proporcionar las credenciales del cliente.</span><span class="sxs-lookup"><span data-stu-id="cd7b7-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requires the adapter clients to provide client credentials.</span></span> <span data-ttu-id="cd7b7-104">El adaptador utiliza estas credenciales para autenticar al usuario con la base de datos de Oracle y para establecer una conexión.</span><span class="sxs-lookup"><span data-stu-id="cd7b7-104">The adapter uses these credentials to authenticate the user with the Oracle database and to establish a connection.</span></span>  

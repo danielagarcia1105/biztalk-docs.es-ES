@@ -1,14 +1,14 @@
 ---
-title: "Información general del escenario de prueba | Documentos de Microsoft"
-ms.custom: 
+title: Información general del escenario de prueba | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cde553ad-2540-40d9-a74b-928fee873c31
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010693"
 ---
 # <a name="test-scenario-overview"></a><span data-ttu-id="8e6ad-102">Información general del escenario de prueba</span><span class="sxs-lookup"><span data-stu-id="8e6ad-102">Test Scenario Overview</span></span>
 <span data-ttu-id="8e6ad-103">Este tema proporciona información general de la aplicación de prueba; una descripción de las pruebas metodología empleada, listas y los indicadores clave de rendimiento (KPI) que se capturan durante las pruebas de carga.</span><span class="sxs-lookup"><span data-stu-id="8e6ad-103">This topic provides an overview of the test application; a description of the testing methodology used, and lists the key performance indicators (KPIs) captured during load testing.</span></span>  

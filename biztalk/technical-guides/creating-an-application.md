@@ -1,14 +1,14 @@
 ---
-title: "Crear una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Crear una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b6e325c-a86f-419d-9a27-864f4f035507
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298132"
 ---
 # <a name="creating-an-application"></a><span data-ttu-id="1e694-102">Crear una aplicación</span><span class="sxs-lookup"><span data-stu-id="1e694-102">Creating an Application</span></span>
 <span data-ttu-id="1e694-103">Hay tres maneras de crear una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="1e694-103">There are three ways to create a BizTalk application.</span></span> <span data-ttu-id="1e694-104">También hay varias opciones para la nomenclatura, que hacen referencia a e implementación de artefactos a las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="1e694-104">There are also several options for naming, referencing, and deploying artifacts to applications.</span></span>  

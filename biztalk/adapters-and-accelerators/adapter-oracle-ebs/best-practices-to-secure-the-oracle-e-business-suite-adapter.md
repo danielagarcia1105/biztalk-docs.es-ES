@@ -1,14 +1,14 @@
 ---
 title: Los procedimientos recomendados para proteger el adaptador de Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d492d22-2a1f-4b91-9000-a4d74c6fb2fb
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217748"
 ---
 # <a name="best-practices-to-secure-the-oracle-e-business-suite-adapter"></a><span data-ttu-id="351d9-102">Prácticas recomendadas para proteger el adaptador de Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="351d9-102">Best practices to secure the Oracle E-Business Suite adapter</span></span>
 <span data-ttu-id="351d9-103">Esta sección proporciona prácticas recomendadas que debería seguir para proteger más completamente los datos confidenciales si utiliza o desarrollar aplicaciones que consumen la [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="351d9-103">This section provides best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span>  

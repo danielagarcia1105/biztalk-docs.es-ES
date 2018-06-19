@@ -1,14 +1,14 @@
 ---
-title: "Guía de Hyper-V de BizTalk Server 2010 | Documentos de Microsoft"
-ms.custom: 
+title: Guía de Hyper-V de BizTalk Server 2010 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c38ecdd-de72-41d9-b639-2aa6bbfee917
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26011013"
 ---
 # <a name="biztalk-server-2010-hyper-v-guide"></a><span data-ttu-id="68c46-102">Guía de Hyper-V de BizTalk Server 2010</span><span class="sxs-lookup"><span data-stu-id="68c46-102">BizTalk Server 2010 Hyper-V Guide</span></span>
 <span data-ttu-id="68c46-103">El propósito de esta guía es proporcionar una guía práctica para usar Microsoft BizTalk Server con Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V.</span><span class="sxs-lookup"><span data-stu-id="68c46-103">The purpose of this guide is to provide practical guidance for using Microsoft BizTalk Server with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V.</span></span> <span data-ttu-id="68c46-104">El énfasis se encuentra en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pero los métodos de evaluación de rendimiento y escenarios de pruebas de rendimiento son útiles para analizar el rendimiento de aplicaciones de servidor virtualizado en general.</span><span class="sxs-lookup"><span data-stu-id="68c46-104">The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general.</span></span> <span data-ttu-id="68c46-105">Esta guía será de interés para las Comunidades de profesionales de TI y desarrolladores.</span><span class="sxs-lookup"><span data-stu-id="68c46-105">This guidance will be of interest to both the IT Pro and Developer communities.</span></span>  

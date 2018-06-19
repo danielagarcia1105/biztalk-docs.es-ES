@@ -1,14 +1,14 @@
 ---
-title: "Cómo ver los detalles del módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver los detalles del módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7f02034-9007-4327-9f00-4be60d21f65a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298260"
 ---
 # <a name="how-to-view-management-pack-details"></a><span data-ttu-id="68a3e-102">Cómo ver los detalles del módulo de administración</span><span class="sxs-lookup"><span data-stu-id="68a3e-102">How to View Management Pack Details</span></span>
 <span data-ttu-id="68a3e-103">Para obtener información acerca de un monitor y los valores de invalidación asociados, ver la información para el monitor.</span><span class="sxs-lookup"><span data-stu-id="68a3e-103">For information about a monitor and the associated override values, view the knowledge for the monitor.</span></span>  

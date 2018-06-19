@@ -1,18 +1,18 @@
 ---
 title: Implementar actividades BAM con secuencias de eventos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], about activities
 - activities [BAM]
 - BAM, activities
 ms.assetid: 94e6d9dd-93c3-4ab0-9de7-a860dd1e3406
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257348"
 ---
 # <a name="implementing-bam-activities-with-event-streams"></a><span data-ttu-id="7a7a1-102">Implementar actividades de BAM con secuencias de eventos</span><span class="sxs-lookup"><span data-stu-id="7a7a1-102">Implementing BAM Activities with Event Streams</span></span>
 <span data-ttu-id="7a7a1-103">Una actividad de BAM representa una unidad de trabajo en el negocio, como un pedido o una aplicación de préstamo.</span><span class="sxs-lookup"><span data-stu-id="7a7a1-103">A BAM activity represents a unit of work in the business, such as purchase order or loan application.</span></span> <span data-ttu-id="7a7a1-104">La actividad muestra el historial (hitos) y los datos sobre esta unidad de trabajo a los usuarios finales empresariales o al trabajador de la información.</span><span class="sxs-lookup"><span data-stu-id="7a7a1-104">The activity shows the history (milestones) and data about this unit of work to the business end user, or information worker.</span></span> <span data-ttu-id="7a7a1-105">Por ejemplo, una actividad de aplicaciones de préstamo podría contener hitos como "Préstamo aprobado" y datos como" Nombre del candidato" e "Importe del préstamo".</span><span class="sxs-lookup"><span data-stu-id="7a7a1-105">For example, a loan application activity might contain milestones such as “Loan approved” and data such as “Applicant name” and “Loan amount.”</span></span> <span data-ttu-id="7a7a1-106">Las actividades de BAM a menudo se asignan directamente a un proceso empresarial, aunque como una abstracción de alto nivel, una actividad es independiente de la implementación actual de la infraestructura de TI.</span><span class="sxs-lookup"><span data-stu-id="7a7a1-106">BAM activities often map directly to a business process, although as a high-level abstraction an activity is independent of the actual implementation of your IT infrastructure.</span></span>  

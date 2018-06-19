@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Modificar la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd74440-2a45-4a1a-8e36-98796e1e1392
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289676"
 ---
 # <a name="walkthrough-modifying-the-policy"></a><span data-ttu-id="f199b-102">Tutorial: Modificar la directiva</span><span class="sxs-lookup"><span data-stu-id="f199b-102">Walkthrough: Modifying the Policy</span></span>
 <span data-ttu-id="f199b-103">Este tutorial proporciona instrucciones paso a paso para crear una nueva versión de la **POVocabulary**, crear una nueva versión de la **ProcessPurchaseOrder** directiva y utilizar la versión más reciente de la **POVocabulary** en la nueva versión de la **ProcessPurchaseOrder** directiva.</span><span class="sxs-lookup"><span data-stu-id="f199b-103">This walkthrough provides step-by-step instructions for creating a new version of the **POVocabulary**, creating a new version of the **ProcessPurchaseOrder** policy, and using the latest version of the **POVocabulary** in the new version of the **ProcessPurchaseOrder** policy.</span></span>  
@@ -56,7 +57,7 @@ ms.lasthandoff: 09/20/2017
   
 9. <span data-ttu-id="f199b-128">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-128">Click **Finish**.</span></span>  
   
-10. <span data-ttu-id="f199b-129">Haga clic en **versión 1.1 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-129">Right-click **Version 1.1 (not saved)**, and then click **Save**.</span></span>  
+10. <span data-ttu-id="f199b-129">Haga clic en **versión 1.1 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-129">Right-click **Version 1.1 (not saved)**, and then click **Save**.</span></span>  
   
 11. <span data-ttu-id="f199b-130">Haga clic en **versión 1.1**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-130">Right-click **Version 1.1**, and then click **Publish**.</span></span>  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="f199b-138">Repita los pasos del 4 al 6 con **DeniedRule**.</span><span class="sxs-lookup"><span data-stu-id="f199b-138">Repeat steps 4-6 with **DeniedRule**.</span></span>  
   
-8.  <span data-ttu-id="f199b-139">Haga clic en **versión 1.3 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-139">Right-click **Version 1.3 (not saved)**, and then click **Save**.</span></span>  
+8.  <span data-ttu-id="f199b-139">Haga clic en **versión 1.3 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-139">Right-click **Version 1.3 (not saved)**, and then click **Save**.</span></span>  
   
 9. <span data-ttu-id="f199b-140">Haga clic en **versión 1.3**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="f199b-140">Right-click **Version 1.3**, and then click **Publish**.</span></span>  
   

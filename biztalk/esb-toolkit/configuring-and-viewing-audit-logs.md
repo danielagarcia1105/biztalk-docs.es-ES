@@ -1,14 +1,14 @@
 ---
-title: "Configurar y ver los registros de auditoría | Documentos de Microsoft"
-ms.custom: 
+title: Configurar y ver los registros de auditoría | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c725bf04-d59f-42c1-b327-b4268421689c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289844"
 ---
 # <a name="configuring-and-viewing-audit-logs"></a><span data-ttu-id="d296c-102">Configurar y ver los registros de auditoría</span><span class="sxs-lookup"><span data-stu-id="d296c-102">Configuring and Viewing Audit Logs</span></span>
 <span data-ttu-id="d296c-103">El Portal de administración de ESB mantiene un registro de auditoría de acciones que le ayudan a supervisar el uso y realizar un seguimiento de problemas.</span><span class="sxs-lookup"><span data-stu-id="d296c-103">The ESB Management Portal maintains an audit log of actions that help you to monitor usage and track problems.</span></span> <span data-ttu-id="d296c-104">Los administradores pueden especificar los eventos que se escribirá el portal en el registro de auditoría.</span><span class="sxs-lookup"><span data-stu-id="d296c-104">Administrators can specify which events the portal will write to the audit log.</span></span>  

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26010885"
 ---
 # <a name="optimizing-filegroups-for-the-databases"></a><span data-ttu-id="51850-102">Optimizar los grupos de archivos para las bases de datos</span><span class="sxs-lookup"><span data-stu-id="51850-102">Optimizing Filegroups for the Databases</span></span>
 <span data-ttu-id="51850-103">Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuello de botella en un entorno de BizTalk Server de producción.</span><span class="sxs-lookup"><span data-stu-id="51850-103">File input/output (I/O) contention is frequently a limiting factor, or bottleneck, in a production BizTalk Server environment.</span></span> <span data-ttu-id="51850-104">BizTalk Server es una aplicación de uso intensivo de la parte de la base de datos y a su vez, la base de datos de SQL Server que utiliza BizTalk Server es intensivo de E/S de archivo muy.</span><span class="sxs-lookup"><span data-stu-id="51850-104">BizTalk Server is a very database intensive application and in turn, the SQL Server database used by BizTalk Server is very file I/O intensive.</span></span>  

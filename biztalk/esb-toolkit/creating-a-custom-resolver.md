@@ -1,14 +1,14 @@
 ---
 title: Crear un solucionador personalizado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2775460-8e04-40be-9557-8278336b031c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975906"
 ---
 # <a name="creating-a-custom-resolver"></a><span data-ttu-id="86374-102">Crear a una resolución personalizada</span><span class="sxs-lookup"><span data-stu-id="86374-102">Creating a Custom Resolver</span></span>
 <span data-ttu-id="86374-103">La implementación de resolución y marco de proveedores de adaptador en [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] utiliza un componente de canalización con nombre distribuidor y canalizaciones con nombre ItineraryReceive y ItinerarySend.</span><span class="sxs-lookup"><span data-stu-id="86374-103">The Resolver and Adapter Provider Framework implementation in [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] uses a pipeline component named Dispatcher and pipelines named ItineraryReceive and ItinerarySend.</span></span>  

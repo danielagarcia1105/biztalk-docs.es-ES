@@ -1,14 +1,14 @@
 ---
-title: "Validación de mensajes EDI salientes | Documentos de Microsoft"
-ms.custom: 
+title: Validación de mensajes EDI salientes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 491303c0-b585-409e-a289-a2f6f9f82469
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287996"
 ---
 # <a name="validation-of-outgoing-edi-messages"></a><span data-ttu-id="70e96-102">Validación de mensajes EDI salientes</span><span class="sxs-lookup"><span data-stu-id="70e96-102">Validation of Outgoing EDI Messages</span></span>
 <span data-ttu-id="70e96-103">Cuando la canalización de envío EDI procesa un mensaje que se va a enviar, se llevan a cabo una serie de validaciones en los datos del sobre y del mensaje.</span><span class="sxs-lookup"><span data-stu-id="70e96-103">When the EDI send pipeline processes a message to be sent, it performs a series of validations on the envelope and message data.</span></span> <span data-ttu-id="70e96-104">Siempre se llevan a cabo algunos de estos procesos. Otros sólo se realizan si usted los habilita.</span><span class="sxs-lookup"><span data-stu-id="70e96-104">Some of these processes are always performed; some are performed only if you enable them.</span></span> <span data-ttu-id="70e96-105">Entre estas validaciones, se incluyen las siguientes:</span><span class="sxs-lookup"><span data-stu-id="70e96-105">These validations include the following:</span></span>  

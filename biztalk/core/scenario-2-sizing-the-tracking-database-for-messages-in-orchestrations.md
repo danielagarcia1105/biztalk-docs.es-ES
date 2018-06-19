@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269836"
 ---
 # <a name="scenario-2-sizing-the-tracking-database--for-messages-in-orchestrations"></a><span data-ttu-id="6edf2-102">Escenario 2: Ajustar el tamaño de la base de datos de seguimiento para mensajes de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="6edf2-102">Scenario 2: Sizing the Tracking Database  for Messages in Orchestrations</span></span>
 <span data-ttu-id="6edf2-103">Veamos un ejemplo que incluye una orquestación.</span><span class="sxs-lookup"><span data-stu-id="6edf2-103">Let's look at an example that includes an orchestration.</span></span> <span data-ttu-id="6edf2-104">La siguiente ilustración muestra todo el proceso empresarial.</span><span class="sxs-lookup"><span data-stu-id="6edf2-104">The following figure displays the entire business process.</span></span> <span data-ttu-id="6edf2-105">En este escenario, entra un mensaje en BizTalk Server, se envía a través de una orquestación, se cambia dentro de la orquestación y se envía a un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="6edf2-105">In this scenario, a message comes into BizTalk Server, is sent through an orchestration, is changed within the orchestration, and is then sent out through a send port.</span></span>  

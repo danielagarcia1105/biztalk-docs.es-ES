@@ -1,18 +1,18 @@
 ---
-title: "Con el formato de motor de análisis de archivos | Documentos de Microsoft"
-ms.custom: 
+title: Con el formato de motor de análisis de archivos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], flat file documents
 - pipeline components [custom], engines
 - pipeline components [custom], parsing
 ms.assetid: b65607bc-61ba-4dbd-9b84-61b033514a21
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287524"
 ---
 # <a name="using-the-flat-file-parsing-engine"></a><span data-ttu-id="18e8c-102">Usar el motor de análisis de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="18e8c-102">Using the Flat File Parsing Engine</span></span>
 <span data-ttu-id="18e8c-103">Esta sección contiene ejemplos de código para tareas comunes asociadas al motor de análisis de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="18e8c-103">This section contains code examples for common tasks associated with the flat file parsing engine.</span></span>  

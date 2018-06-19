@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6832ac2-c8c5-4515-883e-26d125d6ace0
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010573"
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a><span data-ttu-id="50e18-102">Cómo mover la base de datos de esquema de estrella de BAM</span><span class="sxs-lookup"><span data-stu-id="50e18-102">How to Move the BAM Star Schema Database</span></span>
 <span data-ttu-id="50e18-103">Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.</span><span class="sxs-lookup"><span data-stu-id="50e18-103">You can use this procedure to move the BAM Star Schema database to another server.</span></span>  <span data-ttu-id="50e18-104">Desde una perspectiva de escenario to-end, mover la base de datos de esquema de estrella de BAM consta de dos pasos principales:</span><span class="sxs-lookup"><span data-stu-id="50e18-104">From an end-to-end scenario perspective, moving the BAM Star Schema database involves two major steps:</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  <span data-ttu-id="50e18-116">Detenga el servicio de notificación de alertas de BAM:</span><span class="sxs-lookup"><span data-stu-id="50e18-116">Stop the BAM Alerts Notification service:</span></span>  
   
-    1.  <span data-ttu-id="50e18-117">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-117">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="50e18-117">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-117">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="50e18-118">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="50e18-118">At the command prompt, type:</span></span>  
   
@@ -66,7 +67,7 @@ ms.lasthandoff: 03/28/2018
   
 1.  <span data-ttu-id="50e18-135">Obtenga una copia del archivo .xml utilizado para restaurar BAM:</span><span class="sxs-lookup"><span data-stu-id="50e18-135">Get a copy of the .xml file used for restoring BAM:</span></span>  
   
-    1.  <span data-ttu-id="50e18-136">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-136">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="50e18-136">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-136">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="50e18-137">En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="50e18-137">On a computer running BizTalk Server, browse to the following folder:</span></span>  
   
@@ -89,7 +90,7 @@ ms.lasthandoff: 03/28/2018
   
 3.  <span data-ttu-id="50e18-147">Guarde el archivo BAMConfiguration.xml y ciérrelo.</span><span class="sxs-lookup"><span data-stu-id="50e18-147">Save and close the BAMConfiguration.xml file.</span></span>  
   
-4.  <span data-ttu-id="50e18-148">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-148">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="50e18-148">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-148">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 5.  <span data-ttu-id="50e18-149">En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="50e18-149">On a computer running BizTalk Server, browse to the following folder:</span></span>  
   
@@ -182,7 +183,7 @@ ms.lasthandoff: 03/28/2018
   
 8.  <span data-ttu-id="50e18-201">Inicie el servicio de notificación de alertas de BAM:</span><span class="sxs-lookup"><span data-stu-id="50e18-201">Start the BAM Alerts Notification service:</span></span>  
   
-    1.  <span data-ttu-id="50e18-202">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-202">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="50e18-202">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="50e18-202">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="50e18-203">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="50e18-203">At the command prompt, type:</span></span>  
   

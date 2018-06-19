@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4434f50a-e0a9-45e0-8c68-a059011e1296
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22289892"
 ---
 # <a name="why-write-code-for-bam"></a><span data-ttu-id="b68cf-103">¿Por qué escribir código para BAM?</span><span class="sxs-lookup"><span data-stu-id="b68cf-103">Why Write Code For BAM?</span></span>
 <span data-ttu-id="b68cf-104">En la mayoría de las circunstancias puede usar las herramientas de BAM sin que sea necesario escribir su propio código para realizar funciones de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="b68cf-104">In most circumstances you can use the BAM tools without writing your own code to perform your tracking functions.</span></span> <span data-ttu-id="b68cf-105">Estas herramientas son el complemento de BAM para Excel, la utilidad de administración de BAM y el Editor de perfiles de seguimiento (TPE).</span><span class="sxs-lookup"><span data-stu-id="b68cf-105">These tools are the BAM Add-in for Excel, the BAM Management utility, and the Tracking Profile Editor (TPE).</span></span> <span data-ttu-id="b68cf-106">BAM en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona interceptores para las orquestaciones y componentes de mensajería de BizTalk (canalizaciones y puertos).</span><span class="sxs-lookup"><span data-stu-id="b68cf-106">BAM in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides interceptors for BizTalk orchestrations and messaging components (pipelines and ports).</span></span> <span data-ttu-id="b68cf-107">Un interceptor es software que instrumenta una aplicación para que pueda recopilar datos de un modo genérico basado en un archivo de configuración.</span><span class="sxs-lookup"><span data-stu-id="b68cf-107">An interceptor is software that instruments an application so that it can collect data in a generic way based on a configuration file.</span></span> <span data-ttu-id="b68cf-108">Puede instrumentar la aplicación para que use estos interceptores mediante el Editor de perfiles de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="b68cf-108">You can instrument your application to use these interceptors by using the Tracking Profile Editor.</span></span> <span data-ttu-id="b68cf-109">Para obtener más información sobre el Editor de perfiles de seguimiento, vea [Editor de perfiles de seguimiento](../core/tracking-profile-editor.md).</span><span class="sxs-lookup"><span data-stu-id="b68cf-109">For more information about the Tracking Profile Editor, see [Tracking Profile Editor](../core/tracking-profile-editor.md).</span></span>  

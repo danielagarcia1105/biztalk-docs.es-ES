@@ -1,14 +1,14 @@
 ---
-title: "Propiedades de contexto de mensaje de recepción para TIBCO Rendezvous | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de contexto de mensaje de recepción para TIBCO Rendezvous | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f47e2a0-6ac8-404a-bc0a-c7739911af74
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015003"
 ---
 # <a name="biztalk-server-message-context-properties-receive-handlers"></a><span data-ttu-id="c7553-102">Propiedades de contexto de mensaje de BizTalk Server (controladores de recepción)</span><span class="sxs-lookup"><span data-stu-id="c7553-102">BizTalk Server Message Context Properties (Receive Handlers)</span></span>
 <span data-ttu-id="c7553-103">Además de la carga del mensaje, se debe poder acceder a la información complementaria que compone un mensaje desde una orquestación de BizTalk Server en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="c7553-103">In addition to the message payload, the supplementary information that composes a message must be accessible from a BizTalk Server orchestration at run time.</span></span>  

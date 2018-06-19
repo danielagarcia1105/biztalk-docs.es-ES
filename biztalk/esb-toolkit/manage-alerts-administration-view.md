@@ -1,14 +1,14 @@
 ---
-title: "Administrar alertas (vista de administración) | Documentos de Microsoft"
-ms.custom: 
+title: Administrar alertas (vista de administración) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 27f8bf7d-15b7-448d-8c13-e4969b90d021
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294444"
 ---
 # <a name="manage-alerts-administration-view"></a><span data-ttu-id="1ab50-102">Administrar alertas (vista de administración)</span><span class="sxs-lookup"><span data-stu-id="1ab50-102">Manage Alerts (Administration View)</span></span>
 <span data-ttu-id="1ab50-103">Figura 1 muestra la página de alertas en la vista de administración, que los administradores pueden usar para ver una lista de todas las alertas y un resumen de su actividad.</span><span class="sxs-lookup"><span data-stu-id="1ab50-103">Figure 1 shows the Alerts page in administration view, which administrators can use to view a list of all alerts and a summary of their activity.</span></span> <span data-ttu-id="1ab50-104">Una tabla muestra una fila para cada alerta.</span><span class="sxs-lookup"><span data-stu-id="1ab50-104">A table displays a row for each alert.</span></span> <span data-ttu-id="1ab50-105">Cada fila muestra el nombre de la alerta, el nombre del creador del estadísticas generales de la alerta (por ejemplo, el número de activaciones de alerta dentro de la última hora, día o mes), un recuento de los suscriptores para las alertas con un vínculo para ver una lista y una columna de las acciones que contiene un conjunto de cli iconos de ckable para realizar acciones en la alerta.</span><span class="sxs-lookup"><span data-stu-id="1ab50-105">Each row shows the alert name, the name of the creator, general statistics for the alert (such as number of alert activations within the last hour, day, or month), a count of subscribers for the alerts with a link to view a list, and an Actions column containing a set of clickable icons to perform actions on the alert.</span></span>  

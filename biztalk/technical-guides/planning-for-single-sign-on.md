@@ -1,14 +1,14 @@
 ---
-title: "Planeación de Single Sign-On | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de Single Sign-On | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d1bc220-4087-4603-ac15-6bb0c62c59d4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302412"
 ---
 # <a name="planning-for-single-sign-on"></a><span data-ttu-id="61bc0-102">Planeación de inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="61bc0-102">Planning for Single Sign-On</span></span>
 <span data-ttu-id="61bc0-103">Inicio de sesión único (SSO) empresarial es un componente esencial de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="61bc0-103">Enterprise Single Sign-On (SSO) is a critical component of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="61bc0-104">El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiempo de ejecución no puede funcionar sin el SSO de servicio porque todos los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] información de configuración de adaptador se cifran y almacenan en la base de datos SSO y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiene acceso a esta información a través del servicio SSO.</span><span class="sxs-lookup"><span data-stu-id="61bc0-104">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run time cannot function without the SSO service because all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter configuration information is encrypted and stored in the SSO database and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] accesses this information via the SSO service.</span></span> <span data-ttu-id="61bc0-105">Esta información de configuración del adaptador no es accesible si no se está ejecutando el servicio SSO en el servidor BizTalk server o si el servicio SSO no tiene acceso al servidor secreto principal de SSO.</span><span class="sxs-lookup"><span data-stu-id="61bc0-105">This adapter configuration information is not accessible if the SSO service is not running on the BizTalk server or if the SSO service does not have access to the SSO master secret server.</span></span>  

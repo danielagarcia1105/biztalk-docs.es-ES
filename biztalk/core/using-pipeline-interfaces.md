@@ -1,14 +1,14 @@
 ---
-title: "Usar Interfaces de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Usar Interfaces de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4bb88d0d-23ab-4fdb-bcd2-56050456cf69
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289148"
 ---
 # <a name="using-pipeline-interfaces"></a><span data-ttu-id="40666-102">Utilizar Interfaces de canalizaciones</span><span class="sxs-lookup"><span data-stu-id="40666-102">Using Pipeline Interfaces</span></span>
 <span data-ttu-id="40666-103">Un componente de canalización consiste en un componente .NET o COM que implementa un conjunto de interfaces predefinidas para la interacción con el motor de mensajería de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="40666-103">A pipeline component is a .NET or COM component that implements a set of predefined interfaces for interaction with the BizTalk Messaging Engine.</span></span> <span data-ttu-id="40666-104">Según sea la funcionalidad del componente, se deberán implementar diferentes interfaces.</span><span class="sxs-lookup"><span data-stu-id="40666-104">Depending on the functionality of the component, different interfaces must be implemented.</span></span> <span data-ttu-id="40666-105">En este tema se tratan estas interfaces y algunos de sus métodos.</span><span class="sxs-lookup"><span data-stu-id="40666-105">This topic discusses these interfaces and some of their methods.</span></span>  

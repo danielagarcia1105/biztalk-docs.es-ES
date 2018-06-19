@@ -1,17 +1,17 @@
 ---
 title: Functoids en cascada | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoid types, Cascading
 - Cascading functoids
 ms.assetid: 03c46e7b-be1c-475e-b68b-f9d1d7732fce
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231012"
 ---
 # <a name="cascading-functoids"></a><span data-ttu-id="dd799-102">Functoids en cascada</span><span class="sxs-lookup"><span data-stu-id="dd799-102">Cascading Functoids</span></span>
 <span data-ttu-id="dd799-103">Se dice que los functoids están en cascada cuando un functoid está vinculado a otro functoid antes de estar vinculado a un registro o campo del esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="dd799-103">Functoids are said to be cascaded when one functoid is linked to another functoid before it is linked to a record or field in the destination schema.</span></span> <span data-ttu-id="dd799-104">Por ejemplo, puede crear functoids en cascada en los que dos cadenas concatenadas produzcan una tercera cadena engarzada en un campo del esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="dd799-104">For example, you can create cascading functoids in which two concatenated strings produce a third string fed into a field in the destination schema.</span></span>  

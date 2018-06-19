@@ -1,17 +1,17 @@
 ---
 title: Administrar un mensaje sin analizar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - unparsed messages
 - messages, unparsed messages
 ms.assetid: c6a67ff3-3295-489f-9d5f-fb35b2bf8b19
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209892"
 ---
 # <a name="handling-an-unparsed-message"></a><span data-ttu-id="7af72-102">Administrar un mensaje sin analizar</span><span class="sxs-lookup"><span data-stu-id="7af72-102">Handling an Unparsed Message</span></span>
 <span data-ttu-id="7af72-103">En esta sección se describe cómo controlar un mensaje sin analizar.</span><span class="sxs-lookup"><span data-stu-id="7af72-103">This section describes how to handle an unparsed message.</span></span> <span data-ttu-id="7af72-104">A diferencia de los mensajes que no superan la validación, no se puede reparar un mensaje que [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] no se puede analizar.</span><span class="sxs-lookup"><span data-stu-id="7af72-104">Unlike messages that fail validation, you cannot repair a message that [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] cannot parse.</span></span> <span data-ttu-id="7af72-105">Reparación de mensajes y nuevo envío muestra el mensaje y la naturaleza del error de análisis y le permite imprimir el mensaje o guardarlo en un archivo local.</span><span class="sxs-lookup"><span data-stu-id="7af72-105">Message Repair and New Submission displays the message and the nature of the parsing error, and enables you to print the message or save it to a local file.</span></span> <span data-ttu-id="7af72-106">A continuación, puede notificar a la entidad que envió el mensaje a la naturaleza del error de análisis específica.</span><span class="sxs-lookup"><span data-stu-id="7af72-106">You can then alert the entity that sent the message to the specific nature of the parsing failure.</span></span>  

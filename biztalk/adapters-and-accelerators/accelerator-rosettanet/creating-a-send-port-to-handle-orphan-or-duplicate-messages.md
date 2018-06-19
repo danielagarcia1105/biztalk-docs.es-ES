@@ -1,11 +1,11 @@
 ---
-title: "Crear un puerto de envío para controlar los mensajes duplicados o huérfanas | Documentos de Microsoft"
-ms.custom: 
+title: Crear un puerto de envío para controlar los mensajes duplicados o huérfanas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, duplicate messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - send ports, orphaned messages
 - messages, send ports
 ms.assetid: 61d51206-13e3-4d32-a184-866248db9b45
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006957"
 ---
 # <a name="creating-a-send-port-to-handle-orphan-or-duplicate-messages"></a><span data-ttu-id="4fa19-102">Crear un puerto de envío para que procese huérfano o mensajes duplicados</span><span class="sxs-lookup"><span data-stu-id="4fa19-102">Creating a Send Port to Handle Orphan or Duplicate Messages</span></span>
 <span data-ttu-id="4fa19-103">En este tema se describe cómo configurar un puerto de envío que puede usar para eliminar mensajes duplicados o huérfanas.</span><span class="sxs-lookup"><span data-stu-id="4fa19-103">This topic describes how to set up a send port that you can use to delete orphan or duplicate messages.</span></span>  

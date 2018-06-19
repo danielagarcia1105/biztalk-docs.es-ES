@@ -1,14 +1,14 @@
 ---
 title: Propiedades de contexto EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6a408af-daf5-4e9e-afb3-9fd1795e8c16
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010621"
 ---
 # <a name="edi-context-properties"></a><span data-ttu-id="4a29e-102">Propiedades de contexto de EDI</span><span class="sxs-lookup"><span data-stu-id="4a29e-102">EDI Context Properties</span></span>
 <span data-ttu-id="4a29e-103">Las propiedades de contexto del mensaje del esquema de propiedades global de EDI están expuestos públicamente, lo que permite a los usuarios utilizarlos en operaciones como el enrutamiento de mensajes.</span><span class="sxs-lookup"><span data-stu-id="4a29e-103">The message context properties in the EDI global property schema are publicly exposed so you can use them in operations such as message routing.</span></span> <span data-ttu-id="4a29e-104">Estas propiedades de contexto están definidas en el archivo PropertySchema.xsd del ensamblado Microsoft.BizTalk.Edi.BaseArtifacts.</span><span class="sxs-lookup"><span data-stu-id="4a29e-104">These context properties are defined in PropertySchema.xsd in the Microsoft.BizTalk.Edi.BaseArtifacts assembly.</span></span> <span data-ttu-id="4a29e-105">El espacio de nombres para las propiedades es `http://schemas.microsoft.com/ Edi/PropertySchema`.</span><span class="sxs-lookup"><span data-stu-id="4a29e-105">The namespace for the properties is `http://schemas.microsoft.com/ Edi/PropertySchema`.</span></span> <span data-ttu-id="4a29e-106">Si se promocionan, estas propiedades de contexto de mensaje están disponibles como Edi. \< *Nombre de la propiedad* \> en el **filtros** página de la **cuadro de diálogo de propiedades de puerto de envío** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span><span class="sxs-lookup"><span data-stu-id="4a29e-106">If they are promoted, these message context properties are available as Edi.\<*Property Name*\> in the **Filters** page of the **Send Port Properties Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>

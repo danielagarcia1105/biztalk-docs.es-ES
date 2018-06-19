@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de envío SOAP | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de envío SOAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4d65218d-516b-4e45-a824-272ef6ef298c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278860"
 ---
 # <a name="soap-send-adapter"></a><span data-ttu-id="15a93-102">Adaptador de envío SOAP</span><span class="sxs-lookup"><span data-stu-id="15a93-102">SOAP Send Adapter</span></span>
 <span data-ttu-id="15a93-103">Puede utilizar el adaptador de envío SOAP para llamar a un servicio Web.</span><span class="sxs-lookup"><span data-stu-id="15a93-103">You use the SOAP send adapter to call a Web service.</span></span> <span data-ttu-id="15a93-104">El adaptador de envío SOAP lee el contexto de mensaje del objeto de mensaje de BizTalk para obtener el nombre de proxy, y después llama al proxy de servicio Web externo asociado.</span><span class="sxs-lookup"><span data-stu-id="15a93-104">The SOAP send adapter reads the message context on the BizTalk Message object to get the proxy name and calls the associated external Web service proxy.</span></span>  

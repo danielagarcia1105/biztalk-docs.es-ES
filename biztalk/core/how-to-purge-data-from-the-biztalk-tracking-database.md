@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "23129709"
 ---
 # <a name="purge-data-from-the-biztalk-tracking-database"></a><span data-ttu-id="abc1e-103">Purgar datos de la base de datos de seguimiento de BizTalk</span><span class="sxs-lookup"><span data-stu-id="abc1e-103">Purge Data from the BizTalk Tracking Database</span></span>
 <span data-ttu-id="abc1e-104">Cuando se purgan datos de la base de datos de seguimiento de BizTalk (BizTalkDTADb), el trabajo DTA Purge and Archive se encarga de purgar de la base de datos de seguimiento de BizTalk (BizTalkDTADb) diversos tipos de información de seguimiento como, por ejemplo, información de instancia de servicio y mensaje, información de eventos de orquestación y datos de seguimiento del motor de reglas.</span><span class="sxs-lookup"><span data-stu-id="abc1e-104">When you purge data from the BizTalk Tracking (BizTalkDTADb) database, the DTA Purge and Archive job purges different types of tracking information such as message and service instance information, orchestration event information, and rules engine tracking data from the BizTalk Tracking (BizTalkDTADb) database.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 04/20/2018
   
 3.  <span data-ttu-id="abc1e-113">Haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.</span><span class="sxs-lookup"><span data-stu-id="abc1e-113">Double-click **SQL Server Agent**, and then select **Jobs**.</span></span>  
   
-4.  <span data-ttu-id="abc1e-114">En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)**y, a continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="abc1e-114">In **Object Explorer Details**, right-click **DTA Purge and Archive (BizTalkDTADb)**, and then select **Properties**.</span></span>  
+4.  <span data-ttu-id="abc1e-114">En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)** y, a continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="abc1e-114">In **Object Explorer Details**, right-click **DTA Purge and Archive (BizTalkDTADb)**, and then select **Properties**.</span></span>  
   
 5.  <span data-ttu-id="abc1e-115">En **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, en **seleccionar una página**, seleccione **pasos**.</span><span class="sxs-lookup"><span data-stu-id="abc1e-115">In **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, under **Select a page**, select **Steps**.</span></span>  
   

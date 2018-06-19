@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5109fb54-8453-444f-bc9c-070a65053397
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25975226"
 ---
 # <a name="step-8-on-premises-configure-the-biztalk-server-application"></a><span data-ttu-id="ae02a-102">Paso 8 (de forma local): Configurar la aplicación de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="ae02a-102">Step 8 (On Premises): Configure the BizTalk Server Application</span></span>
 <span data-ttu-id="ae02a-103">En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ae02a-103">In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration.</span></span> <span data-ttu-id="ae02a-104">En este paso, compilará, implementará y configurará la aplicación.</span><span class="sxs-lookup"><span data-stu-id="ae02a-104">In this step, you’ll build, deploy, and configure the application.</span></span>  
@@ -49,7 +50,7 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="configure-the-application"></a><span data-ttu-id="ae02a-118">Configurar la aplicación</span><span class="sxs-lookup"><span data-stu-id="ae02a-118">Configure the application</span></span>  
   
-1.  <span data-ttu-id="ae02a-119">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**y, a continuación, haga clic en [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ae02a-119">Click **Start**, point to **All Programs**, point to **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**, and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span></span>  
+1.  <span data-ttu-id="ae02a-119">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]** y, a continuación, haga clic en [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ae02a-119">Click **Start**, point to **All Programs**, point to **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**, and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span></span>  
   
 2.  <span data-ttu-id="ae02a-120">En el árbol de consola en el panel izquierdo, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], haga clic en **grupo de BizTalk**y, a continuación, haga clic en **actualizar**.</span><span class="sxs-lookup"><span data-stu-id="ae02a-120">In the console tree on the left pane, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click **BizTalk Group**, and then click **Refresh**.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es el seguimiento de eventos? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el seguimiento de eventos? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [HAT tracking], events
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Tracking database, DTA_Services audit table
 - events, HAT
 ms.assetid: dd211752-d1af-4287-967a-908b8d067ebb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289196"
 ---
 # <a name="what-is-event-tracking"></a><span data-ttu-id="e29e6-103">¿Qué es el seguimiento de eventos?</span><span class="sxs-lookup"><span data-stu-id="e29e6-103">What is Event Tracking?</span></span>
 <span data-ttu-id="e29e6-104">Los datos de eventos de mensajes de los que se hace seguimiento se basan en eventos (por ejemplo, cuando empieza o finaliza un servicio, o cuando se envía o recibe un mensaje).</span><span class="sxs-lookup"><span data-stu-id="e29e6-104">Tracked message event data is based upon events (for example, when a service begins or ends, or when a message is sent or received).</span></span> <span data-ttu-id="e29e6-105">El proceso de seguimiento de eventos de mensajes devuelve una lista de los eventos que se han producido, lo que permite ver todo lo que ha ocurrido según los filtros establecidos.</span><span class="sxs-lookup"><span data-stu-id="e29e6-105">The message event tracking process returns a list of the events that have occurred, enabling you to see everything that happened based on the tracking filters you have set.</span></span>  

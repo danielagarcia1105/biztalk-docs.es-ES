@@ -1,14 +1,14 @@
 ---
 title: 'Paso 5: Generar el proyecto EAISchemas | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c20cd368-7446-4861-8d71-5bc25ce408a2
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278156"
 ---
 # <a name="step-5-build-the-eaischemas-project"></a><span data-ttu-id="843f3-102">Paso 5: Generar el proyecto EAISchemas</span><span class="sxs-lookup"><span data-stu-id="843f3-102">Step 5: Build the EAISchemas Project</span></span>
 <span data-ttu-id="843f3-103">![Paso 5 de 5](../core/media/step-5of5.gif "Step_5of5")</span><span class="sxs-lookup"><span data-stu-id="843f3-103">![Step 5 of 5](../core/media/step-5of5.gif "Step_5of5")</span></span>  

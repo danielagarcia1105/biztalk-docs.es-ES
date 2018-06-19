@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo en rampa itinerario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo en rampa itinerario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f4f318c-b955-4a3d-88db-c0d324b63b21
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974898"
 ---
 # <a name="how-the-itinerary-on-ramp-sample-works"></a><span data-ttu-id="0bc4a-102">Cómo funciona el ejemplo en rampa itinerario</span><span class="sxs-lookup"><span data-stu-id="0bc4a-102">How the Itinerary On-Ramp Sample Works</span></span>
 <span data-ttu-id="0bc4a-103">El ejemplo de aplicación compila un conjunto de encabezados SOAP que contienen el itinerario que se crea con los controles en la ventana de la aplicación cliente, el cliente de prueba de itinerario carga el archivo de mensaje especificado desde el disco, anexa los encabezados itinerarios al mensaje, y lo envía a ESB a través de itinerario en rampa para su procesamiento.</span><span class="sxs-lookup"><span data-stu-id="0bc4a-103">The sample Itinerary Test Client application builds a set of SOAP headers that contain the itinerary that you create using the controls in the client application window, loads the specified message file from disk, appends the itinerary headers to the message, and submits it to the ESB through an Itinerary on-ramp for processing.</span></span> <span data-ttu-id="0bc4a-104">Si el itinerario genera una respuesta, la aplicación recopila la respuesta y lo muestra en la ventana de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="0bc4a-104">If the itinerary generates a response, the application collects the response and displays it in the application window.</span></span>  

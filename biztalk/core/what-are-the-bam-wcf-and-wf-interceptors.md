@@ -1,14 +1,14 @@
 ---
-title: "¿Qué son los interceptores de WF y de WCF de BAM? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué son los interceptores de WF y de WCF de BAM? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 198bfdc9-86ff-4017-b65f-19616deeb9f4
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288892"
 ---
 # <a name="what-are-the-bam-wcf-and-wf-interceptors"></a><span data-ttu-id="02a01-103">¿Qué son los interceptores de WF y de WCF de BAM?</span><span class="sxs-lookup"><span data-stu-id="02a01-103">What Are the BAM WCF and WF Interceptors?</span></span>
 <span data-ttu-id="02a01-104">Supervisión de la actividad económica (BAM) es un conjunto de herramientas, API y servicios que le permiten administrar agregaciones, alertas y perfiles, y enviar eventos a los procesos automatizados de instrumentos para supervisar métricas empresariales pertinentes.</span><span class="sxs-lookup"><span data-stu-id="02a01-104">Business Activity Monitoring (BAM) is a collection of tools, APIs, and services that allow you to manage aggregations, alerts, and profiles, and to instrument automated processes to send events to monitor relevant business metrics.</span></span> <span data-ttu-id="02a01-105">En conjunto, proporcionan visibilidad en tiempo real en los procesos empresariales y le permiten conocer el estado de los procesos empresariales y resultados.</span><span class="sxs-lookup"><span data-stu-id="02a01-105">Together, these provide end-to-end visibility into business processes and enable you to stay abreast of business process status and results.</span></span>  

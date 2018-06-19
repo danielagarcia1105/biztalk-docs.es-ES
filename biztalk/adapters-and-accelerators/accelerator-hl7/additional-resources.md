@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004205"
 ---
 # <a name="additional-resources"></a><span data-ttu-id="35fe0-102">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="35fe0-102">Additional Resources</span></span>
 <span data-ttu-id="35fe0-103">Además [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server, no hay recursos adicionales que se explican la programación en esta plataforma.</span><span class="sxs-lookup"><span data-stu-id="35fe0-103">In addition to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help, there are additional resources that discuss programming on this platform.</span></span> <span data-ttu-id="35fe0-104">Para obtener más información acerca de estos recursos, consulte los siguientes sitios Web:</span><span class="sxs-lookup"><span data-stu-id="35fe0-104">For more information about these resources, go to the following Web sites:</span></span>  

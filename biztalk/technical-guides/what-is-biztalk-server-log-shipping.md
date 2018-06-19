@@ -1,14 +1,14 @@
 ---
-title: "¿Qué es el trasvase de registros de servidor BizTalk Server? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el trasvase de registros de servidor BizTalk Server? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 79a2088a-ff36-4590-97c9-51d5bb245486
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010501"
 ---
 # <a name="what-is-biztalk-server-log-shipping"></a><span data-ttu-id="94de7-103">¿Qué es el trasvase de registros de servidor BizTalk Server?</span><span class="sxs-lookup"><span data-stu-id="94de7-103">What Is BizTalk Server Log Shipping?</span></span>
 <span data-ttu-id="94de7-104">Procedimientos de recuperación ante desastres de BizTalk Server se basan en BizTalk trasvase de registros.</span><span class="sxs-lookup"><span data-stu-id="94de7-104">BizTalk Server disaster recovery procedures are built around BizTalk log shipping.</span></span> <span data-ttu-id="94de7-105">Registro de BizTalk envío simplifica la restauración de base de datos si se produce un desastre aplicando continuamente las actualizaciones del registro de transacciones para las bases de datos de sitio de recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="94de7-105">BizTalk log shipping simplifies database restoration in the event of a disaster by continuously applying transaction log updates to the disaster recovery site databases.</span></span>  

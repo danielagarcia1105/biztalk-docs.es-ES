@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 24e73be3b953cbd7f597a34a06f09d364ec0f4f4
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014275"
 ---
 # <a name="set-send-port-transport-properties-for-the-send-port-for-tibco-enterprise-message-service"></a><span data-ttu-id="43700-101">Establecer propiedades de transporte para el puerto de envío del puerto de envío para TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="43700-101">Set send port Transport Properties for the Send Port for TIBCO Enterprise Message Service</span></span>
 <span data-ttu-id="43700-102">Las propiedades de transporte de TIBCO Enterprise Message se configuran en tiempo de diseño y se usan en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="43700-102">The TIBCO Enterprise Message Service transport properties are configured in design time and used in run time.</span></span> <span data-ttu-id="43700-103">En el **propiedades de transporte** cuadro de diálogo, Establece los parámetros de conexión y credenciales específicas para el sistema de servidor y los objetos que está intentando obtener acceso.</span><span class="sxs-lookup"><span data-stu-id="43700-103">In the **Transport Properties** dialog box, you set the connection and credential parameters specific to the server system and the objects you are trying to access.</span></span>  

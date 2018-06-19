@@ -1,11 +1,11 @@
 ---
-title: "Publicar servicios WCF con WCF aislado adaptadores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Publicar servicios WCF con WCF aislado adaptadores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive adapters, WCF services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, receive adapters
 - WCF services, publishing
 ms.assetid: 62ebf373-075c-4c98-8130-ac2cf06e4a70
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271636"
 ---
 # <a name="publishing-wcf-services-with-the-isolated-wcf-receive-adapters"></a><span data-ttu-id="10ccf-102">Publicar servicios WCF con WCF aislado adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="10ccf-102">Publishing WCF Services with the Isolated WCF Receive Adapters</span></span>
 <span data-ttu-id="10ccf-103">Permitir que los adaptadores de BizTalk Windows Communication Foundation (WCF) [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para comunicarse con aplicaciones basadas en WCF.</span><span class="sxs-lookup"><span data-stu-id="10ccf-103">The BizTalk Windows Communication Foundation (WCF) adapters allow [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to communicate with WCF-based applications.</span></span> <span data-ttu-id="10ccf-104">Los adaptadores de BizTalk WCF son siete adaptadores físicos.</span><span class="sxs-lookup"><span data-stu-id="10ccf-104">The BizTalk WCF adapters include seven physical adapters.</span></span> <span data-ttu-id="10ccf-105">Cada adaptador, excepto el adaptador WCF-CustomIsolated, consta adaptadores de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="10ccf-105">Each adapter, except the WCF-CustomIsolated adapter, consists of send and receive adapters.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="10ccf-119">A continuación se presenta la lista de los adaptadores de WCF aislados:</span><span class="sxs-lookup"><span data-stu-id="10ccf-119">The following is the list of the isolated WCF adapters:</span></span>  
   
--   <span data-ttu-id="10ccf-120">**Adaptador de WCF-WSHttp**.</span><span class="sxs-lookup"><span data-stu-id="10ccf-120">**WCF-WSHttp adapter**.</span></span> <span data-ttu-id="10ccf-121">proporciona compatibilidad de los estándares WS-* a través de transporte HTTP.</span><span class="sxs-lookup"><span data-stu-id="10ccf-121">Provides the WS-* standards support over the HTTP transport.</span></span> <span data-ttu-id="10ccf-122">Este adaptador implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="10ccf-122">The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="10ccf-123">El transporte es HTTP o HTTPS y los mensajes tienen codificación de texto o de Message Transmission Optimization Mechanism (MTOM).</span><span class="sxs-lookup"><span data-stu-id="10ccf-123">The transport is HTTP or HTTPS, and message encoding is a Text or Message Transmission Optimization Mechanism (MTOM) encoding.</span></span>  
+-   <span data-ttu-id="10ccf-120">**Adaptador de WCF-WSHttp**.</span><span class="sxs-lookup"><span data-stu-id="10ccf-120">**WCF-WSHttp adapter**.</span></span> <span data-ttu-id="10ccf-121">proporciona compatibilidad de los estándares WS-\* a través de transporte HTTP.</span><span class="sxs-lookup"><span data-stu-id="10ccf-121">Provides the WS-\* standards support over the HTTP transport.</span></span> <span data-ttu-id="10ccf-122">Este adaptador implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="10ccf-122">The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="10ccf-123">El transporte es HTTP o HTTPS y los mensajes tienen codificación de texto o de Message Transmission Optimization Mechanism (MTOM).</span><span class="sxs-lookup"><span data-stu-id="10ccf-123">The transport is HTTP or HTTPS, and message encoding is a Text or Message Transmission Optimization Mechanism (MTOM) encoding.</span></span>  
   
 -   <span data-ttu-id="10ccf-124">**Adaptador de WCF-BasicHttp**.</span><span class="sxs-lookup"><span data-stu-id="10ccf-124">**WCF-BasicHttp adapter**.</span></span> <span data-ttu-id="10ccf-125">Se comunica con servicios Web basados en ASMX y clientes y con otros servicios que cumplan con WS-I Basic Profile 1.1.</span><span class="sxs-lookup"><span data-stu-id="10ccf-125">Communicates with ASMX-based Web services and clients and with other services that conform to the WS-I Basic Profile 1.1.</span></span> <span data-ttu-id="10ccf-126">El transporte es HTTP o HTTPS y los mensajes tienen una codificación de texto o MTOM.</span><span class="sxs-lookup"><span data-stu-id="10ccf-126">The transport is HTTP or HTTPS, and message encoding is a Text or MTOM encoding.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar certificados con un adaptador SOAP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar certificados con un adaptador SOAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 20ee05c5-9cea-456d-bff6-49dd249f0ff4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298284"
 ---
 # <a name="how-to-configure-certificates-with-a-soap-adapter"></a><span data-ttu-id="32903-102">Cómo configurar certificados con un adaptador SOAP</span><span class="sxs-lookup"><span data-stu-id="32903-102">How to Configure Certificates with a SOAP Adapter</span></span>
 <span data-ttu-id="32903-103">El adaptador de envío SOAP puede ayudar a proteger una conexión con servidores que admitan o requieran certificados de cliente.</span><span class="sxs-lookup"><span data-stu-id="32903-103">The SOAP send adapter can help secure a connection with servers that accept or require client certificates.</span></span> <span data-ttu-id="32903-104">Si se especifica un certificado de cliente, el adaptador de envío SOAP utilizará el certificado para conectarse a los servidores que requieran o admitan certificados de cliente.</span><span class="sxs-lookup"><span data-stu-id="32903-104">If you specify a client certificate, the SOAP send adapter uses the certificate when connecting with servers that require or accept client certificates.</span></span> <span data-ttu-id="32903-105">Si no especifica un certificado de cliente y el servidor de destino requiere certificados de cliente, no se autentica el remitente y el envío de SOAP adaptador no puede enviar el mensaje y seguirá la lógica de reintentos estándar.</span><span class="sxs-lookup"><span data-stu-id="32903-105">If you do not specify a client certificate and the destination server requires client certificates, the sender is not authenticated and the SOAP send adapter fails to send the message and follows the standard retry logic.</span></span>  

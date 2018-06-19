@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar el ejemplo de servicio de transformación | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar el ejemplo de servicio de transformación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 42064d32-5ec5-4219-a338-c5769969b958
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295236"
 ---
 # <a name="running-the-transformation-service-sample"></a><span data-ttu-id="34bea-102">Ejecutar el ejemplo de servicio de transformación</span><span class="sxs-lookup"><span data-stu-id="34bea-102">Running the Transformation Service Sample</span></span>
 <span data-ttu-id="34bea-103">Puede ejecutar el ejemplo de servicios de transformación mediante cualquier herramienta o utilidad que se puede ejecutar métodos de servicio Web.</span><span class="sxs-lookup"><span data-stu-id="34bea-103">You can execute the Transformation Service sample using any tool or utility that can execute Web service methods.</span></span> <span data-ttu-id="34bea-104">Por ejemplo, puede usar Storm, disponible en [CodePlex](http://go.microsoft.com/fwlink/?LinkId=187762) ([http://go.microsoft.com/fwlink/?LinkId=187762](http://go.microsoft.com/fwlink/?LinkId=187762)), o bien puede crear su propio cliente de prueba que invoca el servicio Web de transformación.</span><span class="sxs-lookup"><span data-stu-id="34bea-104">For example, you can use Storm, available from [CodePlex](http://go.microsoft.com/fwlink/?LinkId=187762) ([http://go.microsoft.com/fwlink/?LinkId=187762](http://go.microsoft.com/fwlink/?LinkId=187762)), or you can create your own test client that invokes the Transformation Web service.</span></span>  

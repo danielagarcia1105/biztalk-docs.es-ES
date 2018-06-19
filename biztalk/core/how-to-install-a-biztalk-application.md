@@ -13,7 +13,7 @@ helpviewer_keywords:
 - installing, warnings
 - applications, installing
 ms.assetid: 99ee0b1a-d46a-4fb6-802b-6827dc740418
-caps.latest.revision: ''
+caps.latest.revision: 56
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "26010541"
 ---
 # <a name="how-to-install-a-biztalk-application"></a><span data-ttu-id="f3cef-102">Cómo instalar una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f3cef-102">How to Install a BizTalk Application</span></span>
 <span data-ttu-id="f3cef-103">Este tema describe cómo instalar una aplicación en un equipo local al hacer doble clic en el archivo (.msi) de Windows Installer para la aplicación de la interfaz de Windows o al ejecutar msiexec desde la línea de comandos.</span><span class="sxs-lookup"><span data-stu-id="f3cef-103">This topic describes how to install an application on the local computer by double-clicking the Windows Installer (.msi) file for the application in the Windows interface or by running msiexec from the command line.</span></span> <span data-ttu-id="f3cef-104">También puede iniciar el Asistente para la instalación como último paso del Asistente para importación, tal y como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).</span><span class="sxs-lookup"><span data-stu-id="f3cef-104">You can also start the Installation Wizard as the last step of the Import Wizard, as described in [How to Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md).</span></span>  

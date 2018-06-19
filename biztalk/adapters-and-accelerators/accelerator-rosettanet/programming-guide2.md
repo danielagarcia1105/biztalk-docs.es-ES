@@ -1,17 +1,17 @@
 ---
-title: "Programación Guide2 | Documentos de Microsoft"
-ms.custom: 
+title: Programación Guide2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, programming guide
 - programming guide
 ms.assetid: 37573687-85ab-4899-bbe1-05e15637e32b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005581"
 ---
 # <a name="programming-guide"></a><span data-ttu-id="2d9d2-102">Guía de programación</span><span class="sxs-lookup"><span data-stu-id="2d9d2-102">Programming Guide</span></span>
 <span data-ttu-id="2d9d2-103">El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Guía de programación se explican conceptos y procedimientos para los programadores que escriben código con [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].</span><span class="sxs-lookup"><span data-stu-id="2d9d2-103">The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Programming Guide explains concepts and procedures for developers writing code with [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].</span></span> <span data-ttu-id="2d9d2-104">Use esta guía junto con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="2d9d2-104">Use this guide in conjunction with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.</span></span>  

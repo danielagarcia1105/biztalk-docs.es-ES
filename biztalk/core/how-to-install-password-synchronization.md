@@ -1,17 +1,17 @@
 ---
-title: "Cómo instalar la sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar la sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, Password Synchronization [SSO]
 - Password Synchronization [SSO], installing
 ms.assetid: 8ace0401-b759-4ea3-91a0-be2aa8b5a5a4
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970938"
 ---
 # <a name="how-to-install-password-synchronization"></a><span data-ttu-id="e85bd-102">Cómo instalar la sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="e85bd-102">How to Install Password Synchronization</span></span>
 <span data-ttu-id="e85bd-103">Al igual que con las demás características de inicio de sesión único, Sincronización de contraseñas no se instala con la instalación predeterminada de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], sino que se debe seleccionar de forma específica durante la instalación.</span><span class="sxs-lookup"><span data-stu-id="e85bd-103">As with the other Single Sign-On features, Password Synchronization is not installed in the default [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation, and must be specifically selected during setup.</span></span>  

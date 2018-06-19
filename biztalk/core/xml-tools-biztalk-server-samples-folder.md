@@ -1,18 +1,18 @@
 ---
 title: Herramientas XML (carpeta de ejemplos de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML tools
 - SDK examples
 - examples, XML tools
 ms.assetid: f241910d-0e73-4725-a3c1-df4940a38c01
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289532"
 ---
 # <a name="xml-tools-biztalk-server-samples-folder"></a><span data-ttu-id="1bd70-102">Herramientas XML (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="1bd70-102">XML Tools (BizTalk Server Samples Folder)</span></span>
 <span data-ttu-id="1bd70-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye dos ejemplos de herramientas de lenguaje de marcado extensible (XML) en su kit de desarrollo de software (SDK).</span><span class="sxs-lookup"><span data-stu-id="1bd70-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes two Extensible Markup Language (XML) Tools samples in its software development kit (SDK).</span></span> <span data-ttu-id="1bd70-104">En esta sección se proporciona información detallada acerca de la funcionalidad que los ejemplos de herramientas XML muestran, instrucciones para la generación y ejecución del ejemplo y los resultados que se pueden esperar.</span><span class="sxs-lookup"><span data-stu-id="1bd70-104">This section provides detailed information about the functionality that the XML Tools samples demonstrate, instructions for building and running the samples, and the results you can expect.</span></span>  

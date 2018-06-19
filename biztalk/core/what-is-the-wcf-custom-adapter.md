@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288900"
 ---
 # <a name="what-is-the-wcf-custom-adapter"></a><span data-ttu-id="02b0a-103">¿Qué es el adaptador de WCF-Custom?</span><span class="sxs-lookup"><span data-stu-id="02b0a-103">What Is the WCF-Custom Adapter?</span></span>
 <span data-ttu-id="02b0a-104">El adaptador de WCF-Custom se utiliza para habilitar el uso de los componentes de extensibilidad de WCF en BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="02b0a-104">The WCF-Custom adapter is used to enable the use of WCF extensibility components in BizTalk Server.</span></span> <span data-ttu-id="02b0a-105">El adaptador habilita una flexibilidad completa del marco de trabajo de WCF.</span><span class="sxs-lookup"><span data-stu-id="02b0a-105">The adapter enables complete flexibility of the WCF framework.</span></span> <span data-ttu-id="02b0a-106">Permite a los usuarios seleccionar y configurar un enlace de WCF para la ubicación de recepción y el puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="02b0a-106">It allows users to select and configure a WCF binding for the receive location and send port.</span></span> <span data-ttu-id="02b0a-107">También permite a los usuarios configurar los comportamientos de los extremos y las configuraciones de seguridad.</span><span class="sxs-lookup"><span data-stu-id="02b0a-107">It also allows users to set the endpoint behaviors and security settings.</span></span>  

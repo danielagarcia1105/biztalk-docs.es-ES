@@ -1,14 +1,14 @@
 ---
-title: "Anular la implementación de otros proyectos del Tutorial | Documentos de Microsoft"
-ms.custom: 
+title: Anular la implementación de otros proyectos del Tutorial | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fce837f-1853-4d5d-a680-8ae2a974c750
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006421"
 ---
 # <a name="undeploy-other-tutorial-projects"></a><span data-ttu-id="64415-102">Anular la implementación de otros proyectos del Tutorial</span><span class="sxs-lookup"><span data-stu-id="64415-102">Undeploy Other Tutorial Projects</span></span>
 <span data-ttu-id="64415-103">Cuando se implementa un acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) tutoriales, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] almacena los archivos de ensamblado del tutorial en la base de datos de configuración (también conocido como la base de datos de administración de BizTalk) y la caché global de ensamblados.</span><span class="sxs-lookup"><span data-stu-id="64415-103">When you deploy a BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) tutorials, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] stores the tutorial assembly files in the Configuration database (also known as the BizTalk Management database) and the global assembly cache.</span></span> <span data-ttu-id="64415-104">Si ha ejecutado otro [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] tutorial e implementado los ensamblados que creó en este tutorial, podría experimentar errores al probar los ensamblados en las tres partes del tutorial de procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="64415-104">If you have run another [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] tutorial, and deployed the assemblies that you created in that tutorial, you may encounter errors when you test your assemblies in the three parts of the Batching tutorial.</span></span> <span data-ttu-id="64415-105">Esto puede ocurrir porque solo se puede implementar un esquema de mensaje al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="64415-105">This may occur because you can only deploy one message schema at one time.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Las actividades BAM creadas para realizar un seguimiento de mensajes EDI-AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a10ab846-0fbb-46f5-920e-cb2b5be75814
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008901"
 ---
 # <a name="bam-activities-created-to-track-edi-as2-messages"></a><span data-ttu-id="09ee8-102">Actividades BAM creadas para realizar un seguimiento de mensajes EDI-AS2</span><span class="sxs-lookup"><span data-stu-id="09ee8-102">BAM Activities Created to Track EDI-AS2 Messages</span></span>
 <span data-ttu-id="09ee8-103">BizTalk Server incluye actividades de BAM que se han creado para los informes de estado EDI y AS2.</span><span class="sxs-lookup"><span data-stu-id="09ee8-103">BizTalk Server includes BAM activities that have been created for EDI and AS2 status reporting.</span></span> <span data-ttu-id="09ee8-104">Estas actividades determinan los datos que se muestran en los informes de estado.</span><span class="sxs-lookup"><span data-stu-id="09ee8-104">These activities determine the data that is displayed in the status reports.</span></span> <span data-ttu-id="09ee8-105">En este tema se explican las actividades de BAM y los campos definidos en ellas, además de describir los valores de enumeración definidos para ciertos campos en las actividades de BAM.</span><span class="sxs-lookup"><span data-stu-id="09ee8-105">This topic describes the BAM activities and the fields that are defined in them, and describes the enumeration values that are defined for certain fields in the BAM activities.</span></span>  

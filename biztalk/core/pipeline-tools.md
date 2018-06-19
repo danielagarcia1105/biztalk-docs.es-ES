@@ -1,11 +1,11 @@
 ---
-title: "Herramientas de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Herramientas de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline tools, XMLAsm.exe
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - utilities, pipeline tools
 - XMLDasm.exe
 ms.assetid: ca4d053a-1473-4d40-8cd0-1ed3a3af988a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974402"
 ---
 # <a name="pipeline-tools"></a><span data-ttu-id="ebe21-102">Herramientas de canalización</span><span class="sxs-lookup"><span data-stu-id="ebe21-102">Pipeline Tools</span></span>
 <span data-ttu-id="ebe21-103">Las herramientas de canalización proporcionadas con el kit de desarrollo de software (SDK) de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permiten comprobar que una canalización está funcionando correctamente sin tener que configurar el entorno de BizTalk Server, por ejemplo, los puertos de recepción y envío.</span><span class="sxs-lookup"><span data-stu-id="ebe21-103">The pipeline tools supplied with the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Software Development Kit (SDK) enable you to verify that a pipeline is functioning correctly without having to configure the BizTalk Server environment, such as send/receive ports.</span></span> <span data-ttu-id="ebe21-104">Además, puede usar las herramientas de canalización para:</span><span class="sxs-lookup"><span data-stu-id="ebe21-104">You can also use the pipeline tools to:</span></span>  

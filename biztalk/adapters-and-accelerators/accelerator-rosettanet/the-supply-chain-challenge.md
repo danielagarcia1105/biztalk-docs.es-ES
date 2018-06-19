@@ -1,11 +1,11 @@
 ---
-title: "El desafío de la cadena de suministro | Documentos de Microsoft"
-ms.custom: 
+title: El desafío de la cadena de suministro | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - supply chains, challenges
 - supply chains, about
 ms.assetid: 4a38f15f-cffa-4622-95e2-e606418e5c03
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209956"
 ---
 # <a name="the-supply-chain-challenge"></a><span data-ttu-id="b86ca-102">El desafío de la cadena de suministro</span><span class="sxs-lookup"><span data-stu-id="b86ca-102">The Supply Chain Challenge</span></span>
 <span data-ttu-id="b86ca-103">Integración con los socios presenta muchos desafíos en la industria de alta tecnología.</span><span class="sxs-lookup"><span data-stu-id="b86ca-103">Integration with partners presents many challenges in the high-technology industry.</span></span> <span data-ttu-id="b86ca-104">Información de tecnología, componente electrónico, fabricación semiconductor y telecomunicaciones todas las empresas se enfrentan a desafíos en su cadena de suministro.</span><span class="sxs-lookup"><span data-stu-id="b86ca-104">Information technology, electronic component, semiconductor manufacturing, and telecommunications companies all face challenges in their supply chain.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite con BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e92520cf-c552-4225-abba-8e03f73ecf70
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215684"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-using-biztalk-server"></a><span data-ttu-id="8d7cb-102">Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="8d7cb-102">Receive Oracle E-Business Suite database change notifications using BizTalk Server</span></span>
 <span data-ttu-id="8d7cb-103">Puede configurar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para recibir mensajes de notificación de cambio de base de datos de Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="8d7cb-103">You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive database change notification messages from Oracle E-Business Suite.</span></span> <span data-ttu-id="8d7cb-104">Puede especificar una instrucción SELECT que utiliza el adaptador para registrar las notificaciones de con Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="8d7cb-104">You can specify a SELECT statement that the adapter uses to register for notifications with Oracle E-Business Suite.</span></span> <span data-ttu-id="8d7cb-105">El adaptador recibe un mensaje de notificación cuando cambia el conjunto de resultados de la instrucción SELECT, registrada para la notificación.</span><span class="sxs-lookup"><span data-stu-id="8d7cb-105">The adapter receives a notification message when the result set for the SELECT statement, registered for notification, changes.</span></span> <span data-ttu-id="8d7cb-106">Para obtener más información acerca del modo en que el adaptador admite notificaciones, consulte [consideraciones para recibir notificaciones de cambio de base de datos mediante el adaptador de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/before-you-receive-database-change-notifications-using-the-oracle-ebs-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="8d7cb-106">For more information about how the adapter supports notification, see [Considerations for Receiving Database Change Notifications using the Oracle E-Business Suite adapter](../../adapters-and-accelerators/adapter-oracle-ebs/before-you-receive-database-change-notifications-using-the-oracle-ebs-adapter.md).</span></span>  

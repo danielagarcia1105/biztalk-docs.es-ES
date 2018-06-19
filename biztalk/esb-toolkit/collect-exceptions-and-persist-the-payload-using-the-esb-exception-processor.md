@@ -1,14 +1,14 @@
 ---
-title: "Recopilar excepciones y conservar la carga con el procesador de la excepción de ESB | Documentos de Microsoft"
-ms.custom: 
+title: Recopilar excepciones y conservar la carga con el procesador de la excepción de ESB | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52650eed-e760-4ade-bc3f-2b5b2a1c43ff
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007021"
 ---
 # <a name="collecting-exceptions-and-persisting-the-payload-using-the-esb-exception-processor"></a><span data-ttu-id="99355-102">Recopilar excepciones y conservar la carga con el procesador de la excepción de ESB</span><span class="sxs-lookup"><span data-stu-id="99355-102">Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor</span></span>
 <span data-ttu-id="99355-103">En este caso de uso, el controlador de excepciones para una orquestación publica un mensaje de error ESB en el cuadro de mensaje de BizTalk Server o el mecanismo de enrutamiento de mensajes de error de BizTalk genera un mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="99355-103">In this use case, either the exception handler for an orchestration publishes an ESB fault message to the BizTalk Server Message Box or the BizTalk Failed Message Routing mechanism generates a fault message.</span></span> <span data-ttu-id="99355-104">Un puerto de envío configurado previamente con el componente de canalización de codificador de excepción de ESB, se suscribe a los dos tipos de mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="99355-104">A send port, preconfigured with the ESB Exception Encoder pipeline component, subscribes to both of the fault message types.</span></span> <span data-ttu-id="99355-105">Procesa los mensajes de error y, a continuación, los conserva como archivos de disco que se pueden ver con InfoPath, tal como se muestra en la figura 1.</span><span class="sxs-lookup"><span data-stu-id="99355-105">It processes the fault messages and then persists them as disk files that you can view using InfoPath, as illustrated in Figure 1.</span></span>  

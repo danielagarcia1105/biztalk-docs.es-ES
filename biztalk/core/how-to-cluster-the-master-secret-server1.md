@@ -1,11 +1,11 @@
 ---
-title: "Cómo agrupar el Servidor1 de secreto maestro | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agrupar el Servidor1 de secreto maestro | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, second node
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - clustering, Master Secret server
 - Master Secret server, clustering
 ms.assetid: ef817fa4-e43d-4e3d-8686-5bd675708001
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972954"
 ---
 # <a name="how-to-cluster-the-master-secret-server"></a><span data-ttu-id="191b4-102">Cómo agrupar el servidor secreto principal</span><span class="sxs-lookup"><span data-stu-id="191b4-102">How to Cluster the Master Secret Server</span></span>
 <span data-ttu-id="191b4-103">Se recomienda seguir las instrucciones contenidas en esta sección para agrupar el servicio de inicio de sesión único (SSO) empresarial correctamente en el servidor secreto principal.</span><span class="sxs-lookup"><span data-stu-id="191b4-103">We recommended that you follow the instructions in this section to cluster the Enterprise Single Sign-On (SSO) service on the master secret server successfully.</span></span>  

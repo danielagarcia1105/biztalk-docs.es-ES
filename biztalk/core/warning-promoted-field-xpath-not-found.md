@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288532"
 ---
 # <a name="warning---promoted-field-xpath-not-found"></a><span data-ttu-id="d67cb-102">Advertencia: campo XPath promocionado no encontrado</span><span class="sxs-lookup"><span data-stu-id="d67cb-102">Warning - Promoted Field XPath Not Found</span></span>
 <span data-ttu-id="d67cb-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="d67cb-103">**Error Code**</span></span>  

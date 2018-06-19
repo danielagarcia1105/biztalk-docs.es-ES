@@ -1,14 +1,14 @@
 ---
 title: El servidor BizTalk Server Integration1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7eafe91d-125a-46a8-8216-d75f07a4abca
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289908"
 ---
 # <a name="biztalk-server-integration"></a><span data-ttu-id="011bd-102">Integración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="011bd-102">BizTalk Server Integration</span></span>
 <span data-ttu-id="011bd-103">El Administrador de servicios de SOA proporciona asistentes que le ayudarán a establecer configurar SOA Service Manager para su uso con Microsoft BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="011bd-103">The SOA Service Manager provides wizards that help you set up the SOA Service Manager for use with Microsoft BizTalk Server.</span></span> <span data-ttu-id="011bd-104">Por ejemplo, figura 1 muestra al asistente que le ayuda a instalar y configurar el punto de integración de BizTalk que BizTalk Server se vincula puertos de envío y recepción ubicaciones con el Administrador de servicios de SOA.</span><span class="sxs-lookup"><span data-stu-id="011bd-104">For example, Figure 1 shows the wizard that helps you install and configure the BizTalk Integration Point that links BizTalk Server send ports and receive locations to the SOA Service Manager.</span></span>  

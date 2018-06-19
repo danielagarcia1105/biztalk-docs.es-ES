@@ -1,14 +1,14 @@
 ---
-title: "Paso 4B: iniciar los puertos de envío y puertos de recepción para el escenario en tiempo real de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4B: iniciar los puertos de envío y puertos de recepción para el escenario en tiempo real de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c56b5f7b-551a-4bd2-97c7-0996f5d1b1a2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225428"
 ---
 # <a name="step-4b-start-the-send-ports-and-receive-ports-for-the-fileact-real-time-scenario"></a><span data-ttu-id="b7021-102">Paso 4B: iniciar los puertos de envío y puertos de recepción para el escenario en tiempo real de FileAct</span><span class="sxs-lookup"><span data-stu-id="b7021-102">Step 4B: Start the Send Ports and Receive Ports for the FileAct Real-Time Scenario</span></span>
 <span data-ttu-id="b7021-103">Antes de comenzar este paso, debe completar [paso 4A: iniciar el SWIFTNet Service para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-4a-start-the-swiftnet-service-for-the-fileact-real-time-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="b7021-103">Before you begin this step, you must complete [Step 4A: Start the SWIFTNet Service for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-4a-start-the-swiftnet-service-for-the-fileact-real-time-scenario.md).</span></span>  

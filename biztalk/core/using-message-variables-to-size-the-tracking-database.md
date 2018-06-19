@@ -1,11 +1,11 @@
 ---
-title: "Usar Variables de mensaje para cambiar el tamaño de la base de datos de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Usar Variables de mensaje para cambiar el tamaño de la base de datos de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message variables [Tracking database], CMsgs
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - message variables [Tracking database], MsgNum
 - Tracking database, messages
 ms.assetid: 2d31ae25-3d16-4002-b5a5-dca25e764ecd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287844"
 ---
 # <a name="using-message-variables-to-size-the-tracking-database"></a><span data-ttu-id="d072b-102">Usar variables de mensaje para determinar el tamaño de la base de datos de seguimiento</span><span class="sxs-lookup"><span data-stu-id="d072b-102">Using Message Variables to Size the Tracking Database</span></span>
 <span data-ttu-id="d072b-103">En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede utilizar una serie de variables para determinar el tamaño que alcanzará la base de datos de seguimiento de BizTalk (BizTalkDTADb) durante un determinado período de tiempo.</span><span class="sxs-lookup"><span data-stu-id="d072b-103">In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can use a number of variables to determine how large the BizTalk Tracking (BizTalkDTADb) database will become over a given period of time.</span></span> <span data-ttu-id="d072b-104">Estas variables son:</span><span class="sxs-lookup"><span data-stu-id="d072b-104">These variables are:</span></span>  

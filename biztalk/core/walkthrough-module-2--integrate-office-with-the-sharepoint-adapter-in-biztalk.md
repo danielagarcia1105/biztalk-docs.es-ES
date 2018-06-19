@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Módulo 2: integrar Office con Windows SharePoint Services adaptador | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Módulo 2: integrar Office con Windows SharePoint Services adaptador | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, InfoPath forms
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Windows SharePoint Services adapter tutorials, integrating Microsoft Office
 - Windows SharePoint Services, document libraries
 ms.assetid: 2f81a712-bb20-4c32-bbac-fb438deded38
-caps.latest.revision: "48"
+caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291460"
 ---
 # <a name="walkthrough-module-2---integrating-office-with-the-windows-sharepoint-services-adapter"></a><span data-ttu-id="17fe9-102">Tutorial: Módulo 2: integrar Office con el adaptador de Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="17fe9-102">Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="17fe9-103">En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) y se muestra cómo integrar Microsoft Office con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] basado en contenido aplicación de enrutamiento (CBR) que ha creado.</span><span class="sxs-lookup"><span data-stu-id="17fe9-103">This walkthrough is a continuation of [Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) and shows you how to integrate Microsoft Office with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] content-based routing (CBR) application you created.</span></span> <span data-ttu-id="17fe9-104">Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="17fe9-104">For an introduction to the Windows SharePoint Services adapter see [What Is the Windows SharePoint Services Adapter?](../core/what-is-the-windows-sharepoint-services-adapter.md).</span></span>  

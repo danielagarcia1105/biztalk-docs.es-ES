@@ -1,14 +1,14 @@
 ---
 title: Funcionalidad de EDI de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9fd91569-f246-40dc-acb1-4f9296479296
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007125"
 ---
 # <a name="biztalk-server-edi-functionality"></a><span data-ttu-id="ff28e-102">Funcionalidad EDI de BizTalk</span><span class="sxs-lookup"><span data-stu-id="ff28e-102">BizTalk Server EDI Functionality</span></span>
 <span data-ttu-id="ff28e-103">BizTalk Server procesa los mensajes EDI mediante una combinación de núcleo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] características y específicas de EDI [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] características.</span><span class="sxs-lookup"><span data-stu-id="ff28e-103">BizTalk Server processes EDI messages using a combination of core [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features and EDI-specific [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features.</span></span> <span data-ttu-id="ff28e-104">Esto permite que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleve a cabo el procesamiento que es exclusivo de la mensajería EDI, al mismo tiempo que aprovecha su funcionalidad de mensajería principal.</span><span class="sxs-lookup"><span data-stu-id="ff28e-104">This enables [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to perform the processing that is unique to EDI messaging, while leveraging its core messaging functionality.</span></span>  

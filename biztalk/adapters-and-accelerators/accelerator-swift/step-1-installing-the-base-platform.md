@@ -1,18 +1,18 @@
 ---
 title: 'Paso 1: Instalar la plataforma Base | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - platforms
 - installing, base platform
 - base platform
 ms.assetid: 27da386f-90c7-414f-a4e3-e909f0c18371
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005149"
 ---
 # <a name="step-1-installing-the-base-platform"></a><span data-ttu-id="c4480-102">Paso 1: Instalar la plataforma Base</span><span class="sxs-lookup"><span data-stu-id="c4480-102">Step 1: Installing the Base Platform</span></span>
 <span data-ttu-id="c4480-103">Para la plataforma base, instalar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] y [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] Service Pack 2 en cada servidor mediante las opciones de instalación predeterminadas.</span><span class="sxs-lookup"><span data-stu-id="c4480-103">For the base platform, install [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] and [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] Service Pack 2 on each server using the default installation options.</span></span> <span data-ttu-id="c4480-104">Siga estas recomendaciones:</span><span class="sxs-lookup"><span data-stu-id="c4480-104">Follow these recommendations:</span></span>  

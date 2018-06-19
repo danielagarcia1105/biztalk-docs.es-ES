@@ -1,18 +1,18 @@
 ---
 title: Trabajar con la lista de resultados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - results list [Orchestration Debugger], finding messages
 - results list [Orchestration Debugger], sorting
 - Orchestration Debugger, results
 ms.assetid: d168c5d4-c186-4b5c-851d-ec499cefc7c9
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289572"
 ---
 # <a name="working-with-the-results-list"></a><span data-ttu-id="3b3d3-102">Trabajo con la lista Resultados</span><span class="sxs-lookup"><span data-stu-id="3b3d3-102">Working with the Results List</span></span>
 <span data-ttu-id="3b3d3-103">Al ejecutar una consulta en la página concentrador de grupo, genera un **resultados de la consulta** lista que contiene los resultados de búsqueda, como los mensajes relevantes, canalizaciones y ensamblados.</span><span class="sxs-lookup"><span data-stu-id="3b3d3-103">When you run a query in the Group Hub page, it generates a **Query results** list containing the search results, such as relevant messages, pipelines, and assemblies.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Uso de transacciones y controlar las excepciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transactions, orchestrations
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Scope shape [Orchestration Designer], errors
 - Scope shape [Orchestration Designer], transactions
 ms.assetid: bb38f5eb-6641-4e7c-8e2a-c474fc739999
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288436"
 ---
 # <a name="using-transactions-and-handling-exceptions"></a><span data-ttu-id="e8858-102">Uso de transacciones y control de excepciones</span><span class="sxs-lookup"><span data-stu-id="e8858-102">Using Transactions and Handling Exceptions</span></span>
 <span data-ttu-id="e8858-103">Cuando designe una orquestación, debe considerar detenidamente dónde pueden producirse problemas y cuál es la mejor forma de procesarlos.</span><span class="sxs-lookup"><span data-stu-id="e8858-103">When you design an orchestration, you should consider carefully where problems might occur and how best to deal with them.</span></span> <span data-ttu-id="e8858-104">Numerosas orquestaciones tienen varios puntos posibles de error.</span><span class="sxs-lookup"><span data-stu-id="e8858-104">Many orchestrations have several potential points of failure.</span></span> <span data-ttu-id="e8858-105">Los problemas pueden surgir por cualquier motivo; por ejemplo, puede que se desconecte el servidor o que el mensaje se formatee de forma incorrecta.</span><span class="sxs-lookup"><span data-stu-id="e8858-105">Problems can arise for any number of other reasons; for example, a server might go down or a message might be badly formatted.</span></span>  

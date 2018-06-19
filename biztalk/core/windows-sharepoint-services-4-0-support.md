@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26009973"
 ---
 # <a name="windows-sharepoint-services-40-support"></a><span data-ttu-id="11cc3-102">Compatibilidad con Windows SharePoint Services 4.0</span><span class="sxs-lookup"><span data-stu-id="11cc3-102">Windows SharePoint Services 4.0 Support</span></span>
 <span data-ttu-id="11cc3-103">El adaptador de Windows SharePoint Services para BizTalk Server proporciona paridad de características/funcionalidades con el adaptador de Windows SharePoint Services para [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)].</span><span class="sxs-lookup"><span data-stu-id="11cc3-103">The Windows SharePoint Services adapter for BizTalk Server provides feature/functionality parity with the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)].</span></span> <span data-ttu-id="11cc3-104">El adaptador de Windows SharePoint Services para BizTalk Server también admite la siguiente funcionalidad disponible con Windows SharePoint Services 4.0:</span><span class="sxs-lookup"><span data-stu-id="11cc3-104">The Windows SharePoint Services adapter for BizTalk Server also supports the following functionality available with Windows SharePoint Services 4.0:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "¿Qué ocurre cuando se agregan y quitan artefactos | Documentos de Microsoft"
-ms.custom: 
+title: ¿Qué ocurre cuando se agregan y quitan artefactos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, artifacts
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - artifacts, creating
 - deleting, artifacts
 ms.assetid: 811166ba-3ff4-4224-9d84-a2f4ed31bf4d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288884"
 ---
 # <a name="what-happens-when-artifacts-are-added-and-removed"></a><span data-ttu-id="63d4a-102">¿Qué ocurre cuando se agregan y se quitan los artefactos?</span><span class="sxs-lookup"><span data-stu-id="63d4a-102">What Happens When Artifacts Are Added and Removed</span></span>
 <span data-ttu-id="63d4a-103">En este tema se describe lo que sucede cuando se agregan artefactos a una aplicación.</span><span class="sxs-lookup"><span data-stu-id="63d4a-103">This topic describes what happens when you add artifacts to an application.</span></span> <span data-ttu-id="63d4a-104">Puede agregar artefactos basados en archivos a una aplicación mediante la consola de administración de BizTalk Server o la herramienta de la línea de comandos BTSTask.</span><span class="sxs-lookup"><span data-stu-id="63d4a-104">You can add file-based artifacts to an application by using the BizTalk Server Administration console or the BTSTask command-line tool.</span></span> <span data-ttu-id="63d4a-105">Los artefactos basados en archivos incluyen los siguientes tipos:</span><span class="sxs-lookup"><span data-stu-id="63d4a-105">File-based artifacts include the following types:</span></span>  

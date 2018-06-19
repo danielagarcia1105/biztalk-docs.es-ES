@@ -1,14 +1,14 @@
 ---
-title: "Definir enrutamiento y las invocaciones de servicio de transformación con itinerarios de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Definir enrutamiento y las invocaciones de servicio de transformación con itinerarios de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e6f2448e-a5a7-496c-86d3-47f12e6f1251
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294284"
 ---
 # <a name="defining-routing-and-message-transformation-service-invocations-using-itineraries"></a><span data-ttu-id="5ebbd-102">Enrutamiento de definición e invocaciones de servicio de transformación de mensaje mediante itinerarios</span><span class="sxs-lookup"><span data-stu-id="5ebbd-102">Defining Routing and Message Transformation Service Invocations Using Itineraries</span></span>
 <span data-ttu-id="5ebbd-103">En este caso de uso, un mensaje enviado para su procesamiento contiene un encabezado SOAP itinerario que describe la lista de servicios para ejecutar así como sus requisitos de resolución.</span><span class="sxs-lookup"><span data-stu-id="5ebbd-103">In this use case, a message submitted for processing contains an itinerary SOAP header that describes the list of services to execute and their resolution requirements.</span></span> <span data-ttu-id="5ebbd-104">En concreto, un servicio de enrutamiento y la transformación se definen, cada uno de ellos opcionalmente que requieren resolución a través de una búsqueda de Universal Description, Discovery y Integration (UDDI), directiva del motor de reglas de negocios, XML Path Language (XPath) o STATIC.</span><span class="sxs-lookup"><span data-stu-id="5ebbd-104">Specifically, a transformation and routing service are defined, each optionally requiring resolution through a Universal Description, Discovery, and Integration (UDDI), Business Rules Engine Policy, XML Path Language (XPath), or STATIC lookup.</span></span> <span data-ttu-id="5ebbd-105">Este caso de uso puede ampliarse mediante la adición de otros servicios para el itinerario en el momento de publicación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="5ebbd-105">This use case can be extended by adding other services to the itinerary at the time of message publication.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Administrar definiciones de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM definitions]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - managing [BAM], definitions
 - managing [BAM definitions], about managing BAM definitions
 ms.assetid: 7aba0e40-b8d3-4afc-9e4c-92392f1f6269
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262532"
 ---
 # <a name="managing-bam-definitions"></a><span data-ttu-id="0bec6-102">Administrar definiciones de BAM</span><span class="sxs-lookup"><span data-stu-id="0bec6-102">Managing BAM Definitions</span></span>
 <span data-ttu-id="0bec6-103">Una definición de BAM es una parte de la infraestructura de BAM.</span><span class="sxs-lookup"><span data-stu-id="0bec6-103">A BAM definition is part of the BAM infrastructure.</span></span> <span data-ttu-id="0bec6-104">Establece los datos que se van a agregar y de los que se va a realizar el seguimiento, así como la vista del usuario empresarial final en los datos de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="0bec6-104">It defines the data to track and aggregate, as well as the business end user's view on the tracking data.</span></span> <span data-ttu-id="0bec6-105">Los temas de esta sección explican los procedimientos para administrar los elementos de las definiciones de BAM, que incluyen actividades, vistas, artefactos y alertas.</span><span class="sxs-lookup"><span data-stu-id="0bec6-105">The topics in this section give procedures for managing the elements of BAM definitions, which include activities, views, artifacts, and alerts.</span></span>  

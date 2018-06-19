@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad con EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d4f50a9-fc55-400c-a63c-40b697425fea
-caps.latest.revision: 
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710299"
 ---
 # <a name="edi-support-in-biztalk-server"></a><span data-ttu-id="d487c-102">Compatibilidad con EDI en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="d487c-102">EDI Support in BizTalk Server</span></span>
 <span data-ttu-id="d487c-103">EDI está integrada en BizTalk Server y es un componente opcional al instalar y configurar BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="d487c-103">EDI is built-in to BizTalk Server, and is an optional component when you install and configure BizTalk Server.</span></span> 

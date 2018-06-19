@@ -1,18 +1,18 @@
 ---
-title: "RosettaNet y CIDX mensajería estándares | Documentos de Microsoft"
-ms.custom: 
+title: RosettaNet y CIDX mensajería estándares | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messaging standards
 - CIDX, messaging standards
 - RosettaNet, messaging standards
 ms.assetid: 3e9c090b-9425-41ae-ae86-d39ca2abfb63
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210044"
 ---
 # <a name="rosettanet-and-cidx-messaging-standards"></a><span data-ttu-id="93b86-102">RosettaNet y CIDX estándares de mensajería</span><span class="sxs-lookup"><span data-stu-id="93b86-102">RosettaNet and CIDX Messaging Standards</span></span>
 <span data-ttu-id="93b86-103">El propósito principal de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consiste en procesar los mensajes que cumplen los estándares de mensajería de RosettaNet o Exchange de datos de la industria química (CIDX).</span><span class="sxs-lookup"><span data-stu-id="93b86-103">The primary purpose of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is to process messages that conform to the RosettaNet or Chemical Industry Data Exchange (CIDX) messaging standards.</span></span> <span data-ttu-id="93b86-104">Esta sección proporciona información acerca de los dos estándares de RosettaNet principales: el marco de implementación de RosettaNet (RNIF) y los procesos de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="93b86-104">This section provides information about the two major RosettaNet standards: the RosettaNet Implementation Framework (RNIF) and Partner Interface Processes (PIPs).</span></span> <span data-ttu-id="93b86-105">También proporciona información acerca de las normas europeas de química CIDX.</span><span class="sxs-lookup"><span data-stu-id="93b86-105">It also provides information about the CIDX Chem eStandards.</span></span>  

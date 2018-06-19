@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279468"
 ---
 # <a name="tpe-activity-view-nodes"></a><span data-ttu-id="253f8-102">Nodos Vista de actividad de TPE</span><span class="sxs-lookup"><span data-stu-id="253f8-102">TPE Activity View Nodes</span></span>
 <span data-ttu-id="253f8-103">Los temas de esta sección describen los tipos de nodos de árbol que utiliza el Editor de perfiles de seguimiento para asignar una vista determinada de procesos empresariales internos y de datos asociados a una orquestación.</span><span class="sxs-lookup"><span data-stu-id="253f8-103">The topics in this section describe the types of tree nodes used by Tracking Profile Editor to map a specific view of an internal business processes, as well as associated data, to an orchestration.</span></span>  

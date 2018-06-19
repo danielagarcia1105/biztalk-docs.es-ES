@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279052"
 ---
 # <a name="transform-outboundtransforms-node"></a><span data-ttu-id="0afa6-102">Transformación (nodo OutboundTransforms)</span><span class="sxs-lookup"><span data-stu-id="0afa6-102">Transform (OutboundTransforms Node)</span></span>
 <span data-ttu-id="0afa6-103">El nodo Transformación del nodo OutboundTransforms de un archivo de enlace contiene información específica acerca de una asignación de BizTalk Server que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="0afa6-103">The Transform node of the OutboundTransforms node of a binding file contains specific information about a BizTalk Server map that is exported with the binding file.</span></span>  

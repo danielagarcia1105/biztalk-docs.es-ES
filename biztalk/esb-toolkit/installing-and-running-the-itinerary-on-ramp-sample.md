@@ -1,14 +1,14 @@
 ---
 title: Instalar y ejecutar el itinerario en rampa ejemplo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85651d6e-2311-45d4-825a-c19323dbbdb2
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22293956"
 ---
 # <a name="installing-and-running-the-itinerary-on-ramp-sample"></a><span data-ttu-id="1e41c-102">Instalar y ejecutar el ejemplo en rampa itinerario</span><span class="sxs-lookup"><span data-stu-id="1e41c-102">Installing and Running the Itinerary On-Ramp Sample</span></span>
 <span data-ttu-id="1e41c-103">El ejemplo de itinerario en rampa muestra cómo puede configurar las propiedades de itinerarios de ESB y ejecución unidireccional y los escenarios de mensajería de solicitud-respuesta, como las siguientes:</span><span class="sxs-lookup"><span data-stu-id="1e41c-103">The Itinerary On-Ramp sample demonstrates how you can configure the ESB itinerary properties and run one-way and request-response messaging scenarios, such as the following:</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Agregar y quitar los espacios de nombres en un documento XML del mensaje documento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dbf2f209-13b9-42e0-b0f2-b53ec705e84b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289444"
 ---
 # <a name="adding-and-removing-namespaces-in-an-xml-message-document"></a><span data-ttu-id="7adc1-102">Agregar y quitar los espacios de nombres en un documento XML del mensaje</span><span class="sxs-lookup"><span data-stu-id="7adc1-102">Adding and Removing Namespaces in an XML Message Document</span></span>
 <span data-ttu-id="7adc1-103">En este caso de uso, el componente de Namespace proporcionará la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] los espacios de nombres se agrega o quita los espacios de nombres, documentos y mensajes, como se muestra en la figura 1.</span><span class="sxs-lookup"><span data-stu-id="7adc1-103">In this use case, the Namespace component provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] adds namespaces to, or removes namespaces from, documents and messages, as illustrated in Figure 1.</span></span> <span data-ttu-id="7adc1-104">Esto evita conflictos de espacio de nombres o errores que surgen cuando los documentos utilizan espacios de nombres predeterminados.</span><span class="sxs-lookup"><span data-stu-id="7adc1-104">This prevents namespace clashes or errors arising when documents use default namespaces.</span></span>  

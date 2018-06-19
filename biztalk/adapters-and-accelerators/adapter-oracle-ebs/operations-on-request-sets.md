@@ -1,14 +1,14 @@
 ---
 title: Operaciones con conjuntos de solicitud | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0537354d-821e-4cf9-a4d1-f4e7d1643df9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217300"
 ---
 # <a name="operations-on-request-sets"></a><span data-ttu-id="634f5-102">Operaciones con conjuntos de solicitud</span><span class="sxs-lookup"><span data-stu-id="634f5-102">Operations on Request Sets</span></span>
 <span data-ttu-id="634f5-103">Una solicitud establecida en Oracle E-Business Suite es un conjunto de informes y programas simultáneos que se organizan en varias fases.</span><span class="sxs-lookup"><span data-stu-id="634f5-103">A request set in Oracle E-Business Suite is a set of reports and concurrent programs that are organized into various stages.</span></span> <span data-ttu-id="634f5-104">Puede usar una única solicitud configurada para ejecutarse un conjunto de informes y programas simultáneos.</span><span class="sxs-lookup"><span data-stu-id="634f5-104">You can use a single request set to run a set of reports and concurrent programs.</span></span> <span data-ttu-id="634f5-105">Solicitar conjuntos se dividen en una o varias fases y cada fase contiene un conjunto de informes y programas simultáneos.</span><span class="sxs-lookup"><span data-stu-id="634f5-105">Request sets are divided into one or more stages, and each stage contains a set of reports and concurrent programs.</span></span> <span data-ttu-id="634f5-106">Estas fases están vinculadas entre sí, y se define el orden de la ejecución de cada fase.</span><span class="sxs-lookup"><span data-stu-id="634f5-106">These stages are linked with each other, and the order of the execution of each stage is defined.</span></span> <span data-ttu-id="634f5-107">Para más información específica de Oracle acerca de los conjuntos de solicitud, vaya a [http://go.microsoft.com/fwlink/p/?LinkId=129539](http://go.microsoft.com/fwlink/p/?LinkId=129539).</span><span class="sxs-lookup"><span data-stu-id="634f5-107">For more Oracle-specific information about request sets, go to [http://go.microsoft.com/fwlink/p/?LinkId=129539](http://go.microsoft.com/fwlink/p/?LinkId=129539).</span></span>  

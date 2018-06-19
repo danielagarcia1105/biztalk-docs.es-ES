@@ -1,14 +1,14 @@
 ---
 title: Planear el rendimiento de | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 267a8bc6-a0ab-4335-bc04-c22d5a56792f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22303004"
 ---
 # <a name="planning-for-performance"></a><span data-ttu-id="9e255-102">Planificación de rendimiento</span><span class="sxs-lookup"><span data-stu-id="9e255-102">Planning for Performance</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="9e255-103">es una plataforma de aplicación.</span><span class="sxs-lookup"><span data-stu-id="9e255-103"> is an application platform.</span></span> <span data-ttu-id="9e255-104">No es simplemente un producto de servidor o simplemente un producto de desarrollador.</span><span class="sxs-lookup"><span data-stu-id="9e255-104">It is not just a server product or just a developer product.</span></span> <span data-ttu-id="9e255-105">Es una plataforma de aplicación que se usa para crear sistemas de administración de procesos empresariales, para integrar aplicaciones empresariales, para automatizar los flujos de trabajo, y habilitar el servicio arquitecturas orientadas a.</span><span class="sxs-lookup"><span data-stu-id="9e255-105">It is an application platform that is used to build business process management systems, to integrate enterprise applications, to automate workflows, and to enable service oriented architectures.</span></span>  

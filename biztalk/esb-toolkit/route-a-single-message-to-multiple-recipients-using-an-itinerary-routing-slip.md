@@ -1,14 +1,14 @@
 ---
-title: "Cómo: enrutar un mensaje único a varios destinatarios mediante una lista de distribución itinerarios | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: enrutar un mensaje único a varios destinatarios mediante una lista de distribución itinerarios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 42c30493-4fe1-4fd5-8bc7-af091535b091
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010477"
 ---
 # <a name="how-to-route-a-single-message-to-multiple-recipients-using-an-itinerary-routing-slip"></a><span data-ttu-id="3d59f-102">Cómo: enrutar un mensaje único a varios destinatarios mediante una lista de distribución itinerarios</span><span class="sxs-lookup"><span data-stu-id="3d59f-102">How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip</span></span>
 ## <a name="goal"></a><span data-ttu-id="3d59f-103">Objetivo</span><span class="sxs-lookup"><span data-stu-id="3d59f-103">Goal</span></span>  

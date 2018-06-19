@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Actualizar una orquestación mediante el control de versiones en paralelo | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Actualizar una orquestación mediante el control de versiones en paralelo | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97f66987-0269-4dfe-a648-7b68412e86fe
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009941"
 ---
 # <a name="checklist-updating-an-orchestration-using-side-by-side-versioning"></a><span data-ttu-id="6903c-102">Lista de comprobación: Actualizar una orquestación mediante el control de versiones en paralelo</span><span class="sxs-lookup"><span data-stu-id="6903c-102">Checklist: Updating an Orchestration Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="6903c-103">Cambios en las orquestaciones pueden ser más complejas de cambios en otros artefactos, como las asignaciones.</span><span class="sxs-lookup"><span data-stu-id="6903c-103">Changes to orchestrations can be more involved than changes to other artifacts, such as maps.</span></span> <span data-ttu-id="6903c-104">Si tiene orquestaciones de corta duración, una actualización simple puede ser suficiente.</span><span class="sxs-lookup"><span data-stu-id="6903c-104">If you have short-lived orchestrations, then a simple update may be sufficient.</span></span> <span data-ttu-id="6903c-105">Pero si tiene orquestaciones de larga ejecución o no se puede finalizar las instancias existentes, control de versiones en paralelo será la única opción.</span><span class="sxs-lookup"><span data-stu-id="6903c-105">But if you have long-running orchestrations or cannot terminate existing instances, then side-by-side versioning will be your only option.</span></span>  

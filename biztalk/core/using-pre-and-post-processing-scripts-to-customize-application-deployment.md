@@ -1,11 +1,11 @@
 ---
-title: "Mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones | Documentos de Microsoft"
-ms.custom: 
+title: Mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - customizing, applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - scripts, applications
 - scripts, customizing
 ms.assetid: 47627394-d594-491b-9098-38c5d028a378
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287172"
 ---
 # <a name="using-pre--and-post-processing-scripts-to-customize-application-deployment"></a><span data-ttu-id="6c8dc-102">Usar secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de la aplicación</span><span class="sxs-lookup"><span data-stu-id="6c8dc-102">Using Pre- and Post-processing Scripts to Customize Application Deployment</span></span>
 <span data-ttu-id="6c8dc-103">Los temas de esta sección describen cómo se crean secuencias de comandos previas y posteriores al procesamiento para realizar acciones cuando una aplicación se importa, se instala o se desinstala.</span><span class="sxs-lookup"><span data-stu-id="6c8dc-103">The topics in this section describe how to create pre- or post-processing scripts to perform actions when an application is imported, installed, or uninstalled.</span></span> <span data-ttu-id="6c8dc-104">Las secuencias de comandos previas al procesamiento realizan una acción o un conjunto de acciones antes de que comience la importación o la instalación de la aplicación y después de que finalice la desinstalación.</span><span class="sxs-lookup"><span data-stu-id="6c8dc-104">Pre-processing scripts perform an action or set of actions before application import or installation starts, and after uninstallation completes.</span></span> <span data-ttu-id="6c8dc-105">Por otro lado, las secuencias de comandos posteriores al procesamiento realizan una acción o un conjunto de acciones después de que finalice la importación o la instalación de la aplicación y antes de que se inicie la desinstalación.</span><span class="sxs-lookup"><span data-stu-id="6c8dc-105">Post-processing scripts perform an action or set of actions after application import or installation completes, or before uninstallation starts.</span></span>  

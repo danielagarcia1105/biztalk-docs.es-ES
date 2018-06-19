@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22299012"
 ---
 # <a name="mscit-supply-chain-migration-from-biztalk-server-2009-hub-to-biztalk-server-2013-r2-virtualized-hub"></a><span data-ttu-id="a41ad-102">MSCIT: Migración de cadena de suministros de concentrador de BizTalk Server 2009 a BizTalk Server 2013 R2 virtualiza concentrador</span><span class="sxs-lookup"><span data-stu-id="a41ad-102">MSCIT: Supply Chain migration from BizTalk Server 2009 hub to BizTalk Server 2013 R2 virtualized hub</span></span>
 <span data-ttu-id="a41ad-103">Migración de aplicaciones de BizTalk Server 2010 a BizTalk Server 2013 R2.</span><span class="sxs-lookup"><span data-stu-id="a41ad-103">Application migration from BizTalk Server 2010 to BizTalk Server 2013 R2.</span></span>  

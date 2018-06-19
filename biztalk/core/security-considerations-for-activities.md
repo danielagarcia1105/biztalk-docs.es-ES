@@ -1,14 +1,14 @@
 ---
 title: Consideraciones de seguridad para las actividades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fc49afd-a1c3-4ac7-8b89-11be667221e2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270060"
 ---
 # <a name="security-considerations-for-activities"></a><span data-ttu-id="f5ed6-102">Consideraciones de seguridad para las actividades</span><span class="sxs-lookup"><span data-stu-id="f5ed6-102">Security Considerations for Activities</span></span>
 <span data-ttu-id="f5ed6-103">Las funciones de seguridad que usa al interceptar el adaptador de WCF son las mismas que las usadas para las demás soluciones de BAM.</span><span class="sxs-lookup"><span data-stu-id="f5ed6-103">The security roles you use when intercepting the WCF adapter are the same as those used for other BAM solutions.</span></span> <span data-ttu-id="f5ed6-104">Las consideraciones adicionales para la interceptación del adaptador de WCF conllevan la selección del usuario correcto y de qué función de escritor de eventos usar.</span><span class="sxs-lookup"><span data-stu-id="f5ed6-104">The additional considerations for intercepting the WCF adapter involve selecting the correct user and event writer role to use.</span></span>  

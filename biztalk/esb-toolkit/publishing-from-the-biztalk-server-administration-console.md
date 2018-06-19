@@ -1,14 +1,14 @@
 ---
-title: "Publicar desde la consola de administración de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Publicar desde la consola de administración de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b78b1981-b227-4cf5-9435-6fc57963552a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009101"
 ---
 # <a name="publishing-from-the-biztalk-server-administration-console"></a><span data-ttu-id="65018-102">Publicar desde la consola de administración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="65018-102">Publishing from the BizTalk Server Administration Console</span></span>
 <span data-ttu-id="65018-103">Si desea administrar el punto de conexión que se publica a través de la consola de administración de BizTalk Server en lugar del Portal de administración de ESB, puede hacerlo escribiendo un moniker de Universal Description, Discovery y Integration (UDDI) en el campo de descripción de los puntos de conexión Para publicar en UDDI.</span><span class="sxs-lookup"><span data-stu-id="65018-103">If you want to manage endpoint publishing through the BizTalk Server Administration Console instead of the ESB Management Portal, you can do so by entering a Universal Description, Discovery, and Integration (UDDI) moniker in the description field of the endpoints to publish to UDDI.</span></span> <span data-ttu-id="65018-104">El siguiente es un moniker de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="65018-104">The following is an example moniker.</span></span>  

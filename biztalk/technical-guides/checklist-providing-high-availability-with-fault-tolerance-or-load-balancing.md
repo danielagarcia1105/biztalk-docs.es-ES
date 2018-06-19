@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Proporcionar una alta disponibilidad con equilibrio de carga o de tolerancia a errores | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Proporcionar una alta disponibilidad con equilibrio de carga o de tolerancia a errores | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c93cfc3-05b2-43ad-b0a9-b7f0d2596113
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299612"
 ---
 # <a name="checklist-providing-high-availability-with-fault-tolerance-or-load-balancing"></a><span data-ttu-id="3ec0a-102">Lista de comprobación: Proporcionar una alta disponibilidad con tolerancia a errores o equilibrio de carga</span><span class="sxs-lookup"><span data-stu-id="3ec0a-102">Checklist: Providing High Availability with Fault Tolerance or Load Balancing</span></span>
 <span data-ttu-id="3ec0a-103">En este tema se enumera los pasos que debe seguir para configurar la tolerancia a errores y equilibrio de carga para los componentes de una producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno para proporcionar alta disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="3ec0a-103">This topic lists steps that you should complete to configure fault tolerance and/or load balancing for the components of a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to provide high availability.</span></span> <span data-ttu-id="3ec0a-104">Configuración de tolerancia a errores para estos componentes permitirá que el sistema seguir funcionando si se produce un error en un componente determinado.</span><span class="sxs-lookup"><span data-stu-id="3ec0a-104">Configuration of fault tolerance for these components will allow the system to continue operating if a particular component fails.</span></span>  

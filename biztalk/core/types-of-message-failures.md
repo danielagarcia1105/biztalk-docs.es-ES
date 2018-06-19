@@ -1,11 +1,11 @@
 ---
 title: Tipos de errores de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transformation stage
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - disassembly stage, errors
 - messages, errors [HAT]
 ms.assetid: 3a8e1c58-4b53-4439-837d-aaa233eb9158
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286756"
 ---
 # <a name="types-of-message-failures"></a><span data-ttu-id="44b7e-102">Tipos de errores de mensaje</span><span class="sxs-lookup"><span data-stu-id="44b7e-102">Types of Message Failures</span></span>
 <span data-ttu-id="44b7e-103">En este tema se enumeran los distintos puntos en los que puede producirse un error de mensaje.</span><span class="sxs-lookup"><span data-stu-id="44b7e-103">This topic lists different points where a message failure may occur.</span></span>  

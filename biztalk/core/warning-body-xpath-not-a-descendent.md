@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288028"
 ---
 # <a name="warning---body-xpath-not-a-descendent"></a><span data-ttu-id="0b07f-102">Advertencia: XPath de cuerpo no es un descendiente</span><span class="sxs-lookup"><span data-stu-id="0b07f-102">Warning - Body XPath Not A Descendent</span></span>
 <span data-ttu-id="0b07f-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="0b07f-103">**Error Code**</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Los errores con el tiempo por aplicación o servicio | Documentos de Microsoft"
-ms.custom: 
+title: Los errores con el tiempo por aplicación o servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51fdbf8a-1e5f-4054-b8b1-e85b5de399c4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294044"
 ---
 # <a name="faults-over-time-by-application-or-service"></a><span data-ttu-id="90db2-102">Errores con el tiempo por aplicación o servicio</span><span class="sxs-lookup"><span data-stu-id="90db2-102">Faults over Time by Application or Service</span></span>
 <span data-ttu-id="90db2-103">Esta opción muestra el recuento de errores durante un período determinado para un conjunto específico de aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="90db2-103">This option displays a count of faults over a specified period for a specified set of applications.</span></span> <span data-ttu-id="90db2-104">Puede seleccionar una aplicación para mostrar un gráfico de tendencias que muestra el número de errores con el tiempo para servicios específicos dentro de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="90db2-104">You can select an application to display a trend chart that shows the number of faults over time for specific services within the application.</span></span> <span data-ttu-id="90db2-105">Al seleccionar un servicio específico, muestra un informe que muestra los errores para ese servicio.</span><span class="sxs-lookup"><span data-stu-id="90db2-105">Selecting a specific service displays a report that lists the faults for that service.</span></span> <span data-ttu-id="90db2-106">También puede exportar la lista de errores como una hoja de cálculo de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="90db2-106">You can also export the list of faults as a Microsoft Excel spreadsheet.</span></span>  

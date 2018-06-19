@@ -1,18 +1,18 @@
 ---
-title: "Componente de canalización de mensajes desconocidos en el ensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de mensajes desconocidos en el ensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XMLNorm.AllowUnrecognizedMessage property
 - XML Assembler [pipeline component], unrecognized messages
 - pipeline components, XML Assembler
 ms.assetid: dd98512a-33a4-4b2e-977e-1b3a30747c6a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286812"
 ---
 # <a name="unrecognized-messages-in-the-xml-assembler-pipeline-component"></a><span data-ttu-id="ddbcf-102">Mensajes desconocidos en el componente de canalización de ensamblador XML</span><span class="sxs-lookup"><span data-stu-id="ddbcf-102">Unrecognized Messages in the XML Assembler Pipeline Component</span></span>
 <span data-ttu-id="ddbcf-103">El componente de ensamblador XML trata los mensajes como “desconocidos” si:</span><span class="sxs-lookup"><span data-stu-id="ddbcf-103">The XML Assembler component treats a message as "unrecognized" if a message has:</span></span>  

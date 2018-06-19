@@ -1,14 +1,14 @@
 ---
-title: "Propiedades del acuerdo de la importación de un archivo XML | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades del acuerdo de la importación de un archivo XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c8bf5268-1742-47da-b42f-6472706a9bff
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006853"
 ---
 # <a name="importing-agreement-properties-from-an-xml-file"></a><span data-ttu-id="072aa-102">Importación de propiedades de acuerdo de un archivo XML</span><span class="sxs-lookup"><span data-stu-id="072aa-102">Importing Agreement Properties from an XML File</span></span>
 <span data-ttu-id="072aa-103">Esta sección proporciona instrucciones de cómo importar propiedades de acuerdo desde un archivo de plantilla XML.</span><span class="sxs-lookup"><span data-stu-id="072aa-103">This section provides instructions on how to import agreement properties from an XML template file.</span></span>  

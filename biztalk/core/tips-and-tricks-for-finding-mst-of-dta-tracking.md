@@ -1,14 +1,14 @@
 ---
 title: Sugerencias y trucos para encontrar MST de seguimiento de DTA | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d72e4ac-d952-4cff-9a65-491e20945d40
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279884"
 ---
 # <a name="tips-and-tricks-for-finding-mst-of-dta-tracking"></a><span data-ttu-id="a263b-102">Sugerencias y trucos para encontrar MST de seguimiento de DTA</span><span class="sxs-lookup"><span data-stu-id="a263b-102">Tips and Tricks for Finding MST of DTA Tracking</span></span>
 <span data-ttu-id="a263b-103">Por definición, MST es una prueba comparativa para medir de forma reproducible el rendimiento del sistema mediante una carga constante.</span><span class="sxs-lookup"><span data-stu-id="a263b-103">By definition, MST is a benchmark to reproducibly measure system performance using a constant load.</span></span> <span data-ttu-id="a263b-104">A continuación se indican las situaciones donde resulta especialmente útil conocer el MST.</span><span class="sxs-lookup"><span data-stu-id="a263b-104">Following are situations where knowing the MST is particularly useful.</span></span>  

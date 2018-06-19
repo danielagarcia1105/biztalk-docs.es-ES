@@ -1,14 +1,14 @@
 ---
 title: Referencia de Microsoft.BizTalk.GlobalPropertySchemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2acf3083-a0a9-483f-88bf-8023d9933e1e
-caps.latest.revision: 
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710399"
 ---
 # <a name="microsoftbiztalkglobalpropertyschemas-reference"></a><span data-ttu-id="50bda-102">Microsoft.BizTalk.GlobalPropertySchemas Reference</span><span class="sxs-lookup"><span data-stu-id="50bda-102">Microsoft.BizTalk.GlobalPropertySchemas Reference</span></span>
 <span data-ttu-id="50bda-103">El **Microsoft.BizTalk.GlobalPropertySchemas** espacio de nombres contiene esquemas de propiedad para las propiedades que usan varios componentes de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="50bda-103">The **Microsoft.BizTalk.GlobalPropertySchemas** namespace contains property schemas for the properties that various BizTalk Server components use.</span></span> <span data-ttu-id="50bda-104">Este espacio de nombres contiene propiedades del sistema que utiliza el motor de BizTalk, propiedades específicas de transporte que cada transporte utiliza para controlar la configuración y propiedades para configurar componentes de canalización.</span><span class="sxs-lookup"><span data-stu-id="50bda-104">This namespace contains system properties that the BizTalk engine uses, transport specific properties that each transport uses for handling the configuration, and properties for configuring pipeline components.</span></span>  

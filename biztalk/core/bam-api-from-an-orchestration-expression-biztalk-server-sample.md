@@ -1,14 +1,14 @@
 ---
-title: "API de BAM en el ejemplo de expresión de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: API de BAM en el ejemplo de expresión de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 341bc333-9bfc-484c-b431-9a71f9188792
-caps.latest.revision: 
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710987"
 ---
 # <a name="bam-api-from-an-orchestration-expression-biztalk-server-sample"></a><span data-ttu-id="a3c98-102">API de BAM desde una expresión de orquestación (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="a3c98-102">BAM API from an Orchestration Expression (BizTalk Server Sample)</span></span>
 <span data-ttu-id="a3c98-103">En este ejemplo se demuestra cómo realizar lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a3c98-103">This sample demonstrates how to:</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 02/28/2018
 -   <span data-ttu-id="a3c98-106">Crear una relación entre los datos de BAM supervisados mediante un perfil de seguimiento y los datos de BAM supervisados mediante una API de BAM.</span><span class="sxs-lookup"><span data-stu-id="a3c98-106">Create a relationship between BAM data that is tracked by using a tracking profile, and BAM data tracked by using the BAM API.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="a3c98-107">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="a3c98-107">Where to Find This Sample</span></span>  
- <span data-ttu-id="a3c98-108">Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamFromExpression.</span><span class="sxs-lookup"><span data-stu-id="a3c98-108">You can find this sample at *\<Samples Path\>*\BAM\BamFromExpression.</span></span>  
+ <span data-ttu-id="a3c98-108">Puede encontrar este ejemplo en  *\<ruta de ejemplos\>* \BAM\BamFromExpression.</span><span class="sxs-lookup"><span data-stu-id="a3c98-108">You can find this sample at *\<Samples Path\>* \BAM\BamFromExpression.</span></span>  
   
  <span data-ttu-id="a3c98-109">En la siguiente tabla se enumeran los archivos de este ejemplo y se describe el propósito de cada uno de ellos.</span><span class="sxs-lookup"><span data-stu-id="a3c98-109">The following table lists the files in this sample and describes their purpose.</span></span>  
   
@@ -48,7 +49,7 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="create-the-tracking-profile"></a><span data-ttu-id="a3c98-134">Crear el perfil de seguimiento</span><span class="sxs-lookup"><span data-stu-id="a3c98-134">Create the tracking profile</span></span>  
   
-1.  <span data-ttu-id="a3c98-135">Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BAMFromExpression\Setup.bat.</span><span class="sxs-lookup"><span data-stu-id="a3c98-135">Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\BAMFromExpression\Setup.bat.</span></span> <span data-ttu-id="a3c98-136">Setup.bat inicializa la infraestructura de BAM para este ejemplo e implementa la actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="a3c98-136">Setup.bat initializes the BAM infrastructure for this sample, and deploys the BAM activity.</span></span>  
+1.  <span data-ttu-id="a3c98-135">Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\BAMFromExpression\Setup.bat.</span><span class="sxs-lookup"><span data-stu-id="a3c98-135">Open a command prompt as Administrator, and run *\<Samples Path\>* \BAM\BAMFromExpression\Setup.bat.</span></span> <span data-ttu-id="a3c98-136">Setup.bat inicializa la infraestructura de BAM para este ejemplo e implementa la actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="a3c98-136">Setup.bat initializes the BAM infrastructure for this sample, and deploys the BAM activity.</span></span>  
   
 2.  <span data-ttu-id="a3c98-137">Desde el **programas** > **Microsoft BizTalk Server**, haga clic en **Editor de perfiles de seguimiento**, y **ejecutar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="a3c98-137">From your **Programs** > **Microsoft BizTalk Server**, right-click **Tracking Profile Editor**, and **Run as administrator**.</span></span>
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 02/28/2018
   
 13. <span data-ttu-id="a3c98-160">Arrastre el **Send_1** forma en el panel derecho a **enviar** en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="a3c98-160">Drag the **Send_1** shape in the right pane to **Send** in the left pane.</span></span>  
   
-14. <span data-ttu-id="a3c98-161">Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>*\BAM\BamFromExpression\ BamFromExpression.btt.</span><span class="sxs-lookup"><span data-stu-id="a3c98-161">Save the tracking profile to *\<Samples Path\>*\BAM\BamFromExpression\ BamFromExpression.btt.</span></span>  
+14. <span data-ttu-id="a3c98-161">Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>* \BAM\BamFromExpression\ BamFromExpression.btt.</span><span class="sxs-lookup"><span data-stu-id="a3c98-161">Save the tracking profile to *\<Samples Path\>* \BAM\BamFromExpression\ BamFromExpression.btt.</span></span>  
   
 15. <span data-ttu-id="a3c98-162">En el **herramientas** menú, haga clic en **aplicar perfil de seguimiento**.</span><span class="sxs-lookup"><span data-stu-id="a3c98-162">On the **Tools** menu, click **Apply Tracking Profile**.</span></span>  
   
@@ -92,9 +93,9 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="run-this-sample"></a><span data-ttu-id="a3c98-166">Ejecutar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="a3c98-166">Run this sample</span></span>  
   
-<span data-ttu-id="a3c98-167">Copie el archivo  *\<ruta de ejemplos\>*\BamFromExpression\InputMessage.xml a  *\<ruta de ejemplos\>*\BamFromExpression\Input.</span><span class="sxs-lookup"><span data-stu-id="a3c98-167">Copy the file *\<Samples Path\>*\BamFromExpression\InputMessage.xml to *\<Samples Path\>*\BamFromExpression\Input.</span></span>  
+<span data-ttu-id="a3c98-167">Copie el archivo  *\<ruta de ejemplos\>* \BamFromExpression\InputMessage.xml a  *\<ruta de ejemplos\>* \BamFromExpression\Input.</span><span class="sxs-lookup"><span data-stu-id="a3c98-167">Copy the file *\<Samples Path\>* \BamFromExpression\InputMessage.xml to *\<Samples Path\>* \BamFromExpression\Input.</span></span>  
   
-<span data-ttu-id="a3c98-168">En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>*\BamFromExpression\Output.</span><span class="sxs-lookup"><span data-stu-id="a3c98-168">In about 10 seconds the output message will appear in *\<Samples Path\>*\BamFromExpression\Output.</span></span>  
+<span data-ttu-id="a3c98-168">En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>* \BamFromExpression\Output.</span><span class="sxs-lookup"><span data-stu-id="a3c98-168">In about 10 seconds the output message will appear in *\<Samples Path\>* \BamFromExpression\Output.</span></span>  
   
 ## <a name="view-the-bam-data"></a><span data-ttu-id="a3c98-169">Ver los datos de BAM</span><span class="sxs-lookup"><span data-stu-id="a3c98-169">View the BAM data</span></span>  
   
@@ -116,9 +117,9 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="re-run-the-sample"></a><span data-ttu-id="a3c98-187">Vuelva a ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="a3c98-187">Re-run the sample</span></span>  
   
-1.  <span data-ttu-id="a3c98-188">Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Cleanup.bat para quitar el perfil de seguimiento y otras infraestructuras BAM.</span><span class="sxs-lookup"><span data-stu-id="a3c98-188">Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\BamFromExpression\Cleanup.bat to remove the tracking profile and other BAM infrastructure.</span></span> 
+1.  <span data-ttu-id="a3c98-188">Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\BamFromExpression\Cleanup.bat para quitar el perfil de seguimiento y otras infraestructuras BAM.</span><span class="sxs-lookup"><span data-stu-id="a3c98-188">Open a command prompt as Administrator, and run *\<Samples Path\>* \BAM\BamFromExpression\Cleanup.bat to remove the tracking profile and other BAM infrastructure.</span></span> 
   
-2.  <span data-ttu-id="a3c98-189">Ejecutar  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Setup.bat para compilar el ejemplo e implementarlo.</span><span class="sxs-lookup"><span data-stu-id="a3c98-189">Run *\<Samples Path\>*\BAM\BamFromExpression\Setup.bat to compile the sample and deploy it.</span></span>  
+2.  <span data-ttu-id="a3c98-189">Ejecutar  *\<ruta de ejemplos\>* \BAM\BamFromExpression\Setup.bat para compilar el ejemplo e implementarlo.</span><span class="sxs-lookup"><span data-stu-id="a3c98-189">Run *\<Samples Path\>* \BAM\BamFromExpression\Setup.bat to compile the sample and deploy it.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="a3c98-190">Vea también</span><span class="sxs-lookup"><span data-stu-id="a3c98-190">See Also</span></span>  
  <span data-ttu-id="a3c98-191">[(Carpeta de ejemplos de BizTalk Server) de supervisión de la actividad de negocio](../core/business-activity-monitoring-biztalk-server-samples-folder.md) </span><span class="sxs-lookup"><span data-stu-id="a3c98-191">[Business Activity Monitoring (BizTalk Server Samples Folder)](../core/business-activity-monitoring-biztalk-server-samples-folder.md) </span></span>  

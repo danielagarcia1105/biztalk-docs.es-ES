@@ -1,15 +1,15 @@
 ---
 title: Agregar elementos de proyecto | Documentos de Microsoft
 description: Agregar las orquestaciones, esquemas, asignaciones y canalizaciones a su proyecto de BizTalk Server en Visual Studio
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1b922d5-8ece-4e1a-a390-e6ae1222665a
-caps.latest.revision: 
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710227"
 ---
 # <a name="add-project-items"></a><span data-ttu-id="0480c-103">Agregar elementos de proyecto</span><span class="sxs-lookup"><span data-stu-id="0480c-103">Add Project Items</span></span>
 <span data-ttu-id="0480c-104">En el contexto del sistema del proyecto de BizTalk, un elemento de proyecto es un elemento configurado, por ejemplo, una asignación o un esquema.</span><span class="sxs-lookup"><span data-stu-id="0480c-104">In the context of the BizTalk project system, a project item is a configured item, such as a map or schema.</span></span> <span data-ttu-id="0480c-105">Una aplicación de BizTalk puede contener una o más orquestaciones, esquemas, asignaciones y canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="0480c-105">A BizTalk application might contain one or more orchestrations, schemas, maps, and pipelines.</span></span>  

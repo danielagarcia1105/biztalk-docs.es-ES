@@ -1,14 +1,14 @@
 ---
-title: "Páginas del portal de administración | Documentos de Microsoft"
-ms.custom: 
+title: Páginas del portal de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2b511d1-b252-41d3-9aac-74a2ee4b69a8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294476"
 ---
 # <a name="portal-admin-pages"></a><span data-ttu-id="61a56-102">Páginas del portal de administración</span><span class="sxs-lookup"><span data-stu-id="61a56-102">Portal Admin Pages</span></span>
 <span data-ttu-id="61a56-103">Cuando mueva el mouse sobre la **administración** pestaña, un menú emergente proporciona una lista de tareas de administración del portal.</span><span class="sxs-lookup"><span data-stu-id="61a56-103">When you move the mouse over the **Admin** tab, a pop-up menu provides a list of portal administration tasks.</span></span> <span data-ttu-id="61a56-104">El **administración** ficha solo está visible para los usuarios que tienen permisos administrativos (miembros del grupo de cuenta de administradores de Microsoft BizTalk Server).</span><span class="sxs-lookup"><span data-stu-id="61a56-104">The **Admin** tab is only visible to users who have administrative permission (members of the Microsoft BizTalk Server Administrators account group).</span></span> <span data-ttu-id="61a56-105">Las siguientes opciones están en el menú emergente:</span><span class="sxs-lookup"><span data-stu-id="61a56-105">The following options are on the pop-up menu:</span></span>  

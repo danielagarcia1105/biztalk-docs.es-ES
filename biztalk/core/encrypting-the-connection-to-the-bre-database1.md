@@ -1,14 +1,14 @@
 ---
-title: "Cifrar la conexión de base de datos de BRE | Documentos de Microsoft"
-ms.custom: 
+title: Cifrar la conexión de base de datos de BRE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63edd2bb-97f1-4b8b-8cdc-f4792909ca86
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005661"
 ---
 # <a name="encrypt-the-connection-to-the-bre-database"></a><span data-ttu-id="29f98-102">Cifrar la conexión a la base de datos BRE</span><span class="sxs-lookup"><span data-stu-id="29f98-102">Encrypt the Connection to the BRE Database</span></span>
 <span data-ttu-id="29f98-103">Según sea la directiva de seguridad de la empresa, considere la posibilidad de cifrar lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="29f98-103">Based on the security policy of your company, consider encrypting:</span></span>  

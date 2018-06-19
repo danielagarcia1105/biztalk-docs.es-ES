@@ -1,14 +1,14 @@
 ---
 title: Problemas conocidos relacionados con el procesamiento por lotes de EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 510ac82b-8a02-4135-87b7-0a5f288f5317
-caps.latest.revision: "38"
+caps.latest.revision: 38
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008221"
 ---
 # <a name="known-issues-with-edi-batching"></a><span data-ttu-id="cbb83-102">Problemas conocidos del procesamiento por lotes de EDI</span><span class="sxs-lookup"><span data-stu-id="cbb83-102">Known Issues with EDI Batching</span></span>
 <span data-ttu-id="cbb83-103">En este tema se describen problemas conocidos relacionados con el procesamiento por lotes en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="cbb83-103">This topic describes known issues with batching in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

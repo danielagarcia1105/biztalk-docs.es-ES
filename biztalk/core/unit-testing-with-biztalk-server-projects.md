@@ -1,14 +1,14 @@
 ---
 title: Pruebas unitarias con proyectos de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2594f29-fc34-4dda-9316-2afd4e0056d7
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008125"
 ---
 # <a name="unit-testing-with-biztalk-server-projects"></a><span data-ttu-id="55d53-102">Pruebas de unidades con proyectos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="55d53-102">Unit Testing with BizTalk Server Projects</span></span>
 <span data-ttu-id="55d53-103">BizTalk Server introdujo un característica que se puede habilitar en de pruebas unitarias la **implementación** página de propiedades de un proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="55d53-103">BizTalk Server introduced a unit testing feature that can be enabled on the **Deployment** property page of a BizTalk project.</span></span> <span data-ttu-id="55d53-104">Captura de pantalla siguiente muestra esta configuración del proyecto que se tiene acceso desde el Diseñador de proyectos cuando haga clic en un proyecto y haga clic en el **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="55d53-104">The following screenshot shows this project setting accessed from Project Designer when you right-click a project and click the **Properties**.</span></span>  

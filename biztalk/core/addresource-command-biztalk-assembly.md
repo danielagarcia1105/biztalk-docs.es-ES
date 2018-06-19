@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c18607b5-d929-48c9-9fa3-f728a7a80d04
-caps.latest.revision: ''
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22231828"
 ---
 # <a name="addresource-command-biztalk-assembly"></a><span data-ttu-id="d6b63-102">El comando AddResource: El ensamblado de BizTalk</span><span class="sxs-lookup"><span data-stu-id="d6b63-102">AddResource Command: BizTalk Assembly</span></span>
 <span data-ttu-id="d6b63-103">Para agregar un ensamblado de BizTalk a una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:BizTalkAssembly** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="d6b63-103">To add a BizTalk assembly to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:BizTalkAssembly** for the Type parameter.</span></span> <span data-ttu-id="d6b63-104">Ejecutar este comando agrega el ensamblado a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="d6b63-104">Running this command adds the assembly to the BizTalk Management database.</span></span> <span data-ttu-id="d6b63-105">El ensamblado también se muestra en la consola de administración de BizTalk Server, en la carpeta de recursos de la aplicación a la que se agregó.</span><span class="sxs-lookup"><span data-stu-id="d6b63-105">The assembly is also displayed in the BizTalk Server Administration console, in the Resources folder of the application to which you added it.</span></span> <span data-ttu-id="d6b63-106">Los artefactos incluidos en el ensamblado también se muestran en las carpetas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="d6b63-106">The artifacts included in the assembly are also displayed in the appropriate folders.</span></span> <span data-ttu-id="d6b63-107">Además, los artefactos se muestran cuando se usa el [comando ListApp](../core/listapp-command.md).</span><span class="sxs-lookup"><span data-stu-id="d6b63-107">In addition, the artifacts are listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 03/23/2018
  <span data-ttu-id="d6b63-116">Para obtener más información acerca de las dependencias, consulte [dependencias e implementación de aplicaciones](../core/dependencies-and-application-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="d6b63-116">For more information about dependencies, see [Dependencies and Application Deployment](../core/dependencies-and-application-deployment.md).</span></span>  
   
 ## <a name="usage"></a><span data-ttu-id="d6b63-117">Uso</span><span class="sxs-lookup"><span data-stu-id="d6b63-117">Usage</span></span>  
- <span data-ttu-id="d6b63-118">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**] [**/Server:***value*] [**/Database:***value*]</span><span class="sxs-lookup"><span data-stu-id="d6b63-118">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**] [**/Server:***value*] [**/Database:***value*]</span></span>  
+ <span data-ttu-id="d6b63-118">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **] [**/Server:***value*] [**/Database:*** value*]</span><span class="sxs-lookup"><span data-stu-id="d6b63-118">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **] [**/Server:***value*] [**/Database:*** value*]</span></span>  
   
 ## <a name="parameters"></a><span data-ttu-id="d6b63-119">Parámetros</span><span class="sxs-lookup"><span data-stu-id="d6b63-119">Parameters</span></span>  
   

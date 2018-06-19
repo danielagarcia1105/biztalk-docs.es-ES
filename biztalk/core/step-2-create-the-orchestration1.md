@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2: Crear la Orchestration1 | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a88cafbb-3b6f-4d27-8516-79a2391b4e31
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276492"
 ---
 # <a name="step-2-create-the-orchestration"></a><span data-ttu-id="eaef7-102">Paso 2: Crear la orquestación</span><span class="sxs-lookup"><span data-stu-id="eaef7-102">Step 2: Create the Orchestration</span></span>
 <span data-ttu-id="eaef7-103">La configuración de orquestación se realiza de la siguiente forma, mediante un proyecto denominado BeginDocTest:</span><span class="sxs-lookup"><span data-stu-id="eaef7-103">The orchestration setup is as follows using a project called BeginDocTest:</span></span>  

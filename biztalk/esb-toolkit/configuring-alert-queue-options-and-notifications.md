@@ -1,14 +1,14 @@
 ---
 title: Configurar las opciones de cola de alertas y notificaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f78afbf9-6e27-4887-8424-f265fbd8448a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290156"
 ---
 # <a name="configuring-alert-queue-options-and-notifications"></a><span data-ttu-id="38d10-102">Configurar opciones de cola de alertas y notificaciones</span><span class="sxs-lookup"><span data-stu-id="38d10-102">Configuring Alert Queue Options and Notifications</span></span>
 <span data-ttu-id="38d10-103">El Portal de administración de ESB usa el servicio de alerta de ESB para generar alertas cuando llegan los mensajes de error en el portal y usa el servicio de notificación de ESB para poner en cola y enviar notificaciones de alerta a los usuarios que se suscriben a alertas.</span><span class="sxs-lookup"><span data-stu-id="38d10-103">The ESB Management Portal uses the ESB Alert Service to generate alerts as fault messages arrive at the portal, and it uses the ESB Notification Service to queue and send alert notifications to users that subscribe to alerts.</span></span> <span data-ttu-id="38d10-104">Puede editar la configuración utilizada por estos servicios en el Portal de administración de ESB.</span><span class="sxs-lookup"><span data-stu-id="38d10-104">You can edit the settings used by these services in the ESB Management Portal.</span></span>  

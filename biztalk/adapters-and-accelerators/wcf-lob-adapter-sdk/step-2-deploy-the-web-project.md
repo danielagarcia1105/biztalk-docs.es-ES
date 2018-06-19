@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2: Implementar el proyecto Web | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb775a89-2e2d-43e5-94ae-f75c1756dbd7
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450293"
 ---
 # <a name="step-2-deploy-the-web-project"></a><span data-ttu-id="e70f3-102">Paso 2: Implementar el proyecto Web</span><span class="sxs-lookup"><span data-stu-id="e70f3-102">Step 2: Deploy the Web Project</span></span>
 <span data-ttu-id="e70f3-103">![Paso 2 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="e70f3-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Informe de estado de lote | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04dad016-e7bb-45cd-b36a-a9c83d073501
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231804"
 ---
 # <a name="batch-status-report"></a><span data-ttu-id="7314e-102">Informe de estado de lotes</span><span class="sxs-lookup"><span data-stu-id="7314e-102">Batch Status Report</span></span>
 <span data-ttu-id="7314e-103">Este informe muestra la actividad de instancias de la orquestación por lotes.</span><span class="sxs-lookup"><span data-stu-id="7314e-103">This report shows the activity of instances of the batching orchestration.</span></span> <span data-ttu-id="7314e-104">Cada fila del informe indica el estado de los lotes que se van a procesar mediante una única instancia de la orquestación por lotes.</span><span class="sxs-lookup"><span data-stu-id="7314e-104">Each row in the report indicates the status of the batches being processed by a single instance of the batching orchestration.</span></span>  

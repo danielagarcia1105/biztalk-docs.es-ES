@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288100"
 ---
 # <a name="wcf-netmsmq-adapter"></a><span data-ttu-id="2f3fb-102">Adaptador de WCF-NetMsmq</span><span class="sxs-lookup"><span data-stu-id="2f3fb-102">WCF-NetMsmq Adapter</span></span>
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)]<span data-ttu-id="2f3fb-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de WCF-NetMsmq al recibir y enviar WCF solicitudes de servicio mediante el [NetMsmqBinding](http://go.microsoft.com/fwlink/?LinkId=82589).</span><span class="sxs-lookup"><span data-stu-id="2f3fb-103"> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF-NetMsmq adapter when receiving and sending WCF service requests through the [NetMsmqBinding](http://go.microsoft.com/fwlink/?LinkId=82589).</span></span> <span data-ttu-id="2f3fb-104">El adaptador de WCF-NetMsmq permite publicar orquestaciones y esquemas como servicios WCF y consumir servicios WCF externos con el **NetMsmqBinding**.</span><span class="sxs-lookup"><span data-stu-id="2f3fb-104">The WCF-NetMsmq adapter enables you to publish orchestrations and schemas as WCF services and to consume external WCF services with the **NetMsmqBinding**.</span></span>  

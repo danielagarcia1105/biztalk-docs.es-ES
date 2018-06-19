@@ -1,14 +1,14 @@
 ---
-title: "Cómo se almacenan los datos para los mensajes EDI entrantes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo se almacenan los datos para los mensajes EDI entrantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8cbcb96-c0af-4f41-b844-f0e684a4af7c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971562"
 ---
 # <a name="how-data-is-stored-for-inbound-edi-messages"></a><span data-ttu-id="f7304-102">Cómo se almacenan los datos correspondientes a mensajes EDI de entrada</span><span class="sxs-lookup"><span data-stu-id="f7304-102">How Data Is Stored for Inbound EDI Messages</span></span>
 <span data-ttu-id="f7304-103">Para generar una entrada del informe de estado correspondiente a un intercambio de entrada y a la confirmación enviada como respuesta, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="f7304-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does the following to generate a status report entry for an inbound interchange and the acknowledgment sent in response to it:</span></span>  

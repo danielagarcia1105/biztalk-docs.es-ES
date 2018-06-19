@@ -1,17 +1,17 @@
 ---
 title: El controlador de errores de las operaciones de ejemplo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Ops adapters, error handler
 - process management solution tutorial, Ops adapters
 ms.assetid: e6c55f01-c004-4340-beaa-d77764ae34c1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279628"
 ---
 # <a name="the-sample-operations-error-handler"></a><span data-ttu-id="b6d45-102">El controlador de errores de operaciones de ejemplo</span><span class="sxs-lookup"><span data-stu-id="b6d45-102">The Sample Operations Error Handler</span></span>
 <span data-ttu-id="b6d45-103">El controlador de errores de las operaciones de ejemplo tiene tres ensamblados principales: **OperationsClient**, **OperationsHandler**, y **OperationsServer**.</span><span class="sxs-lookup"><span data-stu-id="b6d45-103">The sample operations error handler has three major assemblies: **OperationsClient**, **OperationsHandler**, and **OperationsServer**.</span></span>  

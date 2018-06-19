@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278252"
 ---
 # <a name="success---create-native-instance"></a><span data-ttu-id="83c01-102">Correcto: crear una instancia nativa</span><span class="sxs-lookup"><span data-stu-id="83c01-102">Success - Create Native Instance</span></span>
 <span data-ttu-id="83c01-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="83c01-103">**Explanation**</span></span>  

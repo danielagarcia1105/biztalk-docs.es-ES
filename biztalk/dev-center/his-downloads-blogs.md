@@ -1,12 +1,12 @@
 ---
 title: Notas del producto, blogs y descargas para Host Integration Server | Documentos de Microsoft
-description: "Módulos de administración, SDK, analizador de procedimientos recomendados y descargas de notas del producto para su"
+description: Módulos de administración, SDK, analizador de procedimientos recomendados y descargas de notas del producto para su
 author: MandiOhlinger
 manager: anneta
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
 ms.openlocfilehash: 4c2a19381719569422c43a1e146096ddb25042ba
@@ -14,6 +14,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290084"
 ---
 # <a name="his-popular-downloads-and-blogs"></a><span data-ttu-id="80b1c-103">SU descargas populares y blogs</span><span class="sxs-lookup"><span data-stu-id="80b1c-103">HIS popular downloads and blogs</span></span>
 

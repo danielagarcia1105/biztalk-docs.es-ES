@@ -1,14 +1,14 @@
 ---
-title: "Creación de reflejo, servicio de instantáneas de volumen y AlwaysOn de base de datos de SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Creación de reflejo, servicio de instantáneas de volumen y AlwaysOn de base de datos de SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b965cafc-cd34-4657-975d-0dedffd27333
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277996"
 ---
 # <a name="sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson"></a><span data-ttu-id="bf920-102">Creación de reflejo de base de datos de SQL Server, Servicio de instantáneas de volumen y AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="bf920-102">SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn</span></span>
 <span data-ttu-id="bf920-103">Microsoft ofrece soluciones de software que se conoce como SQL Server *creación de reflejo de base de datos* y volumen Shadow Copy Service (VSS) de Windows para aumentar la alta disponibilidad en determinados escenarios.</span><span class="sxs-lookup"><span data-stu-id="bf920-103">Microsoft provides software solutions known as SQL Server *database mirroring* and the Windows Volume Shadow Copy Service (VSS) to increase high availability for particular scenarios.</span></span> <span data-ttu-id="bf920-104">SQL Server *creación de reflejo de base de datos* aumenta la probabilidad de que una base de datos esté disponible y el servicio de instantáneas de volumen (VSS) proporciona la funcionalidad de copia de seguridad y restauración para recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="bf920-104">SQL Server *database mirroring* increases the probability that a database is available while the Volume Shadow Copy Service (VSS) provides backup and restore functionality for disaster recovery.</span></span> <span data-ttu-id="bf920-105">El uso de SQL Server *creación de reflejo de base de datos* o el servicio de instantáneas de volumen de Windows no son soluciones admitidas para garantizar la alta disponibilidad de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos.</span><span class="sxs-lookup"><span data-stu-id="bf920-105">The use of SQL Server *database mirroring* or the Windows Volume Shadow Copy Service are not supported solutions for ensuring high availability of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.</span></span>  

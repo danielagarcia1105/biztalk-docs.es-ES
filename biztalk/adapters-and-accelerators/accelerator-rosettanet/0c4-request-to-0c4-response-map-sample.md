@@ -1,14 +1,14 @@
 ---
-title: "0c4 la solicitud de ejemplo de asignación de respuesta en 4 0c | Documentos de Microsoft"
-ms.custom: 
+title: 0c4 la solicitud de ejemplo de asignación de respuesta en 4 0c | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21084807-3d96-45e8-b949-032006a13cab
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006053"
 ---
 # <a name="0c4-request-to-0c4-response-map-sample"></a><span data-ttu-id="7e484-102">0c4 la solicitud de ejemplo de asignación de respuesta en 4 0c</span><span class="sxs-lookup"><span data-stu-id="7e484-102">0C4 Request to 0C4 Response Map Sample</span></span>
 <span data-ttu-id="7e484-103">El ejemplo _0C4RequestMessageTo0C4ResponseMessage.btm muestra cómo se puede asignar un mensaje de solicitud 4 0c a un mensaje de respuesta en 4 0c.</span><span class="sxs-lookup"><span data-stu-id="7e484-103">The _0C4RequestMessageTo0C4ResponseMessage.btm sample demonstrates how you can map a 0C4 request message to a 0C4 response message.</span></span>  

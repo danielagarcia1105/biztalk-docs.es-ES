@@ -16,7 +16,7 @@ helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, about BizTalk Web Services Publishing Wizard
 - orchestrations, publishing
 ms.assetid: d990f8e4-88ce-4718-8a94-63796b8d92dc
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25975346"
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-an-orchestration-as-a-web-service"></a><span data-ttu-id="73520-102">Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar una orquestación como servicio Web</span><span class="sxs-lookup"><span data-stu-id="73520-102">How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service</span></span>
 <span data-ttu-id="73520-103">El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orquestaciones como servicios Web.</span><span class="sxs-lookup"><span data-stu-id="73520-103">You use the BizTalk Web Services Publishing Wizard to publish an orchestration as a Web service.</span></span>  

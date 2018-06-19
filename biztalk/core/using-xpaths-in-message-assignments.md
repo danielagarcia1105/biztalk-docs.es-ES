@@ -1,11 +1,11 @@
 ---
 title: Usar XPaths en las asignaciones de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XPaths, XPath function
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - XPaths, code samples
 - XPaths, nodes
 ms.assetid: f2e12409-bb77-4315-b03b-5c7736ae51d5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288116"
 ---
 # <a name="using-xpaths-in-message-assignments"></a><span data-ttu-id="36597-102">Usar XPaths en las asignaciones de mensajes</span><span class="sxs-lookup"><span data-stu-id="36597-102">Using XPaths in Message Assignments</span></span>
 <span data-ttu-id="36597-103">Puede usar el **xpath** función para asignar un valor de XPath para una parte del mensaje, o para asignar un valor a una expresión XPath que hace referencia a una parte del mensaje.</span><span class="sxs-lookup"><span data-stu-id="36597-103">You can use the **xpath** function to assign an XPath value to a message part, or to assign a value to an XPath that refers to a message part.</span></span> <span data-ttu-id="36597-104">Para obtener más información acerca de la asignación a mensajes y partes de mensaje, consulte [construir mensajes](../core/constructing-messages.md).</span><span class="sxs-lookup"><span data-stu-id="36597-104">For more information on assigning to messages and message parts, see [Constructing Messages](../core/constructing-messages.md).</span></span>  

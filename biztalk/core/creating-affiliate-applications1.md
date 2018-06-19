@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f3603fcb-3594-460b-b74a-618e22d9c4e0
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24013643"
 ---
 # <a name="creating-affiliate-applications"></a><span data-ttu-id="05dc9-102">Crear aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="05dc9-102">Creating Affiliate Applications</span></span>
 <span data-ttu-id="05dc9-103">En los pasos siguientes se describe cómo comenzar a trabajar con aplicaciones afiliadas y el Inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="05dc9-103">The following steps describe how to start working with affiliate applications and Single Sign-On (SSO).</span></span> <span data-ttu-id="05dc9-104">Para obtener información completa acerca de cómo usar el Inicio de sesión único de Enterprise, vea la documentación de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="05dc9-104">For complete information about how to use Enterprise Single Sign-On, see the Microsoft documentation.</span></span>  

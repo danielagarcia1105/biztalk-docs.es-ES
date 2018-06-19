@@ -1,14 +1,14 @@
 ---
 title: Alta disponibilidad para bases de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63813d87-1ce4-4645-bb2a-d55e413fcace
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009365"
 ---
 # <a name="high-availability-for-databases"></a><span data-ttu-id="cda5b-102">Alta disponibilidad para bases de datos</span><span class="sxs-lookup"><span data-stu-id="cda5b-102">High Availability for Databases</span></span>
 <span data-ttu-id="cda5b-103">BizTalk Server se basa principalmente en SQL Server para almacén de datos y persistencia de los datos.</span><span class="sxs-lookup"><span data-stu-id="cda5b-103">BizTalk Server relies heavily on SQL Server for data store and data persistence.</span></span> <span data-ttu-id="cda5b-104">Los demás componentes y hosts de BizTalk Server tienen funciones específicas en el proceso de integrar aplicaciones empresariales diferentes (por ejemplo, recibir, procesar o enrutar mensajes), pero el equipo de la base de datos captura este trabajo y lo almacena en disco.</span><span class="sxs-lookup"><span data-stu-id="cda5b-104">All other components and hosts in BizTalk Server have specific roles in the process of integrating disparate business applications (for example, receiving, processing, or routing messages), but the database computer captures this work and persists it to disk.</span></span> <span data-ttu-id="cda5b-105">Por ejemplo, cuando el servidor BizTalk Server recibe un mensaje entrante, el host de recepción lo conserva en la base de datos de cuadro de mensajes antes de otros hosts lo recuperen el mensaje de orquestación de procesamiento y el envío.</span><span class="sxs-lookup"><span data-stu-id="cda5b-105">For example, when BizTalk Server receives an incoming message, the receive host persists it to the MessageBox database before other hosts retrieve the message for orchestration processing and sending.</span></span> <span data-ttu-id="cda5b-106">Si la solución de BizTalk implica orquestación, BizTalk Server enruta el mensaje en el host que ejecuta el proceso empresarial (host de procesamiento) y guarda el mensaje en la base de datos de cuadro de mensajes cuando finaliza la orquestación.</span><span class="sxs-lookup"><span data-stu-id="cda5b-106">If your BizTalk solution involves orchestration, BizTalk Server routes the message to the host that executes the business process (processing host), and saves the message to the MessageBox database after the orchestration finishes.</span></span> <span data-ttu-id="cda5b-107">El host de envío recupera entonces el mensaje de la base de datos antes de enviarlo a la aplicación externa a través del adaptador de envío correspondiente.</span><span class="sxs-lookup"><span data-stu-id="cda5b-107">The sending host then retrieves the message from the database before sending it to the external application through the appropriate send adapter.</span></span>  

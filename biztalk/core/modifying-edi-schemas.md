@@ -1,14 +1,14 @@
 ---
-title: "Modificación de esquemas EDI | Documentos de Microsoft"
-ms.custom: 
+title: Modificación de esquemas EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6fa33c5e-17ca-4aaf-a1ca-1972a9bb45ac
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009597"
 ---
 # <a name="modifying-edi-schemas"></a><span data-ttu-id="4ccec-102">Modificación de esquemas EDI</span><span class="sxs-lookup"><span data-stu-id="4ccec-102">Modifying EDI Schemas</span></span>
 <span data-ttu-id="4ccec-103">Puede modificar un esquema de EDI existente que se incluye en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4ccec-103">You can modify an existing EDI schema that is shipped in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="4ccec-104">Si usted y sus socios comerciales han acordado las modificaciones en esquemas estándar y, quizás, han cambiado el archivo Message Implementation Guideline (MIG) adecuado, puede modificar los esquemas en el Editor de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4ccec-104">When you and your trading partners have agreed on modifications to standard schemas, and perhaps changed the relevant Message Implementation Guideline (MIG) file, you can modify the schemas in the BizTalk Editor in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  

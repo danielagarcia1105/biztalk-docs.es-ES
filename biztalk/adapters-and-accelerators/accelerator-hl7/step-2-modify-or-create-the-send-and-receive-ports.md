@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d96d02c-b75d-4d18-a127-37002c5ff138
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26007169"
 ---
 # <a name="step-2-modify-or-create-the-send-and-receive-ports"></a><span data-ttu-id="673ae-102">Paso 2: Modificar o crear el envío y puertos de recepción</span><span class="sxs-lookup"><span data-stu-id="673ae-102">Step 2: Modify or Create the Send and Receive Ports</span></span>
 <span data-ttu-id="673ae-103">Necesitará envío de archivos y los puertos de recepción para el lote en / lote tutorial.</span><span class="sxs-lookup"><span data-stu-id="673ae-103">You need FILE send and receive ports for the Batch In/Batch Out tutorial.</span></span> <span data-ttu-id="673ae-104">Si hace clic en el **iniciar Tutorial** botón al final de la instalación de la edición Enterprise de [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] crea estos puertos: un puerto de envío denominado Tutorial_BTAHL7Drop y un puerto de recepción denominado Tutorial_BTAHL7PickUp.</span><span class="sxs-lookup"><span data-stu-id="673ae-104">If you clicked the **Launch Tutorial** button at the end of installing the Enterprise Edition of [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] created these ports for you: a send port named Tutorial_BTAHL7Drop, and a receive port named Tutorial_BTAHL7PickUp.</span></span> <span data-ttu-id="673ae-105">Si dispone de estos puertos, deberá modificar el puerto de envío Tutorial_BTAHL7Drop.</span><span class="sxs-lookup"><span data-stu-id="673ae-105">If you have these ports, you still need to modify the send port Tutorial_BTAHL7Drop.</span></span>  

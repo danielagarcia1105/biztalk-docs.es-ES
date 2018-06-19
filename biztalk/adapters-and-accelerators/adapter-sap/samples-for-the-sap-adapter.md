@@ -1,15 +1,15 @@
 ---
 title: Ejemplos de adaptadores SAP | Documentos de Microsoft
 description: ejemplos de adaptadores WCF mySAP que pueden usarse con BizTalk Server, modelo de servicio WCF, el modelo del canal WCF y el proveedor de datos para SAP
-ms.custom: 
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4654c458-83be-417f-ae54-5c3a8f6ab81f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014923"
 ---
 # <a name="samples-for-the-sap-adapter"></a><span data-ttu-id="308ed-103">Ejemplos para el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="308ed-103">Samples for the SAP adapter</span></span>
 <span data-ttu-id="308ed-104">Ejemplos de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] se clasifican en categorías:</span><span class="sxs-lookup"><span data-stu-id="308ed-104">Samples for [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] are categorized into:</span></span>  

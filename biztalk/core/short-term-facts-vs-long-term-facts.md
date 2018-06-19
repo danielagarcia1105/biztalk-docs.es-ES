@@ -1,11 +1,11 @@
 ---
 title: Frente a hechos a corto plazo. Hechos a largo plazo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - facts, short-term
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - business rules, facts
 - long-term facts
 ms.assetid: de020b20-1012-498a-969e-4adc4549918c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271044"
 ---
 # <a name="short-term-facts-vs-long-term-facts"></a><span data-ttu-id="6895d-102">Frente a hechos a corto plazo. Hechos a largo plazo</span><span class="sxs-lookup"><span data-stu-id="6895d-102">Short-Term Facts vs. Long-Term Facts</span></span>
 <span data-ttu-id="6895d-103">Dos tipos de hechos se imponen en la memoria de trabajo del motor de reglas, los hechos a corto plazo y los hechos a largo plazo.</span><span class="sxs-lookup"><span data-stu-id="6895d-103">Two types of facts are asserted into the working memory of the rule engine—short-term facts and long-term facts.</span></span>  

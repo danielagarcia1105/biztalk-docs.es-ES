@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278804"
 ---
 # <a name="the-messaging-engine"></a><span data-ttu-id="43555-102">El motor de mensajería</span><span class="sxs-lookup"><span data-stu-id="43555-102">The Messaging Engine</span></span>
 <span data-ttu-id="43555-103">En esta sección se describen los componentes y la arquitectura que componen el motor de mensajería de Microsoft BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="43555-103">This section discusses the components and architecture that comprise the Microsoft BizTalk Server Messaging engine.</span></span>  

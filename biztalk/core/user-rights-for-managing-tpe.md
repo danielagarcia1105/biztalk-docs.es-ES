@@ -1,17 +1,17 @@
 ---
 title: Derechos de usuario para administrar el TPE | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, Tracking Profile Editor
 - Tracking Profile Editor, security
 ms.assetid: a0353c4d-2aaa-49ac-8e50-88885962abba
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286932"
 ---
 # <a name="user-rights-for-managing-tpe"></a><span data-ttu-id="5b93e-102">Derechos de usuario para administrar el TPE</span><span class="sxs-lookup"><span data-stu-id="5b93e-102">User Rights for Managing TPE</span></span>
 <span data-ttu-id="5b93e-103">Los programadores de soluciones, los administradores del sistema o el personal de operaciones y TI deben disponer de derechos administrativos para recuperar o implementar el perfil de seguimiento en la base de datos asociada al ensamblado.</span><span class="sxs-lookup"><span data-stu-id="5b93e-103">Solution developers, system administrators, or IT/Operations personnel must have administrative rights to retrieve or deploy the tracking profile into a database associated with an assembly.</span></span>  

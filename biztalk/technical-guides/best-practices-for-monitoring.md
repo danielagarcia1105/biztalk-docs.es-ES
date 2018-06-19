@@ -1,14 +1,14 @@
 ---
-title: "Prácticas recomendadas para la supervisión | Documentos de Microsoft"
-ms.custom: 
+title: Prácticas recomendadas para la supervisión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5b180e2-bdd3-4081-9531-d96be7dabe1a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008533"
 ---
 # <a name="best-practices-for-monitoring"></a><span data-ttu-id="04860-102">Prácticas recomendadas para la supervisión</span><span class="sxs-lookup"><span data-stu-id="04860-102">Best Practices for Monitoring</span></span>
 <span data-ttu-id="04860-103">Este tema proporciona prácticas recomendadas para la supervisión de su entorno de Microsoft BizTalk Server y las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="04860-103">This topic provides best practices for monitoring your Microsoft BizTalk Server environment and applications.</span></span>  

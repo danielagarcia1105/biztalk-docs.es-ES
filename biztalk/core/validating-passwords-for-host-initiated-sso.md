@@ -1,17 +1,17 @@
 ---
-title: "Validar contraseñas para Host SSO iniciado por | Documentos de Microsoft"
-ms.custom: 
+title: Validar contraseñas para Host SSO iniciado por | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - passwords, host initiated [SSO]
 - host initiated SSO, passwords
 ms.assetid: 3cc1d68a-27ac-46ce-ba1e-21139a9df55e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287860"
 ---
 # <a name="validating-passwords-for-host-initiated-sso"></a><span data-ttu-id="1e825-102">Validar contraseñas para Host SSO iniciado por</span><span class="sxs-lookup"><span data-stu-id="1e825-102">Validating Passwords for Host Initiated SSO</span></span>
 <span data-ttu-id="1e825-103">Cuando se crea una aplicación afiliada para SSO iniciado por host, la validación de contraseña de usuarios ajenos a Windows está habilitada de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="1e825-103">When an affiliate application for host initiated SSO is created, password validation for the non-Windows user is enabled by default.</span></span> <span data-ttu-id="1e825-104">Esto significa que, cuando las aplicaciones llaman a SSO para obtener el token de usuario de Windows  y tener acceso a los recursos, deben facilitar la contraseña y la cuenta de usuario ajeno a Windows.</span><span class="sxs-lookup"><span data-stu-id="1e825-104">This means when applications call SSO to obtain the Windows user token to access resources, they must provide the non-Windows user account and the non-Windows password.</span></span> <span data-ttu-id="1e825-105">Si esta contraseña no coincide con la contraseña de usuario ajeno a Windows almacenada en la base de datos de SSO, se denegará el acceso.</span><span class="sxs-lookup"><span data-stu-id="1e825-105">If the password does not match the password in the SSO database for that non-Windows user, access is denied.</span></span> <span data-ttu-id="1e825-106">En caso necesario, la característica de validación de contraseña se puede deshabilitar para la aplicación afiliada.</span><span class="sxs-lookup"><span data-stu-id="1e825-106">If necessary, the password validation feature can be disabled for the affiliate application.</span></span> <span data-ttu-id="1e825-107">La característica de validación de contraseña se utiliza para las aplicaciones afiliadas de SSO iniciado por host, tanto de grupo de host como individuales.</span><span class="sxs-lookup"><span data-stu-id="1e825-107">The password validation feature applies to both individual and host group type affiliate applications for host initiated SSO.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Operaciones en tablas y vistas con tipos definidos por el usuario mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4006bbe-91ca-4cd9-844d-5ed63142001f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006837"
 ---
 # <a name="operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter"></a><span data-ttu-id="ae105-102">Operaciones en tablas y vistas con tipos definidos por el usuario mediante el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="ae105-102">Operations on tables and views with user-defined types using the SQL adapter</span></span>
 <span data-ttu-id="ae105-103">Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para realizar operaciones en tablas o vistas que incluyen columnas de tipos definidos por el usuario (UDT).</span><span class="sxs-lookup"><span data-stu-id="ae105-103">You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to perform operations on tables or views that have columns of user-defined types (UDTs).</span></span> <span data-ttu-id="ae105-104">Puede utilizar las operaciones de tabla estándar (Insert, Update, Delete y Select) para leer o escribir datos en columnas de tipos UDT.</span><span class="sxs-lookup"><span data-stu-id="ae105-104">You can use the standard table operations (Insert, Update, Delete, and Select) to read or write data into columns on UDT types.</span></span> <span data-ttu-id="ae105-105">También puede ejecutar procedimientos almacenados y funciones en dichas tablas.</span><span class="sxs-lookup"><span data-stu-id="ae105-105">You can also execute stored procedures and functions on such tables.</span></span> <span data-ttu-id="ae105-106">Sin embargo, debe realizar ciertas tareas para poder usar el adaptador para que funcione en tablas con columnas UDT.</span><span class="sxs-lookup"><span data-stu-id="ae105-106">However, you need to perform certain tasks before you can use the adapter to operate on tables with UDT columns.</span></span> <span data-ttu-id="ae105-107">Una vez que ha llevado a cabo estas tareas, puede usar el adaptador para:</span><span class="sxs-lookup"><span data-stu-id="ae105-107">Once you have performed these tasks, you can use the adapter to:</span></span>  

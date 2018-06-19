@@ -1,14 +1,14 @@
 ---
 title: Suscribirse a y extraer mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4e7fbc17-44d6-4cc5-a266-b54256e7b453
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294724"
 ---
 # <a name="subscribing-to-and-extracting-messages"></a><span data-ttu-id="5c606-102">Suscribirse a y extraer los mensajes</span><span class="sxs-lookup"><span data-stu-id="5c606-102">Subscribing to and Extracting Messages</span></span>
 <span data-ttu-id="5c606-103">Orquestación puede contener código para suscribirse a y extraer los mensajes de un mensaje de error ESB.</span><span class="sxs-lookup"><span data-stu-id="5c606-103">Orchestration can contain code to subscribe to and extract messages from an ESB fault message.</span></span> <span data-ttu-id="5c606-104">Por ejemplo, el siguiente código utiliza el **GetMessage** y **GetException** métodos para extraer dos fuertemente tipados mensajes y la **System.Exception** objeto desde un ESB mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="5c606-104">For example, the following code uses the **GetMessage** and **GetException** methods to extract two strongly typed messages and the **System.Exception** object from an ESB fault message.</span></span>  

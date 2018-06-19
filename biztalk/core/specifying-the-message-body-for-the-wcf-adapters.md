@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975538"
 ---
 # <a name="specifying-the-message-body-for-the-wcf-adapters"></a><span data-ttu-id="bd3d0-102">Especificar el cuerpo del mensaje para los adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="bd3d0-102">Specifying the Message Body for the WCF Adapters</span></span>
 <span data-ttu-id="bd3d0-103">Puede usar el **mensajes** ficha en los adaptadores de WCF para especificar cómo se extrae el cuerpo del mensaje de BizTalk de un mensaje SOAP entrante y el cuerpo del mensaje de BizTalk se coloca en un mensaje SOAP saliente.</span><span class="sxs-lookup"><span data-stu-id="bd3d0-103">You can use the **Messages** tab in the WCF adapters to specify how the BizTalk message body is extracted from an incoming SOAP message, and how the BizTalk message body is placed in an outgoing SOAP message.</span></span>  

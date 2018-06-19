@@ -1,17 +1,17 @@
 ---
-title: "El proceso de implementación de aplicaciones | Documentos de Microsoft"
-ms.custom: 
+title: El proceso de implementación de aplicaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, deploying
 - deploying [applications], how to
 ms.assetid: 29486c37-6aa7-46fd-a457-916fd235f448
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279740"
 ---
 # <a name="the-application-deployment-process"></a><span data-ttu-id="77c93-102">Proceso de implementación de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="77c93-102">The Application Deployment Process</span></span>
 <span data-ttu-id="77c93-103">El siguiente diagrama muestra los pasos generales implicados en la implementación de una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="77c93-103">This following diagram depicts the general steps involved in deploying a BizTalk application.</span></span> <span data-ttu-id="77c93-104">Para obtener información detallada acerca de las tareas implicadas durante las fases de desarrollo, prueba, ensayo y producción de implementación de aplicaciones, consulte [tareas de implementación de aplicación](../core/application-deployment-tasks.md).</span><span class="sxs-lookup"><span data-stu-id="77c93-104">For detailed information about the tasks involved during the development, testing, staging, and production phases of application deployment, see [Application Deployment Tasks](../core/application-deployment-tasks.md).</span></span>  

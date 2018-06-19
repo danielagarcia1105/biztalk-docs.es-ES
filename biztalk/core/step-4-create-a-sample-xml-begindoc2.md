@@ -1,14 +1,14 @@
 ---
 title: 'Paso 4: Crear un BeginDoc2 XML de ejemplo | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cdda509-085f-4485-b488-c045d589ee96
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277540"
 ---
 # <a name="step-4-create-a-sample-xml-begindoc"></a><span data-ttu-id="9d23c-102">Paso 4: Crear un XML de ejemplo de BeginDoc</span><span class="sxs-lookup"><span data-stu-id="9d23c-102">Step 4: Create a Sample XML BeginDoc</span></span>
 <span data-ttu-id="9d23c-103">Guarde el siguiente código en un archivo XML.</span><span class="sxs-lookup"><span data-stu-id="9d23c-103">Save the following code into an XML file.</span></span> <span data-ttu-id="9d23c-104">Si su prueba sigue los pasos de este ejemplo y usa la selección de objetos J.D. Edwars EnterpriseOne del ejemplo,</span><span class="sxs-lookup"><span data-stu-id="9d23c-104">If your test uses the steps in this example, and uses the example's J.D.</span></span> <span data-ttu-id="9d23c-105">[JDE://CSALES/B4200310], podrá colocarlo en la carpeta de entrada así como lo que salió de la carpeta Out designada (la carpeta enlazada al puerto EndDocOut).</span><span class="sxs-lookup"><span data-stu-id="9d23c-105">Edwards EnterpriseOne object selection, [JDE://CSALES/B4200310], you can drop this into the Input folder and what it come out the designated Out folder (the folder bound to the EndDocOut port).</span></span>  

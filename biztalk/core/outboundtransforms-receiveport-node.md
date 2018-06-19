@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263868"
 ---
 # <a name="outboundtransforms-receiveport-node"></a><span data-ttu-id="8f7ba-102">OutboundTransforms (nodo puertoRecepción)</span><span class="sxs-lookup"><span data-stu-id="8f7ba-102">OutboundTransforms (ReceivePort Node)</span></span>
 <span data-ttu-id="8f7ba-103">El nodo OutboundTransforms del nodo puertoRecepción de un archivo de enlace contiene la colección de transformaciones de salida de un puerto de recepción bidireccional que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="8f7ba-103">The OutboundTransforms node of the ReceivePort node of a binding file contains the collection of outbound transforms of a two-way receive port that is exported with the binding file.</span></span>  

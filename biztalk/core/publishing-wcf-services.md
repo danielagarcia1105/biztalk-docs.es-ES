@@ -1,14 +1,14 @@
 ---
 title: Publicar servicios WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 70b7851b-77c1-4ab3-a61f-e7165ceb56fb
-caps.latest.revision: 
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710243"
 ---
 # <a name="publish-wcf-services"></a><span data-ttu-id="9f5f7-102">Publicar servicios WCF</span><span class="sxs-lookup"><span data-stu-id="9f5f7-102">Publish WCF Services</span></span>
 <span data-ttu-id="9f5f7-103">Puede publicar una orquestación como un servicio WCF en BizTalk Server para ser llamado por los clientes de WCF.</span><span class="sxs-lookup"><span data-stu-id="9f5f7-103">An orchestration can be published as a WCF service in BizTalk Server to be called by WCF clients.</span></span>  

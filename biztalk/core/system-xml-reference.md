@@ -1,17 +1,17 @@
 ---
 title: Referencia de System.Xml | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - System.Xml namespace
 - namespaces, System.Xml namespace
 ms.assetid: 113be11d-dc99-400a-b597-256def12d66b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277748"
 ---
 # <a name="systemxml-reference"></a><span data-ttu-id="adf17-102">Referencia de System.Xml</span><span class="sxs-lookup"><span data-stu-id="adf17-102">System.Xml Reference</span></span>
 <span data-ttu-id="adf17-103">El **System.Xml** espacio de nombres de referencia proporciona compatibilidad basada en estándares para procesar documentos XML.</span><span class="sxs-lookup"><span data-stu-id="adf17-103">The **System.Xml** reference namespace provides standards-based support for processing XML documents.</span></span> <span data-ttu-id="adf17-104">Esta referencia predeterminada es necesaria para que todos los proyectos de BizTalk funcionen adecuadamente.</span><span class="sxs-lookup"><span data-stu-id="adf17-104">This default reference is necessary for all BizTalk projects to function properly.</span></span> <span data-ttu-id="adf17-105">Es muy recomendable que no elimine esta referencia predeterminada.</span><span class="sxs-lookup"><span data-stu-id="adf17-105">It is highly recommended that you do not delete this default reference.</span></span>  

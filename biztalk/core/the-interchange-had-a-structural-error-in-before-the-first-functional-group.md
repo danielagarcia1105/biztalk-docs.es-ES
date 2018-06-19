@@ -1,14 +1,14 @@
 ---
-title: "El intercambio contenía un error estructural-antes del primer grupo funcional | Documentos de Microsoft"
-ms.custom: 
+title: El intercambio contenía un error estructural-antes del primer grupo funcional | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12202148-0a32-464e-8dbd-d01b9ba530eb
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278660"
 ---
 # <a name="the-interchange-had-a-structural-error-in-before-the-first-functional-group"></a><span data-ttu-id="38251-102">El intercambio contenía un error estructural-antes del primer grupo funcional</span><span class="sxs-lookup"><span data-stu-id="38251-102">The interchange had a structural error in-before the first functional group</span></span>
 ## <a name="details"></a><span data-ttu-id="38251-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="38251-103">Details</span></span>  

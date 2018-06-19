@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d617a97-c165-46bb-b5a7-b66f0c1ff9f2
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24014491"
 ---
 # <a name="create-tibco-rendezvous-receive-artifacts"></a><span data-ttu-id="c477a-103">Crear artefactos de recepción de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="c477a-103">Create TIBCO Rendezvous Receive artifacts</span></span>
 <span data-ttu-id="c477a-104">Crear notificaciones o eventos es similar a crear otras llamadas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c477a-104">Creating notifications or events is similar to creating other calls in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="c477a-105">En esta sección se explica cómo crear una ubicación de recepción para escuchar mensajes de TIBCO Rendezvous.</span><span class="sxs-lookup"><span data-stu-id="c477a-105">This section explains how to create a receive location to listen for TIBCO Rendezvous messages.</span></span>  

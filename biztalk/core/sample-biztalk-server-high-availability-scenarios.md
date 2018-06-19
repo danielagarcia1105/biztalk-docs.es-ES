@@ -1,11 +1,11 @@
 ---
 title: Escenarios de alta disponibilidad de servidor BizTalk Server de ejemplo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, small distributions
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - scaling
 - architecture, large distributions
 ms.assetid: ad9e3f57-1a23-41c2-82c9-dc8e1b29ed4d
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271668"
 ---
 # <a name="sample-biztalk-server-high-availability-scenarios"></a><span data-ttu-id="abcc4-102">Escenarios de ejemplo de alta disponibilidad de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="abcc4-102">Sample BizTalk Server High Availability Scenarios</span></span>
 <span data-ttu-id="abcc4-103">Este tema describe los escenarios de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que proporcionan alta disponibilidad mediante niveles de hosts escalados horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="abcc4-103">This topic describes the scenarios in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that provide high availability through scaled-out tiers of hosts.</span></span> <span data-ttu-id="abcc4-104">Al separar las áreas de funcionalidad en hosts diferentes y niveles de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], los administradores pueden proporcionar redundancia para cada host y escalarlos de forma independiente de otros hosts.</span><span class="sxs-lookup"><span data-stu-id="abcc4-104">By separating areas of functionality into different hosts and tiers in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], administrators can provide redundancy for each host and scale them independently of other hosts.</span></span> <span data-ttu-id="abcc4-105">Para proporcionar alta disponibilidad para cada área funcional, cree hosts independientes para cada función principal, recibir, procesar, enviar y seguimiento y clúster el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos y la Enterprise Single Sign-On servidor secreto principal.</span><span class="sxs-lookup"><span data-stu-id="abcc4-105">To provide high availability for each functional area, you create separate hosts for each primary function—receiving, processing, sending, and tracking—and cluster the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and the Enterprise Single Sign-On master secret server.</span></span>  

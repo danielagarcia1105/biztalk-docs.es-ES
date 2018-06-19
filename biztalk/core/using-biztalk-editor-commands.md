@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e216ae5d-5bad-48ef-87d1-8aa8ee20179b
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22289260"
 ---
 # <a name="use-biztalk-editor-commands"></a><span data-ttu-id="b140f-102">Usar comandos de Editor de BizTalk</span><span class="sxs-lookup"><span data-stu-id="b140f-102">Use BizTalk Editor Commands</span></span>
 

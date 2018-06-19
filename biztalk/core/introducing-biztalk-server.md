@@ -1,14 +1,14 @@
 ---
-title: "Introducción a BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Introducción a BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 01/30/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 06a4a31a-eefe-4b1b-89ca-2cba2b6fa587
-caps.latest.revision: 
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: d0a1816a8dd8412906245d40c6479b08d7b3b20a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/01/2018
+ms.locfileid: "28910108"
 ---
 # <a name="introducing-biztalk-server"></a><span data-ttu-id="56d2d-102">Introducción a BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="56d2d-102">Introducing BizTalk Server</span></span>
 <span data-ttu-id="56d2d-103">Unir los sistemas se espera y se ha convertido en la norma.</span><span class="sxs-lookup"><span data-stu-id="56d2d-103">Tying systems together is expected, and has become the norm.</span></span> <span data-ttu-id="56d2d-104">Dado que las organizaciones tienden a un mundo orientado a los servicios, el verdadero objetivo, es decir, la creación de procesos empresariales efectivos que aúnen sistemas independientes dentro de un todo coherente, está al alcance de todos.</span><span class="sxs-lookup"><span data-stu-id="56d2d-104">As organizations move toward a service-oriented world, the real goal—creating effective business processes that unite separate systems into a coherent whole—comes within reach.</span></span>  

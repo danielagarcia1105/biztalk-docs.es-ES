@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 11cb5672-1155-4648-b1fd-c9a3bc30e351
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26007805"
 ---
 # <a name="disassemble-inbound-batches"></a><span data-ttu-id="81e70-103">Desensamblar lotes entrantes</span><span class="sxs-lookup"><span data-stu-id="81e70-103">Disassemble Inbound Batches</span></span>
 

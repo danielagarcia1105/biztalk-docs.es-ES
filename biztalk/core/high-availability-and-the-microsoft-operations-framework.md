@@ -1,14 +1,14 @@
 ---
 title: Alta disponibilidad y Microsoft Operations Framework | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
-caps.latest.revision: 
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710447"
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a><span data-ttu-id="b4867-102">Alta disponibilidad y Microsoft Operations Framework</span><span class="sxs-lookup"><span data-stu-id="b4867-102">High Availability and the Microsoft Operations Framework</span></span>
 <span data-ttu-id="b4867-103">Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de alta disponibilidad Microsoft BizTalk Server puede ayudarle a asegurarse de que se están empleando los procesos adecuados en las distintas fases del ciclo de vida.</span><span class="sxs-lookup"><span data-stu-id="b4867-103">Applying the Microsoft Operations Framework (MOF) process model to the planning and implementation of a highly available Microsoft BizTalk Server solution can help you make sure that you have appropriate processes at the different stages of the release life cycle.</span></span> <span data-ttu-id="b4867-104">La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="b4867-104">By looking ahead at all the life cycle stages where high availability surfaces, you can make the installation, maintenance, and troubleshooting of availability issues in your environment easier.</span></span>  

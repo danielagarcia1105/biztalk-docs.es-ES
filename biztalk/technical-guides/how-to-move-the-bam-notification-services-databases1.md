@@ -1,14 +1,14 @@
 ---
-title: "Cómo mover la notificación de BAM servicios Databases1 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la notificación de BAM servicios Databases1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89b4938e-ea4a-48d3-80c3-eb9401e28323
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009805"
 ---
 # <a name="how-to-move-the-bam-notification-services-databases"></a><span data-ttu-id="6d625-102">Cómo mover las bases de datos de servicios de notificación de BAM</span><span class="sxs-lookup"><span data-stu-id="6d625-102">How to Move the BAM Notification Services Databases</span></span>
 <span data-ttu-id="6d625-103">Puede usar este procedimiento para mover la base de datos de servicios de notificación de BAM a otro servidor.</span><span class="sxs-lookup"><span data-stu-id="6d625-103">You can use this procedure to move the BAM Notification Services database to another server.</span></span>  <span data-ttu-id="6d625-104">Desde una perspectiva de escenario to-end, mover la base de datos de servicios de notificación de BAM consta de dos pasos principales:</span><span class="sxs-lookup"><span data-stu-id="6d625-104">From an end-to-end scenario perspective, moving the BAM Notification Services database involves two major steps:</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 12/01/2017
   
 4.  <span data-ttu-id="6d625-117">Detenga el servicio de notificación de alertas de BAM:</span><span class="sxs-lookup"><span data-stu-id="6d625-117">Stop the BAM Alerts Notification service:</span></span>  
   
-    1.  <span data-ttu-id="6d625-118">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d625-118">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="6d625-118">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d625-118">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="6d625-119">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="6d625-119">At the command prompt, type:</span></span>  
   
@@ -73,7 +74,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="6d625-136">Obtenga una copia del archivo .xml utilizado para restaurar BAM:</span><span class="sxs-lookup"><span data-stu-id="6d625-136">Get a copy of the .xml file used for restoring BAM:</span></span>  
   
-    1.  <span data-ttu-id="6d625-137">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d625-137">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="6d625-137">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d625-137">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="6d625-138">En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="6d625-138">On a computer running BizTalk Server, browse to the following folder:</span></span>  
   
@@ -96,7 +97,7 @@ ms.lasthandoff: 12/01/2017
   
 3.  <span data-ttu-id="6d625-148">Guarde el archivo BAMConfiguration.xml y ciérrelo.</span><span class="sxs-lookup"><span data-stu-id="6d625-148">Save and close the BAMConfiguration.xml file.</span></span>  
   
-4.  <span data-ttu-id="6d625-149">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d625-149">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="6d625-149">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d625-149">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 5.  <span data-ttu-id="6d625-150">En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="6d625-150">On a computer running BizTalk Server, browse to the following folder:</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Módulo 1: enviar y recibir mensajes con Windows SharePoint Services adaptador | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Módulo 1: enviar y recibir mensajes con Windows SharePoint Services adaptador | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services, creating sites
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Windows SharePoint Services
 - Windows SharePoint Services adapter tutorials, sending messages
 ms.assetid: 6494aef5-bb1d-4a41-8186-1d49625a1013
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010509"
 ---
 # <a name="walkthrough-module-1---sending-and-receiving-messages-with-the-windows-sharepoint-services-adapter"></a><span data-ttu-id="20ebc-102">Tutorial: Módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="20ebc-102">Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="20ebc-103">En este tutorial se muestra cómo configurar Windows SharePoint Services y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que pueda enviar y recibir mensajes mediante el adaptador de Windows SharePoint Services y el enrutamiento basado en contenido (CBR).</span><span class="sxs-lookup"><span data-stu-id="20ebc-103">This walkthrough shows you how to configure Windows SharePoint Services and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] so you can send and receive a message using the Windows SharePoint Services Adapter and content-based routing (CBR).</span></span> <span data-ttu-id="20ebc-104">El enrutamiento por contenidos elimina la necesidad de suscribir mensajes para los mensajes enlazados de forma determinista a puertos específicos.</span><span class="sxs-lookup"><span data-stu-id="20ebc-104">Content-based routing eliminates the need for message subscription for messages that are deterministically bound to specific ports.</span></span> <span data-ttu-id="20ebc-105">Asimismo, proporciona flexibilidad adicional para los usuarios que deseen enrutar los mensajes según las propiedades del sobre o simplemente según las propiedades de configuración del puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="20ebc-105">It also provides additional flexibility for users who want to route messages based on envelope properties or simply based on receive port configuration properties.</span></span> <span data-ttu-id="20ebc-106">Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="20ebc-106">For an introduction to the Windows SharePoint Services adapter, see [What Is the Windows SharePoint Services Adapter?](../core/what-is-the-windows-sharepoint-services-adapter.md).</span></span>  
@@ -120,7 +121,7 @@ ms.lasthandoff: 12/01/2017
   
 5.  <span data-ttu-id="20ebc-161">En el árbol de consola, expanda **servicios y aplicaciones**y, a continuación, haga clic en **Services**.</span><span class="sxs-lookup"><span data-stu-id="20ebc-161">In the console tree, expand **Services and Applications**, and then click **Services**.</span></span>  
   
-6.  <span data-ttu-id="20ebc-162">Haga clic en **servicio de BizTalk grupo: < BizTalk_Host_Name >**y, a continuación, haga clic en **reiniciar**.</span><span class="sxs-lookup"><span data-stu-id="20ebc-162">Right-click **BizTalk Service BizTalk Group: <BizTalk_Host_Name>**, and then click **Restart**.</span></span>  
+6.  <span data-ttu-id="20ebc-162">Haga clic en **servicio de BizTalk grupo: < BizTalk_Host_Name >** y, a continuación, haga clic en **reiniciar**.</span><span class="sxs-lookup"><span data-stu-id="20ebc-162">Right-click **BizTalk Service BizTalk Group: <BizTalk_Host_Name>**, and then click **Restart**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="20ebc-163"><BizTalk_Host_Name> es el nombre del host.</span><span class="sxs-lookup"><span data-stu-id="20ebc-163"><BizTalk_Host_Name> is the name of your host.</span></span> <span data-ttu-id="20ebc-164">De forma predeterminada, es `BizTalkServerApplication`.</span><span class="sxs-lookup"><span data-stu-id="20ebc-164">By Default, this is `BizTalkServerApplication`.</span></span>  

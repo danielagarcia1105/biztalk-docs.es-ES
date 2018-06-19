@@ -1,14 +1,14 @@
 ---
-title: "Planeación de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ffc8573-1b4a-47c7-96ab-0471f43facf5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302084"
 ---
 # <a name="planning-for-tracking"></a><span data-ttu-id="62c07-102">Planeación de seguimiento</span><span class="sxs-lookup"><span data-stu-id="62c07-102">Planning for Tracking</span></span>
 <span data-ttu-id="62c07-103">Seguimiento de mensajes es el proceso por el que partes de una instancia de mensaje, como el cuerpo del mensaje, propiedades del mensaje y metadatos se almacenan en una base de datos, normalmente para archivarlo.</span><span class="sxs-lookup"><span data-stu-id="62c07-103">Message tracking is the process by which parts of a message instance, such as the message body, message properties, and metadata are stored in a database, typically for archival purposes.</span></span> <span data-ttu-id="62c07-104">Partes de la instancia de mensaje que se realiza un seguimiento posteriormente pueden verse mediante la ejecución de consultas desde la página concentrador de grupo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="62c07-104">Message instance parts that are tracked can subsequently be viewed by running queries from the Group Hub page in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="62c07-105">Además de tener acceso a los datos archivados, también puede ver datos en directo, que pueden ser una herramienta útil para identificar y solucionar problemas en el desarrollo de un entorno de ensayo.</span><span class="sxs-lookup"><span data-stu-id="62c07-105">In addition to accessing archived data, you can also view live data, which can be a helpful tool for identifying and fixing problems in a development or staging environment.</span></span>  

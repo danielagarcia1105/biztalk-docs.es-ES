@@ -1,14 +1,14 @@
 ---
 title: Volver a usar propiedades de otro acuerdo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8e1cc60-d581-43ca-aa70-1e0d6238497a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007431"
 ---
 # <a name="reusing-properties-from-another-agreement"></a><span data-ttu-id="486c5-102">Volver a usar propiedades de otro acuerdo</span><span class="sxs-lookup"><span data-stu-id="486c5-102">Reusing Properties from Another Agreement</span></span>
 <span data-ttu-id="486c5-103">Se pueden reusar propiedades entre acuerdos.</span><span class="sxs-lookup"><span data-stu-id="486c5-103">You can reuse properties between agreements.</span></span> <span data-ttu-id="486c5-104">De este modo, ahorrará tiempo cuando la mayoría o todas las propiedades de un acuerdo nuevo son las mismas que las de un acuerdo que ya existe.</span><span class="sxs-lookup"><span data-stu-id="486c5-104">This can save a significant amount of time when either most or all of the properties of a new agreement are the same as those of an existing agreement.</span></span> <span data-ttu-id="486c5-105">El [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] interfaz de usuario en BizTalk Server le permite exportar un acuerdo a un archivo de plantilla XML.</span><span class="sxs-lookup"><span data-stu-id="486c5-105">The [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] user interface in BizTalk Server enables you to export an agreement into an XML template file.</span></span> <span data-ttu-id="486c5-106">A continuación, puede importar la plantilla XML para reusar las mismas propiedades de acuerdo.</span><span class="sxs-lookup"><span data-stu-id="486c5-106">You can then import the XML template to reuse the same agreement properties.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Aplicaciones de inicio de sesión único tradicionales | Documentos de Microsoft"
-ms.custom: 
+title: Aplicaciones de inicio de sesión único tradicionales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a49bdae7-215a-43fb-875e-f64abb37aef0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279692"
 ---
 # <a name="traditional-single-sign-on-applications"></a><span data-ttu-id="664a4-102">Aplicaciones de inicio de sesión único tradicionales</span><span class="sxs-lookup"><span data-stu-id="664a4-102">Traditional Single Sign-On Applications</span></span>
 <span data-ttu-id="664a4-103">La arquitectura de programación de inicio de sesión único (SSO) contiene un componente de asignación para realizar asignaciones entre aplicaciones y usuarios, un componente de búsqueda para buscar credenciales de un usuario específico, y un componente de administración para llevar a cabo tareas administrativas.</span><span class="sxs-lookup"><span data-stu-id="664a4-103">The Single Sign-On (SSO) programming architecture contains a mapping component to map between applications and users, a lookup component to look up credentials for a specified use, and an administration component to perform administrative tasks.</span></span> <span data-ttu-id="664a4-104">Además, SSO también contiene una interfaz de compra de vales de modo que la aplicación pueda emitir y compensar vales.</span><span class="sxs-lookup"><span data-stu-id="664a4-104">In addition, SSO also contains a ticketing interface so that your application can issue and redeem tickets.</span></span>  

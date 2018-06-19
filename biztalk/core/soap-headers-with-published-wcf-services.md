@@ -1,18 +1,18 @@
 ---
 title: Encabezados SOAP con servicios WCF publicados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - publishing, SOAP headers [WCF services]
 - SOAP headers, WCF services
 - WCF services, SOAP headers
 ms.assetid: 5564a57e-e241-4595-a959-4289c8502410
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975690"
 ---
 # <a name="soap-headers-with-published-wcf-services"></a><span data-ttu-id="c66e7-102">Encabezados SOAP con servicios WCF publicados</span><span class="sxs-lookup"><span data-stu-id="c66e7-102">SOAP Headers with Published WCF Services</span></span>
 <span data-ttu-id="c66e7-103">Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado SOAP en los mensajes entrantes en el **InboundHeaders** propiedad, o puede escribir o promover valores específicos en el contexto del mensaje de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c66e7-103">The WCF receive adapters can copy all the SOAP header values in the inbound messages to the **InboundHeaders** property, or they can write or promote specified values to the BizTalk message context.</span></span> <span data-ttu-id="c66e7-104">Los adaptadores pueden funcionar con los encabezados SOAP personalizados y los encabezados SOAP estándar que utiliza la infraestructura de WCF, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction.</span><span class="sxs-lookup"><span data-stu-id="c66e7-104">The adapters can work with both custom SOAP headers and standard SOAP headers that the WCF infrastructure uses, such as WS-Addressing, WS-Security, and WS-AtomicTransaction.</span></span> <span data-ttu-id="c66e7-105">El **InboundHeaders** propiedad de contexto está en el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**y contiene representaciones de cadena de SOAP valores de encabezado de mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="c66e7-105">The **InboundHeaders** context property is in the target namespace **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**, and contains string representations of the SOAP header values in inbound messages.</span></span>  

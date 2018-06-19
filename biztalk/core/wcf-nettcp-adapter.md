@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288692"
 ---
 # <a name="wcf-nettcp-adapter"></a><span data-ttu-id="8fdc6-102">Adaptador de WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="8fdc6-102">WCF-NetTcp Adapter</span></span>
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)]<span data-ttu-id="8fdc6-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de WCF-NetTcp al recibir y enviar WCF solicitudes de servicio mediante el [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkID=81087).</span><span class="sxs-lookup"><span data-stu-id="8fdc6-103"> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF-NetTcp adapter when receiving and sending WCF service requests through the [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkID=81087).</span></span> <span data-ttu-id="8fdc6-104">El adaptador de WCF-NetTcp permite publicar orquestaciones y esquemas como servicios WCF y consumir servicios WCF externos con el **NetTcpBinding**.</span><span class="sxs-lookup"><span data-stu-id="8fdc6-104">The WCF-NetTcp adapter enables you to publish orchestrations and schemas as WCF services and to consume external WCF services with the **NetTcpBinding**.</span></span>  

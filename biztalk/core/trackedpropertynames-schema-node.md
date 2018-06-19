@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279260"
 ---
 # <a name="trackedpropertynames-schema-node"></a><span data-ttu-id="828fc-102">TrackedPropertyNames (nodo Esquema)</span><span class="sxs-lookup"><span data-stu-id="828fc-102">TrackedPropertyNames (Schema Node)</span></span>
 <span data-ttu-id="828fc-103">El nodo TrackedPropertyNames de un archivo de enlace contiene elementos que especifican a qué propiedades del esquema primario hay que hacer un seguimiento.</span><span class="sxs-lookup"><span data-stu-id="828fc-103">The TrackedPropertyNames node of a binding file contains elements that specify which properties in the parent schema are to be tracked.</span></span>  

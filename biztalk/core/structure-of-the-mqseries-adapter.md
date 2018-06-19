@@ -1,17 +1,17 @@
 ---
 title: Estructura del adaptador de MQSeries | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, MQSeries adapters
 - MQSeries adapters, architecture
 ms.assetid: d25caf6a-3f93-4164-9c92-489b919a624d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278500"
 ---
 # <a name="structure-of-the-mqseries-adapter"></a><span data-ttu-id="37b80-102">Estructura del adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="37b80-102">Structure of the MQSeries Adapter</span></span>
 <span data-ttu-id="37b80-103">El adaptador de MQSeries tiene dos partes: el adaptador que se ejecuta bajo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y una aplicación COM +, MQSAgent, que se ejecuta en MQSeries Server para Windows.</span><span class="sxs-lookup"><span data-stu-id="37b80-103">The MQSeries adapter has two parts: the adapter running under [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and a COM+ application, MQSAgent, running under MQSeries Server for Windows.</span></span> <span data-ttu-id="37b80-104">Esta relación se muestra en la ilustración siguiente.</span><span class="sxs-lookup"><span data-stu-id="37b80-104">The following figure shows this relationship.</span></span>  

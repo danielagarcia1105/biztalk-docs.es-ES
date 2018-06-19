@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970818"
 ---
 # <a name="how-to-label-and-comment-a-functoid"></a><span data-ttu-id="15c23-102">Agregación de etiquetas y comentarios en un functoid</span><span class="sxs-lookup"><span data-stu-id="15c23-102">How to Label and Comment a Functoid</span></span>
 <span data-ttu-id="15c23-103">Las etiquetas y comentarios resultan útiles para documentar la finalidad de un functoid o vínculo en una asignación.</span><span class="sxs-lookup"><span data-stu-id="15c23-103">Labels and comments are helpful to document the purpose of a functoid or a link in a map.</span></span> <span data-ttu-id="15c23-104">Puede usar el **etiqueta** propiedad para proporcionar un nombre para un functoid.</span><span class="sxs-lookup"><span data-stu-id="15c23-104">You can use the **Label** property to provide a name for a functoid.</span></span> <span data-ttu-id="15c23-105">El **comentarios** propiedad le permite proporcionar información adicional acerca del functoid, normalmente información relevante sobre la operación que se va a realizar en él.</span><span class="sxs-lookup"><span data-stu-id="15c23-105">The **Comments** property enables you to provide additional information about the functoid, typically relevant information about the operation being performed by it.</span></span>  

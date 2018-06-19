@@ -1,15 +1,15 @@
 ---
 title: Ejemplos de adaptadores de base de datos de Oracle | Documentos de Microsoft
 description: Ejemplos de adaptadores de WCF de la base de datos de Oracle que pueden usarse con BizTalk Server, el modelo de servicio WCF y el modelo del canal WCF
-ms.custom: 
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 744f19ce-3126-4745-92dd-4f68443180fc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013931"
 ---
 # <a name="samples-for-the-oracle-database-adapter"></a><span data-ttu-id="96496-103">Ejemplos para el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="96496-103">Samples for the Oracle Database adapter</span></span>
 <span data-ttu-id="96496-104">Ejemplos de [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] se clasifican en categorías:</span><span class="sxs-lookup"><span data-stu-id="96496-104">Samples for [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] are categorized into:</span></span>  

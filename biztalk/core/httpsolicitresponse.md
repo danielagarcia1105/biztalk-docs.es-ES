@@ -1,17 +1,17 @@
 ---
 title: HTTPSolicitResponse | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: b149544e-3279-4ac9-b31f-fff3e41ec8e7
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973130"
 ---
 # <a name="httpsolicitresponse"></a><span data-ttu-id="2e3b3-102">HTTPSolicitResponse</span><span class="sxs-lookup"><span data-stu-id="2e3b3-102">HTTPSolicitResponse</span></span>
 <span data-ttu-id="2e3b3-103">El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que aproveche una aplicación ASP.NET para ayudar a procesar los datos de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="2e3b3-103">The HTTPSolicitResponse sample demonstrates how to create a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration that leverages an ASP.NET application to help process orchestration data.</span></span> <span data-ttu-id="2e3b3-104">En este ejemplo, la orquestación hace uso de un puerto de solicitud y respuesta para enviar un mensaje a la aplicación ASP.NET y para recuperar la respuesta.</span><span class="sxs-lookup"><span data-stu-id="2e3b3-104">In this sample, the orchestration makes use of a request/response port to send a message to the ASP.NET application and to retrieve the response.</span></span> <span data-ttu-id="2e3b3-105">La integración entre la orquestación de BizTalk Server y la aplicación ASP.NET se consigue mediante el adaptador de HTTP.</span><span class="sxs-lookup"><span data-stu-id="2e3b3-105">You achieve the integration between the BizTalk Server orchestration and the ASP.NET application by using the HTTP adapter.</span></span> <span data-ttu-id="2e3b3-106">Para obtener más información, consulte [adaptador de HTTP](../core/http-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="2e3b3-106">For more information, see [HTTP Adapter](../core/http-adapter.md).</span></span>  

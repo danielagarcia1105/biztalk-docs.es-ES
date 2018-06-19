@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar los equipos en tiempo de ejecución | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar los equipos en tiempo de ejecución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 576a7065-04b6-436c-acf9-28c8d6e40107
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010901"
 ---
 # <a name="how-to-update-the-runtime-computers"></a><span data-ttu-id="4cc73-102">Cómo actualizar los equipos en tiempo de ejecución</span><span class="sxs-lookup"><span data-stu-id="4cc73-102">How to Update the Runtime Computers</span></span>
 <span data-ttu-id="4cc73-103">El sistema de destino [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos en tiempo de ejecución se configuran con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Asistente de configuración como parte del grupo de BizTalk de producción ejecutan en el entorno de producción.</span><span class="sxs-lookup"><span data-stu-id="4cc73-103">The destination system [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computers are configured with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration Wizard as part of the production BizTalk group running in the production environment.</span></span> <span data-ttu-id="4cc73-104">Cuando se restaura el grupo de BizTalk de producción en el entorno de recuperación ante desastres, se debe actualizar la configuración en cada [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo de tiempo de ejecución para que apunte a la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias cuando intenta conectarse a la restaurada grupo de BizTalk de producción.</span><span class="sxs-lookup"><span data-stu-id="4cc73-104">When the production BizTalk group is restored in the disaster recovery environment, settings must be updated on each [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computer so that it points to the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance(s) when it attempts to connect to the restored production BizTalk group.</span></span> <span data-ttu-id="4cc73-105">Después de restaura el grupo de BizTalk en el sistema de destino, utilice el procedimiento siguiente para actualizar la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="4cc73-105">After the BizTalk group is restored in the destination system, use the following procedure to update the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computers.</span></span>  
@@ -25,7 +26,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="4cc73-107">Copie el archivo SampleUpdateInfo.xml editado en el directorio de BizTalk Server\Schema\Restore en cada servidor de BizTalk de 32 bits \Program o en el directorio \Program archivos (x86) \Microsoft BizTalk Server\Bins32\Schema\Restore cada BizTalk de 64 bits servidor en el sistema de destino.</span><span class="sxs-lookup"><span data-stu-id="4cc73-107">Copy the edited SampleUpdateInfo.xml file to the \Program Files\Microsoft BizTalk Server\Schema\Restore directory on every 32 bit BizTalk server or to the \Program Files (x86)\Microsoft BizTalk Server\Bins32\Schema\Restore directory on every 64 bit BizTalk server in the destination system.</span></span>  
   
-2.  <span data-ttu-id="4cc73-108">En cada servidor BizTalk server, abra un símbolo del sistema.</span><span class="sxs-lookup"><span data-stu-id="4cc73-108">On each BizTalk server, open a command prompt.</span></span> <span data-ttu-id="4cc73-109">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4cc73-109">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+2.  <span data-ttu-id="4cc73-108">En cada servidor BizTalk server, abra un símbolo del sistema.</span><span class="sxs-lookup"><span data-stu-id="4cc73-108">On each BizTalk server, open a command prompt.</span></span> <span data-ttu-id="4cc73-109">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4cc73-109">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     > [!NOTE]  
     >  <span data-ttu-id="4cc73-110">En los equipos de 64 bits, debe abrir un símbolo del sistema de 64 bits.</span><span class="sxs-lookup"><span data-stu-id="4cc73-110">On 64-bit computers, you must open a 64-bit command prompt.</span></span>  

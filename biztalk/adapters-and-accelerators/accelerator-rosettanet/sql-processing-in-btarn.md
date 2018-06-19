@@ -1,11 +1,11 @@
 ---
 title: Procesamiento de SQL en BTARN | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - line-of-business applications (LOBs)
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, message flow
 - BTARN, SQL processing
 ms.assetid: cfaf804f-3803-438e-a22e-50f487fe21c3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005061"
 ---
 # <a name="sql-processing-in-btarn"></a><span data-ttu-id="1414b-102">Procesamiento de SQL en BTARN</span><span class="sxs-lookup"><span data-stu-id="1414b-102">SQL Processing in BTARN</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="1414b-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utiliza un adaptador de SQL para enrutar un mensaje de la aplicación de línea de negocio (LOB).</span><span class="sxs-lookup"><span data-stu-id="1414b-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses a SQL adapter to route a message from the line-of-business (LOB) application.</span></span> <span data-ttu-id="1414b-104">Utiliza un puerto de envío SQL para redirigir un mensaje a la aplicación de LOB.</span><span class="sxs-lookup"><span data-stu-id="1414b-104">It uses a SQL send port to route a message to the LOB application.</span></span>  

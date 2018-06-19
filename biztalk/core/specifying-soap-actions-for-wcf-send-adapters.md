@@ -1,11 +1,11 @@
 ---
-title: "Especificar acciones SOAP para WCF adaptadores de envío | Documentos de Microsoft"
-ms.custom: 
+title: Especificar acciones SOAP para WCF adaptadores de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send adapters, mapping
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - mapping, send adapters
 - mapping, WCF send adapters
 ms.assetid: fa9878eb-65b5-4ccc-b727-ff7e09ba6302
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276644"
 ---
 # <a name="specifying-soap-actions-for-wcf-send-adapters"></a><span data-ttu-id="5bd52-102">Especificar acciones SOAP para adaptadores de envío WCF</span><span class="sxs-lookup"><span data-stu-id="5bd52-102">Specifying SOAP Actions for WCF Send Adapters</span></span>
 <span data-ttu-id="5bd52-103">Puede establecer el **WCF. Acción** propiedad de contexto en el cuadro de diálogo de propiedades de transporte WCF envío adaptador o en la orquestación **expresión** formas.</span><span class="sxs-lookup"><span data-stu-id="5bd52-103">You can set the **WCF.Action** context property in the WCF send adapter transport properties dialog box or in the orchestration **Expression** shapes.</span></span> <span data-ttu-id="5bd52-104">Si establece la **WCF. Acción** propiedad de contexto en la orquestación, debe dejar el **acción** campo en blanco en el cuadro de diálogo de propiedades WCF adaptador transporte para los puertos de envío estático.</span><span class="sxs-lookup"><span data-stu-id="5bd52-104">If you set the **WCF.Action** context property in the orchestration, you need to leave the **Action** field blank in the WCF adapter transport properties dialog box for the static send ports.</span></span> <span data-ttu-id="5bd52-105">Si también especifica una acción en los puertos de envío estáticos, el **WCF. Acción** se invalidará la propiedad de contexto se establece en la orquestación.</span><span class="sxs-lookup"><span data-stu-id="5bd52-105">If you also specify an action in the static send ports, the **WCF.Action** context property you set in the orchestration will be overridden.</span></span>  

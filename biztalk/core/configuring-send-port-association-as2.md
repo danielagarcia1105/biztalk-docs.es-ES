@@ -1,14 +1,14 @@
 ---
-title: "Configuración de la asociación de puerto de envío (AS2) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de la asociación de puerto de envío (AS2) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8624d4c-cee8-4072-bff7-2468d83a06de
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006653"
 ---
 # <a name="configuring-send-port-association-as2"></a><span data-ttu-id="b3900-102">Configuración de la asociación de puerto de envío (AS2)</span><span class="sxs-lookup"><span data-stu-id="b3900-102">Configuring Send Port Association (AS2)</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="b3900-103"> usa la asociación de puertos de envío para resolver un acuerdo para un intercambio de AS2 saliente.</span><span class="sxs-lookup"><span data-stu-id="b3900-103"> uses send port association to resolve an agreement for an outgoing AS2 message.</span></span> <span data-ttu-id="b3900-104">Un mensaje AS2 se resuelve para un acuerdo haciendo coincidir el puerto de envío que suscribió el mensaje con el puerto de envío asociado a un acuerdo.</span><span class="sxs-lookup"><span data-stu-id="b3900-104">An AS2 message is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement.</span></span> <span data-ttu-id="b3900-105">Este tema proporciona instrucciones sobre cómo asociar los puertos de envío a un acuerdo.</span><span class="sxs-lookup"><span data-stu-id="b3900-105">This topic provides instructions on how to associate send ports to an agreement.</span></span>  

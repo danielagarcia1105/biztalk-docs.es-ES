@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial 5: Invocar una interfaz REST con BizTalk Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73871ca3-abd0-45ae-b379-6df76a967a80
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287300"
 ---
 # <a name="tutorial-5-invoking-a-rest-interface-using-biztalk-server"></a><span data-ttu-id="92712-102">Tutorial 5: Invocar una interfaz REST con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="92712-102">Tutorial 5: Invoking a REST Interface Using BizTalk Server</span></span>
 <span data-ttu-id="92712-103">En esta sección se proporciona un tutorial paso a paso sobre cómo invocar un extremo REST mediante [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="92712-103">This section provides a step-by-step walkthrough on how to invoke a REST endpoint using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="92712-104">En este tutorial invocará un extremo REST disponible en [!INCLUDE[winazure](../includes/winazure-md.md)] Marketplace que devuelve los retrasos de vuelos de las compañías aéreas de EE. UU.</span><span class="sxs-lookup"><span data-stu-id="92712-104">In this tutorial you invoke a REST endpoint available from the [!INCLUDE[winazure](../includes/winazure-md.md)] Marketplace that returns the delays in flights of US air carriers.</span></span> <span data-ttu-id="92712-105">El tutorial usa el nuevo **WCF-WebHttp** adaptador introducidas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para invocar el extremo REST.</span><span class="sxs-lookup"><span data-stu-id="92712-105">The tutorial uses the new **WCF-WebHttp** adapter introduced in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to invoke the REST endpoint.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Insertar, actualizar, eliminar o seleccionar operaciones en tablas de interfaz y vistas que usan el modelo de servicio WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae613c0e-4d9a-4c66-99e4-dd0443f1d495
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218148"
 ---
 # <a name="insert-update-delete-or-select-operations-on-interface-tables-and-views-using-the-wcf-service-model"></a><span data-ttu-id="e80e6-102">Insertar, actualizar, eliminar o seleccionar operaciones en tablas de interfaz y vistas que usan el modelo de servicio WCF</span><span class="sxs-lookup"><span data-stu-id="e80e6-102">Insert, update, delete, or select operations on interface tables and views using the WCF service model</span></span>
 <span data-ttu-id="e80e6-103">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] detecta un conjunto de operaciones básicas de Insert, Select, Update y Delete en tablas de interfaz.</span><span class="sxs-lookup"><span data-stu-id="e80e6-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] discovers a set of basic Insert, Select, Update, and Delete operations on interface tables.</span></span> <span data-ttu-id="e80e6-104">Mediante el uso de estas operaciones, puede realizar simple Insert, Select, Update y eliminar instrucciones calificadas por una cláusula WHERE en una tabla de la interfaz de destino.</span><span class="sxs-lookup"><span data-stu-id="e80e6-104">By using these operations, you can perform simple Insert, Select, Update, and Delete statements qualified by a WHERE clause on a target interface table.</span></span> <span data-ttu-id="e80e6-105">Este tema proporciona instrucciones sobre cómo realizar estas operaciones mediante el modelo de servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="e80e6-105">This topic provides instructions on how to perform these operations using the WCF service model.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3c: Insertar detalles de oportunidades en una base de datos SQL Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f6f9bbe-6f25-4393-8f92-aeeba9736acf
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280092"
 ---
 # <a name="step-3c-insert-opportunity-details-into-a-sql-server-database"></a><span data-ttu-id="f1bff-102">Paso 3c: Insertar detalles de oportunidades en una base de datos SQL Server</span><span class="sxs-lookup"><span data-stu-id="f1bff-102">Step 3c: Insert Opportunity Details into a SQL Server Database</span></span>
 <span data-ttu-id="f1bff-103">Hasta ahora, hemos compilado la orquestación para enviar una consulta a Salesforce y recibir una respuesta.</span><span class="sxs-lookup"><span data-stu-id="f1bff-103">By now we have built the orchestration to send a query to Salesforce and receive a response.</span></span> <span data-ttu-id="f1bff-104">En esta sección, actualizaremos esa orquestación para insertar la respuesta de Salesforce en una **OrderDetails** tabla en una base de datos de SQL Server local, **pedidos**.</span><span class="sxs-lookup"><span data-stu-id="f1bff-104">In this section, we’ll update that orchestration to insert the response from Salesforce into an **OrderDetails** table in an on-premise SQL Server database, **Orders**.</span></span> <span data-ttu-id="f1bff-105">Para lograrlo, realizaremos los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="f1bff-105">To achieve this, we’ll perform the following broad set of steps:</span></span>  

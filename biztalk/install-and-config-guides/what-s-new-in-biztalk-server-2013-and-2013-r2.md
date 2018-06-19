@@ -1,15 +1,15 @@
 ---
 title: Novedades de BizTalk Server 2013 y 2013 R2 | Documentos de Microsoft
-description: "Lista completa de nuevas características y cambios en BizTalk Server 2013 R2 y 2013"
-caps.latest.revision: "67"
+description: Lista completa de nuevas características y cambios en BizTalk Server 2013 R2 y 2013
+caps.latest.revision: 67
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 2017-08-10
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdb841f7-4aa9-45c9-a6f1-d527089fcc09
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300012"
 ---
 # <a name="whats-new-in-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="4a753-103">Novedades de BizTalk Server 2013 y 2013 R2</span><span class="sxs-lookup"><span data-stu-id="4a753-103">What's New in BizTalk Server 2013 and 2013 R2</span></span>
 <span data-ttu-id="4a753-104">Consulte las novedades y lo que está en desuso en [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.</span><span class="sxs-lookup"><span data-stu-id="4a753-104">See what's new and what is deprecated in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.</span></span>

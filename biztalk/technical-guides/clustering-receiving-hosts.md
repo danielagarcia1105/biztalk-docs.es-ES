@@ -1,14 +1,14 @@
 ---
-title: "Clústeres de Hosts de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Clústeres de Hosts de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93544f39-836f-4a4f-9587-230bfa3a9d4e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008309"
 ---
 # <a name="clustering-receiving-hosts"></a><span data-ttu-id="2b336-102">Clústeres de Hosts de recepción</span><span class="sxs-lookup"><span data-stu-id="2b336-102">Clustering Receiving Hosts</span></span>
 <span data-ttu-id="2b336-103">BizTalk Server proporciona la funcionalidad que le permite configurar un Host de BizTalk como un recurso agrupado dentro de un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] grupo de clúster.</span><span class="sxs-lookup"><span data-stu-id="2b336-103">BizTalk Server provides functionality that allows you to configure a BizTalk Host as a clustered resource within a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster group.</span></span> <span data-ttu-id="2b336-104">Compatibilidad con clústeres de host se proporciona para admitir alta disponibilidad integrados de BizTalk adaptadores de recepción que no se deben ejecutar en varias instancias de host al mismo tiempo, como controlador de recepción FTP o, en determinadas circunstancias, controlador de recepción de POP3.</span><span class="sxs-lookup"><span data-stu-id="2b336-104">Host cluster support is provided to support high availability for integrated BizTalk receive adapters that should not be run in multiple host instances simultaneously, such as the FTP receive handler or, under certain circumstances, the POP3 receive handler.</span></span> <span data-ttu-id="2b336-105">También se proporciona la funcionalidad de agrupación de hosts para garantizar la coherencia transaccional de los mensajes enviados o recibidos por el adaptador de MSMQ en escenarios que requieren que el servicio MSMQ esté agrupado.</span><span class="sxs-lookup"><span data-stu-id="2b336-105">Host cluster support is also provided to ensure transactional consistency for messages sent or received by the MSMQ adapter in scenarios that require that the MSMQ service is clustered.</span></span>  

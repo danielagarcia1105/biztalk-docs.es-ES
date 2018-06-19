@@ -1,14 +1,14 @@
 ---
-title: "Escribir información en el registro de eventos | Documentos de Microsoft"
-ms.custom: 
+title: Escribir información en el registro de eventos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d7398dc-29d8-4a7a-bab4-c8f128b47dca
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289580"
 ---
 # <a name="writing-information-to-the-event-log"></a><span data-ttu-id="1bdb2-102">Escribir información en el registro de eventos</span><span class="sxs-lookup"><span data-stu-id="1bdb2-102">Writing Information to the Event Log</span></span>
 <span data-ttu-id="1bdb2-103">Puede ser interesante supervisar el progreso de los distintos procesos empresariales con la aplicación de BizTalk escribiendo información en el registro de aplicaciones predeterminado o en un registro de eventos personalizado.</span><span class="sxs-lookup"><span data-stu-id="1bdb2-103">You may want to monitor the progress of the different business processes within your BizTalk application by writing information to the default Application log or to a custom event log.</span></span> <span data-ttu-id="1bdb2-104">Escribir en el registro de eventos puede resultar de utilidad en los escenarios siguientes:</span><span class="sxs-lookup"><span data-stu-id="1bdb2-104">Writing to the event log can be useful in the following scenarios:</span></span>  

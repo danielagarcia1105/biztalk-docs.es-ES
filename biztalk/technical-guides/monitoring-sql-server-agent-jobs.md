@@ -1,14 +1,14 @@
 ---
-title: "Supervisión de trabajos del Agente SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión de trabajos del Agente SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60d0a377-c86d-429b-9e48-c37bd5b0f912
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298964"
 ---
 # <a name="monitoring-sql-server-agent-jobs"></a><span data-ttu-id="96f61-102">Supervisión de trabajos del Agente SQL Server</span><span class="sxs-lookup"><span data-stu-id="96f61-102">Monitoring SQL Server Agent Jobs</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="96f61-103">incluye varios trabajos del Agente SQL Server que realizan funciones importantes para mantener los servidores operativos y en buen estado.</span><span class="sxs-lookup"><span data-stu-id="96f61-103"> includes multiple SQL Server Agent jobs that perform important functions to keep your servers operational and healthy.</span></span> <span data-ttu-id="96f61-104">Por ello, debe supervisar el estado de funcionamiento de estos trabajos y garantizar que no se producen errores en su ejecución.</span><span class="sxs-lookup"><span data-stu-id="96f61-104">You should monitor the health of these jobs and ensure that they are running without errors.</span></span>  

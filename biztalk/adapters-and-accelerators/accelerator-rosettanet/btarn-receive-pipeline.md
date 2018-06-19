@@ -1,11 +1,11 @@
 ---
-title: "Canalización de recepción de BTARN | Documentos de Microsoft"
-ms.custom: 
+title: Canalización de recepción de BTARN | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, receive pipelines
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MessageUpdater component
 - messages, message flow
 ms.assetid: 811f2a6a-ddd2-49cc-a00b-4c9d0110a0d1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005629"
 ---
 # <a name="btarn-receive-pipeline"></a><span data-ttu-id="3db07-102">Canalización de recepción de BTARN</span><span class="sxs-lookup"><span data-stu-id="3db07-102">BTARN Receive Pipeline</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="3db07-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] realiza la recepción de mensajes de RosettaNet Implementation Framework (RNIF) con la canalización de RNIFReceive (RNIFReceive.btp).</span><span class="sxs-lookup"><span data-stu-id="3db07-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] performs RosettaNet Implementation Framework (RNIF) message reception with the RNIFReceive pipeline (RNIFReceive.btp).</span></span> <span data-ttu-id="3db07-104">La canalización de recepción incluye los siguientes componentes:</span><span class="sxs-lookup"><span data-stu-id="3db07-104">The receive pipeline includes the following components:</span></span>  

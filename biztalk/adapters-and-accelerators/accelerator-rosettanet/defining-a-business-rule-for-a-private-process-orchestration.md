@@ -1,11 +1,11 @@
 ---
-title: "Definir una regla de negocios para una orquestación de procesos privados | Documentos de Microsoft"
-ms.custom: 
+title: Definir una regla de negocios para una orquestación de procesos privados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, policies
@@ -37,7 +37,7 @@ helpviewer_keywords:
 - private processes, business rules
 - policies, creating
 ms.assetid: 5d2b0257-1b15-482b-a562-798b808e9a2d
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -46,6 +46,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010533"
 ---
 # <a name="defining-a-business-rule-for-a-private-process-orchestration"></a><span data-ttu-id="f783d-102">Definir una regla de negocios para una orquestación de procesos privado</span><span class="sxs-lookup"><span data-stu-id="f783d-102">Defining a Business Rule for a Private Process Orchestration</span></span>
 <span data-ttu-id="f783d-103">Puede definir una regla de negocios para su uso en un proceso privado de confirmación.</span><span class="sxs-lookup"><span data-stu-id="f783d-103">You can define a business rule for use in an acknowledgement private process.</span></span> <span data-ttu-id="f783d-104">Esto permite modificar la regla de negocios dinámicamente sin detener la orquestación de procesos privado.</span><span class="sxs-lookup"><span data-stu-id="f783d-104">This lets you to modify the business rule dynamically without stopping the private-process orchestration.</span></span> <span data-ttu-id="f783d-105">Este proceso utiliza el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] motor de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="f783d-105">This process uses the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Business Rule Engine.</span></span> <span data-ttu-id="f783d-106">Este proceso implica los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="f783d-106">This process involves the following steps:</span></span>  
@@ -72,7 +73,7 @@ ms.lasthandoff: 12/01/2017
   
 4.  <span data-ttu-id="f783d-125">En el panel de propiedades (parte inferior izquierda), establezca el **nombre** propiedad en el nombre del vocabulario adecuado y, a continuación, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="f783d-125">In the Property pane (lower left), set the **Name** property to the name of the appropriate vocabulary, and then press **Enter**.</span></span>  
   
-5.  <span data-ttu-id="f783d-126">Expanda la carpeta de vocabulario que acaba de crear, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="f783d-126">Expand the vocabulary folder you just created, right-click **Version 1.0 (not saved)**, and then click **Add New Definition**.</span></span>  
+5.  <span data-ttu-id="f783d-126">Expanda la carpeta de vocabulario que acaba de crear, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="f783d-126">Expand the vocabulary folder you just created, right-click **Version 1.0 (not saved)**, and then click **Add New Definition**.</span></span>  
   
 6.  <span data-ttu-id="f783d-127">En la página **Asistente para definición de vocabulario** , seleccione **Valor, rango de valores o conjunto de valores constantes**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="f783d-127">On the **Vocabulary Definition Wizard** page, select **Constant Value, Range of Values, or Set of Values**, and then click **Next**.</span></span>  
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-define-get-and-set-elements"></a><span data-ttu-id="f783d-130">Para definir Get y elementos del conjunto</span><span class="sxs-lookup"><span data-stu-id="f783d-130">To define Get and Set elements</span></span>  
   
-1.  <span data-ttu-id="f783d-131">En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario creada en el vínculo "para agregar un nuevo procedimiento de vocabulario", haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="f783d-131">In Business Rule Composer, in the Facts Explorer pane, under the vocabulary folder created in the "To add a new vocabulary procedure", right-click **Version 1.0 (not saved)**, and then click **Add New Definition**.</span></span>  
+1.  <span data-ttu-id="f783d-131">En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario creada en el vínculo "para agregar un nuevo procedimiento de vocabulario", haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="f783d-131">In Business Rule Composer, in the Facts Explorer pane, under the vocabulary folder created in the "To add a new vocabulary procedure", right-click **Version 1.0 (not saved)**, and then click **Add New Definition**.</span></span>  
   
 2.  <span data-ttu-id="f783d-132">En el **Asistente para definición de vocabulario** página, seleccione **atributo o elemento de documento XML**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="f783d-132">On the **Vocabulary Definition Wizard** page, select **XML Document Element or Attribute**, and then click **Next**.</span></span>  
   
@@ -104,7 +105,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-save-and-publish-the-vocabulary"></a><span data-ttu-id="f783d-141">Para guardar y publicar el vocabulario</span><span class="sxs-lookup"><span data-stu-id="f783d-141">To save and publish the vocabulary</span></span>  
   
-1.  <span data-ttu-id="f783d-142">En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario que ha creado, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f783d-142">In Business Rule Composer, in the Facts Explorer pane, under the vocabulary folder that you created, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
+1.  <span data-ttu-id="f783d-142">En el Compositor de reglas de negocios, en el panel Explorador de hechos, en la carpeta de vocabulario que ha creado, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f783d-142">In Business Rule Composer, in the Facts Explorer pane, under the vocabulary folder that you created, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
   
 2.  <span data-ttu-id="f783d-143">En el panel Explorador de hechos, en la carpeta 3A4PurchaseOrderVocabulary, haga clic en **versión 1.0**y, a continuación, seleccione **publicar**.</span><span class="sxs-lookup"><span data-stu-id="f783d-143">In the Facts Explorer pane, under the 3A4PurchaseOrderVocabulary folder, right-click **Version 1.0**, and then select **Publish**.</span></span>  
   
@@ -116,7 +117,7 @@ ms.lasthandoff: 12/01/2017
   
 3.  <span data-ttu-id="f783d-147">En el panel Propiedades, establezca la **nombre** propiedad en el nombre de la directiva adecuada.</span><span class="sxs-lookup"><span data-stu-id="f783d-147">In the Property pane, set the **Name** property to the appropriate policy name.</span></span>  
   
-4.  <span data-ttu-id="f783d-148">En el panel Explorador de directivas, bajo la carpeta para la nueva directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="f783d-148">In the Policy Explorer pane, under the folder for the new policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span>  
+4.  <span data-ttu-id="f783d-148">En el panel Explorador de directivas, bajo la carpeta para la nueva directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="f783d-148">In the Policy Explorer pane, under the folder for the new policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span>  
   
 5.  <span data-ttu-id="f783d-149">Haga clic en **Rule1**.</span><span class="sxs-lookup"><span data-stu-id="f783d-149">Click **Rule1**.</span></span>  
   
@@ -136,7 +137,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-save-publish-and-deploy-the-policy"></a><span data-ttu-id="f783d-158">Para guardar, publicar e implementar la directiva</span><span class="sxs-lookup"><span data-stu-id="f783d-158">To save, publish, and deploy the policy</span></span>  
   
-1.  <span data-ttu-id="f783d-159">Cuando haya terminado de definir las reglas, en el Compositor de reglas de negocios, en el panel Explorador de directivas, en la carpeta de directiva que ha creado, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f783d-159">When you have finished defining the rules, in Business Rule Composer, in the Policy Explorer pane, under the policy folder that you created, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
+1.  <span data-ttu-id="f783d-159">Cuando haya terminado de definir las reglas, en el Compositor de reglas de negocios, en el panel Explorador de directivas, en la carpeta de directiva que ha creado, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="f783d-159">When you have finished defining the rules, in Business Rule Composer, in the Policy Explorer pane, under the policy folder that you created, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
   
 2.  <span data-ttu-id="f783d-160">En el panel Explorador de directivas, en la carpeta de directiva que ha creado, haga clic en **versión 1.0**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="f783d-160">In the Policy Explorer pane, under the policy folder that you created, right-click **Version 1.0**, and then click **Publish**.</span></span>  
   

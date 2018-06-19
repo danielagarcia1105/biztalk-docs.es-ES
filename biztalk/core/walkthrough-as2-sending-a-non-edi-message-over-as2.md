@@ -1,14 +1,14 @@
 ---
-title: "Tutorial (AS2): Enviar un mensaje no perteneciente a EDI a través de AS2 | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial (AS2): Enviar un mensaje no perteneciente a EDI a través de AS2 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6120b81e-bdd5-44ad-9040-26be88c71258
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292116"
 ---
 # <a name="walkthrough-as2-sending-a-non-edi-message-over-as2"></a><span data-ttu-id="a30c1-102">Tutorial (AS2): Enviar un Message no perteneciente a EDI sobre AS2</span><span class="sxs-lookup"><span data-stu-id="a30c1-102">Walkthrough (AS2): Sending a Non-EDI Message over AS2</span></span>
 <span data-ttu-id="a30c1-103">Este tutorial proporciona un conjunto de procedimientos paso a paso que crea una solución para el envío de mensajes no pertenecientes a EDI mediante AS2.</span><span class="sxs-lookup"><span data-stu-id="a30c1-103">This walkthrough provides a set of step-by-step procedures that creates a solution for sending non-EDI messages over AS2.</span></span> <span data-ttu-id="a30c1-104">En este tutorial, se envía un mensaje PIDX mediante AS2.</span><span class="sxs-lookup"><span data-stu-id="a30c1-104">In this walkthrough, a PIDX message is sent over AS2.</span></span> <span data-ttu-id="a30c1-105">Esta solución usa un puerto de envío bidireccional con una canalización de envío AS2Send y una canalización de recepción AS2Receive.</span><span class="sxs-lookup"><span data-stu-id="a30c1-105">This solution uses a two-way send port with an AS2Send send pipeline and an AS2Receive receive pipeline.</span></span> <span data-ttu-id="a30c1-106">Puede crear y probar la solución completa de este tutorial en un único equipo.</span><span class="sxs-lookup"><span data-stu-id="a30c1-106">You can create and test the full solution in this walkthrough on a single computer.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Configuración de la asociación de puerto de envío (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de la asociación de puerto de envío (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 496beb0a-fabf-416e-bc3c-d8537097b50e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005565"
 ---
 # <a name="configuring-send-port-association-x12"></a><span data-ttu-id="40441-102">Configuración de la asociación de puerto de envío (X12)</span><span class="sxs-lookup"><span data-stu-id="40441-102">Configuring Send Port Association (X12)</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="40441-103"> usa la asociación de puertos de envío para resolver un acuerdo para un intercambio EDI saliente.</span><span class="sxs-lookup"><span data-stu-id="40441-103"> uses send port association to resolve an agreement for an outgoing EDI interchange.</span></span> <span data-ttu-id="40441-104">Un intercambio EDI se resuelve para un acuerdo haciendo coincidir el puerto de envío que suscribió el mensaje con el puerto de envío asociado a un acuerdo.</span><span class="sxs-lookup"><span data-stu-id="40441-104">An EDI interchange is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement.</span></span> <span data-ttu-id="40441-105">Este tema proporciona instrucciones sobre cómo asociar los puertos de envío a un acuerdo.</span><span class="sxs-lookup"><span data-stu-id="40441-105">This topic provides instructions on how to associate send ports to an agreement.</span></span>  

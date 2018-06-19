@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de MQSeries | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de MQSeries | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBM WebSphere MQ queues
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MQSeries adapters, queues
 - configuring [MQSeries adapters], tutorial
 ms.assetid: e9e169e4-d41c-4e5d-b165-7bd36b481f24
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290476"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a><span data-ttu-id="40281-102">Tutorial: Crear una aplicación de BizTalk que usa el adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="40281-102">Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter</span></span>
 <span data-ttu-id="40281-103">Esta sección le muestra cómo crear una sencilla aplicación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que utilice el adaptador de MQSeries.</span><span class="sxs-lookup"><span data-stu-id="40281-103">This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application that uses the MQSeries adapter.</span></span>  

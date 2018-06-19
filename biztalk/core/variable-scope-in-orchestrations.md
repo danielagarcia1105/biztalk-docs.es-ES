@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288124"
 ---
 # <a name="variable-scope-in-orchestrations"></a><span data-ttu-id="e0e12-102">Ámbito de las variables en orquestaciones</span><span class="sxs-lookup"><span data-stu-id="e0e12-102">Variable Scope in Orchestrations</span></span>
 <span data-ttu-id="e0e12-103">Es necesario que comprenda algunas cuestiones importantes acerca de la visibilidad y el estado de las variables y los parámetros de las orquestaciones en varios lugares de una orquestación, incluidos los controladores de excepción y los bloques de compensación.</span><span class="sxs-lookup"><span data-stu-id="e0e12-103">There are a few important points to understand about the visibility and state of variables and orchestration parameters in various places within your orchestration, including exception handlers and compensation blocks.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar el ejemplo de extensibilidad del diseñador | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar el ejemplo de extensibilidad del diseñador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05ac3b50-5bf2-4566-8654-472391476d1f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007589"
 ---
 # <a name="running-the-designer-extensibility-sample"></a><span data-ttu-id="69971-102">Ejecutar el ejemplo de extensibilidad del diseñador</span><span class="sxs-lookup"><span data-stu-id="69971-102">Running the Designer Extensibility Sample</span></span>
 <span data-ttu-id="69971-103">El ejemplo de extensibilidad del diseñador utiliza dos dispositivos Extender de ejemplo para demostrar cómo puede proporcionar opciones de configuración de tiempo de diseño para los solucionadores personalizados y servicios itinerarios.</span><span class="sxs-lookup"><span data-stu-id="69971-103">The Designer Extensibility sample uses two sample extenders to demonstrate how you can provide design-time configuration options for custom resolvers and for itinerary services.</span></span>  

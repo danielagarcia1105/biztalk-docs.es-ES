@@ -1,14 +1,14 @@
 ---
 title: Planear el entorno de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e9ef0b4-eccb-47e2-bbb5-e859ffa0468c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010581"
 ---
 # <a name="planning-the-environment-for-biztalk-server"></a><span data-ttu-id="00137-102">Planear el entorno de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="00137-102">Planning the Environment for BizTalk Server</span></span>
 <span data-ttu-id="00137-103">La sección de planeamiento de la Guía de operaciones describe los roles y responsabilidades asociadas con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="00137-103">The planning section of the operations guide describes roles and responsibilities associated with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="00137-104">Incluye la planificación de las recomendaciones para los niveles de aplicación y los datos de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y proporciona recomendaciones de planificación de la versión de fases de la administración de una solución de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="00137-104">It includes planning recommendations for the application and data tiers of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, and it provides planning recommendations for the release management stages of a BizTalk solution.</span></span>  

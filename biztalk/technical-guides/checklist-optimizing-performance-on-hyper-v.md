@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Optimizar el rendimiento en Hyper-V | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Optimizar el rendimiento en Hyper-V | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 942a61eb-0fdd-4c8b-b0ad-d32951f0f631
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010349"
 ---
 # <a name="checklist-optimizing-performance-on-hyper-v"></a><span data-ttu-id="0e034-102">Lista de comprobación: Optimizar el rendimiento en Hyper-V</span><span class="sxs-lookup"><span data-stu-id="0e034-102">Checklist: Optimizing Performance on Hyper-V</span></span>
 <span data-ttu-id="0e034-103">Las consideraciones siguientes se aplican cuando se ejecuta BizTalk Server o [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] las instancias que tienen las bases de datos de BizTalk Server en máquinas virtuales de Hyper-V.</span><span class="sxs-lookup"><span data-stu-id="0e034-103">The following considerations apply when running BizTalk Server and/or the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance(s) that have the BizTalk Server databases on Hyper-V virtual machines.</span></span>  

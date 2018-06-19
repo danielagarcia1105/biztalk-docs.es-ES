@@ -1,18 +1,18 @@
 ---
 title: Trabajar con errores de mensaje suscripciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - failed messages, subscriptions
 - failed messages, developing
 - developing, failed message subscriptions
 ms.assetid: 8dee0aa8-53bf-40be-866b-f1b83960dc99
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,9 +21,10 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005613"
 ---
 # <a name="working-with-failed-message-subscriptions"></a><span data-ttu-id="6cf64-102">Trabajar con suscripciones de mensajes con errores</span><span class="sxs-lookup"><span data-stu-id="6cf64-102">Working with Failed Message Subscriptions</span></span>
-<span data-ttu-id="6cf64-103">Cuando el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] procesos Desensamblador (analiza y valida) un mensaje, promociona propiedades para ese mensaje.</span><span class="sxs-lookup"><span data-stu-id="6cf64-103">When the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler processes (parses and validates) a message, it promotes properties for that message.</span></span> <span data-ttu-id="6cf64-104">Estas propiedades promocionadas proporcionan información sobre la corrección y validez del mensaje, así como información relacionada con el lote si A4SWIFT recibe el mensaje como parte de un lote de entrada.</span><span class="sxs-lookup"><span data-stu-id="6cf64-104">These promoted properties provide information about the correctness and validity of the message, as well as batch-related information if A4SWIFT received the message as part of an inbound batch.</span></span> <span data-ttu-id="6cf64-105">Para obtener una lista completa de estas propiedades, vea [A4SWIFT_ * las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="6cf64-105">For a complete list of these properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+<span data-ttu-id="6cf64-103">Cuando el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] procesos Desensamblador (analiza y valida) un mensaje, promociona propiedades para ese mensaje.</span><span class="sxs-lookup"><span data-stu-id="6cf64-103">When the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler processes (parses and validates) a message, it promotes properties for that message.</span></span> <span data-ttu-id="6cf64-104">Estas propiedades promocionadas proporcionan información sobre la corrección y validez del mensaje, así como información relacionada con el lote si A4SWIFT recibe el mensaje como parte de un lote de entrada.</span><span class="sxs-lookup"><span data-stu-id="6cf64-104">These promoted properties provide information about the correctness and validity of the message, as well as batch-related information if A4SWIFT received the message as part of an inbound batch.</span></span> <span data-ttu-id="6cf64-105">Para obtener una lista completa de estas propiedades, vea [A4SWIFT_ \* las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="6cf64-105">For a complete list of these properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
  <span data-ttu-id="6cf64-106">A diferencia de nativo desensambladores de BizTalk, el Desensamblador de A4SWIFT no suspende un mensaje al procesar produce errores.</span><span class="sxs-lookup"><span data-stu-id="6cf64-106">Unlike native BizTalk Disassemblers, the A4SWIFT disassembler does not suspend a message when processing produces errors or failures.</span></span> <span data-ttu-id="6cf64-107">En su lugar, publica el mensaje error a la base de datos de cuadro de mensajes tal como haría con un mensaje válido.</span><span class="sxs-lookup"><span data-stu-id="6cf64-107">Instead, it publishes the failed message to the MessageBox database just as it would a valid message.</span></span> <span data-ttu-id="6cf64-108">Como resultado, los mensajes con errores pueden realizar detalles del error en la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="6cf64-108">As a result, failed messages can carry error details into the MessageBox database.</span></span> <span data-ttu-id="6cf64-109">Puede recuperar el mensaje de la base de datos de cuadro de mensajes, administrar y reparar el mensaje e incluso volver a enviar el mensaje en la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="6cf64-109">You can retrieve the message from the MessageBox database, handle and repair the message, and even resubmit the message back into the MessageBox database.</span></span> <span data-ttu-id="6cf64-110">No puede realizar la mayoría de estas tareas si el mensaje fue realmente *suspendido*.</span><span class="sxs-lookup"><span data-stu-id="6cf64-110">You would not be able to perform most of these tasks if the message was actually *suspended*.</span></span>  
   
@@ -37,7 +38,7 @@ ms.lasthandoff: 12/01/2017
   
 -   <span data-ttu-id="6cf64-116">**A4SWIFT_Failed** es **true** cuando el recuento de cualquiera de las propiedades anteriores es mayor que cero, o **false** cuando el recuento es igual a cero.</span><span class="sxs-lookup"><span data-stu-id="6cf64-116">**A4SWIFT_Failed** is **true** when the count of any the above properties is greater than zero, or **false** when the count is equal to zero.</span></span>  
   
- <span data-ttu-id="6cf64-117">Estas propiedades forman parte de la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Espacio de nombres Solutions.A4SWIFT.Property.</span><span class="sxs-lookup"><span data-stu-id="6cf64-117">These properties are all part of the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace.</span></span> <span data-ttu-id="6cf64-118">Para obtener más información sobre estas y otras propiedades promocionadas, consulte [A4SWIFT_ * las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="6cf64-118">For more information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+ <span data-ttu-id="6cf64-117">Estas propiedades forman parte de la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Espacio de nombres Solutions.A4SWIFT.Property.</span><span class="sxs-lookup"><span data-stu-id="6cf64-117">These properties are all part of the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace.</span></span> <span data-ttu-id="6cf64-118">Para obtener más información sobre estas y otras propiedades promocionadas, consulte [A4SWIFT_ \* las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="6cf64-118">For more information about these and other promoted properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
  <span data-ttu-id="6cf64-119">Para detectar o recuperar mensajes con errores, se necesita para crear expresiones de filtro (suscripciones) para puertos de envío o recepción de una orquestación formas que incluyen algunas de las propiedades enumeradas anteriormente, como **AND** cláusulas de la expresión.</span><span class="sxs-lookup"><span data-stu-id="6cf64-119">To catch or retrieve failed messages, you need to create filter expressions (subscriptions) for send ports or orchestration receive shapes that include some of the properties listed above, as **AND** clauses of the expression.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
 title: Objeto Recaller | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Recaller object
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process management solution tutorial, Recaller object
 - process management solution tutorial, errors
 ms.assetid: b30ad1ae-475f-4913-b402-4d3263fcf072
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279892"
 ---
 # <a name="the-recaller-object"></a><span data-ttu-id="aec7c-102">Objeto Recaller</span><span class="sxs-lookup"><span data-stu-id="aec7c-102">The Recaller Object</span></span>
 <span data-ttu-id="aec7c-103">La solución Administración de procesos empresariales proporciona una forma genérica de reintentar llamar a algunos métodos de objeto con errores.</span><span class="sxs-lookup"><span data-stu-id="aec7c-103">The business process management solution provides for retrying, in a generic way, some failed object method calls.</span></span> <span data-ttu-id="aec7c-104">La solución hace esto mediante la **Recaller** objeto en el **ExceptionHandler** orquestación.</span><span class="sxs-lookup"><span data-stu-id="aec7c-104">The solution does this through the **Recaller** object in the **ExceptionHandler** orchestration.</span></span> <span data-ttu-id="aec7c-105">El **ExceptionHandler** orquestación utiliza el objeto para volver a intentar las llamadas de método de objeto.</span><span class="sxs-lookup"><span data-stu-id="aec7c-105">The **ExceptionHandler** orchestration uses the object to retry object method calls.</span></span> <span data-ttu-id="aec7c-106">Para obtener más información, consulte [la orquestación de ExceptionHandler](../core/the-exceptionhandler-orchestration.md).</span><span class="sxs-lookup"><span data-stu-id="aec7c-106">For more information, see [The ExceptionHandler Orchestration](../core/the-exceptionhandler-orchestration.md).</span></span>  

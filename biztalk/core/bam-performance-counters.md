@@ -1,17 +1,17 @@
 ---
 title: Contadores de rendimiento de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], performance counters
 - performance, counters [BAM]
 ms.assetid: e23f7038-36a5-4957-bc73-47011763d109
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230916"
 ---
 # <a name="bam-performance-counters"></a><span data-ttu-id="7b877-102">Contadores de rendimiento de BAM</span><span class="sxs-lookup"><span data-stu-id="7b877-102">BAM Performance Counters</span></span>
 <span data-ttu-id="7b877-103">Los contadores de rendimiento permiten controlar aspectos específicos del trabajo llevado a cabo por el servicio de bus de eventos BAM.</span><span class="sxs-lookup"><span data-stu-id="7b877-103">Performance counters allow you to monitor specific aspects of work performed by the BAM Event Bus Service.</span></span> <span data-ttu-id="7b877-104">Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.</span><span class="sxs-lookup"><span data-stu-id="7b877-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span>  

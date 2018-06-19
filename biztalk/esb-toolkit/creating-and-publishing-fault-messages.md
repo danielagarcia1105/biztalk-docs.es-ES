@@ -1,14 +1,14 @@
 ---
-title: "Creación y publicación de mensajes de error | Documentos de Microsoft"
-ms.custom: 
+title: Creación y publicación de mensajes de error | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc7ba1d9-b647-4cba-a3dc-4400505ff51f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290684"
 ---
 # <a name="creating-and-publishing-fault-messages"></a><span data-ttu-id="2cce9-102">Creación y publicación de mensajes de error</span><span class="sxs-lookup"><span data-stu-id="2cce9-102">Creating and Publishing Fault Messages</span></span>
 <span data-ttu-id="2cce9-103">Para ayudarle a entender cómo utilizar las características del marco de administración de excepciones para administrar excepciones, esta sección presenta un escenario común que se basa en el envío de un mensaje a una aplicación de ESB.</span><span class="sxs-lookup"><span data-stu-id="2cce9-103">To help you understand how to use the features of the Exception Management Framework to manage exceptions, this section presents a common scenario based on the submission of a message to an ESB application.</span></span>  

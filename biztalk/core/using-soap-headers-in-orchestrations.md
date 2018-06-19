@@ -1,11 +1,11 @@
 ---
 title: Usar encabezados SOAP en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, orchestrations
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - orchestrations, SOAP headers
 - creating, SOAP headers
 ms.assetid: 4754dd23-386b-4093-8ea4-4da6b4d9279c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288540"
 ---
 # <a name="using-soap-headers-in-orchestrations"></a><span data-ttu-id="bccee-102">Usar encabezados SOAP en orquestaciones</span><span class="sxs-lookup"><span data-stu-id="bccee-102">Using SOAP Headers in Orchestrations</span></span>
 <span data-ttu-id="bccee-103">Las orquestaciones usan esquemas de propiedades para definir las propiedades de contexto de encabezados SOAP.</span><span class="sxs-lookup"><span data-stu-id="bccee-103">Orchestrations use property schemas to define SOAP header context properties.</span></span> <span data-ttu-id="bccee-104">Use el Editor de BizTalk para establecer las propiedades de contexto de encabezados SOAP.</span><span class="sxs-lookup"><span data-stu-id="bccee-104">You use the BizTalk Editor to set SOAP header context properties.</span></span>  

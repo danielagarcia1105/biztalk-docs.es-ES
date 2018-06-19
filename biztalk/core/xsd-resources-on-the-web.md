@@ -1,14 +1,14 @@
 ---
 title: Recursos XSD en Internet | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0de350bc-8206-4a1a-8e8d-cb531a06b529
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290716"
 ---
 # <a name="xsd-resources-on-the-web"></a><span data-ttu-id="8eb40-102">Recursos XSD en Internet</span><span class="sxs-lookup"><span data-stu-id="8eb40-102">XSD Resources on the Web</span></span>
 <span data-ttu-id="8eb40-103">Proporcionar detalles sobre el lenguaje de definición de esquemas XML (XSD) o incluso resumir adecuadamente las definiciones XSD queda fuera del alcance de este documento.</span><span class="sxs-lookup"><span data-stu-id="8eb40-103">Providing details of the XML Schema definition (XSD) language, or even adequately summarizing XSD, is beyond the scope of this document.</span></span> <span data-ttu-id="8eb40-104">Para obtener información detallada, vaya directamente al sitio web de World Wide Web Consortium (W3C) para ver las especificaciones XSD e información básica relacionada.</span><span class="sxs-lookup"><span data-stu-id="8eb40-104">For more detailed information, go directly to the XSD specifications and primer maintained on the World Wide Web Consortium (W3C) Web site.</span></span> <span data-ttu-id="8eb40-105">En concreto, se recomienda leer los siguientes tutoriales: el primero de ellos para conocer de una forma rápida los conceptos básicos, y los dos últimos como fuentes de información completas sobre XSD.</span><span class="sxs-lookup"><span data-stu-id="8eb40-105">Specifically, the following tutorials are recommended, the first as a quick way to learn the basics, and the latter two as the definitive sources of information about XSD.</span></span> <span data-ttu-id="8eb40-106">Para consultar los tutoriales acerca de XSD, vea las siguientes páginas de W3C:</span><span class="sxs-lookup"><span data-stu-id="8eb40-106">For tutorials on XSD, see the following W3C pages:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Usar IntelliSense para crear un archivo de configuración de Interceptor | Documentos de Microsoft"
-ms.custom: 
+title: Usar IntelliSense para crear un archivo de configuración de Interceptor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 349ea1bf-a5d1-4464-bf4b-d8746c622377
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287972"
 ---
 # <a name="using-intellisense-to-create-an-interceptor-configuration-file"></a><span data-ttu-id="d6e15-102">Uso de IntelliSense para crear un archivo de configuración de interceptor</span><span class="sxs-lookup"><span data-stu-id="d6e15-102">Using IntelliSense to Create an Interceptor Configuration File</span></span>
 <span data-ttu-id="d6e15-103">Puede usar IntelliSense y la validación de esquemas en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para que le ayuden a construir archivos de configuración de interceptor válidos en términos de esquemas.</span><span class="sxs-lookup"><span data-stu-id="d6e15-103">You can use IntelliSense and schema validation in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to help you construct interceptor configuration files that are schematically valid.</span></span> <span data-ttu-id="d6e15-104">La utilidad de administración de BAM valida el archivo de configuración del interceptor con respecto al esquema de configuración del interceptor base y, si el archivo no es válido, no implementa el esquema.</span><span class="sxs-lookup"><span data-stu-id="d6e15-104">The BAM management utility validates your interceptor configuration file against the base interceptor configuration schema and, if the file is not valid, does not deploy the schema.</span></span> <span data-ttu-id="d6e15-105">Si el archivo pasa la validación con respecto al esquema de configuración del interceptor base, se valida en relación a los esquemas específicos de la tecnología, como el esquema de [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] o el de [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)], durante el tiempo de ejecución. Si no se encuentran errores, no se producirá ninguna intercepción.</span><span class="sxs-lookup"><span data-stu-id="d6e15-105">If the file passes validation against the base interceptor configuration schema, it is validated against technology-specific schemas like the [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] schema or the [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] schema during run time and if errors are encountered, no interception will occur.</span></span> <span data-ttu-id="d6e15-106">Puede prevenir estos errores usando la validación de esquemas en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] al construir su archivo de configuración de interceptor.</span><span class="sxs-lookup"><span data-stu-id="d6e15-106">You can avoid these errors by using schema validation in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] when constructing your interceptor configuration file.</span></span>  

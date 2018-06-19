@@ -1,18 +1,18 @@
 ---
 title: Contadores de rendimiento de los adaptadores WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, WCF adapters
 - performance, performance counters
 - WCF adapters, performance
 ms.assetid: 9feb052f-5674-419f-84ab-9b5d312a04a5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289476"
 ---
 # <a name="wcf-adapters-performance-counters"></a><span data-ttu-id="2bc3c-102">Contadores de rendimiento de los adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="2bc3c-102">WCF Adapters Performance Counters</span></span>
 <span data-ttu-id="2bc3c-103">Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por un servicio en el sitio o sistema.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-103">Performance counters enable you to monitor specific aspects of work performed on the site or system by a service.</span></span> <span data-ttu-id="2bc3c-104">Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span> <span data-ttu-id="2bc3c-105">Los adaptadores de WCF no proporcionan sus propios contadores de rendimiento.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-105">The WCF adapters do not provide their own performance counters.</span></span> <span data-ttu-id="2bc3c-106">No obstante, puede supervisar los contadores de rendimiento de Windows Communication Foundation (WCF) para calibrar el rendimiento de las ubicaciones de recepción WCF.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-106">However, you can monitor the performance counters of Windows Communication Foundation (WCF) to gauge the performance of the WCF receive locations.</span></span> <span data-ttu-id="2bc3c-107">Con el fin de usar los contadores de rendimiento de WCF para las ubicaciones de recepción WCF, tiene que habilitar los contadores de rendimiento para las instancias de host que ejecutan las ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-107">To use the WCF performance counters for the WCF receive locations, you have to enable the performance counters for the host instances running the receive locations.</span></span>  
@@ -54,7 +55,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="2bc3c-120">**ServiceOnly**: solo **ServiceModelService** se habilitan los contadores de categoría.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-120">**ServiceOnly**: Only **ServiceModelService** category counters are enabled.</span></span>  
   
--   <span data-ttu-id="2bc3c-121">**Desactivar**: contadores de rendimiento ServiceModel * están deshabilitados.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-121">**Off**: ServiceModel* performance counters are disabled.</span></span> <span data-ttu-id="2bc3c-122">Es el valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-122">This is the default value.</span></span>  
+-   <span data-ttu-id="2bc3c-121">**Desactivar**: contadores de rendimiento ServiceModel \* están deshabilitados.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-121">**Off**: ServiceModel\* performance counters are disabled.</span></span> <span data-ttu-id="2bc3c-122">Es el valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-122">This is the default value.</span></span>  
   
  <span data-ttu-id="2bc3c-123">Después de modificar el archivo BTSNTSvc.exe.config, debe reiniciar las instancias de host que ejecutan las ubicaciones de recepción WCF de tipo En curso.</span><span class="sxs-lookup"><span data-stu-id="2bc3c-123">After modifying the BTSNTSvc.exe.config file, you must restart the host instances running the in-process WCF receive locations.</span></span>  
   

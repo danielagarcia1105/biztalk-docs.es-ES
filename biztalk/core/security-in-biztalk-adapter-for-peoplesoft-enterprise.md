@@ -1,15 +1,15 @@
 ---
 title: Seguridad en el adaptador de BizTalk para PeopleSoft Enterprise | Documentos de Microsoft
-description: "Usar enterprise inicio de sesión único (SSO) para proteger las aplicaciones que utilizan el adaptador de PeopleSoft Enterprise en BizTalk"
-ms.custom: 
+description: Usar enterprise inicio de sesión único (SSO) para proteger las aplicaciones que utilizan el adaptador de PeopleSoft Enterprise en BizTalk
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2cfdf0db-6f83-4322-a57a-e373c7245700
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013059"
 ---
 # <a name="security-in-biztalk-adapter-for-peoplesoft-enterprise"></a><span data-ttu-id="6841b-103">Seguridad en el adaptador de BizTalk para PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="6841b-103">Security in BizTalk Adapter for PeopleSoft Enterprise</span></span>
 

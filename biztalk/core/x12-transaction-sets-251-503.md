@@ -1,14 +1,14 @@
 ---
 title: X12 conjuntos de transacciones de 251 a 503 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 06343a9d-038a-40b8-a197-2af35d4a8f2e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292780"
 ---
 # <a name="x12-transaction-sets-251-503"></a><span data-ttu-id="a9a96-102">Conjuntos de transacciones de X12 de 251 a 503</span><span class="sxs-lookup"><span data-stu-id="a9a96-102">X12 Transaction Sets 251-503</span></span>
 <span data-ttu-id="a9a96-103">En este tema se enumeran los documentos y las versiones de X12 compatibles con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a9a96-103">This topic lists the X12 documents and versions that are supported by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

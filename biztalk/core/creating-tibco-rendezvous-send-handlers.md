@@ -1,15 +1,15 @@
 ---
-title: "Crear artefactos de envío de adaptador de TIBCO Rendezvous | Documentos de Microsoft"
-description: "Crear un puerto de envío, configure las propiedades de transporte para enviar mensajes a TIBCO Rendezvous desde BizTalk"
-ms.custom: 
+title: Crear artefactos de envío de adaptador de TIBCO Rendezvous | Documentos de Microsoft
+description: Crear un puerto de envío, configure las propiedades de transporte para enviar mensajes a TIBCO Rendezvous desde BizTalk
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad996c4f-e6ed-4582-a768-0cb1ad25b1d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014355"
 ---
 # <a name="create-tibco-rendezvous-send-handlers"></a><span data-ttu-id="0cfeb-103">Crear controladores de envío TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="0cfeb-103">Create TIBCO Rendezvous Send Handlers</span></span>
 <span data-ttu-id="0cfeb-104">Esta sección explica cómo crear un esquema para usar TIBCO Rendezvous en una orquestación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="0cfeb-104">This section explains how to create a schema to use TIBCO Rendezvous in a BizTalk Server orchestration.</span></span>  

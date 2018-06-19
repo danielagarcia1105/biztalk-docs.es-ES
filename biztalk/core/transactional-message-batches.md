@@ -1,14 +1,14 @@
 ---
 title: Lotes de mensajes transaccionales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b1790c05-e3f7-4667-8a9e-f6f208e55e40
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279532"
 ---
 # <a name="transactional-message-batches"></a><span data-ttu-id="f5bee-102">Lotes de mensajes transaccionales</span><span class="sxs-lookup"><span data-stu-id="f5bee-102">Transactional Message Batches</span></span>
 <span data-ttu-id="f5bee-103">Algunos adaptadores deben coordinar una transacción externa con un interno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transacciones.</span><span class="sxs-lookup"><span data-stu-id="f5bee-103">Some adapters must coordinate an external transaction with an internal [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transaction.</span></span> <span data-ttu-id="f5bee-104">Por ejemplo, el adaptador de SQL proporcionado con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe coordinar una [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] transacción con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transacciones.</span><span class="sxs-lookup"><span data-stu-id="f5bee-104">For example, the SQL adapter supplied with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] must coordinate a [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] transaction with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transaction.</span></span> <span data-ttu-id="f5bee-105">Para ello, el adaptador necesita tener acceso a la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] un objeto de transacción.</span><span class="sxs-lookup"><span data-stu-id="f5bee-105">To do this, the adapter needs access to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transaction object.</span></span> <span data-ttu-id="f5bee-106">Un objeto de transacción explícitamente se crea y asociado al lote antes de que el lote se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f5bee-106">A transaction object is explicitly created and associated with the batch before the batch is submitted to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="f5bee-107">Un lote que tiene asociado un objeto de transacción recibe el nombre de lote transaccional.</span><span class="sxs-lookup"><span data-stu-id="f5bee-107">A batch that has an associated transaction object is called a transactional batch.</span></span> <span data-ttu-id="f5bee-108">Si se suministra su propio objeto de transacción del Coordinador de transacciones distribuidas de Microsoft (MSDTC), puede lograr el "garantiza que, una vez y sólo una vez", la entrega de datos dentro y fuera de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f5bee-108">By supplying your own Microsoft Distributed Transaction Coordinator (MSDTC) transaction object, you can achieve the "guaranteed, once and once only", delivery of data into and out of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

@@ -1,15 +1,15 @@
 ---
 title: 'Tutorial: Usar el adaptador de TIBCO Rendezvous para enviar | Documentos de Microsoft'
-description: "Guía paso a paso para usar el adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server para enviar datos al sistema TIBCO"
-ms.custom: 
+description: Guía paso a paso para usar el adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server para enviar datos al sistema TIBCO
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b761ce2d-3465-43e0-bd8d-4d68b523226a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014443"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-rendezvous-to-send-data"></a><span data-ttu-id="39f7a-103">Tutorial: Uso del adaptador de BizTalk para TIBCO Rendezvous para enviar datos</span><span class="sxs-lookup"><span data-stu-id="39f7a-103">Tutorial: Using the BizTalk Adapter for TIBCO Rendezvous to Send Data</span></span>
 <span data-ttu-id="39f7a-104">Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema TIBCO.</span><span class="sxs-lookup"><span data-stu-id="39f7a-104">You can use the BizTalk Adapter for TIBCO Rendezvous to send data to a TIBCO system.</span></span> <span data-ttu-id="39f7a-105">En este tutorial se describe un ejemplo de SDK que ilustra este proceso.</span><span class="sxs-lookup"><span data-stu-id="39f7a-105">This walkthrough describes an SDK sample that illustrates this.</span></span>  

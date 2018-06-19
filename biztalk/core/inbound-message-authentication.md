@@ -1,11 +1,11 @@
 ---
-title: "Autenticación de mensajes entrantes | Documentos de Microsoft"
-ms.custom: 
+title: Autenticación de mensajes entrantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, authenticating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - security, messages
 - inbound messages
 ms.assetid: 34c06283-667d-4498-8544-dea6e87f276f
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258068"
 ---
 # <a name="inbound-message-authentication"></a><span data-ttu-id="1de17-102">Autenticación de mensajes entrantes</span><span class="sxs-lookup"><span data-stu-id="1de17-102">Inbound Message Authentication</span></span>
 <span data-ttu-id="1de17-103">BizTalk Server puede autenticar el remitente de un mensaje (mediante la información de certificado o la seguridad integrada de Windows) para validar su identidad.</span><span class="sxs-lookup"><span data-stu-id="1de17-103">BizTalk Server can authenticate the sender of a message (either by using the certificate information or Windows integrated security) in order to validate the identity of the sender of the message.</span></span> <span data-ttu-id="1de17-104">La siguiente ilustración muestra las características de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que puede utilizar para autenticar mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="1de17-104">The following figure shows the security features in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that you can use to authenticate inbound messages.</span></span>  

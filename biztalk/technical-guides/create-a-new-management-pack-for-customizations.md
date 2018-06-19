@@ -1,14 +1,14 @@
 ---
-title: "Crear un nuevo módulo de administración para personalizaciones | Documentos de Microsoft"
-ms.custom: 
+title: Crear un nuevo módulo de administración para personalizaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ce1ffa0-57c7-41ce-b459-48c36522889e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297596"
 ---
 # <a name="create-a-new-management-pack-for-customizations"></a><span data-ttu-id="01e6c-102">Crear un nuevo módulo de administración para personalizaciones</span><span class="sxs-lookup"><span data-stu-id="01e6c-102">Create a New Management Pack for Customizations</span></span>
 <span data-ttu-id="01e6c-103">Mayoría de los módulos de administración de proveedores está sellada por lo que no se puede cambiar la configuración original en el archivo de módulo de administración.</span><span class="sxs-lookup"><span data-stu-id="01e6c-103">Most vendor management packs are sealed so that you cannot change any of the original settings in the management pack file.</span></span> <span data-ttu-id="01e6c-104">No obstante, puede crear personalizaciones, como invalidaciones o nuevos objetos de supervisión, y guardarlos en un módulo de administración distinto.</span><span class="sxs-lookup"><span data-stu-id="01e6c-104">However, you can create customizations, such as overrides or new monitoring objects, and save them to a different management pack.</span></span> <span data-ttu-id="01e6c-105">De forma predeterminada, Operations Manager 2007 R2/2012 guarda todas las personalizaciones en el módulo de administración predeterminado.</span><span class="sxs-lookup"><span data-stu-id="01e6c-105">By default, Operations Manager 2007 R2/2012 saves all customizations to the Default Management Pack.</span></span> <span data-ttu-id="01e6c-106">Como práctica recomendada, en su lugar, debe crear un módulo de administración independiente para cada módulo de administración sellado que desee personalizar.</span><span class="sxs-lookup"><span data-stu-id="01e6c-106">As a best practice, you should instead create a separate management pack for each sealed management pack that you want to customize.</span></span>  

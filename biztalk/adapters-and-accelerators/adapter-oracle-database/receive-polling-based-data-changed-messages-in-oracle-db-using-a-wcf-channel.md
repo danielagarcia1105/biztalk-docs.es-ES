@@ -1,17 +1,17 @@
 ---
 title: Recibir mensajes de cambio de datos basado en sondeo de base de datos de Oracle mediante el modelo de canal de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF channel model, receiving polling-based messages
 - how to, receive polling-based messages by using the WCF channel model
 ms.assetid: 13f501e4-cff7-497c-a9da-fdd6382c779f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216956"
 ---
 # <a name="receive-polling-based-data-changed-messages-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="8b427-102">Recibir mensajes de cambio de datos basado en sondeo de base de datos de Oracle mediante el modelo de canal de WCF</span><span class="sxs-lookup"><span data-stu-id="8b427-102">Receive Polling-based Data-changed Messages in Oracle Database using the WCF Channel Model</span></span>
 <span data-ttu-id="8b427-103">Puede configurar el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] para sondear una tabla de base de datos de Oracle o la vista de los cambios de datos.</span><span class="sxs-lookup"><span data-stu-id="8b427-103">You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] to poll an Oracle database table or view for any data changes.</span></span> <span data-ttu-id="8b427-104">Para llevar a cabo una operación de sondeo de este tipo, el adaptador ejecuta periódicamente una consulta SQL en una tabla de Oracle o vista seguido de un bloque de código de PL/SQL opcional.</span><span class="sxs-lookup"><span data-stu-id="8b427-104">To perform such a polling operation, the adapter periodically executes a SQL query against an Oracle table or view followed by an optional PL/SQL code block.</span></span> <span data-ttu-id="8b427-105">A continuación, se devuelven los resultados de la consulta SQL por el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en el código como fuertemente tipados conjunto de resultados en una operación de POLLINGSTMT entrante.</span><span class="sxs-lookup"><span data-stu-id="8b427-105">The results of the SQL query are then returned by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to your code as a strongly-typed result set in an inbound POLLINGSTMT operation.</span></span> <span data-ttu-id="8b427-106">Para obtener más información sobre el mecanismo utilizado para configurar y realizar el sondeo de Oracle de base de datos mediante la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [recibir mensajes de cambio de datos basado en sondeo en el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="8b427-106">For more information about the mechanism used to configure and perform polling on an Oracle database using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).</span></span> <span data-ttu-id="8b427-107">Se recomienda encarecidamente que lea este tema antes de continuar.</span><span class="sxs-lookup"><span data-stu-id="8b427-107">It is strongly recommended that you read this topic before proceeding.</span></span>  

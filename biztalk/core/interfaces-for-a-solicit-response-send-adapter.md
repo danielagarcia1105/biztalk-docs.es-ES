@@ -1,14 +1,14 @@
 ---
-title: "Interfaces para una petición-respuesta del adaptador de envío | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces para una petición-respuesta del adaptador de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c54650e8-dbfb-4c66-843b-0b82c8183dd4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257604"
 ---
 # <a name="interfaces-for-a-solicit-response-send-adapter"></a><span data-ttu-id="83773-102">Interfaces de un adaptador de envío de petición-respuesta</span><span class="sxs-lookup"><span data-stu-id="83773-102">Interfaces for a Solicit-Response Send Adapter</span></span>
 <span data-ttu-id="83773-103">Los adaptadores de envío utilizan el mismo mecanismo de lotes que los adaptadores de recepción para enviar mensajes de respuesta al servidor.</span><span class="sxs-lookup"><span data-stu-id="83773-103">Send adapters use the same batch mechanism as receive adapters to submit response messages back into the server.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Tarea 3: Configurar el envío y recepción formas2 | Documentos de Microsoft"
-ms.custom: 
+title: 'Tarea 3: Configurar el envío y recepción formas2 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6ebe7141-f2bd-4e6a-9204-d61bd64286af
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279028"
 ---
 # <a name="task-3-configure-the-send-and-receive-shapes"></a><span data-ttu-id="618a8-102">Tarea 3: Configurar el envío y recepción formas</span><span class="sxs-lookup"><span data-stu-id="618a8-102">Task 3: Configure the Send and Receive Shapes</span></span>
 <span data-ttu-id="618a8-103">Utilice este procedimiento para configurar las formas de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="618a8-103">Use the following procedure to configure the Send and Receive shapes.</span></span>  

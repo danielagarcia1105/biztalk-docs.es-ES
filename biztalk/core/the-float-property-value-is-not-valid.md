@@ -1,14 +1,14 @@
 ---
-title: "El valor de propiedad flotante no es válido | Documentos de Microsoft"
-ms.custom: 
+title: El valor de propiedad flotante no es válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 79327dc6-fc5e-4290-9663-16bb64970d4b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278868"
 ---
 # <a name="the-float-property-value-is-not-valid"></a><span data-ttu-id="878e2-102">El valor de propiedad flotante no es válido.</span><span class="sxs-lookup"><span data-stu-id="878e2-102">The float property value is not valid</span></span>
 ## <a name="details"></a><span data-ttu-id="878e2-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="878e2-103">Details</span></span>  

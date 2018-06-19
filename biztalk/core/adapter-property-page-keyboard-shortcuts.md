@@ -1,18 +1,18 @@
 ---
-title: "Métodos abreviados de teclado de la página de propiedades de adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados de teclado de la página de propiedades de adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, keyboard shortcuts
 - Adapter property page
 - keyboard shortcuts, Adapter property page
 ms.assetid: cc1b0fc5-82f3-4ef6-9557-191a4a460efe
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229780"
 ---
 # <a name="adapter-property-page-keyboard-shortcuts"></a><span data-ttu-id="a7a7b-102">Métodos abreviados de teclado de la página de propiedades del adaptador</span><span class="sxs-lookup"><span data-stu-id="a7a7b-102">Adapter Property Page Keyboard Shortcuts</span></span>
 <span data-ttu-id="a7a7b-103">Como en cualquier aplicación estándar de Microsoft Windows, puede utilizar métodos abreviados de teclado en las páginas de propiedades del adaptador para tener acceso a comandos que, por otra parte, están disponibles utilizando menús.</span><span class="sxs-lookup"><span data-stu-id="a7a7b-103">As in any standard Microsoft Windows application, you can use keyboard shortcuts in the adapter property pages to access commands that are otherwise available by using menus.</span></span> <span data-ttu-id="a7a7b-104">La tabla siguiente describe los métodos abreviados de teclado disponibles.</span><span class="sxs-lookup"><span data-stu-id="a7a7b-104">The following table describes the available keyboard shortcuts.</span></span>  

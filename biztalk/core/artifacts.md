@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230436"
 ---
 # <a name="artifacts"></a><span data-ttu-id="cdcc3-102">Artefactos</span><span class="sxs-lookup"><span data-stu-id="cdcc3-102">Artifacts</span></span>
 <span data-ttu-id="cdcc3-103">En este tema se explican los diferentes artefactos de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="cdcc3-103">This topic discusses the various BizTalk Server artifacts.</span></span> <span data-ttu-id="cdcc3-104">Entre los artefactos se incluyen los ensamblados, certificados de seguridad, directivas de reglas de negocio, archivos de configuración de BAM, enlaces, etc., necesarios para que funcione la aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="cdcc3-104">Artifacts include the assemblies, security certificates, business rules policies, BAM configuration files, bindings, and so forth that are necessary for a BizTalk application to function.</span></span> <span data-ttu-id="cdcc3-105">Los artefactos de una aplicación se visualizan y administran desde la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="cdcc3-105">You view and manage an application's artifacts from within the BizTalk Administration Console.</span></span>  

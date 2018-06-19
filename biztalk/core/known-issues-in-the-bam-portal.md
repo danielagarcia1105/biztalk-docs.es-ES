@@ -1,14 +1,14 @@
 ---
 title: Problemas conocidos con el Portal de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e681e910-c664-479c-86f3-a6ae0ec97775
-caps.latest.revision: 
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710759"
 ---
 # <a name="known-issues-in-the-bam-portal"></a><span data-ttu-id="87d67-102">Problemas conocidos del portal de BAM</span><span class="sxs-lookup"><span data-stu-id="87d67-102">Known Issues in the BAM Portal</span></span>
 <span data-ttu-id="87d67-103">Este tema contiene información que le ayudará a identificar y resolver los problemas que pueden surgir al usar el portal de BAM.</span><span class="sxs-lookup"><span data-stu-id="87d67-103">This topic contains information to help you identify and resolve issues that can occur while you are using the BAM portal.</span></span>  

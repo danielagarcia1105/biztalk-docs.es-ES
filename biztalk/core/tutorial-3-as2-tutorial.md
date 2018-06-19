@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22287556"
 ---
 # <a name="tutorial-3-as2-tutorial"></a><span data-ttu-id="c4748-102">Tutorial 3: Tutorial de AS2</span><span class="sxs-lookup"><span data-stu-id="c4748-102">Tutorial 3: AS2 Tutorial</span></span>
 <span data-ttu-id="c4748-103">En este tutorial, establezca una solución que reciba y envíe mensajes de cifrado EDIINT/AS2 a través de un transporte HTTP.</span><span class="sxs-lookup"><span data-stu-id="c4748-103">In this tutorial, you set up a solution that receives and sends EDIINT/AS2-encoded messages over an HTTP transport.</span></span>  

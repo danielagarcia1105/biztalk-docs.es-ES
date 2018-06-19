@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - WCF-BasicHttp adapters
 ms.assetid: 51bc56be-3c78-4bf9-87b6-8fb1435d8cde
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976098"
 ---
 # <a name="wcf-basichttp-adapter"></a><span data-ttu-id="2c29a-102">Adaptador de WCF-BasicHttp</span><span class="sxs-lookup"><span data-stu-id="2c29a-102">WCF-BasicHttp Adapter</span></span>
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)]<span data-ttu-id="2c29a-103"> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de WCF-BasicHttp para recibir y enviar solicitudes de servicio WCF a través de la [clase BasicHttpBinding](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx).</span><span class="sxs-lookup"><span data-stu-id="2c29a-103"> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF-BasicHttp adapter to receive and send WCF service requests through the [BasicHttpBinding class](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx).</span></span> <span data-ttu-id="2c29a-104">El adaptador de WCF-BasicHttp permite publicar orquestaciones y esquemas como servicios WCF y consumir servicios WCF externos con el **BasicHttpBinding**.</span><span class="sxs-lookup"><span data-stu-id="2c29a-104">The WCF-BasicHttp adapter enables you to publish orchestrations and schemas as WCF services and to consume external WCF services with the **BasicHttpBinding**.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Grupos de Windows y cuentas de usuario en BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, BTS_ADMIN_USERS role [SQL Server database]
@@ -81,7 +81,7 @@ helpviewer_keywords:
 - BAM Portal Users [Windows group]
 - Notification Services Application database [BAM], NSAdmin role [SQL Server database]
 ms.assetid: a01603bd-4105-4691-819d-de43b00b40f3
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -90,6 +90,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976106"
 ---
 # <a name="windows-groups-and-user-accounts-in-biztalk-server"></a><span data-ttu-id="a4ee6-102">Cuentas de grupos y de usuario de Windows en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="a4ee6-102">Windows Groups and User Accounts in BizTalk Server</span></span>
 <span data-ttu-id="a4ee6-103">Información sobre las cuentas de usuario y grupo de locales y de dominio de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a4ee6-103">Information about BizTalk Server local and domain group and user accounts.</span></span> <span data-ttu-id="a4ee6-104">El Administrador de configuración crea las cuentas de grupo de BizTalk necesarias de forma predeterminada si se instala BizTalk Server con todo el software necesario en un solo equipo.</span><span class="sxs-lookup"><span data-stu-id="a4ee6-104">The Configuration Manager creates the necessary BizTalk group accounts for you by default if you install BizTalk Server and all prerequisite software on a single computer.</span></span> <span data-ttu-id="a4ee6-105">La información de esta sección se aplica a topologías de varios equipos.</span><span class="sxs-lookup"><span data-stu-id="a4ee6-105">The information contained in this section applies to multiple computer topologies.</span></span>  

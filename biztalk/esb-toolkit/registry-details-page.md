@@ -1,14 +1,14 @@
 ---
-title: "Página de detalles de registro | Documentos de Microsoft"
-ms.custom: 
+title: Página de detalles de registro | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db723382-f7f1-485a-bf0e-84d6d7a986cc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294548"
 ---
 # <a name="registry-details-page"></a><span data-ttu-id="6fb05-102">Página de detalles de registro</span><span class="sxs-lookup"><span data-stu-id="6fb05-102">Registry Details Page</span></span>
 <span data-ttu-id="6fb05-103">La figura 1 muestra la página de detalles del registro, donde puede publicar una solicitud de registro de Universal Description, Discovery y Integration (UDDI) existente, crear una nueva solicitud o editar una solicitud existente.</span><span class="sxs-lookup"><span data-stu-id="6fb05-103">Figure 1 shows the Registry Details page, where you can publish an existing Universal Description, Discovery, and Integration (UDDI) registry request, create a new request, or edit an existing request.</span></span>  

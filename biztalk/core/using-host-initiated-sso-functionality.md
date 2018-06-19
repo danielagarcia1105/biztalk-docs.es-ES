@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286924"
 ---
 # <a name="using-host-initiated-sso-functionality"></a><span data-ttu-id="6e2ed-102">Usar Host inicia la funcionalidad de SSO</span><span class="sxs-lookup"><span data-stu-id="6e2ed-102">Using Host Initiated SSO Functionality</span></span>
 <span data-ttu-id="6e2ed-103">Host iniciado Single Sign-On usa la característica de transición de protocolos de Windows Server 2008 para realizar un inicio de sesión único para el usuario distinta de Windows.</span><span class="sxs-lookup"><span data-stu-id="6e2ed-103">Host Initiated Single Sign-On uses the protocol transition feature of Windows Server 2008 to perform Single Sign-On for the non-Windows user.</span></span> <span data-ttu-id="6e2ed-104">Esta característica necesita Windows Server 2008 y debe estar en un dominio que tenga su **nivel funcional del dominio** establecido en **Windows Server 2008**.</span><span class="sxs-lookup"><span data-stu-id="6e2ed-104">This feature requires Wiiinnndows Server 2008 and must be in a domain that has its **Domain Functional Level** set to **Windows Server 2008**.</span></span>  

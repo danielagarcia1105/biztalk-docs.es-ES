@@ -1,14 +1,14 @@
 ---
 title: 'Paso 8: Configurar el acuerdo de socio comercial entre las partes | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f532f85-3f09-4b60-b7bb-817ee3c79899
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280020"
 ---
 # <a name="step-8-configure-the-trading-partner-agreement-between-the-parties"></a><span data-ttu-id="55ed3-102">Paso 8: Configurar el acuerdo de socio comercial entre las partes</span><span class="sxs-lookup"><span data-stu-id="55ed3-102">Step 8: Configure the Trading Partner Agreement between the Parties</span></span>
 <span data-ttu-id="55ed3-103">![Paso 8 de 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-8of9.gif "Step_8of9")</span><span class="sxs-lookup"><span data-stu-id="55ed3-103">![Step 8 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-8of9.gif "Step_8of9")</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Mediante el Type2 MATH_NUMERIC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exponents, JD Edwards OneWorld adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MATH_NUMERIC type
 - adapters [JD Edwards OneWorld adapters], currency
 ms.assetid: 14d04576-0028-4af4-84bd-92c4ca492126
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288420"
 ---
 # <a name="using-the-mathnumeric-type"></a><span data-ttu-id="24625-102">Uso del tipo MATH_NUMERIC</span><span class="sxs-lookup"><span data-stu-id="24625-102">Using the MATH_NUMERIC Type</span></span>
 <span data-ttu-id="24625-103">En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan los exponentes, el número máximo de dígitos y el número máximo de dígitos decimales.</span><span class="sxs-lookup"><span data-stu-id="24625-103">This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits.</span></span> <span data-ttu-id="24625-104">También se incluye una explicación sobre lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="24625-104">It also includes a discussion on the following:</span></span>  
@@ -106,7 +107,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="24625-153">En otros casos se producen resultados impredecibles, como cuando un valor positivo muy grande se multiplica por otro.</span><span class="sxs-lookup"><span data-stu-id="24625-153">In other cases, unpredictable results occur, as when a very large positive value is multiplied by another.</span></span>  
   
- <span data-ttu-id="24625-154">1.01e32 * 2.053e32 no produce resultados fiables y no genera un error.</span><span class="sxs-lookup"><span data-stu-id="24625-154">1.01e32 * 2.053e32 does not yield reliable results and does not raise an error.</span></span>  
+ <span data-ttu-id="24625-154">1.01e32 \* 2.053e32 no produce resultados fiables y no genera un error.</span><span class="sxs-lookup"><span data-stu-id="24625-154">1.01e32 \* 2.053e32 does not yield reliable results and does not raise an error.</span></span>  
   
  <span data-ttu-id="24625-155">Para la mayoría de las situaciones empresariales, no se superan estos intervalos.</span><span class="sxs-lookup"><span data-stu-id="24625-155">For most business scenarios, these ranges are not exceeded.</span></span>  
   

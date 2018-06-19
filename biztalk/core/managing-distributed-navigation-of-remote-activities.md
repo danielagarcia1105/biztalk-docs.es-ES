@@ -1,14 +1,14 @@
 ---
-title: "Administrar la exploración distribuida de actividades remotas | Documentos de Microsoft"
-ms.custom: 
+title: Administrar la exploración distribuida de actividades remotas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cf6e0c2-ea72-4621-9ca7-fa43e404ec46
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263076"
 ---
 # <a name="managing-distributed-navigation-of-remote-activities"></a><span data-ttu-id="3a107-102">Administrar la exploración distribuida de actividades remotas</span><span class="sxs-lookup"><span data-stu-id="3a107-102">Managing Distributed Navigation of Remote Activities</span></span>
 <span data-ttu-id="3a107-103">La exploración distribuida de actividades remotas es el proceso por el que un usuario empresarial explora y ve actividades existentes en bases de datos de BAM diferentes.</span><span class="sxs-lookup"><span data-stu-id="3a107-103">Distributed navigation of remote activities is the process by which a business user navigates to and views activities that exist in separate BAM databases.</span></span> <span data-ttu-id="3a107-104">Cuando configura la infraestructura de BAM para proporcionar la exploración distribuida, el usuario empresarial puede obtener acceso a la actividad remota en el portal de BAM.</span><span class="sxs-lookup"><span data-stu-id="3a107-104">When you configure the BAM infrastructure to provide distributed navigation, the remote activity is accessible to the business user in the BAM portal.</span></span> <span data-ttu-id="3a107-105">Cuando el usuario hace clic en la actividad, la actividad se abre en el portal de BAM remoto.</span><span class="sxs-lookup"><span data-stu-id="3a107-105">When the user clicks the activity, the activity is opened on the remote BAM portal.</span></span> <span data-ttu-id="3a107-106">Llegados a este punto, el usuario se ha transferido de forma clara y eficaz al portal remoto de BAM y puede explorar la búsqueda de actividades, las agregaciones y la administración de alertas para la actividad como si la actividad existiera en el almacén de datos principal del usuario.</span><span class="sxs-lookup"><span data-stu-id="3a107-106">At this point the user has been transferred in a transparent and seamless manner to the remote BAM portal and can navigate to the activity search, aggregations, and alert management for the activity as if the activity existed on the user's home data store.</span></span>  

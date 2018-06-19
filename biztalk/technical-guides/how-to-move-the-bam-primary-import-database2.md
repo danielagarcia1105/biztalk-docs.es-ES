@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc4f2656-2faa-4503-9551-05e1b6eceb1a
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010877"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a><span data-ttu-id="012ac-102">Cómo mover la base de datos de importación principal de BAM</span><span class="sxs-lookup"><span data-stu-id="012ac-102">How to Move the BAM Primary Import Database</span></span>
 <span data-ttu-id="012ac-103">Este procedimiento se puede utilizar para mover la base de datos de importación principal de BAM a otro servidor.</span><span class="sxs-lookup"><span data-stu-id="012ac-103">You can use this procedure to move the BAM Primary Import database to another server.</span></span> <span data-ttu-id="012ac-104">Desde una perspectiva de escenario to-end, mover la base de datos de importación principal de BAM consta de dos pasos principales:</span><span class="sxs-lookup"><span data-stu-id="012ac-104">From an end-to-end scenario perspective, moving the BAM Primary Import database involves two major steps:</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  <span data-ttu-id="012ac-116">Detenga el servicio de notificación de alertas de BAM:</span><span class="sxs-lookup"><span data-stu-id="012ac-116">Stop the BAM Alerts Notification service:</span></span>  
   
-    1.  <span data-ttu-id="012ac-117">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="012ac-117">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="012ac-117">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="012ac-117">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="012ac-118">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="012ac-118">At the command prompt, type:</span></span>  
   
@@ -99,7 +100,7 @@ ms.lasthandoff: 03/28/2018
   
 7.  <span data-ttu-id="012ac-153">Cuando haya terminado de editar el archivo, guárdelo y salga de él.</span><span class="sxs-lookup"><span data-stu-id="012ac-153">When you are finished editing the file, save it and exit.</span></span>  
   
-8.  <span data-ttu-id="012ac-154">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="012ac-154">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+8.  <span data-ttu-id="012ac-154">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="012ac-154">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 9. <span data-ttu-id="012ac-155">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="012ac-155">At the command prompt, navigate to the following directory:</span></span>  
   
@@ -220,7 +221,7 @@ ms.lasthandoff: 03/28/2018
   
 8.  <span data-ttu-id="012ac-214">Inicie el servicio de notificación de alertas de BAM:</span><span class="sxs-lookup"><span data-stu-id="012ac-214">Start the BAM Alerts Notification service:</span></span>  
   
-    1.  <span data-ttu-id="012ac-215">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="012ac-215">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="012ac-215">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="012ac-215">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="012ac-216">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="012ac-216">At the command prompt, type:</span></span>  
   

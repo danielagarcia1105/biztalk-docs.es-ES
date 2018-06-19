@@ -1,17 +1,17 @@
 ---
 title: Usar SSO | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO]
 - SSO, managing
 ms.assetid: e7245632-9c71-4b1f-836d-a4ea1dd6e5ee
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287820"
 ---
 # <a name="using-sso"></a><span data-ttu-id="39616-102">Uso de SSO</span><span class="sxs-lookup"><span data-stu-id="39616-102">Using SSO</span></span>
 <span data-ttu-id="39616-103">Puede utilizar el Complemento MMC o la utilidad de administración de líneas de comandos (ssomanage) para administrar el sistema de SSO.</span><span class="sxs-lookup"><span data-stu-id="39616-103">You can use either the MMC Snap-in or the command line management utility (ssomanage) to manage the SSO system.</span></span> <span data-ttu-id="39616-104">Esto incluye actividades tales como la actualización de la base de datos de SSO, la adición, eliminación y administración de aplicaciones o la administración de asignaciones de usuario.</span><span class="sxs-lookup"><span data-stu-id="39616-104">This includes activities such as updating the SSO database, adding, deleting, and managing applications, and administering user mappings.</span></span>  

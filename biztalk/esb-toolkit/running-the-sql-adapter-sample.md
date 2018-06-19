@@ -1,14 +1,14 @@
 ---
 title: Ejecutar el ejemplo de adaptador SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 13566d08-7a59-4065-b0d7-19ae2765555e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294796"
 ---
 # <a name="running-the-sql-adapter-sample"></a><span data-ttu-id="d91a8-102">Ejecutar el ejemplo de adaptador SQL</span><span class="sxs-lookup"><span data-stu-id="d91a8-102">Running the SQL Adapter Sample</span></span>
 <span data-ttu-id="d91a8-103">El ejemplo de adaptador de SQL utiliza una aplicación de cliente de prueba de Windows Forms suministrada con el ejemplo de itinerario en rampa.</span><span class="sxs-lookup"><span data-stu-id="d91a8-103">The SQL Adapter sample uses a Windows Forms test client application provided with the Itinerary On-Ramp sample.</span></span>  

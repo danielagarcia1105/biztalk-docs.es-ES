@@ -1,18 +1,18 @@
 ---
-title: "Alert Manager en el Portal de BAM de página | Documentos de Microsoft"
-ms.custom: 
+title: Alert Manager en el Portal de BAM de página | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
 - alerts, creating
 - Alert Manager page [BAM portal]
 ms.assetid: 9e2a17e5-94f8-48ea-b704-44168fab6981
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230412"
 ---
 # <a name="alert-manager-on-the-bam-portal-page"></a><span data-ttu-id="7f404-102">Administrador de alertas de la página Portal de BAM</span><span class="sxs-lookup"><span data-stu-id="7f404-102">Alert Manager on the BAM Portal Page</span></span>
 <span data-ttu-id="7f404-103">Los programadores y usuarios empresariales y los analistas de negocios utilizan el Administrador de alertas de la página del portal de BAM para crear y editar alertas.</span><span class="sxs-lookup"><span data-stu-id="7f404-103">Business users, developers, and business analysts use the Alert Manager on the BAM portal page to create or edit an alert.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Contenido del Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e7114df-dadf-49ab-b024-44d84e47faa5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290620"
 ---
 # <a name="contents-of-the-biztalk-esb-toolkit"></a><span data-ttu-id="73b63-102">Contenido del Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="73b63-102">Contents of the BizTalk ESB Toolkit</span></span>
 <span data-ttu-id="73b63-103">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona una guía de arquitectura, patrones y prácticas recomendadas y una colección de componentes de BizTalk Server y .NET Framework para simplificar el desarrollo de soluciones de escala empresarial en la plataforma de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="73b63-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] provides architectural guidance, patterns and practices, and a collection of BizTalk Server and .NET Framework components to simplify the development of enterprise-scale solutions on the Microsoft platform.</span></span> <span data-ttu-id="73b63-104">El Kit de herramientas también proporciona capacidades para ayudar a los programadores extender mensajería existente y soluciones de integración.</span><span class="sxs-lookup"><span data-stu-id="73b63-104">The toolkit also provides capabilities to help developers extend existing messaging and integration solutions.</span></span> <span data-ttu-id="73b63-105">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consta de una colección de interoperar componentes que admiten e implementan un entorno de mensajería con acoplamiento flexible que simplifica el proceso de creación de aplicaciones empresariales dinámica basada en mensajes.</span><span class="sxs-lookup"><span data-stu-id="73b63-105">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consists of a collection of interoperating components that support and implement a loosely coupled messaging environment that simplifies the process of building dynamic message-based enterprise applications.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Uso de Scripts para implementar aplicaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e683c5f-7576-4382-9952-d577cd00186c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009677"
 ---
 # <a name="using-scripts-to-deploy-applications"></a><span data-ttu-id="94c5e-102">Uso de Scripts para implementar aplicaciones</span><span class="sxs-lookup"><span data-stu-id="94c5e-102">Using Scripts to Deploy Applications</span></span>
 <span data-ttu-id="94c5e-103">Debe utilizar secuencias de comandos para implementar aplicaciones de BizTalk siempre que sea posible.</span><span class="sxs-lookup"><span data-stu-id="94c5e-103">You should use scripts to deploy BizTalk applications where possible.</span></span> <span data-ttu-id="94c5e-104">Secuencias de comandos, reducen el riesgo de error humano durante el proceso de implementación.</span><span class="sxs-lookup"><span data-stu-id="94c5e-104">Scripting reduces the risk of human error during the deployment process.</span></span> <span data-ttu-id="94c5e-105">También debe documentar los procedimientos de implementación en profundidad.</span><span class="sxs-lookup"><span data-stu-id="94c5e-105">You should also document your deployment procedures in depth.</span></span> <span data-ttu-id="94c5e-106">Debe documentar todo lo que no script con pasos muy detallados.</span><span class="sxs-lookup"><span data-stu-id="94c5e-106">You should document anything that you do not script with very detailed steps.</span></span> <span data-ttu-id="94c5e-107">Esto incluye documentar los cambios a sistemas externos y a la implementación de componentes de terceros.</span><span class="sxs-lookup"><span data-stu-id="94c5e-107">This includes documenting any changes to external systems and to deployment of non-Microsoft components.</span></span>  

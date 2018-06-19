@@ -1,11 +1,11 @@
 ---
-title: "¿Qué ocurre con los artefactos durante la instalación y desinstalación | Documentos de Microsoft"
-ms.custom: 
+title: ¿Qué ocurre con los artefactos durante la instalación y desinstalación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - uninstalling, artifacts
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - artifacts, installing
 - uninstalling
 ms.assetid: f7b5bd8b-bfdf-4536-ae64-fa98c4885be6
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289644"
 ---
 # <a name="what-happens-to-artifacts-during-installation-and-uninstallation"></a><span data-ttu-id="ad78d-102">¿Qué le sucede a los artefactos durante la instalación y desinstalación?</span><span class="sxs-lookup"><span data-stu-id="ad78d-102">What Happens to Artifacts During Installation and Uninstallation</span></span>
 <span data-ttu-id="ad78d-103">En esta tema se describe cómo BizTalk Server trata los artefactos basados en archivos que se incluyen en una aplicación de BizTalk al instalar y desinstalar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="ad78d-103">This topic describes how BizTalk Server handles file-based artifacts included in a BizTalk application when you install and uninstall the application.</span></span>  

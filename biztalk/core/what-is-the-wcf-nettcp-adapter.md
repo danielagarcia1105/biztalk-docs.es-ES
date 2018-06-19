@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289412"
 ---
 # <a name="what-is-the-wcf-nettcp-adapter"></a><span data-ttu-id="5b750-103">¿Qué es el adaptador de WCF-NetTcp?</span><span class="sxs-lookup"><span data-stu-id="5b750-103">What Is the WCF-NetTcp Adapter?</span></span>
 <span data-ttu-id="5b750-104">El adaptador de WCF-NetTcp proporciona comunicación entre procesos o entre equipos conectados en el mismo equipo en un entorno en el que servicios y clientes se basan en WCF.</span><span class="sxs-lookup"><span data-stu-id="5b750-104">The WCF-NetTcp adapter provides connected cross-computer or cross-process communication in an environment in which both services and clients are WCF based.</span></span> <span data-ttu-id="5b750-105">Proporciona acceso completo a características de confiabilidad, seguridad y transacciones de SOAP.</span><span class="sxs-lookup"><span data-stu-id="5b750-105">It provides full access to SOAP security, reliability, and transaction features.</span></span> <span data-ttu-id="5b750-106">Este adaptador usa el transporte TCP y los mensajes tienen una codificación binaria.</span><span class="sxs-lookup"><span data-stu-id="5b750-106">This adapter uses the TCP transport, and messages have binary encoding.</span></span>  

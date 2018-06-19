@@ -1,11 +1,11 @@
 ---
 title: Administrar soluciones EDI y AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing, AS2 solutions
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing, EDI solutions
 - AS2 solutions, managing
 ms.assetid: f2e9babe-124d-4967-8c10-b201d71a283f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262356"
 ---
 # <a name="managing-edi-and-as2-solutions"></a><span data-ttu-id="17f66-102">Administrar soluciones EDI y AS2</span><span class="sxs-lookup"><span data-stu-id="17f66-102">Managing EDI and AS2 Solutions</span></span>
 <span data-ttu-id="17f66-103">En esta sección se muestra cómo crear entidades, perfiles de negocio, acuerdos y procesamiento por lotes utilizando el [!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)] consola.</span><span class="sxs-lookup"><span data-stu-id="17f66-103">This section shows you how to create parties, business profiles, agreements, and batching using the [!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)] console.</span></span>

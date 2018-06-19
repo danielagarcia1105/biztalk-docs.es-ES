@@ -1,11 +1,11 @@
 ---
-title: "Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2 | Documentos de Microsoft"
-ms.custom: 
+title: Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2016-01-04
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Passive configuration [Master Secret server]
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - installation, Windows Server cluster
 - clustering
 ms.assetid: 4d7f0842-561e-49e0-ab08-504256b9294f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287108"
 ---
 # <a name="using-windows-server-cluster-to-provide-high-availability-for-biztalk-server-hosts2"></a><span data-ttu-id="c607d-102">Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2</span><span class="sxs-lookup"><span data-stu-id="c607d-102">Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="c607d-103">Proporciona funcionalidad que le permite configurar un host de BizTalk como un recurso agrupado dentro de un grupo de clúster de conmutación por error de Windows Server.</span><span class="sxs-lookup"><span data-stu-id="c607d-103"> provides functionality that allows you to configure a BizTalk host as a clustered resource within a  Windows Server failover cluster group.</span></span> <span data-ttu-id="c607d-104">La compatibilidad con clústeres de hosts se proporciona para lograr alta disponibilidad en los adaptadores integrados de BizTalk que no se deben ejecutar en varias instancias de host simultáneamente, como el controlador de recepción FTP o, en determinadas circunstancias, el controlador de recepción POP3.</span><span class="sxs-lookup"><span data-stu-id="c607d-104">Host cluster support is provided to support high availability for integrated BizTalk adapters that should not be run in multiple host instances simultaneously, such as the FTP receive handler or, under certain circumstances, the POP3 receive handler.</span></span> <span data-ttu-id="c607d-105">También se proporciona la funcionalidad de agrupación de hosts para garantizar la coherencia transaccional de los mensajes enviados o recibidos por el adaptador de MSMQ en escenarios que requieren que el servicio MSMQ esté agrupado.</span><span class="sxs-lookup"><span data-stu-id="c607d-105">Host cluster support is also provided to ensure transactional consistency for messages sent or received by the MSMQ adapter in scenarios that require that the MSMQ service is clustered.</span></span>  

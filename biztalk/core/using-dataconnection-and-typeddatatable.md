@@ -1,11 +1,11 @@
 ---
 title: Utilizar DataConnection y TypedDataTable | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Retract function [Business Rules Engine], TypedData table
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - Update function [Business Rules Engine], TypedData table
 - Update function [Business Rules Engine], DataConnection
 ms.assetid: e825803e-6626-4ddd-a77e-75a3ba2b74a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287548"
 ---
 # <a name="using-dataconnection-and-typeddatatable"></a><span data-ttu-id="73c34-102">Utilizar DataConnection y TypedDataTable</span><span class="sxs-lookup"><span data-stu-id="73c34-102">Using DataConnection and TypedDataTable</span></span>
 <span data-ttu-id="73c34-103">En muchos escenarios, el uso **DataConnection** proporciona un mejor rendimiento y consume menos memoria que el uso de **TypedDataTable**.</span><span class="sxs-lookup"><span data-stu-id="73c34-103">In many scenarios, using **DataConnection** provides better performance and consumes less memory than using **TypedDataTable**.</span></span> <span data-ttu-id="73c34-104">Sin embargo, **TypedDataTable** puede ser necesario en algunos casos debido a ciertas restricciones sobre el uso de **DataConnection**.</span><span class="sxs-lookup"><span data-stu-id="73c34-104">However, **TypedDataTable** may be required in some cases because of certain restrictions on using **DataConnection**.</span></span> <span data-ttu-id="73c34-105">En otros casos, con **TypedDataTable** , se puede obtener un mejor rendimiento que el uso de **DataConnection**.</span><span class="sxs-lookup"><span data-stu-id="73c34-105">In some other cases, using **TypedDataTable** may yield better performance than using **DataConnection**.</span></span> <span data-ttu-id="73c34-106">En este tema se describen los criterios y factores que se deben tener en cuenta para elegir el enfoque adecuado.</span><span class="sxs-lookup"><span data-stu-id="73c34-106">This topic describes the criteria and factors that you should consider for choosing the right approach.</span></span>  

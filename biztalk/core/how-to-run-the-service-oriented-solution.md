@@ -1,11 +1,11 @@
 ---
-title: "Cómo ejecutar el servicio de la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ejecutar el servicio de la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, client applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - service solution tutorial, sending requests
 - service solution tutorial, SOAP transports
 ms.assetid: 764a5ddc-e571-41d8-9e2f-6d0fb3361b2f
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973818"
 ---
 # <a name="how-to-run-the-service-oriented-solution"></a><span data-ttu-id="88825-102">Cómo ejecutar la solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="88825-102">How to Run the Service Oriented Solution</span></span>
 <span data-ttu-id="88825-103">Los pasos siguientes describen cómo ejecutar y validar la solución orientada a servicios en un único equipo.</span><span class="sxs-lookup"><span data-stu-id="88825-103">The following steps describe how to run and validate the service oriented solution on a single computer.</span></span> <span data-ttu-id="88825-104">Una vez iniciado el simulador de seguimiento de pago, puede enviar solicitudes utilizando el transporte SOAP o MQSeries (con procedimientos independientes para las versiones de adaptador en línea de la solución orientada a servicios).</span><span class="sxs-lookup"><span data-stu-id="88825-104">After starting the Payment Tracker simulator, you can send requests using either the SOAP or MQSeries transport (with separate procedures for the adapter and inline versions of the service oriented solution).</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Mediante los interceptores WF y WCF de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a87a643-8e15-47d1-8d2a-3d899a1494ff
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287940"
 ---
 # <a name="using-the-bam-wcf-and-wf-interceptors"></a><span data-ttu-id="60ccc-102">Utilizar los interceptores WCF y WF de BAM</span><span class="sxs-lookup"><span data-stu-id="60ccc-102">Using the BAM WCF and WF Interceptors</span></span>
 <span data-ttu-id="60ccc-103">Los interceptores de BAM amplían la funcionalidad del interceptor de BAM para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en Windows Workflow Foundation (WF), Windows Communication Framework (WCF) y otros entornos en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="60ccc-103">BAM interceptors extend the BAM interceptor functionality for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] into Windows Workflow Foundation (WF), Windows Communication Framework (WCF), and other runtime environments.</span></span> <span data-ttu-id="60ccc-104">Mediante el uso de un interceptor BAM, puede llevar a cabo un seguimiento de sus procesos empresariales sin volver a compilar su solución WF o WCF: la integración se realiza a través de un archivo de configuración mediante XML y una serie de elementos que asignan eventos de aplicación a actividades de BAM y definen los datos, el Id. de correlación, el token de continuación y otros artefactos requeridos y opcionales.</span><span class="sxs-lookup"><span data-stu-id="60ccc-104">By using a BAM interceptor, you can track your business processes without recompiling your WF or WCF solution — integration is done through a configuration file using XML and a series of elements that map application events to BAM activities and define the data, correlation ID, continuation token and other required and optional artifacts.</span></span>  

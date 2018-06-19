@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 71a1b75c9a602b196504fa9f06984f0ed9d52e05
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014307"
 ---
 # <a name="setting-jd-edwards-enterpriseone-transport-properties"></a><span data-ttu-id="81f1a-101">Establecimiento de las propiedades de transporte de JD Edwards EnterpriseOne</span><span class="sxs-lookup"><span data-stu-id="81f1a-101">Setting JD Edwards EnterpriseOne Transport Properties</span></span>
 <span data-ttu-id="81f1a-102">Las propiedades del transporte JD Edwards EnterpriseOne se usan para el diseño y el tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="81f1a-102">The JD Edwards EnterpriseOne Transport Properties are used for design and run time.</span></span> <span data-ttu-id="81f1a-103">En el **propiedades de transporte** cuadro de diálogo, Establece los parámetros de conexión y credenciales específicas para el sistema de servidor y los objetos que está intentando obtener acceso.</span><span class="sxs-lookup"><span data-stu-id="81f1a-103">In the **Transport Properties** dialog box, you set the connection and credential parameters specific to the server system and the objects you are trying to access.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Administrar (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, SSO
 - SSOMANAGE command line utility
 ms.assetid: f738e344-4d81-4557-b399-68b59c413245
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970970"
 ---
 # <a name="manage-biztalk-server-sample"></a><span data-ttu-id="0cb42-102">Administrar (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="0cb42-102">Manage (BizTalk Server Sample)</span></span>
 <span data-ttu-id="0cb42-103">El ejemplo para administrar inicio de sesión único (SSO) muestra cómo se construyen archivos .xml que se pueden usar con la utilidad de línea de comandos ssomanage.exe para llevar a cabo los siguientes tipos de operaciones de administración:</span><span class="sxs-lookup"><span data-stu-id="0cb42-103">The Manage Single Sign-On (SSO) sample demonstrates how to construct .xml files that you can use with the ssomanage.exe command-line utility to perform the following types of administration operations:</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="0cb42-110">Este ejemplo incluye pares de XSD y archivos .xml de ejemplo para cada uno de estos tipos de operaciones.</span><span class="sxs-lookup"><span data-stu-id="0cb42-110">This sample includes pairs of XSD and sample .xml files for each of these types of operations.</span></span> <span data-ttu-id="0cb42-111">Los valores de los archivos .xml de ejemplo no son válidos.</span><span class="sxs-lookup"><span data-stu-id="0cb42-111">The values in the sample .xml files are not valid.</span></span> <span data-ttu-id="0cb42-112">Debe efectuar cambios en los valores para adecuarlos a sus necesidades específicas.</span><span class="sxs-lookup"><span data-stu-id="0cb42-112">You must make changes to the values that are appropriate to your specific requirements.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="0cb42-113">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="0cb42-113">Where to Find This Sample</span></span>  
- <span data-ttu-id="0cb42-114">*\<Ejemplos de ruta de acceso\>*\SSO\Manage\\</span><span class="sxs-lookup"><span data-stu-id="0cb42-114">*\<Samples Path\>*\SSO\Manage\\</span></span>  
+ <span data-ttu-id="0cb42-114">*\<Ejemplos de ruta de acceso\>* \SSO\Manage\\</span><span class="sxs-lookup"><span data-stu-id="0cb42-114">*\<Samples Path\>* \SSO\Manage\\</span></span>  
   
  <span data-ttu-id="0cb42-115">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="0cb42-115">The following table shows the files in this sample and describes their purpose.</span></span>  
   

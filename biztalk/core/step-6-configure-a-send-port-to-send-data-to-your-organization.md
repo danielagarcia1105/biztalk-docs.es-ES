@@ -1,14 +1,14 @@
 ---
-title: "Paso 6: Configurar un puerto de envío para enviar datos a su organización | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Configurar un puerto de envío para enviar datos a su organización | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 796570ca-8178-4679-9213-d67a2a189bf9
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277012"
 ---
 # <a name="step-6-configure-a-send-port-to-send-data-to-your-organization"></a><span data-ttu-id="5edd0-102">Paso 6: Configurar un puerto de envío para enviar datos a su organización</span><span class="sxs-lookup"><span data-stu-id="5edd0-102">Step 6: Configure a Send Port to Send Data to Your Organization</span></span>
 <span data-ttu-id="5edd0-103">![Paso 6 de 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")</span><span class="sxs-lookup"><span data-stu-id="5edd0-103">![Step 6 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")</span></span>  

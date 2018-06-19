@@ -1,14 +1,14 @@
 ---
-title: "Errores de tiempo de diseño WCF | Documentos de Microsoft"
-ms.custom: 
+title: Errores de tiempo de diseño WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1327906a-6524-4937-830c-844d5fc81dc6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288788"
 ---
 # <a name="wcf-design-time--errors"></a><span data-ttu-id="aa295-102">Errores de tiempo de diseño de WCF</span><span class="sxs-lookup"><span data-stu-id="aa295-102">WCF Design-Time  Errors</span></span>
 <span data-ttu-id="aa295-103">En esta sección se incluye información detallada para para diagnosticar y resolver errores de configuración en tiempo de diseño de WCF.</span><span class="sxs-lookup"><span data-stu-id="aa295-103">This section contains detailed information for diagnosing and resolving WCF design-time configuration errors.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Configuración estática de tiempo de diseño de adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Configuración estática de tiempo de diseño de adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 332723a4-e39d-43f5-af4d-bf9f56496535
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278900"
 ---
 # <a name="static-design-time-adapter-configuration"></a><span data-ttu-id="12e0f-102">Configuración estática de adaptador en tiempo de diseño</span><span class="sxs-lookup"><span data-stu-id="12e0f-102">Static Design-Time Adapter Configuration</span></span>
 <span data-ttu-id="12e0f-103">La parte de tiempo de diseño del adaptador se encarga de definir todas las propiedades disponibles y de validar la entrada del usuario.</span><span class="sxs-lookup"><span data-stu-id="12e0f-103">The design-time part of the adapter is responsible for defining all the available properties and for validating user input.</span></span> <span data-ttu-id="12e0f-104">En una configuración estática en tiempo de diseño, el adaptador usa la interfaz de usuario predeterminada (UI) para mostrar y editar sus propiedades.</span><span class="sxs-lookup"><span data-stu-id="12e0f-104">In a static design-time configuration the adapter uses the default user interface (UI) for displaying and editing its properties.</span></span>  

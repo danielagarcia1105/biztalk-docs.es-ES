@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: ec518c16383d847bf13706a6469b038b447c1543
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013659"
 ---
 # <a name="how-to-create-send-ports-for-peoplesoft-enterprise"></a><span data-ttu-id="c6d42-101">Creación de puertos de envío para PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="c6d42-101">How to Create Send Ports for PeopleSoft Enterprise</span></span>
 <span data-ttu-id="c6d42-102">Siga estos pasos para crear un puerto de envío mediante la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="c6d42-102">Follow these steps to create a send port using BizTalk Server Administration Console.</span></span>  

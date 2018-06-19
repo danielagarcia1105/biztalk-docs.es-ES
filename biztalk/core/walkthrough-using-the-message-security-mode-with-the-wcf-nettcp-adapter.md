@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar el modo de seguridad de mensajes con el adaptador WCF-NetTcp | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7f6e892-34ce-4132-8867-54cc3bbfe507
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010613"
 ---
 # <a name="walkthrough-using-the-message-security-mode-with-the-wcf-nettcp-adapter"></a><span data-ttu-id="85d89-102">Tutorial: Usar el modo de seguridad de mensajes con el adaptador WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="85d89-102">Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter</span></span>
   

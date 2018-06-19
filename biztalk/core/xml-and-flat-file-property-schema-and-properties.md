@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d917b82-62c6-489f-99a9-97e429b6f7c0
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22290420"
 ---
 # <a name="xml-and-flat-file-property-schema-and-properties"></a><span data-ttu-id="2bda2-102">Propiedades y esquema de propiedades de archivo sin formato y XML</span><span class="sxs-lookup"><span data-stu-id="2bda2-102">XML and Flat File Property Schema and Properties</span></span>
 <span data-ttu-id="2bda2-103">El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de nombres contiene propiedades que puede utilizar para configurar los componentes de canalización de ensamblador de archivo sin formato y desensamblador de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="2bda2-103">The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace contains properties you can use to configure Flat File Assembler and Flat File Disassembler pipeline components.</span></span> <span data-ttu-id="2bda2-104">Las propiedades se describen en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="2bda2-104">The properties are described in the following table.</span></span>  

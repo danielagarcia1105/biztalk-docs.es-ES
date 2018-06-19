@@ -1,14 +1,14 @@
 ---
-title: "Paso 6: Configurar EDI-AS2 ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Configurar EDI-AS2 ubicación de recepción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 167f8ba2-d38b-4088-863b-2bd90c2a12a2
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276260"
 ---
 # <a name="step-6-configure-the-edi-as2-receive-location"></a><span data-ttu-id="9c7eb-102">Paso 6: Configurar EDI-AS2 ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="9c7eb-102">Step 6: Configure the EDI-AS2 Receive Location</span></span>
 <span data-ttu-id="9c7eb-103">![Paso 6 de 11](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")</span><span class="sxs-lookup"><span data-stu-id="9c7eb-103">![Step 6 of 11](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")</span></span>  

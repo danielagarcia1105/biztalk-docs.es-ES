@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230636"
 ---
 # <a name="btadserver"></a><span data-ttu-id="77069-102">BTAD_Server</span><span class="sxs-lookup"><span data-stu-id="77069-102">BTAD_Server</span></span>
 <span data-ttu-id="77069-103">Cuando las secuencias de comandos previas y posteriores al procesamiento se ejecutan en la importación de la aplicación, se establece la variable de entorno BTAD_Server.</span><span class="sxs-lookup"><span data-stu-id="77069-103">When pre- and post-processing scripts run on application import, the BTAD_Server environment variable is set.</span></span> <span data-ttu-id="77069-104">Especifica el nombre de la instancia de SQL Server que ejecuta la base de datos de administración de BizTalk para el grupo.</span><span class="sxs-lookup"><span data-stu-id="77069-104">It specifies the name of the SQL Server instance running the BizTalk Management database for the group.</span></span>  

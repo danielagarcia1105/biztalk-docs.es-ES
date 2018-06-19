@@ -1,14 +1,14 @@
 ---
-title: "Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f6373a8-d9d6-46c6-95e3-f62dd33c342a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010589"
 ---
 # <a name="how-to-select-an-itinerary-using-a-business-rules-policy"></a><span data-ttu-id="b350e-102">Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="b350e-102">How to: Select an Itinerary Using a Business Rules Policy</span></span>
 ## <a name="goal"></a><span data-ttu-id="b350e-103">Objetivo</span><span class="sxs-lookup"><span data-stu-id="b350e-103">Goal</span></span>  
@@ -75,7 +76,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-add-a-selection-rule-for-customer-globalbank-west"></a><span data-ttu-id="b350e-134">Para agregar una regla de selección de cliente GlobalBank West</span><span class="sxs-lookup"><span data-stu-id="b350e-134">To add a selection rule for customer GlobalBank West</span></span>  
   
-1.  <span data-ttu-id="b350e-135">En el **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="b350e-135">In the **ResolveItineraryBasedOnCustomer** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="b350e-136">Nombre de la regla **SetGlobalBankWestItinerary**.</span><span class="sxs-lookup"><span data-stu-id="b350e-136">Name the rule **SetGlobalBankWestItinerary**.</span></span>  
+1.  <span data-ttu-id="b350e-135">En el **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="b350e-135">In the **ResolveItineraryBasedOnCustomer** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="b350e-136">Nombre de la regla **SetGlobalBankWestItinerary**.</span><span class="sxs-lookup"><span data-stu-id="b350e-136">Name the rule **SetGlobalBankWestItinerary**.</span></span>  
   
 2.  <span data-ttu-id="b350e-137">En el Explorador de hechos, haga clic en el **esquemas XML** pestaña, haga clic en **esquemas**y, a continuación, haga clic en **examinar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-137">In Facts Explorer, click the **XML Schemas** tab, right-click **Schemas**, and then click **Browse**.</span></span>  
   
@@ -99,7 +100,7 @@ ms.lasthandoff: 12/01/2017
   
 9. <span data-ttu-id="b350e-146">En el Explorador de hechos, haga clic en el **vocabularios** ficha. Expanda el **ESB. Itinerario** vocabulario, expanda **versión 1.1**y, a continuación, arrastre el **nombre del conjunto de itinerario** definición a **acciones**.</span><span class="sxs-lookup"><span data-stu-id="b350e-146">In Facts Explorer, click the **Vocabularies** tab. Expand the **ESB.Itinerary** vocabulary, expand **Version 1.1**, and then drag the **Set Itinerary Name** definition to **Actions**.</span></span>  
   
-10. <span data-ttu-id="b350e-147">Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **GlobalBankWestItinerary**.</span><span class="sxs-lookup"><span data-stu-id="b350e-147">Click **\<empty string\>**, and then type **GlobalBankWestItinerary**.</span></span>  
+10. <span data-ttu-id="b350e-147">Haga clic en  **\<una cadena vacía\>** y, a continuación, escriba **GlobalBankWestItinerary**.</span><span class="sxs-lookup"><span data-stu-id="b350e-147">Click **\<empty string\>**, and then type **GlobalBankWestItinerary**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="b350e-148">Más adelante en este tema de procedimientos, creará este itinerario para procesar los mensajes de GlobalBank West.</span><span class="sxs-lookup"><span data-stu-id="b350e-148">Later in this How-to topic, you will create this itinerary to process messages from GlobalBank West.</span></span>  
@@ -108,7 +109,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="b350e-150">En el Explorador de directivas, haga clic en el **SetGlobalBankWestItinerary** de regla y, a continuación, haga clic en **copia**.</span><span class="sxs-lookup"><span data-stu-id="b350e-150">In Policy Explorer, right-click the **SetGlobalBankWestItinerary** rule, and then click **Copy**.</span></span>  
   
-2.  <span data-ttu-id="b350e-151">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **pegar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-151">Right-click **Version 1.0 (not saved)**, and then click **Paste**.</span></span>  
+2.  <span data-ttu-id="b350e-151">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **pegar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-151">Right-click **Version 1.0 (not saved)**, and then click **Paste**.</span></span>  
   
 3.  <span data-ttu-id="b350e-152">En el **nombre de nueva regla** cuadro de diálogo, escriba **SetGlobalBankEastItinerary**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-152">In the **New Rule Name** dialog box, type **SetGlobalBankEastItinerary**, and then click **OK**.</span></span>  
   
@@ -127,7 +128,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-publish-and-deploy-the-policy"></a><span data-ttu-id="b350e-159">Para publicar e implementar la directiva</span><span class="sxs-lookup"><span data-stu-id="b350e-159">To publish and deploy the policy</span></span>  
   
-1.  <span data-ttu-id="b350e-160">En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic derecho **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-160">In Policy Explorer, under the **ResolveItineraryBasedOnCustomer** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
+1.  <span data-ttu-id="b350e-160">En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic derecho **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-160">In Policy Explorer, under the **ResolveItineraryBasedOnCustomer** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
   
 2.  <span data-ttu-id="b350e-161">En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic derecho **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="b350e-161">In Policy Explorer, under the **ResolveItineraryBasedOnCustomer** policy, right click **Version 1.0 - Published**, and then click **Deploy**.</span></span>  
   

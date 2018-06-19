@@ -1,14 +1,14 @@
 ---
 title: Usar varias continuaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01a38087-71ee-40b3-a957-6a2653bd6435
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288940"
 ---
 # <a name="using-multiple-continuations"></a><span data-ttu-id="c121c-102">Usar varias continuaciones</span><span class="sxs-lookup"><span data-stu-id="c121c-102">Using Multiple Continuations</span></span>
 <span data-ttu-id="c121c-103">Usar el Editor de perfiles de seguimiento (TPE) en entornos donde hay varias actividades requiere una comprensión adecuada del escenario en que se realiza el seguimiento de estas actividades, a fin de asignar los puertos de recepción, las orquestaciones y los puertos de envío en el orden correcto.</span><span class="sxs-lookup"><span data-stu-id="c121c-103">Using the Tracking Profile Editor (TPE) in environments in which there are multiple activities requires that you understand the scenario in which the activities are being tracked in order to map the receive ports, orchestrations, and send ports in the proper sequence.</span></span>  

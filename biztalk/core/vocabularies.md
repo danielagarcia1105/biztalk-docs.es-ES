@@ -1,11 +1,11 @@
 ---
 title: Vocabularios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, vocabularies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - vocabularies
 - Business Rules Engine, vocabularies
 ms.assetid: 591673a0-2c4d-41ca-9997-b363c086dd66
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288012"
 ---
 # <a name="vocabularies"></a><span data-ttu-id="efc1a-102">Vocabularios</span><span class="sxs-lookup"><span data-stu-id="efc1a-102">Vocabularies</span></span>
 <span data-ttu-id="efc1a-103">Los términos usados para definir condiciones y acciones de reglas se expresan normalmente con una nomenclatura específica del dominio o del sector.</span><span class="sxs-lookup"><span data-stu-id="efc1a-103">The terms used to define rule conditions and actions are usually expressed by domain or industry-specific nomenclature.</span></span> <span data-ttu-id="efc1a-104">Por ejemplo, un usuario de correo electrónico escribe reglas en términos de mensajes "recibidos de" y mensajes "recibidos después de", mientras que un analista de seguros escribe reglas en términos de "factores de riesgo" e "importe de cobertura".</span><span class="sxs-lookup"><span data-stu-id="efc1a-104">For example, an e-mail user writes rules in terms of messages "received from" and messages "received after," while an insurance business analyst writes rules in terms of "risk factors" and "coverage amount."</span></span>  

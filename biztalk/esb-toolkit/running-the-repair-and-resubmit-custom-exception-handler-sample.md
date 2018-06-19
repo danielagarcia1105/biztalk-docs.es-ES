@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7363c440-44aa-4d08-8290-72787d17ac60
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22296940"
 ---
 # <a name="running-the-repair-and-resubmit-custom-exception-handler-sample"></a><span data-ttu-id="72460-102">Ejecutar el ejemplo de controlador de excepciones personalizadas de reparación y vuelva a intentarlo</span><span class="sxs-lookup"><span data-stu-id="72460-102">Running the Repair and Resubmit Custom Exception Handler Sample</span></span>
 <span data-ttu-id="72460-103">El ejemplo de reparación y volver a enviar controlador de excepciones personalizado muestra una técnica muy eficaz para integrar intervención humana en ESB y aplicación de BizTalk procesa e implementa un modelo de diseño útil de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="72460-103">The Repair and Resubmit Custom Exception Handler sample demonstrates an extremely effective technique for integrating human intervention into ESB and Microsoft BizTalk–based application processes and implements a useful design pattern.</span></span> <span data-ttu-id="72460-104">El código de ejemplo se integra perfectamente en el sistema de administración de excepciones de ESB.</span><span class="sxs-lookup"><span data-stu-id="72460-104">The sample code integrates seamlessly into the ESB exception management system.</span></span>  

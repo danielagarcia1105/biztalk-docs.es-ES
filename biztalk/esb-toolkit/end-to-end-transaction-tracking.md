@@ -1,14 +1,14 @@
 ---
 title: Seguimiento de transacciones de extremo a extremo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebacd2e4-6b5c-4dc4-8361-b5b77042debc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294116"
 ---
 # <a name="end-to-end-transaction-tracking"></a><span data-ttu-id="aefaf-102">Seguimiento de transacciones de extremo a extremo</span><span class="sxs-lookup"><span data-stu-id="aefaf-102">End-to-End Transaction Tracking</span></span>
 <span data-ttu-id="aefaf-103">Visibilidad de negocio se relaciona con la capacidad de operadores y los usuarios para supervisar el flujo de tráfico a través del entorno de tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="aefaf-103">Business visibility relates to the ability of operators and users to monitor the flow of traffic through the run-time environment.</span></span> <span data-ttu-id="aefaf-104">Las empresas deben ser capaz de realizar un seguimiento de los procesos y las transacciones que fluyen a través de sus sistemas en cada paso para asegurarse de que pueden jugar su parte en que contribuyen a la generación de ingresos.</span><span class="sxs-lookup"><span data-stu-id="aefaf-104">Enterprises must be able to track the processes and transactions flowing through their systems at each step to ensure that they play their part in contributing to revenue generation.</span></span> <span data-ttu-id="aefaf-105">AmberPoint SMS simplifica la medida y el seguimiento de estos mensajes en Microsoft BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="aefaf-105">AmberPoint SMS simplifies the measurement and tracking of these messages in Microsoft BizTalk Server.</span></span> <span data-ttu-id="aefaf-106">El sistema permite a los usuarios definir nuevas unidades de administración que se alinean con los flujos de procesos empresariales de extremo a extremo, en lugar de que se requiere para que se ajuste a la forma en que los desarrolladores elegido para empaquetar e implementar componentes de servicio individuales.</span><span class="sxs-lookup"><span data-stu-id="aefaf-106">The system allows users to define new units of management that align with end-to-end business process flows, instead of being required to conform to the way developers chose to package and deploy individual service components.</span></span> <span data-ttu-id="aefaf-107">La figura 1 muestra la pantalla para definir las unidades de administración.</span><span class="sxs-lookup"><span data-stu-id="aefaf-107">Figure 1 shows the screen for defining management units.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Mensajes de archivo sin formato con registros posicionales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72c17c25-3847-458e-a43e-0dbdc42db749
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005597"
 ---
 # <a name="flat-file-messages-with-positional-records"></a><span data-ttu-id="a6022-102">Mensajes de archivo sin formato con registros posicionales</span><span class="sxs-lookup"><span data-stu-id="a6022-102">Flat File Messages with Positional Records</span></span>
 <span data-ttu-id="a6022-103">Los registros posicionales dentro de un mensaje de instancia de archivo sin formato contienen campos (elementos de datos) y cada uno de ellos tiene una longitud predefinida.</span><span class="sxs-lookup"><span data-stu-id="a6022-103">Positional records within a flat file instance message contain individual fields (items of data) that are each of a predefined length.</span></span> <span data-ttu-id="a6022-104">Los campos se analizan según estas longitudes.</span><span class="sxs-lookup"><span data-stu-id="a6022-104">The fields are parsed according to these lengths.</span></span> <span data-ttu-id="a6022-105">Por ejemplo, considere el siguiente registro posicional de un mensaje de instancia de archivo sin formato que contiene una dirección de envío (la primera línea muestra el número de caracteres reservados para cada campo).</span><span class="sxs-lookup"><span data-stu-id="a6022-105">For example, consider the following positional record from a flat file instance message, which contains a ship to address (the first line shows the number of characters reserved for each field).</span></span>  

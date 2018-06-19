@@ -1,18 +1,18 @@
 ---
 title: Recomendaciones de seguridad del adaptador de SMTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], security
 - SMTP adapters, security
 - security, SMTP adapters
 ms.assetid: 45f13744-a0eb-4b4e-85cd-6b862b384ad5
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276500"
 ---
 # <a name="smtp-adapter-security-recommendations"></a><span data-ttu-id="f7f42-102">Recomendaciones de seguridad del adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="f7f42-102">SMTP Adapter Security Recommendations</span></span>
 <span data-ttu-id="f7f42-103">El adaptador de SMTP se utiliza para intercambiar información entre un servidor que ejecuta Microsoft BizTalk Server y otras aplicaciones a través del Protocolo simple de transferencia de correo (SMTP).</span><span class="sxs-lookup"><span data-stu-id="f7f42-103">You use the SMTP adapter to exchange information between a server running BizTalk Server and other applications by means of the Simple Mail Transfer Protocol (SMTP) protocol.</span></span> <span data-ttu-id="f7f42-104">BizTalk Server puede enviar mensajes a otras aplicaciones mediante la creación de un mensaje de correo electrónico y su entrega a una dirección de correo electrónico especificada.</span><span class="sxs-lookup"><span data-stu-id="f7f42-104">BizTalk Server can send messages to other applications by creating an e-mail message and delivering it to a specified e-mail address.</span></span> <span data-ttu-id="f7f42-105">El adaptador de SMTP sólo puede utilizarse para enviar mensajes.</span><span class="sxs-lookup"><span data-stu-id="f7f42-105">You can use the SMTP adapter only for sending messages.</span></span> <span data-ttu-id="f7f42-106">Para obtener más información acerca del adaptador de SMTP, consulte [adaptador de SMTP](../core/smtp-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="f7f42-106">For more information about the SMTP adapter, see [SMTP Adapter](../core/smtp-adapter.md).</span></span>  

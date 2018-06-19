@@ -1,14 +1,14 @@
 ---
-title: "Orquestación PIPAutomation de acción doble | Documentos de Microsoft"
-ms.custom: 
+title: Orquestación PIPAutomation de acción doble | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9159f7b1-cb83-41f1-8637-39c5ddcc63ae
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008085"
 ---
 # <a name="double-action-pipautomation-orchestration"></a><span data-ttu-id="cd035-102">Orquestación PIPAutomation de acción doble</span><span class="sxs-lookup"><span data-stu-id="cd035-102">Double Action PIPAutomation Orchestration</span></span>
 <span data-ttu-id="cd035-103">El ejemplo DoubleAction.odx muestra cómo implementar una orquestación para generar respuestas automáticamente para los procesos de interfaz de socio (PIP) de doble acción 0c2, 0c4, 3A2 y 3A4.</span><span class="sxs-lookup"><span data-stu-id="cd035-103">The DoubleAction.odx sample illustrates how to implement an orchestration to automatically generate responses for the double-action Partner Interface Processes (PIPs) 0C2, 0C4, 3A2, and 3A4.</span></span> <span data-ttu-id="cd035-104">Puede extender este proyecto de ejemplo para admitir PIP de doble acción adicionales.</span><span class="sxs-lookup"><span data-stu-id="cd035-104">You can extend this sample project to support additional double-action PIPs.</span></span>  

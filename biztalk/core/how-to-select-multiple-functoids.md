@@ -1,14 +1,14 @@
 ---
-title: "Cómo seleccionar varios Functoids | Documentos de Microsoft"
-ms.custom: 
+title: Cómo seleccionar varios Functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51f4528c-4846-4e02-9591-07e2fde131ae
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255076"
 ---
 # <a name="how-to-select-multiple-functoids"></a><span data-ttu-id="c248d-102">Cómo seleccionar varios functoids</span><span class="sxs-lookup"><span data-stu-id="c248d-102">How to Select Multiple Functoids</span></span>
 <span data-ttu-id="c248d-103">Cuando trabaja con asignaciones grandes, puede que desee llevar a cabo operaciones en múltiples functoids al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="c248d-103">When dealing with large maps, you may want to perform operations on multiple functoids at the same time.</span></span> <span data-ttu-id="c248d-104">En tales casos, puede seleccionar todos los functoids que le interesen y llevar a cabo la operación.</span><span class="sxs-lookup"><span data-stu-id="c248d-104">In such cases, you can select all of the functoids of interest and then perform the operation.</span></span> <span data-ttu-id="c248d-105">Esto es útil, por ejemplo, cuando desea mover un conjunto de functoids conectados y los vínculos que los conectan de una página de cuadrícula a otra.</span><span class="sxs-lookup"><span data-stu-id="c248d-105">This is useful, for example, when you want to move a set of connected functoids, and their connecting links, from one grid page to another.</span></span>  

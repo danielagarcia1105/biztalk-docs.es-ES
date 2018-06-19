@@ -1,14 +1,14 @@
 ---
-title: "Secuencias de comandos mediante XSLT en línea y plantillas de llamada XSLT | Documentos de Microsoft"
-ms.custom: 
+title: Secuencias de comandos mediante XSLT en línea y plantillas de llamada XSLT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3168417-3653-4c9e-a09c-184ffdc0ccb2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270436"
 ---
 # <a name="scripting-using-inline-xslt-and-xslt-call-templates"></a><span data-ttu-id="53573-102">Crear secuencias de comandos mediante XSLT en línea y plantillas de llamada XSLT en línea</span><span class="sxs-lookup"><span data-stu-id="53573-102">Scripting Using Inline XSLT and XSLT Call Templates</span></span>
 <span data-ttu-id="53573-103">Puede escribir directamente hojas de estilos Extensible Stylesheet Language Transformations (XSLT) para su uso en el **secuencias de comandos** functoid.</span><span class="sxs-lookup"><span data-stu-id="53573-103">You can directly write Extensible Stylesheet Language Transformations (XSLT) stylesheets for use in the **Scripting** functoid.</span></span> <span data-ttu-id="53573-104">Esto le permite realizar transformaciones que tal vez los vínculos y functoids integrados no sean capaces de representar.</span><span class="sxs-lookup"><span data-stu-id="53573-104">This enables you to perform transformations, that links and built-in functoids may not be able to represent.</span></span> <span data-ttu-id="53573-105">Hay dos tipos de secuencias de comandos XSLT: en línea plantillas de llamada XSLT y XSLT.</span><span class="sxs-lookup"><span data-stu-id="53573-105">There are two kinds of XSLT scripts: inline XSLT and XSLT call templates.</span></span> <span data-ttu-id="53573-106">Cuando selecciona una de ellas en el **Seleccionar tipo de script** lista desplegable en el **configurar Functoid de script** cuadro de diálogo, aparece el código de ejemplo que puede utilizar.</span><span class="sxs-lookup"><span data-stu-id="53573-106">When you select either in the **Select script type** dropdown in the **Configure Scripting Functoid** dialog box, sample code appears that you may use.</span></span>  

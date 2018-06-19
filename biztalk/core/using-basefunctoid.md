@@ -1,14 +1,14 @@
 ---
 title: Utilizar BaseFunctoid | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb26a54d-20bf-4302-a5cb-b38e4091002b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288716"
 ---
 # <a name="using-basefunctoid"></a><span data-ttu-id="1e67b-102">Utilizar BaseFunctoid</span><span class="sxs-lookup"><span data-stu-id="1e67b-102">Using BaseFunctoid</span></span>
 <span data-ttu-id="1e67b-103">Todos los functoids personalizados deben derivar de la clase **BaseFunctoid** .</span><span class="sxs-lookup"><span data-stu-id="1e67b-103">All custom functoids must derive from the **BaseFunctoid** class.</span></span> <span data-ttu-id="1e67b-104">Primero, debe reemplazar el constructor y realizar un conjunto de llamadas que indiquen al Asignador de BizTalk acerca de su functoid personalizado.</span><span class="sxs-lookup"><span data-stu-id="1e67b-104">You must first override the constructor and make a set of calls that tell BizTalk Mapper about your custom functoid.</span></span> <span data-ttu-id="1e67b-105">A continuación, tiene que escribir la lógica de functoid.</span><span class="sxs-lookup"><span data-stu-id="1e67b-105">Then you need to write the functoid logic.</span></span>  

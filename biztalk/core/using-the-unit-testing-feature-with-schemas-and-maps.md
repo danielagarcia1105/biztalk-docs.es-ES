@@ -1,14 +1,14 @@
 ---
-title: "Uso de la característica con esquemas y asignaciones de pruebas de unidades | Documentos de Microsoft"
-ms.custom: 
+title: Uso de la característica con esquemas y asignaciones de pruebas de unidades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29bcb159-ffdb-44b9-a3ff-565973d41797
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288996"
 ---
 # <a name="using-the-unit-testing-feature-with-schemas-and-maps"></a><span data-ttu-id="94f4b-102">Uso de la característica de pruebas de unidades con esquemas y asignaciones</span><span class="sxs-lookup"><span data-stu-id="94f4b-102">Using the Unit Testing Feature with Schemas and Maps</span></span>
 <span data-ttu-id="94f4b-103">En este tema se muestra el modo de usar la función de pruebas de unidad para agregar una prueba de unidad para los esquemas y la asignación al ejemplo de orquestación HelloWorld.</span><span class="sxs-lookup"><span data-stu-id="94f4b-103">This topic demonstrates how to use the unit testing feature to add a unit test for the schemas and map in the HelloWorld orchestration example.</span></span>  

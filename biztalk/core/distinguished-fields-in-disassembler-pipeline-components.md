@@ -22,6 +22,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31008447"
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a><span data-ttu-id="e50f9-102">Componentes de canalización de campos distintivos en el Desensamblador</span><span class="sxs-lookup"><span data-stu-id="e50f9-102">Distinguished Fields in Disassembler Pipeline Components</span></span>
 <span data-ttu-id="e50f9-103">Los componentes de desensamblador XML, desensamblador de BizTalk Framework o desensamblador de archivos sin formato escriben en el contexto del mensaje los campos distintivos definidos en un esquema.</span><span class="sxs-lookup"><span data-stu-id="e50f9-103">Distinguished fields defined in a schema are written to the message context by the XML Disassembler, BizTalk Framework Disassembler, or Flat File Disassembler pipeline components in the following format:</span></span>  

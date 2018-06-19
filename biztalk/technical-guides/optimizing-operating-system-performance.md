@@ -1,14 +1,14 @@
 ---
 title: Optimizar el rendimiento del sistema operativo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44975fb4-2bdd-4fde-b6fc-2b2ea9d036b9
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298876"
 ---
 # <a name="optimizing-operating-system-performance"></a><span data-ttu-id="52b39-102">Optimizar el rendimiento del sistema operativo</span><span class="sxs-lookup"><span data-stu-id="52b39-102">Optimizing Operating System Performance</span></span>
 <span data-ttu-id="52b39-103">En esta sección se proporciona recomendaciones para optimizar el rendimiento de los equipos de BizTalk Server utilizados en un entorno de BizTalk Server de producción.</span><span class="sxs-lookup"><span data-stu-id="52b39-103">This section provides recommendations for optimizing performance of the BizTalk Server computers used in a production BizTalk Server environment.</span></span> <span data-ttu-id="52b39-104">Las optimizaciones incluidas en esta sección se aplican después de que se ha instalado y configurado el servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="52b39-104">The optimizations listed in this section are applied after BizTalk Server has been installed and configured.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de latencia de cuadro de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de latencia de cuadro de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9eb5789-80bd-40d4-8c27-7ae117fd9232
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279876"
 ---
 # <a name="troubleshooting-messagebox-latency-issues"></a><span data-ttu-id="eb8bb-102">Solucionar problemas de latencia del cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="eb8bb-102">Troubleshooting MessageBox Latency Issues</span></span>
 <span data-ttu-id="eb8bb-103">En un mundo perfecto, todos los mensajes se deberían procesar y entregar en el momento de publicarse en la base de datos de cuadro de mensajes, y ésta nunca debería alcanzar un tamaño excesivo.</span><span class="sxs-lookup"><span data-stu-id="eb8bb-103">In a perfect world, all messages would be processed and delivered as soon as they were published to the MessageBox database and the MessageBox database would never grow to an excessive size.</span></span> <span data-ttu-id="eb8bb-104">Asimismo, los trabajos del Agente SQL que limpian periódicamente las tablas de la base de datos de cuadro de mensajes deberían quitar inmediatamente los mensajes del cuadro de mensajes a los que ya no se haga referencia.</span><span class="sxs-lookup"><span data-stu-id="eb8bb-104">Any messages in the MessageBox that were no longer referenced would immediately be removed by the SQL agent jobs that periodically clean up the MessageBox database tables.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Casos prácticos de seguridad: La compañía B | Documentos de Microsoft"
-ms.custom: 
+title: 'Casos prácticos de seguridad: La compañía B | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - architecture, security
 - security, case studies
 ms.assetid: 48bbb347-919a-435e-b7b1-34a4c0e65e59
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270484"
 ---
 # <a name="security-case-studies-company-b"></a><span data-ttu-id="54151-102">Casos prácticos de seguridad: La compañía B</span><span class="sxs-lookup"><span data-stu-id="54151-102">Security Case Studies: Company B</span></span>
 <span data-ttu-id="54151-103">La compañía B es una empresa de software.</span><span class="sxs-lookup"><span data-stu-id="54151-103">Company B is a software company.</span></span> <span data-ttu-id="54151-104">Su modelo de negocio se basa en transacciones electrónicas con proveedores y clientes clave.</span><span class="sxs-lookup"><span data-stu-id="54151-104">Its business model relies on electronic transactions with key customers and suppliers.</span></span> <span data-ttu-id="54151-105">La compañía B usa una implementación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para sus transacciones.</span><span class="sxs-lookup"><span data-stu-id="54151-105">Company B uses a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation for its transactions.</span></span>  

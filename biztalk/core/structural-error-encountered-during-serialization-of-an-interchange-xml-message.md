@@ -1,14 +1,14 @@
 ---
-title: "Error estructural detectado durante la serialización de un mensaje XML de intercambio | Documentos de Microsoft"
-ms.custom: 
+title: Error estructural detectado durante la serialización de un mensaje XML de intercambio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97939bfd-d1ee-455a-9952-4f25db020e7c
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278596"
 ---
 # <a name="structural-error-encountered-during-serialization-of-an-interchange-xml-message"></a><span data-ttu-id="ddcba-102">Error estructural detectado durante la serialización de un mensaje XML de intercambio</span><span class="sxs-lookup"><span data-stu-id="ddcba-102">Structural error encountered during serialization of an interchange XML message</span></span>
 ## <a name="details"></a><span data-ttu-id="ddcba-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ddcba-103">Details</span></span>  

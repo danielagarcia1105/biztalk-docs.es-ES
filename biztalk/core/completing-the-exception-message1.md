@@ -1,17 +1,17 @@
 ---
-title: "Completar la excepción Message1 | Documentos de Microsoft"
-ms.custom: 
+title: Completar la excepción Message1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exceptions, completing flow
 - messages, completing exception flow
 ms.assetid: cbea2e64-b2f9-4046-9369-16b905a98938
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231460"
 ---
 # <a name="completing-the-exception-message"></a><span data-ttu-id="71ae1-102">Completar el mensaje de excepción</span><span class="sxs-lookup"><span data-stu-id="71ae1-102">Completing the Exception Message</span></span>
 ### <a name="to-complete-the-exception-message"></a><span data-ttu-id="71ae1-103">Procedimiento para completar el mensaje de excepción</span><span class="sxs-lookup"><span data-stu-id="71ae1-103">To complete the exception message</span></span>  

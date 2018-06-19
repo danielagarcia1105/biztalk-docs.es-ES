@@ -1,18 +1,18 @@
 ---
-title: "Cómo obtener la duración en una ventana actividad | Documentos de Microsoft"
-ms.custom: 
+title: Cómo obtener la duración en una ventana actividad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], time intervals
 - managing [BAM], time intervals
 - Get-ActivityWindow command [BAM]
 ms.assetid: d70f6767-f6f7-4ecf-ad9d-4a9d8c76edea
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971402"
 ---
 # <a name="how-to-get-the-duration-on-an-activity-window"></a><span data-ttu-id="4b91a-102">Cómo obtener la duración en una ventana Actividad</span><span class="sxs-lookup"><span data-stu-id="4b91a-102">How to Get the Duration on an Activity Window</span></span>
 <span data-ttu-id="4b91a-103">Los administradores utilizan el **get-activitywindow** comando para obtener la duración de la actividad especificada.</span><span class="sxs-lookup"><span data-stu-id="4b91a-103">Administrators use the **get-activitywindow** command to get the duration for the specified activity.</span></span> <span data-ttu-id="4b91a-104">El comando recupera la longitud de la duración y las unidades con las que se mide la duración.</span><span class="sxs-lookup"><span data-stu-id="4b91a-104">The command returns the length of the duration and the units by which the duration is measured.</span></span>  

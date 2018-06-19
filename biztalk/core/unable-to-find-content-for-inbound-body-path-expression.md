@@ -1,14 +1,14 @@
 ---
-title: "No se puede encontrar contenido para la expresión de ruta de acceso de entrada cuerpo | Documentos de Microsoft"
-ms.custom: 
+title: No se puede encontrar contenido para la expresión de ruta de acceso de entrada cuerpo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed294662-a94e-4fbb-b125-878a27107eab
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286772"
 ---
 # <a name="unable-to-find-content-for-inbound-body-path-expression"></a><span data-ttu-id="e4742-102">No se encuentra el contenido para la expresión de ruta del cuerpo de entrada</span><span class="sxs-lookup"><span data-stu-id="e4742-102">Unable to find content for inbound body path expression</span></span>
 ## <a name="details"></a><span data-ttu-id="e4742-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="e4742-103">Details</span></span>  

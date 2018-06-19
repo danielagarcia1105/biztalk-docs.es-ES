@@ -1,14 +1,14 @@
 ---
-title: "Apéndice B: arquitectura de Hyper-V y la introducción a las características | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice B: arquitectura de Hyper-V y la introducción a las características | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87b6b9a0-a470-43f7-b076-36075477cc34
-caps.latest.revision: 
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710307"
 ---
 # <a name="appendix-b-hyper-v-architecture-and-feature-overview"></a><span data-ttu-id="7fa52-102">Apéndice B: arquitectura de Hyper-V y la introducción a las características</span><span class="sxs-lookup"><span data-stu-id="7fa52-102">Appendix B: Hyper-V Architecture and Feature Overview</span></span>
 <span data-ttu-id="7fa52-103">En este tema se proporciona información general de arquitectura de Hyper-V, describe las ventajas y desventajas de Hyper-V.</span><span class="sxs-lookup"><span data-stu-id="7fa52-103">This topic provides an overview of Hyper-V architecture, describes advantages and disadvantages of Hyper-V.</span></span>  

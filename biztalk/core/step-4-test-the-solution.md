@@ -1,14 +1,14 @@
 ---
-title: "Paso 4: Probar la solución | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4: Probar la solución | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c39521-eee2-49f7-a9f9-2dfb9ab468e9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277412"
 ---
 # <a name="step-4-test-the-solution"></a><span data-ttu-id="c8d71-102">Paso 4: Probar la solución</span><span class="sxs-lookup"><span data-stu-id="c8d71-102">Step 4: Test the Solution</span></span>
 <span data-ttu-id="c8d71-103">En este tema probará la solución colocando un mensaje de solicitud ficticio en la carpeta asociada con el puerto de recepción de archivos.</span><span class="sxs-lookup"><span data-stu-id="c8d71-103">In this topic you test the solution by dropping a dummy request message in the folder you associated with the FILE receive port.</span></span> <span data-ttu-id="c8d71-104">Como se describe en, se coloca un mensaje de solicitud ficticio solo para invocar la **WCF-WebHttp** puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="c8d71-104">As explained in, you drop a dummy request message only to invoke the **WCF-WebHttp** send port.</span></span> <span data-ttu-id="c8d71-105">Puede crear un mensaje de solicitud ficticio como el siguiente:</span><span class="sxs-lookup"><span data-stu-id="c8d71-105">You can create a dummy request message like the following:</span></span>  

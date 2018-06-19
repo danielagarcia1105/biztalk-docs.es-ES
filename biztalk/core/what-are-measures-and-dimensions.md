@@ -1,14 +1,14 @@
 ---
-title: "¿Qué son medidas y dimensiones? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué son medidas y dimensiones? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e6b12a4c-9be5-4cac-b5b9-ece376d28cb1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289788"
 ---
 # <a name="what-are-measures-and-dimensions"></a><span data-ttu-id="36667-103">¿Qué son medidas y dimensiones?</span><span class="sxs-lookup"><span data-stu-id="36667-103">What Are Measures and Dimensions?</span></span>
 <span data-ttu-id="36667-104">Las dimensiones y las medidas son los aspectos físicos de la agregación de datos.</span><span class="sxs-lookup"><span data-stu-id="36667-104">Dimensions and measures are the physical aspects of data aggregation.</span></span> <span data-ttu-id="36667-105">En este tema se definen los conceptos de medidas y dimensiones en el contexto de un escenario de BAM.</span><span class="sxs-lookup"><span data-stu-id="36667-105">This topic describes what measures and dimensions are, using a BAM scenario to provide context.</span></span>  

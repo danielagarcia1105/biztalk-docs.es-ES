@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010437"
 ---
 # <a name="using-the-mqsagent-com-configuration-wizard"></a><span data-ttu-id="cc85c-102">Mediante el Asistente para configuración de MQSAgent COM +</span><span class="sxs-lookup"><span data-stu-id="cc85c-102">Using the MQSAgent COM+ Configuration Wizard</span></span>
 <span data-ttu-id="cc85c-103">El Asistente para configuración de MQSAgent COM+ permite configurar MQSAgent, la parte de aplicación COM+ (componente MQSeries) del adaptador.</span><span class="sxs-lookup"><span data-stu-id="cc85c-103">The MQSAgent COM+ Configuration Wizard configures the MQSAgent, the COM+ application (MQSeries component) part of the adapter.</span></span> <span data-ttu-id="cc85c-104">El asistente define la identidad de aplicación del componente, así como el nombre de función y los usuarios incluidos en dicha función.</span><span class="sxs-lookup"><span data-stu-id="cc85c-104">The wizard sets the application identity of the component, and the role name and users included in the role.</span></span> <span data-ttu-id="cc85c-105">El nombre del componente MQSAgent COM + creado con el Asistente de configuración de MQSAgent COM + es **MQSAgent2**.</span><span class="sxs-lookup"><span data-stu-id="cc85c-105">The name of the MQSAgent COM+ component created with the MQSAgent COM+ Configuration Wizard is **MQSAgent2**.</span></span>  

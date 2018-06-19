@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Realización de comprobaciones de rendimiento mensual | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Realización de comprobaciones de rendimiento mensual | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa103777-af4d-480d-abc7-3c4718f493c1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300732"
 ---
 # <a name="checklist-performing-monthly-performance-checks"></a><span data-ttu-id="cd425-102">Lista de comprobación: Realización de comprobaciones de rendimiento mensual</span><span class="sxs-lookup"><span data-stu-id="cd425-102">Checklist: Performing Monthly Performance Checks</span></span>
 <span data-ttu-id="cd425-103">Este tema enumeran las prácticas recomendadas que debería seguir mensualmente para evitar problemas de rendimiento con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema.</span><span class="sxs-lookup"><span data-stu-id="cd425-103">This topic lists best practices that you should follow on a monthly basis to avoid performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span>  

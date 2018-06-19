@@ -1,14 +1,14 @@
 ---
-title: "¿Qué ocurre cuando se implementa un ensamblado desde Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: ¿Qué ocurre cuando se implementa un ensamblado desde Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 421df529-1ddb-4f49-a40a-c06f2a434ffc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290172"
 ---
 # <a name="what-happens-when-you-deploy-an-assembly-from-visual-studio"></a><span data-ttu-id="1870d-102">¿Qué ocurre cuando se implementa un ensamblado desde Visual Studio?</span><span class="sxs-lookup"><span data-stu-id="1870d-102">What Happens When You Deploy an Assembly from Visual Studio</span></span>
 <span data-ttu-id="1870d-103">En este tema se describe lo que sucede al implementar ensamblados desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="1870d-103">This topic describes what happens when you deploy assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

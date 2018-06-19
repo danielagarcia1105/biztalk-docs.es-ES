@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial (X12): Enviar intercambios EDI | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05533821-b9eb-44bc-af65-b6fb0b545137
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292020"
 ---
 # <a name="walkthrough-x12-sending-edi-interchanges"></a><span data-ttu-id="29cc0-102">Tutorial (X12): Envío de intercambios EDI</span><span class="sxs-lookup"><span data-stu-id="29cc0-102">Walkthrough (X12): Sending EDI Interchanges</span></span>
 <span data-ttu-id="29cc0-103">Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para enviar intercambios de EDI mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="29cc0-103">This walkthrough provides a set of step-by-step procedures that creates a solution for sending EDI interchanges using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

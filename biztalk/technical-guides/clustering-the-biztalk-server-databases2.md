@@ -1,14 +1,14 @@
 ---
-title: "Las bases de datos del clúster | Documentos de Microsoft"
-ms.custom: 
+title: Las bases de datos del clúster | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1b68bc3f-c0c4-4050-8ca3-df6dd1927637
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009477"
 ---
 # <a name="clustering-the-biztalk-server-databases"></a><span data-ttu-id="4fce2-102">Agrupar las bases de datos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="4fce2-102">Clustering the BizTalk Server Databases</span></span>
 <span data-ttu-id="4fce2-103">Si las bases de datos de BizTalk Server dejan de estar disponibles, el entorno de BizTalk Server dejará de funcionar correctamente.</span><span class="sxs-lookup"><span data-stu-id="4fce2-103">If the BizTalk Server databases become unavailable, the BizTalk Server environment will not function correctly.</span></span> <span data-ttu-id="4fce2-104">Para proporcionar una alta disponibilidad, puede crear un clúster de Microsoft SQL Server para las bases de datos de BizTalk Server, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="4fce2-104">To provide high availability, you can create a Microsoft SQL Server cluster for the BizTalk Server databases, as shown in the following figure.</span></span>  

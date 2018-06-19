@@ -1,14 +1,14 @@
 ---
-title: "Cómo: dividir un intercambio y enrutar los mensajes resultantes a varias ubicaciones de archivos utilizando distintos itinerarios | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: dividir un intercambio y enrutar los mensajes resultantes a varias ubicaciones de archivos utilizando distintos itinerarios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccd46bee-e4a1-4846-8bde-b0460bda1e72
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010757"
 ---
 # <a name="how-to-split-an-interchange-and-route-the-resulting-messages-to-multiple-file-locations-using-distinct-itineraries"></a><span data-ttu-id="d5be8-102">Cómo: dividir un intercambio y enrutar los mensajes resultantes a varias ubicaciones de archivos utilizando distintos itinerarios</span><span class="sxs-lookup"><span data-stu-id="d5be8-102">How to: Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries</span></span>
 ## <a name="goal"></a><span data-ttu-id="d5be8-103">Objetivo</span><span class="sxs-lookup"><span data-stu-id="d5be8-103">Goal</span></span>  
@@ -188,7 +189,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-add-a-selection-rule-for-customer-globalbank-west"></a><span data-ttu-id="d5be8-167">Para agregar una regla de selección de cliente GlobalBank West</span><span class="sxs-lookup"><span data-stu-id="d5be8-167">To add a selection rule for customer GlobalBank West</span></span>  
   
-1.  <span data-ttu-id="d5be8-168">En el **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-168">In the **ResolveItineraryBasedOnCustomer** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="d5be8-169">Nombre de la regla **SetGlobalBankWestItinerary**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-169">Name the rule **SetGlobalBankWestItinerary**.</span></span>  
+1.  <span data-ttu-id="d5be8-168">En el **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-168">In the **ResolveItineraryBasedOnCustomer** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="d5be8-169">Nombre de la regla **SetGlobalBankWestItinerary**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-169">Name the rule **SetGlobalBankWestItinerary**.</span></span>  
   
 2.  <span data-ttu-id="d5be8-170">En el Explorador de hechos, haga clic en el **esquemas XML** pestaña, haga clic en **esquemas**y, a continuación, haga clic en **examinar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-170">In Facts Explorer, click the **XML Schemas** tab, right-click **Schemas**, and then click **Browse**.</span></span>  
   
@@ -221,7 +222,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="d5be8-183">En el Explorador de directivas, haga clic en el **SetGlobalBankWestItinerary** de regla y, a continuación, haga clic en **copia**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-183">In Policy Explorer, right-click the **SetGlobalBankWestItinerary** rule, and then click **Copy**.</span></span>  
   
-2.  <span data-ttu-id="d5be8-184">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **pegar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-184">Right-click **Version 1.0 (not saved)**, and then click **Paste**.</span></span>  
+2.  <span data-ttu-id="d5be8-184">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **pegar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-184">Right-click **Version 1.0 (not saved)**, and then click **Paste**.</span></span>  
   
 3.  <span data-ttu-id="d5be8-185">En el **nombre de nueva regla** cuadro de diálogo, escriba **SetGlobalBankEastItinerary**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-185">In the **New Rule Name** dialog box, type **SetGlobalBankEastItinerary**, and then click **OK**.</span></span>  
   
@@ -240,7 +241,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-publish-and-deploy-the-policy"></a><span data-ttu-id="d5be8-192">Para publicar e implementar la directiva</span><span class="sxs-lookup"><span data-stu-id="d5be8-192">To publish and deploy the policy</span></span>  
   
-1.  <span data-ttu-id="d5be8-193">En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-193">In Policy Explorer, under the **ResolveItineraryBasedOnCustomer** policy, click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
+1.  <span data-ttu-id="d5be8-193">En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-193">In Policy Explorer, under the **ResolveItineraryBasedOnCustomer** policy, click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
   
 2.  <span data-ttu-id="d5be8-194">En el Explorador de directivas, en la **ResolveItineraryBasedOnCustomer** directiva, haga clic en **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="d5be8-194">In Policy Explorer, under the **ResolveItineraryBasedOnCustomer** policy, click **Version 1.0 - Published**, and then click **Deploy**.</span></span>  
   

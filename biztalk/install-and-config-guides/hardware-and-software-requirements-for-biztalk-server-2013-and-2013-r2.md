@@ -1,15 +1,15 @@
 ---
 title: Requisitos de hardware y Software para BizTalk Server 2013 y 2013 R2 | Documentos de Microsoft
-description: "Requisitos previos de software y la versión compatible listas para instalar BizTalk Server 2013 y 2013 R2"
-ms.custom: 
+description: Requisitos previos de software y la versión compatible listas para instalar BizTalk Server 2013 y 2013 R2
+ms.custom: ''
 ms.date: 10/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b15dd23c-c899-43fb-b2da-f8ac55c055bf
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 85e816bcdeb3d66ea5018cf88aea7059f74f7d80
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/10/2017
+ms.locfileid: "22627609"
 ---
 # <a name="hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="12596-103">Requisitos de hardware y software de BizTalk Server 2013 y 2013 R2</span><span class="sxs-lookup"><span data-stu-id="12596-103">Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2</span></span>
 <span data-ttu-id="12596-104">En este tema se enumeran los requisitos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 y [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)].</span><span class="sxs-lookup"><span data-stu-id="12596-104">This topic lists the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 and [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)] requirements.</span></span>  

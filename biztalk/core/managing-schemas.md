@@ -1,15 +1,15 @@
 ---
 title: Administrar esquemas | Documentos de Microsoft
-description: "Usar administración de BizTalk para trabajar con esquemas en BizTalk Server, incluida la presentación y ocultación de propiedades, vea el esquema XSD, habilitar el seguimiento"
-ms.custom: 
+description: Usar administración de BizTalk para trabajar con esquemas en BizTalk Server, incluida la presentación y ocultación de propiedades, vea el esquema XSD, habilitar el seguimiento
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c5632e79-b182-41c9-9138-eb88b44e3172
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262604"
 ---
 # <a name="manage-schemas"></a><span data-ttu-id="cde7e-103">Administrar esquemas</span><span class="sxs-lookup"><span data-stu-id="cde7e-103">Manage Schemas</span></span>
 

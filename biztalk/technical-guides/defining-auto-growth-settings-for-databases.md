@@ -1,14 +1,14 @@
 ---
-title: "Definir la configuración de crecimiento automático de las bases de datos | Documentos de Microsoft"
-ms.custom: 
+title: Definir la configuración de crecimiento automático de las bases de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd86dd49-6505-4673-b413-d3af729dfca9
-caps.latest.revision: 
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710791"
 ---
 # <a name="define-auto-growth-settings-for-databases"></a><span data-ttu-id="033e8-102">Definir la configuración de crecimiento automático de las bases de datos</span><span class="sxs-lookup"><span data-stu-id="033e8-102">Define Auto-Growth Settings for Databases</span></span>
 <span data-ttu-id="033e8-103">Debe establecer el crecimiento automático de base de datos en un número fijo de megabytes, en lugar de a un porcentaje, especialmente para las bases de datos de cuadro de mensaje y seguimiento de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="033e8-103">You should set database auto-growth to a fixed number of megabytes instead of to a percentage, especially for the MessageBox and BizTalk Tracking databases.</span></span> <span data-ttu-id="033e8-104">Dependiendo de la aplicación de BizTalk y el rendimiento, el cuadro de mensajes y las bases de datos de seguimiento pueden ser bastante grandes.</span><span class="sxs-lookup"><span data-stu-id="033e8-104">Depending on your BizTalk application and throughput, the MessageBox and Tracking databases can get quite large.</span></span> <span data-ttu-id="033e8-105">Si el crecimiento automático se establece en un porcentaje, a continuación, el crecimiento automático puede ser sustancial así.</span><span class="sxs-lookup"><span data-stu-id="033e8-105">If you set auto-growth to a percentage, then the auto-growth can be substantial as well.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010333"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a><span data-ttu-id="f3b34-102">Solución de problemas: Problemas y soluciones</span><span class="sxs-lookup"><span data-stu-id="f3b34-102">Troubleshooting: Issues and Resolutions</span></span>
 <span data-ttu-id="f3b34-103">Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f3b34-103">This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="f3b34-104">La persona emite detalle un síntoma específico, una posible causa y una solución.</span><span class="sxs-lookup"><span data-stu-id="f3b34-104">The individual issues detail a specific symptom, a possible cause, and a solution.</span></span>  
@@ -145,7 +146,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="f3b34-182">Haga clic en **iniciar**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services (IIS) Manager**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-182">Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.</span></span>  
   
-2.  <span data-ttu-id="f3b34-183">Expanda  **\<nombre_equipo\> (equipo local)**y, a continuación, haga clic en **extensiones de servicio Web**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-183">Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.</span></span>  
+2.  <span data-ttu-id="f3b34-183">Expanda  **\<nombre_equipo\> (equipo local)** y, a continuación, haga clic en **extensiones de servicio Web**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-183">Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.</span></span>  
   
 3.  <span data-ttu-id="f3b34-184">En el **extensión de servicio Web** panel, compruebe que se permite el estado de HwsMessages HttpReceive.</span><span class="sxs-lookup"><span data-stu-id="f3b34-184">In the **Web Service Extension** pane, verify that the status for HwsMessages HttpReceive is Allowed.</span></span> <span data-ttu-id="f3b34-185">Si no es así, haga clic en **HwsMessages HttpReceive**y, a continuación, haga clic en **permitir**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-185">If not, right-click **HwsMessages HttpReceive**, and then click **Allow**.</span></span>  
   
@@ -209,7 +210,7 @@ ms.lasthandoff: 12/01/2017
   
 4.  <span data-ttu-id="f3b34-220">Haga clic en **BAM_DM_Process**y, a continuación, haga clic en **eliminar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-220">Right-click **BAM_DM_Process**, and then click **Delete**.</span></span>  
   
-5.  <span data-ttu-id="f3b34-221">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-221">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+5.  <span data-ttu-id="f3b34-221">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-221">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 6.  <span data-ttu-id="f3b34-222">En el símbolo del sistema, escriba el código siguiente para implementar el archivo de seguimiento y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-222">At the command prompt, type the following code to deploy the tracking file, and then click **OK**.</span></span>  
   
@@ -290,7 +291,7 @@ ms.lasthandoff: 12/01/2017
   
 5.  <span data-ttu-id="f3b34-268">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-268">Click **OK**.</span></span>  
   
-6.  <span data-ttu-id="f3b34-269">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-269">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+6.  <span data-ttu-id="f3b34-269">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f3b34-269">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 7.  <span data-ttu-id="f3b34-270">En el símbolo del sistema, escriba el código siguiente para restablecer IIS.</span><span class="sxs-lookup"><span data-stu-id="f3b34-270">At the command prompt, type the following code to reset IIS.</span></span>  
   

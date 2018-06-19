@@ -1,11 +1,11 @@
 ---
-title: "Traducir los patrones del servicio en la solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Traducir los patrones del servicio en la solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - patterns [service solutions], translating patterns to orchestration shapes
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - orchestrations, boundaries
 - patterns [service solutions], translating patterns to artifacts
 ms.assetid: ff17cc41-2a7b-4304-b5bd-96b1174cea7f
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280004"
 ---
 # <a name="translating-the-patterns-of-the-service-oriented-solution"></a><span data-ttu-id="4650f-102">Traducir los patrones del servicio en la solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="4650f-102">Translating the Patterns of the Service Oriented Solution</span></span>
 <span data-ttu-id="4650f-103">En esta sección se describe cómo traduce la solución el diagrama de patrones en artefactos de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="4650f-103">This section describes how the solution translates the pattern diagram into BizTalk Server artifacts.</span></span>  

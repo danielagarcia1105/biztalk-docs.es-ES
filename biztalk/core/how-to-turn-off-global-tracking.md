@@ -1,14 +1,14 @@
 ---
-title: "Cómo desactivar el seguimiento Global | Documentos de Microsoft"
-ms.custom: 
+title: Cómo desactivar el seguimiento Global | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eae3059a-cbdd-47c4-84cd-edfb5480b9fa
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007101"
 ---
 # <a name="how-to-turn-off-global-tracking"></a><span data-ttu-id="b5d60-102">Cómo desactivar el seguimiento global</span><span class="sxs-lookup"><span data-stu-id="b5d60-102">How to Turn Off Global Tracking</span></span>
 <span data-ttu-id="b5d60-103">De forma predeterminada, el seguimiento global se habilita cuando se instala BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b5d60-103">By default, global tracking is enabled when you install BizTalk Server.</span></span> <span data-ttu-id="b5d60-104">La base de datos de seguimiento de BizTalk (BizTalkDTADb) aumenta de tamaño a medida que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa los datos del sistema.</span><span class="sxs-lookup"><span data-stu-id="b5d60-104">The BizTalk Tracking (BizTalkDTADb) database grows in size as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes data on your system.</span></span> <span data-ttu-id="b5d60-105">Si el rendimiento del disco es deficiente a causa del tamaño de la base de datos de seguimiento de BizTalk, puede purgar los datos de la misma.</span><span class="sxs-lookup"><span data-stu-id="b5d60-105">If the size of the BizTalk Tracking database causes poor disk performance, you can purge the data from the Tracking database.</span></span> <span data-ttu-id="b5d60-106">Si están surgiendo problemas de rendimiento que se solucionan de manera momentánea mediante la purga de la base de datos de seguimiento de BizTalk, y desea configurar BizTalk para que no recopile más información de seguimiento, considere la posibilidad de desactivar el seguimiento global.</span><span class="sxs-lookup"><span data-stu-id="b5d60-106">If you are having performance issues that are momentarily addressed by purging the BizTalk tracking database, and you want to configure BizTalk to no longer collect tracking information, you may want to consider turning off global tracking.</span></span>  

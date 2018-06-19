@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d563aa7d-102d-4fe6-a892-66794feaf83b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010717"
 ---
 # <a name="using-the-performance-analysis-of-logs-pal-tool"></a><span data-ttu-id="1c137-102">Usar el análisis de rendimiento de la herramienta de registros (PAL)</span><span class="sxs-lookup"><span data-stu-id="1c137-102">Using the Performance Analysis of Logs (PAL) Tool</span></span>
 <span data-ttu-id="1c137-103">La herramienta PAL (análisis de registros de rendimiento) lee en un registro de contador del monitor de rendimiento (cualquier formato conocido) y analiza mediante umbrales complejos, pero conocidos (proporcionados).</span><span class="sxs-lookup"><span data-stu-id="1c137-103">The PAL (Performance Analysis of Logs) tool reads in a performance monitor counter log (any known format) and analyzes it using complex, but known thresholds (provided).</span></span> <span data-ttu-id="1c137-104">La herramienta genera un informe basada en HTML que gráficamente importantes de rendimiento de los gráficos de los contadores y genera alertas cuando se superan umbrales.</span><span class="sxs-lookup"><span data-stu-id="1c137-104">The tool generates an HTML based report that graphically charts important performance counters and throws alerts when thresholds are exceeded.</span></span> <span data-ttu-id="1c137-105">Los umbrales originalmente basados en umbrales definidos por los equipos de producto de Microsoft, incluidos los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y los miembros de Microsoft admiten.</span><span class="sxs-lookup"><span data-stu-id="1c137-105">The thresholds are originally based on thresholds defined by the Microsoft product teams, including [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and members of Microsoft support.</span></span> <span data-ttu-id="1c137-106">Esta herramienta no es un sustituto de análisis de rendimiento tradicionales, pero automatiza el análisis de rendimiento de registros de contador suficiente para ayudar a ahorrar tiempo.</span><span class="sxs-lookup"><span data-stu-id="1c137-106">This tool is not a replacement of traditional performance analysis, but it automates the analysis of performance counter logs enough to help save you time.</span></span> <span data-ttu-id="1c137-107">La herramienta PAL:</span><span class="sxs-lookup"><span data-stu-id="1c137-107">The PAL tool:</span></span>  

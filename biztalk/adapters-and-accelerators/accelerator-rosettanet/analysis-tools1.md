@@ -1,11 +1,11 @@
 ---
-title: "Análisis Tools1 | Documentos de Microsoft"
-ms.custom: 
+title: Análisis Tools1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Activity Monitoring (BAM)
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Human Workflow Services (HWS)
 - HWS
 ms.assetid: 95aa60c8-a5b2-45f4-9c0e-66a47d2b59c5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005445"
 ---
 # <a name="analysis-tools"></a><span data-ttu-id="e4ac9-102">Herramientas de análisis</span><span class="sxs-lookup"><span data-stu-id="e4ac9-102">Analysis Tools</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="e4ac9-103">BizTalk Server proporciona un conjunto de herramientas de análisis para los analistas de negocios y los trabajadores de información.</span><span class="sxs-lookup"><span data-stu-id="e4ac9-103"> BizTalk Server provides a set of analysis tools for business analysts and information workers.</span></span> <span data-ttu-id="e4ac9-104">Para obtener más información acerca de estas herramientas, consulte [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="e4ac9-104">For more information about these tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10767 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10767 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef5efc04-a0b5-4fc7-9d0e-f7aa9a9c413d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276324"
 ---
 # <a name="single-sign-on-event-10767"></a><span data-ttu-id="4e95c-102">Inicio de sesión único: Evento 10767</span><span class="sxs-lookup"><span data-stu-id="4e95c-102">Single Sign-On: Event 10767</span></span>
 ## <a name="details"></a><span data-ttu-id="4e95c-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="4e95c-103">Details</span></span>  

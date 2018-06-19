@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de configuración de adaptador de SMTP | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de configuración de adaptador de SMTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SMTP adapters, send ports
 - send ports, adapters
 ms.assetid: 6af287f5-272a-42d7-9878-99a4157c06ce
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279404"
 ---
 # <a name="smtp-adapter-configuration-properties"></a><span data-ttu-id="165a6-102">Propiedades de configuración del adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="165a6-102">SMTP Adapter Configuration Properties</span></span>
 <span data-ttu-id="165a6-103">En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir para un puerto de envío del adaptador de SMTP:</span><span class="sxs-lookup"><span data-stu-id="165a6-103">The following table lists the configuration properties that you can set for an SMTP adapter send port:</span></span>  

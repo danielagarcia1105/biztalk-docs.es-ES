@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar hechos .NET y base de datos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 676d6e46-d9f8-477e-979e-1ac051ad4451
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976050"
 ---
 # <a name="walkthrough-using-database-and-net-facts"></a><span data-ttu-id="6288e-102">Tutorial: Usar hechos .NET y base de datos</span><span class="sxs-lookup"><span data-stu-id="6288e-102">Walkthrough: Using Database and .NET Facts</span></span>
 <span data-ttu-id="6288e-103">Este tutorial proporciona procedimientos descritos paso a paso para usar el Compositor de reglas de negocio con el fin de crear una directiva que utilice hechos de base de datos y .NET.</span><span class="sxs-lookup"><span data-stu-id="6288e-103">This walkthrough provides step-by-step procedures for using the Business Rule Composer to create a policy that uses database and .NET facts.</span></span>  
@@ -199,7 +200,7 @@ ms.lasthandoff: 11/28/2017
   
 31. <span data-ttu-id="6288e-210">En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **denegado**.</span><span class="sxs-lookup"><span data-stu-id="6288e-210">In the THEN pane, click **\<Enter a value\>** and then type **Denied**.</span></span>  
   
-32. <span data-ttu-id="6288e-211">En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="6288e-211">In the Policy Explorer window, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
+32. <span data-ttu-id="6288e-211">En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="6288e-211">In the Policy Explorer window, right-click **Version 1.0 (not saved)**, and then click **Save**.</span></span>  
   
 ### <a name="to-test-the-processpurchaseorderdbnet-policy-by-using-the-business-rule-composer"></a><span data-ttu-id="6288e-212">Para probar la directiva ProcessPurchaseOrderDbNet mediante el Compositor de reglas de negocio</span><span class="sxs-lookup"><span data-stu-id="6288e-212">To test the ProcessPurchaseOrderDbNet policy by using the Business Rule Composer</span></span>  
   
@@ -207,7 +208,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="6288e-215">En la ventana Explorador de directivas, expanda **directivas**, expanda **ProcessPurchaseOrderDbNet**, haga clic en **versión 1.0**y, a continuación, haga clic en **probar directiva** .</span><span class="sxs-lookup"><span data-stu-id="6288e-215">In the Policy Explorer window, expand **Policies**, expand **ProcessPurchaseOrderDbNet**, right-click **Version 1.0**, and then click **Test Policy**.</span></span>  
   
-3.  <span data-ttu-id="6288e-216">Haga clic en **TestDB: PO (conexión de datos)**y, a continuación, haga clic en **Agregar instancia**.</span><span class="sxs-lookup"><span data-stu-id="6288e-216">Click **TestDB:PO (Data Connection)**, and then click **Add Instance**.</span></span>  
+3.  <span data-ttu-id="6288e-216">Haga clic en **TestDB: PO (conexión de datos)** y, a continuación, haga clic en **Agregar instancia**.</span><span class="sxs-lookup"><span data-stu-id="6288e-216">Click **TestDB:PO (Data Connection)**, and then click **Add Instance**.</span></span>  
   
 4.  <span data-ttu-id="6288e-217">En el **conectar con SQL Server** cuadro de diálogo, compruebe la información de nombre y la autenticación de servidor y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6288e-217">In the **Connect to SQL Server** dialog box, verify the server name and authentication information, and then click **OK**.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "X12 confirmación 997 | Documentos de Microsoft"
-ms.custom: 
+title: X12 confirmación 997 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62a352fb-635c-4f0e-9844-4b250159333d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290892"
 ---
 # <a name="x12-997-acknowledgment"></a><span data-ttu-id="f8826-102">Confirmación 997 de X12</span><span class="sxs-lookup"><span data-stu-id="f8826-102">X12 997 Acknowledgment</span></span>
 <span data-ttu-id="f8826-103">La confirmación funcional X12 997 informa del estado de un intercambio recibido.</span><span class="sxs-lookup"><span data-stu-id="f8826-103">The X12 997 functional acknowledgment reports the status of a received interchange.</span></span> <span data-ttu-id="f8826-104">Informa de cada error encontrado al procesar el documento recibido.</span><span class="sxs-lookup"><span data-stu-id="f8826-104">It reports each error encountered while processing the received document.</span></span> <span data-ttu-id="f8826-105">La canalización de recepción de BizTalk EDI siempre genera un 997 conforme con 4010; no obstante, la canalización de recepción de EDI y las canalizaciones de envío de EDI también pueden validar un 997 conforme con 5010.</span><span class="sxs-lookup"><span data-stu-id="f8826-105">BizTalk EDI Receive pipeline always generates a 4010 compliant 997; however, EDI Receive pipeline and EDI Send pipelines can also validate a 5010 compliant 997.</span></span>  

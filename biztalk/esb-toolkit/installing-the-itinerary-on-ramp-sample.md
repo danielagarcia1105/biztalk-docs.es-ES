@@ -1,14 +1,14 @@
 ---
 title: Instalar el ejemplo en rampa itinerario | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebe08b84-dc12-4501-8677-15a32e4795a3
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294404"
 ---
 # <a name="installing-the-itinerary-on-ramp-sample"></a><span data-ttu-id="bc88c-102">Instalar el ejemplo en rampa itinerario</span><span class="sxs-lookup"><span data-stu-id="bc88c-102">Installing the Itinerary On-Ramp Sample</span></span>
 <span data-ttu-id="bc88c-103">El ejemplo de itinerario en rampa depende el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] principales de solución, el ejemplo de resolución dinámica y el ejemplo de servicio de resolución.</span><span class="sxs-lookup"><span data-stu-id="bc88c-103">The Itinerary On-Ramp sample depends on the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core solution, the Dynamic Resolution sample, and the Resolver Service sample.</span></span> <span data-ttu-id="bc88c-104">Instalar el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core automáticamente copia e instala los ensamblados básicos necesarios para este ejemplo en las ubicaciones correctas.</span><span class="sxs-lookup"><span data-stu-id="bc88c-104">Installing the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core automatically copies and installs the core assemblies required by this sample to the correct locations.</span></span> <span data-ttu-id="bc88c-105">Instalar el servicio de resolución y el ejemplo de resolución dinámica garantiza que los servicios Web y las directivas del motor de reglas de negocios utilizadas por el ejemplo de itinerario en rampa están correctamente instaladas y configuradas.</span><span class="sxs-lookup"><span data-stu-id="bc88c-105">Installing the Dynamic Resolution sample and Resolver Service sample ensures that the Web services and Business Rules Engine policies used by the Itinerary On-Ramp Sample are correctly installed and configured.</span></span>  

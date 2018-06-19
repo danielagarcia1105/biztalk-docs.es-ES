@@ -1,14 +1,14 @@
 ---
 title: X12 juego de caracteres EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 76e7b327-b0bd-4f16-8bfe-6c0184059f2b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289036"
 ---
 # <a name="x12-edi-character-set"></a><span data-ttu-id="82598-102">Juego de caracteres X12 de EDI</span><span class="sxs-lookup"><span data-stu-id="82598-102">X12 EDI Character Set</span></span>
 <span data-ttu-id="82598-103">Al usar el carácter Ñ o un acento grave (\`), especifique lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="82598-103">When using the Ñ character or a grave accent (\`), specify the following:</span></span>  

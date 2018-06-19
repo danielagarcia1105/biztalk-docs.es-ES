@@ -1,11 +1,11 @@
 ---
-title: "Autorización del receptor de un mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Autorización del receptor de un mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive authorization
 - messages, security
 ms.assetid: c0cdb3ef-ee8e-40a1-9362-13cd26495951
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230748"
 ---
 # <a name="authorizing-the-receiver-of-a-message"></a><span data-ttu-id="3cebf-102">Autorización del receptor de un mensaje</span><span class="sxs-lookup"><span data-stu-id="3cebf-102">Authorizing the Receiver of a Message</span></span>
 <span data-ttu-id="3cebf-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] le permite limitar los procesos y las entidades que autoriza a recibir mensajes.</span><span class="sxs-lookup"><span data-stu-id="3cebf-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to limit the processes and parties that you authorize to receive messages.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288228"
 ---
 # <a name="warning---custom-extension-xml-but-no-custom-xslt"></a><span data-ttu-id="c95bc-102">Advertencia: XML de extensión personalizada pero no hay XSLT personalizado</span><span class="sxs-lookup"><span data-stu-id="c95bc-102">Warning - Custom Extension XML But No Custom XSLT</span></span>
 <span data-ttu-id="c95bc-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="c95bc-103">**Error Code**</span></span>  

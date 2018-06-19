@@ -1,14 +1,14 @@
 ---
 title: Ejecutar el ejemplo de operaciones de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e91d4e57-ba94-4730-8c5a-4c96902f313f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294540"
 ---
 # <a name="running-the-biztalk-operations-sample"></a><span data-ttu-id="7a858-102">Ejecutar el ejemplo de operaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="7a858-102">Running the BizTalk Operations Sample</span></span>
 <span data-ttu-id="7a858-103">El ejemplo de operaciones de Microsoft BizTalk utiliza una aplicación de cliente de prueba de Windows Forms para ejecutar métodos del servicio Web de las operaciones de BizTalk y mostrar los resultados.</span><span class="sxs-lookup"><span data-stu-id="7a858-103">The Microsoft BizTalk Operations sample uses a Windows Forms test client application to execute methods of the BizTalk Operations Web service and display the results.</span></span> <span data-ttu-id="7a858-104">Puede abrir el proyecto de cliente de prueba para ejecutarlo y examinar el código para ver cómo puede usar el servicio Web de las operaciones de BizTalk en su propia arquitectura orientada a servicios (SOA) y aplicaciones de ESB.</span><span class="sxs-lookup"><span data-stu-id="7a858-104">You can open the test client project to run it and to examine the code to see how you can use the BizTalk Operations Web service in your own service-oriented architecture (SOA) and ESB applications.</span></span>  

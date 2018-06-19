@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d67e5f7-5127-4c1d-be20-8d8dbb538286
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010597"
 ---
 # <a name="planning-for-sending-and-receiving"></a><span data-ttu-id="7b713-102">Planeación para enviar y recibir</span><span class="sxs-lookup"><span data-stu-id="7b713-102">Planning for Sending and Receiving</span></span>
 <span data-ttu-id="7b713-103">Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de recepción y se envían desde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="7b713-103">Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is received by a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive adapter, and sent from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send adapter.</span></span> <span data-ttu-id="7b713-104">Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptadores de ilustración, por lo que de forma destacada en cualquier [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, es importante planificar con antelación determinar qué adaptadores o aceleradores va a usar y cómo configurar correctamente estos adaptadores o aceleradores.</span><span class="sxs-lookup"><span data-stu-id="7b713-104">Because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters figure so prominently in any [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, it is important to plan ahead to determine which adapters or accelerators you will be using and how to correctly configure these adapters and/or accelerators.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Configurar un Host de seguimiento dedicado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f997bcc2-08fd-4e9a-ba44-542ec8460d6d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010845"
 ---
 # <a name="configuring-a-dedicated-tracking-host"></a><span data-ttu-id="06fc2-102">Configurar un Host de seguimiento dedicado</span><span class="sxs-lookup"><span data-stu-id="06fc2-102">Configuring a Dedicated Tracking Host</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="06fc2-103">está optimizado para el rendimiento, por lo que los motores de mensajes y orquestación principal no mueve realmente eventos o mensajes directamente a las bases de datos de seguimiento de BizTalk (DTA) o supervisión de la actividad económica (BAM), ya que esto podría desviar estos motores desde su servidor principal trabajo de ejecución de procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="06fc2-103"> is optimized for throughput, so the main orchestration and messaging engines do not actually move events or messages directly to the BizTalk Tracking (DTA) or Business Activity Monitoring (BAM) databases, since this would divert these engines from their primary job of executing business processes.</span></span> <span data-ttu-id="06fc2-104">En su lugar, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deja los eventos y mensajes en la base de datos de cuadro de mensajes y las marca como que requieren un cambio a las bases de datos de seguimiento de BizTalk o BAM.</span><span class="sxs-lookup"><span data-stu-id="06fc2-104">Instead, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] leaves the events and messages in the MessageBox database and marks them as requiring a move to the BizTalk Tracking or BAM databases.</span></span> <span data-ttu-id="06fc2-105">Un proceso en segundo plano (el host de seguimiento), a continuación, mueve los eventos para las bases de datos de seguimiento de BizTalk y BAM, mientras un trabajo de agente SQL Server copias mensajes controlados en la base de datos de seguimiento de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="06fc2-105">A background process (the tracking host) then moves the events to the BizTalk Tracking and BAM databases, while a SQL Server Agent job copies tracked messages to the BizTalk Tracking database.</span></span>  

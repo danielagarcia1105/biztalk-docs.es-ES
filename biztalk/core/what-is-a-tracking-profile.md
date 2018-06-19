@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es un perfil de seguimiento? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es un perfil de seguimiento? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking profiles, about tracking profiles
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, tracking profiles
 - tracking profiles
 ms.assetid: b579bdc4-7c69-4fa0-bbc1-f98170c13d4f
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289708"
 ---
 # <a name="what-is-a-tracking-profile"></a><span data-ttu-id="accea-103">¿Qué es un perfil de seguimiento?</span><span class="sxs-lookup"><span data-stu-id="accea-103">What Is a Tracking Profile?</span></span>
 <span data-ttu-id="accea-104">Un perfil es un conjunto de características que definen un proceso empresarial.</span><span class="sxs-lookup"><span data-stu-id="accea-104">A profile is a set of characteristics that define a business process.</span></span> <span data-ttu-id="accea-105">Un perfil de seguimiento contiene la asignación de estas características de una actividad a orquestaciones y puertos.</span><span class="sxs-lookup"><span data-stu-id="accea-105">A tracking profile contains the mapping of these characteristics from an activity to orchestrations and ports.</span></span> <span data-ttu-id="accea-106">Un perfil de seguimiento es un archivo con extensión .btt de nombre de archivo.</span><span class="sxs-lookup"><span data-stu-id="accea-106">A tracking profile is a file with a .btt file name extension.</span></span>  

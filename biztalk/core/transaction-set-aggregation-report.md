@@ -1,14 +1,14 @@
 ---
-title: "Informe de agregación de conjunto de transacciones | Documentos de Microsoft"
-ms.custom: 
+title: Informe de agregación de conjunto de transacciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6e1417e-e0c6-4d30-aab5-d9bfe14cd4b8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279684"
 ---
 # <a name="transaction-set-aggregation-report"></a><span data-ttu-id="1f93e-102">Informe de agregación de conjunto de transacciones</span><span class="sxs-lookup"><span data-stu-id="1f93e-102">Transaction Set Aggregation Report</span></span>
 <span data-ttu-id="1f93e-103">El informe proporciona un único registro que muestra el número de conjuntos de transacciones EDI que comparten el mismo Id. de conjunto de transacciones, el tipo de codificación EDI, la entidad remitente, la entidad receptora y la dirección.</span><span class="sxs-lookup"><span data-stu-id="1f93e-103">This report provides a single record that shows the number of EDI transaction sets that share the same Transaction Set ID, EDI encoding type, sender party, receiver party, and direction.</span></span> <span data-ttu-id="1f93e-104">Este informe no ofrece detalles sobre los conjuntos de transacciones individuales.</span><span class="sxs-lookup"><span data-stu-id="1f93e-104">This report does not provide details about the individual transaction sets.</span></span>  

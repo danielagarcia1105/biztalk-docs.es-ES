@@ -1,14 +1,14 @@
 ---
-title: "Portal de mi página de configuración | Documentos de Microsoft"
-ms.custom: 
+title: Portal de mi página de configuración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 893fbfd5-7e90-4b6c-a070-7e1c51b06d28
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294508"
 ---
 # <a name="portal-my-settings-page"></a><span data-ttu-id="fc2ff-102">Portal de mi página de configuración</span><span class="sxs-lookup"><span data-stu-id="fc2ff-102">Portal My Settings Page</span></span>
 <span data-ttu-id="fc2ff-103">El Portal de administración de ESB conservará la configuración para cada usuario.</span><span class="sxs-lookup"><span data-stu-id="fc2ff-103">The ESB Management Portal retains settings for each user.</span></span> <span data-ttu-id="fc2ff-104">Estas opciones incluyen la lista de aplicaciones que se muestra en los gráficos en el [página principal del Portal](../esb-toolkit/portal-home-page.md)y el período predeterminado para los gráficos.</span><span class="sxs-lookup"><span data-stu-id="fc2ff-104">These settings include the list of applications to show in the charts on the [Portal Home Page](../esb-toolkit/portal-home-page.md), and the default period for the charts.</span></span> <span data-ttu-id="fc2ff-105">La figura 1 muestra la página My Settings, donde puede editar esta configuración.</span><span class="sxs-lookup"><span data-stu-id="fc2ff-105">Figure 1 shows the My Settings page, where you can edit these settings.</span></span>  

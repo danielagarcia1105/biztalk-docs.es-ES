@@ -1,11 +1,11 @@
 ---
 title: Compilar asignaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, compiling
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - BizTalk Mapper, compiling
 - BizTalk Mapper, validating
 ms.assetid: 967181d6-22a9-4a76-ae45-3317c0c6321b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231868"
 ---
 # <a name="compiling-maps"></a><span data-ttu-id="5d8cb-102">Compilar asignaciones</span><span class="sxs-lookup"><span data-stu-id="5d8cb-102">Compiling Maps</span></span>
 <span data-ttu-id="5d8cb-103">Cuando se validan asignaciones, el componente de compilador de Asignador de BizTalk genera una hoja de estilo de Transformación de lenguaje de hojas de estilo extensible (XSLT).</span><span class="sxs-lookup"><span data-stu-id="5d8cb-103">When you validate maps, the BizTalk Mapper compiler component generates an Extensible Stylesheet Language Transformations (XSLT) style sheet.</span></span> <span data-ttu-id="5d8cb-104">Esto crea una asignación compilada que transforma un mensaje de instancia definido por el esquema de origen en un mensaje de instancia definido por el esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="5d8cb-104">This creates a compiled map that transforms an instance message defined by the source schema to an instance message defined by the destination schema.</span></span> <span data-ttu-id="5d8cb-105">Compilar una asignación reclama las transformaciones y reglas estructurales especificadas en las páginas de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="5d8cb-105">Compiling a map enforces the structural rules and transformations specified in the grid pages.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar BizTalk Server reciba firmado MIME o mensajes SMIME | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar BizTalk Server reciba firmado MIME o mensajes SMIME | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 50570257-7bb6-4ede-9026-873eefd06483
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297820"
 ---
 # <a name="how-to-configure-biztalk-server-to-receive-signed-mime-or-smime-messages"></a><span data-ttu-id="dcc8f-102">Cómo configurar BizTalk Server reciba firmado MIME o mensajes SMIME</span><span class="sxs-lookup"><span data-stu-id="dcc8f-102">How to Configure BizTalk Server to Receive Signed MIME or SMIME Messages</span></span>
 <span data-ttu-id="dcc8f-103">Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usar certificados para recibir mensajes firmados de MIME/SMIME.</span><span class="sxs-lookup"><span data-stu-id="dcc8f-103">This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use certificates to receive signed MIME/SMIME messages.</span></span> <span data-ttu-id="dcc8f-104">El procedimiento siguiente también se aplica a la configuración de la recepción de mensajes firmados mediante transporte AS2.</span><span class="sxs-lookup"><span data-stu-id="dcc8f-104">The procedure below also applies to configuring the receiving of signed messages over AS2 transport.</span></span>  

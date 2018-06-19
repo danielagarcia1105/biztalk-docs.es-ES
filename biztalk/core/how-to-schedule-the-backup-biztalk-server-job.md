@@ -1,15 +1,15 @@
 ---
 title: Programar el trabajo de copia de seguridad de BizTalk Server | Documentos de Microsoft
-description: "Configurar los parámetros del trabajo de copia de seguridad de BizTalk Server y establezca la programación en ejecución mensual, semanal, diariamente o cada hora"
-ms.custom: 
+description: Configurar los parámetros del trabajo de copia de seguridad de BizTalk Server y establezca la programación en ejecución mensual, semanal, diariamente o cada hora
+ms.custom: ''
 ms.date: 11/02/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e89fff4-da87-4cdc-acc4-46f03c3269fc
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23980756"
 ---
 # <a name="schedule-the-backup-biztalk-server-job"></a><span data-ttu-id="e2abe-103">Programar el trabajo de copia de seguridad de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e2abe-103">Schedule the Backup BizTalk Server Job</span></span>
 <span data-ttu-id="e2abe-104">El trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ejecuta de acuerdo con lo programado mediante el servicio Agente SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e2abe-104">The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job runs as scheduled by the SQL Server Agent service.</span></span> <span data-ttu-id="e2abe-105">Si desea crear copias de seguridad con mayor o menor frecuencia, puede cambiar la programación del trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="e2abe-105">If you want to create more frequent or less frequent backups, you can change the schedule of the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job by using SQL Server Management Studio.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/03/2017
   
 3.  <span data-ttu-id="e2abe-111">En el Explorador de objetos, haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.</span><span class="sxs-lookup"><span data-stu-id="e2abe-111">In the Object Explorer, double-click **SQL Server Agent**, and then select **Jobs**.</span></span>  
   
-4.  <span data-ttu-id="e2abe-112">En el panel de detalles, haga clic en **copia de seguridad de BizTalk Server (BizTalkMgmtDb)**y, a continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="e2abe-112">In the details pane, right-click **Backup BizTalk Server (BizTalkMgmtDb)**, and then select **Properties**.</span></span>  
+4.  <span data-ttu-id="e2abe-112">En el panel de detalles, haga clic en **copia de seguridad de BizTalk Server (BizTalkMgmtDb)** y, a continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="e2abe-112">In the details pane, right-click **Backup BizTalk Server (BizTalkMgmtDb)**, and then select **Properties**.</span></span>  
   
 5.  <span data-ttu-id="e2abe-113">En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, en **seleccionar una página**, seleccione **pasos**.</span><span class="sxs-lookup"><span data-stu-id="e2abe-113">In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, under **Select a page**, select **Steps**.</span></span>  
   

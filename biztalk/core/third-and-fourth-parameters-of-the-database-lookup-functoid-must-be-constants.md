@@ -1,14 +1,14 @@
 ---
-title: "Error: los parámetros tercero y cuarto del functoid de Búsqueda en base de datos deben ser constantes. | Microsoft Docs"
-ms.custom: 
+title: 'Error: los parámetros tercero y cuarto del functoid de Búsqueda en base de datos deben ser constantes. | Microsoft Docs'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb2b4859-2b8b-4864-8791-f8c4656f734e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278476"
 ---
 # <a name="error---third-and-fourth-parameters-of-the-database-lookup-functoid-must-be-constants"></a><span data-ttu-id="c5410-103">Error: los parámetros tercero y cuarto del functoid de Búsqueda en base de datos deben ser constantes.</span><span class="sxs-lookup"><span data-stu-id="c5410-103">Error - Third and Fourth Parameters of the Database Lookup Functoid Must Be Constants.</span></span>
 <span data-ttu-id="c5410-104">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="c5410-104">**Error Code**</span></span>  

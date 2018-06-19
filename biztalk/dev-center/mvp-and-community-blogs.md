@@ -1,12 +1,12 @@
 ---
-title: "Lista de blogs escrita integración y MVP de Azure y Comunidad | Documentos de Microsoft"
-description: "Blogs y sitios Web a los miembros de integración y MVP de Azure y Comunidad en BizTalk Server, las aplicaciones lógicas etc."
+title: Lista de blogs escrita integración y MVP de Azure y Comunidad | Documentos de Microsoft
+description: Blogs y sitios Web a los miembros de integración y MVP de Azure y Comunidad en BizTalk Server, las aplicaciones lógicas etc.
 author: MandiOhlinger
 manager: anneta
 ms.date: 08/23/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
 ms.openlocfilehash: ea6ec410696c1e1f7325c610eb7770e64a574101
@@ -14,6 +14,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290836"
 ---
 # <a name="mvp-and-community-written-blogs"></a><span data-ttu-id="2c9b0-103">MVP y blogs escrito por la Comunidad</span><span class="sxs-lookup"><span data-stu-id="2c9b0-103">MVP and community-written blogs</span></span>
 

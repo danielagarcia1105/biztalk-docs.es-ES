@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286780"
 ---
 # <a name="types-of-pipeline-components"></a><span data-ttu-id="d1079-102">Tipos de componentes de canalización</span><span class="sxs-lookup"><span data-stu-id="d1079-102">Types of Pipeline Components</span></span>
 <span data-ttu-id="d1079-103">Se incluyen tres tipos de componentes de canalización [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]: general, ensamblado y de desensamblado.</span><span class="sxs-lookup"><span data-stu-id="d1079-103">Three types of pipeline components are included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]: general, assembling, and disassembling.</span></span> <span data-ttu-id="d1079-104">Cualquiera de los tres tipos también puede implementar funcionalidad de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d1079-104">Any of these three types can also implement probing functionality.</span></span> <span data-ttu-id="d1079-105">En este tema se describen los tipos de componentes y las fases en las que suelen utilizarse.</span><span class="sxs-lookup"><span data-stu-id="d1079-105">This topic describes each type of component and the stages in which each component is generally used.</span></span>  

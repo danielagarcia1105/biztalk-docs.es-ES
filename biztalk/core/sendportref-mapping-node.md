@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269972"
 ---
 # <a name="sendportref-mapping-node"></a><span data-ttu-id="00a74-102">SendPortRef (nodo Mapping)</span><span class="sxs-lookup"><span data-stu-id="00a74-102">SendPortRef (Mapping Node)</span></span>
 <span data-ttu-id="00a74-103">El nodo SendPortRef del nodo Mapping de un archivo de enlace enumera los nombres de los puertos de envío a los que hace referencia el nodo principal de asignación.</span><span class="sxs-lookup"><span data-stu-id="00a74-103">The SendPortRef node of the Mapping node of a binding file lists the names of the send ports referenced by the parent mapping node.</span></span>  

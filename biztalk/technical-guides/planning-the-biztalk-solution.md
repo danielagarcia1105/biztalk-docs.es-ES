@@ -1,14 +1,14 @@
 ---
-title: "Planeación de la solución de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de la solución de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30d56a04-966a-46b1-861d-f5be4e58b7d2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014299"
 ---
 # <a name="plan-for-your-biztalk-solution"></a><span data-ttu-id="e41d5-102">Plan para la solución de BizTalk</span><span class="sxs-lookup"><span data-stu-id="e41d5-102">Plan for your BizTalk Solution</span></span>
 <span data-ttu-id="e41d5-103">Uno de los objetivos principales de diseño de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consiste en ofrecer la máxima flexibilidad para alojar las situaciones de procesamiento tantos como sea posible.</span><span class="sxs-lookup"><span data-stu-id="e41d5-103">One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to provide maximum flexibility for accommodating as many processing scenarios as possible.</span></span> <span data-ttu-id="e41d5-104">Debido a esta gran flexibilidad, uno de los principales retos para los desarrolladores de una solución de BizTalk es determinar cómo realizar un mejor uso de las características disponibles en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para mejor sus necesidades empresariales.</span><span class="sxs-lookup"><span data-stu-id="e41d5-104">Because of this great flexibility, one of the primary challenges facing developers of a BizTalk solution is to determine how to make best use of the features available in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to best meet their business needs.</span></span> <span data-ttu-id="e41d5-105">Planear la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede dividirse en distintas fases que se resumen a continuación.</span><span class="sxs-lookup"><span data-stu-id="e41d5-105">Planning the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be broken down into distinct phases which are summarized below.</span></span>  

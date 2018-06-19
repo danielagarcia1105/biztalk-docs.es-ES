@@ -1,17 +1,17 @@
 ---
 title: Recomendaciones de seguridad del adaptador SOAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, security
 - security, SOAP adapters
 ms.assetid: f869bd82-df93-45e1-b747-b538820253fb
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279596"
 ---
 # <a name="soap-adapter-security-recommendations"></a><span data-ttu-id="e58a2-102">Recomendaciones de seguridad del adaptador SOAP</span><span class="sxs-lookup"><span data-stu-id="e58a2-102">SOAP Adapter Security Recommendations</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="e58a2-103"> usa el adaptador de SOAP para publicar (recibir) y consumir (enviar) servicios Web.</span><span class="sxs-lookup"><span data-stu-id="e58a2-103"> uses the SOAP adapter to publish (receive) and consume (send) Web services.</span></span> <span data-ttu-id="e58a2-104">Para obtener más información acerca del adaptador SOAP, vea [adaptador de SOAP](../core/soap-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="e58a2-104">For more information about the SOAP adapter, see [SOAP Adapter](../core/soap-adapter.md).</span></span> <span data-ttu-id="e58a2-105">Para obtener más información acerca de los servicios Web, consulte [uso de servicios Web](../core/using-web-services.md).</span><span class="sxs-lookup"><span data-stu-id="e58a2-105">For more information about Web services, see [Using Web Services](../core/using-web-services.md).</span></span> <span data-ttu-id="e58a2-106">Se recomienda seguir estas directrices para proteger e implementar el adaptador de SOAP en su entorno.</span><span class="sxs-lookup"><span data-stu-id="e58a2-106">It is recommended you follow these guidelines for securing and deploying the SOAP adapter in your environment.</span></span>  

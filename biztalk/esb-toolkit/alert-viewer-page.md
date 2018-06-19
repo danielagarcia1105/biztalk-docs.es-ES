@@ -1,14 +1,14 @@
 ---
-title: "Página del Visor de alertas | Documentos de Microsoft"
-ms.custom: 
+title: Página del Visor de alertas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0734464f-1f4c-4110-876a-d3bb0d14f6c5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290724"
 ---
 # <a name="alert-viewer-page"></a><span data-ttu-id="9062d-102">Página del visor de alertas</span><span class="sxs-lookup"><span data-stu-id="9062d-102">Alert Viewer Page</span></span>
 <span data-ttu-id="9062d-103">La página del Visor de alertas, que se muestra en la figura 1 muestra todos los detalles de alerta seleccionada, incluidas las condiciones que coinciden con él para excepciones entrantes y una lista de suscripciones definidas para esta alerta.</span><span class="sxs-lookup"><span data-stu-id="9062d-103">The Alert Viewer page, shown in Figure 1, displays all the details of a selected alert, including the conditions that match it to incoming exceptions, and a list of subscriptions defined for this alert.</span></span>  

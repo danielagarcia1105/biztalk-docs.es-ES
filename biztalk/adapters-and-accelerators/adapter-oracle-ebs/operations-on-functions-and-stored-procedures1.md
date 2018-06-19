@@ -1,14 +1,14 @@
 ---
 title: Operaciones en las funciones y almacenado Procedures1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e6bdaa7-ed3c-43bc-bed5-70fe43f9c2d1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216356"
 ---
 # <a name="operations-on-functions-and-stored-procedures"></a><span data-ttu-id="980e8-102">Operaciones en funciones y procedimientos almacenados</span><span class="sxs-lookup"><span data-stu-id="980e8-102">Operations on Functions and Stored Procedures</span></span>
 <span data-ttu-id="980e8-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] es compatible con los procedimientos y funciones de Oracle.</span><span class="sxs-lookup"><span data-stu-id="980e8-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports Oracle functions and procedures.</span></span>

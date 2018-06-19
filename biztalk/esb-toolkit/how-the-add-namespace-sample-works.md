@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c76a90a9-5898-43b3-98af-ff546dd97153
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22294388"
 ---
 # <a name="how-the-add-namespace-sample-works"></a><span data-ttu-id="85bf0-102">Cómo agregar Namespace ejemplo funciona</span><span class="sxs-lookup"><span data-stu-id="85bf0-102">How the Add Namespace Sample Works</span></span>
 <span data-ttu-id="85bf0-103">El primer, segundo y cuarta pruebas utilizan el **agregar Namespace** componente ubicado en la canalización de NamespaceSampleReceivePipeline.</span><span class="sxs-lookup"><span data-stu-id="85bf0-103">The first, second, and fourth tests use the **Add Namespace** component located in the NamespaceSampleReceivePipeline pipeline.</span></span> <span data-ttu-id="85bf0-104">Toma como entrada un documento con ningún espacio de nombres en el nodo raíz, como la siguiente:</span><span class="sxs-lookup"><span data-stu-id="85bf0-104">It takes as input a document with no namespace on the root node, such as the following:</span></span>  

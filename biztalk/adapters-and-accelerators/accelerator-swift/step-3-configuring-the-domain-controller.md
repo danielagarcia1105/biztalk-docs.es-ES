@@ -1,17 +1,17 @@
 ---
 title: 'Paso 3: Configurar el controlador de dominio | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, domain controller
 - domain controller
 ms.assetid: 1c513225-378b-4e57-ba29-7532b6cbcc9a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007269"
 ---
 # <a name="step-3-configuring-the-domain-controller"></a><span data-ttu-id="9b9b7-102">Paso 3: Configurar el controlador de dominio</span><span class="sxs-lookup"><span data-stu-id="9b9b7-102">Step 3: Configuring the Domain Controller</span></span>
 <span data-ttu-id="9b9b7-103">Esta sección describe cómo configurar el controlador de dominio en su [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] implementación.</span><span class="sxs-lookup"><span data-stu-id="9b9b7-103">This section describes how to configure the domain controller in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment.</span></span> <span data-ttu-id="9b9b7-104">En concreto, esta sección describe cómo instalar y configurar [!INCLUDE[btsAD](../../includes/btsad-md.md)] haciendo lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="9b9b7-104">Specifically, this section describes how to install and configure [!INCLUDE[btsAD](../../includes/btsad-md.md)] by doing the following:</span></span>  

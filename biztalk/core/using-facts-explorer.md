@@ -1,11 +1,11 @@
 ---
 title: Mediante el Explorador de hechos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer, Facts Explorer
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - business rules, .NET classes
 - Facts Explorer [Business Rule Composer]
 ms.assetid: ee125eb1-d5b9-4121-8a25-fcb7a640570e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287708"
 ---
 # <a name="using-facts-explorer"></a><span data-ttu-id="59de1-102">Mediante el Explorador de hechos</span><span class="sxs-lookup"><span data-stu-id="59de1-102">Using Facts Explorer</span></span>
 <span data-ttu-id="59de1-103">El Explorador de hechos contiene cuatro pestañas: **vocabularios**, **esquemas XML**, **bases de datos**, y **clases .NET**.</span><span class="sxs-lookup"><span data-stu-id="59de1-103">The Facts Explorer contains four tabs: **Vocabularies**, **XML Schemas**, **Databases**, and **.NET Classes**.</span></span>  
