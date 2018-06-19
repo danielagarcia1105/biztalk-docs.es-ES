@@ -1,14 +1,14 @@
 ---
-title: "Convertidor de tipos personalizado para la configuración del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Convertidor de tipos personalizado para la configuración del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60e94dde-d29d-43ff-84b0-b2ba86851151
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238716"
 ---
 # <a name="custom-type-converter-for-adapter-configuration"></a><span data-ttu-id="791b5-102">Convertidor de tipos personalizado para la configuración del adaptador</span><span class="sxs-lookup"><span data-stu-id="791b5-102">Custom Type Converter for Adapter Configuration</span></span>
 <span data-ttu-id="791b5-103">Como el editor personalizado, el convertidor de tipos personalizado reemplaza la **System.ComponentModel.TypeConverter** clase de uno de sus elementos secundarios.</span><span class="sxs-lookup"><span data-stu-id="791b5-103">Like the custom editor, the custom type converter overrides the **System.ComponentModel.TypeConverter** class of one of its children.</span></span> <span data-ttu-id="791b5-104">El convertidor agrega formato al valor que se almacena pero que no aparece en la página de propiedades.</span><span class="sxs-lookup"><span data-stu-id="791b5-104">Here, the converter adds formatting to the value to be persisted but does not appear on the property page.</span></span> <span data-ttu-id="791b5-105">El **ConvertFrom** método agrega corchetes alrededor del valor de cadena y la **ConvertTo** método quita de ellos.</span><span class="sxs-lookup"><span data-stu-id="791b5-105">The **ConvertFrom** method adds square brackets around the string value and the **ConvertTo** method removes them.</span></span>  

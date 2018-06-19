@@ -1,17 +1,17 @@
 ---
 title: Crear un Host de HTTP de PeopleSoft y puerto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP port
 - HTTP host
 ms.assetid: 3e1ce5fd-32ee-409f-b4c8-f2bc68470f17
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238116"
 ---
 # <a name="creating-a-peoplesoft-http-host-and-port"></a><span data-ttu-id="3544d-102">Creación de puertos y hosts HTTP de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="3544d-102">Creating a PeopleSoft HTTP Host and Port</span></span>
 <span data-ttu-id="3544d-103">La arquitectura de publicación de mensajes en PeopleSoft se conoce como Integration Broker.</span><span class="sxs-lookup"><span data-stu-id="3544d-103">The Message publication architecture in PeopleSoft is known as Integration Broker.</span></span> <span data-ttu-id="3544d-104">Los componentes principales de Integration Broker son:</span><span class="sxs-lookup"><span data-stu-id="3544d-104">The main components of Integration Broker are as follows:</span></span>  

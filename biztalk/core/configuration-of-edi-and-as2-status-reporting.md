@@ -1,14 +1,14 @@
 ---
-title: "Configuración de EDI y AS2 de informes de estado | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de EDI y AS2 de informes de estado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c7fa76d-0d03-4b74-9a3a-60f4bd0534ff
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233620"
 ---
 # <a name="configuration-of-edi-and-as2-status-reporting"></a><span data-ttu-id="23ab4-102">Configuración del informe de estado de EDI y AS2</span><span class="sxs-lookup"><span data-stu-id="23ab4-102">Configuration of EDI and AS2 Status Reporting</span></span>
 <span data-ttu-id="23ab4-103">En este tema se describe la habilitación del informe de estado de EDI y AS2 y la configuración de los filtros de informes de estado y muestran columnas de EDI, procesamiento por lotes e informes de estado de AS2.</span><span class="sxs-lookup"><span data-stu-id="23ab4-103">This topic describes the enabling of EDI and AS2 status reporting, and the configuration of status report filters and display columns for EDI, batching, and AS2 status reports.</span></span>  

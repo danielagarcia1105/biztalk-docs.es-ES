@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239076"
 ---
 # <a name="deploying-biztalk-applications"></a><span data-ttu-id="67b0b-102">Implementar aplicaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="67b0b-102">Deploying BizTalk Applications</span></span>
 <span data-ttu-id="67b0b-103">Esta sección proporciona la siguiente información acerca de la implementación de aplicaciones de BizTalk:</span><span class="sxs-lookup"><span data-stu-id="67b0b-103">This section provides the following information about deploying BizTalk applications:</span></span>  

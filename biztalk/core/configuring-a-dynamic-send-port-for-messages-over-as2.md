@@ -1,14 +1,14 @@
 ---
-title: "Configurar un puerto de envío dinámico para mensajes a través de AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un puerto de envío dinámico para mensajes a través de AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 246d64e8-70ca-48f4-8b72-d43b0964dbb4
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233892"
 ---
 # <a name="configuring-a-dynamic-send-port-for-messages-over-as2"></a><span data-ttu-id="4fe08-102">Configurar un puerto de envío dinámico para mensajes a través de AS2</span><span class="sxs-lookup"><span data-stu-id="4fe08-102">Configuring a Dynamic Send Port for Messages over AS2</span></span>
 <span data-ttu-id="4fe08-103">En este tema se describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para enviar mensajes AS2 a través de un puerto de envío dinámico.</span><span class="sxs-lookup"><span data-stu-id="4fe08-103">This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send AS2 messages over a dynamic send port.</span></span> <span data-ttu-id="4fe08-104">Esta configuración conlleva crear el puerto de envío dinámico y configurar una aplicación de servidor para establecer las propiedades de contexto correctas.</span><span class="sxs-lookup"><span data-stu-id="4fe08-104">This configuration includes creating the dynamic send port and configuring a backend application to set the appropriate context properties.</span></span> <span data-ttu-id="4fe08-105">Al crear un puerto de envío dinámico para enviar un mensaje AS2, debe promocionar determinadas propiedades para que el puerto de envío funcione.</span><span class="sxs-lookup"><span data-stu-id="4fe08-105">When you create a dynamic send port to send an AS2 message, you must promote certain properties for the send port to work.</span></span> <span data-ttu-id="4fe08-106">Para obtener más información, consulte [para configurar BizTalk Server para enviar AS2 puerto de envío de mensajes a través de una dinámica](../core/configuring-a-dynamic-send-port-for-messages-over-as2.md#BKMK_Proc) a continuación.</span><span class="sxs-lookup"><span data-stu-id="4fe08-106">For more information, see [To configure BizTalk Server to send AS2 messages over a dynamic send port](../core/configuring-a-dynamic-send-port-for-messages-over-as2.md#BKMK_Proc) below.</span></span>  

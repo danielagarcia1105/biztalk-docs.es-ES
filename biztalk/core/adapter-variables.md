@@ -1,14 +1,14 @@
 ---
 title: Variables de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aeda96bc-5141-4c42-8a29-b0a28bc47aa4
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233884"
 ---
 # <a name="adapter-variables"></a><span data-ttu-id="15f96-102">Variables de adaptador</span><span class="sxs-lookup"><span data-stu-id="15f96-102">Adapter Variables</span></span>
 <span data-ttu-id="15f96-103">Hay numerosas variables que todo adaptador personalizado necesita controlar.</span><span class="sxs-lookup"><span data-stu-id="15f96-103">There are a number of variables that any custom adapter needs to handle.</span></span> <span data-ttu-id="15f96-104">Los valores asignados a estas variables influyen en la lógica personalizada que implementa el adaptador.</span><span class="sxs-lookup"><span data-stu-id="15f96-104">Values assigned to these variables influence custom logic that the adapter implements.</span></span> <span data-ttu-id="15f96-105">Las propiedades de configuración específicas de aplicación o de transporte también pueden ayudar a admitir la solución.</span><span class="sxs-lookup"><span data-stu-id="15f96-105">Transport-specific or application-specific configuration properties can also help to support your solution.</span></span> <span data-ttu-id="15f96-106">En la siguiente tabla se incluyen las variables comunes.</span><span class="sxs-lookup"><span data-stu-id="15f96-106">The following table lists these common variables.</span></span> <span data-ttu-id="15f96-107">Debe decidir si desea admitir cada una de ellas en el adaptador personalizado.</span><span class="sxs-lookup"><span data-stu-id="15f96-107">You must decide if you want to support each one in your custom adapter.</span></span>  

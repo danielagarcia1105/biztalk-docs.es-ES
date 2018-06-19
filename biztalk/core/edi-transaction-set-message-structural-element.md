@@ -1,14 +1,14 @@
 ---
 title: Elemento estructural de mensajes de conjunto de transacciones de EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: caea8408-c09c-4525-a9c9-18abe4432594
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239188"
 ---
 # <a name="edi-transaction-set-message-structural-element"></a><span data-ttu-id="9228d-102">Elemento estructural de mensajes de conjunto de transacciones de EDI</span><span class="sxs-lookup"><span data-stu-id="9228d-102">EDI Transaction Set-Message Structural Element</span></span>
 <span data-ttu-id="9228d-103">Los conjuntos de transacciones (en la codificación X12) y los mensajes (en la codificación EDIFACT) contienen segmentos que forman los datos del mensaje.</span><span class="sxs-lookup"><span data-stu-id="9228d-103">The transaction set (in X12 encoding) or message (in EDIFACT encoding) contains segments that make up the message data.</span></span> <span data-ttu-id="9228d-104">Un conjunto de transacciones está constituido por un encabezado, una colección de segmentos de datos y un finalizador.</span><span class="sxs-lookup"><span data-stu-id="9228d-104">The transaction set consists of a header, a collection of data segments, and a trailer.</span></span> <span data-ttu-id="9228d-105">En definitiva, contiene todos los detalles que resultan necesarios para procesar la transacción.</span><span class="sxs-lookup"><span data-stu-id="9228d-105">All details that are required to process the transaction are available within the transaction set.</span></span>  

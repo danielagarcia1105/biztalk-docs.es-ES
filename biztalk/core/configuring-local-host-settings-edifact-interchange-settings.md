@@ -1,14 +1,14 @@
 ---
-title: "Configuración del Host Local (configuración de intercambio EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del Host Local (configuración de intercambio EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f1cf8696-d1f4-49aa-aa0a-ecf66f55e01d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234692"
 ---
 # <a name="configuring-local-host-settings-edifact-interchange-settings"></a><span data-ttu-id="bb934-102">Configuración de las opciones de host local (configuración de intercambio EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="bb934-102">Configuring Local Host Settings (EDIFACT-Interchange Settings)</span></span>
 <span data-ttu-id="bb934-103">La configuración de host local rige cómo se procesan los intercambios EDI.</span><span class="sxs-lookup"><span data-stu-id="bb934-103">The local host settings govern how the EDI interchanges are processed.</span></span> <span data-ttu-id="bb934-104">La configuración de esta página puede dividirse en dos categorías: configuración del receptor (para intercambios de entrada) y configuración del remitente (para intercambios de salida).</span><span class="sxs-lookup"><span data-stu-id="bb934-104">The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges).</span></span> <span data-ttu-id="bb934-105">Como parte de la configuración del receptor, puede especificar si un lote entrante se dividirá en conjuntos de transacciones o se conservará tal cual.</span><span class="sxs-lookup"><span data-stu-id="bb934-105">As part of the receiver’s settings, you can specify whether an incoming batch will be split into transaction sets or preserved.</span></span> <span data-ttu-id="bb934-106">Si se conserva, puede especificar si BizTalk Server suspende el intercambio o el conjunto de transacciones en caso de que se produzca un error.</span><span class="sxs-lookup"><span data-stu-id="bb934-106">If preserved, you can specify whether BizTalk Server suspends the interchange or transaction set if an error occurs.</span></span> <span data-ttu-id="bb934-107">Como parte de la configuración del remitente, se puede especificar cómo se generan los números de control de mensajes de salida.</span><span class="sxs-lookup"><span data-stu-id="bb934-107">As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages.</span></span>  

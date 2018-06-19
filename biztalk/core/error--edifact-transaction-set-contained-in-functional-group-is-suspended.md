@@ -1,14 +1,14 @@
 ---
-title: "Error al analizar. El conjunto de transacciones contenido en el grupo funcional se está suspendiendo por los siguientes errores | Documentos de Microsoft"
-ms.custom: 
+title: Error al analizar. El conjunto de transacciones contenido en el grupo funcional se está suspendiendo por los siguientes errores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 986a7220-d35a-4047-8996-7d44c7d2b823
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239948"
 ---
 # <a name="error-encountered-during-parsing-the-edifact-transaction-set-contained-in-functional-group-is-being-suspended-with-following-errors"></a><span data-ttu-id="86e1f-103">Error al analizar.</span><span class="sxs-lookup"><span data-stu-id="86e1f-103">Error encountered during parsing.</span></span> <span data-ttu-id="86e1f-104">El conjunto de transacciones Edifact contenido en el grupo funcional se está suspendiendo por los errores siguientes</span><span class="sxs-lookup"><span data-stu-id="86e1f-104">The Edifact transaction set contained in functional group is being suspended with following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="86e1f-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="86e1f-105">Details</span></span>  

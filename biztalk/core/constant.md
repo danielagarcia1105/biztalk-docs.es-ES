@@ -1,14 +1,14 @@
 ---
 title: Constante | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0af49bf5-e7de-41da-ac27-70301b8ee4d4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237796"
 ---
 # <a name="constant"></a><span data-ttu-id="3e164-102">Constante</span><span class="sxs-lookup"><span data-stu-id="3e164-102">Constant</span></span>
 <span data-ttu-id="3e164-103">Inserta un valor único y constante en la pila.</span><span class="sxs-lookup"><span data-stu-id="3e164-103">Pushes a single constant value onto the stack.</span></span>  

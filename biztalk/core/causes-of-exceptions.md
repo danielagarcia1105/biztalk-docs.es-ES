@@ -1,18 +1,18 @@
 ---
 title: Causas de excepciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, errors
 - errors, orchestrations
 - errors, causes
 ms.assetid: b0422382-d034-4c58-87c6-fc269dbbfe43
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232468"
 ---
 # <a name="causes-of-exceptions"></a><span data-ttu-id="2e661-102">Causas de excepciones</span><span class="sxs-lookup"><span data-stu-id="2e661-102">Causes of Exceptions</span></span>
 <span data-ttu-id="2e661-103">Las excepciones se pueden generar en una orquestación de las siguientes formas:</span><span class="sxs-lookup"><span data-stu-id="2e661-103">Exceptions can be generated within an orchestration in the following ways:</span></span>  

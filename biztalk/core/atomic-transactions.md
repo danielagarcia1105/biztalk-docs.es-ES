@@ -1,11 +1,11 @@
 ---
-title: "Las transacciones atómicas | Documentos de Microsoft"
-ms.custom: 
+title: Las transacciones atómicas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - scopes, transactions
 - scopes
 ms.assetid: 5030e1fd-943f-42bc-9296-4f315bd5f733
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233548"
 ---
 # <a name="atomic-transactions"></a><span data-ttu-id="f259c-102">Transacciones atómicas</span><span class="sxs-lookup"><span data-stu-id="f259c-102">Atomic Transactions</span></span>
 <span data-ttu-id="f259c-103">Las orquestaciones de BizTalk pueden diseñarse para ejecutar elementos discretos de trabajo, siguiendo el clásico concepto "ACID" de una transacción.</span><span class="sxs-lookup"><span data-stu-id="f259c-103">BizTalk orchestrations can be designed to run discrete pieces of work, following the classic 'ACID' concept of a transaction.</span></span> <span data-ttu-id="f259c-104">Estas unidades discretas o atómicas de trabajo, cuando se ejecutan, llevan el proceso empresarial de un estado coherente a un estado nuevo, coherente y duradero que se aísla de otras unidades de trabajo.</span><span class="sxs-lookup"><span data-stu-id="f259c-104">These discrete or atomic units of work, when performed, move the business process from one consistent state to a new, consistent and durable state that is isolated from other units of work.</span></span> <span data-ttu-id="f259c-105">Esto normalmente se realiza mediante la **ámbito** construcción que encapsula las unidades de trabajo con la semántica transaccional.</span><span class="sxs-lookup"><span data-stu-id="f259c-105">This is typically done by using the **Scope** construct that encapsulates the units of work with the transactional semantics.</span></span> <span data-ttu-id="f259c-106">También se puede definir la orquestación completa como una transacción atómica sin el uso de ámbitos.</span><span class="sxs-lookup"><span data-stu-id="f259c-106">The entire orchestration can also be defined as an atomic transaction without the use of scopes.</span></span> <span data-ttu-id="f259c-107">No obstante, los ámbitos no pueden marcarse como transaccionales a menos que la propia orquestación se marque como transacción atómica o de larga duración.</span><span class="sxs-lookup"><span data-stu-id="f259c-107">The scopes, however, cannot be marked as transactional unless the orchestration itself is marked as a long running or atomic transaction type.</span></span> <span data-ttu-id="f259c-108">Las transacciones atómicas garantizan que todas las actualizaciones parciales se revertirán automáticamente si se produce un error durante la actualización de la transacción, y los efectos de la transacción se borrarán (excepto los efectos de cualquier llamada .NET que se haga en la transacción).</span><span class="sxs-lookup"><span data-stu-id="f259c-108">Atomic transactions guarantee that any partial updates are rolled back automatically in the event of a failure during the transactional update, and that the effects of the transaction are erased (except for the effects of any .NET calls that are made in the transaction).</span></span> <span data-ttu-id="f259c-109">Las transacciones atómicas en orquestaciones de BizTalk se parecen a las transacciones del coordinador de transacciones distribuidas (DTC) en que suelen ser de corta duración y tener los cuatro atributos "ACID" (atomicidad, coherencia, aislamiento y durabilidad):</span><span class="sxs-lookup"><span data-stu-id="f259c-109">Atomic transactions in BizTalk orchestrations are similar to distributed transaction coordinator (DTC) transactions in that they are generally short-lived and have the four "ACID" attributes (atomicity, consistency, isolation, and durability):</span></span>  

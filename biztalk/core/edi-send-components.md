@@ -1,14 +1,14 @@
 ---
-title: "Componentes de envío EDI | Documentos de Microsoft"
-ms.custom: 
+title: Componentes de envío EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fce270db-a573-48b3-be15-0178a5b7785b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239932"
 ---
 # <a name="edi-send-components"></a><span data-ttu-id="4ace2-102">Componentes de envío de EDI</span><span class="sxs-lookup"><span data-stu-id="4ace2-102">EDI Send Components</span></span>
 <span data-ttu-id="4ace2-103">La canalización y los componentes de canalización descritos en este tema procesan los mensajes EDI que no son mensajes EDI o AS2.</span><span class="sxs-lookup"><span data-stu-id="4ace2-103">The pipeline and pipeline components described in this topic process EDI messages that are not EDI/AS2 messages.</span></span> <span data-ttu-id="4ace2-104">Para obtener información sobre el envío de EDI y AS2 o mensajes que no sean EDI o AS2, vea [componentes de envío de AS2](../core/as2-send-components.md).</span><span class="sxs-lookup"><span data-stu-id="4ace2-104">For information about the sending of EDI/AS2 or non-EDI/AS2 messages, see [AS2 Send Components](../core/as2-send-components.md).</span></span> <span data-ttu-id="4ace2-105">Tenga en cuenta que los componentes de envío de AS2 realizan procesamiento de EDI además del de AS2.</span><span class="sxs-lookup"><span data-stu-id="4ace2-105">Note that AS2 send components perform EDI processing in addition to AS2 processing.</span></span>  

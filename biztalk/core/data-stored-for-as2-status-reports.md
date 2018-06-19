@@ -1,14 +1,14 @@
 ---
 title: Datos almacenados para informes de estado de AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6aa4077-3768-436b-99b9-d203a86a7e69
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238516"
 ---
 # <a name="data-stored-for-as2-status-reports"></a><span data-ttu-id="57e1e-102">Datos almacenados para informes de estado de AS2</span><span class="sxs-lookup"><span data-stu-id="57e1e-102">Data Stored for AS2 Status Reports</span></span>
 <span data-ttu-id="57e1e-103">Existen dos niveles de informes están disponibles en los informes de estado de AS2: el primero tiene lugar si la **activar informes** propiedad está seleccionada para un acuerdo (desde el **propiedades generales** página de la **General**  pestaña en el **propiedades del acuerdo de** cuadro de diálogo) y el segundo si se selecciona una propiedad de almacenamiento de base de datos sin repudio para un acuerdo.</span><span class="sxs-lookup"><span data-stu-id="57e1e-103">Two levels of reporting are available in AS2 status reporting: the first if the **Turn ON Reporting** property is selected for an agreement (from the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box), and the second if a non-repudiation database storage property is selected for an agreement.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Supervisión de la actividad de negocio | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión de la actividad de negocio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 83b3c92f-3062-413e-8d89-797f1c7ea7ab
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232732"
 ---
 # <a name="business-activity-monitoring"></a><span data-ttu-id="25363-102">Supervisión de la actividad económica</span><span class="sxs-lookup"><span data-stu-id="25363-102">Business Activity Monitoring</span></span>
 <span data-ttu-id="25363-103">Los trabajadores de la información necesitan cierta flexibilidad a la hora de observar y evaluar los procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="25363-103">Information workers need flexibility in looking at and evaluating business processes.</span></span> <span data-ttu-id="25363-104">Por ejemplo, es posible que un administrador de pedidos necesite saber cuántos pedidos se han aprobado y denegado cada día y que un administrador de ventas desee obtener una actualización cada hora de los productos que se han pedido.</span><span class="sxs-lookup"><span data-stu-id="25363-104">A purchasing manager might need to see how many POs are approved and denied each day, for example, while a sales manager might want an hourly update on what products are being ordered.</span></span> <span data-ttu-id="25363-105">Para poder satisfacer necesidades tan dispares se necesita un marco de trabajo general que efectúe un seguimiento de lo que ocurre en un proceso empresarial determinado.</span><span class="sxs-lookup"><span data-stu-id="25363-105">Meeting these diverse needs requires a general framework for tracking what’s going on with a particular business process.</span></span> <span data-ttu-id="25363-106">Esto es exactamente lo que ofrece el componente de Supervisión de la actividad económica (SAE) de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="25363-106">This is exactly what the Business Activity Monitoring (BAM) component in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides.</span></span>  

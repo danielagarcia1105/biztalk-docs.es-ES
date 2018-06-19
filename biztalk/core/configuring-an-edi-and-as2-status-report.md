@@ -1,15 +1,15 @@
 ---
 title: Configurar un informe de estado de AS2 y EDI | Documentos de Microsoft
-description: "Crear EDI o expresión de consulta de informes de estado de AS2 y seleccione los datos que desea mostrar en el informe para el servidor BizTalk Server"
-ms.custom: 
+description: Crear EDI o expresión de consulta de informes de estado de AS2 y seleccione los datos que desea mostrar en el informe para el servidor BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6490864d-f1e6-4932-aefb-c332a595aad7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233684"
 ---
 # <a name="configure-an-edi-and-as2-status-report"></a><span data-ttu-id="440c6-103">Configurar un informe de estado de AS2 y EDI</span><span class="sxs-lookup"><span data-stu-id="440c6-103">Configure an EDI and AS2 Status Report</span></span>
 <span data-ttu-id="440c6-104">Después de que se ha habilitado EDI o informes de estado de AS2, muestre el informe de estado que desee desde la **informes de estado de EDI** o **informes de estado de EDIINT** sección de la **concentrador de grupo** pestaña de la **información general del grupo** página en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="440c6-104">After you have enabled EDI or AS2 status reports, you display the status report you want from the **EDI Status Reports** or **EDIINT Status Reports** section of the **Group Hub** tab of the **Group Overview** page in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.</span></span> <span data-ttu-id="440c6-105">Al mostrar un informe de estado, verá un conjunto de datos predeterminado.</span><span class="sxs-lookup"><span data-stu-id="440c6-105">When you display a status report, you will see a default set of data.</span></span> <span data-ttu-id="440c6-106">Puede configurar los siguientes aspectos de los informes de estado:</span><span class="sxs-lookup"><span data-stu-id="440c6-106">You can configure the following aspects of the status reports:</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Copia de seguridad y restaurar bases de datos de servidor BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up [BAM]
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - restoring [BAM]
 - BAM, backing up
 ms.assetid: 82fc1af2-1389-4c79-80dc-f2df5656d201
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232932"
 ---
 # <a name="backing-up-and-restoring-biztalk-server-databases"></a><span data-ttu-id="90090-102">Realizar una copia de seguridad y una restauración de las bases de datos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="90090-102">Backing Up and Restoring BizTalk Server Databases</span></span>
 <span data-ttu-id="90090-103">El trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usa para hacer copia de seguridad de todas las bases de datos del sistema de origen de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], excepto por algunas bases de datos usadas por la supervisión de la actividad económica (BAM).</span><span class="sxs-lookup"><span data-stu-id="90090-103">You use the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up all of the databases in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] source system, except for some databases used by Business Activity Monitoring (BAM).</span></span> <span data-ttu-id="90090-104">El sistema de origen es el servidor o grupo de servidores que contiene datos activos.</span><span class="sxs-lookup"><span data-stu-id="90090-104">The source system is the server or group of servers that contain live data.</span></span> <span data-ttu-id="90090-105">Puesto que los requisitos de restauración y copia de seguridad de las bases de datos de BAM son distintos, es preciso utilizar métodos distintos para efectuar la copia de seguridad de éstas y su restauración.</span><span class="sxs-lookup"><span data-stu-id="90090-105">Because BAM databases have different backup and restore requirements, these databases are backed up and restored using other methods.</span></span>  

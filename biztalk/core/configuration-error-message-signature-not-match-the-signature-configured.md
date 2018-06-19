@@ -1,14 +1,14 @@
 ---
-title: "Error de configuración. El no de firma de mensaje &#39; t coincide con la firma configurada para esta entidad | Documentos de Microsoft"
-ms.custom: 
+title: Error de configuración. El no de firma de mensaje &#39; t coincide con la firma configurada para esta entidad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cea0016-12e8-4ee8-ac44-11024b5e74ef
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232492"
 ---
 # <a name="configuration-error-the-message-signature-doesn39t-match-the-signature-configured-for-this-party"></a><span data-ttu-id="14549-103">Error de configuración.</span><span class="sxs-lookup"><span data-stu-id="14549-103">Configuration error.</span></span> <span data-ttu-id="14549-104">El no de firma de mensaje &#39; coincidencia t la firma configurada para esta entidad</span><span class="sxs-lookup"><span data-stu-id="14549-104">The message signature doesn&#39;t match the signature configured for this party</span></span>
 ## <a name="details"></a><span data-ttu-id="14549-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="14549-105">Details</span></span>  

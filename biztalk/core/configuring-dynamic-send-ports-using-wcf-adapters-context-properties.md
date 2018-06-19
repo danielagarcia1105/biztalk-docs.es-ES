@@ -1,11 +1,11 @@
 ---
-title: "Configuración de puertos de envío dinámicos mediante propiedades de contexto de adaptadores de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de puertos de envío dinámicos mediante propiedades de contexto de adaptadores de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF services, send ports
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - dynamic send ports, WCF services
 - send ports, dynamic
 ms.assetid: 2a7e2cd2-fa2d-45da-bb8e-eb8bab21bfa3
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233356"
 ---
 # <a name="configuring-dynamic-send-ports-using-wcf-adapters-context-properties"></a><span data-ttu-id="e544d-102">Configurar puertos de envío dinámico mediante el uso de propiedades de contexto de adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="e544d-102">Configuring Dynamic Send Ports Using WCF Adapters Context Properties</span></span>
 <span data-ttu-id="e544d-103">Puede configurar puertos de envío dinámico para adaptadores de WCF.</span><span class="sxs-lookup"><span data-stu-id="e544d-103">You can configure dynamic send ports for WCF adapters.</span></span> <span data-ttu-id="e544d-104">La URI, la acción y el enlace pueden se determina a partir de una propiedad en un mensaje entrante y, a continuación, se especifica en el **expresión** forma, tal y como se muestra en el siguiente adaptador de WCF-NetTcp:</span><span class="sxs-lookup"><span data-stu-id="e544d-104">The URI, action, and binding might be determined from a property on an incoming message, and then specified in the **Expression** shape, as shown in the following WCF-NetTcp adapter:</span></span>  
