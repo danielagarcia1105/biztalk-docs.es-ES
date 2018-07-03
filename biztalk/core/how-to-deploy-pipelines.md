@@ -1,5 +1,5 @@
 ---
-title: Cómo implementar canalizaciones | Documentos de Microsoft
+title: Cómo implementar canalizaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -24,12 +24,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db6047752c45a2f72b615102e14a4e66839e3e81
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23028db559864368bb091fb15abfca7e49d73808
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249604"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986325"
 ---
 # <a name="how-to-deploy-pipelines"></a>Cómo implementar canalizaciones
 Las canalizaciones se compilan e implementan como parte del proceso de generación e implementación de soluciones. El compilador llama el **validar** método en cada componente, lo que permite a los componentes devolver errores de compilación de la información configurada. Después de la generación, la canalización se implementa en el mismo ensamblado con el resto de la solución una vez que ésta se ha implementado.  
@@ -50,17 +50,17 @@ Las canalizaciones se compilan e implementan como parte del proceso de generaci�
   
  La configuración de canalización por instancia no admite lo siguiente:  
   
--   Reorganizar fases dentro de la canalización  
+- Reorganizar fases dentro de la canalización  
   
--   Agregar o eliminar fases  
+- Agregar o eliminar fases  
   
--   Reorganizar componentes dentro de las fases  
+- Reorganizar componentes dentro de las fases  
   
--   Agregar o eliminar componentes  
+- Agregar o eliminar componentes  
   
- Los únicos cambios admitidos son los de la configuración de los componentes de canalización. La configuración por instancia de un componente de canalización sobrescribe la configuración habitual del componente de canalización. Si no se especifica un parámetro de un componente en la configuración de canalización por instancia, se utiliza la configuración habitual para ese parámetro (como se configuró en el Diseñador de canalizaciones).  
+  Los únicos cambios admitidos son los de la configuración de los componentes de canalización. La configuración por instancia de un componente de canalización sobrescribe la configuración habitual del componente de canalización. Si no se especifica un parámetro de un componente en la configuración de canalización por instancia, se utiliza la configuración habitual para ese parámetro (como se configuró en el Diseñador de canalizaciones).  
   
- A continuación se muestra un ejemplo de datos de configuración por instancia.  
+  A continuación se muestra un ejemplo de datos de configuración por instancia.  
   
 ```  
 <?xml version="1.0" encoding="utf-16"?>  
@@ -99,4 +99,4 @@ Las canalizaciones se compilan e implementan como parte del proceso de generaci�
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar componentes de canalización personalizado](../core/developing-custom-pipeline-components.md)
+ [Desarrollo de componentes de canalización personalizados](../core/developing-custom-pipeline-components.md)

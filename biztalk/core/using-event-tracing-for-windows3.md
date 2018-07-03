@@ -1,5 +1,5 @@
 ---
-title: Uso de seguimiento de eventos para Windows3 | Documentos de Microsoft
+title: Uso de seguimiento de eventos para Windows3 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,12 +21,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 75b2b339c99dcf1b64368c73381d1dbe81e0fb39
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 7dd37de9c38dce752f61b92e0240f7b2f2fff832
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25973618"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984357"
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
 Microsoft BizTalk Adapter para TIBCO Enterprise Message Service registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta de seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl, por ejemplo, tracerpt.exe o tracedmp.exe. Por ejemplo, la aplicación tracerpt.exe convierte el \*archivo .etl en dos archivos de texto: summary.txt y dumpfile.csv.  
@@ -34,32 +34,32 @@ Microsoft BizTalk Adapter para TIBCO Enterprise Message Service registra los men
 ## <a name="etw-components"></a>Componentes de ETW  
  Seguimiento de eventos para Windows tiene tres componentes:  
   
--   **Aplicación del controlador**: activa y desactiva un proveedor (por ejemplo, tracelog.exe o logman.exe).  
+- **Aplicación de controlador**: activa y desactiva un proveedor (por ejemplo, tracelog.exe o logman.exe).  
   
-     Configure su variable de entorno PATH para que señale la ubicación de tracelog.exe. Esto garantiza que las llamadas de BTATIBCO EMSTrace pueden localizar tracelog.exe en el sistema. De forma predeterminada, BTATIBCO EMSTrace busca la ruta de acceso actual.  
+   Configure su variable de entorno PATH para que señale la ubicación de tracelog.exe. Esto garantiza que las llamadas de BTATIBCO EMSTrace pueden localizar tracelog.exe en el sistema. De forma predeterminada, BTATIBCO EMSTrace busca la ruta de acceso actual.  
   
-    > [!NOTE]
-    >  tracelog.exe está disponible en el Microsoft SDK y es compatible con los comandos proporcionados por Microsoft BizTalk Adapter para TIBCO Enterprise Message Service. Para usar logman.exe, consulte la documentación de logman.  
+  > [!NOTE]
+  >  tracelog.exe está disponible en el Microsoft SDK y es compatible con los comandos proporcionados por Microsoft BizTalk Adapter para TIBCO Enterprise Message Service. Para usar logman.exe, consulte la documentación de logman.  
   
--   **Aplicación de consumidor**: lee eventos registrados.  
+- **Aplicación de consumidor**: lee eventos registrados.  
   
-     Para que la aplicación de consumidor pueda leer el evento en el archivo etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente esto se realiza cuando el controlador desactiva el seguimiento.  
+   Para que la aplicación de consumidor pueda leer el evento en el archivo etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente esto se realiza cuando el controlador desactiva el seguimiento.  
   
-     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real\> = -rt.  
+   Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<en tiempo Real\> = -rt.  
   
--   **Proveedor**: proporciona el evento.  
+- **Proveedor**: proporciona el evento.  
   
-     BizTalk Adapter para TIBCO Enterprise Message Service incluye tres proveedores diferentes. Están registrados en el Instrumental de administración de Windows (WMI). Para encontrar los proveedores registrados en la ruta root\WMI\EventTrace, puede usar herramientas tales como WMI CIM Studio.  
+   BizTalk Adapter para TIBCO Enterprise Message Service incluye tres proveedores diferentes. Están registrados en el Instrumental de administración de Windows (WMI). Para encontrar los proveedores registrados en la ruta root\WMI\EventTrace, puede usar herramientas tales como WMI CIM Studio.  
   
- BizTalk Adapter para TIBCO Enterprise Message Service tiene proveedores que permiten registrar diferentes clases de mensajes:  
+  BizTalk Adapter para TIBCO Enterprise Message Service tiene proveedores que permiten registrar diferentes clases de mensajes:  
   
--   **Proveedor de registro de receptor**: el \<elemento Trace\> conmutador **-receptor**.  
+- **Proveedor de registro de receptor**: el \<elemento Trace\> modificador es **-receptor**.  
   
-     Use **-receptor** para recibir cualquier mensaje del registro que se han recibido por el adaptador en tiempo de ejecución.  
+   Use **-receptor** para recibir cualquier mensaje del registro que se han recibido por el adaptador en tiempo de ejecución.  
   
--   **Proveedor de registro de transmisor**: el \<elemento Trace\> conmutador **-transmisor**.  
+- **Proveedor de registro de transmisor**: el \<elemento Trace\> modificador es **-transmisor**.  
   
-     Use **-transmisor**para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.  
+   Use **-transmisor**para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.  
   
 ### <a name="btatibcoemstrace-command"></a>Comando BTATIBCOEMSTrace  
  Para usar ETW, ejecute el adaptador de BizTalk para el comando de TIBCO Enterprise Message Service, BTATIBCOEMSTrace.cmd. Use este comando como sigue:  
@@ -72,25 +72,25 @@ BTA TIBCOEMSTrace <Trace element> -stop
   
  Donde:  
   
--   **\<Elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
+- **\<Elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
   
- Sus opciones son:  
+  Sus opciones son:  
   
--   **-transmitter**  
+- **-transmisor**  
   
--   **-receiver**  
+- **-receptor**  
   
--   **-iniciar, - detener**: activar o desactivar el proveedor.  
+- **-iniciar, - detener**: activar o desactivar el proveedor.  
   
--   **-cir \<MB\>**: tamaño y tipo de archivo. **-cir** es un archivo circular. **\<MB\>**: tamaño en megabytes.  
+- **-cir \<MB\>**: tamaño y tipo de archivo. **-cir** es un archivo circular. **\<MB\>**: tamaño en megabytes.  
   
--   **-seq \<MB\>**: tamaño y tipo de archivo. **-seq** es un archivo secuencial. **\<MB\>**: tamaño en megabytes.  
+- **-seq \<MB\>**: tamaño y tipo de archivo. **-seq** es un archivo secuencial. **\<MB\>**: tamaño en megabytes.  
   
--   **-rt**: activar el modo de tiempo real.  
+- **-rt**: activar el modo en tiempo real.  
   
--   **Archivo de registro**: nombre del archivo de registro (c:\rtlog.etl es el valor predeterminado).  
+- **Archivo de registro**: nombre del archivo de registro (c:\rtlog.etl es el valor predeterminado).  
   
- Por ejemplo:  
+  Por ejemplo:  
   
 ```  
 BTATIBCOEMSTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl  

@@ -1,5 +1,5 @@
 ---
-title: Secuencia de número de control agotada de intercambio para el socio y TPA | Documentos de Microsoft
+title: Intercambio de secuencia de número de control agotada para el socio y TPA | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b4744a8db00985db3e85c1cb8843f07b3488544b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19f1aeb79febf8bca10f46b2b5a3a5ba319f6028
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257044"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989365"
 ---
 # <a name="interchange-control-number-sequence-exhausted-for-partner-and-tpa"></a>Secuencia de número de control de intercambio agotada para el socio y TPA
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|EdiControlNumberExhaustedForParty|  
-|Texto del mensaje|Secuencia de número de control de intercambio agotado para el socio '{1}' del TPA '{2}'. Restablezca la secuencia en {2} - propiedades de EDI mediante administración de BizTalk Server.|  
+|                 |                                                                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                         |
+| Versión del producto |                                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                     |
+|    Identificador del evento     |                                                                                 -                                                                                  |
+|  Origen del evento   |                                       EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                       |
+|    Componente    |                                                                             Motor EDI                                                                             |
+|  Nombre simbólico  |                                                                 EdiControlNumberExhaustedForParty                                                                  |
+|  Texto del mensaje   | Secuencia de número de control agotada de intercambio para el socio '{1}'para el TPA'{2}'. Restablezca la secuencia en {2} - propiedades de EDI mediante la administración de BizTalk Server. |
   
 ## <a name="explanation"></a>Explicación  
- Este evento de Error, advertencia o información indica que el servidor BizTalk Server no pudo procesar el documento porque se ha agotado el intervalo de control de intercambio para el acuerdo en {2}.  
+ Este evento de error, advertencia o información indica que BizTalk Server no pudo procesar el documento debido a que el intervalo de control del intercambio se ha agotado para el acuerdo en {2}.  
   
 ## <a name="user-action"></a>Acción del usuario  
- Para resolver este error, active la casilla de verificación para restablecer el número de control para el acuerdo de {2} o aumentar el intervalo de números de control o pulse el botón Restablecer contra la especificación de intervalo de número de control en el acuerdo.
+ Para resolver este error, active la casilla para restablecer el número de control del acuerdo {2}, aumente el intervalo de números de control o pulse el botón Restablecer contra la especificación del intervalo de números de control en el acuerdo.

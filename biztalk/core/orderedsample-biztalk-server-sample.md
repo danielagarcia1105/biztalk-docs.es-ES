@@ -1,5 +1,5 @@
 ---
-title: OrderedSample (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: OrderedSample (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b9e93c7bb9cb59088e465dc53dd992ffd5f1c11
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 96a8cd43f80e9bf6ef7b5a2628f276aa7ef6829c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974754"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013101"
 ---
 # <a name="orderedsample-biztalk-server-sample"></a>OrderedSample (ejemplo de BizTalk Server)
 El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y enviar un serie ordenada de mensajes en un modo de envío y recepción.  
@@ -32,16 +32,16 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
  El puerto de recepción en la orquestación, **mqreceive**, tiene su **entrega ordenada** propiedad establecida en **True**.  
   
- En cuanto al envío, la orquestación envía un mensaje y, a continuación, espera por la notificación de entrega antes de enviar el siguiente mensaje. El puerto de envío **mqsend** tiene su **notificación de entrega** propiedad establecida en **transmitido**. Para que el ejemplo siga siendo sencillo, la orquestación usa un bucle infinito.  
+ En cuanto al envío, la orquestación envía un mensaje y, a continuación, espera por la notificación de entrega antes de enviar el siguiente mensaje. El puerto de envío **mqsend** tiene su **notificación de entrega** propiedad establecida en **transmitida**. Para que el ejemplo siga siendo sencillo, la orquestación usa un bucle infinito.  
   
  La orquestación puede recibir lotes de mensajes, así como un único mensaje.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample  
+ *\<Ejemplos de la ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivo|Description|  
+|Archivo|Descripción|  
 |----------|-----------------|  
 |OrderedReceiveSend.btproj,<br /><br /> OrderedReceiveSend.sln|Archivos de proyectos y soluciones para la aplicación.|  
 |OrderedReceiveSendOrchestration.odx|La orquestación de la aplicación.|  
@@ -52,27 +52,27 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 #### <a name="to-build-and-deploy-the-sample"></a>Para generar e implementar el ejemplo  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     `<Samples Path>\AdaptersUsage\MQSeriesAdapter\OrderedSample`  
+    `<Samples Path>\AdaptersUsage\MQSeriesAdapter\OrderedSample`  
   
-2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
+2. Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
-    1.  Crea una clave de nombre seguro para el proyecto.  
+   1.  Crea una clave de nombre seguro para el proyecto.  
   
-    2.  Compila e implementa el proyecto de orquestación.  
+   2.  Compila e implementa el proyecto de orquestación.  
   
- Si dispone de los permisos necesarios para la instalación de MQSeries Server para Windows, puede crear la cola MQSeries mediante los cuadros de diálogo del adaptador y puede omitir el procedimiento siguiente. Si no dispone de este acceso, puede crear la cola con IBM WebSphere MQ Explorer. Para crear las colas con WebSphere MQ Explorer, realice los siguientes pasos.  
+   Si dispone de los permisos necesarios para la instalación de MQSeries Server para Windows, puede crear la cola MQSeries mediante los cuadros de diálogo del adaptador y puede omitir el procedimiento siguiente. Si no dispone de este acceso, puede crear la cola con IBM WebSphere MQ Explorer. Para crear las colas con WebSphere MQ Explorer, realice los siguientes pasos.  
   
 ## <a name="creating-the-mqseries-queues-through-the-websphere-mq-explorer"></a>Crear las colas MQSeries con WebSphere MQ Explorer  
   
 #### <a name="to-create-the-mqseries-queues-through-the-websphere-mq-explorer"></a>Para crear las colas MQSeries con WebSphere MQ Explorer  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
+1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
   
 2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el **Administrador de cola predeterminado**. Normalmente, el administrador de cola predeterminado se denomina QM_<nombre_equipo>, donde nombre_equipo es el nombre del equipo.  
   
-3.  Haga clic en **colas**, seleccione **New**y, a continuación, haga clic en **cola Local**.  
+3.  Haga clic en **colas**, apunte a **New**y, a continuación, haga clic en **cola Local**.  
   
 4.  En **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue1"** y, a continuación, haga clic en **Aceptar**.  
   
@@ -89,13 +89,13 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 2.  Expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda la aplicación necesaria.  
   
-3.  Haga clic en **puertos de recepción**, seleccione **New**y, a continuación, haga clic en **puerto de recepción unidireccional**.  
+3.  Haga clic en **puertos de recepción**, apunte a **New**y, a continuación, haga clic en **puerto de recepción unidireccional**.  
   
-4.  En el **propiedades del puerto de recepción unidireccional** cuadro de diálogo, en la **nombre** cuadro, escriba **OrderedSampleReceive** y haga clic en **Aceptar**.  
+4.  En el **propiedades del puerto de recepción unidireccional** cuadro de diálogo, en el **nombre** cuadro, escriba **OrderedSampleReceive** y haga clic en **Aceptar**.  
   
-5.  En el panel izquierdo, haga clic en **ubicaciones de recepción** ficha y, a continuación, haga clic en **nuevo**.  
+5.  En el panel izquierdo, haga clic en **ubicaciones de recepción** pestaña y, a continuación, haga clic en **New**.  
   
-6.  En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **nombre** cuadro, escriba "**OrderedSampleReceiveLocation**".  
+6.  En el **propiedades de ubicación de recepción** cuadro de diálogo el **nombre** cuadro, escriba "**OrderedSampleReceiveLocation**".  
   
 7.  En el **tipo de transporte** cuadro, seleccione **MQSeries**.  
   
@@ -105,13 +105,13 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 10. Haga clic en **configurar**.  
   
-11. En el **propiedades de transporte MQSeries** cuadro de diálogo, en la **intervalo de sondeo** , escriba **"10"**.  
+11. En el **propiedades de transporte MQSeries** cuadro de diálogo el **intervalo de sondeo** , escriba **"10"**.  
   
 12. En el **definición de la cola** cuadro, haga clic en el **puntos suspensivos (...)**  botón.  
   
-13. En el **definición de la cola** cuadro de diálogo, en la **nombre del servidor** , escriba el nombre del equipo.  
+13. En el **definición de la cola** cuadro de diálogo el **nombre del servidor** , escriba el nombre del equipo.  
   
-14. En el **Administrador de cola** cuadro, seleccione la **Administrador de cola predeterminado**.  
+14. En el **Administrador de cola** cuadro, seleccione el **Administrador de cola predeterminado**.  
   
 15. En el **cola** , escriba " **queue1**" y, a continuación, haga clic en **exportar**.  
   
@@ -121,9 +121,9 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 #### <a name="to-create-the-send-port-and-mqseries-queue"></a>Para crear el puerto de envío y la cola MQSeries  
   
-1.  Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
+1.  Haga clic en **puertos de envío**, apunte a **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
-2.  En el **propiedades del puerto estático** cuadro de diálogo, en la **nombre** , escriba "**OrderedSampleSend**".  
+2.  En el **propiedades del puerto estático** cuadro de diálogo, en el **nombre** , escriba "**OrderedSampleSend**".  
   
 3.  En el **tipo de transporte** cuadro, seleccione **MQSeries**.  
   
@@ -131,11 +131,11 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 5.  Haga clic en **configurar**.  
   
-6.  En el **propiedades de transporte MQSeries** cuadro de diálogo, en la **definición de la cola** cuadro, haga clic en el **puntos suspensivos (...)**  botón.  
+6.  En el **propiedades de transporte MQSeries** cuadro de diálogo el **definición de la cola** cuadro, haga clic en el **puntos suspensivos (...)**  botón.  
   
-7.  En el **definición de la cola** cuadro de diálogo, en la **nombre del servidor** , escriba el nombre del equipo.  
+7.  En el **definición de la cola** cuadro de diálogo el **nombre del servidor** , escriba el nombre del equipo.  
   
-8.  En el **Administrador de cola** cuadro, seleccione la **Administrador de cola predeterminado**.  
+8.  En el **Administrador de cola** cuadro, seleccione el **Administrador de cola predeterminado**.  
   
 9. En el **cola** , escriba " **queue2**" y, a continuación, haga clic en **exportar**.  
   
@@ -166,7 +166,7 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 5.  En el **Host** cuadro, seleccione **BizTalkServerApplication**y haga clic en **Aceptar**.  
   
-6.  Haga clic con el **orquestación** y haga clic en **iniciar**.  
+6.  Haga clic en el **orquestación** y haga clic en **iniciar**.  
   
 #### <a name="to-run-the-sample"></a>Para ejecutar el ejemplo  
   

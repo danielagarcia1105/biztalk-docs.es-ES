@@ -1,5 +1,5 @@
 ---
-title: Flujo de trabajo BAM | Documentos de Microsoft
+title: Flujo de trabajo BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,12 +23,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19356d6191963ec441f0b85c0e987c8515dcf1f4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4c925e1b77b53bc2ec30a7f42b2446ee410ffef7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22232044"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989941"
 ---
 # <a name="bam-workflow"></a>Flujo de trabajo de BAM
 En la siguiente ilustración se muestran los cuatro roles de usuario que funcionan con Supervisión de la actividad económica, así como las herramientas que usan.  
@@ -51,7 +51,7 @@ Roles de BAM
   
 -   El administrador del sistema y el programador usan el archivo XML para desempeñar sus roles.  
   
--   Instrucciones para usar el libro de trabajo de la definición de BAM se encuentran en [definir actividades económicas y vistas en Excel](../core/defining-business-activities-and-views-in-excel.md).  
+-   Instrucciones para usar el libro de definición de BAM se encuentran en [definir actividades económicas y vistas en Excel](../core/defining-business-activities-and-views-in-excel.md).  
   
 ## <a name="managing-the-bam-infrastructure"></a>Administrar la infraestructura de BAM  
  Una vez que el analista haya definido la vista de BAM que desea, el administrador del sistema usa la utilidad de administración de BAM (BM.EXE), una herramienta de línea de comandos, para implementar la infraestructura de BAM desde el Libro de trabajo de definiciones de BAM o el XML exportado desde dicho libro.  
@@ -65,13 +65,13 @@ Roles de BAM
   
  Mediante el Editor de perfiles de seguimiento, el programador asigna el archivo XML a una orquestación del modo siguiente:  
   
--   Carga el ensamblado implementado que se encuentra almacenado en la base de datos de administración de BizTalk (también llamada base de datos de configuración). El ensamblado implementado contiene una o más orquestaciones correspondientes a los requisitos especificados por el analista de negocios en el paso 1.  
+- Carga el ensamblado implementado que se encuentra almacenado en la base de datos de administración de BizTalk (también llamada base de datos de configuración). El ensamblado implementado contiene una o más orquestaciones correspondientes a los requisitos especificados por el analista de negocios en el paso 1.  
   
--   Define los datos que deben extraerse de una orquestación. Para ello, coloca elementos de los esquemas de mensaje y de las formas de orquestación en el hito económico (evento) y las carpetas de elementos de datos correspondientes.  
+- Define los datos que deben extraerse de una orquestación. Para ello, coloca elementos de los esquemas de mensaje y de las formas de orquestación en el hito económico (evento) y las carpetas de elementos de datos correspondientes.  
   
--   Cuando termina, guarda el perfil como un archivo de seguimiento de BizTalk® Server (.btt) en una base de datos de almacenamiento, tal como Visual SourceSafe.  
+- Cuando termina, guarda el perfil como un archivo de seguimiento de BizTalk® Server (.btt) en una base de datos de almacenamiento, tal como Visual SourceSafe.  
   
- El programador implementa el archivo .btt en una base de datos de prueba y comprueba el resultado mediante la prueba de integración.  
+  El programador implementa el archivo .btt en una base de datos de prueba y comprueba el resultado mediante la prueba de integración.  
   
 ## <a name="deploying-the-tracking-profile"></a>Implementar el perfil de seguimiento  
  Mediante el Editor de perfiles de seguimiento, el administrador del sistema implementa el perfil en una o varias bases de datos de administración de BizTalk.  
@@ -81,7 +81,7 @@ Roles de BAM
 ## <a name="viewing-the-business-data"></a>Ver los datos económicos  
  El usuario empresarial usa el libro de trabajo _LiveData, generado por la utilidad BM.exe. Cada vez que el usuario empresarial abra el libro de trabajo _LiveData, recibirá una nueva versión en directo de los datos recopilados para supervisar un aspecto específico del proceso empresarial.  
   
--   Para ver los datos que se define como agregación en tiempo real, el usuario empresarial solo tiene que hacer clic en **actualizar** en el libro para ver los datos.  
+-   Para ver los datos que se definen como agregación en tiempo real, el usuario empresarial solo tiene que hacer clic en **actualizar** en el libro para ver los datos.  
   
 -   Si los datos de la agregación no son de tiempo real, el usuario empresarial ve una instantánea tomada en el momento de ejecutarse el paquete DTS programado.  
   

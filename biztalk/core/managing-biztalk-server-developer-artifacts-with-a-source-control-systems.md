@@ -1,5 +1,5 @@
 ---
-title: Administrar artefactos de programador de BizTalk Server con un origen de sistemas de Control | Documentos de Microsoft
+title: Administrar artefactos del programador de BizTalk Server con un origen de sistemas de Control | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 829749911bd4f3ca6aee1da42578a1aac28db7ae
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 8ce9483518275c57c7defb730aeeffc8a4139115
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22265804"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991013"
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>Administración de artefactos de programadores de BizTalk Server con sistemas de control de código fuente
 Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser un tema de máxima prioridad. Una manera de proteger los archivos del proyecto es usar un sistema de control de código fuente, por ejemplo, Team Foundation Server Source Control y Microsoft Visual SourceSafe. En este tema se analizan algunas estrategias básicas para organizar proyectos con el fin de que funcionen mejor con un sistema de control de código fuente, y proporciona algunas sugerencias específicas para usar Visual SourceSafe.  
@@ -95,21 +95,21 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
   
 ##### <a name="to-enable-visual-sourcesafe-to-work-with-biztalk-server-unicode-files"></a>Para habilitar Visual SourceSafe para que trabaje con archivos Unicode de BizTalk Server  
   
-1.  Inicie el administrador de Visual SourceSafe 8.0.  
+1. Inicie el administrador de Visual SourceSafe 8.0.  
   
-2.  Seleccione la base de datos de SourceSafe que se va a utilizar.  
+2. Seleccione la base de datos de SourceSafe que se va a utilizar.  
   
-3.  En el menú **Herramientas** , haga clic en **Opciones**.  
+3. En el menú **Herramientas** , haga clic en **Opciones**.  
   
-4.  Haga clic en el **tipos de archivo** ficha.  
+4. Haga clic en el **tipos de archivo** ficha.  
   
-5.  Agregue lo siguiente al final de la lista de archivos binarios. Compruebe que hay puntos y comas entre cada tipo de archivo:  
+5. Agregue lo siguiente al final de la lista de archivos binarios. Compruebe que hay puntos y comas entre cada tipo de archivo:  
   
-     *.btm;\*.btp;\*.xsd;\*.odx  
+    *.btm; \*.btp; \*.xsd; \*.odx  
   
-6.  Haga clic en **Aceptar**.  
+6. Haga clic en **Aceptar**.  
   
- Visual SourceSafe no inspeccionará los archivos de BizTalk Server y no intentará cambiar su formato.  
+   Visual SourceSafe no inspeccionará los archivos de BizTalk Server y no intentará cambiar su formato.  
   
 ### <a name="use-visual-studio-for-source-control-operations"></a>Usar Visual Studio para las operaciones de control de código fuente  
  Cualquier manipulación o creación de proyectos en Visual SourceSafe se debería desarrollar mediante los menús integrados de soporte de Visual SourceSafe existentes en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. No utilice el Explorador de Visual SourceSafe para realizar estas operaciones.  
@@ -117,13 +117,13 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
 ### <a name="when-to-check-in-biztalk-server-projects"></a>Cuándo controlar proyectos de BizTalk Server  
  El enfoque que se recomienda para utilizar Visual SourceSafe implica controlar el código solo cuando haya pasado correctamente las pruebas funcionales y el programador esté seguro de que el código se generará correctamente sin interrumpir ningún código que esté relacionado. Aplicar este modelo a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supone las directrices siguientes:  
   
--   Los proyectos de BizTalk que contengan solo esquemas de mensaje no se deberían controlar hasta que los esquemas se hayan probado y hayan dado resultados positivos con respecto a una variedad de mensajes de ejemplo.  
+- Los proyectos de BizTalk que contengan solo esquemas de mensaje no se deberían controlar hasta que los esquemas se hayan probado y hayan dado resultados positivos con respecto a una variedad de mensajes de ejemplo.  
   
--   Los proyectos de BizTalk que contengan un proceso empresarial no se deberían controlar hasta que la solución se haya probado y haya dado resultados positivos mediante los mensajes de entrada y salida correspondientes y mediante los puertos de recepción y envío correctos.  
+- Los proyectos de BizTalk que contengan un proceso empresarial no se deberían controlar hasta que la solución se haya probado y haya dado resultados positivos mediante los mensajes de entrada y salida correspondientes y mediante los puertos de recepción y envío correctos.  
   
--   Los proyectos del servicio Web de ASP.NET no se deberían controlar hasta que el código de servicio Web se haya probado con respecto al sistema inicializado o mediante un instrumento de prueba.  
+- Los proyectos del servicio Web de ASP.NET no se deberían controlar hasta que el código de servicio Web se haya probado con respecto al sistema inicializado o mediante un instrumento de prueba.  
   
- Si se sigue este modelo, el repositorio de Visual SourceSafe siempre contendrá una generación que se puede probar y generar correctamente. Es principio cobra especial relevancia si hay que cumplir el enfoque de “generación nocturna”.  
+  Si se sigue este modelo, el repositorio de Visual SourceSafe siempre contendrá una generación que se puede probar y generar correctamente. Es principio cobra especial relevancia si hay que cumplir el enfoque de “generación nocturna”.  
   
 ### <a name="checking-in-intermediate-versions"></a>Controlar versiones intermedias  
  Un enfoque alternativo para controlar archivos trata de controlar las versiones “intermedias”. En este enfoque, una versión intermedia todavía no ha pasado la prueba funcional y se puede considerar “entre generaciones”. Normalmente no se recomienda este enfoque porque no cumple con el principio general de tener siempre versiones que se puedan generar en un sistema de control de fuente. Sin embargo, algunos equipos prefieren este enfoque porque permite que los programadores puedan utilizar el sistema de control de fuente para comprobar y deshacer versiones sin necesidad de cumplir los criterios de comprobación de una generación formal.  
@@ -145,17 +145,17 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
 ### <a name="version-controlling-non-biztalk-server-project-files"></a>Versión que controla los archivos de proyectos que no son de BizTalk Server  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] utiliza archivos adicionales a los que se puede asignar una versión y los que se pueden almacenar en Visual SourceSafe de forma beneficiosa. A continuación se muestran algunos ejemplos de archivos:  
   
--   Archivos de enlace (tanto de desarrollo como de prueba)  
+- Archivos de enlace (tanto de desarrollo como de prueba)  
   
--   Ensamblados de canalización personalizada  
+- Ensamblados de canalización personalizada  
   
--   Datos de prueba (por ejemplo, mensajes de prueba)  
+- Datos de prueba (por ejemplo, mensajes de prueba)  
   
--   Instrumentos de prueba (que pueden variar durante el período de vida de un proyecto)  
+- Instrumentos de prueba (que pueden variar durante el período de vida de un proyecto)  
   
--   Secuencias de comandos de generación, de implementación y de inicio-apagado que puede que los equipos de desarrollo y generación tengan que compartir.  
+- Secuencias de comandos de generación, de implementación y de inicio-apagado que puede que los equipos de desarrollo y generación tengan que compartir.  
   
- Si los archivos están relacionados con un proyecto de BizTalk específico de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], se pueden incluir en el proyecto de BizTalk y administrar mediante las funciones de control de código fuente integradas en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+  Si los archivos están relacionados con un proyecto de BizTalk específico de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], se pueden incluir en el proyecto de BizTalk y administrar mediante las funciones de control de código fuente integradas en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
 ##### <a name="to-include-a-file-or-folder-into-an-existing-visual-studio-project"></a>Para incluir un archivo o una carpeta en un proyecto de Visual Studio existente  
   

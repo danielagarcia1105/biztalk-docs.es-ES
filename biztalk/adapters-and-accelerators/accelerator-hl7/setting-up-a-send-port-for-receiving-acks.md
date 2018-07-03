@@ -1,5 +1,5 @@
 ---
-title: Configurar un puerto de envío para recibir confirmaciones | Documentos de Microsoft
+title: Configurar un puerto de envío para recibir confirmaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,27 +17,27 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df0988a9edc2af81970237aad363315a778f821b
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.openlocfilehash: f70be6d66d0ba8aa3385760bfc17b4b19f50351a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
-ms.locfileid: "25961610"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984749"
 ---
-# <a name="setting-up-a-send-port-for-receiving-acks"></a>Cómo configurar un puerto de envío para recibir mensajes de confirmación
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) puede recibir confirmaciones (ACK) en un puerto de envío unidireccional. Cuando configura un nuevo puerto de envío unidireccional para recibir mensajes de confirmación en la misma conexión, debe asociar ese envío puerto de recepción del puerto con un unidireccional.  
+# <a name="setting-up-a-send-port-for-receiving-acks"></a>Configurar un puerto de envío para recibir confirmaciones
+Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) puede recibir confirmaciones (ACK) en un puerto de envío unidireccional. Al configurar un puerto de envío unidireccional para recibir confirmaciones en la misma conexión, debe asociar ese envío Puerto unidireccional con el puerto de recepción.  
   
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]el programa de instalación crea un unidireccional puerto de recepción (denominado **TwoWayAckReceivePort**) y ubicación de recepción (denominado **TwoWayAckReceiveLocation**). La ubicación de recepción utiliza el tipo de transporte de protocolo de nivel inferior mínimo (MLLP), tiene un URI de "127.0.0.1:65535" y usa el **BTAHL72XReceivePipeline**. Se trata de la configuración necesaria para recibir y procesar una confirmación recibida un mensaje enviado por el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] en modo bidireccional del adaptador, de envío. Esta ubicación de recepción no se deberían eliminar o utiliza para otros fines. Nunca enviar datos a esta ubicación de recepción. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]permite que esta ubicación de recepción de forma predeterminada.  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] programa de instalación crea un unidireccional puerto de recepción (llamado **TwoWayAckReceivePort**) y la ubicación de recepción (llamado **TwoWayAckReceiveLocation**). La ubicación de recepción utiliza el tipo de transporte de protocolo de nivel inferior mínimo (MLLP), tiene un identificador URI de "127.0.0.1:65535" y utiliza el **BTAHL72XReceivePipeline**. Se trata de la configuración necesaria para la recepción y procesamiento de confirmación recibida un mensaje enviado por el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] enviar adaptador, en modo bidireccional. Esta ubicación de recepción no deberían eliminarse o usar para otros fines. Nunca se envían datos a esta ubicación de recepción. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] permite que esta ubicación de recepción de forma predeterminada.  
   
- **TwoWayAckReceiveLocation**, que la [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Asistente para la instalación crea, utiliza el **BizTalkServerApplication** como el controlador de recepción. Sin embargo, si decide crear un nuevo host y usarlo como el controlador de recepción para MLLP, a continuación, debe hacer lo siguiente para crear una nueva **TwoWayAckReceiveLocation**:  
+ **TwoWayAckReceiveLocation**, que el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Asistente para configuración crea, utiliza el **BizTalkServerApplication** como el controlador de recepción. Sin embargo, si decide crear un nuevo host y usarlo como el controlador de recepción de MLLP, a continuación, debe hacer lo siguiente para crear un nuevo **TwoWayAckReceiveLocation**:  
   
-1.  Crear un unidireccional puerto de recepción.  
+1.  Crear un sentido puerto de recepción.  
   
-2.  Crear un unidireccional MLLP ubicación de recepción.  
+2.  Crear un sentido ubicación de recepción de MLLP.  
   
 3.  Especifique los valores adecuados para las propiedades de transporte MLLP.  
   
-4.  Especifique el controlador de recepción.  
+4.  Especifique el que controlador de recepción adecuado.  
   
 5.  Habilitar la ubicación de recepción.  
   
@@ -51,15 +51,15 @@ ms.locfileid: "25961610"
   
 4.  Haga clic en **configurar**.  
   
-5.  En el cuadro de diálogo Propiedades de transporte de MLLP, escriba un nombre de conexión y el host (por ejemplo, **localhost**).  
+5.  En el cuadro de diálogo Propiedades de transporte de MLLP, escriba un nombre de la conexión y un host (por ejemplo, **localhost**).  
   
 6.  Para **de petición respuesta habilitado**, seleccione **Sí**. Deje **enviar recibir ubicación (URI) para la confirmación** en blanco y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  Cuando sale de **ubicación de recepción envíe** en blanco, BTAHL7 entra en el URI para el valor predeterminado **TwoWayAckReceiveLocation**. Puede comprobar que después al hacer clic **Aceptar** en el paso 6, haciendo clic en **configuración** nuevo. El URI para **TwoWayAckReceiveLocation** (127.0.0.1:65535) se escribirán en **enviar recibir ubicación (URI) para la confirmación**.  
+    >  Si se deja **ubicación de recepción envíe** en blanco, BTAHL7 entra en el URI para el valor predeterminado **TwoWayAckReceiveLocation**. Puede comprobar que una vez al hacer clic **Aceptar** en el paso 6, al hacer clic en **configuración** nuevo. El URI para **TwoWayAckReceiveLocation** (127.0.0.1:65535) se escribirán en **enviar recibir ubicación (URI) para la confirmación**.  
   
     > [!NOTE]
-    >  Debe crear un puerto de envío para suscribirse a la confirmación recibida o la confirmación se verá en un estado suspendido, porque no se encontró ninguna suscripción. Para suscribirse a las Confirmaciones recibidas por el puerto de envío, utilice filtros, por ejemplo, **BTS. MessageType == \< *MessageType* \>**  y **BTS. ReceivePortName == \< *puertoRecepción*\>**. Para confirmaciones estáticos, el tipo de mensaje es **StaticAck**.  
+    >  Debe crear un puerto de envío para suscribirse a ha recibido la confirmación o la confirmación se verán en un estado suspendido, porque no se encontraron suscripciones. Para suscribirse a las Confirmaciones recibidas por el puerto de envío, use los filtros, por ejemplo, **BTS. MessageType == \< *MessageType* \>**  y **BTS. ReceivePortName == \< *puertoRecepción*\>**. Para confirmaciones estáticas, es el tipo de mensaje **StaticAck**.  
   
 7.  Haga clic en **Aceptar**.  
   

@@ -1,5 +1,5 @@
 ---
-title: Persistencia y el motor de orquestaciones | Documentos de Microsoft
+title: Persistencia y el motor de orquestaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,33 +16,33 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e9e1c8b158d313681a6e1374a586ca957b1aa15
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d61d6665ba0828fb6cf24ef71ffb04fbcb94d5e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22264932"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022522"
 ---
 # <a name="persistence-and-the-orchestration-engine"></a>Persistencia y el motor de orquestaciones
 La persistencia de los estados, su administración y restauración constituyen la base de muchas de las funcionalidades fundamentales del motor de orquestaciones. En particular, la persistencia es crítica para el funcionamiento correcto de:  
   
--   Deshidratación y rehidratación  
+- Deshidratación y rehidratación  
   
--   Ejecución agnóstica del equipo y rehidratación  
+- Ejecución agnóstica del equipo y rehidratación  
   
--   Modelo de compensación  
+- Modelo de compensación  
   
--   Cierre controlado del sistema  
+- Cierre controlado del sistema  
   
--   Recuperación  
+- Recuperación  
   
- El motor de orquestaciones guarda toda la información de estado de las instancias de orquestación en ejecución en varios puntos en el almacenamiento persistente, de modo que las instancias se puedan restaurar posteriormente en la memoria. El estado incluye:  
+  El motor de orquestaciones guarda toda la información de estado de las instancias de orquestación en ejecución en varios puntos en el almacenamiento persistente, de modo que las instancias se puedan restaurar posteriormente en la memoria. El estado incluye:  
   
--   El estado interno del motor, incluido su progreso actual  
+- El estado interno del motor, incluido su progreso actual  
   
--   El estado de cualquier componente .NET que mantenga información de estado y que utilice la orquestación  
+- El estado de cualquier componente .NET que mantenga información de estado y que utilice la orquestación  
   
--   Valores de variables y mensajes  
+- Valores de variables y mensajes  
   
 ## <a name="persistence-points"></a>Puntos de persistencia  
  El motor de orquestaciones guarda el estado de una instancia de orquestación en ejecución en varios puntos. Si la instancia de orquestación se debe rehidratar, iniciar a partir de un cierre controlado o recuperar desde un cierre inesperado, ésta se ejecutará desde el último punto de persistencia como si nada hubiera ocurrido. Por ejemplo, si se recibe un mensaje pero se produce un cierre inesperado antes de que se pueda guardar el estado, el motor no registrará que se ha recibido el mensaje y lo volverá a recibir después de reiniciarse. El motor guardará el estado de una orquestación cuando se produzcan las siguientes circunstancias:  
@@ -61,7 +61,7 @@ La persistencia de los estados, su administración y restauración constituyen l
   
 -   Se envía un mensaje. La única excepción a esto es cuando se envía un mensaje desde un ámbito de transacción atómica.  
   
--   La orquestación inicia otra orquestación de forma asincrónica, al igual que con la **Iniciar orquestación** forma.  
+-   La orquestación inicia otra orquestación de forma asincrónica, igual que con el **Iniciar orquestación** forma.  
   
 -   La instancia de orquestación se suspende.  
   
@@ -93,4 +93,4 @@ La persistencia de los estados, su administración y restauración constituyen l
  Cuando por cualquier motivo se produce un error anormal en una instancia de orquestación, la instancia se puede recuperar desde el último estado guardado y puede seguir ejecutándose como si no se hubiera producido ninguna interrupción. Esto ocurre aunque el servidor original en el que se ejecuta la instancia se quede sin servicio por algún motivo; la instancia puede simplemente reanudar la ejecución en un equipo distinto. Debido a este modelo de recuperación de varios servidores, ya no necesitará más la organización por clústeres.  
   
 ## <a name="see-also"></a>Vea también  
- [Orquestación deshidratación y rehidratación](../core/orchestration-dehydration-and-rehydration.md)
+ [Deshidratación y rehidratación de orquestaciones](../core/orchestration-dehydration-and-rehydration.md)

@@ -1,5 +1,5 @@
 ---
-title: ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión | Documentos de Microsoft
+title: ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante la descompresión | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc3158e05c433b131661d54db28f51e122e16127
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 768fb1aa2ada6fb6c585e29db1f19cf04a1bd118
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241020"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991317"
 ---
 # <a name="invalid-or-missing-trailing-asn1-cms-compressed-structure-bytes-during-decompression-processing"></a>ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|-|  
-|Texto del mensaje|ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión|  
+|                 |                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]        |
+| Versión del producto |                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                    |
+|    Identificador del evento     |                                                -                                                 |
+|  Origen del evento   |      EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]      |
+|    Componente    |                                            Motor AS2                                            |
+|  Nombre simbólico  |                                                -                                                 |
+|  Texto del mensaje   | ASN.1 CMS ausentes o no es válido bytes de estructura comprimen durante el proceso de descompresión |
   
 ## <a name="explanation"></a>Explicación  
  Este error hace referencia a la estructura ASN.1 de los datos comprimidos. El error indica al remitente de los datos comprimidos que ha estructurado incorrectamente los datos comprimidos o que se ha producido una manipulación (cambio sin autorización) del mensaje.  

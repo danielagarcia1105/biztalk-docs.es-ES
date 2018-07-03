@@ -1,5 +1,5 @@
 ---
-title: Las agregaciones del Portal de BAM | Documentos de Microsoft
+title: Las agregaciones del Portal de BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,12 +22,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43ef0adfacea0a29ea47584ed545884ffb8fa8bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 14496535f12171be1d391ebe88312a9730c36953
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230548"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986949"
 ---
 # <a name="aggregations-in-the-bam-portal"></a>Agregaciones en el portal de BAM
 Las agregaciones son tablas de datos precalculados que puede usar para realizar el procesamiento analítico con un cubo OLAP. Las agregaciones facilitan la realización de consultas eficaces en un contexto de bases de datos multidimensionales. Al crear e implementar el modelo de observación (la definición de alto nivel de los datos económicos) mediante el complemento BAM para Excel, se crean agregaciones que puede usar para evaluar rápidamente las colecciones de datos que hacen referencia a los indicadores clave de rendimiento (KPI).  
@@ -45,11 +45,11 @@ Las agregaciones son tablas de datos precalculados que puede usar para realizar 
   
  Recuerde estas consideraciones cuando utilice Office Web Components en el portal de BAM para modificar su informe de tabla dinámica.  
   
--   Los informes de tabla dinámica en Excel incluyen un campo Página, donde puede ubicar una dimensión de intervalo de tiempo. Los Office Web Components que utiliza el portal de BAM no incluyen un campo Página. Si su informe de tabla dinámica de Excel usa el campo Página para cualquier dimensión, los datos de este campo no se muestran en su informe de tabla dinámica en el portal de BAM.  
+- Los informes de tabla dinámica en Excel incluyen un campo Página, donde puede ubicar una dimensión de intervalo de tiempo. Los Office Web Components que utiliza el portal de BAM no incluyen un campo Página. Si su informe de tabla dinámica de Excel usa el campo Página para cualquier dimensión, los datos de este campo no se muestran en su informe de tabla dinámica en el portal de BAM.  
   
--   Office Web Components muestra los datos en el marco Contenido del portal de BAM. Debido a las limitaciones espaciales de este marco, al agregar dimensiones desde la lista de campos al área de las columnas, podría provocar que la tabla dinámica desplazara parcial o totalmente los nombres de las dimensiones fuera de la vista.  
+- Office Web Components muestra los datos en el marco Contenido del portal de BAM. Debido a las limitaciones espaciales de este marco, al agregar dimensiones desde la lista de campos al área de las columnas, podría provocar que la tabla dinámica desplazara parcial o totalmente los nombres de las dimensiones fuera de la vista.  
   
- Para obtener más información acerca de las tablas dinámicas, vea "Terminología de tablas dinámicas" en [http://go.microsoft.com/fwlink/?LinkId=55416](http://go.microsoft.com/fwlink/?LinkId=55416).  
+  Para obtener más información acerca de las tablas dinámicas, consulte "PivotTable Terminology demystified terminología" en [ http://go.microsoft.com/fwlink/?LinkId=55416 ](http://go.microsoft.com/fwlink/?LinkId=55416).  
   
 ## <a name="chart-view"></a>Vista de gráfico  
  El área Vista de diagrama muestra la agregación gráficamente. Office Web Components permite manipular los detalles de la agregación mediante la Vista de diagrama para ajustar los datos registrados según sea necesario. Si arrastra y coloca los elementos de datos de la lista de campos de diagrama para ajustar la agregación, el informe de tabla dinámica de la agregación se actualiza automáticamente para reflejar los cambios. Puede obtener detalles de la tabla dinámica para crear una alerta en la vista Agregación nueva.  

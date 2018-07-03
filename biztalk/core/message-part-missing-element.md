@@ -1,5 +1,5 @@
 ---
-title: Elemento que falta parte de mensaje | Documentos de Microsoft
+title: Falta un elemento de parte de mensaje | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1dd5a423a34d8b6ddf8f4689351b0f6dbcef53c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 412b25d2f7ea027de53818b032b50562faab9865
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263044"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009445"
 ---
 # <a name="message-part-missing-element"></a>Falta un elemento de parte de mensaje
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Falta un elemento de parte de mensaje. Corrija la parte "{{1}" "{{2}" del tipo de mensaje de descripción "{0}" servicio y vuelva a ejecutar el Asistente|  
+|                 |                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                 |
+| Versión del producto |                             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                             |
+|    Identificador del evento     |                                                         0                                                          |
+|  Origen del evento   |                                                         0                                                          |
+|    Componente    |                                                         0                                                          |
+|  Nombre simbólico  |                                                         0                                                          |
+|  Texto del mensaje   | Falta un elemento de parte de mensaje. Corrija la descripción del servicio "{0}"tipo de mensaje"{1}"elemento"{2}" y vuelva a ejecutar el Asistente |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que el servicio que se intenta consumir no tiene la etiqueta de elemento que identifica el tipo de mensaje.  
@@ -40,4 +40,4 @@ ms.locfileid: "22263044"
   
  Para obtener más información sobre mensajes, vea el recurso siguiente en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   [Construcción de mensajes Web](../core/constructing-web-messages.md)
+-   [Construcción de mensajes web](../core/constructing-web-messages.md)

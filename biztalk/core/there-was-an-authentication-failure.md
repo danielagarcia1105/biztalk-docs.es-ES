@@ -1,5 +1,5 @@
 ---
-title: Se produjo un error de autenticación | Documentos de Microsoft
+title: Se ha producido un error de autenticación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 180645d30c5cccc64eacd57730539bbca220f32f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5548d448d2c0d45addc72639ad229cf4ee1bf37f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278692"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022354"
 ---
 # <a name="there-was-an-authentication-failure"></a>Error de autenticación
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|DescPartyNotFound|  
-|Texto del mensaje|Se produjo un error de autenticación. Asegúrese de que existe una entidad que coincida con el mensaje que se está procesando, y que la información de seguridad y contraseña del mensaje coincide con la configuración de la entidad.|  
+|                 |                                                                                                                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                         |
+| Versión del producto |                                                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                     |
+|    Identificador del evento     |                                                                                                 -                                                                                                 |
+|  Origen del evento   |                                                      EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                       |
+|    Componente    |                                                                                            Motor EDI                                                                                             |
+|  Nombre simbólico  |                                                                                         DescPartyNotFound                                                                                         |
+|  Texto del mensaje   | Se produjo un error de autenticación. Asegúrese de que existe una entidad que coincida con el mensaje que se está procesando, y que la información de seguridad y contraseña del mensaje coincide con la configuración de la entidad. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque BizTalk Server no pudo autenticar al remitente del mensaje.  

@@ -1,5 +1,5 @@
 ---
-title: Invocar funciones y procedimientos de la base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
+title: Invocar funciones y procedimientos de la base de datos de Oracle mediante el modelo de servicio WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,41 +15,41 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f1fac59fc77b0cf52abe789db8feb2305043708
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2f1423d5945fe1c82ccc64027a28efa3c1777ca5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966362"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013157"
 ---
 # <a name="invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model"></a>Invocar funciones y procedimientos de la base de datos de Oracle mediante el modelo de servicio de WCF
-El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies de procedimientos, funciones y paquetes como operaciones. En el modelo de servicio WCF estas operaciones se representan como métodos en un cliente de WCF. El modelo de servicio WCF y [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:  
+El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies de procedimientos, funciones y paquetes como operaciones. En el modelo de servicio WCF estas operaciones se representan como métodos en un cliente de WCF. El modelo de servicio WCF y el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:  
   
--   **Admite las funciones**. El valor devuelto de la función de Oracle aparece como el valor devuelto del método de cliente WCF. Parámetros de Oracle aparecen como parámetros (con la dirección adecuada según se define a continuación) para el método de cliente WCF.  
+-   **Compatibilidad con las funciones**. El valor devuelto de la función de Oracle aparece como el valor devuelto del método de cliente WCF. Parámetros de Oracle se exponen como parámetros (con la dirección adecuada según se define a continuación) para el método de cliente WCF.  
   
--   **Compatible con los procedimientos**. El primer parámetro del procedimiento de Oracle de salida aparece como el valor devuelto del método de cliente WCF. Todos los demás parámetros de Oracle aparecen como parámetros (con la dirección adecuada según se define a continuación) para el método de cliente WCF.  
+-   **Admite procedimientos**. El primer parámetro del procedimiento Oracle OUT aparece como el valor devuelto del método de cliente WCF. Todos los demás parámetros de Oracle se exponen como parámetros (con la dirección adecuada según se define a continuación) para el método de cliente WCF.  
   
--   **Admite los paquetes de Oracle**. El nombre de la operación y el espacio de nombres de sus tipos de parámetro se califican con el nombre del paquete.  
+-   **Compatibilidad con paquetes Oracle**. El nombre de la operación y el espacio de nombres de sus tipos de parámetro se califican con el nombre del paquete.  
   
 -   **Compatibilidad con sobrecarga funciones y procedimientos**.  
   
--   **Compatibilidad con IN, OUT e IN parámetros para los tipos de datos de Oracle básicos para los procedimientos y funciones**. Los parámetros de salida aparecen como **out** aparecen como parámetros en el método de cliente WCF y los parámetros OUT en **ref** parámetros.  
+-   **Soporte técnico IN, OUT y en los parámetros para los tipos de datos básicos de Oracle para procedimientos y funciones de salida**. Los parámetros OUT se exponen como **out** los parámetros del método de cliente WCF y los parámetros OUT IN aparecen como **ref** parámetros.  
   
--   **IN de soporte técnico, OUT e IN parámetros REF CURSOR procedimientos y funciones, así como valores devueltos de función**. Para obtener más información, consulte [realizar operaciones utilizando los cursores REF cursor en la base de datos de Oracle mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md).  
+-   **EN soporte técnico, de salida y en parámetros REF CURSOR para los procedimientos y funciones, así como valores devueltos de función de salida**. Para obtener más información, consulte [realizar operaciones utilizando los cursores REF cursor en la base de datos de Oracle mediante el modelo de servicio WCF](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md).  
   
--   **Admite en, en espera registro a con parámetros para los procedimientos y funciones de tipo, así como valores devueltos de función**. Para obtener más información, consulte [realizar operaciones utilizando tipos de registros en la base de datos de Oracle mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md).  
+-   **Compatibilidad con en, OUT y IN OUT registro escriba los parámetros de procedimientos y funciones, así como valores devueltos de función**. Para obtener más información, consulte [realizar operaciones utilizando tipos de registros en la base de datos de Oracle mediante el modelo de servicio WCF](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md).  
   
-## <a name="about-the-examples-used-in-this-topic"></a>Acerca de los ejemplos usados en este tema  
- Los ejemplos de este tema se usa el /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT sobrecargar el procedimiento. Este procedimiento lee un registro de la tabla de SCOTT/cuenta basada en un identificador de cuenta o un nombre de cuenta. Una secuencia de comandos para generar este procedimiento y la tabla se suministra con los ejemplos del SDK. Para obtener más información acerca de los ejemplos SDK, vea [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
+## <a name="about-the-examples-used-in-this-topic"></a>Acerca de los ejemplos usados en este tema.  
+ Los ejemplos de este tema usan el /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT sobrecargado procedimiento. Este procedimiento lee un registro de la tabla de SCOTT/cuenta basada en un identificador de cuenta o un nombre de cuenta. Una secuencia de comandos para generar este procedimiento y la tabla se suministra con los ejemplos del SDK. Para obtener más información acerca de los ejemplos SDK, consulte [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
   
 ## <a name="the-wcf-client-class"></a>La clase de cliente WCF  
- En la tabla siguiente se muestra el nombre del cliente WCF y el método generado para los procedimientos, las funciones y los paquetes que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies. A menos que una función o procedimiento está sobrecargado, se utiliza un solo cliente WCF para invocar todas las funciones en un esquema, todos los procedimientos en un esquema, o todas las funciones y procedimientos en un paquete.  
+ En la tabla siguiente se muestra el nombre del cliente WCF y el método generado para los procedimientos, funciones y paquetes que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies. A menos que se sobrecarga una función o procedimiento, se utiliza un único cliente WCF para invocar todas las funciones en un esquema, todos los procedimientos en un esquema, o todas las funciones y procedimientos de un paquete.  
   
 |Artefacto de Oracle|Nombre de operación de cliente WCF|Ejemplo|  
 |---------------------|-------------------------------|-------------|  
 |Procedimiento|[ESQUEMA] ProcedureClient. [PROC_NAME]|SCOTTProcedureClient.MYPROC|  
 |Función|[ESQUEMA] FunctionClient. [FUNC_NAME]|SCOTTProcedureClient.MYFUNC|  
-|Paquete (procedimiento o función)|[ESQUEMA] Cliente de paquete [nombreDePaquete]. [PROC_NAME o FUNC_NAME]|SCOTTPackageMYPACKAGEClient.MYPROC|  
+|Paquete (procedimiento o función)|[ESQUEMA] [Nombre_del_paquete] del paquete cliente. [PROC_NAME o FUNC_NAME]|SCOTTPackageMYPACKAGEClient.MYPROC|  
   
  [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
   
@@ -57,47 +57,47 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies de 
   
  [FUNC_NAME] = el nombre de una función de Oracle; Por ejemplo, MYFUNC.  
   
- [NombreDePaquete] = el nombre de un paquete de Oracle.  
+ [Nombre_del_paquete] = el nombre de un paquete de Oracle.  
   
- El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] representa el registro de Oracle parámetros de tipo y devolver valores, así como los conjuntos de resultados devueltos por parámetros REF CURSOR como tipos XML complejos que contienen los datos de las filas (o campos) de un registro de Oracle. En el modelo de servicio WCF, cada uno de estos tipos XML se representa como una clase. NET; las propiedades de la clase representan los campos del tipo de registro o del conjunto de resultados de REF CURSOR. Tipos de registros de Oracle siempre se representan como clases .NET fuertemente tipadas. Sin embargo, un conjunto de resultados de REF CURSOR, se puede representar como registros fuertemente tipado o débilmente tipada en función de si se declara el REF CURSOR propio como fuertemente tipados o débilmente tipada. Las clases que representan REF CURSOR o registro tipo parámetros (o valores devueltos) se generan en un único espacio de nombres basado en el procedimiento, la función o el paquete. La tabla siguiente muestran estos espacios de nombres.  
+ El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] Oracle registro representa parámetros de tipo y devolver valores, así como los conjuntos de resultados devueltos por parámetros REF CURSOR como tipos complejos de XML que contienen los datos de fila (o campos) de un registro de Oracle. En el modelo de servicio WCF, cada uno de estos tipos XML se representa como una clase. NET; las propiedades de la clase representan los campos del tipo de registro o conjunto de resultados de REF CURSOR. Tipos de registros de Oracle siempre se representan como clases .NET fuertemente tipadas. Sin embargo, un conjunto de resultados de REF CURSOR puede representarse como registros fuertemente tipada o débilmente tipada en función de si se declara el REF CURSOR propio fuertemente tipada como o débilmente tipada. Las clases que representan REF CURSOR o registro tipo parámetros (o valores devueltos) se generan en un único espacio de nombres según el procedimiento, función o paquete. En la tabla siguiente se muestra estos espacios de nombres.  
   
 |Artefacto de Oracle|Espacio de nombres|Ejemplo|  
 |---------------------|---------------|-------------|  
 |Procedimiento|[BASE_NS]. [ESQUEMA]. Procedimiento. [PROC_NAME]|Microsoft.lobservices.OracleDB._2007._03.Scott. Procedure.MYPROC|  
 |Función|[BASE_NS]. [ESQUEMA]. Función. [FUNC_NAME]|Microsoft.lobservices.OracleDB._2007._03.Scott. Function.MYFUNC|  
-|Paquete (procedimiento)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBREDEPAQUETE]. [PROC_NAME]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYPROC|  
-|Paquete (función)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBREDEPAQUETE]. [FUNC_NAME]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYFUNC|  
-|Conjunto de registros genérico (débilmente tipada)|[BASE_NS]|Microsoft.lobservices.OracleDB._2007._03|  
+|Paquete (procedimiento)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBRE_DEL_PAQUETE]. [PROC_NAME]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYPROC|  
+|Paquete (función)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBRE_DEL_PAQUETE]. [FUNC_NAME]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYFUNC|  
+|Genéricos (débilmente tipada) del conjunto de registros|[BASE_NS]|Microsoft.lobservices.OracleDB._2007._03|  
   
  [BASE_NS] = el espacio de nombres de adaptador base; Microsoft.lobservices.OracleDB._2007._03.  
   
  [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
   
- [PROC_NAME] = el nombre de un procedimiento de Oracle; Por ejemplo, MYPROC.  
+ [PROC_NAME] = el nombre de un procedimiento de Oracle; Por ejemplo: MYPROC.  
   
  [FUNC_NAME] = el nombre de una función de Oracle; Por ejemplo, MYFUNC.  
   
- [NombreDePaquete] = el nombre de un paquete de Oracle.  
+ [Nombre_del_paquete] = el nombre de un paquete de Oracle.  
   
- Para obtener información sobre cómo se utilizan estos espacios de nombres para los parámetros de registro, consulte [realizar operaciones utilizando tipos de registros en la base de datos de Oracle mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md). Para obtener información sobre cómo se utilizan estos espacios de nombres para los parámetros REF CURSOR, vea [realizar operaciones utilizando los cursores REF cursor en la base de datos de Oracle mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md).  
+ Para obtener información sobre cómo se usan estos espacios de nombres para los parámetros de registro, vea [realizar operaciones utilizando tipos de registros en la base de datos de Oracle mediante el modelo de servicio WCF](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md). Para obtener información sobre cómo se usan estos espacios de nombres para los parámetros REF CURSOR, vea [realizar operaciones utilizando los cursores REF cursor en la base de datos de Oracle mediante el modelo de servicio WCF](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md).  
   
  En general, los parámetros de Oracle y los valores devueltos se asignan como se indica a continuación en el método de cliente WCF:  
   
--   Parámetros IN de Oracle se asignan a parámetros de (entrada). NET.  
+- Parámetros IN de Oracle se asignan a parámetros de (entrada). NET.  
   
--   Los parámetros OUT de Oracle se asignan a .NET **out** parámetros.  
+- Los parámetros OUT de Oracle se asignan a .NET **out** parámetros.  
   
--   Oracle en los parámetros se asignan a .NET **ref** parámetros.  
+- Oracle en los parámetros se asignan a .NET **ref** parámetros.  
   
--   Se asignan los valores devueltos de función para el valor devuelto del método.  
+- Función que se asignan los valores devueltos para el valor devuelto del método.  
   
- Sin embargo, existen dos excepciones importantes:  
+  Sin embargo, existen dos excepciones importantes:  
   
--   Parámetros en espera REF CURSOR de Oracle se dividen en una cadena de entrada y salida (**out**) grabar conjunto. Esto es porque el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] representa parámetros IN REF CUSROR como cadenas y parámetros de salida de REF CURSOR como tipos complejos (conjuntos de registros), estos no se pueden combinar en un único parámetro.  
+- Los parámetros IN OUT REF CURSOR de Oracle se dividen en una cadena de entrada y salida (**out**) conjunto de registros. Esto es porque el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] representa los parámetros IN REF CUSROR como cadenas y los parámetros de salida de REF CURSOR como tipos complejos (conjuntos de registros), estos no se pueden combinar en un solo parámetro.  
   
--   El primer parámetro en un procedimiento de Oracle de salida se asigna al valor devuelto del método de cliente WCF. Este es el comportamiento estándar de WCF.  
+- El parámetro en un procedimiento de Oracle, primero se asigna al valor devuelto del método de cliente WCF. Es el comportamiento WCF estándar.  
   
- En el ejemplo siguiente se muestra parte de un procedimiento simple de Oracle (cargado en el esquema SCOTT) y la firma del método de cliente WCF que se genera para invocarlo. El procedimiento de Oracle tiene tres parámetros, tres parámetros IN OUT y tres parámetros OUT Sin embargo, el método de cliente WCF no asigna un parámetro para el primer parámetro de salida. En su lugar se asigna para el valor devuelto del método.  
+  El ejemplo siguiente muestra parte de un procedimiento simple de Oracle (cargado en el esquema SCOTT) y la firma del método de cliente WCF que se genera para invocarlo. El procedimiento de Oracle tiene tres parámetros, tres parámetros IN OUT y tres parámetros OUT Sin embargo, el método de cliente WCF no asigna un parámetro para el primer parámetro de salida. En su lugar se asigna al valor devuelto de método.  
   
 ```  
 CREATE or REPLACE PROCEDURE Sample_Procedure   
@@ -138,46 +138,46 @@ public partial class SCOTTProcedureClient : System.ServiceModel.ClientBase<SCOTT
 ```  
   
 ### <a name="support-for-overloaded-procedures-functions-and-packages"></a>Compatibilidad con procedimientos sobrecargados, funciones y paquetes  
- El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] admite sobrecarga procedimientos, funciones y paquetes anexando una cadena única para el identificador de nodo y el espacio de nombres que se pone de manifiesto para cada artefacto sobrecargado. Esta cadena es "overload1" para la primera sobrecarga, "overload2" para la siguiente sobrecarga y así sucesivamente.  
+ El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] admite sobrecarga procedimientos, funciones y paquetes anexando una cadena única para el identificador de nodo y el espacio de nombres que pone de manifiesto para cada artefacto sobrecargado. Esta cadena es "overload1" para la primera sobrecarga, "overload2" para la sobrecarga siguiente y así sucesivamente.  
   
- En el modelo de servicio WCF cada función o procedimiento sobrecargado se representa mediante un único cliente WCF. Esto es diferente del caso no sobrecargar en que todos los de las funciones en un esquema, todos los procedimientos en un esquema, o todos los procedimientos y funciones en un paquete se invocan el mismo cliente de WCF. En la tabla siguiente muestra al cliente de WCF nombre y el método generada para procedimientos sobrecargados, funciones y paquetes.  
+ En el modelo de servicio WCF cada función o un procedimiento sobrecargado se representa mediante un único cliente WCF. Esto es diferente en el caso de no sobrecargar en el que todos las funciones de un esquema, todos los procedimientos en un esquema, o todos los procedimientos y funciones en un paquete se invocan el mismo cliente de WCF. En la tabla siguiente se muestra al cliente de WCF nombre y el método generada para procedimientos sobrecargados, funciones y paquetes.  
   
 |Artefacto de Oracle|Nombre de cliente WCF|Ejemplo|  
 |---------------------|---------------------|-------------|  
-|Paquete sobrecargado (procedimiento)|[ESQUEMA] Empaquetar [nombreDePaquete] [PROC_NAME]] [OVERLOAD_ID] cliente. [PROC_NAME]|SCOTTPackageMYPACKAGEMYPROCoverload1Client.MYPROC|  
-|Paquete sobrecargado (función)|[ESQUEMA] Empaquetar [nombreDePaquete] [FUNC_NAME]] [OVERLOAD_ID] cliente. [FUNC_NAME]|SCOTTPackageMYPACKAGEMYFUNCoverload1Client.MYFUNC|  
+|Paquete sobrecargado (procedimiento)|[ESQUEMA] Paquetes [nombre_del_paquete] [PROC_NAME]] [OVERLOAD_ID] cliente. [PROC_NAME]|SCOTTPackageMYPACKAGEMYPROCoverload1Client.MYPROC|  
+|Paquete sobrecargado (función)|[ESQUEMA] Paquetes [nombre_del_paquete] [FUNC_NAME]] [OVERLOAD_ID] cliente. [FUNC_NAME]|SCOTTPackageMYPACKAGEMYFUNCoverload1Client.MYFUNC|  
   
  [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
   
- [PROC_NAME] = el nombre de un procedimiento de Oracle; Por ejemplo, MYPROC.  
+ [PROC_NAME] = el nombre de un procedimiento de Oracle; Por ejemplo: MYPROC.  
   
  [FUNC_NAME] = el nombre de una función de Oracle; Por ejemplo, MYFUNC.  
   
- [NombreDePaquete] = el nombre de un paquete de Oracle.  
+ [Nombre_del_paquete] = el nombre de un paquete de Oracle.  
   
- [OVERLOAD_ID] = cadena única que identifica el artefacto sobrecargado; "overload1", "overload2" y así sucesivamente.  
+ [OVERLOAD_ID] = la cadena única que identifica el artefacto sobrecargado; "overload1", "overload2" y así sucesivamente.  
   
  En la tabla siguiente se muestra el espacio de nombres que se genera para procedimientos sobrecargados, funciones y paquetes.  
   
 |Artefacto de Oracle|Espacio de nombres|Ejemplo|  
 |---------------------|---------------|-------------|  
-|Paquete (procedimiento)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBREDEPAQUETE]. [PROC_NAME] [OVERLOAD_ID]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYPROC.overload1|  
-|Paquete (función)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBREDEPAQUETE]. [FUNC_NAME]. [OVERLOAD_ID]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYFUNC.overload1|  
-|Conjunto de registros genérico (débilmente tipada)|[BASE_NS]|Microsoft.lobservices.OracleDB._2007._03|  
+|Paquete (procedimiento)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBRE_DEL_PAQUETE]. [PROC_NAME] [OVERLOAD_ID]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYPROC.overload1|  
+|Paquete (función)|[BASE_NS]. [ESQUEMA]. Paquete. [NOMBRE_DEL_PAQUETE]. [FUNC_NAME]. [OVERLOAD_ID]|Microsoft.lobservices.OracleDB._2007._03.Scott. Package.MYPACKAGE.MYFUNC.overload1|  
+|Genéricos (débilmente tipada) del conjunto de registros|[BASE_NS]|Microsoft.lobservices.OracleDB._2007._03|  
   
  [BASE_NS] = el espacio de nombres de adaptador base; Microsoft.lobservices.OracleDB._2007._03.  
   
  [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
   
- [PROC_NAME] = el nombre de un procedimiento de Oracle; Por ejemplo, MYPROC.  
+ [PROC_NAME] = el nombre de un procedimiento de Oracle; Por ejemplo: MYPROC.  
   
  [FUNC_NAME] = el nombre de una función de Oracle; Por ejemplo, MYFUNC.  
   
- [NombreDePaquete] = el nombre de un paquete de Oracle.  
+ [Nombre_del_paquete] = el nombre de un paquete de Oracle.  
   
- [OVERLOAD_ID] = cadena única que identifica el artefacto sobrecargado; "overload1", "overload2" y así sucesivamente. El valor numérico en la cadena es el identificador de la sobrecarga del artefacto mantenida por la base de datos de Oracle.  
+ [OVERLOAD_ID] = la cadena única que identifica el artefacto sobrecargado; "overload1", "overload2" y así sucesivamente. El valor numérico en la cadena es el identificador de la sobrecarga del artefacto mantenida por la base de datos de Oracle.  
   
- En el ejemplo siguiente se muestra los clientes de WCF y las firmas de método generadas para el procedimiento GET_ACCOUNT sobrecargado en el paquete ACCOUNT_PKG. (Las declaraciones de Oracle se incluyen). Este ejemplo muestra cómo se genera un único cliente WCF para cada sobrecarga y cómo el método generado para cada cliente devuelve un conjunto de registros de un espacio de nombres único.  
+ El ejemplo siguiente muestra los clientes WCF y las firmas de método generadas para el procedimiento GET_ACCOUNT sobrecargado en el paquete ACCOUNT_PKG. (Las declaraciones de Oracle se incluyen). En este ejemplo se muestra cómo se genera un único cliente WCF para cada sobrecarga y cómo el método generado para cada cliente devuelve un conjunto de registros en un espacio de nombres único.  
   
 ```  
 /* Procedure that takes account ID and returns record for existing account in the ACCOUNT table */  
@@ -204,21 +204,21 @@ public partial class SCOTTPackageACCOUNT_PKGGET_ACCOUNToverload2Client : System.
 ## <a name="invoking-functions-and-procedures"></a>Invocar funciones y procedimientos  
  Para invocar una función o un procedimiento con un cliente WCF, realice los pasos siguientes.  
   
-1.  Generar una clase de cliente WCF para la función de destino, el procedimiento o el paquete. Esta clase debe contener métodos para las operaciones que va a invocar en el artefacto de destino.  
+1. Generar una clase de cliente WCF para la función de destino, el procedimiento o el paquete. Esta clase debe contener métodos para las operaciones que va a invocar en el artefacto de destino.  
   
-    > [!NOTE]
-    >  En el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)], sobrecargado funciones y procedimientos que aparecen en la **categorías y operaciones disponibles** cuadro como [nombre].1, [nombre].2, [nombre].3 y así sucesivamente, donde [NAME] es el nombre del artefacto sobrecargado y el valor numérico es el identificador de sobrecarga en la base de datos de Oracle.  
+   > [!NOTE]
+   >  En el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]sobrecargado funciones y procedimientos que aparecen en la **operaciones y categorías disponibles** cuadro como [nombre].1, [nombre].2, [nombre].3 y así sucesivamente, donde [NAME] es el nombre del artefacto sobrecargado y el valor numérico es el identificador de sobrecarga en la base de datos de Oracle.  
   
-2.  Cree una instancia de la clase de cliente WCF y llamar a sus métodos para invocar la función o procedimiento.  
+2. Cree una instancia de la clase de cliente WCF y llamar a sus métodos para invocar la función o procedimiento.  
   
- Para obtener más información acerca de cómo crear una clase de cliente WCF e invocar operaciones en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [información general sobre el modelo de servicio de WCF con el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
+   Para obtener más información acerca de cómo crear una clase de cliente WCF e invocar operaciones en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [general del modelo de servicio WCF con el adaptador de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
   
- El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] se ejecuta cada operación dentro de una transacción en la base de datos de Oracle.  
+   El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] ejecuta cada operación dentro de una transacción en la base de datos de Oracle.  
   
 > [!IMPORTANT]
->  Las clases que representan el REF CURSOR y parámetros de tipo de registro o valores devuelven de funciones o procedimientos (y paquetes) se declaran en un espacio de nombres único para cada función o procedimiento. Por ejemplo, esto significa que se declarará un tipo de paquete REF CURSOR que se utiliza como un valor devuelto en dos funciones diferentes en un espacio de nombres único para cada método de cliente WCF. O bien debe declarar variables independientes para almacenar estos diferentes valores de retorno o conversión correctamente la variable cuando se invoca uno de los métodos de cliente WCF.  
+>  Las clases que representan el REF CURSOR y parámetros de tipo de registro o valores devuelven de funciones o procedimientos (y paquetes) se declaran en un espacio de nombres único para cada función o procedimiento. Por ejemplo, esto significa que se declarará un tipo de paquete REF CURSOR que se utiliza como valor devuelto en dos funciones diferentes en un espacio de nombres único para cada método de cliente WCF. O bien debe declarar variables independientes para almacenar estos diferentes valores de retorno o conversión correctamente la variable cuando se invoca uno de los métodos de cliente WCF.  
   
- En el ejemplo siguiente se muestra cómo llamar al procedimiento /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT sobrecargado para obtener registros de cuenta de la tabla /SCOTT/ACCOUNT. Primero se crea un nuevo registro llamando al procedimiento /SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT. A continuación, se lee el registro de la nueva copia dos veces mediante una llamada a diferentes sobrecargas de GET_ACCOUNT. Este ejemplo usa tres clientes WCF, uno para el procedimiento CREATE_ACCOUNT y cada una de las sobrecargas GET_ACCOUNT. Alias se usan para distinguir entre los espacios de nombres utilizados para el valor devuelto de GET_ACCOUNT. Un ejemplo completo está disponible en los ejemplos del SDK. Para obtener más información acerca de los ejemplos SDK, vea [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
+ El ejemplo siguiente muestra una llamada al procedimiento /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT sobrecargado para obtener registros de cuenta de la tabla /SCOTT/ACCOUNT. Primero se crea un nuevo registro llamando al procedimiento /SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT. A continuación, se lee el nuevo registro back dos veces al llamar a las distintas sobrecargas de GET_ACCOUNT. Este ejemplo utiliza tres clientes WCF, uno para el procedimiento CREATE_ACCOUNT y uno para las sobrecargas GET_ACCOUNT. Los alias se usan para distinguir entre los espacios de nombres utilizados para el valor devuelto de GET_ACCOUNT. Un ejemplo completo está disponible en los ejemplos del SDK. Para obtener más información acerca de los ejemplos SDK, consulte [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
   
 ```  
 using System;  

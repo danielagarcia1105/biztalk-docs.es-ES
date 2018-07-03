@@ -1,5 +1,5 @@
 ---
-title: Depurar canalizaciones personalizadas | Documentos de Microsoft
+title: Depurar canalizaciones personalizadas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be0c8714f0349ad415beca010795d2cb0b57aabb
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 8f03391660e7f06892294a84ba2be3fdabbc4703
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970354"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012021"
 ---
 # <a name="debugging-custom-pipelines"></a>Depurar canalizaciones personalizadas
 Cuando se produce un error de procesamiento de mensaje en la canalización personalizada, puede usar la depuración del nivel de origen para identificar y corregir problemas. Esta depuración se realiza mediante la asociación del depurador de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] a BTSNTSVC.exe (si la canalización personalizada está implementada) o Pipeline.exe (si se usa la herramienta de canalización independiente).  
@@ -30,44 +30,44 @@ Cuando se produce un error de procesamiento de mensaje en la canalización perso
   
 ##### <a name="to-debug-a-deployed-custom-pipeline-using-visual-studio"></a>Para depurar una canalización personalizada implementada mediante Visual Studio  
   
-1.  Cargue la solución de proyecto de canalización personalizada en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Cargue la solución de proyecto de canalización personalizada en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Cambiar la ruta de acceso de salida para la solución  *\<carpeta de instalación\>* \Pipeline Components. En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha generar y, a continuación, cambie la ruta de acceso de salida, haga clic en el **examinar** botón y seleccionando la  *\<carpeta de instalación\>* Directorio \Pipeline components.  
+2. Cambiar la ruta de acceso de salida para su solución a  *\<carpeta de instalación\>* \Pipeline Components. En el Explorador de soluciones, haga clic en el proyecto, haga clic en la pestaña compilación y, a continuación, cambie la ruta de acceso de salida, haga clic en el **examinar** botón y seleccionando el *\<carpeta de instalación\>* Directorio \Pipeline components.  
   
-3.  Desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], implemente la solución haciendo clic **crear** &#124; **Implementar**.  
+3. Desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], implemente la solución haciendo **compilar** &#124; **implementar**.  
   
-4.  Reinicie la instancia de host que ejecuta la canalización. Mediante la consola de administración de BizTalk Server, navegue a la instancia de host que ejecuta la canalización, haga clic en la instancia de host, a continuación, haga clic en **reiniciar**.  
+4. Reinicie la instancia de host que ejecuta la canalización. Mediante la consola de administración de BizTalk Server, vaya a la instancia de host que ejecuta la canalización, haga clic en la instancia de host, a continuación, haga clic en **reiniciar**.  
   
-5.  Adjuntar el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] depurador BTSNTSVC.exe. Puede hacerlo haciendo clic en **depurar** &#124; **Adjuntar al proceso**, haga clic en mostrar los procesos de todas las sesiones y, a continuación, haga doble clic en BTSNTSVC.exe.  
+5. Adjuntar el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] depurador BTSNTSVC.exe. Esto puede hacerse haciendo **depurar** &#124; **asociar al proceso**, haga clic en mostrar los procesos de todas las sesiones y, a continuación, haga doble clic en BTSNTSVC.exe.  
   
-6.  Establecer puntos de interrupción.  
+6. Establecer puntos de interrupción.  
   
-7.  Deposite un mensaje en la ubicación adecuada para iniciar el componente de canalización personalizada. El procesamiento debería detenerse en los puntos de interrupción establecidos.  
+7. Deposite un mensaje en la ubicación adecuada para iniciar el componente de canalización personalizada. El procesamiento debería detenerse en los puntos de interrupción establecidos.  
   
 > [!NOTE]
 >  Si el código inicia una excepción, BizTalk Server la detectará y, en última instancia, suspenderá el mensaje. Para evitar este comportamiento, debería interrumpir en las excepciones de primera probabilidad.  
   
 ### <a name="how-to-debug-using-pipelineexe"></a>Cómo depurar mediante Pipeline.exe  
- También puede probar las canalizaciones personalizadas mediante Pipeline.exe. Esto tiene la ventaja de que no es necesario implementar la canalización a costa de no funcione en condiciones similares a la producción.  
+ También puede probar las canalizaciones personalizadas mediante Pipeline.exe. Esto tiene la ventaja de que no requiere que se va a implementar la canalización no se está ejecutando en condiciones similares a la producción.  
   
 > [!NOTE]
->  Si la canalización personalizada usa el ensamblador/desensamblador de archivo sin formato, Pipeline.exe no se ejecutará correctamente. Esto se debe a que Pipeline.exe no tiene acceso a la base de datos de BizTalk. Una solución consiste en quitar el ensamblador / componentes de desensamblador y probarlos por separado con FFDasm.exe y FFAsm.exe. Vea [herramientas de canalización](../core/pipeline-tools.md) para obtener más información.  
+>  Si la canalización personalizada usa el ensamblador/desensamblador de archivo sin formato, Pipeline.exe no se ejecutará correctamente. Esto se debe a que Pipeline.exe no tiene acceso a la base de datos de BizTalk. Una solución consiste en quitar el ensamblador / componentes de desensamblador y probarlos por separado con FFDasm.exe y FFAsm.exe. Consulte [herramientas de canalización](../core/pipeline-tools.md) para obtener más información.  
   
 ##### <a name="to-debug-a-custom-pipeline-using-pipelineexe-and-visual-studio"></a>Para depurar una canalización personalizada mediante Pipeline.exe y Visual Studio  
   
-1.  Cargue la solución de proyecto de canalización personalizada en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Cargue la solución de proyecto de canalización personalizada en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Cambiar la ruta de acceso de salida para la solución  *\<carpeta de instalación\>* \Pipeline Components. En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha generar y, a continuación, cambie la ruta de acceso de salida, haga clic en el **examinar** botón y seleccionando la  *\<carpeta de instalación\>* Directorio \Pipeline components.  
+2. Cambiar la ruta de acceso de salida para su solución a  *\<carpeta de instalación\>* \Pipeline Components. En el Explorador de soluciones, haga clic en el proyecto, haga clic en la pestaña compilación y, a continuación, cambie la ruta de acceso de salida, haga clic en el **examinar** botón y seleccionando el *\<carpeta de instalación\>* Directorio \Pipeline components.  
   
-3.  Cambie la acción de inicio de la solución. En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha Depurar, haga clic en programa externo de inicio y luego haga clic en **...** y vaya a  *\<carpeta de instalación\>* \SDK\Utilities\PipelineTools y elija Pipeline.exe. En Opciones de inicio, escriba los argumentos de línea de comandos adecuados para su componente. Para obtener más información acerca de Pipeline.exe, vea [herramientas de canalización](../core/pipeline-tools.md). Una configuración típica especifica la canalización y un archivo de ejemplo:  
+3. Cambie la acción de inicio de la solución. En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha Depurar, haga clic en programa externo de inicio y luego haga clic en **...** y vaya a  *\<carpeta de instalación\>* \SDK\Utilities\PipelineTools y elija Pipeline.exe. En Opciones de inicio, escriba los argumentos de línea de comandos adecuados para su componente. Para obtener más información acerca de Pipeline.exe, vea [herramientas de canalización](../core/pipeline-tools.md). Una configuración típica especifica la canalización y un archivo de ejemplo:  
   
-    ```  
-    <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  
-    ```  
+   ```  
+   <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  
+   ```  
   
-4.  Establezca los puntos de interrupción.  
+4. Establezca los puntos de interrupción.  
   
-5.  Presione F5 para comenzar la depuración.  
+5. Presione F5 para comenzar la depuración.  
   
 ## <a name="see-also"></a>Vea también  
  [Herramientas de canalización](../core/pipeline-tools.md)

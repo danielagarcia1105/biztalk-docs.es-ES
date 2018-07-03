@@ -1,5 +1,5 @@
 ---
-title: Usar varias continuaciones | Documentos de Microsoft
+title: Uso de varias continuaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0e27a73fae39a55f05650c08397616f3cbe4fa80
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78468438dbd04583f8936bab28e80bf400e83d72
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288940"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987141"
 ---
 # <a name="using-multiple-continuations"></a>Usar varias continuaciones
 Usar el Editor de perfiles de seguimiento (TPE) en entornos donde hay varias actividades requiere una comprensión adecuada del escenario en que se realiza el seguimiento de estas actividades, a fin de asignar los puertos de recepción, las orquestaciones y los puertos de envío en el orden correcto.  
@@ -41,25 +41,25 @@ Usar el Editor de perfiles de seguimiento (TPE) en entornos donde hay varias act
   
  El proceso de creación de la continuación es el siguiente:  
   
-1.  Cree una continuación en la vista de árbol de actividades de carpeta del perfil de seguimiento.  
+1. Cree una continuación en la vista de árbol de actividades de carpeta del perfil de seguimiento.  
   
-2.  Elija el esquema de propiedades de contexto haciendo clic en el **Seleccionar origen de eventos** botón y, a continuación, haga clic en el **Seleccionar propiedad de contexto** elemento de menú.  
+2. Elija el esquema de propiedades de contexto haciendo clic en el **Seleccionar origen de eventos** botón y, a continuación, haga clic en el **Seleccionar propiedad de contexto** elemento de menú.  
   
-3.  Busque la **propiedad interchangeId** en el **nombre de la propiedad de contexto** lista y, a continuación, selecciónelo.  
+3. Busque el **propiedad interchangeId** en el **nombre de la propiedad de contexto** lista y, a continuación, selecciónelo.  
   
-4.  Desde el esquema de propiedades, asigne interchangeID a la carpeta de continuación que acaba de crear.  
+4. Desde el esquema de propiedades, asigne interchangeID a la carpeta de continuación que acaba de crear.  
   
-5.  Haga clic con el botón secundario en el nodo interchangeID recién creado en el árbol de actividades y seleccione los puertos desde los que efectuar las asignaciones.  
+5. Haga clic con el botón secundario en el nodo interchangeID recién creado en el árbol de actividades y seleccione los puertos desde los que efectuar las asignaciones.  
   
-6.  En el **seleccionar puertos** cuadro de diálogo que aparece, seleccione todos los **N** puertos de recepción.  
+6. En el **seleccionar puertos** cuadro de diálogo que aparece, seleccione todos **N** puertos de recepción.  
   
-7.  Cree una carpeta continuationID en el árbol de actividades de carpeta.  
+7. Cree una carpeta continuationID en el árbol de actividades de carpeta.  
   
-8.  Abra cada orquestación haciendo clic en el **Seleccionar origen de eventos** botón y, a continuación, haga clic en el **seleccionar programación de orquestación** elemento de menú. En cada orquestación, haga clic con el botón secundario en una forma de la orquestación y asigne la propiedad de contexto interchangeID al continuationID recién creado.  
+8. Abra cada orquestación haciendo clic en el **Seleccionar origen de eventos** botón y, a continuación, haga clic en el **seleccionar programación de orquestación** elemento de menú. En cada orquestación, haga clic con el botón secundario en una forma de la orquestación y asigne la propiedad de contexto interchangeID al continuationID recién creado.  
   
- En una implementación con tres orquestaciones, la apariencia del perfil de seguimiento será parecida a la siguiente:  
+   En una implementación con tres orquestaciones, la apariencia del perfil de seguimiento será parecida a la siguiente:  
   
- ![TPE escenario de continuación múltiple 1](../core/media/4761d680-7218-4404-a636-06739f70f344.gif "4761d680-7218-4404-a636-06739f70f344")  
+   ![TPE escenario de continuación múltiple 1](../core/media/4761d680-7218-4404-a636-06739f70f344.gif "4761d680-7218-4404-a636-06739f70f344")  
   
 #### <a name="scenario-solution-2---one-receive-port-and-multiple-orchestrations"></a>Solución de escenario 2: un puerto de recepción y varias orquestaciones  
  En este escenario, un mensaje llega exactamente a uno de los puertos de recepción y lo procesan todas y cada una de las orquestaciones. Esto sucede porque el mensaje se envía simultáneamente a todas las orquestaciones.  
@@ -77,7 +77,7 @@ Usar el Editor de perfiles de seguimiento (TPE) en entornos donde hay varias act
 >  La asignación anterior también es válida para un mensaje que llega exactamente a uno de los puertos de recepción y se envía a todos los puertos de envío.  
   
 #### <a name="scenario-solution-4---one-orchestration-multiple-send-ports"></a>Solución de escenario 4: una orquestación y varios puertos de envío  
- En este escenario, hay varios envío. puertos. Un mensaje se procesa exactamente una de las orquestaciones, que viene determinado por las reglas de procesamiento y se envía a todos los puertos de envío. En este caso, solo se necesita una continuación. La asignación tiene una apariencia similar a la siguiente:  
+ En este escenario, hay varios envío. puertos. Un mensaje se procesa exactamente una de las orquestaciones, que viene determinada por las reglas de procesamiento y se envía a todos los puertos de envío. En este caso, solo se necesita una continuación. La asignación tiene una apariencia similar a la siguiente:  
   
  ![Escenario de continuación 4](../core/media/3ab10b51-d306-4ad1-acb6-6731e23394ac.gif "3ab10b51-d306-4ad1-acb6-6731e23394ac")  
   

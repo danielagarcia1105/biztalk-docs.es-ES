@@ -1,5 +1,5 @@
 ---
-title: Solicitud de 3A4 al ejemplo de asignación de respuesta 3A4 | Documentos de Microsoft
+title: Solicitud de 3A4 al ejemplo de asignación de respuesta de 3A4 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,20 +12,20 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24e3dbd4e97274ee70709368a3a949ff31da7a9c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 903202ce8b1c74558091e8f1a1236d207849304b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005293"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986965"
 ---
-# <a name="3a4-request-to-3a4-response-map-sample"></a>Solicitud de 3A4 al ejemplo de asignación de respuesta 3A4
-El ejemplo _3A4RequestMessageTo3A4ResponseMessage.btm muestra cómo se puede asignar un mensaje de solicitud de 3A4 a un mensaje de respuesta 3A4.  
+# <a name="3a4-request-to-3a4-response-map-sample"></a>Solicitud de 3A4 al ejemplo de asignación de respuesta de 3A4
+El ejemplo de _3A4RequestMessageTo3A4ResponseMessage.btm muestra cómo puede asignar un mensaje de solicitud de 3A4 al mensaje de respuesta de 3A4.  
   
- De forma predeterminada, el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® programa de instalación de BizTalk Server instala el ejemplo en \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\>Acelerador para RosettaNet \SDK\PIPAutomation\DoubleAction.  
+ De forma predeterminada, el programa de instalación de Microsoft® BizTalk Server instala en el ejemplo de \< *unidad*\>: \Program archivos\\Microsoft BizTalk \<versión\> Acelerador para RosettaNet \SDK\PIPAutomation\DoubleAction.  
   
 ## <a name="sample-contents"></a>Contenido del ejemplo  
- Este ejemplo muestra cómo asignar los campos de un mensaje de solicitud de 3A4 a un mensaje de respuesta 3A4. Puede utilizar este ejemplo con el ejemplo de orquestación de PIPAutomation de doble acción. El ejemplo de orquestación de PIPAutomation de doble acción, muestra cómo implementar una orquestación para generar automáticamente las respuestas de doble acción 0c2, 0c4, 3A2 y 3A4 PIP.  
+ Este ejemplo muestra cómo asignar los campos de un mensaje de solicitud de 3A4 a un mensaje de respuesta de 3A4. Puede usar este ejemplo con el ejemplo de orquestación PIPAutomation de acción doble. El ejemplo de orquestación PIPAutomation de acción doble muestra cómo implementar una orquestación para generar automáticamente las respuestas de doble acción 0c2, 0c4, 3A2 y 3A4 PIP.  
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)

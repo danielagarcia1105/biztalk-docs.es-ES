@@ -1,5 +1,5 @@
 ---
-title: Documentación de BizTalk Server core | Documentos de Microsoft
+title: Documentación de BizTalk Server core | Microsoft Docs
 ms.custom: ''
 ms.date: 11/30/2017
 ms.prod: biztalk-server
@@ -12,54 +12,54 @@ caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7abfed788cfdd343397957d154dee104f310cbeb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: fd95fb76364eed3722391b25e77e4eab363b3be4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005389"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986893"
 ---
-# <a name="biztalk-server-core-documentation"></a>Documentación de BizTalk Server core
-El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentación principal incluye una variedad de recursos que pueden ayudarle a aprender a desarrollar, implementar, administrar y utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+# <a name="biztalk-server-core-documentation"></a>Documentación principal de BizTalk Server
+El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentación principal incluye una variedad de recursos que pueden ayudarle a aprender a desarrollar, implementar, administrar y usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
 
-> [!NOTE] 
-> La documentación principal se aplica a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versiones 2013 y versiones más recientes, pero muchos temas aún se aplican a versiones anteriores de BizTalk. Para estas versiones anteriores de BizTalk, es mejor usar ese conjunto de documentación. Use los vínculos en [Microsoft BizTalk Server](https://msdn.microsoft.com/library/dd547397\(BTS.10\).aspx) para las versiones anteriores.  
+> [!NOTE]
+> La documentación principal se aplica a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 y versiones posteriores, pero muchos temas aún se aplican a versiones anteriores de BizTalk. Para estas versiones anteriores de BizTalk, puede ser mejor usar ese conjunto de documentación. Use los vínculos en [Microsoft BizTalk Server](https://msdn.microsoft.com/library/dd547397\(BTS.10\).aspx) para las versiones anteriores.  
 
 ## <a name="get-started"></a>Introducción
-**[Introducción a](../core/getting-started-with-biztalk-server.md)**  incluye información sobre las tareas comunes, el motor de mensajería con EDI y AS2, de administración de socios comerciales tutoriales de BizTalk Server y los temas para el nuevo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a los usuarios.
+**[Introducción a](../core/getting-started-with-biztalk-server.md)**  incluye información sobre tareas comunes, el motor de mensajería con EDI y AS2, de administración de socios comerciales tutoriales de BizTalk Server y temas para el nuevo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a los usuarios.
   
 [Tareas comunes y tutoriales](http://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) y [tutoriales](http://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) también son una excelente manera de empezar a trabajar.
 
 ## <a name="feature-pack"></a>Paquete de características 
-**[Configurar el feature pack](../core/configure-the-feature-pack.md)**  enumera las diferentes actualizaciones disponibles en el feature pack, incluido el uso de Application Insights y Power BI para realizar el seguimiento de datos, la implementación automática con Visual Studio Team Services y más atractivas. 
+**[Configuración del feature pack](../core/configure-the-feature-pack.md)**  se enumeran las diferentes actualizaciones disponibles en el feature pack, incluido el uso de Application Insights y Power BI para realizar el seguimiento de datos, la implementación automática con Visual Studio Team Services y más cosas buenas. 
   
 ## <a name="plan-and-architect-your-applications"></a>Planear y diseñar las aplicaciones
-**[Planeamiento y arquitectura](../core/plan-and-architect-your-biztalk-server-solution.md)**  cubre la arquitectura, rendimiento y capacidad, alta disponibilidad y seguridad. Leer también sobre el diseño, la creación y ejecución de dos modelos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] soluciones: una solución orientada a servicios y una solución de administración de procesos empresariales.
+**[Planeamiento y arquitectura](../core/plan-and-architect-your-biztalk-server-solution.md)**  cubre la arquitectura, rendimiento y capacidad, alta disponibilidad y seguridad. Lea también acerca de diseño, creación y ejecución de dos modelos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] soluciones: una solución orientada a servicios y una solución de administración de procesos empresariales.
 
 ## <a name="business-to-business-messaging"></a>Mensajería de negocio a negocio
-**[Mensajería B2B](../core/trading-partner-management-using-biztalk-server.md)**  describe los bloques de creación de una solución B2B, cómo EDI y AS2 se implementan e incluye tutoriales para hacerlo manualmente. También puede ir más detallada con confirmaciones, procesamiento por lotes, las soluciones de supervisión. 
+**[Mensajería B2B](../core/trading-partner-management-using-biztalk-server.md)**  describe los bloques de creación para una solución B2B, cómo EDI y AS2 se implementan e incluye tutoriales que hacerlo usted mismo. También puede ir más detallada mediante confirmaciones, procesamiento por lotes, las soluciones de supervisión. 
 
-## <a name="secure-and-protect-your-data"></a>Proteger y proteger los datos
-**[Proteger](../core/secure-and-protect-your-biztalk-messages.md)**  muestra cómo proteger los mensajes que reciba y envíe el mensaje. También Obtenga información sobre los certificados usados para la firma y cifrado y el uso de grupos de Windows de control de acceso.
+## <a name="secure-and-protect-your-data"></a>Asegurar y proteger los datos
+**[Proteger y](../core/secure-and-protect-your-biztalk-messages.md)**  muestra cómo proteger los mensajes que recibe y envía el mensaje. También Obtenga información sobre los certificados usados para la firma y cifrado y control de acceso con grupos de Windows.
 
-## <a name="create-maps-pipelines-and-orchestrations"></a>Crear asignaciones, canalizaciones y orquestaciones
-**[Desarrollar sus aplicaciones](../core/develop-your-biztalk-applications.md)**  por uso y la creación de esquemas, mapas, canalizaciones, orquestaciones, servicios web y servicios WCF para generar los flujos de trabajo de BizTalk. También aprenderá a implementar sus proyectos de Visual Studio, cree las canalizaciones y adaptadores personalizados y usar las utilidades y ejemplos de SDK.
+## <a name="create-maps-pipelines-and-orchestrations"></a>Creación de mapas, canalizaciones y orquestaciones
+**[Desarrollar aplicaciones de](../core/develop-your-biztalk-applications.md)**  por uso y la creación de esquemas, mapas, canalizaciones, orquestaciones, los servicios web y servicios WCF para crear los flujos de trabajo de BizTalk. También aprenderá a implementar sus proyectos de Visual Studio, crear canalizaciones y los adaptadores personalizados y usar las utilidades y ejemplos de SDK.
   
-Método abreviado directamente a [ejemplos del SDK](../core/samples-in-the-sdk.md).
+Acceso directo directamente a [ejemplos del SDK](../core/samples-in-the-sdk.md).
   
-## <a name="administer-and-manage"></a>Administrar
-**[Administrar y completar las tareas operativas](../core/operational-and-administrative-tasks-in-your-biztalk-environment.md)**  está dirigido a administradores de BizTalk Server. Algunas tareas incluyen mediante la consola de administración de BizTalk Server para supervisar las instancias, administrar servidores en los grupos y administrar los artefactos y archivos, incluida la exportación e importación de las aplicaciones de enlace. Utilice esta sección para usar los adaptadores integrados, implementar el inicio de sesión único y utilizar los trabajos del Agente SQL para mantener las bases de datos de BizTalk.
+## <a name="administer-and-manage"></a>Administrar y gestionar
+**[Administrar y completar las tareas operativas](../core/operational-and-administrative-tasks-in-your-biztalk-environment.md)**  está orientado a los administradores de BizTalk. Algunas tareas incluyen mediante la consola de administración de BizTalk para supervisar las instancias, administrar servidores en los grupos, administrar los artefactos y archivos, incluida la exportación e importación de aplicaciones de enlace. Utilice esta sección para usar los adaptadores integrados, implementar el inicio de sesión único y usar los trabajos del Agente SQL para mantener las bases de datos de BizTalk.
 
-Método abreviado directamente a [mediante adaptadores](../core/using-adapters.md).
+Acceso directo directamente a [mediante adaptadores](../core/using-adapters.md).
 
 ## <a name="use-bam-to-monitor-activities"></a>Usar BAM para supervisar las actividades
-**[Usar Business Activity Monitoring](../core/using-business-activity-monitoring.md)**  para obtener información sobre la infraestructura de BAM, incluidas las definiciones de BAM, uso de agregaciones y consultar los datos BAM. También aprenderá a agregar actividades de BAM, trabajar con archivos XML y API de BAM, use el portal de BAM para crear consultas y establecer alertas, con Excel y otras tareas de administración.
+**[Utilice la actividad económica](../core/using-business-activity-monitoring.md)**  para obtener información sobre la infraestructura de BAM, incluidas las definiciones de BAM, uso de agregaciones y consultar datos de BAM. También aprenderá a agregar las actividades de BAM, trabajar con archivos XML y API de BAM, use el portal de BAM para crear consultas y establecer alertas, con Excel y otras tareas de administración.
 
 ## <a name="troubleshoot"></a>Solucionar problemas
-**[Solucionar problemas de](../core/troubleshooting.md)**  rendimiento, adaptadores y obtenga información acerca de las herramientas de BizTalk Server.
+**[Solución de problemas de](../core/troubleshooting.md)**  rendimiento, los adaptadores y conozca las herramientas de BizTalk Server.
 
-También consulte nuestra [recursos de la Comunidad](../core/community-resources5.md).
+Consulte también nuestra [recursos de la Comunidad](../core/community-resources5.md).
 
-## <a name="performance-counters-command-line-and-developer-reference"></a>Contadores de rendimiento, línea de comandos y material de referencia
+## <a name="performance-counters-command-line-and-developer-reference"></a>Contadores de rendimiento, línea de comandos y la referencia del programador
  
-**[Referencia técnica de](../core/technical-reference5.md)**  describe los contadores de rendimiento diferentes, la referencia de línea de comandos, de referencia del material y más temas de referencia de clave.
+**[Referencia técnica](../core/technical-reference5.md)**  se describen los contadores de rendimiento diferentes, referencia de línea de comandos, referencia del desarrollador y más temas de referencia de clave.

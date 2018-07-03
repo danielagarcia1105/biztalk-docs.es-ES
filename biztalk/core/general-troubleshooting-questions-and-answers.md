@@ -1,5 +1,5 @@
 ---
-title: Preguntas y respuestas de solución de problemas generales | Documentos de Microsoft
+title: Preguntas y respuestas de solución de problemas generales | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 37e63f8838dea7adee91b5b43b2bc881cb53eae1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6a47cfd0bc1d2de1ad044712c12b97260981e610
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247108"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010653"
 ---
 # <a name="general-troubleshooting-questions-and-answers"></a>Preguntas y respuestas generales de solución de problemas
 En este tema se incluyen preguntas y respuestas para ayudarle a resolver problemas con el Asignador de BizTalk.  
@@ -29,7 +29,7 @@ En este tema se incluyen preguntas y respuestas para ayudarle a resolver problem
   
 1.  En la vista Cuadrícula, haga clic en la cuadrícula del Asignador. El **propiedades** ventana muestra las propiedades de la cuadrícula.  
   
-2.  En la lista desplegable para la **omitir declaración XML** propiedad, seleccione **Sí** para omitir una declaración XML, o seleccione **No** no para omitir una declaración XML.  
+2.  En la lista desplegable para la **omitir declaración XML** propiedad, seleccione **Sí** para omitir una declaración XML, o bien seleccione **No** no para omitir una declaración XML.  
   
 #### <a name="set-encoding-for-output-instance-data"></a>Establecer la codificación de datos de instancia de salida  
   
@@ -41,20 +41,20 @@ En este tema se incluyen preguntas y respuestas para ayudarle a resolver problem
  Si tiene varias asignaciones que se usan juntas, necesitará combinarlas en una orquestación mediante el **transformar** forma para probarlas conjuntamente. El Asignador de BizTalk solo puede probar una asignación cada vez.  
   
 ## <a name="why-isnt-my-database-functoid-working"></a>¿Por qué mi functoid de bases de datos no funciona?  
- Los functoids de base de datos **búsqueda de la base de datos** y **Extractor de valor** no devuelven directamente información de error; en su lugar, se captura la información y proporcionarlo a la **dedevolucióndeError** functoid para su uso por la asignación. Puede usar el **devolución de Error** functoid para la detección de errores en los escenarios siguientes:  
+ Los functoids de base de datos **búsqueda de la base de datos** y **Extractor de valor** no devuelven directamente información de error; en su lugar, capturan la información y para proporcionar el **dedevolucióndeError** functoid para su uso por la asignación. Puede usar el **devolución de Error** functoid para la detección de errores en los escenarios siguientes:  
   
--   Cuando la asignación tiene un **búsqueda de la base de datos** o **Extractor de valor** functoid que no se comporta según lo esperado. Para ver el mensaje de error, asigne de forma temporal el functoid a un campo en el esquema de salida.  
+- Cuando la asignación tiene un **búsqueda de la base de datos** o **Extractor de valor** functoid que no se comporta según lo previsto. Para ver el mensaje de error, asigne de forma temporal el functoid a un campo en el esquema de salida.  
   
--   Si su aplicación espera otro contenido de mensaje cuando se producen errores en las operaciones de la base de datos. Puede usar el **devolución de Error** functoid para detectar un error y el mensaje de error se asignan a una estructura alternativa para que las aplicaciones de nivel inferior pueden reaccionar de forma controlada.  
+- Si su aplicación espera otro contenido de mensaje cuando se producen errores en las operaciones de la base de datos. Puede usar el **devolución de Error** functoid para detectar un error y el mensaje de error se asignan a una estructura alternativa para que las aplicaciones de nivel inferiores pueden reaccionar de manera controlada.  
   
- Para evitar errores que se detectan en tiempo de ejecución, asegúrese de que el primer parámetro a la **devolución de Error** functoid es el resultado de un **búsqueda de la base de datos** functoid y no el resultado de otro functoid en el Categoría de la base de datos.  
+  Para evitar errores que se detectan en tiempo de ejecución, asegúrese de que el primer parámetro para el **devolución de Error** functoid es el resultado de una **búsqueda de la base de datos** functoid y no la salida de otro functoid en la Categoría de la base de datos.  
   
- Para obtener más información sobre el uso de la **devolución de Error** functoid (incluido un ejemplo), consulte el **referencia de Functoid** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+  Para obtener más información sobre el uso de la **devolución de Error** functoid (incluido un ejemplo), consulte el **referencia de Functoid** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="why-is-my-map-failing-when-calling-my-custom-functoid"></a>¿Por qué se producen errores en mi asignación cuando llamo a mi functoid personalizado?  
- Los functoids personalizados debe instalarse en la caché de ensamblados global (GAC) en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo antes de que se pueden invocar mediante un mapa. Compruebe que en ensamblado que contiene el functoid personalizado se ha firmado y colocado en la GAC. Copie también el ensamblado en la carpeta “%BTSINSTALLPATH%\Developer Tools\Mapper Extensions”.  
+ Los functoids personalizados debe estar instalados en la caché de ensamblados global (GAC) en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo antes de que se pueden invocar en un mapa. Compruebe que en ensamblado que contiene el functoid personalizado se ha firmado y colocado en la GAC. Copie también el ensamblado en la carpeta “%BTSINSTALLPATH%\Developer Tools\Mapper Extensions”.  
   
- Para obtener más información acerca de cómo instalar ensamblados en la GAC, consulte [instalación de ensamblado en la GAC](../core/assembly-installation-in-the-gac.md). Para ver los ensamblados instalados en la GAC, vaya al directorio del ensamblado de su [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] directorio de instalación.  
+ Para obtener más información acerca de cómo instalar ensamblados en la GAC, consulte [instalación del ensamblado en la GAC](../core/assembly-installation-in-the-gac.md). Para ver los ensamblados instalados en la GAC, desplácese al directorio del ensamblado de su [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] directorio de instalación.  
   
 ## <a name="see-also"></a>Vea también  
- [Solucionar problemas de asignaciones](../core/troubleshooting-maps.md)
+ [Solución de problemas de mapas](../core/troubleshooting-maps.md)

@@ -1,5 +1,5 @@
 ---
-title: Cómo suspender, reanudar y finalizar instancias de orquestación | Documentos de Microsoft
+title: Cómo suspender, reanudar y finalizar instancias de orquestación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9528ac0e810a3d4e203733ab1cc5b041d3d61d31
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 88ad7a5b278f8f972a518af40d527ff312d0d237
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22256772"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980397"
 ---
 # <a name="how-to-suspend-resume-and-terminate-orchestration-instances"></a>Cómo suspender, reanudar y finalizar instancias de orquestación
 En este tema se describe cómo suspender, reanudar y finalizar una o varias instancias de servicio en ejecución de una orquestación mediante la consola de administración de BizTalk Server. Una instancia de servicio es una instancia de una orquestación que BizTalk Server es un procesamiento o que se ha serializado en el cuadro de mensajes de seguimiento o procesamiento ulterior.  
@@ -41,28 +41,28 @@ En este tema se describe cómo suspender, reanudar y finalizar una o varias inst
 -   **Finalizar.** Esta opción finaliza el procesamiento de todos los mensajes. La instancia de servicio se elimina de las bases de datos de BizTalk Server. También se eliminan los mensajes que esté procesando la instancia de servicio, excepto aquellos a los que haga referencia una instancia de servicio que no se esté finalizando.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento detallado en este tema, debe haber iniciado sesión como miembro del grupo de operadores o de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento detallado en este tema, debe haber iniciado sesión como miembro del grupo de operadores o de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-view-start-stop-or-terminate-an-instance-of-an-orchestration"></a>Para ver iniciar, detener o finalizar instancias de orquestación  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  Seleccione el grupo de BizTalk para mostrar la página Concentrador de grupo.  
+2. Seleccione el grupo de BizTalk para mostrar la página Concentrador de grupo.  
   
-3.  En **trabajo en curso**, haga clic en **instancias en ejecución**.  
+3. En **trabajo en curso**, haga clic en **ejecutando instancias de servicio**.  
   
-     En el panel de resultados de consulta de la sección inferior de la página, se muestran todas las instancias de la orquestación.  
+    En el panel de resultados de consulta de la sección inferior de la página, se muestran todas las instancias de la orquestación.  
   
-4.  Para refinar la consulta y ver distintas instancias de la orquestación, haga clic en el cuadro en **valor** para el **buscar** , a continuación, seleccione el tipo de instancia desea ver y, a continuación, haga clic en **Ejecutar consulta** . Para obtener más información acerca de la creación de consultas, vea los temas que aparecen en Vea también al ejecutar la búsqueda.  
+4. Para refinar la consulta y ver las distintas instancias de la orquestación, haga clic en el cuadro en **valor** para el **buscar** , seleccione el tipo de instancia para ver y, a continuación, haga clic en **Ejecutar consulta** . Para obtener más información acerca de la creación de consultas, vea los temas que aparecen en Vea también al ejecutar la búsqueda.  
   
-5.  Haga clic en la instancia que desee y haga clic en **Suspend**, **reanudar**, o **Terminate**. Esta funcionalidad permite seleccionar las instancias que desea reanudar.  
+5. Haga clic en la instancia que desee y haga clic en **Suspend**, **reanudar**, o **Terminate**. Esta funcionalidad permite seleccionar las instancias que desea reanudar.  
   
-    > [!NOTE]
-    >  Para realizar la operación en varias instancias, mantenga presionada la tecla CTRL y haga clic en las instancias que desee. A continuación, haga clic en una instancia y haga clic en **Suspend**, **reanudar**, o **Terminate**.  
+   > [!NOTE]
+   >  Para realizar la operación en varias instancias, mantenga presionada la tecla CTRL y haga clic en las instancias que desee. A continuación, haga clic en una instancia y haga clic en **Suspend**, **reanudar**, o **Terminate**.  
   
-     [Estados de la instancia de servicio](../core/service-instance-states.md) proporciona más información sobre el estado suspendido.  
+    [Estados de instancia de servicio](../core/service-instance-states.md) proporciona más información sobre el estado suspendido.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar orquestaciones](../core/managing-orchestrations.md)   
- [Búsqueda de instancias de servicio en ejecución](../core/how-to-search-for-running-service-instances.md)   
+ [Administración de orquestaciones](../core/managing-orchestrations.md)   
+ [Cómo buscar instancias de servicio de ejecución](../core/how-to-search-for-running-service-instances.md)   
  [Cómo buscar instancias de servicio suspendidas](../core/how-to-search-for-suspended-service-instances.md)

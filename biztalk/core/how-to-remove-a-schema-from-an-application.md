@@ -1,5 +1,5 @@
 ---
-title: Cómo quitar un esquema de una aplicación | Documentos de Microsoft
+title: Cómo quitar un esquema de una aplicación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6535764af00156325c006388a88803207329e5fc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0693d94736c4ef3d8ad5ee561ed6b42650c90ab3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254652"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985437"
 ---
 # <a name="how-to-remove-a-schema-from-an-application"></a>Cómo quitar un esquema de una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server para quitar un esquema de una aplicación. Este procedimiento quita el esquema de la base de datos de administración de BizTalk y también para el grupo. Puede ser conveniente quitar un esquema después de implementar una versión nueva de él. Para obtener más información y consideraciones importantes para actualizar artefactos de la aplicación, consulte [actualizar aplicaciones de BizTalk](../core/updating-biztalk-applications.md).  
@@ -40,15 +40,15 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
 -   Como consecuencia de la eliminación del ensamblado de BizTalk, también se quitan de la base de datos de administración de BizTalk todos los artefactos que contiene el ensamblado.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-remove-a-schema"></a>Para quitar un esquema  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene el esquema para quitar y la aplicación que contiene el esquema.  
+2. En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene el esquema para quitar y la aplicación que contiene el esquema.  
   
-3.  Haga clic en **esquemas**, haga clic en el esquema y, a continuación, haga clic en **quitar**.  
+3. Haga clic en **esquemas**, haga clic en el esquema y, a continuación, haga clic en **quitar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar esquemas](../core/managing-schemas.md)
+ [Administración de esquemas](../core/managing-schemas.md)

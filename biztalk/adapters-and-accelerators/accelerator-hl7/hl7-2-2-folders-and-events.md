@@ -1,5 +1,5 @@
 ---
-title: HL7 2.2 carpetas y eventos | Documentos de Microsoft
+title: HL7 2.2 carpetas y eventos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,15 +16,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 84d807452532b7d4e3e063fde841b9bed84f5e6f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 144940331c8f0917a372dddf0e906cfa4472562d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204636"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991141"
 ---
 # <a name="hl7-22-folders-and-events"></a>HL7 2.2 carpetas y eventos
-En la tabla siguiente se enumera las subcarpetas creadas por el Asistente para la instalación en la carpeta de la versión 2.2 HL7 para mensajes con codificación HL7. Estas subcarpetas contienen los esquemas utilizados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) para validar, analizar y serializar los eventos enumerados en la columna de eventos de esta tabla. Los nombres de la subcarpeta describen los tipos de eventos que admiten estos esquemas.  
+En la tabla siguiente se enumera las subcarpetas creadas por el Asistente de instalación dentro de la carpeta de HL7 versión 2.2 para mensajes codificados en HL7. Estas subcarpetas contienen los esquemas utilizados por el Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) para validar, analizar y serializar los eventos enumerados en la columna de eventos de esta tabla. Los nombres de subcarpeta describen los tipos de eventos que admiten estos esquemas.  
   
 |Subcarpeta|Eventos|  
 |---------------|------------|  
@@ -33,7 +33,7 @@ En la tabla siguiente se enumera las subcarpetas creadas por el Asistente para l
 |Administración de red|N01 N02|  
 |Entrada de pedido|O01 O02|  
 |Cuentas de pacientes|P01 P04|  
-|Query|Q01-Q03, Q05|  
+|Consulta|Q01-Q03, Q05|  
 |Informes de observación|R01 R04|  
   
 ## <a name="see-also"></a>Vea también  
@@ -41,5 +41,5 @@ En la tabla siguiente se enumera las subcarpetas creadas por el Asistente para l
  [HL7 2.1 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-1-folders-and-events.md)   
  [HL7 2.3 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-folders-and-events.md)   
  [HL7 2.3.1 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-1-folders-and-events.md)   
- [HL7 2,4 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-folders-and-events.md)   
- [HL7 2,5 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-5-folders-and-events.md)
+ [HL7 2.4 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-folders-and-events.md)   
+ [Carpetas y eventos de HL7 2.5](../../adapters-and-accelerators/accelerator-hl7/hl7-2-5-folders-and-events.md)

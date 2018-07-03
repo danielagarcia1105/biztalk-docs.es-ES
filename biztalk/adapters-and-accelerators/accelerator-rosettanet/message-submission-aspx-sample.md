@@ -1,5 +1,5 @@
 ---
-title: Ejemplo ASPX de envío de mensajes | Documentos de Microsoft
+title: Ejemplo ASPX de envío de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 12fb7d90485014a62ed9010590d27a79ecd925c5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a36a41e5bb60169632072445ff4685e1df5dbce9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979597"
 ---
-# <a name="message-submission-aspx-sample"></a>Ejemplo de ASPX de envío de mensajes
-En este tema se proporciona código de .aspx de ejemplo que puede usar para enviar el contenido del servicio a un proceso privado. Puede usar este código .aspx en lugar de una aplicación de línea de negocio (LOB).  
+# <a name="message-submission-aspx-sample"></a>Ejemplo ASPX de envío de mensajes
+En este tema se proporciona código .aspx de ejemplo que puede usar para enviar contenido a un proceso privado del servicio. Puede usar este código aspx en lugar de una aplicación de línea de negocio (LOB).  
   
 ## <a name="demonstrates"></a>Demostraciones  
- Este código muestra cómo llamar a la `SubmitRNIF` método para enviar un mensaje, incluidos los siguientes:  
+ Este código muestra cómo llamar a la `SubmitRNIF` método para enviar un mensaje, incluido lo siguiente:  
   
 -   Establecer la entrada de parámetros de mensaje desde una aplicación  
   
--   Configuración de la categoría de mensaje  
+-   Establecer la categoría de mensaje  
   
 -   Generar una instancia de proceso de interfaz de socio (PIP) para el mensaje si el valor enviado es nulo o está vacío  
   
--   La generación de la matriz de archivos de entrada de datos adjuntos y comentarios  
+-   Generación de la matriz de los archivos de entrada de datos adjuntos y comentarios  
   
 ## <a name="example"></a>Ejemplo  
- Este código acepta la entrada desde una aplicación front-end, como un explorador, [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]®, o [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Word y genera el documento XML que puede utilizar el proceso privado de iniciador.  
+ Este código acepta la entrada desde una aplicación front-end, por ejemplo, un explorador [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]®, o Microsoft® Word y genera el documento XML que puede consumir el proceso privado del iniciador.  
   
  La utilidad de LOBWebApplication incluye el código siguiente. Para obtener más información, consulte [LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md).  
   

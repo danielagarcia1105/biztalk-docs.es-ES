@@ -1,6 +1,6 @@
 ---
-title: A4SWIFT_ * propiedades promocionadas en el servidor BizTalk Server | Documentos de Microsoft
-description: Se enumeran las propiedades promocionadas en el Acelerador de SWIFT de BizTalk Server
+title: A4SWIFT_ * propiedades promocionadas en el servidor BizTalk Server | Microsoft Docs
+description: Enumera las propiedades promocionadas en el Acelerador de SWIFT para que BizTalk Server
 ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
@@ -13,17 +13,17 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8e18c58001da3b5f7adc5deaf41f45c6b2644a6
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: f33d6714c58ec7197dd76e8891a1b74d170a7068
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22209068"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984653"
 ---
 # <a name="a4swift-promoted-properties"></a>Propiedades promocionadas A4SWIFT_ *
 
 ## <a name="overview"></a>Información general
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] define las propiedades de contexto personalizado que el Desensamblador SWIFT, respuesta de FIN y características conciliación y reparación de mensajes y nuevo envío puede usar y promoción. Soluciones de usuario pueden utilizar estas propiedades para el procesamiento y para las expresiones de filtro y el enrutamiento basado en contenido. Las declaraciones de las propiedades promocionadas de A4SWIFT residen en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Espacio de nombres Solutions.A4SWIFT.Property.  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] define las propiedades de contexto personalizado que el Desensamblador de SWIFT, respuesta FIN y las características de conciliación y reparación de mensajes y nuevo envío usar y promoción. Soluciones de usuario pueden utilizar estas propiedades para el procesamiento y de expresiones de filtro y el enrutamiento basado en contenido. Las declaraciones de las propiedades promocionadas de A4SWIFT residen en Microsoft. Espacio de nombres Solutions.A4SWIFT.Property.  
 
 ## <a name="in-this-section"></a>En esta sección 
   

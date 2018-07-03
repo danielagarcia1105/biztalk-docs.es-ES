@@ -1,5 +1,5 @@
 ---
-title: Volver a generar el libro de datos en directo | Documentos de Microsoft
+title: Volver a generar el libro de datos en directo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,15 +12,15 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fabecd70c39f7bae14765a35c510f5c62c3814a9
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.openlocfilehash: f6c62686c15c2e0b04576ca3175fb22d52a71922
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
-ms.locfileid: "29710587"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987413"
 ---
 # <a name="regenerate-the-live-data-workbook"></a>Volver a generar el libro de datos en directo
-En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también resulta útil cuando está actualizando desde desde versiones anteriores de BizTalk Server.
+En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también es útil cuando está actualizando desde desde versiones anteriores de BizTalk Server.
   
  Los pasos generales son los siguientes:  
   
@@ -34,56 +34,56 @@ En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es pos
   
 ## <a name="retrieve-the-bam-definition"></a>Recuperar la definición de BAM  
   
-1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1. Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.  
+2. En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.  
   
-3.  Tipo: **bm.exe get-defxml-FileName:abc.xml**  
+3. Tipo: **bm.exe get-defxml-FileName:abc.xml**  
   
-    > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+   > [!NOTE]
+   >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 ## <a name="recreate-the-pivottable-reports"></a>Volver a crear los informes de tabla dinámica  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Office**y, a continuación, haga clic en **Microsoft Office Excel**.  
+1. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft Office**y, a continuación, haga clic en **Microsoft Office Excel**.  
   
-2.  Haga clic en el **Add-Ins** pestaña y, a continuación, seleccione **importar XML** desde el **BAM** la lista desplegable en el **comandos de menú** grupo.  
+2. Haga clic en el **Add-Ins** pestaña y, a continuación, seleccione **importar XML** desde el **BAM** lista desplegable en el **comandos de menú** grupo.  
   
-    > [!NOTE]
-    >  Si el **Add-Ins** ficha no está presente, siga las instrucciones de [paso 1: agregar el complemento de BAM a Microsoft Office Excel](http://msdn.microsoft.com/library/3400969f-0c54-4a75-979d-ad2f7af86448) para agregar el complemento de BAM.  
+   > [!NOTE]
+   >  Si el **Add-Ins** ficha no está presente, siga las instrucciones de [paso 1: agregar el complemento BAM para Microsoft Office Excel](http://msdn.microsoft.com/library/3400969f-0c54-4a75-979d-ad2f7af86448) para agregar el complemento de BAM.  
   
-3.  Desplácese hasta la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking y seleccione el archivo abc.xml.  
+3. Desplácese hasta la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking y seleccione el archivo abc.xml.  
   
-4.  Vuelva a crear los informes de tabla dinámica basándose en la definición.  
+4. Vuelva a crear los informes de tabla dinámica basándose en la definición.  
   
-5.  Guarde el libro de trabajo. Para ello, haga clic en el **archivo** menú y, a continuación, haga clic en **Guardar como** y escriba mynewbook.xls cuando se le solicite un nombre de archivo.  
+5. Guarde el libro de trabajo. Para ello, haga clic en el **archivo** menú y, a continuación, haga clic en **Guardar como** y escriba mynewbook.xls cuando se le pida un nombre de archivo.  
   
 ## <a name="rename-the-pivottable-reports-optional"></a>Cambiar el nombre de los informes de tabla dinámica (opcionales)  
 
 > [!NOTE]
-> Este paso sólo es necesario si va a actualizar desde una versión anterior de BizTalk Server. 
+> Este paso sólo puede ser necesario si va a actualizar desde una versión anterior de BizTalk Server. 
 
-1.  Abra el archivo abc.xml creado al recuperar las definiciones de BAM con el Bloc de notas haciendo clic en **iniciar**, haga clic en **ejecutar**, escriba notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking\abc.xml y, a continuación, haga clic en **Aceptar**.  
+1. Abra el archivo abc.xml creado al recuperar las definiciones de BAM mediante el Bloc de notas haciendo **iniciar**, haga clic en **ejecutar**, escriba notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking\abc.xml y, a continuación, haga clic en **Aceptar**.  
   
-2.  Busque la \<título\> etiqueta en \<BAMDefinition\>\\< extensión\>\\< OWC\>\\< PivotTableView\> \\< tabla dinámica\>\\< PivotView\>\\< etiqueta\>. El contenido de esta etiqueta es el nombre interno de uno de los informes de tabla dinámica. Puede encontrar el nombre interno para que los otros informes de tabla dinámica, localizando el siguiente \<título\> etiqueta. Abra **mynewbook.xls** y usar los nombres encontrados para cambiar el nombre de los informes de tabla dinámica.  
+2. Busque el \<título\> etiqueta bajo \<BAMDefinition\>\\< extensión\>\\< OWC\>\\< PivotTableView\> \\< tabla dinámica\>\\< PivotView\>\\< etiqueta\>. El contenido de esta etiqueta es el nombre interno de uno de los informes de tabla dinámica. Puede encontrar el nombre interno para los otros informes de tabla dinámica localizando la próxima \<título\> etiqueta. Abra **mynewbook.xls** y usar los nombres encontrados para cambiar el nombre de los informes de tabla dinámica.  
   
-3.  Guarde el libro de trabajo actualizado.    
+3. Guarde el libro de trabajo actualizado.    
  
   
 ## <a name="regenerate-the-bam-live-data-workbook"></a>Volver a generar el libro de datos activos de BAM  
 
 > [!NOTE]
->  Ejecute esta herramienta con privilegios de administrador.  
+>  Ejecute esta herramienta con privilegios administrativos.  
 
 
-1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1. Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.  
+2. En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.  
   
-3.  Tipo: **bm.exe regenerate-livedataworkbook-WorkbookName:mynewbook.xls**  
+3. Tipo: **bm.exe regenerate-livedataworkbook-WorkbookName:mynewbook.xls**  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de BAM](../core/managing-bam.md)   
  [Utilidad de administración de BAM](../core/bam-management-utility.md)   
- [Requisitos para usar el complemento de BAM para Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md)   
+ [Requisitos para usar el complemento BAM para Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md)   
  [Paso 1: Agregar el complemento de BAM a Microsoft Office Excel](http://msdn.microsoft.com/library/3400969f-0c54-4a75-979d-ad2f7af86448)

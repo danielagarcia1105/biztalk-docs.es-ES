@@ -1,5 +1,5 @@
 ---
-title: Requisitos para el inicio de sesión único | Documentos de Microsoft
+title: Requisitos para el inicio de sesión único | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,36 +12,36 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e0dc92e4492d36ca8204f61354f8422d7eb47631
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 96a4101dc5380168db60e687ddc450f98f9192f4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24015983"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987317"
 ---
 # <a name="requirements-for-single-sign-on"></a>Requisitos para el inicio de sesión único
 Para usar el inicio de sesión único (SSO), necesita:  
   
--   BizTalk Server
+- BizTalk Server
   
--   Visual Studio  
+- Visual Studio  
   
--   Inicio de sesión único (SSO) empresarial  
+- Inicio de sesión único (SSO) empresarial  
   
--   Un sistema de servidor compatible con SSO  
+- Un sistema de servidor compatible con SSO  
   
- El host aislado debe configurarse como autenticación de confianza.  
+  El host aislado debe configurarse como autenticación de confianza.  
   
-## <a name="enable-sso"></a>Habilitar SSO  
+## <a name="enable-sso"></a>Habilitar el inicio de sesión único  
   
-1.  En el **propiedades de transporte** ventana, seleccione **Sí** para **usar SSO**.  
+1. En el **propiedades de transporte** ventana, seleccione **Sí** para **usar SSO**.  
   
-2.  Al especificar las propiedades del transporte, seleccione una aplicación afiliada adecuada.  
+2. Al especificar las propiedades del transporte, seleccione una aplicación afiliada adecuada.  
   
- Para obtener información sobre cómo crear una aplicación afiliada, vea [crear aplicaciones afiliadas](../core/creating-affiliate-applications2.md).  
+   Para obtener información sobre cómo crear una aplicación afiliada, vea [crear aplicaciones afiliadas](../core/creating-affiliate-applications2.md).  
   
 > [!NOTE]
->  Después de trabajar mediante SSO, no olvide restablecer las carpetas de uso compartido de Web en **no comparten**. Las aplicaciones que usen dichas carpetas no se actualizarán ni se desinstalarán correctamente si la carpeta es de uso compartido, ya que se considerará que están en uso.  
+>  Después de trabajar mediante SSO, no olvide restablecer cualquier carpeta de uso compartido de Web **no comparten**. Las aplicaciones que usen dichas carpetas no se actualizarán ni se desinstalarán correctamente si la carpeta es de uso compartido, ya que se considerará que están en uso.  
   
 ## <a name="see-also"></a>Vea también  
  [Ejecución de proyectos SSO](../core/running-sso-projects1.md)   

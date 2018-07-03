@@ -1,6 +1,6 @@
 ---
-title: Arquitectura del adaptador de TIBCO Rendezvous | Documentos de Microsoft
-description: Obtenga información acerca del adaptador de BizTalk para TIBCO Rendezvous funciona, incluidos pasar mensajes, en el servidor BizTalk Server
+title: Arquitectura del adaptador de TIBCO Rendezvous | Microsoft Docs
+description: Obtenga información sobre el adaptador de BizTalk para TIBCO Rendezvous works, incluido el traspaso de mensajes, en BizTalk Server
 ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3bfee2b51df8781091ea30e512810bae21a5f2a
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 28845891181b3f71b31cf4d4dc3f8a20040bb205
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24013435"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011997"
 ---
 # <a name="architecture-of-the-tibco-rendezvous-adapter"></a>Arquitectura del adaptador de TIBCO Rendezvous
 
@@ -30,13 +30,13 @@ El Adaptador de Microsoft BizTalk para TIBCO Rendezvous proporciona conectividad
 ## <a name="message-passing"></a>Pasar mensajes  
  El concepto básico de pasar mensajes es bastante sencillo:  
   
--   Un mensaje tiene un único asunto formado por elementos separados por puntos. Se envía a un único daemon de Rendezvous (aunque podría transmitirse a otros daemons).  
+- Un mensaje tiene un único asunto formado por elementos separados por puntos. Se envía a un único daemon de Rendezvous (aunque podría transmitirse a otros daemons).  
   
--   Un escucha anuncia sus asuntos de interés a un daemon (con una función de comodín básica), y los mensajes con asuntos coincidentes se le entregan si los dos daemons están "conectados" entre sí o son el mismo daemon. Para obtener más información, consulte mensajes en [mensajes en el adaptador de BizTalk para TIBCO Rendezvous](../core/messages-in-biztalk-adapter-for-tibco-rendezvous.md).  
+- Un escucha anuncia sus asuntos de interés a un daemon (con una función de comodín básica), y los mensajes con asuntos coincidentes se le entregan si los dos daemons están "conectados" entre sí o son el mismo daemon. Para obtener más información, consulte mensajes en [mensajes en el adaptador de BizTalk para TIBCO Rendezvous](../core/messages-in-biztalk-adapter-for-tibco-rendezvous.md).  
   
- En la siguiente ilustración se muestra la arquitectura para el Adaptador de BizTalk para TIBCO Rendezvous.  
+  En la siguiente ilustración se muestra la arquitectura para el Adaptador de BizTalk para TIBCO Rendezvous.  
   
- ![](../core/media/tibcorend-arch.gif "TibcoRend_Arch")  
+  ![](../core/media/tibcorend-arch.gif "TibcoRend_Arch")  
   
 ## <a name="see-also"></a>Vea también  
  [Introducción](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)  

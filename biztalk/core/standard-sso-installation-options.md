@@ -1,5 +1,5 @@
 ---
-title: Opciones de instalación de SSO estándar | Documentos de Microsoft
+title: Opciones de instalación de SSO estándar | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26441ca5d63ebdb4cba807173f7e7068ff846bdf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a734114bb6d89c73b275e1060719c6b2cb638566
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279156"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981725"
 ---
 # <a name="standard-sso-installation-options"></a>Opciones de instalación de SSO estándar
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aprovecha las funciones de inicio de sesión único (SSO) empresarial para almacenar credenciales de forma segura y habilitar escenarios de inicio de sesión único.  
@@ -34,19 +34,19 @@ ms.locfileid: "22279156"
   
  **Lista de opciones de instalación**: ejecutar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] programa de instalación. Seleccione **instalación personalizada**y, a continuación, seleccione la opción adecuada en la lista siguiente:  
   
--   **Administración de inicio de sesión único de Enterprise:** herramientas de administración y el cliente para la asignación y conectarse a servicios de inicio de sesión único de empresa.  
+- **Administración de inicio de sesión único de Enterprise:** herramientas de administración y cliente para la asignación y conexión a servicios de inicio de inicio de sesión único de Enterprise.  
   
--   **Enterprise Single Sign-On servidor secreto principal:** actúa como el servidor secreto principal en el sistema SSO. Éste es el primer servidor del sistema de SSO que es necesario implementar y le permite crear la base de datos de SSO.  
+- **Enterprise Single Sign-On servidor secreto principal:** actúa como el servidor secreto principal en el sistema SSO. Éste es el primer servidor del sistema de SSO que es necesario implementar y le permite crear la base de datos de SSO.  
   
- Tras la instalación, también se podrán agregar los siguientes elementos mediante la utilidad Agregar o quitar programas:  
+  Tras la instalación, también se podrán agregar los siguientes elementos mediante la utilidad Agregar o quitar programas:  
   
--   **Servidor en tiempo de ejecución:** principales servicios para habilitar el inicio de sesión único y almacén ni acceder a datos de configuración de forma segura.  
+- **Servidor en tiempo de ejecución:** principales de servicios para habilitar el inicio de sesión único y/acceso al almacén de datos de configuración de forma segura.  
   
--   **Administración de inicio de sesión único de Enterprise:** herramientas de administración y el cliente para la asignación y conectarse a servicios de inicio de sesión único de empresa.  
+- **Administración de inicio de sesión único de Enterprise:** herramientas de administración y cliente para la asignación y conexión a servicios de inicio de inicio de sesión único de Enterprise.  
   
--   **Single Sign-On servicios empresariales con sincronización de contraseña:** servicios para habilitar la característica de sincronización de contraseña en el sistema de SSO empresarial. Estos servicios también se integran con el Servicio de notificación de cambio de contraseña de Microsoft. Después de haber instalado los servicios básicos de inicio de sesión único empresarial, puede instalar la característica Sincronización de contraseñas de SSO empresarial del paquete de BizTalk Server al iniciar \Platform\SSO\Setup.exe y seleccionar la característica Sincronización de contraseñas.  
+- **Único inicio de sesión en servicios empresariales con la sincronización de contraseñas:** servicios para habilitar la característica de sincronización de contraseña en el sistema de SSO empresarial. Estos servicios también se integran con el Servicio de notificación de cambio de contraseña de Microsoft. Después de haber instalado los servicios básicos de inicio de sesión único empresarial, puede instalar la característica Sincronización de contraseñas de SSO empresarial del paquete de BizTalk Server al iniciar \Platform\SSO\Setup.exe y seleccionar la característica Sincronización de contraseñas.  
   
--   **Kit de desarrollo de software** programación e información de referencia.  
+- **Kit de desarrollo de software** programación e información de referencia.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

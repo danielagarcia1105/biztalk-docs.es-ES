@@ -1,5 +1,5 @@
 ---
-title: Utilities2 | Documentos de Microsoft
+title: Utilities2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 861f399a4a1033bf87db0b7b775a4b42bd92e0e4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 25d820b2807c6dd7584af2399b20287d1476e7c6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206364"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982549"
 ---
 # <a name="utilities"></a>Utilidades
-Esta sección proporciona instrucciones para usar varias utilidades que se incluyen en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK).  
+En esta sección se proporcionan instrucciones acerca de cómo usar varias utilidades que se incluyen en el kit de desarrollo de software (SDK) de Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
   
 ## <a name="in-this-section"></a>En esta sección  
   

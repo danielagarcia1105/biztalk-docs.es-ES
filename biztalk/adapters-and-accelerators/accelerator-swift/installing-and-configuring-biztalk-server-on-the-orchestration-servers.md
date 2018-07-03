@@ -1,5 +1,5 @@
 ---
-title: Instalar y configurar el servidor BizTalk Server en los servidores de orquestación | Documentos de Microsoft
+title: Instalación y configuración de BizTalk Server en los servidores de orquestación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,28 +15,28 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18a13d553e31739c959ff6baf317240c3c268ecc
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: ecd5e9e4be9c9274a402b54a5bf6a2eba4ed73cc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004213"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984101"
 ---
-# <a name="installing-and-configuring-biztalk-server-on-the-orchestration-servers"></a>Instalar y configurar el servidor BizTalk Server en los servidores de orquestación
-Esta sección describe cómo instalar y configurar BizTalk Server que se usará como el servidor para ejecutar la orquestación de reparación/nuevo envío del mensaje y la reparación de FIN y la orquestación de conciliación.  
-  
+# <a name="installing-and-configuring-biztalk-server-on-the-orchestration-servers"></a>Instalación y configuración de BizTalk Server en los servidores de orquestación
+En esta sección se describe cómo instalar y configurar BizTalk Server que se usará como el servidor de la orquestación para la ejecución de la orquestación de envío de reparación/nuevo mensaje y la reparación de FIN y la orquestación de conciliación.  
+
 ### <a name="to-install-and-configure-biztalk-server-on-the-orchestration-server"></a>Para instalar y configurar BizTalk Server en el servidor de orquestación  
-  
-1.  Realizar una instalación personalizada de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] elegir todas las características excepto EDI, servicios de flujo de trabajo de usuarios (HWS) y MRSR, a menos que el requerido por otras aplicaciones.  
-  
-    > [!NOTE]
-    >  En la implementación de equipo único, este equipo es el mismo equipo que el que se ejecuta el servicio de front-end de HTTP y el servidor de mensajería de BizTalk.  
-  
-2.  Realizar la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
-  
-    > [!NOTE]
-    >  Tenga en cuenta las siguientes directrices al configurar los servidores de orquestación de BizTalk:  
-  
-    -   Este servidor requiere solo un adaptador de red para conectarse a la [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] equipo. No requiere otro adaptador de red en el lado público como el servidor front-end HTTP o el servidor de mensajería, y resulta más seguro frente a intentos procedente de Internet o una intranet o extranet.  
-  
-3.  Instalar las revisiones adicionales requeridas por [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] como disponibles en la Guía de instalación.
+
+1. Realizar una instalación personalizada de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] elegir todas las características, excepto EDI, servicios de flujo de trabajo de usuarios (HWS) y MRSR, a menos que se necesitan otras aplicaciones.  
+
+   > [!NOTE]
+   >  En la implementación de equipo único, este equipo es el mismo equipo que ejecuta el servicio de front-end de HTTP y el servidor de mensajería de BizTalk.  
+
+2. Realizar la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
+
+   > [!NOTE]
+   >  Tenga en cuenta las siguientes directrices al configurar los servidores de orquestación de BizTalk:  
+
+   - Este servidor requiere solo un adaptador de red para conectarse a la [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] equipo. No requiere otro adaptador de red en el lado público, como el servidor front-end HTTP o el servidor de mensajería, y así resulta más seguro contra la piratería informática intentos procedentes de Internet o intranet/extranet.  
+
+3. Instale todas las revisiones adicionales requeridas por [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] como disponible en la Guía de instalación.

@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Crear e implementar un Project_hl7_main (mensaje) del evento de desencadenador | Documentos de Microsoft'
+title: 'Paso 3: Crear e implementar un Project_hl7_main de eventos (mensaje) desencadenador | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,60 +14,60 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5ba388eef1f5dbfb885e33c6263c4e0f8ef4be29
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 263d131fffbeec996904d303be3fecd1eacf40c8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25961466"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013173"
 ---
-# <a name="step-3-create-and-deploy-a-trigger-event-message-projecthl7main"></a>Paso 3: Crear e implementar un Project_hl7_main (mensaje) del evento de desencadenador
+# <a name="step-3-create-and-deploy-a-trigger-event-message-projecthl7main"></a>Paso 3: Crear e implementar un Project_hl7_main de desencadenador eventos (mensaje)
 En este paso, creará el esquema utilizado por un mensaje de evento de desencadenador. Por ejemplo, el sistema de admisión de descarga y la transferencia (ADT) envía un mensaje para el sistema de información de Hospital (HIS). Utilice este esquema para definir el formato del mensaje.  
   
 ### <a name="to-create-the-project-for-the-trigger-event-message"></a>Para crear el proyecto para el mensaje de evento de desencadenador  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en la **archivo** menú, elija **New**y, a continuación, haga clic en **proyecto**.  
+1. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en el **archivo** menú, elija **New**y, a continuación, haga clic en **proyecto**.  
   
-2.  En el cuadro de diálogo nuevo proyecto, en la **tipos de proyecto** lista, expanda **proyectos de BizTalk**y, a continuación, haga clic en **BTAHL7Projects**.  
+2. En el cuadro de diálogo nuevo proyecto, en el **tipos de proyecto** lista, expanda **proyectos de BizTalk**y, a continuación, haga clic en **BTAHL7Projects**.  
   
-3.  En el **plantillas** lista, haga clic en **proyecto vacío de BTAHL7**.  
+3. En el **plantillas** lista, haga clic en **proyecto vacío de BTAHL7**.  
   
-4.  En el **nombre** , escriba **BTAHL7V24Body proyecto**y, a continuación, haga clic en **Aceptar**.  
+4. En el **nombre** , escriba **BTAHL7V24Body proyecto**y, a continuación, haga clic en **Aceptar**.  
   
-5.  En el Explorador de soluciones, bajo el nodo para el nuevo **BTAHL7V24Body** proyecto de equipo y haga clic en **referencias**y, a continuación, haga clic en **Agregar referencia**.  
+5. En el Explorador de soluciones, bajo el nodo para el nuevo **BTAHL7V24Body** del proyecto, haga clic en **referencias**y, a continuación, haga clic en **Agregar referencia**.  
   
-6.  En el cuadro de diálogo Agregar referencia, haga clic en el **proyectos** ficha, seleccione **Interrogative_24Schemas**, haga clic en **agregar**y, a continuación, haga clic en **Aceptar**.  
+6. En el cuadro de diálogo Agregar referencia, haga clic en el **proyectos** ficha, seleccione **Interrogative_24Schemas**, haga clic en **agregar**y, a continuación, haga clic en **Aceptar**.  
   
-## <a name="step-3a-add-the-schemas"></a>Paso 3A: agregue los esquemas  
+## <a name="step-3a-add-the-schemas"></a>Paso 3A: agregar los esquemas  
  Utilice el procedimiento siguiente para agregar los nuevos esquemas al proyecto.  
   
 #### <a name="to-add-the-schemas-to-the-project"></a>Para agregar los esquemas al proyecto  
   
-1.  En el Explorador de soluciones, haga clic en **BTAHL7V24Body proyecto**, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+1.  En el Explorador de soluciones, haga clic en **BTAHL7V24Body proyecto**, apunte a **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
 2.  En el cuadro de diálogo Agregar nuevo elemento, expanda **elementos de proyecto de BizTalk**y, a continuación, haga doble clic en **BTAHL7 esquemas** en el panel derecho.  
   
-3.  En el cuadro de diálogo Selector de esquema HL7, haga lo siguiente:  
+3.  En el cuadro de diálogo Selector de esquema HL7, realice lo siguiente:  
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Message (clase)**|Mantener **V2.X** seleccionado.|  
+    |**Clase de mensaje**|Mantener **V2.X** seleccionado.|  
     |**Versión**|Seleccione **2.4**.|  
-    |**Tipo de mensaje**|Seleccione **consulta**.|  
+    |**Tipo de mensaje**|Seleccione **QRY**.|  
     |**Evento de desencadenador**|Seleccione **Q01**.|  
   
 4.  Haga clic en **finalizar** para agregar el esquema al proyecto.  
   
-     Esto crea el archivo de esquema de la consulta QRY_Q01_24_GLO_DEF.xsd.  
+     Esto crea el archivo de esquema de consulta QRY_Q01_24_GLO_DEF.xsd.  
   
     > [!NOTE]
     >  No cierre el cuadro de diálogo Selector de esquema HL7.  
   
-5.  En el cuadro de diálogo Selector de esquema HL7, haga lo siguiente:  
+5.  En el cuadro de diálogo Selector de esquema HL7, realice lo siguiente:  
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Message (clase)**|Mantener **V2.X** seleccionado.|  
+    |**Clase de mensaje**|Mantener **V2.X** seleccionado.|  
     |**Versión**|Seleccione **2.4**.|  
     |**Tipo de mensaje**|Seleccione **DSR**.|  
     |**Evento de desencadenador**|Seleccione **Q01**.|  
@@ -83,19 +83,19 @@ En este paso, creará el esquema utilizado por un mensaje de evento de desencade
   
 #### <a name="to-assign-a-strong-key-and-deploy-the-assembly"></a>Para asignar una clave segura e implementar el ensamblado  
   
-1.  En el Explorador de soluciones, haga clic en **BTAHL7V24Body** del proyecto y, a continuación, haga clic en **propiedades**.  
+1. En el Explorador de soluciones, haga clic en **BTAHL7V24Body** del proyecto y, a continuación, haga clic en **propiedades**.  
   
-2.  En el **páginas de propiedades de BTAHL7V24Body** cuadro de diálogo, haga clic en **ensamblado**.  
+2. En el **páginas de propiedades BTAHL7V24Body** cuadro de diálogo, haga clic en **ensamblado**.  
   
-3.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
+3. En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
   
-4.  En el **archivo de clave de ensamblado** cuadro de diálogo, vaya a \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\>Acelerador para HL7\SDK\Interrogative Tutorial, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
+4. En el **archivo clave de ensamblado** cuadro de diálogo, vaya a \< *unidad*\>: \Program archivos\\Microsoft BizTalk \<versión\> Acelerador HL7\SDK\Interrogative tutorial, haga clic en **key.snk**y, a continuación, haga clic en **abierto**.  
   
-5.  En el **páginas de propiedades de BTAHL7V24Body** cuadro de diálogo, haga clic en **Aceptar** para guardar los cambios.  
+5. En el **páginas de propiedades BTAHL7V24Body** cuadro de diálogo, haga clic en **Aceptar** para guardar los cambios.  
   
-6.  En el Explorador de soluciones, haga clic en **BTAHL7V24Body proyecto**y, a continuación, haga clic en **implementar**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
+6. En el Explorador de soluciones, haga clic en **BTAHL7V24Body proyecto**y, a continuación, haga clic en **implementar**. Asegúrese de que aparece un mensaje de éxito en la ventana de salida.  
   
-    > [!NOTE]
-    >  Si no aparece ningún mensaje de implementación correcta, utilice [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] para solucionar problemas de los esquemas.  
+   > [!NOTE]
+   >  Si no aparece un mensaje de la implementación correcta, utilice [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] para solucionar problemas de los esquemas.  
   
- Continúe con [paso 4: crear el puerto de recepción para aceptar mensajes de consulta ADT](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md).
+   Continúe con [paso 4: crear el puerto de recepción para aceptar mensajes de consulta ADT](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md).

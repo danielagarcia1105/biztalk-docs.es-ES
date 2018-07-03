@@ -1,5 +1,5 @@
 ---
-title: Crear la carpeta Tutorial | Documentos de Microsoft
+title: Crear la carpeta Tutorial | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,18 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b2c07732a5ac9183f4648822a331130cb67edbd
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 4345daef579d228983e475828193ae2637fc0e48
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25960322"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978685"
 ---
 # <a name="create-the-tutorial-folder"></a>Crear la carpeta Tutorial
 Cree la siguiente carpeta mediante [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:  
   
--   \<*unidad*:\>\Program BizTalk \<versión\> Acelerador para Tutorial HL7\SDK\Interrogative  
+- \<*unidad*:\>\Program Files\Microsoft BizTalk \<versión\> acelerador HL7\SDK\Interrogative tutorial  
   
-     Utilice esta carpeta para almacenar la clave, la consulta, la respuesta y el archivos de confirmación que usan en este escenario.  
+   Utilice esta carpeta para almacenar la clave, consulta, respuesta y los archivos de confirmación que usa en este escenario.  
   
- Continúe con [crear el archivo QRY^Q01.txt](../../adapters-and-accelerators/accelerator-hl7/create-the-qry-q01-txt-file.md).
+  Continúe con [crear el archivo QRY^Q01.txt](../../adapters-and-accelerators/accelerator-hl7/create-the-qry-q01-txt-file.md).

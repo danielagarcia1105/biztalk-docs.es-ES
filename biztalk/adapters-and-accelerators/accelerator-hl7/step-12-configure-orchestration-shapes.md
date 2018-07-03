@@ -1,5 +1,5 @@
 ---
-title: 'Paso 12: Configurar formas de orquestación | Documentos de Microsoft'
+title: 'Paso 12: Configurar formas de orquestación | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,35 +16,35 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f21c373aacc949b95588c66f1243936b15ea9e89
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: d269fa177e7c0da857fb903cef5013f434554d17
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26006429"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991477"
 ---
 # <a name="step-12-configure-orchestration-shapes"></a>Paso 12: Configurar formas de orquestación
-En este paso, completa la configuración de las formas de orquestación con el fin de quitar las etiquetas inteligentes de configuración incompleta. Designe **DoorbellOutputMessage** como la salida del primer proceso de transformación, que designa **DoorbellMap.btm** como la asignación que se utiliza en ese proceso. A continuación, designe **DoorbellFinalMessage** como la salida del segundo proceso de transformación y agregue la expresión que enriquece el mensaje con los datos de campo adicional.  
+En este paso, completa la configuración de las formas de orquestación con el fin de quitar las etiquetas inteligentes de configuración incompleta. Designa **DoorbellOutputMessage** como la salida del primer proceso de transformación, que designa **DoorbellMap.btm** como la asignación de ese proceso. A continuación, designe **DoorbellFinalMessage** como resultado del segundo proceso de transformación y agregue la expresión que enriquece el mensaje con datos de los campos adicionales.  
   
- **Requisito previo:** [artículo de Knowledge Base 941261](http://support.microsoft.com/kb/941261) deben aplicarse antes de configurar la configuración de la orquestación.  
+ **Requisito previo:** [artículo de KB 941261](http://support.microsoft.com/kb/941261) deben aplicarse antes de configurar la configuración de orquestación.  
   
-### <a name="to-configure-orchestration-shapes"></a>Para configurar formas de orquestación  
+### <a name="to-configure-orchestration-shapes"></a>Para configurar las formas de orquestación  
   
-1.  En la superficie de la vista de diseño de orquestación de Visual Studio, haga clic en el **ConstructMessage_1** forma.  
+1. En la superficie de la vista de diseño de orquestación de Visual Studio, haga clic en el **ConstructMessage_1** forma.  
   
-2.  En el **propiedades** ventana, haga clic en el **mensajes construidos** propiedad, seleccione **DoorbellOutputMessage** desde la lista desplegable y, a continuación, presione  **Escriba**.  
+2. En el **propiedades** ventana, haga clic en el **mensajes construidos** propiedad, seleccione **DoorbellOutputMessage** desde la lista desplegable y, a continuación, presione  **Escriba**.  
   
-3.  En la superficie de la vista de diseño de orquestación, haga clic en el **DoorbellTransform** forma dentro de la **ConstructMessage_1** forma. En el **propiedades** ventana, haga clic en **nombre de asignación**y, a continuación, haga clic en el botón de puntos suspensivos (...) en el campo de atributo.  
+3. En la superficie de la vista de diseño de orquestación, haga clic en el **DoorbellTransform** forma dentro de la **ConstructMessage_1** forma. En el **propiedades** ventana, haga clic en **nombre de asignación**y, a continuación, haga clic en el botón de puntos suspensivos (...) en el campo de atributo.  
   
-4.  En el cuadro de diálogo Configuración de transformación, seleccione **mapa existente**. En el **nombre completo de asignación** la lista desplegable, haga clic en **BTAHL7_Project.DoorbellMap**.  
+4. En el cuadro de diálogo Configuración de transformación, seleccione **mapa existente**. En el **nombre completo de asignación** la lista desplegable, haga clic en **BTAHL7_Project.DoorbellMap**.  
   
-5.  Haga clic en **origen** en el panel izquierdo.  
+5. Haga clic en **origen** en el panel izquierdo.  
   
-6.  Haga clic en el cuadro vacío en **nombre de Variable** y haga clic en **DoorBellInputMessage** en la lista desplegable.  
+6. Haga clic en el cuadro vacío en **nombre de Variable** y haga clic en **DoorBellInputMessage** en la lista desplegable.  
   
-7.  Haga clic en **destino** en el panel izquierdo.  
+7. Haga clic en **destino** en el panel izquierdo.  
   
-8.  Haga clic en el cuadro vacío en **nombre de Variable** y haga clic en **DoorbellOutputMessage** en la lista desplegable.  
+8. Haga clic en el cuadro vacío en **nombre de Variable** y haga clic en **DoorbellOutputMessage** en la lista desplegable.  
   
 9. Haga clic en **Aceptar** para guardar los cambios.  
   
@@ -89,12 +89,12 @@ En este paso, completa la configuración de las formas de orquestación con el f
 14. Haga clic en **Aceptar**.  
   
     > [!IMPORTANT]
-    >  En la expresión "HeaderInfo.LoadXml", elimine los retornos de carro y espacios dentro de la expresión. La instrucción de "HeaderInfo.LoadXml" debe estar en una sola línea.  
-  
+    >  En la expresión "HeaderInfo.LoadXml", elimine los retornos de carro y espacios dentro de la expresión. La instrucción "HeaderInfo.LoadXml" debe estar en una línea.  
+    > 
     > [!NOTE]
-    >  El primer bloque de texto anterior es un ejemplo de un encabezado XML codificado de forma rígida. El [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializador requiere un segmento de encabezado. Puede personalizar estos valores de encabezado según las necesidades de su entorno. El segundo bloque de texto anterior define las tres partes de mensaje necesarias en un mensaje de varias partes. El [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializador requiere un mensaje de varias partes. El bloque anterior del texto de la tercero contiene las propiedades promocionadas que la [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializador examina con el fin de serializar un mensaje XML en un mensaje de archivo sin formato HL7.  
+    >  El primer bloque de texto anterior es un ejemplo de un encabezado XML codificados de forma rígida. El [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializador requiere un segmento de encabezado. Puede personalizar estos valores de encabezado según las necesidades de su entorno. El segundo bloque de texto anterior define las tres partes de mensaje necesarias en un mensaje de varias partes. El [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializador requiere un mensaje de varias partes. El tercer bloque de texto anterior contiene las propiedades promocionadas que el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] examina el serializador con el fin de serializar un mensaje XML en un mensaje de archivo sin formato de HL7.  
   
- Continúe con [paso 13: crear y configurar puertos](../../adapters-and-accelerators/accelerator-hl7/step-13-create-and-configure-ports.md).  
+    Continúe con [paso 13: crear y configurar puertos](../../adapters-and-accelerators/accelerator-hl7/step-13-create-and-configure-ports.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial de enriquecimiento de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)
