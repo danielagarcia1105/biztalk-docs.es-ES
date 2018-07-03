@@ -1,5 +1,5 @@
 ---
-title: Acerca del proveedor de datos para Siebel | Documentos de Microsoft
+title: Acerca del proveedor de datos para Siebel | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,55 +14,55 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 81cac425bf1671166b4f40cecae3e1a3aca1c8e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 97d7366ba227c16a5910a8000e57e92f992d3e1a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22217764"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989581"
 ---
 # <a name="about-the-data-provider-for-siebel"></a>Acerca del proveedor de datos para Siebel
 ## <a name="overview"></a>Información general
-El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] se basa en el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]. Puede usar el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] para:  
+El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] se basa en la parte superior de la [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]. Puede usar el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] para:  
   
--   Escribir un cliente ADO.NET para conectarse al sistema Siebel. La [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] expone ciertas clases que permiten interactuar con el proveedor.  
+- Escribir un cliente de ADO.NET para conectarse al sistema Siebel. La [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] expone algunas clases que permiten interactuar con el proveedor.  
   
--   Ejecute una consulta SELECT en un componente de negocio de Siebel
+- Ejecute una consulta SELECT en un componente empresarial de Siebel
   
--   Ejecutar una consulta de ejecución en un servicio de negocios de Siebel
+- Ejecutar una consulta de ejecución en un servicio de negocio de Siebel
   
--   Use la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] con SQL Server Integration Services (SSIS)
+- Use la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] con SQL Server Integration Services (SSIS)
   
 [Usar el proveedor de datos de .NET Framework para aplicaciones Siebel eBusiness](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md) es un excelente recurso para obtener información sobre:  
   
--   Las interfaces ADO.NET extendidos mediante el[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]  
+- Extiende las interfaces de ADO.NET mediante el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]  
   
--   La cadena de conexión para conectarse a un sistema Siebel  
+- La cadena de conexión para conectarse a un sistema de Siebel  
   
--   Sintaxis de las instrucciones SELECT y EXEC  
+- Sintaxis de las instrucciones SELECT y EXEC  
   
--   Con la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] con SSIS  
+- Mediante el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] con SSIS  
   
 ## <a name="limitations"></a>Limitaciones
-Los siguientes se conocen las limitaciones de la [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]:  
+Lo siguiente es limitaciones conocida de la [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]:  
   
--   El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] alias admite nombres para las tablas en la cláusula SELECT, pero no en la cláusula WHERE.  
+- El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] alias admite nombres de tablas en la cláusula SELECT, pero no en la cláusula WHERE.  
   
--   El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] no puede crear una tabla con nombres de columna que contiene el carácter especial, "]". Se puede omitir el carácter especial mediante la inclusión de otro corchete de cierre. Por lo tanto, debe incluir"]]" en lugar de "]".  
+- El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] no puede crear una tabla con los nombres de columna que contiene el carácter especial, "]". Puede anular el carácter especial mediante la inclusión de otro corchete de cierre. Por lo tanto, se debe incluir"]]" en lugar de "]".  
   
--   Debido a problemas con el control de tiempo de espera por el cliente de Siebel subyacente API, el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] no es compatible con el tiempo de espera de conexión y comando.  
+- Debido a problemas con el control de tiempo de espera por el cliente de Siebel subyacente API, el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] no es compatible con el tiempo de espera de conexión y comando.  
   
--   El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] no admite el comportamiento del comando asincrónico.  
+- El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] no admite el comportamiento del comando asincrónico.  
   
--   Cuando se usa con un proyecto de SQL Server Integration Services (SSIS), el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] se produce un error al recuperar datos para las columnas que contienen valores con más de 8.000 caracteres. Esto es debido a una restricción de SSIS según los cuales:  
+- Cuando se usa con un proyecto de SQL Server Integration Services (SSIS), el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] se produce un error al recuperar datos para las columnas que contienen valores con más de 8.000 caracteres. Esto es debido a una restricción de SSIS, según el cual:  
   
-    -   No se admiten valores superiores a 4.000 caracteres en la variable SSIS.  
+  -   No se admiten los valores mayores que 4000 caracteres en la variable SSIS.  
   
-    -   No se admiten valores superiores a 4.000 caracteres anchos.  
+  -   No se admiten los valores mayores que 4000 caracteres anchos.  
   
-    -   No se admiten valores mayores que 8000 caracteres de byte único.  
+  -   No se admiten los valores mayores de 8000 caracteres de byte único.  
   
--   La operación de EXEC no será funcional al usar el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] con SQL Server Integration Services (SSIS). Por lo tanto, por ejemplo, los clientes de adaptador no será capaz de ejecutar un servicio de negocio de Siebel (mediante [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) durante el uso de los proveedores de datos con SSIS. 
+- La operación EXEC no será funcional al usar el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] con SQL Server Integration Services (SSIS). Por lo tanto, por ejemplo, los clientes del adaptador no será capaz de ejecutar un servicio de negocio de Siebel (mediante [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) al usar los proveedores de datos con SSIS. 
 
 ## <a name="see-also"></a>Vea también
 [Limitaciones del adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/limitations-of-biztalk-adapter-for-siebel-ebusiness-applications.md)  

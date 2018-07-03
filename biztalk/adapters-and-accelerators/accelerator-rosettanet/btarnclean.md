@@ -1,5 +1,5 @@
 ---
-title: BtarnClean | Documentos de Microsoft
+title: BtarnClean | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,21 +21,21 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc3759d13498b6582eeb87fe162d287d64550044
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: f94c69552a59cf8cae8a12e056502ae405638e69
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855559"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992845"
 ---
 # <a name="btarnclean"></a>BtarnClean
-Use la utilidad BtarnClean para limpiar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] artefactos desactivado un equipo. Esto incluye las acciones siguientes:  
+Use la utilidad BtarnClean para limpiar Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] artefactos desactivado de un equipo. Esto incluye las acciones siguientes:  
   
--   Detener y dar de baja todas las [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] orquestaciones  
+- Detener y dar de baja todas las [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] orquestaciones  
   
--   Detener y eliminar todos los puertos asociados  
+- Detener y eliminar todos los puertos asociados  
   
--   Anular la implementación de todos los [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Ensamblados de Solutions.BTARN.*  
+- Anular la implementación de todas las DLL. Ensamblados Solutions.btarn  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
  \<*unidad*\>archivos \Program (x86) \ Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK  
@@ -46,7 +46,7 @@ Use la utilidad BtarnClean para limpiar [!INCLUDE[btsCoName](../../includes/btsc
   
 1.  Abra un símbolo del sistema.  
   
-2.  Mover a \< *unidad*\>\ (x86) de archivos de programa \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
+2.  Mover a \< *unidad*\>\ archivos de programa (x86) \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 3.  En el símbolo del sistema, escriba **BtarnClean**y presione ENTRAR.  
   
@@ -61,7 +61,7 @@ Use la utilidad BtarnClean para limpiar [!INCLUDE[btsCoName](../../includes/btsc
   
  La utilidad BtarnClean no quitará una ubicación de recepción primaria si el artefacto de un usuario usa dicha ubicación de recepción. Si este es el caso, debe eliminar el puerto de recepción.  
   
- Si desea quitar la configuración de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] después de ejecutar la utilidad, ejecute Configuration.exe /u desde el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta.  
+ Si desea quitar la configuración de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] después de ejecutar la utilidad, ejecute Configuration.exe /u desde la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta.  
   
 ## <a name="see-also"></a>Vea también  
  [Utilidades](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

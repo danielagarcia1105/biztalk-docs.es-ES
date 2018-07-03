@@ -1,5 +1,5 @@
 ---
-title: No se puede combinar operaciones debido a una colisión de nombres | Documentos de Microsoft
+title: No se pueden combinar operaciones debido a una colisión de nombre | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a8f884b4eea6be64f1d1575b157805703d12cee3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57bbb3b085af45ede5632e20f67d5e6c0c4e304e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231716"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992325"
 ---
 # <a name="cannot-merge-operations-due-to-name-collision"></a>No se pueden combinar operaciones debido a una colisión de nombres
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se puede combinar la operación "{0}". Colisión de nombres. Todas las operaciones de un servicio web deben tener nombres únicos.|  
+|                 |                                                                                                             |
+|-----------------|-------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]              |
+| Versión del producto |                         [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                          |
+|    Identificador del evento     |                                                      0                                                      |
+|  Origen del evento   |                                                      0                                                      |
+|    Componente    |                                                      0                                                      |
+|  Nombre simbólico  |                                                      0                                                      |
+|  Texto del mensaje   | No se puede combinar la operación "{0}" debido a una colisión de nombre. Todas las operaciones de un servicio web deben tener nombres únicos. |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que el nombre de puerto o el nombre de operación de dos puertos diferentes que se están combinando son iguales.  
@@ -40,4 +40,4 @@ ms.locfileid: "22231716"
   
  Para obtener más información sobre la configuración de puertos, vea los recursos siguientes en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   [Cómo ejecutar al Asistente para configuración de puertos](../core/how-to-run-the-port-configuration-wizard.md)
+-   [Cómo ejecutar al Asistente para configuración de puerto](../core/how-to-run-the-port-configuration-wizard.md)

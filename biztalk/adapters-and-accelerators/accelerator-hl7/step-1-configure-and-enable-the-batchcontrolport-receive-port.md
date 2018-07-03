@@ -1,5 +1,5 @@
 ---
-title: 'Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción | Documentos de Microsoft'
+title: 'Paso 1: Configurar y puerto de recepción de habilitar la BatchControlPort | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d50289924062268db078844f2b3d2eaaccda23a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1fb11e0638a66fa7d22332d1cbca103a14490528
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206148"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988253"
 ---
-# <a name="step-1-configure-and-enable-the-batchcontrolport-receive-port"></a>Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) el programa de instalación crea un puerto de recepción, el puerto el control de proceso por lotes, para controlar los mensajes que la orquestación del lote que se usa para iniciar, lotes de detención y el tiempo. Estos mensajes incluyen la activación de lotes, terminación de lotes y mensajes de temporizador de lote. En este paso, puede configura la canalización de recepción para el puerto de control de lote y habilitar el puerto.  
+# <a name="step-1-configure-and-enable-the-batchcontrolport-receive-port"></a>Paso 1: Configurar y habilitar el BatchControlPort puerto de recepción
+Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) programa de instalación crea un puerto de recepción, el control del lote de puerto, para controlar los mensajes que la orquestación del lote que se usa para iniciar, tiempo y detenga los lotes. Estos mensajes incluyen la activación de lotes, terminación de lotes y mensajes de temporizador de batch. En este paso, configurará la canalización de recepción para el puerto de control de proceso por lotes y habilitar el puerto.  
   
 ### <a name="to-configure-and-enable-batchcontrolport"></a>Para configurar y habilitar BatchControlPort  
   
-1.  Iniciar **administración de BizTalk Server**.  
+1. Iniciar **administración de BizTalk Server**.  
   
-2.  En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, **grupo de BizTalk**, **aplicaciones**, y **aplicación de BizTalk 1**. Haga clic en **ubicaciones de recepción**.  
+2. En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, **grupo de BizTalk**, **aplicaciones**, y **aplicación de BizTalk 1**. Haga clic en **ubicaciones de recepción**.  
   
-3.  Haga clic en **BatchControlLocation**y, a continuación, haga clic en **deshabilitar**.  
+3. Haga clic en **BatchControlLocation**y, a continuación, haga clic en **deshabilitar**.  
   
-4.  Haga clic en **BatchControlLocation**y, a continuación, haga clic en **propiedades**.  
+4. Haga clic en **BatchControlLocation**y, a continuación, haga clic en **propiedades**.  
   
-5.  En el cuadro de diálogo Propiedades de la ubicación de recepción, para **canalización de recepción**, seleccione **BTAHL72XPipelines.BTAHL72XReceivePipeline**. Haga clic en **Aceptar**.  
+5. En el cuadro de diálogo Propiedades de ubicación de recepción para **canalización de recepción**, seleccione **BTAHL72XPipelines.BTAHL72XReceivePipeline**. Haga clic en **Aceptar**.  
   
-6.  En la consola de administración de BizTalk, haga clic en **BatchControlLocation**y, a continuación, haga clic en **habilitar**.  
+6. En la consola de administración de BizTalk, haga clic en **BatchControlLocation**y, a continuación, haga clic en **habilitar**.  
   
- Continúe con [paso 2: habilitar la orquestación del lote](../../adapters-and-accelerators/accelerator-hl7/step-2-enable-the-batch-orchestration.md).
+   Continúe con [paso 2: habilitar la orquestación del lote](../../adapters-and-accelerators/accelerator-hl7/step-2-enable-the-batch-orchestration.md).

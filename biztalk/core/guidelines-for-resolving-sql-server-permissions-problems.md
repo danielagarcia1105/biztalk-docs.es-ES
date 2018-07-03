@@ -1,5 +1,5 @@
 ---
-title: Directrices para solucionar problemas de permisos de SQL Server | Documentos de Microsoft
+title: Directrices para solucionar problemas de permisos de SQL Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,31 +12,31 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db02fd2a981d3f1dc34924e680caf5926f67871a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32561c19bf099b226dc5425edb35ebbaf0a8b3b1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246908"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992389"
 ---
 # <a name="guidelines-for-resolving-sql-server-permissions-problems"></a>Directrices para solucionar problemas de permisos de SQL Server
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hace un gran uso de las bases de datos de Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] para operaciones en tiempo de ejecución y, por tanto, es importante que los permisos de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] se establezcan correctamente. Este tema proporciona directrices generales para minimizar los problemas con los permisos de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], así como los pasos que pueden seguirse para resolver los problemas de ese tipo de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] que afecten a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="general-guidelines"></a>Directrices generales  
   
--   **Utilice los usuarios del dominio y grupos para una instalación en varios equipos de BizTalk Server**  
+- **Utilice los usuarios del dominio y grupos para una instalación de varios equipos de BizTalk Server**  
   
-     Debe utilizar grupos y cuentas de usuario del dominio al configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para ejecutarlo en un escenario con varios equipos, por ejemplo, cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] están instalados en equipos diferentes. No intente configurar ni ejecutar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un *acceso directo* escenario de autenticación mediante el cual se crean los pares de nombres de usuario y contraseñas coincidentes en cada equipo para evitar el uso de cuentas y grupos de dominio. Aunque aparentemente ese escenario de paso a través funcione correctamente en algunas circunstancias, provocará que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no funcione en otras y no es una configuración admitida.  
+   Debe utilizar grupos y cuentas de usuario del dominio al configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para ejecutarlo en un escenario con varios equipos, por ejemplo, cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] están instalados en equipos diferentes. No intente configurar ni ejecutar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un *paso a través* escenario de autenticación mediante el cual se crean pares de nombres de usuario y contraseñas coincidentes en cada equipo para evitar el uso de cuentas y grupos de dominio. Aunque aparentemente ese escenario de paso a través funcione correctamente en algunas circunstancias, provocará que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no funcione en otras y no es una configuración admitida.  
   
-     Para obtener más información sobre cómo instalar y configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una configuración de varios equipos, descargue la Guía de instalación en [instalación guías relacionadas con BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582).  
+   Para obtener más información sobre cómo instalar y configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una configuración de varios equipos, descargue la Guía de instalación en [instalación guías relacionadas con BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582).  
   
--   **Asegúrese de que los usuarios de Windows y grupos adecuados están definidos en los roles correspondientes de SQL Server**  
+- **Asegúrese de que se definen los grupos y usuarios de Windows adecuada en las funciones adecuadas de SQL Server**  
   
-     Comprobar la correcta [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] pertenencia a una función como se muestra en la tabla en el tema [grupos de Windows y cuentas de usuario en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
+   Compruebe la correcta [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] pertenencia al rol como se muestra en la tabla en el tema [grupos de Windows y cuentas de usuario en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
   
--   **Usuario SQL Server Profiler para diagnosticar problemas de permisos**  
+- **Usuario SQL Server Profiler para diagnosticar problemas de permisos**  
   
-     Configurar un [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] seguimiento de Profiler para supervisar la **evento Audit Login Failed** para recopilar información detallada acerca de los errores de permisos. Para obtener información acerca del uso del generador de perfiles de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], vea la documentación de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+   Configurar un [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] seguimiento de Profiler para supervisar el **evento Audit Login Failed** para recopilar información detallada acerca de los errores de permisos. Para obtener información acerca del uso del generador de perfiles de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], vea la documentación de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
   
 ## <a name="known-issues"></a>Problemas conocidos  
   

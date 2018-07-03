@@ -15,12 +15,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f72d0012050fc8022b53120377aeb648641d21f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ecc25d09e94ab4e5238c1d4dab4e36745916a93
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289468"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991613"
 ---
 # <a name="what-is-the-mqseries-adapter"></a>¿Qué es el adaptador de MQSeries?
 El adaptador de MQSeries permite enviar y recibir mensajes a sistemas de MQSeries mediante Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -31,25 +31,25 @@ El adaptador de MQSeries permite enviar y recibir mensajes a sistemas de MQSerie
   
  El adaptador de MQSeries permite hacer lo siguiente:  
   
--   Enviar mensajes a colas de definición remota, colas locales, colas de transmisión y colas de alias de MQSeries desde BizTalk Server.  
+- Enviar mensajes a colas de definición remota, colas locales, colas de transmisión y colas de alias de MQSeries desde BizTalk Server.  
   
--   Recibir mensajes procedentes de colas de transmisión, colas locales y colas de alias de MQSeries.  
+- Recibir mensajes procedentes de colas de transmisión, colas locales y colas de alias de MQSeries.  
   
--   Enviar y recibir mensajes desde MQSeries Server para Windows (MQSeries Server puede ejecutarse en el mismo equipo que BizTalk Server, o bien en una instalación remota). Sólo tendrá que implementar una copia de MQSAgent (el componente COM+ del adaptador) como base para todas las instalaciones de BizTalk Server.  
+- Enviar y recibir mensajes desde MQSeries Server para Windows (MQSeries Server puede ejecutarse en el mismo equipo que BizTalk Server, o bien en una instalación remota). Sólo tendrá que implementar una copia de MQSAgent (el componente COM+ del adaptador) como base para todas las instalaciones de BizTalk Server.  
   
--   Realizar sondeos de MQSeries Server con un intervalo de espera.  
+- Realizar sondeos de MQSeries Server con un intervalo de espera.  
   
--   Utilizar puertos de envío dinámicos para controlar el adaptador.  
+- Utilizar puertos de envío dinámicos para controlar el adaptador.  
   
--   Crear colas de forma dinámica en tiempo de ejecución  
+- Crear colas de forma dinámica en tiempo de ejecución  
   
--   Recibir dinámicamente los mensajes procedentes de colas basadas en MQSeries MatchOptions.  
+- Recibir dinámicamente los mensajes procedentes de colas basadas en MQSeries MatchOptions.  
   
--   Asignar propiedades de contexto a propiedades de encabezado para la transmisión y recepción de mensajes. Se pueden obtener y definir propiedades de encabezado de MQSeries (incluidas MQMD, MQXQH, MQCIH y MQIIH) mediante propiedades de contexto de BizTalk Server.  
+- Asignar propiedades de contexto a propiedades de encabezado para la transmisión y recepción de mensajes. Se pueden obtener y definir propiedades de encabezado de MQSeries (incluidas MQMD, MQXQH, MQCIH y MQIIH) mediante propiedades de contexto de BizTalk Server.  
   
--   Habilitar la correlación con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o MQSeries Server mediante la creación del identificador de correlación.  
+- Habilitar la correlación con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o MQSeries Server mediante la creación del identificador de correlación.  
   
--   Solicitar la entrega transaccional y no transaccional de mensajes para envío y recepción.  
+- Solicitar la entrega transaccional y no transaccional de mensajes para envío y recepción.  
   
 > [!NOTE]
 >  Cuando se usan características como MQSeries que hacen llamadas del Modelo de objetos componentes distribuido (DCOM) al servidor, asegúrese de que no tiene un servidor de seguridad con NAT (Traducción de direcciones de red) habilitado. El cliente debe poder obtener acceso al servidor mediante su dirección IP real y los servidores de seguridad con NAT traducen esta dirección en algo que el cliente no reconoce.  

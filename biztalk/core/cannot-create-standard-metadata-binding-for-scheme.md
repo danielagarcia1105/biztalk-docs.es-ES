@@ -1,5 +1,5 @@
 ---
-title: No se puede crear el enlace de metadatos estándar para el esquema | Documentos de Microsoft
+title: No se puede crear el enlace de metadatos estándar para el esquema | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3228da0dfee18581c5fa8105ce3dd480380cc034
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4fd4a91535c7872bb5be7328755808eb91758db6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231172"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989317"
 ---
 # <a name="cannot-create-standard-metadata-binding-for-scheme"></a>No se puede crear el enlace de metadatos estándar para el esquema
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se puede crear el enlace de metadatos estándar para el esquema "{0}". Los esquemas admitidos son http, https, net.pipe y net.tcp|  
+|                 |                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                 |
+| Versión del producto |                             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                             |
+|    Identificador del evento     |                                                         0                                                          |
+|  Origen del evento   |                                                         0                                                          |
+|    Componente    |                                                         0                                                          |
+|  Nombre simbólico  |                                                         0                                                          |
+|  Texto del mensaje   | No se puede crear el enlace de metadatos estándar para el esquema "{0}". Los esquemas admitidos son http, https, net.pipe y net.tcp |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que el servicio del que se intenta consumir los metadatos no es un esquema admitido.  

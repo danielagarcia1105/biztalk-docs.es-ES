@@ -1,5 +1,5 @@
 ---
-title: Procesamiento de intercambio recuperable | Documentos de Microsoft
+title: Procesamiento de intercambio recuperable | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -30,23 +30,23 @@ caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b341b3673cd7118d459197fecea1eca25efe4e3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bdcd48efee84c1bd36df161180a5fe393f570a60
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268268"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000887"
 ---
 # <a name="recoverable-interchange-processing"></a>Procesamiento de intercambio recuperable
-Esta sección se describen **procesamiento de intercambio recuperable** característica, lo que permite un intercambio que se va a procesarse completamente incluso si hay uno o más mensajes en el intercambio errores en las fases siguientes:  
+Esta sección se describen **procesamiento de intercambio recuperable** característica, que permite un intercambio procesar completamente incluso si uno o más mensajes del intercambio fallan en las fases siguientes:  
   
--   Fase de desensamblado de una canalización de recepción  
+- Fase de desensamblado de una canalización de recepción  
   
--   Fase de validación de XML de una canalización de recepción  
+- Fase de validación de XML de una canalización de recepción  
   
--   Fase de ejecución de la asignación de un puerto de recepción  
+- Fase de ejecución de la asignación de un puerto de recepción  
   
- El procesamiento de intercambio recuperable está motivado por la necesidad de ofrecer compatibilidad con el procesamiento correcto de un solo intercambio que contiene varios mensajes identificables con el fin de que los mensajes válidos se propaguen por la ruta de mensajería y se suspendan los mensajes no válidos. Con el procesamiento de intercambio estándar, la existencia de cualquier mensaje no válido en un intercambio dado provoca la suspensión de todo el intercambio, aunque contenga uno o más mensajes válidos.  
+  El procesamiento de intercambio recuperable está motivado por la necesidad de ofrecer compatibilidad con el procesamiento correcto de un solo intercambio que contiene varios mensajes identificables con el fin de que los mensajes válidos se propaguen por la ruta de mensajería y se suspendan los mensajes no válidos. Con el procesamiento de intercambio estándar, la existencia de cualquier mensaje no válido en un intercambio dado provoca la suspensión de todo el intercambio, aunque contenga uno o más mensajes válidos.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
@@ -54,4 +54,4 @@ Esta sección se describen **procesamiento de intercambio recuperable** caracter
   
 -   [Fase de validación de XML (procesamiento de intercambio recuperable)](../core/xml-validation-stage-recoverable-interchange-processing.md)  
   
--   [Asignación de fase (procesamiento de intercambio recuperable)](../core/mapping-phase-recoverable-interchange-processing.md)
+-   [Fase de asignación (procesamiento de intercambio recuperable)](../core/mapping-phase-recoverable-interchange-processing.md)

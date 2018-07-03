@@ -1,5 +1,5 @@
 ---
-title: Control de cadena Values2 | Documentos de Microsoft
+title: Control de cadena Values2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,12 +21,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 024663faa56d92361d861a61a0d64a4608839aa6
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 2c6b7fc4a1c8c7dfc4d3b43dedce7a5655097b60
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22246372"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993101"
 ---
 # <a name="handling-string-values"></a>Control de valores de cadena
 En este tema se describe cómo configurar ciertos argumentos de cadena como justificado a la derecha (y relleno a la izquierda).  
@@ -34,15 +34,15 @@ En este tema se describe cómo configurar ciertos argumentos de cadena como just
 ## <a name="types-of-string-values"></a>Tipos de valores de cadena  
  JD Edwards EnterpriseOne expone dos tipos de valores de cadena a través de su capa de interoperabilidad:  
   
--   Char: un único carácter  
+- Char: un único carácter  
   
--   cadena de longitud máxima  
+- cadena de longitud máxima  
   
- JD Edwards EnterpriseOne usa la notación en húngaro para asignar nombre a los argumentos de estos tipos en las funciones empresariales. Por ejemplo, los argumentos de estos tipos de comenzar con:  
+  JD Edwards EnterpriseOne usa la notación en húngaro para asignar nombre a los argumentos de estos tipos en las funciones empresariales. Por ejemplo, los argumentos de estos tipos de comenzar con:  
   
--   c  
+- c  
   
--   sz  
+- sz  
   
 ### <a name="left-justified-values"></a>Valores justificados a la izquierda  
  Para la mayoría de argumentos de tipo sz, la cadena de longitud máxima o la matriz char, JD Edwards EnterpriseOne espera un valor justificado a la izquierda. Por ejemplo, para una línea de dirección postal, que tiene una longitud máxima de 40, JD Edwards EnterpriseOne espera (por ejemplo):  

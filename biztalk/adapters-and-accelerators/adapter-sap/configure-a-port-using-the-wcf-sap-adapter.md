@@ -1,6 +1,6 @@
 ---
-title: Configurar un puerto con un adaptador SAP de WCF de BizTalk | Documentos de Microsoft
-description: Crear un puerto de SAP de WCF para enviar o recibir mensajes de SAP mediante el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+title: Configurar un puerto mediante el adaptador de SAP de WCF de BizTalk | Microsoft Docs
+description: Crear un puerto de SAP de WCF para enviar o recibir mensajes de SAP mediante el adaptador de mySAP en módulo de adaptador de BizTalk (BAP)
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,60 +13,60 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 967ad68fb32cb8787ae02d4e6fe878c5bb78da2f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0a80c778e34505755a147dccf48e50ea9ea3a18d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22218740"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992677"
 ---
-# <a name="configure-a-port-using-the-wcf-sap-adapter"></a>Configurar un puerto con un adaptador SAP de WCF
-Este tema proporciona instrucciones sobre cómo configurar WCF SAP de envío y puertos de recepción para realizar operaciones entrantes y salientes en el sistema SAP mediante el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+# <a name="configure-a-port-using-the-wcf-sap-adapter"></a>Configurar un puerto mediante el adaptador de SAP de WCF
+Este tema proporciona instrucciones sobre cómo configurar SAP de WCF de envío y puertos de recepción para realizar operaciones de entrada y salidas en el sistema de SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## <a name="prerequisites"></a>Requisitos previos  
-Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] grupo Administradores u operadores de BizTalk. Para obtener más información acerca de los permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), y [derechos mínimos de seguridad ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
+Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] grupo Administradores u operadores de BizTalk. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), y [derechos mínimos de seguridad ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
   
 ## <a name="deploy-adapters-to-send-messages-to-sap"></a>Implementar los adaptadores para enviar mensajes a SAP  
-Complete los pasos siguientes para configurar un SAP WCF puerto de envío para enviar mensajes al sistema SAP mediante el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
+Complete los pasos siguientes para configurar un SAP de WCF el puerto de envío para enviar mensajes al sistema de SAP mediante la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
   
-1.  Iniciar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
+1. Iniciar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
   
-2.  Agregar el adaptador SAP de WCF para el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Para obtener instrucciones, consulte [agregar el adaptador SAP a la consola de administración de BizTalk Server](../../adapters-and-accelerators/adapter-sap/add-the-sap-adapter-to-biztalk-server-administration-console.md).  
+2. Agregar el adaptador SAP de WCF para la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Para obtener instrucciones, consulte [agregar el adaptador SAP a la consola de administración de BizTalk Server](../../adapters-and-accelerators/adapter-sap/add-the-sap-adapter-to-biztalk-server-administration-console.md).  
   
-3.  En el árbol de consola, expanda **grupo de BizTalk**y, a continuación, expanda **aplicaciones**.  
+3. En el árbol de consola, expanda **grupo de BizTalk**y, a continuación, expanda **aplicaciones**.  
   
-4.  Expanda la aplicación en la que desea implementar el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+4. Expanda la aplicación en la que desea implementar el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
-5.  Haga clic en **puertos de envío**, seleccione **nuevo**y seleccione un tipo de puerto que desea configurar según el modo de comunicación entre el servidor BizTalk Server y el sistema SAP.  
+5. Haga clic en **puertos de envío**, apunte a **New**y seleccione un tipo de puerto que desea configurar según el modo de comunicación entre el servidor BizTalk Server y el sistema SAP.  
   
-6.  En el **propiedades de puerto de envío** cuadro de diálogo, en la **General** ficha, escriba un nombre para el puerto de envío.  
+6. En el **propiedades de puerto de envío** cuadro de diálogo el **General** , escriba un nombre para el puerto de envío.  
   
-7.  Desde el **tipo** la lista desplegable, seleccione el adaptador de WCF-SAP que agregó anteriormente y, a continuación, haga clic en **configurar**.  
+7. Desde el **tipo** la lista desplegable, seleccione el adaptador SAP de WCF que agregó anteriormente y, a continuación, haga clic en **configurar**.  
   
-8.  En el cuadro de diálogo Propiedades de transporte, haga lo siguiente:  
+8. En el cuadro de diálogo Propiedades de transporte, realice lo siguiente:  
   
-    1.  Haga clic en el **General** , haga clic en el **configurar** botón y proporcione valores para los parámetros de conexión. Para obtener más información sobre el URI de conexión, consulte [crear la conexión del sistema SAP URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).  
+   1. Haga clic en el **General** pestaña, haga clic en el **configurar** botón y proporcione valores para los parámetros de conexión. Para obtener más información sobre el URI de conexión, consulte [crear la conexión del sistema SAP URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).  
   
-    2.  En el **General** ficha la **acción** texto, escriba la acción para la operación. Vea [mensajes y esquemas de mensaje](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md) para obtener una lista de acciones para cada operación. Por ejemplo, la acción que se invoca el RFC_CUSTOMER_GET sería:  
+   2. En el **General** ficha la **acción** texto, escriba la acción para la operación. Consulte [mensajes y esquemas de mensaje](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md) para obtener una lista de acciones para cada operación. Por ejemplo, la acción que se invoca el RFC_CUSTOMER_GET sería:  
   
-        ```  
-        http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET  
-        ```  
+      ```  
+      http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET  
+      ```  
   
-    3.  Haga clic en el **enlace** pestaña y especificar valores para enlazar propiedades expuestas por el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Para obtener más información acerca de las propiedades de enlace, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+   3. Haga clic en el **enlace** pestaña y especificar valores para enlazar las propiedades expuestas por la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Para obtener más información acerca de las propiedades de enlace, consulte [Obtenga información sobre el adaptador de BizTalk para las propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
-        > [!NOTE]
-        >  Se muestran las propiedades de enlace en función de si está configurando un puerto de envío o un puerto de recepción. Por ejemplo, operaciones relacionadas para entrada de propiedades de enlace no están disponibles al configurar un puerto de envío dado que las operaciones de entrada requieren una configuración de puerto de recepción.  
+      > [!NOTE]
+      >  Se muestran las propiedades de enlace en función de si está configurando un puerto de envío o un puerto de recepción. Por ejemplo, operaciones relacionadas con entrada de enlace de propiedades no están disponibles al configurar un puerto de envío debido a operaciones de entrada requieren una configuración de puerto de recepción.  
   
-    4.  Haga clic en el **credenciales** ficha y realice una de las siguientes acciones:  
+   4. Haga clic en el **credenciales** pestaña y realice una de las siguientes acciones:  
   
-    -   Seleccione el **no use Single Sign-On** opción y especifique el nombre de usuario y contraseña para conectarse a un sistema SAP.  
+   -   Seleccione el **no use Single Sign-On** opción y especifique el nombre de usuario y contraseña para conectarse a un sistema SAP.  
   
-    -   Seleccione el **Use Single Sign-On** opción y especifique una aplicación afiliada de SSO.  
+   -   Seleccione el **Use Single Sign-On** opción y especifique una aplicación afiliada de SSO.  
   
-         Para obtener más información acerca de la seguridad con respecto a BizTalk Server, vea [seguridad con el adaptador SAP y BizTalk Server](../../adapters-and-accelerators/adapter-sap/security-with-the-sap-adapter-and-biztalk-server.md).  
+        Para obtener más información acerca de la seguridad con respecto a BizTalk Server, consulte [seguridad con el adaptador de SAP y BizTalk Server](../../adapters-and-accelerators/adapter-sap/security-with-the-sap-adapter-and-biztalk-server.md).  
   
-         Para volver a la **propiedades de puerto de envío** cuadro de diálogo, haga clic en **Aceptar**.  
+        Para volver a la **propiedades de puerto de envío** cuadro de diálogo, haga clic en **Aceptar**.  
   
 9. Desde el **controlador de envío** lista desplegable, seleccione **BizTalkServerApplication**.  
   
@@ -81,46 +81,46 @@ Complete los pasos siguientes para configurar un SAP WCF puerto de envío para e
 12. Haga clic en **Aceptar**.  
   
 ## <a name="deploy-adapters-to-receive-messages-from-sap"></a>Implementar los adaptadores para recibir mensajes de SAP  
-Complete los pasos siguientes para configurar un SAP WCF puerto de recepción para recibir mensajes de sistema SAP mediante el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
+Complete los pasos siguientes para configurar un SAP de WCF-puerto de recepción para recibir mensajes de sistema de SAP mediante la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
   
-1.  Iniciar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
+1. Iniciar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  
   
-2.  Agregar el adaptador SAP de WCF para el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Para obtener instrucciones, consulte [agregar el adaptador SAP a la consola de administración de BizTalk Server](../../adapters-and-accelerators/adapter-sap/add-the-sap-adapter-to-biztalk-server-administration-console.md).  
+2. Agregar el adaptador SAP de WCF para la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Para obtener instrucciones, consulte [agregar el adaptador SAP a la consola de administración de BizTalk Server](../../adapters-and-accelerators/adapter-sap/add-the-sap-adapter-to-biztalk-server-administration-console.md).  
   
-3.  En el árbol de consola, expanda **grupo de BizTalk**y, a continuación, expanda **aplicaciones**.  
+3. En el árbol de consola, expanda **grupo de BizTalk**y, a continuación, expanda **aplicaciones**.  
   
-4.  Expanda la aplicación en la que desea implementar el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+4. Expanda la aplicación en la que desea implementar el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
-5.  Haga clic en **puertos de recepción**, seleccione **New**y haga clic en **puerto de recepción unidireccional** o **puerto de recepción de solicitud-respuesta** en función de la modo de comunicación entre el servidor BizTalk Server y el sistema SAP.  
+5. Haga clic en **puertos de recepción**, apunte a **New**y haga clic en **puerto de recepción unidireccional** o **puerto de recepción de solicitud-respuesta** en función de la modo de comunicación entre el servidor BizTalk Server y el sistema SAP.  
   
-6.  En el **propiedades de puerto de recepción** cuadro de diálogo, en la **General** ficha, escriba un nombre para el puerto de recepción.  
+6. En el **propiedades de puerto de recepción** cuadro de diálogo el **General** , escriba un nombre para el puerto de recepción.  
   
-7.  En el **ubicaciones de recepción** , haga clic en **nuevo**. El **propiedades de la ubicación de recepción** aparece el cuadro de diálogo.  
+7. En el **ubicaciones de recepción** , haga clic **New**. El **propiedades de ubicación de recepción** aparece el cuadro de diálogo.  
   
-8.  En el **propiedades de la ubicación de recepción** diálogo cuadro, realice lo siguiente:  
+8. En el **propiedades de ubicación de recepción** diálogo cuadro, realice lo siguiente:  
   
-    1.  Especifique un nombre para la ubicación de recepción.  
+   1.  Especifique un nombre para la ubicación de recepción.  
   
-    2.  Desde el **tipo** la lista desplegable, seleccione el adaptador de WCF-SAP que agregó anteriormente y, a continuación, haga clic en **configurar**.  
+   2.  Desde el **tipo** la lista desplegable, seleccione el adaptador SAP de WCF que agregó anteriormente y, a continuación, haga clic en **configurar**.  
   
-9. En el cuadro de diálogo Propiedades de transporte, haga lo siguiente:  
+9. En el cuadro de diálogo Propiedades de transporte, realice lo siguiente:  
   
-    1.  Haga clic en el **General** , haga clic en el **configurar** botón y proporcione valores para los parámetros de conexión. Para obtener más información sobre el URI de conexión, consulte [crear la conexión del sistema SAP URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).  
+   1. Haga clic en el **General** pestaña, haga clic en el **configurar** botón y proporcione valores para los parámetros de conexión. Para obtener más información sobre el URI de conexión, consulte [crear la conexión del sistema SAP URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).  
   
-    2.  Haga clic en el **enlace** ficha y desde el **BindingType** lista desplegable, seleccione **sapBinding**. Para obtener más información acerca de las propiedades de enlace, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+   2. Haga clic en el **enlace** ficha y desde el **BindingType** lista desplegable, seleccione **sapBinding**. Para obtener más información acerca de las propiedades de enlace, consulte [Obtenga información sobre el adaptador de BizTalk para las propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
-        > [!NOTE]
-        >  Se muestran las propiedades de enlace en función de si está configurando un puerto de envío o un puerto de recepción. Por ejemplo, operaciones relacionadas para entrada de propiedades de enlace no están disponibles al configurar un puerto de envío dado que las operaciones de entrada requieren una configuración de puerto de recepción.  
+      > [!NOTE]
+      >  Se muestran las propiedades de enlace en función de si está configurando un puerto de envío o un puerto de recepción. Por ejemplo, operaciones relacionadas con entrada de enlace de propiedades no están disponibles al configurar un puerto de envío debido a operaciones de entrada requieren una configuración de puerto de recepción.  
   
-    3.  Haga clic en el **otros** ficha y realice una de las siguientes acciones:  
+   3. Haga clic en el **otros** pestaña y realice una de las siguientes acciones:  
   
-    -   Seleccione **cuenta de usuario**y especifique el nombre de usuario y contraseña para conectarse a un sistema SAP.  
+   4. Seleccione **cuenta de usuario**y especifique el nombre de usuario y contraseña para conectarse a un sistema SAP.  
   
-    -   Seleccione **obtener credenciales de aplicación afiliada** opción y especifique una aplicación afiliada.  
+   5. Seleccione **obtener credenciales de la aplicación afiliada** opción y especifique una aplicación afiliada.  
   
-         Para obtener más información acerca de la seguridad con respecto a BizTalk Server, vea [seguridad con el adaptador SAP y BizTalk Server](../../adapters-and-accelerators/adapter-sap/security-with-the-sap-adapter-and-biztalk-server.md).  
+       Para obtener más información acerca de la seguridad con respecto a BizTalk Server, consulte [seguridad con el adaptador de SAP y BizTalk Server](../../adapters-and-accelerators/adapter-sap/security-with-the-sap-adapter-and-biztalk-server.md).  
   
-         Haga clic en **Aceptar** para volver a la **propiedades de la ubicación de recepción** cuadro de diálogo.  
+       Haga clic en **Aceptar** para volver a la **propiedades de ubicación de recepción** cuadro de diálogo.  
   
 10. Desde el **controlador de recepción** lista desplegable, seleccione **BizTalkServerApplication**.  
   
@@ -132,9 +132,9 @@ Complete los pasos siguientes para configurar un SAP WCF puerto de recepción pa
   
     2.  Desde el **canalización de envío** lista desplegable, seleccione la canalización XMLTransmit correspondiente.  
   
-13. Haga clic en **Aceptar** en el **propiedades de la ubicación de recepción** cuadro de diálogo.  
+13. Haga clic en **Aceptar** en el **propiedades de ubicación de recepción** cuadro de diálogo.  
   
 14. Haga clic en **Aceptar** en el **propiedades de puerto de recepción** cuadro de diálogo.
 
 ## <a name="see-also"></a>Vea también
-[Configurar manualmente un enlace de puerto físico para el adaptador SAP](manually-configure-a-physical-port-binding-to-the-sap-adapter.md)
+[Configurar manualmente un enlace de puerto físico para el adaptador de SAP](manually-configure-a-physical-port-binding-to-the-sap-adapter.md)

@@ -1,5 +1,5 @@
 ---
-title: Configuración de identificadores de reserva (X12) | Documentos de Microsoft
+title: Configuración de identificadores de reserva (X12) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 58909783b30a0bce855fc56316f687aa9dbc918c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cced4cbb22be0f486542f092946462906bd674df
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233532"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998229"
 ---
 # <a name="configuring-fallback-identifiers-x12"></a>Configuración de identificadores de reserva (X12)
 En el acuerdo de reserva, debe establecer las propiedades Autorización y Seguridad de X12, para asegurarse de que los destinatarios no autorizados no van a recibir el intercambio.  
@@ -30,22 +30,22 @@ En el acuerdo de reserva, debe establecer las propiedades Autorización y Seguri
   
 ### <a name="to-set-sender-receiver-and-security-properties"></a>Para establecer las propiedades de remitente, destinatario y seguridad  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en el **partes** nodo y, a continuación, haga clic en **X12 configuración de reserva**.  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en el **partes** nodo y, a continuación, haga clic en **X12 configuración de reserva**.  
   
-2.  En el **X12 configuración de reserva** cuadro de diálogo la **X12 páginas del acuerdo** , bajo la **configuración de intercambio** sección, haga clic en **identificadores**.  
+2. En el **X12 configuración de reserva** cuadro de diálogo el **X12 páginas del acuerdo** , bajo el **configuración de intercambio** sección, haga clic en **identificadores**.  
   
-3.  Escriba valores para la **ISA1-2 (información y calificador de autorización)**. Seleccione el valor de la **calificador de autorización (ISA1)** desde la lista desplegable asociada. Si este valor es distinto de **00**, para la **valor (ISA2)** texto cuadro, escriba un carácter alfanumérico como mínimo y un máximo de 10. Se trata de un campo opcional. Si especifica estos valores, asegúrese de que coinciden con los campos ISA1 e ISA2 en un intercambio recibido; en caso contrario, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspenderá el intercambio.  
+3. Escriba valores para el **ISA1-2 (información y calificador de autorización)**. Seleccione el valor de la **calificador de autorización (ISA1)** de la lista desplegable asociada. Si este valor es distinto de **00**, para el **valor (ISA2)** texto, escriba un mínimo de un carácter alfanumérico y un máximo de 10. Se trata de un campo opcional. Si especifica estos valores, asegúrese de que coinciden con los campos ISA1 e ISA2 en un intercambio recibido; en caso contrario, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspenderá el intercambio.  
   
-4.  Escriba valores para la **ISA3-4 (información y calificador de seguridad)**. Seleccione el valor de la **calificador de seguridad (ISA3)** en la lista desplegable. Si este valor es distinto de **00**, para la **valor (ISA4)** texto cuadro, escriba un mínimo de caracteres alfanuméricos y un máximo de 10. Se trata de un campo opcional. Si estos valores no coinciden con los campos ISA3 e ISA4 en un intercambio recibido, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspenderá el intercambio.  
+4. Escriba valores para el **ISA3-4 (información y calificador de seguridad)**. Seleccione el valor de la **calificador de seguridad (ISA3)** en la lista desplegable. Si este valor es distinto de **00**, para el **valor (ISA4)** texto, escriba un mínimo de caracteres alfanuméricos y un máximo de 10. Se trata de un campo opcional. Si estos valores no coinciden con los campos ISA3 e ISA4 en un intercambio recibido, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspenderá el intercambio.  
   
-    > [!NOTE]
-    >  El valor **03 – contraseña (para compatibilidad con versiones anteriores)**, se incluye por compatibilidad con versiones anteriores con [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] y se quitará en futuras versiones.  
+   > [!NOTE]
+   >  El valor **03 – contraseña (para compatibilidad con versiones anteriores)**, se incluye por compatibilidad con versiones anteriores con [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] y se quitará en futuras versiones.  
   
-5.  Especifique los valores para **ISA5-6 (identificador y calificador de remitente)**. Seleccione un valor para el calificador de la **calificador de Id. de remitente (ISA5)** lista desplegable. Para el identificador, en la **valor (ISA6)** texto cuadro, escriba un carácter alfanumérico como mínimo y un máximo de 15 caracteres.  
+5. Especifique los valores de **ISA5-6 (identificador y calificador de remitente)**. Seleccione un valor para el calificador de la **calificador de Id. de remitente (ISA5)** lista desplegable. Para obtener el identificador, en el **valor (ISA6)** texto, escriba un mínimo de un carácter alfanumérico y un máximo de 15 caracteres.  
   
-6.  Especifique los valores para **ISA7-8 (calificador e identificador)**. Seleccione un valor para el calificador de la **calificador de Id. de receptor (ISA7)** lista desplegable. Para el identificador, en la **valor (ISA8)** texto cuadro, escriba un carácter alfanumérico como mínimo y un máximo de 15 caracteres.  
+6. Especifique los valores de **ISA7-8 (calificador e identificador)**. Seleccione un valor para el calificador de la **calificador de Id. de receptor (ISA7)** lista desplegable. Para obtener el identificador, en el **valor (ISA8)** texto, escriba un mínimo de un carácter alfanumérico y un máximo de 15 caracteres.  
   
-7.  Haga clic en **aplicar** para aceptar los cambios o haga clic en **Aceptar** para introducir y validar los cambios y, a continuación, cierre el cuadro de diálogo.  
+7. Haga clic en **aplicar** para aceptar los cambios o haga clic en **Aceptar** para introducir y validar los cambios y, a continuación, cierre el cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Configuración de X12 propiedades de acuerdo de reserva para el procesamiento de intercambio](../core/configuring-x12-fallback-agreement-properties-for-interchange-processing.md)
+ [Configuración de las propiedades de acuerdos de reserva de X12 para el procesamiento de intercambio](../core/configuring-x12-fallback-agreement-properties-for-interchange-processing.md)

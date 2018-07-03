@@ -1,5 +1,5 @@
 ---
-title: Consideraciones al utilizar el depurador de orquestaciones | Documentos de Microsoft
+title: Consideraciones al usar el depurador de orquestaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,24 +20,24 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2815da55bc74d822cb5fe2540347855db75b3a8b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8e3e244691d61ef27c55f606414dd08857d58f14
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22237972"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998157"
 ---
 # <a name="considerations-when-using-orchestration-debugger"></a>Consideraciones acerca del uso del Depurador de orquestaciones
 A continuación se describen algunas consideraciones que debe tener en cuenta cuando trabaje con el Depurador de orquestaciones.  
   
 ## <a name="tracking-atomic-scopes"></a>Realizar un seguimiento de ámbitos atómicos  
- Una orquestación puede contener ámbitos atómicos para incluir llamadas al motor de reglas. Cuando se asocia a una instancia en el depurador de orquestaciones, todos los ámbitos atómicos en la instancia de orquestación provocará "huecos" que aparecen en la lista de eventos de seguimiento. Esto ocurre por dos motivos:  
+ Una orquestación puede contener ámbitos atómicos para incluir llamadas al motor de reglas. Cuando se adjunta a una instancia en el depurador de orquestaciones, todos los ámbitos atómicos en la instancia de orquestación crearán espacios en aparecen en la lista de eventos de seguimiento. Esto ocurre por dos motivos:  
   
--   Porque los eventos de las formas de las transacciones atómicas no se guardan hasta que se confirma el ámbito.  
+- Porque los eventos de las formas de las transacciones atómicas no se guardan hasta que se confirma el ámbito.  
   
--   El depurador vuelve a cargar los eventos al final de la lista, por lo que todos los espacios en blanco se quedan sin rellenar durante la sesión activa.  
+- El depurador vuelve a cargar los eventos al final de la lista, por lo que todos los espacios en blanco se quedan sin rellenar durante la sesión activa.  
   
- Puede eliminar los espacios en blanco si actualiza la vista.  
+  Puede eliminar los espacios en blanco si actualiza la vista.  
   
 > [!NOTE]
 >  No puede establecer un punto de interrupción en formas de un ámbito atómico.  
@@ -46,7 +46,7 @@ A continuación se describen algunas consideraciones que debe tener en cuenta cu
  Si el punto de interrupción se define en el controlador de detección de excepción, los tipos de excepción deben marcarse como serializables o el depurador de orquestaciones no se detendrá en los puntos de interrupción establecidos. Ello se debe a que el depurador de orquestaciones realiza la persistencia en el punto de interrupción. Por lo tanto, cuando hay un objeto no serializable en el estado de la instancia de orquestación, se producirá una excepción de persistencia y, en este caso, también recibirá una excepción DebugBreakPointFailedException.  
   
 ## <a name="tracking-a-modified-orchestration"></a>Realizar un seguimiento de una orquestación modificada  
- Si realiza el seguimiento de una orquestación modificada sin cambiar el número de versión, debe reiniciar todas las instancias de host para las que dio de alta la orquestación. Esto garantiza que cualquier cambio de la forma en la versión implementada recientemente se muestre correctamente, ejecutar paso a paso mediante el depurador de orquestaciones.  
+ Si realiza el seguimiento de una orquestación modificada sin cambiar el número de versión, debe reiniciar todas las instancias de host para las que dio de alta la orquestación. Esto garantiza que cualquier cambio de la forma en la versión implementada recientemente se muestra correctamente, al ir avanzando por el depurador de orquestaciones.  
   
 ## <a name="tracking-simple-types"></a>Realizar el seguimiento de tipos simples  
  El Depurador de orquestaciones solo admite tipos simples. Por ejemplo, si realiza el seguimiento de un mensaje de varias partes que contiene un objeto .NET, puede ver las propiedades de todas las partes del mensaje, excepto las propiedades del objeto .NET.  

@@ -1,5 +1,5 @@
 ---
-title: Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk | Documentos de Microsoft
+title: Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb8bf8d87f7868367c252cdc75842b234cb06ff9
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ffb7b0eb838295e4abdc059a1437b6cf338d0a99
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25971706"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993085"
 ---
 # <a name="how-to-manually-purge-data-from-the-biztalk-tracking-database"></a>Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk
 El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar manualmente los datos de la base de datos de seguimiento de BizTalk (BizTalkDTADb) debido a la continua purga de la base de datos y a la compactación de los datos de seguimiento almacenados. Es posible que tenga que efectuar una purga manual cuando la base de datos de seguimiento de BizTalk (BizTalkDTADb) haya crecido tanto como para ocasionar una pérdida continua de rendimiento y el trabajo DTA Archive and Purge no pueda hacer frente al crecimiento de la base de datos.  
@@ -34,29 +34,29 @@ El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar 
   
 ### <a name="to-manually-purge-data-from-the-biztalk-tracking-database"></a>Procedimiento para purgar datos desde la base de datos de seguimiento de BizTalk  
   
-1.  Haga una copia de seguridad de las bases de datos de BizTalk Server.  
+1. Haga una copia de seguridad de las bases de datos de BizTalk Server.  
   
-2.  Archive la base de datos de seguimiento de BizTalk (BizTalkDTADb).  
+2. Archive la base de datos de seguimiento de BizTalk (BizTalkDTADb).  
   
-3.  Abra la Consola de servicios. Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **services.msc**. Si un **User Account Control** se muestra el cuadro de diálogo, haga clic en **continuar**.  
+3. Abra la Consola de servicios. Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **services.msc**. Si un **User Account Control** muestra el cuadro de diálogo, haga clic en **continuar**.  
   
-4.  Cuando aparezca la Consola de servicios, busque y detenga cada uno de los siguientes servicios. Para detener un servicio, haga clic en la fila de servicio en la **servicios** panel y, a continuación, haga clic en **detener**.  
+4. Cuando aparezca la Consola de servicios, busque y detenga cada uno de los siguientes servicios. Para detener un servicio, haga clic en la fila de servicio en la **servicios** panel y, a continuación, haga clic en **detener**.  
   
-    -   BizTalkServiceBizTalkGroup: BizTalkServerApplication  
+   -   BizTalkServiceBizTalkGroup: BizTalkServerApplication  
   
-    -   Servicio de inicio de sesión único (SSO) empresarial  
+   -   Servicio de inicio de sesión único (SSO) empresarial  
   
-         Si el BizTalkServiceBizTalkGroup: servicio BizTalkServerApplication está en ejecución al intentar apagar el único inicio de sesión de servicio empresarial, un **detener otros servicios** se mostrará el cuadro de diálogo. Haga clic en **Sí**.  
+        Si el BizTalkServiceBizTalkGroup: servicio BizTalkServerApplication está en ejecución cuando se intenta apagar la empresa único inicio de sesión, un **detener otros servicios** se mostrará el cuadro de diálogo. Haga clic en **Sí**.  
   
-    -   Servicio de actualización de motor de reglas  
+   -   Servicio de actualización de motor de reglas  
   
-5.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**. Si un **User Account Control** se muestra el cuadro de diálogo, compruebe que la acción descrita es la esperada y, a continuación, haga clic en **continuar**.  
+5. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**. Si un **User Account Control** muestra el cuadro de diálogo, compruebe que la acción descrita es lo que desea y, a continuación, haga clic en **continuar**.  
   
-6.  En el **consola de administración de BizTalk Server** en el panel Explorador del lado izquierdo de la ventana, haga doble clic en **grupo de BizTalk** para expandir la lista por debajo de él, a continuación, haga doble clic en **plataforma Configuración de**y, a continuación, haga clic en **instancias de Host**. Esto mostrará una lista de instancias de host (el **instancias de Host** panel) y propiedades relacionadas, en el lado derecho de la pantalla.  
+6. En el **consola de administración de BizTalk Server** en el panel del explorador en el lado izquierdo de la ventana, haga doble clic en **grupo de BizTalk** para expandir la lista debajo de él, a continuación, haga doble clic en **plataforma Configuración de**y, a continuación, haga clic en **instancias de Host**. Esto mostrará una lista de instancias de host (el **instancias de Host** panel) y propiedades relacionadas, en el lado derecho de la pantalla.  
   
-7.  En el **instancias de Host** panel, haga clic en cada instancia de host y, a continuación, haga clic en **detener**.  
+7. En el **instancias de Host** panel, haga clic en cada instancia de host y, a continuación, haga clic en **detener**.  
   
-8.  Haga clic en **iniciar**, vaya a **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
+8. Haga clic en **iniciar**, vaya a **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
   
 9. En el símbolo del sistema, escriba:  
   
@@ -74,9 +74,9 @@ El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar 
   
 10. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 SP2**y, a continuación, haga clic en **SQL Server Management Studio**.  
   
-11. En el **conectar al servidor** cuadro de diálogo, especifique el nombre del servidor SQL donde reside la base de datos de seguimiento de BizTalk (BizTalkDTADb) y el tipo de autenticación adecuado y, a continuación, haga clic en **conectar** a conectar con el servidor SQL Server apropiado.  
+11. En el **conectar al servidor** cuadro de diálogo, especifique el nombre del servidor SQL donde reside la base de datos de seguimiento de BizTalk (BizTalkDTADb) y el tipo de autenticación adecuado y, a continuación, haga clic en **Connect** a conectar con el servidor SQL Server apropiado.  
   
-12. En **Microsoft SQL Server Management Studio**, haga doble clic en **bases de datos**, haga doble clic en el **BizTalkDTADb** base de datos, haga doble clic en  **Programación**y, a continuación, haga clic en **procedimientos almacenados**.  
+12. En **Microsoft SQL Server Management Studio**, haga doble clic en **bases de datos**, haga doble clic en el **BizTalkDTADb** base de datos, haga doble clic en  **Programación**y, a continuación, haga clic en **Stored Procedures**.  
   
 13. En el **detalles del explorador de objetos** panel, haga clic en **dtasp_PurgeAllCompletedTrackingData**y, a continuación, haga clic en **Ejecutar procedimiento almacenado**.  
   
@@ -84,9 +84,9 @@ El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar 
   
      Este procedimiento almacenado elimina todos los datos de seguimiento relativos a las instancias finalizadas, independientemente de su hora de finalización.  
   
-15. Abra Servicios. Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **services.msc**. Si un **User Account Control** se muestra el cuadro de diálogo, compruebe que la acción descrita es la esperada y, a continuación, haga clic en **continuar**.  
+15. Abra Servicios. Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **services.msc**. Si un **User Account Control** muestra el cuadro de diálogo, compruebe que la acción descrita es lo que desea y, a continuación, haga clic en **continuar**.  
   
-16. Haga clic en cada uno de los servicios siguientes y, a continuación, haga clic en **iniciar**:  
+16. Haga clic en cada uno de los siguientes servicios y, a continuación, haga clic en **iniciar**:  
   
     -   BizTalkServiceBizTalkGroup: BizTalkServerApplication  
   
@@ -106,9 +106,9 @@ El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar 
   
      **Net start**  *\<IISserviceName\>*  
   
-     Donde  *\<IISserviceName\>*  es el nombre del servicio IIS que desea reiniciar. Deberá repetir este comando para cada uno de los servicios IIS.  
+     Donde *\<IISserviceName\>* es el nombre del servicio IIS que desea reiniciar. Deberá repetir este comando para cada uno de los servicios IIS.  
   
 ## <a name="see-also"></a>Vea también  
  [Archivar y purgar la base de datos de seguimiento de BizTalk](../core/archiving-and-purging-the-biztalk-tracking-database.md)   
- [Copia de seguridad y restaurar bases de datos de servidor BizTalk Server](../core/backing-up-and-restoring-biztalk-server-databases.md)   
+ [Copia de seguridad y restaurar bases de datos de BizTalk Server](../core/backing-up-and-restoring-biztalk-server-databases.md)   
  [Cómo iniciar, detener, pausar, reanudar o reiniciar servicios de BizTalk Server](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)

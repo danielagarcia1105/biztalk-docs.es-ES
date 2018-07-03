@@ -1,5 +1,5 @@
 ---
-title: Listas de comprobación de preparación operativa | Documentos de Microsoft
+title: Listas de comprobación de preparación operativa | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,50 +12,50 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f9e9297e5539fd95f316ebbf6239a5d017ec4ecf
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 76cab24c2ba0d47baa22dbe694a1d929e98c8f9d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "23450229"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002757"
 ---
 # <a name="operational-readiness-checklists"></a>Listas de comprobación de preparación operativa
-Las listas de comprobación de preparación operativa contienen recomendaciones que debe tener en cuenta y las tareas que se deben realizar antes de implementar una solución de BizTalk en producción. Estas listas de comprobación incluyen información para configurar el software de requisito previo, aumentar la disponibilidad, supervisión de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y procedimientos para las pruebas.  
+Las listas de comprobación de preparación operativa contienen recomendaciones que debe tener en cuenta y las tareas que debe realizar antes de implementar una solución de BizTalk en producción. Estas listas de comprobación incluyen información para configurar los requisitos previos de software, aumentar la disponibilidad, supervisión del [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y los procedimientos para probar.  
   
- Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mantiene las dependencias en muchas otras tecnologías de Microsoft, debe completar las tareas para cada tecnología dependiente ayudar a garantizar que su producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno se ejecuta sin problemas.  
+ Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mantiene las dependencias en por lo que muchas otras tecnologías de Microsoft, debe completar las tareas de cada tecnología dependiente ayudar a garantizar que su producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno se ejecuta sin problemas.  
   
 ## <a name="typical-prerequisite-software"></a>Requisitos previos de Software normal  
- Software requerido para la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plataforma de aplicaciones suele incluir los siguientes productos:  
+ Requisitos previos de software para el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plataforma de aplicaciones normalmente incluye los siguientes productos:  
   
--   El sistema operativo Windows  
+- El sistema operativo de Windows  
   
--   SQL Server 
+- SQL Server 
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Visual Studio (para fines de desarrollo, no en tiempo de ejecución)  
+- Visual Studio (para fines de desarrollo, no en tiempo de ejecución)  
   
 ## <a name="additional-components"></a>Componentes adicionales  
- El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plataforma de aplicaciones también puede necesitar varios de los siguientes componentes de software:  
+ El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plataforma de aplicaciones también puede requerir algunos de los componentes de software siguientes:  
   
--   Servicios de Internet Information Server (IIS)  
+- Servicios de Internet Information Server (IIS)  
   
--   SharePoint
+- SharePoint
   
--   Microsoft Office Excel 
+- Microsoft Office Excel 
   
-    > [!NOTE]  
-    >  BizTalk Server admite solo la versión de 32 bits de Microsoft Office.  
+  > [!NOTE]  
+  >  BizTalk Server admite solo la versión de 32 bits de Microsoft Office.  
   
--   SQL Server
+- SQL Server
   
--   SQLXML 
+- SQLXML 
   
--   .NET Framework 
+- .NET Framework 
   
--   Los componentes no son de Microsoft para habilitar la funcionalidad para determinados [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptadores.  
+- Los componentes que no son de Microsoft para habilitar la funcionalidad para determinados [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptadores.  
   
- Para obtener más información acerca del software de dependencia que se requiere para características específicas de la plataforma de aplicaciones de BizTalk para las distintas versiones de sistema operativo de Windows, vea [¿qué es nuevo, instalación, configuración y actualización](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
+  Para obtener más información acerca del software de dependencia que es necesario para características específicas de la plataforma de aplicaciones de BizTalk para las distintas versiones de sistema operativo Windows, consulte [What ' s New, instalación, configuración y actualización](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
 - 
   
 ## <a name="next-steps"></a>Pasos siguientes

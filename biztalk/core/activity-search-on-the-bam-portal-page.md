@@ -1,5 +1,5 @@
 ---
-title: Búsqueda de actividad en el Portal de BAM página | Documentos de Microsoft
+title: Búsqueda de actividad en el Portal de BAM página | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 670d73cb33d9e3cc3aa1a9162cf929382a4dd58a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b01e85495f0cf673c5c781e3accaaf1fc340025
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22225124"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994125"
 ---
 # <a name="activity-search-on-the-bam-portal-page"></a>Búsqueda de actividad en la página del portal de BAM
 Los usuarios empresariales finales, programadores y analistas de negocios pueden utilizar la página del portal de BAM cuando necesiten realizar búsquedas en datos de BAM para encontrar casos específicos de este proceso en particular. Estos procesos se definen como actividades de BAM. Una actividad de BAM representa una unidad de trabajo en un negocio, como un pedido o una aplicación de préstamo.  
@@ -36,15 +36,15 @@ Los usuarios empresariales finales, programadores y analistas de negocios pueden
 ## <a name="the-activity-search-page"></a>La página Búsqueda de actividad  
  La página Búsqueda de actividad económica está dividida en tres secciones principales dentro del marco Contenido:  
   
--   **Consulta**: esta sección permite a los usuarios buscar actividades mediante la creación de cláusulas de búsqueda en función de los elementos de datos. El usuario puede agregar y quitar cláusulas cuando sea necesario.  
+- **Consulta**: en esta sección permite a los usuarios realizar búsquedas de actividades mediante la creación de cláusulas de búsqueda en función de los elementos de datos de seguimiento específicos. El usuario puede agregar y quitar cláusulas cuando sea necesario.  
   
--   **Selector de columnas**: esta sección permite a los usuarios especificar qué elementos de datos, de los disponibles en la vista, para devolver si los registros que coincidan con los criterios de búsqueda.  
+- **Selector de columnas**: esta sección permite a los usuarios especificar qué elementos de datos de los disponibles en la vista, para devolver si los registros que coincidan con los criterios de búsqueda.  
   
--   **Resultados**: resultados de la consulta se muestran en esta sección.  
+- **Resultados**: resultados de la consulta se muestran en esta sección.  
   
- Para obtener más información acerca de las búsquedas de actividad y la página de búsqueda de actividad, vea [búsquedas de actividad en el Portal de BAM](../core/activity-searches-in-the-bam-portal.md).  
+  Para obtener más información acerca de las búsquedas de actividad y la página de búsqueda de actividad, consulte [búsquedas de actividad en el Portal de BAM](../core/activity-searches-in-the-bam-portal.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Portal de BAM](../core/bam-portal.md)   
- [Implementar actividades BAM con secuencias de eventos](../core/implementing-bam-activities-with-event-streams.md)   
- [Alert Manager en el Portal de BAM de página](../core/alert-manager-on-the-bam-portal-page.md)
+ [Implementar actividades de BAM con secuencias de eventos](../core/implementing-bam-activities-with-event-streams.md)   
+ [Administrador de alertas de la página Portal de BAM](../core/alert-manager-on-the-bam-portal-page.md)

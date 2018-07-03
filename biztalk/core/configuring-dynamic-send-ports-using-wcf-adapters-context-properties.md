@@ -1,5 +1,5 @@
 ---
-title: Configuración de puertos de envío dinámicos mediante propiedades de contexto de adaptadores de WCF | Documentos de Microsoft
+title: Configuración de puertos de envío dinámicos mediante las propiedades de contexto de adaptadores de WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,15 +17,15 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bca34afa85c8764215f47d1272c115354889fa5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca781dc1d101e3eef0976229b3d1b986c2f4498d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233356"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995277"
 ---
 # <a name="configuring-dynamic-send-ports-using-wcf-adapters-context-properties"></a>Configurar puertos de envío dinámico mediante el uso de propiedades de contexto de adaptadores de WCF
-Puede configurar puertos de envío dinámico para adaptadores de WCF. La URI, la acción y el enlace pueden se determina a partir de una propiedad en un mensaje entrante y, a continuación, se especifica en el **expresión** forma, tal y como se muestra en el siguiente adaptador de WCF-NetTcp:  
+Puede configurar puertos de envío dinámico para adaptadores de WCF. El URI, acción y el enlace es posible que se determina a partir de una propiedad en un mensaje entrante y, a continuación, se especifica en el **expresión** dar forma, como se muestra en el siguiente adaptador de WCF-NetTcp:  
   
 ```  
 MessageOut=MessageIn;  
@@ -49,36 +49,36 @@ DynamicSendPort(Microsoft.XLANGs.BaseTypes.TransportType)="WCF-Custom";
   
  Al especificar propiedades de contexto de WCF, debe tenerse en cuenta lo siguiente:  
   
--   Hay direcciones que pueden asignarse a diversos adaptadores. Por ejemplo, una dirección que empieza por http:// o https:// puede controlarla el adaptador de HTTP, así como los adaptadores WCF-BasicHttp, WCF-WsHttp o WCF-Custom. Para ver otro ejemplo, en el código de ejemplo expuesto anteriormente, ambos usan la dirección que empieza por net.tcp://, y dado que el segundo código de ejemplo usa el enlace personalizado, el adaptador de WCF-Custom debe usarse para controlar la dirección. Por lo tanto, para identificar el adaptador correcto, debe configurar opcional **Microsoft.XLANGs.BaseTypes.TransportType** campo en un **expresión** forma con el adaptador que desea utilizar.  
+- Hay direcciones que pueden asignarse a diversos adaptadores. Por ejemplo, una dirección que empieza por http:// o https:// puede controlarla el adaptador de HTTP, así como los adaptadores WCF-BasicHttp, WCF-WsHttp o WCF-Custom. Para ver otro ejemplo, en el código de ejemplo expuesto anteriormente, ambos usan la dirección que empieza por net.tcp://, y dado que el segundo código de ejemplo usa el enlace personalizado, el adaptador de WCF-Custom debe usarse para controlar la dirección. Por lo tanto, para identificar el adaptador correcto, debe configurar el elemento opcional **Microsoft.XLANGs.BaseTypes.TransportType** campo un **expresión** con el adaptador que desea usar.  
   
-    > [!NOTE]
-    >  Si la dirección empieza por http:// o https:// y no se especifica la **Microsoft.XLANGs.BaseTypes.TransportType** campo, de forma predeterminada, el motor de BizTalk usará el adaptador de HTTP.  
+  > [!NOTE]
+  >  Si la dirección empieza por http:// o https:// y no se especifica la **Microsoft.XLANGs.BaseTypes.TransportType** campo, de forma predeterminada, el motor de BizTalk usará el adaptador de HTTP.  
   
--   El **WCF. BindingType** identifica el enlace por nombre. Puede tener uno de los valores siguientes:  
+- El **WCF. BindingType** identifica el enlace por nombre. Puede tener uno de los valores siguientes:  
   
-    -   basicHttpBinding  
+  - basicHttpBinding  
   
-    -   customBinding  
+  - customBinding  
   
-    -   netMsmqBinding  
+  - netMsmqBinding  
   
-    -   netNamedPipeBinding  
+  - netNamedPipeBinding  
   
-    -   netTcpBinding  
+  - netTcpBinding  
   
-    -   wsFederationHttpBinding  
+  - wsFederationHttpBinding  
   
-    -   wsHttpBinding  
+  - wsHttpBinding  
   
-     La lista anterior puede ampliarse. Por ejemplo, puede agregar su propio enlace, como FtpBinding.  
+    La lista anterior puede ampliarse. Por ejemplo, puede agregar su propio enlace, como FtpBinding.  
   
--   El **WCF. BindingConfiguration** especifica la configuración de enlace para el tipo de enlace. Toma cualquier enlace registrado en el archivo de configuración del equipo. También toma la configuración XML en el mismo formato usado en la configuración del enlace del archivo de configuración WCF.  
+- El **WCF. BindingConfiguration** especifica la configuración de enlace para el tipo de enlace. Toma cualquier enlace registrado en el archivo de configuración del equipo. También toma la configuración XML en el mismo formato usado en la configuración del enlace del archivo de configuración WCF.  
   
--   Puede que tenga que especificar propiedades de WCF adicionales. Puede escribir **WCF** en el Editor de expresiones y las características de IntelliSense característica debe enumerar todas las propiedades de contexto disponibles. Para obtener más información acerca de las propiedades de contexto WCF, vea [propiedades y esquema de propiedades de adaptadores de WCF](../core/wcf-adapters-property-schema-and-properties.md).  
+- Puede que tenga que especificar propiedades de WCF adicionales. Puede escribir **WCF** en el Editor de expresiones y IntelliSense característica debe enumerar todas las propiedades de contexto disponibles. Para obtener más información acerca de las propiedades de contexto WCF, vea [propiedades y esquema de propiedades de adaptadores de WCF](../core/wcf-adapters-property-schema-and-properties.md).  
   
- Los ejemplos anteriores muestran cómo configurar **WCF. Acción** con una sola acción. Para varios escenarios de asignación de acciones, el adaptador de WCF no es compatible con el uso de varias asignaciones de acciones con puertos de envío dinámicos. Basta con establecer la acción real el **WCF. Acción** propiedad de contexto como se muestra anteriormente.  
+  Los ejemplos anteriores muestran cómo configurar **WCF. Acción** con una sola acción. Para varios escenarios de asignación de acciones, el adaptador de WCF no es compatible con el uso de varias asignaciones de acciones con puertos de envío dinámicos. Solo puede establecer la acción real el **WCF. Acción** propiedad de contexto como se muestra anteriormente.  
   
 ## <a name="see-also"></a>Vea también  
- [Especificar acciones SOAP para WCF adaptadores de envío](../core/specifying-soap-actions-for-wcf-send-adapters.md)   
+ [Adaptadores de envío de la especificación de acciones SOAP de WCF](../core/specifying-soap-actions-for-wcf-send-adapters.md)   
  [Cómo usar expresiones para asignar valores a puertos dinámicos](../core/how-to-use-expressions-to-assign-values-to-dynamic-ports.md)   
  [Enlaces de puertos](../core/port-bindings.md)

@@ -1,5 +1,5 @@
 ---
-title: Importar enlaces para TIBCO Rendezvous | Documentos de Microsoft
+title: Importar enlaces para TIBCO Rendezvous | Microsoft Docs
 description: Implementar el adaptador de BizTalk para aplicaciones de TIBCO Rendezvous mediante la característica Importar enlaces en BizTalk Server
 ms.custom: ''
 ms.date: 10/24/2017
@@ -13,12 +13,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dab62d7d7836a59c66329c2c58f7768bc481c036
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2bb362afb23b165c31df34adf521be81f93a621f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25968490"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994013"
 ---
 # <a name="deploy-tibco-rendezvous-ports-and-assemblies"></a>Implementar ensamblados y puertos de TIBCO Rendezvous
   
@@ -27,31 +27,31 @@ Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
   
  Mediante BizTalk Server se pueden realizar las tareas siguientes:  
   
--   Implementar o quitar ensamblados de BizTalk Server en una base de datos de configuración de BizTalk.  
+- Implementar o quitar ensamblados de BizTalk Server en una base de datos de configuración de BizTalk.  
   
--   Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
+- Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
   
--   Importar o exportar información de enlace de ensamblado de BizTalk Server desde archivos de enlace o a archivos de enlace.  
+- Importar o exportar información de enlace de ensamblado de BizTalk Server desde archivos de enlace o a archivos de enlace.  
   
- Para obtener información sobre cómo usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
+  Para obtener información sobre cómo usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
   
 > [!NOTE]
 >  El adaptador de Microsoft BizTalk para TIBCO Rendezvous solo necesita que tenga Visual Studio en un equipo de origen (desarrollo). Visual Studio no es necesario en el equipo de producción.  
 
 ## <a name="confirm-your-setup"></a>Confirme la configuración
 
-Antes de usar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para importar un archivo de enlace, confirme que las carpetas para las respuestas existen y que son idénticas en el nuevo equipo o debe editar el archivo de enlace.  
+Antes de usar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para importar un archivo de enlace, confirme que las carpetas para las respuestas existen y que son idénticos en el nuevo equipo o debe editar el archivo de enlace.  
   
 ## <a name="clean-the-target-computer"></a>Limpiar el equipo de destino
-Implementación sobrescribe la configuración de la ubicación de recepción. Al implementar un archivo de enlace (y el ensamblado) en un equipo de destino, los puertos de envío y ubicaciones de recepción se sustituyen por los en el archivo de enlace XML cuando se importan.  
+Implementación sobrescribe la configuración de la ubicación de recepción. Al implementar un archivo de enlace (y el ensamblado) en un equipo de destino, los puertos de envío y ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se importan.  
   
-Antes de importar, quite los puertos de envío y ubicaciones de recepción vinculadas a la orquestación.  
+Antes de importar, quite los puertos de envío y enlazadas a la orquestación de las ubicaciones de recepción.  
   
 Si no tiene Microsoft Visual Studio instalada en el equipo de destino, puede quitar los puertos ejecutando estas secuencias de comandos:  
   
--   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
+- [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
   
--   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
+- [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
   
 Por ejemplo, en un símbolo del sistema, ejecute:  
   

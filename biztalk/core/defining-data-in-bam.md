@@ -1,5 +1,5 @@
 ---
-title: Definición de datos de BAM | Documentos de Microsoft
+title: Definición de datos en BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,12 +23,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6acbc0ea1d80ec129d691d6c54b6eefd626d0e9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2caba09d12e6a7736ae452ffe05e7604ca5dea02
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22242940"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986013"
 ---
 # <a name="defining-data-in-bam"></a>Definir datos en BAM
 El complemento de BAM para Excel sirve para definir los datos que BAM debe recopilar y para definir la forma en que se compartirán. Las actividades de BAM sirven para definir datos; las vistas de BAM, para definir los datos que pueden ver otros usuarios.  
@@ -42,7 +42,7 @@ El complemento de BAM para Excel sirve para definir los datos que BAM debe recop
   
  En la tabla siguiente se describen los tipos de elementos de actividad que proporciona BAM.  
   
-|Tipo de elemento|Description|  
+|Tipo de elemento|Descripción|  
 |---------------|-----------------|  
 |Hito económico|Un valor de fecha y hora. Por ejemplo, la fecha de aprobación de un pedido de compra.|  
 |Datos económicos: Text|Cadena que contiene cualquier carácter alfanumérico. Por ejemplo, enviar: código de ciudad, estado o provincia y código Postal.|  
@@ -79,7 +79,7 @@ El complemento de BAM para Excel sirve para definir los datos que BAM debe recop
 ### <a name="durations"></a>Duraciones  
  Las duraciones son intervalos de tiempo y se describen mediante los hitos que definen el inicio y el final de los intervalos de tiempo. En la tabla siguiente se muestran las duraciones que puede definir a partir de los hitos mostrados en la tabla anterior.  
   
-|Duración|Hito de inicio|Hito de fin|  
+|Duration|Hito de inicio|Hito de fin|  
 |--------------|---------------------|-------------------|  
 |1|Recibida|Aprobada|  
 |2|Recibida|Entregado|  
@@ -92,7 +92,7 @@ El complemento de BAM para Excel sirve para definir los datos que BAM debe recop
  Los grupos de hitos se crean para tratar un conjunto de hitos (por ejemplo los hitos inicial y final de un proceso) como una sola entidad, lo que crea un solo hito que representa toda la longitud del proceso.  
   
 ### <a name="aggregations"></a>Agregaciones  
- Las agregaciones sirven para mejorar el tiempo de respuesta al actualizar datos de la base de datos. Excel define las agregaciones como resúmenes de datos precalculados que mejoran el tiempo de respuesta de consultas al tener preparadas las respuestas antes de que se planteen las preguntas. Por ejemplo, cuando una tabla de hechos de almacén de datos contiene cientos de miles de filas, una consulta que solicita las programaciones de envío de dos productos en concreto puede tardar en responder si la tabla de hechos se tiene que analizar para calcular la respuesta. Sin embargo, la respuesta podría ser casi inmediata si los datos de resumen para responder a esta consulta se ha calculado previamente.  
+ Las agregaciones sirven para mejorar el tiempo de respuesta al actualizar datos de la base de datos. Excel define las agregaciones como resúmenes de datos precalculados que mejoran el tiempo de respuesta de consultas al tener preparadas las respuestas antes de que se planteen las preguntas. Por ejemplo, cuando una tabla de hechos de almacén de datos contiene cientos de miles de filas, una consulta que solicita las programaciones de envío de dos productos en concreto puede tardar en responder si la tabla de hechos se tiene que analizar para calcular la respuesta. Sin embargo, la respuesta puede ser casi inmediata si los datos de resumen para responder a esta consulta se han calculado previamente.  
   
  En la siguiente ilustración se muestra un ejemplo de los datos de agregación precalculados.  
   
@@ -124,21 +124,21 @@ El complemento de BAM para Excel sirve para definir los datos que BAM debe recop
 ### <a name="dimensions-and-measures"></a>Dimensiones y medidas  
  Las dimensiones y medidas sirven para crear agregaciones de datos:  
   
--   Las dimensiones describen un hecho.  
+- Las dimensiones describen un hecho.  
   
--   Las medidas son valores de hechos.  
+- Las medidas son valores de hechos.  
   
- Por ejemplo, un hecho podría ser "3 automóviles rojos" en inventario. La descripción del producto: "car" y "rojo" son dimensiones. El valor del hecho "3" es una medida. Si el precio de cada automóvil se incluye en el hecho, dicho precio es una dimensión pero el precio medio de los automóviles en inventario es una medida. En Libros en pantalla de Microsoft SQL Server una medida se describe como "los valores centrales que se agregan y analizan". Es decir, si un elemento se puede contar, si se puede calcular su promedio o se le puede aplicar cualquier otra operación matemática para obtenerlo, se trata de una medida.  
+  Por ejemplo, un hecho podría ser "3 automóviles rojos" en inventario. La descripción del producto: "car" y "rojo" son dimensiones. El valor del hecho "3" es una medida. Si el precio de cada automóvil se incluye en el hecho, dicho precio es una dimensión pero el precio medio de los automóviles en inventario es una medida. En Libros en pantalla de Microsoft SQL Server una medida se describe como "los valores centrales que se agregan y analizan". Es decir, si un elemento se puede contar, si se puede calcular su promedio o se le puede aplicar cualquier otra operación matemática para obtenerlo, se trata de una medida.  
   
- Puede crear los siguientes tipos de dimensiones:  
+  Puede crear los siguientes tipos de dimensiones:  
   
--   Dimensión de progreso  
+- Dimensión de progreso  
   
--   Dimensión de datos  
+- Dimensión de datos  
   
--   Dimensión de tiempo  
+- Dimensión de tiempo  
   
--   Dimensión de rango numérico  
+- Dimensión de rango numérico  
   
 ## <a name="progress-dimensions"></a>Dimensiones de progreso  
  BAM presenta un nuevo tipo de dimensión: la dimensión de progreso. Puede crear dimensiones de progreso para crear agregaciones relacionadas con el progreso de actividades aún en curso.  
@@ -169,12 +169,12 @@ El complemento de BAM para Excel sirve para definir los datos que BAM debe recop
 ||Aprobada|200|300|  
 ||Denegado|150|50|  
   
- Dimensiones de progreso ofrecen información especialmente valiosa para gráficos basados en agregaciones en tiempo real (ATR). Las ATR permiten ver el estado actual del proceso empresarial e identificar fácilmente cuellos de botella en él.  
+ Las dimensiones de progreso ofrecen información especialmente valiosa para gráficos basados en agregaciones en tiempo real (ATR). Las ATR permiten ver el estado actual del proceso empresarial e identificar fácilmente cuellos de botella en él.  
   
- Los hitos de una compra orden la dimensión de progreso puede ser secuencial: el primer paso se completa antes de inicia el paso siguiente. Otra posibilidad es completar los hitos conjuntamente. Los pasos secuenciales son pasos secundarios y los pasos conjuntos son pasos hermanos. En el proceso del pedido, la comprobación comienza en cuanto se recibe éste. Es un paso transitorio que tiene lugar al mismo tiempo que el hito Recibido y, por tanto, es un elemento hermano. Un pedido de compra solo se aprueba tras ser recibido; Aprobado es elemento secundario con respecto a Recibido.  
+ Orden de los hitos de una compra de la dimensión de progreso puede ser secuencial: el primer paso se completa antes de inicia el paso siguiente. Otra posibilidad es completar los hitos conjuntamente. Los pasos secuenciales son pasos secundarios y los pasos conjuntos son pasos hermanos. En el proceso del pedido, la comprobación comienza en cuanto se recibe éste. Es un paso transitorio que tiene lugar al mismo tiempo que el hito Recibido y, por tanto, es un elemento hermano. Un pedido de compra solo se aprueba tras ser recibido; Aprobado es elemento secundario con respecto a Recibido.  
   
 ## <a name="data-dimension"></a>Dimensión de datos  
- Una dimensión de datos se define para usar el valor de ciertos elementos de texto de la actividad de BAM en filas o columnas. Por ejemplo, una dimensión de datos con el nombre de producto puede utilizarse para crear la tabla siguiente:  
+ Una dimensión de datos se define para usar el valor de ciertos elementos de texto de la actividad de BAM en filas o columnas. Por ejemplo, una dimensión de datos denominada Product puede usarse para crear la tabla siguiente:  
   
 |Product|Count|  
 |-------------|-----------|  
@@ -191,7 +191,7 @@ El complemento de BAM para Excel sirve para definir los datos que BAM debe recop
  En esta tabla se usó la dimensión Producto para las filas y la dimensión Ubicación para las columnas.  
   
 ## <a name="time-dimension"></a>Dimensión de tiempo  
- Puede crear una dimensión de tiempo para crear agregaciones con respecto al tiempo. Por ejemplo, una dimensión de tiempo puede utilizarse para crear la tabla siguiente:  
+ Puede crear una dimensión de tiempo para crear agregaciones con respecto al tiempo. Por ejemplo, una dimensión de tiempo se puede usar para crear la tabla siguiente:  
   
 |Year|Month|Count|  
 |----------|-----------|-----------|  

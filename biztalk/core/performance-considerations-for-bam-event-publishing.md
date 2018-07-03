@@ -1,5 +1,5 @@
 ---
-title: Consideraciones de rendimiento para la publicación de eventos BAM | Documentos de Microsoft
+title: Consideraciones de rendimiento para la publicación de eventos BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,29 +19,29 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ebab873c94c0ae17abf9938883662ca8777cef36
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c031f9a3325eda9cbcf865eaf72d1d9e100616c7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22264428"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997541"
 ---
 # <a name="performance-considerations-for-bam-event-publishing"></a>Consideraciones de rendimiento para la publicación de eventos BAM
 BAM admite dos formas de publicación de eventos empresariales:  
   
--   Sincrónica  
+- Sincrónica  
   
--   Asincrónica  
+- Asincrónica  
   
- En el siguiente diagrama se ilustran los dos modelos.  
+  En el siguiente diagrama se ilustran los dos modelos.  
   
- ![](../core/media/bam-topologies.gif "bam_topologies")  
-Topologías de BAM  
+  ![](../core/media/bam-topologies.gif "bam_topologies")  
+  Topologías de BAM  
   
- El enfoque sincrónico es mucho más sencillo para la administración y utilización del código, mientras que el enfoque asíncrono le permite un rendimiento mejor.  
+  El enfoque sincrónico es mucho más sencillo para la administración y utilización del código, mientras que el enfoque asíncrono le permite un rendimiento mejor.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Seguimiento de eventos empresariales sincrónico](../core/synchronous-business-event-tracking.md)  
+-   [Seguimiento sincrónico de eventos empresariales](../core/synchronous-business-event-tracking.md)  
   
--   [Seguimiento de eventos empresariales asíncronos](../core/asynchronous-business-event-tracking.md)
+-   [Seguimiento asincrónico de eventos empresariales](../core/asynchronous-business-event-tracking.md)

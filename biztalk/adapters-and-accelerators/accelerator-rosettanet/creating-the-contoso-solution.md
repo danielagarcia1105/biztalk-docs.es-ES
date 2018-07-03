@@ -1,5 +1,5 @@
 ---
-title: Creación de la solución de Contoso | Documentos de Microsoft
+title: Creación de la solución de Contoso | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,15 +14,15 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dcc840a33bf9f0a4708b7c9b44902fc02b5f2ea7
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: a2ed65010926f04e99eb126980870368c5d4a512
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004517"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000133"
 ---
 # <a name="creating-the-contoso-solution"></a>Creación de la solución de Contoso
-En esta sección se detalla los pasos que debe seguir para la organización de Contoso. El primer paso consiste en agregar los contratos de asociado y de información de contacto para las dos organizaciones que utilizan el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración. A continuación, crear esquemas de línea de negocio (LOB) y crear una asignación entre dichos esquemas y sus respectivos esquemas de proceso de interfaz de socio (PIP) basados en RosettaNet. A continuación, configure la información de puerto mediante el adaptador de SQL para comunicarse con el sistema ERP y el adaptador de HTTP para enviar información a Fabrikam. El último paso consiste en Personalizar la orquestación de procesos privados para usar el motor de reglas de negocios (BRE) en BizTalk Server.  
+Esta sección detallan los pasos que debe seguir para la organización de Contoso. El primer paso es agregar los contratos de asociados y de información de contacto para las dos organizaciones mediante el Microsoft® [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración. A continuación, crear esquemas de línea de negocio (LOB) y construir una asignación entre dichos esquemas y sus respectivos esquemas del proceso de interfaz de socio (PIP) basados en RosettaNet. A continuación, configure información de puerto mediante el adaptador de SQL para la comunicación con el sistema ERP y el adaptador de HTTP para enviar información a Fabrikam. El último paso es personalizar la orquestación de procesos privado para usar el motor de reglas de negocios (BRE) en BizTalk Server.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

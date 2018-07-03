@@ -1,5 +1,5 @@
 ---
-title: Se encontró un elemento de fin al buscar el elemento de inicio | Documentos de Microsoft
+title: Se encontró un elemento de fin al buscar el elemento de inicio | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9dacaa096b15a6f2969ed56b5bac2138876a6095
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2e200f4ffd8d822a5c2bb1a0bad74a60e84a408a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22229964"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992437"
 ---
 # <a name="an-end-element-was-found-while-looking-for-start-element"></a>Se encontró un elemento de fin al buscar un elemento de inicio
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|EndElementFoundWhenLookingForStartElement|  
-|Texto del mensaje|Se encontró un elemento EndElement con nombre {0}, al buscar el elemento StartElement con {1} del nombre, en profundidad {{2}|  
+|                 |                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]         |
+| Versión del producto |                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                     |
+|    Identificador del evento     |                                                 -                                                 |
+|  Origen del evento   |      EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]       |
+|    Componente    |                                            Motor EDI                                             |
+|  Nombre simbólico  |                             EndElementFoundWhenLookingForStartElement                             |
+|  Texto del mensaje   | Un elemento EndElement con nombre {0} se encontró al buscar el elemento StartElement con nombre {1}, en profundidad {2} |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que BizTalk Server no pudo procesar el mensaje XML entrante (después de analizar) o un mensaje XML saliente (antes de la serialización) debido a que no se pudo validar el mensaje XML. El mensaje XML no contenía una etiqueta de finalización para un encabezado o elemento de datos.  

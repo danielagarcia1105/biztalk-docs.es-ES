@@ -1,5 +1,5 @@
 ---
-title: Control de cadena Values1 | Documentos de Microsoft
+title: Control de cadena Values1 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f32b29b9a8688fe8402730c1db8f12e42a67bab
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 51397965a416169c8f71ffef8d9466f99f30c093
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22246684"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988917"
 ---
 # <a name="handling-string-values"></a>Control de valores de cadena
 En este tema se describe cómo configurar ciertos argumentos de cadena como justificado a la derecha (y relleno a la izquierda).  
@@ -30,15 +30,15 @@ En este tema se describe cómo configurar ciertos argumentos de cadena como just
 ## <a name="types-of-string-values"></a>Tipos de valores de cadena  
  JD Edwards OneWorld muestra dos clases de valores de cadena en su capa de interoperabilidad:  
   
--   Char: un único carácter  
+- Char: un único carácter  
   
--   cadena de longitud máxima  
+- cadena de longitud máxima  
   
- JD Edwards OneWorld usa la notación húngara para nombrar los argumentos de estos tipos en las funciones de negocio. Por ejemplo, los argumentos de estos tipos de comenzar con:  
+  JD Edwards OneWorld usa la notación húngara para nombrar los argumentos de estos tipos en las funciones de negocio. Por ejemplo, los argumentos de estos tipos de comenzar con:  
   
--   c  
+- c  
   
--   sz  
+- sz  
   
 ### <a name="left-justified-values"></a>Valores justificados a la izquierda  
  Para una mayoría de argumentos de tipo sz, cadena de longitud máxima o matriz de caracteres, JD Edwards OneWorld espera un valor justificado a la izquierda. Para una línea de dirección de calle, cuya longitud máxima es 40, JD Edwards OneWorld espera (por ejemplo):  
@@ -54,9 +54,9 @@ En este tema se describe cómo configurar ciertos argumentos de cadena como just
   
  Para especificar un valor que estará justificado a la derecha, debe especificar el parámetro en un archivo denominado jdearglist.txt. El archivo jdearglist.txt se lee al generar el esquema. Cualquier valor que se indique en este archivo de texto se convierte automáticamente en un valor justificado a la derecha y rellenado a la izquierda con espacios en blanco.  
   
- Debe crear jdearglist.txt usando un texto de editor, con las entradas que describen estos parámetros y guárdelo en la siguiente carpeta: %BizTalk_Install_Adapter%\config\JDE\  
+ Debe crear jdearglist.txt usando un texto editor, con entradas que describen estos parámetros y guárdelo en la siguiente carpeta: %BizTalk_Install_Adapter%\config\JDE\  
   
- Donde **BizTalk_Install_Adapter %** es el directorio en el que instaló el adaptador de BizTalk para JD Edwards OneWorld.  
+ Donde **BizTalk_Install_Adapter %** es el directorio donde instaló el adaptador de BizTalk para JD Edwards OneWorld.  
   
  Si este archivo no existe o está vacío, aparece un mensaje informativo en el registro de BizTalk Adapter para JD Edwards OneWorld cuando se abre el adaptador por primera vez.  
   

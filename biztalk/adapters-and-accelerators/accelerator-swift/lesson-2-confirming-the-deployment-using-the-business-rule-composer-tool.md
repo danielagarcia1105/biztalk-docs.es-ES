@@ -1,5 +1,5 @@
 ---
-title: 'Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios | Documentos de Microsoft'
+title: 'Lección 2: Confirmación de la implementación mediante la herramienta de Compositor de reglas de negocio regla | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,27 +18,27 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3115dc425fedca9019f0e5e5171f7234e6fbdbb2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1e9de00e6996daf5ce7759d395f6dfcf97989aa4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210244"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997805"
 ---
-# <a name="lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool"></a>Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios
-En esta lección, confirme que la herramienta de Compositor de reglas de negocios creado los vocabularios e implementado las directivas. Un vocabulario es una colección de elementos de vocabulario utilizados en la composición de regla. Las directivas son colecciones de reglas de negocios y tienen asignada una versión.  
+# <a name="lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool"></a>Lección 2: Confirmación de la implementación mediante la herramienta de Compositor de reglas de negocio regla
+En esta lección, confirme que la herramienta de compositor creado los vocabularios e implementado las directivas. Un vocabulario es una colección de elementos de vocabulario utilizados en la composición de regla. Las directivas son colecciones de reglas de negocios y tienen asignada una versión.  
   
-### <a name="to-confirm-the-deployment-using-the-business-rule-composer-tool"></a>Para confirmar la implementación mediante la herramienta de Compositor de reglas de negocios  
+### <a name="to-confirm-the-deployment-using-the-business-rule-composer-tool"></a>Para confirmar la implementación mediante la herramienta Compositor de reglas de negocios  
   
-1.  Iniciar **Compositor de reglas de negocios** en BizTalk Server.  
+1.  Iniciar **compositor** en BizTalk Server.  
   
 2.  En el cuadro de diálogo Abrir almacén de reglas, haga clic en **Aceptar**.  
   
-3.  En el panel Explorador de hechos de la herramienta de Compositor de reglas de negocios, confirme que los vocabularios que desea que aparezcan en el Explorador de hechos, como se muestra en la ilustración siguiente.  
+3.  En el panel Explorador de hechos de la herramienta Compositor de reglas de negocios, confirme que los vocabularios que desea que aparezcan en el Explorador de hechos, como se muestra en la ilustración siguiente.  
   
      ![](../../adapters-and-accelerators/accelerator-swift/media/tut2-scrn2.gif "Tut2_scrn2")  
   
-4.  En el Explorador de directivas, confirme que la herramienta de Compositor de reglas de negocio implementa las siguientes directivas:  
+4.  En el Explorador de directivas, confirme que la herramienta de compositor implementado las siguientes directivas:  
   
      MT103_Master_Policy  
   
@@ -96,10 +96,10 @@ En esta lección, confirme que la herramienta de Compositor de reglas de negocio
   
 ### <a name="to-view-a-policy"></a>Para ver una directiva  
   
-1.  En el panel Explorador de directivas del compositor de reglas de negocios, asegúrese de que el **SWIFT_NetworkRule149_Policy** se expande y, a continuación, expanda el **versión 1.0 – implementada** nodo.  
+1. En el panel Explorador de directivas de Compositor de reglas de negocios, asegúrese de que el **SWIFT_NetworkRule149_Policy** se expande y, a continuación, expanda el **versión 1.0 – implementada** nodo.  
   
-2.  Haga doble clic en el **Validate_MT103** nodo para abrirlo.  
+2. Haga doble clic en el **Validate_MT103** nodo para abrirlo.  
   
-     La directiva se abre en el panel del editor en el lado derecho de la pantalla.  
+    La directiva se abre en el panel del editor en el lado derecho de la pantalla.  
   
- Continúe con [módulo 7: probar una instancia de archivo sin formato válido](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md).
+   Continúe con [módulo 7: probar una instancia de archivo plano válida](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md).

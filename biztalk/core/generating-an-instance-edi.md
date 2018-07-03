@@ -1,5 +1,5 @@
 ---
-title: Generar una instancia (EDI) | Documentos de Microsoft
+title: Generar una instancia (EDI) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b5696d1590859469b10def4a42c955ff098819d8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82674b175ad1c408b6ddb9f7823427a550288e96
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247420"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36999301"
 ---
 # <a name="generating-an-instance-edi"></a>Generar una instancia (EDI)
 Puede generar una instancia de mensaje desde un esquema EDI en el tiempo de diseño. Para ello, se usan las extensiones de la herramienta XML para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
@@ -35,69 +35,69 @@ Puede generar una instancia de mensaje desde un esquema EDI en el tiempo de dise
   
 ### <a name="to-generate-an-instance-of-a-batched-interchange"></a>Para generar una instancia de un intercambio procesado por lotes  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra un proyecto. En el Explorador de soluciones, agregue un esquema de mensaje al proyecto para cada tipo de conjunto de transacciones que desee en la instancia de mensaje. Agregue el esquema de lote para el tipo de codificación al proyecto: Edifact_BatchSchema.xsd o X12_BatchSchema.xsd.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra un proyecto. En el Explorador de soluciones, agregue un esquema de mensaje al proyecto para cada tipo de conjunto de transacciones que desee en la instancia de mensaje. Agregue el esquema por lotes para el tipo de codificación al proyecto: Edifact_BatchSchema.xsd o X12_BatchSchema.xsd.  
   
-    > [!NOTE]
-    >  Los esquemas de lotes se encuentran en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI.  
+   > [!NOTE]
+   >  Los esquemas de lotes se encuentran en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI.  
+   > 
+   > [!NOTE]
+   >  No tiene que generar el proyecto para generar una instancia.  
   
-    > [!NOTE]
-    >  No tiene que generar el proyecto para generar una instancia.  
+2. Haga clic en el esquema por lotes en el Explorador de soluciones y, a continuación, haga clic en **propiedades**.  
   
-2.  Haga clic en el esquema por lotes en el Explorador de soluciones y, a continuación, haga clic en **propiedades**.  
+3. En el **propiedades** ventana, establezca **genere el tipo de salida de instancia** a **nativo** o **XML**. Seleccionar **nativo** le solicitará la generación de un archivo sin formato con una extensión. txt. Seleccionar **XML** le solicitará la generación de un archivo XML.  
   
-3.  En el **propiedades** ventana, establezca **genere el tipo de salida de instancia** a **nativo** o **XML**. Seleccionar **nativo** le solicitará la generación de un archivo sin formato con una extensión. txt. Seleccionar **XML** le solicitará la generación de un archivo XML.  
+4. Para **nombre de archivo de instancia de salida**, escriba un nombre o busque un archivo y seleccione el archivo.  
   
-4.  Para **nombre de archivo de instancia de salida**, escriba un nombre o vaya a un archivo y seleccione el archivo.  
+   > [!NOTE]
+   >  Si no especifica un valor para el nombre de archivo de la instancia de salida, se elegirá uno de forma automática. El nombre de archivo aparecerá en la ventana Salida de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   > 
+   > [!NOTE]
+   >  Si selecciona un archivo existente, el contenido de éste se reemplazará por el contenido que genera esta operación.  
   
-    > [!NOTE]
-    >  Si no especifica un valor para el nombre de archivo de la instancia de salida, se elegirá uno de forma automática. El nombre de archivo aparecerá en la ventana Salida de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+5. Haga clic en el esquema por lotes y, a continuación, haga clic en **generar instancia**.  
   
-    > [!NOTE]
-    >  Si selecciona un archivo existente, el contenido de éste se reemplazará por el contenido que genera esta operación.  
+6. En el **propiedades de instancia EDI** cuadro de diálogo, seleccione los separadores, identificadores y otra configuración de opciones para usarse en esa instancia y, a continuación, haga clic en **Aceptar**.  
   
-5.  Haga clic en el esquema por lotes y, a continuación, haga clic en **generar instancia**.  
+7. Compruebe que la operación ha funcionado en el **salida** ventana.  
   
-6.  En el **propiedades de la instancia de EDI** cuadro de diálogo, seleccione los separadores, identificadores y otra configuración, las opciones para usarse en esa instancia y, a continuación, haga clic en **Aceptar**.  
+8. Para ver el archivo, presione **Control** y haga clic en el vínculo en el **salida** ventana. [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] se mostrará el contenido del archivo en la ventana del Editor de BizTalk.  
   
-7.  Compruebe que la operación ha funcionado en el **salida** ventana.  
-  
-8.  Para ver el archivo, presione **Control** y haga clic en el vínculo en el **salida** ventana. [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]se mostrará el contenido del archivo en la ventana del Editor de BizTalk.  
-  
-    > [!NOTE]
-    >  Al generar una instancia que contiene un 837I, 837d o 837p, el valor de GS08 se establecerá incorrectamente como 00401. Para obtener más información, consulte [problemas conocidos con herramientas de XML utilizadas con soluciones EDI](../core/known-issues-with-xml-tools-used-with-edi-solutions.md).  
+   > [!NOTE]
+   >  Cuando se genera una instancia que contiene un 837I, 837d o 837p, el valor de GS08 se establecerá forma incorrecta como 00401. Para obtener más información, consulte [problemas conocidos relacionados con las herramientas de XML utilizadas con soluciones EDI](../core/known-issues-with-xml-tools-used-with-edi-solutions.md).  
   
 ### <a name="to-generate-an-instance-of-a-transaction-set"></a>Para generar una instancia de conjunto de transacciones  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra un proyecto. Agregue el esquema del tipo de conjunto de transacciones para el que desea generar una instancia.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra un proyecto. Agregue el esquema del tipo de conjunto de transacciones para el que desea generar una instancia.  
   
-    > [!NOTE]
-    >  Para generar una instancia de conjunto de transacciones, no necesita agregar el esquema por lotes al proyecto.  
+   > [!NOTE]
+   >  Para generar una instancia de conjunto de transacciones, no necesita agregar el esquema por lotes al proyecto.  
   
-    > [!NOTE]
-    >  No tiene que generar el proyecto para generar una instancia.  
+   > [!NOTE]
+   >  No tiene que generar el proyecto para generar una instancia.  
   
-2.  Haga clic en el esquema de mensaje en el Explorador de soluciones y, a continuación, haga clic en **propiedades**.  
+2. Haga clic en el esquema de mensaje en el Explorador de soluciones y, a continuación, haga clic en **propiedades**.  
   
-3.  En la ventana Propiedades, establezca **genere el tipo de salida de instancia** a **nativo** o **XML**. Seleccionar **nativo** le solicitará la generación de un archivo sin formato con una extensión. txt. Seleccionar **XML** le solicitará la generación de un archivo XML.  
+3. En la ventana Propiedades, establezca **genere el tipo de salida de instancia** a **nativo** o **XML**. Seleccionar **nativo** le solicitará la generación de un archivo sin formato con una extensión. txt. Seleccionar **XML** le solicitará la generación de un archivo XML.  
   
-4.  Para **nombre de archivo de instancia de salida**, escriba un nombre o vaya a un archivo y seleccione el archivo.  
+4. Para **nombre de archivo de instancia de salida**, escriba un nombre o busque un archivo y seleccione el archivo.  
   
-    > [!NOTE]
-    >  Si no especifica un valor para el nombre de archivo de la instancia de salida, se elegirá uno de forma automática. Se mostrará el nombre de archivo en el **salida** ventana de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   > [!NOTE]
+   >  Si no especifica un valor para el nombre de archivo de la instancia de salida, se elegirá uno de forma automática. El nombre de archivo se mostrará en el **salida** ventana de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   > 
+   > [!NOTE]
+   >  Si selecciona un archivo existente, el contenido de éste se reemplazará por el contenido que genera esta operación.  
   
-    > [!NOTE]
-    >  Si selecciona un archivo existente, el contenido de éste se reemplazará por el contenido que genera esta operación.  
+5. Haga clic en el esquema de mensaje y, a continuación, haga clic en **generar instancia**.  
   
-5.  Haga clic en el esquema de mensaje y, a continuación, haga clic en **generar instancia**.  
+6. En el **propiedades de instancia EDI** cuadro de diálogo, seleccione las opciones de configuración que desee y, a continuación, haga clic en **Aceptar**.  
   
-6.  En el **propiedades de la instancia de EDI** cuadro de diálogo, seleccione las opciones de configuración que desee y, a continuación, haga clic en **Aceptar**.  
+7. Compruebe que hay un mensaje en el **salida** ventana que indica que la operación se realizó correctamente.  
   
-7.  Compruebe que hay un mensaje en el **salida** ventana que indica que la operación se realizó correctamente.  
-  
-8.  Para ver el archivo, presione **Control** y haga clic en el vínculo en la ventana de salida. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]se mostrará el contenido del archivo en la ventana del Editor de BizTalk.  
+8. Para ver el archivo, presione **Control** y haga clic en el vínculo en la ventana de salida. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se mostrará el contenido del archivo en la ventana del Editor de BizTalk.  
   
 9. Para crear un mensaje EDI funcional, agregue el intercambio y los encabezados de grupo al mensaje en un editor de texto.  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de herramientas XML en tiempo de diseño](../core/using-design-time-xml-tools.md)   
- [Validar una instancia (EDI)](../core/validating-an-instance-edi.md)
+ [Uso de herramientas de XML en tiempo de diseño](../core/using-design-time-xml-tools.md)   
+ [Validación de una instancia (EDI)](../core/validating-an-instance-edi.md)

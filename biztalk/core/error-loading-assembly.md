@@ -1,5 +1,5 @@
 ---
-title: Error al cargar el ensamblado | Documentos de Microsoft
+title: Error al cargar el ensamblado | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 13be3acf6974565c86cc87b14ed58929553d5220
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df561b964faa0fae80f41f1423d3034466bbb8ce
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241740"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994957"
 ---
 # <a name="error-loading-assembly"></a>Error al cargar el ensamblado
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Este error indica que es posible que la ubicación no sea de total confianza si está en un recurso compartido de red. Compruebe la directiva de seguridad de acceso a código de la zona. O bien, es posible que el archivo no sea un ensamblado .NET de Biztalk. Compruebe el ensamblado para el [ensamblado: ensamblado de BizTalk] atributo personalizado. O bien, es posible que el archivo no sea un ensamblado .NET. Si se trata de un archivo .dll o .exe, puede haber código no controlado.|  
+|                 |                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                                                                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                                                                          |
+| Versión del producto |                                                                                                                                                      [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                                                                                                                      |
+|    Identificador del evento     |                                                                                                                                                                                  0                                                                                                                                                                                   |
+|  Origen del evento   |                                                                                                                                                                                  0                                                                                                                                                                                   |
+|    Componente    |                                                                                                                                                                                  0                                                                                                                                                                                   |
+|  Nombre simbólico  |                                                                                                                                                                                  0                                                                                                                                                                                   |
+|  Texto del mensaje   | Este error indica que es posible que la ubicación no sea de total confianza si está en un recurso compartido de red. Compruebe la directiva de seguridad de acceso a código de la zona. O bien, es posible que el archivo no sea un ensamblado .NET de Biztalk. Compruebe el ensamblado para el [ensamblado: ensamblado de BizTalk] atributo personalizado. O bien, es posible que el archivo no sea un ensamblado .NET. Si se trata de un archivo .dll o .exe, puede haber código no controlado. |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que es posible que la ubicación no sea de total confianza si está en un recurso compartido de red. Compruebe la directiva de seguridad de acceso a código de la zona. O bien, es posible que el archivo no sea un ensamblado .NET de Biztalk. Compruebe el ensamblado para el [*ensamblado: ensamblado de BizTalk*] atributo personalizado. O bien, es posible que el archivo no sea un ensamblado .NET. Si el archivo es una DLL o exe, puede ser código no administrado.  

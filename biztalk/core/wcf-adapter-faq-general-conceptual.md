@@ -1,5 +1,5 @@
 ---
-title: 'P+F del adaptador de WCF: Conceptos generales | Documentos de Microsoft'
+title: 'Preguntas más frecuentes del adaptador WCF: Conceptos generales | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a33e6ba26f0ba97cb10aa2f9ee728683719dd66
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 3e250c57b6a0de73b1a7f62ab73515e9c04cb2d8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26009253"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992461"
 ---
 # <a name="wcf-adapter-faq-general-conceptual"></a>P+F del Adaptador de WCF: Conceptos generales
 A continuación, encontrará algunas de las preguntas más frecuentes generales y conceptuales sobre los adaptadores de Windows ® Communication Foundation (WCF).  
@@ -32,55 +32,55 @@ A continuación, encontrará algunas de las preguntas más frecuentes generales 
 ## <a name="what-are-the-wcf-adapter-bindings"></a>¿Qué son los enlaces del adaptador de WCF?  
  Los enlaces WCF se dividen en dos categorías:  
   
--   **Enlaces personalizados:** para obtener mayor flexibilidad de enlace, existe el enlace personalizado especial. Abarca las situaciones de comunicación que requieren desviaciones de los enlaces estándar. Los adaptadores de WCF-Custom, así como los adaptadores de WCF-CustomIsolated, permiten el desarrollo de amplias personalizaciones de enlace. Esto se lleva a cabo al permitir la composición de elementos de enlace existentes (la clase BindingElement) y la aplicación de comportamientos (la clase Behavior).  
+- **Los enlaces personalizados:** para obtener mayor flexibilidad de enlace, existe el enlace personalizado especial. Abarca las situaciones de comunicación que requieren desviaciones de los enlaces estándar. Los adaptadores de WCF-Custom, así como los adaptadores de WCF-CustomIsolated, permiten el desarrollo de amplias personalizaciones de enlace. Esto se lleva a cabo al permitir la composición de elementos de enlace existentes (la clase BindingElement) y la aplicación de comportamientos (la clase Behavior).  
   
--   **Enlaces estándar:** el objetivo de Microsoft es desarrollar adaptadores que se centren en los escenarios más comunes de comunicación. El uso de enlaces estándar simplifica el trabajo del programador, ya que ocultan muchos detalles de los protocolos de comunicación. El conjunto de adaptadores WCF en BizTalk Server refleja el conjunto de enlaces disponibles en las bibliotecas de WCF de .NET Framework 4.0. Los enlaces estándar se introdujeron en las bibliotecas WCF de .NET para facilitar el uso de los patrones de enlace típicos. Abarcan los escenarios de comunicación que se usan con más frecuencia e incluyen:  
+- **Los enlaces estándar:** el objetivo de Microsoft es desarrollar adaptadores que se centren en los escenarios más comunes de comunicación. El uso de enlaces estándar simplifica el trabajo del programador, ya que ocultan muchos detalles de los protocolos de comunicación. El conjunto de adaptadores WCF de BizTalk Server refleja el conjunto de enlaces disponibles en las bibliotecas WCF de .NET Framework 4.0. Los enlaces estándar se introdujeron en las bibliotecas WCF de .NET para facilitar el uso de los patrones de enlace típicos. Abarcan los escenarios de comunicación que se usan con más frecuencia e incluyen:  
   
-    -   WCF-WsHttp  
+  -   WCF-WsHttp  
   
-    -   WCF-BasicHttp  
+  -   WCF-BasicHttp  
   
-    -   WCF-NetTcp  
+  -   WCF-NetTcp  
   
-    -   WCF-NetMsmg  
+  -   WCF-NetMsmg  
   
-    -   WCF-NetNamedPipe  
+  -   WCF-NetNamedPipe  
   
- BizTalk Server R2 incluye los siguientes adaptadores de WCF:  
+  BizTalk Server R2 incluye los siguientes adaptadores de WCF:  
   
-1.  **Adaptador de WCF-WSHttp:** proporciona WS-* compatibilidad con estándares mediante el transporte HTTP. Este adaptador implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes. El transporte es HTTP o HTTPS, y los mensajes tienen codificación de texto o de Mecanismo de optimización de transmisión del mensaje (MTOM).  
+1.  **Adaptador de WCF-WSHttp:** proporciona WS-* compatibilidad con estándares a través del transporte HTTP. Este adaptador implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes. El transporte es HTTP o HTTPS, y los mensajes tienen codificación de texto o de Mecanismo de optimización de transmisión del mensaje (MTOM).  
   
 2.  **Adaptador de WCF-BasicHttp:** se comunica con servicios Web basados en ASMX y clientes y otros servicios que cumplan con WS-I Basic Profile 1.1. El transporte es HTTP o HTTPS y los mensajes tienen una codificación de texto.  
   
 3.  **Adaptador de WCF-NetTcp:** proporciona WS-* compatibilidad con estándares a través del transporte TCP. Este adaptador ofrece una comunicación eficaz e implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes. El transporte es TCP y codificación de mensajes es la codificación binaria.  
   
-4.  **Adaptador de WCF-NetMsmq:** proporciona compatibilidad para poner en cola aprovechando Message Queuing (también conocido como MSMQ) como transporte y habilita la compatibilidad para débilmente acoplados aplicaciones, aislamiento de errores, equilibrio de carga y operaciones desconectadas.  
+4.  **Adaptador de WCF-NetMsmq:** proporciona compatibilidad para poner en cola aprovechando Message Queuing (también conocido como MSMQ) como transporte y habilita la compatibilidad para el acoplamiento flexible acoplados de aplicaciones, el aislamiento de errores, nivelación de carga y operaciones desconectadas.  
   
 5.  **Adaptador de WCF-NetNamedPipe:** proporciona una optimización segura para la comunicación entre procesos en el equipo. Este adaptador usa seguridad de transporte para la seguridad de transferencia, canalizaciones con nombre para la entrega de mensajes y codificación binaria de mensajes.  
   
      Cada uno de los cinco adaptadores que se acaban de mencionar corresponde a un enlace WCF de una relación 1:1. La estructura de los dos adaptadores personalizados que se van a tratar rompe ligeramente con el modelo de WCF, ya que en realidad hay dos adaptadores personalizados distintos que corresponden a un único CustomBinding de WCF.  
   
-6.  **Adaptador de WCF-Custom:** habilita el uso de características de extensibilidad WCF. El adaptador permite seleccionar y configurar un enlace WCF y la información de comportamiento para una ubicación de recepción o un puerto de envío hospedado en el proceso de BizTalk Server.  
+6.  **Adaptador de WCF-Custom:** habilita el uso de las características de extensibilidad WCF. El adaptador permite seleccionar y configurar un enlace WCF y la información de comportamiento para una ubicación de recepción o un puerto de envío hospedado en el proceso de BizTalk Server.  
   
-7.  **Adaptador de WCF-CustomIsolated:** habilita el uso de características de extensibilidad WCF mediante el transporte HTTP. El adaptador permite seleccionar y configurar un enlace WCF y la información de comportamiento para una ubicación de recepción que se ejecuta en un host aislado de Internet Information Services (IIS).  
+7.  **Adaptador de WCF-CustomIsolated:** habilita el uso de las características de extensibilidad WCF a través del transporte HTTP. El adaptador permite seleccionar y configurar un enlace WCF y la información de comportamiento para una ubicación de recepción que se ejecuta en un host aislado de Internet Information Services (IIS).  
   
 ## <a name="what-is-the-difference-between-the-wcf-xxx-adapter-and-the-wcf-xxx-binding"></a>¿Cuál es la diferencia entre el adaptador de WCF-xxx y el enlace WCF-xxx?  
  Cada uno de los adaptadores de WCF corresponde a uno de los enlaces WCF integrados. En un nivel superior, estos términos prácticamente se pueden intercambiar al decir que el adaptador de WCF-xxx usa el enlace WCF-xxx. Por ejemplo, el adaptador de WCF-BasicHttp usa la clase BasicHttpBinding de WCF. Un enlace WCF forma parte de la definición de un extremo de WCF. Esto se denomina “ABC” de un extremo de WCF; estas letras significan Address, Binding y Contract (dirección, enlace y contrato).  
   
  Un enlace está formado por una colección de elementos de enlace. Cada elemento describe algunos aspectos de la forma en que el extremo se comunica con los clientes. Un enlace debe incluir:  
   
--   Al menos un elemento de enlace de transporte  
+- Al menos un elemento de enlace de transporte  
   
--   Al menos una codificación de mensaje de elemento de enlace (que el elemento de enlace de transporte puede proporcionar de forma predeterminada)  
+- Al menos una codificación de mensaje de elemento de enlace (que el elemento de enlace de transporte puede proporcionar de forma predeterminada)  
   
--   Cualquier número de elementos de enlace de protocolo  
+- Cualquier número de elementos de enlace de protocolo  
   
- El proceso que genera un entorno de tiempo de ejecución a partir de esta descripción permite que cada elemento de enlace contribuya con código a ese entorno. Generalmente, es necesario que los tipos de enlace y adaptador de un cliente coincidan con los que admite el Servicio WCF que se llama. En el nivel de WCF, un enlace se puede definir en forma declarativa en un archivo de configuración o explícitamente mediante código. El adaptador de WCF facilita la comunicación con un enlace WCF específico y, por lo tanto, los términos “adaptador” y “enlace” tienden a convertirse en casi idénticos en su uso.  
+  El proceso que genera un entorno de tiempo de ejecución a partir de esta descripción permite que cada elemento de enlace contribuya con código a ese entorno. Generalmente, es necesario que los tipos de enlace y adaptador de un cliente coincidan con los que admite el Servicio WCF que se llama. En el nivel de WCF, un enlace se puede definir en forma declarativa en un archivo de configuración o explícitamente mediante código. El adaptador de WCF facilita la comunicación con un enlace WCF específico y, por lo tanto, los términos “adaptador” y “enlace” tienden a convertirse en casi idénticos en su uso.  
   
 ## <a name="when-using-the-wcf-adapters-how-do-you-decide-which-wcf-binding-to-use"></a>Cuando se usan los adaptadores de WCF, ¿cómo se decide qué enlaces WCF se deben usar?  
  Puede tomar esta decisión en función del patrón de mensajería, las restricciones externas y el rendimiento, en ese orden.  
   
-1.  **Patrón de mensajería:** el patrón de comunicación es cómo la comunicación se produce basada en el flujo del mensaje. Por ejemplo, el mensaje puede ser unidireccional (solicitud) o bidireccional (solicitud-respuesta), puede ser de transacción, puede estar en cola, etcétera.  
+1.  **Patrón de mensajería:** el patrón de comunicación es cómo la comunicación se produce según el flujo del mensaje. Por ejemplo, el mensaje puede ser unidireccional (solicitud) o bidireccional (solicitud-respuesta), puede ser de transacción, puede estar en cola, etcétera.  
   
     -   Si está en cola, debe usar el adaptador de WCF-Netmsmq, que admite una comunicación de transacción en cola unidireccional.  
   
@@ -90,7 +90,7 @@ A continuación, encontrará algunas de las preguntas más frecuentes generales 
   
 2.  **Restricciones externas:** puede haber problemas que obliguen a usar un enlace específico. Por ejemplo, suponga que el sistema externo requiere Servicios web SOAP versión 1.2 y el direccionamiento 1.0. En este caso, la mejor opción de enlace es WSHttpBinding con el adaptador de WCF-WsHttp. Con toda probabilidad, el sistema externo también tendrá requisitos relativos al modo de seguridad en particular que se debe configurar. Si el sistema externo necesitara los Servicios web SOAP 1.1, usaría el adaptador de WCF-BasicHttp para el enlace HTTP.  
   
-3.  **Rendimiento:** ¿con qué rapidez se realiza la llamada puede ser un factor decisivo en el enlace que decide usar en la aplicación:  
+3.  **Rendimiento:** velocidad se realiza la llamada puede ser un factor decisivo enlace opta por usar en la aplicación:  
   
     -   Si el Servicio WCF está en el mismo equipo que BizTalk Server, el uso del adaptador de WCF-NetNamedPipe es la mejor opción de rendimiento.  
   
@@ -112,12 +112,12 @@ A continuación, encontrará algunas de las preguntas más frecuentes generales 
   
  El extremo real existe como una ubicación de recepción a la que se envían los mensajes de WCF.  Hay varias maneras de exponer un extremo de WCF en una aplicación de BizTalk Server:  
   
--   Puede usar el Asistente para publicación de Servicio WCF de BizTalk para publicar una orquestación de BizTalk como extremo de WCF.  
+- Puede usar el Asistente para publicación de Servicio WCF de BizTalk para publicar una orquestación de BizTalk como extremo de WCF.  
   
--   Puede usar el Asistente para publicación de Servicio WCF de BizTalk para crear una ubicación de recepción en una aplicación BizTalk existente.  
+- Puede usar el Asistente para publicación de Servicio WCF de BizTalk para crear una ubicación de recepción en una aplicación BizTalk existente.  
   
--   Puede crear manualmente un extremo de WCF mediante la configuración en código del enlace y la dirección de una ubicación de recepción.  En este caso, la ubicación de recepción es, en realidad, sin tipo.  Tiene un contrato que se especifica puramente en términos de clase de mensaje de WCF, lo que le permite recibir cualquier formato de mensaje en la base de datos de cuadro de mensajes.  
+- Puede crear manualmente un extremo de WCF mediante la configuración en código del enlace y la dirección de una ubicación de recepción.  En este caso, la ubicación de recepción es, en realidad, sin tipo.  Tiene un contrato que se especifica puramente en términos de clase de mensaje de WCF, lo que le permite recibir cualquier formato de mensaje en la base de datos de cuadro de mensajes.  
   
- Cada ubicación de recepción de BizTalk que usa un adaptador de WCF se muestra como un extremo de WCF al que un cliente WCF puede llamar.  Una ubicación de recepción usa internamente su propio ServiceHost de WCF para permitir la habilitación o deshabilitación de las distintas ubicaciones de recepción independientemente las unas de las otras. La vigencia del extremo de servicio existe mientras la ubicación de recepción está habilitada. Es por este problema de vigencia que los ServiceHosts de WCF corresponden a las ubicaciones de recepción en lugar de a los puertos de recepción. El diseño de WCF asegura que los ServiceHosts individuales no sean costosos en cuanto a recursos de tiempo de ejecución y que muchos se puedan ejecutar dentro el mismo ejecutable sin ningún problema.  
+  Cada ubicación de recepción de BizTalk que usa un adaptador de WCF se muestra como un extremo de WCF al que un cliente WCF puede llamar.  Una ubicación de recepción usa internamente su propio ServiceHost de WCF para permitir la habilitación o deshabilitación de las distintas ubicaciones de recepción independientemente las unas de las otras. La vigencia del extremo de servicio existe mientras la ubicación de recepción está habilitada. Es por este problema de vigencia que los ServiceHosts de WCF corresponden a las ubicaciones de recepción en lugar de a los puertos de recepción. El diseño de WCF asegura que los ServiceHosts individuales no sean costosos en cuanto a recursos de tiempo de ejecución y que muchos se puedan ejecutar dentro el mismo ejecutable sin ningún problema.  
   
- Cada puerto de envío de BizTalk que usa un adaptador de WCF corresponde a una llamada realizada a un Servicio WCF. Cuando hay mensajes para enviar, el servidor BizTalk Server entrega al adaptador los mensajes que corresponden a la creación del proxy de cliente WCF dentro del adaptador de WCF de BizTalk. Una vez enviados los mensajes, el proxy de cliente WCF se libera. La vigencia de WCF en un puerto de envío existe y desaparece constantemente a medida que se crea, usa y desmonta un proxy.
+  Cada puerto de envío de BizTalk que usa un adaptador de WCF corresponde a una llamada realizada a un Servicio WCF. Cuando hay mensajes para enviar, el servidor BizTalk Server entrega al adaptador los mensajes que corresponden a la creación del proxy de cliente WCF dentro del adaptador de WCF de BizTalk. Una vez enviados los mensajes, el proxy de cliente WCF se libera. La vigencia de WCF en un puerto de envío existe y desaparece constantemente a medida que se crea, usa y desmonta un proxy.

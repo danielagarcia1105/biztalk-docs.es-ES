@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10789 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10789 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d00c4204fdf53c3a814ddd9b9295a1dcc10e2bb3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 85ad6c7975e78f30872a60462e74ba16b18db0a1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277692"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997477"
 ---
-# <a name="single-sign-on-event-10789"></a>Inicio de sesión único: Evento 10789
+# <a name="single-sign-on-event-10789"></a>De sesión único: Evento 10789
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10789|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_DTC_IMPORT_FAILED2|  
-|Texto del mensaje|No se pudo importar una transacción de DTC. Compruebe que MSDTC está correctamente configurado para funcionamiento remoto. Para obtener información detallada, consulte el registro de eventos (en el equipo "%1").|  
+|                 |                                                                                                                                                                  |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                    Inicio de sesión único (SSO) empresarial                                                                     |
+| Versión del producto |                                                    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                    |
+|    Identificador del evento     |                                                                              10789                                                                               |
+|  Origen del evento   |                                                                              ENTSSO                                                                              |
+|    Componente    |                                                                               N/D                                                                                |
+|  Nombre simbólico  |                                                                   ENTSSO_E_DTC_IMPORT_FAILED2                                                                    |
+|  Texto del mensaje   | No se pudo importar una transacción de DTC. Compruebe que MSDTC está correctamente configurado para funcionamiento remoto. Para obtener información detallada, consulte el registro de eventos (en el equipo "%1"). |
   
 ## <a name="explanation"></a>Explicación  
  No se pudo importar una transacción de DTC.  

@@ -1,5 +1,5 @@
 ---
-title: Procesar el mensaje | Documentos de Microsoft
+title: Procesar el mensaje | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -26,12 +26,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 829fffc773bfc19100ad03448baf68b5846996f7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 49329e23127f051a593596955f808cc879dd76f6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22266492"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987789"
 ---
 # <a name="processing-the-message"></a>Procesar el mensaje
 Todos los componentes descritos hasta el momento desempeñan una función en el procesamiento de mensajes, pues se transmiten a través de BizTalk Server. En esta sección se ofrece una descripción más detallada de la forma en la que interactúan estos componentes desde el punto de vista de sus funciones desde que se recibe un mensaje. La siguiente ilustración muestra las partes de un puerto de recepción, así como la forma en la que se transmite un mensaje a través del proceso de recepción.  
@@ -51,7 +51,7 @@ Todos los componentes descritos hasta el momento desempeñan una función en el 
  La tarea del *desensamblador* consiste en procesar un mensaje entrante de un adaptador, desensamblarlo en varios mensajes y analizar sus datos. Cuando un mensaje entrante tiene muchos mensajes más pequeños, esto se conoce como un *intercambio*. El desensamblador de archivos sin formato y el desensamblador XML controlan los intercambios habilitando a los programadores para configurar el contenido que rodea al núcleo del mensaje (el encabezado y el esquema de delimitación en el desensamblador de archivos sin formato, y el esquema de sobres en el desensamblador XML) y el contenido del cuerpo del mensaje, que será repetitivo con toda probabilidad. Además, los dos desensambladores analizan el mensaje original en contenido XML. Un desensamblador personalizado no tiene que analizar necesariamente el contenido en XML si no es necesario continuar el procesamiento de XML en BizTalk Server. Un escenario de ejemplo puede incluir una situación de enrutamiento sencillo en la que los mensajes que entran al sistema por una ubicación de recepción determinada se envían a un puerto de envío específico sin que se produzcan asignaciones ni procesamientos basados en XML.  
   
 ## <a name="routing-with-the-message-type"></a>Enrutar con el tipo de mensaje  
- Una de las propiedades de mensaje más utilizadas en el enrutamiento es el tipo de mensaje. Cuando un programador crea un esquema para definir la estructura de los mensajes, este esquema define el tipo de mensaje para esos mensajes. El tipo está determinado por el nodo raíz y el espacio de nombres de la definición del esquema. Por ejemplo, un documento XML como el siguiente tendría el tipo de mensaje http://tempuri.org/samples/MessageType#Message  
+ Una de las propiedades de mensaje más utilizadas en el enrutamiento es el tipo de mensaje. Cuando un programador crea un esquema para definir la estructura de los mensajes, este esquema define el tipo de mensaje para esos mensajes. El tipo está determinado por el nodo raíz y el espacio de nombres de la definición del esquema. Por ejemplo, un documento XML con el siguiente aspecto tendría un tipo de mensaje http://tempuri.org/samples/MessageType#Message  
   
 ```  
 <Message xmlns=http://tempuri.org/samples/MessageType>  
@@ -67,17 +67,17 @@ Todos los componentes descritos hasta el momento desempeñan una función en el 
   
  También es posible escribir los componentes de canalización personalizados para controlar las propiedades que se obtienen en el contexto de los datos arbitrarios de un mensaje enviado o recibido. Con el fin de promocionar una propiedad en el contexto y utilizarla en el enrutamiento, que es lo que supuestamente se persigue con la promoción de valores, es posible crear un esquema de propiedades con una definición para la propiedad e implementarlo en BizTalk Server. Antes de definir un esquema de propiedades para que lo utilicen los componentes personalizados, debe conocer los distintos tipos de propiedades promocionadas. Las propiedades promocionadas definidas en un esquema de propiedades pueden ser de dos tipos de base:  
   
--   [Microsoft.XLANGs.BaseTypes.MessageContextPropertyBase](http://msdn.microsoft.com/library/microsoft.xlangs.basetypes.messagecontextpropertybase.aspx) o  
+- [Microsoft.XLANGs.BaseTypes.MessageContextPropertyBase](http://msdn.microsoft.com/library/microsoft.xlangs.basetypes.messagecontextpropertybase.aspx) o  
   
--   [Microsoft.XLANGs.BaseTypes.MessageDataPropertyBase](http://msdn.microsoft.com/library/microsoft.xlangs.basetypes.messagedatapropertybase.messagedatapropertybase.aspx)  
+- [Microsoft.XLANGs.BaseTypes.MessageDataPropertyBase](http://msdn.microsoft.com/library/microsoft.xlangs.basetypes.messagedatapropertybase.messagedatapropertybase.aspx)  
   
- Un propiedad con el tipo de base MessageDataPropertyBase indica que su valor procede del contenido del mensaje. Éste es el valor predeterminado en las propiedades definidas en esquemas de propiedades y representa el empleo más habitual. MessageContextPropertyBase indica una propiedad diseñada para formar parte del contexto del mensaje, pero no tiene que proceder directamente de los datos del mensaje. Con frecuencia, las propiedades con el tipo de base MessageContextPropertyBase se promocionan mediante adaptadores y desensambladores, e incluyen propiedades comunes como, por ejemplo, tipo de mensaje y tipo de adaptador.  
+  Un propiedad con el tipo de base MessageDataPropertyBase indica que su valor procede del contenido del mensaje. Éste es el valor predeterminado en las propiedades definidas en esquemas de propiedades y representa el empleo más habitual. MessageContextPropertyBase indica una propiedad diseñada para formar parte del contexto del mensaje, pero no tiene que proceder directamente de los datos del mensaje. Con frecuencia, las propiedades con el tipo de base MessageContextPropertyBase se promocionan mediante adaptadores y desensambladores, e incluyen propiedades comunes como, por ejemplo, tipo de mensaje y tipo de adaptador.  
   
- Es importante comprender los distintos tipos de base y utilizarlos correctamente al definir propiedades. Una de las repercusiones más significativas se produce al obtener acceso a las propiedades de contexto de un mensaje en una orquestación. Si una propiedad se identifica como MessageDataPropertyBase, el Diseñador de orquestaciones analiza el esquema del mensaje que se recibe y se asegura de que define una propiedad promocionada coincidente. Si no existe ninguna propiedad en el esquema que se vincula a la propiedad promocionada en cuestión, el Diseñador no le permite obtener acceso a ella. Por otro lado, si la propiedad está definida como MessageContextPropertyBase, el tipo de mensaje no tiene importancia y es posible obtener acceso a la propiedad.  
+  Es importante comprender los distintos tipos de base y utilizarlos correctamente al definir propiedades. Una de las repercusiones más significativas se produce al obtener acceso a las propiedades de contexto de un mensaje en una orquestación. Si una propiedad se identifica como MessageDataPropertyBase, el Diseñador de orquestaciones analiza el esquema del mensaje que se recibe y se asegura de que define una propiedad promocionada coincidente. Si no existe ninguna propiedad en el esquema que se vincula a la propiedad promocionada en cuestión, el Diseñador no le permite obtener acceso a ella. Por otro lado, si la propiedad está definida como MessageContextPropertyBase, el tipo de mensaje no tiene importancia y es posible obtener acceso a la propiedad.  
   
- En las canalizaciones personalizadas, el mecanismo encargado de promocionar o escribir propiedades en el contexto actúa de una forma similar. Para escribir propiedades, se utiliza una llamada al método IBaseMessageContext.Write para situar el valor en el contexto. Por el contrario, en las propiedades promocionadas únicamente se utiliza el método IBaseMessageContext.Promote. Todos estos métodos adoptan un nombre de propiedad, un espacio de nombres y un valor. En las propiedades promocionadas, el nombre y el espacio de nombres equivalen al de la propiedad definida en el esquema de propiedades. Además, el acceso a ellos resulta mucho más sencillo, pues puede llevarse a cabo haciendo referencia al ensamblado del esquema de propiedades y utilizando las propiedades de la clase que se ha creado para la propiedad. Los campos distintivos utilizan un espacio de nombres común, http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields, y la expresión XPath que se utiliza para recuperar el valor actúa normalmente como nombre.  
+  En las canalizaciones personalizadas, el mecanismo encargado de promocionar o escribir propiedades en el contexto actúa de una forma similar. Para escribir propiedades, se utiliza una llamada al método IBaseMessageContext.Write para situar el valor en el contexto. Por el contrario, en las propiedades promocionadas únicamente se utiliza el método IBaseMessageContext.Promote. Todos estos métodos adoptan un nombre de propiedad, un espacio de nombres y un valor. En las propiedades promocionadas, el nombre y el espacio de nombres equivalen al de la propiedad definida en el esquema de propiedades. Además, el acceso a ellos resulta mucho más sencillo, pues puede llevarse a cabo haciendo referencia al ensamblado del esquema de propiedades y utilizando las propiedades de la clase que se ha creado para la propiedad. Los campos distintivos utilizan un espacio de nombres común, http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields, y la expresión XPath que se usa para recuperar el valor se utiliza normalmente como el nombre.  
   
- El código siguiente muestra un ejemplo de la escritura y la promoción de propiedades en el contexto. Tenga en cuenta que, en este ejemplo, un campo distintivo se está escribiendo en el contexto. Esto solo resulta de utilidad en aquellas orquestaciones en las que el esquema de mensaje identifica los campos distintivos para que el Diseñador de orquestaciones conozca el campo. Puede servir para escribir propiedades en el contexto a fin de que las utilicen otros componentes de canalización de envío o recepción.  
+  El código siguiente muestra un ejemplo de la escritura y la promoción de propiedades en el contexto. Tenga en cuenta que, en este ejemplo, un campo distintivo se está escribiendo en el contexto. Esto solo resulta de utilidad en aquellas orquestaciones en las que el esquema de mensaje identifica los campos distintivos para que el Diseñador de orquestaciones conozca el campo. Puede servir para escribir propiedades en el contexto a fin de que las utilicen otros componentes de canalización de envío o recepción.  
   
 ```  
 //create an instance of the property to be promoted  
@@ -96,18 +96,18 @@ pInMsg.Context.Write("theDistinguishedProperty",
   
  Tenga en cuenta las recomendaciones siguientes a la hora de escribir o promocionar valores en el contexto:  
   
--   Si escribe un valor en el contexto con el mismo nombre y espacio de nombres que los que se utilizaron con anterioridad para promocionar la propiedad, no se podrá promocionar de nuevo la propiedad. Básicamente, la escritura sobrescribe la promoción.  
+- Si escribe un valor en el contexto con el mismo nombre y espacio de nombres que los que se utilizaron con anterioridad para promocionar la propiedad, no se podrá promocionar de nuevo la propiedad. Básicamente, la escritura sobrescribe la promoción.  
   
--   Si escribe un valor nulo en el contexto, el valor se elimina, pues no están permitidas las propiedades con valor nulo.  
+- Si escribe un valor nulo en el contexto, el valor se elimina, pues no están permitidas las propiedades con valor nulo.  
   
--   Las propiedades promocionadas no pueden poseer más de 256 caracteres de longitud, mientras que en las propiedades escritas no existe limitación.  
+- Las propiedades promocionadas no pueden poseer más de 256 caracteres de longitud, mientras que en las propiedades escritas no existe limitación.  
   
- Las propiedades promocionadas se utilizan en el enrutamiento de mensajes y poseen un tamaño limitado por motivos de eficacia en su comparación y almacenamiento. Aunque las propiedades escritas no poseen limitaciones en el tamaño, el empleo de valores excesivamente grandes en el contexto puede afectar al rendimiento, ya que pueden procesarse y transmitirse con el mensaje.  
+  Las propiedades promocionadas se utilizan en el enrutamiento de mensajes y poseen un tamaño limitado por motivos de eficacia en su comparación y almacenamiento. Aunque las propiedades escritas no poseen limitaciones en el tamaño, el empleo de valores excesivamente grandes en el contexto puede afectar al rendimiento, ya que pueden procesarse y transmitirse con el mensaje.  
   
- Cuando un mensaje está listo para enviarse desde BizTalk Server, realiza un procesamiento complementario en el puerto de envío. Las asignaciones se aplican a los mensajes antes de que se ejecute la canalización de envío, lo que hace posible la transformación del mensaje en un formato específico del cliente o la aplicación. Esto último se lleva a cabo antes de que la canalización lo procese y el adaptador lo envíe. En la canalización de envío, las propiedades se degradan en el mensaje desde el contexto, en lugar de promocionarse en el contexto del mensaje.  
+  Cuando un mensaje está listo para enviarse desde BizTalk Server, realiza un procesamiento complementario en el puerto de envío. Las asignaciones se aplican a los mensajes antes de que se ejecute la canalización de envío, lo que hace posible la transformación del mensaje en un formato específico del cliente o la aplicación. Esto último se lleva a cabo antes de que la canalización lo procese y el adaptador lo envíe. En la canalización de envío, las propiedades se degradan en el mensaje desde el contexto, en lugar de promocionarse en el contexto del mensaje.  
   
- ![Puerto de envío y proceso de canalización de envío](../core/media/arch-message-processing-2.gif "arch_message_processing-2")  
+  ![Puerto de envío y proceso de canalización de envío](../core/media/arch-message-processing-2.gif "arch_message_processing-2")  
   
 ## <a name="see-also"></a>Vea también  
  [Arquitectura en tiempo de ejecución](../core/runtime-architecture.md)   
- [Cómo BizTalk Server procesa los mensajes de gran tamaño](../core/how-biztalk-server-processes-large-messages.md)
+ [Cómo procesa BizTalk Server los mensajes de gran tamaño](../core/how-biztalk-server-processes-large-messages.md)

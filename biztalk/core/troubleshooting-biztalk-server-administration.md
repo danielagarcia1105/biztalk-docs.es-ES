@@ -1,5 +1,5 @@
 ---
-title: Solución de problemas de administración de BizTalk Server | Documentos de Microsoft
+title: Solución de problemas de administración de BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 573e7a2509741748b0f95837f310e2e651b255c9
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 71ae1b04b42fe1bdaa0145b9112bdd957a4d4da5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975082"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993933"
 ---
 # <a name="troubleshooting-biztalk-server-administration"></a>Solución de problemas de administración de BizTalk Server
 En esta sección se proporciona una ubicación centralizada de información sobre problemas comunes que se pueden producir al usar la consola de administración de BizTalk Server.  
@@ -72,10 +72,10 @@ En esta sección se proporciona una ubicación centralizada de información sobr
 >  Este problema se produce en un entorno de varios cuadros de mensaje.  
   
 ##### <a name="cause"></a>Causa  
- Este problema puede producirse en un entorno de cuadro de mensajes múltiples, si el trabajo del Agente SQL ' Operations_OperateOnInstances_OnMaster_\<*dbName*\>' no se está ejecutando en las bases de datos de cuadro de mensaje secundaria. Para propagar información desde las bases de datos de cuadro de mensaje secundarias a la base de datos de cuadro de mensajes primaria, este trabajo debe estar en ejecución. Este trabajo no se podrá ejecutar si no está habilitado o si se produce un error de inicio de sesión.  
+ Este problema puede producirse en un entorno de varios mensajes si el trabajo del Agente SQL ' Operations_OperateOnInstances_OnMaster_\<*dbName*\>' no se está ejecutando en las bases de datos de cuadro de mensaje secundaria. Para propagar información desde las bases de datos de cuadro de mensaje secundarias a la base de datos de cuadro de mensajes primaria, este trabajo debe estar en ejecución. Este trabajo no se podrá ejecutar si no está habilitado o si se produce un error de inicio de sesión.  
   
 ##### <a name="solution"></a>Solución  
- Si está utilizando la consola de administración de BizTalk para realizar operaciones en varias instancias del servicio al mismo tiempo y el entorno de BizTalk Server está configurado con varias bases de datos de cuadro de mensajes, compruebe que el trabajo del Agente SQL Server con el nombre ' Operations_ OperateOnInstances_OnMaster_\<*dbName*\>' está habilitada en todas las bases de datos de cuadro de mensaje secundarias (no principales). Además, el servicio Agente SQL Server en el equipo SQL Server que hospeda las bases de datos de cuadro de mensaje secundarias debe ejecutarse como cuenta incluida en el rol de base de datos BTS_SQLAGENT_USER de la base de datos de cuadro de mensaje secundaria.  
+ Si está utilizando la consola de administración de BizTalk para realizar operaciones en varias instancias de servicio al mismo tiempo y su entorno de BizTalk Server está configurado con varias bases de datos de cuadro de mensajes, compruebe que el trabajo del Agente SQL Server denominada ' Operations_ OperateOnInstances_OnMaster_\<*dbName*\>' está habilitada en todas las bases de datos de cuadro de mensaje secundarias (no principales). Además, el servicio Agente SQL Server en el equipo SQL Server que hospeda las bases de datos de cuadro de mensaje secundarias debe ejecutarse como cuenta incluida en el rol de base de datos BTS_SQLAGENT_USER de la base de datos de cuadro de mensaje secundaria.  
   
 > [!NOTE]
 >  \<*dbname* \> es un marcador de posición para el nombre real de la base de datos de cuadro de mensajes de BizTalk.  
@@ -84,11 +84,11 @@ En esta sección se proporciona una ubicación centralizada de información sobr
   
  **En SQL Server 2008**  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft SQL Server 2008**y, a continuación, haga clic en **SQL Server Management Studio**.  
+1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft SQL Server 2008**y, a continuación, haga clic en **SQL Server Management Studio**.  
   
-2.  Cuando se le solicite elegir la **tipo de servidor** de **motor de base de datos** y escriba o seleccione el **nombre del servidor** que hospeda la base de datos de cuadro de mensaje secundaria.  
+2.  Cuando se le pida elegir el **tipo de servidor** de **motor de base de datos** y escriba o seleccione el **nombre del servidor** que hospeda la base de datos de cuadro de mensaje secundaria.  
   
-3.  Haga clic para expandir **bases de datos**, haga clic para expandir la base de datos de cuadro de mensaje secundaria, haga clic para expandir **seguridad**, haga clic para expandir **Roles**, haga clic para expandir  **Roles de base de datos**y, a continuación, haga doble clic en el rol de base de datos BTS_SQLAGENT_USER.  
+3.  Haga clic para expandir **bases de datos**, haga clic para expandir la base de datos secundaria, haga clic para expandir **seguridad**, haga clic para expandir **Roles**, haga clic para expandir  **Roles de base de datos**y, a continuación, haga doble clic en el rol de base de datos BTS_SQLAGENT_USER.  
   
 4.  Haga clic en el botón **Agregar** .  
   
@@ -161,7 +161,7 @@ A transport-level error has occurred when sending the request to the server. (pr
 #### <a name="cannot-start-a-host-instance-on-a-remote-computer"></a>No se puede iniciar una instancia de host en un equipo remoto  
   
 ##### <a name="problem"></a>Problema  
- Cuando se crea una instancia de BizTalk Host en un equipo remoto, puede ver el siguiente error al iniciar la instancia de BizTalk Host: "No se pudo iniciar debido a un error de inicio de sesión."  
+ Cuando se crea una instancia de BizTalk Host en un equipo remoto, es posible que vea el siguiente error al iniciar la instancia de BizTalk Host: "No se pudo iniciar debido a un error de inicio de sesión."  
   
 ##### <a name="cause"></a>Causa  
  Este error puede producirse si se han escrito credenciales no válidas para la cuenta de servicio en la que está ejecutándose la instancia de host de BizTalk, o bien porque la cuenta de servicio no tiene derechos de inicio de sesión como servicio.  
@@ -198,11 +198,11 @@ A transport-level error has occurred when sending the request to the server. (pr
 ##### <a name="problem"></a>Problema  
  Es posible que no pueda eliminar una base de datos de cuadro de mensajes. Si no se produce la eliminación, alguno de los siguientes problemas pueden ser los causantes:  
   
--   El intervalo de actualización de la caché no ha caducado.  
+- El intervalo de actualización de la caché no ha caducado.  
   
--   La base de datos de cuadro de mensajes contiene instancias incompletas.  
+- La base de datos de cuadro de mensajes contiene instancias incompletas.  
   
- Si el intervalo de actualización de caché no ha expirado todavía, aparece el siguiente mensaje de error cuando se produce un error en la eliminación: "cuadro de mensajes no se puede eliminar porque se podría ser trabajo restante en el cuadro de mensajes. Asegúrese de que no hay instancias incompletas no hay más en el cuadro de mensajes y vuelva a intentarlo."  
+  Si el intervalo de actualización de caché aún no ha caducado, el siguiente mensaje de error aparece cuando se produce un error en la eliminación: "no se puede eliminar porque hay podría ser trabajo restante en el cuadro de mensajes. Asegúrese de que hay instancias incompletas no hay más en el cuadro de mensajes y vuelva a intentarlo."  
   
 ##### <a name="cause"></a>Causa  
  El intervalo de actualización de la caché debe caducar entre el momento en que se deshabilita la publicación del nuevo mensaje en la base de datos de cuadro de mensajes y el momento en que se elimina la base de datos. El valor predeterminado del intervalo de actualización de la caché es de 60 segundos.  
@@ -210,9 +210,9 @@ A transport-level error has occurred when sending the request to the server. (pr
 ##### <a name="resolution"></a>Solución  
  Para eliminar una base de datos de cuadro de mensajes será necesario en primer lugar deshabilitar la publicación de nuevos mensajes en esa base de datos de cuadro de mensajes y, a continuación, esperar hasta que caduque el intervalo de actualización de la caché antes de eliminar la base de datos de cuadro de mensajes.  
   
- Si la base de datos de cuadro de mensajes contiene instancias de servicio incompletas, aparece el siguiente mensaje de error: "el cuadro de mensajes no se puede eliminar porque todavía puede contener instancias incompletas. Asegúrese de que no quedan instancias incompletas en el cuadro de mensajes y vuelva a intentarlo."  
+ Si la base de datos de cuadro de mensajes contiene instancias de servicio incompletas, aparece el siguiente mensaje de error: "el cuadro de mensajes no se puede eliminar porque puede que todavía contenga instancias incompletas. Asegúrese de que no quedan instancias incompletas en el cuadro de mensajes y vuelva a intentarlo."  
   
- Puede ver instancias de servicio incompletas en la base de datos de cuadro de mensaje mediante la página Concentrador de grupo de la consola de administración de BizTalk Server. Para obtener información acerca de cómo ver el estado de las instancias de servicio en la página concentrador de grupo, consulte [cómo buscar instancias de servicio controladas](../core/how-to-search-for-tracked-service-instances.md).  
+ Puede ver instancias de servicio incompletas en la base de datos de cuadro de mensaje mediante la página Concentrador de grupo de la consola de administración de BizTalk Server. Para obtener información sobre cómo ver el estado de las instancias de servicio en la página concentrador de grupo, consulte [cómo buscar instancias de servicio controladas](../core/how-to-search-for-tracked-service-instances.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Solucionar problemas](../core/troubleshooting.md)

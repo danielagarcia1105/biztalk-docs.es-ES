@@ -1,5 +1,5 @@
 ---
-title: Error de serialización Xml de intercambio de EDIFACT debido a una estructura no válida, sin FunctionalGroup o ServiceSchema | Documentos de Microsoft
+title: Error de serialización Xml de intercambio EDIFACT debido a una estructura no válida, sin FunctionalGroup o ServiceSchema | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f79d64a9ec19e62f13220be056335bf2d249519a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 370b9844faaa46955f6e45bfcea78f6eba0f8cf9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241444"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003160"
 ---
 # <a name="edifact-interchange-xml-serialization-failed-due-to-invalid-structure-no-functionalgroup-or-serviceschema"></a>Error de serialización Xml de intercambio Edifact debido a una estructura no válida, sin FunctionalGroup o ServiceSchema
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Error de serialización Xml de intercambio Edifact debido a una estructura no válida. Se busca FunctionalGroup o ServiceSchema para UNZ, pero no se encuentra ninguno.|  
+|                 |                                                                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
+| Versión del producto |                                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |
+|    Identificador del evento     |                                                                      -                                                                       |
+|  Origen del evento   |                            EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                            |
+|    Componente    |                                                                  Motor EDI                                                                  |
+|  Nombre simbólico  |                                                                      -                                                                       |
+|  Texto del mensaje   | Error de serialización Xml de intercambio Edifact debido a una estructura no válida. Se busca FunctionalGroup o ServiceSchema para UNZ, pero no se encuentra ninguno. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de envío no pudo procesar un intercambio EDIFACT procesado por lotes y conservado porque las etiquetas TransactionSetGroup o FunctionalGroup no se incluyeron en el archivo XML de intercambio.  

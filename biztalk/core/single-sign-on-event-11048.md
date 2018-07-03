@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11048 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11048 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e73c41c380388750f35e8b0c901a959413ea427
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da3843cf1cde3394df048230e642c98770d0da3e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277228"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989221"
 ---
-# <a name="single-sign-on-event-11048"></a>Inicio de sesión único: Evento 11048
+# <a name="single-sign-on-event-11048"></a>De sesión único: Evento 11048
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11048|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_ERROR_SSOCSTX_FAILED|  
-|Texto del mensaje|No se pudo crear SSOCSTX. Para solucionar el problema, reinstale SSO o instale SSOCSTX.dll en una aplicación de biblioteca COM+.%r<br /><br /> Datos adicionales: %1 %r<br /><br /> Código de error: %2|  
+|                 |                                                                                                                                                                                    |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                             Inicio de sesión único (SSO) empresarial                                                                              |
+| Versión del producto |                                                             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                             |
+|    Identificador del evento     |                                                                                       11048                                                                                        |
+|  Origen del evento   |                                                                                       ENTSSO                                                                                       |
+|    Componente    |                                                                                        N/D                                                                                         |
+|  Nombre simbólico  |                                                                              SSO_ERROR_SSOCSTX_FAILED                                                                              |
+|  Texto del mensaje   | No se pudo crear SSOCSTX. Para solucionar el problema, reinstale SSO o instale SSOCSTX.dll en una aplicación de biblioteca COM+.%r<br /><br /> Datos adicionales: %1 %r<br /><br /> Código de error: %2 |
   
 ## <a name="explanation"></a>Explicación  
  Es probable que el problema se deba a un error de instalación.  

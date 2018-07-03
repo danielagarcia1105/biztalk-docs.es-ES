@@ -1,5 +1,5 @@
 ---
-title: Agregador (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Agregador (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 493f4d28214a815aca88f214e5efb9cd883e7192
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: facf91aed1957bca095f004ced4de50843cf55a4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "25965258"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994597"
 ---
 # <a name="aggregator-biztalk-server-sample"></a>Agregación (ejemplo de BizTalk Server)
 La finalidad de este ejemplo consiste en crear una funcionalidad de agregación de mensaje con orquestaciones y canalizaciones. De forma más específica, crearemos una orquestación que:  
@@ -36,11 +36,11 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
 3.  Produce un mensaje de intercambio de XML cada minuto o en cuanto tiene suficientes mensajes para agregar.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>* \Pipelines\Aggregator  
+ *\<Ejemplos de la ruta de acceso\>* \Pipelines\Aggregator  
   
  En la tabla siguiente se enumeran los archivos que se usan en el ejemplo.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |Aggregator.sln|Archivo de solución de Visual Studio para el ejemplo.|  
 |AggretatorBinding.xml|Archivo de enlace para el ejemplo.|  
@@ -50,7 +50,7 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
 |En la carpeta Aggregator:<br /><br /> Aggregate.odx|Orquestación que reúne los mensajes correlacionados y después ejecuta la canalización de envío para ensamblarlos en un intercambio único.|  
 |En la carpeta Aggregate:<br /><br /> SuspendMessage.odx|Orquestación usada para suspender mensajes que no se pueden procesar en la orquestación de agregación.|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> FFReceivePipeline.btp|Canalización de recepción con desensamblador de archivos sin formato.|  
-|En la carpeta PipelinesAndSchemas:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Instancias de documento para el ejemplo. Instance1.txt e Instance2.txt deben agregarse a un intercambio de socio comercial de destino [ http://www.contoso.com ](http://www.contoso.com/) mientras que Instance3.txt e Instance4.txt deben agregarse a un intercambio de socio comercial de destino [ http://www.northwind.com ](http://www.northwind.com/).|  
+|En la carpeta PipelinesAndSchemas:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Instancias de documento para el ejemplo. Instance1.txt e Instance2.txt deben agregarse a un intercambio para el socio comercial de destino [ http://www.contoso.com ](http://www.contoso.com/) mientras que Instance3.txt e Instance4.txt deben agregarse a un intercambio para el socio comercial de destino [ http://www.northwind.com ](http://www.northwind.com/).|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> Invoice.xsd, InvoiceEnvelope.xsd|Esquema de documento y esquema de sobre para el intercambio de salida.|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> PipelinesAndSchemas.btproj|Proyecto de BizTalk para los esquemas y las canalizaciones.|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> PropertySchema.xsd|Esquema de propiedad del ejemplo.|  
@@ -61,31 +61,31 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
   
 #### <a name="to-build-and-initialize-the-aggregator-sample"></a>Para crear e inicializar el ejemplo de agregación  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<Ejemplos de ruta de acceso\>\Pipelines\Aggregator  
+    \<Ejemplos de la ruta de acceso\>\Pipelines\Aggregator  
   
-2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
+2. Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
-    -   Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta:  
+   - Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta:  
   
-         \<Ejemplos de ruta de acceso\>\Pipelines\Aggregator  
+      \<Ejemplos de la ruta de acceso\>\Pipelines\Aggregator  
   
-    -   Compila los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
+   - Compila los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   
-    -   Crea una aplicación nueva llamada "Aggregator Sample" e implementa los ensamblados de ejemplo en ella.  
+   - Crea una aplicación nueva llamada "Aggregator Sample" e implementa los ensamblados de ejemplo en ella.  
   
-    -   Crea y enlaza la ubicación de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y los puertos de envío y recepción.  
+   - Crea y enlaza la ubicación de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y los puertos de envío y recepción.  
   
-    -   Da de alta e inicia la orquestación, habilita la ubicación de recepción e inicia el puerto de envío.  
+   - Da de alta e inicia la orquestación, habilita la ubicación de recepción e inicia el puerto de envío.  
   
-         Si opta por abrir y crear los proyectos en este ejemplo sin ejecutar el archivo Setup.bat, primero debe crear un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice que este par de claves se usa para firmar los ensamblados resultantes.  
+      Si opta por abrir y crear los proyectos de este ejemplo sin ejecutar el archivo Setup.bat, debe crear primero un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice que este par de claves se usa para firmar los ensamblados resultantes.  
   
-3.  Antes de intentar ejecutar este ejemplo, confirme que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha notificado ningún error durante el proceso de compilación e inicialización.  
+3. Antes de intentar ejecutar este ejemplo, confirme que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha notificado ningún error durante el proceso de compilación e inicialización.  
   
-     Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
+    Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
   
-## <a name="running-the-sample"></a>Ejecutar el ejemplo  
+## <a name="running-the-sample"></a>Ejecución del ejemplo  
  Utilice el siguiente procedimiento para ejecutar el ejemplo de agregación.  
   
 #### <a name="to-run-the-aggregator-sample"></a>Para ejecutar el ejemplo de agregación  
@@ -94,7 +94,7 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
   
      Tenga en cuenta que en ambos archivos el elemento DestinationPartnerURI contiene el valor http://www.contoso.com. Este valor se usará para correlacionar estos dos mensajes juntos de modo que se puedan agregar a un intercambio.  
   
-     Del mismo modo en que los archivos Instance3.txt e Instance4.txt tienen elemento DestinationPatnerURI establecido en http://www.northwind.com.  
+     De forma similar, los archivos Instance3.txt e Instance4.txt tienen elemento DestinationPatnerURI establecido en http://www.northwind.com.  
   
      Estos dos mensajes juntos se agregarán a un intercambio diferente.  
   

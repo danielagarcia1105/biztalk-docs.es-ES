@@ -1,5 +1,5 @@
 ---
-title: Implementación de servidor único | Documentos de Microsoft
+title: Implementación de servidor único | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6796bbbad4722e959962ea88e9854bce82476be4
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 62b99fd47ec04ecfd0286a694f21da733339885c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975760"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996149"
 ---
 # <a name="single-server-deployment"></a>Implementación de servidor único
 En este tema se trata la configuración e implementación de un solo servidor para el adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Windows SharePoint Services.  
@@ -35,15 +35,15 @@ En este tema se trata la configuración e implementación de un solo servidor pa
   
  El adaptador de Windows SharePoint Services tiene tres componentes:  
   
--   Componentes de tiempo de ejecución  
+- Componentes de tiempo de ejecución  
   
--   Componentes de tiempo de diseño  
+- Componentes de tiempo de diseño  
   
--   Servicio web del adaptador  
+- Servicio web del adaptador  
   
- La característica de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instala y configura automáticamente el tiempo de ejecución del adaptador. Los componentes de tiempo de diseño de adaptador se instalan y configuran con las demás [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] características. Para interactuar con los componentes de tiempo de diseño, cree puertos de Windows SharePoint Services con las herramientas que se incluyen en las características Herramientas de administración, SDK y Herramientas de programadores o Tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No puede personalizar ninguna de las opciones de configuración de los componentes de tiempo de ejecución y tiempo de diseño. Sólo puede personalizar las opciones del servicio Web del adaptador de Windows SharePoint Services.  
+  La característica de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instala y configura automáticamente el tiempo de ejecución del adaptador. Los componentes de tiempo de diseño de adaptador se instalan y configuran con las demás [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] características. Para interactuar con los componentes de tiempo de diseño, cree puertos de Windows SharePoint Services con las herramientas que se incluyen en las características Herramientas de administración, SDK y Herramientas de programadores o Tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No puede personalizar ninguna de las opciones de configuración de los componentes de tiempo de ejecución y tiempo de diseño. Sólo puede personalizar las opciones del servicio Web del adaptador de Windows SharePoint Services.  
   
- Sólo los miembros del grupo Hosts habilitados de SharePoint tienen permiso para invocar el servicio Web del adaptador. Para obtener más información acerca de los permisos de Windows SharePoint Services que sea necesario mediante la ejecución del adaptador de Windows SharePoint Services, vea la sección de seguridad en [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
+  Sólo los miembros del grupo Hosts habilitados de SharePoint tienen permiso para invocar el servicio Web del adaptador. Para obtener más información acerca de los permisos de Windows SharePoint Services necesita el tiempo de ejecución del adaptador de Windows SharePoint Services, consulte la sección de seguridad en [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
   
 > [!NOTE]
 >  El componente de servicio web del adaptador de Windows SharePoint Services se selecciona automáticamente si elige instalar BAS.  
@@ -69,11 +69,11 @@ En este tema se trata la configuración e implementación de un solo servidor pa
 -   La aplicación virtual BTSharePointAdapterWS se crea y configura para que se ejecute en el grupo de aplicaciones BTSSharePointAdapterWSAppPool.  
   
 > [!NOTE]
->  Si ya existe este directorio virtual, la configuración no actualizará las propiedades en la metabase. Debe eliminar el directorio virtual y ejecutar de nuevo la configuración.  
+>  Si ya existe este directorio virtual, la configuración no actualizará las propiedades en la metabase. Debe eliminar el directorio virtual y vuelva a la configuración de ejecución.  
   
--   La aplicación virtual BTSharePointAdapterWS contiene el servicio Web  
+- La aplicación virtual BTSharePointAdapterWS contiene el servicio Web  
   
- Para obtener más información sobre la configuración básica, consulte [configuración básica](http://msdn.microsoft.com/library/abdf3eb5-9779-47ff-bc97-2209eb4b12f5).  
+  Para obtener más información sobre la configuración básica, consulte [configuración básica](http://msdn.microsoft.com/library/abdf3eb5-9779-47ff-bc97-2209eb4b12f5).  
   
 ### <a name="using-a-custom-configuration"></a>Usar una configuración personalizada  
  La configuración de BizTalk Server proporciona un análisis de alto nivel del estado de configuración de las características que ha instalado en el equipo local. La herramienta permite configurar y desconfigurar características, configurar valores de seguridad, e importar y exportar configuraciones de otros equipos.  
@@ -83,7 +83,7 @@ En este tema se trata la configuración e implementación de un solo servidor pa
 |Use|Para|  
 |--------------|----------------|  
 |**Habilitar a adaptador de Windows SharePoint Services en este equipo**|Seleccione **habilitar adaptador de Windows SharePoint Services en este equipo** para habilitar el adaptador en este equipo.|  
-|**Grupo de Windows**|El **grupo de Windows** lista proporciona una vista que se puede editar del grupo de Windows de Hosts habilitados de BizTalk SharePoint adaptador.|  
+|**Grupo de Windows**|El **grupo Windows** lista proporciona una vista que se puede editar del grupo de BizTalk SharePoint adaptador habilita Hosts Windows.|  
 |**Sitio Web del adaptador de Windows SharePoint Services**|Seleccionar el sitio Web que alojará el servicio Web del adaptador de Windows SharePoint Services.|  
   
  Cuando se configura el adaptador de Windows SharePoint Services con una configuración personalizada, ocurre lo siguiente:  
@@ -97,46 +97,46 @@ En este tema se trata la configuración e implementación de un solo servidor pa
 -   La aplicación virtual BTSharePointAdapterWS se crea y configura para que se ejecute en el grupo de aplicaciones BTSSharePointAdapterWSAppPool.  
   
 > [!NOTE]
->  Si ya existe este directorio virtual, la configuración no actualizará las propiedades en la metabase. Debe eliminar el directorio virtual y ejecutar de nuevo la configuración.  
+>  Si ya existe este directorio virtual, la configuración no actualizará las propiedades en la metabase. Debe eliminar el directorio virtual y vuelva a la configuración de ejecución.  
   
--   La aplicación virtual BTSharePointAdapterWS contiene el servicio Web  
+- La aplicación virtual BTSharePointAdapterWS contiene el servicio Web  
   
- Para obtener más información acerca del Administrador de configuración personalizada, vea [importar y exportar la configuración de BizTalk Server](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
+  Para obtener más información acerca del Administrador de configuración personalizada, consulte [importar y exportar la configuración de BizTalk Server](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
   
 ##### <a name="to-configure-the-windows-sharepoint-services-adapter-by-using-a-custom-configuration"></a>Para configurar el adaptador de Windows SharePoint Services con una configuración personalizada  
   
-1.  En el **configuración de BizTalk Server**, seleccione la **adaptador de Windows SharePoint** nodo.  
+1.  En el **configuración de BizTalk Server**, seleccione el **adaptador de SharePoint** nodo.  
   
 2.  Seleccione **habilitar adaptador de Windows SharePoint Services en este equipo**.  
   
-3.  En **grupo de Windows**, seleccione el grupo de Windows que se va a usar para el adaptador de Windows SharePoint Services. El grupo predeterminado es Hosts habilitados de SharePoint.  
+3.  En **grupo Windows**, seleccione el grupo de Windows que se va a usar para el adaptador de Windows SharePoint Services. El grupo predeterminado es Hosts habilitados de SharePoint.  
   
-4.  En el **sitio Web de adaptador de Windows SharePoint Services** cuadro de lista desplegable, seleccione el sitio Web donde se instalará los componentes de adaptador. De forma predeterminada, éste es el sitio Web predeterminado.  
+4.  En el **sitio Web de adaptador de Windows SharePoint Services** cuadro de lista desplegable, seleccione el sitio Web donde se instalará los componentes del adaptador. De forma predeterminada, éste es el sitio Web predeterminado.  
   
 5.  Haga clic en **Aplicar configuración**.  
   
 ## <a name="considerations-for-a-single-server-deployment"></a>Consideraciones para una implementación de un solo servidor  
  Cuando configure e implemente el adaptador de Windows SharePoint Services en un entorno de un solo servidor, considere lo siguiente:  
   
--   Agregue la cuenta de servicio de BizTalk al grupo de Windows Hosts habilitados de SharePoint en ese servidor.  
+- Agregue la cuenta de servicio de BizTalk al grupo de Windows Hosts habilitados de SharePoint en ese servidor.  
   
--   Agregue el grupo Hosts habilitados de SharePoint a la función Colaboradores de SharePoint con la herramienta Administración central de SharePoint.  
+- Agregue el grupo Hosts habilitados de SharePoint a la función Colaboradores de SharePoint con la herramienta Administración central de SharePoint.  
   
--   En [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], la identidad bajo la que el servicio web del adaptador de SharePoint se ejecuta debe tener los permisos siguientes:  
+- En [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], la identidad bajo la que el servicio web del adaptador de SharePoint se ejecuta debe tener los permisos siguientes:  
   
-     **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y el servidor BizTalk Server, permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS**  
+   **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y BizTalk Server, los permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
-     **Lectura** permiso en la siguiente clave del registro: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
+   **Lectura** permiso en la siguiente clave del registro: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
   
-     Permisos de inicio de sesión en el servidor SQL Server que contiene las bases de datos de SharePoint.  
+   Permisos de inicio de sesión en el servidor SQL Server que contiene las bases de datos de SharePoint.  
   
-     Un miembro de la **público** y **WSS_Content_Application_Pools** roles dentro de la base de datos de configuración de SharePoint.  
+   Un miembro de la **pública** y **WSS_Content_Application_Pools** roles dentro de la base de datos de configuración de SharePoint.  
   
-     Un miembro de la **público** y **propietario de la base de datos** roles dentro de la base de datos de contenido de SharePoint.  
+   Un miembro de la **pública** y **propietario de la base de datos** roles dentro de la base de datos de contenido de SharePoint.  
   
--   El sitio web en el que se instale el servicio web debe extenderse como un sitio web de SharePoint Services.  
+- El sitio web en el que se instale el servicio web debe extenderse como un sitio web de SharePoint Services.  
   
--   Puede instalar y configurar el adaptador de Windows SharePoint Services con una instalación silenciosa. Para obtener más información, consulte [Apéndice A: instalación silenciosa](../install-and-config-guides/appendix-a-silent-installation.md).  
+- Puede instalar y configurar el adaptador de Windows SharePoint Services con una instalación silenciosa. Para obtener más información, consulte [Apéndice A: instalación silenciosa](../install-and-config-guides/appendix-a-silent-installation.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter.md)   

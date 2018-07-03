@@ -1,5 +1,5 @@
 ---
-title: Esquemas de mensaje para la eliminación de básicas Insert, Update y seleccione las operaciones en tablas y vistas | Documentos de Microsoft
+title: Los esquemas de mensajes para la eliminación básicas Insert, Update y seleccione las operaciones en tablas y vistas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,25 +19,25 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 571a6a192ca85eb0bd3e5abeb8ef8f3715818236
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f7f815f88144c2cb3659614c517fdc224c601e27
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22216004"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989197"
 ---
-# <a name="message-schemas-for-the-basic-insert-update-delete-and-select-operations-on-tables-and-views"></a>Esquemas de mensaje para la inserción básico, actualizar, eliminar y seleccione las operaciones en tablas y vistas
-El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies básicas inserción, Update, Delete, y las operaciones Select para cada tabla y ver en la base de datos de Oracle. Estas operaciones realizan la instrucción SQL correspondiente calificada por una cláusula WHERE. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] usa fuertemente tipada de registros y conjuntos de registros en estas operaciones.  
-  
-## <a name="message-structure-for-basic-table-operations"></a>Estructura de los mensajes para las operaciones de tabla básico  
- En la tabla siguiente se muestra la estructura del mensaje XML para las operaciones de tabla básico expuestas por la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en tablas de base de datos de Oracle. La tabla de destino para una operación se especifica en la acción de mensaje y también aparece en el espacio de nombres de destino.  
+# <a name="message-schemas-for-the-basic-insert-update-delete-and-select-operations-on-tables-and-views"></a>Esquemas de mensaje para la inserción básica, actualizar, eliminar y seleccione las operaciones en tablas y vistas
+El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies básicas inserción, Update, Delete, y las operaciones Select para cada tabla y ver en la base de datos de Oracle. Estas operaciones realizan la instrucción SQL correspondiente calificada por una cláusula WHERE. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] usa fuertemente tipados y conjuntos de registros en estas operaciones.  
+
+## <a name="message-structure-for-basic-table-operations"></a>Estructura de mensaje para operaciones básicas de tabla  
+ En la tabla siguiente se muestra la estructura del mensaje XML para las operaciones de tabla básico expuestas por la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en las tablas de base de datos de Oracle. La tabla de destino para una operación se especifica en la acción del mensaje y también aparece en el espacio de nombres de destino.  
 
 ### <a name="insert"></a>Insert  
 Hay los siguientes tipos de operaciones de inserción. Un mensaje puede contener solamente un tipo de operación de inserción.
 
 - Insertar varios de registro, el conjunto de registros proporcionado de datos fuertemente tipados se inserta en la tabla de destino.
-- Para cada registro en una inserción varios registra, puede especificar el valor para un atributo opcional llamado **InlineValue**. Si se especifica, invalida el valor del elemento.
-- Bulk Insert inserta el conjunto de registros devuelto por una consulta de selección especificada en el elemento de consulta en la tabla de destino. Esto se realiza mediante la lista separada por comas de las columnas especificadas en el elemento COLUMN_NAMES.
+- Para cada registro en una inserción de varios registros, puede especificar el valor de un atributo opcional denominado **InlineValue**. Si se especifica, invalida el valor del elemento.
+- Bulk Insert inserta el conjunto de registros devuelto por una consulta de selección especificada en el elemento de consulta en la tabla de destino. Esto se hace mediante el uso de la lista separada por comas de las columnas especificadas en el elemento COLUMN_NAMES.
 
 #### <a name="xml-message"></a>Mensaje XML  
 
@@ -60,7 +60,7 @@ Hay los siguientes tipos de operaciones de inserción. Un mensaje puede contener
 </Insert>
 ```
 
-SQL ejecutada por el adaptador:`INSERT INTO TABLE_NAME (FIELD1_NAME, FIELD2_NAME, …)VALUES (value1, value2, …);`
+Ejecutado por el adaptador SQL: `INSERT INTO TABLE_NAME (FIELD1_NAME, FIELD2_NAME, …)VALUES (value1, value2, …);`
 
 
 **Inserción masiva**  
@@ -71,7 +71,7 @@ SQL ejecutada por el adaptador:`INSERT INTO TABLE_NAME (FIELD1_NAME, FIELD2_NAME
 </Insert>
 ```
 
-SQL ejecutada por el adaptador:`INSERT INTO TABLE_NAME (COLUMN_list) SELECT_query;`
+Ejecutado por el adaptador SQL: `INSERT INTO TABLE_NAME (COLUMN_list) SELECT_query;`
 
 ### <a name="insert-response"></a>Insertar la respuesta
 Se devuelve el número de filas insertadas en el elemento InsertResult.
@@ -85,7 +85,7 @@ Se devuelve el número de filas insertadas en el elemento InsertResult.
 ```
 
 ### <a name="select"></a>Select
-Se realiza una consulta SELECT en la tabla de destino utilizando la cláusula WHERE especificada en el elemento de filtro. El conjunto de resultados contiene las columnas en la lista separada por comas de nombres de columna especificados en el elemento COLUMN_NAMES.
+Se realiza una consulta SELECT en la tabla de destino mediante la cláusula WHERE especificada en el elemento de filtro. El conjunto de resultados contiene las columnas en la lista separada por comas de nombres de columna especificados en el elemento COLUMN_NAMES.
 
 #### <a name="xml-message"></a>Mensaje XML  
 ```
@@ -95,7 +95,7 @@ Se realiza una consulta SELECT en la tabla de destino utilizando la cláusula WH
 </Select>
 ```
 
-SQL ejecutada por el adaptador:`SELECT COLUMN_list FROM TABLE_NAME WHERE WHERE_clause;`
+Ejecutado por el adaptador SQL: `SELECT COLUMN_list FROM TABLE_NAME WHERE WHERE_clause;`
 
 ### <a name="select-response"></a>Seleccionar respuesta
 El conjunto de resultados generado por la consulta SELECT.
@@ -114,7 +114,7 @@ El conjunto de resultados generado por la consulta SELECT.
 ``` 
 
 ### <a name="update"></a>Update
-Filas que coinciden con where cláusula especificada en el elemento del filtro se actualizan con los valores especificados en el conjunto de registros. Solo las columnas que se especifican en el conjunto de registros se actualizan en cada fila coincidente.
+Las filas que coinciden con where cláusula especificada en el elemento de filtro se actualizan a los valores especificados en el conjunto de registros. Solo las columnas que se especifican en el conjunto de registros se actualizan en cada fila coincidente.
 
 #### <a name="xml-message"></a>Mensaje XML  
 ```
@@ -127,7 +127,7 @@ Filas que coinciden con where cláusula especificada en el elemento del filtro s
 <FILTER>WHERE_clause</FILTER> </Update>
 ```
 
-SQL ejecutada por el adaptador:`UPDATE [TABLE_NAME] SET [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, … WHERE WHERE_clause;`
+Ejecutado por el adaptador SQL: `UPDATE [TABLE_NAME] SET [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, … WHERE WHERE_clause;`
 
 ### <a name="update-response"></a>Respuesta de actualización
 Se devuelve el número de filas actualizadas en el elemento UpdateResult.
@@ -140,7 +140,7 @@ Se devuelve el número de filas actualizadas en el elemento UpdateResult.
 ```
 
 ### <a name="delete"></a>DELETE
-Se eliminan filas que coinciden con la cláusula WHERE especificada por el elemento de filtro.
+Se eliminan las filas que coincidan con la cláusula WHERE especificada por el elemento de filtro.
 
 #### <a name="xml-message"></a>Mensaje XML 
 ```
@@ -149,7 +149,7 @@ Se eliminan filas que coinciden con la cláusula WHERE especificada por el eleme
 </Delete>
 ```
 
-SQL ejecutada por el adaptador:`DELETE FROM [TABLE_NAME] WHERE WHERE_clause;`
+Ejecutado por el adaptador SQL: `DELETE FROM [TABLE_NAME] WHERE WHERE_clause;`
 
 ### <a name="delete-response"></a>Respuesta de eliminación
 Se devuelve el número de filas eliminadas en el elemento DeleteResult.
@@ -160,42 +160,43 @@ Se devuelve el número de filas eliminadas en el elemento DeleteResult.
 <DeleteResult>[rows inserted]</DeleteResult> 
 </DeleteResponse>
 ```
-  
-  | Valor de marcador de posición| Description |
+
+  | Valor de marcador de posición| Descripción |
   | --- | --- |
-  | [VERSIÓN] | La cadena de versión de mensaje; Por ejemplo,`http://Microsoft.LobServices.OracleDB/2007/03`|
-  | [ESQUEMA] | Colección de artefactos de Oracle; Por ejemplo,`SCOTT`|
-  | [NOMBRETABLA] | Nombre de la tabla; Por ejemplo,`EMP`|
-  | [FIELD1_NAME] | Nombre de campo de la tabla; Por ejemplo,`EMPNAME`|
-  | [COLUMN_list] | Lista separada por comas de las columnas; Por ejemplo,`NAME`|
-  | [SELECT_query] | Una instrucción SELECT de SQL especificada en el elemento de consulta de una operación de inserción masiva; Por ejemplo,`SELECT * from MyTable`|
-  | [WHERE_clause] | WHERE_clause para la instrucción SELECT utilizada por la operación; Por ejemplo,`ID > 10`|
-  
+  | [VERSIÓN] | La cadena de versión de mensaje; Por ejemplo, `http://Microsoft.LobServices.OracleDB/2007/03`|
+  | [ESQUEMA] | Colección de artefactos de Oracle; Por ejemplo, `SCOTT`|
+  | [NOMBRETABLA] | Nombre de la tabla; Por ejemplo, `EMP`|
+  | [FIELD1_NAME] | Nombre de campo de tabla; Por ejemplo, `EMPNAME`|
+  | [COLUMN_list] | Lista separada por comas de las columnas; Por ejemplo, `NAME`|
+  | [SELECT_query] | Una instrucción SELECT de SQL especificada en el elemento de consulta de una operación Bulk Insert; Por ejemplo, `SELECT * from MyTable`|
+  | [WHERE_clause] | WHERE_clause para la instrucción SELECT utilizada para la operación. Por ejemplo, `ID > 10`|
+
 > [!IMPORTANT]
->  La estructura del mensaje para las operaciones básicas de la tabla en las vistas es el mismo que en las tablas, pero el espacio de nombres para la operación especifica una vista en lugar de una tabla: `<Insert xmlns ="[VERSION]/[SCHEMA]/``View``/[VIEW_NAME]">`.  
-  
-## <a name="message-actions-for-basic-table-operations"></a>Acciones de mensaje para las operaciones de tabla básico  
- La siguiente tabla muestra las acciones de mensaje utilizados por el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para las operaciones básicas de la tabla en tablas. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] usa el nombre de tabla especificado en la acción de mensaje para determinar la tabla de destino de la operación.  
-  
-|Operación|Acción de mensaje|Ejemplo|  
-|---------------|--------------------|-------------|  
-|Insert|[Versión] / [esquema] /Table/ [NombreTabla] / inserción|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/INSERT|  
-|Insertar la respuesta|[Versión] / respuesta/Insert//Table/ [NombreTabla] de [esquema]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/INSERT/Response|  
-|Select|[Versión] / [esquema] /Table/ [NombreTabla] / Select|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/SELECT|  
-|Seleccionar respuesta|[Versión] / [esquema] /Table/ [NombreTabla] / seleccione solicitud-respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/SELECT/Response|  
-|Update|[Versión] / [esquema] /Table/ [NombreTabla] o la actualización|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/Update|  
-|Respuesta de actualización|[Versión] / /Table/ [NombreTabla] / actualización/respuesta de [esquema]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/Update/Response|  
-|DELETE|[Versión] / [esquema] /Table/ [NombreTabla] / eliminar|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/Delete|  
-|Respuesta de eliminación|[Versión] / /Table/ [NombreTabla] / Delete/respuesta de [esquema]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Table/emp/Delete/Response|  
-  
+>  La estructura del mensaje para las operaciones de tabla básico en las vistas es el mismo que en las tablas, pero el espacio de nombres para la operación especifica una vista en lugar de una tabla: `<Insert xmlns ="[VERSION]/[SCHEMA]/``View``/[VIEW_NAME]">`.  
+
+## <a name="message-actions-for-basic-table-operations"></a>Acciones de mensaje para operaciones básicas de tabla  
+ La siguiente tabla muestra las acciones de mensaje utilizados por el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para las operaciones de tabla básico en las tablas. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] usa el nombre de tabla especificado en la acción de mensaje para determinar la tabla de destino de la operación.  
+
+
+|    Operación    |                    Acción de mensaje                     |                                    Ejemplo                                    |
+|-----------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
+|     Insert      |     [Versión] / [esquema] /Table/ [NombreTabla] / inserción      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert      |
+| Insertar la respuesta | [Versión] / respuesta/Insert//Table/ [NombreTabla] de [esquema] | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert/response |
+|     Select      |     [Versión] / [esquema] /Table/ [NombreTabla] / seleccione      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select      |
+| Seleccionar respuesta | [Versión] / [esquema] /Table/ [NombreTabla] o seleccionar solicitud-respuesta | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select/response |
+|     Update      |     [Versión] / [esquema] /Table/ [NombreTabla] / actualizar      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update      |
+| Respuesta de actualización | [Versión] / [NombreTabla] /Table//actualización/respuesta de [esquema] | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update/response |
+|     DELETE      |     [Versión] / [esquema] /Table/ [NombreTabla] / Delete      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete      |
+| Respuesta de eliminación | [Versión] / [NombreTabla] /Table//Delete/respuesta de [esquema] | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete/response |
+
  [Versión] = la cadena de versión de mensaje; Por ejemplo, http://Microsoft.LobServices.OracleDB/2007/03.  
-  
+
  [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
-  
+
  [NombreTabla] = nombre de la tabla; Por ejemplo, EMP.  
-  
+
 > [!IMPORTANT]
->  La acción de mensaje para una operación en una vista es igual que para una tabla excepto en que "Vista" reemplaza "Table"; Por ejemplo, `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/``View``/EMPVIEW/Insert`.  
-  
+>  La acción de mensaje para una operación en una vista es el mismo que para una tabla, salvo que la "Vista" reemplaza "Table"; Por ejemplo, `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/``View``/EMPVIEW/Insert`.  
+
 ## <a name="see-also"></a>Vea también  
- [Mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
+ [Mensajes y esquemas de mensaje para el adaptador de BizTalk para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

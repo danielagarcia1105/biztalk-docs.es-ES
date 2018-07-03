@@ -1,5 +1,5 @@
 ---
-title: Propiedades de contexto de invalidación EDI | Documentos de Microsoft
+title: Propiedades de contexto de invalidación de EDI | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,19 +12,19 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 182ddc6a243a578a890a47dc70faa427b4f6df88
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b66b9a2d6c2a601f40f276692ba53b732c95ec6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22243244"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986573"
 ---
 # <a name="edi-override-context-properties"></a>Propiedades de contexto de invalidación de EDI
 Las propiedades de contexto de mensaje del esquema de propiedad global EdiOverride se pueden usar para invalidar los valores de sobre EDI en tiempo de ejecución. Estas propiedades de contexto de mensaje se definen en edi-properties.xsd en el ensamblado Microsoft.BizTalk.Edi.BaseArtifacts. El espacio de nombres para las propiedades es `http://schemas.microsoft.com/BizTalk/2006/edi-properties`.  
   
  Las propiedades de contexto EDIOverride también están disponibles en una orquestación, siempre que la referencia al ensamblado Microsoft.BizTalk.Edi.BaseArtifacts se haya agregado al proyecto de la orquestación.  
   
-|Nombre|Tipo|Description|  
+|Nombre|Tipo|Descripción|  
 |----------|----------|-----------------|  
 |OverrideEDIHeader|boolean|Si es true, la canalización de envío de EDI intentará construir el sobre EDI con los valores de la recopilación de propiedades EdiOverride.|  
 |ISA01|string|El calificador de información de autorización (X12)|  
@@ -52,7 +52,7 @@ Las propiedades de contexto de mensaje del esquema de propiedad global EdiOverri
 |GS07|string|El código de agencia responsable (X12)|  
 |GS08|string|El código de identificador de la versión, el lanzamiento o la industria (X12).|  
 |ST02|string|El número de control de conjunto de transacciones (X12)<br /><br /> Si se invalida el número de control de conjunto de transacciones, el campo correspondiente del segmento de finalizador de conjunto de transacciones (SE) se establecerá para que coincida con este valor.|  
-|GenerateUNA|boolean|Determina si la canalización de envío de EDI creará un segmento UNA para el documento EDIFACT saliente.<br /><br /> Si OverrideEdiHeader es true y GenerateUNA es true, se generará un segmento UNA. Si OverrideEdiHeader es true, y GenerateUNA es false, no se generará ningún segmento UNA.<br /><br /> Los valores para el segmento UNA se determinan en el orden siguiente:<br /><br /> -Las propiedades de contexto EdiOverride, si están presentes todas las propiedades UNA.<br />-Si no están presentes todas las propiedades de contexto y generación de segmento UNA está activada en las propiedades de entidad, una combinación de propiedades de contexto y propiedades de la entidad.<br />-Si no están presentes todas las propiedades de contexto y generación de segmento UNA está activada en las propiedades de entidad, una combinación de propiedades de contexto y valores UNA estándar **Nota:** este campo no tiene ningún efecto si OverrideEdiHeader es false.|  
+|GenerateUNA|boolean|Determina si la canalización de envío de EDI creará un segmento UNA para el documento EDIFACT saliente.<br /><br /> Si OverrideEdiHeader es true y GenerateUNA es true, se generará un segmento UNA. Si OverrideEdiHeader es true, y GenerateUNA es false, no se generará ningún segmento UNA.<br /><br /> Los valores para el segmento UNA se determinan en el orden siguiente:<br /><br /> -Las propiedades de contexto EdiOverride, si están presentes todas las propiedades UNA.<br />-Si no están presentes todas las propiedades de contexto, y generación de segmento UNA está activado en las propiedades de entidad, una combinación de las propiedades de contexto y las propiedades de entidad.<br />-Si no están presentes todas las propiedades de contexto y generación de segmento UNA está activado en las propiedades de entidad, una combinación de las propiedades de contexto y los valores UNA estándar **Nota:** este campo no tiene ningún efecto si OverrideEdiHeader es false.|  
 |UNA1|string|El separador de elementos de datos de componentes (EDIFACT)|  
 |UNA2|string|El separador de elementos de datos (EDIFACT)|  
 |UNA3|string|La marca de decimal (EDIFACT)|  
@@ -77,7 +77,7 @@ Las propiedades de contexto de mensaje del esquema de propiedad global EdiOverri
 |UNB7|string|La referencia de la aplicación (EDIFACT)|  
 |UNB8|string|El código de prioridad de procesamiento (EDIFACT)|  
 |UNB9|string|La solicitud de confirmación (EDIFACT)|  
-|GenerateUNG|boolean|Determina si la canalización de envío de EDI creará un segmento UNG para el documento EDIFACT saliente.<br /><br /> Si OverrideEdiHeader es true y GenerateUNG es true, se generará un segmento UNG. Si OverrideEdiHeader es true, y GenerateUNG es false, no se generará ningún segmento UNG.<br /><br /> Los valores para el segmento UNG se determinan en el orden siguiente:<br /><br /> -Las propiedades de contexto EdiOverride, si están presentes todas las propiedades UNG.<br />-Si no están presentes todas las propiedades de contexto y generación de segmento UNG está activada en las propiedades de entidad, una combinación de propiedades de contexto y propiedades de la entidad.<br />-Si no están presentes todas las propiedades de contexto y generación de segmento UNG está activada en las propiedades de entidad, una combinación de propiedades de contexto y valores UNA estándar **Nota:** este campo no tiene ningún efecto si OverrideEdiHeader es false.|  
+|GenerateUNG|boolean|Determina si la canalización de envío de EDI creará un segmento UNG para el documento EDIFACT saliente.<br /><br /> Si OverrideEdiHeader es true y GenerateUNG es true, se generará un segmento UNG. Si OverrideEdiHeader es true, y GenerateUNG es false, no se generará ningún segmento UNG.<br /><br /> Los valores para el segmento UNG se determinan en el orden siguiente:<br /><br /> -Las propiedades de contexto EdiOverride, si están presentes todas las propiedades UNG.<br />-Si no están presentes todas las propiedades de contexto, y generación de segmento UNG está activada en Propiedades de entidad, una combinación de las propiedades de contexto y las propiedades de entidad.<br />-Si no están presentes todas las propiedades de contexto y generación de segmento UNG está activada en las propiedades de entidad, una combinación de las propiedades de contexto y los valores UNA estándar **Nota:** este campo no tiene ningún efecto si OverrideEdiHeader es false.|  
 |UNG1|string|La identificación de grupo de mensajes (EDIFACT).|  
 |UNG2_1|string|La identificación del remitente de la aplicación (EDIFACT)|  
 |UNG2_2|string|El calificador del código de identificación (EDIFACT)|  
@@ -98,20 +98,20 @@ Las propiedades de contexto de mensaje del esquema de propiedad global EdiOverri
   
  Los valores especificados para las propiedades de contexto EDIOverride deben ser válidos según los estándares X12 o EDIFACT y cualquier extensión de esquema de servicio.  
   
--   Los campos deben contener valores válidos para este tipo de campo, incluidas las extensiones del esquema de servicio.  
+- Los campos deben contener valores válidos para este tipo de campo, incluidas las extensiones del esquema de servicio.  
   
--   Los números de control deben ser de tipo válido, pero no es necesario que estén en secuencia con los valores de entidad existentes.  
+- Los números de control deben ser de tipo válido, pero no es necesario que estén en secuencia con los valores de entidad existentes.  
   
--   Los campos de fecha y hora deben contener valores de fecha y hora, y ser válidos según el estándar EDI correspondiente aunque el formato de valor no coincida con el formato definido en los valores de entidad.  
+- Los campos de fecha y hora deben contener valores de fecha y hora, y ser válidos según el estándar EDI correspondiente aunque el formato de valor no coincida con el formato definido en los valores de entidad.  
   
- Algunas propiedades de contexto EDIOverride únicamente se admiten cuando el mensaje que se envía mediante la canalización de envío EDI es una única transacción o un lote. En la siguiente tabla se enumeran las propiedades de contexto admitidas para cada tipo de mensaje:  
+  Algunas propiedades de contexto EDIOverride únicamente se admiten cuando el mensaje que se envía mediante la canalización de envío EDI es una única transacción o un lote. En la siguiente tabla se enumeran las propiedades de contexto admitidas para cada tipo de mensaje:  
   
 |Transacciones EDI que se envían|Propiedades de contexto EDIOverride admitidas|  
 |--------------------------------|----------------------------------------------|  
-|Conjunto único de transacciones|-Todos los ISA<br />-Todos los GS<br />-ST02<br />-GenerateUNA<br />-Todos los una<br />-Todos los UNB<br />-GenerateUNG<br />-Todos los Ung<br />-UNH1|  
-|El conjunto de transacciones de lotes que publica la orquestación de procesamiento por lotes o la transacción Batch-in-Batch-Out que publica la canalización de recepción de EDI.|-Todos los ISA<br />-GS04<br />-GS05<br />-GenerateUNA<br />-Todos los una<br />-Todos los UNB<br />-GenerateUNG<br />: UNG4.1<br />: UNG4.2|  
+|Conjunto único de transacciones|-Todos los ISA<br />-Todos los GS<br />-ST02<br />-GenerateUNA<br />-Todos una<br />-Todos los UNB<br />-GenerateUNG<br />-Todos los Ung<br />-UNH1|  
+|El conjunto de transacciones de lotes que publica la orquestación de procesamiento por lotes o la transacción Batch-in-Batch-Out que publica la canalización de recepción de EDI.|-Todos los ISA<br />-GS04<br />-GS05<br />-GenerateUNA<br />-Todos una<br />-Todos los UNB<br />-GenerateUNG<br />: UNG4.1<br />: UNG4.2|  
   
  Las propiedades de contexto EDIOverride también se pueden aplicar a mensajes que se procesarán por lotes. Sin embargo, la orquestación de procesamiento por lotes únicamente admite las propiedades de contexto EDIOverride ST01 y UNH1.  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar y configurar soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)
+ [Desarrollo y configuración de soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

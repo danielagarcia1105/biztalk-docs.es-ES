@@ -1,5 +1,5 @@
 ---
-title: Cómo depurar mapas | Documentos de Microsoft
+title: Cómo depurar asignaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,21 +12,21 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e40964b267ad0788308a92490a106f940a6cb33e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f30d26b7c722ea4e4896bc7d19130e41eec5c719
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249036"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989725"
 ---
 # <a name="how-to-debug-maps"></a>Depuración de asignaciones
-El **depurar asignación** característica es útil para identificar y solucionar problemas de asignación complejos. Este tema proporciona instrucciones paso a paso para la depuración de asignaciones mediante el depurador XSLT en línea.  
-  
+El **depurar asignación** característica es útil para identificar y corregir problemas de asignación complejos. Este tema proporciona instrucciones paso a paso para la depuración de asignaciones mediante el depurador XSLT en línea.  
+
 > [!NOTE]
 >  Al depurar la asignación, el **depurar asignación** característica usa las propiedades de archivo de asignación **instancia de entrada de comprobar asignación** y **instancia de salida de comprobar asignación**. Por lo tanto, antes de depurar la asignación, se recomienda que configure la entrada y propiedades de instancia en el archivo de asignación de salida.  
-  
+
 ### <a name="to-debug-a-biztalk-map"></a>Para depurar un asignación de BizTalk  
-  
-1.  En el Explorador de soluciones, haga clic en la asignación que desea probar y, a continuación, haga clic en **depurar asignación**. [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]Muestra la asignación en formato XSLT en su editor.  
-  
-2.  Presione F10 o F11 para depurar el código XSL. Al presionar F11 en una llamada de functoid, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] pasa al código C# del functoid. Los valores de las variables usadas en el código fuente del functoid se pueden ver en el Depurador local de Windows.
+
+1. En el Explorador de soluciones, haga clic en el mapa que desee probar y, a continuación, haga clic en **depurar asignación**. [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Muestra la asignación en formato XSLT en su editor.  
+
+2. Presione F10 o F11 para depurar el código XSL. Al presionar F11 en una llamada de functoid, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] pasa al código C# del functoid. Los valores de las variables usadas en el código fuente del functoid se pueden ver en el Depurador local de Windows.

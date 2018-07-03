@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10721 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10721 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,35 +12,35 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fcf17d9e32d56bba9985fe476a6830257889052a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ae378123f8c80eaba178c49b164fa6f4223fbf5f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271492"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993029"
 ---
-# <a name="single-sign-on-event-10721"></a>Inicio de sesión único: Evento 10721
+# <a name="single-sign-on-event-10721"></a>De sesión único: Evento 10721
 ## <a name="details"></a>Detalles  
-  
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10721|  
-|Origen del evento|ENTSSO|  
-|Componente|N\D|  
-|Nombre simbólico|SSO_INFO_REPLAY_FILE_CLOSED_FULL|  
-|Texto del mensaje|Se cerró el archivo de reproducción porque está lleno.%r<br /><br /> Nombre de archivo: %1|  
-  
+
+|                 |                                                                                 |
+|-----------------|---------------------------------------------------------------------------------|
+|  Nombre del producto   |                            Inicio de sesión único (SSO) empresarial                            |
+| Versión del producto |           [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]            |
+|    Identificador del evento     |                                      10721                                      |
+|  Origen del evento   |                                     ENTSSO                                      |
+|    Componente    |                                       N\D                                       |
+|  Nombre simbólico  |                        SSO_INFO_REPLAY_FILE_CLOSED_FULL                         |
+|  Texto del mensaje   | Se cerró el archivo de reproducción porque está lleno.%r<br /><br /> Nombre de archivo: %1 |
+
 ## <a name="explanation"></a>Explicación  
  Este evento de información indica que se cerró el archivo de reproducción porque está lleno. Si es necesario, se creará un nuevo archivo de reproducción.  
-  
+
 ## <a name="user-action"></a>Acción del usuario  
-  
--   Es necesaria ninguna acción del usuario  
-  
- Para obtener más información, vea los recursos siguientes:  
-  
--   [Cómo configurar la sincronización de contraseña](../core/how-to-configure-password-synchronization.md)  
-  
--   [Sincronización de contraseña](../core/password-synchronization2.md)
+
+- No es necesaria ninguna acción del usuario  
+
+  Para obtener más información, vea los recursos siguientes:  
+
+- [Cómo configurar la sincronización de contraseñas](../core/how-to-configure-password-synchronization.md)  
+
+- [Sincronización de contraseñas](../core/password-synchronization2.md)

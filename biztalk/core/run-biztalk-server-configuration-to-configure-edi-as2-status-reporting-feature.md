@@ -1,5 +1,5 @@
 ---
-title: Para habilitar los informes de estado, ejecutar &#39; Configuración de BizTalk Server &#39; y configurar la característica de informes de estado de EDI y AS2 | Documentos de Microsoft
+title: Para habilitar los informes de estado, ejecute &#39;configuración de BizTalk Server&#39; y configure la característica de informes de estado de EDI / AS2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 334e77ed58d460aea3ca37f73c1165d62da0f10b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89d7fcf5e473485d0b61edcd6d5f287198021d3f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268916"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992717"
 ---
-# <a name="to-enable-status-reporting-run-39biztalk-server-configuration39-and-configure-edi-as2-status-reporting-feature"></a>Para habilitar los informes de estado, ejecutar &#39; Configuración de BizTalk Server &#39; y configurar la característica de informes de estado de EDI y AS2
+# <a name="to-enable-status-reporting-run-39biztalk-server-configuration39-and-configure-edi-as2-status-reporting-feature"></a>Para habilitar los informes de estado, ejecute &#39;configuración de BizTalk Server&#39; y configure la característica de informes de estado de EDI / AS2
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Para habilitar los informes de estado, ejecute 'Configuración de BizTalk Server' y configure la característica de informes de estado de EDI/AS2.|  
+|                 |                                                                                                                |
+|-----------------|----------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
+| Versión del producto |                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                           |
+|    Identificador del evento     |                                                       -                                                        |
+|  Origen del evento   |             EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]             |
+|    Componente    |                                                   Motor EDI                                                   |
+|  Nombre simbólico  |                                                       0                                                        |
+|  Texto del mensaje   | Para habilitar los informes de estado, ejecute 'Configuración de BizTalk Server' y configure la característica de informes de estado de EDI/AS2. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que no funciona la generación de informes de estado de EDI/AS2 porque no se ha configurado.  

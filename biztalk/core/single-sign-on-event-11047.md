@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11047 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11047 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e16c2fa899642f20c67e171d0bd8f9536b6add2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f1ee4f5eaea1dac2cb2033d4585e2f89807588e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278972"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991869"
 ---
-# <a name="single-sign-on-event-11047"></a>Inicio de sesión único: Evento 11047
+# <a name="single-sign-on-event-11047"></a>De sesión único: Evento 11047
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11047|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_ERROR_SSOSQL_FAILED|  
-|Texto del mensaje|No se pudo crear SSOSQL. Para corregir el problema, reinstale SSO o pruebe 'a utilizar regasm SSOSQL.dll' desde un Visual Studio comando prompt.%r<br /><br /> Código de error: %1|  
+|                 |                                                                                                                                                         |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                Inicio de sesión único (SSO) empresarial                                                                |
+| Versión del producto |                                               [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                |
+|    Identificador del evento     |                                                                          11047                                                                          |
+|  Origen del evento   |                                                                         ENTSSO                                                                          |
+|    Componente    |                                                                           N/D                                                                           |
+|  Nombre simbólico  |                                                                 SSO_ERROR_SSOSQL_FAILED                                                                 |
+|  Texto del mensaje   | No se pudo crear SSOSQL. Para corregir el problema, reinstale SSO o intente "regasm SSOSQL.dll' desde un prompt.%r Visual<br /><br /> Código de error: %1 |
   
 ## <a name="explanation"></a>Explicación  
  Es probable que el problema se deba a un error de instalación.  

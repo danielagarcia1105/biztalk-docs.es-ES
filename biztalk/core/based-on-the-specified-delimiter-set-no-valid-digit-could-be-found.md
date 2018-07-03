@@ -1,5 +1,5 @@
 ---
-title: En función del conjunto de delimitadores especificado, se encontró ningún dígito válido | Documentos de Microsoft
+title: No según el conjunto de delimitadores especificado, se encontró ningún dígito válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c9b726ca0ab052ff53ae7f20242972db69fc4725
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6fc117a9c9d08d664f397557ab08f9c6f2e7dc7c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230884"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989229"
 ---
 # <a name="based-on-the-specified-delimiter-set-no-valid-digit-could-be-found"></a>No se encontró ningún dígito válido según el conjunto de delimitadores especificado
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|-|  
-|Texto del mensaje|No se encontró ningún dígito válido según el conjunto de delimitadores especificado. Utilice otro conjunto de delimitadores.|  
+|                 |                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]           |
+| Versión del producto |                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                       |
+|    Identificador del evento     |                                                   -                                                    |
+|  Origen del evento   |         EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]         |
+|    Componente    |                                               Motor EDI                                               |
+|  Nombre simbólico  |                                                   -                                                    |
+|  Texto del mensaje   | No se encontró ningún dígito válido según el conjunto de delimitadores especificado. Utilice otro conjunto de delimitadores. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de envío EDI no encontró un dígito válido al generar un intercambio saliente porque un dígito usado en un campo del intercambio saliente era el mismo que un carácter separador.  

@@ -1,5 +1,5 @@
 ---
-title: La canalización de recepción | Documentos de Microsoft
+title: Canalización de recepción | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,30 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d5374c46411e0c4924585647736bfde7f1e4428
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2a2c1de940fab14aa370dc1358efe36fe702a9d2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25964442"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990309"
 ---
 # <a name="receive-pipeline"></a>Canalización de recepción
-Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] canalización de recepción que puede personalizar para la aplicación.  
+Este ejemplo proporciona un Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] canalización de recepción que se puede personalizar para su aplicación.  
   
 ## <a name="demonstrates"></a>Demostraciones  
- Este ejemplo muestra cómo procesar un mensaje entrante de RNIF en el equivalente mensaje de XML mediante la canalización de recepción de BTARN (PipelineReceive.btp). PipelineReceive.btp se encuentra en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\RNPipelines. Incluye las etapas siguientes:  
+ Este ejemplo muestra cómo procesar un mensaje entrante de RNIF en el equivalente mensaje de XML mediante la canalización de recepción de BTARN (PipelineReceive.btp). PipelineReceive.btp se encuentra en  *\<unidad\>*: \Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\RNPipelines. Incluye las etapas siguientes:  
   
--   ReceiveMessageNonRepudiate  
+- ReceiveMessageNonRepudiate  
   
--   RNMimeDecoder (preprocesador y descodificador MIME)  
+- RNMimeDecoder (preprocesador y descodificador MIME)  
   
--   RNDAsm (desensamblador XML)  
+- RNDAsm (desensamblador XML)  
   
--   RNPartyRes (componente de resolución de entidades)  
+- RNPartyRes (componente de resolución de entidades)  
   
--   MessageUpdater  
+- MessageUpdater  
   
- Para obtener más información acerca de los componentes de esta canalización y el flujo de mensajes en esta canalización, consulte [canalización de recepción de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md).  
+  Para obtener más información acerca de los componentes de esta canalización y el flujo de mensajes en esta canalización, consulte [canalización de recepción de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos de canalizaciones](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)   

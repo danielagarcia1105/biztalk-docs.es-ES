@@ -1,5 +1,5 @@
 ---
-title: No se puede importar la configuración de punto de conexión de cliente | Documentos de Microsoft
+title: No se puede importar la configuración de punto de conexión de cliente | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 30be7958ca07dde47d147711da06a276e86ff714
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f3faa6a12bee397edcadb3f15c12a47d763fdce
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286612"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987189"
 ---
 # <a name="unable-to-import-client-endpoint-configuration"></a>No se puede importar la configuración de extremo de cliente.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se puede importar la configuración de extremo de cliente.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                   No se puede importar la configuración de extremo de cliente.                   |
   
 ## <a name="explanation"></a>Explicación  
  Es posible que haya más de una explicación para este error. El archivo de configuración puede contener caracteres no válidos. Es posible que falte el elemento raíz. Es posible que los datos en el nivel de raíz no sean válidos.  

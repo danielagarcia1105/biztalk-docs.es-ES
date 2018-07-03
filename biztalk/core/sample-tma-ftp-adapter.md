@@ -1,5 +1,5 @@
 ---
-title: 'TMA de ejemplo: Adaptador de FTP | Documentos de Microsoft'
+title: 'TMA de ejemplo: Adaptador de FTP | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,33 +18,33 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b88f01eadc2fcadf6592e61b38203bb09e69b547
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e1dc1a7779b3dde57c1546ace3cd5ea191152d0f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271964"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988095"
 ---
 # <a name="sample-tma-ftp-adapter"></a>TMA de ejemplo: Adaptador de FTP
 En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario del adaptador de FTP de la arquitectura de ejemplo.  
   
  La siguiente ilustración muestra la arquitectura de ejemplo del escenario del adaptador de FTP.  
   
- **Figura 1: arquitectura de ejemplo para el escenario del adaptador de FTP**  
+ **Figura 1 arquitectura de ejemplo para el escenario del adaptador de FTP**  
   
  ![Ejemplo de arquitectura de adaptador de FTP](../core/media/tdi-sec-refarch-ftp.gif "TDI_Sec_RefArch_FTP")  
   
 ## <a name="step-1-collect-background-information-ftp-adapter-scenario"></a>Paso 1. Recopilar información básica (escenario del adaptador de FTP)  
  Esta sección contiene el diagrama de flujo de datos (DFD) del escenario del adaptador de FTP de la arquitectura de ejemplo.  
   
- El resto de información de segundo plano es el mismo para los cuatro escenarios de uso y se ha descrito anteriormente en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
+ Toda la información en segundo plano es el mismo para los cuatro escenarios de uso y se ha descrito anteriormente en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
 ### <a name="data-flow-diagram"></a>Diagrama de flujo de datos  
  La siguiente ilustración muestra el DFD de la arquitectura de ejemplo cuando se utiliza el adaptador de FTP.  
   
- **Figura 2: DFD de la arquitectura de ejemplo del escenario del adaptador FTP**  
+ **Figura 2: DFD de la arquitectura de ejemplo del escenario de adaptador FTP**  
   
- ![DFD para el adaptador FTP](../core/media/tdi-sec-refarch-dfd-ftp.gif "TDI_Sec_RefArch_DFD_FTP")  
+ ![DFD para adaptador de FTP](../core/media/tdi-sec-refarch-dfd-ftp.gif "TDI_Sec_RefArch_DFD_FTP")  
   
  El flujo de datos es el siguiente:  
   
@@ -63,23 +63,23 @@ En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario d
 ## <a name="step-2-create-and-analyze-the-threat-model-ftp-adapter-scenario"></a>Paso 2. Crear y analizar el modelo de amenazas (escenario del adaptador de FTP)  
  Esta sección contiene los resultados del TMA del escenario del adaptador de FTP de la arquitectura de ejemplo.  
   
--   **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
+- **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
--   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.  
+- **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas del DFD para identificar posibles amenazas al escenario: **S**uplantación identificar, **T**lteración con los datos, **R**epudio, **me**ivulgación de información, **d.** enegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.  
   
- **Tabla 1: lista de amenazas identificadas**  
+  **Tabla 1: lista de las amenazas identificadas**  
   
-|Amenaza|Description|Asset|Impacto|  
+|Amenaza|Descripción|Asset|Impacto|  
 |------------|-----------------|-----------|------------|  
 |El protocolo FTP no está protegido|La contraseña y el Id. de usuario del protocolo FTP se envían como texto sin cifrar. Un usuario malintencionado podría realizar un seguimiento de la red para obtener acceso a las credenciales. Los datos están expuestos.|Credenciales de usuario|Suplantación de identidad<br /><br /> Manipulación de datos<br /><br /> Revelación de información|  
 |El servidor FTP está expuesto a ataques de servidores DHCP no autorizados.|Si el URI no contiene la contraseña del usuario pero está especificado en el controlador, la contraseña del controlador se está enviando actualmente al servidor FTP en el tiempo de ejecución. Si un servidor FTP deshonesto está escuchando las llamadas de autenticación, puede que se valga de este método para averiguar las contraseñas. Una posible solución es habilitar o deshabilitar el uso de la contraseña en el nivel del controlador.|Servidor FTP|Suplantación de identidad<br /><br /> Manipulación de datos<br /><br /> Revelación de información|  
   
 ## <a name="step-3-review-threats-ftp-adapter-scenario"></a>Paso 3. Analizar las amenazas (escenario del adaptador de FTP)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de FTP de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de FTP de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, hemos revisado las amenazas y usa el usan categorías para identificar el riesgo de cada amenaza afecta a la siguiente: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.  
   
- **Tabla 2 evaluación del riesgo de las amenazas identificadas**  
+ **Evaluación del riesgo de la tabla 2 para las amenazas identificadas**  
   
 |Amenaza|Impacto|Posibilidad del daño|Posibilidad de reproducir la amenaza|Posibilidad de que se aproveche|Usuarios afectados|Posibilidad de descubrir la amenaza|Exposición al riesgo|  
 |------------|------------|----------------------|---------------------|--------------------|--------------------|---------------------|-------------------|  
@@ -100,5 +100,5 @@ En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario d
   
 ## <a name="see-also"></a>Vea también  
  [Análisis de modelo de amenazas](../core/threat-model-analysis.md)   
- [Escenarios de ejemplo para el análisis de modelo de amenaza](../core/sample-scenarios-for-threat-model-analysis.md)   
+ [Escenarios de ejemplo para el análisis de modelo de amenazas](../core/sample-scenarios-for-threat-model-analysis.md)   
  [Arquitecturas de ejemplo para pequeñas y medianas empresas](../core/sample-architectures-for-small-medium-sized-companies.md)

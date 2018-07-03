@@ -1,5 +1,5 @@
 ---
-title: Asignar componentes | Documentos de Microsoft
+title: Asignar componentes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,26 +19,26 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 58a7555ff45d25c4e131b05b078c713f7a169687
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b1590ad1450453602b4dd5f25b2d52a4364787af
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262380"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996773"
 ---
 # <a name="map-components"></a>Componentes de asignaciones
 Los archivos de asignación (extensión .btm) almacenan la mayoría de los componentes de una asignación. Los elementos almacenados en el archivo incluyen:  
   
--   Referencias a los esquemas de origen y de destino  
+- Referencias a los esquemas de origen y de destino  
   
--   Vínculos, incluidas las propiedades de vínculos  
+- Vínculos, incluidas las propiedades de vínculos  
   
--   Functoids, con sus propiedades, como los parámetros de entrada  
+- Functoids, con sus propiedades, como los parámetros de entrada  
   
--   Otras propiedades varias, como las asociadas con la propia asignación y la cuadrícula.  
+- Otras propiedades varias, como las asociadas con la propia asignación y la cuadrícula.  
   
- Aunque el Asignador de BizTalk compila la asignación del archivo .btm en un archivo de Transformación de lenguaje de hojas de estilo extensible (XSLT), el XSLT no forma parte del archivo. El Asignador de BizTalk produce el XSLT para la asignación solo cuando se compila el proyecto o cuando se valida la asignación. El Asignador de BizTalk empaqueta el XSLT como parte del ensamblado del proyecto.  
+  Aunque el Asignador de BizTalk compila la asignación del archivo .btm en un archivo de Transformación de lenguaje de hojas de estilo extensible (XSLT), el XSLT no forma parte del archivo. El Asignador de BizTalk produce el XSLT para la asignación solo cuando se compila el proyecto o cuando se valida la asignación. El Asignador de BizTalk empaqueta el XSLT como parte del ensamblado del proyecto.  
   
 ## <a name="see-also"></a>Vea también  
  [Mapas](../core/maps.md)   
- [Crear asignaciones usando al asignador de BizTalk](../core/creating-maps-using-biztalk-mapper.md)
+ [Creación de mapas con el asignador de BizTalk](../core/creating-maps-using-biztalk-mapper.md)

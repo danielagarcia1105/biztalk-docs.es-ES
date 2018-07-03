@@ -1,5 +1,5 @@
 ---
-title: Mejoras de seguridad | Documentos de Microsoft
+title: Mejoras de seguridad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,15 +14,15 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78743f9ca2db47767bf30c2e08c8ab6733a788b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79f8ad85a1e17c020321d6b5f5bcd900bd4033dd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214060"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000909"
 ---
 # <a name="security-enhancements"></a>Mejoras de seguridad
-Cada paso de esta guía de implementación se ha diseñado como una implementación segura para su [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] instalación.  
+Cada paso de esta guía de implementación se ha diseñado como una implementación segura de su Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] instalación.  
   
  Para obtener más información acerca de la seguridad de A4SWIFT, consulte [estándares de seguridad y privacidad](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md).
   

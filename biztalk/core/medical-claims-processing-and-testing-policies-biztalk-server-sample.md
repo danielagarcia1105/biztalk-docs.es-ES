@@ -1,5 +1,5 @@
 ---
-title: Medical Claims Processing and Testing Policies (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Medical Claims Processing and Testing Policies (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,14 +15,14 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 70cba6055c51371ddaaf99775bd5e7a60e7f3929
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 8e67b9a631764ed83659b05aa11f4c1570484f74
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26007989"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994869"
 ---
-# <a name="medical-claims-processing-and-testing-policies-biztalk-server-sample"></a>Medical Claims directivas de procesamiento y pruebas (ejemplo de BizTalk Server)
+# <a name="medical-claims-processing-and-testing-policies-biztalk-server-sample"></a>Medical Claims Processing and Testing Policies (ejemplo de BizTalk Server)
 El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un conjunto de reglas compuesto por varias reglas que examinen hechos derivados de una tabla de la base de datos y del documento entrante, y que usan objetos basados en .NET para registrar los resultados del procesamiento de reclamaciones.  
   
  Este ejemplo muestra la ejecución integral del escenario de procesamiento de reclamaciones mediante una aplicación sencilla basada en .NET que usa el Motor de reglas de negocios para ejecutar un conjunto de reglas de reclamaciones médicas en las reclamaciones entrantes y determinar el estado (STATUS) de la reclamación y la razón (REASON) de dicho estado.  
@@ -46,18 +46,18 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
 6.  En caso contrario, aprueba la reclamación.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\  
+ \<*Ejemplos de la ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |Cleanup.bat|Se utiliza para anular la implementación de ensamblados y quitarlos de la caché de ensamblados global (GAC). Quita los puertos de envío y recepción. Quita los directorios virtuales de los Servicios de Microsoft Internet Information (IIS) según sea necesario.|  
 |Create_PolicyValidity_Table.sql|Secuencia de comandos SQL que agrega una tabla nueva con el nombre PolicyValidity a la base de datos de ejemplo Northwind.|  
 |Setup.bat|Se utiliza para crear e iniciar este ejemplo.|  
-|En la carpeta \Claims:<br /><br /> AssemblyInfo.cs, Claims.csproj, Claims.sln, Claims.cs|Proyectos, soluciones, origen y archivos relacionados para la parte de este ejemplo que registra el resultado de las notificaciones de procesamiento, denominan el **, a continuación,** parte de una regla.|  
+|En la carpeta \Claims:<br /><br /> AssemblyInfo.cs, Claims.csproj, Claims.sln, Claims.cs|Proyecto, solución, origen y archivos relacionados para la parte de este ejemplo que registra el resultado de las notificaciones de procesamiento, denominan el **, a continuación,** parte de una regla.|  
 |En la carpeta \FactRetrieverForClaimsProcessing:<br /><br /> AssemblyInfo.cs, FactRetrieverForClaimsProcessing.cs, FactRetrieverForClaimsProcessing.csproj, FactRetrieverForClaimsProcessing.sln|Archivos del proyecto, la solución, de origen y relacionados correspondientes a la parte de este ejemplo que proporciona el administrador de almacenes de datos a largo plazo que recupera información de la tabla PolicyValidity creada por este ejemplo.|  
-|En la carpeta \RulesForMedicalClaims:<br /><br /> App.ico, AssemblyInfo.cs, RulesForMedicalClaims.cs, RulesForMedicalClaims.csproj, RulesForMedicalClaims.sln|Proyectos, soluciones, origen y archivos relacionados para la parte de este ejemplo que constituye el ejecutable principal para este ejemplo (RulesForMedicalClaims.exe) y que mediante programación define y almacena el conjunto de reglas, construye datos de ejemplo y, a continuación, se ejecuta el conjunto de reglas mediante un **PolicyTester** objeto.|  
+|En la carpeta \RulesForMedicalClaims:<br /><br /> App.ico, AssemblyInfo.cs, RulesForMedicalClaims.cs, RulesForMedicalClaims.csproj, RulesForMedicalClaims.sln|Proyecto, solución, origen y archivos relacionados para la parte de este ejemplo que constituye el ejecutable principal para este ejemplo (RulesForMedicalClaims.exe) y que, mediante programación define y almacena el conjunto de reglas, construye datos de ejemplo y, a continuación, se ejecuta el conjunto de reglas mediante un **PolicyTester** objeto.|  
 |En la carpeta \RulesForMedicalClaims:<br /><br /> MedicalClaims.xsd|Archivo de esquema que define la estructura de las reclamaciones médicas de ejemplo enviadas a este ejemplo.|  
 |En la carpeta \RulesForMedicalClaims:<br /><br /> sampleClaim.xml|Archivo de entrada de ejemplo que se ajusta al esquema definido en el archivo MedicalClaims.xsd.|  
   
@@ -65,50 +65,50 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
   
 #### <a name="to-build-and-initialize-the-medical-claims-processing-and-testing-policies-sample"></a>Para crear e inicializar el ejemplo Medical Claims Processing and Testing Policies  
   
-1.  Asegúrese de que la base de datos Northwind esté instalada en el equipo.  
+1. Asegúrese de que la base de datos Northwind esté instalada en el equipo.  
   
-    > [!IMPORTANT]
-    >  Para ejecutar este ejemplo, debe tener la base de datos de ejemplo Northwind de SQL Server. [Descargar](https://www.microsoft.com/download/details.aspx?id=23654)e instalar. 
+   > [!IMPORTANT]
+   >  Para ejecutar este ejemplo, debe tener la base de datos de ejemplo Northwind de SQL Server. [Descargar](https://www.microsoft.com/download/details.aspx?id=23654)e instalar. 
   
-2.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+2. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\  
+    \<*Ejemplos de la ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
-3.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
+3. Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
-    -   Compila e implementa los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] correspondientes a este ejemplo, incluidos Claims.dll, FactRetrieverForClaimsProcessing.dll y RulesForMedicalClaims.dll.  
+   - Compila e implementa los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] correspondientes a este ejemplo, incluidos Claims.dll, FactRetrieverForClaimsProcessing.dll y RulesForMedicalClaims.dll.  
   
-    > [!NOTE]
-    >  Antes de intentar ejecutar este ejemplo, debe confirmar que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha informado de ningún error durante el proceso de generación e inicialización.  
+   > [!NOTE]
+   >  Antes de intentar ejecutar este ejemplo, debe confirmar que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha informado de ningún error durante el proceso de generación e inicialización.  
+   > 
+   > [!NOTE]
+   >  Si opta por abrir y crear los proyectos de este ejemplo sin ejecutar el archivo Setup.bat, debe crear primero un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice este par de claves para firmar los ensamblados resultantes.  
   
-    > [!NOTE]
-    >  Si opta por abrir y crear los proyectos en este ejemplo sin ejecutar el archivo Setup.bat, primero debe crear un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice este par de claves para firmar los ensamblados resultantes.  
+   - Ejecuta la secuencia de comandos SQL suministrada Create_PolicyValidity_Table.sql mediante el Analizador de consultas SQL. La secuencia de comandos crea la tabla, PolicyValidity, con dos filas de ejemplo en la base de datos de ejemplo Northwind. Esta tabla tiene dos columnas: ID y PolicyStatus.  
   
-    -   Ejecuta la secuencia de comandos SQL suministrada Create_PolicyValidity_Table.sql mediante el Analizador de consultas SQL. La secuencia de comandos crea la tabla, PolicyValidity, con dos filas de ejemplo en la base de datos de ejemplo Northwind. Esta tabla tiene dos columnas: ID y PolicyStatus.  
+   - Crea y enlaza los puertos de envío y recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    -   Crea y enlaza los puertos de envío y recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+   - Habilita la ubicación de recepción e inicia el puerto de envío.  
   
-    -   Habilita la ubicación de recepción e inicia el puerto de envío.  
+   - Da de alta e inicia la orquestación.  
   
-    -   Se da de alta e inicia la orquestación.  
-  
-    > [!NOTE]
-    >  Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
+   > [!NOTE]
+   >  Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
   
 ## <a name="running-this-sample"></a>Ejecución del ejemplo  
   
 #### <a name="to-run-the-medical-claims-processing-and-testing-policies-sample"></a>Para ejecutar el ejemplo Medical Claims Processing and Testing Policies  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
+    \<*Ejemplos de la ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
   
-2.  Ejecute el archivo RulesForMedicalClaims.exe en la línea de comandos.  
+2. Ejecute el archivo RulesForMedicalClaims.exe en la línea de comandos.  
   
-    > [!NOTE]
-    >  Puede cambiar los valores de los elementos individuales en el archivo de reclamaciones de ejemplo (sampleClaim.xml) y ejecutar el ejemplo varias veces. La lista que figura a continuación muestra los resultados previstos para los distintos valores de estos elementos.  
+   > [!NOTE]
+   >  Puede cambiar los valores de los elementos individuales en el archivo de reclamaciones de ejemplo (sampleClaim.xml) y ejecutar el ejemplo varias veces. La lista que figura a continuación muestra los resultados previstos para los distintos valores de estos elementos.  
   
- Los escenarios de resultados basados en las diversas combinaciones de valores en el archivo de reclamaciones de ejemplo enviado son:  
+   Los escenarios de resultados basados en las diversas combinaciones de valores en el archivo de reclamaciones de ejemplo enviado son:  
   
 -   En el caso de una reclamación cuyo importe supere los 1000 dólares, se obtiene el resultado siguiente:  
   
@@ -131,7 +131,7 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
     Reason:  Cannot submit claims for future dates!  
     ```  
   
--   Para una notificación con un Id. de directiva que no es válida (por ejemplo, si se cambia el **identificador** elemento tenga un valor de 2) debido a la expiración de la directiva, se obtiene el siguiente resultado:  
+-   Para una notificación con un identificador de directiva que no es válido (por ejemplo, cambiando el **ID** elemento tenga un valor de 2) debido a la expiración de la directiva, se obtiene el resultado siguiente:  
   
     ```  
     Sending to Renewal Department for Customer Smir with Policy # 2  
@@ -152,21 +152,21 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
 ## <a name="comments"></a>Comentarios  
  Los orígenes de los datos empleados en la evaluación del conjunto de reglas son:  
   
--   Un administrador de almacenes a largo plazo, una. Aplicación basada en red que implementa el **IFactReriever** la interfaz, se crea en la carpeta FactRetrieverForClaimsProcessing. La directiva de procesamiento de reclamaciones médicas lo emplea para recuperar datos (con forma de conjunto de datos) de la base de datos PolicyValidity y para la evaluación de las condiciones de las reglas.  
+- Un administrador de almacenes a largo plazo, una. Aplicación basada en red que implementa el **IFactReriever** interfaz, se crea en la carpeta FactRetrieverForClaimsProcessing. La directiva de procesamiento de reclamaciones médicas lo emplea para recuperar datos (con forma de conjunto de datos) de la base de datos PolicyValidity y para la evaluación de las condiciones de las reglas.  
   
--   La notificación está en forma de un documento XML que contiene la siguiente información almacenada en elementos hermanos: nombre, identificador, cantidad, noches y fecha.  
+- La notificación es en forma de un documento XML que contiene la siguiente información almacenada en elementos hermanos: nombre, identificador, cantidad, noches y fecha.  
   
--   UN ARCHIVO. Biblioteca de clases basado en la red (notificaciones), con un **ClaimResults** clase se utiliza para registrar el estado y el motivo de la reclamación mediante propiedades y para enviar una indicación (si la directiva no es válida) mediante la invocación de la **SendLeads** método con el identificador y el nombre como parámetros.  
+- UN OBJETO. Biblioteca de clases basado en la red (notificaciones), con un **ClaimResults** clase se utiliza para registrar el estado y el motivo de la reclamación mediante propiedades y para enviar una indicación (si la directiva no es válida) invocando el **SendLeads** método con ID y name como parámetros.  
   
- Según estos orígenes de los datos, se pueden describir de manera informal las reglas definidas para este escenario del siguiente modo:  
+  Según estos orígenes de los datos, se pueden describir de manera informal las reglas definidas para este escenario del siguiente modo:  
   
-1.  Comprobar si la reclamación entrante es válida. La reclamación no es válida si el importe supera el límite permitido para una reclamación, si la póliza ha vencido (verificado mediante la comprobación de la tabla de la base de datos), si el número de noches supera el límite máximo permitido y si se ha realizado la reclamación para una fecha en el futuro. Si se ha determinado que la reclamación no es válida, establecer los valores de STATUS y REASON de la reclamación de forma adecuada.  
+1. Comprobar si la reclamación entrante es válida. La reclamación no es válida si el importe supera el límite permitido para una reclamación, si la póliza ha vencido (verificado mediante la comprobación de la tabla de la base de datos), si el número de noches supera el límite máximo permitido y si se ha realizado la reclamación para una fecha en el futuro. Si se ha determinado que la reclamación no es válida, establecer los valores de STATUS y REASON de la reclamación de forma adecuada.  
   
-2.  Si el Id. de la póliza de la reclamación entrante ha vencido, enviar una indicación (con el Id. de la póliza y el nombre del cliente) al departamento de renovación de pólizas.  
+2. Si el Id. de la póliza de la reclamación entrante ha vencido, enviar una indicación (con el Id. de la póliza y el nombre del cliente) al departamento de renovación de pólizas.  
   
-3.  Si la reclamación es válida, establecer los valores de STATUS y REASON de la reclamación de forma adecuada.  
+3. Si la reclamación es válida, establecer los valores de STATUS y REASON de la reclamación de forma adecuada.  
   
- Una representación más formal de las reglas y sus enlaces de términos es la siguiente:  
+   Una representación más formal de las reglas y sus enlaces de términos es la siguiente:  
   
 -   **Regla 1. Comprobación de cantidad**  
   
@@ -183,7 +183,7 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
   
     ```  
   
--   **Regla 2. Noches pasadas en el hospital**  
+-   **Regla 2. Noches empleadas en el hospital**  
   
     ```  
     IF number of nights in the XML document is > 10  
@@ -213,7 +213,7 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
   
     ```  
   
--   **Regla 4. Validez de la póliza**  
+-   **Regla 4. Validez de la directiva**  
   
     ```  
     IF Policy is invalid for the ID in the XML claim (check database)  
@@ -228,7 +228,7 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
   
     ```  
   
--   **Regla 5. Responsable de ventas**  
+-   **Regla 5. Ventas potenciales**  
   
     ```  
     IF Claim.ClaimResults.Reason = "Policy invalid"  
