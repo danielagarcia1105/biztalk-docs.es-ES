@@ -1,5 +1,5 @@
 ---
-title: 'Paso 2: Crear e implementar el ejemplo X12 esquema | Documentos de Microsoft'
+title: 'Paso 2: Crear e implementar el ejemplo X12 esquema | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 57c95ac64637027b5d39699a42e8fac93c003697
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 671a2ce81946b2d2e4bd4125f8b236740f566f72
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974474"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968205"
 ---
 # <a name="step-2-create-and-deploy-the-sample-x12-schema"></a>Paso 2: Crear e implementar el ejemplo X12 esquema
 ![Paso 2 de 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")  
@@ -32,19 +32,19 @@ ms.locfileid: "25974474"
   
 ### <a name="to-create-and-deploy-the-sample-x12-schema"></a>Para crear e implementar el esquema X12 de ejemplo  
   
-1.  Iniciar **Microsoft Visual Studio** como administrador.  
+1. Iniciar **Microsoft Visual Studio** como administrador.  
   
-2.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra la solución [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Schemas\Schemas.sln.  
+2. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra la solución [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Schemas\Schemas.sln.  
   
-    > [!NOTE]
-    >  Este tema presupone que ya ha agregado una referencia de su aplicación a la aplicación EDI de BizTalk, que contiene esquemas, canalizaciones y orquestaciones EDI. Si no es así, consulte [cómo agregar una referencia a la aplicación EDI de BizTalk Server](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+   > [!NOTE]
+   >  Este tema presupone que ya ha agregado una referencia de su aplicación a la aplicación EDI de BizTalk, que contiene esquemas, canalizaciones y orquestaciones EDI. Si no, consulte [cómo agregar una referencia a la aplicación EDI de BizTalk Server](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
-3.  Haga clic en el proyecto de esquemas y, a continuación, haga clic en **propiedades**. Haga clic en el **firma** ficha en el Diseñador de proyectos. Compruebe el **firmar el ensamblado** casilla de verificación para **elegir un archivo de nombre de clave seguro**, seleccione  **\<nuevo... \>**  y escriba `Schemas.snk`. Desactive **proteger mi archivo de clave con una contraseña** y, a continuación, haga clic en **Aceptar**. Cierre el cuadro de diálogo de propiedades del proyecto y guarde los cambios.  
+3. Haga clic en el proyecto de esquemas y, a continuación, haga clic en **propiedades**. Haga clic en el **firma** ficha en el Diseñador de proyectos. Compruebe el **firmar el ensamblado** casilla de verificación para **elegir un archivo de nombre de clave seguro**, seleccione **\<nuevo... \>** y escriba `Schemas.snk`. Borrar **proteger mi archivo de clave con una contraseña** y, a continuación, haga clic en **Aceptar**. Cierre el cuadro de diálogo de propiedades del proyecto y guarde los cambios.  
   
-4.  Genere e implemente Schemas.btproj.  
+4. Genere e implemente Schemas.btproj.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
- Configurar un perfil de entidad y de negocio para su organización (Contoso), como se describe en [paso 3: configurar una entidad y perfil de negocio para su organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization2.md).  
+ Configurar un perfil de entidad y negocio para su organización (Contoso), como se describe en [paso 3: configuración de una entidad y perfil de negocio para su organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization2.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Esquemas de documentos EDI](../core/edi-document-schemas.md)

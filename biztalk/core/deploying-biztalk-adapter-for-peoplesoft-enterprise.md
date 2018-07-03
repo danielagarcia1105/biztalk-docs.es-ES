@@ -1,6 +1,6 @@
 ---
-title: Importar aplicaciones PeopleSoft | Documentos de Microsoft
-description: Usar un archivo de enlace XML para importar las aplicaciones de adaptador de PeopleSoft en BizTalk Server y leer todas las limitaciones al importar
+title: Importar aplicaciones PeopleSoft | Microsoft Docs
+description: Usar un archivo de enlace XML para importar las aplicaciones del adaptador de PeopleSoft en BizTalk Server y las limitaciones de lectura al importar
 ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed076bd238eff5106bb0b2f08449144d922fed4d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: d7ca4d0ecbfdb23e35797eb2ba3a704fe19f4cec
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25970826"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972717"
 ---
 # <a name="deploy-biztalk-adapter-for-peoplesoft-enterprise"></a>Implementar el adaptador de BizTalk para PeopleSoft Enterprise
 Esta sección proporciona información acerca de la implementación del adaptador de BizTalk para PeopleSoft Enterprise.  
@@ -28,13 +28,13 @@ Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
   
  Utilice [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para realizar las siguiente tareas:  
   
--   Implementar o quitar los ensamblados de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una base de datos de configuración de BizTalk  
+- Implementar o quitar los ensamblados de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una base de datos de configuración de BizTalk  
   
--   Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
+- Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
   
--   Importar o exportar información de enlace de ensamblado de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde archivos de enlace o a archivos de enlace.  
+- Importar o exportar información de enlace de ensamblado de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde archivos de enlace o a archivos de enlace.  
   
-Usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
+Para usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
   
 > [!NOTE]
 >  El adaptador de Microsoft BizTalk para PeopleSoft Enterprise solo necesita que tenga Visual Studio en un equipo de origen (desarrollo). Visual Studio no es necesario en el equipo de producción.  
@@ -42,19 +42,19 @@ Usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
 ## <a name="confirm-your-setup"></a>Confirme la configuración
 Antes de usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para importar un archivo de enlace, compruebe lo siguiente:  
   
--   CLASSPATH apunta a una ubicación concreta para los archivos específicos de PeopleSoft. Compruebe que la ubicación de estos archivos es el mismo en el nuevo equipo, o editar el archivo de enlace.  
+-   CLASSPATH apunta a una ubicación concreta para los archivos específicos de PeopleSoft. Compruebe que la ubicación de estos archivos es el mismo en el equipo nuevo, o editar el archivo de enlace.  
   
 -   Las carpetas para las respuestas deben existir y ser idénticas en el equipo nuevo, o editar el archivo de enlace.  
   
--   Las contraseñas del sistema PeopleSoft Enterprise, si están presentes en la configuración, se guardan como ***** en el archivo de enlace. Vea **limitaciones** en este tema.
+-   Las contraseñas del sistema PeopleSoft Enterprise, si están presentes en la configuración, se guardan como ***** en el archivo de enlace. Consulte **limitaciones** en este tema.
 
 > [!NOTE]
 >  La implementación sobrescribe la configuración de la ubicación de recepción. Al implementar un archivo de enlace y un ensamblado en un equipo de destino, los puertos de envío y las ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se importan.  
   
- Para obtener instrucciones paso a paso acerca de cómo importar archivos de enlace, vea [cómo importar enlaces en un grupo de BizTalk](../core/how-to-import-bindings-into-a-biztalk-group.md). 
+ Para obtener instrucciones paso a paso sobre cómo importar archivos de enlace, consulte [cómo importar enlaces a un grupo de BizTalk](../core/how-to-import-bindings-into-a-biztalk-group.md). 
   
 ## <a name="clean-the-target-computer"></a>Limpiar el equipo de destino
-Para limpiar el equipo de destino para la implementación de la nueva aplicación, quite los puertos de envío y ubicaciones de recepción vinculadas a la orquestación.  
+Para limpiar el equipo de destino para la implementación de la nueva aplicación, quite los puertos de envío y ubicaciones de recepción enlazada a la orquestación.  
   
 Si Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no está instalado en el equipo de destino, puede ejecutar estos scripts para quitar los puertos:  
   
@@ -76,17 +76,17 @@ La contraseña del adaptador de transporte se almacena como asteriscos (*) en el
 
 ### <a name="work-around-the-password-limitation"></a>Evitar la limitación de contraseña  
 
-**opción 1**   
+**Opción 1**   
   
--   Antes de importar, actualice el archivo de enlace reemplazando los asteriscos por texto sin formato.  
+- Antes de importar, actualice el archivo de enlace al reemplazar los asteriscos por texto sin formato.  
   
-    > [!CAUTION]
-    >  No se recomienda por motivos de seguridad.  
+  > [!CAUTION]
+  >  Esta práctica no se recomienda por motivos de seguridad.  
   
--   Antes de importar, actualice el fileby enlace reemplace los asteriscos por un valor aleatorio (es decir, no la contraseña correcta). Después de importar, escriba la contraseña correcta en el **propiedades de transporte** en administración de BizTalk Server.  
+- Antes de importar, actualice el fileby enlace reemplace los asteriscos por un valor aleatorio (es decir, no la contraseña correcta). Después de importar, escriba la contraseña correcta en el **propiedades de transporte** en administración de BizTalk Server.  
   
-    > [!NOTE]
-    >  Esta solución solo puede utilizarse si Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] se encuentra instalado en el equipo de destino o si se desarrolla una herramienta personalizada.  
+  > [!NOTE]
+  >  Esta solución solo puede utilizarse si Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] se encuentra instalado en el equipo de destino o si se desarrolla una herramienta personalizada.  
   
 **Opción 2**  
   

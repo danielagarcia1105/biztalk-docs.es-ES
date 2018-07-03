@@ -1,5 +1,5 @@
 ---
-title: Cómo auditar SSO | Documentos de Microsoft
+title: Cómo auditar SSO | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,14 +17,14 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 27528cf6da53c69db4b2bc6c9e1d296472b24186
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 9363df166e438aba0db89cbadd0d688c7d353a0e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "25969506"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972085"
 ---
-# <a name="how-to-audit-sso"></a>Cómo auditar SSO
+# <a name="how-to-audit-sso"></a>Cómo auditar el inicio de sesión único
 Puede utilizar el Complemento MMC o la línea de comandos para establecer los niveles de auditoría positivo y negativo. Los resultados de la auditoría se almacenan tanto en los registros de sucesos como en los de auditoría de la base de datos.  
   
  Los administradores de SSO pueden establecer niveles de auditoría positivos y negativos que se ajusten a sus directivas corporativas. Puede establecer auditorías positivas y negativas en uno de los niveles siguientes:  
@@ -56,11 +56,11 @@ Puede utilizar el Complemento MMC o la línea de comandos para establecer los ni
   
 1.  En el **iniciar** menú, haga clic en **todos los programas**, haga clic en **Microsoft Enterprise Single Sign-On**y, a continuación, haga clic en **administración de SSO**.  
   
-2.  En el panel de ámbito, el complemento MMC de ENTSSO, expanda la **Enterprise Single Sign-On** nodo.  
+2.  En el panel de ámbito del complemento MMC de ENTSSO, expanda el **Enterprise Single Sign-On** nodo.  
   
-3.  Haga clic en **System**y, a continuación, haga clic en **propiedades**.  
+3.  Haga clic en **sistema**y, a continuación, haga clic en **propiedades**.  
   
-4.  En el **propiedades del sistema** cuadro de diálogo, haga clic en el **auditorías** ficha.  
+4.  En el **las propiedades del sistema** cuadro de diálogo, haga clic en el **auditorías** ficha.  
   
 5.  Especifique la configuración adecuada y haga clic en **Aceptar**.  
   
@@ -70,21 +70,21 @@ Puede utilizar el Complemento MMC o la línea de comandos para establecer los ni
   
 2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssoconfig – auditlevel \<positivo\>\<negativo\>**, donde **\<positivo\>** es el nivel de Cuando las acciones se realizan correctamente, la auditoría y **\<negativo\>** es el nivel de auditoría cuando haya un error de acciones.  
+3.  Tipo **ssoconfig-auditlevel \<positivo\>\<negativo\>**, donde **\<positivo\>** es el nivel de Cuando las acciones se realizan correctamente, la auditoría y **\<negativo\>** es el nivel de auditoría de las acciones no.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 ### <a name="to-audit-the-sso-database"></a>Para auditar la base de datos de SSO  
   
-1.  Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
+1. Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2. En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage-updatedb \<archivo de actualización\>**, donde  **\<archivo de actualización\>** es la ruta de acceso y nombre del archivo.  
+3. Tipo **ssomanage – updatedb \<archivo de actualización\>**, donde  <strong>\<archivo de actualización\></strong>es la ruta de acceso y nombre del archivo.  
   
-    > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+   > [!NOTE]
+   >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo actualizar la base de datos SSO](../core/how-to-update-the-sso-database.md)   

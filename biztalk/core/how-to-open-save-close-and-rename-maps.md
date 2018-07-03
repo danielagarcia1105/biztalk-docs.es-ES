@@ -1,5 +1,5 @@
 ---
-title: Cómo abrir, guardar, cerrar y cambiar el nombre de los mapas | Documentos de Microsoft
+title: Cómo abrir, guardar, cerrar y cambiar el nombre de asignaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9383dd3751f9ccdd7790b0215e596eba95dc4a45
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 4a95ba8e22baa10a0b47721b8a8b3eb3554e2b8a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25973170"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968765"
 ---
 # <a name="how-to-open-save-close-and-rename-maps"></a>Cómo abrir, guardar, cerrar y cambiar el nombre de asignaciones
 En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], las asignaciones existen como archivos en el sistema de archivos con la extensión .btm. No obstante, es mucho más habitual trabajar con asignaciones como elementos de un proyecto de BizTalk, desde el que lleva a cabo operaciones como abrir, guardar y cerrar asignaciones.  
@@ -26,18 +26,18 @@ En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 1.  En el Explorador de soluciones, seleccione la asignación que desea abrir.  
   
-2.  En el **vista** menú, haga clic en **abiertos**.  
+2.  En el **vista** menú, haga clic en **abierto**.  
   
      Se abre la asignación en el Asignador de BizTalk.  
   
     > [!NOTE]
-    >  Puede también haga clic en la asignación en el Explorador de soluciones y, a continuación, haga clic en **abiertos**, o simplemente haga doble clic en la asignación en el Explorador de soluciones.  
+    >  Puede también haga clic en el mapa en el Explorador de soluciones y, a continuación, haga clic en **abierto**, o simplemente haga doble clic en el mapa en el Explorador de soluciones.  
   
 ### <a name="to-save-a-map"></a>Para guardar una asignación  
   
-1.  En el Explorador de soluciones, seleccione la asignación que desea guardar.  
+1. En el Explorador de soluciones, seleccione la asignación que desea guardar.  
   
-2.  En el **archivo** menú, haga clic en ** Guardar *\<de asignación de nombre de\>***.  
+2. En el **archivo** menú, haga clic en ** Guardar *\<de asignación de nombre\>***.  
   
 ### <a name="to-save-a-map-to-a-new-location"></a>Para guardar una asignación en una nueva ubicación  
   
@@ -50,25 +50,25 @@ En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
 4.  En el **nombre de archivo** , escriba un nombre para el archivo y, a continuación, haga clic en **guardar**.  
   
     > [!IMPORTANT]
-    >  No utilice los siguientes nombres para asignaciones: "XmlContent", "SourceSchemas", "TargetSchemas" o "XsltArgumentListContent"; por lo tanto, al hacerlo se producirán problemas de compilación en el código C# generado en el ensamblado .NET correspondiente. Para obtener información acerca de problemas y su solución, vea [solución de problemas de mapas](../core/troubleshooting-maps.md).  
+    >  No use los siguientes nombres para los mapas: "XmlContent", "SourceSchemas", "TargetSchemas" o "XsltArgumentListContent"; hacerlo provocará problemas de compilación en el código C# generado en el ensamblado .NET correspondiente. Para obtener información acerca de problemas y su resolución, consulte [solución de problemas de mapas](../core/troubleshooting-maps.md).  
   
 ### <a name="to-rename-a-map"></a>Para cambiar el nombre de una asignación  
   
-1.  En el Explorador de soluciones, haga clic en la asignación que desea cambiar y, a continuación, haga clic en **cambiar el nombre de**.  
+1.  En el Explorador de soluciones, haga clic en el mapa que desea cambiar y, a continuación, haga clic en **cambiar el nombre**.  
   
 2.  En el cuadro de edición que aparece en la ubicación de la asignación en el Explorador de soluciones, escriba el nuevo nombre de la asignación o modifique el existente y, a continuación, presione ENTRAR.  
   
 > [!NOTE]
->  También puede cambiar la **nombre de tipo** del mapa cuando se cambia el nombre. Cambia el **nombre de tipo** seleccionando el **mapa** en el Explorador de soluciones y escribiendo el nuevo nombre en el **nombre de tipo** en la ventana Propiedades.  
+>  También puede cambiar el **nombre de tipo** del mapa cuando se cambia el nombre. Cambia el **nombre de tipo** seleccionando el **mapa** en el Explorador de soluciones y escribiendo el nuevo nombre en el **nombre de tipo** en la ventana Propiedades.  
   
 #### <a name="to-close-a-map"></a>Para cerrar una asignación  
   
-1.  En el Explorador de soluciones, seleccione la asignación que desea cerrar.  
+1. En el Explorador de soluciones, seleccione la asignación que desea cerrar.  
   
-2.  En el menú **Archivo** , haga clic en **Cerrar**.  
+2. En el menú **Archivo** , haga clic en **Cerrar**.  
   
-    > [!NOTE]
-    >  También puede hacer clic en el icono Cerrar ([**x**]) en la esquina superior derecha de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana de edición.  
+   > [!NOTE]
+   >  También puede hacer clic en el icono Cerrar ([**x**]) en la esquina superior derecha de la Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana de edición.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de asignaciones en proyectos](../core/managing-maps-within-projects.md)

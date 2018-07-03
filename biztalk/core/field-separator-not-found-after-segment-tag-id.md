@@ -1,5 +1,5 @@
 ---
-title: Separador de campos no se encuentra después de Id. de etiqueta de segmento | Documentos de Microsoft
+title: Separador de campos no se encuentra después del Id. de etiqueta de segmento | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 818a061cd723c0d8f8c58570c9e6df94a670942b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82511305a9df96af2bfafe81ce41fb0eaf9ab604
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22245940"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965789"
 ---
 # <a name="field-separator-not-found-after-segment-tag-id"></a>No se encontró el separador de campos después del Id. de etiqueta de segmento.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12SeFsNotFoundAfterTagIdDescription|  
-|Texto del mensaje|No se encontró el separador de campos después del Id. de etiqueta de segmento.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                          X12SeFsNotFoundAfterTagIdDescription                          |
+|  Texto del mensaje   |                     No se encontró el separador de campos después del Id. de etiqueta de segmento.                     |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque el intercambio contenía un segmento que incluía un identificador de segmento sin separador de elementos de datos situado inmediatamente a continuación.  

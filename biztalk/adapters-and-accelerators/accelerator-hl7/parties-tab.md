@@ -1,6 +1,6 @@
 ---
-title: Pestaña de entidades en el Acelerador para HL7 en BizTalk Server | Documentos de Microsoft
-description: Use el Explorador de configuración de BTAHL7 para ver entidades existentes y configurar confirmaciones de BizTalk Server
+title: Ficha partes en el Acelerador de HL7 en BizTalk Server | Microsoft Docs
+description: Utilice el Explorador de configuración de BTAHL7 para ver las entidades existentes y configurar las confirmaciones en BizTalk Server
 ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
@@ -13,49 +13,49 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8d8572da051d046d46b6e895f11f07d3f9d9771c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b048cccdcc46f4713967003c81671e062420377
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206140"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976317"
 ---
 # <a name="parties-in-btahl7-configuration-explorer"></a>Partes en el Explorador de configuración de BTAHL7
-Usa el **partes** ficha para ver las partes disponibles y especificar [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuración para una entidad determinada que elija y para configurar las propiedades para las confirmaciones. 
+Usa el **partes** pestaña para ver las partes disponibles y especificar [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuración para una entidad determinada que elija y para configurar las propiedades de las confirmaciones. 
 
-## <a name="parties-ui-explained"></a>Explican las partes de interfaz de usuario
-El **partes** pestaña contiene un panel izquierdo y derecho. Las entidades disponibles aparecen en el panel izquierdo. El panel derecho contiene las siguientes pestañas para la entidad seleccionada:  
+## <a name="parties-ui-explained"></a>Explican las partes de la interfaz de usuario
+El **partes** ficha contiene el panel izquierdo y derecho. Las partes disponibles aparecen en el panel izquierdo. El panel derecho contiene las siguientes pestañas para la entidad seleccionada:  
   
--   **Alias de entidad**. Utilice esta ficha para ver información acerca de la entidad que ha seleccionado en el panel izquierdo.  
+- **Alias de entidad**. Utilice esta pestaña para ver información acerca de la entidad que ha seleccionado en el panel izquierdo.  
   
-    > [!NOTE]
-    >  Utilice el Explorador de BizTalk para crear entidades.  
+  > [!NOTE]
+  >  Utilice el Explorador de BizTalk para crear entidades.  
   
--   **Procesar por lotes definición**. Use esta ficha para configurar [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] procesamiento por lotes.  
+- **Definición de lote**. Use esta ficha para configurar [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] procesamiento por lotes.  
   
--   **Procesar por lotes programación**. Utilice esta ficha para activar los lotes salientes.  
+- **Programación de batch**. Use esta ficha para activar los lotes salientes.  
   
--   **Confirmación**. Utilice esta ficha para especificar las propiedades de confirmaciones entrantes y generadas.  
+- **Confirmación**. Use esta ficha para especificar las propiedades de las confirmaciones entrantes y generadas.  
   
--   **Validación**. Use esta ficha para seleccionar las opciones de validación de mensajes para mensajes entrantes y generados.  
+- **Validación**. Use esta ficha para seleccionar las opciones de validación de mensajes para mensajes entrantes y generados.  
   
--   **Mapa de MSH**. Use esta ficha para habilitar las transformaciones de encabezado de mensaje para los mensajes entrantes.  
+- **Asignación de MSH**. Use esta ficha para habilitar las transformaciones de encabezado de mensaje para los mensajes entrantes.  
   
-    > [!NOTE]
-    >  Debe configurar alias de entidad, las definiciones de lote, programaciones de lote e información de confirmación para todas las entidades comerciales.  
-    > 
-    >  Puede actualizar la lista de entidades presionando F5 o haciendo clic en la lista de entidades y seleccione **actualizar**.  
+  > [!NOTE]
+  >  Debe configurar los alias de entidad, las definiciones de batch, batch programa y la información de confirmación para todas las entidades comerciales.  
+  > 
+  >  Puede actualizar la lista de entidades, presione F5 o hace doble clic en la lista de entidades y seleccione **actualizar**.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
   
--   [Pestaña de alias de entidad](../../adapters-and-accelerators/accelerator-hl7/party-aliases-tab.md)  
+-   [Pestaña de los alias de entidad](../../adapters-and-accelerators/accelerator-hl7/party-aliases-tab.md)  
   
--   [Pestaña de la definición de proceso por lotes](../../adapters-and-accelerators/accelerator-hl7/batch-definition-tab.md)  
+-   [Pestaña definición de lote](../../adapters-and-accelerators/accelerator-hl7/batch-definition-tab.md)  
   
--   [Ficha de programación por lotes](../../adapters-and-accelerators/accelerator-hl7/batch-schedule-tab.md)  
+-   [Pestaña programación por lotes](../../adapters-and-accelerators/accelerator-hl7/batch-schedule-tab.md)  
   
--   [Ficha de confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-tab.md)  
+-   [Pestaña confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-tab.md)  
   
--   [Ficha validación](../../adapters-and-accelerators/accelerator-hl7/validation-tab.md)  
+-   [Pestaña validación](../../adapters-and-accelerators/accelerator-hl7/validation-tab.md)  
   
 -   [Pestaña asignación de MSH](../../adapters-and-accelerators/accelerator-hl7/msh-map-tab.md)

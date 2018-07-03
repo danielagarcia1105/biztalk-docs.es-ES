@@ -1,5 +1,5 @@
 ---
-title: Obtener metadatos de base de datos de Oracle mediante IMetadataRetrievalContract | Documentos de Microsoft
+title: Obtener metadatos de base de datos de Oracle mediante IMetadataRetrievalContract | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,44 +14,44 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 132ad3f64d377a3bfcbf7b1b2303e1c0de0c612f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b9510c7ae534251218826a31eea1cc39c8d1f139
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22218204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977997"
 ---
 # <a name="get-metadata-in-oracle-database-using-imetadataretrievalcontract"></a>Obtener metadatos de base de datos de Oracle mediante IMetadataRetrievalContract
-El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un **IMetadataRetrievalContract**punto de conexión que puede usar para examinar y buscar artefactos de base de datos de Oracle y para recuperar los metadatos para las operaciones en el formulario de una descripción de servicios de Web Language (WSDL ) documento.  
+El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un **IMetadataRetrievalContract**punto de conexión que puede usar para examinar y buscar artefactos de base de datos de Oracle y recuperar metadatos para las operaciones en forma de una descripción de servicios de Web Language (WSDL ) documento.  
   
- El **IMetadataRetrievalContract** interfaz se implementa mediante el [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] y proporciona capacidades de exploración, búsqueda y recuperación de metadatos. Además el **IMetadataRetrievalContract** interfaz, el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] expone la **MetadataRetrievalClient** (clase), que implementa la interfaz. Puede usar un **IMetadataRetrievalContract** canal o **MetadataRetrievalClient** para trabajar con metadatos; los métodos expuestos para examinar, buscar y recuperar metadatos son iguales en cada caso.  
+ El **IMetadataRetrievalContract** interfaz se implementa mediante el [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] y proporciona funcionalidades de exploración, búsqueda y recuperación de metadatos. Además el **IMetadataRetrievalContract** interfaz, el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] expone el **MetadataRetrievalClient** (clase), que implementa la interfaz. Puede usar un **IMetadataRetrievalContract** canal o un **MetadataRetrievalClient** para trabajar con metadatos; los métodos expuestos a examinar, buscar y recuperar metadatos son los mismos en cada caso.  
   
  Las secciones siguientes proporcionan información sobre cómo usar el **IMetadataRetrievalContract** interfaz.  
   
-## <a name="the-imetadataretrievalcontract-interface"></a>La interfaz de IMetadataRetrievalContract  
- En la tabla siguiente proporciona información acerca de las clases importantes que se utilizan cuando se trabaja con el **IMetadataRetrievalContract** interfaz.  
+## <a name="the-imetadataretrievalcontract-interface"></a>La interfaz IMetadataRetrievalContract  
+ En la tabla siguiente proporciona información sobre las clases importantes que se usan al trabajar con el **IMetadataRetrievalContract** interfaz.  
   
-|Clase o interfaz|Description|  
+|Clase o interfaz|Descripción|  
 |------------------------|-----------------|  
-|**IMetadataRetrievalContract** (interfaz)<br /><br /> (Microsoft.ServiceModel.Channels)|Define la **examinar**, **búsqueda**, y **GetMetadata** métodos. Invocar estos métodos mediante un **IMetadataRetrievalContract** canal o **MetadataRetrievalClient** para trabajar con metadatos de adaptador.|  
-|**MetadataRetrievalClient** (clase)<br /><br /> (Microsoft.ServiceModel.Channels)|Implementa el **IMetadataRetrievalContract** interfaz. Puede crear una instancia de esta clase y configurarlo para la base de datos de Oracle, proporcionando un **OracleDBBinding** y **EndpointAddress**. A continuación, puede invocar sus métodos para trabajar con metadatos.|  
-|**MetadataRetrievalNode** (clase)<br /><br /> (Microsoft.ServiceModel.Channels)|Representa un nodo de metadatos en el adaptador. El **examinar** y **búsqueda** métodos devuelven nodos de este tipo y el **GetMetadata** método toma los nodos de este tipo como parámetro.|  
-|**ServiceDescription** (clase)<br /><br /> (System.Web.Services.Description)|Proporciona un medio para crear y dar formato a un archivo de documento WSDL válido. El **GetMetadata** método devuelve un **ServiceDescription** objeto.|  
+|**IMetadataRetrievalContract** interfaz<br /><br /> (Microsoft.ServiceModel.Channels)|Define el **examinar**, **búsqueda**, y **GetMetadata** métodos. Invocar estos métodos mediante un **IMetadataRetrievalContract** canal o un **MetadataRetrievalClient** para trabajar con metadatos de adaptador.|  
+|**MetadataRetrievalClient** clase<br /><br /> (Microsoft.ServiceModel.Channels)|Implementa el **IMetadataRetrievalContract** interfaz. Puede crear una instancia de esta clase y configurarlo para la base de datos de Oracle proporcionando un **OracleDBBinding** y un **EndpointAddress**. A continuación, puede invocar sus métodos para trabajar con metadatos.|  
+|**MetadataRetrievalNode** clase<br /><br /> (Microsoft.ServiceModel.Channels)|Representa un nodo de metadatos en el adaptador. El **examinar** y **búsqueda** métodos devuelven nodos de este tipo y el **GetMetadata** método toma los nodos de este tipo como parámetro.|  
+|**ServiceDescription** clase<br /><br /> (System.Web.Services.Description)|Proporciona un medio para crear y dar formato a un archivo de documento WSDL válido. El **GetMetadata** método devuelve un **ServiceDescription** objeto.|  
   
  
 ### <a name="metadata-node-ids"></a>Identificadores de nodo de metadatos  
  El adaptador organiza sus metadatos como un árbol jerárquico de nodos. Dentro de esta estructura de árbol hay dos tipos de nodos de metadatos:  
   
--   **Nodos de operación** representan las operaciones que el adaptador de superficies de artefactos de base de datos de Oracle. Nodos de operaciones son las hojas de árbol.  
+- **Los nodos de la operación** representan las operaciones que expone el adaptador en artefactos de la base de datos de Oracle. Los nodos de operación son las hojas del árbol.  
   
--   **Nodos CATEGORY** representan artefactos de base de datos de Oracle y agrupaciones de artefactos de base de datos de Oracle que no se corresponden directamente a una operación en el adaptador. Nodos de categoría son las ramas del árbol; Estas notas contienen otros nodos de categoría o en nodos de la operación. Por ejemplo, los paquetes y las tablas de Oracle se representan como nodos de categoría.  
+- **Nodos CATEGORY** representan artefactos de base de datos de Oracle y las agrupaciones de los artefactos de la base de datos de Oracle que no corresponden directamente a una operación en el adaptador. Nodos de categoría son las ramas del árbol; contienen otros nodos de la categoría o en nodos de la operación. Por ejemplo, paquetes y las tablas de Oracle se representan como nodos de categoría.  
   
- Cada nodo de metadatos obtenida por el adaptador se identifica mediante un identificador de nodo único. Para obtener más información acerca de los identificadores obtenidas por el adaptador de nodo de metadatos, vea [identificadores de nodo de metadatos](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md). Utilizar estos identificadores de nodo para especificar los artefactos de base de datos de Oracle de destino cuando se utiliza el **IMetadataRetrievalContract** interfaz para examinar, buscar y recuperar los metadatos.  
+  Cada nodo de metadatos obtenida por el adaptador se identifica mediante un identificador de nodo único. Para obtener más información acerca del nodo de metadatos identificadores obtenidos por el adaptador, vea [identificadores de nodo de metadatos](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md). Utilice estos identificadores de nodo para especificar los artefactos de base de datos de Oracle de destino cuando se usa el **IMetadataRetrievalContract** interfaz para examinar, buscar y recuperar los metadatos.  
   
 ### <a name="binding-properties"></a>Propiedades de enlace  
- Si utiliza un **IMetadataRetrievalContract** canal o **IMetadataRetrievalClient** para trabajar con metadatos, debe especificar un **OracleDBBinding** cuando se crear la instancia.  
+ Si usa un **IMetadataRetrievalContract** canal o un **IMetadataRetrievalClient** para trabajar con metadatos, debe especificar un **OracleDBBinding** cuando le Cree la instancia.  
   
- Hay varias propiedades de enlace que afectan al modo en que el adaptador genera los metadatos. Estas propiedades son:  
+ Hay varias propiedades de enlace que afectan a cómo el adaptador genera metadatos. Estas propiedades son:  
   
 -   **EnableSafeTyping**  
   
@@ -60,12 +60,12 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un **IMe
 -   **PollingStatement**  
   
 > [!IMPORTANT]
->  Si desea recuperar los metadatos de la operación de POLLINGSTMT debe establecer el **PollingStatement** propiedad de enlace.  
+>  Si desea recuperar los metadatos de la operación POLLINGSTMT debe establecer el **PollingStatement** enlaza la propiedad.  
   
- Debe asegurarse de que estas propiedades de enlace se establecen en los valores necesarios para la aplicación antes de abrir el objeto de recuperación de metadatos. Para obtener más información sobre la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] propiedades de enlace, consulte [leer acerca de las propiedades de enlace del adaptador de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).  
+ Debe asegurarse de que se establecen estas propiedades de enlace en los valores necesarios para la aplicación antes de abrir el objeto de recuperación de metadatos. Para obtener más información sobre la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] las propiedades de enlace, consulte [Obtenga información sobre las propiedades de enlace del adaptador de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).  
   
-### <a name="browsing-metadata-nodes"></a>Exploración de nodos de metadatos  
- Usa el **examinar** método para devolver todos los nodos de metadatos que se encuentran en un nodo primario. En el ejemplo siguiente se examina para los tres primeros esquemas en la base de datos de Oracle. En este ejemplo, **cliente** es una instancia de **MetadataRetrievalClient**.  
+### <a name="browsing-metadata-nodes"></a>Exploración de los nodos de metadatos  
+ Usa el **examinar** método para devolver todos los nodos de metadatos que se encuentran en un nodo primario. El ejemplo siguiente se examinan para los tres primeros esquemas en la base de datos de Oracle. En este ejemplo, **cliente** es una instancia de **MetadataRetrievalClient**.  
   
 ```  
 // The first parameter is the node ID.   
@@ -75,10 +75,10 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un **IMe
 ```  
   
 > [!IMPORTANT]
->  Solo puede buscar nodos category; no puede explorar los nodos de la operación.  
+>  Solo puede buscar nodos categoría; no puede explorar los nodos de la operación.  
   
-### <a name="searching-for-metadata-nodes"></a>Búsquedas de nodos de metadatos  
- Usa el **búsqueda** método para realizar una búsqueda de nodos incluidos en un nodo primario. El adaptador admite caracteres comodín en expresiones de búsqueda; Por ejemplo, puede especificar el porcentaje (%) carácter comodín para buscar coincidencias con cero o más caracteres. En el ejemplo siguiente se muestra una búsqueda de todas las tablas en el esquema SCOTT que contengan la cadena "EMP". En este ejemplo, **cliente** es una instancia de **MetadataRetrievalClient**.  
+### <a name="searching-for-metadata-nodes"></a>Buscar los nodos de metadatos  
+ Usa el **búsqueda** método para realizar una búsqueda de nodos contenidos en un nodo primario. El adaptador admite caracteres comodín en las expresiones de búsqueda; Por ejemplo, puede especificar el porcentaje (%) carácter comodín para buscar coincidencias con cero o más caracteres. El ejemplo siguiente muestra una búsqueda de todas las tablas en el esquema SCOTT que contengan la cadena "EMP". En este ejemplo, **cliente** es una instancia de **MetadataRetrievalClient**.  
   
 ```  
 // Search for all nodes that contain "EMP" under the SCOTT.Table node.  
@@ -89,10 +89,10 @@ IMetadataRetrievalNode[] nodes = client.Search("http://Microsoft.LobServices.Ora
 ```  
   
 > [!IMPORTANT]
->  Solo se admite la búsqueda en un conjunto limitado de nodos. Para obtener más información acerca de los nodos en el que se admite la búsqueda y los caracteres comodín que se admiten en expresiones de búsqueda, vea [identificadores de nodo de metadatos](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md).  
+>  Solo se admite la búsqueda en un conjunto limitado de nodos. Para obtener más información acerca de los nodos en el que se admite la búsqueda y los caracteres comodín admitidos en expresiones de búsqueda, vea [identificadores de nodo de metadatos](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md).  
   
 ### <a name="retrieving-metadata-wsdl-for-operations"></a>Recuperación de metadatos (WSDL) para las operaciones  
- Usa el **GetMetadata** método para recuperar una descripción de servicio (documento WSDL) para un grupo de nodos de la operación. En el ejemplo siguiente se recupera una descripción de servicio que contiene todas las operaciones que el adaptador de superficies para el SCOTT. Tabla EMP especificando su identificador de nodo. En este ejemplo, **cliente** es una instancia de **MetadataRetrievalClient**.  
+ Usa el **GetMetadata** método para recuperar una descripción del servicio (documento WSDL) para un grupo de nodos de la operación. El ejemplo siguiente recupera una descripción del servicio que contiene todas las operaciones que expone el adaptador para la SCOTT. Tabla EMP especificando su identificador de nodo. En este ejemplo, **cliente** es una instancia de **MetadataRetrievalClient**.  
   
 ```  
 // Get a service description that contains all of the operations   
@@ -110,17 +110,17 @@ System.Web.Services.Description.ServiceDescription description = client.GetMetad
 >  El **IsOperation** propiedad debe ser false para los nodos de categoría y true para los nodos de la operación.  
   
 ### <a name="using-a-metadataretrievalclient"></a>Uso de un MetadataRetrievalClient  
- Crear y usar un **MetadataRetrievalClient** es igual que cualquier otro cliente WCF. Crear el cliente mediante la especificación de un punto de conexión y una instancia de **OracleDBBinding**. Puede hacerlo mediante declaración en configuración o de forma imperativa en el código. A continuación, invocar los métodos de la **MetadataRetrievalClient** para examinar, buscar y recuperar metadatos desde el adaptador.  
+ Crear y usar un **MetadataRetrievalClient** es igual que cualquier otro cliente WCF. Crear el cliente mediante la especificación de un punto de conexión y una instancia de **OracleDBBinding**. Puede hacerlo mediante declaración en configuración o de forma imperativa en el código. A continuación, invoque los métodos de la **MetadataRetrievalClient** para examinar, buscar y recuperar metadatos desde el adaptador.  
   
- En el ejemplo siguiente se muestra cómo utilizar un **MetadataRetrievalClient** para examinar, buscar y recuperar metadatos desde el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. El ejemplo muestra:  
+ El ejemplo siguiente muestra cómo usar un **MetadataRetrievalClient** para examinar, buscar y recuperar metadatos desde el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. El ejemplo se muestra:  
   
--   Examinando el nodo raíz del árbol de metadatos para los esquemas de base de datos de Oracle.  
+-   Examinar el nodo raíz del árbol de metadatos para los esquemas de base de datos de Oracle.  
   
--   Buscar las tablas en el esquema SCOTT con nombres que contengan la cadena "EMP".  
+-   Búsqueda de las tablas en el esquema SCOTT con nombres que contengan la cadena "EMP".  
   
--   Recuperar los metadatos de todas las operaciones compatibles para el SCOTT. Tabla EMP pasando un nodo de categoría a la **GetMetadata** método.  
+-   Recuperar los metadatos de todas las operaciones compatibles con el SCOTT. La tabla EMP pasando un nodo de categoría a la **GetMetadata** método.  
   
--   Recuperar metadatos para la operación de POLLINGSTMT al pasar el nodo de operación POLLINGSTMT a la **GetMetadata** método...  
+-   Recuperar metadatos para la operación POLLINGSTMT al pasar el nodo de operación POLLINGSTMT a la **GetMetadata** método...  
   
 ```  
 using System;  
@@ -233,7 +233,7 @@ namespace OracleMetadataRetrieval
 }  
 ```  
   
- A continuación muestra el resultado de este programa en la consola. Puede ver la estructura de los nodos de recuperación de metadatos devueltos por cada método. El programa también escribe dos documentos WSDL en archivos.  
+ A continuación muestra el resultado de este programa en la consola. Puede ver la estructura de los nodos de recuperación de los metadatos devueltos por cada método. El programa también escribe dos documentos WSDL en archivos.  
   
 ```  
 Browse results for the root node:  
@@ -274,7 +274,7 @@ NodeId = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP1
 ```  
   
 ## <a name="using-an-imetadataretrievalcontract-channel"></a>Uso de un canal IMetadataRetrievalContract  
- También puede crear un **IMetadataRetrievalContract** de canal y, a continuación, utilizar este canal para examinar, buscar y recuperar metadatos desde el adaptador. (Las firmas de método son los mismos que para el **MetadataRetrievalClient** clase.) En el ejemplo siguiente se muestra cómo hacerlo.  
+ También puede crear un **IMetadataRetrievalContract** de canal y, a continuación, use este canal para examinar, buscar y recuperar metadatos desde el adaptador. (Las firmas de método son los mismos que para el **MetadataRetrievalClient** clase.) En el ejemplo siguiente se muestra cómo hacerlo.  
   
 ```  
 …  

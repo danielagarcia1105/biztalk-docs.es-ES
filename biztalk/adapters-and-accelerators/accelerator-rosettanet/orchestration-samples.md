@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de orquestaciones | Documentos de Microsoft
+title: Ejemplos de orquestación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,19 +16,19 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b03b3583c5dec1b482b4ce87c19e29b9a1ae774
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd0afe156d33dca1dabc55f31203fbeecbbb37d9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209692"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977189"
 ---
 # <a name="orchestration-samples"></a>Ejemplos de orquestaciones
-El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye varios ejemplos de orquestación. Esta sección proporciona información detallada acerca de la funcionalidad que se muestra en estos ejemplos de orquestaciones, las instrucciones para generar y ejecutar los ejemplos y los resultados que puede esperar.  
+The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye varios ejemplos de orquestación. En esta sección se proporciona información detallada acerca de la funcionalidad que se muestra en estos ejemplos de orquestaciones, las instrucciones para compilar y ejecutar los ejemplos y los resultados que puede esperar.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Orquestación de Respondedor privada de 3A4 mediante una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)  
+-   [Orquestación del respondedor privado 3A4 mediante una regla de negocio](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)  
   
 -   [Orquestación PIPAutomation de acción doble](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)  
   

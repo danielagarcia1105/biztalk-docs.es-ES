@@ -1,5 +1,5 @@
 ---
-title: Error de configuración. El mensaje de firma &#39; t coincide con el valor esperado. | Microsoft Docs
+title: Error de configuración. El mensaje de firma&#39;t coincide con el valor esperado. | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f7aaba3aa00b15b3e015cbc010901c6d50818c42
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 5dfe2b610724a346ed31fb0951aa90c660f41d82
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005870"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975941"
 ---
-# <a name="configuration-error-the-message-signing-doesn39t-match-the-expected-value"></a>Error de configuración. El mensaje de firma &#39; t coincide con el valor esperado.
+# <a name="configuration-error-the-message-signing-doesn39t-match-the-expected-value"></a>Error de configuración. El mensaje de firma&#39;t coincide con el valor esperado.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|AS2DecoderPartySigningConfigurationError|  
-|Texto del mensaje|Error de configuración. La firma del mensaje no coincide con el valor esperado. Póngase en contacto con el socio remitente y verifique el uso de la firma. AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}"|  
+|                 |                                                                                                                                                                              |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                              |
+| Versión del producto |                                                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                          |
+|    Identificador del evento     |                                                                                      -                                                                                       |
+|  Origen del evento   |                                            EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                            |
+|    Componente    |                                                                                  Motor AS2                                                                                  |
+|  Nombre simbólico  |                                                                   AS2DecoderPartySigningConfigurationError                                                                   |
+|  Texto del mensaje   | Error de configuración. La firma del mensaje no coincide con el valor esperado. Póngase en contacto con el socio remitente y verifique el uso de la firma. AS2-de: "{0}" AS2-para: "{1}" MessageID: "{2}" |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que el componente de descodificador AS2 de la canalización de recepción no pudo procesar el mensaje AS2 porque la firma está especificada en la configuración de la entidad y el mensaje AS2 no está firmado, o bien la firma está especificada para que no se habilite, pero el mensaje está firmado.  
@@ -38,6 +38,6 @@ ms.locfileid: "26005870"
 ## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, compruebe que el mensaje AS2 entrante está firmado si la firma está especificada en la configuración de la entidad o bien que el mensaje AS2 entrante no está firmado si la firma está especificada como no habilitada en la configuración de la entidad. Realice una de las siguientes operaciones:  
   
-1.  Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada en la entidad como página del remitente del mensaje AS2 del cuadro de diálogo Propiedades de AS2 en la consola de administración de BizTalk Server, el **de mensajes debe estar firmado** propiedad está seleccionada, pero el mensaje no está firmado, póngase en contacto con la entidad que envió el mensaje y pídale que firme el mensaje y lo vuelva a enviar. También puede desactivar la **debe firmarse el mensaje** propiedad, o la **invalidar propiedades de mensajes entrantes** propiedad.  
+1.  Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada en la entidad como página del remitente del mensaje AS2 del cuadro de diálogo Propiedades de AS2 en la consola de administración de BizTalk Server, el **de mensajes debe estar firmado** propiedad está seleccionada, pero el mensaje no está firmado, póngase en contacto con la entidad que envió el mensaje y pídale que firme el mensaje y enviarlo. También puede desactivar la **debe firmarse el mensaje** propiedad, o la **invalidar propiedades de mensajes entrantes** propiedad.  
   
-2.  Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada, el **debe firmarse el mensaje** propiedad está desactivada, pero el mensaje está firmado, póngase en contacto con la entidad que envió el mensaje y pídale que no firmar el mensaje y lo vuelva a enviar. O bien puede seleccionar la **debe firmarse el mensaje** propiedad.
+2.  Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada, el **debe firmarse el mensaje** propiedad está desactivada, pero el mensaje está firmado, póngase en contacto con la entidad que envió el mensaje y pídale que realice no firmar el mensaje y lo vuelva a enviar. O bien puede seleccionar la **debe firmarse el mensaje** propiedad.

@@ -1,5 +1,5 @@
 ---
-title: Crear canalizaciones con el Diseñador de canalizaciones | Documentos de Microsoft
+title: Creación de canalizaciones con el Diseñador de canalizaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,29 +16,29 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73842a24169f9e589fb1eecef80bca3d97cad262
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51d7f15a50c5504468cc3da19293afd251dff312
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238324"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969181"
 ---
-# <a name="creating-pipelines-with-pipeline-designer"></a>Crear canalizaciones con el Diseñador de canalizaciones
+# <a name="creating-pipelines-with-pipeline-designer"></a>Creación de canalizaciones con el Diseñador de canalizaciones
 Esta sección describe cómo:  
   
--   Crear, abrir y guardar canalizaciones  
+- Crear, abrir y guardar canalizaciones  
   
--   Agregar componentes a una canalización  
+- Agregar componentes a una canalización  
   
--   Utilizar el Editor de propiedades de colección de esquema  
+- Utilizar el Editor de propiedades de colección de esquema  
   
--   Utilizar el cuadro de herramientas  
+- Utilizar el cuadro de herramientas  
   
--   Desplazarse con el teclado  
+- Desplazarse con el teclado  
   
--   Trabajar con las propiedades de los componentes de canalización de solo lectura.  
+- Trabajar con las propiedades de los componentes de canalización de solo lectura.  
   
- Para obtener información acerca de cómo utilizar el Diseñador de canalizaciones, consulte [utilizando el Diseñador de canalizaciones](../core/using-pipeline-designer.md).  
+  Para obtener información acerca de cómo utilizar el Diseñador de canalizaciones, consulte [utilizando el Diseñador de canalizaciones](../core/using-pipeline-designer.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
@@ -48,7 +48,7 @@ Esta sección describe cómo:
   
 -   [Cómo agregar un componente a una canalización](../core/how-to-add-a-component-to-a-pipeline.md)  
   
--   [Cómo establecer propiedades de componente de canalización](../core/how-to-set-pipeline-component-properties.md)  
+-   [Cómo establecer las propiedades de componente de canalización](../core/how-to-set-pipeline-component-properties.md)  
   
 -   [Cómo usar el Editor de propiedades de la colección de esquema](../core/how-to-use-the-schema-collection-property-editor.md)  
   

@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10744 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10744 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f501f785c7477de6e5c19c84d4cb467bf25c5d61
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3f4452d99b1869b058a70d6fa3e020c2dd26197c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972949"
 ---
-# <a name="single-sign-on-event-10744"></a>Inicio de sesión único: Evento 10744
+# <a name="single-sign-on-event-10744"></a>De sesión único: Evento 10744
 ## <a name="details"></a>Detalles  
-  
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10744|  
-|Origen del evento|ENTSSO|  
-|Componente|N\D|  
-|Nombre simbólico|SSO_INFO_ADAPTER_ONLINE|  
-|Texto del mensaje|El adaptador está conectado.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Adaptador: %2|  
-  
+
+|                 |                                                                                |
+|-----------------|--------------------------------------------------------------------------------|
+|  Nombre del producto   |                           Inicio de sesión único (SSO) empresarial                            |
+| Versión del producto |           [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]           |
+|    Identificador del evento     |                                     10744                                      |
+|  Origen del evento   |                                     ENTSSO                                     |
+|    Componente    |                                      N\D                                       |
+|  Nombre simbólico  |                            SSO_INFO_ADAPTER_ONLINE                             |
+|  Texto del mensaje   | El adaptador está conectado.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Adaptador: %2 |
+
 ## <a name="explanation"></a>Explicación  
  Este evento de información indica que el adaptador especificado está conectado.  
-  
+
 ## <a name="user-action"></a>Acción del usuario  
-  
--   No es necesario que el usuario realice ninguna acción.  
-  
- Para obtener más información, vea los recursos siguientes:  
-  
--   [Cómo administrar la sincronización de contraseña](../core/how-to-administer-password-synchronization.md)
+
+- No es necesario que el usuario realice ninguna acción.  
+
+  Para obtener más información, vea los recursos siguientes:  
+
+- [Cómo administrar la sincronización de contraseña](../core/how-to-administer-password-synchronization.md)

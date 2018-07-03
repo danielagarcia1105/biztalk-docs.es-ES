@@ -1,5 +1,5 @@
 ---
-title: Características para los clientes de adaptador de base de datos de Oracle | Documentos de Microsoft
+title: Características para los clientes del adaptador de base de datos de Oracle | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,23 +22,23 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b120c948ef3d9821af0a79e91fd718e3a1f33137
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce283c3fd63f72d67e31806e86bf9caa08555dd9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214324"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976181"
 ---
-# <a name="features-for-oracle-database-adapter-clients"></a>Características para los clientes de adaptador de base de datos de Oracle
-Además de las características tratadas en todos los temas de [información general del adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md), el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] también proporciona las siguientes características que son útiles para los clientes de adaptador:  
+# <a name="features-for-oracle-database-adapter-clients"></a>Características para los clientes del adaptador de base de datos de Oracle
+Además de las características se tratan en los temas de [información general del adaptador de BizTalk para Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md), el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] también proporciona las siguientes características que son útiles para los clientes del adaptador:  
   
--   **Compatibilidad para la configuración de adaptadores que usan propiedades de enlace**. Pueden configurar los clientes de adaptador el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] especificando ciertas propiedades de enlace. Por ejemplo, los clientes pueden configurar el adaptador para usar la agrupación de conexiones ODP.NET estableciendo la **UseOracleConnectionPool** propiedad de enlace. Para obtener más información, consulte [configurar las propiedades de enlace de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).  
+- **Compatibilidad con la configuración de los adaptadores que usan propiedades de enlace**. Pueden configurar los clientes del adaptador el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] especificando ciertas propiedades de enlace. Por ejemplo, los clientes pueden configurar el adaptador para usar la agrupación de conexiones ODP.NET estableciendo el **UseOracleConnectionPool** enlaza la propiedad. Para obtener más información, consulte [configurar las propiedades de enlace para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).  
   
--   **Compatibilidad con valores null para los parámetros de operación**. Los clientes de adaptador pueden proporcionar valores null para los parámetros de operación mediante el atributo "nil" en el XML de entrada.  
+- **Compatibilidad con valores null para los parámetros de operación**. Los clientes del adaptador pueden proporcionar valores nulos para parámetros de operación mediante el atributo "nil" en el XML de entrada.  
   
--   **Compatibilidad con puertos dinámicos en BizTalk**. A través de BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)], [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] admite un puerto dinámico que habilita el enrutamiento dinámico de mensajes de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] basándose en las propiedades de contexto de mensaje. Para obtener más información, consulte [configurar puertos dinámicos](../../adapters-and-accelerators/adapter-oracle-database/configure-dynamic-ports-in-the-oracle-database-adapter.md).  
+- **Compatibilidad con puertos dinámicos en BizTalk**. A través de BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)], [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con un puerto dinámico que permite el enrutamiento dinámico de los mensajes de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] basándose en las propiedades de contexto de mensaje. Para obtener más información, consulte [configurar puertos dinámicos](../../adapters-and-accelerators/adapter-oracle-database/configure-dynamic-ports-in-the-oracle-database-adapter.md).  
   
--   **Compatibilidad con contadores de rendimiento**. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con los contadores de rendimiento basados en WCF para los clientes de adaptador. Para obtener más información sobre los contadores de rendimiento, consulte [contadores de rendimiento](../../core/performance-counters.md).  
+- **Compatibilidad con contadores de rendimiento**. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con los contadores de rendimiento basados en WCF para su uso por los clientes del adaptador. Para obtener más información sobre los contadores de rendimiento, consulte [los contadores de rendimiento](../../core/performance-counters.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Información general sobre el adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)
+ [Información general sobre el adaptador de BizTalk para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)

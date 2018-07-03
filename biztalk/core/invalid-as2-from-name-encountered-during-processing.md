@@ -1,5 +1,5 @@
 ---
-title: 'AS2 no válido: nombre detectado durante el proceso de | Documentos de Microsoft'
+title: 'AS2 no válido: nombre detectado durante el procesamiento de | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 819d059f0d59f59164ab80eeb4501e5cd52ce7b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 30277473c0b5bdae8eeb3228b9f53275498842a4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257804"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975813"
 ---
 # <a name="invalid-as2-from-name-encountered-during-processing"></a>Se encontró un nombre de AS2-From no válido durante el procesamiento
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|InvalidAS2FromNameEncounteredError|  
-|Texto del mensaje|Se encontró un nombre de AS2-From no válido durante el procesamiento.  Valor: {0}|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                           InvalidAS2FromNameEncounteredError                           |
+|  Texto del mensaje   |            Se encontró un nombre de AS2-From no válido durante el procesamiento.  Valor: {0}            |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante o que la canalización de envío no pudo procesar el intercambio saliente porque el valor del encabezado AS2-From no se ajustaba a las especificaciones de AS2 RFC 4130.  

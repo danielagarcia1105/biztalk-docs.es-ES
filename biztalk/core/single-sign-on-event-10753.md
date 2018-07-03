@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10753 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10753 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6fc43f8ffba195b7a0156a9004d140f1e3c585db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 10fb7980b8c039c6ef02e52952564c581e88054b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969085"
 ---
-# <a name="single-sign-on-event-10753"></a>Inicio de sesión único: Evento 10753
+# <a name="single-sign-on-event-10753"></a>De sesión único: Evento 10753
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10753|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_MAPPING_EXISTS|  
-|Texto del mensaje|La asignación ya existe.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10753                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                  ENTSSO_E_MAPPING_EXISTS                   |
+|  Texto del mensaje   |                La asignación ya existe.                 |
   
 ## <a name="explanation"></a>Explicación  
  La asignación ya existe en la cuenta de Windows que se encuentra en uso o en la cuenta externa.  

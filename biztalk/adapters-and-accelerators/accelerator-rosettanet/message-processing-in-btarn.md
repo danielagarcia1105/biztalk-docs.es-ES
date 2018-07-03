@@ -1,5 +1,5 @@
 ---
-title: Mensaje de procesamiento en BTARN | Documentos de Microsoft
+title: Mensaje de procesamiento en BTARN | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 27d3448902c7a8957a80c6cf926ba78ce41d342d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2833d0ae20462d5be84a45b49fc2e1fde44be4f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209628"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967149"
 ---
 # <a name="message-processing-in-btarn"></a>Procesamiento de mensajes en BTARN
-Esta sección se describe cómo los componentes principales de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] procesar mensajes. En su caso, los temas de esta sección incluyen descripciones del flujo de mensajes a través del componente.  
+Esta sección se describe cómo los componentes principales de Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] procesar los mensajes. En su caso, los temas de esta sección incluyen descripciones del flujo de mensajes a través del componente.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
@@ -31,7 +31,7 @@ Esta sección se describe cómo los componentes principales de [!INCLUDE[btsCoNa
   
 -   [Procesos privados](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md)  
   
--   [Canalización de envío BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)  
+-   [Canalización de envío de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)  
   
 -   [Canalización de recepción de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md)  
   

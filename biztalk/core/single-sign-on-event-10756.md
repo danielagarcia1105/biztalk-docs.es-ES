@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10756 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10756 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: de16d5be6470509f20c6d1aa53d02e7024ccbd65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 751b777baa38f2157969f59e321f13813dafbd87
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276388"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973517"
 ---
-# <a name="single-sign-on-event-10756"></a>Inicio de sesión único: Evento 10756
+# <a name="single-sign-on-event-10756"></a>De sesión único: Evento 10756
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10756|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_NO_APP|  
-|Texto del mensaje|La aplicación no existe.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10756                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                      ENTSSO_E_NO_APP                       |
+|  Texto del mensaje   |              La aplicación no existe.               |
   
 ## <a name="explanation"></a>Explicación  
  Se proporcionó un nombre de aplicación incorrecto o se eliminó la aplicación.  

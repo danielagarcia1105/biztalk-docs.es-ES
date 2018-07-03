@@ -1,5 +1,5 @@
 ---
-title: Script de SQL de grupos de archivos de base de datos de cuadro de mensajes de servidor BizTalk Server | Documentos de Microsoft
+title: Script de SQL de grupos de archivos de base de datos de cuadro de mensajes de BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,30 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54b8cc0164648eb22bd0ad3c9bb47a1a0828f91f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d80d5aeb35c27a04f637f4e5ca466996855f35fb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22300548"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973069"
 ---
-# <a name="biztalk-server-messagebox-database-filegroups-sql-script"></a>Script de SQL de grupos de archivos de base de datos de cuadro de mensajes de servidor BizTalk Server
-Este tema proporciona una secuencia de comandos SQL que se pueden ejecutar en las instancias de SQL Server en un entorno de BizTalk Server para crear varios archivos y grupos de archivos para las bases de datos de BizTalk MessageBox.  
+# <a name="biztalk-server-messagebox-database-filegroups-sql-script"></a>Script de SQL de grupos de archivos de base de datos de cuadro de mensajes de BizTalk Server
+En este tema se proporciona un script SQL que se puede ejecutar en las instancias de SQL Server en un entorno de BizTalk Server para crear varios archivos y grupos de archivos para las bases de datos de BizTalk MessageBox.  
   
-> [!IMPORTANT]  
->  Esta secuencia de comandos está "tal cual", está diseñado para demostración o solo con fines educativos y debe utilizarse bajo su responsabilidad. Uso de esta secuencia de comandos no es compatible con Microsoft y Microsoft no otorga ninguna garantía sobre la idoneidad de este script.  
-  
-> [!IMPORTANT]  
->  Al utilizar esta secuencia de comandos SQL para crear varios archivos y grupos de archivos para BizTalk MessageBox bases de datos, se aplican las consideraciones siguientes:  
->   
->  1.  **Vuelva a ejecutar el script SQL de grupos de archivos de base de datos de cuadro de mensajes en las siguientes condiciones:**  
->   
->      -   Si instala un paquete de revisión o servicio de BizTalk Server que se ejecuta **msgboxlogic.sql**, deberá volver a ejecutar los grupos de archivos de base de datos de cuadro de mensajes SQL script. Esto es necesario porque msgboxlogic.sql revierte los grupos de archivos del cuadro de mensajes y los archivos a la configuración predeterminada, que consiste en usar el grupo de archivos principal. Para determinar si una revisión o un service pack ejecuta msgboxlogic.sql, compruebe la **información del archivo** sección del artículo KB de revisión. O bien, compruebe el archivo setup.xml que se incluye con los archivos del service pack.  
->     -   Si agrega un nuevo host al grupo de BizTalk Server, debe volver a ejecutar el script SQL de grupos de archivos de base de datos de cuadro de mensajes. Esto es necesario porque el procedimiento almacenado que crea nuevos hosts configura las tablas de los hosts usar el grupo de archivos principal de forma predeterminada.  
-> 2.  **Aplicar el cuadro de mensajes de grupos de archivos de base de datos SQL script en un entorno de cuadro de mensajes múltiples:** aunque no es un requisito, se puede ejecutar el script SQL de grupos de archivos de base de datos de cuadro de mensajes en cada cuadro de mensajes en un entorno de multi-cuadro de mensajes.  
+> [!IMPORTANT]
+>  Este script es siempre "tal cual", está diseñado para demostración o solo con fines educativos y debe utilizarse bajo su responsabilidad. Uso de esta secuencia de comandos no es compatible con Microsoft y Microsoft no ofrece ninguna garantía sobre la idoneidad de este script.  
+> 
+> [!IMPORTANT]
+>  Las siguientes consideraciones se aplican al usar este script de SQL para crear varios archivos y grupos de archivos para BizTalk MessageBox bases de datos:  
+> 
+> 1. **Vuelva a ejecutar el script SQL MessageBox grupos de archivos de base de datos en las siguientes condiciones:**  
+> 
+>    - Si instala un servidor BizTalk Server revisión o service pack que se ejecuta **msgboxlogic.sql**, necesitará volver a ejecutar los grupos de archivos de base de datos de cuadro de mensajes SQL script. Esto es necesario porque msgboxlogic.sql revierte los grupos de archivos del cuadro de mensajes y archivos de configuración predeterminada, que consiste en usar el grupo de archivos principal. Para determinar si una revisión o service pack ejecuta msgboxlogic.sql, compruebe la **información del archivo** sección del artículo de KB de revisión. O bien, compruebe el archivo setup.xml que se incluye con los archivos del service pack.  
+>    - Si agrega un nuevo host para el grupo de BizTalk Server, debe volver a ejecutar el script SQL de grupos de archivos de base de datos MessageBox. Esto es necesario porque el procedimiento almacenado que crea nuevos hosts configura las tablas para los hosts usar el grupo de archivos principal de forma predeterminada.  
+>    - **Aplicar el cuadro de mensajes de grupos de archivos de base de datos SQL script en un entorno de varios mensajes:** aunque no es un requisito, se puede ejecutar el script SQL de grupos de archivos de base de datos MessageBox en cada cuadro de mensajes en un entorno de varios mensajes.  
   
 ## <a name="biztalk-messagebox-database-filegroups-sql-script"></a>Script SQL de grupos de archivos de base de datos de BizTalk MessageBox  
- El siguiente script SQL puede utilizarse para crear varios archivos y grupos de archivos como se describe en el tema [optimizar los grupos de archivos para el Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md).  
+ El siguiente script SQL se puede usar para crear varios archivos y grupos de archivos como se describe en el tema [optimización de grupos de archivos para el Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md).  
   
 ```  
 /************************************************************  
@@ -564,4 +564,4 @@ GO
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento de la base de datos](../technical-guides/optimizing-database-performance.md)
+ [Optimización del rendimiento de la base de datos](../technical-guides/optimizing-database-performance.md)

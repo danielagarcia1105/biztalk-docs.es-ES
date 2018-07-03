@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10559 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10559 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 42030df64441c486889e7d23d0f090604db600e8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b93b4445b960e059e7f272b76136a4ea2a636c7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270028"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978235"
 ---
-# <a name="single-sign-on-event-10559"></a>Inicio de sesión único: Evento 10559
+# <a name="single-sign-on-event-10559"></a>De sesión único: Evento 10559
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10559|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_INFO_BACKUP_SECRET_OK|  
-|Texto del mensaje|La copia de seguridad de secretos principales se realizó correctamente.%r<br /><br /> Nombre de archivo: %1 %r<br /><br /> MSID actual: %2 %r<br /><br /> MSID anterior: %3 %r<br /><br /> El usuario cliente: %4 %r<br /><br /> Equipo cliente: %5|  
+|                 |                                                                                                                                                                                                            |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                         Inicio de sesión único (SSO) empresarial                                                                                          |
+| Versión del producto |                                                                         [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                         |
+|    Identificador del evento     |                                                                                                   10559                                                                                                    |
+|  Origen del evento   |                                                                                                   ENTSSO                                                                                                   |
+|    Componente    |                                                                                                    N/D                                                                                                     |
+|  Nombre simbólico  |                                                                                         SSO_INFO_BACKUP_SECRET_OK                                                                                          |
+|  Texto del mensaje   | La copia de seguridad de secretos principales se realizó correctamente.%r<br /><br /> Nombre de archivo: %1 %r<br /><br /> MSID actual: %2 %r<br /><br /> MSID anterior: %3 %r<br /><br /> Usuario cliente: %4 %r<br /><br /> Equipo cliente: %5 |
   
 ## <a name="explanation"></a>Explicación  
  El evento se realizó correctamente.  

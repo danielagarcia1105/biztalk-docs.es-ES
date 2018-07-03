@@ -1,5 +1,5 @@
 ---
-title: OperationsSamples (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: OperationsSamples (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e42b17f19791eef9bd3f1b5d7d4554f61f08356
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: a2a871afd76d6dd46cb4aa5d72d1c23b332ad90e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010253"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969501"
 ---
 # <a name="operationssamples-biztalk-server-sample"></a>OperationsSamples (ejemplo de BizTalk Server)
 El ejemplo OperationsSamples muestra cómo se realizan actividades operativas mediante el modelo de objetos Operaciones.  
@@ -25,15 +25,15 @@ El ejemplo OperationsSamples muestra cómo se realizan actividades operativas me
 ## <a name="what-this-sample-does"></a>Descripción del ejemplo  
  Este ejemplo muestra lo siguiente:  
   
--   Uso de un perfil de seguimiento para comentar una orquestación con actividades.  
+- Uso de un perfil de seguimiento para comentar una orquestación con actividades.  
   
--   Uso de la base de datos de seguimiento de BAM para buscar un identificador de actividad y usarlo para encontrar una instancia de orquestación relacionada.  
+- Uso de la base de datos de seguimiento de BAM para buscar un identificador de actividad y usarlo para encontrar una instancia de orquestación relacionada.  
   
--   Cómo buscar y trabajar con flujos de mensajes mediante la **MessageFlow** clase y otras clases de modelo de objetos de las operaciones y las API.  
+- Cómo buscar y trabajar con flujos de mensajes mediante el **MessageFlow** clase y otras clases de modelo de objetos de operaciones y las API.  
   
--   Cómo obtener acceso a puertos, mensajes y otras instancias mediante las clases derivadas de la **instancia** clase.  
+- Cómo obtener acceso a puertos, mensajes y otras instancias mediante las clases derivadas de la **instancia** clase.  
   
- El ejemplo contiene muchas clases y métodos auxiliares que resultan útiles para las operaciones anteriores. Estos aspectos destacados y otros sobre el código se explican en la sección siguiente.  
+  El ejemplo contiene muchas clases y métodos auxiliares que resultan útiles para las operaciones anteriores. Estos aspectos destacados y otros sobre el código se explican en la sección siguiente.  
   
 ## <a name="how-this-sample-is-designed-and-why"></a>Diseño del ejemplo y justificación  
  Este ejemplo está diseñado para mostrar varios métodos y clases clave del modelo de objetos Operaciones, así como la forma de consultar la base de datos de seguimiento de BAM que está disponible públicamente.  
@@ -43,16 +43,16 @@ El ejemplo OperationsSamples muestra cómo se realizan actividades operativas me
 ### <a name="using-a-bam-activity-id"></a>Uso de un identificador de actividad de BAM  
  Este ejemplo muestra la interacción con BAM y el uso de las vistas disponibles públicamente en la base de datos de seguimiento para localizar un mensaje activo en el cuadro de mensajes a partir de datos económicos. Para ello, el ejemplo recupera un identificador de orquestación correspondiente a un número de pedido. Para que esta tarea funcione correctamente, debe hacer lo siguiente:  
   
-1.  Utilizar datos económicos (un número de pedido) para encontrar un Id. de actividad. En este paso se asignan los datos económicos a un Id. interno que se puede utilizar para encontrar información adicional.  
+1. Utilizar datos económicos (un número de pedido) para encontrar un Id. de actividad. En este paso se asignan los datos económicos a un Id. interno que se puede utilizar para encontrar información adicional.  
   
-2.  Recuperar las referencias de BAM relacionadas con el identificador de actividad.  
+2. Recuperar las referencias de BAM relacionadas con el identificador de actividad.  
   
-3.  Encontrar una referencia que tenga un tipo de "BizTalkService" y haga referencia a una orquestación. Si se encuentra una, devolver su identificador de instancia.  
+3. Encontrar una referencia que tenga un tipo de "BizTalkService" y haga referencia a una orquestación. Si se encuentra una, devolver su identificador de instancia.  
   
- Esta funcionalidad se proporciona mediante la **BAMWebService.GetOrchestrationID** método estático y los métodos auxiliares asociados incluidas las clases y métodos en el archivo de origen BamManagementService.cs.  
+   Esta funcionalidad se proporciona mediante el **BAMWebService.GetOrchestrationID** método estático y los métodos auxiliares asociados incluidas las clases y métodos en el archivo de origen BamManagementService.cs.  
   
 ### <a name="suspending-terminating-and-resuming-an-instance"></a>Suspensión, finalización y reanudación de instancias  
- El programa de ejemplo incluye una **Samples.OperateOnInstance** método que toma un identificador de operación y la instancia y realiza la operación especificada en la instancia. Las operaciones válidas se definen mediante la **InstanceOperation** enumeración e incluyen suspender, finalizar y reanudar. Estas operaciones se asignan directamente a los métodos de la clase BizTalkOperations:**SuspendInstance**, **TerminateInstance**, y **ResumeInstance**.  
+ El programa de ejemplo incluye un **Samples.OperateOnInstance** método que toma un identificador de operación y la instancia y realiza la operación especificada en la instancia. Las operaciones válidas se definen mediante la **InstanceOperation** enumeración e incluyen suspender, finalizar y reanudar. Estas operaciones se asignan directamente a los métodos de la clase BizTalkOperations:**SuspendInstance**, **TerminateInstance**, y **ResumeInstance**.  
   
  Tenga en cuenta que el método controla las excepciones ArgumentException y SqlException. Debe tener cuidado en la anticipación de excepciones, incluida SqlException, al trabajar con las clases y los métodos del modelo de objetos Operaciones.  
   
@@ -77,11 +77,11 @@ foreach (BizTalkMessage msg in messages)
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*\>\Admin\OperationsOM\OperationsSamples\  
+ \<*Ejemplos de la ruta de acceso*\>\Admin\OperationsOM\OperationsSamples\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |BamManagementService.cs|Clase de proxy web para el servicio web de BAM.|  
 |Cleanup.bat|Quita la orquestación de ejemplo y restaura el estado original del ejemplo HelloWorld.|  
@@ -138,7 +138,7 @@ foreach (BizTalkMessage msg in messages)
   
 1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk Server**y, a continuación, seleccione **administración de BizTalk Server**.  
   
-2.  En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, expanda  **Instancias de host**.  
+2.  En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, expanda  **Las instancias de host**.  
   
 3.  Haga clic en **BizTalkServerApplication**y, a continuación, haga clic en **reiniciar**.  
   
@@ -149,16 +149,16 @@ foreach (BizTalkMessage msg in messages)
   
      `<Samples Path>\Admin\OperationsOM\OperationSamples`  
   
-5.  Haga doble clic en el **OperationsOM.sln** archivo de proyecto para cargar en Visual Studio.  
+5.  Haga doble clic en el **OperationsOM.sln** archivo de proyecto para cargarlo en Visual Studio.  
   
 6.  Presione F5 para ejecutar el ejemplo.  
   
-     -O BIEN-  
+     --O BIEN--  
   
-     En el **generar** menú, haga clic en **volver a generar solución**. Una vez completada la compilación, utilice el Explorador de Windows para navegar a `<Samples Path>\Admin\OperationsOM\OperationSamples\bin\Debug,` y, a continuación, haga doble clic en **OperationsSamples.exe**.  
+     En el **compilar** menú, haga clic en **recompilar solución**. Una vez completada la compilación, utilice el Explorador de Windows para navegar a `<Samples Path>\Admin\OperationsOM\OperationSamples\bin\Debug,` y, a continuación, haga doble clic en **OperationsSamples.exe**.  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>Clases o métodos usados en el ejemplo  
- [Microsoft.BizTalk.Operations.BizTalkOperations](http://msdn.microsoft.com/library/microsoft.biztalk.operations.biztalkoperations.aspx)&#124; [Microsoft.BizTalk.Operations.MessageFlow](http://msdn.microsoft.com/library/microsoft.biztalk.operations.messageflow.aspx)&#124; [Microsoft.BizTalk.Operations.SendPortInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.sendportinstance.aspx)&#124; [Microsoft.BizTalk.Operations.RoutingFailureInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.routingfailureinstance.aspx)&#124; [Microsoft.BizTalk.Operations.OrchestrationInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.orchestrationinstance.aspx)&#124; [Microsoft.BizTalk.Operations.MSMQtInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.msmqtinstance.aspx)&#124; [Microsoft.BizTalk.Operations.TrackedServiceInstance](http://msdn.microsoft.com/library/Microsoft.BizTalk.Operations.TrackedServiceInstance.aspx)  
+ [Microsoft.BizTalk.Operations.BizTalkOperations](http://msdn.microsoft.com/library/microsoft.biztalk.operations.biztalkoperations.aspx) &#124; [Microsoft.BizTalk.Operations.MessageFlow](http://msdn.microsoft.com/library/microsoft.biztalk.operations.messageflow.aspx) &#124; [Microsoft.BizTalk.Operations.SendPortInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.sendportinstance.aspx) &#124; [Microsoft.BizTalk.Operations.RoutingFailureInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.routingfailureinstance.aspx) &#124; [Microsoft.BizTalk.Operations.OrchestrationInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.orchestrationinstance.aspx) &#124; [ Microsoft.BizTalk.Operations.MSMQtInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.msmqtinstance.aspx) &#124; [Microsoft.BizTalk.Operations.TrackedServiceInstance](http://msdn.microsoft.com/library/Microsoft.BizTalk.Operations.TrackedServiceInstance.aspx)  
   
 ## <a name="see-also"></a>Vea también  
  [Admin\OperationsOM (carpeta de ejemplos de BizTalk Server)](../core/admin-operationsom-biztalk-server-samples-folder.md)

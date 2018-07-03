@@ -1,5 +1,5 @@
 ---
-title: Mensaje no contenía UNA y propiedad de canalización para delimitadores tenía el formato correcto | Documentos de Microsoft
+title: Mensaje no contenía UNA y la propiedad de canalización para delimitadores tenía el formato correcto | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6310c96f897126a498772f2147a20c84f7e926a0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 717626c6ba38d8e278ad173739c28d502c3d6e0d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241844"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967781"
 ---
 # <a name="message-did-not-contain-una-and-pipeline-property-for-delimiters-was-incorrect-format"></a>El mensaje no contenía UNA, y la propiedad de canalización para delimitadores no tenía el formato correcto
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|EfactDelimiterIncorrectFormat|  
-|Texto del mensaje|El mensaje no contenía UNA, y la propiedad de canalización para delimitadores no tenía el formato correcto '{0}'.|  
+|                 |                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------|
+|  Nombre del producto   |     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]      |
+| Versión del producto |                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                  |
+|    Identificador del evento     |                                              -                                              |
+|  Origen del evento   |   EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]    |
+|    Componente    |                                         Motor EDI                                          |
+|  Nombre simbólico  |                                EfactDelimiterIncorrectFormat                                |
+|  Texto del mensaje   | Mensaje no contenía UNA y la propiedad de canalización para delimitadores tenía el formato correcto '{0}' |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio EDIFACT entrante porque no pudo determinar los separadores requeridos para procesar el intercambio. Esto puede suceder si el intercambio no tiene un segmento UNA y la propiedad de la canalización EfactDelimiters no define de forma adecuada los separadores.  

@@ -1,5 +1,5 @@
 ---
-title: Supervisión mediante reglas de umbral de rendimiento de limitación | Documentos de Microsoft
+title: Limitación de supervisión mediante reglas de umbral de rendimiento | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2aedf8040b821230b6541785426731f1cef32099
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4d5bf8f327cbdb12ebe0723941afd6e37b5d2409
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299084"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968053"
 ---
-# <a name="monitoring-throttling-using-performance-threshold-rules"></a>Usar reglas de umbral de rendimiento de limitación de supervisión
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]se inicializará la limitación para proteger el sistema alcance un estado irrecuperable. La limitación puede indicar un problema y le ayuda a identificar su origen. Después de haber identificado la causa del cuello de botella en función del estado de limitación, analice otros contadores de rendimiento para reducir el origen del problema.  
+# <a name="monitoring-throttling-using-performance-threshold-rules"></a>Limitación de supervisión mediante reglas de umbral de rendimiento
+[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se inicializará la limitación para proteger el sistema de alcanzar un estado irrecuperable. La limitación puede indicar un problema y le ayuda a identificar su origen. Después de haber identificado la causa del cuello de botella en función del estado de limitación, analice otros contadores de rendimiento para reducir el origen del problema.  
   
- Por ejemplo, podría ser elevada contención en la base de datos debido al uso elevado de CPU, lo que podría estar provocado por la paginación excesiva en el disco, que a su vez, podría deberse a condiciones de memoria insuficiente. Elevada contención en el cuadro de mensajes también podría deberse a la contención de bloqueos alta, que se puede deber a unidades de disco saturadas.  
+ Por ejemplo, podría ser elevada contención en la base de datos debido al uso elevado de CPU, lo que podría estar provocada por la paginación excesiva en disco, que a su vez, podría deberse a condiciones de memoria insuficiente. Elevada contención en el cuadro de mensajes también podría deberse a la contención de bloqueo alto, lo que podría ser debido a las unidades de disco saturadas.  
   
- Supervisar el estado de limitación de entrega de mensajes y el estado de limitación de publicación de mensajes para cada instancia de host suele ser un buen lugar para comenzar cuando solucione problemas de limitación. Si el valor de estos contadores no es cero, es indicativo de que la limitación ocurre en el sistema de BizTalk Server y es posible analizar más la causa del cuello de botella. Para obtener descripciones de los otros contadores de rendimiento, consulte [identificar cuellos de botella en el nivel de base de datos](http://go.microsoft.com/fwlink/?LinkID=154678) (http://go.microsoft.com/fwlink/?LinkID=154678) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.  
+ Supervisar el estado de limitación de entrega de mensajes y el estado de limitación de publicación de mensaje para cada instancia de host suele ser un buen lugar para comenzar al solucionar problemas de limitación. Si el valor de estos contadores no es cero, es indicativo de que se produce la limitación dentro del sistema de BizTalk Server y es posible analizar la causa del cuello de botella. Para obtener descripciones de los otros contadores de rendimiento, consulte [identificar cuellos de botella en el nivel de base de datos](http://go.microsoft.com/fwlink/?LinkID=154678) (<http://go.microsoft.com/fwlink/?LinkID=154678>) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.  
   
-## <a name="biztalk-server-system-performance-counters"></a>Contadores de rendimiento de sistema de BizTalk Server  
+## <a name="biztalk-server-system-performance-counters"></a>Contadores de rendimiento del sistema de BizTalk Server  
   
-|Object|Instancia|Contador|Finalidad de la supervisión|  
+|Objeto|Instancia|Contador|Finalidad de la supervisión|  
 |------------|--------------|-------------|------------------------|  
 |Procesador|_Total|% de tiempo de procesador|Contención de recursos|  
 |Procesar|BTSNTSvc|Bytes virtuales|Pérdida o inundación de memoria|  
@@ -40,7 +40,7 @@ ms.locfileid: "22299084"
   
 ## <a name="biztalk-application-counters"></a>Contadores de la aplicación de BizTalk  
   
-|Object|Instancia|Contador|Description|  
+|Objeto|Instancia|Contador|Descripción|  
 |------------|--------------|-------------|-----------------|  
 |Mensajería de BizTalk|RxHost|Documentos recibidos/seg.|Tasa de entrada|  
 |Mensajería de BizTalk|TxHost|Documentos procesados/seg.|Tasa de salida|  

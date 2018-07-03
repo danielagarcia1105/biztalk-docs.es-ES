@@ -1,5 +1,5 @@
 ---
-title: Operaciones de entrada de recepción desde el sistema SAP mediante el modelo del canal de WCF | Documentos de Microsoft
+title: Recibir operaciones de entrada desde el sistema SAP mediante el modelo de canal WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,44 +16,44 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5b76ae42cf0ffc26b818e35d83f59e64158b923a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f7c0c819372cf23842eb5311df8636e55e28c72a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966202"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969685"
 ---
-# <a name="receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model"></a>Operaciones de entrada de recepción desde el sistema SAP mediante el modelo del canal de WCF
-Para actuar como un servidor RFC y recibir operaciones invocadas por el sistema SAP (por ejemplo, enviar un IDOC o invocar una solicitud de cambio), debe crear una escucha de canales que puede realizar escuchas de mensajes de un identificador de programa de SAP en un  **System.ServiceModel.Channels.IReplyChannel** forma de canal.  
+# <a name="receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model"></a>Recibir operaciones de entrada desde el sistema SAP mediante el modelo de canal de WCF
+Para actuar como un servidor RFC y recibir las operaciones invocadas por el sistema SAP (por ejemplo, enviar un IDOC o invocar una RFC), debe crear un agente de escucha de canal puede escuchar mensajes de un identificador de programa de SAP a través de un  **System.ServiceModel.Channels.IReplyChannel** forma de canal.  
   
- Un agente de escucha de canal (**System.ServiceModel.Channels.IChannelListener**) es un objeto de comunicación de WCF que puede utilizarse para recibir mensajes de los extremos WCF específicos. El agente de escucha de canal funciona como un generador desde el que puede crear canales que se pueden recibir mensajes invocados por un cliente (el sistema SAP) por el servicio. Crear un agente de escucha del canal por desde una **Microsoft.Adapters.SAP.SAPBinding** objeto invocando la **BuildChannelListener** método. Proporcione una URI que especifica el identificador de programa de SAP desde el que se recibirán las operaciones de entrada a este método de conexión de SAP.  
+ Un agente de escucha de canal (**System.ServiceModel.Channels.IChannelListener**) es un objeto de comunicación de WCF que puede utilizarse para recibir mensajes desde extremos específicos de WCF. Las funciones de agente de escucha de canal como un generador del que puede crear los canales en el que se pueden recibir mensajes invocados por un cliente (el sistema SAP) por el servicio. Crear un agente de escucha del canal por desde un **Microsoft.Adapters.SAP.SAPBinding** objeto invocando el **BuildChannelListener** método. Proporcione una URI que especifica el identificador de programa de SAP desde el que se recibirán las operaciones de entrada a este método de conexión de SAP.  
   
- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] es compatible con la **IReplyChannel** forma de canal. **IReplyChannel** canales admiten un patrón de intercambio de mensajes de respuesta de solicitud entrante. Es decir, un patrón en el que un programa externo envía un mensaje de solicitud a través del canal y el programa devuelve una respuesta.  
+ El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite el **IReplyChannel** forma de canal. **IReplyChannel** canales admiten un patrón de intercambio de mensajes de respuesta de solicitud entrante. Es decir, un patrón en el que un programa externo envía un mensaje de solicitud a través del canal y el programa devuelve una respuesta.  
   
- Para obtener información general sobre el uso de operaciones de recepción de un **IReplyChannel** en WCF, vea [nivel de canal del servicio de programación](https://msdn.microsoft.com/library/ms789029.aspx).
+ Para obtener información general de cómo recibir operaciones mediante una **IReplyChannel** en WCF, vea [a nivel de canal de servicio de programación](https://msdn.microsoft.com/library/ms789029.aspx).
   
- En esta sección se trata los temas siguientes que son específicos para recibir las operaciones de un sistema SAP:  
+ En esta sección se trata los temas siguientes que son específicos para recibir operaciones de un sistema SAP:  
   
--   Cómo filtrar para operaciones específicas mediante el agente de escucha de canal.  
+-   Cómo filtrar para operaciones específicas mediante el agente de escucha del canal.  
   
 -   Cómo generar una excepción en el sistema SAP.  
   
--   Transmisión por secuencias entrante IDOC de archivo sin formato desde el adaptador SAP.  
+-   Streaming de IDOC de archivo sin formato entrantes desde el adaptador de SAP.  
   
 -   Cómo recibir operaciones desde el sistema SAP.  
   
 ## <a name="how-do-i-filter-operations-using-the-channel-listener"></a>¿Cómo se puede filtrar las operaciones mediante el agente de escucha de canal?  
   
 ### <a name="using-an-inboundactioncollection-to-filter-operations"></a>Uso de un InboundActionCollection para operaciones de filtro  
- El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona el **Microsoft.ServiceModel.Channels.InboundActionCollection** clase que le permite filtrar las operaciones que se reciben un agente de escucha de canal y se pasa al código de aplicación. Para filtrar para operaciones específicas, crea una instancia de esta clase mediante el URI del extremo de agente de escucha. A continuación, agregar la acción de mensaje (solicitud) para cada operación de destino a la colección. Por último, puede agregar a la colección de entrada de acción un **System.ServiceModel.Channels.BindingParameterCollection** objeto y, a continuación, pasar esta colección de parámetros de enlace en la llamada para crear la escucha del canal.  
+ El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona el **Microsoft.ServiceModel.Channels.InboundActionCollection** clase para que pueda filtrar las operaciones que se recibió un agente de escucha del canal y se pasan al código de aplicación. Para filtrar para operaciones específicas, crea una instancia de esta clase mediante el URI del extremo del agente de escucha. A continuación, agregar la acción de mensaje (solicitud) para cada operación de destino a la colección. Por último, agrega la colección de acciones de entrada a un **System.ServiceModel.Channels.BindingParameterCollection** de objetos y, a continuación, pasar esta colección de parámetros de enlace a la llamada para crear la escucha del canal.  
   
  Si el sistema SAP, invoca una operación que no está en la colección de acciones de entrada:  
   
--   El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] devuelve una excepción al llamador en el sistema SAP con el siguiente mensaje: "no se controla la llamada entrante de RFC [RFC_NAME] en el servidor de Rfc". En este mensaje, [RFC_NAME] es el nombre de la solicitud de cambio (por ejemplo, IDOC_INBOUND_ASYNCHRONOUS).  
+- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] devuelve una excepción al llamador en el sistema SAP con el siguiente mensaje: "no se controla la llamada entrante de RFC [RFC_NAME] en el servidor Rfc". En este mensaje, [RFC_NAME] es el nombre de la solicitud de cambio (por ejemplo, IDOC_INBOUND_ASYNCHRONOUS).  
   
--   El adaptador lanza una **Microsoft.ServiceModel.Channels.Common.AdapterException** con un mensaje que indica que la operación que se recibió. Para obtener un ejemplo de cómo usar esta excepción, vea el ejemplo al final de este tema.  
+- El adaptador lanza una **Microsoft.ServiceModel.Channels.Common.AdapterException** con un mensaje que indica que la operación que se recibió. Para obtener un ejemplo de cómo usar esta excepción, vea el ejemplo al final de este tema.  
   
- En el ejemplo de código siguiente se muestra cómo utilizar un **InboundActionCollection** para crear un agente de escucha de canal que filtra una RFC única, Z_RFC_MKD_DIV.  
+  En el ejemplo de código siguiente se muestra cómo utilizar un **InboundActionCollection** para crear un agente de escucha de canal que filtra una RFC único, Z_RFC_MKD_DIV.  
   
 ```  
 // The connection Uri must specify listener parameters (or an R-type destination in saprfc.ini)  
@@ -79,20 +79,20 @@ bpcol.Add(actions);
 listener = binding.BuildChannelListener<IReplyChannel>(listeneraddress, bpcol);  
 ```  
   
-### <a name="manually-filtering-operations"></a>Operaciones de filtrado manualmente  
- Si no especifica una colección de acciones de entrada para el agente de escucha de canal, todas las operaciones invocadas por el sistema SAP se pasarán al código. Puede filtrar manualmente estas operaciones mediante la comprobación de la acción de mensaje de las solicitudes de entrada.  
+### <a name="manually-filtering-operations"></a>Las operaciones de filtrado manualmente  
+ Si no especifica una colección de acciones de entrada para el agente de escucha del canal, todas las operaciones invocadas por el sistema SAP se pasarán al código. Puede filtrar manualmente estas operaciones mediante la comprobación de la acción de mensaje de las solicitudes entrantes.  
   
- También puede haber escenarios en los que desea filtrar una operación en función de su contenido. Por ejemplo, si recibe IDOC en:  
+ También puede haber escenarios en los que desea filtrar una operación en función de su contenido. Por ejemplo, si recibe los IDOC en:  
   
--   Formato de cadena (el **ReceiveIDocFormat** propiedad de enlace es **cadena**); todos los IDOC se recibe mediante la operación de ReceiveIdoc.  
+- Formato de cadena (el **ReceiveIDocFormat** es enlazar la propiedad **cadena**); todos los IDOC se reciben mediante la operación ReceiveIdoc.  
   
--   Formato de RFC (la **ReceiveIDocFormat** propiedad de enlace es **Rfc**); todos los IDOC se recibe mediante la solicitud de cambio de IDOC_INBOUND_ASYNCHRONOUS o la solicitud de cambio de INBOUND_IDOC_PROCESS.  
+- Formato RFC (el **ReceiveIDocFormat** es enlazar la propiedad **Rfc**); todos los IDOC se reciben mediante la RFC IDOC_INBOUND_ASYNCHRONOUS o en la RFC INBOUND_IDOC_PROCESS.  
   
- En este escenario puede que desee implementar filtrado basándose en los parámetros específicos de IDOC (por ejemplo, el tipo IDOC) en el código.  
+  En este escenario es posible que desee implementar filtrado según los parámetros específicos de IDOC (por ejemplo, el tipo IDOC) en el código.  
   
- Cuando se filtran las operaciones manualmente, puede devolver un error en la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] para las operaciones que no se encarga de. Esto producirá la excepción al llamador en el sistema SAP. También puede devolver una respuesta vacía si no desea generar una excepción en SAP.  
+  Cuando se filtran las operaciones manualmente, puede devolver un error en la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] para las operaciones que no controla. Esto producirá la excepción al llamador en el sistema SAP. También puede devolver una respuesta vacía si no desea generar una excepción en SAP.  
   
- El código siguiente muestra cómo filtrar manualmente para la operación de Z_RFC_MKD_DIV.  
+  El código siguiente muestra cómo filtrar manualmente para la operación Z_RFC_MKD_DIV.  
   
 ```  
 // Get the message from the channel  
@@ -116,24 +116,24 @@ else
 ```  
   
 ## <a name="how-do-i-raise-an-exception-on-the-sap-system"></a>¿Cómo se puede producir una excepción en el sistema SAP?  
- Para indicar un error al llamador en el sistema SAP puede responder a un mensaje de solicitud con un error de SOAP. Cuando se devolverá un error SOAP para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], el adaptador devuelve una excepción al llamador en el sistema SAP. Se crea el mensaje de excepción de los elementos de los errores SOAP.  
+ Para indicar un error al llamador en el sistema SAP se puede responder a un mensaje de solicitud con un error de SOAP. Cuando se devolverá un error SOAP para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], el adaptador devuelve una excepción al llamador en el sistema SAP. Se crea el mensaje de excepción de los elementos de error de SOAP.  
   
- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] crea el mensaje para la excepción de SAP según el orden de prioridad siguiente:  
+ El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] crea el mensaje para la excepción de SAP según el orden de precedencia siguiente:  
   
-1.  Si el error de SOAP contiene un objeto de detalle, el adaptador serializa el nivel de detalle para una cadena y el mensaje de excepción se establece en esta cadena.  
+1.  Si el error de SOAP contiene un objeto de detalle, el adaptador serializa el detalle de una cadena y se establece el mensaje de excepción a esta cadena.  
   
 2.  Si el error de SOAP contiene un motivo, el mensaje de excepción se establece en su valor.  
   
-3.  En caso contrario, el adaptador serializa el **MessageFault** objeto a una cadena y el mensaje de excepción se establece en esta cadena.  
+3.  En caso contrario, el adaptador serializa el **MessageFault** se establece el objeto en una cadena y el mensaje de excepción a esta cadena.  
   
 > [!NOTE]
->  El adaptador utiliza solo el mensaje de error para crear el mensaje de excepción que se devuelven en la excepción que se inicia en el sistema SAP; por lo tanto, los valores que establezca para estas entidades es decisión suya.  
+>  El adaptador utiliza solo el mensaje de error para crear el mensaje de excepción que se devuelven en la excepción generada en el sistema SAP; por lo tanto, los valores que establezca para estas entidades es decisión suya.  
   
- WCF proporciona el **System.ServiceModel.Channels.MessageFault** clase para encapsular una representación en memoria de un error de SOAP. Puede usar cualquiera de los métodos estático, sobrecargar **MessageFault.CreateFault** métodos para crear un nuevo error de SOAP desde el que, a continuación, puede crear un mensaje de error mediante la invocación de la correspondiente **Message.CreateMessage** se puede sobrecargar. WCF también proporciona sobrecargas de **CreateMessage** que crean un mensaje de error sin usar un **MessageFault** objeto.  
+ WCF proporciona el **System.ServiceModel.Channels.MessageFault** clase para encapsular una representación en memoria de un error de SOAP. Puede usar cualquiera de los métodos estático, sobrecargado **MessageFault.CreateFault** métodos para crear un nuevo error de SOAP desde el que, a continuación, puede crear un mensaje de error invocando adecuado **Message.CreateMessage** sobrecarga. WCF también proporciona sobrecargas de **CreateMessage** que crear un mensaje de error sin usar un **MessageFault** objeto.  
   
- Usa el **System.ServiceModel.Channels.RequestContext.Reply** método para devolver el mensaje de error para el adaptador. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] omite la acción de mensaje para los mensajes de error, por lo que puede establecer la acción de mensaje a cualquier valor.  
+ Usa el **System.ServiceModel.Channels.RequestContext.Reply** método para devolver el mensaje de error para el adaptador. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] omite la acción de mensaje para los mensajes de error, por lo que puede establecer la acción del mensaje en cualquier valor.  
   
- En el ejemplo siguiente se muestra cómo devolver un mensaje de error para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Este ejemplo omiten los pasos para crear la escucha del canal y el canal.  
+ El ejemplo siguiente muestra cómo devolver un mensaje de error para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Este ejemplo omiten los pasos para crear la escucha del canal y el canal.  
   
 ```  
 RequestContext rc = channel.ReceiveRequest();  
@@ -149,22 +149,22 @@ Message faultMessage = Message.CreateMessage(MessageVersion.Default, new FaultCo
 rc.Reply(faultMessage);  
 ```  
   
-## <a name="streaming-inbound-flat-file-idocs-from-the-sap-adapter"></a>Transmisión por secuencias IDOC de archivo sin formato entrante del adaptador SAP  
- Recibir IDOC (cadena) desde el adaptador en la operación de ReceiveIdoc entrada de archivo sin formato. Los datos IDOC se representan como una cadena en un único nodo en esta operación. Por este motivo, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] es compatible con transmisión por secuencias en el mensaje de solicitud en el valor de nodo. Para realizar la transmisión por secuencias de valor de nodo, debe consumir el mensaje de solicitud para la operación ReceiveIdoc invocando la **Message.WriteBodyContents** método con un **System.Xml.XmlDictionaryWriter** que es capaz de transmitir por secuencias los datos IDOC. Para obtener información acerca de cómo hacerlo, consulte [IDOC de archivo plano de transmisión por secuencias en SAP mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
+## <a name="streaming-inbound-flat-file-idocs-from-the-sap-adapter"></a>Transmisión por secuencias los IDOC de archivo sin formato entrantes desde el adaptador de SAP  
+ Recibir los IDOC (cadena) desde el adaptador de entrada durante la operación ReceiveIdoc de archivo sin formato. Los datos IDOC se representan como una cadena en un solo nodo en esta operación. Por este motivo, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] es compatible con el valor del nodo en el mensaje de solicitud de transmisión por secuencias. Para realizar el streaming de valor de nodo, debe consumir el mensaje de solicitud para la operación ReceiveIdoc invocando el **Message.WriteBodyContents** método con un **System.Xml.XmlDictionaryWriter** que es capaz de transmitir los datos de IDOC. Para obtener información acerca de cómo hacerlo, consulte [Streaming de IDOC de archivo plano en SAP mediante el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
   
-## <a name="how-do-i-receive-operations-from-a-sap-system-using-an-ireplychannel"></a>¿Cómo obtengo operaciones desde un sistema SAP mediante un IReplyChannel?  
- Para operaciones de recepción de un sistema SAP mediante el modelo de canal WCF, realice los pasos siguientes.  
+## <a name="how-do-i-receive-operations-from-a-sap-system-using-an-ireplychannel"></a>¿Cómo se puede recibir operaciones desde un sistema SAP mediante un IReplyChannel?  
+ Para recibir las operaciones de un sistema SAP mediante el modelo de canal WCF, realice los pasos siguientes.  
   
-#### <a name="to-receive-operations-from-the-sap-system-using-an-ireplychannel"></a>Para operaciones de recepción desde el sistema SAP mediante un IReplyChannel  
+#### <a name="to-receive-operations-from-the-sap-system-using-an-ireplychannel"></a>Para recibir las operaciones del sistema SAP con un IReplyChannel  
   
-1.  Cree una instancia de **SAPBinding** y establezca las propiedades de enlace necesarias para las operaciones que desea recibir. Como mínimo debe establecer el **AcceptCredentialsInUri** enlaza la propiedad en true. Para que actúe como un servidor de tRFC, debe establecer el **TidDatabaseConnectionString** propiedad de enlace. Para obtener más información acerca de las propiedades de enlace, vea [obtener información sobre el adaptador de BizTalk para mySAP Business Suite enlace propiedades](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+1.  Cree una instancia de **SAPBinding** y establezca las propiedades de enlace necesarias para las operaciones que desea recibir. Como mínimo, debe establecer el **AcceptCredentialsInUri** enlaza la propiedad en true. Para actuar como un servidor tRFC, debe establecer el **TidDatabaseConnectionString** enlaza la propiedad. Para obtener más información acerca de las propiedades de enlace, consulte [Obtenga información sobre el adaptador de BizTalk para mySAP Business Suite enlace propiedades](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
     ```  
     SAPBinding binding = new SAPBinding();  
     binding.AcceptCredentialsInUri = true;  
     ```  
   
-2.  Crear un **BindingParameterCollection** y agregue un **InboundActionCollection** que contiene las acciones de las operaciones que desea recibir. El adaptador devolverá una excepción al sistema SAP para todas las demás operaciones. Este paso es opcional. Para obtener más información, consulte [recibir las operaciones de entrada desde el sistema SAP mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
+2.  Crear un **BindingParameterCollection** y agregue un **InboundActionCollection** que contiene las acciones de las operaciones que desea recibir. El adaptador devolverá una excepción al sistema SAP para todas las demás operaciones. Este paso es opcional. Para obtener más información, consulte [recibir operaciones de entrada desde el sistema SAP mediante el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
   
     ```  
     InboundActionCollection actions = new InboundActionCollection(listeneraddress);  
@@ -173,7 +173,7 @@ rc.Reply(faultMessage);
     bpcol.Add(actions);  
     ```  
   
-3.  Crear un agente de escucha de canal invocando **BuildChannelListener < IReplyChannel\>**  método en el **SAPBinding** y ábralo. Especifique el URI de conexión de SAP como uno de los parámetros a este método. El URI de conexión debe contener parámetros para un destino RFC en el sistema SAP. Para obtener más información sobre el URI de conexión de SAP, consulte [crear la conexión del sistema SAP URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). Si ha creado un **BindingParameterCollection** en el paso 3, también especificarlo al crear la escucha del canal.  
+3.  Crear un agente de escucha del canal invocando **BuildChannelListener < IReplyChannel\>**  método en el **SAPBinding** y ábralo. Especifique el URI de conexión de SAP como uno de los parámetros a este método. El URI de conexión debe contener los parámetros para un destino de RFC en el sistema SAP. Para obtener más información sobre el URI de conexión de SAP, consulte [crear la conexión del sistema SAP URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). Si ha creado un **BindingParameterCollection** en el paso 3, especificarlo al crear la escucha del canal.  
   
     ```  
     Uri listeneraddress =  
@@ -182,20 +182,20 @@ rc.Reply(faultMessage);
     listener.Open();  
     ```  
   
-4.  Obtener un **IReplyChannel** canal invocando la **AcceptChannel** método en el agente de escucha y ábralo.  
+4.  Obtener un **IReplyChannel** canal invocando el **AcceptChannel** método en el agente de escucha y ábralo.  
   
     ```  
     IReplyChannel channel = listener.AcceptChannel();  
     channel.Open();  
     ```  
   
-5.  Invocar **ReceiveRequest** en el canal que se va a obtener el mensaje de solicitud de la siguiente operación del adaptador.  
+5.  Invocar **ReceiveRequest** en el canal para obtener el mensaje de solicitud de la siguiente operación desde el adaptador.  
   
     ```  
     RequestContext rc = channel.ReceiveRequest();  
     ```  
   
-6.  Consumir el mensaje de solicitud enviado por el adaptador. Aparece el mensaje de solicitud desde el **RequestMessage** propiedad de la **RequestContext**. Puedes utilizar el mensaje mediante un **XmlReader** o un **XmlDictionaryWriter**.  
+6.  Consumir el mensaje de solicitud enviado por el adaptador. Obtener el mensaje de solicitud desde el **RequestMessage** propiedad de la **RequestContext**. Puede consumir el mensaje mediante un **XmlReader** o un **XmlDictionaryWriter**.  
   
     ```  
     XmlReader reader = (XmlReader)rc.RequestMessage.GetReaderAtBodyContents();  
@@ -210,7 +210,7 @@ rc.Reply(faultMessage);
         rc.Reply(respMessage);  
         ```  
   
-    2.  Devuelve una excepción al sistema SAP devolviendo un mensaje de error para el adaptador. Puede utilizar un valor para la acción de mensaje, el código de error y el motivo.  
+    2.  Devuelve una excepción al sistema SAP devolviendo un mensaje de error para el adaptador. Puede usar cualquier valor para la acción de mensaje, el código de error y el motivo.  
   
         ```  
         MessageFault fault = MessageFault.CreateFault(new FaultCode("ProcFault"), "Processing Error");  
@@ -224,32 +224,32 @@ rc.Reply(faultMessage);
     rc.Close();  
     ```  
   
-9. Cierre el canal cuando se hayan completado de procesar la solicitud.  
+9. Cierre el canal cuando haya terminado de procesar la solicitud.  
   
     ```  
     channel.Close()  
     ```  
   
     > [!IMPORTANT]
-    >  Debe cerrar el canal cuando haya terminado de procesar la operación. Si no se cierra el canal puede afectar al comportamiento del código.  
+    >  Debe cerrar el canal cuando haya terminado de procesar la operación. Error al cerrar el canal puede afectan al comportamiento del código.  
   
-10. Cierre el agente de escucha cuando haya terminado de recibir las operaciones desde el sistema SAP.  
+10. Cierre el agente de escucha cuando haya terminado de recibir operaciones desde el sistema SAP.  
   
     ```  
     listener.Close()  
     ```  
   
     > [!IMPORTANT]
-    >  Debe cerrar explícitamente el agente de escucha cuando haya terminado de usarlo; en caso contrario, el programa no funcione correctamente. Cerrando el agente de escucha no cierra los canales creados mediante el agente de escucha. Debe cerrar explícitamente cada canal que se crea mediante el agente de escucha.  
+    >  Debe cerrar explícitamente el agente de escucha cuando haya terminado con él; en caso contrario, es posible que el programa no funcione correctamente. Cerrando el agente de escucha no cierra los canales creados mediante el agente de escucha. Debe cerrar explícitamente cada canal creado mediante el agente de escucha.  
   
 ### <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se recibe una solicitud de cambio, Z_RFC_MKD_DIV desde el sistema SAP. Este RFC divide dos números. La implementación en este ejemplo utiliza un **InboundActionCollection** para filtrar para la operación de Z_RFC_MKD_DIV y hace lo siguiente cuando se recibe un mensaje:  
+ En el ejemplo siguiente, se recibe una solicitud de cambio, Z_RFC_MKD_DIV desde el sistema SAP. Este RFC divide dos números. La implementación en este ejemplo utiliza un **InboundActionCollection** para filtrar para la operación de Z_RFC_MKD_DIV y hace lo siguiente cuando se recibe un mensaje:  
   
--   Si el divisor es distinto de cero, el resultado de la división se escribe en la consola y lo devuelve al sistema SAP.  
+-   Si el divisor es distinto de cero, escribe el resultado de la división en la consola y lo devuelve al sistema SAP.  
   
--   Si el divisor es cero, escribe el mensaje de excepción resultante en la consola y devuelve un error al sistema SAP.  
+-   Si el divisor es cero, escribe el mensaje de excepción resultante en la consola y devuelve un error en el sistema SAP.  
   
--   Si cualquier otra operación es enviado por el sistema SAP, escribe un mensaje en la consola. En este caso, el propio adaptador devuelve un error al sistema SAP.  
+-   Si se envía ninguna otra operación por el sistema SAP, escribe un mensaje en la consola. En este caso, el propio adaptador devuelve un error en el sistema SAP.  
   
 ```  
 using System;  

@@ -1,5 +1,5 @@
 ---
-title: Error de configuración. El no de firma de mensaje &#39; t coincide con la firma configurada para esta entidad | Documentos de Microsoft
+title: Error de configuración. La no firma de mensaje&#39;t coincide con la firma configurada para esta entidad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23214832300fe6125318ce67083f6bee0a364158
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 729fff283d8fa63ce9e933a0dc69a4a8f2200874
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22232492"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980461"
 ---
-# <a name="configuration-error-the-message-signature-doesn39t-match-the-signature-configured-for-this-party"></a>Error de configuración. El no de firma de mensaje &#39; coincidencia t la firma configurada para esta entidad
+# <a name="configuration-error-the-message-signature-doesn39t-match-the-signature-configured-for-this-party"></a>Error de configuración. La no firma de mensaje&#39;t coincide con la firma configurada para esta entidad
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Error de configuración. La firma del mensaje no coincide con la firma configurada para esta entidad. Póngase en contacto con el socio remitente y verifique el certificado utilizado. AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}"|  
+|                 |                                                                                                                                                                                                            |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                             |
+| Versión del producto |                                                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                         |
+|    Identificador del evento     |                                                                                                     -                                                                                                      |
+|  Origen del evento   |                                                           EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                           |
+|    Componente    |                                                                                                 Motor AS2                                                                                                 |
+|  Nombre simbólico  |                                                                                                     -                                                                                                      |
+|  Texto del mensaje   | Error de configuración. La firma del mensaje no coincide con la firma configurada para esta entidad. Póngase en contacto con el socio remitente y verifique el certificado utilizado. AS2-de: "{0}" AS2-para: "{1}" MessageID: "{2}" |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción AS2 no pudo comprobar la firma al realizar el procesamiento MIME. Esto puede deberse al uso de un certificado para procesar el mensaje recibido diferente del que usó el remitente para firmar el mensaje. Esto puede producirse si BizTalk Server usa la configuración de una entidad equivocada para comprobar la firma del mensaje AS2 entrante.  

@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10603 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10603 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 738d2939f4178fdfaa115b8dfcc2273935c37b85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5416ae8a2dcfdf5a3da6d8c1d00eb5a556fc3599
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270396"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970069"
 ---
-# <a name="single-sign-on-event-10603"></a>Inicio de sesión único: Evento 10603
+# <a name="single-sign-on-event-10603"></a>De sesión único: Evento 10603
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10603|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_DB_ACCESS|  
-|Texto del mensaje|No se pudo obtener acceso a la base de datos de SSO. Si esta condición persiste, el servicio SSO se desconectará.%r<br /><br /> %1.%r<br /><br /> Código de Error de SQL: %2|  
+|                 |                                                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                             Inicio de sesión único (SSO) empresarial                                                              |
+| Versión del producto |                                             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                             |
+|    Identificador del evento     |                                                                       10603                                                                        |
+|  Origen del evento   |                                                                       ENTSSO                                                                       |
+|    Componente    |                                                                        N/D                                                                         |
+|  Nombre simbólico  |                                                                 SSO_WARN_DB_ACCESS                                                                 |
+|  Texto del mensaje   | No se pudo obtener acceso a la base de datos de SSO. Si esta condición persiste, el servicio SSO se desconectará.%r<br /><br /> %1.%r<br /><br /> Código de Error SQL: %2 |
   
 ## <a name="explanation"></a>Explicación  
  La base de datos de SSO no está disponible.  

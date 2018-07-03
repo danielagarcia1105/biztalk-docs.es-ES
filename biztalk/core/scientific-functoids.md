@@ -1,5 +1,5 @@
 ---
-title: Functoids científicos | Documentos de Microsoft
+title: Functoids científicos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b23f65ecede9082ec93041ddab45fa92029851a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cf7a181f200948335aab0ffa2a06d43d38408afb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269508"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977420"
 ---
 # <a name="scientific-functoids"></a>Functoids científicos
 
 ## <a name="overview"></a>Información general
 **Científicos** functoids se utilizan para realizar una serie de cálculos trigonométricos, logarítmicos y exponenciales estándar.  
-  
+
  Con la excepción de la **logaritmo en una base especificada** y **X ^ Y** functoids, que toman dos parámetros de entrada, el **científica** todos los functoids toman un único parámetro.  
-  
- Las cuatro operaciones trigonométricas **científica** functoids (**arcotangente**, **coseno**, **seno**, y **tangente**) todos utilizan radianes en vez de grados como unidades para sus parámetros de salida o entrada pertinente. El Radián es una unidad de medida de ángulos, hay 2π radianes en un círculo. Así pues:  
-  
--   2π radianes equivalen a 360 grados  
-  
--   1 Radián = 180/π grados  
-  
--   1 grado = π/180 radianes  
-  
- Si los mensajes de instancia de entrada o salida utilizan grados como unidad de medida de ángulos, necesitará utilizar un **matemáticos** functoid junto con un trigonométrico **científica** functoid obtener el resultado correcto.  
+
+ Las cuatro operaciones trigonométricas **científica** functoids (**arco tangente**, **coseno**, **seno**, y **tangente**) todos utilizan radianes en vez de grados como unidades para sus parámetros de salida o entrada correspondiente. Una en radianes es una unidad de medida de ángulos, de forma que hay 2π radianes en un círculo. Así pues:  
+
+- 2π radianes es igual a 360 grados  
+
+- 1 radianes = π/180 grados  
+
+- 1 grado = 180/π radianes  
+
+  Si los mensajes de instancia de entrada o salida utilizan grados como unidad de medida de ángulos, deberá usar un **matemáticos** functoid junto con un trigonométrico **científica** functoid para lograr el resultado correcto.  
 
 ## <a name="available-functoids"></a>Functoids disponibles  
  El **científica** functoids son: 
@@ -49,7 +49,7 @@ ms.locfileid: "22269508"
 * Seno
 * Tangente
 * X^Y
-  
+
 ## <a name="see-also"></a>Vea también  
--  [Cómo agregar Functoids básicos a un mapa](../core/how-to-add-basic-functoids-to-a-map.md)   
--  **Referencia a Functoids científicos**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+- [Cómo agregar Functoids básicos a una asignación](../core/how-to-add-basic-functoids-to-a-map.md)   
+- **Referencia a Functoids científicos** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

@@ -1,5 +1,5 @@
 ---
-title: Acerca de las asignaciones | Documentos de Microsoft
+title: Acerca de las asignaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,23 +19,23 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3d15f37dc0ff0112906a449e1b1d84704b21727
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd27793be4f1b1d9fd2b404f9a2a3a678b7622b2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22225564"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966285"
 ---
 # <a name="about-maps"></a>Acerca de las asignaciones
 Con el Asignador de BizTalk, se define la relación entre un esquema de origen y uno de destino mediante vínculos y functoids. Un vínculo define una copia de datos directa de un registro o campo. Los vínculos puede conectarse directamente con elementos del otro esquema, o pueden establecer conexiones con functoids. Los functoids llevan a cabo manipulaciones de datos más complejas, como:  
   
--   Sumar el valor de dos campos del esquema de origen y copiar el resultado en el esquema de destino.  
+- Sumar el valor de dos campos del esquema de origen y copiar el resultado en el esquema de destino.  
   
--   Convertir un carácter en su formato equivalente ASCII.  
+- Convertir un carácter en su formato equivalente ASCII.  
   
--   Devolver el promedio de un campo de un registro de repetición y copiar el resultado en un campo del esquema de destino.  
+- Devolver el promedio de un campo de un registro de repetición y copiar el resultado en un campo del esquema de destino.  
   
- El Asignador de BizTalk almacena las asignaciones en un archivo con la extensión .btm. El archivo guarda información de diseño acerca de la asignación, las ubicaciones de los iconos que representan functoids, los vínculos entre elementos de esquema y functoids y otra información acerca de la asignación. Cuando genera o compila la asignación, el Asignador de BizTalk convierte la información sobre la asignación en la hoja de estilo de Transformación de lenguaje de hojas de estilo extensible (XSLT).  
+  El Asignador de BizTalk almacena las asignaciones en un archivo con la extensión .btm. El archivo guarda información de diseño sobre la asignación, las ubicaciones de los iconos que representan functoids, los vínculos entre elementos de esquema y functoids y otra información sobre la asignación. Cuando genera o compila la asignación, el Asignador de BizTalk convierte la información sobre la asignación en la hoja de estilo de Transformación de lenguaje de hojas de estilo extensible (XSLT).  
   
 > [!NOTE]
 >  El compilador de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] tiene un límite de 16 megabytes en el tamaño total de todas las cadenas en un único proyecto. Al compilar proyectos de BizTalk, el compilador serializa esquemas, asignaciones y orquestaciones para crear los ensamblados y, por ello, el tamaño total de todas las cadenas aumenta y puede superar el límite. Para resolver este problema, puede reorganizar el proyecto colocando esquemas y/o asignaciones en otros proyectos de Biztalk (normalmente, bajo la misma solución), de modo que el tamaño total de todas las cadenas de cada proyecto no supere los 16 MB.  
@@ -48,4 +48,4 @@ Con el Asignador de BizTalk, se define la relación entre un esquema de origen y
   
 -   [Functoids en asignaciones](../core/functoids-in-maps.md)  
   
--   [Compilación de la asignación y las pruebas](../core/map-compilation-and-testing.md)
+-   [Compilación y comprobación de asignaciones](../core/map-compilation-and-testing.md)

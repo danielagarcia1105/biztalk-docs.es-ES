@@ -1,5 +1,5 @@
 ---
-title: Configuración de confirmación | Documentos de Microsoft
+title: Configuración de las confirmaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,32 +16,32 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34eda8a977de0dadbad974268b46e4d580cc1f33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8c1f19fa1a0d1abaad29f454f25f0d8608ed497
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204364"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967141"
 ---
 # <a name="acknowledgment-settings"></a>Configuración de confirmación
-Usa el **confirmación** ficha de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Explorador de configuración (en el nivel superior **partes** pestaña) para configurar opciones de confirmación (ACK).  
+Usa el **confirmación** ficha de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Explorador de configuración (bajo el alto nivel **partes** pestaña) para configurar las opciones de confirmación (ACK).  
   
  Están disponibles los siguientes tipos de confirmación:  
   
--   **Ninguna**. Seleccione esta opción si no desea configurar las confirmaciones.  
+- **Ninguna**. Seleccione esta opción si no desea configurar confirmaciones.  
   
--   **Original**. Seleccione esta opción para configurar **MSH1: separador de campos**, **MSH2: codificación de caracteres**y el **MSH8 – seguridad** opciones solo.  
+- **Original**. Seleccione esta opción para configurar **MSH1: separador de campos**, **MSH2: codificación de caracteres**y el **MSH8 – seguridad** sólo las opciones.  
   
--   **Mejorado**. Seleccione esta opción para configurar todas las opciones de confirmación disponibles.  
+- **Mejorado**. Seleccione esta opción para configurar todas las opciones disponibles de confirmación.  
   
--   **Deferred**. Seleccione esta opción para configurar **MSH1: separador de campos**, **MSH2: codificación de caracteres**, y **MSH8 – seguridad** opciones solo.  
+- **Aplaza**. Seleccione esta opción para configurar **MSH1: separador de campos**, **MSH2: codificación de caracteres**, y **MSH8 – seguridad** sólo las opciones.  
   
--   **Estático**. Seleccione esta opción para configurar el **en caso de éxito** y **en caso de error** opciones de confirmación.  
+- **Estática**. Seleccione esta opción para configurar el **en caso de éxito** y **en caso de error** opciones de confirmación.  
   
- Una vez que se establece el tipo de confirmación, puede establecer valores para los campos de encabezado y confirmaciones, dependiendo del tipo de confirmación.  
+  Una vez que se establece el tipo de confirmación, puede establecer los valores de campos de encabezado y las confirmaciones, en función del tipo de confirmación.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Opciones de configuración de confirmación](../../adapters-and-accelerators/accelerator-hl7/ack-configuration-settings.md)  
+-   [Parámetros de configuración de ACK](../../adapters-and-accelerators/accelerator-hl7/ack-configuration-settings.md)  
   
--   [Configurar confirmaciones de mensajes](../../adapters-and-accelerators/accelerator-hl7/configuring-message-acknowledgments.md)
+-   [Configuración de confirmaciones de mensajes](../../adapters-and-accelerators/accelerator-hl7/configuring-message-acknowledgments.md)

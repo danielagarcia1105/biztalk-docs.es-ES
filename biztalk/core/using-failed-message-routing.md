@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento de mensajes de error | Documentos de Microsoft
+title: Uso de error de enrutamiento de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af6d006aeebd5e2a5f8625a994c8a6f9b0cb6f6a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5c3f4fa3b978775c9f2c8fa91467b88cc74eae8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976573"
 ---
 # <a name="using-failed-message-routing"></a>Utilizar el enrutamiento de mensajes con errores
 La funcionalidad de control de errores permite al diseñador designar un control automatizado de los mensajes con errores como alternativa al comportamiento tradicional (ahora como configuración predeterminada) de colocar los mensajes con errores en la cola de suspensión. Este control automatizado enruta un mensaje con error a cualquier destino de enrutamiento de suscripción, como un puerto de envío o una orquestación. El mensaje de error es un clon del mensaje original, que incluye todas las propiedades anteriormente promocionadas ahora degradadas y con las propiedades seleccionadas relativas al error de mensajería específico promocionadas en el contexto del mensaje.  
@@ -30,11 +30,11 @@ La funcionalidad de control de errores permite al diseñador designar un control
 ## <a name="what-does-failed-message-routing-consist-of"></a>¿De qué se compone el enrutamiento de mensajes con errores?  
  Cuando el enrutamiento de mensajes con errores está habilitado, BizTalk Server no suspende el mensaje, sino que lo enruta. El enrutamiento de mensajes con errores se puede habilitar tanto en puertos de recepción como de envío, con el siguiente resultado:  
   
--   Si el enrutamiento de mensajes con errores está habilitado en un puerto de recepción y un mensaje tiene errores en la canalización de recepción o en el enrutamiento, se genera un mensaje con errores. Si se produce un error en la fase de desensamblado o antes de ella, el mensaje de error es un clon del intercambio original.  
+- Si el enrutamiento de mensajes con errores está habilitado en un puerto de recepción y un mensaje tiene errores en la canalización de recepción o en el enrutamiento, se genera un mensaje con errores. Si se produce un error en la fase de desensamblado o antes de ella, el mensaje de error es un clon del intercambio original.  
   
--   Si el enrutamiento de mensajes con errores está habilitado en un puerto de envío y el mensaje tiene errores en la canalización de envío, se genera un mensaje con errores.  
+- Si el enrutamiento de mensajes con errores está habilitado en un puerto de envío y el mensaje tiene errores en la canalización de envío, se genera un mensaje con errores.  
   
- Cuando se genera un mensaje con errores, BizTalk Server promociona las propiedades de contexto del mensaje relacionado con el informe de errores y degrada las propiedades de contexto del mensaje normal antes de publicar el mensaje con errores. Compare este comportamiento con el comportamiento predeterminado cuando el enrutamiento de mensajes con errores no está habilitado: los mensajes que dan error se suspenden.  
+  Cuando se genera un mensaje con errores, BizTalk Server promociona las propiedades de contexto del mensaje relacionado con el informe de errores y degrada las propiedades de contexto del mensaje normal antes de publicar el mensaje con errores. Compare este comportamiento con el comportamiento predeterminado cuando el enrutamiento de mensajes con errores no está habilitado: los mensajes que dan error se suspenden.  
   
 ## <a name="what-kinds-of-messaging-failures-trigger-an-error-message"></a>¿Qué tipos de errores de mensajería desencadenan un mensaje de error?  
  Cualquier error que se produzca en el procesamiento de los adaptadores, en el procesamiento de las canalizaciones, en las asignaciones o en el enrutamiento de mensajes tiene como resultado un mensaje de error si el enrutamiento de mensajes con errores está habilitado. Cuando se produce un error de mensajería en una orquestación, durante la recepción desde un puerto de recepción o durante el envío a un puerto de envío, el mensaje de error resultante se asocia con los puertos de mensajería con los que está enlazada la orquestación.  
@@ -45,14 +45,14 @@ La funcionalidad de control de errores permite al diseñador designar un control
 ## <a name="error-message-specification"></a>Especificación de mensajes de error  
  Un mensaje de error es un clon del mensaje con errores original que contiene todas las propiedades anteriormente promocionadas ahora degradadas y un juego de propiedades específicas del error promocionadas en el contexto del mensaje. Las propiedades promocionadas anteriormente se degradan para evitar la entrega imprevista a los suscriptores no designados para recibir el mensaje de error. El mensaje de error se publica para su distribución a los suscriptores (orquestaciones, puertos de envío y grupos de puertos de envío).  
   
- Las propiedades que se promocionan al contexto de un mensaje de error todos quedan en el **ErrorReport** espacio de nombres en el servidor BizTalk Server. Son las siguientes:  
+ Las propiedades que se promocionan al contexto de un mensaje de error que se encuentran todas en el **ErrorReport** espacio de nombres en el servidor BizTalk Server. Son las siguientes:  
   
 |Nombre de propiedad|Tipo de datos|Promocionada|Descripción|  
 |-------------------|---------------|--------------|-----------------|  
 |FailureCode|System.String|Sí|Código de error. Un valor hexadecimal que se notifica en la consola de administración de BizTalk Server.|  
 |FailureCategory|System.Int32|Sí|No se usa esta propiedad. Su valor no está definido.|  
-|Descripción|System.String|No|Descripción del error. El mismo texto de diagnóstico como está escrito en el registro de eventos de aplicación con respecto a este error de mensajería.|  
-|MessageType|System.String|Sí|Mensaje de tipo mensaje con errores, o vacío si el tipo de mensaje es indeterminado.<br /><br /> BizTalk Server utiliza el tipo de mensaje para asociar los mensajes con los esquemas XML correspondientes. El tipo de mensaje se forma mediante la concatenación del espacio de nombres del esquema con el nodo raíz del esquema: http://mynamespace#rootnode. **Nota:** conjunto de mensajes que generan errores antes de que se determina el tipo de mensaje no tiene esta propiedad.|  
+|Descripción|System.String|no|Descripción del error. El mismo texto de diagnóstico como está escrito en el registro de eventos de aplicación con respecto a este error de mensajería.|  
+|MessageType|System.String|Sí|Mensaje de tipo mensaje con errores, o vacío si el tipo de mensaje es indeterminado.<br /><br /> BizTalk Server utiliza el tipo de mensaje para asociar los mensajes con los esquemas XML correspondientes. Tipo de mensaje se forma concatenando el espacio de nombres de esquema con el nodo raíz de esquema: http://mynamespace#rootnode. **Nota:** establecen de mensajes que generan errores antes de que se determina el tipo de mensaje no tiene esta propiedad.|  
 |ReceivePortName|System.String|**Promocionada** si el error se produjo durante el procesamiento de entrada (en un puerto de recepción).<br /><br /> **No promocionada** si el error se produjo en un puerto de envío.|Nombre del puerto de recepción donde se produjo el error.|  
 |InboundTransportLocation|System.String|**Promocionada** si el error se produjo durante el procesamiento de entrada (en un puerto de recepción).<br /><br /> **No promocionada** si el error se produjo en un puerto de envío.|URI de la ubicación de recepción donde se produjo el error.|  
 |SendPortName|System.String|**Promocionada** si el error se produjo durante el procesamiento de salida (en un puerto de envío).<br /><br /> **No promocionada** si el error se produjo en un puerto de recepción.|Nombre del puerto de envío donde se produjo el error.|  
@@ -93,7 +93,7 @@ La funcionalidad de control de errores permite al diseñador designar un control
   
 -   **Mensajes suspendidos por componentes de canalización.** BizTalk Server suspende este tipo de mensajes en el mismo formato que se proporcionaron al componente de canalización con errores. Cuando se reanuda el mensaje, se realiza el procesamiento de canalización desde el principio de la misma canalización. Esto implica que un componente de canalización en una fase de canalización anterior a la fase donde se produjo el error original debe estar preparado para controlar el "mismo" mensaje en un formato diferente del original en el que se procesó dicho mensaje.  
   
--   **Desensamblado posteriormente errores de enrutamiento de intercambio de mensajes de recuperables.** BizTalk Server suspende este tipo de mensajes en el mismo formato en el que se publicaron. Es el formato que tenía el mensaje **después** de la ejecución de la canalización. Cuando se reanuda el mensaje, se omite el procesamiento de canalización y se publica directamente en la base de datos de cuadro de mensajes.  
+-   **Desensamblado errores de enrutamiento de intercambio de mensajes de recuperable.** BizTalk Server suspende este tipo de mensajes en el mismo formato en el que se publicaron. Es el formato que tenía el mensaje **después** de la ejecución de la canalización. Cuando se reanuda el mensaje, se omite el procesamiento de canalización y se publica directamente en la base de datos de cuadro de mensajes.  
   
 ## <a name="scenarios-leading-to-suspended-non-resumable-messages"></a>Escenarios que dan lugar a mensajes suspendidos (no reanudables)  
  Si bien lo más habitual es que los mensajes se suspendan como reanudables, hay algunos escenarios que dan lugar a mensajes no reanudables:  

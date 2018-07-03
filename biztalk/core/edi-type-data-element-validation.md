@@ -1,5 +1,5 @@
 ---
-title: Validación de tipo (elemento de datos) EDI | Documentos de Microsoft
+title: Validación de EDI (elemento de datos) de tipo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,59 +12,59 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a989c58f59581795f641601938fe76bb7b1671f6
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: e64063dbd9e8a7337759f90114b70a2e8f7b9d21
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25969562"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973661"
 ---
 # <a name="edi-type-data-element-validation"></a>Validación de tipo EDI (elemento de datos)
-La canalización de recepción EDI y la canalización de envío EDI llevan a cabo una validación de EDI en los elementos de datos del conjunto de transacciones. Esta validación se configura para todos los mensajes desde o a un usuario específico, a través de propiedades del acuerdo de esa entidad en el **validación** página (bajo la **configuración del conjunto de transacciones** sección para cualquier X12 o acuerdos EDIFACT). Si el **validación de tipo EDI** propiedad no está seleccionada en el **validación** página, los datos no se realizarán las validaciones que se describe en este tema.  
+La canalización de recepción EDI y la canalización de envío EDI llevan a cabo una validación de EDI en los elementos de datos del conjunto de transacciones. Esta validación está configurada para todos los mensajes de o a una entidad específica, a través de propiedades del acuerdo de esa entidad en el **validación** página (bajo la **configuración del conjunto de transacciones** sección x X12 o acuerdos de EDIFACT). Si el **validación de tipo EDI** propiedad no está seleccionada en el **validación** página, los datos no se realizarán las validaciones que se describe en este tema.  
   
- Validación de tipo EDI está habilitada para los mensajes entrantes como salientes seleccionando la **validación de tipo EDI** propiedad en el **validación** página de las fichas del acuerdo bidireccional del **Propiedades de acuerdo** cuadro de diálogo. Esta propiedad está seleccionada de forma predeterminada para los mensajes entrantes y para los salientes, de modo que la validación EDI está habilitada de forma predeterminada.  
+ Validación de tipo EDI está habilitada para los mensajes entrantes como salientes seleccionando la **validación de tipo EDI** propiedad en el **validación** página de las pestañas del acuerdo bidireccional en el **Las propiedades del acuerdo** cuadro de diálogo. Esta propiedad está seleccionada de forma predeterminada para los mensajes entrantes y para los salientes, de modo que la validación EDI está habilitada de forma predeterminada.  
   
 ## <a name="validation-checks"></a>Comprobaciones de la validación  
  Cuando la canalización de recepción EDI o la canalización de envío EDI llevan a cabo una validación, lo hacen de los siguientes elementos:  
   
--   Tipos de datos definidos por las propiedades de EDI del esquema  
+- Tipos de datos definidos por las propiedades de EDI del esquema  
   
--   Restricciones de longitud  
+- Restricciones de longitud  
   
--   Separadores finales y elementos de datos vacíos  
+- Separadores finales y elementos de datos vacíos  
   
-    > [!NOTE]
-    >  En esta validación no se comprueban los conjuntos de códigos (enumeraciones) ni el número máximo ni mínimo de instancias.  
+  > [!NOTE]
+  >  En esta validación no se comprueban los conjuntos de códigos (enumeraciones) ni el número máximo ni mínimo de instancias.  
   
- **Juegos de caracteres**  
+  **Juegos de caracteres**  
   
- Para llevar a cabo validaciones de elementos de datos de EDI, las canalizaciones de envío y recepción EDI necesitan que se establezca un juego de caracteres:  
+  Para llevar a cabo validaciones de elementos de datos de EDI, las canalizaciones de envío y recepción EDI necesitan que se establezca un juego de caracteres:  
   
--   Para EDIFACT, el juego de caracteres se establece en el elemento de datos **UNB1** de la **juego de caracteres y separadores** página de la ficha de acuerdo unidireccional del **propiedades del acuerdo de** cuadro de diálogo o la **configuración de reserva de EDIFACT** cuadro de diálogo (si no se ha establecido ningún acuerdo).  
+- Para EDIFACT, el juego de caracteres se establece en el elemento de datos **UNB1** de la **juego de caracteres y separadores** página de la ficha de acuerdo unidireccional de la **las propiedades del acuerdo** cuadro de diálogo o la **configuración de reserva de EDIFACT** cuadro de diálogo (si no se ha establecido ningún acuerdo).  
   
--   Para KEDIFACT, el carácter se establece en el elemento de datos **UNB1** de la **juego de caracteres y separadores** página de la ficha de acuerdo unidireccional el **propiedades del acuerdo de** cuadro de diálogo cuadro, igual que para EDIFACT. El valor de la **UNB1.1** elemento debe estar establecido en `KECA`.  
+- Para KEDIFACT, el carácter se establece en el elemento de datos **UNB1** de la **juego de caracteres y separadores** página de la ficha de acuerdo unidireccional del **las propiedades del acuerdo** cuadro de diálogo cuadro, igual que para EDIFACT. El valor de la **UNB1.1** elemento debe establecerse en `KECA`.  
   
--   En X12, el juego de caracteres se establece para el mensaje en las propiedades de la canalización.  
+- En X12, el juego de caracteres se establece para el mensaje en las propiedades de la canalización.  
   
-    > [!NOTE]
-    >  Cuando el tiempo de ejecución de BizTalk lleva a cabo una validación de EDI de un mensaje, ésta utilizará el juego de caracteres de X12 seleccionado en las propiedades de la canalización. Sin embargo, la validación de las propiedades especificadas en las páginas de la **propiedades del acuerdo de** cuadro de diálogo se realiza con el juego de caracteres seleccionado en el **juego de caracteres y separadores** página del cuadro de diálogo. Durante el tiempo de ejecución, la canalización omite el valor de la X12 propiedad de juego de caracteres **juego de caracteres y separadores** página de la **propiedades del acuerdo de** cuadro de diálogo. Si estos dos valores no son iguales (es decir, el X12 propiedad del juego de caracteres en el **propiedades del acuerdo de** cuadro de diálogo se establece en **extendido** mientras el X12 propiedad caracteres en las propiedades de canalización está establecida en **Básica**), podría producir un error de validación del mensaje.  
+  > [!NOTE]
+  >  Cuando el tiempo de ejecución de BizTalk lleva a cabo una validación de EDI de un mensaje, ésta utilizará el juego de caracteres de X12 seleccionado en las propiedades de la canalización. Sin embargo, la validación de las propiedades especificadas en las páginas de la **las propiedades del acuerdo** cuadro de diálogo se realiza mediante el juego de caracteres seleccionado en el **juego de caracteres y separadores** página del cuadro de diálogo. En tiempo de ejecución, la canalización omite el valor de la X12 propiedad de juego de caracteres **juego de caracteres y separadores** página de la **las propiedades del acuerdo** cuadro de diálogo. Si estos dos valores no son iguales (es decir, el X12 propiedad juego de caracteres en el **las propiedades del acuerdo** cuadro de diálogo está establecido en **extendido** mientras el X12 propiedad caracteres en las propiedades de canalización está establecida en **Básica**), se podrían producir errores de validación del mensaje.  
   
- **Validación de tipo de datos**  
+  **Validación de tipo de datos**  
   
- Para X12, los siguientes tipos de datos EDI se anotan en el esquema para la validación por parte de los componentes Desensamblador/Ensamblador de las canalizaciones de recepción o de envío: numérico, decimal, identificador, cadena, fecha, hora, binario y compuesto.  
+  Para X12, los siguientes tipos de datos EDI se anotan en el esquema para la validación por parte de los componentes Desensamblador/Ensamblador de las canalizaciones de recepción o de envío: numérico, decimal, identificador, cadena, fecha, hora, binario y compuesto.  
   
- Para EDIFACT, los siguientes tipos de datos EDI se anotan en el esquema para la validación por parte de los componentes Desensamblador/Ensamblador de las canalizaciones de recepción o de envío: alfabético, numérico, identificador, cadena y compuesto.  
+  Para EDIFACT, los siguientes tipos de datos EDI se anotan en el esquema para la validación por parte de los componentes Desensamblador/Ensamblador de las canalizaciones de recepción o de envío: alfabético, numérico, identificador, cadena y compuesto.  
   
- **Restricciones de longitud**  
+  **Restricciones de longitud**  
   
- Tanto en X12 como en EDIFACT, los elementos o subelementos deben validarse en cuanto a requisitos de longitud (máxima y mínima). La longitud está definida por el número de posiciones de caracteres utilizado. No obstante, en ella no se incluyen signos ni notaciones decimales.  
+  Tanto en X12 como en EDIFACT, los elementos o subelementos deben validarse en cuanto a requisitos de longitud (máxima y mínima). La longitud está definida por el número de posiciones de caracteres utilizado. No obstante, en ella no se incluyen signos ni notaciones decimales.  
   
 > [!NOTE]
 >  En un tipo de datos de cadena X12_AN, se conservan los espacios iniciales y se permiten los finales en todos los segmentos para satisfacer el requisito de longitud mínimo.  
   
- En KECA, la longitud está determinada por el número de bytes. Por ejemplo, si la longitud se define como tres, el elemento o subelemento puede incluir tres caracteres de un byte o la combinación de un carácter de dos bytes y un carácter de un byte.  
+ En KECA, la longitud está determinada por el número de bytes. Por ejemplo, si la longitud se define como tres, el elemento o subelemento puede incluir tres caracteres de byte único o la combinación de un carácter de dos bytes y un carácter de un byte.  
   
- **Vacía de elementos de datos y validación de separadores finales**  
+ **Vaciar elementos de datos y validación de separadores finales**  
   
  En X12, los elementos de datos que están marcados como obligatorios no pueden estar vacíos en una instancia si el segmento está presente. Si el elemento de datos es compuesto, debe valorarse un elemento de datos del componente, como mínimo.  
   
@@ -80,21 +80,21 @@ La canalización de recepción EDI y la canalización de envío EDI llevan a cab
   
  Algunos de los errores que se procesarán sin que se suspenda el mensaje son los siguientes:  
   
--   Un conjunto de transacciones inesperado o no definido.  
+- Un conjunto de transacciones inesperado o no definido.  
   
--   Datos inesperados o no definidos en el nivel del elemento de datos y del bucle o segmento.  
+- Datos inesperados o no definidos en el nivel del elemento de datos y del bucle o segmento.  
   
--   Opcionalidad (número máximo y mínimo de instancias) en el nivel del elemento de datos y del bucle o segmento.  
+- Opcionalidad (número máximo y mínimo de instancias) en el nivel del elemento de datos y del bucle o segmento.  
   
--   Infracción de la longitud (máxima o mínima) en el nivel del elemento de datos (datos con una longitud que supera el nivel máximo o que queda por debajo del nivel mínimo).  
+- Infracción de la longitud (máxima o mínima) en el nivel del elemento de datos (datos con una longitud que supera el nivel máximo o que queda por debajo del nivel mínimo).  
   
--   No coincidencia del tipo de datos en el nivel del elemento de datos (con excepción del tipo de datos de Id., que cuenta con su control propio).  
+- No coincidencia del tipo de datos en el nivel del elemento de datos (con excepción del tipo de datos de Id., que cuenta con su control propio).  
   
--   Lista de enumeración no válida en el nivel del elemento de datos.  
+- Lista de enumeración no válida en el nivel del elemento de datos.  
   
- Si la validación de tipo EDI está deshabilitada en la fase de recepción pero habilitada en la de envío, la canalización de envío EDI no podrá volver a procesar el archivo XML que ha producido la canalización de recepción en un archivo EDI válido si el archivo XML contiene errores. Como consecuencia, la canalización de envío generará un error.  
+  Si la validación de tipo EDI está deshabilitada en la fase de recepción pero habilitada en la de envío, la canalización de envío EDI no podrá volver a procesar el archivo XML que ha producido la canalización de recepción en un archivo EDI válido si el archivo XML contiene errores. Como consecuencia, la canalización de envío generará un error.  
   
- Si la validación de tipo EDI está deshabilitada, la canalización de envío o recepción EDI controlará errores de la siguiente forma:  
+  Si la validación de tipo EDI está deshabilitada, la canalización de envío o recepción EDI controlará errores de la siguiente forma:  
   
 |||  
 |-|-|  
@@ -122,5 +122,5 @@ La canalización de recepción EDI y la canalización de envío EDI llevan a cab
 |Elemento de datos inesperado|La confirmación informa de este error y omite los errores compuestos relativos a propiedades del tipo Id., restricción, número de instancias, etc., así como los errores relativos a los campos compuestos del elemento de datos (si procede).|  
   
 ## <a name="see-also"></a>Vea también  
- [Validación del mensaje EDI](../core/edi-message-validation.md)   
+ [Validación de mensajes EDI](../core/edi-message-validation.md)   
  [Validación extendida (BTS-XSD)](../core/extended-bts-xsd-validation.md)

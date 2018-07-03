@@ -1,5 +1,5 @@
 ---
-title: Detener una instancia de Host | Documentos de Microsoft
+title: Detener una instancia de Host | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,19 +12,19 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 837b08c30263b48ad481c7e03820cfba0b6c0ecc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9b66c89ccafa72c56de00aebd24091915643f44e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22255508"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972677"
 ---
 # <a name="stop-a-host-instance"></a>Detener una instancia de Host
 
 ## <a name="overview"></a>Información general
 Puede usar el Instrumental de administración de Windows (WMI) o la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para detener instancias de host. Es necesario detener las instancias de host antes de eliminarlas, o de quitar BizTalk Server de un equipo. Es posible detener una instancia de host que esté instalada e iniciada. Para obtener más información acerca de las instancias de host, consulte [instancias de Host](../core/host-instances.md).  
   
- Para obtener información acerca del uso de WMI para detener una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+ Para obtener información sobre cómo usar WMI para detener una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo este procedimiento, debe haber iniciado sesión como miembro del grupo de administradores y del grupo de administradores de BizTalk Server.  
@@ -46,19 +46,19 @@ Puede usar el Instrumental de administración de Windows (WMI) o la consola de a
   
 ## <a name="steps"></a>Pasos
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
+2. En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
   
-3.  En el panel de detalles, haga clic en la instancia de host que desea detener y, a continuación, haga clic en **detener**.  
+3. En el panel de detalles, haga clic en la instancia de host que desea detener y, a continuación, haga clic en **detener**.  
   
-     El estado de la instancia de host cambia a **detenido**.  
+    El estado de la instancia de host cambia a **detenido**.  
   
- Una vez detenida la instancia, podrá volver a iniciarla o eliminarla, o bien quitar BizTalk Server del equipo. Para obtener información acerca de cómo iniciar una instancia de host, consulte [cómo iniciar una instancia de Host](../core/how-to-start-a-host-instance.md). Para obtener información acerca de cómo eliminar una instancia de host, consulte [cómo eliminar una instancia de Host](../core/how-to-delete-a-host-instance.md).  
+   Una vez detenida la instancia, podrá volver a iniciarla o eliminarla, o bien quitar BizTalk Server del equipo. Para obtener información acerca de cómo iniciar una instancia de host, consulte [cómo iniciar una instancia de Host](../core/how-to-start-a-host-instance.md). Para obtener información acerca de cómo eliminar una instancia de host, consulte [cómo eliminar una instancia de Host](../core/how-to-delete-a-host-instance.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
  [Cómo agregar una instancia de Host](../core/how-to-add-a-host-instance.md)   
  [Cómo iniciar una instancia de Host](../core/how-to-start-a-host-instance.md)   
  [Cómo eliminar una instancia de Host](../core/how-to-delete-a-host-instance.md)   
- [Cómo modificar las propiedades de la instancia de Host](../core/how-to-modify-host-instance-properties.md)
+ [Cómo modificar las propiedades de instancia de Host](../core/how-to-modify-host-instance-properties.md)

@@ -1,5 +1,5 @@
 ---
-title: Desarrollar un Functoid en línea personalizado | Documentos de Microsoft
+title: Desarrollar un Functoid en línea personalizado | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a742e6a53b5fb81d92922ff94e7754239f723ea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd6e208cd894c2b307bd2c601b7d8bd774e204ce
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22242020"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976701"
 ---
 # <a name="developing-a-custom-inline-functoid"></a>Desarrollar un functoid en línea personalizado
 Los functoids en línea personalizados proporcionan funcionalidad al copiar directamente el código de implementación en una asignación, en lugar de hacer referencia a un ensamblado, una clase y un nombre de método como en el caso de los functoids personalizados a los que se hace referencia.  
@@ -25,39 +25,39 @@ Los functoids en línea personalizados proporcionan funcionalidad al copiar dire
 ## <a name="building-inline-script"></a>Generar una secuencia de comandos en línea  
  Hay dos formas de proporcionar una secuencia de comandos para incluirla en la asignación. Seleccione uno de los métodos siguientes según si el functoid personalizado es compatible con un número variable de parámetros:  
   
--   Invalidar **GetInlineScriptBuffer** cuando el functoid personalizado acepta un número variable de parámetros de entrada y ha establecido la **HasVariableInputs** propiedad `true`. Por ejemplo, utilice este método si desea concatenar un número variable de cadenas o buscar el valor más grande de un conjunto de valores.  
+- Invalidar **GetInlineScriptBuffer** cuando el functoid personalizado acepta un número variable de parámetros de entrada y ha establecido la **HasVariableInputs** propiedad `true`. Por ejemplo, utilice este método si desea concatenar un número variable de cadenas o buscar el valor más grande de un conjunto de valores.  
   
--   Use **SetScriptBuffer** cuando no es necesario admitir un número variable de parámetros de entrada. Aunque puede seguir utilizando parámetros opcionales, el número total de parámetros es fijo.  
+- Use **SetScriptBuffer** cuando no es necesario admitir un número variable de parámetros de entrada. Aunque puede seguir utilizando parámetros opcionales, el número total de parámetros es fijo.  
   
- Estos dos métodos requieren implementaciones diferentes.  
+  Estos dos métodos requieren implementaciones diferentes.  
   
 ### <a name="providing-inline-code-with-setscriptbuffer"></a>Proporcionar código en línea con SetScriptBuffer  
  Para configurar el functoid personalizado para usar la secuencia de comandos en línea:  
   
-1.  Llame a **AddScriptTypeSupport** con [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) para permitir que el código insertado y establezca el tipo de secuencia de comandos compatible.  
+1. Llame a **AddScriptTypeSupport** con [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) para habilitar el código en línea y establecer el tipo de secuencia de comandos compatible.  
   
-2.  Invocar **SetScriptBuffer** para establecer el código que se utilizará para el functoid personalizado. Debe llamar esta función tres veces con el parámetro `functionNumber` en el caso de los functoids acumulativos personalizados y una vez en el caso de los functoids no acumulativos personalizados.  
+2. Invocar **SetScriptBuffer** para establecer el código que se usará para el functoid personalizado. Debe llamar esta función tres veces con el parámetro `functionNumber` en el caso de los functoids acumulativos personalizados y una vez en el caso de los functoids no acumulativos personalizados.  
   
-3.  Use **SetScriptGlobalBuffer** para declarar las variables globales que utilice el código en línea.  
+3. Use **SetScriptGlobalBuffer** para declarar las variables globales que usa el código en línea.  
   
-4.  Use **RequiredGlobalHelperFunctions** para indicar las funciones auxiliares que requiere su functoid en línea personalizado.  
+4. Use **RequiredGlobalHelperFunctions** para indicar las funciones auxiliares que requiere su functoid en línea personalizado.  
   
- Puede generar la secuencia de comandos mediante StringBuilder o constantes. Un enfoque para escribir código de secuencias de comandos es escribir primero un functoid personalizado al que se hace referencia y, cuando se hayan eliminado todos los errores, convertirlo a en línea mediante la copia de las funciones correspondientes a constantes de cadena.  
+   Puede generar la secuencia de comandos mediante StringBuilder o constantes. Un enfoque para escribir código de secuencias de comandos es escribir primero un functoid personalizado al que se hace referencia y, cuando se hayan eliminado todos los errores, convertirlo a en línea mediante la copia de las funciones correspondientes a constantes de cadena.  
   
 ### <a name="providing-inline-code-with-getinlinescriptbuffer"></a>Proporcionar código en línea con GetInlineScriptBuffer  
- Si el functoid en línea personalizado es compatible con un número variable de parámetros, deberá reemplazar **GetInlineScriptBuffer**. Para configurar el functoid personalizado para usar la secuencia de comandos en línea:  
+ Si el functoid en línea personalizado admite un número variable de parámetros, deberá reemplazar **GetInlineScriptBuffer**. Para configurar el functoid personalizado para usar la secuencia de comandos en línea:  
   
-1.  En el constructor, declare que el functoid personalizado tiene entradas variables estableciendo **HasVariableInputs** a `true`.  
+1. En el constructor, declare que el functoid personalizado tiene entradas variables estableciendo **HasVariableInputs** a `true`.  
   
-2.  En el constructor, llame a **AddScriptTypeSupport** con [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) para permitir que el código insertado y establezca el tipo de secuencia de comandos compatible.  
+2. En el constructor, llame a **AddScriptTypeSupport** con [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) para habilitar el código en línea y establecer el tipo de secuencia de comandos compatible.  
   
-3.  Invalidar **GetInlineScriptBuffer** para construir y devolver el código que se usará en el mapa para el functoid personalizado. Use los parámetros para generar el código correcto mediante la selección de `scriptType` y `numParams`. El último parámetro, `functionNumber`, debe ser 0. Esto es porque las funciones acumulativas tienen un número fijo de entradas y no utilizan este mecanismo.  
+3. Invalidar **GetInlineScriptBuffer** construir y devolver el código que se usará en el mapa para el functoid personalizado. Use los parámetros para generar el código correcto mediante la selección de `scriptType` y `numParams`. El último parámetro, `functionNumber`, debe ser 0. Esto es porque las funciones acumulativas tienen un número fijo de entradas y no utilizan este mecanismo.  
   
-4.  Use **SetScriptGlobalBuffer** para declarar variables globales que utilice el código en línea.  
+4. Use **SetScriptGlobalBuffer** para declarar las variables globales que usa el código en línea.  
   
-5.  Use **RequiredGlobalHelperFunctions** para indicar las funciones auxiliares que requiere su functoid en línea personalizado.  
+5. Use **RequiredGlobalHelperFunctions** para indicar las funciones auxiliares que requiere su functoid en línea personalizado.  
   
- El siguiente fragmento de código genera una función C# con el número de parámetros pasados en `numParams`, pero sin ningún cuerpo de función. Para usar este fragmento de código, copie el ejemplo a la solución y agregue código para hacer algo con los parámetros y devolver un valor.  
+   El siguiente fragmento de código genera una función C# con el número de parámetros pasados en `numParams`, pero sin ningún cuerpo de función. Para usar este fragmento de código, copie el ejemplo a la solución y agregue código para hacer algo con los parámetros y devolver un valor.  
   
 ```  
 // Override GetInlineScriptBuffer  
@@ -103,7 +103,7 @@ protected override string GetInlineScriptBuffer(ScriptType scriptType, int numPa
   
  Para ver el XSLT de una asignación:  
   
-1.  En un proyecto de BizTalk de Visual Studio, haga clic en el **el Explorador de soluciones** pestaña, haga clic en un mapa que use el functoid en línea personalizado y, a continuación, haga clic en **validar asignación**.  
+1.  Desde un proyecto de BizTalk de Visual Studio, haga clic en el **el Explorador de soluciones** pestaña, haga clic en un mapa que use el functoid en línea personalizado y, a continuación, haga clic en **validar asignación**.  
   
 2.  Desplácese a la ventana Resultados para buscar la dirección URL del archivo XSLT. Presione CTRL y haga clic en la dirección URL para ver el archivo.  
   
@@ -115,11 +115,11 @@ protected override string GetInlineScriptBuffer(ScriptType scriptType, int numPa
   
  Para comprobar una asignación:  
   
-1.  En un proyecto de BizTalk de Visual Studio, haga clic en el **el Explorador de soluciones** pestaña, haga clic en un mapa que use el functoid en línea personalizado y, a continuación, haga clic en **comprobar asignación**.  
+1. Desde un proyecto de BizTalk de Visual Studio, haga clic en el **el Explorador de soluciones** pestaña, haga clic en un mapa que use el functoid en línea personalizado y, a continuación, haga clic en **comprobar asignación**.  
   
-2.  Desplácese a la ventana Resultados para buscar la dirección URL del archivo de salida. Presione CTRL y haga clic en la dirección URL para ver el archivo.  
+2. Desplácese a la ventana Resultados para buscar la dirección URL del archivo de salida. Presione CTRL y haga clic en la dirección URL para ver el archivo.  
   
- Puede comprobar los valores de entrada y de salida para comprobar si el comportamiento de la asignación ha sido el previsto.  
+   Puede comprobar los valores de entrada y de salida para comprobar si el comportamiento de la asignación ha sido el previsto.  
   
 ## <a name="example"></a>Ejemplo  
  El siguiente ejemplo ilustra cómo crear un functoid en línea personalizado para la concatenación de dos cadenas. Se basa en un archivo de recursos que contiene tres recursos de cadena y un recurso de mapa de bits de 16 x 16 píxeles.  
@@ -190,6 +190,6 @@ namespace Microsoft.Samples.BizTalk.CustomFunctoid
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Utilizar BaseFunctoid](../core/using-basefunctoid.md)   
+ [Uso de BaseFunctoid](../core/using-basefunctoid.md)   
  [Desarrollar un personalizado al que hace referencia de Functoid](../core/developing-a-custom-referenced-functoid.md)   
  [Functoid personalizado (ejemplo de BizTalk Server)](../core/custom-functoid-biztalk-server-sample.md)

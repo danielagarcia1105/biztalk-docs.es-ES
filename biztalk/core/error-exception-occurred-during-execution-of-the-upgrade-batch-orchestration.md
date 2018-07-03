@@ -1,5 +1,5 @@
 ---
-title: Se ha producido una excepción durante la ejecución de la orquestación de lote de actualización | Documentos de Microsoft
+title: Se ha producido una excepción durante la ejecución de la orquestación de lote de actualización | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a0789853ba253d7d8e51c34a6c1d1ce64829f8d
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: a12c1a116a0f7d35f6fbc7d2250c48f224081fae
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26006669"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981349"
 ---
 # <a name="an-exception-has-occurred-during-the-execution-of-the-upgrade-batch-orchestration"></a>Se produjo una excepción durante la ejecución de la orquestación del lote de actualización
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de BizTalk Server|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|ExceptionOccuredDuringUpgrade|  
-|Texto del mensaje|Se produjo una excepción durante la ejecución de la orquestación del lote de actualización. Mensaje de error: {0}|  
+|                 |                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]           |
+| Versión del producto |                      [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                       |
+|    Identificador del evento     |                                                   -                                                   |
+|  Origen del evento   |                                          EDI de BizTalk Server                                           |
+|    Componente    |                                            Motor de procesamiento por lotes                                            |
+|  Nombre simbólico  |                                     ExceptionOccuredDuringUpgrade                                     |
+|  Texto del mensaje   | Se produjo una excepción durante la ejecución de la orquestación del lote de actualización. ErrorMessage = {0} |
   
 ## <a name="explanation"></a>Explicación  
  El evento de error,  indica que la orquestación del lote de actualización no pudo procesar correctamente el mensaje debido a la condición de error indicada en el campo Mensaje de error.  

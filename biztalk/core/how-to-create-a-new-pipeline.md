@@ -1,5 +1,5 @@
 ---
-title: Cómo crear una nueva canalización | Documentos de Microsoft
+title: Cómo crear una nueva canalización | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 83c1df14c0015ac26b99ad8f0760fe18438e8024
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 908c0eebecaf005e22194584f9a1d1e7fafa4daf
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248764"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970237"
 ---
 # <a name="how-to-create-a-new-pipeline"></a>Cómo crear una nueva canalización
 Puede agregar una plantilla de canalización al proyecto para crear una nueva canalización.  
@@ -32,26 +32,26 @@ Puede agregar una plantilla de canalización al proyecto para crear una nueva ca
   
 ### <a name="to-create-a-new-pipeline"></a>Para crear una nueva canalización  
   
-1.  En el Explorador de soluciones, seleccione el proyecto en el que desea crear la canalización.  
+1. En el Explorador de soluciones, seleccione el proyecto en el que desea crear la canalización.  
   
-2.  En el menú **Proyecto** , haga clic en **Agregar nuevo elemento**.  
+2. En el menú **Proyecto** , haga clic en **Agregar nuevo elemento**.  
   
-3.  En el **Agregar nuevo elemento** cuadro de diálogo, seleccione un **canalización de recepción** o **canalización de envío** plantilla haciendo clic en él una vez.  
+3. En el **Agregar nuevo elemento** cuadro de diálogo, seleccione un **canalización de recepción** o **canalización de envío** plantilla haciendo clic en él una vez.  
   
-    > [!NOTE]
-    >  Si hace doble clic en la plantilla, la canalización se creará automáticamente con el nombre predeterminado que aparece en el **nombre** campo.  
+   > [!NOTE]
+   >  Si hace doble clic en la plantilla, la canalización se crearán automáticamente con el nombre predeterminado que aparece en el **nombre** campo.  
   
-4.  En el **nombre** , escriba un nombre para la canalización.  
+4. En el **nombre** , escriba un nombre para la canalización.  
   
-5.  Haga clic en **Abrir**.  
+5. Haga clic en **Abrir**.  
   
-     La nueva canalización aparecerá en el Explorador de soluciones. La superficie de diseño muestra las fases de canalización y un conjunto predeterminado de componentes.  
+    La nueva canalización aparecerá en el Explorador de soluciones. La superficie de diseño muestra las fases de canalización y un conjunto predeterminado de componentes.  
   
- Para obtener información acerca de cómo agregar componentes de canalización a la canalización, consulte [cómo agregar un componente a una canalización](../core/how-to-add-a-component-to-a-pipeline.md).  
+   Para obtener información acerca de cómo agregar componentes de canalización a la canalización, consulte [cómo agregar un componente a una canalización](../core/how-to-add-a-component-to-a-pipeline.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo abrir una canalización](../core/how-to-open-a-pipeline.md)   
  [Cómo guardar una canalización](../core/how-to-save-a-pipeline.md)   
  [Cómo usar el cuadro de herramientas](../core/how-to-use-the-toolbox.md)   
  [Cómo desplazarse con el teclado](../core/how-to-navigate-with-the-keyboard.md)   
- [Crear canalizaciones con el Diseñador de canalizaciones](../core/creating-pipelines-with-pipeline-designer.md)
+ [Creación de canalizaciones con el Diseñador de canalizaciones](../core/creating-pipelines-with-pipeline-designer.md)

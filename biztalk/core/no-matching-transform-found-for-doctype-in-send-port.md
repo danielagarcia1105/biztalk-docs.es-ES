@@ -1,5 +1,5 @@
 ---
-title: Se encontró ninguna transformación coincidente para DocType en puerto de envío | Documentos de Microsoft
+title: Se encontró ninguna transformación coincidente para DocType en puerto de envío | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8bc45ac0edf425bc19ab526fac6b2690f3a6b6d0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9668694f5cde2e99775d1392c8722bad0645b251
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263060"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966213"
 ---
 # <a name="no-matching-transform-found-for-doctype-in-send-port"></a>No se ha encontrado ninguna transformación coincidente para DocType en Puerto de envío
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|NoMatchingTransformFoundForSendPortAndDocType|  
-|Texto del mensaje|Ninguna transformación coincidente que encuentra para DocType {0} en {1} del puerto de envío. Incoherente con la información de ExplorerOM|  
+|                 |                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]           |
+| Versión del producto |                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                       |
+|    Identificador del evento     |                                                   -                                                    |
+|  Origen del evento   |         EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]         |
+|    Componente    |                                               Motor EDI                                               |
+|  Nombre simbólico  |                             NoMatchingTransformFoundForSendPortAndDocType                              |
+|  Texto del mensaje   | Se encontró ninguna transformación coincidente para DocType {0} en el puerto de envío {1}. Incoherente con la información de ExplorerOM |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que no se encontró ninguna transformación coincidente para un DocType y Puerto de envío.  

@@ -1,5 +1,5 @@
 ---
-title: Invocar conjuntos de solicitudes en Oracle E-Business Suite mediante el modelo de servicio WCF | Documentos de Microsoft
+title: Invocar conjuntos de solicitudes en Oracle E-Business Suite mediante el modelo de servicio WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec243c1d1ed1093241e4dc6120c3703fbf2e4542
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c85ee6a77bcd93deaceafde03cec9fb8b1d4f6ef
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25965186"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971053"
 ---
 # <a name="invoke-request-sets-in-oracle-e-business-suite-using-the-wcf-service-model"></a>Invocar conjuntos de solicitudes en Oracle E-Business Suite mediante el modelo de servicio WCF
-[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]permite ejecutar conjuntos de solicitudes en Oracle E-Business Suite. Solicitar conjuntos se dividen en una o varias fases y cada fase contiene un conjunto de informes y programas simultáneos. Para obtener más información acerca del modo en que el adaptador admite los conjuntos de solicitudes, consulte [operaciones en la solicitud establece](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md).  
+[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] le permite ejecutar conjuntos de solicitudes en Oracle E-Business Suite. Solicitar conjuntos se dividen en una o varias fases y cada fase contiene un conjunto de informes y los programas simultáneos. Para obtener más información sobre cómo el adaptador es compatible con conjuntos de solicitudes, consulte [operaciones en la solicitud establece](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md).  
   
 ## <a name="the-wcf-client-class"></a>La clase de cliente WCF  
- El nombre del cliente WCF generado para invocar la solicitud, se establece el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] aparece en la tabla siguiente.  
+ El nombre del cliente WCF generado para invocar la solicitud, se establece la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] aparece en la tabla siguiente.  
   
 |Artefacto|Nombre de cliente WCF|  
 |--------------|---------------------|  
 |Conjunto de solicitud|Cliente RequestSets_ [APP_NAME]|  
   
- [APP_NAME] = nombre real de la aplicación de Oracle E-Business Suite; Por ejemplo, SQLAP.  
+ [APP_NAME] = nombre real de la aplicación de Oracle E-Business Suite. Por ejemplo, SQLAP.  
   
 ### <a name="method-signature-for-invoking-request-sets"></a>Firma de método para invocar conjuntos de solicitudes  
- En la tabla siguiente se muestra la firma del método de conjuntos de solicitudes.  
+ En la tabla siguiente se muestra la firma del método para conjuntos de solicitudes.  
   
 |Operación|Firma de método|  
 |---------------|----------------------|  
 |Conjunto de solicitud|pública \<tipo de valor devuelto\> \<nombre del conjunto de solicitud\>(parámetro 1, el parámetro 2,...)|  
   
- Por ejemplo, el código siguiente muestra las firmas de método para generar una clase de cliente WCF para la **reqset_singlestage** solicitar conjunto.  
+ Por ejemplo, el código siguiente muestra las firmas de método para una clase de cliente WCF generado para el **reqset_singlestage** solicitar conjunto.  
   
 > [!NOTE]
 >  Esto es un conjunto de solicitudes personalizado y podría no estar disponible en la instancia de Oracle E-Business solución.  
@@ -56,72 +56,72 @@ public partial class RequestSets_SQLAPClient : System.ServiceModel.ClientBase<Re
 }  
 ```  
   
- En este fragmento de código, **RequestSets_SQLAPClient** es el nombre de la clase WCF en el OracleEBSBindingClient.cs generado por la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. **REQSTG** es el nombre del método para invocar el conjunto de solicitud.  
+ En este fragmento de código, **RequestSets_SQLAPClient** es el nombre de la clase WCF en el OracleEBSBindingClient.cs generado por el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. **REQSTG** es el nombre del método para invocar el conjunto de solicitud.  
   
 ## <a name="creating-a-wcf-client-to-invoke-request-sets"></a>Creación de un cliente WCF para invocar conjuntos de solicitudes  
- El conjunto de acciones necesarias para realizar una operación en Oracle E-Business Suite mediante un cliente WCF genérico implica un conjunto de tareas que se describen en [información general sobre el modelo de servicio WCF con el adaptador de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/overview-of-the-wcf-service-model-with-the-oracle-e-business-suite-adapter.md). Esta sección describe cómo crear un cliente WCF para invocar la **reqset_singlestage** solicitar conjunto.  
+ El conjunto genérico de las acciones necesarias para realizar una operación en Oracle E-Business Suite mediante un cliente WCF implica un conjunto de tareas que se describen en [general del modelo de servicio WCF con el adaptador de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/overview-of-the-wcf-service-model-with-the-oracle-e-business-suite-adapter.md). En esta sección se describe cómo crear un cliente WCF para invocar el **reqset_singlestage** solicitar conjunto.  
   
 #### <a name="to-create-a-wcf-client"></a>Para crear a un cliente WCF  
   
-1.  Cree un proyecto de Visual C# en Visual Studio. De este tema, cree una aplicación de consola.  
+1. Cree un proyecto de Visual C# en Visual Studio. Este tema, cree una aplicación de consola.  
   
-2.  Generar la clase de cliente WCF para la **reqset_singlestage** solicitar conjunto. Para obtener más información acerca de cómo generar una clase de cliente WCF, vea [generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/create-a-wcf-client-or-wcf-service-contract-for-oracle-ebs-solution-artifacts.md).  
+2. Generar la clase de cliente WCF para la **reqset_singlestage** solicitar conjunto. Para obtener más información acerca de cómo generar una clase de cliente WCF, vea [generar un cliente de WCF o un contrato de servicio WCF para artefactos de la solución de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/create-a-wcf-client-or-wcf-service-contract-for-oracle-ebs-solution-artifacts.md).  
   
-    > [!IMPORTANT]
-    >  Antes de generar la clase de cliente WCF, asegúrese de establecer el **EnableBizTalkCompatibilityMode** enlaza la propiedad en false.  
+   > [!IMPORTANT]
+   >  Antes de generar la clase de cliente WCF, asegúrese de establecer el **EnableBizTalkCompatibilityMode** enlaza la propiedad en false.  
   
-3.  En el Explorador de soluciones, agregue la referencia a `Microsoft.Adapters.OracleEBS` y `Microsoft.ServiceModel.Channels`.  
+3. En el Explorador de soluciones, agregue la referencia a `Microsoft.Adapters.OracleEBS` y `Microsoft.ServiceModel.Channels`.  
   
-4.  Abra el archivo Program.cs y agregue los espacios de nombres siguientes:  
+4. Abra el archivo Program.cs y agregue los espacios de nombres siguientes:  
   
-    -   `Microsoft.Adapters.OracleEBS`  
+   -   `Microsoft.Adapters.OracleEBS`  
   
-    -   `System.ServiceModel`  
+   -   `System.ServiceModel`  
   
-5.  Abra el archivo Program.cs y crear a un cliente, como se describe en el siguiente fragmento.  
+5. Abra el archivo Program.cs y cree a un cliente como se describe en el siguiente fragmento.  
   
-    ```  
-    OracleEBSBinding binding = new OracleEBSBinding();  
-    EndpointAddress address = new EndpointAddress("oracleebs://ebs_instance_name");  
-    RequestSets_SQLAPClient client = new RequestSets_SQLAPClient(binding, address);  
-    ```  
+   ```  
+   OracleEBSBinding binding = new OracleEBSBinding();  
+   EndpointAddress address = new EndpointAddress("oracleebs://ebs_instance_name");  
+   RequestSets_SQLAPClient client = new RequestSets_SQLAPClient(binding, address);  
+   ```  
   
-     En este fragmento de código, `RequestSets_SQLAPClient` es el cliente WCF definido en OracleEBSBindingClient.cs. Este archivo es generado por el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
+    En este fragmento de código, `RequestSets_SQLAPClient` es el cliente WCF definido en OracleEBSBindingClient.cs. Este archivo es generado por el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
   
-    > [!NOTE]
-    >  En este fragmento, especificar explícitamente la dirección de enlace y el punto de conexión en el código de aplicación. También puede utilizar estos valores desde el archivo de configuración del aplicación, app.config, también generado el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. Para obtener más información sobre las distintas maneras de especificar el enlace del cliente, consulte [configurar un cliente de enlace de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-client-binding-for-the-oracle-e-business-suite.md).  
+   > [!NOTE]
+   >  En este fragmento de código, especificar explícitamente la dirección de enlace y el punto de conexión en el código de aplicación. También puede usar estos valores desde el archivo de configuración del aplicación, app.config, también generado el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. Para obtener más información sobre las distintas maneras de especificar el enlace del cliente, consulte [configurar un cliente de enlace de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-client-binding-for-the-oracle-e-business-suite.md).  
   
-6.  Establezca las credenciales para el cliente.  
+6. Establecer las credenciales para el cliente.  
   
-    ```  
-    client.ClientCredentials.UserName.UserName = "myuser";  
-    client.ClientCredentials.UserName.Password = "mypassword";  
-    ```  
+   ```  
+   client.ClientCredentials.UserName.UserName = "myuser";  
+   client.ClientCredentials.UserName.Password = "mypassword";  
+   ```  
   
-7.  Dado que se están invocando conjuntos de solicitud en una aplicación de Oracle E-Business Suite, debe establecer el contexto de la aplicación. En este ejemplo, para establecer el contexto de la aplicación, especifique la **OracleUserName**, **OraclePassword**, y **OracleEBSResponsibilityName** propiedades de enlace. Para obtener más información sobre el contexto de la aplicación, consulte [establecer contexto de la aplicación](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
+7. Dado que va a invocar conjuntos de solicitudes en una aplicación de Oracle E-Business Suite, debe establecer el contexto de la aplicación. En este ejemplo, para establecer el contexto de la aplicación, especifica el **OracleUserName**, **OraclePassword**, y **OracleEBSResponsibilityName** propiedades de enlace. Para obtener más información sobre el contexto de la aplicación, consulte [establecer contexto de la aplicación](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
   
-    ```  
-    binding.OracleUserName = "myOracleEBSUserName";  
-    binding.OraclePassword = "myOracleEBSPassword";  
-    binding.OracleEBSResponsibilityName = "myOracleEBSResponsibility";  
-    ```  
+   ```  
+   binding.OracleUserName = "myOracleEBSUserName";  
+   binding.OraclePassword = "myOracleEBSPassword";  
+   binding.OracleEBSResponsibilityName = "myOracleEBSResponsibility";  
+   ```  
   
-8.  Abra al cliente como se describe en el siguiente fragmento:  
+8. Abra al cliente como se describe en el siguiente fragmento:  
   
-    ```  
-    try  
-    {  
-       Console.WriteLine("Opening Client...");  
-       client.Open();  
-    }  
-    catch (Exception ex)  
-    {  
-       Console.WriteLine("Exception: " + ex.Message);  
-       throw;  
-    }  
-    ```  
+   ```  
+   try  
+   {  
+      Console.WriteLine("Opening Client...");  
+      client.Open();  
+   }  
+   catch (Exception ex)  
+   {  
+      Console.WriteLine("Exception: " + ex.Message);  
+      throw;  
+   }  
+   ```  
   
-9. Invocar la **reqset_singlestage** solicitar conjunto.  
+9. Invocar el **reqset_singlestage** solicitar conjunto.  
   
     ```  
     string RequestID;  

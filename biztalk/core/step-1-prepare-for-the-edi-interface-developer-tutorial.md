@@ -1,5 +1,5 @@
 ---
-title: 'Paso 1: Preparar el Tutorial de programadores de la interfaz EDI | Documentos de Microsoft'
+title: 'Paso 1: Preparar el Tutorial de programadores de la interfaz EDI | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,20 +12,20 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b222e425f44e58d79ab65d848a7aff395b1284b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0823f42f5f7963d1c70f1b2d7e16ed595d01bd83
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279236"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972981"
 ---
 # <a name="step-1-prepare-for-the-edi-interface-developer-tutorial"></a>Paso 1: Preparar el Tutorial de programadores de la interfaz EDI
 ![Paso 1 de 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-1of9.gif "Step_1of9")  
   
- El tutorial de programadores de la interfaz EDI se ejecuta en un único equipo. Para preparar el tutorial, debe instalar y configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tal y como se describe en [Introducción a la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5). También debe agregar una referencia a la aplicación EDI de BizTalk  
+ El tutorial de programadores de la interfaz EDI se ejecuta en un único equipo. Para preparar el tutorial, debe instalar y configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] como se describe en [Introducción a la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5). También debe agregar una referencia a la aplicación EDI de BizTalk  
   
 > [!NOTE]
->  Para que funcione este tutorial, se debe ejecutar en una plataforma que use IIS 7.5 o IIS 8.  
+>  Para que funcione este tutorial, se debe ejecutar en una plataforma con IIS 7.5 o IIS 8.  
   
  Los archivos necesarios para el tutorial de programadores de la interfaz EDI están ubicados en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI Interface Developer Tutorial. Las carpetas y archivos necesarios para el tutorial son los siguientes:  
   
@@ -46,12 +46,12 @@ ms.locfileid: "22279236"
   
 ### <a name="to-add-reference-to-the-biztalk-edi-application"></a>Procedimiento para agregar una referencia a la aplicación EDI de BizTalk  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **aplicaciones** nodo, haga clic en la aplicación que desea usar con EDI, como BizTalk Application 1. Seleccione **agregar**y, a continuación, haga clic en referencias.  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **aplicaciones** nodo, haga clic en la aplicación que desea usar con EDI, por ejemplo, BizTalk Application 1. Seleccione **agregar**y, a continuación, haga clic en referencias.  
   
-2.  En el **Agregar referencia de aplicación** cuadro de diálogo, seleccione **aplicación EDI de BizTalk**y, a continuación, haga clic en **Aceptar**.  
+2. En el **Agregar referencia de aplicación** cuadro de diálogo, seleccione **aplicación EDI de BizTalk**y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
- Compilar e implementar el ensamblado Inbound_EDI, tal y como se describe en [paso 2: actualizar e implementar la solución del Tutorial](../core/step-2-update-and-deploy-the-tutorial-solution.md).  
+ Compilar e implementar el ensamblado Inbound_EDI, tal como se describe en [paso 2: actualizar e implementar la solución del Tutorial](../core/step-2-update-and-deploy-the-tutorial-solution.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial 2: Tutorial de desarrollador de la interfaz EDI](../core/tutorial-2-edi-interface-developer-tutorial.md)

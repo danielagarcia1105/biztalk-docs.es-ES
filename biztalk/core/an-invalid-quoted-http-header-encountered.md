@@ -1,5 +1,5 @@
 ---
-title: No es válida entre comillas encontrado un encabezado HTTP | Documentos de Microsoft
+title: No es válido entre comillas encontrado un encabezado HTTP | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e154e3bacf34025edd837516a15dca6f2caa174
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ca0d7463f4604e8a159c12fab690e494a13fb60
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230532"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971013"
 ---
 # <a name="an-invalid-quoted-http-header-encountered"></a>Se detectó un encabezado HTTP entre comillas no válido
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Se detectó un encabezado HTTP entre comillas no válido.  Detalles son los siguientes: nombre de encabezado: valor de encabezado "{0}": "{{1}"|  
+|                 |                                                                                                              |
+|-----------------|--------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]              |
+| Versión del producto |                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                          |
+|    Identificador del evento     |                                                      -                                                       |
+|  Origen del evento   |            EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]            |
+|    Componente    |                                                  Motor AS2                                                  |
+|  Nombre simbólico  |                                                      -                                                       |
+|  Texto del mensaje   | Se detectó un encabezado HTTP entre comillas no válido.  Los detalles son los siguientes: nombre de encabezado: "{0}" valor de encabezado: "{1}" |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción AS2 o que la canalización de envío AS2 no pudo procesar el mensaje AS2 porque el nombre del encabezado HTTP AS2-From o AS2-To del mensaje no se entrecomilló correctamente. El nombre del encabezado se entrecomilla con el fin de ajustar un espacio, una barra invertida o comillas dentro del nombre.  

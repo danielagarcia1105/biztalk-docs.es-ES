@@ -1,5 +1,5 @@
 ---
-title: Cómo personalizar la configuración General en el asignador de BizTalk | Documentos de Microsoft
+title: Cómo personalizar la configuración General en el asignador de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf532312d9e8b99570759a11b40ffb33147cb50d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4fe1dcb8fbfc6198c6b12dcbe0855fbef5c35355
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249332"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984341"
 ---
 # <a name="how-to-customize-general-settings-in-biztalk-mapper"></a>Personalización de la configuración general en el Asignador de BizTalk
 Puede cambiar la configuración predeterminada de determinadas opciones de vista en una asignación. Esta configuración estaría disponible cada vez que abra Visual Studio. En este tema se proporciona información sobre dichas opciones.  
@@ -31,34 +31,34 @@ Puede cambiar la configuración predeterminada de determinadas opciones de vista
   
 ### <a name="to-customize-the-general-settings"></a>Procedimiento para personalizar la configuración general  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el menú **Herramientas** , haga clic en **Opciones**.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el menú **Herramientas** , haga clic en **Opciones**.  
   
-     Como alternativa, puede mantener presionada la tecla ALT y presionar TO desde el teclado. Para obtener una lista de métodos abreviados de teclado del asignador, vea [métodos abreviados de teclado del asignador de BizTalk](../core/biztalk-mapper-keyboard-shortcuts.md).  
+    Como alternativa, puede mantener presionada la tecla ALT y presionar TO desde el teclado. Para obtener una lista de métodos abreviados de teclado del asignador, vea [métodos abreviados de teclado del asignador de BizTalk](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
-2.  En el **opciones** cuadro de diálogo, en el panel izquierdo, expanda el **el asignador de BizTalk** nodo y, a continuación, haga clic en **General**.  
+2. En el **opciones** cuadro de diálogo, en el panel izquierdo, expanda el **el asignador de BizTalk** nodo y, a continuación, haga clic en **General**.  
   
-3.  Haga clic en la casilla de verificación para habilitar o deshabilitar una o varias de las siguientes opciones de visualización:  
+3. Haga clic en la casilla de verificación para habilitar o deshabilitar una o varias de las siguientes opciones de visualización:  
   
-    -   Desplazamiento automático  
+   -   Desplazamiento automático  
   
-    -   Visualización optimizada de vínculos  
+   -   Visualización optimizada de vínculos  
   
-    -   Resaltado de los vínculos relevantes de un elemento  
+   -   Resaltado de los vínculos relevantes de un elemento  
   
-    -   Vista Relevancia  
+   -   Vista Relevancia  
   
-    -   Mensaje de confirmación para mover una relación a otra página de cuadrícula  
+   -   Mensaje de confirmación para mover una relación a otra página de cuadrícula  
   
-    -   Mensaje de confirmación para buscar el cruce seguro de principio o fin.  
+   -   Mensaje de confirmación para buscar el cruce seguro de principio o fin.  
   
-    -   Script preferido de los functoids de script  
+   -   Script preferido de los functoids de script  
   
-    -   Busque valores predeterminados para el esquema de origen, el esquema de destino y también los nombres de functoid, etiquetas, comentarios, entradas y scripts.  
+   -   Busque valores predeterminados para el esquema de origen, el esquema de destino y también los nombres de functoid, etiquetas, comentarios, entradas y scripts.  
   
-4.  Haga clic en **Aceptar**. La configuración se guarda como predeterminada.  
+4. Haga clic en **Aceptar**. La configuración se guarda como predeterminada.  
   
-    > [!IMPORTANT]
-    >  Si no desea usar la configuración personalizada, haga clic en **Restaurar valores predeterminados** en el **opciones** cuadro de diálogo.  
+   > [!IMPORTANT]
+   >  Si no desea usar la configuración personalizada, haga clic en **Restaurar valores predeterminados** en el **opciones** cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Con el asignador de BizTalk](../core/using-biztalk-mapper.md)
+ [Uso del Asignador de BizTalk](../core/using-biztalk-mapper.md)

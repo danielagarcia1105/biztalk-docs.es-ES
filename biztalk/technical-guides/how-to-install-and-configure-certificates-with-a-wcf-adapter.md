@@ -1,5 +1,5 @@
 ---
-title: Cómo instalar y configurar certificados con un adaptador de WCF | Documentos de Microsoft
+title: Cómo instalar y configurar certificados con un adaptador de WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,22 +12,22 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1dbb67c1bf6547aa72c5bc877ee6acb7d895a7ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d32b96dedce766ab0383b70d561fa4bae2c70262
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22298660"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970437"
 ---
 # <a name="how-to-install-and-configure-certificates-with-a-wcf-adapter"></a>Cómo instalar y configurar certificados con un adaptador de WCF
-Para obtener información sobre la instalación y configuración de certificados con adaptadores de WCF, vea [instalar certificados para los adaptadores de WCF](http://go.microsoft.com/fwlink/?LinkId=155204) (http://go.microsoft.com/fwlink/?LinkId=155204) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.  
+Para obtener información sobre la instalación y configuración de certificados con adaptadores de WCF, vea [instalar certificados para los adaptadores de WCF](http://go.microsoft.com/fwlink/?LinkId=155204) (<http://go.microsoft.com/fwlink/?LinkId=155204>) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo configurar un puerto de envío WCF-BasicHttp](http://go.microsoft.com/fwlink/?LinkId=155206)   
- [Cómo configurar un WCF-BasicHttp ubicación de recepción](http://go.microsoft.com/fwlink/?LinkId=155207)   
+ [Cómo configurar ubicación de recepción de un WCF-BasicHttp](http://go.microsoft.com/fwlink/?LinkId=155207)   
  [Cómo configurar un puerto de envío WCF-NetMsmq](http://go.microsoft.com/fwlink/?LinkId=155208)   
- [Cómo configurar un WCF-NetMsmq ubicación de recepción](http://go.microsoft.com/fwlink/?LinkId=155209)   
+ [Cómo configurar ubicación de recepción de un WCF-NetMsmq](http://go.microsoft.com/fwlink/?LinkId=155209)   
  [Cómo configurar un puerto de envío WCF-NetTcp](http://go.microsoft.com/fwlink/?LinkId=155210)   
- [Cómo configurar ubicación de recepción de WCF-NetTcp](http://go.microsoft.com/fwlink/?LinkId=155211)   
+ [Cómo configurar ubicación de recepción WCF-NetTcp](http://go.microsoft.com/fwlink/?LinkId=155211)   
  [Cómo configurar un puerto de envío WCF-WSHttp](http://go.microsoft.com/fwlink/?LinkId=155212)   
- [Cómo configurar un WCF-WSHttp ubicación de recepción](http://go.microsoft.com/fwlink/?LinkId=155215)
+ [Cómo configurar ubicación de recepción de un WCF-WSHttp](http://go.microsoft.com/fwlink/?LinkId=155215)

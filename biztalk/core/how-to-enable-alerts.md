@@ -1,5 +1,5 @@
 ---
-title: Cómo habilitar alertas | Documentos de Microsoft
+title: Cómo habilitar alertas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,30 +16,30 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9986bea177471a236cab888f20d915292d540e5b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f9fee863613feea040e05856d8246f94b4a3f835
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25968826"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969157"
 ---
 # <a name="how-to-enable-alerts"></a>Cómo habilitar alertas
-Los administradores utilizan el **enable-alerts** comando para habilitar todas las alertas de la vista especificada.  
+Los administradores utilizan el **enable-alerts** comando para habilitar todas las alertas en la vista especificada.  
   
 ### <a name="to-enable-an-alert"></a>Para habilitar una alerta  
   
-1.  Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
+1. Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-2.  Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
+2. Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
   
-3.  Tipo de **bm enable-alerts-View:\<nombre de la vista\>**.  
+3. Tipo **bm enable-alerts-View:\<nombre de la vista\>**.  
   
-    > [!NOTE]
-    >  Si ha exportado configuraciones de BAM como archivos XML, no modifique el código XML relativo a las alertas. Si modifica el código XML relativo a las alertas e implementa los cambios, bm.exe detectará el cambio y habilitará las alertas de BAM.  
+   > [!NOTE]
+   >  Si ha exportado configuraciones de BAM como archivos XML, no modifique el código XML relativo a las alertas. Si modifica el código XML relativo a las alertas e implementa los cambios, bm.exe detectará el cambio y habilitará las alertas de BAM.  
   
-4.  Presione **ENTRAR**.  
+4. Presione **ENTRAR**.  
   
 ## <a name="see-also"></a>Vea también  
- [Administración de la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md)   
+ [Administrar la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md)   
  [Utilidad de administración de BAM](../core/bam-management-utility.md)   
  [Escriba aquí la descripción del vínculo](../core/how-to-disable-alerts.md)

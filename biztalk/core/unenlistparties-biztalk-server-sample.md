@@ -1,5 +1,5 @@
 ---
-title: UnenlistParties (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: UnenlistParties (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34cbb94dff7211a157fc492c1157fa379236641e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c7525e97ba93ebd35d2439044b8c1be55a70be3d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973474"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973029"
 ---
 # <a name="unenlistparties-biztalk-server-sample"></a>UnenlistParties (ejemplo de BizTalk Server)
 El ejemplo UnenlistParties muestra cómo dar de baja todas las entidades asociadas a un ensamblado de BizTalk Server implementado.  
@@ -33,9 +33,9 @@ El ejemplo UnenlistParties muestra cómo dar de baja todas las entidades asociad
   
 ## <a name="prerequisites"></a>Requisitos previos  
   
--   Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.  
+- Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.  
   
--   El script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts. Para obtener más información, consulte: [examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).  
+- El script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts. Para obtener más información, consulte: [examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).  
   
 ## <a name="how-this-sample-is-designed-and-why"></a>Cómo se ha diseñado este ejemplo y por qué  
  Este ejemplo, escrito en Visual C# con objetos del Modelo de objetos para el Explorador de BizTalk, realiza las operaciones siguientes:  
@@ -51,46 +51,46 @@ El ejemplo UnenlistParties muestra cómo dar de baja todas las entidades asociad
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\UnenlistParties\  
+ \<*Ejemplos de la ruta de acceso*\>\Admin\ExplorerOM\UnenlistParties\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |App.ico, AssemblyInfo.cs, UnenlistParties.csproj, UnenlistParties.sln, UnenlistParties.cs|Archivos de proyecto, de solución y de origen para generar una aplicación de línea de comandos de Visual C# que dé de baja todas las entidades de un ensamblado concreto.|  
   
 ### <a name="to-build-and-initialize-this-sample"></a>Para generar e inicializar el ejemplo  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución UnenlistParties.sln.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución UnenlistParties.sln.  
   
-2.  En el **generar** menú, seleccione **generar solución**.  
+2. En el **compilar** menú, seleccione **compilar solución**.  
   
 ### <a name="to-run-this-sample"></a>Para ejecutar el ejemplo  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
+    \<*Ejemplos de la ruta de acceso*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
   
-2.  Ejecute el archivo UnenlistParties.exe y pase uno de los dos argumentos de línea de comandos siguientes:  
+2. Ejecute el archivo UnenlistParties.exe y pase uno de los dos argumentos de línea de comandos siguientes:  
   
-    -   **\<** ***AssemblyName* \>** . El nombre de un ensamblado desde el que se darán de baja todas las entidades asociadas. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
+   - **\<** ***AssemblyName* \>** . El nombre de un ensamblado desde el que se darán de baja todas las entidades asociadas. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
   
-    -   **/?.** Muestra la Ayuda.  
+   - **/?.** Muestra la Ayuda.  
   
      Por ejemplo:  
   
-    ```  
-    UnenlistParties "My BizTalk Assembly.dll"  
-    ```  
+   ```  
+   UnenlistParties "My BizTalk Assembly.dll"  
+   ```  
   
-     -OR-  
+    -O bien-  
   
-    ```  
-    UnenlistParties /?  
-    ```  
+   ```  
+   UnenlistParties /?  
+   ```  
   
 ## <a name="windows-powershell-script-example"></a>Ejemplo de un script de Windows PowerShell  
- El siguiente fragmento de script de Windows Powershell puede usarse para mostrar las mismas características de la **ExplorerOM** clases:  
+ El siguiente fragmento de script de Windows Powershell se puede usar para mostrar las mismas características de la **ExplorerOM** clases:  
   
 ```  
 #===================#  
@@ -183,7 +183,7 @@ else
   
 ```  
   
- Los resultados siguientes del script se generaron de la dada de baja de entidades del ensamblado de proveedor, que forma parte del ejemplo PartyResolution. El ejemplo PartyResolution se encuentra en la \< *ruta de ejemplos*\>\Admin\Orchestrations\PartyResolution directory.  
+ Los resultados siguientes del script se generaron de la dada de baja de entidades del ensamblado de proveedor, que forma parte del ejemplo PartyResolution. El ejemplo PartyResolution se encuentra en la \< *ruta de ejemplos*\>directory \Admin\Orchestrations\PartyResolution.  
   
 ```  
 PS C:\> .\UnenlistParties.ps1 Supplier  

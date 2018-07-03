@@ -1,5 +1,5 @@
 ---
-title: Cómo mover un servidor de un grupo a otro | Documentos de Microsoft
+title: Cómo mover un servidor de un grupo a otro | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1c9e5dfdf266d2205283afa7cd9804c31fc93ff3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0492af242b742fa51b75ae36ac577cd0ff0b8714
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254572"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971773"
 ---
 # <a name="how-to-move-a-server-from-one-group-to-another"></a>Cómo mover un servidor de un grupo a otro
 Un servidor sólo puede asociarse a un grupo de BizTalk Server. Para mover un servidor de un grupo a otro, primero deberá quitar el servidor del grupo original quitando su configuración y, a continuación, tendrá que agregarlo al nuevo grupo.  
@@ -34,28 +34,28 @@ Un servidor sólo puede asociarse a un grupo de BizTalk Server. Para mover un se
   
 ### <a name="to-move-a-server-from-one-biztalk-group-to-another"></a>Para mover un servidor de un grupo de BizTalk a otro  
   
-1.  En el equipo que desea mover desde el grupo de BizTalk a otro, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **deconfiguracióndeBizTalkServer**.  
+1. En el equipo que desee mover desde el grupo de BizTalk a otro, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **deconfiguracióndeBizTalkServer**.  
   
-2.  En la barra de menús, haga clic en **desconfigurar características**.  
+2. En la barra de menús, haga clic en **desconfigurar características**.  
   
-3.  En el **desconfigurar características** cuadro de diálogo, seleccione **SSO empresarial**, seleccione **grupo**y, a continuación, haga clic en **Aceptar**.  
+3. En el **desconfigurar características** cuadro de diálogo, seleccione **SSO empresarial**, seleccione **grupo**y, a continuación, haga clic en **Aceptar**.  
   
-    > [!CAUTION]
-    >  Al quitar la configuración de un grupo, también se quitará la configuración de todas las características dependientes que ya estén configuradas en ese equipo.  
+   > [!CAUTION]
+   >  Al quitar la configuración de un grupo, también se quitará la configuración de todas las características dependientes que ya estén configuradas en ese equipo.  
   
-4.  Haga clic en **Sí**.  
+4. Haga clic en **Sí**.  
   
-5.  En el **configuración de Microsoft BizTalk Server** ventana, haga clic en **siguiente**.  
+5. En el **configuración de Microsoft BizTalk Server** ventana, haga clic en **siguiente**.  
   
-     Se quita la configuración de SSO empresarial, del grupo y de las características dependientes.  
+    Se quita la configuración de SSO empresarial, del grupo y de las características dependientes.  
   
-6.  Haga clic en **Finalizar**.  
+6. Haga clic en **Finalizar**.  
   
-7.  En el **configuración de Microsoft BizTalk Server** ventana, seleccione **configuración personalizada**.  
+7. En el **configuración de Microsoft BizTalk Server** ventana, seleccione **configuración personalizada**.  
   
-8.  En **el nombre del servidor de base de datos**, escriba el nombre de SQL server para el grupo de BizTalk que va a mover el servidor.  
+8. En **el nombre del servidor de base de datos**, escriba el nombre de SQL server para el grupo de BizTalk que va a mover el servidor.  
   
-9. En **credencial del servicio**, escriba el nombre de usuario correspondiente y la contraseña que usará los servicios y, a continuación, haga clic en **configurar**.  
+9. En **credencial de servicio**, escriba el nombre de usuario correspondiente y la contraseña que use los servicios y, a continuación, haga clic en **configurar**.  
   
 10. En el árbol de navegación en el lado izquierdo de la pantalla, haga clic en **SSO empresarial**.  
   

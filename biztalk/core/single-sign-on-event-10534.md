@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10534 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10534 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,16 +12,16 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac17888699ed616a3f38deb65a79c16ce8265a51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3cd927dac38871c8d4c9d6de8650ec5f7e1151bb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270260"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968213"
 ---
-# <a name="single-sign-on-event-10534"></a>Inicio de sesión único: Evento 10534
+# <a name="single-sign-on-event-10534"></a>De sesión único: Evento 10534
 ## <a name="details"></a>Detalles  
-  
+
 |||  
 |-|-|  
 |Nombre del producto|Inicio de sesión único (SSO) empresarial|  
@@ -32,16 +32,16 @@ ms.locfileid: "22270260"
 |Componente|N\D|  
 |Nombre simbólico|SSO_INFO_SECRET_SERVER_STARTING|  
 |Texto del mensaje|Este equipo es el servidor secreto principal.|  
-  
+
 ## <a name="explanation"></a>Explicación  
  Este evento de información indica que este equipo es el servidor secreto principal.  
-  
+
 ## <a name="user-action"></a>Acción del usuario  
-  
--   No es necesario que el usuario realice ninguna acción.  
-  
- Para obtener más información, consulte los siguientes recursos en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
-  
--   [Cómo generar el secreto principal](../core/how-to-generate-the-master-secret.md)  
-  
--   [Administrar el secreto principal](../core/managing-the-master-secret.md)
+
+- No es necesario que el usuario realice ninguna acción.  
+
+  Para obtener más información, consulte los siguientes recursos en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
+
+- [Cómo generar el secreto principal](../core/how-to-generate-the-master-secret.md)  
+
+- [Administración del secreto maestro](../core/managing-the-master-secret.md)

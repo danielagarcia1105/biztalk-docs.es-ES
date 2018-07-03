@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10605 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10605 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3e7d0fb4befaacd8734f866f2c11c7446d4e5854
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c578462759d2eeb69767d21191e028ef9e8ce1e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270316"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972517"
 ---
-# <a name="single-sign-on-event-10605"></a>Inicio de sesión único: Evento 10605
+# <a name="single-sign-on-event-10605"></a>De sesión único: Evento 10605
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10605|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_ERROR_DTC_IMPORT|  
-|Texto del mensaje|No se pudo importar una transacción de DTC. Compruebe que MSDTC está correctamente configurado para funcionamiento remoto. Consulte la documentación de details.%r<br /><br /> Código de error: %1|  
+|                 |                                                                                                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                       Inicio de sesión único (SSO) empresarial                                                                       |
+| Versión del producto |                                                      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                       |
+|    Identificador del evento     |                                                                                 10605                                                                                 |
+|  Origen del evento   |                                                                                ENTSSO                                                                                 |
+|    Componente    |                                                                                  N/D                                                                                  |
+|  Nombre simbólico  |                                                                         SSO_ERROR_DTC_IMPORT                                                                          |
+|  Texto del mensaje   | No se pudo importar una transacción de DTC. Compruebe que MSDTC está correctamente configurado para funcionamiento remoto. Consulte la documentación de details.%r<br /><br /> Código de error: %1 |
   
 ## <a name="explanation"></a>Explicación  
  Existe un problema con Microsoft DTC (Coordinador de transacciones distribuidas).  

@@ -1,5 +1,5 @@
 ---
-title: Opciones de configuración de confirmación | Documentos de Microsoft
+title: Opciones de configuración de ACK | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,32 +15,32 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 93dea42fd084f22b4644f0acbb21860d69f75027
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 06cedaee1ca0ad574920cfb646f69d63157c8e67
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204412"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968061"
 ---
 # <a name="ack-configuration-settings"></a>Opciones de configuración de confirmación
-El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] analizador genera las confirmaciones en función de la configuración de administración de socios comerciales (TPM). La configuración de confirmación (ACK) es dependiente de la información de socios comerciales. No se utiliza el tipo de esquema. Cuando [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] recibe un mensaje de confirmación con el campo MSH15 AL, SU o ER, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] puede enviar una confirmación para este mensaje en función del resultado de analizar el encabezado de confirmación y la configuración de TPM. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Recupera la configuración de confirmación asociado y devuelve uno de los cinco valores siguientes:  
+Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] analizador genera las confirmaciones según la configuración de administración de socios comerciales (TPM). La configuración de confirmación (ACK) es dependiente de la información del partner. No se utiliza el tipo de esquema. Cuando [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] recibe un mensaje de confirmación con el campo MSH15 AL, unidades de búsqueda o ER, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] puede enviar una confirmación para este mensaje en función del resultado de analizar el encabezado de la confirmación y la configuración de TPM. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Recupera la configuración de confirmación asociado y devuelve uno de cinco los siguientes:  
   
 > [!NOTE]
->  La especificación de HL7 exige que utiliza elementos 1 a 4 y para rellenar el campo MSH15 de un mensaje de confirmación que genera. Elemento 5 es [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]-específico y denota no para generar una confirmación.  
+>  La especificación de HL7 exige que utilice elementos 1 a 4 y para rellenar el campo MSH15 de un mensaje de confirmación que genera. Es el elemento 5 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]-específico y denota no para generar una confirmación.  
   
 1.  AL – siempre  
   
 2.  NE: nunca  
   
-3.  SU: correcto  
+3.  Unidades de búsqueda: correcto  
   
 4.  ER: Error  
   
 5.  NO – no generan una confirmación  
   
 ## <a name="ack-configuration-inconsistency"></a>Incoherencia de configuración de confirmación  
- En el caso de incoherencia entre los valores dentro de la instancia de mensaje MSH15 y MSH16 campos y la configuración de la interfaz de usuario de confirmación configuración [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] envía una confirmación cuando uno de los dos desencadenadores de generación de confirmación lo requieren. En el caso de otras incoherencias, los datos de la instancia sobrescribirá la configuración en la interfaz de usuario de configuración.  
+ En el caso de una incoherencia entre los valores dentro de la instancia de mensaje MSH15 y MSH16 campos y la configuración de interfaz de usuario de configuración de ACK [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] envía una confirmación cuando uno de los dos desencadenadores de generación de confirmación lo requieren. En el caso de otras incoherencias, los datos de la instancia invalidará la configuración en la interfaz de usuario de configuración.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar confirmaciones de mensajes](../../adapters-and-accelerators/accelerator-hl7/configuring-message-acknowledgments.md)   
+ [Configuración de confirmaciones de mensajes](../../adapters-and-accelerators/accelerator-hl7/configuring-message-acknowledgments.md)   
  [Creación y procesamiento de confirmaciones](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)

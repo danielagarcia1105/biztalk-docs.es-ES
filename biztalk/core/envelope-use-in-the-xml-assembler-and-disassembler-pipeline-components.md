@@ -1,5 +1,5 @@
 ---
-title: Utilización de sobres en el ensamblador de XML y los componentes de canalización de desensamblador | Documentos de Microsoft
+title: Usar sobres en el ensamblador XML y los componentes de canalización de desensamblador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,14 +20,14 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a0ae57a65bad84f3d46ceb27e9b5415dc3d1bc31
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4a435b0f87eb955bc3534c2892894a3a13afdc13
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22240396"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966461"
 ---
-# <a name="envelope-use-in-the-xml-assembler-and-disassembler-pipeline-components"></a>Utilización de sobres en el ensamblador de XML y los componentes de canalización de desensamblador
+# <a name="envelope-use-in-the-xml-assembler-and-disassembler-pipeline-components"></a>Usar sobres en el ensamblador XML y los componentes de canalización de desensamblador
 Un mensaje XML puede incluir varios mensajes o ninguno. En el ejemplo siguiente se muestra un sobre (en negrita) que rodea a un documento XML.  
   
 ```  
@@ -39,15 +39,15 @@ Un mensaje XML puede incluir varios mensajes o ninguno. En el ejemplo siguiente 
   
  Los sobres tienen dos finalidades:  
   
--   Pueden incluir valores de campo para utilizarlos para la promoción y degradación de propiedades.  
+- Pueden incluir valores de campo para utilizarlos para la promoción y degradación de propiedades.  
   
-     El componente Desensamblador XML promociona propiedades y el componente Ensamblador XML las degrada. La promoción y degradación de propiedades también se pueden dar en los documentos XML.  
+   El componente Desensamblador XML promociona propiedades y el componente Ensamblador XML las degrada. La promoción y degradación de propiedades también se pueden dar en los documentos XML.  
   
--   Pueden combinar varios documentos XML en un único intercambio.  
+- Pueden combinar varios documentos XML en un único intercambio.  
   
-     Un documento XML bien formado solo puede tener un elemento raíz, por lo que un sobre permite combinar varios documentos XML para compartir el elemento raíz.  
+   Un documento XML bien formado solo puede tener un elemento raíz, por lo que un sobre permite combinar varios documentos XML para compartir el elemento raíz.  
   
- Para imponer la forma canónica, puede especificar el orden sobre mediante la **Editor de propiedades de colección de esquema** cuadro de diálogo que se tiene acceso haciendo clic en el botón de puntos suspensivos para la **esquemas de sobres** propiedad de tiempo de diseño en el ensamblador XML. También puede usar el **XMLNORM. EnvelopeSpecNames** propiedad de contexto del mensaje antes de ejecutar el ensamblador XML. El ensamblador XML crea un documento con doble cifrado en forma canónica.  
+  Puede forzar la forma canónica si especifica el orden sobre mediante el uso de la **Editor de propiedades de colección de esquema** cuadro de diálogo que se tiene acceso haciendo clic en el botón de puntos suspensivos para la **esquemas de sobres** propiedad de tiempo de diseño en el ensamblador XML. También puede usar el **XMLNORM. EnvelopeSpecNames** propiedad de contexto del mensaje antes de ejecutar el ensamblador XML. El ensamblador XML crea un documento con doble cifrado en forma canónica.  
   
 ## <a name="nesting-envelopes"></a>Anidar sobres.  
  Puede anidar sobres para formar estructuras complejas de documentos donde varios documentos XML con doble cifrado se pueden combinar en un intercambio mayor. En el ejemplo siguiente se muestra un intercambio envuelto por dos sobres.  

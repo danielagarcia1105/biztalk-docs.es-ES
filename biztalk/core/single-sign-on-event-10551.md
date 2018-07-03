@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10551 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10551 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 30c4b315744749d232c30f4cc28c4d297a0f5243
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8a014d9fa9adec99a05eba3f4a0f17047e2e1175
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270748"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973493"
 ---
-# <a name="single-sign-on-event-10551"></a>Inicio de sesión único: Evento 10551
+# <a name="single-sign-on-event-10551"></a>De sesión único: Evento 10551
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10551|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_INVALID_USER|  
-|Texto del mensaje|No se pudo crear la asignación porque el usuario especificado no es válido para la aplicación.%r<br /><br /> Nombre de dominio: %1 %r<br /><br /> Nombre de usuario: %2 %r<br /><br /> Nombre de la aplicación: %3 %r<br /><br /> Los usuarios de aplicación: %4|  
+|                 |                                                                                                                                                                                                                               |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                                   Inicio de sesión único (SSO) empresarial                                                                                                   |
+| Versión del producto |                                                                                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                   |
+|    Identificador del evento     |                                                                                                             10551                                                                                                             |
+|  Origen del evento   |                                                                                                            ENTSSO                                                                                                             |
+|    Componente    |                                                                                                              N/D                                                                                                              |
+|  Nombre simbólico  |                                                                                                     SSO_WARN_INVALID_USER                                                                                                     |
+|  Texto del mensaje   | No se pudo crear la asignación porque el usuario especificado no es válido para la aplicación.%r<br /><br /> Nombre de dominio: %1 %r<br /><br /> Nombre de usuario: %2 %r<br /><br /> Nombre de la aplicación: %3 %r<br /><br /> Los usuarios de aplicación: %4 |
   
 ## <a name="explanation"></a>Explicación  
  El usuario especificado no es válido. Puede tratarse de un error de escritura.  

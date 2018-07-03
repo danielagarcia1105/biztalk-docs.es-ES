@@ -1,5 +1,5 @@
 ---
-title: DeleteParty (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: DeleteParty (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 68016285a53a2655c56810028925a91c1f8d66b0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: a6d6d488bf7431f805e8719e10fe17cef7d13fa4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25969226"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982965"
 ---
 # <a name="deleteparty-biztalk-server-sample"></a>DeleteParty (ejemplo de BizTalk Server)
 El ejemplo DeleteParty muestra cómo eliminar una entidad especificada.  
@@ -33,13 +33,13 @@ El ejemplo DeleteParty muestra cómo eliminar una entidad especificada.
 >  Las secuencias de comandos de implementación se deben quitar después de la implementación si no son necesarias. La lista de control de acceso (ACL) debe proteger y supervisar detalladamente las secuencias de comandos de administración y otras secuencias de comandos que deben permanecer.  
   
 > [!NOTE]
->  Debe crear una entidad antes de poder eliminarla. Una manera de hacerlo es ejecutar el [PartyResolution (ejemplo de BizTalk Server)](../core/partyresolution-biztalk-server-sample.md) ejemplo.  
+>  Debe crear una entidad antes de poder eliminarla. Una forma de hacerlo es ejecutar el [PartyResolution (ejemplo de BizTalk Server)](../core/partyresolution-biztalk-server-sample.md) ejemplo.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
   
--   Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.  
+- Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.  
   
--   El script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts. Para obtener más información, consulte: [examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).  
+- El script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts. Para obtener más información, consulte: [examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).  
   
 ## <a name="what-this-sample-does"></a>Descripción del ejemplo  
  En este ejemplo, escrito en Microsoft Visual C# con objetos del modelo de objetos del Explorador de BizTalk (ExplorerOM), se realizan las operaciones siguientes:  
@@ -53,46 +53,46 @@ El ejemplo DeleteParty muestra cómo eliminar una entidad especificada.
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Este ejemplo se encuentra en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\DeleteParty\  
+ \<*Ejemplos de la ruta de acceso*\>\Admin\ExplorerOM\DeleteParty\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |App.ico, AssemblyInfo.cs, DeleteParty.csproj, DeleteParty.sln, DeleteParty.cs|Archivos de proyecto, de solución y de origen para generar una aplicación de línea de comandos de Visual C# que elimine una entidad especificada.|  
   
 ### <a name="to-build-and-initialize-this-sample"></a>Para generar e inicializar el ejemplo  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución DeleteParty.sln.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución DeleteParty.sln.  
   
-2.  En el menú **Compilar** , haga clic en **Compilar solución**.  
+2. En el menú **Compilar** , haga clic en **Compilar solución**.  
   
 ### <a name="to-run-this-sample"></a>Para ejecutar el ejemplo  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
+    \<*Ejemplos de la ruta de acceso*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
   
-2.  Ejecute el archivo DeleteParty.exe y pase uno de los dos argumentos de línea de comandos siguientes:  
+2. Ejecute el archivo DeleteParty.exe y pase uno de los dos argumentos de línea de comandos siguientes:  
   
-    -   **\<** ***PartyName* \>.** Nombre de una entidad que se va a eliminar. Si el nombre de la entidad contiene espacios, póngalo entre comillas.  
+   - **\<** ***PartyName* \>.** Nombre de una entidad que se va a eliminar. Si el nombre de la entidad contiene espacios, póngalo entre comillas.  
   
-    -   **/?.** Muestra la Ayuda.  
+   - **/?.** Muestra la Ayuda.  
   
      Por ejemplo:  
   
-    ```  
-    DeleteParty "My Party #3"  
-    ```  
+   ```  
+   DeleteParty "My Party #3"  
+   ```  
   
-     -OR-  
+    -O bien-  
   
-    ```  
-    DeleteParty /?  
-    ```  
+   ```  
+   DeleteParty /?  
+   ```  
   
 ## <a name="windows-powershell-script-example"></a>Ejemplo de Script de Windows Powershell  
- El siguiente fragmento de script de Windows PowerShell puede usarse para mostrar las mismas características de la **ExplorerOM** clases:  
+ El siguiente fragmento de script de Windows PowerShell se puede usar para mostrar las mismas características de la **ExplorerOM** clases:  
   
 ```  
   

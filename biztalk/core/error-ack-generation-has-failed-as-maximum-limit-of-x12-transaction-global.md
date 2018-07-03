@@ -1,5 +1,5 @@
 ---
-title: Generación de confirmación de error error el límite máximo de transacción global X12 | Documentos de Microsoft
+title: Generación de confirmación de error error como el límite máximo de transacciones globales X12 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1eaef5e736ad01a9b49a3b46188b85b85a97e06
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 3ef251a7e9af04245d1987e2d196a03f7c01b911
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26006085"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980485"
 ---
-# <a name="error-ack-generation-has-failed-as-maximum-limit-of-x12-transaction-global"></a>Generación de confirmación de error error el límite máximo de transacción global X12
+# <a name="error-ack-generation-has-failed-as-maximum-limit-of-x12-transaction-global"></a>Generación de confirmación de error error como el límite máximo de transacciones globales X12
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de BizTalk Server|  
-|Componente|Motor EDI|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Error en la generación de confirmación; se ha alcanzado el límite máximo del número aceptable de control de grupo de transacciones de X12 para la configuración de invitado. Para restablecer el contador, desplácese hasta la pantalla de función de remitente de configuración global, campo ST 2, del administrador de acuerdos de socios comerciales.|  
+|                 |                                                                                                                                                                                                                                                     |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                  |
+| Versión del producto |                                                                                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                              |
+|    Identificador del evento     |                                                                                                                          -                                                                                                                          |
+|  Origen del evento   |                                                                                                                 EDI de BizTalk Server                                                                                                                  |
+|    Componente    |                                                                                                                     Motor EDI                                                                                                                      |
+|  Nombre simbólico  |                                                                                                                          -                                                                                                                          |
+|  Texto del mensaje   | Error en la generación de confirmación; se ha alcanzado el límite máximo del número aceptable de control de grupo de transacciones de X12 para la configuración de invitado. Para restablecer el contador, desplácese hasta la pantalla de función de remitente de configuración global, campo ST 2, del administrador de acuerdos de socios comerciales. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server no pudo generar una confirmación para el intercambio X12 porque el número de control que especificó en el número de control del conjunto de transacciones (ST2) de la confirmación es mayor que el valor máximo permitido para ST2. En esta instancia, BizTalk Server usó las propiedades globales de EDI para crear la confirmación.  

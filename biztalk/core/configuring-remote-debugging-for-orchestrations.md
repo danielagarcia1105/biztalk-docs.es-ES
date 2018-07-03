@@ -1,5 +1,5 @@
 ---
-title: Configurar la depuración remota para las orquestaciones | Documentos de Microsoft
+title: Configurar la depuración remota para las orquestaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4184b82efccd0ab2dcc2b871b6389b28148754c0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f5d28c13cb9da4454efcad1a43a4048c8881ea8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233412"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967293"
 ---
 # <a name="configuring-remote-debugging-for-orchestrations"></a>Configurar la depuración remota para las orquestaciones
 Puede configurar completamente la depuración remota entre cliente y servidor. La configuración del cliente se especifica en Microsoft.XLANGs.BizTalk.Client.dll.config. La configuración del servidor se especifica en BTSNTSvc.exe.config. La siguiente es una lista de la configuración predeterminada para cada uno.  
@@ -94,29 +94,29 @@ Puede configurar completamente la depuración remota entre cliente y servidor. L
 ## <a name="configurable-parameters"></a>Parámetros configurables  
  El parámetro predeterminado asegura la configuración máxima de seguridad. Sin embargo, se permite al usuario que cambie estos parámetros predeterminados y los archivos se incluyen en ACL puesto que están en la carpeta de archivos de programa.  
   
- El elemento \<proveedor / > es opcional y si no proporciona hará que los canales que no se autentican mutuamente mediante los receptores personalizados. Sin embargo, puede ser arriesgado desactivar esta opción ya que se abrirán los canales. Esto puede hacerse para obtener un rendimiento mejor, y cuando no exista riesgo de ataques a la seguridad.  
+ El elemento \<proveedor / > es opcional y si no proporciona hará que los canales no se autentican mutuamente mediante los receptores personalizados. Sin embargo, puede ser arriesgado desactivar esta opción ya que se abrirán los canales. Esto puede hacerse para obtener un rendimiento mejor, y cuando no exista riesgo de ataques a la seguridad.  
   
  El elemento de canal puede tener la propiedad rejectRemoteRequests = trae, que habilitará solo las llamadas locales y rechazará solicitudes remotas.  
   
  El atributo securityPackage del \<serverProviders / > elemento puede tener cualquiera de los siguientes valores:  
   
--   negotiate  
+- negotiate  
   
--   ntlm  
+- ntlm  
   
--   Kerberos  
+- Kerberos  
   
- El atributo authenticationLevel el \<serverProviders / > elemento puede tener cualquiera de los siguientes valores:  
+  El atributo authenticationLevel del \<serverProviders / > elemento puede tener cualquiera de los siguientes valores:  
   
--   packetPrivacy: los mensajes se cifrarán o descifrarán  
+- packetPrivacy: los mensajes se cifrarán o descifrarán  
   
--   packetIntegrity: los mensajes se firmarán o comprobarán  
+- packetIntegrity: los mensajes se firmarán o comprobarán  
   
--   call: los mensajes se enviarán tal cual  
+- call: los mensajes se enviarán tal cual  
   
- El atributo ref del \<canal / > elemento puede cambiarse a tcp o http. El puerto y el nombre de atributo en el \<canal / > puede también cambia el elemento para valores explícitos.  
+  El atributo ref del \<canal / > elemento se puede cambiar a tcp o http. El puerto y el nombre de atributo en el \<canal / > puede también cambia el elemento para valores explícitos.  
   
- Para obtener más información, consulte la Guía del desarrollador de .NET Framework (la sección correspondiente a las propiedades de configuración del formateador y del canal).  
+  Para obtener más información, consulte la Guía del desarrollador de .NET Framework (la sección correspondiente a las propiedades de configuración del formateador y del canal).  
   
 ## <a name="see-also"></a>Vea también  
- [Depurar orquestaciones](../core/debugging-orchestrations.md)
+ [Depuración de orquestaciones](../core/debugging-orchestrations.md)

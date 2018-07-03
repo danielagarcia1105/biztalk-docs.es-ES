@@ -1,5 +1,5 @@
 ---
-title: Convoyes secuenciales | Documentos de Microsoft
+title: Convoyes secuenciales | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 329d0f56d9f092cd146a900c42ed48d5206a6393
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a160c8db8f0cff4ad9465e1e19c418fc0831a5d9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271588"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971205"
 ---
 # <a name="sequential-convoys"></a>Convoyes secuenciales
 Un convoy secuencial permite unir varios mensajes individuales para obtener un resultado necesario. Un convoy secuencial es un conjunto de mensajes relacionados que tienen un orden predefinido. Aunque los mensajes no tienen que ser exactamente iguales, BizTalk Server debe recibirlos en orden secuencial.  
@@ -36,19 +36,19 @@ Un convoy secuencial permite unir varios mensajes individuales para obtener un r
   
  Hay una serie de restricciones aplicables a las recepciones que requieren un procesamiento de convoy. Estas restricciones son las siguientes:  
   
--   Los conjuntos de correlaciones que constituyen un conjunto de convoy secuencial para una determinada recepción los debe inicializar una recepción anterior.  
+- Los conjuntos de correlaciones que constituyen un conjunto de convoy secuencial para una determinada recepción los debe inicializar una recepción anterior.  
   
--   El puerto de una recepción que requiere un procesamiento de convoy secuencial debe ser el mismo que el puerto de la recepción que inicializa el conjunto de convoy. No se admiten convoyes entre puertos.  
+- El puerto de una recepción que requiere un procesamiento de convoy secuencial debe ser el mismo que el puerto de la recepción que inicializa el conjunto de convoy. No se admiten convoyes entre puertos.  
   
--   Los tipos de mensaje de una recepción que requiere un procesamiento de convoy deben coincidir con el tipo de mensaje de la recepción que inicializa el conjunto de convoy, excepto si hay activa una instrucción de recepción en un puerto de entrega ordenada.  
+- Los tipos de mensaje de una recepción que requiere un procesamiento de convoy deben coincidir con el tipo de mensaje de la recepción que inicializa el conjunto de convoy, excepto si hay activa una instrucción de recepción en un puerto de entrega ordenada.  
   
--   Todas las recepciones que participan en un convoy secuencial deben ejecutarse con posterioridad a todos los conjuntos de correlaciones inicializados (o posteriores) por la recepción originadora de la inicialización, salvo si se procesan en un puerto de entrega ordenada.  
+- Todas las recepciones que participan en un convoy secuencial deben ejecutarse con posterioridad a todos los conjuntos de correlaciones inicializados (o posteriores) por la recepción originadora de la inicialización, salvo si se procesan en un puerto de entrega ordenada.  
   
--   Si una instrucción de recepción de activación inicializa un convoy secuencial, la recepción de activación no puede tener una expresión de filtro, salvo si se procesa en un puerto de entrega ordenada.  
+- Si una instrucción de recepción de activación inicializa un convoy secuencial, la recepción de activación no puede tener una expresión de filtro, salvo si se procesa en un puerto de entrega ordenada.  
   
--   Si una instrucción de recepción de activación inicializa un convoy secuencial, las siguientes recepciones no pueden estar dentro de una orquestación anidada.  
+- Si una instrucción de recepción de activación inicializa un convoy secuencial, las siguientes recepciones no pueden estar dentro de una orquestación anidada.  
   
- Para obtener un ejemplo de implementación de convoy secuencial, consulte [agregador (ejemplo de BizTalk Server)](../core/aggregator-biztalk-server-sample.md).  
+  Para obtener un ejemplo de implementación de convoy secuencial, consulte [agregador (ejemplo de BizTalk Server)](../core/aggregator-biztalk-server-sample.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Trabajar con escenarios de convoyes](../core/working-with-convoy-scenarios.md)   

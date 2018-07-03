@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10597 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10597 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 16a3e183194c8856ab4e3466378b2198b10298f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d0c0f1959580dfb9bc9327021c179f616f98d71
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970565"
 ---
-# <a name="single-sign-on-event-10597"></a>Inicio de sesión único: Evento 10597
+# <a name="single-sign-on-event-10597"></a>De sesión único: Evento 10597
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10597|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_CALLER_NOT_IN_NEW_SSO_ADMIN|  
-|Texto del mensaje|Para cambiar el nombre de la cuenta de administradores de SSO, el usuario del cliente debe ser miembro de la cuenta de administradores de SSO nueva.%r<br /><br /> El usuario cliente: %1 %r<br /><br /> Los administradores SSO nuevos: %2|  
+|                 |                                                                                                                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                  Inicio de sesión único (SSO) empresarial                                                                                   |
+| Versión del producto |                                                                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                  |
+|    Identificador del evento     |                                                                                            10597                                                                                             |
+|  Origen del evento   |                                                                                            ENTSSO                                                                                            |
+|    Componente    |                                                                                             N/D                                                                                              |
+|  Nombre simbólico  |                                                                             SSO_WARN_CALLER_NOT_IN_NEW_SSO_ADMIN                                                                             |
+|  Texto del mensaje   | Para cambiar el nombre de la cuenta de administradores de SSO, el usuario del cliente debe ser miembro de la cuenta de administradores de SSO nueva.%r<br /><br /> Usuario cliente: %1 %r<br /><br /> Nuevos administradores de SSO: %2 |
   
 ## <a name="explanation"></a>Explicación  
  Para cambiar el nombre de la cuenta de administradores de SSO, el usuario del cliente debe ser miembro de la cuenta de administradores de SSO nueva.  

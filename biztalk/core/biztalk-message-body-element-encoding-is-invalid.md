@@ -1,5 +1,5 @@
 ---
-title: Codificación de elemento de cuerpo de mensaje de BizTalk Server no es válido | Documentos de Microsoft
+title: Codificación de elemento de cuerpo de mensaje de BizTalk Server no es válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b1835371e5c042d3ddc46558cbf97970f6bfc6c
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: c6bca7046606461dd3368224364c21dd48ea5dfb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "25964818"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967973"
 ---
 # <a name="biztalk-message-body-element-encoding-is-invalid"></a>Codificación de elemento de cuerpo de mensaje de BizTalk no válida
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Codificación de elemento de cuerpo de mensaje de BizTalk "{0}" no válida. Codificación esperada: "xml", "base64", "hex" o "cadena"|  
+|                 |                                                                                                                |
+|-----------------|----------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
+| Versión del producto |                           [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                           |
+|    Identificador del evento     |                                                       0                                                        |
+|  Origen del evento   |                                                       0                                                        |
+|    Componente    |                                                       0                                                        |
+|  Nombre simbólico  |                                                       0                                                        |
+|  Texto del mensaje   | Codificación del elemento del cuerpo del mensaje de BizTalk "{0}" no es válido. Codificación esperada: "xml", "base64", "hex" o "string" |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica el uso de la opción de plantilla de cuerpo de BizTalk para los mensajes salientes. Sin embargo, el tipo de codificación especificado para el cuerpo de BizTalk no es válido.  
@@ -40,21 +40,21 @@ ms.locfileid: "25964818"
   
 #### <a name="to-configure-the-encoding-type"></a>Para configurar el tipo de codificación  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y haga clic en **administración de BizTalk Server**.  
   
-2.  En la raíz de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda **grupo de BizTalk**y expanda **aplicaciones**.  
+2. En la raíz de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda **grupo de BizTalk**y expanda **aplicaciones**.  
   
-3.  Busque la aplicación y, a continuación, busque su transporte.  
+3. Busque la aplicación y, a continuación, busque su transporte.  
   
-4.  Haga clic con el botón secundario en el nombre del transporte.  
+4. Haga clic con el botón secundario en el nombre del transporte.  
   
-5.  Haga clic en **Propiedades**.  
+5. Haga clic en **Propiedades**.  
   
-6.  En el puerto **tipo** , seleccione el puerto correcto.  
+6. En el puerto **tipo** lista, seleccione el puerto correcto.  
   
-7.  Haga clic en **configurar**.  
+7. Haga clic en **configurar**.  
   
-8.  En el **WCF [***tipo de transporte***] propiedades de transporte** cuadro de diálogo, haga clic en el **mensajes** ficha.  
+8. En el **WCF [**<em>tipo de transporte</em>**] propiedades de transporte** cuadro de diálogo, haga clic en el **mensajes** ficha.  
   
-9. En el **cuerpo del mensaje saliente de WCF** sección, haga clic en el **plantilla: contenido especificado por plantilla** botón de radio. En el **XML** cuadro de texto, el formato del cuerpo de BizTalk debe ser   
-    \<**BTS-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" codificación = "[xml&#124;base64&#124;hexadecimal&#124;cadena]" /** \> (los valores válidos, que distinguen mayúsculas de minúsculas, para la codificación son xml&#124;base64&#124;hexadecimal&#124;cadena)
+9. En el **cuerpo del mensaje saliente de WCF** sección, haga clic en el **plantilla – contenido especificado por plantilla** botón de radio. En el **XML** cuadro de texto, debe ser el formato del cuerpo de BizTalk   
+    \<**BTS-msg-body xmlns = "<http://www.microsoft.com/schemas/bts2007>" encoding = "[xml&#124;base64&#124;hexadecimal&#124;string]" /** \> (los valores válidos, que distinguen mayúsculas de minúsculas, para la codificación son xml&#124;base64&#124;hexadecimal&#124;cadena)

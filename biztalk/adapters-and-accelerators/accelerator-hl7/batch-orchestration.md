@@ -1,5 +1,5 @@
 ---
-title: Orquestación de lote | Documentos de Microsoft
+title: Orquestación de lotes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,18 +20,18 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9db6ee8b4fd3dec8e2902642634b701889866cf8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2271170d91990e5874168a18ed274c1502a93158
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204452"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971597"
 ---
 # <a name="batch-orchestration"></a>Orquestación del lote
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona una orquestación (BatchOrchestration.dll) que puede usar para procesar lotes. Esta orquestación puede procesar lotes de mensajes con codificación HL7 (2.X) o confirmaciones (ACK). La orquestación es nativo [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] orquestación agregada por [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el programa de instalación para el conjunto de orquestaciones de BizTalk (como se muestra en las orquestaciones en el Explorador de BizTalk).  
+Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona una orquestación (BatchOrchestration.dll) que puede usar para procesar lotes. Esta orquestación puede procesar lotes de mensajes con codificación HL7 (2.X) o la confirmación (ACK). La orquestación es nativo [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] orquestación agregada [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] de instalación para el conjunto de orquestaciones de BizTalk (como se muestra en las orquestaciones en el Explorador de BizTalk).  
   
- La orquestación funciona con la activación por lotes, la terminación de lotes, y los mensajes de temporizador de lote que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] usa para controlar los lotes. La orquestación también funciona con el puerto de control de lote, que es una operación de recepción que el puerto [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] programa de instalación instala para controlar los mensajes de control de lote.  
+ La orquestación funciona con la activación por lotes, la terminación de lotes, y los mensajes de temporizador de lote que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] usa para controlar los lotes. La orquestación también funciona con el puerto de control de proceso por lotes, que es una recepción de puerto que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] programa de instalación instala para controlar los mensajes de control de proceso por lotes.  
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md)   
- [Acelerador de BizTalk para HL7 componentes](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)
+ [Acelerador de BizTalk para componentes de HL7](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)

@@ -1,5 +1,5 @@
 ---
-title: Propiedades de contexto de MQSeries | Documentos de Microsoft
+title: Propiedades de contexto de MQSeries | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -84,12 +84,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d27309379fac2c4821251f27fd2aa5a6e9d59418
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 684fad8e1a417e9faf7127a81a4e8f7d6f10e630
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22266628"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976597"
 ---
 # <a name="mqseries-context-properties"></a>Propiedades de contexto de MQSeries
 El adaptador de MQSeries proporciona un conjunto de propiedades de contexto, específicas de MQSeries, para su uso en las aplicaciones. Puede utilizar estas propiedades en expresiones de filtro y en las orquestaciones.  
@@ -133,14 +133,14 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |**MQMD_Priority**|unsigned int|4|Number|  
 |**MQMD_PutApplName**|string|28|String<br /><br /> **Valor predeterminado:** espacio|  
 |**MQMD_PutApplType**|unsigned int|4|Number<br /><br /> Utilice el valor del archivo de encabezado. **Valor predeterminado:** 0|  
-|**MQMD_PutDate**|string|8|Date|  
+|**MQMD_PutDate**|string|8|date|  
 |**MQMD_PutTime**|string|8|Time|  
 |**MQMD_ReplyToQ**|string|48|String<br /><br /> **Valor predeterminado:** espacio|  
 |**MQMD_ReplyToQMgr**|string|48|String<br /><br /> **Valor predeterminado:** espacio|  
 |**MQMD_Report**|unsigned int|4|Number<br /><br /> Utilice el valor del archivo de encabezado.|  
 |**MQMD_UserIdentifier**|string|12|String<br /><br /> Contiene el identificador de usuario cuando se usa el **SSOAffiliateApplication** propiedad.|  
   
- Al recibir mensajes directamente desde las colas de transmisión MQSeries, el adaptador de MQSeries da formato a las propiedades de encabezado de cola de transmisión (estructura de datos MQXQH) y las coloca en las propiedades de contexto correspondientes. Al enviar mensajes directamente a las colas de transmisión MQSeries, las propiedades de encabezado se da formato y se les asignan valores de la correspondiente contexto propiedades solo si la **MQMD_Format** propiedad tiene un valor de MQXMIT. En la siguiente tabla se describen las propiedades.  
+ Al recibir mensajes directamente desde las colas de transmisión MQSeries, el adaptador de MQSeries da formato a las propiedades de encabezado de cola de transmisión (estructura de datos MQXQH) y las coloca en las propiedades de contexto correspondientes. Al enviar mensajes directamente a las colas de transmisión MQSeries, se da formato y se les asignan valores de la correspondiente contexto propiedades sólo si las propiedades de encabezado del **MQMD_Format** propiedad tiene un valor de MQXMIT. En la siguiente tabla se describen las propiedades.  
   
 |Nombre|Tipo|Longitud|Valor|  
 |----------|----------|------------|-----------|  
@@ -149,58 +149,58 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
   
  Junto con las propiedades enumeradas anteriormente en este tema, el adaptador rellena los valores del descriptor de mensajes que se especifican a continuación siguiendo las mismas reglas. El adaptador establece MQXQH_, en lugar de MQMD_, como prefijos de los nombres de propiedad, aunque en caso contrario se asignan directamente a las propiedades definidas en la tabla del descriptor de mensajes:  
   
--   **MQXQH_MsgDesc_AccountingToken**  
+- **MQXQH_MsgDesc_AccountingToken**  
   
--   **MQXQH_MsgDesc_ApplIdentityData**  
+- **MQXQH_MsgDesc_ApplIdentityData**  
   
--   **MQXQH_MsgDesc_ApplOriginData**  
+- **MQXQH_MsgDesc_ApplOriginData**  
   
--   **MQXQH_MsgDesc_BackoutCount**  
+- **MQXQH_MsgDesc_BackoutCount**  
   
--   **MQXQH_MsgDesc_CodedCharSetId**  
+- **MQXQH_MsgDesc_CodedCharSetId**  
   
--   **MQXQH_MsgDesc_CorrelId**  
+- **MQXQH_MsgDesc_CorrelId**  
   
--   **MQXQH_MsgDesc_Encoding**  
+- **MQXQH_MsgDesc_Encoding**  
   
--   **MQXQH_MsgDesc_Expiry**  
+- **MQXQH_MsgDesc_Expiry**  
   
--   **MQXQH_MsgDesc_Feedback**  
+- **MQXQH_MsgDesc_Feedback**  
   
--   **MQXQH_MsgDesc_Format**  
+- **MQXQH_MsgDesc_Format**  
   
--   **MQXQH_MsgDesc_MsgId**  
+- **MQXQH_MsgDesc_MsgId**  
   
--   **MQXQH_MsgDesc_MsgType**  
+- **MQXQH_MsgDesc_MsgType**  
   
--   **MQXQH_MsgDesc_Persistence**  
+- **MQXQH_MsgDesc_Persistence**  
   
--   **MQXQH_MsgDesc_Priority**  
+- **MQXQH_MsgDesc_Priority**  
   
--   **MQXQH_MsgDesc_PutApplName**  
+- **MQXQH_MsgDesc_PutApplName**  
   
--   **MQXQH_MsgDesc_PutApplType**  
+- **MQXQH_MsgDesc_PutApplType**  
   
--   **MQXQH_MsgDesc_PutDate**  
+- **MQXQH_MsgDesc_PutDate**  
   
--   **MQXQH_MsgDesc_PutTime**  
+- **MQXQH_MsgDesc_PutTime**  
   
--   **MQXQH_MsgDesc_ReplyToQ**  
+- **MQXQH_MsgDesc_ReplyToQ**  
   
--   **MQXQH_MsgDesc_ReplyToQMgr**  
+- **MQXQH_MsgDesc_ReplyToQMgr**  
   
--   **MQXQH_MsgDesc_Report**  
+- **MQXQH_MsgDesc_Report**  
   
--   **MQXQH_MsgDesc_UserIdentifier**  
+- **MQXQH_MsgDesc_UserIdentifier**  
   
- Hay propiedades relacionadas con MQSeries adicionales que se incluyen en el esquema de propiedades y que se encuentran disponibles para utilizarlas en las expresiones de filtro. En la tabla siguiente se enumeran estas propiedades.  
+  Hay propiedades relacionadas con MQSeries adicionales que se incluyen en el esquema de propiedades y que se encuentran disponibles para utilizarlas en las expresiones de filtro. En la tabla siguiente se enumeran estas propiedades.  
   
 |Nombre|Tipo|Longitud|Valor|  
 |----------|----------|------------|-----------|  
 |**MQCIH_AbendCode**|string|4||  
 |**MQCIH_ADSDescriptor**|unsigned int|4||  
 |**MQCIH_AttentionId**|string|4||  
-|**MQCIH_Authenticator**|string|8|Establecer la contraseña de SSO al usar el **SSOAffiliateApplication** propiedad. **Nota:** este valor se establecerá en blanco por el adaptador de MQSeries si la longitud de la contraseña SSO supera los 8 caracteres.|  
+|**MQCIH_Authenticator**|string|8|Establecer la contraseña de inicio de sesión único cuando se usa el **SSOAffiliateApplication** propiedad. **Nota:** establecerá este valor en blanco por el adaptador de MQSeries si la longitud de la contraseña de inicio de sesión único supera los 8 caracteres.|  
 |**MQCIH_CancelCode**|string|4||  
 |**MQCIH_CompCode**|unsigned int|4||  
 |**MQCIH_ConversationalTask**|unsigned int|4||  
@@ -223,7 +223,7 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |**MQCIH_TaskEndStatus**|unsigned int|4||  
 |**MQCIH_TransactionId**|string|4||  
 |**MQCIH_UOWControl**|unsigned int|4||  
-|**MQIIH_Authenticator**|string|8|Establecer la contraseña de SSO al usar el **SSOAffiliateApplication** propiedad. **Nota:** este valor se establecerá en blanco por el adaptador de MQSeries si la longitud de la contraseña SSO supera los 8 caracteres.|  
+|**MQIIH_Authenticator**|string|8|Establecer la contraseña de inicio de sesión único cuando se usa el **SSOAffiliateApplication** propiedad. **Nota:** establecerá este valor en blanco por el adaptador de MQSeries si la longitud de la contraseña de inicio de sesión único supera los 8 caracteres.|  
 |**MQIIH_CommitMode**|string|||  
 |**MQIIH_Flags**|unsigned int|4||  
 |**MQIIH_Format**|string|||  
@@ -237,4 +237,4 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 ## <a name="see-also"></a>Vea también  
  [Propiedades del adaptador de MQSeries](../core/mqseries-adapter-properties.md)   
  [Propiedades relacionadas con BizTalk Server](../core/properties-related-to-biztalk-server.md)   
- [Conversión de tipos de datos de propiedades](../core/data-type-conversion-of-properties.md)
+ [Conversión de propiedades de tipo de datos](../core/data-type-conversion-of-properties.md)

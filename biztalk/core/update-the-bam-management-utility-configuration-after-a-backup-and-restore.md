@@ -1,5 +1,5 @@
 ---
-title: Cómo actualizar la configuración de utilidad de administración de BAM después de una copia de seguridad y restauración | Documentos de Microsoft
+title: Cómo actualizar la configuración de utilidad de administración de BAM tras realizar una copia de seguridad y restaurar | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,37 +12,37 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf316e7275b3db47b02a7f09ed5d2a66571c4de1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa7d8e91ab82cc74f2af2ca0c12f79cdb0a8fcbe
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286676"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970085"
 ---
 # <a name="how-to-update-the-bam-management-utility-configuration-after-a-backup-and-restore"></a>Cómo actualizar la configuración de la utilidad de administración de BAM tras realizar una copia de seguridad y restaurar
 Cuando la combinación de nombre de servidor\base de datos cambia debido a un cambio en el entorno de BizTalk Server, como en la copia de seguridad y la secuencia de restauración, debe actualizar el archivo de configuración de la utilidad de administración de BAM (bm.exe.config) para reflejar estos cambios de nombres.  
   
 ### <a name="to-update-the-bam-management-configuration-file-a-after-backup-and-restore"></a>Para actualizar el archivo de configuración de la administración de BAM tras realizar una copia de seguridad y restaurar  
   
-1.  Abra el archivo bm.exe.config con el Bloc de notas haciendo clic en **iniciar**, haga clic en **ejecutar**, escriba notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]tracking\bm.exe.config y, a continuación, haga clic en **Aceptar**.  
+1. Abra el archivo bm.exe.config con el Bloc de notas haciendo **iniciar**, haga clic en **ejecutar**, escriba notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]tracking\bm.exe.config y, a continuación, haga clic en **Aceptar**.  
   
-2.  Localice la sección appSettings en el archivo y cambie los siguientes valores:  
+2. Localice la sección appSettings en el archivo y cambie los siguientes valores:  
   
-    ```  
-    <!-- Default server and database for bm.exe. -->  
-    <add key="DefaultServer" value="oldServerName" />  
-    <add key="DefaultDatabase" value="BAMPrimaryImport" />  
-    ```  
+   ```  
+   <!-- Default server and database for bm.exe. -->  
+   <add key="DefaultServer" value="oldServerName" />  
+   <add key="DefaultDatabase" value="BAMPrimaryImport" />  
+   ```  
   
-3.  en  
+3. en  
   
-    ```  
-    <!-- Default server and database for bm.exe. -->  
-    <add key="DefaultServer" value="newServerName" />  
-    <add key="DefaultDatabase" value="BAMPrimaryImport" />  
-    ```  
+   ```  
+   <!-- Default server and database for bm.exe. -->  
+   <add key="DefaultServer" value="newServerName" />  
+   <add key="DefaultDatabase" value="BAMPrimaryImport" />  
+   ```  
   
-4.  Guarde el archivo.  
+4. Guarde el archivo.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar bases de datos BAM](../core/managing-bam-databases.md)
+ [Administración de bases de datos de BAM](../core/managing-bam-databases.md)

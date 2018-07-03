@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10837 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10837 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 17ebd2ee0af9fe8c8c1a8579228eec71bee5c4f4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e64fb7c0777ea6ba52b3a22b902db675a8652083
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969429"
 ---
-# <a name="single-sign-on-event-10837"></a>Inicio de sesión único: Evento 10837
+# <a name="single-sign-on-event-10837"></a>De sesión único: Evento 10837
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10837|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_MAX_SQL_DATABASE|  
-|Texto del mensaje|La longitud máxima para nombre de base de datos SQL es de 128 caracteres.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10837                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                 ENTSSO_E_MAX_SQL_DATABASE                  |
+|  Texto del mensaje   |  La longitud máxima para nombre de base de datos SQL es de 128 caracteres.   |
   
 ## <a name="explanation"></a>Explicación  
  La longitud máxima para nombre de base de datos SQL es de 128 caracteres.  

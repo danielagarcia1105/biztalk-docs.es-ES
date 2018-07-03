@@ -1,5 +1,5 @@
 ---
-title: FRR ubicación de recepción para los mensajes de la aplicación de Back-End | Documentos de Microsoft
+title: Ubicación para los mensajes de recepción de FRR desde la aplicación Back-End | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,22 +15,22 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 41d50f83feceac0238742cd474f70ecc1449f906
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9133a4499e655003ec2cc3d2e0d654e5a225f58b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207540"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981533"
 ---
-# <a name="frr-receive-location-for-messages-from-the-back-end-application"></a>FRR ubicación de recepción para los mensajes de la aplicación de Back-End
-Para habilitar la conciliación de respuesta FIN (FRR), debe configurar un FRR ubicación de recepción que recibe mensajes de la aplicación de back-end y los enruta a BizTalk MessageBox para su uso por la orquestación FRR. La ubicación de recepción enruta un mensaje a través de una canalización de recepción FRR personalizada que debe crear con los siguientes componentes de canalización:  
+# <a name="frr-receive-location-for-messages-from-the-back-end-application"></a>Ubicación para los mensajes de recepción de FRR desde la aplicación Back-End
+Para habilitar la conciliación de respuestas de FIN (FRR), debe configurar un FRR ubicación de recepción que recibe los mensajes de la aplicación de back-end y los enruta a BizTalk MessageBox para su uso por la orquestación de FRR. La ubicación de recepción enruta un mensaje a través de una canalización de recepción FRR personalizado que se debe crear con los siguientes componentes de canalización:  
   
--   El Desensamblador SWIFT en la fase de desensamblado  
+- En la fase de desensamblado del desensamblador de SWIFT  
   
--   El componente de canalización de descodificador de SWIFT FRR en la fase de descodificador  
+- El componente de canalización de descodificador de FRR SWIFT en la fase de descodificador  
   
--   El componente de canalización de resolución de SWIFT FRR CorrelationSet en la fase de resolución de entidades  
+- El componente de canalización de SWIFT FRR CorrelationSet solucionador en la fase de resolución de entidades  
   
- El puerto de recepción controla los mensajes que tienen [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_Failed == False y [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_SWIFTBOUND == True. El mecanismo de transporte es lo que dicta la aplicación back-end.  
+  El puerto de recepción controla los mensajes que tienen [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_Failed == False y [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_SWIFTBOUND == True. El mecanismo de transporte es todo lo que dicta la aplicación back-end.  
   
- Este puerto de recepción utiliza la misma canalización de recepción personalizada que se usa por la ubicación de recepción para los mensajes de SWIFT. Sin embargo, la canalización lleva a cabo funciones diferentes para las dos ubicaciones de recepción. En la ubicación de recepción de mensajes de la aplicación de back-end, el componente de canalización de resolución de SWIFT FRR CorrelationSet inicializa el token de correlación.
+  Este puerto de recepción utiliza la misma canalización de recepción personalizada que se usa por la ubicación de recepción para los mensajes de SWIFT. Sin embargo, la canalización lleva a cabo funciones diferentes para las dos ubicaciones de recepción. En la ubicación de recepción de mensajes de la aplicación de back-end, el componente de canalización de resolución de SWIFT FRR CorrelationSet inicializa el token de correlación.

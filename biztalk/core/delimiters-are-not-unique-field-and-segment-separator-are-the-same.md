@@ -1,5 +1,5 @@
 ---
-title: Delimitadores no son únicos, separadores de campo y de segmento son los mismos | Documentos de Microsoft
+title: Los delimitadores no son únicos, separadores de campo y de segmento son los mismos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 440ffb1213936fba4b08a8ee478f6c141eba38fc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff43a9b86fc39589cd513c82c5d9bed9055f5902
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238732"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969533"
 ---
 # <a name="delimiters-are-not-unique-field-and-segment-separator-are-the-same"></a>Los delimitadores no son únicos. Los separadores de campo y de segmento coinciden.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Los delimitadores no son únicos. Los separadores de campo y de segmento coinciden.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                                           -                                            |
+|  Texto del mensaje   |          Los delimitadores no son únicos. Los separadores de campo y de segmento coinciden.           |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de envío EDI no pudo procesar un intercambio saliente porque el elemento de datos y los separadores de segmentos tenían el mismo valor. En un intercambio X12, el separador de elemento de datos es el carácter situado en la cuarta posición de carácter del segmento ISA y el terminador de segmento es el carácter de la última posición de carácter del segmento ISA. En un intercambio EDIFACT, el separador del elemento de datos es el carácter del campo UNA2 y el terminador de segmento es el carácter del campo UNA6. Dos separadores con el mismo valor pueden tener lugar (pero provocarán una condición de error) en un escenario de lote conservado o si se recibe un intercambio mediante una transmisión de atravesar y posteriormente el puerto de envío lo recoge como archivo XML en el cuadro de mensajes.  

@@ -1,5 +1,5 @@
 ---
-title: Limitaciones del adaptador de BizTalk para mySAP Business Suite | Documentos de Microsoft
+title: Limitaciones del adaptador de BizTalk para mySAP Business Suite | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,27 +15,27 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1d392178cd49918151f0ad86c73a5fcba712d6b7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f289d1f70005e8b4caa0e7c739522cc5590bca58
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22217084"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973718"
 ---
 # <a name="limitations-of-biztalk-adapter-for-mysap-business-suite"></a>Limitaciones del adaptador de BizTalk para mySAP Business Suite
 
 ## <a name="limitations-list"></a>Lista de limitaciones
-Los siguientes se conocen las limitaciones de la [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]:  
+Lo siguiente es limitaciones conocida de la [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]:  
   
--   El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con el adaptador de Microsoft BizTalk para mySAP Business Suite, la versión anterior del adaptador. Esta versión del adaptador no admite enviar y recibir mensajes con esquemas generados utilizando la versión anterior del adaptador.  
+- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con el adaptador de Microsoft BizTalk para mySAP Business Suite, la versión anterior del adaptador. No admite esta versión del adaptador de envío y recepción de mensajes con los esquemas generados con la versión anterior del adaptador.  
   
--   El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con RFC con tipos de parámetros complejos, incluidos los tipos de tabla (jerárquicos) ITAB II.  
+- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con RFC con tipos de parámetros complejos, incluidos los tipos de tabla (jerárquica) ITAB II.  
   
--   El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con RFC tener tipos ABAP personalizados.  
+- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con RFC de tipos personalizados de ABAP.  
   
--   Debido a problemas con el control de tiempo de espera por la biblioteca de cliente subyacente, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con el tiempo de espera de conexión y comando.  
+- Debido a problemas con el control de tiempo de espera por la biblioteca de cliente subyacente, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no es compatible con el tiempo de espera de conexión y comando.  
   
--   Si cambia la hora del sistema del equipo que ejecuta el host de BizTalk Server, el tiempo no se actualiza automáticamente en el host de BizTalk Server. Esto podría provocar un comportamiento incorrecto de las operaciones de entrada que utilizan el puerto de recepción de BizTalk Server. Como alternativa, debe reiniciar la instancia de host que tiene un puerto de recepción, después de haber cambiado la hora del sistema del equipo ejecuta.  
+- Si cambia la hora del sistema del equipo que ejecuta el host de BizTalk Server, el tiempo no se actualiza automáticamente en el host de BizTalk Server. Esto podría provocar un comportamiento incorrecto de las operaciones de entrada que usan el puerto de recepción de BizTalk Server. Como alternativa, debe reiniciar la instancia de host que tiene un puerto de recepción después de haber cambiado la hora del sistema del equipo ejecuta.  
   
 ## <a name="see-also"></a>Vea también  
- [Comprender el adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)
+ [Definición del adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)

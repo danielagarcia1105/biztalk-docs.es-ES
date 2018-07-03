@@ -1,5 +1,5 @@
 ---
-title: Crear y usar las reglas de negocios | Documentos de Microsoft
+title: Creación y uso de las reglas de negocios | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 76a6b51c72f04d5c7918da637f4266567f92e8bc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c9d01e5eaf96c6490c68424fd09e297e0e60ef9d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238244"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979397"
 ---
 # <a name="creating-and-using-business-rules"></a>Crear y usar reglas de negocios
 Las reglas de negocios (o las directivas empresariales) definen y controlan la estructura, el funcionamiento y la estrategia de una organización. Las reglas de negocios pueden estar formalmente definidas en manuales de procedimiento, contratos o acuerdos, o bien pueden existir como conocimiento o experiencia que tienen los empleados. Las reglas de negocios son dinámicas, están sujetas a cambios en el tiempo y pueden encontrarse en todo tipo de aplicaciones. Finanzas y seguros, negocio electrónico, transporte, telecomunicaciones, servicios basados en Web y personalización son solo algunos de los muchos ámbitos de negocio que controlan las reglas de negocios. Todos estos ámbitos de negocio comparten la necesidad de transmitir estrategias, directivas y regulaciones empresariales al personal de tecnologías de la información (TI) para su inclusión en aplicaciones de software.  
@@ -29,29 +29,29 @@ Las reglas de negocios (o las directivas empresariales) definen y controlan la e
   
  El marco de trabajo de reglas de negocios está directamente integrado en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y los programadores pueden usar las siguientes características para generar y administrar reglas de negocios:  
   
--   Un motor de reglas de alto rendimiento que implementa un mecanismo de inferencia para evaluar las reglas de negocios.  
+- Un motor de reglas de alto rendimiento que implementa un mecanismo de inferencia para evaluar las reglas de negocios.  
   
--   Un amplio conjunto de interfaces de programación de aplicaciones (API) para desarrollar aplicaciones basadas en reglas.  
+- Un amplio conjunto de interfaces de programación de aplicaciones (API) para desarrollar aplicaciones basadas en reglas.  
   
--   Una interfaz de usuario gráfica, el Compositor de reglas de negocio, que los programadores, los analistas de negocios y los administradores pueden usar de varias maneras para desarrollar y aplicar eficazmente las reglas y directivas.  
+- Una interfaz de usuario gráfica, el Compositor de reglas de negocio, que los programadores, los analistas de negocios y los administradores pueden usar de varias maneras para desarrollar y aplicar eficazmente las reglas y directivas.  
   
--   Una perfecta integración con las orquestaciones de BizTalk, lo que permite invocar una directiva empresarial o un conjunto de reglas de negocios desde una orquestación de BizTalk.  
+- Una perfecta integración con las orquestaciones de BizTalk, lo que permite invocar una directiva empresarial o un conjunto de reglas de negocios desde una orquestación de BizTalk.  
   
--   El Asistente para implementar el motor de reglas, que permite importar o exportar rápidamente reglas de negocios o los vocabularios que utilizan las reglas, así como implementar o anular la implementación de esas reglas.  
+- El Asistente para implementar el motor de reglas, que permite importar o exportar rápidamente reglas de negocios o los vocabularios que utilizan las reglas, así como implementar o anular la implementación de esas reglas.  
   
- Las reglas de negocios (o las directivas empresariales) creadas en el marco de trabajo de reglas de negocios se pueden usar en un proceso empresarial de orquestaciones, como se muestra en la siguiente ilustración.  
+  Las reglas de negocios (o las directivas empresariales) creadas en el marco de trabajo de reglas de negocios se pueden usar en un proceso empresarial de orquestaciones, como se muestra en la siguiente ilustración.  
   
- ![Diagrama que muestra una directiva empresarial en proceso. ] (../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
-Directiva empresarial  
+  ![Diagrama que muestra una directiva empresarial en proceso. ] (../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  Directiva empresarial  
   
- Esta sección proporciona información conceptual acerca de cómo puede aprovechar el marco de trabajo de reglas de negocios y utilizar las herramientas que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona para desarrollar reglas de negocio.  
+  Esta sección proporciona información conceptual acerca de cómo puede aprovechar el marco de trabajo de reglas de negocios y usar las herramientas que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona para desarrollar reglas de negocios.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Crear reglas de negocios](../core/creating-business-rules-using-the-business-rule-composer.md)  
+-   [Creación de reglas de negocios](../core/creating-business-rules-using-the-business-rule-composer.md)  
   
--   [Seguridad de marco de trabajo de reglas de negocios](../core/business-rules-framework-security.md)  
+-   [Seguridad del marco de trabajo de reglas de negocio](../core/business-rules-framework-security.md)  
   
--   [Programar con marco de trabajo de reglas de negocios](../core/programming-with-business-rules-framework.md)  
+-   [Programación con el marco de trabajo de reglas de negocio](../core/programming-with-business-rules-framework.md)  
   
--   [Configuración del motor de reglas y parámetros de ajuste](../core/rule-engine-configuration-and-tuning-parameters.md)
+-   [Parámetros de configuración y ajuste del motor de reglas](../core/rule-engine-configuration-and-tuning-parameters.md)

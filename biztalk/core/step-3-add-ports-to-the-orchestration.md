@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Agregar puertos a la orquestación | Documentos de Microsoft'
+title: 'Paso 3: Agregar puertos a la orquestación | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 13af336b2162e0f784195bf7c789c0dff984cb04
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9b42c91be94663f1061d3bbda31267db21988157
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279836"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968621"
 ---
 # <a name="step-3-add-ports-to-the-orchestration"></a>Paso 3: Agregar puertos a la orquestación
 ![Paso 3 de 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  
@@ -26,15 +26,15 @@ ms.locfileid: "22279836"
   
  **Objetivo:** en este paso, se agregará tres puertos a la orquestación EAIProcess y configurarlos.  
   
- **Propósito:** puertos especifican cómo la orquestación enviará los mensajes a y recibir mensajes de otros procesos empresariales. Cada puerto tiene un tipo, una dirección y un enlace, que en combinación determinan la dirección de la comunicación, el patrón de comunicación, la ubicación de destino a la que se envía el mensaje, la ubicación de origen desde la que se recibe el mensaje y cómo tiene lugar la comunicación. los tres puertos que va a crear y configurar en este paso desempeñan las siguientes funciones:  
+ **Propósito:** los puertos especifican cómo la orquestación enviará mensajes a y recibir mensajes de otros procesos empresariales. Cada puerto tiene un tipo, una dirección y un enlace, que en combinación determinan la dirección de la comunicación, el patrón de comunicación, la ubicación de destino a la que se envía el mensaje, la ubicación de origen desde la que se recibe el mensaje y cómo tiene lugar la comunicación. los tres puertos que va a crear y configurar en este paso desempeñan las siguientes funciones:  
   
--   **ReceiveRequestPort** recibe mensajes de solicitud de reposición de inventario del almacén.  
+- **ReceiveRequestPort** recibe mensajes de solicitud de reposición de inventario del almacén.  
   
--   **SendToERP** reenvía los mensajes de solicitud al sistema ERP.  
+- **SendToERP** reenvía los mensajes de solicitud al sistema ERP.  
   
--   **SendDeclinePort** envía mensajes al almacén de solicitud.  
+- **SendDeclinePort** envía mensajes al almacén de solicitud.  
   
- Para obtener más información, consulte [mediante puertos en orquestaciones](../core/using-ports-in-orchestrations.md).  
+  Para obtener más información, consulte [mediante puertos en orquestaciones](../core/using-ports-in-orchestrations.md).  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Tenga en cuenta los siguientes requisitos antes de iniciar este paso:  
@@ -47,61 +47,61 @@ ms.locfileid: "22279836"
   
 1.  En el Explorador de soluciones, haga doble clic en **EAIProcess.odx**.  
   
-2.  En el Diseñador de orquestaciones, desde la orquestación del cuadro de herramientas, arrastre el **puerto** forma a la izquierda **superficie para el puerto**, parecida a la **ReceiveRequest** forma. El Asistente para configuración de puertos se inicia automáticamente.  
+2.  En el Diseñador de orquestaciones, en la orquestación del cuadro de herramientas, arrastre el **puerto** forma a la izquierda **superficie para el puerto**, en paralelo a la **ReceiveRequest** forma. El Asistente para configuración de puertos se inicia automáticamente.  
   
 3.  En la página **Asistente para configuración de puertos** , haga clic en **Siguiente**.  
   
-4.  En el **propiedades de puerto** página, realice lo siguiente y, a continuación, haga clic en **siguiente**.  
+4.  En el **propiedades de puerto** página, haga lo siguiente y, a continuación, haga clic en **siguiente**.  
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Nombre**|Tipo de **ReceiveRequestPort**.|  
+    |**Nombre**|Tipo **ReceiveRequestPort**.|  
   
-5.  En el **seleccionar un tipo de puerto** página, realice lo siguiente y, a continuación, haga clic en **siguiente**.  
+5.  En el **seleccione un tipo de puerto** página, haga lo siguiente y, a continuación, haga clic en **siguiente**.  
   
     |Use|Para|  
     |--------------|----------------|  
     |**Seleccione el tipo de puerto que se utilizará para este puerto**|Seleccione el **crear un nuevo tipo de puerto** opción.|  
-    |**Nombre del tipo de puerto:**|Tipo de **ReceiveRequestPortType**.|  
+    |**Nombre del tipo de puerto:**|Tipo **ReceiveRequestPortType**.|  
     |**Patrón de comunicación**|Seleccione **unidireccional**.|  
     |**Restricciones de acceso**|Seleccione **interno: limitado a este proyecto**.|  
   
-6.  En el **enlace de puerto** página, realice lo siguiente y, a continuación, haga clic en **siguiente**.  
+6.  En el **enlace de puerto** página, haga lo siguiente y, a continuación, haga clic en **siguiente**.  
   
     |Use|Para|  
     |--------------|----------------|  
     |**Dirección de puerto de comunicación**|Seleccione **siempre recibiré los mensajes en este puerto**.|  
-    |**Enlace de puerto**|En, seleccione **especificar más tarde**.|  
+    |**Enlace de puerto**|En Seleccione **especificar más tarde**.|  
   
 7.  En el **completar el Asistente para puertos** página, haga clic en **finalizar**.  
   
 #### <a name="to-create-and-configure-senddeclineport"></a>Para crear y configurar SendDeclinePort  
   
-1.  En el cuadro de herramientas de orquestaciones, arrastre la **puerto** forma a la izquierda **superficie para el puerto**, parecida a la **SendRequestDecline** forma.  
+1.  En el cuadro de herramientas de orquestaciones, arrastre el **puerto** forma a la izquierda **superficie para el puerto**, en paralelo a la **SendRequestDecline** forma.  
   
 2.  Use la información de la tabla siguiente para crear el **SendDeclinePort** puerto de envío.  
   
-    |Propiedad|Valor|  
+    |Property|Valor|  
     |--------------|-----------|  
-    |**Nombre**|Tipo de **SendDeclinePort**.|  
+    |**Nombre**|Tipo **SendDeclinePort**.|  
     |**Seleccione el tipo de puerto que se utilizará para este puerto**|Seleccione **crear un nuevo tipo de puerto**.|  
-    |**Nombre de tipo de puerto**|Tipo de **SendDeclinePortType**.|  
+    |**Nombre de tipo de puerto**|Tipo **SendDeclinePortType**.|  
     |**Patrón de comunicación**|Seleccione **unidireccional**.|  
     |**Restricciones de acceso**|Seleccione **interno: limitado a este proyecto**.|  
     |**Dirección de puerto de comunicación**|En la lista desplegable, seleccione **siempre enviaré los mensajes en este puerto**.|  
-    |**Enlaces de puertos**|En la lista desplegable, seleccione **especificar más tarde**.|  
+    |**Enlaces de puerto**|En la lista desplegable, seleccione **especificar más tarde**.|  
   
 #### <a name="to-create-and-configure-sendtoerpport"></a>Para crear y configurar SendToERPPort  
   
-1.  En el cuadro de herramientas de orquestaciones, arrastre la **puerto** forma a la derecha **superficie para el puerto**, parecida a la **SendToERP** forma.  
+1.  En el cuadro de herramientas de orquestaciones, arrastre el **puerto** forma a la derecha **superficie para el puerto**, en paralelo a la **SendToERP** forma.  
   
-2.  Use la información de la tabla siguiente para completar el Asistente para configuración de puertos para la **SendToERP** puerto de envío.  
+2.  Use la información de la tabla siguiente para completar el Asistente para configuración de puerto para el **SendToERP** puerto de envío.  
   
-    |Propiedad|Valor|  
+    |Property|Valor|  
     |--------------|-----------|  
-    |**Nombre**|Tipo de **SendToERPPort**.|  
+    |**Nombre**|Tipo **SendToERPPort**.|  
     |**Seleccione el tipo de puerto que se utilizará para este puerto**|Seleccione **crear un nuevo tipo de puerto**.|  
-    |**Nombre de tipo de puerto**|Tipo de **SendToERPPortType**.|  
+    |**Nombre de tipo de puerto**|Tipo **SendToERPPortType**.|  
     |**Patrón de comunicación**|Seleccione el **unidireccional** opción.|  
     |**Restricciones de acceso**|Seleccione el **interno: limitado a este proyecto** opción.|  
     |**Dirección de puerto de comunicación**|En la lista desplegable, seleccione **siempre enviaré los mensajes en este puerto**.|  
@@ -125,9 +125,9 @@ ms.locfileid: "22279836"
  En este paso, ha agregado tres puertos a la orquestación EAIProcess y los ha configurado.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
- Compile el proyecto [paso 4: crear el proyecto EAIOrchestration](../core/step-4-build-the-eaiorchestration-project.md).  
+ Compile el proyecto [paso 4: generar el proyecto EAIOrchestration](../core/step-4-build-the-eaiorchestration-project.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Paso 1: Agregar el proyecto EAIOrchestration a la solución](../core/step-1-add-eaiorchestration-project-to-the-solution.md)   
  [Paso 2: Definir el proceso empresarial](../core/step-2-define-the-business-process.md)   
- [Paso 4: Crear el proyecto EAIOrchestration](../core/step-4-build-the-eaiorchestration-project.md)
+ [Paso 4: Generar el proyecto EAIOrchestration](../core/step-4-build-the-eaiorchestration-project.md)

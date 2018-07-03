@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10585 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10585 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b4781628121edad8904130e546038698de03161
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a423ae8ca3328b2e3846c953036ae70aa6ff4f05
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271524"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966837"
 ---
-# <a name="single-sign-on-event-10585"></a>Inicio de sesión único: Evento 10585
+# <a name="single-sign-on-event-10585"></a>De sesión único: Evento 10585
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10585|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_EXPIRED_TICKET_REDEEMED|  
-|Texto del mensaje|Se está canjeando un vale después de que caducó el período de tiempo de espera de vale. Esto se permite porque el período de tiempo de espera de vale está deshabilitado para esta aplicación.%r<br /><br /> Nombre de la aplicación: %1|  
+|                 |                                                                                                                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                 Inicio de sesión único (SSO) empresarial                                                                                 |
+| Versión del producto |                                                                [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                 |
+|    Identificador del evento     |                                                                                           10585                                                                                           |
+|  Origen del evento   |                                                                                          ENTSSO                                                                                           |
+|    Componente    |                                                                                            N/D                                                                                            |
+|  Nombre simbólico  |                                                                             SSO_WARN_EXPIRED_TICKET_REDEEMED                                                                              |
+|  Texto del mensaje   | Se está canjeando un vale después de que caducó el período de tiempo de espera de vale. Esto se permite porque el período de tiempo de espera de vale está deshabilitado para esta aplicación.%r<br /><br /> Nombre de la aplicación: %1 |
   
 ## <a name="explanation"></a>Explicación  
  El tiempo de espera de vale se puede habilitar o deshabilitar. En este caso, se canjea un vale aunque su período de tiempo de espera ha caducado porque el tiempo de espera está deshabilitado.  

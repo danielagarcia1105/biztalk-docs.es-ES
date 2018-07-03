@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas de configuración | Documentos de Microsoft
+title: Solución de problemas de configuración | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e523c5c992ea422e6fe81f3c0d948db7007bcdb1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f79f2d2ec9e87a22d07802f52b063f279d65ab8a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975994"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973197"
 ---
-# <a name="troubleshooting-configuration"></a>Solucionar problemas de configuración
+# <a name="troubleshooting-configuration"></a>Solución de problemas de configuración
 El programa de configuración de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] crea bases de datos en uno o varios de los equipos que ejecutan [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], rellena las bases de datos con tablas, funciones y procedimientos almacenados que usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] e implementa los ensamblados .NET que se usan durante el tiempo de ejecución en la base de datos de administración de BizTalk.  
   
  En esta sección se trata la solución de problemas de técnicas para solucionar errores de configuración. Asimismo, enumera algunos problemas de configuración comunes y cómo resolverlos.  
   
 ## <a name="configuration-logging"></a>Registro de configuración  
- El programa de configuración escribe información detallada en un archivo de registro de configuración que de forma predeterminada se encuentra en el directorio temp del equipo que ejecuta[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para determinar la carpeta especificada por la variable de entorno TEMP, abra un símbolo del sistema en este equipo, escriba el comando siguiente y presione ENTRAR:  
+ El programa de configuración escribe información detallada en un archivo de registro de configuración que se encuentra en el directorio temporal del equipo que ejecuta de forma predeterminada[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para determinar la carpeta especificada por la variable de entorno TEMP, abra un símbolo del sistema en este equipo, escriba el comando siguiente y presione ENTRAR:  
   
- **Echo % TEMP %**  
+ **Echo % TEMP %.**  
   
  El archivo de registro de configuración contiene un resumen de los pasos de configuración que se han llevado a cabo, así como información de diagnóstico sobre errores que se pueden producir durante el proceso de configuración. Si se produce un error de configuración, abra el registro de configuración en un editor de texto como el Bloc de notas y compruebe el archivo de registro para ver las posibles causas del error.  
   
 ## <a name="troubleshooting-tools"></a>Herramientas para la solución de problemas  
- Use el Analizador de SQL Server, FileMon o RegMon para recopilar información adicional acerca de los errores de configuración. Para obtener más información acerca de estas herramientas, consulte [herramientas y utilidades que se usan para la solución de problemas](../core/tools-and-utilities-to-use-for-troubleshooting.md).  
+ Use el Analizador de SQL Server, FileMon o RegMon para recopilar información adicional acerca de los errores de configuración. Para obtener más información acerca de estas herramientas, consulte [herramientas y utilidades que se utilizan para la solución de problemas](../core/tools-and-utilities-to-use-for-troubleshooting.md).  
   
 ## <a name="known-issues"></a>Problemas conocidos  
   
@@ -45,7 +45,7 @@ El programa de configuración de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](
   
  Función: FieldInfoCreate  
   
- -O bien-  
+ -o bien-  
   
  No se pudo habilitar el Servicio de inicio de sesión único (SSO) (código de error 0X800706BA)  
   
@@ -152,7 +152,7 @@ echo %TEMP%
   
  No se puede establecer la conexión al repositorio.  
   
- Servidor de análisis: \<nombre de equipo\>  
+ Servidor de análisis: \<nombre de la máquina\>  
   
  Error:  
   
@@ -168,15 +168,15 @@ echo %TEMP%
 ##### <a name="resolution"></a>Solución  
  Lleve a cabo los siguientes pasos manuales para actualizar el servidor de análisis con el nuevo nombre del equipo:  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft SQL Server**, seleccione **Analysis Services**y, a continuación, haga clic en **Analysis Manager**.  
+1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft SQL Server**, apunte a **Analysis Services**y, a continuación, haga clic en **Analysis Manager**.  
   
-2.  En el **Analysis Manager** el panel de navegación, haga doble clic en el **Analysis Servers** nodo para expandirlo.  
+2.  En el **Analysis Manager** panel de navegación, haga doble clic en el **Analysis Servers** nodo para expandirlo.  
   
 3.  Haga clic en el servidor con la cadena de conexión de repositorio que desea editar y, a continuación, seleccione **Editar cadena de conexión de repositorio**.  
   
-4.  En el **Editar cadena de conexión de repositorio** diálogo cuadro, compruebe el nombre del servidor de esta cadena y actualícelo con el nuevo nombre del equipo si es incorrecto.  
+4.  En el **Editar cadena de conexión de repositorio** diálogo cuadro, compruebe el nombre del servidor en esta cadena y actualizarlo al nuevo nombre del equipo si es incorrecto.  
   
-5.  Vaya a la siguiente ubicación: \< *directorio de instalación de*\>\Program Analysis Services\Bin.  
+5.  Vaya a la siguiente ubicación: \< *directorio de instalación*\>\Program Files\Microsoft Analysis Services\Bin.  
   
 6.  Haga clic en el **Bin** carpeta y, a continuación, haga clic en **compartir y seguridad**. El **propiedades de Bin** aparece el cuadro de diálogo.  
   
@@ -190,46 +190,46 @@ echo %TEMP%
 ##### <a name="cause"></a>Causa  
  Para ilustrar la causa de este problema, se considerará el siguiente ejemplo que se basa en una solución de ejemplo de BizTalk Server donde un usuario desea volver a implementar el proyecto Asignaciones. Se debe tener en cuenta que si se compilan proyectos, se obtienen ensamblados individuales. En la siguiente ilustración se indica el estado de la solución antes de que el usuario implemente de nuevo. Las relaciones entre los artefactos son las siguientes:  
   
--   Orch1, Orch2, Maps, Pipelines y Schemas son proyectos.  
+- Orch1, Orch2, Maps, Pipelines y Schemas son proyectos.  
   
--   Orch1 hace referencia a Maps que, a su vez, hace referencia a Schemas.  
+- Orch1 hace referencia a Maps que, a su vez, hace referencia a Schemas.  
   
--   Orch2 hace referencia a Schemas.  
+- Orch2 hace referencia a Schemas.  
   
--   Pipelines hace referencia a Schemas.  
+- Pipelines hace referencia a Schemas.  
   
- ![](../core/media/bcd-existingbiztalkserversolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
+  ![](../core/media/bcd-existingbiztalkserversolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
   
- Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configuración de proyecto de Visual Studio predeterminada, desaparecerán los artefactos Orch1, Orch2 y Pipeline, tal como se muestra en la siguiente ilustración.  
+  Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configuración de proyecto de Visual Studio predeterminada, desaparecerán los artefactos Orch1, Orch2 y Pipeline, tal como se muestra en la siguiente ilustración.  
   
- ![](../core/media/bcd-biztalksolutionwlostartifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
+  ![](../core/media/bcd-biztalksolutionwlostartifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
   
- La nueva implementación de Asignaciones es un proceso de dos pasos: anular la implementación del ensamblado Maps.dll implementado en ese momento y, a continuación, volver a implementar el nuevo archivo Maps.dll. Visual Studio realiza estos pasos automáticamente como parte del proceso de volver a implementar.  
+  La nueva implementación de Asignaciones es un proceso de dos pasos: anular la implementación del ensamblado Maps.dll implementado en ese momento y, a continuación, volver a implementar el nuevo archivo Maps.dll. Visual Studio realiza estos pasos automáticamente como parte del proceso de reimplementación.  
   
 > [!NOTE]
 >  La frase anterior no es del todo correcta porque éstos son los pasos que siempre realiza Visual Studio, por lo que no parece que sea la forma adecuada.  
   
  El punto clave es que para anular la implementación de un ensamblado de BizTalk Server, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] tiene que anular la implementación de todos los ensamblados que dependen de ese ensamblado y que tienen establecido el marcador de implementación. En este ejemplo, para realizar el primer paso de la anulación de la nueva implementación, BizTalk Server necesita anular la implementación de Orch1.dll (que depende de Maps.dll). Durante la anulación de la implementación de Maps.dll, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] también anula la implementación de Schemas.dll (suponiendo que tiene establecido el marcador de implementación). Para anular la implementación de Schemas.dll, Visual Studio necesita anular la implementación de Orch2.dll y Pipelines.dll (que dependen de Schemas.dll).  
   
- Existe un problema en el que [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] vuelve a implementar sólo Maps.dll y los ensamblados que depende: en este caso, Schemas.dll. Así, cuando el usuario actualiza la MMC de BizTalk Server, los ensamblados Orch1, Orch2 y Pipeline parecen que han desaparecido, pero Maps.dll y Schemas.dll todavía están visibles.  
+ Existe un problema en el que [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] vuelve a implementar solo Maps.dll y los ensamblados que depende: en este caso, Schemas.dll. Por lo que cuando el usuario actualiza la MMC de BizTalk Server, los ensamblados Orch1, Orch2 y Pipeline parecen que han desaparecido, pero Maps.dll y Schemas.dll todavía están visibles.  
   
 ##### <a name="resolution"></a>Solución  
  Para el proyecto principal (que hace referencia a otros proyectos) se debe realizar lo siguiente:  
   
 1.  En el Explorador de soluciones, haga clic con el botón secundario en el nodo de soluciones.  
   
-2.  Haga clic en **propiedades** para abrir el **páginas de propiedades de solución** cuadro de diálogo.  
+2.  Haga clic en **propiedades** para abrir el **páginas de propiedades de la solución** cuadro de diálogo.  
   
 3.  Haga clic en **propiedades de configuración**y, a continuación, haga clic en **configuración**.  
   
 4.  Desactive el **implementar** casilla de verificación para el proyecto que se hace referencia.  
   
-5.  En el Explorador de soluciones, ejecute una implementación nueva de nivel de solución. Para ello, haga clic en el nodo de la solución y, a continuación, haga clic en **implementar solución**.  
+5.  En el Explorador de soluciones, ejecute una implementación nueva de nivel de solución. Para ello, haga clic en el nodo de solución y, a continuación, haga clic en **implementar solución**.  
   
 #### <a name="supported-virtual-directory-types"></a>Tipos de directorio virtual admitidos  
- Al hacer referencia a servicios Web desde una orquestación e intentar realizar una exportación MSI, la operación de exportación se realizará correctamente sólo si los directorios virtuales asociados son del tipo **IIsWebVirtualDir** o **IIsWebDirectory** . **IIsWebVirtualDir** y **IIsWebDirectory** son los tipos de nodos que aparecen en la metabase de IIS. **IIsWebVirtualDir** es un directorio virtual con un **ruta de acceso** propiedad que señala a una carpeta de archivos absoluta. **IIsWebDirectory** es un directorio virtual sin un **ruta de acceso** propiedad y, por tanto, hace referencia a una carpeta de archivos relativa, normalmente una subcarpeta de otro **IIsWebVirtualDir** o  **IIsWebDirectory** nodo. Estos dos tipos son los que suelen verse en la jerarquía de metabases para describir carpetas.  
+ Al hacer referencia a servicios Web desde una orquestación y se intenta realizar una exportación MSI, la operación de exportación se realizará correctamente solo si los directorios virtuales asociados son del tipo **IIsWebVirtualDir** o **IIsWebDirectory** . **IIsWebVirtualDir** y **IIsWebDirectory** son los tipos de nodos que aparecen en la metabase de IIS. **IIsWebVirtualDir** es un directorio virtual con un **ruta** propiedad que señala a una carpeta de archivos absoluta. **IIsWebDirectory** es un directorio virtual sin un **ruta** propiedad y, por tanto, hace referencia a una carpeta de archivos relativa, normalmente una subcarpeta de otro **IIsWebVirtualDir** o  **IIsWebDirectory** nodo. Estos dos tipos son los que suelen verse en la jerarquía de metabases para describir carpetas.  
   
- Directorios virtuales del tipo **IIsConfigObject** no son compatibles y la exportación MSI se producirá un error en este caso. **IIsConfigObject** es un tipo de nodo de metabase inesperado que es un tipo de nodo válido que BizTalk Server no lleva a cabo correctamente o un valor que indica una entrada de la metabase creado de forma incorrecta (y por tanto no válido). En esta situación, BizTalk Server mostrará un mensaje de error parecido al siguiente: la entrada de directorio inesperado "IIS://LM/W3SVC/1/ROOT/BadVdir/" del tipo IIsConfigObject.  
+ Los directorios virtuales del tipo **IIsConfigObject** no son compatibles y la exportación MSI se producirá un error en este caso. **IIsConfigObject** es una indicación de una entrada de la metabase creado de forma incorrecta (y por tanto no válido) o de un tipo de nodo de metabase inesperado que es un tipo de nodo válido que BizTalk Server no se controlan correctamente. En esta situación, BizTalk Server mostrará un mensaje de error similar al siguiente: entrada de directorio inesperado "IIS://LM/W3SVC/1/ROOT/BadVdir/" del tipo IIsConfigObject.  
   
 #### <a name="unable-to-view-group-information-after-removing-stale-logons"></a>No se puede ver la información de grupo tras quitar inicios de sesión obsoletos  
   

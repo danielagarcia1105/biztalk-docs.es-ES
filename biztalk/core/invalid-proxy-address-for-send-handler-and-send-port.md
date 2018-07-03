@@ -1,5 +1,5 @@
 ---
-title: Dirección de proxy no válido (para el puerto de envío y de controlador de envío) | Documentos de Microsoft
+title: Dirección de proxy no válido (para el puerto de envío y de controlador de envío) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d33af2f4fa068294c38ecb4146cd1f8d05d68aea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5f509676b17a04fdbe0f0934225b5dc64546fed8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257820"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973549"
 ---
 # <a name="invalid-proxy-address-for-send-handler-and-send-port"></a>Dirección de proxy no válida (para controlador de envío y puerto de envío)
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Dirección de proxy no válida: {0}|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                             Dirección de proxy no válida: {0}                             |
   
 ## <a name="explanation"></a>Explicación  
  No proporcionó un controlador de envío WCF o un puerto de envío WCF con una dirección de proxy válida.  
@@ -40,25 +40,25 @@ ms.locfileid: "22257820"
   
 #### <a name="to-configure-a-proxy-address"></a>Para configurar una dirección de proxy  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]** y haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]** y haga clic en **administración de BizTalk Server**.  
   
-2.  En la raíz de consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**y expanda **aplicaciones**.  
+2. En la raíz de consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**y expanda **aplicaciones**.  
   
-3.  Busque la aplicación y, a continuación, busque su transporte.  
+3. Busque la aplicación y, a continuación, busque su transporte.  
   
-4.  Haga clic con el botón secundario en el nombre del transporte.  
+4. Haga clic con el botón secundario en el nombre del transporte.  
   
-5.  Haga clic en **Propiedades**.  
+5. Haga clic en **Propiedades**.  
   
-6.  En el puerto **tipo** , seleccione el puerto correcto.  
+6. En el puerto **tipo** lista, seleccione el puerto correcto.  
   
-7.  Haga clic en **configurar**.  
+7. Haga clic en **configurar**.  
   
-8.  En el **WCF [***tipo de transporte***] propiedades de transporte** cuadro de diálogo, haga clic en el **Proxy** ficha.  
+8. En el **WCF [**<em>tipo de transporte</em>**] propiedades de transporte** cuadro de diálogo, haga clic en el **Proxy** ficha.  
   
-9. Compruebe que la dirección de proxy en el **configuración de Proxy** sección está configurada correctamente.  
+9. Compruebe que la dirección del proxy en el **configuración de Proxy** sección está configurada correctamente.  
   
- Para obtener más información sobre los puertos de envío y los controladores de envío, vea los recursos siguientes:  
+   Para obtener más información sobre los puertos de envío y los controladores de envío, vea los recursos siguientes:  
   
 -   [Cómo configurar un puerto de envío WCF-WSHttp](../core/how-to-configure-a-wcf-wshttp-send-port.md)  
   

@@ -1,5 +1,5 @@
 ---
-title: Errores del registro | Documentos de Microsoft
+title: Errores del registro | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1c84ec2a1082f431fef8e06357f14cc9b621c6a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 62522299866748d92abf91d36a01444c3175b070
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268556"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975117"
 ---
 # <a name="registry-errors"></a>Errores de Registro
-Información para diagnosticar y resolver errores de registro de WCF.  
+Información para diagnosticar y resolver errores del registro de WCF.  
 
 ## <a name="failed-to-access-the-registry"></a>Error al obtener acceso al Registro
   
-||Detalles del error|  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se pudo abrir HKLM\\{0}.|  
+|                 |                                   Detalles del error                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                             No se pudo abrir HKLM\\{0}.                              |
   
 ### <a name="explanation"></a>Explicación  
  Este error indica un error al obtener acceso al Registro.  
@@ -42,15 +42,15 @@ Información para diagnosticar y resolver errores de registro de WCF.
  
 ## <a name="failed-to-obtain-biztalk-install-path"></a>No se pudo obtener la ruta de instalación de BizTalk
   
-||Detalles del error|  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se pudo obtener la ruta de instalación de BizTalk desde HKLM\\{0}\\{1}|  
+|                 |                                   Detalles del error                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |             No se pudo obtener la ruta de instalación de BizTalk de HKLM\\{0}\\{1}              |
   
 ## <a name="explanation"></a>Explicación  
  Este mensaje indica un error al obtener acceso al Registro y que la clave tiene un valor incorrecto.  

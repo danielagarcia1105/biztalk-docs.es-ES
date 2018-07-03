@@ -1,5 +1,5 @@
 ---
-title: Procesos privados | Documentos de Microsoft
+title: Los procesos privados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,28 +21,28 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b28bf49af1305220d96f129080b274b5391495eb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3ff99f03b3a38ff9d8c1c33ec16b108e5bd58ca7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207692"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967493"
 ---
 # <a name="private-processes"></a>Procesos privados
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implementa procesos empresariales internos de una organización como procesos privados. Procesos públicos controlen procesos empresariales que implican la integración con socios comerciales. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]aísla el procesamiento de contenido del servicio y la integración de back-end (en el proceso privado) de RosettaNet Implementation Framework (RNIF) (en el proceso público).  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implementa procesos empresariales internos de una organización como procesos privados. Los procesos públicos controlan procesos empresariales que implican la integración con socios comerciales. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] aísla el contenido del servicio de procesamiento y la integración de back-end (en proceso privado) de RosettaNet Implementation Framework (RNIF) de control (en el proceso público).  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]implementa procesos privados como orquestaciones de BizTalk de larga duración. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]utiliza una orquestación de procesos privados en el lado del iniciador y otra en el lado de servicio de respuesta. Cada proceso privado interpreta y procesa la parte del mensaje de contenido del servicio, entrante o saliente. El proceso privado envía el contenido del servicio a o recibe desde el proceso público. Un proceso privado no procesa encabezados y no lleva a cabo el procesamiento de RNIF. Deja el proceso público.  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implementa procesos privados como orquestaciones de BizTalk de larga ejecución. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] utiliza una orquestación de procesos de privados en el lado del iniciador y otra en el lado de servicio de respuesta. Cada proceso privado interpreta y procesa la parte del mensaje de contenido del servicio, entrante o saliente. Proceso privado envía el contenido del servicio, o lo recibe desde el proceso público. Un proceso privado no controla los encabezados y no lleva a cabo el procesamiento de RNIF. Lo deja el proceso público.  
   
- En un escenario empresarial, habrá normalmente un proceso privado para cada esquema de mensaje PIP. Sin embargo, la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK incluye dos orquestaciones de proceso privado que pueden procesar cualquier mensaje PIP. Una orquestación es para el proceso de iniciador (PrivateInitiator.odx, consulte [PrivateInitiator ejemplo &#91; RN3 &#93; ](../../adapters-and-accelerators/accelerator-rosettanet/privateinitiator-sample.md)) y otra para el proceso de servicio de respuesta (PrivateResponder.odx, consulte [PrivateResponder ejemplo &#91; RN3 &#93; ](../../adapters-and-accelerators/accelerator-rosettanet/privateresponder-sample.md)). Tendrá que personalizar los procesos privados que se va a adaptar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] a sus procesos empresariales específicos.  
+ En un escenario empresarial, normalmente podría haber un proceso privado para cada esquema de mensaje PIP. Sin embargo, el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK incluye dos orquestaciones de proceso privado que pueden procesar cualquier mensaje PIP. Una orquestación es para el proceso de iniciador (PrivateInitiator.odx, consulte [ejemplo de PrivateInitiator &#91;RN3&#93;](../../adapters-and-accelerators/accelerator-rosettanet/privateinitiator-sample.md)) y otra para el proceso de servicio de respuesta (PrivateResponder.odx, consulte [PrivateResponder Ejemplo &#91;RN3&#93;](../../adapters-and-accelerators/accelerator-rosettanet/privateresponder-sample.md)). Tendrá que personalizar los procesos privados que se va a adaptar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] a sus procesos empresariales específicos.  
   
- El SDK también incluye un proceso que implementa un proceso de Respondedor privada específica de PIP incorpora una regla de negocios (PIP3A4PrivateResponder.odx, consulte [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)).  
+ El SDK también incluye un proceso que implementa un proceso de Respondedor privado PIP específico que incorpore una regla de negocios (PIP3A4PrivateResponder.odx, consulte [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)).  
   
- El proceso privado cambia el formato del contenido del servicio desde el formato de back-end línea de negocio (LOB) a XML. Tan pronto como se encuentra en formato XML, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] procesa el contenido del servicio, y el proceso público agrega encabezados compatible con RNIF para el contenido del servicio para su transmisión.  
+ Proceso privado cambia el formato del contenido del servicio desde el formato de back-end línea de negocio (LOB) a XML. Tan pronto como se encuentra en formato XML, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] procesa el contenido del servicio, y el proceso público agrega encabezados compatibles con RNIF para el contenido del servicio para la transmisión.  
   
- El proceso privado se conecta a las aplicaciones de línea de negocio de back-end a través de las tablas MessageToLOB y MessagesFromLOB de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]datos [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] base de datos. Esta base de datos controla la comunicación entre [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] y las aplicaciones LOB. La aplicación de LOB utiliza una interfaz para tener acceso a las tablas de base de datos.  
+ Proceso privado se conecta a las aplicaciones de línea de negocio de back-end a través de las tablas MessageToLOB y MessagesFromLOB de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]datos [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] base de datos. Esta base de datos administra la comunicación entre [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] y las aplicaciones de LOB. La aplicación LOB usa una interfaz para tener acceso a las tablas de base de datos.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Proceso de iniciador privada](../../adapters-and-accelerators/accelerator-rosettanet/initiator-private-process.md)  
+-   [Proceso privado del iniciador](../../adapters-and-accelerators/accelerator-rosettanet/initiator-private-process.md)  
   
--   [Proceso de respuesta privado](../../adapters-and-accelerators/accelerator-rosettanet/responder-private-process.md)
+-   [Proceso privado del respondedor](../../adapters-and-accelerators/accelerator-rosettanet/responder-private-process.md)

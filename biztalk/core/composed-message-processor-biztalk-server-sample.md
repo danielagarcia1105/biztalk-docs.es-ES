@@ -1,5 +1,5 @@
 ---
-title: Compone el procesador de mensajes (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Compuesto por el procesador de mensajes (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,29 +17,29 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3097ef6a0da695c3b07cf68182a374eabed11b5e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: d884fba7d19e26613c457ed5789f847a5c23babc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975282"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969215"
 ---
 # <a name="composed-message-processor-biztalk-server-sample"></a>Procesador de mensajes compuestos  (ejemplo de BizTalk Server)
 Este ejemplo tiene como finalidad crear una aplicación de procesador de mensajes compuestos que procese elementos de línea individuales a partir de mensajes agregados.  
   
  De forma más específica, crearemos una programación de orquestación que:  
   
-1.  Reciba un mensaje de intercambio por lotes compuesto de varios pedidos.  
+1. Reciba un mensaje de intercambio por lotes compuesto de varios pedidos.  
   
-2.  Desensamble el mensaje de intercambio en documentos de pedido individuales.  
+2. Desensamble el mensaje de intercambio en documentos de pedido individuales.  
   
-3.  Procese cada documento: convierta cada pedido en un mensaje de factura.  
+3. Procese cada documento: convierta cada pedido en un mensaje de factura.  
   
-4.  Ensamble todos los mensajes de factura en un intercambio por lotes.  
+4. Ensamble todos los mensajes de factura en un intercambio por lotes.  
   
- El paso 3 se simplifica para el ejemplo. Por ejemplo, en aplicaciones más complejas, una orquestación puede enviar pedidos desensamblados a distintos sistemas de servidor de inventario y después tras recopilar todas las respuestas, agregarlos en un mensaje de factura por lotes.  
+   El paso 3 se simplifica para el ejemplo. Por ejemplo, en aplicaciones más complejas, una orquestación puede enviar pedidos desensamblados a distintos sistemas de servidor de inventario y después tras recopilar todas las respuestas, agregarlos en un mensaje de factura por lotes.  
   
- Para obtener más información sobre el patrón del procesador de mensajes compuestos, vea [1].  
+   Para obtener más información sobre el patrón del procesador de mensajes compuestos, vea [1].  
   
 ## <a name="what-this-sample-does"></a>Descripción del ejemplo  
  Existen dos proyectos dentro de la solución de ejemplo, que se describen de forma detallada en las secciones siguientes.  
@@ -135,15 +135,15 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
   
  Primero tenemos que crear los esquemas de archivo sin formato para:  
   
--   El documento de pedido (PO.xsd)  
+- El documento de pedido (PO.xsd)  
   
--   El documento de factura (Invoice.xsd)  
+- El documento de factura (Invoice.xsd)  
   
--   El encabezado del pedido (POHeader.xsd)  
+- El encabezado del pedido (POHeader.xsd)  
   
--   El encabezado de la factura (InvoiceHeader.xsd)  
+- El encabezado de la factura (InvoiceHeader.xsd)  
   
- Para este ejemplo, no vamos a explicar el proceso de creación de esquemas de archivos sin formato. Para aprender a crear esquemas de archivos sin formato a partir de instancias de documentos, vea la sección "Crear esquemas de archivos sin formato a partir de instancias de documentos" de la documentación.  
+  Para este ejemplo, no vamos a explicar el proceso de creación de esquemas de archivos sin formato. Para aprender a crear esquemas de archivos sin formato a partir de instancias de documentos, vea la sección "Crear esquemas de archivos sin formato a partir de instancias de documentos" de la documentación.  
   
 #### <a name="map-to-transform-purchase-order-document-into-invoice-document"></a>Asignación para transformar documentos de pedido en documentos de factura  
  La asignación (PO2Invoice.btm) transforma una instancia del pedido en un documento de factura.  
@@ -153,31 +153,31 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
   
  El desensamblador de archivos sin formato de la canalización de recepción se configura como se indica a continuación:  
   
--   **Esquema de documento:** PipelinesAndSchemas.PO  
+- **Esquema de documento:** PipelinesAndSchemas.PO  
   
--   **Esquema de encabezado:** PipelinesAndSchemas.POHeader  
+- **Esquema de encabezado:** PipelinesAndSchemas.POHeader  
   
--   **Conservar encabezado:** False  
+- **Conservar encabezado:** False  
   
--   **Intercambio recuperable:** False  
+- **Intercambio recuperable:** False  
   
--   **Esquema de finalizador:** (ninguno)  
+- **Esquema de finalizador:** (ninguno)  
   
--   **Validar la estructura del documento:** False  
+- **Validar la estructura del documento:** False  
   
- La canalización de envío (FFSendPipeline.btp) contiene un componente ensamblador de archivos sin formato que se emplea para crear un intercambio de facturas agregadas.  
+  La canalización de envío (FFSendPipeline.btp) contiene un componente ensamblador de archivos sin formato que se emplea para crear un intercambio de facturas agregadas.  
   
- El ensamblador de archivos sin formato de la canalización de envío se configura como se indica a continuación:  
+  El ensamblador de archivos sin formato de la canalización de envío se configura como se indica a continuación:  
   
--   **Esquema de documento:** PipelinesandSchemas.Invoice  
+- **Esquema de documento:** PipelinesandSchemas.Invoice  
   
--   **Esquema de encabezado:** PipelinesAndSchemas.InvoiceHeader  
+- **Esquema de encabezado:** PipelinesAndSchemas.InvoiceHeader  
   
--   **Conservar marca de orden de bytes:** False  
+- **Conservar marca BOM:** False  
   
--   **Juego de caracteres de destino:** (ninguno)  
+- **Juego de caracteres de destino:** (ninguno)  
   
--   **Esquema de finalizador:** (ninguno)  
+- **Esquema de finalizador:** (ninguno)  
   
 ### <a name="orchestration-schedule"></a>Programación de orquestación  
  La programación de orquestación (CMP.odx) es el lugar en que se produce todo el procesamiento principal. En concreto, se llevan a cabo las acciones siguientes:  
@@ -196,13 +196,13 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
 #### <a name="executing-receive-pipeline"></a>Ejecutar canalización de recepción  
  Como siguiente paso, agregaremos lógica para ejecutar una canalización de recepción correspondiente al mensaje que se ha recibido en la orquestación. Para ello, declararemos una variable (con el nombre RcvPipeOutput) de tipo Microsoft.XLANGs.Pipeline.ReceivePipelineOutputMessages dentro del ámbito. Esta variable es un enumerador que permite el desplazamiento por los mensajes de salida de la canalización de recepción. Tenga en cuenta que, para obtener acceso a este tipo, así como a los demás tipos para la ejecución de canalizaciones a partir de la orquestación, es preciso agregar referencias a los ensamblados siguientes:  
   
--   Microsoft.XLANGs.Pipeline.dll  
+- Microsoft.XLANGs.Pipeline.dll  
   
--   Microsoft.BizTalk.Pipeline.dll  
+- Microsoft.BizTalk.Pipeline.dll  
   
- No hay ninguna garantía de que la canalización de recepción siempre se ejecute correctamente. En ocasiones, el formato de los mensajes puede ser incorrecto, lo que originaría errores en el procesamiento de la canalización. Cuando la ejecución de una canalización genera errores en la orquestación, se inicia una excepción que se puede capturar y se puede realizar la lógica de control de errores. Para capturar la excepción iniciada por la canalización, hay que ejecutar la canalización dentro de un ámbito no atómico con un control de excepciones. El código real para ejecutar la canalización se invoca desde una forma de expresión dentro de dicho ámbito.  
+  No hay ninguna garantía de que la canalización de recepción siempre se ejecute correctamente. En ocasiones, el formato de los mensajes puede ser incorrecto, lo que originaría errores en el procesamiento de la canalización. Cuando la ejecución de una canalización genera errores en la orquestación, se inicia una excepción que se puede capturar y se puede realizar la lógica de control de errores. Para capturar la excepción iniciada por la canalización, hay que ejecutar la canalización dentro de un ámbito no atómico con un control de excepciones. El código real para ejecutar la canalización se invoca desde una forma de expresión dentro de dicho ámbito.  
   
- En la forma de expresión ExecuteRcvPipe, escriba la siguiente línea de código para ejecutar la canalización de recepción:  
+  En la forma de expresión ExecuteRcvPipe, escriba la siguiente línea de código para ejecutar la canalización de recepción:  
   
 ```  
 RcvPipeOutput = Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteReceivePipeline(typeof(PipelinesAndSchemas.FFReceivePipeline), InputInterchange);  
@@ -265,7 +265,7 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  En la tabla siguiente se enumeran los archivos que se usan en el ejemplo.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |Cleanup.bat|Se utiliza para anular la implementación de ensamblados y quitarlos de la caché de ensamblados global (GAC).<br /><br /> Quita los puertos de envío y recepción.<br /><br /> Quita los directorios virtuales de los Servicios de Microsoft Internet Information (IIS) según sea necesario.|  
 |ComposedMessageProcessor.sln|Archivo de solución de Visual Studio para el ejemplo.|  
@@ -287,13 +287,13 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<Ejemplos de ruta de acceso\>\Pipelines\ComposedMessageProcessor  
+     \<Ejemplos de la ruta de acceso\>\Pipelines\ComposedMessageProcessor  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta:  
   
-         \<Ejemplos de ruta de acceso\>\Pipelines\ComposedMessageProcessor  
+         \<Ejemplos de la ruta de acceso\>\Pipelines\ComposedMessageProcessor  
   
     -   Compila los proyectos de Visual Studio para este ejemplo.  
   
@@ -303,7 +303,7 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
   
     -   Da de alta e inicia la orquestación, habilita la ubicación de recepción e inicia el puerto de envío.  
   
-         Si opta por abrir y crear los proyectos en este ejemplo sin ejecutar el archivo Setup.bat, primero debe crear un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice que este par de claves se usa para firmar los ensamblados resultantes.  
+         Si opta por abrir y crear los proyectos de este ejemplo sin ejecutar el archivo Setup.bat, debe crear primero un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice que este par de claves se usa para firmar los ensamblados resultantes.  
   
 3.  Antes de tratar de ejecutar este ejemplo, confirme que BizTalk Server no ha informado de ningún error durante el proceso de generación e inicialización.  
   
@@ -313,7 +313,7 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
   
     2.  Ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
   
-## <a name="running-the-sample"></a>Ejecutar el ejemplo  
+## <a name="running-the-sample"></a>Ejecución del ejemplo  
  Utilice el siguiente procedimiento para ejecutar el ejemplo ComposedMessageProcessor.  
   
 #### <a name="to-run-the-composedmessageprocessor-sample"></a>Para ejecutar el ejemplo ComposedMessageProcessor  

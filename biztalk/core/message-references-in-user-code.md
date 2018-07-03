@@ -1,5 +1,5 @@
 ---
-title: Las referencias en el código de usuario de mensajes | Documentos de Microsoft
+title: Las referencias en código de usuario de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 264f50da516f44d8fc87186614a79bb81aaf77ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 71e73eb9b953e514e48ae4e927ec3e4c104feb43
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263252"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972501"
 ---
 # <a name="message-references-in-user-code"></a>Referencias de mensajes en código de usuario
 Cuando se construye un mensaje, una representación de éste se encuentra en la base de datos de cuadro de mensajes y otra en la memoria del equipo. Si se realiza la asignación del mensaje pasando una referencia del mensaje a un objeto .NET o a un ensamblado externo y, a continuación, uno de ellos modifica la representación que se encuentra en la memoria del equipo, el motor de orquestaciones de BizTalk no tendrá constancia de la modificación.  
   
  Además, el motor de orquestaciones no invalida los datos de partes del mensaje que se encuentran en la representación de la base de datos de cuadro de mensajes. Estos datos cuentan con los siguientes modos de representación:  
   
--   Representación XmlDocument  
+- Representación XmlDocument  
   
--   Representación de objetos  
+- Representación de objetos  
   
--   Representación de secuencias  
+- Representación de secuencias  
   
--   Representación UnderlyingPart  
+- Representación UnderlyingPart  
   
- El modo en que los datos de partes del mensaje se representen en la memoria dependerá de la construcción del mensaje y de si el tipo es una clase .NET o un esquema en lenguaje de definición de esquemas XML (XSD). Sin embargo, la representación UnderlyingPart siempre es una secuencia que apunta a la base de datos de cuadro de mensajes. Puesto que los mensajes en BizTalk Server son inmutables una vez confirmado el mensaje en la base de datos de cuadro de mensajes, el motor de orquestaciones utiliza la representación de esta base de datos para hacer referencia a los datos de partes del mensaje.  
+  El modo en que los datos de partes del mensaje se representen en la memoria dependerá de la construcción del mensaje y de si el tipo es una clase .NET o un esquema en lenguaje de definición de esquemas XML (XSD). Sin embargo, la representación UnderlyingPart siempre es una secuencia que apunta a la base de datos de cuadro de mensajes. Puesto que los mensajes en BizTalk Server son inmutables una vez confirmado el mensaje en la base de datos de cuadro de mensajes, el motor de orquestaciones utiliza la representación de esta base de datos para hacer referencia a los datos de partes del mensaje.  
   
 > [!NOTE]
 >  Un mensaje construido puede tener ya una representación en la base de datos de cuadro de mensajes si asigna partes de un mensaje que ya está confirmado.  

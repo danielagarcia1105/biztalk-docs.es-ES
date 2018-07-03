@@ -1,5 +1,5 @@
 ---
-title: Crear el FRR la canalización de recepción | Documentos de Microsoft
+title: Creación la recepción de FRR canalización | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,48 +16,48 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad31a69d579cf2bbe9f646fc87be1bea9f561a10
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbf4e735019c5399e1b7f1648f3adbcffe18fed2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210380"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970805"
 ---
 # <a name="creating-the-frr-receive-pipeline"></a>Crear el FRR la canalización de recepción
-Para realizar la conciliación de respuesta de FIN, debe crear una canalización de recepción que contiene el descodificador de SWIFT FRR y componentes de canalización de SWIFT FRR CorrelationSet resolución, así como el Desensamblador SWIFT.  
-  
+Para llevar a cabo la conciliación de respuestas de FIN, debe crear una canalización de recepción que contiene el descodificador de FRR SWIFT y componentes de canalización de resolución de CorrelationSet FRR SWIFT, además del desensamblador de SWIFT.  
+
  **Resumen**  
-  
- Crear una canalización de recepción con las siguientes fases/propiedades:  
-  
-|Fase o la propiedad|Componente/configuración|  
+
+ Crear una canalización de recepción con las propiedades y las fases siguientes:  
+
+|Fase o propiedad|Componente/configuración|  
 |---------------------|------------------------|  
-|Fase de desensamblado|Desensamblador SWIFT|  
-|Propiedad de validación de BRE (SWIFT desensamblador)|True|  
-|Propiedad de validación de XML (SWIFT desensamblador)|True|  
-|Propiedad de esquema de encabezado de SWIFT (SWIFT desensamblador)|(Ninguno)|  
+|Fase de desensamblado|Desensamblador de SWIFT|  
+|Propiedad de validación del BRE (Desensamblador de SWIFT)|True|  
+|Propiedad de validación de XML (Desensamblador de SWIFT)|True|  
+|Propiedad de esquema de encabezado de SWIFT (Desensamblador de SWIFT)|(Ninguno)|  
 |Fase de descodificador|Descodificador de MQSeries FRR SWIFT|  
-|Fase de resolución de entidades|Resolución de conjunto de correlaciones de SWIFT FRR|  
-  
-### <a name="to-create-a-custom-receive-pipeline-for-frr"></a>Para crear una canalización de recepción personalizada para FRR  
-  
-1.  En el Explorador de soluciones de Visual Studio, haga clic en el proyecto que contiene su [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] canalizaciones, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
-  
-2.  En el cuadro de diálogo Agregar nuevo elemento, haga clic en **archivos de canalización** en el panel de categorías y, a continuación, seleccione **canalización de recepción** en el panel Plantillas.  
-  
-3.  En el **nombre** , escriba un nombre para la canalización de recepción, como **FRRReceivePipeline.btp**. Haga clic en **Agregar**.  
-  
-    > [!NOTE]
-    >  Antes de realizar el paso 4, debe haber agregado el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FRR canalización componentes al cuadro de herramientas, como se describe en [agregar componentes de canalización de SWIFT al cuadro de herramientas](../../adapters-and-accelerators/accelerator-swift/adding-swift-pipeline-components-to-the-toolbox.md).  
-  
-4.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], haga clic en **vista** y, a continuación, haga clic en **cuadro de herramientas**.  
-  
-5.  En el panel cuadro de herramientas de componentes de canalizaciones de BizTalk, arrastre el **SWIFT Desensamblador** a la **Coloque aquí los** cuadro siguiente la **desensamblar** fase forma en el Diseñador de canalizaciones.  
-  
-6.  Con el **componente de desensamblador de SWIFT** seleccionada en el Diseñador de canalizaciones, en **propiedades**, compruebe que la **BRE validación** y **devalidacióndeXML** propiedades se establecen en **True**y el **esquema de encabezado de SWIFT** propiedad está establecida en **(ninguno)**.  
-  
-7.  En el cuadro de herramientas de componentes de canalización de BizTalk, arrastre **SWIFT FRR MQSeries descodificador** a la **Coloque aquí los** cuadro siguiente la **descodificador** fase forma en el Diseñador de canalizaciones.  
-  
-8.  En el panel cuadro de herramientas de componentes de canalizaciones de BizTalk, arrastre **resolución de conjunto de correlación de SWIFT FRR** a la **Coloque aquí los** cuadro siguiente la **ResolveParty** fase forma de canalización Diseñador.  
-  
+|Fase de resolución de entidades|Resolución de conjunto de correlaciones de FRR SWIFT|  
+
+### <a name="to-create-a-custom-receive-pipeline-for-frr"></a>Para crear una canalización de recepción personalizada de FRR  
+
+1. En el Explorador de soluciones de Visual Studio, haga clic en el proyecto que contiene su [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] canalizaciones, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+
+2. En el cuadro de diálogo Agregar nuevo elemento, haga clic en **archivos de canalización** en el panel de categorías y, a continuación, seleccione **canalización de recepción** en el panel Plantillas.  
+
+3. En el **nombre** , escriba un nombre para la canalización de recepción, tales como **FRRReceivePipeline.btp**. Haga clic en **Agregar**.  
+
+   > [!NOTE]
+   >  Antes de realizar el paso 4, debe haber agregado el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FRR canalización componentes al cuadro de herramientas, como se describe en [agregar componentes de canalización de SWIFT al cuadro de herramientas](../../adapters-and-accelerators/accelerator-swift/adding-swift-pipeline-components-to-the-toolbox.md).  
+
+4. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], haga clic en **vista** y, a continuación, haga clic en **cuadro de herramientas**.  
+
+5. En el panel cuadro de herramientas de componentes de canalización de BizTalk, arrastre el **Desensamblador de SWIFT** a la **Coloque aquí** cuadro a continuación el **desensamblar** almacenar provisionalmente la forma en el Diseñador de canalizaciones.  
+
+6. Con el **componente de desensamblador de SWIFT** seleccionado en el Diseñador de canalizaciones, en **propiedades**, compruebe que la **BRE validación** y **devalidacióndeXML** propiedades se establecen en **True**y el **esquema de encabezado de SWIFT** propiedad está establecida en **(ninguno)**.  
+
+7. En el cuadro de herramientas de componentes de canalización de BizTalk, arrastre **SWIFT FRR MQSeries descodificador** a la **Coloque aquí** cuadro a continuación el **descodificador** almacenar provisionalmente la forma en el Diseñador de canalizaciones.  
+
+8. En el panel cuadro de herramientas de componentes de canalización de BizTalk, arrastre **SWIFT FRR correlación establecer resolución** a la **Coloque aquí** cuadro a continuación el **ResolveParty** almacenar provisionalmente la forma en la canalización Diseñador.  
+
 9. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], haga clic en **archivo**y, a continuación, haga clic en **guardar todo**.

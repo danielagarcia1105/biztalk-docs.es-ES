@@ -1,5 +1,5 @@
 ---
-title: Tiempo de ejecución, reparación, la respuesta FIN y la mensajería de mensajes | Documentos de Microsoft
+title: Tiempo de ejecución, reparación, respuesta FIN y mensajería de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,25 +16,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 539d6f6d7a2b84262750f8b3c6da3c16a67f0de9
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 360a2e3974f1e4ea5858c583c5dc5fcc364e9756
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "22214108"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974637"
 ---
-# <a name="runtime-message-repair-fin-response-and-messaging"></a>En tiempo de ejecución, reparación de mensajes, respuesta FIN y de mensajería
+# <a name="runtime-message-repair-fin-response-and-messaging"></a>En tiempo de ejecución, reparación de mensajes, respuesta FIN y mensajería
 
 ## <a name="overview"></a>Información general
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona a los clientes y los socios financieros específicos del sector de mensajería y la conectividad de funcionalidad, lo que ayuda a acelera la implementación de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] como middleware para organizaciones financieras.  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona a los clientes y socios con financieros del sector-funcionalidad específica de conectividad y mensajería, lo que ayuda a acelerar la implementación de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] como middleware para que las organizaciones financieras.  
   
- Mediante el aprovechamiento de los estándares abiertos en la función herramientas y funciones en tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para implementar la compatibilidad con formatos de mensaje como SWIFT, A4SWIFT reduce la barrera para la adopción de estándares SWIFT actualizados mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] como un uso general plataforma de integración de middleware.  
+ Mediante el aprovechamiento de los estándares abiertos en la función de las herramientas y las funciones de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para implementar la compatibilidad con formatos de mensaje como SWIFT, A4SWIFT reduce la barrera para la adopción de estándares SWIFT actualizados mediante el empleo del [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] como un uso general plataforma de middleware de integración.  
   
- A4SWIFT y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] reducir el tiempo de comercialización mientras también reduce el costo total de propiedad (TCO) mediante la reducción del costo general de soporte y mantenimiento de la entrega de los servidores de clases para el hospedaje de aplicaciones y la integración, así como flujo de trabajo de enterprise implementación en el sector de servicios financieros.  
+ A4SWIFT y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] reducir el tiempo de comercialización mientras también reduce el costo total de propiedad (TCO) al reducir el costo general de mantenimiento y soporte técnico de la entrega de servidores de clases para el hospedaje de aplicaciones y la integración, así como flujo de trabajo de enterprise implementación de la industria de servicios financieros.  
   
- Puede categorizar funcionalidad de A4SWIFT como SWIFT mensajería y la conectividad de SWIFT. Mensajería de A4SWIFT completa incluye análisis del mensaje SWIFT y validación (incluida la entrada/salida de procesamiento por lotes), reparación y entrada de mensaje (incluida la integración con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] como la herramienta de usuario front-end) y otras aplicaciones de línea de negocio (LOB).  
+ Puede categorizar A4SWIFT funcionalidad como la mensajería de SWIFT y conectividad SWIFT. Mensajería de A4SWIFT completa abarca mensaje SWIFT análisis y validación (incluido el procesamiento por lotes entrante y saliente), reparación y entrada de mensaje (incluida la integración con Microsoft [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] como la herramienta de usuario de front-end) y otros aplicaciones de línea de negocio (LOB).  
   
- [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] proporciona esquemas XSD y validación completa, incluidas las reglas de red, para 358 todos los mensajes (FIN) financieros. También proporciona anulando entrante.  
+ [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] proporciona esquemas XSD y validación completa, incluidas las reglas de red para 358 todos los mensajes (FIN) financieros. También proporciona la desagrupación entrante.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
  Esta sección contiene:  

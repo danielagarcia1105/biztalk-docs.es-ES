@@ -1,5 +1,5 @@
 ---
-title: Dividir subdocumentos HIPAA | Documentos de Microsoft
+title: División de subdocumentos HIPAA | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 799cb5813b3c13339a0c477bf142a467a91b2c94
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 8cd5c202539a86479b397a7c8417b20aeea32542
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22278332"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971485"
 ---
 # <a name="splitting-hipaa-subdocuments"></a>Dividir subdocumentos HIPAA
 Los intercambios EDI para HIPAA suelen tener varios documentos secundarios/subdocumentos en un único conjunto de transacciones, limitado por los encabezados ST/SE. La canalización de recepción EDI admite la creación de subdocumentos HIPAA individuales en dicho conjunto de transacciones. Es distinta de los intercambios EDI que no son para HIPAA, en los que se procesa un solo conjunto de transacciones como mensaje único.  
@@ -25,13 +25,13 @@ Los intercambios EDI para HIPAA suelen tener varios documentos secundarios/subdo
 ## <a name="subdocument-splitting-schemas"></a>Esquemas de división de subdocumentos  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] admite la división de los siguientes tipos de documento HIPAA a través de esquemas nativos:  
   
--   Documentos HIPAA versión 4010: inscripción 834, pago de reclamaciones 835 y tres variantes de la reclamación 837  
+- Documentos HIPAA versión 4010: inscripción 834, 835 Claim Payment y tres variantes de la reclamación 837  
   
--   Documentos HIPAA versión 5010: estado de la reclamación 276/277 – solicitud y respuesta, inscripción 834 y tres variantes de la reclamación 837  
+- Documentos HIPAA versión 5010: estado de la reclamación 276/277 – solicitud y respuesta, inscripción 834 y tres variantes de la reclamación 837  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona dos versiones de esquemas para cada uno de estos tres tipos de documentos. Para cada tipo de documento, el esquema que admite la división se identifica por la etiqueta ‘Multiple’ en el nombre de archivo. El otro esquema no admite la división de subdocumentos.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona dos versiones de esquemas para cada uno de estos tres tipos de documentos. Para cada tipo de documento, el esquema que admite la división se identifica por la etiqueta ‘Multiple’ en el nombre de archivo. El otro esquema no admite la división de subdocumentos.  
   
- En algunos escenarios, es posible que se requieran los esquemas de división y no división. Esto se admitirá mediante el uso de un espacio de nombres de destino personalizado para una variante del esquema.  
+  En algunos escenarios, es posible que se requieran los esquemas de división y no división. Esto se admitirá mediante el uso de un espacio de nombres de destino personalizado para una variante del esquema.  
   
 ## <a name="how-subdocument-splitting-is-enabled"></a>Cómo se habilita la división de subdocumentos  
  La división de subdocumentos HIPAA se habilita mediante tres entradas de anotación en el esquema HIPAA. Las dos primeras son entradas para el esquema de la anotación appinfo, que debe establecerse en **Sí**:  
@@ -40,7 +40,7 @@ Los intercambios EDI para HIPAA suelen tener varios documentos secundarios/subdo
 subdocument_break = "yes" Split_Without_Sibling_Data = "Yes"  
 ```  
   
- La tercera entrada de anotación se ubica en los niveles de registro correspondientes del esquema HIPAA. Esta propiedad también debe establecerse en **Sí**.  
+ La tercera entrada de anotación se ubica en los niveles de registro correspondientes del esquema HIPAA. Esta propiedad debe establecerse también en **Sí**.  
   
 ```  
 subdocument_creation_break = "yes"  

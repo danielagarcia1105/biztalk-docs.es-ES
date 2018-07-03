@@ -1,5 +1,5 @@
 ---
-title: Procesamiento de mensajes | Documentos de Microsoft
+title: Procesamiento de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,21 +15,21 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 468ccae57c4a96c9cfe54170d3434f792d72965e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba35674614a755340a656c4389652276d83ae584
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22205988"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969437"
 ---
 # <a name="message-processing"></a>Procesamiento de mensajes
-Esta sección proporciona información sobre la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) los componentes de tiempo de ejecución del motor. Procesamiento de mensajes incluye el procesamiento de mensajes HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]archivos planos de 2 X), procesamiento de mensajes XML ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2XML), el procesamiento por lotes y el procesamiento de confirmación.  
+Esta sección proporciona información sobre el Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) del motor de componentes de tiempo de ejecución. Procesamiento de mensajes incluye el procesamiento de mensajes de HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]archivos planos de 2 X), el procesamiento de mensajes XML ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2XML), procesamiento por lotes y el procesamiento de confirmación.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Esquemas XML de HL7 2.X y 2.](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-and-2-xml-schemas.md)  
+-   [Esquemas HL7 2.X y 2.XML](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-and-2-xml-schemas.md)  
   
--   [Procesamiento de archivo sin formato BTAHL72X](../../adapters-and-accelerators/accelerator-hl7/btahl72x-flat-file-processing.md)  
+-   [Procesamiento de archivos planos BTAHL72X](../../adapters-and-accelerators/accelerator-hl7/btahl72x-flat-file-processing.md)  
   
 -   [Procesamiento de BTAHL72XML](../../adapters-and-accelerators/accelerator-hl7/btahl72xml-processing.md)  
   

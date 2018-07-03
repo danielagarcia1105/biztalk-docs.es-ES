@@ -1,5 +1,5 @@
 ---
-title: Cómo dar de alta o baja una entidad para un rol | Documentos de Microsoft
+title: Cómo dar de alta o baja una entidad para un rol | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8af988a001e63ba210e5d5c224eeb486800b7286
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 046e51424427973534d9e4defdbf6e8d58eb8b2f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22253788"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966253"
 ---
 # <a name="how-to-enlist-or-unenlist-a-party-for-a-role"></a>Cómo dar de alta o de baja una entidad para un rol
 En este tema se explica cómo usar la consola de administración de BizTalk Server para dar de alta o de baja una entidad para un rol. Al dar de alta una entidad para un rol, ésta se asigna al rol; por el contrario, al darla de baja, la entidad se quita del rol.  
@@ -38,23 +38,23 @@ En este tema se explica cómo usar la consola de administración de BizTalk Serv
 >  El desarrollador de aplicaciones puede dar de alta o baja a una entidad durante el proceso de desarrollo mediante el procedimiento de este tema.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-enlist-or-unenlist-a-party-for-a-role"></a>Para dar de alta o de baja una entidad para un rol  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk, expanda **aplicaciones**y, a continuación, expanda la aplicación que contiene el vínculo de función para la que desea dar de alta o dar de baja a una entidad.  
+2. En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk, expanda **aplicaciones**y, a continuación, expanda la aplicación que contiene el vínculo de rol para el que desea dar de alta o dar de baja a una entidad.  
   
-3.  Haga clic en **vínculos de función**, haga clic en el vínculo de función para la que desea dar de alta o baja una entidad y, a continuación, haga clic en **propiedades**.  
+3. Haga clic en **vínculos de rol**, haga clic en el vínculo de rol para el que desea dar de alta o baja una entidad y, a continuación, haga clic en **propiedades**.  
   
-4.  Para dar de alta una entidad, haga lo siguiente:  
+4. Para dar de alta una entidad, haga lo siguiente:  
   
-    -   Haga clic en **dar de alta** y haga clic en la entidad para dar de alta.  
+   -   Haga clic en **Enlist** y haga clic en la entidad para dar de alta.  
   
-    -   Haga clic en **enlazar**, en la **puerto de envío** lista desplegable, haga clic en el envío de puerto para que se utilizará para esta entidad y, a continuación, haga clic en **Aceptar** dos veces.  
+   -   Haga clic en **enlazar**, en el **puerto de envío** lista desplegable, haga clic en el envío de puerto para que se utilizará para esta entidad y, a continuación, haga clic en **Aceptar** dos veces.  
   
-5.  Para dar de baja una entidad, haga clic en la entidad, haga clic en **dar de baja**y, a continuación, haga clic en **Aceptar**.  
+5. Para dar de baja una entidad, haga clic en la entidad, haga clic en **dar de baja**y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar vínculos de rol](../core/managing-role-links.md)

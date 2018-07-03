@@ -1,5 +1,5 @@
 ---
-title: X12 confirmación 997 | Documentos de Microsoft
+title: X12 confirmación 997 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e1868c6c644940c49f854282980efc09c631b2cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fde785e5bd287497b851db704dedb5da3632c07c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290892"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973901"
 ---
 # <a name="x12-997-acknowledgment"></a>Confirmación 997 de X12
 La confirmación funcional X12 997 informa del estado de un intercambio recibido. Informa de cada error encontrado al procesar el documento recibido. La canalización de recepción de BizTalk EDI siempre genera un 997 conforme con 4010; no obstante, la canalización de recepción de EDI y las canalizaciones de envío de EDI también pueden validar un 997 conforme con 5010.  
@@ -26,7 +26,7 @@ La confirmación funcional X12 997 informa del estado de un intercambio recibido
   
  Los segmentos del conjunto de transacciones de una confirmación 997 se muestran en la siguiente tabla.  
   
-|Posición|Segment<br />ID|Nombre|Req.<br />DES.|Máximo de Utilice|Bucle<br />Repita|  
+|Posición|Segment<br />Id.|Nombre|DEM.<br />DES.|Máximo de Utilice|Bucle<br />Repita|  
 |--------------|-----------------|----------|----------------|--------------|------------------|  
 |010|ST|Encabezado del conjunto de transacciones (para la confirmación)|M|1|-|  
 |020|AK1|Encabezado de respuesta de grupo funcional|M|1|-|  
@@ -37,13 +37,13 @@ La confirmación funcional X12 997 informa del estado de un intercambio recibido
 |070|AK9|Finalizador de respuesta de grupo funcional|M|1|-|  
 |080|SE|Finalizador del conjunto de transacciones (para la confirmación)|M|1|-|  
   
--   Req. DES. = Designación de requisito  
+- DEM. DES. = Designación de requisito  
   
--   M = Obligatorio  
+- M = Obligatorio  
   
--   O = Opcional  
+- O = Opcional  
   
- A continuación se describen los segmentos AK. Los segmentos del bucle AK2 a AK5 proporcionan información acerca de un error con un conjunto de transacciones.  
+  A continuación se describen los segmentos AK. Los segmentos del bucle AK2 a AK5 proporcionan información acerca de un error con un conjunto de transacciones.  
   
 ## <a name="ak1"></a>AK1  
  El segmento AK1 obligatorio identifica el grupo funcional que se va a confirmar con dos elementos de datos siguientes:  
@@ -57,15 +57,15 @@ La confirmación funcional X12 997 informa del estado de un intercambio recibido
 ## <a name="ak2"></a>AK2  
  El segmento AK2 opcional contiene una confirmación para un conjunto de transacciones en el grupo funcional recibido. Si hay varios segmentos AK2, se enviarán como una serie de bucles. Los bucles AK2 identifican un conjunto de transacciones en el orden en que se han recibido. El segmento AK2 identifica el conjunto de transacciones con dos elementos de datos:  
   
--   AK201 es el Id. del conjunto de transacciones (ST01) del conjunto de transacciones que se va a confirmar.  
+- AK201 es el Id. del conjunto de transacciones (ST01) del conjunto de transacciones que se va a confirmar.  
   
--   AK202 es el número de control de conjunto de transacciones (ST02 y SE02) del conjunto de transacciones que se va a confirmar.  
+- AK202 es el número de control de conjunto de transacciones (ST02 y SE02) del conjunto de transacciones que se va a confirmar.  
   
--   AK203 es opcional y es la versión de implementación de EDI enviada en el ST03 de la transacción original. AK203 admite 997 conforme con 5010 de entrada.  
+- AK203 es opcional y es la versión de implementación de EDI enviada en el ST03 de la transacción original. AK203 admite 997 conforme con 5010 de entrada.  
   
- Un bucle AK2 contendrá segmentos AK3, AK4 y AK5 si un conjunto de transacciones se encuentra en error. Para obtener más información, consulte las descripciones para estos segmentos a continuación.  
+  Un bucle AK2 contendrá segmentos AK3, AK4 y AK5 si un conjunto de transacciones se encuentra en error. Para obtener más información, consulte las descripciones para estos segmentos a continuación.  
   
- Puede especificar que los segmentos AK2 se generan para todos los conjuntos de transacciones, si se ha aceptado o rechazado, o sólo para conjuntos de transacciones rechazados. BizTalk Server generará segmentos AK2 para conjuntos de transacciones aceptadas (donde AK501 == A) si selecciona el **incluir bucle AK2 para conjuntos de transacciones aceptadas** casilla de verificación en la **confirmaciones** página de la Cuadro de diálogo de propiedades de acuerdo para un acuerdo entre dos perfiles de negocio (o la **confirmaciones** página de la X12 ficha de configuración para un perfil de negocio). En caso contrario, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generará bucles AK2 solo para conjuntos de transacciones rechazados. Si no se resuelve un acuerdo para el intercambio al que se está respondiendo, la configuración de la generación de 997 toma de forma predeterminada el valor de la configuración del acuerdo de reserva y los segmentos AK2 no se generan para los conjuntos de transacciones aceptados.  
+  Puede especificar que los segmentos AK2 se generan para todos los conjuntos de transacciones, si se ha aceptado o rechazado, o sólo para conjuntos de transacciones rechazados. BizTalk Server generará segmentos AK2 para conjuntos de transacciones aceptadas (donde AK501 == A) si selecciona el **incluir bucle AK2 para conjuntos de transacciones aceptadas** casilla de verificación en la **confirmaciones** página de la Cuadro de diálogo Propiedades de acuerdo para un acuerdo entre dos perfiles de negocio (o la **confirmaciones** página de la X12 pestaña de configuración para un perfil de negocio). En caso contrario, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generará bucles AK2 solo para conjuntos de transacciones rechazados. Si no se resuelve un acuerdo para el intercambio al que se está respondiendo, la configuración de la generación de 997 toma de forma predeterminada el valor de la configuración del acuerdo de reserva y los segmentos AK2 no se generan para los conjuntos de transacciones aceptados.  
   
 ## <a name="ak3"></a>AK3  
  El segmento AK3 opcional genera informes de errores en un segmento de datos e identifica la ubicación del segmento de datos. Se crea un segmento AK3 para cada segmento de un conjunto de transacciones que tenga uno o varios errores. Si hay varios segmentos AK3, se enviarán como una serie de bucles (un segmento por bucle). El segmento AK3 contiene cuatro elementos de datos que especifican la ubicación de los segmentos que contienen errores y genera informes del tipo de error sintáctico encontrado en dicha ubicación:  
@@ -112,4 +112,4 @@ La confirmación funcional X12 997 informa del estado de un intercambio recibido
 -   Los códigos de error de AK905 a AK909 pueden indicar de uno a cinco errores indicados en el grupo funcional identificado. Para obtener una lista de AK905 a AK909 códigos de error, consulte [X12 códigos de Error de confirmación 997](../core/x12-997-acknowledgment-error-codes.md).  
   
 ## <a name="see-also"></a>Vea también  
- [X12 códigos de Error de confirmación 997](../core/x12-997-acknowledgment-error-codes.md)
+ [Códigos de error de confirmación 997 de X12](../core/x12-997-acknowledgment-error-codes.md)

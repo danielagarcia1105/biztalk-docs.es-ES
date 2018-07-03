@@ -1,5 +1,5 @@
 ---
-title: El certificado de firma no se ha configurado para la entidad AS2 | Documentos de Microsoft
+title: El certificado de firma no se configuró para la entidad AS2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61802b5e86319d0fe73f11c22249b72af1441b5d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4d26323670f0229377b304e5f51671de8ef10021
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279652"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967549"
 ---
 # <a name="the-signing-certificate-has-not-been-configured-for-as2-party"></a>El certificado de firma no se ha configurado para la entidad AS2
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|SigningCertNotConfiguredError|  
-|Texto del mensaje|El certificado de firma no se ha configurado para la entidad AS2.  AS2-de: {0} AS2-a: {1}|  
+|                 |                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------|
+|  Nombre del producto   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]     |
+| Versión del producto |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                 |
+|    Identificador del evento     |                                             -                                             |
+|  Origen del evento   |  EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+|    Componente    |                                        Motor AS2                                         |
+|  Nombre simbólico  |                               SigningCertNotConfiguredError                               |
+|  Texto del mensaje   | El certificado de firma no se ha configurado para la entidad AS2.  AS2-de: {0} AS2-para: {1} |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de envío no pudo procesar el mensaje saliente porque el certificado de firma no se ha configurado para el grupo.  

@@ -1,5 +1,5 @@
 ---
-title: Invocar RFC en SAP mediante el modelo de servicio de WCF | Documentos de Microsoft
+title: Invocar RFC de SAP mediante el modelo de servicio WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,28 +15,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8a18e9ae4990ecd5e85c57fc86919f239d51cbe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 991fec074369e774a9eef9ab2ae34f10436c6a4f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22217524"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973701"
 ---
-# <a name="invoke-rfcs-in-sap-using-the-wcf-service-model"></a>Invocar RFC en SAP mediante el modelo de servicio de WCF
-El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] presenta las solicitudes de cambio en el sistema SAP como operaciones que se pueden invocar mediante un programa cliente. En el modelo de servicio WCF, estas operaciones se invocan como métodos de una clase de cliente WCF generada. Puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] para generar una clase de cliente WCF que contiene métodos para cada solicitud de cambio que desea invocar en el código. El [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] también genera tipos de .NET para encapsular los parámetros y tipos de datos que se utilizan con cada solicitud de cambio. A continuación, puede crear una instancia de esta clase de cliente WCF y llamar a sus métodos para invocar el destino RFC.  
+# <a name="invoke-rfcs-in-sap-using-the-wcf-service-model"></a>Invocar RFC de SAP mediante el modelo de servicio de WCF
+El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] presenta las solicitudes de cambio en el sistema SAP como operaciones que se pueden invocar un programa cliente. En el modelo de servicio WCF, estas operaciones se invocan como métodos de una clase de cliente WCF generado. Puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] para generar una clase de cliente WCF que contiene métodos para cada solicitud de cambio que se desea invocar en el código. El [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] también genera tipos de .NET para encapsular los tipos de datos y parámetros que se usan con cada solicitud de cambio. A continuación, puede crear una instancia de esta clase de cliente WCF y llamar a sus métodos para invocar el destino RFC.  
   
- Las secciones siguientes muestran cómo invocar las solicitudes de cambio en el sistema SAP mediante el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+ Las secciones siguientes muestran cómo invocar RFC en el sistema SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## <a name="the-wcf-client-class"></a>La clase de cliente WCF  
- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies todas las operaciones de RFC bajo un contrato de servicio único, "Rfc". Esto significa que una sola clase de cliente WCF, **RfcClient**, se crea para todas las operaciones de RFC que se desea invocar. Cada destino RFC se representa como un método de esta clase. En cada método:  
+ La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone todas las operaciones de RFC en un contrato de servicio único, "Rfc". Esto significa que una sola clase de cliente WCF, **RfcClient**, se crea para todas las operaciones de RFC que se desean invocar. Cada destino RFC se representa como un método de esta clase. En cada método:  
   
--   Los parámetros de exportación SAP aparecen como **out** parámetros  
+- Exportación de los parámetros SAP se exponen como **out** parámetros  
   
--   SAP cambiantes parámetros aparecen como **ref** parámetros.  
+- Los parámetros de cambio de SAP se exponen como **ref** parámetros.  
   
--   Tipos complejos de SAP como estructuras aparecen como clases de .NET con propiedades que corresponden a los campos del tipo SAP. Estas clases se definen en el espacio de nombres siguiente: microsoft.lobservices.sap._2007._03.Types.Rfc.  
+- Tipos complejos de SAP como estructuras se exponen como clases .NET con propiedades que corresponden a los campos del tipo SAP. Estas clases se definen en el espacio de nombres siguiente: microsoft.lobservices.sap._2007._03.Types.Rfc.  
   
- El código siguiente muestra parte de la **RfcClient** clase y el método que invoca SD_RFC_CUSTOMER_GET en el sistema SAP.  
+  El código siguiente muestra parte de la **RfcClient** clase y el método que invoca SD_RFC_CUSTOMER_GET en el sistema SAP.  
   
 ```  
  [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -59,40 +59,40 @@ public partial class RfcClient : System.ServiceModel.ClientBase<Rfc>, Rfc {
   
 #### <a name="to-create-an-rfc-client-application"></a>Para crear una aplicación de cliente RFC  
   
-1.  Generar un **RfcClient** clase. Use la [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o los metadatos de herramienta de utilidad ServiceModel (svcutil.exe) para generar un **RfcClient** clase que tenga como destino las RFC con el que desea trabajar. Para obtener más información sobre cómo generar un cliente de WCF, vea [generar un cliente de WCF o un contrato de servicio de WCF para los artefactos de la solución SAP](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).  
+1. Generar un **RfcClient** clase. Use la [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o el ServiceModel Metadata Utility Tool (svcutil.exe) para generar un **RfcClient** clase que tiene como destino las RFC con el que desea trabajar. Para obtener más información sobre cómo generar un cliente de WCF, vea [generar un cliente de WCF o un contrato de servicio WCF para artefactos de la solución SAP](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).  
   
-2.  Cree una instancia de la **RfcClient** clase generado en el paso 1, y especificar un enlace del cliente. Especificación de un enlace de cliente implica especificar el enlace y el punto de conexión de dirección que el **RfcClient** va a usar. Puede hacerlo imperativamente en código o mediante declaración en configuración. Para obtener más información sobre cómo especificar un enlace del cliente, consulte [configurar un enlace de cliente para el sistema SAP](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). El siguiente código inicializa el **RfcClient** de configuración y establece las credenciales para el sistema SAP.  
+2. Cree una instancia de la **RfcClient** clase generado en el paso 1, y especificar un enlace de cliente. Especificar un enlace de cliente implica especificar el enlace y el punto de conexión de direcciones que el **RfcClient** va a usar. Puede hacerlo imperativamente en código o mediante declaración en configuración. Para obtener más información sobre cómo especificar un enlace de cliente, consulte [configurar un enlace de cliente para el sistema SAP](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). El siguiente código inicializa el **RfcClient** de configuración y establece las credenciales para el sistema SAP.  
   
-    ```  
-    RfcClient rfcClient = new RfcClient("SAPBinding_Rfc");  
+   ```  
+   RfcClient rfcClient = new RfcClient("SAPBinding_Rfc");  
   
-    rfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
-    rfcClient.ClientCredentials.UserName.Password = "YourPassword";  
-    ```  
+   rfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
+   rfcClient.ClientCredentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Abra al cliente de WCF.  
+3. Abra al cliente de WCF.  
   
-    ```  
-    rfcClient.Open();  
-    ```  
+   ```  
+   rfcClient.Open();  
+   ```  
   
-4.  Invocar métodos en el **RfcClient** creado en el paso 2 para realizar operaciones en el sistema SAP. El código siguiente, se invoca el **SD_RFC_CUSTOMER_GET** método de la **RfcClient** para invocar la solicitud de cambio en el sistema SAP.  
+4. Invocar métodos en el **RfcClient** creado en el paso 2 para realizar operaciones en el sistema SAP. El código siguiente invoca el **SD_RFC_CUSTOMER_GET** método de la **RfcClient** para invocar la solicitud de cambio en el sistema SAP.  
   
-    ```  
-    microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[] customers =   
-        new microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[0];  
+   ```  
+   microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[] customers =   
+       new microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[0];  
   
-    rfcClient.SD_RFC_CUSTOMER_GET(string.Empty, "AB*", ref customers);  
-    ```  
+   rfcClient.SD_RFC_CUSTOMER_GET(string.Empty, "AB*", ref customers);  
+   ```  
   
-5.  Cierre al cliente WCF.  
+5. Cierre al cliente WCF.  
   
-    ```  
-    rfcClient.Close();   
-    ```  
+   ```  
+   rfcClient.Close();   
+   ```  
   
 ### <a name="example"></a>Ejemplo  
- El siguiente es un ejemplo de código completo que invoca SD_RFC_CUSTOMER_GET para devolver una lista de los clientes que tengan nombres que comienzan por "AB" y, a continuación, escribe el nombre y el identificador de cada cliente en la consola. Este ejemplo se crea el **RfcClient** dentro de un **con** instrucción. No es necesario cerrar explícitamente el **RfcClient**; se cerrarán cuando salga de la ruta de acceso de ejecución del contexto.  
+ El siguiente es un ejemplo de código completo que se invoca SD_RFC_CUSTOMER_GET para devolver una lista de clientes con nombres que comienzan por "AB" y, a continuación, escribe el nombre e identificador de cada cliente en la consola. Este ejemplo se crea el **RfcClient** dentro de un **mediante** instrucción. No es necesario cerrar explícitamente la **RfcClient**; se cerrará cuando la ruta de acceso de ejecución cierra el contexto.  
   
 ```  
 using System;  
@@ -148,4 +148,4 @@ namespace SapRfcClientSM
   
 ## <a name="see-also"></a>Vea también  
 [Desarrollar aplicaciones mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md)   
- [Esquemas de mensaje para las operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md)
+ [Esquemas de mensaje para operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md)

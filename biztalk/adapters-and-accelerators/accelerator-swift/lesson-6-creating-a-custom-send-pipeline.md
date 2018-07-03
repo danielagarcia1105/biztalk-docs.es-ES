@@ -1,5 +1,5 @@
 ---
-title: 'Lección 6: Crear una personalizada canalización de envío | Documentos de Microsoft'
+title: 'Lección 6: Crear un personalizado canalización de envío | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,29 +15,29 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a82801b0084f2d1b82a2c25cfc0fa2a9f8f1376c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 12afba9368554dc85cf57658f674a088db7580d2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210164"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973725"
 ---
 # <a name="lesson-6-creating-a-custom-send-pipeline"></a>Lección 6: Crear una canalización de envío personalizada
-En esta lección, creará una canalización de envío personalizada utilizando el Diseñador de canalizaciones de BizTalk. Una canalización de envío es una canalización que se ejecuta en los mensajes antes de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] envía los mensajes a su destino.  
+En esta lección, creará una canalización de envío personalizada mediante el Diseñador de canalizaciones de BizTalk. Una canalización de envío es una canalización que se ejecuta en los mensajes antes de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] envía los mensajes a su destino.  
   
- Configurar la canalización personalizada para usar el componente de ensamblador SWIFT (ASM). ASM toma un mensaje con formato XML y convierte o serializa el contenido en un archivo plano SWIFT. Esta conversión se basa en el esquema de MT103 que ha creado en [lección 3: agregar una canalización de recepción personalizada](../../adapters-and-accelerators/accelerator-swift/lesson-3-adding-a-custom-receive-pipeline.md).  
+ Configurar la canalización personalizada para usar el componente de ensamblador de SWIFT (ASM). ASM toma un mensaje con formato XML y convierte o serializa el contenido en un archivo plano SWIFT. Esta conversión se basa en el esquema de MT103 que ha creado en [lección 3: adición de una canalización de recepción personalizada](../../adapters-and-accelerators/accelerator-swift/lesson-3-adding-a-custom-receive-pipeline.md).  
   
 ### <a name="to-create-a-custom-send-pipeline"></a>Para crear una canalización de envío personalizada  
   
-1.  En el Explorador de soluciones, haga clic en el **SWIFTPipelines** , seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+1. En el Explorador de soluciones, haga clic en el **SWIFTPipelines** , seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
-2.  En el cuadro de diálogo Agregar nuevo elemento-SWIFTPipelines, compruebe que **archivos de canalización** está seleccionado en el panel de categorías y, a continuación, seleccione **canalización de envío** desde el panel de plantillas.  
+2. En el cuadro de diálogo Agregar nuevo elemento-SWIFTPipelines, compruebe que **archivos de canalización** está seleccionado en el panel de categorías y, a continuación, seleccione **canalización de envío** desde el panel Plantillas.  
   
-3.  En el **nombre** , escriba **MT103SendPipeline.btp**.  
+3. En el **nombre** , escriba **MT103SendPipeline.btp**.  
   
-4.  Haga clic en **agregar** para abrir la canalización en blanco en el Diseñador de canalizaciones de BizTalk.  
+4. Haga clic en **agregar** para abrir la canalización en blanco en el Diseñador de canalizaciones de BizTalk.  
   
-    > [!NOTE]
-    >  Una canalización vacía aparece en el Diseñador de canalizaciones de BizTalk. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Agrega la nueva canalización al explorador de soluciones bajo el proyecto SWIFTPipelines.  
+   > [!NOTE]
+   >  Una canalización vacía aparece en el Diseñador de canalizaciones de BizTalk. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Agrega la nueva canalización al explorador de soluciones bajo el proyecto SWIFTPipelines.  
   
- Continúe con [la lección 7: agregar el ensamblador SWIFT a una personalizada canalización de envío](../../adapters-and-accelerators/accelerator-swift/lesson-7-adding-the-swift-assembler-to-a-custom-send-pipeline.md).
+   Continúe con [lección 7: agregar el ensamblador de SWIFT a una personalizada canalización de envío](../../adapters-and-accelerators/accelerator-swift/lesson-7-adding-the-swift-assembler-to-a-custom-send-pipeline.md).

@@ -1,5 +1,5 @@
 ---
-title: Alta disponibilidad y Microsoft Operations Framework | Documentos de Microsoft
+title: Alta disponibilidad y Microsoft Operations Framework | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,34 +12,34 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a06bdadb026617dc55ed40d03e0344584111a0c
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.openlocfilehash: 37cdfd9a98f035b306bed1db88f3256336c0d1d1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
-ms.locfileid: "29710447"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972789"
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>Alta disponibilidad y Microsoft Operations Framework
-Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de alta disponibilidad Microsoft BizTalk Server puede ayudarle a asegurarse de que se están empleando los procesos adecuados en las distintas fases del ciclo de vida. La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.  
+Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de Microsoft BizTalk Server de alta disponibilidad puede ayudarle a asegurarse de que se están empleando los procesos adecuados en las distintas fases del ciclo de vida. La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.  
   
  Esta sección contiene información sobre los procesos de MOF en los que deben tenerse en cuenta las tareas de alta disponibilidad.  
   
 ## <a name="microsoft-operations-framework-process-model"></a>Modelo de proceso de Microsoft Operations Framework  
- El [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx) proporciona una guía que permite a las organizaciones lograr la confiabilidad del sistema de misión crítica, disponibilidad, compatibilidad y facilidad de uso de tecnologías y productos de Microsoft . MOF proporciona instrucciones de funcionamiento en forma de notas del producto, guías de operaciones, herramientas de evaluación, prácticas recomendadas, casos de estudio, plantillas, herramientas de soporte y servicios. En estas instrucciones se tratan los problemas relacionados con usuarios, procesos, tecnología y administración de entornos de TI complejos, distribuidos y heterogéneos. 
+ El [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx) proporciona instrucciones que permiten a las organizaciones lograr confiabilidad críticas del sistema, disponibilidad, compatibilidad y facilidad de uso de tecnologías y productos de Microsoft . MOF proporciona instrucciones de funcionamiento en forma de notas del producto, guías de operaciones, herramientas de evaluación, prácticas recomendadas, casos de estudio, plantillas, herramientas de soporte y servicios. En estas instrucciones se tratan los problemas relacionados con usuarios, procesos, tecnología y administración de entornos de TI complejos, distribuidos y heterogéneos. 
   
  El modelo de proceso de MOF permite a las compañías:  
   
--   Facilitar una administración coherente de los servicios de TI entre soluciones de servicio.  
+- Facilitar una administración coherente de los servicios de TI entre soluciones de servicio.  
   
--   Establecer una estructura para procedimientos, procesos y funciones de TI.  
+- Establecer una estructura para procedimientos, procesos y funciones de TI.  
   
--   Representar un enfoque del ciclo de vida.  
+- Representar un enfoque del ciclo de vida.  
   
- Un aspecto fundamental del modelo de proceso de MOF es su división en cuatro cuadrantes de procedimientos y procesos operativos, denominados funciones de administración de servicios (SMF). Las SMF son las directrices y prácticas recomendadas básicas para el funcionamiento y el mantenimiento de un entorno de TI.  
+  Un aspecto fundamental del modelo de proceso de MOF es su división en cuatro cuadrantes de procedimientos y procesos operativos, denominados funciones de administración de servicios (SMF). Las SMF son las directrices y prácticas recomendadas básicas para el funcionamiento y el mantenimiento de un entorno de TI.  
   
- La ilustración siguiente muestra los procesos de MOF en los que debe tenerse en cuenta la alta disponibilidad.  
+  La ilustración siguiente muestra los procesos de MOF en los que debe tenerse en cuenta la alta disponibilidad.  
   
- ![MOF Processes](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
+  ![Los procesos de MOF](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
   
 ## <a name="changing-quadrant"></a>Cuadrante de cambios  
  El cuadrante de cambios incluye las funciones de administración de servicios (SMF) necesarias para identificar, revisar, aprobar e incorporar cambios a un entorno de TI administrado. Entre ellos, los cambios de software, hardware, documentación, roles y responsabilidades, así como los cambios de procedimientos y procesos específicos.  
@@ -62,7 +62,7 @@ Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeami
 ### <a name="configuration-management"></a>Administración de la configuración  
  La administración de la configuración se encarga de identificar, controlar y realizar un seguimiento de todas las versiones del software, el hardware, la documentación, los procesos, los procedimientos y los demás componentes del entorno de TI que controla la administración de cambios.  
   
- Durante el proceso de administración de configuración, debe crear un plan detallado de cómo va a implementar la solución de alta disponibilidad para el servidor BizTalk Server. Asimismo, debe documentar los pasos que ha seguido para crear la solución. En un nivel superior, estos pasos son:  
+ Durante el proceso de administración de configuración, debe crear un plan detallado de cómo se van a implementar la solución de alta disponibilidad para que BizTalk Server. Asimismo, debe documentar los pasos que ha seguido para crear la solución. En un nivel superior, estos pasos son:  
   
 -   El controlador de dominio crea las cuentas y los grupos de dominio que se van a usar en el entorno de BizTalk Server.  
   
@@ -72,7 +72,7 @@ Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeami
   
 -   El administrador de BizTalk Server configura el clúster del servidor secreto principal.  
   
--   El Administrador de BizTalk Server instala y configura el servidor BizTalk Server en el procesamiento, recibir y enviar los servidores.  
+-   El Administrador de BizTalk Server instala y configura BizTalk Server en el procesamiento, recibir y enviar los servidores.  
   
 -   El administrador de BizTalk Server crea los hosts e instala las instancias de host en los servidores correspondientes para proporcionar alta disponibilidad e incrementar la capacidad.  
   

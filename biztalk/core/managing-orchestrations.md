@@ -1,6 +1,6 @@
 ---
-title: Administrar orquestaciones | Documentos de Microsoft
-description: Vínculos para trabajar con orquestaciones de BizTalk Server, incluido el inicio, detener, enlazar, configurar, habilitar el seguimiento, suspender y mucho más
+title: Administración de orquestaciones | Microsoft Docs
+description: Vínculos para trabajar con las orquestaciones de BizTalk Server, incluido el inicio, detener, enlazar, configurar, habilitar el seguimiento, suspender y mucho más
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,14 +13,14 @@ caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18cd12c202822c4d9ff849cc762b55e8f4880d80
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 16a989cb7853e63e1e603febf44db45288276ecd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262652"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976485"
 ---
-# <a name="manage-orchestrations"></a>Administrar las orquestaciones
+# <a name="manage-orchestrations"></a>Administrar orquestaciones
 
 ## <a name="overview"></a>Información general
 En esta sección, se proporcionan instrucciones acerca de la utilización de la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para administrar orquestaciones. Una orquestación es un proceso empresarial ejecutable. Para obtener información general acerca de las orquestaciones, consulte [orquestaciones](../core/orchestrations.md).  
@@ -28,11 +28,11 @@ En esta sección, se proporcionan instrucciones acerca de la utilización de la 
 ## <a name="add-to-application"></a>Agregar a la aplicación  
  Las orquestaciones se compilan [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y se compilan en ensamblados de BizTalk. No se puede agregar una orquestación a una aplicación de forma individual; una orquestación se agrega a una aplicación del modo siguiente:  
   
--   Al agregar un ensamblado de BizTalk que contiene una orquestación a la aplicación, como se describe en [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
+- Cuando agrega un ensamblado de BizTalk que contiene una orquestación a la aplicación, como se describe en [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
   
--   Al importar un archivo .msi en una aplicación que incluye un ensamblado de BizTalk que contiene una orquestación, tal y como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
+- Al importar un archivo .msi en una aplicación que incluye un ensamblado de BizTalk que contiene una orquestación, como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
   
--   Cuando un programador implementa en una aplicación un ensamblado que contiene una orquestación de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tal y como se describe en [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
+- Cuando un programador implementa en una aplicación un ensamblado que contiene una orquestación desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tal y como se describe en [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
 
 ## <a name="biztalk-administration-tasks"></a>Tareas de administración de BizTalk  
  La consola de administración se utiliza para llevar a cabo las acciones siguientes, tal como se describe en esta sección:  
@@ -48,20 +48,20 @@ En esta sección, se proporcionan instrucciones acerca de la utilización de la 
 -   Iniciar o detener la orquestación para que inicie o detenga el procesamiento de mensajes.  
   
 > [!NOTE]
->  Puede usar el modelo de objetos de Microsoft Windows Management Instrumentation (WMI) para crear y ejecutar scripts que automatizan las tareas administrativas. Para obtener información acerca del uso de WMI, consulte el **referencia de clase WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
-  
+>  Puede usar el modelo de objetos de Microsoft Windows Management Instrumentation (WMI) para crear y ejecutar los scripts que automatizan las tareas administrativas. Para obtener información sobre el uso de WMI, vea el **referencia de clases WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
+> 
 > [!NOTE]
->  El programador utiliza el Diseñador de orquestaciones para crear orquestaciones, como se describe en [crear orquestaciones utilizando Diseñador de orquestaciones](../core/creating-orchestrations-using-orchestration-designer.md). El programador puede administrar orquestaciones durante el proceso de desarrollo mediante el uso de la consola de administración, como se describe en esta sección.  
+>  El programador utiliza el Diseñador de orquestaciones para crear las orquestaciones, como se describe en [crear orquestaciones usar diseñador de orquestaciones](../core/creating-orchestrations-using-orchestration-designer.md). El programador puede administrar orquestaciones durante el proceso de desarrollo mediante el uso de la consola de administración, como se describe en esta sección.  
   
 ## <a name="next-steps"></a>Pasos siguientes
   
 -   [Configurar enlaces para una orquestación](../core/how-to-configure-bindings-for-an-orchestration.md)  
   
--   [Separar una orquestación](../core/how-to-unbind-an-orchestration.md)  
+-   [Desenlazar una orquestación](../core/how-to-unbind-an-orchestration.md)  
   
--   [Configurar el seguimiento de una orquestación](../core/how-to-configure-tracking-for-an-orchestration.md)  
+-   [Configurar el seguimiento para una orquestación](../core/how-to-configure-tracking-for-an-orchestration.md)  
   
--   [Ver información de instancia para una orquestación](../core/how-to-view-instance-information-for-an-orchestration.md)  
+-   [Ver la información de instancias para una orquestación](../core/how-to-view-instance-information-for-an-orchestration.md)  
   
 -   [Quitar una orquestación de una aplicación](../core/how-to-remove-an-orchestration-from-an-application.md)  
   

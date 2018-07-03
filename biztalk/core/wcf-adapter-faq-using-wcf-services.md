@@ -1,5 +1,5 @@
 ---
-title: 'P+F del adaptador de WCF: Utilizar servicios de WCF | Documentos de Microsoft'
+title: 'P+F del adaptador de WCF: Uso de servicios WCF | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 41d02fe0b7be1f53edaac4c18cfd7717a25c3a71
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: f3dc7ae44fa6ef6722c0887f2c70a83f43d1bf5c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25973578"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970053"
 ---
 # <a name="wcf-adapter-faq-using-wcf-services"></a>P+F del Adaptador de WCF: Utilizar Servicios de WCF
 ## <a name="how-does-biztalk-server-use-its-wcf-adapters-to-access-wcf-services"></a>¿Cómo usa BizTalk Server sus adaptadores de WCF para obtener acceso a los servicios WCF?  
@@ -34,23 +34,23 @@ ms.locfileid: "25973578"
   
  El adaptador personalizado de WCF de BizTalk no solo permite crear un nuevo enlace a partir de BindingsElements, sino que también permite configurar un nuevo enlace directamente. Además permite configurar comportamientos en enlaces estándar. Esto es de particular utilidad porque escribir comportamientos personalizados es mucho más fácil que escribir nuevos objetos BindingElements.  
   
- Creación de un objeto BindingElement es un ejercicio de desarrollo complejo y la mejor fuente de referencia es los ejemplos WCF en HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=142449" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=142449. Para crear un BindingElement personalizado, debe crear una clase que se derive de BindingElement. Un objeto BindingElement nuevo tendrá que estar en un ensamblado nuevo. Este ensamblado debe estar instalado en la memoria caché global de ensamblados (GAC) del equipo de administración donde están configurados el host, el puerto de envío y la ubicación de recepción de BizTalk. Para asociar un enlace personalizado con un puerto de envío específico o ubicación de recepción, primero debe agregarlo a la \<bindingElementExtensions\> sección del archivo machine.config en el mismo equipo.  
+ Creación de un objeto BindingElement es un ejercicio de desarrollo complejo y la mejor fuente de referencia es los ejemplos WCF en HYPERLINK "<http://go.microsoft.com/fwlink/?LinkId=142449>" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=142449. Para crear un BindingElement personalizado, debe crear una clase que se derive de BindingElement. Un objeto BindingElement nuevo tendrá que estar en un ensamblado nuevo. Este ensamblado debe estar instalado en la memoria caché global de ensamblados (GAC) del equipo de administración donde están configurados el host, el puerto de envío y la ubicación de recepción de BizTalk. Para asociar un enlace personalizado con un puerto de envío específico o ubicación de recepción, primero debe agregarlo a la \<bindingElementExtensions\> sección del archivo machine.config en el mismo equipo.  
   
- Después de realizar ese cambio, a continuación, puede poner en funcionamiento la **configuración de propiedades de transporte** cuadro de diálogo para configurar el enlace.  
+ Después de realizar este cambio, a continuación, puede poner en funcionamiento el **configuración de propiedades de transporte** cuadro de diálogo para configurar el enlace.  
   
-1.  En el **enlace** ficha, para el tipo de enlace, seleccione **customBinding**.  
+1. En el **enlace** pestaña para el tipo de enlace, seleccione **customBinding**.  
   
-2.  En el **enlace** panel, haga clic en **CustomBindingElement**y seleccione **Agregar extensión**.  
+2. En el **enlace** panel, haga clic en **CustomBindingElement**y seleccione **Agregar extensión**.  
   
-3.  Seleccione el elemento de enlace que especificó en el archivo machine.config y configure el enlace según se necesario. Ahora está listo para usarse en la transmisión o recepción de mensajes.  
+3. Seleccione el elemento de enlace que especificó en el archivo machine.config y configure el enlace según se necesario. Ahora está listo para usarse en la transmisión o recepción de mensajes.  
   
- BizTalk realiza una validación muy limitada de un enlace personalizado cuando se ha agregado de esta manera. Por lo tanto, es importante asegurarse de que los elementos de enlace se enumeran en el orden correcto. El elemento de enlace que desea invocar primero en tiempo de ejecución debe estar en al final del árbol de enlace CustomBindingElement del cuadro de diálogo. La lista de BindingElements debe contener un transporte y este último debe encontrarse al final de la lista. El conjunto de BindingElements también puede contener un codificador. Para obtener más información, consulte la documentación de WCF en elementos de enlace en [ http://go.microsoft.com/fwlink/?LinkId=142449 ](http://go.microsoft.com/fwlink/?LinkId=142449).  
+   BizTalk realiza una validación muy limitada de un enlace personalizado cuando se ha agregado de esta manera. Por lo tanto, es importante asegurarse de que los elementos de enlace se enumeran en el orden correcto. El elemento de enlace que desea invocar primero en tiempo de ejecución debe estar en al final del árbol de enlace CustomBindingElement del cuadro de diálogo. La lista de BindingElements debe contener un transporte y este último debe encontrarse al final de la lista. El conjunto de BindingElements también puede contener un codificador. Para obtener más información, consulte la documentación de WCF sobre cómo enlazar los elementos en [ http://go.microsoft.com/fwlink/?LinkId=142449 ](http://go.microsoft.com/fwlink/?LinkId=142449).  
   
 ## <a name="what-is-a-wcf-custom-behavior-and-how-do-i-use-one-with-biztalk-server"></a>¿Qué es un comportamiento personalizado de WCF? y cómo se usa con BizTalk Server?  
  Una de las ventajas de usar WCF como mecanismo de comunicación de mensajes es la oportunidad de ampliar la funcionalidad de sus servicios mediante código personalizado. Las extensiones del comportamiento personalizado son una de las características que distinguen a WCF de otras tecnologías de servicios web del mercado.  
   
  Hay diferentes puntos dentro del flujo de un mensaje de WCF para interceptar y ejecutar el procesamiento personalizado antes de que un mensaje alcance su destino final. Las extensiones de comportamiento personalizado de WCF son uno de estos tipos de mecanismos de interceptación y se pueden usar para ampliar el Servicio WCF o la funcionalidad de cliente en niveles de granularidad diferentes. Las extensiones de comportamiento personalizado pueden existir en los niveles de servicio y cliente WCF. La configuración de un comportamiento en la pila de llamada para un Servicio WCF no influye en el enlace de comunicación que se usa para realizar la llamada. De hecho, los comportamientos suelen ser invisibles para el cliente porque no se muestran en los metadatos que un servicio publica. El cliente normalmente no tiene ni idea que los comportamientos se están ejecutando durante una llamada a una operación de WCF.  
   
- La capacidad de implementar el procesamiento personalizado en una llamada a un Servicio WCF es una de las principales razones por las que WCF es un paradigma de programación tan eficaz en comparación con otras maneras de comunicación entre aplicaciones web. Este procesamiento personalizado puede tomar cualquier forma según impongan los requisitos de extensibilidad dentro de una aplicación web. Los programadores pueden crear extensiones personalizadas que inspeccionen y validen la configuración del servicio o modifiquen el comportamiento de tiempo de ejecución en las aplicaciones de cliente y Servicio WCF. Comportamientos pueden complementar el procesamiento normal de mensajes, modificar el mensaje durante el procesamiento, inspeccionar determinados criterios de configuración y tome las medidas adecuadas, validar las identidades del llamador y pasar el mensaje si es correcto, etcetera. Implementar independientemente de la extensibilidad del mecanismo de procesamiento porque se trata realmente de un personalizado debe la aplicación.  
+ La capacidad de implementar el procesamiento personalizado en una llamada a un Servicio WCF es una de las principales razones por las que WCF es un paradigma de programación tan eficaz en comparación con otras maneras de comunicación entre aplicaciones web. Este procesamiento personalizado puede tomar cualquier forma según impongan los requisitos de extensibilidad dentro de una aplicación web. Los programadores pueden crear extensiones personalizadas que inspeccionen y validen la configuración del servicio o modifiquen el comportamiento de tiempo de ejecución en las aplicaciones de cliente y Servicio WCF. Comportamientos pueden complementar el procesamiento normal de mensajes, modificar el mensaje durante el procesamiento, inspeccionar determinados criterios de configuración y tomar las medidas adecuadas, validar las identidades del llamador y pasar el mensaje si es correcto, etcetera. Porque es realmente un personalizado implementar independientemente de la extensibilidad del mecanismo de procesamiento necesita su aplicación.  
   
  Para usar un comportamiento personalizado de WCF en BizTalk Server, configura mediante el uso de la **comportamiento** pestaña para el adaptador de WCF-Custom o WCF-CustomIsolated para una ubicación de recepción o un puerto de envío.

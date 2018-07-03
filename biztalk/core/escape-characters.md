@@ -1,5 +1,5 @@
 ---
-title: Caracteres de escape | Documentos de Microsoft
+title: Caracteres de escape | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e961a205b77a9944a497d6e6cbed0df71f63e03
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5f6f1ff202c1ffa96bc696415ab7ec1024ae57e9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246132"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970653"
 ---
 # <a name="escape-characters"></a>Caracteres de escape
 
 ## <a name="overview"></a>Información general
 Un carácter de escape es un carácter individual que suprime cualquier significado especial que tenga el carácter que le sigue. Por ejemplo, si define un registro de archivo sin formato con las siguientes características:  
   
--   Nombre = Record1  
+- Nombre = Record1  
   
--   Delimitado  
+- Delimitado  
   
--   Delimitador secundario = coma (,)  
+- Delimitador secundario = coma (,)  
   
--   Orden secundario = prefijo  
+- Orden secundario = prefijo  
   
--   Carácter de escape = barra diagonal inversa (\\)  
+- Carácter de escape = barra diagonal inversa (\\)  
   
--   Etiqueta = RECORD1  
+- Etiqueta = RECORD1  
   
--   Dos campos denominados Field1 y Field2  
+- Dos campos denominados Field1 y Field2  
   
- Serán aplicables al registro los datos de archivo sin formato siguientes:  
+  Serán aplicables al registro los datos de archivo sin formato siguientes:  
   
 ```  
 RECORD1,testfield1\,testfield1,testfield2  
@@ -60,12 +60,12 @@ RECORD1,testfield1\,testfield1,testfield2
   
  Cuando el ensamblador de archivos sin formato realice la operación inversa (conversión de la versión XML del registro en el registro de archivo sin formato equivalente), el carácter de escape se insertará antes de la coma, a mitad de los datos de Field1, para indicar que se debe interpretar como datos en lugar de como un delimitador de campo.  
   
- Al crear un esquema de archivo sin formato mediante el Editor de BizTalk, puede definir un carácter de escape predeterminado para el esquema completo mediante el **carácter de Escape predeterminado** y **tipo de carácter de Escape predeterminado** propiedades de la **esquema** nodo. A continuación, puede configurar los registros individuales en el esquema para usar este carácter de escape predeterminado o un carácter de escape personalizado, específico del registro mediante el **carácter de Escape]** y **tipo de carácter de Escape**propiedades de la **registro** nodo.  
+ Al crear un esquema de archivo sin formato mediante el Editor de BizTalk, puede definir un carácter de escape predeterminado para el esquema completo mediante la **carácter de Escape predeterminado** y **tipo de carácter de Escape predeterminado** propiedades de la **esquema** nodo. A continuación, puede configurar cada registro individual en el esquema para usar este carácter de escape predeterminado o un carácter de escape personalizado y específico del registro mediante el **carácter de Escape]** y **tipo de carácter de Escape**propiedades de la **registro** nodo.  
   
 ## <a name="see-also"></a>Vea también  
-- [Formas de interpretar los caracteres especiales como parte de un valor de campo](../core/ways-to-interpret-special-characters-as-part-of-a-field-value.md)  
+- [Formas de interpretar los caracteres especiales de un valor de campo](../core/ways-to-interpret-special-characters-as-part-of-a-field-value.md)  
 - Propiedades de carácter de escape [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]:  
     - Carácter de Escape predeterminado (propiedad de nodo de esquemas de archivo sin formato)
     - Tipo de carácter de Escape predeterminado (propiedad de nodo de esquemas de archivo sin formato)
     - Carácter de escape (propiedad de nodo de esquemas de archivo sin formato)  
-    - Escape de carácter Type (propiedad de nodo de esquemas de archivo sin formato)
+    - Tipo de carácter (propiedad de nodo de esquemas de archivo sin formato) de escape
