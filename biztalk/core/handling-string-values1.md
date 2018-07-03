@@ -1,5 +1,5 @@
 ---
-title: Control de cadena Values1 | Documentos de Microsoft
+title: Control de cadena Values1 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,75 +17,75 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f32b29b9a8688fe8402730c1db8f12e42a67bab
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 51397965a416169c8f71ffef8d9466f99f30c093
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22246684"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988917"
 ---
-# <a name="handling-string-values"></a><span data-ttu-id="125fd-102">Control de valores de cadena</span><span class="sxs-lookup"><span data-stu-id="125fd-102">Handling String Values</span></span>
-<span data-ttu-id="125fd-103">En este tema se describe cómo configurar ciertos argumentos de cadena como justificado a la derecha (y relleno a la izquierda).</span><span class="sxs-lookup"><span data-stu-id="125fd-103">This topic describes how to configure certain string arguments as right-justified (and left padded).</span></span>  
+# <a name="handling-string-values"></a><span data-ttu-id="d8f3c-102">Control de valores de cadena</span><span class="sxs-lookup"><span data-stu-id="d8f3c-102">Handling String Values</span></span>
+<span data-ttu-id="d8f3c-103">En este tema se describe cómo configurar ciertos argumentos de cadena como justificado a la derecha (y relleno a la izquierda).</span><span class="sxs-lookup"><span data-stu-id="d8f3c-103">This topic describes how to configure certain string arguments as right-justified (and left padded).</span></span>  
   
-## <a name="types-of-string-values"></a><span data-ttu-id="125fd-104">Tipos de valores de cadena</span><span class="sxs-lookup"><span data-stu-id="125fd-104">Types of String Values</span></span>  
- <span data-ttu-id="125fd-105">JD Edwards OneWorld muestra dos clases de valores de cadena en su capa de interoperabilidad:</span><span class="sxs-lookup"><span data-stu-id="125fd-105">JD Edwards OneWorld exposes two kinds of string values through its interoperability layer:</span></span>  
+## <a name="types-of-string-values"></a><span data-ttu-id="d8f3c-104">Tipos de valores de cadena</span><span class="sxs-lookup"><span data-stu-id="d8f3c-104">Types of String Values</span></span>  
+ <span data-ttu-id="d8f3c-105">JD Edwards OneWorld muestra dos clases de valores de cadena en su capa de interoperabilidad:</span><span class="sxs-lookup"><span data-stu-id="d8f3c-105">JD Edwards OneWorld exposes two kinds of string values through its interoperability layer:</span></span>  
   
--   <span data-ttu-id="125fd-106">Char: un único carácter</span><span class="sxs-lookup"><span data-stu-id="125fd-106">Char: a single character</span></span>  
+- <span data-ttu-id="d8f3c-106">Char: un único carácter</span><span class="sxs-lookup"><span data-stu-id="d8f3c-106">Char: a single character</span></span>  
   
--   <span data-ttu-id="125fd-107">cadena de longitud máxima</span><span class="sxs-lookup"><span data-stu-id="125fd-107">maximum length string</span></span>  
+- <span data-ttu-id="d8f3c-107">cadena de longitud máxima</span><span class="sxs-lookup"><span data-stu-id="d8f3c-107">maximum length string</span></span>  
   
- <span data-ttu-id="125fd-108">JD Edwards OneWorld usa la notación húngara para nombrar los argumentos de estos tipos en las funciones de negocio.</span><span class="sxs-lookup"><span data-stu-id="125fd-108">JD Edwards OneWorld uses Hungarian notation to name the arguments of these types in the business functions.</span></span> <span data-ttu-id="125fd-109">Por ejemplo, los argumentos de estos tipos de comenzar con:</span><span class="sxs-lookup"><span data-stu-id="125fd-109">For example, arguments of these types begin with:</span></span>  
+  <span data-ttu-id="d8f3c-108">JD Edwards OneWorld usa la notación húngara para nombrar los argumentos de estos tipos en las funciones de negocio.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-108">JD Edwards OneWorld uses Hungarian notation to name the arguments of these types in the business functions.</span></span> <span data-ttu-id="d8f3c-109">Por ejemplo, los argumentos de estos tipos de comenzar con:</span><span class="sxs-lookup"><span data-stu-id="d8f3c-109">For example, arguments of these types begin with:</span></span>  
   
--   <span data-ttu-id="125fd-110">c</span><span class="sxs-lookup"><span data-stu-id="125fd-110">c</span></span>  
+- <span data-ttu-id="d8f3c-110">c</span><span class="sxs-lookup"><span data-stu-id="d8f3c-110">c</span></span>  
   
--   <span data-ttu-id="125fd-111">sz</span><span class="sxs-lookup"><span data-stu-id="125fd-111">sz</span></span>  
+- <span data-ttu-id="d8f3c-111">sz</span><span class="sxs-lookup"><span data-stu-id="d8f3c-111">sz</span></span>  
   
-### <a name="left-justified-values"></a><span data-ttu-id="125fd-112">Valores justificados a la izquierda</span><span class="sxs-lookup"><span data-stu-id="125fd-112">Left-Justified Values</span></span>  
- <span data-ttu-id="125fd-113">Para una mayoría de argumentos de tipo sz, cadena de longitud máxima o matriz de caracteres, JD Edwards OneWorld espera un valor justificado a la izquierda.</span><span class="sxs-lookup"><span data-stu-id="125fd-113">For a majority of sz-type arguments, maximum length string or char array, JD Edwards OneWorld expects a left-justified value.</span></span> <span data-ttu-id="125fd-114">Para una línea de dirección de calle, cuya longitud máxima es 40, JD Edwards OneWorld espera (por ejemplo):</span><span class="sxs-lookup"><span data-stu-id="125fd-114">For a street address line, which is of maximum length 40, JD Edwards OneWorld expects (for example):</span></span>  
+### <a name="left-justified-values"></a><span data-ttu-id="d8f3c-112">Valores justificados a la izquierda</span><span class="sxs-lookup"><span data-stu-id="d8f3c-112">Left-Justified Values</span></span>  
+ <span data-ttu-id="d8f3c-113">Para una mayoría de argumentos de tipo sz, cadena de longitud máxima o matriz de caracteres, JD Edwards OneWorld espera un valor justificado a la izquierda.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-113">For a majority of sz-type arguments, maximum length string or char array, JD Edwards OneWorld expects a left-justified value.</span></span> <span data-ttu-id="d8f3c-114">Para una línea de dirección de calle, cuya longitud máxima es 40, JD Edwards OneWorld espera (por ejemplo):</span><span class="sxs-lookup"><span data-stu-id="d8f3c-114">For a street address line, which is of maximum length 40, JD Edwards OneWorld expects (for example):</span></span>  
   
- <span data-ttu-id="125fd-115">"4567 Main St."</span><span class="sxs-lookup"><span data-stu-id="125fd-115">"4567 Main St.       "</span></span>  
+ <span data-ttu-id="d8f3c-115">"4567 Main St."</span><span class="sxs-lookup"><span data-stu-id="d8f3c-115">"4567 Main St.       "</span></span>  
   
- <span data-ttu-id="125fd-116">relleno hasta completar la longitud 40 con espacios en blanco.</span><span class="sxs-lookup"><span data-stu-id="125fd-116">padded to length 40 with blanks.</span></span> <span data-ttu-id="125fd-117">No es necesario que especifique el relleno porque Microsoft BizTalk Adapter para JD Edwards OneWorld lo proporciona automáticamente.</span><span class="sxs-lookup"><span data-stu-id="125fd-117">It is not necessary for you to enter the padding because Microsoft BizTalk Adapter for JD Edwards OneWorld provides this for you.</span></span> <span data-ttu-id="125fd-118">Únicamente debe escribir "4567 Main St.", en el código de cliente.</span><span class="sxs-lookup"><span data-stu-id="125fd-118">You only need to enter "4567 Main St.", in your client code.</span></span>  
+ <span data-ttu-id="d8f3c-116">relleno hasta completar la longitud 40 con espacios en blanco.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-116">padded to length 40 with blanks.</span></span> <span data-ttu-id="d8f3c-117">No es necesario que especifique el relleno porque Microsoft BizTalk Adapter para JD Edwards OneWorld lo proporciona automáticamente.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-117">It is not necessary for you to enter the padding because Microsoft BizTalk Adapter for JD Edwards OneWorld provides this for you.</span></span> <span data-ttu-id="d8f3c-118">Únicamente debe escribir "4567 Main St.", en el código de cliente.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-118">You only need to enter "4567 Main St.", in your client code.</span></span>  
   
-### <a name="right-justified-values"></a><span data-ttu-id="125fd-119">Valores justificados a la derecha</span><span class="sxs-lookup"><span data-stu-id="125fd-119">Right-Justified Values</span></span>  
- <span data-ttu-id="125fd-120">Para algunos subconjuntos de valores de este tipo, JD Edwards OneWorld espera valores justificados a la derecha con relleno a la izquierda.</span><span class="sxs-lookup"><span data-stu-id="125fd-120">For some subset of values for this type, JD Edwards OneWorld expects values that are right justified with padding on the left.</span></span> <span data-ttu-id="125fd-121">Por ejemplo, para las funciones de negocio en el módulo de origen B4200310, el argumento szBusinessUnit es de longitud 12.</span><span class="sxs-lookup"><span data-stu-id="125fd-121">For example, for business functions in the B4200310 source module, the argument szBusinessUnit is of length 12.</span></span> <span data-ttu-id="125fd-122">Este argumento representa una planta, como una instalación de producción.</span><span class="sxs-lookup"><span data-stu-id="125fd-122">This argument represents a plant, such as a production facility.</span></span> <span data-ttu-id="125fd-123">Para un número de planta de 30, J.D.</span><span class="sxs-lookup"><span data-stu-id="125fd-123">For a plant number of 30, J.D.</span></span> <span data-ttu-id="125fd-124">Edwards OneWorld XE espera un valor de:</span><span class="sxs-lookup"><span data-stu-id="125fd-124">Edwards OneWorld XE expects a value of:</span></span>  
+### <a name="right-justified-values"></a><span data-ttu-id="d8f3c-119">Valores justificados a la derecha</span><span class="sxs-lookup"><span data-stu-id="d8f3c-119">Right-Justified Values</span></span>  
+ <span data-ttu-id="d8f3c-120">Para algunos subconjuntos de valores de este tipo, JD Edwards OneWorld espera valores justificados a la derecha con relleno a la izquierda.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-120">For some subset of values for this type, JD Edwards OneWorld expects values that are right justified with padding on the left.</span></span> <span data-ttu-id="d8f3c-121">Por ejemplo, para las funciones de negocio en el módulo de origen B4200310, el argumento szBusinessUnit es de longitud 12.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-121">For example, for business functions in the B4200310 source module, the argument szBusinessUnit is of length 12.</span></span> <span data-ttu-id="d8f3c-122">Este argumento representa una planta, como una instalación de producción.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-122">This argument represents a plant, such as a production facility.</span></span> <span data-ttu-id="d8f3c-123">Para un número de planta de 30, J.D.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-123">For a plant number of 30, J.D.</span></span> <span data-ttu-id="d8f3c-124">Edwards OneWorld XE espera un valor de:</span><span class="sxs-lookup"><span data-stu-id="d8f3c-124">Edwards OneWorld XE expects a value of:</span></span>  
   
- <span data-ttu-id="125fd-125">"          30"</span><span class="sxs-lookup"><span data-stu-id="125fd-125">"          30"</span></span>  
+ <span data-ttu-id="d8f3c-125">"          30"</span><span class="sxs-lookup"><span data-stu-id="d8f3c-125">"          30"</span></span>  
   
- <span data-ttu-id="125fd-126">Para especificar un valor que estará justificado a la derecha, debe especificar el parámetro en un archivo denominado jdearglist.txt.</span><span class="sxs-lookup"><span data-stu-id="125fd-126">To enter a value that will be right-justified, you must enter the parameter in a file called jdearglist.txt.</span></span> <span data-ttu-id="125fd-127">El archivo jdearglist.txt se lee al generar el esquema.</span><span class="sxs-lookup"><span data-stu-id="125fd-127">The jdearglist.txt is read when you generate the schema.</span></span> <span data-ttu-id="125fd-128">Cualquier valor que se indique en este archivo de texto se convierte automáticamente en un valor justificado a la derecha y rellenado a la izquierda con espacios en blanco.</span><span class="sxs-lookup"><span data-stu-id="125fd-128">Any value that is listed in this text file is automatically converted to a right-justified value and padded on the left with blanks.</span></span>  
+ <span data-ttu-id="d8f3c-126">Para especificar un valor que estará justificado a la derecha, debe especificar el parámetro en un archivo denominado jdearglist.txt.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-126">To enter a value that will be right-justified, you must enter the parameter in a file called jdearglist.txt.</span></span> <span data-ttu-id="d8f3c-127">El archivo jdearglist.txt se lee al generar el esquema.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-127">The jdearglist.txt is read when you generate the schema.</span></span> <span data-ttu-id="d8f3c-128">Cualquier valor que se indique en este archivo de texto se convierte automáticamente en un valor justificado a la derecha y rellenado a la izquierda con espacios en blanco.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-128">Any value that is listed in this text file is automatically converted to a right-justified value and padded on the left with blanks.</span></span>  
   
- <span data-ttu-id="125fd-129">Debe crear jdearglist.txt usando un texto de editor, con las entradas que describen estos parámetros y guárdelo en la siguiente carpeta: %BizTalk_Install_Adapter%\config\JDE\\</span><span class="sxs-lookup"><span data-stu-id="125fd-129">You must create jdearglist.txt using a text editor, with entries describing these parameters, and save it in the following folder: %BizTalk_Install_Adapter%\config\JDE\\</span></span>  
+ <span data-ttu-id="d8f3c-129">Debe crear jdearglist.txt usando un texto editor, con entradas que describen estos parámetros y guárdelo en la siguiente carpeta: %BizTalk_Install_Adapter%\config\JDE\\</span><span class="sxs-lookup"><span data-stu-id="d8f3c-129">You must create jdearglist.txt using a text editor, with entries describing these parameters, and save it in the following folder: %BizTalk_Install_Adapter%\config\JDE\\</span></span>  
   
- <span data-ttu-id="125fd-130">Donde **BizTalk_Install_Adapter %** es el directorio en el que instaló el adaptador de BizTalk para JD Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="125fd-130">Where **%BizTalk_Install_Adapter%** is the directory in which you installed BizTalk Adapter for JD Edwards OneWorld.</span></span>  
+ <span data-ttu-id="d8f3c-130">Donde **BizTalk_Install_Adapter %** es el directorio donde instaló el adaptador de BizTalk para JD Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-130">Where **%BizTalk_Install_Adapter%** is the directory in which you installed BizTalk Adapter for JD Edwards OneWorld.</span></span>  
   
- <span data-ttu-id="125fd-131">Si este archivo no existe o está vacío, aparece un mensaje informativo en el registro de BizTalk Adapter para JD Edwards OneWorld cuando se abre el adaptador por primera vez.</span><span class="sxs-lookup"><span data-stu-id="125fd-131">If this file does not exist or is empty, an informational message appears in the BizTalk Adapter for JD Edwards OneWorld log when the adapter first opens.</span></span>  
+ <span data-ttu-id="d8f3c-131">Si este archivo no existe o está vacío, aparece un mensaje informativo en el registro de BizTalk Adapter para JD Edwards OneWorld cuando se abre el adaptador por primera vez.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-131">If this file does not exist or is empty, an informational message appears in the BizTalk Adapter for JD Edwards OneWorld log when the adapter first opens.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="125fd-132">Si cambia este archivo después de la generación del esquema, deberá volver a generar el esquema para actualizar los datos que contiene.</span><span class="sxs-lookup"><span data-stu-id="125fd-132">If you change this file after generating your schema, you must regenerate the schema to refresh the data it contains.</span></span>  
+>  <span data-ttu-id="d8f3c-132">Si cambia este archivo después de la generación del esquema, deberá volver a generar el esquema para actualizar los datos que contiene.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-132">If you change this file after generating your schema, you must regenerate the schema to refresh the data it contains.</span></span>  
   
- <span data-ttu-id="125fd-133">Para verificar que está usando la información más reciente de este archivo, puede usar el Administrador de tareas para detener el proceso browsingagent.exe antes de regenerar el esquema; no obstante, esto no debería ser necesario.</span><span class="sxs-lookup"><span data-stu-id="125fd-133">To verify that you are using the latest information in this file, you can use the Task Manager to stop the browsingagent.exe process before regenerating your schema; however, this should not be necessary.</span></span>  
+ <span data-ttu-id="d8f3c-133">Para verificar que está usando la información más reciente de este archivo, puede usar el Administrador de tareas para detener el proceso browsingagent.exe antes de regenerar el esquema; no obstante, esto no debería ser necesario.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-133">To verify that you are using the latest information in this file, you can use the Task Manager to stop the browsingagent.exe process before regenerating your schema; however, this should not be necessary.</span></span>  
   
- <span data-ttu-id="125fd-134">A continuación  se muestra un ejemplo del formato para entradas del archivo jdearglist.txt:</span><span class="sxs-lookup"><span data-stu-id="125fd-134">The following is an example of the format for entries in the jdearglist.txt file:</span></span>  
+ <span data-ttu-id="d8f3c-134">A continuación  se muestra un ejemplo del formato para entradas del archivo jdearglist.txt:</span><span class="sxs-lookup"><span data-stu-id="d8f3c-134">The following is an example of the format for entries in the jdearglist.txt file:</span></span>  
   
 ```  
 <SourceModule>.<BusinessFunction>.<Argument>  
 ```  
   
- <span data-ttu-id="125fd-135">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="125fd-135">For example:</span></span>  
+ <span data-ttu-id="d8f3c-135">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d8f3c-135">For example:</span></span>  
   
 ```  
 B4200310.F4211FSBeginDoc.szBusinessUnit  
 ```  
   
- <span data-ttu-id="125fd-136">Para un conjunto de funciones empresariales que pertenezcan al mismo módulo empresarial, los argumentos con nombre similar (del mismo tipo) se comparten entre algunas o todas las funciones empresariales.</span><span class="sxs-lookup"><span data-stu-id="125fd-136">For a set of business functions belonging to the same business module, like-named arguments (of the same type) are shared across some or all of the business functions.</span></span> <span data-ttu-id="125fd-137">Puede usar el carácter comodín (\*) en lugar del nombre de la función empresarial.</span><span class="sxs-lookup"><span data-stu-id="125fd-137">You can use the wildcard character (\*) instead of the business function name.</span></span> <span data-ttu-id="125fd-138">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="125fd-138">For example:</span></span>  
+ <span data-ttu-id="d8f3c-136">Para un conjunto de funciones empresariales que pertenezcan al mismo módulo empresarial, los argumentos con nombre similar (del mismo tipo) se comparten entre algunas o todas las funciones empresariales.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-136">For a set of business functions belonging to the same business module, like-named arguments (of the same type) are shared across some or all of the business functions.</span></span> <span data-ttu-id="d8f3c-137">Puede usar el carácter comodín (\*) en lugar del nombre de la función empresarial.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-137">You can use the wildcard character (\*) instead of the business function name.</span></span> <span data-ttu-id="d8f3c-138">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d8f3c-138">For example:</span></span>  
   
 ```  
 B4200310.*.szBusinessUnit  
 ```  
   
 > [!NOTE]
->  <span data-ttu-id="125fd-139">Al importar un proceso de negocio de JD Edwards OneWorld a otro equipo, debe copiar jdearglist.txt manualmente.</span><span class="sxs-lookup"><span data-stu-id="125fd-139">When importing a JD Edwards OneWorld business process to another computer, you must copy jdearglist.txt manually.</span></span>  
+>  <span data-ttu-id="d8f3c-139">Al importar un proceso de negocio de JD Edwards OneWorld a otro equipo, debe copiar jdearglist.txt manualmente.</span><span class="sxs-lookup"><span data-stu-id="d8f3c-139">When importing a JD Edwards OneWorld business process to another computer, you must copy jdearglist.txt manually.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="125fd-140">Vea también</span><span class="sxs-lookup"><span data-stu-id="125fd-140">See Also</span></span>  
- <span data-ttu-id="125fd-141">[Configuración de justificación de cadena en Jdearglist](../core/setting-string-justification-in-jdearglist.md) </span><span class="sxs-lookup"><span data-stu-id="125fd-141">[Setting String Justification in Jdearglist](../core/setting-string-justification-in-jdearglist.md) </span></span>  
- [<span data-ttu-id="125fd-142">Apéndice A: Tipos de datos</span><span class="sxs-lookup"><span data-stu-id="125fd-142">Appendix A: Data Types</span></span>](../core/appendix-a-data-types.md)
+## <a name="see-also"></a><span data-ttu-id="d8f3c-140">Vea también</span><span class="sxs-lookup"><span data-stu-id="d8f3c-140">See Also</span></span>  
+ <span data-ttu-id="d8f3c-141">[Configuración de justificación de cadena en Jdearglist](../core/setting-string-justification-in-jdearglist.md) </span><span class="sxs-lookup"><span data-stu-id="d8f3c-141">[Setting String Justification in Jdearglist](../core/setting-string-justification-in-jdearglist.md) </span></span>  
+ [<span data-ttu-id="d8f3c-142">Apéndice A: Tipos de datos</span><span class="sxs-lookup"><span data-stu-id="d8f3c-142">Appendix A: Data Types</span></span>](../core/appendix-a-data-types.md)

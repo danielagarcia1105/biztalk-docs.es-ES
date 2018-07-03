@@ -1,5 +1,5 @@
 ---
-title: Mejoras de seguridad | Documentos de Microsoft
+title: Mejoras de seguridad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,16 +14,16 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78743f9ca2db47767bf30c2e08c8ab6733a788b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79f8ad85a1e17c020321d6b5f5bcd900bd4033dd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214060"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000909"
 ---
-# <a name="security-enhancements"></a><span data-ttu-id="45ba4-102">Mejoras de seguridad</span><span class="sxs-lookup"><span data-stu-id="45ba4-102">Security Enhancements</span></span>
-<span data-ttu-id="45ba4-103">Cada paso de esta guía de implementación se ha diseñado como una implementación segura para su [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] instalación.</span><span class="sxs-lookup"><span data-stu-id="45ba4-103">Each step of this deployment guide has been designed as a secure deployment for your [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] installation.</span></span>  
+# <a name="security-enhancements"></a><span data-ttu-id="480e1-102">Mejoras de seguridad</span><span class="sxs-lookup"><span data-stu-id="480e1-102">Security Enhancements</span></span>
+<span data-ttu-id="480e1-103">Cada paso de esta guía de implementación se ha diseñado como una implementación segura de su Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] instalación.</span><span class="sxs-lookup"><span data-stu-id="480e1-103">Each step of this deployment guide has been designed as a secure deployment for your Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] installation.</span></span>  
   
- <span data-ttu-id="45ba4-104">Para obtener más información acerca de la seguridad de A4SWIFT, consulte [estándares de seguridad y privacidad](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md).</span><span class="sxs-lookup"><span data-stu-id="45ba4-104">For more information about A4SWIFT security, see [Security and privacy standards](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md).</span></span>
+ <span data-ttu-id="480e1-104">Para obtener más información acerca de la seguridad de A4SWIFT, consulte [estándares de seguridad y privacidad](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md).</span><span class="sxs-lookup"><span data-stu-id="480e1-104">For more information about A4SWIFT security, see [Security and privacy standards](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md).</span></span>
   
- <span data-ttu-id="45ba4-105">Para obtener más información acerca de cómo proteger un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] implementación, consulte [Planning for Security](../../core/planning-for-security.md).</span><span class="sxs-lookup"><span data-stu-id="45ba4-105">For more information about securing a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] deployment, see [Planning for Security](../../core/planning-for-security.md).</span></span> <span data-ttu-id="45ba4-106">[Recomendaciones de seguridad para una implementación de BizTalk Server](../../core/security-recommendations-for-a-biztalk-server-deployment.md) contiene recomendaciones de seguridad específicas.</span><span class="sxs-lookup"><span data-stu-id="45ba4-106">[Security Recommendations for a BizTalk Server Deployment](../../core/security-recommendations-for-a-biztalk-server-deployment.md) contains specific security recommendations.</span></span>
+ <span data-ttu-id="480e1-105">Para obtener más información acerca de cómo proteger un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] implementación, consulte [Planning for Security](../../core/planning-for-security.md).</span><span class="sxs-lookup"><span data-stu-id="480e1-105">For more information about securing a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] deployment, see [Planning for Security](../../core/planning-for-security.md).</span></span> <span data-ttu-id="480e1-106">[Recomendaciones de seguridad para una implementación de BizTalk Server](../../core/security-recommendations-for-a-biztalk-server-deployment.md) contiene recomendaciones de seguridad específicas.</span><span class="sxs-lookup"><span data-stu-id="480e1-106">[Security Recommendations for a BizTalk Server Deployment](../../core/security-recommendations-for-a-biztalk-server-deployment.md) contains specific security recommendations.</span></span>

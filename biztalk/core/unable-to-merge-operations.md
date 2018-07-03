@@ -1,5 +1,5 @@
 ---
-title: No se puede combinar las operaciones | Documentos de Microsoft
+title: No se puede combinar las operaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82035f791abd18c597198567a6027ddf739424a3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5adf138a53e17cb0dfb4b52e70818632a5e52b59
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286492"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986133"
 ---
-# <a name="unable-to-merge-operations"></a><span data-ttu-id="ba3bd-102">No se pueden combinar las operaciones.</span><span class="sxs-lookup"><span data-stu-id="ba3bd-102">Unable to merge operations</span></span>
-## <a name="details"></a><span data-ttu-id="ba3bd-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ba3bd-103">Details</span></span>  
+# <a name="unable-to-merge-operations"></a><span data-ttu-id="43b4e-102">No se pueden combinar las operaciones.</span><span class="sxs-lookup"><span data-stu-id="43b4e-102">Unable to merge operations</span></span>
+## <a name="details"></a><span data-ttu-id="43b4e-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="43b4e-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="ba3bd-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="ba3bd-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|<span data-ttu-id="ba3bd-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="ba3bd-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|<span data-ttu-id="ba3bd-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="ba3bd-106">Event ID</span></span>|<span data-ttu-id="ba3bd-107">0</span><span class="sxs-lookup"><span data-stu-id="ba3bd-107">0</span></span>|  
-|<span data-ttu-id="ba3bd-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="ba3bd-108">Event Source</span></span>|<span data-ttu-id="ba3bd-109">0</span><span class="sxs-lookup"><span data-stu-id="ba3bd-109">0</span></span>|  
-|<span data-ttu-id="ba3bd-110">Componente</span><span class="sxs-lookup"><span data-stu-id="ba3bd-110">Component</span></span>|<span data-ttu-id="ba3bd-111">0</span><span class="sxs-lookup"><span data-stu-id="ba3bd-111">0</span></span>|  
-|<span data-ttu-id="ba3bd-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="ba3bd-112">Symbolic Name</span></span>|<span data-ttu-id="ba3bd-113">0</span><span class="sxs-lookup"><span data-stu-id="ba3bd-113">0</span></span>|  
-|<span data-ttu-id="ba3bd-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="ba3bd-114">Message Text</span></span>|<span data-ttu-id="ba3bd-115">No se pueden combinar las operaciones.</span><span class="sxs-lookup"><span data-stu-id="ba3bd-115">Unable to merge operations</span></span>|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  <span data-ttu-id="43b4e-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="43b4e-104">Product Name</span></span>   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| <span data-ttu-id="43b4e-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="43b4e-105">Product Version</span></span> |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    <span data-ttu-id="43b4e-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="43b4e-106">Event ID</span></span>     |                                         <span data-ttu-id="43b4e-107">0</span><span class="sxs-lookup"><span data-stu-id="43b4e-107">0</span></span>                                          |
+|  <span data-ttu-id="43b4e-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="43b4e-108">Event Source</span></span>   |                                         <span data-ttu-id="43b4e-109">0</span><span class="sxs-lookup"><span data-stu-id="43b4e-109">0</span></span>                                          |
+|    <span data-ttu-id="43b4e-110">Componente</span><span class="sxs-lookup"><span data-stu-id="43b4e-110">Component</span></span>    |                                         <span data-ttu-id="43b4e-111">0</span><span class="sxs-lookup"><span data-stu-id="43b4e-111">0</span></span>                                          |
+|  <span data-ttu-id="43b4e-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="43b4e-112">Symbolic Name</span></span>  |                                         <span data-ttu-id="43b4e-113">0</span><span class="sxs-lookup"><span data-stu-id="43b4e-113">0</span></span>                                          |
+|  <span data-ttu-id="43b4e-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="43b4e-114">Message Text</span></span>   |                             <span data-ttu-id="43b4e-115">No se pueden combinar las operaciones.</span><span class="sxs-lookup"><span data-stu-id="43b4e-115">Unable to merge operations</span></span>                             |
   
-## <a name="explanation"></a><span data-ttu-id="ba3bd-116">Explicación</span><span class="sxs-lookup"><span data-stu-id="ba3bd-116">Explanation</span></span>  
- <span data-ttu-id="ba3bd-117">Este error indica que las operaciones no se pueden combinar debido a la colisión de nombres o debido a diferentes direcciones de comunicación.</span><span class="sxs-lookup"><span data-stu-id="ba3bd-117">This error indicates the operations cannot be merged due to name collision or due to different communication directions.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="43b4e-116">Explicación</span><span class="sxs-lookup"><span data-stu-id="43b4e-116">Explanation</span></span>  
+ <span data-ttu-id="43b4e-117">Este error indica que las operaciones no se pueden combinar debido a la colisión de nombres o debido a diferentes direcciones de comunicación.</span><span class="sxs-lookup"><span data-stu-id="43b4e-117">This error indicates the operations cannot be merged due to name collision or due to different communication directions.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="ba3bd-118">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="ba3bd-118">User Action</span></span>  
- <span data-ttu-id="ba3bd-119">Intente publicar la orquestación sin colisión de nombres y con el mismo patrón de comunicación.</span><span class="sxs-lookup"><span data-stu-id="ba3bd-119">Try to publish the orchestration without name collision and the same communication pattern.</span></span>
+## <a name="user-action"></a><span data-ttu-id="43b4e-118">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="43b4e-118">User Action</span></span>  
+ <span data-ttu-id="43b4e-119">Intente publicar la orquestación sin colisión de nombres y con el mismo patrón de comunicación.</span><span class="sxs-lookup"><span data-stu-id="43b4e-119">Try to publish the orchestration without name collision and the same communication pattern.</span></span>
