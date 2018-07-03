@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10854 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10854 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 42f9e9e761689b2ed21ec37acdbb8a63f1f88070
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: d1f89ef2727933e72de1e9d759bd91dc507a0954
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "22277580"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994410"
 ---
-# <a name="single-sign-on-event-10854"></a>Inicio de sesión único: Evento 10854
+# <a name="single-sign-on-event-10854"></a>De sesión único: Evento 10854
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10854|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_INVALID_STRING_FORMAT|  
-|Texto del mensaje|Formato de cadena incorrecto para esta función.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10854                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |               ENTSSO_E_INVALID_STRING_FORMAT               |
+|  Texto del mensaje   |     Formato de cadena incorrecto para esta función.      |
   
 ## <a name="explanation"></a>Explicación  
  Formato de cadena incorrecto para esta función.  
@@ -50,7 +50,7 @@ ms.locfileid: "22277580"
   
  uc = mayúsculas  
   
- Ejemplo: uc /  
+ Ejemplo: comunicaciones unificadas /  
   
  (cambiar contraseña a mayúsculas: de 'Cat' a 'CAT')  
   

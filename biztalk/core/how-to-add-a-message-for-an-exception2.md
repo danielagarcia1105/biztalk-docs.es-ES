@@ -1,5 +1,5 @@
 ---
-title: Cómo agregar un mensaje para un Exception2 | Documentos de Microsoft
+title: Cómo agregar un mensaje para un Exception2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,27 +17,27 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b2c314684094e73cb6d663bcf2183ffc3eccae5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57cd4e3e0cdcfe34dd172282ef83768eb63b93fa
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000805"
 ---
 # <a name="how-to-add-a-message-for-an-exception"></a>Cómo agregar un mensaje para una excepción
 La primera vez que crea un puerto en el sistema de servidor, contiene una solicitud y una respuesta. Debe agregar un mensaje de forma que pueda asignarlo al error.  
   
 ### <a name="to-add-a-fault-message"></a>Para agregar un mensaje de error  
   
-1.  En el **Vista orquestación** ventana, haga clic en **mensajes**y, a continuación, seleccione **nuevo mensaje**.  
+1. En el **Vista orquestación** ventana, haga clic en **mensajes**y, a continuación, seleccione **nuevo mensaje**.  
   
-     De este modo, se crea Message_3, que puede asignar específicamente al error.  
+    De este modo, se crea Message_3, que puede asignar específicamente al error.  
   
-2.  Haga clic en **Message_3**y seleccione **propiedades**.  
+2. Haga clic en **Message_3**y seleccione **propiedades**.  
   
-3.  Establecer el **tipo de mensaje** como sigue: seleccione **clases .NET**y, a continuación, seleccione **sistema, cadena**  
+3. Establecer el **tipo de mensaje** como sigue: seleccione **clases .NET**y, a continuación, seleccione **del sistema, cadena**  
   
- ![](../core/media/jdeoneworld-03-addscope.gif "JdeOneWorld_03_addscope")  
+   ![](../core/media/jdeoneworld-03-addscope.gif "JdeOneWorld_03_addscope")  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de control de excepciones de servidor BizTalk Server](../core/using-biztalk-server-exception-handling1.md)
+ [Uso del control de excepciones de BizTalk Server](../core/using-biztalk-server-exception-handling1.md)

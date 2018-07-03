@@ -1,5 +1,5 @@
 ---
-title: Restricciones al configurar el adaptador de archivo | Documentos de Microsoft
+title: Restricciones al configurar el adaptador de archivo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,63 +15,63 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d6fbf9296e56db816277f9a7a348377bfa4b359d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 04b5f5e025b1e6b399834c1b327900b1fbe62cf4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975138"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000341"
 ---
 # <a name="restrictions-when-configuring-the-file-adapter"></a>Restricciones al configurar el adaptador de archivo
 Restricciones y reglas al usar el adaptador de archivo.
 
-## <a name="file-mask-and-file-name-gotchas"></a>Máscara de archivo y problemas comunes de nombre de archivo
+## <a name="file-mask-and-file-name-gotchas"></a>Máscara de archivo y trampas de nombre de archivo
 
 La máscara de archivo es una cadena que especifica el tipo del archivo que el controlador de recepción de archivo seleccionará de la ubicación de recepción. El nombre de archivo es una cadena que especifica el nombre del archivo donde el controlador de envío de archivo escribirá el mensaje.  
   
  Las siguientes restricciones son aplicables a las propiedades de máscara de archivo y nombre de archivo:  
   
--   Sólo se puede especificar una máscara de archivo o nombre de archivo por ubicación de recepción o puerto de envío.  
+- Sólo se puede especificar una máscara de archivo o nombre de archivo por ubicación de recepción o puerto de envío.  
   
--   No se permite la ruta completa del archivo, o parte de ésta, junto con la máscara de archivo o nombre de archivo. La máscara de archivo y nombre de archivo siempre representa un nombre sin ruta.  
+- No se permite la ruta completa del archivo, o parte de ésta, junto con la máscara de archivo o nombre de archivo. La máscara de archivo y nombre de archivo siempre representa un nombre sin ruta.  
   
--   La máscara de archivo y el nombre de archivo no distinguen entre mayúsculas y minúsculas.  
+- La máscara de archivo y el nombre de archivo no distinguen entre mayúsculas y minúsculas.  
   
--   El nombre de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ? * ;  
+- ¿El nombre de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; "? * ;  
   
--   La máscara de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ; 
+- La máscara de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; "; 
   
--   Los siguientes nombres de dispositivo reservados no se puede usar como el nombre de un archivo: CON, PRN, AUX, RELOJ$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9. Asimismo, no se permite ninguna combinación de éstos con extensiones.  
+- No se puede usar los siguientes nombres de dispositivo reservado como el nombre de un archivo: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9. Asimismo, no se permite ninguna combinación de éstos con extensiones.  
   
--   Volúmenes de disco de Windows utilizan la convención de nomenclatura de forma predeterminada, que utiliza nombres de archivo corto y largo 8.3 (formato 8.3). Volúmenes de disco del sistema no deshabilitar la convención de nomenclatura de tiene el formato 8.3 y, por tanto, solo utilizan nombres de archivo largos. 
+- Volúmenes de disco de Windows utilizan la convención de nomenclatura de forma predeterminada, que utiliza los nombres de archivo largo y corto 8.3 (8.3). Volúmenes de disco del sistema no deshabilite la convención de nomenclatura 8.3 y, por tanto, sólo usan nombres de archivo largos. 
 
-    Si tiene el formato 8.3 está habilitada, los archivos y las extensiones de archivo se convierten a un nombre corto. Por ejemplo, `testabcdefgh.docx` se convierta en `testab~1.doc`. Tenga en cuenta que se acorta el nombre de archivo y la extensión de archivo se acorta de `.docx` a `doc`.
+  Cuando se habilita 8.3, archivos y sus extensiones de archivo se convierten a un nombre corto. Por ejemplo, `testabcdefgh.docx` , se convierten en `testab~1.doc`. Tenga en cuenta que se ha reducido el nombre de archivo y la extensión de archivo se ha reducido de `.docx` a `doc`.
 
-    Este comportamiento afecta a cómo el adaptador de archivo recibe el archivo. Si una máscara de archivo se establece en `*.xml`, archivos, a continuación, coincidencia de ambos `*.xml` y `*.xmln` se recogen las extensiones. 
+  Este comportamiento afecta a cómo el adaptador de archivo recibe el archivo. Si se establece una máscara de archivo en `*.xml`, a continuación, los archivos coincidentes ambos `*.xml` y `*.xmln` se recogen las extensiones. 
 
-    Para ver si está habilitada la convención de nomenclatura de tiene el formato 8.3 en los discos, abra un símbolo del sistema como administrador y escriba `fsutil 8dot3name query c:`, o `fsutil 8dot3name query d:`, y así sucesivamente. Resultados del ejemplo es similar a la siguiente:
+  Para ver si está habilitada la convención de nomenclatura 8.3 en los discos, abra un símbolo del sistema como administrador y escriba `fsutil 8dot3name query c:`, o `fsutil 8dot3name query d:`, y así sucesivamente. Salida de ejemplo es similar a la siguiente:
 
-    ```
-    C:\WINDOWS\system32>fsutil 8dot3name query c:
-    The volume state is: 0 (8dot3 name creation is enabled).
-    The registry state is: 2 (Per volume setting - the default).
+  ```
+  C:\WINDOWS\system32>fsutil 8dot3name query c:
+  The volume state is: 0 (8dot3 name creation is enabled).
+  The registry state is: 2 (Per volume setting - the default).
     
-    Based on the above two settings, 8dot3 name creation is enabled on c:
-    ```
+  Based on the above two settings, 8dot3 name creation is enabled on c:
+  ```
     
-    El adaptador de archivo utiliza el [función FindFirstFile](https://msdn.microsoft.com/library/windows/desktop/aa364418(v=vs.85).aspx). Esta función incluye los resultados de búsqueda que tienen los nombres de archivo corto y largo. Para ver los nombres de archivo corto y largo en una carpeta, abra un símbolo del sistema, vaya a la carpeta y el tipo `dir /x`. En un símbolo del sistema, también puede escribir `dir c:\foldername /x`.
+  El adaptador de archivo utiliza el [función FindFirstFile](https://msdn.microsoft.com/library/windows/desktop/aa364418(v=vs.85).aspx). Esta función incluye los resultados de búsqueda que tienen los nombres de archivo corto y largo. Para ver los nombres de archivo corto y largo en una carpeta, abra un símbolo del sistema, vaya a la carpeta y escriba `dir /x`. En un símbolo del sistema, también puede escribir `dir c:\foldername /x`.
     
-    Si cambia la configuración de 8dot3name en un volumen, nuevos archivos usan la nueva configuración. Los archivos existentes mantienen sus nombres hasta que se mueven. 
+  Si cambia la configuración de 8dot3name en un volumen, nuevos archivos de usar la nueva configuración. Los archivos existentes mantienen sus nombres hasta que se mueven. 
     
-    Para recoger solo los archivos previstos y obtener un mejor rendimiento (menos sobrecarga) durante la carga más elevada, puede ser mejor configurar el adaptador de archivo para que use un volumen que se deshabilita 8dot3name. 
+  Para recoger sólo los archivos previstos y para obtener un mejor rendimiento (menos sobrecarga) durante la carga mayor, puede ser mejor configurar el adaptador de archivo para usar un volumen que se deshabilita la 8dot3name. 
   
--   Asegúrese de que la longitud de la ruta de archivo, la máscara de archivo y el nombre de archivo (sin sustitución de macros) no supera los 256 caracteres. (Ésta es una restricción de la base de datos de cuadros de mensajes.)  
+- Asegúrese de que la longitud de la ruta de archivo, la máscara de archivo y el nombre de archivo (sin sustitución de macros) no supera los 256 caracteres. (Ésta es una restricción de la base de datos de cuadros de mensajes.)  
   
--   La ruta de archivo no puede comenzar por “¿`\\`?”.  
+- La ruta de archivo no puede comenzar por “¿`\\`?”.  
   
--   Las letras de unidad de red asignadas no se pueden utilizar en la ruta de archivo porque están basadas en las sesiones de usuario.  
+- Las letras de unidad de red asignadas no se pueden utilizar en la ruta de archivo porque están basadas en las sesiones de usuario.  
   
- El motor de mensajería de BizTalk siempre valida las propiedades de máscara de archivo y nombre de archivo en tiempo de diseño mediante los elementos que se mostraron en una lista anteriormente. Asimismo, el adaptador de archivo valida las propiedades de máscara de archivo y nombre de archivo en tiempo de ejecución si el adaptador envía el mensaje en un puerto dinámico.  
+  El motor de mensajería de BizTalk siempre valida las propiedades de máscara de archivo y nombre de archivo en tiempo de diseño mediante los elementos que se mostraron en una lista anteriormente. Asimismo, el adaptador de archivo valida las propiedades de máscara de archivo y nombre de archivo en tiempo de ejecución si el adaptador envía el mensaje en un puerto dinámico.  
   
 > [!NOTE]
 >  El adaptador de archivo no selecciona archivos de sistema o archivos de sólo lectura. Sólo se seleccionan archivos basados en disco, no archivos de dispositivos  
@@ -84,15 +84,15 @@ Puede utilizar un conjunto predefinido de macros para crear dinámicamente los a
   
  El controlador de envío de archivo no reemplaza las macros con un valor si se cumple cualquiera de las siguientes condiciones:  
   
--   La propiedad de sistema correspondiente no está definida.  
+- La propiedad de sistema correspondiente no está definida.  
   
--   La macro no se ha escrito correctamente.  
+- La macro no se ha escrito correctamente.  
   
--   El valor de la macro contiene símbolos que no son válidos en el nombre de archivo.  
+- El valor de la macro contiene símbolos que no son válidos en el nombre de archivo.  
   
- Si se produce cualquiera de estas condiciones, el controlador de envío de archivo no modifica las macros del nombre de archivo, por ejemplo, Myfile_%MessageID%.xml.  
+  Si se produce cualquiera de estas condiciones, el controlador de envío de archivo no modifica las macros del nombre de archivo, por ejemplo, Myfile_%MessageID%.xml.  
   
- La siguiente tabla enumera las macros admitidas y describe cómo el controlador de envío de archivo las reemplaza.  
+  La siguiente tabla enumera las macros admitidas y describe cómo el controlador de envío de archivo las reemplaza.  
   
 |Nombre de la macro|Valor de sustitución|  
 |----------------|----------------------|  
@@ -102,48 +102,48 @@ Puede utilizar un conjunto predefinido de macros para crear dinámicamente los a
 |%DestinationParty%|Nombre de la entidad de destino. El valor procede de la propiedad de contexto del mensaje **BTS.DestinationParty**.|  
 |%DestinationPartyQualifier%|Calificador de la entidad de destino. El valor procede de la propiedad de contexto del mensaje **BTS.DestinationPartyQualifier**.|  
 |%MessageID%|Identificador único global (GUID) del mensaje en BizTalk Server. El valor procede directamente de la propiedad de contexto de mensaje **BTS. MessageID**.|  
-|%SourceFileName%|Nombre del archivo del que el adaptador de archivo leyó el mensaje. El nombre de archivo incluye la extensión y excluye la ruta de acceso de archivo, por ejemplo, Sample.xml. Al sustituir esta propiedad, el adaptador de archivo extrae el nombre de archivo de la ruta de acceso absoluta del archivo almacenado en el **archivo. ReceivedFileName** propiedad de contexto. Si la propiedad de contexto no tiene un valor, por ejemplo, si se ha recibido un mensaje en un adaptador que no sea el adaptador de archivo, la macro no se sustituirá y permanecerá en el nombre de archivo sea (por ejemplo, C:\Drop\\% nombreArchivoOrigen %). **Nota:** correcta implementación de esta macro requiere que el mensaje de salida es el mismo mensaje que el mensaje recibido.|  
+|%SourceFileName%|Nombre del archivo del que el adaptador de archivo leyó el mensaje. El nombre de archivo incluye la extensión y excluye la ruta de acceso de archivo, por ejemplo, Sample.xml. Al sustituir esta propiedad, el adaptador de archivo extrae el nombre de archivo de la ruta de acceso absoluta del archivo almacenado en el **archivo. ReceivedFileName** propiedad de contexto. Si la propiedad de contexto no tiene un valor, por ejemplo, si se recibió un mensaje en un adaptador que no sea el adaptador de archivo, la macro no se sustituirá y permanecerá en el nombre del archivo tal cual (por ejemplo, C:\Drop\\% nombreArchivoOrigen %). **Nota:** correcta implementación de esta macro requiere que el mensaje de salida es el mismo mensaje que el mensaje recibido.|  
 |%SourceParty%|Nombre de la entidad de origen de la que procede el mensaje recibido por el adaptador de archivo. **Nota:** correcta implementación de esta macro requiere que el mensaje de salida es el mismo mensaje que el mensaje recibido.|  
 |%SourcePartyQualifier%|Calificador de la entidad de origen de la que procede el mensaje recibido por el adaptador de archivo. **Nota:** correcta implementación de esta macro requiere que el mensaje de salida es el mismo mensaje que el mensaje recibido.|  
 |%time%|Hora UTC con formato hhmmss.|  
 |%time.tz%|Hora local, y diferencia de zona horaria en relación con GMT, con formato hhmmssDZH (por ejemplo, 124525+530).|  
   
  
-## <a name="receive-folder-and-destination-location-properties-gotchas"></a>Carpeta y el destino problemas comunes de propiedades de ubicación de recepción
+## <a name="receive-folder-and-destination-location-properties-gotchas"></a>Recibir trampas de propiedades de ubicación de carpeta y de destino
 
 La ubicación de recepción de archivos es una cadena que contiene una ruta de acceso a una carpeta de un sistema de archivos o un recurso compartido de red del que el controlador de recepción de archivo lee archivos. La ubicación de destino de archivos es una cadena que contiene una ruta de acceso a una carpeta de un sistema de archivos o un recurso compartido de red donde el controlador de envío de archivo escribe archivos.  
   
  Las siguientes restricciones se aplican a las propiedades de la carpeta de recepción y de la ubicación de destino:  
   
--   No es necesario que haya una ruta de acceso de archivos en un sistema de archivos o un recurso compartido de red en el momento en que se especifica la propiedad en el usuario.  
+- No es necesario que haya una ruta de acceso de archivos en un sistema de archivos o un recurso compartido de red en el momento en que se especifica la propiedad en el usuario.  
   
--   La ruta de acceso debe ser siempre absoluta.  
+- La ruta de acceso debe ser siempre absoluta.  
   
--   Puede especificar la ruta de acceso de archivo con formato de convención de nomenclatura universal (UNC, Universal Naming Convention) (por ejemplo, \\ \\ < *server* \> \\ <  *compartir*\>).  
+- Puede especificar la ruta de acceso de archivo con formato de convención de nomenclatura Universal (UNC) (por ejemplo, \\ \\ < *server* \> \\ <  *compartir*\>).  
   
--   Si la ruta de acceso de archivo está en formato UNC, el nombre del servidor no debe contener los siguientes caracteres: ' ~! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ? ;  
+- Si la ruta de acceso de archivo está en formato UNC, el nombre del servidor no puede contener los siguientes caracteres: ' ~! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ? ;  
   
--   No se puede utilizar primario (\\... \\) y actual (\\.\\) símbolos de carpeta en cualquier parte de la ruta de acceso de archivo.  
+- No se puede usar primario (\\... \\) y actual (\\.\\) símbolos de carpeta en cualquier parte de la ruta de acceso de archivo.  
   
--   La ruta de acceso de archivos no distingue mayúsculas de minúsculas.  
+- La ruta de acceso de archivos no distingue mayúsculas de minúsculas.  
   
--   La ruta de acceso de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ? * ;  
+- ¿La ruta de acceso de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; "? * ;  
   
--   No se pueden usar los siguientes nombres de dispositivo reservados en la ruta de acceso de archivos: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9.  
+- No se pueden usar los siguientes nombres de dispositivo reservados en la ruta de acceso de archivos: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9.  
   
--   La longitud total de la ruta de acceso de archivos, la máscara de archivo o el nombre de archivo (sin sustitución de macros) no debe exceder 256 caracteres. La base de datos de cuadro de mensajes impone esta restricción.  
+- La longitud total de la ruta de acceso de archivos, la máscara de archivo o el nombre de archivo (sin sustitución de macros) no debe exceder 256 caracteres. La base de datos de cuadro de mensajes impone esta restricción.  
   
--   El adaptador de archivo no es compatible con la especificación Unicode de la ruta de acceso de archivo (por ejemplo, "\\\\?\\").  
+- El adaptador de archivo no admite la especificación Unicode de la ruta de acceso de archivo (por ejemplo, "\\\\?\\").  
   
- Restricciones solo para la propiedad de la carpeta de recepción:  
+  Restricciones solo para la propiedad de la carpeta de recepción:  
   
--   No establezca la propiedad de la carpeta de recepción en una carpeta que use el sistema de archivos distribuido de Microsoft Windows NT con un vínculo simbólico. Si está utilizando el sistema de archivos distribuido de Windows NT, solo puede usar carpetas con rutas de acceso de red directas en el adaptador de archivo ubicaciones de recepción.  
+- No establezca la propiedad de la carpeta de recepción en una carpeta que use el sistema de archivos distribuido de Microsoft Windows NT con un vínculo simbólico. Si utiliza un sistema de archivos distribuido de Windows NT, solo puede usar carpetas con rutas de acceso de red directas en el adaptador de archivo de las ubicaciones de recepción.  
   
--   Cuando se envían documentos a una ruta UNC y tiene más de un servidor que recibe documentos en la ubicación de recepción del adaptador de archivo, solo un servidor recogerá y procesará la mayor parte de los documentos enviados a esa ruta UNC. Para obtener más información acerca de cómo cambiar el nombre de archivo, vea la sección de adaptador de recepción de archivo de [adaptador de archivo](../core/file-adapter.md).  
+- Cuando se envían documentos a una ruta UNC y tiene más de un servidor que recibe documentos en la ubicación de recepción del adaptador de archivo, solo un servidor recogerá y procesará la mayor parte de los documentos enviados a esa ruta UNC. Para obtener más información sobre cómo cambiar el nombre de archivo, consulte la sección del adaptador de recepción de archivo de [adaptador de archivo](../core/file-adapter.md).  
   
- Restricciones solo para la propiedad de la carpeta de envío:  
+  Restricciones solo para la propiedad de la carpeta de envío:  
   
--   El adaptador de archivos puede no disponer de los recursos de sistema operativo suficientes para procesar todos los mensajes de un lote de forma concurrente al ejecutar un sistema operativo sin servidor, como Microsoft Windows Vista.  
+- El adaptador de archivos puede no disponer de los recursos de sistema operativo suficientes para procesar todos los mensajes de un lote de forma concurrente al ejecutar un sistema operativo sin servidor, como Microsoft Windows Vista.  
   
- El adaptador de archivo valida la ruta de acceso de archivos en tiempo de diseño usando las reglas mencionadas anteriormente. Además, el adaptador de archivo valida el mensaje en tiempo de ejecución si el adaptador envía el mensaje a través de un puerto dinámico con un adaptador de archivo.  
+  El adaptador de archivo valida la ruta de acceso de archivos en tiempo de diseño usando las reglas mencionadas anteriormente. Además, el adaptador de archivo valida el mensaje en tiempo de ejecución si el adaptador envía el mensaje a través de un puerto dinámico con un adaptador de archivo.  
   

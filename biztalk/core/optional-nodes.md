@@ -1,5 +1,5 @@
 ---
-title: Nodos opcionales | Documentos de Microsoft
+title: Nodos opcionales | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,23 +18,23 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96cf7d8b22ee8469a7e52dba7bbad899209c5274
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 91fe82709df36b374d8744e2060798074835b891
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263348"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994093"
 ---
 # <a name="optional-nodes"></a>Nodos opcionales
 La utilización de nodos opcionales generará una advertencia al probar la asignación. Existen dos condiciones en las que un nodo de origen puede considerarse opcional:  
   
--   El registro o el campo reales son opcionales.  
+- El registro o el campo reales son opcionales.  
   
--   El registro o el campo de origen son necesarios, pero los primarios o más altos en la jerarquía son opcionales.  
+- El registro o el campo de origen son necesarios, pero los primarios o más altos en la jerarquía son opcionales.  
   
- Puede encontrarse con esta situación cuando tenga registros y campos en un esquema de origen que sean opcionales, pero el esquema de destino requiera los registros o campos correspondientes.  
+  Puede encontrarse con esta situación cuando tenga registros y campos en un esquema de origen que sean opcionales, pero el esquema de destino requiera los registros o campos correspondientes.  
   
- En las dos posibles condiciones, probar la asignación genera una advertencia en el **salida** ventana. Además, los datos de salida no incluirán el nodo de destino.  
+  En las dos condiciones posibles, probar la asignación generará una advertencia en el **salida** ventana. Además, los datos de salida no incluirán el nodo de destino.  
   
 ## <a name="see-also"></a>Vea también  
- [Probar las asignaciones](../core/testing-maps.md)
+ [Comprobación de asignaciones](../core/testing-maps.md)

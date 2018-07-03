@@ -1,5 +1,5 @@
 ---
-title: Invocar tRFCs en SAP mediante el modelo de servicio de WCF | Documentos de Microsoft
+title: Invocar trfc de SAP mediante el modelo de servicio WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,34 +15,34 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f23ee3e863318c9d75be9136e7b7fc0fa37b921
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8d28e3cc47a213f122f30c2599063897e0485816
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22216660"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002381"
 ---
-# <a name="invoke-trfcs-in-sap-using-the-wcf-service-model"></a>Invocar tRFCs en SAP mediante el modelo de servicio de WCF
-Llamadas a funciones remotas transaccionales (tRFCs) garantizar un *única* ejecución de una solicitud de cambio en un sistema SAP. Puede invocar cualquiera de los documentos de RFC obtenidas por el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] como un tRFC. Invocar un tRFC en el modelo de servicio WCF es similar a invocar una solicitud de cambio con las siguientes diferencias:  
+# <a name="invoke-trfcs-in-sap-using-the-wcf-service-model"></a>Invocar trfc de SAP mediante el modelo de servicio de WCF
+Transaccional llamadas a funciones remotas (trfc) garantiza una *única* ejecución de una solicitud de cambio en un sistema SAP. Puede invocar cualquiera de los documentos RFC obtenidos por el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] como un tRFC. Invocar un tRFC en el modelo de servicio WCF es similar a invocar una RFC con las siguientes diferencias:  
   
--   El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies tRFCs bajo un nodo diferente (TRFC) que las solicitudes de cambio (RFC).  
+- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies trfc bajo un nodo diferente (TRFC) que las solicitudes de cambio (RFC).  
   
--   llamadas de cliente tRFC no devuelven valores de exportación SAP y cambiar los parámetros.  
+- las llamadas de cliente tRFC no devuelven valores para la exportación SAP y cambiar los parámetros.  
   
--   operaciones de tRFC incluyen un parámetro GUID que está asignado al identificador de transacción de SAP (TID) para el tRFC por la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- las operaciones de tRFC incluyen un parámetro GUID que se asigna al identificador de transacción de SAP (TID) para el tRFC por la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   Después de invocar un tRFC, debe invocar la operación de RfcConfirmTransID para confirmar la tRFC en el sistema SAP (confirman). Esta operación aparece directamente debajo del nodo TRFC.  
+- Después de invocar un tRFC, debe invocar la operación RfcConfirmTransID para confirmar la tRFC en el sistema SAP (confirmación). Esta operación se expone directamente en el nodo TRFC.  
   
- Para obtener más información sobre las operaciones de tRFC y la operación de RfcConfirmTransID, consulte [operaciones en tRFCs en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  
+  Para obtener más información sobre las operaciones de tRFC y la operación RfcConfirmTransID, consulte [operaciones en trfc de SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  
   
- Las secciones siguientes muestran cómo invocar tRFCs en el sistema SAP mediante el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  Las secciones siguientes muestran cómo invocar trfc en el sistema SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## <a name="the-wcf-client-class"></a>La clase de cliente WCF  
- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies todas las operaciones de tRFC bajo un contrato de servicio único, "Trfc". Esto significa que una sola clase de cliente WCF, **TrfcClient**, se crea para todas las operaciones de tRFC que desea invocar. Cada tRFC de destino se representa como un método de esta clase. Para cada método:  
+ La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone todas las operaciones de tRFC bajo un contrato de servicio único, "Trfc". Esto significa que una sola clase de cliente WCF, **TrfcClient**, se crea para todas las operaciones de tRFC que desea invocar. Cada tRFC de destino se representa como un método de esta clase. Para cada método:  
   
--   Tipos complejos de SAP como estructuras aparecen como clases de .NET con propiedades que corresponden a los campos del tipo SAP. Estas clases se definen en el espacio de nombres siguiente: **microsoft.lobservices.sap._2007._03.Types.Rfc**.  
+- Tipos complejos de SAP como estructuras se exponen como clases .NET con propiedades que corresponden a los campos del tipo SAP. Estas clases se definen en el espacio de nombres siguiente: **microsoft.lobservices.sap._2007._03.Types.Rfc**.  
   
- El código siguiente muestra parte de la **TrfcClient** clase y el método que invoca BAPI_SALESORDER_CREATEFROMDAT2 (como un tRFC) en el sistema SAP. El **TransactionalRfcOperationIdentifier** parámetro contiene el GUID asignado al TID de SAP. No todos los parámetros para el método se muestran.  
+  El código siguiente muestra parte de la **TrfcClient** clase y el método que invoca BAPI_SALESORDER_CREATEFROMDAT2 (como un tRFC) en el sistema SAP. El **TransactionalRfcOperationIdentifier** parámetro contiene el GUID que se asigna al TID de SAP. No todos los parámetros al método se muestran.  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -68,70 +68,70 @@ public partial class TrfcClient : System.ServiceModel.ClientBase<Trfc>, Trfc {
 }  
 ```  
   
- El código siguiente muestra el método que se genera para la operación de RfcConfirmTransID. Debe asegurarse de que este método se genera como parte de la **TrfcClient**. La operación de RfcConfirmTransID aparece directamente debajo del nodo TRFC.  
+ El código siguiente muestra el método que se genera para la operación RfcConfirmTransID. Debe asegurarse de que este método se genera como parte de la **TrfcClient**. La operación RfcConfirmTransID aparece directamente en el nodo TRFC.  
   
 ```  
 public void RfcConfirmTransID(System.Guid TransactionalRfcOperationIdentifier) {…}  
 ```  
   
 ## <a name="how-to-create-a-trfc-client-application"></a>Cómo crear una aplicación de cliente tRFC  
- Los pasos para crear una aplicación que invoca tRFCs son similares a los pasos que debe seguir para invocar las solicitudes de cambio, con las siguientes excepciones:  
+ Los pasos para crear una aplicación que invoca trfc son similares a los pasos que seguir para invocar RFC, con las siguientes excepciones:  
   
 -   Debe recuperar las operaciones de destino en el nodo TRFC.  
   
--   Se debe recuperar la operación de RfcConfirmTransID. Esto aparece directamente debajo del nodo TRFC.  
+-   Debe recuperar la operación RfcConfirmTransID. Esto se expone directamente en el nodo TRFC.  
   
--   Para confirmar una operación de tRFC en el sistema SAP (confirman), debe invocar la operación de RfcConfirmTransID con el GUID que se devolvió para esa operación tRFC.  
+-   Para confirmar una operación tRFC en el sistema SAP (confirmación), debe invocar la operación RfcConfirmTransID con el GUID que se devolvió para esa operación tRFC.  
   
 #### <a name="to-create-a-trfc-client-application"></a>Para crear una aplicación de cliente tRFC  
   
-1.  Generar un **TrfcClient** clase. Use la [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o los metadatos de herramienta de utilidad ServiceModel (svcutil.exe) para generar un **TrfcClient** clase que tenga como destino las RFC con el que desea trabajar. Para obtener más información sobre cómo generar un cliente de WCF, vea [generar un cliente de WCF o un contrato de servicio de WCF para la solución SAP artefactos](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md). Asegúrese de que la operación de RfcConfirmTransID se incluye en el **TrfcClient** clase.  
+1. Generar un **TrfcClient** clase. Use la [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o el ServiceModel Metadata Utility Tool (svcutil.exe) para generar un **TrfcClient** clase que tiene como destino las RFC con el que desea trabajar. Para obtener más información sobre cómo generar un cliente de WCF, vea [generar un cliente de WCF o un contrato de servicio WCF para artefactos de solución de SAP](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md). Asegúrese de que la operación RfcConfirmTransID se incluye en el **TrfcClient** clase.  
   
-2.  Cree una instancia de la **TrfcClient** clase generado en el paso 1 y especificar un enlace del cliente. Especificación de un enlace de cliente implica especificar el enlace y el punto de conexión de dirección que el **TrfcClient** va a usar. Puede hacerlo imperativamente en código o mediante declaración en configuración. Para obtener más información sobre cómo especificar un enlace del cliente, consulte [configurar un enlace de cliente para el sistema SAP](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). El siguiente código inicializa el **TrfcClient** de configuración y establece las credenciales para el sistema SAP.  
+2. Cree una instancia de la **TrfcClient** clase generado en el paso 1 y especificar un enlace de cliente. Especificar un enlace de cliente implica especificar el enlace y el punto de conexión de direcciones que el **TrfcClient** va a usar. Puede hacerlo imperativamente en código o mediante declaración en configuración. Para obtener más información sobre cómo especificar un enlace de cliente, consulte [configurar un enlace de cliente para el sistema SAP](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). El siguiente código inicializa el **TrfcClient** de configuración y establece las credenciales para el sistema SAP.  
   
-    ```  
-    TrfcClient trfcClient = new TrfcClient("SAPBinding_Rfc");  
+   ```  
+   TrfcClient trfcClient = new TrfcClient("SAPBinding_Rfc");  
   
-    trfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
-    trfcClient.ClientCredentials.UserName.Password = "YourPassword";  
-    ```  
+   trfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
+   trfcClient.ClientCredentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Abra la **TrfcClient**.  
+3. Abra el **TrfcClient**.  
   
-    ```  
-    trfcClient.Open();  
-    ```  
+   ```  
+   trfcClient.Open();  
+   ```  
   
-4.  Invocar el método adecuado en el **TrfcClient** creado en el paso 2 para invocar el tRFC de destino en el sistema SAP. Puede pasar una variable que contiene un GUID o que contiene un GUID vacío para la **TransactionalRrcOperationIdentifier** parámetro. Si se pasa un GUID vacío, la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] genera uno automáticamente. El código siguiente invoca BAPI_SALESORDER_CREATEFROMDAT2 como un tRFC en el sistema SAP (no todos los parámetros del método se muestran). Se especificó un GUID.  
+4. Invocar el método adecuado en el **TrfcClient** creado en el paso 2 para invocar la tRFC de destino en el sistema SAP. Puede pasar una variable que contiene un GUID o que contiene un GUID vacío para el **TransactionalRrcOperationIdentifier** parámetro. Si se pasa un GUID vacío, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] genera uno automáticamente. El código siguiente invoca BAPI_SALESORDER_CREATEFROMDAT2 como un tRFC en el sistema SAP (no todos los parámetros del método se muestran). Se especificó un GUID.  
   
-    ```  
-    transactionalRfcOperationIdentifier = Guid.NewGuid();  
+   ```  
+   transactionalRfcOperationIdentifier = Guid.NewGuid();  
   
-    //invoke RFC_CUSTOMER_GET as a tRFC  
-    trfcClient.BAPI_SALESORDER_CREATEFROMDAT2(  
-                                    request.BEHAVE_WHEN_ERROR,  
-                                    request.BINARY_RELATIONSHIPTYPE,  
-                                    request.CONVERT,  
+   //invoke RFC_CUSTOMER_GET as a tRFC  
+   trfcClient.BAPI_SALESORDER_CREATEFROMDAT2(  
+                                   request.BEHAVE_WHEN_ERROR,  
+                                   request.BINARY_RELATIONSHIPTYPE,  
+                                   request.CONVERT,  
   
-                                    ...  
+                                   ...  
   
-                                    ref transactionalRfcOperationIdentifier);  
-    ```  
+                                   ref transactionalRfcOperationIdentifier);  
+   ```  
   
-5.  Para confirmar el TID asociado con la tRFC en el sistema SAP, invocar el **RfcConfirmTransID** método en el **TrfcClient**. Especifique el GUID devuelto en el paso 4 para el **TransactionRfcOperationIdentifier**parámetro.  
+5. Para confirmar el TID asociado con el tRFC en el sistema SAP, invocar el **RfcConfirmTransID** método en el **TrfcClient**. Especifique el GUID devuelto en el paso 4 para el **TransactionRfcOperationIdentifier**parámetro.  
   
-    ```  
-    trfcClient.RfcConfirmTransID(transactionalRfcOperationIdentifier);  
-    ```  
+   ```  
+   trfcClient.RfcConfirmTransID(transactionalRfcOperationIdentifier);  
+   ```  
   
-6.  Cerrar la **TrfcClient** cuando haya terminado usarlo (una vez que haya terminado de invocar tRFCs todos).  
+6. Cerrar la **TrfcClient** cuando haya terminado con él (cuando haya terminado de invocar trfc todas).  
   
-    ```  
-    trfcClient.Close();   
-    ```  
+   ```  
+   trfcClient.Close();   
+   ```  
   
 ### <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se muestra cómo invocar BAPI_SALESORDER_CREATE como un tRFC.  
+ El ejemplo siguiente muestra cómo invocar BAPI_SALESORDER_CREATE como un tRFC.  
   
 ```  
 using System;  
@@ -306,4 +306,4 @@ namespace SapTrfcClientSM
   
 ## <a name="see-also"></a>Vea también  
 [Desarrollar aplicaciones mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md)   
- [Operaciones en tRFCs en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)
+ [Operaciones en trfc de SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)

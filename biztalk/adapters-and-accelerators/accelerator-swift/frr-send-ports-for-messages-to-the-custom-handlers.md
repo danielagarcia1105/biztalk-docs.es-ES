@@ -1,5 +1,5 @@
 ---
-title: FRR puertos de envío de mensajes a los controladores personalizados | Documentos de Microsoft
+title: Puertos de envío de FRR para mensajes a los controladores personalizados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,32 +18,32 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6babc312ddad7d77a96e29bc9e59ec9298aa6ec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df8ba2b085268f2c0c272b81b27768db716b63c0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207836"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996157"
 ---
-# <a name="frr-send-ports-for-messages-to-the-custom-handlers"></a>FRR puertos de envío de mensajes a los controladores personalizados
-Para habilitar a los controladores personalizados para FRR, debe crear una serie de puertos de envío FRR, cada uno de los cuales enruta una copia de un mensaje original de un tipo determinado para los controladores personalizados. Estos puertos de envío deben tienen los siguientes componentes de canalización:  
-  
--   El ensamblador SWIFT en la fase de ensamblado  
-  
--   El componente de canalización SWIFTSendFrrComponent en la fase de codificación  
-  
- Para todos los mensajes excepto los mensajes de SWIFT FINÉS categoría 0 a 9 y que no se envían correctamente, el puerto de envío debe tener los siguientes filtros:  
-  
--   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_SendingServiceType == [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrService  
-  
--   BTS. Operación que se establece en el valor necesario para cada tipo de mensaje. Para obtener los valores posibles para el BTS. Propiedad de operación, vea la tabla de [crear los puertos de envío FRR para enviar a los controladores personalizados](../../adapters-and-accelerators/accelerator-swift/creating-the-frr-send-ports-for-sending-to-the-custom-handlers.md).  
-  
- Para los mensajes de FIN de SWIFT categoría 0 a 9 y que no se envían correctamente, el puerto de envío debe tener los siguientes filtros:  
-  
--   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_SendingServiceTyp ==[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrService  
-  
--   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrFailed == true  
-  
--   BTS. Operación ==[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrSendMTMsg  
-  
--   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRFailedReason se establece en el valor necesario para cada tipo de mensaje. Para obtener los valores posibles para el BTS. Propiedad de operación, vea la tabla de [crear los puertos de envío FRR para enviar a los controladores personalizados](../../adapters-and-accelerators/accelerator-swift/creating-the-frr-send-ports-for-sending-to-the-custom-handlers.md).
+# <a name="frr-send-ports-for-messages-to-the-custom-handlers"></a>Puertos de envío de FRR para mensajes a los controladores personalizados
+Para habilitar los controladores personalizados para FRR, debe crear una serie de puertos de envío FRR, cada uno de los cuales enruta una copia de un mensaje original de un tipo determinado a los controladores personalizados. Estos puertos de envío deben los siguientes componentes de canalización:  
+
+- En la fase de ensamblado del ensamblador de SWIFT  
+
+- El componente de canalización SWIFTSendFrrComponent en la fase de codificación  
+
+  Para todos los mensajes excepto los mensajes de FIN de SWIFT categoría 0 al 9 que no se envían correctamente, el puerto de envío debe tener los siguientes filtros:  
+
+- [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_SendingServiceType == [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrService  
+
+- BTS. Operación establece en el valor necesario para cada tipo de mensaje. Para obtener los valores posibles para el BTS. Propiedad de operación, vea la tabla de [crear los puertos de envío FRR para enviar a los controladores personalizados](../../adapters-and-accelerators/accelerator-swift/creating-the-frr-send-ports-for-sending-to-the-custom-handlers.md).  
+
+  Para los mensajes de categoría de 0 a 9 SWIFT FIN que no se envían correctamente, el puerto de envío debe tener los siguientes filtros:  
+
+- [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_SendingServiceTyp ==[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrService  
+
+- [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrFailed == true  
+
+- BTS. Operación ==[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FrrSendMTMsg  
+
+- [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRFailedReason establecido en el valor necesario para cada tipo de mensaje. Para obtener los valores posibles para el BTS. Propiedad de operación, vea la tabla de [crear los puertos de envío FRR para enviar a los controladores personalizados](../../adapters-and-accelerators/accelerator-swift/creating-the-frr-send-ports-for-sending-to-the-custom-handlers.md).

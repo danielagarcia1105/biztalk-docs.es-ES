@@ -1,5 +1,5 @@
 ---
-title: Generación de confirmación; error porque se ha alcanzado el límite máximo del número de control de conjunto de transacciones de Edifact para la configuración global | Documentos de Microsoft
+title: Error en la generación de confirmación ya se alcanzó el límite máximo del número de control de conjunto de transacciones de Edifact para la configuración global | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5e8bf660045bbfd1fb105f2538605302b08ab95
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: d3cbc92a2d911e839731b66599b9b4c51cd1cc0e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26006501"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002477"
 ---
 # <a name="acknowledgement-generation-has-failed-as-maximum-limit-of-edifact-transaction-set-control-number-has-been-reached-for-global-settings"></a>Error en la generación de confirmación; se ha alcanzado el límite máximo del número de control de conjunto de transacciones de Edifact para la configuración global
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de BizTalk Server|  
-|Componente|Motor EDI|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Error en la generación de confirmación; se ha alcanzado el límite máximo del número aceptable de control de grupo de transacciones de Edifact para la configuración de invitado. Para restablecer el contador, vaya a la pantalla de función de remitente de configuración global, al campo UNH 1 del administrador de acuerdos de socios comerciales.|  
+|                 |                                                                                                                                                                                                                                                           |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                     |
+| Versión del producto |                                                                                                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                                 |
+|    Identificador del evento     |                                                                                                                             -                                                                                                                             |
+|  Origen del evento   |                                                                                                                    EDI de BizTalk Server                                                                                                                     |
+|    Componente    |                                                                                                                        Motor EDI                                                                                                                         |
+|  Nombre simbólico  |                                                                                                                             -                                                                                                                             |
+|  Texto del mensaje   | Error en la generación de confirmación; se ha alcanzado el límite máximo del número aceptable de control de grupo de transacciones de Edifact para la configuración de invitado. Para restablecer el contador, vaya a la pantalla de función de remitente de configuración global, al campo UNH 1 del administrador de acuerdos de socios comerciales. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server no pudo generar una confirmación para el intercambio EDIFACT porque el número de control que especificó en el número de referencia del conjunto de transacciones (UNH1) de la confirmación es mayor que el valor máximo permitido para UNH1. En esta instancia, BizTalk Server usó las propiedades globales de EDI para crear la confirmación.  

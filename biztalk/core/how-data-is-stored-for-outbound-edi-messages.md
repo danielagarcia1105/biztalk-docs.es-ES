@@ -1,5 +1,5 @@
 ---
-title: Cómo se almacenan los datos para los mensajes EDI salientes | Documentos de Microsoft
+title: Cómo se almacenan los datos de los mensajes EDI salientes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f98d5113c63e29f3f4b85834b7ca1aa0836d0a5d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 3cb6768605c39eff857a5dda4ed523dd1b524b5d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25975843"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001421"
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a>Cómo se almacenan los datos correspondientes a mensajes EDI de salida
 Para generar una entrada del informe de estado correspondiente a un intercambio de salida, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo lo siguiente:  
@@ -58,46 +58,46 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 ## <a name="data-stored-by-the-receive-pipeline-for-each-technical-acknowledgment-received-in-response-to-an-outbound-interchange"></a>Datos almacenados por la canalización de recepción correspondientes a cada confirmación técnica recibida en respuesta a un intercambio de salida  
  La canalización de recepción crea un registro en el almacén de datos de informes de estado para cada confirmación técnica que recibe. La canalización de recepción crea un registro de cada intercambio recibido en el almacén de datos de informe de estado. crea una entrada del informe de estado de confirmación técnica en el almacén de datos para cada confirmación técnica recibida como respuesta a un intercambio enviado a un socio comercial. La confirmación técnica es TA1 para X12 y el mensaje CONTRL con solo el segmento UCI para EDIFACT. Los datos almacenados incluyen:  
   
--   Tipo de registro = Estado de confirmación del intercambio  
+- Tipo de registro = Estado de confirmación del intercambio  
   
--   Dirección de confirmación del intercambio = Envío – Datos actualizados  
+- Dirección de confirmación del intercambio = Envío – Datos actualizados  
   
--   Receptor del intercambio = Datos actualizados (necesarios para la correlación)  
+- Receptor del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Remitente del intercambio = Datos actualizados (necesarios para la correlación)  
+- Remitente del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Fecha del intercambio = Datos actualizados (necesarios para la correlación X12)  
+- Fecha del intercambio = Datos actualizados (necesarios para la correlación X12)  
   
--   Id. de control del intercambio = Datos actualizados (necesarios para la correlación)  
+- Id. de control del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Estado de confirmación del intercambio = generado o no es aplicable \<consultar Nota 0\> -actualizar datos  
+- Estado de confirmación del intercambio = generado o no aplicable \<consultar Nota 0\> -actualización de datos  
   
--   Id. de control de confirmación del intercambio= Sin valor – se aplicará en el envío  
+- Id. de control de confirmación del intercambio= Sin valor – se aplicará en el envío  
   
--   Fecha de confirmación del intercambio = Sin valor – se aplicará en el envío  
+- Fecha de confirmación del intercambio = Sin valor – se aplicará en el envío  
   
--   Hora de confirmación del intercambio = Sin valor – se aplicará en el envío  
+- Hora de confirmación del intercambio = Sin valor – se aplicará en el envío  
   
--   Código de confirmación/acción = datos actualizados \<consultar Nota 1\> (de X12-TA104 o EDIFACT-UCI4) *  
+- Código de confirmación/acción = datos actualizados \<consultar Nota 1\> (de X12-TA104 o EDIFACT-UCI4) *  
   
--   Código de nota de confirmación = datos actualizados \<consultar Nota 2\> (de X12-TA105, no es aplicable a EDIFACT) *  
+- Código de nota de confirmación = datos actualizados \<consultar Nota 2\> (de X12-TA105, no es aplicable a EDIFACT) *  
   
- Se utilizan los siguientes códigos de confirmación/acción:  
+  Se utilizan los siguientes códigos de confirmación/acción:  
   
 |Datos en código de confirmación/acción|Descripción del error para informes|Comentario (aplicabilidad)|  
 |------------------------------|-------------------------------------|-------------------------------|  
-|A|Aceptado|X12|  
+|Un|Aceptado|X12|  
 |E|Aceptado con errores registrados|X12|  
 |P|Parcialmente aceptado|X12|  
-|L|Rechazado|X12|  
+|R|Rechazado|X12|  
 |4|Rechazado|EDIFACT|  
 |8|Aceptado/Parcialmente aceptado|EDIFACT|  
   
  Se utilizan los siguientes códigos de nota de confirmación:  
   
-|Datos en código de nota de confirmación (en X12)|Description|  
+|Datos en código de nota de confirmación (en X12)|Descripción|  
 |--------------------------------------|-----------------|  
-|000|Success|  
+|000|Correcto|  
 |001|Falta de coincidencia del número de control de intercambio.|  
 |002|Estándar no admitido.|  
 |003|Versión de los controles incompatible.|  
@@ -109,9 +109,9 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 |009|Id. de receptor de intercambio desconocido.|  
 |010|Valor del calificador de información de autorización no válido|  
 |011|Valor de la información de autorización no válido|  
-|012|Valor del calificador de información de seguridad no válido.|  
+|012|Valor del calificador de información de seguridad no válido|  
 |013|Valor de información de seguridad no válido.|  
-|014|Valor de fecha de intercambio no válido|  
+|014|Valor de fecha del intercambio no válido|  
 |015|Valor de hora de intercambio no válido|  
 |016|Valor de identificador de estándares de intercambio no válido|  
 |017|Valor de Id. de versión de intercambio no válido.|  
@@ -127,7 +127,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 |027|Separador de elemento de componente no válido.|  
 |028|Fecha de entrega no válida en solicitud de entrega aplazada.|  
 |029|Hora de entrega no válida en solicitud de entrega aplazada.|  
-|030|Código de tiempo de entrega no válido en la solicitud de entrega aplazada.|  
+|030|Código en tiempo de entrega no válida en solicitud de entrega aplazada.|  
 |031|Calificación de servicio no válida.|  
   
 ## <a name="data-updated-by-the-receive-pipeline-for-each-technical-acknowledgment-received-in-response-to-an-outbound-interchange"></a>Datos actualizados por la canalización de recepción correspondientes a cada confirmación técnica recibida en respuesta a un intercambio de salida  
@@ -146,33 +146,33 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
  Los datos almacenados incluyen:  
   
--   Dirección de confirmación del intercambio = Recepción – Datos existentes  
+- Dirección de confirmación del intercambio = Recepción – Datos existentes  
   
--   Estado de la confirmación y del intercambio = Recibido  
+- Estado de la confirmación y del intercambio = Recibido  
   
--   Receptor del intercambio = Datos existentes  
+- Receptor del intercambio = Datos existentes  
   
--   Remitente del intercambio = Datos existentes  
+- Remitente del intercambio = Datos existentes  
   
--   Fecha del intercambio = Datos existentes  
+- Fecha del intercambio = Datos existentes  
   
--   Id. de control de intercambio = Datos existentes  
+- Id. de control de intercambio = Datos existentes  
   
--   Id. de control de confirmación del intercambio = Datos actualizados  
+- Id. de control de confirmación del intercambio = Datos actualizados  
   
--   Fecha de confirmación del intercambio = Datos actualizados  
+- Fecha de confirmación del intercambio = Datos actualizados  
   
--   Hora de confirmación del intercambio = Datos actualizados  
+- Hora de confirmación del intercambio = Datos actualizados  
   
--   Código de confirmación/acción = datos actualizados (de X12-TA104 o EDIFACT-UCI4) * \<consultar Nota 1\>  
+- Código de confirmación/acción = datos actualizados (de X12-TA104 o EDIFACT-UCI4) * \<consultar Nota 1\>  
   
--   Código de nota de confirmación 2 = datos actualizados (de X12-TA105 y sin valor para EDIFACT) * \<consultar Nota 2\>  
+- Código de nota de confirmación 2 = datos actualizados (de X12-TA105 y sin valor para EDIFACT) * \<consultar Nota 2\>  
   
- Los datos de confirmación X12:TA1-104 o EDIFACT UCI4 se asignarán del modo siguiente:  
+  Los datos de confirmación X12:TA1-104 o EDIFACT UCI4 se asignarán del modo siguiente:  
   
 |Datos en código de confirmación/acción|Asignado para informes de estado|Comentario|  
 |------------------------------|---------------------------------|-------------|  
-|A|Aceptado|X12|  
+|Un|Aceptado|X12|  
 |P|Parcialmente aceptado|X12|  
 |R, M, W, X|Rechazado|X12|  
 |E|Aceptado con errores|X12|  
@@ -183,7 +183,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 |Datos en código de nota de confirmación (en X12)|Asignado para informes de estado|  
 |--------------------------------------|---------------------------------|  
-|000|Success|  
+|000|Correcto|  
 |001|Falta de coincidencia del número de control de intercambio.|  
 |002|Estándar no admitido.|  
 |003|Versión de los controles incompatible.|  
@@ -195,9 +195,9 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 |009|Id. de receptor de intercambio desconocido.|  
 |010|Valor del calificador de información de autorización no válido|  
 |011|Valor de la información de autorización no válido|  
-|012|Valor del calificador de información de seguridad no válido.|  
+|012|Valor del calificador de información de seguridad no válido|  
 |013|Valor de información de seguridad no válido.|  
-|014|Valor de fecha de intercambio no válido|  
+|014|Valor de fecha del intercambio no válido|  
 |015|Valor de hora de intercambio no válido|  
 |016|Valor de identificador de estándares de intercambio no válido|  
 |017|Valor de Id. de versión de intercambio no válido.|  
@@ -213,62 +213,62 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 |027|Separador de elemento de componente no válido.|  
 |028|Fecha de entrega no válida en solicitud de entrega aplazada.|  
 |029|Hora de entrega no válida en solicitud de entrega aplazada.|  
-|030|Código de tiempo de entrega no válido en la solicitud de entrega aplazada.|  
+|030|Código en tiempo de entrega no válida en solicitud de entrega aplazada.|  
 |031|Calificación de servicio no válida.|  
   
 ## <a name="data-stored-by-the-receive-pipeline-for-each-functional-acknowledgment-received-in-response-to-outbound-interchanges"></a>Datos almacenados por la canalización de recepción correspondientes a cada confirmación funcional recibida en respuesta a intercambios de salida  
  La canalización de recepción crea un registro en el almacén de datos de informes de estado para cada confirmación funcional que recibe.  La confirmación técnica es 997 para X12 y el mensaje CONTRL completo para EDIFACT. Se creará una entrada por grupo. Durante su creación, se usan los datos procedentes del intercambio y los encabezados de grupo. Los datos almacenados incluyen:  
   
--   Tipo de registro = Estado de la confirmación funcional  
+- Tipo de registro = Estado de la confirmación funcional  
   
--   Dirección de confirmación funcional = Envío  
+- Dirección de confirmación funcional = Envío  
   
--   Estado de confirmación funcional = \<generado o no está disponible, consulte la nota 1\>  
+- Estado de confirmación funcional = \<generado o no aplicable, consultar Nota 1\>  
   
--   Receptor del intercambio = Datos actualizados (necesarios para la correlación)  
+- Receptor del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Remitente del intercambio = Datos actualizados (necesarios para la correlación)  
+- Remitente del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Fecha del intercambio = Datos actualizados (necesarios para la correlación X12)  
+- Fecha del intercambio = Datos actualizados (necesarios para la correlación X12)  
   
--   Id. de control del intercambio = Datos actualizados (necesarios para la correlación)  
+- Id. de control del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Número de control de grupo = Datos actualizados ("opcional para EDIFACT" y necesario para la correlación X12)  
+- Número de control de grupo = Datos actualizados ("opcional para EDIFACT" y necesario para la correlación X12)  
   
--   Código de Id. funcional = Datos actualizados (GS01/UNG01)  
+- Código de Id. funcional = Datos actualizados (GS01/UNG01)  
   
--   Número de conjuntos de transacciones = Datos actualizados (UNE1/UNZ1)  
+- Número de conjuntos de transacciones = Datos actualizados (UNE1/UNZ1)  
   
--   Id. de control de intercambio de reconocimiento funcional = Sin valor – se aplicará en el envío  
+- Id. de control de intercambio de reconocimiento funcional = Sin valor – se aplicará en el envío  
   
--   Fecha de intercambio de reconocimiento funcional = Sin valor – se aplicará en el envío  
+- Fecha de intercambio de reconocimiento funcional = Sin valor – se aplicará en el envío  
   
--   Hora de intercambio de confirmación funcional = Sin valor – se aplicará en el envío  
+- Hora de intercambio de confirmación funcional = Sin valor – se aplicará en el envío  
   
--   Número de conjuntos de transacciones recibidos = Datos actualizados (X12-AK903 y calculado por el motor para la codificación EDIFACT)  
+- Número de conjuntos de transacciones recibidos = Datos actualizados (X12-AK903 y calculado por el motor para la codificación EDIFACT)  
   
--   Número de conjuntos de transacciones aceptados = Datos actualizados (X12-AK904 y calculado por el motor para la codificación EDIFACT)  
+- Número de conjuntos de transacciones aceptados = Datos actualizados (X12-AK904 y calculado por el motor para la codificación EDIFACT)  
   
--   Código de confirmación/acción = datos actualizados \<consultar Nota 2\> (de X12-AK901 o EDIFACT-UCI4) *  
+- Código de confirmación/acción = datos actualizados \<consultar Nota 2\> (desde X12 AK901 o EDIFACT-UCI4) *  
   
--   Código de error y de error de sintaxis = Datos actualizados (X12-AK905, EDIFACT UCI5) Nota 3  
+- Código de error y de error de sintaxis = Datos actualizados (X12-AK905, EDIFACT UCI5) Nota 3  
   
--   Código de error 2 de confirmación X12 adicional = Datos actualizados (X12-AK906)  
+- Código de error 2 de confirmación X12 adicional = Datos actualizados (X12-AK906)  
   
--   Código de error 3 de confirmación X12 adicional = Datos actualizados (X12-AK907)  
+- Código de error 3 de confirmación X12 adicional = Datos actualizados (X12-AK907)  
   
--   Código de error 4 de confirmación X12 adicional = Datos actualizados (X12-AK908)  
+- Código de error 4 de confirmación X12 adicional = Datos actualizados (X12-AK908)  
   
--   Código de error 5 de confirmación X12 adicional = Datos actualizados (X12-AK909)  
+- Código de error 5 de confirmación X12 adicional = Datos actualizados (X12-AK909)  
   
- Se utilizarán los siguientes códigos de confirmación/acción:  
+  Se utilizarán los siguientes códigos de confirmación/acción:  
   
 |Datos en código de confirmación/acción|Descripción del error para informes|Comentario (aplicabilidad)|  
 |------------------------------|-------------------------------------|-------------------------------|  
-|A|Aceptado|X12|  
+|Un|Aceptado|X12|  
 |E|Aceptado con errores|X12|  
 |P|Parcialmente aceptado|X12|  
-|L|Rechazado|X12|  
+|R|Rechazado|X12|  
 |4|Rechazado|EDIFACT|  
 |7|Aceptado/Parcialmente aceptado|EDIFACT|  
   
@@ -314,7 +314,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 |46|Juego de caracteres no admitido|  
 |47|Funcionalidad de sobre no admitida|  
 |48|Infracción de condición de dependencia|  
-|70|Conjunto de transacciones falta o identificador de conjunto de transacción no válido|  
+|70|Conjunto de transacciones falta o identificador del conjunto de transacciones no válido|  
 |71|Número de control de grupo o conjunto de transacciones no coincidente|  
 |72|Id. de segmento no reconocido.|  
 |73|XML no está en la posición correcta|  
@@ -350,53 +350,53 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
  Los datos almacenados incluyen:  
   
--   Tipo de registro = Estado de la confirmación funcional  
+- Tipo de registro = Estado de la confirmación funcional  
   
--   Dirección de confirmación funcional = Recepción  
+- Dirección de confirmación funcional = Recepción  
   
--   Estado de confirmación funcional = Datos actualizados como Recibidos  
+- Estado de confirmación funcional = Datos actualizados como Recibidos  
   
--   Receptor del intercambio = Datos existentes  
+- Receptor del intercambio = Datos existentes  
   
--   Remitente del intercambio = Datos existentes  
+- Remitente del intercambio = Datos existentes  
   
--   Fecha del intercambio = Datos existentes  
+- Fecha del intercambio = Datos existentes  
   
--   Id. de control de intercambio = Datos existentes  
+- Id. de control de intercambio = Datos existentes  
   
--   Número de control de grupo = Datos existentes  
+- Número de control de grupo = Datos existentes  
   
--   Código de Id. funcional = Datos existentes  
+- Código de Id. funcional = Datos existentes  
   
--   Número de conjuntos de transacciones = Datos existentes  
+- Número de conjuntos de transacciones = Datos existentes  
   
--   Id. de control de intercambio de reconocimiento funcional = Datos actualizados  
+- Id. de control de intercambio de reconocimiento funcional = Datos actualizados  
   
--   Fecha de intercambio de reconocimiento funcional = Datos actualizados  
+- Fecha de intercambio de reconocimiento funcional = Datos actualizados  
   
--   Hora de intercambio de confirmación funcional = Datos actualizados  
+- Hora de intercambio de confirmación funcional = Datos actualizados  
   
--   Número de conjuntos de transacciones entregados = Datos actualizados (X12-AK903 y no aplicable a EDIFACT)  
+- Número de conjuntos de transacciones entregados = Datos actualizados (X12-AK903 y no aplicable a EDIFACT)  
   
--   Número de conjuntos de transacciones aceptados = Datos actualizados (X12-AK904 y no aplicable a EDIFACT)  
+- Número de conjuntos de transacciones aceptados = Datos actualizados (X12-AK904 y no aplicable a EDIFACT)  
   
--   Código de confirmación/acción = Datos actualizados (X12 AK901 y UCI4) Consultar nota 1  
+- Código de confirmación/acción = Datos actualizados (X12 AK901 y UCI4) Consultar nota 1  
   
--   Código de error y de error de sintaxis = (X12 AK905 y UCI5) Consultar nota 2  
+- Código de error y de error de sintaxis = (X12 AK905 y UCI5) Consultar nota 2  
   
--   Código de error 2 de confirmación X12 adicional = Datos actualizados (X12-AK906)  
+- Código de error 2 de confirmación X12 adicional = Datos actualizados (X12-AK906)  
   
--   Código de error 3 de confirmación X12 adicional = Datos actualizados (X12-AK907)  
+- Código de error 3 de confirmación X12 adicional = Datos actualizados (X12-AK907)  
   
--   Código de error 4 de confirmación X12 adicional = Datos actualizados (X12-AK908)  
+- Código de error 4 de confirmación X12 adicional = Datos actualizados (X12-AK908)  
   
--   Código de error 5 de confirmación X12 adicional = Datos actualizados (X12-AK909)  
+- Código de error 5 de confirmación X12 adicional = Datos actualizados (X12-AK909)  
   
- Se utilizarán los siguientes códigos de confirmación/acción:  
+  Se utilizarán los siguientes códigos de confirmación/acción:  
   
 |Datos en código de confirmación/acción|Asignado para informes de estado|Comentario|  
 |------------------------------|---------------------------------|-------------|  
-|A|Aceptado|X12|  
+|Un|Aceptado|X12|  
 |P|Parcialmente aceptado|X12|  
 |R, M, W, X|Rechazado|X12|  
 |E|Aceptado con errores|X12|  
@@ -445,7 +445,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
 |46|Juego de caracteres no admitido|  
 |47|Funcionalidad de sobre no admitida|  
 |48|Infracción de condición de dependencia|  
-|70|Conjunto de transacciones falta o identificador de conjunto de transacción no válido|  
+|70|Conjunto de transacciones falta o identificador del conjunto de transacciones no válido|  
 |71|Número de control de grupo o conjunto de transacciones no coincidente|  
 |72|Id. de segmento no reconocido.|  
 |73|XML no está en la posición correcta|  

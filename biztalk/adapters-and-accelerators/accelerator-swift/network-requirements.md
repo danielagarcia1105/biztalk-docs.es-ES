@@ -1,5 +1,5 @@
 ---
-title: Requisitos de red | Documentos de Microsoft
+title: Requisitos de red | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,14 +15,14 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f945201cb19f4281980583f847a587fb1c2f6ecc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dbc2db94a98e7bfca6b5fc5b9c16ceb304b5d22b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22213972"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988469"
 ---
 # <a name="network-requirements"></a>Requisitos de red
-Necesitará los siguientes componentes de red para crear la arquitectura de implementación recomendada:  
-  
--   Un servidor de seguridad como la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Security and Acceleration (ISA) Server.
+Necesita los siguientes componentes de red para crear la arquitectura de implementación recomendada:  
+
+- Un servidor de seguridad como el Microsoft Internet Security and Acceleration (ISA) Server.

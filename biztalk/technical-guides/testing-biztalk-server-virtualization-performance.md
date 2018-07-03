@@ -1,5 +1,5 @@
 ---
-title: Probar el rendimiento de la virtualización de servidor BizTalk Server | Documentos de Microsoft
+title: Las pruebas de rendimiento de la virtualización de servidor BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8d45567918cebd18bfea7bf30f31b299f6bed02d
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 3f07c6bf8371e1db84ed574d7c737d4cc5b3903b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26008573"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993701"
 ---
-# <a name="testing-biztalk-server-virtualization-performance"></a>Probar el rendimiento de la virtualización de servidor BizTalk Server
-Cada uno de los escenarios de prueba de rendimiento que se describe en esta guía se implementaron en equipos físicos en un laboratorio de pruebas de Microsoft y, a continuación, se realiza la misma prueba de carga en cada arquitectura de sistemas distintos. El sistema operativo de host en cada equipo físico era una instalación completa de [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits, con el rol de servidor de Hyper-V instalado. Las máquinas virtuales que se usan para probar el servidor BizTalk Server se han configurado con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits como el sistema operativo invitado. La máquina virtual que se usan para probar SQL Server se configuró con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits como el sistema operativo invitado. Los escenarios de prueba, métodos de prueba, los resultados de pruebas de rendimiento y su análisis posterior empleadas para formular una serie de procedimientos recomendados y orientación para diseñar, implementar, y optimizar virtualiza [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+# <a name="testing-biztalk-server-virtualization-performance"></a>Las pruebas de rendimiento de la virtualización de servidor BizTalk Server
+Cada uno de los escenarios de prueba de rendimiento descritos en esta guía se han implementado en equipos físicos en un laboratorio de pruebas de Microsoft y, a continuación, se realizó la misma prueba de carga en cada arquitectura de sistemas distintos. El sistema operativo host en cada equipo físico era una instalación completa de [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits, con el rol de servidor de Hyper-V instalado. Las máquinas virtuales que se usa para pruebas de BizTalk Server se han configurado con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits como el sistema operativo invitado. La máquina virtual que se usa para pruebas de SQL Server se configuró con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits como el sistema operativo invitado. Los escenarios de prueba, los métodos de prueba, los resultados de pruebas de rendimiento y su análisis posterior se usaron para formular una serie de procedimientos recomendados y orientación para diseñar, implementar, y optimizar virtualizadas [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   **Escenario de prueba 1: Línea de base** : el primer escenario se diseñó para establecer el rendimiento de línea de base de un entorno de BizTalk Server que se ejecuta en solo un hardware físico. Para este escenario BizTalk Server y SQL Server se han instalado y ejecución en solo un hardware físico.  
+- **Escenario de prueba 1: Línea base** : el primer escenario se diseñó para establecer el rendimiento de la base de un entorno de BizTalk Server que se ejecuta en hardware físico solo. En este escenario de BizTalk Server y SQL Server se instalaron y ejecutar en hardware físico solo.  
   
--   **Escenario de prueba 2: Virtual BizTalk Server/físico SQL Server** -el segundo escenario se diseñó para determinar el impacto de rendimiento de BizTalk Server de hospedaje en varias máquinas virtuales de invitado en el mismo servidor físico. Resultados de las pruebas realizadas desde varios equipos virtuales configuraciones se compararon con una procesamiento de la máquina física con el mismo número de procesadores lógicos como el número total dispersión en todas las máquinas virtuales.  
+- **Escenario de prueba 2: Virtual BizTalk Server/físico SQL Server** -el segundo escenario se diseñó para determinar el impacto de rendimiento del servidor BizTalk Server que hospeda en varias máquinas virtuales de invitado en el mismo servidor físico. Procedente de varios equipos virtuales configuraciones fueron, a continuación, en comparación con una máquina física de procesamiento con el mismo número de procesadores lógicos como el número total de resultados de pruebas dispersión en todas las máquinas virtuales.  
   
--   **Escenario de prueba 3: Virtual BizTalk Server/Virtual SQL Server en los hosts de Hyper-V físicos independientes** -el tercer escenario se realiza para determinar el impacto de rendimiento de BizTalk Server y SQL Server en un entorno virtualizado. Las pruebas se realizaron con BizTalk Server en máquinas virtuales de Hyper-V con las bases de datos de BizTalk hospedados en una instancia de SQL Server que se ejecuta en una máquina virtual de Hyper-V. En este escenario, las máquinas virtuales de BizTalk Server y las máquinas virtuales de SQL Server se hospedan en los hosts de Hyper-V físicos independientes.  
+- **Escenario de prueba 3: Virtual BizTalk Server/Virtual SQL Server en hosts de Hyper-V físicos independientes** -llevó a cabo el tercer escenario para determinar el impacto de rendimiento de la ejecución de BizTalk Server y SQL Server en un entorno virtualizado. Se realizaron pruebas con que se ejecutan en máquinas virtuales de Hyper-V con las bases de datos de BizTalk hospedados en una instancia de SQL Server que se ejecuta en una máquina virtual de Hyper-V de BizTalk Server. Para este escenario, las máquinas virtuales de BizTalk Server y las máquinas virtuales de SQL Server se hospedan en hosts de Hyper-V físicos independientes.  
   
--   **Prueba escenario 4: Consolidación de servidores-la consolidación de una completa BizTalk grupo incluidas SQL en un servidor físico en Hyper-V** : en el escenario, todas las máquinas virtuales (VM) necesarias para ejecutar la aplicación de prueba se hospedan en un servidor físico. El propósito de este escenario es determinar los costes de rendimiento de host de SQL Server y máquinas virtuales de BizTalk Server en un entorno consolidado.  
+- **Escenario de prueba 4: Consolidación de servidores-consolidar una completa BizTalk Group incluidos de SQL en un servidor físico en Hyper-V** : en el escenario, todas las máquinas virtuales (VM) necesarias para ejecutar la aplicación de prueba se hospedan en un servidor físico. El propósito de este escenario es determinar los costos de rendimiento de SQL Server y máquinas virtuales de BizTalk Server en un entorno consolidado de hospedaje.  
   
- En esta sección se proporciona información general de la aplicación de prueba y la arquitectura de servidor que se usa para cada escenario y también presenta indicadores clave de rendimiento (KPI) observados durante las pruebas.  
+  Esta sección proporciona información general de la aplicación de prueba y la arquitectura de servidor que se usa para cada escenario y también presenta indicadores clave de rendimiento (KPI) observados durante las pruebas.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

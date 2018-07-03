@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Crear y configurar una entidad de destino | Documentos de Microsoft'
+title: 'Paso 3: Crear y configurar una entidad de destino | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,30 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66d955aeaabe4d7207a07827de04c1c21e4c2c7a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 086f2ff18db68651187e1b7392d5995f231234c4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25961346"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997869"
 ---
 # <a name="step-3-create-and-configure-a-destination-party"></a>Paso 3: Crear y configurar una entidad de destino
-En este paso, crear y configurar una entidad de destino para el escenario de lote de crear. También selecciona los mensajes que [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] lotes y el lote programa, tal como se define para esa entidad. Puede programar la hora de envío de lote como una hora después de copiar los archivos en la carpeta. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]los lotes de cualquier mensaje recibido posteriormente con una frecuencia de una hora.  
+En este paso, crear y configurar una entidad de destino para el escenario de lote de crear. También selecciona los mensajes que [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] lotes y el lote programa, tal como se define para esa entidad. Programar la hora de envío del lote como una hora después de copiar los archivos en la carpeta. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] procesa por lotes los mensajes recibidos a partir de entonces con una frecuencia de una hora.  
   
 ### <a name="to-create-and-configure-a-destination-party"></a>Para crear y configurar una entidad de destino  
   
-1.  En la consola de administración de BizTalk Server, haga clic en **partes**, seleccione **New**y, a continuación, haga clic en **entidad**.  
+1. En la consola de administración de BizTalk Server, haga clic en **partes**, apunte a **New**y, a continuación, haga clic en **entidad**.  
   
-2.  En el cuadro de diálogo Propiedades de la entidad, en la **nombre** , escriba **Tutorial_BatchDest**y, a continuación, haga clic en **Aceptar**.  
+2. En el cuadro de diálogo Propiedades de entidad en el **nombre** , escriba **Tutorial_BatchDest**y, a continuación, haga clic en **Aceptar**.  
   
-3.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en **Explorador de configuración de BTAHL7**.  
+3. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en **Explorador de configuración de BTAHL7**.  
   
-4.  En el Explorador de configuración de BTAHL7, en la **partes** en el árbol de consola, haga clic en **Tutorial_BatchDest**.  
+4. En el Explorador de configuración de BTAHL7, en el **partes** , haga clic en el árbol de consola **Tutorial_BatchDest**.  
   
-5.  Haga clic en el **confirmación** en el panel de detalles. Compruebe que la **tipo de confirmación** es **ninguno**.  
+5. Haga clic en el **confirmación** ficha en el panel de detalles. Compruebe que la **tipo de confirmación** es **ninguno**.  
   
-6.  Haga clic en el **definición por lotes** ficha. En el **mensajes disponibles** panel, seleccione **BTAHL7Schemas.ADT_A03_231_GLO_DEF**. Haga clic en el movimiento a la flecha derecha (**>>**) para agregar este esquema a **mensajes seleccionados**y, a continuación, haga clic en **guardar**.  
+6. Haga clic en el **definición de lote** ficha. En el **mensajes disponibles** panel, seleccione **BTAHL7Schemas.ADT_A03_231_GLO_DEF**. Haga clic en la migración a la flecha derecha (**>>**) para agregar este esquema a **mensajes seleccionados**y, a continuación, haga clic en **guardar**.  
   
-7.  Haga clic en el **programación por lotes** ficha. En el **repita lote después de** sección, compruebe que **horas** está seleccionada y, a continuación, escriba **1** en el **horas** cuadro. En el **horas antes del primer lote** , escriba **1**y, a continuación, haga clic en **programación iniciar**.  
+7. Haga clic en el **programación por lotes** ficha. En el **Repita el proceso por lotes después** sección, compruebe que **horas** está seleccionada y, a continuación, escriba **1** en el **horas** cuadro. En el **horas antes del primer lote** , escriba **1**y, a continuación, haga clic en **iniciar programación**.  
   
- Continúe con [paso 4: configurar la entidad de origen para el escenario de lote crear](../../adapters-and-accelerators/accelerator-hl7/step-4-configure-the-source-party-for-the-create-batch-scenario.md).
+   Continúe con [paso 4: configurar la entidad de origen para el escenario de creación de lote](../../adapters-and-accelerators/accelerator-hl7/step-4-configure-the-source-party-for-the-create-batch-scenario.md).

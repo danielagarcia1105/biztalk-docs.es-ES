@@ -1,5 +1,5 @@
 ---
-title: 'Paso 2: Agregar configuración SWIFTNet a la Paramfile para el escenario de reenvío y almacenamiento de FileAct | Documentos de Microsoft'
+title: 'Paso 2: Agregar la configuración de SWIFTNet al archivo de parámetros para el FileAct Store y reenvío | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,85 +12,85 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 394e570ad9bd1c0e7532923dac9c2cc702f2f567
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 1a287c6063ff60b08a53ec4f05d45da9225f1c30
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966418"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998245"
 ---
-# <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-fileact-store-and-forward-scenario"></a>Paso 2: Agregar configuración SWIFTNet a la Paramfile para el escenario de reenvío y almacenamiento de FileAct
-Los asociados de mensaje de servidor creados en SAG deben especificarse en el paramfile SWIFTNet para permitir que los receptores inicializar con estos valores.  
+# <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-fileact-store-and-forward-scenario"></a>Paso 2: Agregar la configuración de SWIFTNet al archivo de parámetros para el FileAct Store y el reenvío de Interact
+Los socios de mensaje de servidor que creó en SAG deben especificarse en el archivo de parámetros de SWIFTNet para habilitar destinatarios inicializar con estos valores.  
   
-Completa [paso 1: configurar el adaptador de SWIFT para el escenario al día y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario.md) antes de comenzar este paso.
+Completa [paso 1: configurar el adaptador de SWIFT para el escenario de hacia delante y FileAct Store](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario.md) antes de comenzar este paso.
   
-## <a name="add-swiftnet-configuration-to-the-paramfile"></a>Agregar configuración SWIFTNet el paramfile  
+## <a name="add-swiftnet-configuration-to-the-paramfile"></a>Agregar la configuración de SWIFTNet al archivo de parámetros  
   
-1.  Abra el paramfile en un editor de texto, como el Bloc de notas.  
+1. Abra el archivo de parámetros en un editor de texto como Bloc de notas.  
   
-2.  Se suele encontrarse en el paramfile: C:\SWIFTAlliance\RA\Ra1\cfg\paramfile  
+2. Se suele encontrarse en el archivo de parámetros: C:\SWIFTAlliance\RA\Ra1\cfg\paramfile  
   
-3.  En el paramfile, realice el cambio resaltado para especificar el nombre del asociado de mensaje de servidor:  
+3. En el archivo de parámetros, realice el cambio resaltado para especificar el nombre del mensaje del servidor asociado:  
     
-     username:snlowner  
+    username:snlowner  
   
-     subsystem_name:FileactStub  
+    subsystem_name:FileactStub  
   
-     \#subsystem_group:fileactsnf  
+    \#subsystem_group:fileactsnf  
   
-     \#subsystem_dependency:support, conjunto  
+    \#subsystem_dependency:support, Swarm  
   
-     subsystem_nature: crítico  
+    subsystem_nature: crítico  
   
-     subsystem_start:  
+    subsystem_start:  
   
-     **spawn "snlreceiver - SagMessagePartner \<MessagePartnerName de servidor para fileact SnF\> - AdapterMode fileact"**  
+    **spawn "snlreceiver - SagMessagePartner \<Server MessagePartnerName para fileact SnF\> - AdapterMode fileact"**  
   
-     * FINAL  
+    * FINAL  
   
-     subsystem_stop:  
+    subsystem_stop:  
   
-     * KILL9:snlreceiver  
+    * KILL9:snlreceiver  
   
-     * FINAL  
+    * FINAL  
   
-     subsystem_status:  
+    subsystem_status:  
   
-     * NB:1:snlreceiver  
+    * NB:1:snlreceiver  
   
-     * FINAL  
+    * FINAL  
   
-     start_event:SNL001:Subsystem FileactStubSnF está activo  
+    start_event:SNL001:Subsystem FileactStubSnF está activo  
   
-     stop_event:SNL002:Subsystem FileactStubSnF está inactivo  
+    stop_event:SNL002:Subsystem FileactStubSnF está inactivo  
   
-     \#subsystem_name:User  
+    \#subsystem_name:User  
   
-     \##subsystem_group:user  
+    \##subsystem_group:user  
   
-     \##subsystem_dependency:  
+    \##subsystem_dependency:  
   
-     \#subsystem_nature: crítico  
+    \#subsystem_nature: crítico  
   
-     \#subsystem_start:  
+    \#subsystem_start:  
   
-     \#* FINAL  
+    \#* FINAL  
   
-     \#subsystem_stop:  
+    \#subsystem_stop:  
   
-     \#* FINAL  
+    \#* FINAL  
   
-     \#subsystem_status:  
+    \#subsystem_status:  
   
-     \#* FINAL  
+    \#* FINAL  
   
-     #<a name="starteventsnl001subsystem-user-is-up"></a>start_event:SNL001:Subsystem usuario está activo  
+    # <a name="starteventsnl001subsystem-user-is-up"></a>start_event:SNL001:Subsystem usuario está activo  
   
-     #<a name="stopeventsnl002subsystem-user-is-down"></a>stop_event:SNL002:Subsystem usuario está inactivo  
+    # <a name="stopeventsnl002subsystem-user-is-down"></a>stop_event:SNL002:Subsystem usuario está inactivo  
     
   
 ## <a name="complete-steps"></a>Complete los pasos
- [Escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/fileact-store-and-forward-scenario.md)   
- [Paso 1: Configurar el adaptador de SWIFT para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario.md)   
- [Paso 3: Crear puertos de envío y puertos de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md)   
+ [FileAct Store y reenvío de Interact](../../adapters-and-accelerators/fileact-interact/fileact-store-and-forward-scenario.md)   
+ [Paso 1: Configurar el adaptador de SWIFT para el FileAct Store y el reenvío de Interact](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario.md)   
+ [Paso 3: Crear puertos de envío y recepción para el FileAct Store y el reenvío de Interact](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md)   
  [Paso 4: Probar el escenario integral de almacenamiento y reenvío de FileAct](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-end-to-end-scenario.md)

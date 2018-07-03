@@ -1,6 +1,6 @@
 ---
-title: Administrar canalizaciones | Documentos de Microsoft
-description: Vínculos rápidos para habilitar el seguimiento y las propiedades de canalización en un puerto de envío o ubicación de recepción de BizTalk Server
+title: Administración de canalizaciones | Microsoft Docs
+description: Vínculos rápidos para habilitar el seguimiento y las propiedades de canalización en un puerto de envío o ubicación de recepción en BizTalk Server
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0edfbdd97e134abc6f153acf136ff62a979f8b0c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4b15931468b5ba3bf43f227563dd270aabbfa29b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262540"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995261"
 ---
 # <a name="managing-pipelines"></a>Administrar canalizaciones
 
@@ -29,16 +29,16 @@ En esta sección se proporcionan instrucciones acerca del uso de la consola de a
   
  No es posible agregar una canalización a una aplicación de manera individual; una canalización se agrega a una aplicación del modo que se especifica a continuación:  
   
--   Al agregar un ensamblado de BizTalk que contiene una canalización a la aplicación, como se describe en [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
+- Cuando agrega un ensamblado de BizTalk que contiene una canalización a la aplicación, como se describe en [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
   
--   Al importar un archivo .msi en una aplicación que incluye un ensamblado de BizTalk que contiene una canalización, como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
+- Al importar un archivo .msi en una aplicación que incluye un ensamblado de BizTalk que contiene una canalización, como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
   
--   Cuando un programador implementa en una aplicación un ensamblado que contiene una canalización desde Visual Studio, como se describe en [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
+- Cuando un programador implementa en una aplicación un ensamblado que contiene una canalización desde Visual Studio, como se describe en [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
   
- Para obtener información general acerca de las canalizaciones, consulte [canalizaciones](../core/pipelines.md). Para obtener información sobre el desarrollo de canalizaciones, consulte [crear canalizaciones mediante canalización el diseñador](../core/creating-pipelines-using-pipeline-designer.md).  
+  Para obtener información general acerca de las canalizaciones, consulte [canalizaciones](../core/pipelines.md). Para obtener información sobre el desarrollo de canalizaciones, consulte [crear canalizaciones utilizando Diseñador de canalizaciones](../core/creating-pipelines-using-pipeline-designer.md).  
   
 > [!NOTE]
->  Puede usar el modelo de objetos de Microsoft Windows Management Instrumentation (WMI) para crear y ejecutar scripts que automatizan las tareas administrativas. Para obtener información acerca del uso de WMI, consulte el **referencia de clase WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+>  Puede usar el modelo de objetos de Microsoft Windows Management Instrumentation (WMI) para crear y ejecutar los scripts que automatizan las tareas administrativas. Para obtener información sobre el uso de WMI, vea el **referencia de clases WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="next-steps"></a>Pasos siguientes
   

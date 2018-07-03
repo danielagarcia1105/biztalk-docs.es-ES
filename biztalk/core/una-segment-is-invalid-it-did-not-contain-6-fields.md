@@ -1,5 +1,5 @@
 ---
-title: El segmento UNA no es válido. No contenía 6 campos | Documentos de Microsoft
+title: El segmento UNA no es válido. No contenía 6 campos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00d2a66e414bfe41e03c1e096034a620369064b2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 469ce2e3d8b82b876053df93bb66fbea0ec1354f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286404"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001693"
 ---
 # <a name="una-segment-is-invalid-it-did-not-contain-6-fields"></a>El segmento UNA no es válido. No contenía 6 campos.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|UnaDidNotContainSixDelimiters|  
-|Texto del mensaje|El segmento UNA no es válido. No contenía 6 campos.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                             UnaDidNotContainSixDelimiters                              |
+|  Texto del mensaje   |                  El segmento UNA no es válido. No contenía 6 campos.                   |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio EDIFACT entrante porque el segmento UNA contenía menos de seis elementos de datos.  

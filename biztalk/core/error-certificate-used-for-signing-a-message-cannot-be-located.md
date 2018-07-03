@@ -1,5 +1,5 @@
 ---
-title: No se encuentra el certificado usado para firmar un mensaje en el almacén de certificados local | Documentos de Microsoft
+title: No se encuentra el certificado usado para firmar un mensaje en el almacén de certificados local | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d94049a0ecca4e7aec89c5163231c0b9bf4c9e3e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: feb6a4cc1e5272a4a2c6760ca4585dd0dc10c031
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239964"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001365"
 ---
 # <a name="the-certificate-used-for-signing-a-message-cannot-be-located-in-the-local-certificate-store"></a>El certificado usado para firmar un mensaje no puede ubicarse en el almacén local de certificados
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|CertificateMissingError|  
-|Texto del mensaje|El certificado usado para firmar un mensaje no puede ubicarse en el almacén local de certificados. Huella digital del certificado: {0}|  
+|                 |                                                                                                                          |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                    |
+| Versión del producto |                                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                |
+|    Identificador del evento     |                                                            -                                                             |
+|  Origen del evento   |                  EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                  |
+|    Componente    |                                                        Motor AS2                                                        |
+|  Nombre simbólico  |                                                 CertificateMissingError                                                  |
+|  Texto del mensaje   | El certificado usado para firmar un mensaje no puede ubicarse en el almacén local de certificados. Huella digital del certificado: {0} |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que la canalización de envío no pudo procesar el mensaje saliente porque el certificado identificado como certificado de firma no se encontraba en el almacén de certificados requerido.  

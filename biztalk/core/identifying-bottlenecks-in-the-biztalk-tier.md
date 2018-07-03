@@ -1,5 +1,5 @@
 ---
-title: Identificar cuellos de botella en el nivel de BizTalk | Documentos de Microsoft
+title: Identificar cuellos de botella en el nivel de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5dd356ac3b8563d207e3534fc503711f11a9c8e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b53410466478ea7e493d043f42b5de86ec9921c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22258188"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996253"
 ---
 # <a name="identifying-bottlenecks-in-the-biztalk-tier"></a>Identificar cuellos de botella en el nivel de BizTalk
 El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:  
   
--   Recepción  
+- Recepción  
   
--   Procesamiento  
+- Procesamiento  
   
--   Transmisión  
+- Transmisión  
   
--   Seguimiento  
+- Seguimiento  
   
--   Otro  
+- Otros  
   
- Para estas áreas, si los recursos del sistema (CPU, memoria y disco) parecen estar saturados, actualice el servidor mediante el escalamiento vertical. Si los recursos del sistema no están saturados, siga los pasos descritos en esta sección.  
+  Para estas áreas, si los recursos del sistema (CPU, memoria y disco) parecen estar saturados, actualice el servidor mediante el escalamiento vertical. Si los recursos del sistema no están saturados, siga los pasos descritos en esta sección.  
   
 ## <a name="bottlenecks-in-the-receive-location"></a>Cuellos de botella en la ubicación de recepción  
  Si se empiezan a acumular mensajes en la ubicación de recepción (por ejemplo, la carpeta de recepción de archivos aumenta mucho de tamaño o la cola de salida no se purga con la suficiente rapidez), esto indica que el sistema no puede absorber datos a una velocidad suficiente para mantener la carga de entrada debido a una limitación interna (BizTalk reduce la velocidad de recepción si los suscriptores no pueden procesar datos con la suficiente velocidad, lo que crea una acumulación de datos en las tablas de base de datos). En caso de que el cuello de botella lo hayan provocado limitaciones de hardware, intente realizar un escalamiento vertical. También puede agregar una instancia de host (servidor) al host asignado al controlador de recepción para realizar un escalamiento horizontal. Utilice Perfmon para supervisar el uso de los recursos del sistema. Es importante confirmar que la ubicación de recepción externa no sea la causa del cuello de botella. Por ejemplo, el recurso compartido de archivos remoto está saturado debido a una entrada y salida de disco alta, el servidor que aloja la cola de salida remota no está saturado o al cliente usado para generar la carga HTTP/SOAP no le faltan subprocesos.  
@@ -65,12 +65,12 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
   
  Si la tabla TrackingData en la base de datos de cuadro de mensajes empieza a crear una copia de seguridad, esto se suele deber a que los trabajos de mantenimiento de datos en la base de datos BizTalkDTABb o BAMPrimaryImport no se están ejecutando según la configuración, lo que provoca el crecimiento de estas bases de datos. Una vez que estas bases de datos crezcan demasiado, esto puede tener un impacto negativo en la capacidad que tiene el host de seguimiento para insertar datos en las tablas, lo que provoca que se realice una copia de seguridad de los datos de los que se ha efectuado un seguimiento en las tablas de la base de datos de cuadro de mensajes. El crecimiento de la tabla Cuadro de mensajes->TrackingData provocará una limitación.  
   
-## <a name="other"></a>Otro  
+## <a name="other"></a>Otros  
  Configure la topología de implementación en la que las distintas funcionalidades se ejecuten en instancias de host aisladas dedicadas. De este modo, cada instancia de host tiene su propio conjunto de recursos (en un sistema de 32 bits, espacio de dirección de memoria virtual de 2 GB, identificadores, subprocesos). Si el servidor tiene potencia suficiente (espacio en cabeza de CPU, memoria) para alojar varias instancias de host, se pueden configurar todas de modo que se ejecuten en el mismo equipo físico. En caso contrario, mover la funcionalidad a los servidores dedicados también facilita el escalamiento horizontal. Ejecutar la misma funcionalidad en varios servidores también sirve para proporcionar una configuración de gran disponibilidad.  
   
 ## <a name="biztalk-system-performance-counters"></a>Contadores de rendimiento del sistema BizTalk  
   
-|Object|Instancia|Contador|Finalidad de la supervisión|  
+|Objeto|Instancia|Contador|Finalidad de la supervisión|  
 |------------|--------------|-------------|------------------------|  
 |Procesador|_Total|% de tiempo de procesador|Contención de recursos|  
 |Procesar|BTSNTSvc|Bytes virtuales|Pérdida o inundación de memoria|  
@@ -86,9 +86,9 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
  Si se implementan varias orquestaciones, éstas se pueden dar de alta en hosts de orquestación dedicados diferentes. La asignación de distintos servidores físicos a los hosts de orquestación dedicados garantiza que las distintas orquestaciones estén aisladas y no compitan por los recursos compartidos en el mismo espacio de dirección física o en el mismo servidor.  
   
 ### <a name="memory-starvation"></a>Privación de memoria  
- Los escenarios de gran rendimiento pueden suponer una mayor demanda de la memoria del sistema. Puesto que un proceso de 32 bits está limitado por la cantidad de memoria que puede consumir, se recomienda separar la funcionalidad de recepción/procesamiento/envío en instancias de host independientes, de modo que cada host reciba su propio espacio de dirección de 2 GB. Además, si se están ejecutando varias instancias de host en el mismo servidor físico, resulta útil actualizar a memoria de 4/8 GB con el fin de evitar tener que intercambiar los datos al disco desde la memoria real. Orquestaciones de larga ejecución pueden mantener la memoria asignada ya está causando inundación de memoria y, por tanto, limitación. Mensajes de gran tamaño pueden hacer que el consumo de memoria alta.  
+ Los escenarios de gran rendimiento pueden suponer una mayor demanda de la memoria del sistema. Puesto que un proceso de 32 bits está limitado por la cantidad de memoria que puede consumir, se recomienda separar la funcionalidad de recepción/procesamiento/envío en instancias de host independientes, de modo que cada host reciba su propio espacio de dirección de 2 GB. Además, si se están ejecutando varias instancias de host en el mismo servidor físico, resulta útil actualizar a memoria de 4/8 GB con el fin de evitar tener que intercambiar los datos al disco desde la memoria real. Las orquestaciones de larga ejecución puede mantener la memoria asignada ya causando inundación de memoria y, por tanto, limitación. Mensajes de gran tamaño pueden provocar también el consumo de memoria alta.  
   
- Es posible superar este problema de inundación de memoria durante el procesamiento de mensajes de gran tamaño mediante la disminución del **tamaño de la cola de mensajes interna** y **mensajes en curso por CPU** valores para el host específico.  
+ Es posible superar este problema de inundación de memoria cuando se están procesando mensajes de gran tamaño, disminuyendo la **tamaño de la cola de mensajes interna** y **mensajes en curso por CPU** valores para el host específico.  
   
 ### <a name="disk-contention"></a>Contención del disco  
  Si los discos están saturados (por ejemplo, los transportes de archivo y MSMQ) considere la posibilidad de actualizar a varios ejes y crear bandas de disco con RAID 1 + 0. Además siempre que use el archivo de transporte es importante asegurarse de que las carpetas (recepción y envío) no aumentan demasiado grandes (> 50.000 archivos).  
@@ -110,7 +110,7 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
   
 ## <a name="biztalk-application-counters"></a>Contadores de la aplicación de BizTalk  
   
-|Object|Instancia|Contador|Description|  
+|Objeto|Instancia|Contador|Descripción|  
 |------------|--------------|-------------|-----------------|  
 |Mensajería de BizTalk|RxHost|Documentos recibidos/seg.|Tasa de entrada|  
 |Mensajería de BizTalk|TxHost|Documentos procesados/seg.|Tasa de salida|  
@@ -125,7 +125,7 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
 |BizTalk:Agente de mensaje|HostName|Estado de la limitación de publicación de mensajes|Afecta a los transportes XLANG y de entrada|  
   
 ### <a name="where-do-i-start"></a>¿Dónde debo empezar?  
- Supervisión de la **estado de limitación de entrega de mensajes** y **estado de limitación de publicación de mensajes** para cada host instancia suele ser un buen lugar para comenzar. Si el valor de estos contadores no es cero, esto indica que se está produciendo una limitación dentro del sistema de BizTalk y se puede analizar más la causa del cuello de botella. Para obtener descripciones de los otros contadores de rendimiento, consulte [identificar cuellos de botella en el nivel de base de datos](http://msdn.microsoft.com/library/f1dc58b5-73b0-41b5-9a1e-c0698485c732).  
+ Supervisión de la **estado de limitación de entrega de mensajes** y **estado de limitación de publicación de mensajes** para cada host de la instancia normalmente es un buen lugar para comenzar. Si el valor de estos contadores no es cero, esto indica que se está produciendo una limitación dentro del sistema de BizTalk y se puede analizar más la causa del cuello de botella. Para obtener descripciones de los otros contadores de rendimiento, consulte [identificar cuellos de botella en el nivel de base de datos](http://msdn.microsoft.com/library/f1dc58b5-73b0-41b5-9a1e-c0698485c732).  
   
 ## <a name="backlog-buildup"></a>Acumulación de datos  
  Para un escenario de implementación 1-1 en el que 1 mensaje recibido produce 1 mensaje procesado y transmitido, si la Tasa saliente no es igual a la Tasa entrante, se está produciendo una acumulación de datos en algún lugar del sistema. Se puede supervisar el tamaño de la cola de impresión para este tipo de situaciones.  

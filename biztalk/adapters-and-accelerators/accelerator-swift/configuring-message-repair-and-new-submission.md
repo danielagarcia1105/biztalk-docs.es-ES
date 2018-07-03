@@ -1,5 +1,5 @@
 ---
-title: Configuración de reparación de mensajes y nuevo envío | Documentos de Microsoft
+title: Configuración de reparación de mensajes y nuevo envío | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,19 +16,19 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d2cdbad69b017a3927d3912de42053072d061b6
-ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
+ms.openlocfilehash: 0544adb9fc2ffa60bfc3b69ebee1937e5eb7a18a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "34848972"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995797"
 ---
 # <a name="configuring-message-repair-and-new-submission"></a>Configuración de reparación de mensajes y nuevo envío
-Debe realizar los pasos en las secciones siguientes para configurar la característica de reparación de mensajes y nuevo envío de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)], tal y como se muestra en la ilustración siguiente.  
+Debe realizar los pasos en las secciones siguientes para configurar la característica de reparación de mensajes y nuevo envío de Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)], como se muestra en la ilustración siguiente.  
   
  ![](../../adapters-and-accelerators/accelerator-swift/media/a4swift-message-repair-configuration.gif "A4SWIFT_Message_Repair_Configuration")  
   
- En el Asistente para la instalación de A4SWIFT, puede elegir instalar reparación de mensajes y nuevo envío y conciliación de respuesta de FIN (FRR), o reparación de mensajes y nuevo envío sin FRR o FRR sin reparación de mensajes y nuevo envío. Como resultado, las instrucciones de esta sección no se da por supuesto que está instalando y configurando FRR. , Sin embargo, se da por supuesto que ha llevado a cabo los pasos descritos en la [Guía de configuración de componentes de A4SWIFT](../../adapters-and-accelerators/accelerator-swift/a4swift-component-configuration-guide.md) sección.  
+ En el Asistente para instalación de A4SWIFT, puede elegir instalar la reparación de mensajes y nuevo envío y conciliación de respuesta de FIN (FRR), o reparación de mensajes y nuevo envío sin FRR o FRR sin reparación de mensajes y nuevo envío. Como resultado, las instrucciones de esta sección no suponen que va a instalar y configurar FRR. Sin embargo,, suponga que ha realizado los pasos descritos en la [Guía de configuración de componentes de A4SWIFT](../../adapters-and-accelerators/accelerator-swift/a4swift-component-configuration-guide.md) sección.  
   
  Esta sección contiene:  
   

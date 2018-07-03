@@ -1,5 +1,5 @@
 ---
-title: La ubicación del proyecto no está vacía | Documentos de Microsoft
+title: La ubicación del proyecto no está vacía | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2de1e1dd381a75f596b4980430ddcc5d6d8982b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5fc106b534973f13544b9bafa85f190d8ed2c255
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278788"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994293"
 ---
 # <a name="the-project-location-is-not-empty"></a>La ubicación del proyecto no está vacía
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|La ubicación del proyecto "{0}" no está vacía. Debe llevar a cabo una de las siguientes acciones: 1. Elija una ubicación diferente para el nuevo proyecto, 2. Especificar sobrescribir para volver a usar la ubicación existente, o 3. Elimine manualmente el contenido de la ubicación del proyecto.|  
+|                 |                                                                                                                                                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                 |
+| Versión del producto |                                                                                             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                                                             |
+|    Identificador del evento     |                                                                                                                         0                                                                                                                          |
+|  Origen del evento   |                                                                                                                         0                                                                                                                          |
+|    Componente    |                                                                                                                         0                                                                                                                          |
+|  Nombre simbólico  |                                                                                                                         0                                                                                                                          |
+|  Texto del mensaje   | La ubicación del proyecto "{0}" no está vacío. Deberá hacer lo siguiente: 1. Elija una ubicación diferente para el nuevo proyecto, 2. Especificar sobrescribir para volver a usar la ubicación existente o 3. Elimine manualmente el contenido de la ubicación del proyecto. |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que el directorio virtual donde se intenta publicar el servicio no está vacío.  

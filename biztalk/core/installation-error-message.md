@@ -1,5 +1,5 @@
 ---
-title: Mensaje de Error de instalación | Documentos de Microsoft
+title: Mensaje de Error de instalación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,17 +15,17 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5ec99a2e9f20b09c4daddad0336037c7f539782a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 1fe3b422c860b4b697b259dc731f5484fac87455
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25971922"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001813"
 ---
 # <a name="installation-error-message"></a>Mensaje de error de instalación
 Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service, definir una ubicación de recepción o de envío puede dar lugar al siguiente error:  
   
- El motor de mensajería no se pudo agregar una dirección URL de recepción "\< dirección URL de ubicación de envío/recepción\>" para el adaptador "TIBCO EMS". Motivo: "ensamblado de nombre de archivo o TIBCO. EMS o uno de sus dependencias no se encontró."  
+ El motor de mensajería no se pudo agregar una dirección URL de recepción "\< dirección URL de ubicación de envío/recepción\>" al adaptador "TIBCO EMS". Motivo: "archivo o ensamblado nombre TIBCO. EMS o una de sus dependencias, no se encontró."  
   
 ## <a name="possible-causes"></a>Posibles causas  
  Este error se suele producir por una de las siguientes causas.  
@@ -50,11 +50,11 @@ Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Se
   
  Siga estos pasos para eliminar el mensaje de error:  
   
-1.  Con un editor de texto, abra el archivo BTSNTSVC.exe.config.  
+1. Con un editor de texto, abra el archivo BTSNTSVC.exe.config.  
   
-     El archivo se encuentra en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] directorio (la ubicación de instalación predeterminada es: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]).  
+    El archivo se encuentra en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] directorio (la ubicación de instalación predeterminada es: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]).  
   
-2.  Agregue la siguiente entrada al archivo BTSNTSVC.exe.config, como un elemento secundario de la \<assemblyBinding\> elemento:  
+2. Agregue la siguiente entrada al archivo BTSNTSVC.exe.config, como un elemento secundario de la \<assemblyBinding\> elemento:  
   
 ```  
 <dependentAssembly>  
@@ -65,7 +65,7 @@ Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Se
 </dependentAssembly>  
 ```  
   
- Si no se ha modificado previamente el archivo BTSNTSVC.exe.config, el \<assemblyBinding\> elemento no sería similar al siguiente:  
+ Si el archivo BTSNTSVC.exe.config no se ha modificado anteriormente, el \<assemblyBinding\> elemento no tendría el aspecto siguiente:  
   
 ```  
 <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  
@@ -80,18 +80,18 @@ Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Se
 </assemblyBinding>  
 ```  
   
-1.  En un símbolo del sistema, escriba el comando: `GACUTIL /L TIBCO.EMS`.  
+1. En un símbolo del sistema, escriba el comando: `GACUTIL /L TIBCO.EMS`.  
   
-2.  Copie el número de versión del ensamblado TIBCO.EMS desde la salida.  
+2. Copie el número de versión del ensamblado TIBCO.EMS desde la salida.  
   
-    > [!CAUTION]
-    >  Aparecen dos números de versión: uno es el número de versión de la utilidad gacutil. Desea que el segundo número de versión, que aparece justo después **versión =**.  
+   > [!CAUTION]
+   >  Aparecen dos números de versión: uno es el número de versión de la utilidad gacutil. Desea que el segundo número de versión, que aparece justo después **versión =**.  
   
-3.  Pegue el número de versión en el archivo BTSNTSVC.exe.config, entre comillas, justo después de **newVersion =** (caracteres en negrita en el ejemplo XML anterior).  
+3. Pegue el número de versión en el archivo BTSNTSVC.exe.config, entre las comillas, justo después de **newVersion =** (caracteres en negrita en el ejemplo XML anterior).  
   
-4.  Guarde el archivo BTSNTSVC.exe.config modificado.  
+4. Guarde el archivo BTSNTSVC.exe.config modificado.  
   
-5.  Reinicie el host [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+5. Reinicie el host [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="see-also"></a>Vea también  
  [Solución de problemas de TIBCO Enterprise Message Service](../core/troubleshooting-tibco-enterprise-message-service.md)

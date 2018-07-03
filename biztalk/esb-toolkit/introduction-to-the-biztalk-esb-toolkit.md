@@ -1,5 +1,5 @@
 ---
-title: Introducción al Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
+title: Introducción al Kit de herramientas ESB de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,25 +14,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e44d3a100cdaefe04cf9d3aedfa8cf969811fc5e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 5cfab980a869029d565d378aaf0f75a147403f3e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976210"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986725"
 ---
-# <a name="introduction-to-the-biztalk-esb-toolkit"></a>Introducción al Kit de herramientas de ESB de BizTalk
-Explica la arquitectura y el contenido de Microsoft [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. La documentación también muestra cómo aplicar un modelo de arquitectura de Bus de servicio de empresa (ESB) para desarrollar aplicaciones empresariales que permiten flexible y seguro, y servicios reutilizables y organización rápida de los servicios existentes en el nuevo extremo procesos empresariales.  
-  
-## <a name="what-is-an-enterprise-service-bus"></a>¿Qué es un Bus de servicio empresarial?  
- El término que bus de servicio empresarial se usa ampliamente en el contexto de la implementación de una infraestructura para habilitar la arquitectura orientada a servicios (SOA). Sin embargo, la experiencia real con la implementación de soluciones SOA ha demostrado que ESB es solo uno de muchos componentes necesarios para crear una infraestructura de orientada a servicios (SOI) completa. El término "ESB" ha evolucionado en un número de direcciones, su definición varía con la interpretación de los proveedores de plataforma de integración y ESB individuales y con los requisitos de las iniciativas SOA.  
-  
- En función de la experiencia que Microsoft ha obtenido de muchas implementaciones SOI correcta del mundo real, Microsoft considera que un Bus de servicio de empresa sea una colección de patrones de arquitectura basada en tradicional Enterprise Application Integration (EAI), middleware orientado a mensajes, servicios Web, interoperabilidad de .NET y Java, integración de sistemas de host y la interoperabilidad con registros de servicio y repositorios de activos. Figura 1 muestra la arquitectura de un Bus de servicio de la empresa.  
-  
+# <a name="introduction-to-the-biztalk-esb-toolkit"></a>Introducción al Kit de herramientas ESB de BizTalk
+Explica la arquitectura y el contenido de Microsoft [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. La documentación también muestra cómo aplicar un patrón de arquitectura de Bus de servicio empresarial (ESB) para desarrollar aplicaciones empresariales que permiten flexible y seguro, y servicios reutilizables y organización rápida de los servicios existentes en el nuevo extremo procesos empresariales.  
+
+## <a name="what-is-an-enterprise-service-bus"></a>¿Qué es un Service Bus empresarial?  
+ El término que bus de servicio empresarial se usa ampliamente en el contexto de implementación de una infraestructura para habilitar la arquitectura orientada a servicios (SOA). Sin embargo, la experiencia real con la implementación de soluciones SOA ha demostrado que ESB es sólo uno de muchos componentes necesarios para crear una infraestructura de orientada al servicio (SOI) completa. El término "ESB" ha evolucionado en una serie de instrucciones, su definición varía con la interpretación de los proveedores de plataformas de ESB e integración individuales y con los requisitos de las iniciativas SOA específicas.  
+
+ En función de la experiencia de que Microsoft ha obtenido de muchas implementaciones correctas de SOI reales, Microsoft considera que un Bus de servicio empresarial sea una colección de patrones de arquitectura basada en tradicional Enterprise Application Integration (EAI), middleware orientado a mensajes, servicios Web, interoperabilidad .NET y Java, integración de sistemas de host y la interoperabilidad con registros de servicio y repositorios de activos. Figura 1 muestra la arquitectura de un Bus de servicio de la empresa.  
+
  ![Información general de ESB](../esb-toolkit/media/esboverview.gif "ESBOverview")  
-  
+
  **Figura 1**  
-  
+
  **Una representación de alto nivel de la conectividad de la arquitectura de Bus de servicio empresarial**  
 
 <!---  Old text with old links
@@ -55,30 +55,30 @@ Explica la arquitectura y el contenido de Microsoft [!INCLUDE[esbToolkit](../inc
 -   Chappell, David. Enterprise Service Bus. Sebastopol, CA: O'Reilly Media, Inc. 2004.  
 -->
 
-  
-## <a name="the-biztalk-esb-toolkit"></a>El Kit de herramientas de ESB de BizTalk
- Esta documentación, como un todo, introduce los arquitectos y programadores a conceptos de arquitectura de ESB como los dirigidos por el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]y se explica la funcionalidad de los componentes ESB a través de un conjunto de casos de uso ESB aceptados.  
-  
- Esta sección proporciona una introducción a la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]e incluye los temas siguientes:  
-  
--   [Información general sobre el kit de herramientas de BizTalk ESB](../esb-toolkit/overview-of-the-biztalk-esb-toolkit.md)  
-  
--   [Contenido del kit de herramientas de BizTalk ESB](../esb-toolkit/contents-of-the-biztalk-esb-toolkit.md)  
-  
- Esta documentación también incluye las siguientes secciones de tema:  
-  
--   [Introducción al kit de herramientas de BizTalk ESB](../esb-toolkit/getting-started-with-the-biztalk-esb-toolkit.md)  
-  
--   [Escenarios y tareas de desarrollo clave](../esb-toolkit/key-scenarios-and-development-tasks.md)  
-  
--   [Creación de itinerarios mediante el Diseñador de itinerarios](../esb-toolkit/creating-itineraries-using-itinerary-designer.md)  
-  
--   [Aplicaciones de ejemplo del kit de herramientas de BizTalk ESB](../esb-toolkit/biztalk-esb-toolkit-sample-applications.md)  
-  
--   [Modificación y extensión del kit de herramientas de BizTalk ESB](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)  
-  
--   [Administración con el kit de herramientas de BizTalk ESB](../esb-toolkit/administration-with-the-biztalk-esb-toolkit.md)  
-  
--   [Integración de gobierno de SOA](../esb-toolkit/soa-governance-integration.md)  
-  
--   [Solucionar problemas](../esb-toolkit/troubleshooting-the-biztalk-esb-toolkit.md)
+
+## <a name="the-biztalk-esb-toolkit"></a>El Kit de herramientas de BizTalk ESB
+ Esta documentación, como un todo, presenta los arquitectos y desarrolladores a conceptos de arquitectura de ESB según la dirección indicada por el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]y se explica la funcionalidad de los componentes ESB a través de un conjunto de casos de uso comúnmente aceptados de ESB.  
+
+ Esta sección proporciona una introducción a la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]e incluye los siguientes temas:  
+
+- [Información general sobre el kit de herramientas de BizTalk ESB](../esb-toolkit/overview-of-the-biztalk-esb-toolkit.md)  
+
+- [Contenido del kit de herramientas de BizTalk ESB](../esb-toolkit/contents-of-the-biztalk-esb-toolkit.md)  
+
+  Esta documentación también incluye las siguientes secciones del tema:  
+
+- [Introducción al kit de herramientas de BizTalk ESB](../esb-toolkit/getting-started-with-the-biztalk-esb-toolkit.md)  
+
+- [Escenarios y tareas de desarrollo clave](../esb-toolkit/key-scenarios-and-development-tasks.md)  
+
+- [Creación de itinerarios mediante el Diseñador de itinerarios](../esb-toolkit/creating-itineraries-using-itinerary-designer.md)  
+
+- [Aplicaciones de ejemplo del kit de herramientas de BizTalk ESB](../esb-toolkit/biztalk-esb-toolkit-sample-applications.md)  
+
+- [Modificación y extensión del kit de herramientas de BizTalk ESB](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)  
+
+- [Administración con el kit de herramientas de BizTalk ESB](../esb-toolkit/administration-with-the-biztalk-esb-toolkit.md)  
+
+- [Integración de gobierno de SOA](../esb-toolkit/soa-governance-integration.md)  
+
+- [Solucionar problemas](../esb-toolkit/troubleshooting-the-biztalk-esb-toolkit.md)

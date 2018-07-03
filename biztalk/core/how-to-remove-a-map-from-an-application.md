@@ -1,5 +1,5 @@
 ---
-title: Cómo quitar una asignación de una aplicación | Documentos de Microsoft
+title: Cómo quitar una asignación de una aplicación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c8b264809306e2cda40cc44be1287b6c2426fb43
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8863e95aabed933872edbe9a93146e59ad7480d6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254636"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000101"
 ---
 # <a name="how-to-remove-a-map-from-an-application"></a>Cómo quitar una asignación de una aplicación
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para quitar una asignación de una aplicación de BizTalk. Puede ser conveniente quitar una asignación después de implementar una versión nueva de ella. Para obtener más información y consideraciones importantes para actualizar artefactos de la aplicación, consulte [actualizar aplicaciones de BizTalk](../core/updating-biztalk-applications.md).  
@@ -36,18 +36,18 @@ En este tema se describe cómo utilizar la consola de administración de BizTalk
 -   Como consecuencia de la eliminación del ensamblado de BizTalk, también se quitan de la base de datos de administración de BizTalk todos los artefactos que contiene el ensamblado.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-remove-a-map"></a>Para quitar una asignación  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene la asignación para quitar y, a continuación, expanda la aplicación que contiene la asignación.  
+2. En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene el mapa para quitar y, a continuación, expanda la aplicación que contiene la asignación.  
   
-3.  Haga clic en el **mapas** carpeta, haga clic en el mapa y, a continuación, haga clic en **quitar**.  
+3. Haga clic en el **mapas** carpeta, haga clic en el mapa y, a continuación, haga clic en **quitar**.  
   
 > [!NOTE]
->  Para quitar varias asignaciones, mantenga presionada la tecla MAYÚS, haga clic en cada asignación para quitar, haga clic en una de las asignaciones y, a continuación, haga clic en **quitar**.  
+>  Para quitar varias asignaciones, mantenga presionada la tecla MAYÚS, haga clic en cada asignación para quitar, haga clic en uno de los mapas y, a continuación, haga clic en **quitar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de mapas](../core/managing-maps.md)   

@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de adaptadores | Documentos de Microsoft
+title: Ejemplos de adaptadores | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,15 +16,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1d7d1aea5afa53bb334d61a1c560326b67361686
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 10dac21957095f7e7e78c7b5243541ec61e41653
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206500"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989277"
 ---
 # <a name="adapter-samples"></a>Ejemplos de adaptadores
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] incluye varios ejemplos de adaptador en su Kit de desarrollo de Software (SDK). Esta sección proporciona información detallada sobre la funcionalidad que muestra cada ejemplo de adaptador, instrucciones para compilar y ejecutar el ejemplo y los resultados que puede esperar.  
+Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] incluye varios ejemplos de adaptador en su Kit de desarrollo de Software (SDK). Esta sección proporciona información detallada sobre la funcionalidad que muestra cada ejemplo de adaptador, instrucciones para compilar y ejecutar el ejemplo y los resultados que puede esperar.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

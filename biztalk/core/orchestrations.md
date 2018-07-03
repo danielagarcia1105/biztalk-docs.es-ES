@@ -1,5 +1,5 @@
 ---
-title: Orquestaciones | Documentos de Microsoft
+title: Orquestaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,15 +19,15 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73fb7a4af3a8ef7da8e9da97047006470eb8cc18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0ef446e5cc04e7fc7b4d151d0f034ab0dee695c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22266676"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991127"
 ---
 # <a name="orchestrations"></a>Orquestaciones
-*Orquestaciones* son procesos empresariales ejecutables que se pueden suscribir para recibir y publicar (enviar) mensajes a través de la base de datos de cuadro de mensajes. Además, las orquestaciones pueden construir nuevos mensajes. Los mensajes se reciben mediante la suscripción y enrutamiento de infraestructura, descrito en [ciclo de vida de un mensaje](../core/lifecycle-of-a-message.md). Cuando se completan las suscripciones para las orquestaciones, se activa una nueva instancia y el mensaje se entrega, o, en caso de que se trate de suscripciones de instancia, la instancia vuelve a hidratarse si es necesario y el mensaje se entrega. Cuando los mensajes se envían desde una orquestación, éstos se publican en el cuadro de mensajes de la misma forma en que un mensaje que llega a la ubicación de recepción con las propiedades adecuadas se inserta en la base de datos para su enrutamiento.  
+*Orquestaciones* son procesos empresariales ejecutables que se pueden suscribir para recibir y publicar (enviar) mensajes a través de la base de datos de cuadro de mensajes. Además, las orquestaciones pueden construir nuevos mensajes. Los mensajes se reciben mediante la suscripción y la infraestructura de enrutamiento, descrito en [ciclo de vida de un mensaje](../core/lifecycle-of-a-message.md). Cuando se completan las suscripciones para las orquestaciones, se activa una nueva instancia y el mensaje se entrega, o, en caso de que se trate de suscripciones de instancia, la instancia vuelve a hidratarse si es necesario y el mensaje se entrega. Cuando los mensajes se envían desde una orquestación, éstos se publican en el cuadro de mensajes de la misma forma en que un mensaje que llega a la ubicación de recepción con las propiedades adecuadas se inserta en la base de datos para su enrutamiento.  
   
  Los mensajes que se construyen en una orquestación deben colocarse en la base de datos de cuadro de mensajes y servir de referencia para la instancia de orquestación. Sin embargo, no es aconsejable publicar mensajes, pues aún no se han enviado. El subservicio XLANG/s realiza llamadas a la API del agente de mensaje para insertar los mensajes de forma directa. Así se permite al motor de orquestaciones insertar el cuerpo del mensaje en el cuadro de mensajes y asociarlo directamente a la instancia de orquestación que se encuentra en ejecución. La persistencia del mensaje construido en la base de datos de cuadro de mensajes está coordinada con los puntos de persistencia de la orquestación como una optimización adicional de las operaciones de base de datos.  
   
@@ -46,7 +46,7 @@ ms.locfileid: "22266676"
 ## <a name="deploying-orchestrations"></a>Implementar orquestaciones  
  Cuando se especifica un enlace en tiempo de diseño, el puerto físico que coincide con los parámetros configurados en la orquestación se crea durante la implementación de la orquestación. Cuando el enlace se configura durante la implementación, los puertos que cumplan los requisitos del puerto lógico se pueden enlazar al puerto de orquestación. En el enlace dinámico, un puerto físico se crea simplemente de forma similar a la opción Especificar ahora, pero el puerto es un puerto de envío dinámico en el que no se ha configurado la información de dirección.  
   
- Un concepto que confunde a menudo es el hecho de que, aunque un puerto de envío de una orquestación se enlaza a un puerto de envío físico, éste no impide que el mensaje se entregue a otros suscriptores Es decir, si otro puerto de envío posee una suscripción a través de sus filtros para el mensaje que se envía al puerto enlazado, los dos puertos de envío reciben el mensaje. El enlace tan solo crea la suscripción de forma que el mensaje enviado desde la orquestación cumpla siempre los criterios del puerto de envío enlazado. Del mismo modo, el puerto de orquestación enlazado a un puerto de recepción crea la suscripción adecuada basado en el identificador de mensaje recepción y tipo de puerto. Las suscripciones garantizan que los mensajes que entran y salen de la orquestación se entregan a los puertos enlazados, pero los mensajes aún vaya a través de la misma publicación y suscripción mecanismo que se ha descrito anteriormente.  
+ Un concepto que confunde a menudo es el hecho de que, aunque un puerto de envío de una orquestación se enlaza a un puerto de envío físico, éste no impide que el mensaje se entregue a otros suscriptores Es decir, si otro puerto de envío posee una suscripción a través de sus filtros para el mensaje que se envía al puerto enlazado, los dos puertos de envío reciben el mensaje. El enlace tan solo crea la suscripción de forma que el mensaje enviado desde la orquestación cumpla siempre los criterios del puerto de envío enlazado. Del mismo modo, el puerto de orquestación enlazado a un puerto de recepción crea la suscripción adecuada según el identificador del mensaje recepción y tipo de puerto. Las suscripciones garantizan que los mensajes que entran y salen de la orquestación se entreguen a los puertos enlazados, pero los mensajes aún pasar por el mismo publicar y suscripción mecanismo descrito anteriormente.  
   
  Probablemente, la opción de enlace de empleo inadecuado y menos frecuente, y que provoca mayores malentendidos, es la opción de Enlace directo. El enlace directo permite a una orquestación publicar mensajes en la base de datos de cuadro de mensajes con propiedades de enrutamiento variables, tal y como ocurre con los mensajes publicados por ubicaciones de recepción. En la mensajería directa sencilla, el mensaje se publica en el cuadro de mensajes con sus propiedades promocionadas para el enrutamiento, como cualquier otro mensaje publicado que se recibe en BizTalk Server. Esto permite a los suscriptores recibir este mensaje, pero, al mismo tiempo, requiere que exista al menos un suscriptor, pues en caso contrario la orquestación recibirá un error en el enrutamiento.  
   
@@ -59,18 +59,18 @@ ms.locfileid: "22266676"
  Un problema habitual del empleo de puertos de enlace directo se produce cuando la orquestación publica un mensaje al que también está suscrita. Por ejemplo, una orquestación se configura para que se active con un mensaje PurchaseOrder. Esta orquestación utiliza un puerto directo para publicar el mensaje PurchaseOrder en el cuadro de mensajes. No obstante, además de recibir el mensaje como se esperaba, se inicia otra instancia de una orquestación, dado que también poseía una suscripción para mensajes PurchaseOrder. El procesamiento entra en un bucle infinito y el programador puede tardar cierto tiempo en averiguar lo que ocurre.  
   
 ## <a name="correlation"></a>Correlation  
- *Correlación* en orquestaciones es el mecanismo para recibir los mensajes relacionados en la misma instancia de orquestación de ejecución. En el Diseñador de orquestaciones, un programador sigue estos pasos generales para utilizar una correlación:  
+ *Correlación* en las orquestaciones es el mecanismo para recibir mensajes relacionados en la misma instancia de orquestación de ejecución. En el Diseñador de orquestaciones, un programador sigue estos pasos generales para utilizar una correlación:  
   
--   Define un tipo de correlación que incluye las propiedades promocionadas utilizadas para relacionar mensajes.  
+- Define un tipo de correlación que incluye las propiedades promocionadas utilizadas para relacionar mensajes.  
   
--   Define un conjunto de correlaciones que representa una instancia del tipo de correlación que se acaba de definir.  
+- Define un conjunto de correlaciones que representa una instancia del tipo de correlación que se acaba de definir.  
   
--   En los puertos de envío y recepción, especifica si inician o siguen un conjunto de correlaciones determinado.  
+- En los puertos de envío y recepción, especifica si inician o siguen un conjunto de correlaciones determinado.  
   
- Las suscripciones de instancia entran en juego cuando se inicia un conjunto de correlaciones, pues esto ocurre cuando se crean suscripciones para todos los puertos que siguen este conjunto de correlaciones para recibir mensajes. Puesto que el tipo de correlación define las propiedades que se van a utilizar en la correlación, el motor de orquestaciones puede extraer estas propiedades del mensaje que la acción de iniciación está enviando o recibiendo. Estos valores se utilizan para definir suscripciones para el resto de las acciones restantes que siguen este conjunto de correlaciones.  
+  Las suscripciones de instancia entran en juego cuando se inicia un conjunto de correlaciones, pues esto ocurre cuando se crean suscripciones para todos los puertos que siguen este conjunto de correlaciones para recibir mensajes. Puesto que el tipo de correlación define las propiedades que se van a utilizar en la correlación, el motor de orquestaciones puede extraer estas propiedades del mensaje que la acción de iniciación está enviando o recibiendo. Estos valores se utilizan para definir suscripciones para el resto de las acciones restantes que siguen este conjunto de correlaciones.  
   
- Es importante que los mensajes que se reciben en BizTalk Server y que pretenden utilizarse en una correlación tengan las propiedades promocionadas correctamente definidas y promocionadas en el contexto del mensaje. La mayoría de las propiedades se promocionan cuando un componente de desensamblador de una canalización extrae los valores al recibirse el mensaje en un primer momento. Por esta razón no existe posibilidad alguna de utilizar la canalización de recepción PassThrough para recibir mensajes que deben correlacionarse con una instancia de orquestación en ejecución. Este problema surge cuando se utiliza el adaptador de recepción SOAP para recibir mensajes correlacionados, puesto que la canalización PassThrough es el valor predeterminado para la canalización de recepción al utilizar el Asistente para publicación de servicios Web.  
+  Es importante que los mensajes que se reciben en BizTalk Server y que pretenden utilizarse en una correlación tengan las propiedades promocionadas correctamente definidas y promocionadas en el contexto del mensaje. La mayoría de las propiedades se promocionan cuando un componente de desensamblador de una canalización extrae los valores al recibirse el mensaje en un primer momento. Por esta razón no existe posibilidad alguna de utilizar la canalización de recepción PassThrough para recibir mensajes que deben correlacionarse con una instancia de orquestación en ejecución. Este problema surge cuando se utiliza el adaptador de recepción SOAP para recibir mensajes correlacionados, puesto que la canalización PassThrough es el valor predeterminado para la canalización de recepción al utilizar el Asistente para publicación de servicios Web.  
   
 ## <a name="see-also"></a>Vea también  
  [Artefactos](../core/artifacts.md)   
- [Crear orquestaciones mediante el Diseñador de orquestaciones](../core/creating-orchestrations-using-orchestration-designer.md)
+ [Creación de orquestaciones mediante el Diseñador de orquestaciones](../core/creating-orchestrations-using-orchestration-designer.md)

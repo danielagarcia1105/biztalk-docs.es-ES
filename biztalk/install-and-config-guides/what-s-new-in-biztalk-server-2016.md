@@ -1,9 +1,9 @@
 ---
-title: Novedades en BizTalk Server 2016 | Documentos de Microsoft
-description: Cambios y mejoras, como paquetes de características, adaptadores, seguridad, seguimiento, rendimiento etc. en BizTalk Server 2016
+title: Novedades de BizTalk Server 2016 | Microsoft Docs
+description: Los cambios y mejoras, como los feature packs, los adaptadores, seguridad, seguimiento, rendimiento y mucho más en BizTalk Server 2016
 ms.custom: ''
 ms.prod: biztalk-server
-ms.date: 11/15/2017
+ms.date: 6/22/2018
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -13,30 +13,31 @@ caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fa8e28b3c54afd130176e9bb19b2e0b1a59415d0
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: 75f9dcce6fceb9816df05549a5a4a1e9ddcd7318
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
-ms.locfileid: "25497765"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992965"
 ---
 # <a name="whats-new-in-biztalk-server-2016"></a>Novedades de BizTalk Server 2016
 Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts2016-md.md)]. 
   
-## <a name="new-in-biztalk-server-2016"></a>Nueva en BizTalk Server 2016  
+## <a name="new-in-biztalk-server-2016"></a>Novedades de BizTalk Server 2016  
   
 |Característica|Descripción|  
 |-------------|-----------------|  
 |Compatibilidad con las plataformas más recientes|[!INCLUDE[bts2016](../includes/bts2016-md.md)] incluye compatibilidad con las siguientes plataformas de Microsoft:<br /><br /> - Visual Studio 2015<br />- Windows Server 2016<br />-   [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]<br />- Office 2016<br/><br/>[Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) (Requisitos de hardware y software de BizTalk Server 2016)|  
-| Feature Pack 2 | Las mejoras incluyen una integración más estrecha con la API de administración, un adaptador de centros de eventos de Azure, copia de seguridad para la cuenta de almacenamiento de blobs de Azure, compatibilidad con particiones de Bus de servicio y mucho más. <br/><br/>[Instalación del Feature Pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[Ver lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
-| Feature Pack 1 | Es compatible con la implementación automática mediante VSTS, con el envío de datos de seguimiento a Application Insights de Azure y Power BI y con las opciones de programación avanzadas en ubicaciones de recepción, entre otros.<br/><br/>[Instalación del Feature Pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[Ver lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
-|Grupos de disponibilidad AlwaysOn de [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]|La compatibilidad incluye:<br /><br /> - El uso local y en máquinas virtuales de IaaS de [!INCLUDE[winazure](../includes/winazure-md.md)]<br />- El uso para cargas de trabajo de producción<br />- Proporciona una solución de alta disponibilidad en [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[Alta disponibilidad con AlwaysOn de SQL Server](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> Vea [transacciones para siempre AG distribuidas](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring) las características y requisitos específicos de SQL.|  
+| Feature Pack de 3 | Incluye los adaptadores de Office 365 para trabajar con correo electrónico, calendario y contactos. <br/><br/>[Instalación del Feature Pack](https://aka.ms/bts2016fp3)<br/>[Vea lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
+| Feature Pack 2 | Las mejoras incluyen una integración más estrecha con API Management, un adaptador de Azure Event Hubs, la copia de seguridad para la cuenta de almacenamiento de blobs de Azure, compatibilidad con particiones de Service Bus y mucho más. <br/><br/>[Instalación del Feature Pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[Vea lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
+| Feature Pack 1 | Es compatible con la implementación automática mediante VSTS, con el envío de datos de seguimiento a Application Insights de Azure y Power BI y con las opciones de programación avanzadas en ubicaciones de recepción, entre otros.<br/><br/>[Instalación del Feature Pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[Vea lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
+|Grupos de disponibilidad AlwaysOn de [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]|La compatibilidad incluye:<br /><br /> - El uso local y en máquinas virtuales de IaaS de [!INCLUDE[winazure](../includes/winazure-md.md)]<br />- El uso para cargas de trabajo de producción<br />- Proporciona una solución de alta disponibilidad en [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[Alta disponibilidad con AlwaysOn de SQL Server](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> Consulte [transacciones distribuidas para siempre en AG](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring) cualquier las características y requisitos específicos de SQL.|  
 |Máquinas virtuales de Azure de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en producción|Ahora, las máquinas virtuales de Azure de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] son totalmente compatibles con entornos de producción. Con el uso de AlwaysOn de [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)], ahora es posible una solución de alta disponibilidad.<br/><br/>[Alta disponibilidad con AlwaysOn de SQL Server](../core/high-availability-using-sql-server-always-on-availability-groups.md)|  
 |Adaptador de aplicación lógica|Conéctese a sus aplicaciones lógicas hospedadas en Azure y obtenga acceso a todos los conectores, incluidos Salesforce, SharePoint, CRM Online, etc. Por ejemplo, puede recibir un pedido en BizTalk Server, conectarse a su aplicación lógica y actualizar Salesforce.<br/><br/>[Adaptador de aplicación lógica](../core/logic-app-adapter.md)|  
 | Adaptador de archivo | Conéctese a un recurso compartido de archivos de almacenamiento de Azure. Puede recibir archivos desde el recurso compartido de archivos de Azure y enviar mensajes a un recurso compartido de archivos de Azure. <br/><br/>[Configurar el adaptador de archivo](../core/configure-the-file-adapter.md)|
 | Adaptador de FTP | El comando SYST ya no es necesario. Al configurar el adaptador de FTP en una ubicación de recepción o en un puerto de envío, hay una propiedad denominada **FTP Server Type**. Con esta propiedad, puede elegir el servidor de FTP que quiera, que determina si se requiere SYST. <br/><br/>Como resultado de este cambio, hay más servidores FTP "compatibles". <br/><br/> [Configurar el adaptador de FTP](../core/configuring-the-ftp-adapter.md)|
 |Adaptador SFTP| El adaptador SFTP se ha rediseñado de modo que use WinSCP para conectarse a SFTP, lo que permite la compatibilidad con más servidores SFTP. El registro del lado cliente y el cifrado adicional también son nuevos. <br/><br/>[Adaptador SFTP](../core/sftp-adapter.md)|  
-| Permitir la importación de la configuración de seguimiento | Al importar un enlace de un archivo, puede elegir importar (o no importar) las propiedades de seguimiento habilitadas en las orquestaciones, los puertos de envío, etc. Se trata de una configuración global (establecida en el nivel de grupo) para que pueda instalar esta característica en sus diversos entornos. Por ejemplo, puede importar las propiedades de seguimiento existentes de los entornos de desarrollo y no importar las propiedades de seguimiento de los entornos de producción.<br/><br/>Vea **panel de configuración de BizTalk, página grupo** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|
+| Permitir la importación de la configuración de seguimiento | Al importar un enlace de un archivo, puede elegir importar (o no importar) las propiedades de seguimiento habilitadas en las orquestaciones, los puertos de envío, etc. Se trata de una configuración global (establecida en el nivel de grupo) para que pueda instalar esta característica en sus diversos entornos. Por ejemplo, puede importar las propiedades de seguimiento existentes de los entornos de desarrollo y no importar las propiedades de seguimiento de los entornos de producción.<br/><br/>Consulte **panel de configuración de BizTalk, página grupo** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|
 | Firma de acceso compartido (SAS) | Puede usar la autenticación de SAS para la conexión de Service Bus con los adaptadores *BasicHttpRelay*, *NetTcpRelay*, *BasicHttp* y *WebHttp*.<br/><br/>[Adaptador WCF-BasicHttpRelay](../core/wcf-basichttprelay-adapter.md)<br/>[Adaptador WCF-NetTcpRelay](../core/wcf-nettcprelay-adapter.md)<br/>[Adaptador de WCF-BasicHttp](../core/wcf-basichttp-adapter.md)<br/>[Adaptador WCF-WebHttp](../core/wcf-webhttp-adapter.md)<br/><br/> El [adaptador SB-Messaging](../core/sb-messaging-adapter.md) ahora incluye los pasos para obtener los valores de Access Control (ACS) mediante PowerShell.|
 |Entrega ordenada en puertos dinámicos|Se aplica a los adaptadores que admiten la entrega ordenada en puertos de envío estáticos. Puede habilitar la opción de entrega ordenada en la consola de administración de BizTalk.<br /><br />[Cómo configurar opciones avanzadas de transporte para un puerto de envío](../core/how-to-configure-backup-transport-options-for-a-send-port.md)<br />[Entrega ordenada de mensajes](../core/ordered-delivery-of-messages.md)|  
 |Funciones hash SHA-2|SHA-2 es totalmente compatible, lo que incluye lo siguiente:<br /><br /> <ul><li>BizTalk puede usar certificados firmados con SHA2 en todos sus componentes, incluida la mensajería SSL en los adaptadores de HTTPS, FTPS, POP3 y WCF </li><li>Admite el siguiente sistema de intercambio de Estándar de cifrado avanzado (AES) para claves de firma en AS2, RosettaNet y el codificador de MIME/SMIME:<ul><li>AES128 (predeterminado)</li><li>AES192</li><li>AES256</li><br /></ul></li><li>Admite los siguientes cálculos MIC basados en SHA2 para AS2:<ul><li>SHA256 (predeterminado)</li><li>SHA384</li><li>SHA512</li><br /></ul></li><li>Admite los siguientes métodos de resumen basados en SHA2 en RosettaNet:<ul><li>SHA256 (predeterminado)</li><li>SHA384</li><li>SHA512</li><br /></ul></li><li>Los certificados SHA1 continúan trabajando para lograr la compatibilidad con versiones anteriores</li></ul><br />[Configuración de la validación (AS2)](../core/configuring-validation-as2.md)<br />[Configuración de confirmaciones (MDN) (AS2)](../core/configuring-acknowledgements-mdns-as2.md)<br />[Cómo configurar el componente de canalización de codificador de MIME/SMIME](../core/how-to-configure-the-mime-smime-encoder-pipeline-component.md)|  
@@ -49,14 +50,14 @@ Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts20
   
 ## <a name="deprecated--removed-list"></a>Lista de elementos quitados y en desuso  
   
-|del usuario|Estado|Sustituta|  
-|-------------|------------|-----------------|  
-|RFID Mobile|se quita.|Ninguno|  
-|Servidor RFID|se quita.|Ninguno|  
-|Adaptador del Servicio web o SSOM de SharePoint|se quita.|Use la opción CSOM (Modelo de objetos del lado cliente).<br /><br /> [Adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter.md)<br /><br /> [Apéndice B: Instalar el adaptador de Microsoft SharePoint](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)|  
-|Adaptador de SOAP|Obsoleto|[Adaptador de WCF-BasicHttp](../core/wcf-basichttp-adapter.md)|  
-|Antiguo adaptador de SQL|Obsoleto|Adaptador de SQL basado en WCF en [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]|  
-|UDDI|se quita.|Ninguno|  
+|               del usuario               |   Estado   |                                                                                                                                                Sustituta                                                                                                                                                |
+|-------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|             RFID Mobile             |  se quita.   |                                                                                                                                                   None                                                                                                                                                    |
+|             Servidor RFID             |  se quita.   |                                                                                                                                                   None                                                                                                                                                    |
+| Adaptador del Servicio web o SSOM de SharePoint |  se quita.   | Use la opción CSOM (Modelo de objetos del lado cliente).<br /><br /> [Adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter.md)<br /><br /> [Apéndice B: Instalar el adaptador de Microsoft SharePoint](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) |
+|            Adaptador de SOAP             | Obsoleto |                                                                                                                         [Adaptador de WCF-BasicHttp](../core/wcf-basichttp-adapter.md)                                                                                                                         |
+|           Antiguo adaptador de SQL           | Obsoleto |                                                                                                   Adaptador de SQL basado en WCF en [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]                                                                                                   |
+|                UDDI                 |  se quita.   |                                                                                                                                                   None                                                                                                                                                    |
   
 > [!IMPORTANT]
 >  Algunas de estas características en desuso pueden encontrarse en las versiones más recientes de BizTalk. En estas situaciones, considere lo siguiente:  
@@ -66,5 +67,5 @@ Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts20
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Requisitos de hardware y software](hardware-and-software-requirements-for-biztalk-server-2016.md)  
-[El programa de instalación e instalar los requisitos previos](set-up-and-install-prerequisites-for-biztalk-server-2016.md)  
+[Configurar e instalar los requisitos previos](set-up-and-install-prerequisites-for-biztalk-server-2016.md)  
 [Instalación de BizTalk](install-biztalk-server-2016.md)

@@ -1,5 +1,5 @@
 ---
-title: Business Rules Hello World1 (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Business Rules Hello World1 (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ebe9f04fc8dac06676d7f29bf5dd2ecd01e7a06c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ebf4afafeabeae8fa9dec0683bd344c40ce23da8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25967674"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990005"
 ---
 # <a name="business-rules-hello-world1-biztalk-server-sample"></a>Business Rules Hello World1 (ejemplo de BizTalk Server)
 El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas BizTalk, guardarlo en un archivo (SampleRuleSet.xml), cargarlo y ejecutarlo basado en un conjunto de ejemplos de hechos. El conjunto de reglas de ejemplos consta de una regla sencilla que implica a un elemento XML y objetos basados en .NET (propiedades y miembros) como términos de la definición de reglas.  
@@ -30,7 +30,7 @@ El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas
   
 1.  Llama al método **CreateRuleset** para generar el conjunto de reglas descrito en la sección Comentarios.  
   
-2.  Llama al método **SaveToFile** para mostrar cómo guardar un conjunto de reglas para un archivo.  
+2.  Llama al método **SaveToFile** para mostrar cómo guardar un conjunto de reglas en un archivo.  
   
 3.  Llama al método **LoadFromFile** para mostrar cómo cargar un conjunto de reglas de un archivo.  
   
@@ -43,11 +43,11 @@ El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas
 7.  Realiza una limpieza mediante la eliminación del archivo de conjunto de reglas en preparación de las ejecuciones posteriores del ejemplo.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*\>\Business Rules\Business reglas Hello World1\  
+ \<*Ejemplos de la ruta de acceso*\>\Business Rules\Business reglas World1\ Hello  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |App.ico, AssemblyInfo.cs, BusinessRulesHelloWorld1.csproj, BusinessRulesHelloWorld1.sln|Proyectos, soluciones y archivos relacionados para la parte de este ejemplo que crea, guarda, carga y ejecuta un conjunto de reglas.|  
 |HelloWorld1.cs|El archivo de Visual C# que contiene métodos para mostrar cómo se crea un conjunto de reglas, se guarda un conjunto de reglas en un archivo y se carga un conjunto de reglas desde un archivo. También contiene código adyacente que llama a estos métodos y, a continuación, ejecuta el conjunto de reglas creado.|  
@@ -56,45 +56,45 @@ El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas
 |SampleSchema.xsd|El archivo de esquemas que define un esquema simple con un elemento al que hace referencia el conjunto de reglas creado en el archivo HelloWorld1.cs. de Visual C#.|  
 |Setup.bat|Se utiliza para crear e iniciar este ejemplo.|  
 |En la carpeta \MySampleLibrary:<br /><br /> AssemblyInfo.cs, MySampleLibrary.csproj, MySampleLibrary.sln|Proyectos, soluciones y archivos relacionados para la parte de este ejemplo que proporciona la clase que define los objetos a los que hace referencia el conjunto de reglas creado.|  
-|En la carpeta \MySampleLibrary:<br /><br /> MySampleLibraryClass.cs|Archivo de Visual C# que contiene la propiedad que se hace referencia en el **IF** parte de la regla creada y el método que se puede llamar en el **, a continuación,** parte de la regla creada.|  
+|En la carpeta \MySampleLibrary:<br /><br /> MySampleLibraryClass.cs|Archivo de Visual C# que contiene la propiedad que se hace referenciada en el **IF** parte de la regla creada y el método que se puede llamar en el **, a continuación,** parte de la regla creada.|  
   
 ## <a name="building-and-initializing-this-sample"></a>Crear e inicializar este ejemplo  
  Use el siguiente procedimiento para generar e inicializar el ejemplo Business Rules Hello World1.  
   
 #### <a name="to-build-and-initialize-this-sample"></a>Para generar e inicializar el ejemplo  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Business Rules\Business reglas Hello World1\  
+    \<*Ejemplos de la ruta de acceso*\>\Business Rules\Business reglas World1\ Hello  
   
-2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
+2. Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
-    -   Compila e implementa los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] de Microsoft para este ejemplo.  
+   - Compila e implementa los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] de Microsoft para este ejemplo.  
   
-    > [!NOTE]
-    >  Antes de intentar ejecutar este ejemplo, debe confirmar que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha informado de ningún error durante el proceso de generación e inicialización.  
-  
-    > [!NOTE]
-    >  Si opta por abrir y crear los proyectos en este ejemplo sin ejecutar el archivo Setup.bat, primero debe crear un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice este par de claves para firmar los ensamblados resultantes.  
-  
-    > [!NOTE]
-    >  Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
+   > [!NOTE]
+   >  Antes de intentar ejecutar este ejemplo, debe confirmar que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha informado de ningún error durante el proceso de generación e inicialización.  
+   > 
+   > [!NOTE]
+   >  Si opta por abrir y crear los proyectos de este ejemplo sin ejecutar el archivo Setup.bat, debe crear primero un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice este par de claves para firmar los ensamblados resultantes.  
+   > 
+   > [!NOTE]
+   >  Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
   
 ## <a name="running-this-sample"></a>Ejecución del ejemplo  
  Use el siguiente procedimiento para ejecutar el ejemplo Business Rules Hello World1.  
   
 #### <a name="to-run-this-sample"></a>Para ejecutar el ejemplo  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Business Rules\Business reglas Hello World1\bin\Debug\  
+    \<*Ejemplos de la ruta de acceso*\>\Business Rules\Business reglas World1\bin\Debug\ Hello  
   
-2.  En la ventana de comandos, escriba el nombre del archivo ejecutable para este ejemplo (BusinessRulesHelloWorld1.exe) y, a continuación, presione ENTRAR.  
+2. En la ventana de comandos, escriba el nombre del archivo ejecutable para este ejemplo (BusinessRulesHelloWorld1.exe) y, a continuación, presione ENTRAR.  
   
-    > [!NOTE]
-    >  Mientras se ejecuta, este ejemplo produce el conjunto de reglas de archivo SampleRuleStore.xml en la **bin\Debug** carpeta. Cuando se pausa el ejecutable y se espera a que presione ENTRAR para finalizar, puede examinar los contenidos de este archivo. Recuerde cerrarlo antes de presionar cualquier tecla para finalizar. En caso contrario, puede que el ejecutable no pueda quitarlo en preparación de las ejecuciones posteriores del ejemplo.  
+   > [!NOTE]
+   >  Mientras se ejecuta, este ejemplo produce el conjunto de reglas de archivo SampleRuleStore.xml en la **bin\Debug** carpeta. Cuando se pausa el ejecutable y se espera a que presione ENTRAR para finalizar, puede examinar los contenidos de este archivo. Recuerde cerrarlo antes de presionar cualquier tecla para finalizar. En caso contrario, puede que el ejecutable no pueda quitarlo en preparación de las ejecuciones posteriores del ejemplo.  
   
- Según la naturaleza del conjunto de reglas creado, si ejecuta este ejemplo con el archivo de entrada de ejemplo proporcionado SampleDocumentInstance.xml, que tiene un valor de uno (1) definido para su **identificador** elemento, verá el siguiente resultado:  
+   Según la naturaleza del conjunto de reglas creado, si ejecuta este ejemplo con el archivo de entrada de ejemplo proporcionado SampleDocumentInstance.xml, que tiene un valor de uno (1) definido para su **ID** elemento, verá el siguiente resultado:  
   
 ```  
 Creating a new ruleset ...  
@@ -108,9 +108,9 @@ Press any key to finish ...
 ```  
   
 > [!NOTE]
->  El resultado que aparece en negrita, en el código anterior y en el código siguiente, el resultado generado por el objeto de negocio de ejemplo, definido por los archivos de la **MySampleLibrary** carpeta, que hace referencia el conjunto de reglas.  
+>  La salida mostrada en negrita, en el código anterior y en el código siguiente, se produce el resultado por el objeto de negocio de ejemplo, definido por los archivos en el **MySampleLibrary** carpeta, que hace referencia el conjunto de reglas.  
   
- Si cambia el valor asociado a la **identificador** elemento en el archivo de entrada de ejemplo **SampleDocumentInstance.xml** de uno (1) a dos (2), el resultado cambiará como sigue:  
+ Si cambia el valor asociado con el **ID** elemento en el archivo de entrada de ejemplo **SampleDocumentInstance.xml** de uno (1) a dos (2), la salida cambiaría como sigue:  
   
 ```  
 Creating a new ruleset ...  
@@ -123,26 +123,26 @@ MySampleBusinessObject Class -- MySampleMethod executed for object 3 with parame
 Press any key to finish ...  
 ```  
   
- No obtendrá una línea de salida para los objetos de la **MySampleBusinessObject** clase que tienen sus **MyValue** propiedad establecida en un valor (durante la construcción) que coincide con el valor asociado a la  **Id. de** elemento en el archivo de entrada de ejemplo SampleDocumentInstance.xml.  
+ No obtendrá una línea de salida para los objetos de la **MySampleBusinessObject** clase que tienen sus **MyValue** propiedad establecida en un valor (durante la construcción) que coincide con el valor asociado con el  **Id. de** elemento en el archivo de entrada de ejemplo SampleDocumentInstance.xml.  
   
 ## <a name="comments"></a>Comentarios  
  La regla creada mediante programación dentro del **CreateRuleset()** método muestra:  
   
  **IF**  
   
- **MySampleBusinessObject.MyValue** no es igual al valor de la **identificador** elemento en el documento XML.  
+ **MySampleBusinessObject.MyValue** no es igual al valor de la **ID** elemento en el documento XML.  
   
- **A CONTINUACIÓN**  
+ **THEN**  
   
- **Mysamplebusinessobject.mysamplemethod (int)** con un parámetro de número entero, disco duro codificado en la constante cinco (5) en este caso. Este método produce las líneas de salida que comienzan **MySampleBusinessObject Class –-**.  
+ **Mysamplebusinessobject.mysamplemethod (int)** con un parámetro entero, disco duro codificado en la constante cinco (5) en este caso. Este método produce las líneas de salida que comienzan **MySampleBusinessObject Class –-**.  
   
  Esta regla depende de lo siguiente:  
   
--   A **MySampleBusinessObject** clase con una propiedad pública denominada **MyValue** y llama a un método público **MySampleMethod** (que toma un parámetro de número entero).  
+- Un **MySampleBusinessObject** clase con una propiedad pública denominada **MyValue** y un método público denominado **MySampleMethod** (que toma un parámetro entero).  
   
--   Un esquema XML schema definition language (XSD) que define un documento XML que contiene un **identificador** elemento.  
+- Un esquema XML schema definition language (XSD) que define un documento XML que contiene un **ID** elemento.  
   
- Puede definir las reglas en términos de clases y esquemas pero, durante la ejecución, se necesitan las instancias de objetos de las clases relevantes y las instancias de documentos de los esquemas relevantes. Evalúe las reglas en estas instancias de tiempo de ejecución (conocidas como hechos). En este ejemplo, los hechos son varias instancias de la **MySampleBusinessObject** objeto, construido con valores diferentes para sus **MyValue** propiedad y una única instancia XML del esquema definido que contiene un valor para el **identificador** elemento.  
+  Puede definir las reglas en términos de clases y esquemas pero, durante la ejecución, se necesitan las instancias de objetos de las clases relevantes y las instancias de documentos de los esquemas relevantes. Evalúe las reglas en estas instancias de tiempo de ejecución (conocidas como hechos). En este ejemplo, los hechos son varias instancias de la **MySampleBusinessObject** objeto, construido con valores diferentes para sus **MyValue** propiedad y una sola instancia XML del esquema definido que contiene un valor para el **ID** elemento.  
   
 ## <a name="see-also"></a>Vea también  
  [Reglas de negocio (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)

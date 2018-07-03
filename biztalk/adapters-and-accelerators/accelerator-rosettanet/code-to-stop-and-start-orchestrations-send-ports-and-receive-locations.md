@@ -1,5 +1,5 @@
 ---
-title: Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación | Documentos de Microsoft
+title: Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,33 +22,33 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96b914129d9afb6dfd542f00a302e739e34dafbe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2736f76e3292c6e21a05c995afdd2808a9f60590
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210884"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995477"
 ---
 # <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a>Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación
-Este tema proporciona código de ejemplo para detener mediante programación y a partir de orquestaciones, puertos de envío y ubicaciones de recepción. Puede realizar estas acciones en todas las orquestaciones, puertos de envío y recepción ubicaciones como un grupo o individualmente. Puede incluir este código en un programa para realizar estas acciones de forma dinámica. Realizar estas acciones en la interfaz gráfica de usuario en tiempo de diseño en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], o en tiempo de ejecución en la consola de administración de BizTalk.  
+Este tema proporciona código de ejemplo para detener mediante programación y a partir de las orquestaciones, puertos de envío y ubicaciones de recepción. Puede realizar estas acciones en todas las orquestaciones, puertos de envío y recepción ubicaciones como un grupo o de forma individual. Puede incluir este código en un programa para realizar estas acciones de forma dinámica. Realizar estas acciones en la interfaz gráfica de usuario en tiempo de diseño en Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], o en tiempo de ejecución en la consola de administración de BizTalk.  
   
 > [!NOTE]
->  Para que el código iniciar y detener orquestaciones, no es necesario designar las orquestaciones, puertos de envío o ubicaciones de recepción. El código de ejemplo realiza la acción en todas las orquestaciones, puertos de envío y ubicaciones de recepción que [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] instalado en el conjunto de seguridad. Para el código que actúa sobre una orquestación única, puerto de envío, ubicación de recepción, agregue un parámetro que indica en qué orquestación, puerto de envío o ubicación que desee para ejecutar el código de recepción.  
+>  Para que el código iniciar y detener las orquestaciones, no es necesario designar las orquestaciones, puertos de envío o ubicaciones de recepción. El código de ejemplo realiza la acción en todas las orquestaciones, puertos de envío y ubicaciones de recepción que [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] instalado en el conjunto de copia. Para el código que actúa en una única orquestación, puerto de envío o ubicación de recepción, agregar un parámetro que indica en qué orquestación, puerto de envío o desea ejecutar el código de ubicación de recepción.  
   
 ## <a name="demonstrates"></a>Demostraciones  
  El código de ejemplo en este tema incluye las secciones de código independiente para hacer lo siguiente:  
   
--   Iniciar orquestaciones: iniciar todos los puertos de envío y ubicaciones de recepción y dar de alta e iniciar todas las orquestaciones  
+-   Iniciar orquestaciones, iniciar todos los puertos de envío y ubicaciones de recepción y dar de alta e iniciar todas las orquestaciones  
   
--   Detener orquestaciones, dar de baja todas las orquestaciones, dar de baja todos los puertos de envío y deshabilitar todas las ubicaciones de recepción  
+-   Detener las orquestaciones, dar de baja todas las orquestaciones, dar de baja todos los puertos de envío y deshabilitar todas las ubicaciones de recepción  
   
 -   Iniciar un puerto de envío único  
   
--   Habilitar una única ubicación de recepción  
+-   Habilitar una sola ubicación de recepción  
   
 -   Dar de baja un puerto de envío único  
   
--   Deshabilitar una única ubicación de recepción  
+-   Deshabilite una única ubicación de recepción  
   
 -   Iniciar una orquestación única  
   

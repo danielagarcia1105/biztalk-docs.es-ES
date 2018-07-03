@@ -1,5 +1,5 @@
 ---
-title: No hay ningún elemento de lote de envío de entidad | Documentos de Microsoft
+title: No hay ningún elemento por lotes para enviar para la entidad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 13f482317c09181b61deafe97fc706746be2e3a1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 096f180ada0ae99eb4ed3ce00050809f0f39ac75
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278884"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997037"
 ---
 # <a name="there-are-no-batch-elements-to-send-for-party"></a>No hay elementos de lote que enviar a la entidad
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|EmptyMessageNotPossible|  
-|Texto del mensaje|No hay elementos de lote que enviar a la entidad {0}.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                    Motor de procesamiento por lotes                                     |
+|  Nombre simbólico  |                                EmptyMessageNotPossible                                 |
+|  Texto del mensaje   |                   No hay ningún elemento por lotes para enviar para la entidad {0}                    |
   
 ## <a name="explanation"></a>Explicación  
  Esta advertencia indica que no se ha enviado ningún mensaje de lote cuando se ejecutó el desencadenador de lote porque no se había recibido ningún elemento de lote.  

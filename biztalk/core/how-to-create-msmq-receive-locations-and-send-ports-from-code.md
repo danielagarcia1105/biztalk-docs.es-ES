@@ -1,6 +1,6 @@
 ---
-title: Crear MSMQ ubicaciones de recepción y puertos de envío de código | Documentos de Microsoft
-description: Crear mediante programación MSMQ ubicaciones de recepción y puertos de envío en el servidor BizTalk Server
+title: MSMQ de crear ubicaciones de recepción y puertos de envío desde el código | Microsoft Docs
+description: Crear mediante programación MSMQ ubicaciones de recepción y puertos de envío de BizTalk Server
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,28 +13,28 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b5f00a0bfe14eeb7d4205973b3fef96e23026616
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f367680408f208d5d7a93ef45e925ddfc1893ba5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25971674"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989765"
 ---
-# <a name="create-msmq-receive-locations-and-send-ports-programmatically"></a>Crear ubicaciones de recepción de MSMQ y puertos de envío mediante programación
+# <a name="create-msmq-receive-locations-and-send-ports-programmatically"></a>Crear puertos de envío y ubicaciones de recepción de MSMQ mediante programación
 En este tema se explica cómo usar WMI para crear un puerto o una ubicación para el adaptador de MSMQ.  
   
- Para obtener más información, consulte **crear una ubicación de recepción con una fecha y hora programación configuración mediante WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+ Para obtener más información, consulte **creación de una ubicación de recepción con una fecha y hora programación configuración mediante WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="setting-property-values"></a>Configurar valores de propiedad  
  El proceso de creación un puerto o una ubicación es siempre el mismo:  
   
-1.  Crear un objeto del tipo adecuado.  
+1. Crear un objeto del tipo adecuado.  
   
-2.  Establecer el valor de propiedades en el objeto.  
+2. Establecer el valor de propiedades en el objeto.  
   
-3.  Confirmar los valores del objeto en la base de datos.  
+3. Confirmar los valores del objeto en la base de datos.  
   
- Todos los adaptadores tienen determinadas propiedades, como **HostName**en común. Establezca estas propiedades comunes mediante su asignación directa en el objeto. En el siguiente código C# se muestra un caso típico:  
+   Todos los adaptadores tienen determinadas propiedades, como **HostName**en común. Establezca estas propiedades comunes mediante su asignación directa en el objeto. En el siguiente código C# se muestra un caso típico:  
   
 ```  
 objReceiveLocation["HostName"] = "BizTalkServerApplication";  
@@ -54,7 +54,7 @@ objReceiveLocation["CustomCfg"] =
   
  Los nombres de las etiquetas del elemento CustomProps son nombres internos que el adaptador utiliza para las propiedades.  
   
- El adaptador de MSMQ tiene una única etiqueta, AdapterConfig, dentro de la etiqueta CustomProps. La etiquete AdapterConfig contiene una cadena de etiquetas XML para los valores de propiedad personalizados incluidos en una etiqueta Config. Sin embargo, las etiquetas están incluidas: "&lt;"reemplaza"\<"y"&gt;"reemplaza"\>". Por ejemplo, el XML de un subconjunto del adaptador de propiedades de MSMQ puede aparecer de la siguiente forma:  
+ El adaptador de MSMQ tiene una única etiqueta, AdapterConfig, dentro de la etiqueta CustomProps. La etiquete AdapterConfig contiene una cadena de etiquetas XML para los valores de propiedad personalizados incluidos en una etiqueta Config. Sin embargo, se codifican las etiquetas: "&lt;"reemplaza"\<"y"&gt;"reemplaza"\>". Por ejemplo, el XML de un subconjunto del adaptador de propiedades de MSMQ puede aparecer de la siguiente forma:  
   
 ```  
 <Config>  
@@ -62,14 +62,14 @@ objReceiveLocation["CustomCfg"] =
 </Config>  
 ```  
   
- Tenga en cuenta que la **vt** no se utiliza el atributo. La cadena asignada a la **CustomCfg** propiedad como se indica a continuación aparece después de la codificación:  
+ Tenga en cuenta que el **vt** no se usa el atributo. La cadena asignada a la **CustomCfg** propiedad aparece como sigue después de la codificación:  
   
 ```  
 <CustomProps><AdapterConfig vt="8"><Config><batchSize>40</batchSize></Config></AdapterConfig></CustomProps>  
 ```  
   
 ## <a name="custom-property-names"></a>Nombres de propiedades personalizadas  
- La tabla siguiente describe los nombres internos del adaptador de MSMQ **enviar** propiedades personalizadas.  
+ La tabla siguiente describen los nombres internos del adaptador de MSMQ **enviar** propiedades personalizadas.  
   
 |**Enviar el nombre de propiedad personalizada**|**Nombre para mostrar**|  
 |-----------------------------------|----------------------|  
@@ -83,7 +83,7 @@ objReceiveLocation["CustomCfg"] =
 |cola|Cola de destino|  
 |recuperable|Recoverable|  
 |segmentationSupport|Admitir segmentación|  
-|sendBatchSize|Tamaño del lote|  
+|sendBatchSize|Tamaño de lote|  
 |sendQueueName|Cola de destino|  
 |timeOut|Timeout|  
 |timeOutUnits|Unidad de tiempo de espera|  
@@ -93,11 +93,11 @@ objReceiveLocation["CustomCfg"] =
 |useJournalQueue|Usar cola de diario|  
 |userName|Nombre de usuario|  
   
- La tabla siguiente describe los nombres internos del adaptador de MSMQ **recepción** propiedades personalizadas.  
+ La tabla siguiente describen los nombres internos del adaptador de MSMQ **recepción** propiedades personalizadas.  
   
 |**Recibe el nombre de propiedad personalizada**|**Nombre para mostrar**|  
 |--------------------------------------|----------------------|  
-|batchSize|Tamaño del lote|  
+|batchSize|Tamaño de lote|  
 |Contraseña|Contraseña|  
 |Cola|Cola|  
 |serialProcessing|Procesamiento en serie|  

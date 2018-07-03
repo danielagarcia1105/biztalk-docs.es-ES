@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Configurar un puerto de envío de archivos unidireccional | Documentos de Microsoft'
+title: 'Paso 3: Configurar un puerto de envío de archivos unidireccional | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,47 +12,51 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ceb055f0d4d41eb82eb79cb549b082212fd1bbd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67cc96dfccc7256681887290ef37261c4c7fecb9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277332"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987925"
 ---
 # <a name="step-3-configure-a-one-way-file-send-port"></a>Paso 3: Configurar un puerto de envío de archivos unidireccional
 En este paso, configurará un puerto de envío de archivos unidireccional que consume el mensaje de respuesta recibido de la interfaz REST y lo copia en una ubicación de archivo.  
-  
+
 ### <a name="to-configure-a-file-send-port"></a>Procedimiento para configurar un puerto de envío de FILE  
-  
-1.  Desde la consola de administración de BizTalk Server, en la **BizTalk Application 1** nodo, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **estático Puerto de envío unidireccional**.  
-  
-2.  En la ficha General, haga lo siguiente:  
-  
-    |Use|Para|  
-    |--------------|----------------|  
-    |**Nombre**|Tipo de **SendPortOutAzureMarketPlaceData**.|  
-    |**Tipo**|Seleccione **archivo**.|  
-    |**Controlador de envío**|Seleccionar **BizTalkServerApplication**.|  
-    |**Canalización de envío**|Seleccione **PassThruTransmit**.|  
-  
-     Haga clic en **configurar**.  
-  
-3.  Desde Propiedades de transporte de archivo, haga lo siguiente:  
-  
-    |Use|Para|  
-    |--------------|----------------|  
-    |**Carpeta de recepción**|Escriba una ubicación en la que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] copia el mensaje de respuesta.|  
-    |**Nombre de archivo**|Conservar`%MessageID%.xml`|  
-  
-4.  En el **filtros** ficha, especifique el filtro para consumir todos los mensajes que se escriben en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] base de datos de cuadro de mensaje mediante el puerto de recepción que creó en [paso 2: configurar un puerto de envío de WCF-WebHttp de bidireccional](../core/step-2-configure-a-two-way-wcf-webhttp-send-port.md).  
-  
-    |||  
-    |-|-|  
-    |**Propiedad**|Establecido en **BTS. SPName**|  
-    |**Operador**|Establecido en**==**|  
-    |**Valor**|Establecido en`SendPortRESTAzureMarketPlace`|  
-  
-5.  Haga clic en **Aceptar**.  
-  
+
+1. Desde la consola de administración de BizTalk Server, bajo el **BizTalk Application 1** nodo, haga clic en **puertos de envío**, apunte a **New**y, a continuación, haga clic en **estático Puerto de envío unidireccional**.  
+
+2. En la ficha General, haga lo siguiente:  
+
+   |Use|Para|  
+   |--------------|----------------|  
+   |**Nombre**|Tipo **SendPortOutAzureMarketPlaceData**.|  
+   |**Tipo**|Seleccione **archivo**.|  
+   |**Controlador de envío**|Seleccionar **BizTalkServerApplication**.|  
+   |**Canalización de envío**|Seleccione **PassThruTransmit**.|  
+
+    Haga clic en **configurar**.  
+
+3. Desde Propiedades de transporte de archivo, haga lo siguiente:  
+
+
+   |      Use      |                                                              Para                                                               |
+   |--------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+   | **Carpeta de recepción** | Escriba una ubicación en la que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] copia el mensaje de respuesta. |
+   |   **Nombre de archivo**    |                                                       Conservar `%MessageID%.xml`                                                        |
+
+
+4. En el **filtros** ficha, especifique el filtro para consumir todos los mensajes que se escriben en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] base de datos de cuadro de mensaje que creó en el puerto de recepción [paso 2: configurar un puerto de envío de WCF-WebHttp de bidireccional](../core/step-2-configure-a-two-way-wcf-webhttp-send-port.md).  
+
+
+   |              |                                       |
+   |--------------|---------------------------------------|
+   | **Propiedad** |         Establecido en **BTS. SPName**         |
+   | **Operador** |             Establecido en **==**             |
+   |  **Value**   | Establecido en `SendPortRESTAzureMarketPlace` |
+
+
+5. Haga clic en **Aceptar**.  
+
 ## <a name="see-also"></a>Vea también  
  [Tutorial 5: Invocar una interfaz REST con BizTalk Server](../core/tutorial-5-invoking-a-rest-interface-using-biztalk-server.md)

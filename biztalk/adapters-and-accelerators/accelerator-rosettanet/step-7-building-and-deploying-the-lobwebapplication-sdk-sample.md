@@ -1,5 +1,5 @@
 ---
-title: 'Paso 7: Crear e implementar el ejemplo de SDK de LOBWebApplication | Documentos de Microsoft'
+title: 'Paso 7: Crear e implementar el ejemplo de SDK de LOBWebApplication | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92b101b47e2f83a0390a47cf6b1e4fc9a210950d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 3a0716c854c20f5ea7fa7d2ad91576cb142f6a02
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966322"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996189"
 ---
 # <a name="step-7-building-and-deploying-the-lobwebapplication-sdk-sample"></a>Paso 7: Crear e implementar el ejemplo de SDK de LOBWebApplication
-En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa para enviar solicitudes de Proceso de interfaz de socio (PIP) a Contoso. Puede encontrar el proyecto LOBWebApplication en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] carpeta del SDK. Para ejecutar la aplicación Web, tendrá que crear un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] directorio virtual de Internet Information Services (IIS) y, a continuación, compile el proyecto de LOBWebApplication.  
+En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa para enviar solicitudes de Proceso de interfaz de socio (PIP) a Contoso. Puede encontrar el proyecto LOBWebApplication en el Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] carpeta del SDK. Para ejecutar la aplicación Web, tendrá que crear un directorio virtual de Microsoft Internet Information Services (IIS) y, a continuación, compile el proyecto de LOBWebApplication.  
   
 ### <a name="to-create-the-lobwebapplication-virtual-directory"></a>Para crear el directorio virtual LOBWebApplication  
   
@@ -33,11 +33,11 @@ En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa
   
 3.  Haga clic con el botón secundario en **Sitio Web predeterminado**, elija **Nuevo**y, a continuación, haga clic en **Directorio virtual**.  
   
-4.  En el **Welcometo el Asistente para creación de directorio Virtual** página, haga clic en **siguiente**.  
+4.  En el **Welcometo el Asistente para creación de un directorio Virtual** página, haga clic en **siguiente**.  
   
 5.  En la página **Alias del directorio virtual** , en el cuadro **Alias** , escriba **LOBWebApplication**y, a continuación, haga clic en **Siguiente**.  
   
-6.  En la página **Directorio de contenido del sitio Web** , haga clic en **Examinar**. En el cuadro de diálogo Buscar carpeta, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\ LOBWebApplication**y, a continuación, haga clic en **Aceptar**. Haga clic en **Siguiente**.  
+6.  En la página **Directorio de contenido del sitio Web** , haga clic en **Examinar**. En el cuadro de diálogo Buscar carpeta, mover a ***\<unidad\>*:\Program comunes\Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBWebApplication**y, a continuación, Haga clic en **Aceptar**. Haga clic en **Siguiente**.  
   
 7.  En la página **Permisos de acceso de directorio virtual** , anule la selección de **Leer**, seleccione **Ejecutar scripts (por ejemplo, ASP)** y, a continuación, haga clic en **Siguiente**.  
   
@@ -65,11 +65,11 @@ En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa
   
 2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto o solución**.  
   
-3.  En el cuadro de diálogo Abrir proyecto, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBWebApplication** , seleccione la **LOBWebApplication.sln** archivo de solución y, a continuación, haga clic en **abiertos**.  
+3.  En el cuadro de diálogo Abrir proyecto, vaya a ***\<unidad\>*:\Program comunes\Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBWebApplication**, seleccione el  **LOBWebApplication.sln** archivo de solución y, a continuación, haga clic en **abierto**.  
   
-4.  En el Explorador de soluciones, haga clic con el botón derecho en **http://localhost/LOBWebApplication**y, a continuación, haga clic en **Agregar referencia**.  
+4.  En el Explorador de soluciones, haga clic en **http://localhost/LOBWebApplication**y, a continuación, haga clic en **Agregar referencia**.  
   
-5.  En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**. En el cuadro de diálogo Agregar referencia, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\Bin** carpeta.  
+5.  En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**. En el cuadro de diálogo Agregar referencia, vaya a ***\<unidad\>*:\Program comunes\Microsoft BizTalk \<versión\> Accelerator for RosettaNet\Bin** carpeta.  
   
 6.  En la carpeta Bin, seleccione los ensamblados **Microsoft.Solutions.BTARN.ConfigurationManager.dll** y **Microsoft.Solutions.BTARN.Shared.dll** assemblies, y then click **Abrir**.  
   

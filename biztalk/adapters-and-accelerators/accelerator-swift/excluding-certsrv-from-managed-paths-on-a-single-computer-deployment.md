@@ -1,5 +1,5 @@
 ---
-title: Exclusión de CertSrv de rutas de acceso en la implementación de una solo equipo administradas | Documentos de Microsoft
+title: Exclusión de CertSrv de rutas de acceso en la implementación de una único equipo administradas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,26 +16,26 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7c77fc1733859cd903bafcebc26162323feff82d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1651131369ef4a8e0c4683b82f5b97163e33382f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207436"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987845"
 ---
-# <a name="excluding-certsrv-from-managed-paths-on-a-single-computer-deployment"></a>Exclusión de CertSrv de rutas de acceso administradas en la implementación de una solo equipo
-Si ha implementado [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] en un único equipo y también instala el servidor de certificados en el mismo equipo, debe excluir el servidor de certificados (CertSrv) de las rutas de acceso administradas en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Administración Central de SharePoint Server.  
+# <a name="excluding-certsrv-from-managed-paths-on-a-single-computer-deployment"></a>Exclusión de CertSrv de las rutas administradas en una único equipo de implementación
+Si ha implementado [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] en un único equipo y también instala el servidor de certificados en el mismo equipo, deberá excluir el servidor de certificados (CertSrv) desde las rutas de acceso administradas en Administración Central de Microsoft SharePoint Server.  
   
 ### <a name="to-exclude-certsrv-from-the-managed-paths"></a>Para excluir CertSrv de las rutas de acceso administradas  
   
 1.  Haga clic en **Inicio**, seleccione **Todos los programas**, seleccione **Herramientas administrativas**y, a continuación, haga clic en **Administración central de SharePoint**.  
   
-2.  En la ventana de Administración Central, en la **configuración del servidor Virtual** sección, haga clic en **configurar el servidor virtual**.  
+2.  En la ventana de Administración Central, en el **configuración del servidor Virtual** sección, haga clic en **configurar servidor virtual**.  
   
 3.  En la ventana Lista de servidores virtuales, haga clic en **sitio Web predeterminado**.  
   
-4.  En la ventana de configuración del servidor Virtual, en la **administración del servidor Virtual** sección, haga clic en **definir rutas administradas**.  
+4.  En la ventana de configuración del servidor Virtual, en el **administración del servidor Virtual** sección, haga clic en **definir rutas administradas**.  
   
-5.  En la ventana Definir rutas de acceso administradas, en la **agregar una nueva ruta de acceso** sección, escriba **CertSrv** en el **ruta de acceso** cuadro de texto. En el **tipo** sección, haga clic en **ruta excluida**. Haga clic en **Aceptar**.  
+5.  En la ventana Definir rutas administradas, en el **agregar una nueva ruta de acceso** sección, escriba **CertSrv** en el **ruta** cuadro de texto. En el **tipo** sección, haga clic en **ruta excluida**. Haga clic en **Aceptar**.  
   
-6.  Cierre la ventana de definir rutas de acceso administradas.
+6.  Cierre la ventana de definir rutas administradas.

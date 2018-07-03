@@ -1,5 +1,5 @@
 ---
-title: Archivar y purgar la base de datos de seguimiento | Documentos de Microsoft
+title: Archivar y purgar la base de datos de seguimiento | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,14 +12,14 @@ caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 52e1f7b75f677bfd4818ddedcb74927633031a14
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.openlocfilehash: 3556618df02c7a8c9df5d0d55c27eb69ed91eae2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
-ms.locfileid: "29710847"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000861"
 ---
-# <a name="archive-and-purge-the-biztalkdtadb-database"></a>Archivar y purgar la base de datos de BizTalkDTADb
+# <a name="archive-and-purge-the-biztalkdtadb-database"></a>Archivar y purgar la base de datos BizTalkDTADb
 
 ## <a name="overview"></a>Información general
 Puesto que BizTalk Server procesa cada vez más datos en el sistema, el tamaño de la base de datos de seguimiento de BizTalk (BizTalkDTADb) continúa aumentando. Un crecimiento descontrolado reduce el rendimiento del sistema y puede dar lugar a errores en el Servicio de descodificación de datos de seguimiento (TDDS). Además de los datos de seguimiento general, se pueden acumular también los mensajes controlados en la base de datos de cuadro de mensajes, lo que daría lugar a un rendimiento pobre del disco.  
@@ -36,9 +36,9 @@ BizTalk Server automatiza ambos procesos mediante el trabajo DTA Purge and Archi
   
  En el trabajo DTA Archive and Purge, la suma de los parámetros LiveHours y LiveDays es la ventana de actividad de los datos que desea mantener en el entorno de BizTalk Server. Se purgan todos los datos asociados con una instancia completada anterior a esta ventana de actividad de datos. De forma predeterminada, el trabajo DTA Archive and Purge no se encuentra habilitado. Primero, es preciso configurar el trabajo y habilitarlo.  
   
- Por ejemplo, puede configurar el trabajo DTA Purge and Archive para que se ejecute cada 20 minutos y establece la actividad = 1 y LiveDays = 0. La primera vez que este trabajo de agente SQL Server ejecuta (T0), toma una copia de seguridad de la base de datos de seguimiento mediante la creación de un archivo y se guarda una entrada en la base de datos con esta marca de tiempo. Un archivo correcto resulta necesario para purgar datos de seguimiento. Si el archivo se ha realizado correctamente, se purgan todos los datos asociados con las instancias que se completaron hace más de una hora. Cada vez que se ejecuta el trabajo, se purgan los datos completados hace más de una hora. En la tercera ejecución (después de una hora), se crea un nuevo archivo que contiene los datos de todas las instancias que se insertaron en la base de datos de seguimiento durante el último período de una hora.  
+ Por ejemplo, puede configurar el trabajo DTA Purge and Archive para ejecutarse cada 20 minutos y establecer actividad = 1 y LiveDays = 0. La primera vez que este trabajo del Agente SQL Server ejecuta (T0), toma una copia de seguridad de la base de datos de seguimiento mediante la creación de un archivo y se guarda una entrada en la base de datos con esta marca de tiempo. Un archivo correcto resulta necesario para purgar datos de seguimiento. Si el archivo se ha realizado correctamente, se purgan todos los datos asociados con las instancias que se completaron hace más de una hora. Cada vez que se ejecuta el trabajo, se purgan los datos completados hace más de una hora. En la tercera ejecución (después de una hora), se crea un nuevo archivo que contiene los datos de todas las instancias que se insertaron en la base de datos de seguimiento durante el último período de una hora.  
   
- Le mostramos cómo debe configurar el archivo y purga paso en el trabajo DTA Purge and Archive para que coincida con el ejemplo:  
+ Así es cómo se configuraría el archivo y purga paso en el trabajo DTA Purge and Archive para que coincida con el ejemplo:  
   
 ```  
 exec dtasp_BackupAndPurgeTrackingDatabase  
@@ -52,27 +52,27 @@ null, --@nvcValidatingServer
   
  La marca de tiempo de la última copia de seguridad se almacena en la base de datos de seguimiento de BizTalk y garantiza que los datos tan sólo se purgan si se encuentran en el archivo anterior. Para obtener mayor confiabilidad, los archivos se superponen durante, aproximadamente, 10 minutos. En la siguiente ilustración, basada en el ejemplo anterior, se muestra el proceso de purga condicional. Tenga en cuenta que las tareas de archivo y purga no siempre ocurren al mismo tiempo.  
   
- **Proceso de purga condicional**  
+ **Proceso de purga**  
   
- ![Proceso de purga condicional](../core/media/archivingandpurging.gif "archivingandpurging")  
+ ![Proceso de purga](../core/media/archivingandpurging.gif "archivingandpurging")  
   
 ## <a name="hard-purge"></a>Purga incondicional
   
- Puesto que la purga condicional tan sólo purga los datos asociados con instancias completadas, si tuviera un alto número de instancias en bucle cuya ejecución se produjese de manera indefinida, la base de datos de seguimiento crecería y estas instancias nunca se podrían purgar. La fecha de la purga incondicional permite que se purgue toda la información anterior al intervalo especificado, a excepción de la información que indica la existencia de un servicio. Establecer la purga incondicional utilizando la  **@nHardDeleteDays**  parámetro en el archivo y la depuración paso a paso en el trabajo de purga de DTA Archive and. La configuración de purga incondicional debe ser siempre superior a la configuración de purga condicional. En otras palabras,  **@nHardDeleteDays**  debe ser mayor que la suma de  **@nLiveHours**  y  **@nLiveDays** .  
+ Puesto que la purga condicional tan sólo purga los datos asociados con instancias completadas, si tuviera un alto número de instancias en bucle cuya ejecución se produjese de manera indefinida, la base de datos de seguimiento crecería y estas instancias nunca se podrían purgar. La fecha de la purga incondicional permite que se purgue toda la información anterior al intervalo especificado, a excepción de la información que indica la existencia de un servicio. Establezca la purga incondicional utilizando el <strong>@nHardDeleteDays</strong> parámetro en el archivo y purga el paso en el trabajo de purga de DTA Archive and. La configuración de purga incondicional debe ser siempre superior a la configuración de purga condicional. En otras palabras, <strong>@nHardDeleteDays</strong> debe ser mayor que la suma de <strong>@nLiveHours</strong> y <strong>@nLiveDays</strong>.  
   
  Archivar y purgar incluye las características que se describen en la siguiente tabla:  
   
-|Característica|Description|  
+|Característica|Descripción|  
 |-------------|-----------------|  
 |Purga incondicional|Permite configurar un intervalo de tiempo para purgar la información de instancias no completadas anteriores a la fecha especificada.|  
 |Copiar mensajes controlados en la base de datos de seguimiento|La opción CopyTrackedMessageToDTA permite copiar directamente mensajes de los que se ha efectuado un seguimiento de los servidores de cuadro de mensajes a la base de datos de seguimiento de BizTalk. Esto resulta necesario para purgar datos mediante el trabajo DTA Purge and Archive.|  
 |Validación de archivos|Permite configurar de forma opcional un servidor de base de datos secundario para validar los archivos conforme se crean.|  
-|Compatibilidad de seguimiento con varias versiones de base de datos de seguimiento de BizTalk|Archivos de base de datos permite utilizar el seguimiento soporte con BizTalk Server.|  
+|Compatibilidad de seguimiento con varias versiones de base de datos de seguimiento de BizTalk|Archivos de base de datos permite usar seguimiento admite con BizTalk Server.|  
 |Reducción de datos de seguimiento|Reduce notablemente la cantidad de datos de seguimiento almacenados sin reducir la información de seguimiento generada. Esto da lugar a un crecimiento más lento de la base de datos de seguimiento.|  
 |Operaciones de seguimiento más rápidas, importante optimización de los esquemas de base de datos|Permite usar tareas de seguimiento para buscar mensajes e instancias de servicio en bases de datos de gran tamaño; esta característica se ha optimizado notablemente.|  
   
 > [!NOTE]
->  Si están surgiendo problemas de rendimiento que se solucionan de manera momentánea mediante la purga de la base de datos de seguimiento de BizTalk, y desea configurar BizTalk para que no recopile más información de seguimiento, considere la posibilidad de desactivar el seguimiento global. Vea [desactivar el seguimiento Global](../core/how-to-turn-off-global-tracking.md).  
+>  Si están surgiendo problemas de rendimiento que se solucionan de manera momentánea mediante la purga de la base de datos de seguimiento de BizTalk, y desea configurar BizTalk para que no recopile más información de seguimiento, considere la posibilidad de desactivar el seguimiento global. Consulte [desactivar el seguimiento Global](../core/how-to-turn-off-global-tracking.md).  
   
 ## <a name="next-steps"></a>Pasos siguientes
   

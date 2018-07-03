@@ -1,5 +1,5 @@
 ---
-title: Requisitos para la solución de administración de procesos empresariales installg | Documentos de Microsoft
+title: Requisitos para la solución de administración de procesos empresariales installg | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,35 +12,35 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f4d3acfea45b54ac88f08078df466e1fb13db69
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 500e3e2f6e9ee895c41145371cacc78467b8a64c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
-ms.locfileid: "23450589"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003597"
 ---
 # <a name="before-installing-the-business-process-management-solution"></a>Antes de instalar la solución de administración de proceso empresarial
 
 ## <a name="requirements"></a>Requisitos
 Para implementar la solución de administración de proceso empresarial en un único equipo, es necesario instalar en éste:  
   
--   Microsoft Windows
+- Microsoft Windows
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Microsoft Message Queuing (MSMQ) con compatibilidad con HTTP en MSMQ
+- Microsoft Message Queuing (MSMQ) con compatibilidad con MSMQ HTTP
   
--   Microsoft SQL Server
+- Microsoft SQL Server
   
--   Microsoft Internet Information Services con los servicios WWW y FTP  
+- Microsoft Internet Information Services con WWW y FTP  
   
--   ASP.NET habilitado  
+- ASP.NET habilitado  
   
--   Microsoft Visual Studio  
+- Microsoft Visual Studio  
   
--   Microsoft Excel  
+- Microsoft Excel  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo instalar la solución de administración de procesos empresariales](../core/how-to-install-the-business-process-management-solution.md)   
  [Cómo ejecutar la solución de administración de procesos empresariales](../core/how-to-run-the-business-process-management-solution.md)   
- [Configuración del equipo del desarrollador para la solución de administración de procesos empresariales](../core/developer-machine-setup-for-the-business-process-management-solution.md)
+ [Configurar el equipo del desarrollador para la solución de administración de procesos empresariales](../core/developer-machine-setup-for-the-business-process-management-solution.md)

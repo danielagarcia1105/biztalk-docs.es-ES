@@ -1,5 +1,5 @@
 ---
-title: Invocar operaciones en el sistema SAP mediante el modelo del canal de WCF | Documentos de Microsoft
+title: Invocar operaciones en el sistema SAP mediante el modelo de canal WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,116 +15,116 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1030e0a743a9b06d856bc593198f4afebc1ffa38
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 408d2ce053a30a4692b6e17a73087b13c648ab2a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25965626"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997341"
 ---
-# <a name="invoke-operations-on-the-sap-system-using-the-wcf-channel-model"></a>Invocar operaciones en el sistema SAP mediante el modelo del canal de WCF
-Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el uso de un **IRequestChannel** o **IOutputChannel** forma para enviar mensajes al adaptador de canal. El patrón básico consiste en crear un generador de canales para la forma de canales necesarias utilizando un enlace (**SAPBinding**) y un punto de conexión creado a partir de un URI de conexión. A continuación, cree un **mensaje** instancia que representa un mensaje SOAP que se ajusta al esquema de mensajes para la operación de destino. A continuación, puede enviar este **mensaje** a la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el uso de un canal que se crea desde el generador de canales. Si usas un **IRequestChannel**, recibirá una respuesta. Si hay un problema al ejecutar la operación en el sistema SAP, la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] produce una **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.  
+# <a name="invoke-operations-on-the-sap-system-using-the-wcf-channel-model"></a>Invocar operaciones en el sistema SAP mediante el modelo de canal de WCF
+Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el uso de un **IRequestChannel** o **IOutputChannel** forma para enviar mensajes al adaptador de canal. El patrón básico consiste en crear un generador de canales para la forma del canal necesarios mediante el uso de un enlace (**SAPBinding**) y un punto de conexión creado a partir de un URI de conexión. A continuación, cree un **mensaje** instancia que representa un mensaje SOAP que se ajusta al esquema de mensajes para la operación de destino. A continuación, puede enviar este **mensaje** a la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el uso de un canal creado desde el generador de canales. Si usas un **IRequestChannel**, recibirá una respuesta. Si hay un problema al ejecutar la operación en el sistema SAP, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] produce una **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.  
   
- Para obtener información general de cómo enviar operaciones mediante una **IRequestChannel** en WCF, vea [programación de nivel de canal de cliente](https://msdn.microsoft.com/library/ms788970.aspx).  
+ Para obtener información general de cómo enviar las operaciones mediante una **IRequestChannel** en WCF, vea [programación de nivel de canal de cliente](https://msdn.microsoft.com/library/ms788970.aspx).  
   
- Las secciones de este tema proporcionan información para ayudarle a invocar las operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el modelo de canal WCF.  
+ Las secciones de este tema proporcionan información para ayudarle a invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el modelo de canal WCF.  
   
-## <a name="supporting-bapi-transactions-in-the-wcf-channel-model"></a>Admitir transacciones de BAPI en el modelo del canal de WCF  
- BAPI todos los que se invoca utilizando la misma conexión de SAP forman parte de la misma lógica unidad de trabajo (LUW) o transacción--en el sistema SAP. Cada canal WCF representa una conexión única al sistema SAP. Para admitir las transacciones de BAPI mediante WCF canal modelo:  
+## <a name="supporting-bapi-transactions-in-the-wcf-channel-model"></a>Compatibilidad con transacciones de BAPI en el modelo del canal de WCF  
+ BAPI todos los que se invoca mediante la misma conexión de SAP forman parte de la misma lógica unidad de trabajo (LUW)--o transacción--en el sistema SAP. Cada canal WCF representa una conexión única al sistema SAP. Para admitir transacciones de BAPI mediante WCF channel modelo:  
   
--   Asegúrese de que cada BAPI en un LUW (transacción) se envía a través del mismo canal. Esto incluye la confirmación de BAPI_TRANSACTION o las operaciones de BAPI_TRANSACTION_ROLLBACK.  
+- Asegúrese de que cada BAPI en un LUW (transacción) se envía a través del canal mismo. Esto incluye la confirmación BAPI_TRANSACTION o las operaciones de BAPI_TRANSACTION_ROLLBACK.  
   
--   Asegúrese de que se cierra cualquier mensaje de respuesta recibido de un BAPI antes de invocar la BAPI siguiente en el canal. (Debe hacerlo para cada operación; pero es especialmente importante para BAPI).  
+- Asegúrese de que cierre cualquier mensaje de respuesta recibido de un BAPI antes de invocar la BAPI siguiente en el canal. (Debe hacerlo para cada operación; pero es especialmente importante para BAPI).  
   
- Para obtener más información acerca de las transacciones de BAPI, consulte [operaciones de BAPI en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).  
+  Para obtener más información acerca de las transacciones de BAPI, consulte [operaciones en BAPI de SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).  
   
-## <a name="streaming-flat-file-idocs-to-the-sap-adapter"></a>Transmisión por secuencias IDOC de archivo sin formato para el adaptador SAP  
- Utilice la operación de SendIdoc para enviar un IDOC (cadena) para el adaptador de archivo sin formato. Los datos IDOC se representan como una cadena en un único nodo en esta operación. Por este motivo, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] es compatible con transmisión por secuencias en el mensaje de solicitud en el valor de nodo. Para realizar la transmisión por secuencias de valor de nodo, debe crear el mensaje de solicitud para la operación de SendIdoc mediante un **System.ServiceModel.Channels.BodyWriter** que es capaz de transmitir por secuencias los datos IDOC. Para obtener información acerca de cómo hacerlo, consulte [IDOC de archivo plano de transmisión por secuencias en SAP mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
+## <a name="streaming-flat-file-idocs-to-the-sap-adapter"></a>Transmisión por secuencias los IDOC de archivo sin formato para el adaptador de SAP  
+ Utilice la operación SendIdoc para enviar un IDOC (cadena) para el adaptador de archivo sin formato. Los datos IDOC se representan como una cadena en un solo nodo en esta operación. Por este motivo, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] es compatible con el valor del nodo en el mensaje de solicitud de transmisión por secuencias. Para realizar el streaming de valor de nodo, debe crear el mensaje de solicitud para la operación SendIdoc mediante un **System.ServiceModel.Channels.BodyWriter** que es capaz de transmitir los datos de IDOC. Para obtener información acerca de cómo hacerlo, consulte [Streaming de IDOC de archivo plano en SAP mediante el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
   
-## <a name="how-do-i-invoke-an-operation-by-using-a-channel"></a>¿Cómo se puede invocar una operación mediante un canal?  
+## <a name="how-do-i-invoke-an-operation-by-using-a-channel"></a>¿Cómo se puede invocar una operación mediante el uso de un canal?  
  Para invocar una operación mediante una **IRequestChannel**, realice los pasos siguientes.  
   
-#### <a name="how-to-invoke-an-operation-by-using-an-instance-of-irequestchannel"></a>Cómo invocar una operación mediante una instancia de IRequestChannel  
+#### <a name="how-to-invoke-an-operation-by-using-an-instance-of-irequestchannel"></a>Cómo invocar una operación mediante el uso de una instancia de IRequestChannel  
   
-1.  Crear un generador de canales (**ChannelFactory\<IRequestChannel\>**). Para ello, debe especificar un enlace (**SAPBinding**) y una dirección de extremo. Puede especificar la dirección de enlace y el punto de conexión de forma imperativa en el código o mediante declaración en configuración. Debe establecer cualquier enlace propiedades necesarios para las operaciones que enviará antes de abrir el generador. Para obtener más información sobre cómo especificar el enlace y la dirección del extremo en la configuración, consulte [crear un canal con SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
+1. Compilar un generador de canales (**ChannelFactory\<IRequestChannel\>**). Para ello, debe especificar un enlace (**SAPBinding**) y una dirección de punto de conexión. Puede especificar la dirección de enlace y el punto de conexión de forma imperativa en el código o mediante declaración en configuración. Debe establecer cualquier enlace de las propiedades necesarias para las operaciones que enviará antes de abrir el generador. Para obtener más información sobre cómo especificar el enlace y dirección de punto de conexión en la configuración, consulte [crean un canal mediante SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
   
-    ```  
-    // Create a binding  
-    SAPBinding binding = new SAPBinding();  
-    // Create an endpoint address by using the connection URI  
-    EndpointAddress endpointAddress = new EndpointAddress("sap://Client=800;lang=EN@A/YourSAPHost/00");  
-    // Create the channel factory  
-    ChannelFactory<IRequestChannel> factory = new ChannelFactory<IRequestChannel>(binding, address);  
-    ```  
+   ```  
+   // Create a binding  
+   SAPBinding binding = new SAPBinding();  
+   // Create an endpoint address by using the connection URI  
+   EndpointAddress endpointAddress = new EndpointAddress("sap://Client=800;lang=EN@A/YourSAPHost/00");  
+   // Create the channel factory  
+   ChannelFactory<IRequestChannel> factory = new ChannelFactory<IRequestChannel>(binding, address);  
+   ```  
   
-2.  Establecer el usuario las credenciales de contraseña de nombre para el generador de canales con el **ClientCredentials** propiedad.  
+2. Establecer el usuario las credenciales de contraseña de nombre para el generador de canales con el **ClientCredentials** propiedad.  
   
-    ```  
-    factory.Credentials.UserName.UserName = "YourUserName";  
-    factory.Credentials.UserName.Password = "YourPassword";  
-    ```  
+   ```  
+   factory.Credentials.UserName.UserName = "YourUserName";  
+   factory.Credentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Abra el generador de canales.  
+3. Abra el generador de canales.  
   
-    ```  
-    factory.Open();  
-    ```  
+   ```  
+   factory.Open();  
+   ```  
   
-4.  Obtener un canal de fábrica y ábralo.  
+4. Obtener un canal de fábrica y ábralo.  
   
-    ```  
-    IRequestChannel channel = factory.CreateChannel();  
-    channel.Open();  
-    ```  
+   ```  
+   IRequestChannel channel = factory.CreateChannel();  
+   channel.Open();  
+   ```  
   
-5.  Crear un **mensaje** instancia para la operación de destino. Asegúrese de que se ha especificado la acción de mensaje para la operación de destino. En este ejemplo, el cuerpo del mensaje se pasa mediante la creación de un **XmlReader** a través de una cadena. La operación de destino, invoca la RFC SD_RFC_CUSTOMER_GET en un sistema SAP.  
+5. Crear un **mensaje** instancia para la operación de destino. Asegúrese de que se ha especificado la acción de mensaje para la operación de destino. En este ejemplo, se pasa el cuerpo del mensaje mediante la creación de un **XmlReader** a través de una cadena. La operación de destino, invoca la RFC SD_RFC_CUSTOMER_GET en un sistema SAP.  
   
-    ```  
-    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+   ```  
+   string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
-    //create an XML reader from the input XML  
-    XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
+   //create an XML reader from the input XML  
+   XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
   
-    //create a WCF message from our XML reader  
-    Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Microsoft.LobServices.Sap/2007/03/Rfc/SD_RFC_CUSTOMER_GET", reader);  
-    ```  
+   //create a WCF message from our XML reader  
+   Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Microsoft.LobServices.Sap/2007/03/Rfc/SD_RFC_CUSTOMER_GET", reader);  
+   ```  
   
-6.  Invocar la **solicitar** método en el canal que se va a enviar el mensaje a la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] y recibir la respuesta. Si el sistema SAP encuentra una excepción, el adaptador lanza una **TargetSystemException**. (Otras excepciones son posibles para las excepciones de SAP no). Puede obtener una descripción del error SAP desde el **InnerException.Message** propiedad de la **TargetSystemException**.  
+6. Invocar el **solicitar** método en el canal para enviar el mensaje a la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] y recibir la respuesta. Si el sistema SAP encuentra una excepción, el adaptador lanza una **TargetSystemException**. (Otras excepciones son posibles para las excepciones que no son SAP). Puede obtener una descripción del error SAP desde el **InnerException.Message** propiedad de la **TargetSystemException**.  
   
-    ```  
-    try  
-    {  
-        Message messageOut = channel.Request(messageIn);  
-    }  
-    catch (Exception ex)  
-    {  
-        // handle exception  
-    }  
-    ```  
+   ```  
+   try  
+   {  
+       Message messageOut = channel.Request(messageIn);  
+   }  
+   catch (Exception ex)  
+   {  
+       // handle exception  
+   }  
+   ```  
   
-7.  Procesar la respuesta. En este ejemplo, **GetReaderAtBodyContents** se llama en el mensaje de respuesta para obtener el cuerpo del mensaje.  
+7. Procesar la respuesta. En este ejemplo, **GetReaderAtBodyContents** se llama en el mensaje de respuesta para obtener el cuerpo del mensaje.  
   
-    ```  
-    XmlReader readerOut = messageOut.GetReaderAtBodyContents();  
-    ```  
+   ```  
+   XmlReader readerOut = messageOut.GetReaderAtBodyContents();  
+   ```  
   
-8.  Cuando haya terminado procesando el mensaje de respuesta, cierre el lector y el mensaje.  
+8. Cuando haya terminado procesar el mensaje de respuesta, cierre el lector y el mensaje.  
   
-    ```  
-    readerOut.Close();  
-    messageOut.Close();  
-    ```  
+   ```  
+   readerOut.Close();  
+   messageOut.Close();  
+   ```  
   
-9. Cuando haya terminado utilizando el canal y el generador de canales, ciérrelo. Cierre el generador se cerrará todos los canales que se crearon con él.  
+9. Cuando haya terminado utilizando el canal y el generador de canales, cerrarlos. Cierre el generador se cerrará todos los canales que se crearon con él.  
   
     ```  
     channel.Close()  
     factory.Close();  
     ```  
   
-10.  
+10. 
   
- Siga los mismos pasos para enviar un mensaje mediante la **IOutputChannel** forma excepto:  
+    Siga los mismos pasos para enviar un mensaje con el **IOutputChannel** forma excepto:  
   
 -   Crear un **ChannelFactory\<IOutputChannel\>**  en el paso 1.  
   
@@ -133,7 +133,7 @@ Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-
 -   No hay ningún mensaje de respuesta devuelto para un **IOutputChannel**.  
   
 ### <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se muestra cómo invocar una solicitud de cambio mediante el uso de un **IRequestChannel** canal. En este ejemplo, se invoca la RFC SD_RFC_CUSTOMER_GET para obtener una lista de clientes cuyos nombres empiezan por "AB". Se consume el mensaje de respuesta mediante el uso de un **XmlReader** y el número de cliente y el nombre de cada cliente devuelto se escribe en la consola.  
+ El ejemplo siguiente muestra cómo invocar una RFC mediante el uso de un **IRequestChannel** canal. En este ejemplo se invoca la RFC SD_RFC_CUSTOMER_GET para obtener una lista de los clientes cuyos nombres empiezan por "AB". Se puede consumir el mensaje de respuesta mediante un **XmlReader** y el número de cliente y el nombre de cada cliente devuelto se escribe en la consola.  
   
 ```  
 using System;  

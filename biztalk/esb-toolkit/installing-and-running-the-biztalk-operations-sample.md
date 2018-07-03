@@ -1,5 +1,5 @@
 ---
-title: Instalar y ejecutar el ejemplo de operaciones de BizTalk | Documentos de Microsoft
+title: Instalar y ejecutar el ejemplo de operaciones de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,30 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 035a6570175fbb0b42bdea2382d339a98d499c65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c526d3d76e134914f5523301c447bf99add0b27e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22293948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997501"
 ---
 # <a name="installing-and-running-the-biztalk-operations-sample"></a>Instalar y ejecutar el ejemplo de operaciones de BizTalk
-El ejemplo de operaciones de BizTalk de Microsoft muestra cómo puede consultar los datos operativos en aplicaciones de BizTalk mediante el servicio de las operaciones de BizTalk ESB. El Portal de administración de ESB utiliza este servicio para devolver o actualizar la información en las bases de datos de administración y seguimiento de BizTalk. La información disponible incluye lo siguiente:  
-  
--   El estado de implementada aplicaciones de BizTalk y hosts  
-  
--   Instancias de servicio activos o suspendidos  
-  
--   Mensajes y sus propiedades  
-  
--   Aplicaciones implementadas de BizTalk  
-  
--   Propiedades de puerto de recepción y ubicaciones de recepción  
-  
--   Propiedades de puerto de envío  
-  
- Esta sección contiene los siguientes temas:  
-  
--   [Instalar el ejemplo de operaciones de BizTalk](../esb-toolkit/installing-the-biztalk-operations-sample.md)  
-  
--   [Ejecutar el ejemplo de operaciones de BizTalk](../esb-toolkit/running-the-biztalk-operations-sample.md)
+El ejemplo de operaciones de BizTalk de Microsoft muestra cómo puede consultar los datos operativos en aplicaciones de BizTalk con el servicio de las operaciones de BizTalk ESB. El Portal de administración de ESB utiliza este servicio para devolver o actualizar la información de las bases de datos de administración y seguimiento de BizTalk. La información disponible incluye lo siguiente:  
+
+- El estado de implementado aplicaciones de BizTalk y hosts  
+
+- Instancias de servicio activos o suspendidos  
+
+- Los mensajes y sus propiedades  
+
+- Aplicaciones de BizTalk implementadas  
+
+- Propiedades de puerto de recepción y ubicaciones de recepción  
+
+- Propiedades de puerto de envío  
+
+  Esta sección contiene los siguientes temas:  
+
+- [Instalación del ejemplo de operaciones de BizTalk](../esb-toolkit/installing-the-biztalk-operations-sample.md)  
+
+- [Ejecución del ejemplo de operaciones de BizTalk](../esb-toolkit/running-the-biztalk-operations-sample.md)

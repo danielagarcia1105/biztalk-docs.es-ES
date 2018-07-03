@@ -1,5 +1,5 @@
 ---
-title: Nodos actividad y ActivityID | Documentos de Microsoft
+title: Nodos actividad y ActivityID | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d100c88eec5f5a05db2bb651968aa987e3ec4e33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dbe92c28a3ca84cdd94236c1069c9d340cc4630f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22224676"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983565"
 ---
 # <a name="activity-and-activityid-nodes"></a>Nodos Actividad y ActivityID
 Los nodos Actividad y ActivityID se utilizan para contener e identificar una definición de actividad. El nodo Actividad es la carpeta principal de los elementos en la definición de actividad. Todos los nodos de elementos de datos y eventos empresariales se subordinan al nodo de actividad asociado, y están contenidos en éste. El nombre del nodo Actividad debería reflejar el nombre de la propia actividad.  
@@ -36,23 +36,23 @@ Los nodos Actividad y ActivityID se utilizan para contener e identificar una def
 ## <a name="working-with-activity-id-nodes"></a>Trabajar con nodos de Id. de actividad  
  Por ejemplo, considere el siguiente escenario: la orquestación EquityLoan contiene la carpeta de actividad LoanProcess. Hace referencia a eventos empresariales, incluido el siguiente:  
   
--   LoanApplicationReceived                     
+- LoanApplicationReceived                     
   
--   CHRequest  
+- CHRequest  
   
--   CHResponse  
+- CHResponse  
   
--   AppraisalRequest  
+- AppraisalRequest  
   
--   AppraisalResponse  
+- AppraisalResponse  
   
--   Aprobada  
+- Aprobada  
   
--   Denegado  
+- Denegado  
   
- El nodo ActivityID permite que el programador de soluciones pueda extraer datos que identifican únicamente a la actividad, como el número de pedido o, en el caso del ejemplo anterior, el campo Nº de SS del mensaje. Si no arrastra ningún dato al nodo ActivityID, un GUID generado automáticamente identifica las actividades empresariales.  
+  El nodo ActivityID permite que el programador de soluciones pueda extraer datos que identifican únicamente a la actividad, como el número de pedido o, en el caso del ejemplo anterior, el campo Nº de SS del mensaje. Si no arrastra ningún dato al nodo ActivityID, un GUID generado automáticamente identifica las actividades empresariales.  
   
- Para definir la relación entre hitos o eventos empresariales en orquestaciones diferentes, la orquestación de destino debe hacer referencia al ActivityID. Para obtener más información acerca de cómo implementar relaciones mediante TPE, consulte [nodos de relación](../core/relationship-nodes.md).  
+  Para definir la relación entre hitos o eventos empresariales en orquestaciones diferentes, la orquestación de destino debe hacer referencia al ActivityID. Para obtener más información acerca de cómo implementar relaciones mediante TPE, consulte [nodos de relación](../core/relationship-nodes.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Nodos de vista de actividad TPE](../core/tpe-activity-view-nodes.md)
+ [Nodos Vista de actividad de TPE](../core/tpe-activity-view-nodes.md)

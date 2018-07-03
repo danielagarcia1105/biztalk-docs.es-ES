@@ -1,5 +1,5 @@
 ---
-title: Usar el direccionamiento IPv6 con adaptadores de BizTalk | Documentos de Microsoft
+title: Mediante una dirección IPv6 con los adaptadores de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e5726d5b05c548fd728228fcad39e56ce535fbb5
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.openlocfilehash: 73047c13c5ea328dd71807a3ba7eea79ddee87ce
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
-ms.locfileid: "29710627"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003693"
 ---
 # <a name="using-ipv6-addressing-with-biztalk-adapters"></a>Usar el direccionamiento de IPv6 de los adaptadores de BizTalk
 Adaptadores de BizTalk Server admiten el uso del direccionamiento IPv6. Este tema describe la nomenclatura que debe utilizarse para especificar una dirección IPv6 para una ruta UNC, la nomenclatura para especificar una dirección IPv6 literal y el uso de identificadores de ámbito IPv6 con los adaptadores de HTTP y SOAP.  
@@ -25,11 +25,11 @@ Adaptadores de BizTalk Server admiten el uso del direccionamiento IPv6. Este tem
 ## <a name="ipv6-address-nomenclature-used-for-a-unc-path"></a>Nomenclatura de dirección IPv6 utilizada para una ruta UNC  
  Siga estos pasos para especificar una dirección IPv6 literal en una ruta UNC:  
   
-1.  Reemplace cualquier carácter de dos puntos ":" por un guión "-" caracteres.  
+1. Reemplace los dos puntos ":" por un guión "-" caracteres.  
   
-2.  Agregue el texto "**. IPv6-literal.net**" a la dirección IP.  
+2. Anexe el texto "**. IPv6-literal.net**" a la dirección IP.  
   
- Por ejemplo, la nomenclatura de un URI que señale a un recurso compartido en un equipo con la dirección IPv6 2001:DB8:2a:1005:230:48ff:fe73:989d sería:  
+   Por ejemplo, la nomenclatura de un URI que señale a un recurso compartido en un equipo con la dirección IPv6 2001:DB8:2a:1005:230:48ff:fe73:989d sería:  
   
 ```  
 \\2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net\<sharename\>  
@@ -38,10 +38,10 @@ Adaptadores de BizTalk Server admiten el uso del direccionamiento IPv6. Este tem
  Donde \< *sharename* \> es el nombre del recurso compartido de archivos en el equipo de destino.  
   
 > [!NOTE]
->  Asegúrese de que las cuentas de usuario para las instancias de host que están ejecutando los controladores de envío y recepción de archivos tienen los permisos adecuados para el recurso compartido. Para obtener más información acerca de los permisos de carpeta necesarios para recibir archivos con el adaptador de archivo vea [configurar un controlador de recepción de archivo](../core/configure-the-file-adapter.md). Para obtener más información acerca de los permisos de carpeta necesarios para enviar archivos con el adaptador de archivo vea [problemas conocidos relacionados con el adaptador de archivo](../core/known-issues-with-the-file-adapter.md). Para obtener información acerca de los sistemas de archivos que se admiten para su uso con el adaptador de archivo, consulte [http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070).  
+>  Asegúrese de que las cuentas de usuario para las instancias de host que están ejecutando los controladores de envío y recepción de archivos tienen los permisos adecuados para el recurso compartido. Para obtener más información acerca de los permisos de carpeta necesarios para recibir archivos con el adaptador de archivo, consulte [configurar un controlador de recepción de archivo](../core/configure-the-file-adapter.md). Para obtener más información acerca de los permisos de carpeta necesarios para enviar archivos con el adaptador de archivo, consulte [problemas conocidos relacionados con el adaptador de archivo](../core/known-issues-with-the-file-adapter.md). Para obtener información acerca de los sistemas de archivos que se admiten para su uso con el adaptador de archivo, vea [ http://support.microsoft.com/kb/815070 ](http://support.microsoft.com/kb/815070).  
   
 ## <a name="using-ipv6-scope-identifiers-with-the-http-adapter-and-the-soap-send-adapter"></a>Usar identificadores de ámbito de IPv6 con el adaptador de HTTP y el adaptador de envío de SOAP  
- HTTP de envío y recepción de adaptador y el adaptador de envío SOAP requieren que si se utiliza un identificador de ámbito en una dirección IPv6, el identificador de ámbito debe ser caracteres de escape con el código de escape **% 25**. Por ejemplo, **fe80::550c:489f:e65e:aef3 %8** es una dirección IPv6 válida que contiene un identificador de ámbito (%8). Para utilizar esta dirección IPv6 con los adaptadores de envío y recepción de HTTP o el adaptador de envío de SOAP, el identificador de ámbito debe ir acompañado del carácter de escape del modo que se indica a continuación.  
+ HTTP de envío y recepción de adaptador y el adaptador de envío SOAP requieren que si se usa un identificador de ámbito en una dirección IPv6, el identificador de ámbito debe convertirse con el código de escape **% 25**. Por ejemplo, **fe80::550c:489f:e65e:aef3 %8** es una dirección IPv6 válida que contiene un identificador de ámbito (%8). Para utilizar esta dirección IPv6 con los adaptadores de envío y recepción de HTTP o el adaptador de envío de SOAP, el identificador de ámbito debe ir acompañado del carácter de escape del modo que se indica a continuación.  
   
 ```  
 fe80::550c:489f:e65e:aef3%258  
@@ -56,7 +56,7 @@ fe80::550c:489f:e65e:aef3%258
     ```  
   
     > [!NOTE]
-    >  El uso de un literal de las direcciones IPv6 de adaptador URI sigue las instrucciones establecidas en [RFC2732](http://go.microsoft.com/fwlink/?LinkId=90375).  
+    >  El uso de un literal de las direcciones IPv6 para los URI de adaptador sigue las directrices establecidas en [RFC2732](http://go.microsoft.com/fwlink/?LinkId=90375).  
   
 -   Al especificar una dirección IPv6 literal como nombre del servidor para el adaptador de recepción POP3, el adaptador de envío SMTP o los adaptadores de envío y recepción SQL, la dirección IPv6 no deberá encerrarse entre corchetes.  
   
@@ -68,7 +68,7 @@ fe80::550c:489f:e65e:aef3%258
 |Recepción de POP3|no|no|  
 |Envío de SMTP|no|no|  
 |Envío y recepción de SQL|no|no|  
-|Envío y recepción de archivos|No (consulte la sección **nomenclatura de dirección IPv6 utiliza para una ruta de acceso UNC**)|no|  
+|Envío y recepción de archivos|No (consulte la sección **nomenclatura de dirección IPv6 usa una ruta de acceso UNC**)|no|  
 |Envío y recepción de HTTP|Sí|Sí|  
 |Envío y recepción de MQSeries|Sí|no|  
 |Envío y recepción de MSMQ|Sí|no|  

@@ -1,6 +1,6 @@
 ---
-title: Ejemplos de la instrucción EXEC en mySAP adaptador en BizTalk | Documentos de Microsoft
-description: Ejemplos EXEC y ejemplos de uso del adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+title: Ejemplos de la instrucción EXEC de mySAP adaptador en BizTalk | Microsoft Docs
+description: Ejemplos EXEC y los ejemplos de uso del adaptador de mySAP en módulo de adaptador de BizTalk (BAP)
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,19 +13,19 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6eaae930d7d94d24bac9d484957ccf02718af60f
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 59bdabcba48d00bdf1d6c884ae1f2b469d858626
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22216372"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992597"
 ---
 # <a name="examples-for-exec-statement"></a>Ejemplos de la instrucción EXEC
-Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
+En este tema se muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
 
 ## <a name="sample-statements"></a>Instrucciones de ejemplo 
   
--   Para ejecutar una BAPI que no toma ningún parámetro de entrada, utilice la sintaxis siguiente; se devuelven datos a través de un **DataReader** objeto:  
+-   Para ejecutar una BAPI que no toma ningún parámetro de entrada, utilice la siguiente sintaxis; se devuelven datos a través de un **DataReader** objeto:  
   
     ```  
     EXEC BAPI_COMPANYCODE_GETLIST  
@@ -43,7 +43,7 @@ Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
     EXEC RFC_CUSTOMER_GET @var=@var  
     ```  
   
-     En este ejemplo, debe crear un parámetro denominado `@var` y establecer el valor de forma explícita (por ejemplo, para 1001), porque el primer parámetro para RFC_CUSTOMER_GET corresponde a KUNNR (número de cliente)  
+     En este ejemplo, debe crear un parámetro denominado `@var` y establezca el valor de forma explícita (por ejemplo, para 1001), dado que el primer parámetro para RFC_CUSTOMER_GET corresponde a KUNNR (número de cliente)  
   
 -   Para ejecutar una solicitud de cambio que usa una variable para el nombre de parámetro de entrada, utilice la sintaxis siguiente:  
   
@@ -51,9 +51,9 @@ Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
     EXEC RFC_CUSTOMER_GET @KUNNR=@var1, @NAME1='Contoso'  
     ```  
   
-     Debe crear un parámetro denominado `@var1`, especifique el valor y, a continuación, enlazarlo con el objeto de comando correspondiente. La dirección predeterminada del objeto parameter recién creado es `input`.  
+     Debe crear un parámetro denominado `@var1`, especifique el valor y, a continuación, enlazarlo al objeto de comando correspondiente. La dirección predeterminada del objeto parameter recién creado es `input`.  
   
--   Para ejecutar una BAPI y tablas devueltos como un parámetro, use la sintaxis siguiente:  
+-   Para ejecutar una BAPI y tablas de valor devueltas como un parámetro, use la sintaxis siguiente:  
   
     ```  
     EXEC BAPI_COMPANYCODE_GETLIST @COMPANYCODE_LIST=@var1 OUTPUT  
@@ -61,7 +61,7 @@ Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
   
      Debe crear un parámetro denominado `@var1`, especifique el valor y enlácelo al objeto de comando correspondiente. Debe ser la dirección del objeto parameter recién creado `InputOutput` o `Output`.  
   
--   En el siguiente ejemplo EXEC utiliza un parámetro de tipo complejo de tabla. En el ejemplo, @fields es un parámetro de la tabla.  
+-   El siguiente ejemplo EXEC usa un parámetro de tipo complejo de la tabla. En el ejemplo, @fields es un parámetro de la tabla.  
   
     ```  
     exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  
@@ -87,33 +87,33 @@ Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
 ## <a name="support-for-complex-parameter-types"></a>Compatibilidad con tipos de parámetros complejos  
  Hay dos maneras para admitir parámetros complejos de RFC (tablas y estructuras) cuando se usa el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]:  
   
--   Proporcione un valor XML en línea para el tipo complejo. Este ejemplo muestra cómo pasar XML al tipo de parámetro complejos *campos*. En el ejemplo siguiente, *@fields* es un parámetro de la tabla.  
+- Proporcione un valor XML en línea para el tipo complejo. En este ejemplo se muestra cómo pasar XML al tipo de parámetro complejos *campos*. En el ejemplo siguiente, <em>@fields</em> es un parámetro de la tabla.  
   
-    ```  
-    exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  
-                <RFC_DB_FLD xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-                  <FIELDNAME>BANKL</FIELDNAME>  
-                </RFC_DB_FLD>  
-                <RFC_DB_FLD  xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-                    <FIELDNAME>BANKS</FIELDNAME>  
-                </RFC_DB_FLD>  
-              </FIELDS>', @fields=@flds output  
-    ```  
+  ```  
+  exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  
+              <RFC_DB_FLD xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
+                <FIELDNAME>BANKL</FIELDNAME>  
+              </RFC_DB_FLD>  
+              <RFC_DB_FLD  xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
+                  <FIELDNAME>BANKS</FIELDNAME>  
+              </RFC_DB_FLD>  
+            </FIELDS>', @fields=@flds output  
+  ```  
   
--   Crear un **DataTable** parámetro con columnas para los campos en el tipo complejo y establezca el parámetro SAP valor en **DataTable**. Este ejemplo muestra cómo establecer el @fields tipo complejo mediante el uso de un **DataTable**.  
+- Crear un **DataTable** parámetro con columnas de los campos en el tipo complejo y establezca el parámetro SAP valor en **DataTable**. En este ejemplo se muestra cómo establecer el @fields tipo complejo mediante el uso de un **DataTable**.  
   
-    ```  
-    cmd.CommandText = "exec rfc_read_table @query_table='BNKA', @fields = @p_fields";  
-    DataTable dt = new DataTable();  
-    dt.Columns.Add("FIELDNAME");  
-    SAPParameter p = new SAPParameter("@p_fields");  
-    p.Value = dt;  
-    ```  
+  ```  
+  cmd.CommandText = "exec rfc_read_table @query_table='BNKA', @fields = @p_fields";  
+  DataTable dt = new DataTable();  
+  dt.Columns.Add("FIELDNAME");  
+  SAPParameter p = new SAPParameter("@p_fields");  
+  p.Value = dt;  
+  ```  
   
 ## <a name="limitations"></a>Limitaciones  
  El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] tiene las siguientes limitaciones para los tipos complejos.  
   
--   Cuando se pasa un tipo complejo en un parámetro mediante un **DataTable**, debe incluir todos los campos (columnas) del tipo complejo en el **DataTable**.  
+- Cuando se pasa un tipo complejo en un parámetro mediante un **DataTable**, debe incluir todos los campos (columnas) del tipo complejo en el **DataTable**.  
   
--   El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] no admite **DbNull**. No se puede establecer **DbNull** como un valor para los parámetros.  
+- El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] no admite **DbNull**. No puede establecer **DbNull** como un valor para los parámetros.  
   

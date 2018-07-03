@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos relacionados con el procesamiento por lotes de EDI | Documentos de Microsoft
+title: Problemas conocidos con el procesamiento por lotes de EDI | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 38
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 537a0591ba45a209fd3f22c0a993a99baac58d7f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 7c33be4da2db28fb38c3f81d3d1aaa5316a0a16a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26008221"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997173"
 ---
 # <a name="known-issues-with-edi-batching"></a>Problemas conocidos del procesamiento por lotes de EDI
 En este tema se describen problemas conocidos relacionados con el procesamiento por lotes en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -29,15 +29,15 @@ En este tema se describen problemas conocidos relacionados con el procesamiento 
   
  **Causa posible**  
   
--   La opción de procesamiento por lotes entrantes para la entidad remitente se estableció en "Conservar intercambio". Dado el caso, un documento HIPAA no se dividirá en subdocumentos aunque la anotación subdocument_creation_break en el esquema HIPAA se haya establecido en "Sí".  
+- La opción de procesamiento por lotes entrantes para la entidad remitente se estableció en "Conservar intercambio". Dado el caso, un documento HIPAA no se dividirá en subdocumentos aunque la anotación subdocument_creation_break en el esquema HIPAA se haya establecido en "Sí".  
   
--   La anotación subdocument_break se estableció en "Sí", pero la anotación subdocument_creation_break no se estableció en "Sí".  
+- La anotación subdocument_break se estableció en "Sí", pero la anotación subdocument_creation_break no se estableció en "Sí".  
   
- **Resolución**  
+  **Resolución**  
   
--   En el **validación y configuración de la generación de confirmación** página de la **propiedades de EDI** cuadro de diálogo para la entidad remitente, establezca el **procesamiento por lotes de entrada** opción propiedad a cualquier **dividir intercambio como conjuntos de transacciones: suspender conjuntos de transacciones en caso de Error** o **dividir intercambio como conjuntos de transacciones: suspender intercambio en caso de Error**.  
+- En el **validación y generación de confirmación la configuración** página de la **propiedades de EDI** cuadro de diálogo para la entidad remitente, establezca el **procesamiento por lotes entrantes** propiedad a la opción cualquier **dividir intercambio como conjuntos de transacciones: suspender conjuntos de transacciones en Error** o **dividir intercambio como conjuntos de transacciones: suspender intercambio en el Error**.  
   
--   Un documento HIPAA no se dividirá en subdocumentos a menos que la anotación de subdocument_creation_break se establezca en “Sí”.  
+- Un documento HIPAA no se dividirá en subdocumentos a menos que la anotación de subdocument_creation_break se establezca en “Sí”.  
   
 ## <a name="validation-of-a-batch-may-fail-if-batch-configuration-settings-are-changed-while-the-batch-orchestration-is-activated"></a>Se puede producir un error en la validación de un lote si se realizan cambios en los ajustes de configuración del lote mientras que la orquestación de procesamiento por lotes está activada.  
  Si cambia la configuración de lotes mientras la orquestación de procesamiento por lotes está procesando un lote, éste no reflejará la nueva configuración. Esto puede dar como resultado errores de validación en la canalización de envío.  
@@ -68,24 +68,24 @@ En este tema se describen problemas conocidos relacionados con el procesamiento 
   
  **Resolución**  
   
- Haga clic en **detener** en la página de lotes para la configuración de lote tiene este problema. Establecer el **activación** como **iniciar inmediatamente** o escriba una fecha y hora anterior a la hora actual y, a continuación, haga clic en **iniciar**. Cuando se pregunte si desea restablecer el **iniciar** fecha y hora a la hora actual, haga clic en **Aceptar**. BizTalk Server empezará a recopilar mensajes para un lote en dicho punto.  
+ Haga clic en **detener** en la página lotes para la configuración por lotes con este problema. Establecer el **activación** como **iniciar inmediatamente** o escriba una fecha y hora anteriores a la hora actual y, a continuación, haga clic en **iniciar**. Cuando se le solicite restablecer la **iniciar** fecha y hora a la hora actual, haga clic en **Aceptar**. BizTalk Server empezará a recopilar mensajes para un lote en dicho punto.  
   
 ## <a name="the-number-of-bytes-in-an-edifact-batch-may-depend-upon-the-character-set-used"></a>El número de bytes en un lote EDIFACT puede que dependa del juego de caracteres utilizado.  
  Los caracteres de algunos juegos de caracteres EDIFACT pueden ser caracteres de doble byte, mientras que en otros juegos de caracteres EDIFACT pueden ser caracteres de un solo byte. Debido a ello, al establecer los criterios de versión para lotes basados en el número de caracteres del intercambio, el número de bytes del intercambio puede ser distinto en función del juego de caracteres utilizado.  
   
 ## <a name="the-characters--and--must-be-represented-in-their-encoded-form-in-the-envelope-of-a-batch"></a>Los caracteres "<" y "&" se deben representar en forma de codificación en el sobre de un lote  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]no admite los siguientes caracteres en su forma literal al crear los campos de sobre de un intercambio EDI por lotes: "<" y "&".  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no admite los siguientes caracteres en su forma literal al crear los campos de sobre de un intercambio EDI por lotes: "<" y "&".  
   
  El uso de estos caracteres de forma literal en los campos de sobre de un intercambio procesado por lotes saliente dará como resultado un mensaje suspendido si se usa la canalización EdiSend para serializar el intercambio.  
   
  Si es necesario usar uno de estos caracteres en un campo de sobre de un lote, puede usar el valor codificado adecuado en la siguiente tabla al configurar el campo de sobre del administrador de BizTalk:  
   
-|Carácter|Codificación|  
+|Carácter|Encoding|  
 |---------------|--------------|  
 |<|&lt;|  
 |&|&amp;|  
   
- Si usa una de estas formas codificadas, los caracteres codificados se contarán como caracteres individuales cuando BizTalk Server valide la restricción de longitud del campo en las pantallas del Administrador de acuerdos de socios comerciales (PAM) de la consola de administración de BizTalk Server. Por ejemplo, aunque la codificación "&lt;"representa un carácter individual"\<" en el intercambio EDI por lotes, BizTalk Server lo contará como cuatro caracteres al validarlo con la restricción de longitud de campo concreto . Éste sólo es un problema de PAM, no del ensamblador EDI.  
+ Si usa una de estas formas codificadas, los caracteres codificados se contarán como caracteres individuales cuando BizTalk Server valide la restricción de longitud del campo en las pantallas del Administrador de acuerdos de socios comerciales (PAM) de la consola de administración de BizTalk Server. Por ejemplo, aunque la codificación "&lt;"representa un carácter individual"\<" en el intercambio EDI por lotes, BizTalk Server lo contará como cuatro caracteres al validarlo con la restricción de longitud del campo concreto . Éste sólo es un problema de PAM, no del ensamblador EDI.  
   
 ## <a name="an-exeption-occurs-during-the-execution-of-the-upgrade-batch-orchestration"></a>Se produce una excepción durante la ejecución de la orquestación de actualización por lotes  
  **Síntoma**  
@@ -114,7 +114,7 @@ En este tema se describen problemas conocidos relacionados con el procesamiento 
   
  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], cuando un mensaje debía procesarse mediante varias configuraciones de lote, debía establecer la propiedad EDI.DestinationParties en una lista delimitada por espacios de identificadores de entidades. La orquestación de enrutamiento se suscribe a mensajes mediante la propiedades EDI.ToBeBatched = True y EDI.DestinationParties y usaba la lista de identificadores de entidad incluidos en la propiedad EDI.DestinationParties para crear un mensaje para cada identificador y luego transferir los mensajes a la orquestación de lote.  Se usaba la determinación del lote mediante el identificador de entidad porque cada configuración de entidad solo podía tener una configuración de lote.  
   
- En BizTalk Server, cada entidad puede tener varias configuraciones de lote, por lo que ya no es suficiente para usar el identificador de la entidad para determinar la configuración de lote para que use.  Para indicar que un mensaje debe ser procesado mediante varias configuraciones de lote, el mensaje debe tener la propiedad EDI.BatchIDs configurada en una lista delimitada por espacios de identificadores de lote a la que debe enviarse el mensaje.  
+ En BizTalk Server, cada entidad puede tener varias configuraciones de lote, por lo que ya no es suficiente para usar solo el identificador de entidad para determinar la configuración por lotes para usar.  Para indicar que un mensaje debe ser procesado mediante varias configuraciones de lote, el mensaje debe tener la propiedad EDI.BatchIDs configurada en una lista delimitada por espacios de identificadores de lote a la que debe enviarse el mensaje.  
   
 > [!NOTE]
 >  Al procesar mensajes marcados solo con un único identificador de entidad mediante la propiedad EDI.DestinationPartyId, el mensaje será procesado por la orquestación del lote de actualización. Para obtener más información, consulte [ensamblar un intercambio de EDI por lotes](../core/assembling-a-batched-edi-interchange.md).  
@@ -158,10 +158,10 @@ En este tema se describen problemas conocidos relacionados con el procesamiento 
   
  **Resolución**  
   
- Para resolver este problema, modifique los criterios de liberación de modo que aumente el tiempo entre liberaciones de lotes. Para obtener más información, consulte [configurar el procesamiento por lotes (X12)](../core/configuring-batching-x12.md).  
+ Para resolver este problema, modifique los criterios de liberación de modo que aumente el tiempo entre liberaciones de lotes. Para obtener más información, consulte [configuración de procesamiento por lotes (X12)](../core/configuring-batching-x12.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar confirmaciones EDI](../core/configuring-edi-acknowledgments.md)   
+ [Configuración de confirmaciones de EDI](../core/configuring-edi-acknowledgments.md)   
  [Procesamiento por lotes entrantes](../core/processing-incoming-batches.md)   
  [Procesamiento por lotes mensajes EDI salientes](../core/batching-outgoing-edi-messages.md)   
  [Configuración de lotes de EDI](../core/configuring-edi-batches.md)

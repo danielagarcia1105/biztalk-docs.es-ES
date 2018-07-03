@@ -1,5 +1,5 @@
 ---
-title: Cómo BizTalk Server resuelve los Need2 negocio | Documentos de Microsoft
+title: Cómo resuelve BizTalk Server la Need2 empresarial | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,17 +15,17 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d5dcc7ee1b77c91cc4bbc52384a23347ce3e9a0f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 45a0f21cfe71a1c7af0b4d05798a08c842c4b85d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004925"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995909"
 ---
-# <a name="how-biztalk-server-solves-the-business-need"></a>Cómo BizTalk Server resuelve la necesidad empresarial
-Con el fin de resolver su atención médica necesidades de integración de sistema, el Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) mejora la funcionalidad de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server para sistemas de atención médica.  
+# <a name="how-biztalk-server-solves-the-business-need"></a>Cómo resuelve BizTalk Server la necesidad empresarial
+Para resolver su salud necesidades de integración de sistema, el Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) mejora la funcionalidad de servidor MicrosoftBizTalk para sistemas de atención médica.  
   
- Puesto que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el programa de instalación instala el Acelerador sobre BizTalk Server, esta sección describen la tecnología al proporcionar una visión general de la funcionalidad de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], una descripción de la funcionalidad que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] agrega y una explicación de ¿cómo puede implementar las dos tecnologías.  
+ Puesto que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] programa de instalación instala el Acelerador sobre BizTalk Server, esta sección describen la tecnología proporcionando una visión general de la funcionalidad de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], una descripción de la funcionalidad que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] agrega y una explicación de ¿cómo puede implementar las dos tecnologías.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

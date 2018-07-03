@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10552 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10552 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9fa08100af7a7d324c7a84d15ac741ba858f60d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e4f78ce40f827e6c06e59e1382aba8faac0337f8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269996"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001213"
 ---
-# <a name="single-sign-on-event-10552"></a>Inicio de sesión único: Evento 10552
+# <a name="single-sign-on-event-10552"></a>De sesión único: Evento 10552
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10552|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_ERROR_MAPPING_CALLBACK_ACCESS_DENIED|  
-|Texto del mensaje|Acceso denegado al servidor de asignaciones.%r|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10552                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |          SSO_ERROR_MAPPING_CALLBACK_ACCESS_DENIED          |
+|  Texto del mensaje   |              Acceso denegado al servidor de asignaciones.%r               |
   
 ## <a name="explanation"></a>Explicación  
  Un cliente llamó al servidor de asignaciones pero no se aceptó la llamada. Existen diversos motivos para este evento, como protocolo incorrecto o falta de permisos de seguridad suficientes en el cliente.  

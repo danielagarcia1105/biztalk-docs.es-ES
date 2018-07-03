@@ -1,5 +1,5 @@
 ---
-title: Número de grupos incluidos no coincide. | Documentos de Microsoft
+title: Número de grupos incluidos no coincide. | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2f02262012a5d02cebaf86fae5a4d19d9b5486d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cf61012de6ba864d6f0ff4e553b4c74e1d501c20
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263036"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988173"
 ---
 # <a name="number-of-included-groups-do-not-match"></a>El número de grupos incluidos no coincide
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12Ta1InvalidNumberOfIncludedGroupsDescription|  
-|Texto del mensaje|Número de incluye grupos no coinciden|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                     X12Ta1InvalidNumberOfIncludedGroupsDescription                     |
+|  Texto del mensaje   |                         Número de grupos incluidos no coinciden                         |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que el número de grupos del intercambio no es igual al número del finalizador de intercambio (campo IEA01). Esto tiene lugar cuando el intercambio se conserva y se suspende al producirse un error. (El mensaje de error no se envía si el intercambio se conserva y los conjuntos de transacciones se suspenden al producirse un error o bien si el intercambio se divide.)  

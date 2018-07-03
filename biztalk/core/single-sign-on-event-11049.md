@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11049 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11049 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45ac6095950e02e7e73ab287b180bc22d88b4191
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5b86cf3d5361a912cd976d8a27e83981b71237e2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277444"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997509"
 ---
-# <a name="single-sign-on-event-11049"></a>Inicio de sesión único: Evento 11049
+# <a name="single-sign-on-event-11049"></a>De sesión único: Evento 11049
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11049|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_ERROR_DTC_FAILED|  
-|Texto del mensaje|No se pudo obtener MSDTC. SSO necesita MSDTC para funcionar correctamente.|  
+|                 |                                                                |
+|-----------------|----------------------------------------------------------------|
+|  Nombre del producto   |                   Inicio de sesión único (SSO) empresarial                    |
+| Versión del producto |   [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]   |
+|    Identificador del evento     |                             11049                              |
+|  Origen del evento   |                             ENTSSO                             |
+|    Componente    |                              N/D                               |
+|  Nombre simbólico  |                      SSO_ERROR_DTC_FAILED                      |
+|  Texto del mensaje   | No se pudo obtener MSDTC. SSO necesita MSDTC para funcionar correctamente. |
   
 ## <a name="explanation"></a>Explicación  
  El sistema ENTSSO no pudo conectarse con Microsoft DTC (Coordinador de transacciones distribuidas).  
