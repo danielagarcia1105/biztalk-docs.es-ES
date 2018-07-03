@@ -1,5 +1,5 @@
 ---
-title: La necesidad de integración de socios comerciales | Documentos de Microsoft
+title: La necesidad de integración de socios comerciales | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94122ceb1ccf39d7a5781334239b5002a2772979
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: e137274013af7b1a919729ce121e31fb7c5b01ed
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004157"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013907"
 ---
 # <a name="the-need-for-trading-partner-integration"></a>Necesidad de integración de socios comerciales
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporciona socios en escenarios empresariales de alta tecnología con soluciones para sus necesidades de automatización de procesos de negocios e integración de aplicaciones. Esta sección describen algunos de los desafíos de negocios que las empresas actúan en la fabricación de alta tecnología y cómo sistemas que incorporan BizTalk Server y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] puede ayudar a las empresas a enfrentar los desafíos. El último tema proporciona un escenario común que muestra una aplicación empresarial de ejemplo de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporciona socios en escenarios empresariales de alta tecnología con soluciones para sus necesidades de automatización de procesos de negocios e integración de aplicaciones. En esta sección se describe algunos de los desafíos de negocios que necesitan las empresas implicados en la fabricación de alta tecnología y cómo sistemas que incorporan BizTalk Server y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] puede ayudar a las empresas a enfrentar los desafíos. El último tema proporciona un escenario común que muestra una aplicación de negocio de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
 ## <a name="in-this-section"></a>En esta sección  
   

@@ -1,5 +1,5 @@
 ---
-title: Generar XML o esquema en PeopleSoft | Documentos de Microsoft
+title: Generar XML o esquema en PeopleSoft | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a7fbd164f7c0d380f6ee0c0fda59098203f7585
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fadd89a1e929d672f1b2c8839248d5d03cb27d1c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246692"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005637"
 ---
 # <a name="generating-xml-or-schema-in-peoplesoft"></a>Generación de XML o esquema en PeopleSoft
 En el procedimiento siguiente se describe cómo usar PeopleSoft Enterprise para crear un archivo XML y desencadenar un evento de PeopleSoft. Para ello, se debe realizar un cambio en el entorno de PeopleSoft. El cambio activa el archivo XML, que se envía a la carpeta de archivos que estableció en la orquestación que se va a supervisar. Después, en BizTalk Server, se importa el XML y se genera un esquema.  
@@ -32,33 +32,33 @@ En el procedimiento siguiente se describe cómo usar PeopleSoft Enterprise para 
   
 ### <a name="to-generate-xml-or-schema-in-peoplesoft"></a>Para generar XML o esquemas en PeopleSoft  
   
-1.  En la aplicación PeopleSoft, apunte a **configurar operaciones financieras**, seleccione **Supply Chain**, seleccione **definiciones comunes**, seleccione **ubicación**y, a continuación, seleccione **ubicación**.  
+1. En la aplicación PeopleSoft, apunte a **configurar operaciones financieras**, apunte a **Supply Chain**, apunte a **definiciones comunes**, apunte a **ubicación**y, a continuación, seleccione **ubicación**.  
   
-2.  En el **ubicación** pantalla, escriba la siguiente información:  
+2. En el **ubicación** pantalla, escriba la siguiente información:  
   
-    -   **Id. de conjunto:** escriba **recurso compartido**.  
+   - **Id. de conjunto:** escriba **SHARE**.  
   
-    -   **Código de ubicación:** escriba un código que empiece por `WKLOC`.  
+   - **Código ubicación:** escriba un código que comienza con `WKLOC`.  
   
      ![](../core/media/psadapter-18-task-sharesearch.gif "PSAdapter_18_Task_ShareSearch")  
   
-3.  Haga clic en **búsqueda**y, a continuación, haga clic en **corregir historial** para colocar la pantalla **editar** modo.  
+3. Haga clic en **búsqueda**y, a continuación, haga clic en **corregir historial** para colocar la pantalla **editar** modo.  
   
-     ![](../core/media/psadapter-19-task-correcthistory.gif "PSAdapter_19_Task_CorrectHistory")  
+    ![](../core/media/psadapter-19-task-correcthistory.gif "PSAdapter_19_Task_CorrectHistory")  
   
-4.  Realiza un cambio en un campo en la pantalla y, a continuación, haga clic en **guardar**.  
+4. Realice un cambio en un campo en la pantalla y, a continuación, haga clic en **guardar**.  
   
-5.  Seleccione **PeopleTools**, seleccione **Integration Broker**, seleccione **Monitor**y, a continuación, seleccione **Monitor Message**.  
+5. Seleccione **PeopleTools**, apunte a **Integration Broker**, apunte a **Monitor**y, a continuación, seleccione **Monitor Message**.  
   
-     ![](../core/media/psadapter-20-task-monitormessage.gif "PSAdapter_20_Task_MonitorMessage")  
+    ![](../core/media/psadapter-20-task-monitormessage.gif "PSAdapter_20_Task_MonitorMessage")  
   
-6.  Asegúrese de que **tipo de canal** es **instancia de mensaje**y, a continuación, haga clic en **actualizar**.  
+6. Asegúrese de que **tipo de canal** es **instancia de mensaje**y, a continuación, haga clic en **actualizar**.  
   
-7.  En el **realiza** columna, haga clic en el número.  
+7. En el **realiza** columna, haga clic en el número.  
   
-8.  Desplácese hasta la parte inferior de la lista y haga clic en el **detalles** crear vínculos en un **LOCATION_SYNC** mensaje.  
+8. Desplácese hasta la parte inferior de la lista y haga clic en el **detalles** vincular en un **LOCATION_SYNC** mensaje.  
   
-     ![](../core/media/psadapter-21-task-detailslink.gif "PSAdapter_21_Task_DetailsLink")  
+    ![](../core/media/psadapter-21-task-detailslink.gif "PSAdapter_21_Task_DetailsLink")  
   
 9. Haga clic en **ver XML** en un **MSEXTERNAL** nodo.  
   
@@ -71,4 +71,4 @@ En el procedimiento siguiente se describe cómo usar PeopleSoft Enterprise para 
 10. Recuerde la ubicación del archivo al que hace referencia en BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
- [Apéndice B: utilizando la aplicación PeopleSoft](../core/appendix-b-using-the-peoplesoft-application.md)
+ [Apéndice B: Uso de la aplicación PeopleSoft](../core/appendix-b-using-the-peoplesoft-application.md)

@@ -1,5 +1,5 @@
 ---
-title: Información de salida de seguimiento de prueba de directivas para reglas de negocios | Documentos de Microsoft
+title: Información de salida de seguimiento de pruebas de directivas para reglas de negocios | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,27 +17,27 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c223e8bddae1ff68e77cdf881ea22e6be4cdab9a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e8795e926d496f586d032bb85fe4a1fddb473ec5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22265068"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005141"
 ---
 # <a name="policy-test-trace-output-information-for-business-rules"></a>Información del resultado del seguimiento de pruebas de directivas para reglas de negocios
 En esta sección se proporciona información acerca de la información de seguimiento que se muestra al probar una directiva en el Compositor de reglas de negocio. Se ve información muy similar al visualizar los resultados de seguimiento de la ejecución de directivas mediante las consultas de seguimiento de instancias de servicio y eventos de mensaje en la página Concentrador de grupo.  
   
  Existen cuatro tipos de instrucciones que se muestran en el resultado del seguimiento:  
   
--   Actividad de hechos  
+- Actividad de hechos  
   
--   Evaluación de condición  
+- Evaluación de condición  
   
--   Actualización de agenda  
+- Actualización de agenda  
   
--   Regla activada  
+- Regla activada  
   
- A continuación se describe cada tipo de instrucción.  
+  A continuación se describe cada tipo de instrucción.  
   
 ## <a name="fact-activity"></a>Actividad de hechos  
  Esta instrucción indica los cambios en los hechos que están en la memoria de trabajo del motor. A continuación se muestra un ejemplo de entrada de actividad de datos:  
@@ -52,7 +52,7 @@ Object Instance Identifier: 872
 ```  
   
 ### <a name="rule-engine-instance-identifier"></a>Identificador de instancias de motor de reglas  
- Identificador único para la **RuleEngine** instancia que proporciona el entorno de ejecución para la activación de reglas.  
+ Identificador único para el **RuleEngine** instancia que proporciona el entorno de ejecución para la activación de reglas.  
   
 ### <a name="ruleset-name"></a>Nombre de conjunto de reglas  
  Nombre del conjunto de reglas (directiva).  
@@ -114,7 +114,7 @@ Test Result: True
   
 -   **Valor del operando derecho.** Valor del término situado a la derecha de una expresión.  
   
--   **Resultado de pruebas.** Resultado de la evaluación, que puede ser True o False.  
+-   **Resultado de la prueba.** Resultado de la evaluación, que puede ser True o False.  
   
 ## <a name="agenda-update"></a>Actualización de agenda  
  Esta actividad indica reglas que se agregan a la agenda del motor de reglas para su posterior ejecución. A continuación se muestra un ejemplo de entrada de actualización de agenda:  

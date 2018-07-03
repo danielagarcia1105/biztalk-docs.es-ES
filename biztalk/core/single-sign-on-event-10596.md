@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10596 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10596 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 051fdf627edc3f560a8d02026207dc2fe5bb3533
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a1e565ca3b96663e0ece5a2cf68c02d3258ac5d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270148"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008797"
 ---
-# <a name="single-sign-on-event-10596"></a>Inicio de sesión único: Evento 10596
+# <a name="single-sign-on-event-10596"></a>De sesión único: Evento 10596
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10596|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_TICKET_USER_NOT_IN_GROUP|  
-|Texto del mensaje|No se puede canjear el vale porque el usuario para el que se emitió no es miembro de la cuenta de usuarios de aplicación.%r<br /><br /> Nombre de la aplicación: %1 %r<br /><br /> Vale emitido para: %2 %r<br /><br /> Los usuarios de aplicación: %3|  
+|                 |                                                                                                                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                                         Inicio de sesión único (SSO) empresarial                                                                                                          |
+| Versión del producto |                                                                                         [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                         |
+|    Identificador del evento     |                                                                                                                   10596                                                                                                                    |
+|  Origen del evento   |                                                                                                                   ENTSSO                                                                                                                   |
+|    Componente    |                                                                                                                    N/D                                                                                                                     |
+|  Nombre simbólico  |                                                                                                     SSO_WARN_TICKET_USER_NOT_IN_GROUP                                                                                                      |
+|  Texto del mensaje   | No se puede canjear el vale porque el usuario para el que se emitió no es miembro de la cuenta de usuarios de aplicación.%r<br /><br /> Nombre de la aplicación: %1 %r<br /><br /> Vale emitido para: %2 %r<br /><br /> Los usuarios de aplicación: %3 |
   
 ## <a name="explanation"></a>Explicación  
  No se puede canjear el vale porque el usuario para el que se emitió no es miembro de la cuenta de usuarios de aplicación.  

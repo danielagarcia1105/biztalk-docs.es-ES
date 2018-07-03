@@ -1,5 +1,5 @@
 ---
-title: Se produjo una excepción de persistencia durante el envío del lote en la orquestación por lotes | Documentos de Microsoft
+title: Se ha producido una excepción de persistencia durante el envío del lote en la orquestación por lotes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c01e77ab46b1ef23b15bc8e288ff7f151d1563cb
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: e8a1277dd26fcb2036e3378f7fa6d22067a1f7e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25969058"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37020922"
 ---
 # <a name="a-persistence-exception-has-occurred-during-the-batch-submission-in-the-batching-orchestration"></a>Se produjo una excepción de persistencia durante el envío del lote en la orquestación de procesamiento por lotes
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|PersistenceExceptionOccured|  
-|Texto del mensaje|Se produjo una excepción de persistencia durante el envío del lote en la orquestación de procesamiento por lotes. Identificador de lote = {0}, ErrorMessage = {1}. Compruebe las suscripciones de puerto de envío y corríjalas.|  
+|                 |                                                                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                     |
+| Versión del producto |                                                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                 |
+|    Identificador del evento     |                                                                                             -                                                                                              |
+|  Origen del evento   |                                                   EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                   |
+|    Componente    |                                                                                      Motor de procesamiento por lotes                                                                                       |
+|  Nombre simbólico  |                                                                                PersistenceExceptionOccured                                                                                 |
+|  Texto del mensaje   | Se produjo una excepción de persistencia durante el envío del lote en la orquestación de procesamiento por lotes. Identificador de lote = {0}; Mensaje de error = {1}. Compruebe las suscripciones de puerto de envío y corríjalas. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server no pudo enviar un intercambio por lotes por no estar ningún puerto de envío suscrito al intercambio.  

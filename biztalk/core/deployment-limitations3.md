@@ -2,12 +2,12 @@
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
 redirect_document_id: true
 ROBOTS: NOINDEX
-ms.openlocfilehash: acc8560096423eb69b7cad8d9e6264707ae9a636
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 9d12874ef6042580183f407afc811a9d7f6e0fc9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24013275"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009869"
 ---
 # <a name="deployment-limitations"></a>Limitaciones de implementación
 
@@ -20,23 +20,23 @@ La contraseña del adaptador de transporte se almacena con asteriscos (******) e
 ## <a name="password-limitation-workaround"></a>Solución para la limitación de contraseña  
  Para solucionar esta limitación de contraseña, puede usar uno de los siguientes métodos:  
   
--   Edite el archivo de enlace antes de la importación al reemplazar los asteriscos por texto sin formato.  
+- Edite el archivo de enlace antes de la importación al reemplazar los asteriscos por texto sin formato.  
   
-    > [!CAUTION]
-    >  No se recomienda por motivos de seguridad.  
+  > [!CAUTION]
+  >  Esta práctica no se recomienda por motivos de seguridad.  
   
--   Edite el archivo de enlace antes de la importación al reemplazar los asteriscos por un valor aleatorio (es decir, una contraseña que no sea correcta). Escriba la contraseña correcta mediante la **propiedades de transporte** página en la consola de administración de BizTalk Server después de importar el archivo de enlace.  
+- Edite el archivo de enlace antes de la importación al reemplazar los asteriscos por un valor aleatorio (es decir, una contraseña que no sea correcta). Escriba la contraseña correcta mediante la **propiedades de transporte** página en la consola de administración de BizTalk Server después de importar el archivo de enlace.  
   
-    > [!NOTE]
-    >  Esta solución solo puede utilizarse si Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] se encuentra instalado en el equipo de destino o si se desarrolla una herramienta personalizada.  
+  > [!NOTE]
+  >  Esta solución solo puede utilizarse si Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] se encuentra instalado en el equipo de destino o si se desarrolla una herramienta personalizada.  
   
- -O bien-  
+  -o bien-  
   
--   Use el inicio de sesión único (SSO) empresarial en lugar de utilizar contraseñas.  
+- Use el inicio de sesión único (SSO) empresarial en lugar de utilizar contraseñas.  
   
-     El uso de la opción SSO requiere una importación del archivo de enlace.  
+   El uso de la opción SSO requiere una importación del archivo de enlace.  
   
- Compruebe el sistema lógico y la transmisión y recepción de servicios.  
+  Compruebe el sistema lógico y la transmisión y recepción de servicios.  
   
 ## <a name="see-also"></a>Vea también  
-[Importar enlaces & limitaciones](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)
+[Importar enlaces y limitaciones](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)

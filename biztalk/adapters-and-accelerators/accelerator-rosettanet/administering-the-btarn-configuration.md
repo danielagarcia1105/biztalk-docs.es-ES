@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de BTARN | Documentos de Microsoft
+title: Administrar la configuración de BTARN | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,30 +15,30 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48df2985716fe4ab1d94ba695dba5f4e108dc42b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d947db632e612a9973b2f247be2fff865f8a5d5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206772"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011269"
 ---
 # <a name="administering-the-btarn-configuration"></a>Administrar la configuración de BTARN
-El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración le permite administrar todas las facetas de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración de una interfaz de usuario. El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración incluye las configuraciones de proceso, organizaciones internas, socios y acuerdos de socios comerciales. Desde el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración, también puede administrar certificados, administrar instancias de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™, ver los eventos y ver el rendimiento de registros y alertas.  
+The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración le permite administrar todas las facetas de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración desde una interfaz de usuario. El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración incluye las configuraciones del proceso, organizaciones principales, socios y acuerdos entre socios comerciales. Desde el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración, también puede administrar los certificados, administrar instancias de Microsoft [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™, ver los eventos y ver el rendimiento de los registros y alertas.  
   
- Para obtener información general de todas las operaciones que puede realizar desde la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración, consulte [desde la consola de administración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md).  
+ Para obtener información general de todas las operaciones que puede realizar desde el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración, consulte [con la consola de administración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Desde la consola de administración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md)  
+-   [Uso de la consola de administración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md)  
   
--   [Configuración de envío BTARN y canalizaciones de recepción](../../adapters-and-accelerators/accelerator-rosettanet/setting-btarn-send-and-receive-pipelines.md)  
+-   [Configuración de canalizaciones de envío y recepción de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/setting-btarn-send-and-receive-pipelines.md)  
   
 -   [Habilitar el seguimiento de BAM](../../adapters-and-accelerators/accelerator-rosettanet/enabling-bam-tracking.md)  
   
--   [Crear o editar una configuración de procesos](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-process-configuration.md)  
+-   [Creación o edición de una configuración de procesos](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-process-configuration.md)  
   
--   [Creación o edición de la organización principal](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-home-organization.md)  
+-   [Creación o edición de una organización principal](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-home-organization.md)  
   
--   [Crear o editar un socio](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-partner.md)  
+-   [Creación o edición de un socio](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-partner.md)  
   
--   [Crear o editar un acuerdo](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-an-agreement.md)
+-   [Creación o edición de un acuerdo](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-an-agreement.md)

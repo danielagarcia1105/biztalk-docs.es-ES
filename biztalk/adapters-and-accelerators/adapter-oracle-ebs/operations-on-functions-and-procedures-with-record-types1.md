@@ -1,5 +1,5 @@
 ---
-title: Operaciones en funciones y procedimientos con registros Types1 | Documentos de Microsoft
+title: Operaciones en funciones y procedimientos con registros Types1 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,31 +12,31 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43974d1c392a357b9781ff7f6fae5286e282513a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b7d4f392e863dd8966f5c011abfd6e602f2514c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22216084"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006437"
 ---
-# <a name="operations-on-functions-and-procedures-with-record-types"></a>Operaciones en funciones y procedimientos con tipos de registro
-Tipos de registros de Oracle se usan para representar la información jerárquica de parámetros pasados a los procedimientos y funciones de PL/SQL. La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de registros como tipos XML complejos. 
+# <a name="operations-on-functions-and-procedures-with-record-types"></a>Operaciones en funciones y procedimientos con tipos RECORD
+Tipos de registros de Oracle se usan para representar información jerárquica de los parámetros pasados a los procedimientos y funciones de PL/SQL. La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de registros como tipos XML complejos. 
 
 ## <a name="supported-record-types"></a>Tipos admitidos de registro
-El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] es compatible con los siguientes tipos de tipos de registros:  
+El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] admite los siguientes tipos de los tipos de registros:  
   
--   Tipos de registro que se declaran como tabla % ROWTYPE parámetros en procedimientos almacenados y funciones.  
+- Tipos de registros que se declaran como parámetros de tipo de fila de tabla % en procedimientos almacenados y funciones.  
   
--   Tipos de registro que se declaran como parámetros de tipo de registro en los paquetes de PL/SQL. Por ejemplo, escriba rec_type1 es RECORD(name varchar2(100), age number(3));  
+- Tipos de registros que se declaran como parámetros de tipo de registro en los paquetes de PL/SQL. Por ejemplo, escriba rec_type1 es RECORD(name varchar2(100), age number(3));  
   
--   Tipos de registros que contienen registros anidados.  
+- Tipos de registros que contienen registros anidados.  
   
--   Tipos de registro que aparecen como IN, OUT o IN los parámetros OUT procedimientos o funciones.  
+- Tipos de registros que aparecen como IN, OUT o IN OUT parámetros a procedimientos o funciones.  
   
--   Tipos de registros que son los valores devueltos de funciones.  
+- Tipos de registros que son los valores devueltos de funciones.  
   
-    > [!NOTE]
-    >  El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no admite tipos BFILE como miembros de registro.  
+  > [!NOTE]
+  >  El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no admite tipos BFILE como miembros de registro.  
   
 ## <a name="see-also"></a>Vea también  
  [¿Qué operaciones pueden ser realizadas utilizando el adaptador?](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

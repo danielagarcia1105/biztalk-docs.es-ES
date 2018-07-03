@@ -1,5 +1,5 @@
 ---
-title: Referencias de Namespace de BizTalk incluidos en los proyectos de BizTalk | Documentos de Microsoft
+title: Referencias de BizTalk Namespace incluidos en proyectos de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -24,25 +24,25 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 820e15eb3524713dfd7d3f86311ca262fde191d5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 608f3ebf9a80553749fe5de558c2db05e3c7673d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22225180"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016372"
 ---
 # <a name="about-biztalk-namespace-references-included-in-biztalk-projects"></a>Referencias de espacio de nombres de BizTalk incluidos en proyectos de BizTalk
 Cuando agrega un proyecto nuevo de BizTalk, los siguientes espacios de nombres se incluyen de forma predeterminada:  
   
--   **Microsoft.BizTalk.DefaultPipelines**  
+- **Microsoft.BizTalk.DefaultPipelines**  
   
--   **Microsoft.BizTalk.GlobalPropertySchemas**  
+- **Microsoft.BizTalk.GlobalPropertySchemas**  
   
--   **Sistema**  
+- **Sistema**  
   
--   **System.Xml**  
+- **System.Xml**  
   
- También puede agregar nuevas referencias y referencias Web a su proyecto. Para obtener más información acerca de cómo agregar referencias con el **proyecto** menú, vea [en Visual Studio](../core/using-visual-studio.md). Para obtener información acerca de cómo agregar referencias Web, vea [agregar referencias Web](../core/adding-web-references.md).  
+  También puede agregar nuevas referencias y referencias Web a su proyecto. Para obtener más información acerca de cómo agregar referencias mediante el **proyecto** menú, vea [con Visual Studio](../core/using-visual-studio.md). Para obtener información acerca de cómo agregar referencias Web, vea [agregar referencias Web](../core/adding-web-references.md).  
   
 > [!CAUTION]
 >  No quite las referencias predeterminadas. Si quita las referencias predeterminadas, podría tener problemas al hacer referencia a los elementos de BizTalk en su proyecto. Puede restaurar referencias predeterminadas en el Explorador de soluciones.  
@@ -56,6 +56,6 @@ Cuando agrega un proyecto nuevo de BizTalk, los siguientes espacios de nombres s
   
 -   [Referencia de Microsoft.BizTalk.GlobalPropertySchemas](../core/microsoft-biztalk-globalpropertyschemas-reference.md)  
   
--   [Referencia del sistema](../core/system-reference.md)  
+-   [Referencia de System](../core/system-reference.md)  
   
 -   [Referencia de System.Xml](../core/system-xml-reference.md)

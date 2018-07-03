@@ -1,5 +1,5 @@
 ---
-title: Escalar horizontalmente el nivel de servidor BizTalk Server | Documentos de Microsoft
+title: Escalar horizontalmente el nivel de servidor BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,43 +23,43 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 35674e89d8f8104a35718531f2a87f95e8bc67e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 15439696cef510820d7e2354a5b0175537ab9d79
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271972"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023834"
 ---
 # <a name="scaling-out-the-biztalk-server-tier"></a>Escalar horizontalmente el nivel de BizTalk Server
 Para escalar horizontalmente el nivel de BizTalk, agregue más hardware a la topología existente. Se recomienda que agregue hardware en los siguientes escenarios:  
   
--   BizTalk Server se convierte en un cuello de botella. Alguno de los problemas siguientes puede causar el cuello de botella:  
+- BizTalk Server se convierte en un cuello de botella. Alguno de los problemas siguientes puede causar el cuello de botella:  
   
--   CPU: si el escenario utiliza canalizaciones, asignaciones u orquestaciones que hacen un uso intensivo de CPU, los servidores BizTalk Server no tendrán ningún espacio en cabeza adicional de CPU.  
+- CPU: si el escenario utiliza canalizaciones, asignaciones u orquestaciones que hacen un uso intensivo de CPU, los servidores BizTalk Server no tendrán ningún espacio en cabeza adicional de CPU.  
   
--   Memoria y E/S: si los equipos existentes han alcanzado su límite máximo de memoria y E/S, la única manera de agregar recursos consiste en Agregar otro equipo físico.  
+- Memoria y E/S: si los equipos existentes han alcanzado su límite máximo de memoria y E/S, la única manera de agregar recursos es agregar otro equipo físico.  
   
--   El escalamiento vertical resulta demasiado caro. Por ejemplo, piense en una topología de servidor BizTalk Server, donde la CPU ha alcanzado su capacidad máxima. Si es más barato agregar equipos con procesadores dobles adicionales, en vez de actualizar el procesador doble a un procesador cuádruple, debería entonces hacer un escalamiento horizontal del sistema.  
+- El escalamiento vertical resulta demasiado caro. Por ejemplo, piense en una topología de servidor BizTalk Server, donde la CPU ha alcanzado su capacidad máxima. Si es más barato agregar equipos con procesadores dobles adicionales, en vez de actualizar el procesador doble a un procesador cuádruple, debería entonces hacer un escalamiento horizontal del sistema.  
   
--   El escalamiento vertical no corrige el cuello de botella. Puede que el escalamiento vertical no funcione en los siguientes escenarios:  
+- El escalamiento vertical no corrige el cuello de botella. Puede que el escalamiento vertical no funcione en los siguientes escenarios:  
   
-    -   E/S está en el nivel máximo para el equipo de BizTalk, de modo que necesita otro equipo para escalar el E/S.  
+  -   E/S está en el nivel máximo para el equipo de BizTalk, de modo que necesita otro equipo para escalar el E/S.  
   
-    -   La memoria está en el nivel máximo para su sistema operativo. En este escenario, la única forma de escalar su sistema es agregar un equipo adicional de BizTalk a la topología.  
+  -   La memoria está en el nivel máximo para su sistema operativo. En este escenario, la única forma de escalar su sistema es agregar un equipo adicional de BizTalk a la topología.  
   
- Es posible que en algunos escenarios desee servidores específicos para recibir, enviar mensajes y procesarlos. Cuando dispone de servidores específicos, es más fácil aislar problemas y realizar el mantenimiento en un equipo sin afectar a los otros. Puede agregar estos equipos escalando horizontalmente el nivel de BizTalk.  
+  Es posible que en algunos escenarios desee servidores específicos para recibir, enviar mensajes y procesarlos. Cuando dispone de servidores específicos, es más fácil aislar problemas y realizar el mantenimiento en un equipo sin afectar a los otros. Puede agregar estos equipos escalando horizontalmente el nivel de BizTalk.  
   
 ## <a name="when-you-cant-scale-out-the-biztalk-tier"></a>Cuándo no es posible escalar horizontalmente el nivel de BizTalk  
   
--   En la base de datos de cuadro de mensaje se produce el cuello de botella.  
+- En la base de datos de cuadro de mensaje se produce el cuello de botella.  
   
--   El cuello de botella se produce en un adaptador. Por ejemplo, si utiliza el adaptador de SQL, después de aumentar el número de receptores de BizTalk, la contención de bloqueo se incrementa en la base de datos SQL de la que extrae datos el adaptador de SQL de BizTalk. Esto limita su capacidad de escalar horizontalmente el adaptador de SQL.  
+- El cuello de botella se produce en un adaptador. Por ejemplo, si utiliza el adaptador de SQL, después de aumentar el número de receptores de BizTalk, la contención de bloqueo se incrementa en la base de datos SQL de la que extrae datos el adaptador de SQL de BizTalk. Esto limita su capacidad de escalar horizontalmente el adaptador de SQL.  
   
- La siguiente ilustración muestra un ejemplo de cómo puede escalar horizontalmente el nivel de BizTalk.  
+  La siguiente ilustración muestra un ejemplo de cómo puede escalar horizontalmente el nivel de BizTalk.  
   
- ![Escala de BTS](../core/media/scaleoutbts.gif "ScaleOutBTS")  
+  ![Escala de BTS](../core/media/scaleoutbts.gif "ScaleOutBTS")  
   
- Esta figura muestra una topología de BizTalk escalada horizontalmente, que evoluciona de un servidor BizTalk Server a dos servidores BizTalk Server. En la primera topología de servidor BizTalk Server, tres instancias de host comparten los recursos del equipo de BizTalk. En la segunda topología de servidor BizTalk Server, el host de transmisión se separa en un servidor diferente, con lo que se consigue un mayor rendimiento.  
+  Esta figura muestra una topología de BizTalk escalada horizontalmente, que evoluciona de un servidor BizTalk Server a dos servidores BizTalk Server. En la primera topología de servidor BizTalk Server, tres instancias de host comparten los recursos del equipo de BizTalk. En la segunda topología de servidor BizTalk Server, el host de transmisión se separa en un servidor diferente, con lo que se consigue un mayor rendimiento.  
   
 ## <a name="considerations-when-scaling-out-the-biztalk-tier"></a>Consideraciones al escalar horizontalmente el nivel de BizTalk  
  Debe plantearse las siguientes preguntas antes de agregar otro equipo de servidor BizTalk Server:  
@@ -77,41 +77,41 @@ Para escalar horizontalmente el nivel de BizTalk, agregue más hardware a la top
   
  A continuación se enumeran dos soluciones para este problema:  
   
--   **Solución 1**: la manera más fácil de factorizar en este escenario es clonar la factorización de instancia host desde el primer equipo al segundo equipo. Por lo tanto, en términos de funcionalidad, el segundo equipo es una copia exacta del primero; también puede tener tanto hosts de recepción como de envío. Suponiendo que no hay ningún otro cuello de botella, puede obtener un factor de escalamiento de 2 dado que se duplican los recursos de CPU.  
+- **Solución 1**: la forma más sencilla de descomponer en factores en este escenario es clonar la factorización de instancia host desde el primer equipo en el segundo equipo. Por lo tanto, en términos de funcionalidad, el segundo equipo es una copia exacta del primero; también puede tener tanto hosts de recepción como de envío. Suponiendo que no hay ningún otro cuello de botella, puede obtener un factor de escalamiento de 2 dado que se duplican los recursos de CPU.  
   
--   **Solución 2**: otra manera en factores las instancias de host es aislar la recepción y envío de funciones en equipos diferentes. Por lo tanto, uno de los servidores BizTalk Server es exclusivo para la recepción y otro para el envío.  
+- **Solución 2**: otra manera de descomponer en factores las instancias de host es aislar la recepción y enviar las funciones en equipos diferentes. Por lo tanto, uno de los servidores BizTalk Server es exclusivo para la recepción y otro para el envío.  
   
- **Comparar solución 1 y 2 de la solución**  
+  **Comparación de la solución 1 y 2 de la solución**  
   
- En la solución 1, el número de instancias de host se duplica con respecto a una configuración BTS. Esto significa que aumentará la contención de bloqueo en el servidor SQL Server. El aumento en contención de bloqueo determinará el factor de escalamiento. Si la contención de bloqueo está dentro de límites que puedan convertirla en un cuello de botella, puede obtener un factor de escalamiento de 2.  
+  En la solución 1, el número de instancias de host se duplica con respecto a una configuración BTS. Esto significa que aumentará la contención de bloqueo en el servidor SQL Server. El aumento en contención de bloqueo determinará el factor de escalamiento. Si la contención de bloqueo está dentro de límites que puedan convertirla en un cuello de botella, puede obtener un factor de escalamiento de 2.  
   
- La ventaja de la solución 2 es tener sólo dos instancias de host, por lo que la contención de bloqueo en el servidor SQL server debe ser menor comparada con la solución 1. Sin embargo, el factor de escalamiento depende por completo la complejidad de la recepción y envío instancias de host. Considere los casos siguientes en la solución 2:  
+  La ventaja de la solución 2 es tener sólo dos instancias de host, por lo que la contención de bloqueo en SQL server debe ser menor comparada con la solución 1. Sin embargo, el factor de escala depende completamente de la complejidad de la recepción y envío de las instancias de host. Considere los casos siguientes en la solución 2:  
   
- Suponga que las instancias de host tanto de recepción como de transmisión son de la misma intensidad y cada una de ellas utiliza el 50 % de la CPU en la primera topología de servidor BizTalk Server. En la segunda topología de servidor BizTalk Server, se desplaza la instancia de host de transmisión a un equipo diferente y ahora tanto la recepción como la transmisión duplican los recursos. Esto debería proporcionar un factor de escalamiento de 2,  suponiendo que no hay ningún otro cuello de botella. Este caso resulta mejor que la Solución 1 porque hay solamente dos instancias de host y, por lo tanto, una menor contención de bloqueo.  
+  Suponga que las instancias de host tanto de recepción como de transmisión son de la misma intensidad y cada una de ellas utiliza el 50 % de la CPU en la primera topología de servidor BizTalk Server. En la segunda topología de servidor BizTalk Server, se desplaza la instancia de host de transmisión a un equipo diferente y ahora tanto la recepción como la transmisión duplican los recursos. Esto debería proporcionar un factor de escalamiento de 2,  suponiendo que no hay ningún otro cuello de botella. Este caso resulta mejor que la Solución 1 porque hay solamente dos instancias de host y, por lo tanto, una menor contención de bloqueo.  
   
- Suponga que la transmisión es más intensa que la recepción y utiliza el 80 % de los recursos de la CPU en la primera topología de servidor BizTalk Server. Al mover la instancia de host de transmisión a otra máquina, obtendrá únicos de los recursos de CPU de más de 20% para que el factor de escalamiento máximo será de 1,2. Además, el equipo con la instancia de host de recepción usará sólo recursos de CPU de 20-30% para que la ventaja de escalamiento horizontal es mucho menor.  
+  Suponga que la transmisión es más intensa que la recepción y utiliza el 80 % de los recursos de la CPU en la primera topología de servidor BizTalk Server. Moviendo la instancia de host de transmisión a otra máquina, obtener solo los recursos de CPU de más de 20% para que el factor de escalamiento máximo será de 1,2. Además, el equipo con la instancia de host de recepción usará los recursos de CPU de solo 20-30% por lo que la ventaja de escalamiento horizontal es mucho menor.  
   
- Observe la siguiente ilustración, que tiene cuatro servidores BizTalk Server. Todos los equipos son receptores y emisores, lo que ofrece un total de cuatro instancias de host de cada tipo (recepción y transmisión).  
+  Observe la siguiente ilustración, que tiene cuatro servidores BizTalk Server. Todos los equipos son receptores y emisores, lo que ofrece un total de cuatro instancias de host de cada tipo (recepción y transmisión).  
   
- ![Re &#45; las instancias de host factorización](../core/media/refactoringhostinstances.gif "RefactoringHostinstances")  
+  ![Re&#45;instancias de host](../core/media/refactoringhostinstances.gif "RefactoringHostinstances")  
   
- Esta topología podría no ser la mejor posible. También debería probar otras permutaciones de factorización, en función de la complejidad del escenario. Por ejemplo:  
+  Esta topología podría no ser la mejor posible. También debería probar otras permutaciones de factorización, en función de la complejidad del escenario. Por ejemplo:  
   
--   Dedique dos equipos a la recepción y otros dos a la transmisión. Esto le dará el mejor escalamiento posible cuando tanto la recepción como el envío son igualmente intensivos.  
+- Dedique dos equipos a la recepción y otros dos a la transmisión. Esto le dará el mejor escalamiento posible cuando tanto la recepción como el envío son igualmente intensivos.  
   
--   Dedique tres equipos a la recepción y uno a la transmisión si la recepción es más intensiva que la transmisión.  
+- Dedique tres equipos a la recepción y uno a la transmisión si la recepción es más intensiva que la transmisión.  
   
--   Dedique un equipo a la recepción y tres a la transmisión si la transmisión es más intensiva que la recepción.  
+- Dedique un equipo a la recepción y tres a la transmisión si la transmisión es más intensiva que la recepción.  
   
- En todos los escenarios, se recomienda que minimice el número de instancias de host de cada host para reducir la contención en la base de datos de cuadro de mensajes y para que, al mismo tiempo, la utilización de los recursos del equipo sea la máxima. La mejor permutación de factorización dependerá de la complejidad del escenario y del tipo de cuello de botella. Compruebe siempre la factorización antes de finalizar una permutación.  
+  En todos los escenarios, se recomienda que minimice el número de instancias de host de cada host para reducir la contención en la base de datos de cuadro de mensajes y para que, al mismo tiempo, la utilización de los recursos del equipo sea la máxima. La mejor permutación de factorización dependerá de la complejidad del escenario y del tipo de cuello de botella. Compruebe siempre la factorización antes de finalizar una permutación.  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo ampliar el nivel de servidor BizTalk Server](../core/scaling-up-the-biztalk-server-tier.md)   
- [Cómo ampliar el nivel de SQL Server](../core/scaling-up-the-sql-server-tier.md)   
- [Escalar horizontalmente el nivel de servidor SQL](../core/scaling-out-the-sql-server-tier.md)   
- [Hosts de recepción escalados](../core/scaled-out-receiving-hosts.md)   
- [Hosts de procesamiento de escala horizontal](../core/scaled-out-processing-hosts.md)   
- [Hosts de envío de escala horizontal](../core/scaled-out-sending-hosts.md)   
+ [Escalar verticalmente el nivel de BizTalk Server](../core/scaling-up-the-biztalk-server-tier.md)   
+ [Escalar verticalmente el nivel de SQL Server](../core/scaling-up-the-sql-server-tier.md)   
+ [Escalar horizontalmente el nivel de SQL Server](../core/scaling-out-the-sql-server-tier.md)   
+ [Hosts de recepción escalados horizontalmente](../core/scaled-out-receiving-hosts.md)   
+ [Hosts de procesamiento escalados horizontalmente](../core/scaled-out-processing-hosts.md)   
+ [Hosts de envío escalados horizontalmente](../core/scaled-out-sending-hosts.md)   
  [Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2](../core/use-windows-cluster-to-provide-high-availability-for-biztalk-hosts.md)   
- [Bases de datos de escala horizontal](../core/scaled-out-databases.md)   
- [Agrupación en clústeres las bases de datos de servidor BizTalk Server](../core/clustering-the-biztalk-server-databases1.md)
+ [Bases de datos escaladas horizontalmente](../core/scaled-out-databases.md)   
+ [Agrupación en clústeres de las bases de datos de BizTalk Server](../core/clustering-the-biztalk-server-databases1.md)

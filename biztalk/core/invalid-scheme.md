@@ -1,5 +1,5 @@
 ---
-title: Esquema no válido | Documentos de Microsoft
+title: Esquema no válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5736a3738a9598f4c4b419d7e291c3c3e32207f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 063c60ed07d89429f14f7ed3b7c090cdc0bac033
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257740"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008165"
 ---
 # <a name="invalid-scheme"></a>Esquema no válido
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Esquema no válido; se esperaba el esquema "{0}" o "{{1}"|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                  Esquema no válido. se esperaba el esquema "{0}"o"{1}"                   |
   
 ## <a name="explanation"></a>Explicación  
  Se ha producido una de las situaciones siguientes: la dirección que se especifica en el campo URI (identificador uniforme de recursos) debe comenzar con http:// o https://. O bien, el esquema no coincide con lo especificado en la implementación del elemento de enlace de transporte.  

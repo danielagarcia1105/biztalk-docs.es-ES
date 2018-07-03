@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11050 al | Documentos de Microsoft'
+title: 'De sesión único: Evento 11050 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8314b58cf968a78b22e66783d0da8c36fac2873e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2406a29150710286a6560a2239315feaa10c42b6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276828"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37021930"
 ---
-# <a name="single-sign-on-event-11050"></a>Inicio de sesión único: Evento 11050 al
+# <a name="single-sign-on-event-11050"></a>De sesión único: Evento 11050
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11050|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_INFO_LINE|  
-|Texto del mensaje|SSO: %1 %r|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           11050                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                       SSO_INFO_LINE                        |
+|  Texto del mensaje   |                         Inicio de sesión único: %1 %r                          |
   
 ## <a name="explanation"></a>Explicación  
  Código de error interno.  

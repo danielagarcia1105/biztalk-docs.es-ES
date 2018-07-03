@@ -1,5 +1,5 @@
 ---
-title: SelectiveBindingImport (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+title: SelectiveBindingImport (ejemplo de implementación de aplicaciones) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,18 +22,18 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88e6a2aa02decf1e4ed9c4a9838077be0c3b97b2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2b289e2c37797d10e8676f2d8d948090c9eb59fd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974834"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005109"
 ---
 # <a name="selectivebindingimport-application-deployment-sample"></a>SelectiveBindingImport (ejemplo de implementación de aplicación)
 En este tema se explica el modo de utilizar el ejemplo SelectiveBindingImport. También puede utilizar esta secuencia de comandos de ejemplo para aplicar distintos enlaces a una aplicación cuando se importa la aplicación en distintos entornos de destino. Puede utilizar este enfoque cuando desee importar los enlaces desde archivos de enlace que estén almacenados en un recurso compartido de red.  
   
 > [!NOTE]
->  Si no necesita importar archivos de enlace de forma automática desde un recurso compartido de red durante la importación de la aplicación, puede agregar a la aplicación distintos archivos de enlace que tengan distintos entornos de destino especificados. Al importar la aplicación, puede especificar el entorno y los enlaces para ese entorno se aplicarán de forma automática. Para obtener más información, consulte [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md).  
+>  Si no necesita importar archivos de enlace de forma automática desde un recurso compartido de red durante la importación de la aplicación, puede agregar a la aplicación distintos archivos de enlace que tengan distintos entornos de destino especificados. Al importar la aplicación, puede especificar el entorno y los enlaces para ese entorno se aplicarán de forma automática. Para obtener más información, consulte [archivos de enlace e implementación de aplicaciones](../core/binding-files-and-application-deployment.md).  
   
  Las aplicaciones de BizTalk se moverán normalmente desde el desarrollo a la prueba o al ensayo y, a continuación, a los entornos de producción. Los enlaces utilizados en distintos entornos suelen ser distintos. Mediante este ejemplo, puede aplicar enlaces para entornos distintos de la siguiente forma:  
   
@@ -70,59 +70,59 @@ En este tema se explica el modo de utilizar el ejemplo SelectiveBindingImport. T
   
 ### <a name="to-run-the-sample"></a>Para ejecutar el ejemplo  
   
-1.  Ejecutar **Build.Bat desde el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp** directory. Esto crea los siguientes archivos en el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp\Dlls carpeta: Schemas.dll, Maps.dll y Orchestrations.dll.  
+1. Ejecute **Build.Bat desde el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp** directory. Esto crea los siguientes archivos en el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp\Dlls carpeta: Schemas.dll, Maps.dll y Orchestrations.dll.  
   
-2.  **Crear la aplicación.** En la consola de administración de BizTalk Server, cree una aplicación, como se describe en [cómo crear una aplicación](../core/how-to-create-an-application.md).  
+2. **Crear la aplicación.** En la consola de administración de BizTalk Server, cree una aplicación, como se describe en [cómo crear una aplicación](../core/how-to-create-an-application.md).  
   
-3.  **Agregar a la aplicación los archivos .dll creados en el primer paso.** Para obtener instrucciones, consulte [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
+3. **Agregar a la aplicación de los archivos .dll que se crean en el primer paso.** Para obtener instrucciones, consulte [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
   
-4.  **Crear la variable de entorno, como se indica a continuación:**  
+4. **Cree la variable de entorno, como sigue:**  
   
-    1.  En el menú Inicio, haga clic en **Mi PC** y haga clic en **propiedades**.  
+   1.  En el menú Inicio, haga clic en **Mi PC** y haga clic en **propiedades**.  
   
-    2.  En el **avanzadas** , haga clic en **Variables de entorno**.  
+   2.  En el **avanzadas** , haga clic **Variables de entorno**.  
   
-    3.  En el **variables de usuario** sección, haga clic en **nuevo**.  
+   3.  En el **variables de usuario** sección, haga clic en **New**.  
   
-    4.  En **nombre de Variable**, tipo **entorno**.  
+   4.  En **nombre de Variable**, tipo **entorno**.  
   
-    5.  En **valor de la Variable**, escriba los siguientes valores para el entorno: **desarrollar**, **producción**, **ensayo**, o **Prueba**. Estos valores distinguen mayúsculas de minúsculas.  
+   5.  En **valordelavariable**, tipo de los siguientes valores para el entorno: **desarrollar**, **producción**, **ensayo**, o **Prueba**. Estos valores distinguen mayúsculas de minúsculas.  
   
-5.  Haga clic en **Aceptar** tres veces.  
+5. Haga clic en **Aceptar** tres veces.  
   
-6.  **Copie los archivos de enlace en una ubicación en el sistema de archivos.** Copie los archivos .xml de enlace de las carpetas Desarrollo, Prueba, Ensayo y Producción en una ubicación en su sistema de archivos.  
+6. **Copie los archivos de enlace en una ubicación en el sistema de archivos.** Copie los archivos .xml de enlace de las carpetas Desarrollo, Prueba, Ensayo y Producción en una ubicación en su sistema de archivos.  
   
-7.  **Editar la secuencia de comandos posteriores al procesamiento.** Edite SelectiveBindings.bat del modo siguiente:  
+7. **Edite la secuencia de comandos posteriores al procesamiento.** Edite SelectiveBindings.bat del modo siguiente:  
   
-    1.  **Especifique la ubicación del archivo de enlace.** En la línea que contiene BINDINGS_LOC, elimine REM y proporcione la ruta a la ubicación en la que ha copiado los archivos de enlace.  
+   1.  **Especifique la ubicación del archivo de enlace.** En la línea que contiene BINDINGS_LOC, elimine REM y proporcione la ruta a la ubicación en la que ha copiado los archivos de enlace.  
   
-         Ejemplo:  
+        Ejemplo:  
   
-         BINDINGS_LOC=C:\MyBindings  
+        BINDINGS_LOC=C:\MyBindings  
   
-    2.  **Especifique el nombre de la aplicación.** En la línea que contiene APPLICATION_NAME, elimine REM y proporcione el nombre de la aplicación en la que desea importar los enlaces.  
+   2.  **Especifique el nombre de la aplicación.** En la línea que contiene APPLICATION_NAME, elimine REM y proporcione el nombre de la aplicación en la que desea importar los enlaces.  
   
-         Ejemplo:  
+        Ejemplo:  
   
-         APPLICATION_Name=SelectiveBindingImport  
+        APPLICATION_Name=SelectiveBindingImport  
   
-8.  **Agregue la secuencia de comandos a la aplicación como una secuencia de comandos posteriores al procesamiento.** Para obtener instrucciones, consulte [cómo agregar un prefijo o procesamiento posterior a la secuencia de comandos a una aplicación](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
+8. **Agregue el script a la aplicación como una secuencia de comandos posteriores al procesamiento.** Para obtener instrucciones, consulte [cómo agregar un prefijo o un Script de posprocesamiento para una aplicación](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
   
 9. **Exporte la aplicación.** Para obtener instrucciones, consulte [cómo exportar una aplicación de BizTalk](../core/how-to-export-a-biztalk-application.md).  
   
-10. **Eliminar la aplicación.** Para obtener instrucciones, consulte [cómo eliminar una aplicación de BizTalk del grupo de BizTalk](../core/how-to-delete-a-biztalk-application-from-the-biztalk-group.md).  
+10. **Elimine la aplicación.** Para obtener instrucciones, consulte [cómo eliminar una aplicación de BizTalk del grupo de BizTalk](../core/how-to-delete-a-biztalk-application-from-the-biztalk-group.md).  
   
 11. **Importe la aplicación.** Para obtener instrucciones, consulte [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md). No es necesario que especifique un entorno de destino.  
   
 12. **Compruebe que se ha aplicado el archivo de enlace correcto.** Puede hacerlo comprobando el campo de descripción de las ubicaciones de recepción del modo que se indica a continuación:  
   
-    1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+    1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-    2.  En el árbol de consola, expanda el grupo de BizTalk y la aplicación de BizTalk y la carpeta Ubicaciones de recepción.  
+    2. En el árbol de consola, expanda el grupo de BizTalk y la aplicación de BizTalk y la carpeta Ubicaciones de recepción.  
   
-    3.  En el panel derecho, vea la descripción de las ubicaciones de recepción.  
+    3. En el panel derecho, vea la descripción de las ubicaciones de recepción.  
   
-13. **Instalar la aplicación.** Para obtener instrucciones, consulte [cómo instalar una aplicación de BizTalk](../core/how-to-install-a-biztalk-application.md).  
+13. **Instale la aplicación.** Para obtener instrucciones, consulte [cómo instalar una aplicación de BizTalk](../core/how-to-install-a-biztalk-application.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Implementación de aplicaciones (carpeta de ejemplos de BizTalk Server)](../core/application-deployment-biztalk-server-samples-folder.md)   

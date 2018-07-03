@@ -1,5 +1,5 @@
 ---
-title: No se encontró el lote | Documentos de Microsoft
+title: No se encontró el lote | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a73c3e65a806f02faeb81baa6a5263019079b0c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fab810e4cfadc77c8fafe34b5cb78aaa417dfe5c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279484"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015069"
 ---
 # <a name="the-batch-was-not-found"></a>No se encontró el lote
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|Err_BatchNotFound|  
-|Texto del mensaje|No se encontró el lote.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                                   Err_BatchNotFound                                    |
+|  Texto del mensaje   |                                No se encontró el lote.                                |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, indica que BizTalk Server no encontró un lote durante el inicio o detención de un lote mientras la orquestación por lotes intentaba procesar un mensaje por lotes.  

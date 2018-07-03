@@ -1,5 +1,5 @@
 ---
-title: Configuración de las propiedades del proyecto de BizTalk | Documentos de Microsoft
+title: Configuración de las propiedades del proyecto de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,31 +15,31 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1817f9d6bfa4cfbfa7dd34f58fa75b15dd89df7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 81e35a06a17a7e623db87463c1af336e1e6a8fea
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22232260"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010005"
 ---
 # <a name="configuring-biztalk-project-properties"></a>Configuración de las propiedades del proyecto de BizTalk
 En las propiedades del proyecto se establece la configuración global de los proyectos creados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Los proyectos de BizTalk comparten muchas de las propiedades de otros sistemas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. La mayoría de estas propiedades se configuran en el Diseñador de proyectos.  
   
 ### <a name="to-access-properties-with-the-project-designer"></a>Procedimiento para obtener acceso a las propiedades con el Diseñador de proyectos  
   
-1.  En el Explorador de soluciones, seleccione el proyecto.  
+1. En el Explorador de soluciones, seleccione el proyecto.  
   
-2.  En el **proyecto** menú, haga clic en **propiedades** para obtener acceso al diseñador de proyectos.  
+2. En el **proyecto** menú, haga clic en **propiedades** para tener acceso al diseñador de proyectos.  
   
-    > [!NOTE]
-    >  O bien, haga clic en el proyecto y, a continuación, haga clic en **propiedades**.  
+   > [!NOTE]
+   >  Como alternativa, haga clic en el proyecto y, a continuación, haga clic en **propiedades**.  
   
-3.  Haga clic en la pestaña de la propiedad deseada para obtener acceso a las propiedades del proyecto.  
+3. Haga clic en la pestaña de la propiedad deseada para obtener acceso a las propiedades del proyecto.  
   
- Documentación de las propiedades comunes a todos los [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] pueden encontrar proyectos haciendo referencia a la información de la ficha de propiedad de diseñador de proyectos respectiva en el siguiente vínculo: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).  
+   Documentación de las propiedades comunes a todos los [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyectos pueden encontrarse haciendo referencia a la información de ficha de propiedades de diseñador de proyectos correspondiente en el siguiente vínculo: [ http://go.microsoft.com/fwlink/?LinkId=124727 ](http://go.microsoft.com/fwlink/?LinkId=124727).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Diseñador de proyectos: Pestaña de implementación](../core/project-designer-deployment-tab.md)  
+-   [Diseñador de proyectos: pestaña Implementación](../core/project-designer-deployment-tab.md)  
   
--   [Ventana de propiedades de proyecto de BizTalk](../core/biztalk-project-properties-window.md)
+-   [Ventana de propiedades del proyecto de BizTalk](../core/biztalk-project-properties-window.md)

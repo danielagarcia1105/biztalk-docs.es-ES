@@ -1,5 +1,5 @@
 ---
-title: Clase de DbDataReader en el adaptador de Siebel | Documentos de Microsoft
+title: Clase DbDataReader del adaptador de Siebel | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,39 +15,40 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00fc3329cbe4dc75a4eccd5b71ded45ad6ebfe63
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ad584571f7ef746a43032935e42e377ceb6cd70
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22222020"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012621"
 ---
-# <a name="dbdatareader-class-in-the-siebel-adapter"></a>Clase de DbDataReader en el adaptador de Siebel
+# <a name="dbdatareader-class-in-the-siebel-adapter"></a>Clase DbDataReader del adaptador de Siebel
 El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] proporciona un `DbDataReader` aprovechando el lector de datos XML. Esto permite al consumidor del origen de datos de Siebel para leer una secuencia de sólo avance de filas.  
-  
+
 ## <a name="supported-properties"></a>Propiedades admitidas  
  El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] admite las siguientes `DbDataReader` propiedades.  
-  
-|Nombre|Get/Set.|Description|  
+
+|Nombre|Get/Set.|Descripción|  
 |----------|--------------|-----------------|  
-|**HasRows**|Obtener|Esta propiedad no se admite y producirá una excepción si se tiene acceso.|  
-|**IsClosed**|Obtener|Obtiene un valor que indica si la `DbDataReader` está cerrado.|  
-|**RecordsAffected**|Obtener|Obtiene un valor que indica si la `DbDataReader` contiene una o varias filas.|  
-|**Item (Int32)**|Obtener|Obtiene el valor de la columna especificada como una instancia del objeto. Utilice el número ordinal de la columna que desee al invocar este indizador.|  
+|**HasRows**|Obtener|Esta propiedad no se admite e iniciará una excepción si tiene acceso.|  
+|**IsClosed**|Obtener|Obtiene un valor que indica si el `DbDataReader` está cerrado.|  
+|**RecordsAffected**|Obtener|Obtiene un valor que indica si el `DbDataReader` contiene una o varias filas.|  
+|**Item (Int32)**|Obtener|Obtiene el valor de la columna especificada como una instancia del objeto. Use el número ordinal de la columna que desee al invocar este indizador.|  
 |**Item (String)**|Obtener|Obtiene el valor de la columna especificada como una instancia del objeto. Use el nombre de la columna que desee al invocar este indizador.|  
-  
+
 ## <a name="supported-methods"></a>Métodos admitidos  
  El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] admite las siguientes `DbDataReader` métodos.  
-  
-|Nombre|Description|  
-|----------|-----------------|  
-|**GetSchemaTable**|Devuelve un valor `DataTable` que describe los metadatos de la columna de `DbDataReader`. Los atributos de columna de esquema admitidos por el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] son:<br /><br /> -ColumnName<br />-ColumnOrdinal<br />Tipo de datos. NET<br />-Longitud<br />-Precisión (si está disponible)<br />-Escala (si está disponible)<br />-AllowDBNull<br />-LocalName<br />-LocalName extendido<br />-Namespace|  
-|**GetString**|Obtiene el valor de la columna especificada como instancia de `String`.|  
-|**GetValue**|Obtiene el valor de la columna especificada como instancia de `String`.|  
-|**isDbNull**|Obtiene un valor que indica si la columna contiene valores inexistentes o ausentes.|  
-|**NextResult**|El proveedor de datos de Siebel siempre devuelve un único conjunto de resultados; por lo tanto, esta llamada agota completamente el resultado actual establece antes de devolverlo **false**.|  
-|**Lectura**|Avanza el lector al registro siguiente en un conjunto de resultados.  Devuelve **true** si se realiza correctamente, y **false** si el lector no tiene más registros izquierda.|  
-|**Cerrar**|Cierra el `DbDataReader` objeto. **Precaución:** cuando haya terminado con el `DbDataReader` de objeto, debe cerrarla, con el fin de liberar los objetos de la biblioteca COM de Siebel. En caso contrario, uso de memoria y el identificador de la aplicación cliente pasa.|  
-  
+
+
+|        Nombre        |                                                                                                                                                                                                                            Descripción                                                                                                                                                                                                                             |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **GetSchemaTable** | Devuelve un valor `DataTable` que describe los metadatos de la columna de `DbDataReader`. Los atributos de columna de esquema admitidos por el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] son:<br /><br /> : ColumnName<br />-ColumnOrdinal<br />Tipo de datos. NET<br />-Longitud<br />-Precisión (si está disponible)<br />-Escalado (si está disponible)<br />-AllowDBNull<br />-LocalName<br />-LocalName extendido<br />-Namespace |
+|   **GetString**    |                                                                                                                                                                                                 Obtiene el valor de la columna especificada como instancia de `String`.                                                                                                                                                                                                 |
+|    **GetValue**    |                                                                                                                                                                                                 Obtiene el valor de la columna especificada como instancia de `String`.                                                                                                                                                                                                 |
+|    **isDbNull**    |                                                                                                                                                                                       Obtiene un valor que indica si la columna contiene valores inexistentes o ausentes.                                                                                                                                                                                       |
+|   **NextResult**   |                                                                                                                                                           El proveedor de datos de Siebel siempre devuelve un conjunto de resultados único; por lo tanto, esta llamada agota completamente el conjunto antes de la devolución de resultados actual **false**.                                                                                                                                                           |
+|      **Lectura**      |                                                                                                                                                         Avanza el lector al registro siguiente en un conjunto de resultados.  Devuelve **true** si se realiza correctamente, y **false** si el lector no tiene más registros izquierda.                                                                                                                                                         |
+|     **Cerrar**      |                                                                                                         Cierra el `DbDataReader` objeto. **Precaución:** cuando haya terminado con el `DbDataReader` de objeto, debe cerrarlo, con el fin de liberar los objetos de biblioteca COM de Siebel. En caso contrario, pasará uso de memoria y el identificador de la aplicación cliente.                                                                                                          |
+
 ## <a name="see-also"></a>Vea también  
- [Extender Interfaces de ADO.NET con el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/extend-ado-net-interfaces-with-the-siebel-adapter.md)
+ [Ampliar Interfaces de ADO.NET con el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/extend-ado-net-interfaces-with-the-siebel-adapter.md)

@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar las opciones avanzadas para un puerto de envío de transporte | Documentos de Microsoft
+title: Cómo configurar las opciones avanzadas para un puerto de envío de transporte | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,28 +18,28 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 320ed6c1caf288ac1bf9745a351bbd53a46f48db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3aada2fa4f32e66c88f295e96bd71a9330cfb988
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22250684"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023882"
 ---
 # <a name="how-to-configure-transport-advanced-options-for-a-send-port"></a>Cómo configurar opciones avanzadas de transporte para un puerto de envío
-Usar la consola de administración de BizTalk Server para configurar las opciones avanzadas para un puerto de envío de transporte. Estas opciones determinan la forma en la que el puerto de envío controla los mensajes, como, por ejemplo, el número de reintentos de envío de un mensaje si éste tiene algún error, así como la programación de la ventana de servicio para el puerto.  
+Use la consola de administración de BizTalk Server para configurar las opciones avanzadas para un puerto de envío de transporte. Estas opciones determinan la forma en la que el puerto de envío controla los mensajes, como, por ejemplo, el número de reintentos de envío de un mensaje si éste tiene algún error, así como la programación de la ventana de servicio para el puerto.  
   
 > [!NOTE]
-> **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]** , puede habilitar la entrega ordenada de puertos de envío dinámicos, según el tipo de adaptador. Esta opción solo está disponible para los tipos de adaptador que se garantiza la entrega ordenada de puertos de envío estáticos, por ejemplo, el adaptador de archivo y el adaptador de FTP.
+> **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]** , puede habilitar la entrega ordenada para los puertos de envío dinámico, según el tipo de adaptador. Esta opción solo está disponible para los tipos de adaptador que se garantiza la entrega ordenada para puertos de envío estáticos, por ejemplo, el adaptador de archivo o el adaptador de FTP.
 > 
-> Considere la posibilidad de seis mensajes: M1, M2, M3, M4, M5 y M6. M1, M3, M5 están diseñados para una ubicación de archivo. M2, M4 y M6 están diseñados para FTP. El puerto de envío dinámico de entrega ordenada se asegura de que se ordenan M1, M3 y M5; y M2, M4 y M6 ordenan respectivamente. 
+> Considere la posibilidad de seis mensajes: M1, M2, M3, M4, M5 y M6. M1, M3, M5 están diseñados para una ubicación de archivo. M2, M4 y M6 están diseñados para FTP. El puerto de envío dinámico de entrega ordenada se asegura de que se ordenan M1, M3 y M5; y M2, M4 y M6 se ordenan, respectivamente. 
 > 
-> Para los tipos de adaptador que no son compatibles con la entrega ordenada, no hay cualquier disponibles para configurar propiedades de puerto de envío dinámico. Las opciones de transporte se determinan automáticamente en tiempo de ejecución.  
->
-> **Para versiones anteriores de BizTalk** que usan puertos dinámicos, no hay ninguna propiedad disponibles para configurar debido a las opciones de transporte se determinan automáticamente en tiempo de ejecución.
+> Para los tipos de adaptador que no son compatibles con la entrega ordenada, no hay disponibles para configurar las propiedades de puerto de envío dinámico. Sus opciones de transporte se determinan automáticamente en tiempo de ejecución.  
+> 
+> **Para versiones anteriores de BizTalk** que usen puertos dinámicos, no existen las propiedades disponibles para configurar porque las opciones de transporte se determinan automáticamente en tiempo de ejecución.
 
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ## <a name="controlling-send-port-priority"></a>Controlar la prioridad de puertos de envío  
  El parámetro de configuración Prioridad de Opciones avanzadas de transporte controla el orden de eliminación de los mensajes del cuadro de mensajes. Los puertos de mayor prioridad se procesarán antes que los puertos con una prioridad menor; esto significa que los puertos de más prioridad adquieren una importancia mayor con respecto a otros puertos de envío correspondientes a un host único.  
@@ -63,20 +63,20 @@ Usar la consola de administración de BizTalk Server para configurar las opcione
   
 4.  En el panel izquierdo, seleccione **opciones avanzadas de transporte**.  
   
-5.  Configure las opciones de transporte como se describe en la tabla siguiente y, a continuación, seleccione **Aceptar**.  Solo algunas de las propiedades siguientes están disponibles para puertos de envío dinámicos.
+5.  Configure las opciones de transporte como se describe en la tabla siguiente y, a continuación, seleccione **Aceptar**.  Sólo algunas de las propiedades siguientes están disponibles para puertos de envío dinámicos.
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Número de reintentos**|Especificar el número de veces que el puerto de envío intenta reenviar un mensaje en caso de error. El valor predeterminado es 3. el intervalo permitido es de 0 a 1.000.|  
+    |**Número de reintentos**|Especificar el número de veces que el puerto de envío intenta reenviar un mensaje en caso de error. El valor predeterminado es 3; el intervalo permitido es de 0 a 1000.|  
     |**Intervalo de reintento**|Especificar el intervalo de tiempo (en minutos) que media entre los intentos de reenvío de un mensaje. El valor predeterminado es 5; el intervalo permitido es de 0 a 525.600, ambos inclusive.|  
     |**Prioridad**|Establecer la prioridad del intento de reenvío.|  
     |**Entrega ordenada**|Seleccionar esta casilla para enviar mensajes según su orden de recepción.|  
-    |**Dejar de enviar los mensajes subsiguientes en caso de error de mensaje actual**|Seleccionar esta casilla para detener el envío de mensajes sucesivos que siguen a un mensaje con errores. Esta opción solo está disponible cuando la **entrega ordenada** opción está seleccionada.|  
+    |**Detener el envío de los siguientes mensajes en caso de error de mensaje actual**|Seleccionar esta casilla para detener el envío de mensajes sucesivos que siguen a un mensaje con errores. Esta opción solo está disponible cuando el **entrega ordenada** está seleccionada.|  
     |**Habilitar enrutamiento para mensajes con errores**|Seleccionar esta opción para habilitar el enrutamiento de mensajes con errores.|  
     |**Habilitar ventana de servicio**|Seleccionar esta opción para especificar el período diario durante el que el puerto de envío se encontrará en funcionamiento mediante la especificación de una hora de inicio y una hora de detención.|  
-    |**Hora de inicio**|Especificar la hora a la que el puerto de envío comienza a enviar mensajes todos los días. Esta opción solo está disponible cuando la **habilitar ventana de servicio** opción está seleccionada.|  
-    |**Hora de finalización**|Especificar la hora a la que el puerto de envío deja de enviar mensajes todos los días. Esta opción solo está disponible cuando la **habilitar ventana de servicio** opción está seleccionada.|  
+    |**Hora de inicio**|Especificar la hora a la que el puerto de envío comienza a enviar mensajes todos los días. Esta opción solo está disponible cuando el **habilitar ventana de servicio** está seleccionada.|  
+    |**Hora de finalización**|Especificar la hora a la que el puerto de envío deja de enviar mensajes todos los días. Esta opción solo está disponible cuando el **habilitar ventana de servicio** está seleccionada.|  
   
 ## <a name="see-also"></a>Vea también  
 [Entrega ordenada de mensajes](../core/ordered-delivery-of-messages.md)  
- [Crear y configurar puertos de envío](../core/creating-and-configuring-send-ports.md)
+ [Creación y configuración de puertos de envío](../core/creating-and-configuring-send-ports.md)

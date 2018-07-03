@@ -1,5 +1,5 @@
 ---
-title: El descodificador AS2 detectó una excepción durante el procesamiento | Documentos de Microsoft
+title: El descodificador AS2 detectó una excepción durante el procesamiento | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2826a938a4f081b8c5895da809e9f16966e25834
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e80ce8b53e6b5eb77770d7abcf9dbfbd157d9d64
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278324"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010269"
 ---
 # <a name="the-as2-decoder-encountered-an-exception-during-processing"></a>El descodificador AS2 detectó una excepción durante el procesamiento
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|AS2DecoderExceptionEncounteredDuringProcessing|  
-|Texto del mensaje|El descodificador AS2 detectó una excepción durante el procesamiento.  Detalles del mensaje y excepción son los siguientes: AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}" MessageType: "{3}" excepción: "\ {4\}"|  
+|                 |                                                                                                                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                         |
+| Versión del producto |                                                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                     |
+|    Identificador del evento     |                                                                                                 -                                                                                                 |
+|  Origen del evento   |                                                      EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                       |
+|    Componente    |                                                                                            Motor AS2                                                                                             |
+|  Nombre simbólico  |                                                                          AS2DecoderExceptionEncounteredDuringProcessing                                                                           |
+|  Texto del mensaje   | El descodificador AS2 detectó una excepción durante el procesamiento.  Detalles del mensaje y excepción son los siguientes: AS2-de: "{0}" AS2-para: "{1}" MessageID: "{2}" MessageType: "{3}" excepción: "{4}" |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el mensaje AS2 entrante debido a un problema con el descodificador AS2.  

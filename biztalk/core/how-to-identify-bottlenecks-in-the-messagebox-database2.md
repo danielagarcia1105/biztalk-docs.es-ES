@@ -1,5 +1,5 @@
 ---
-title: Cómo identificar cuellos de botella en el cuadro de mensajes Database2 | Documentos de Microsoft
+title: Cómo identificar cuellos de botella en la base de datos2 del cuadro de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,34 +12,34 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e69966f0f3ecff5a27788c9a92d4e3f1ac0eae68
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ffc04f31544a48f0ab25338c95beefaf14d5097c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010629"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-messagebox-database"></a>Cómo identificar cuellos de botella en la base de datos de cuadro de mensajes
 Para identificar cuellos de botella en la base de datos de cuadro de mensajes, en primer lugar debe asegurarse de que se haya iniciado el servicio del Agente de SQL Server. Cambie el estado de inicio del servicio de manual a automático, de modo que el servicio se reinicie automáticamente aunque se reinicie el servidor.  
   
  De manera predeterminada, el servicio de BizTalk se limita si las tablas Spool, TrackingData o ApplicationQ aumentan de tamaño. Los trabajos del Agente de SQL purgan estas tablas, de manera que, si éste no se ejecuta, la cola de impresión aumentará de tamaño y provocará una limitación para proteger la base de datos contra presiones adicionales. Compruebe el estado de los siguientes contadores de rendimiento:  
   
--   BizTalk:Agente de mensaje (nombre de host) Estado de limitación de entrega de mensajes  
+- BizTalk:Agente de mensaje (nombre de host) Estado de limitación de entrega de mensajes  
   
--   BizTalk:Agente de mensaje (nombre de host) Estado de limitación de publicación de mensajes  
+- BizTalk:Agente de mensaje (nombre de host) Estado de limitación de publicación de mensajes  
   
- Un valor de 0 indica que no se está produciendo ninguna limitación. El valor 6 indica que el sistema se está limitando a causa del crecimiento de la base de datos. Vea la documentación para obtener información sobre cómo interpretar los demás valores de estos contadores.  
+  Un valor de 0 indica que no se está produciendo ninguna limitación. El valor 6 indica que el sistema se está limitando a causa del crecimiento de la base de datos. Vea la documentación para obtener información sobre cómo interpretar los demás valores de estos contadores.  
   
 ## <a name="spool-table-growth"></a>Crecimiento de la tabla Spool  
  La tabla Spool puede empezar a crecer por distintos motivos. Uno de estos motivos es que aumenten de tamaño las colas de aplicaciones. Éstas, a su vez, pueden crecer por diversas razones, como cuellos de botella o contención de recursos en niveles inferiores.  
   
  Si las colas de aplicaciones son pequeñas y el tamaño de la tabla Spool se mantiene elevado, compruebe que los trabajos de purga estén funcionando al ritmo preciso. Asegúrese de que el servicio de Agente de SQL Server esté en ejecución y, a continuación, compruebe que los siguientes trabajos se estén realizando correctamente:  
   
--   MessageBox_Message_Cleanup_BizTalkMessageBoxDb  
+- MessageBox_Message_Cleanup_BizTalkMessageBoxDb  
   
--   MessageBox_Parts_Cleanup_BizTalkMessageBoxDb  
+- MessageBox_Parts_Cleanup_BizTalkMessageBoxDb  
   
- Si la tabla MessageZeroSum es grande, indica que los mensajes se han procesado (DeQueue se ha ejecutado correctamente y ha eliminado los datos de las tablas de colas de aplicaciones) y las filas se han marcado para su eliminación. Sin embargo, los trabajos de purga no pueden eliminar los datos a la velocidad necesaria. Un motivo de ello puede ser que el equipo de SQL Server esté experimentando una contención grave de la CPU, lo que afecta a la capacidad de los trabajos de purga para funcionar al ritmo apropiado a causa de la privación de la CPU.  
+  Si la tabla MessageZeroSum es grande, indica que los mensajes se han procesado (DeQueue se ha ejecutado correctamente y ha eliminado los datos de las tablas de colas de aplicaciones) y las filas se han marcado para su eliminación. Sin embargo, los trabajos de purga no pueden eliminar los datos a la velocidad necesaria. Un motivo de ello puede ser que el equipo de SQL Server esté experimentando una contención grave de la CPU, lo que afecta a la capacidad de los trabajos de purga para funcionar al ritmo apropiado a causa de la privación de la CPU.  
   
 ## <a name="application-queue-table-growth"></a>Crecimiento de la tabla de colas de aplicaciones  
  Las colas de aplicaciones alojan datos de transición en curso que, una vez procesados, son eliminados por DeQueue.  

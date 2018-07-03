@@ -1,5 +1,5 @@
 ---
-title: Diseñador de configuración de adaptador personalizado | Documentos de Microsoft
+title: Diseñador de configuración de adaptador personalizado | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5cff46f95062eff856653b6114f76f89ac17efd1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 60754ea86e3c77534a15d00ff18b21705198d648
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970378"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014445"
 ---
 # <a name="custom-adapter-configuration-designer"></a>Diseñador de configuración de adaptador personalizado
 Deberá crear una biblioteca de clases .NET a partir de los diseñadores personalizados. Puede integrarlos al DLL del adaptador o crear un DLL distinto.  Una vez creado un ensamblado de diseñador debe hacer referencia a él mediante decoraciones, como lo haría con una descripción o categoría. La referencia incluye una especificación del ensamblado y un nombre completo de clase para su uso.  
   
- Estas decoraciones permiten dos maneras de hacer referencia al diseñador personalizado específico: como un ensamblado en la caché global de ensamblados global o como un ensamblado externo ubicado en el disco.  
+ Estas decoraciones permiten dos maneras de hacer referencia a diseñador personalizado específico: como un ensamblado en la caché global de ensamblados global o como un ensamblado externo ubicado en el disco.  
   
 > [!NOTE]
->  Hay dos rutas de acceso de un ensamblado en tiempo de diseño posibles: puede especificar la ruta de acceso absoluta a los editores de tipo y los convertidores utilizados en la configuración de XSD en dicho XSD (no se admite la ruta de acceso relativa), o puede almacenar los convertidores y editores de tipo en la información global caché de ensamblados y necesita una ruta de acceso absoluta.  
+>  Hay dos rutas de acceso de ensamblado de tiempo de diseño posibles: puede especificar la ruta de acceso absoluta a los editores de tipos y los convertidores de tipos utilizadas en la configuración XSD en dicho XSD (no se admite la ruta de acceso relativa), o puede almacenar los convertidores y editores de tipo en el global caché de ensamblados y no necesita una ruta de acceso absoluta.  
   
 ## <a name="global-assembly-cache-designer-use"></a>Uso del diseñador de la caché de ensamblados global  
  La caché de ensamblados global almacena ensamblados por nombre, clave pública, versión y referencia cultural. Por este motivo es recomendable:  
   
-1.  Generar un archivo de clave pública y agregarlo al archivo AssemblyInfo.cs.  
+1. Generar un archivo de clave pública y agregarlo al archivo AssemblyInfo.cs.  
   
-2.  Especificar una versión específica en el archivo AssemblyInfo.cs.  
+2. Especificar una versión específica en el archivo AssemblyInfo.cs.  
   
- Puede arrastrar el ensamblado hasta la caché de ensamblados global o usar GACUTIL para agregarlo a ella.  
+   Puede arrastrar el ensamblado hasta la caché de ensamblados global o usar GACUTIL para agregarlo a ella.  
   
- Para usar este diseñador, especifique el nombre completo de clase, una coma y la entrada de la caché de ensamblados global (nombre de ensamblado, versión, referencia cultural y token de clave pública) como valor de la decoración. Use \<editor\> decoraciones para **UITypeEditor** implementaciones y \<convertidor\> decoraciones para **TypeConverter** implementaciones .  
+   Para usar este diseñador, especifique el nombre completo de clase, una coma y la entrada de la caché de ensamblados global (nombre de ensamblado, versión, referencia cultural y token de clave pública) como valor de la decoración. Use \<editor\> decoraciones para **UITypeEditor** implementaciones y \<convertidor\> decoraciones para **TypeConverter** implementaciones .  
   
- En el código siguiente se muestra cómo inicializar los diseñadores personalizados en un archivo XSD:  
+   En el código siguiente se muestra cómo inicializar los diseñadores personalizados en un archivo XSD:  
   
 ```  
 <xs:element name="Global" type="xs:string">  

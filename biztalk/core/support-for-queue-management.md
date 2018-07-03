@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con la administración de cola | Documentos de Microsoft
+title: Compatibilidad con la administración de cola | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: faeb3f141e114cf1f86157084f50d0a0d490833a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b0d09e75dbf3ff92b3b298d31ff2dfcb80b5217d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278700"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37017080"
 ---
 # <a name="support-for-queue-management"></a>Compatibilidad de la administración de cola
 Con el adaptador de MQSeries de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede crear y eliminar colas de forma remota en el administrador de cola MQSeries. Esto se admite porque [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] utiliza un objeto MQSAgent COM+ remoto que se comunica de forma directa con el administrador de cola MQSeries. Como norma general, MQSAgent se utiliza en tiempo de ejecución para leer mensajes en las colas remotas de MQSeries Server o bien, escribirlos allí. Más de un servidor BizTalk Server puede ser cliente de este servicio remoto. Además, MQSAgent proporciona las funciones de creación y eliminación de colas y es posible llamar de forma directa desde una orquestación o adaptador. Esto se permite en escenarios muy dinámicos a través de los cuales la orquestación o el adaptador pueden crear una cola temporal y enviar, a continuación, un mensaje mediante ella, recibir una respuesta en otra cola y, por último, eliminar la cola temporal.  
@@ -90,98 +90,98 @@ HRESULT DeleteQueue (
   
 ##### <a name="create-a-c-console-application-to-manage-mqseries-server-queues"></a>Crear una aplicación de consola de C# para administrar colas de servidor MQSeries  
   
-1.  Crear una nueva aplicación Visual C# consola en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] con el nombre **MQSeriesQueues**.  
+1. Crear una nueva aplicación Visual C# Console en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] con el nombre **MQSeriesQueues**.  
   
-2.  Reemplace el código existente del archivo Program.cs que se genera con el código siguiente:  
+2. Reemplace el código existente del archivo Program.cs que se genera con el código siguiente:  
   
-    ```  
-    using System;  
-    using System.Collections.Generic;  
-    using System.Text;  
-    using MQSAgentLib;  
+   ```  
+   using System;  
+   using System.Collections.Generic;  
+   using System.Text;  
+   using MQSAgentLib;  
   
-    namespace MQSeriesQueues  
-    {  
-        class ManageQueues  
-        {  
-            public static void Main(string[] args)  
-            {  
-                // The first argument should be "c" (without quotes)  
-                // to create a queue, anything else to delete a queue.  
-                // The 2nd and 3rd arguments should be the name of   
-                // the MQSeries Queue Manager and the name of   
-                // the queue to be created or deleted for example  
-                // the following usage will create the local   
-                // queue testq for the Queue Manager QM_Test  
-                // MQSeriesQueues c QM_Test testq  
-                createordeleteQs(args[0], args[1], args[2]);  
+   namespace MQSeriesQueues  
+   {  
+       class ManageQueues  
+       {  
+           public static void Main(string[] args)  
+           {  
+               // The first argument should be "c" (without quotes)  
+               // to create a queue, anything else to delete a queue.  
+               // The 2nd and 3rd arguments should be the name of   
+               // the MQSeries Queue Manager and the name of   
+               // the queue to be created or deleted for example  
+               // the following usage will create the local   
+               // queue testq for the Queue Manager QM_Test  
+               // MQSeriesQueues c QM_Test testq  
+               createordeleteQs(args[0], args[1], args[2]);  
+           }  
+  
+           static void createordeleteQs(string Qswitch, string QMgr, string QName)  
+           {   
+           if ((Qswitch =="c" & (QMgr != null & QName != null)))  
+               {  
+                   CreateQueue(QMgr, QName);  
+               }  
+               else if(QMgr != null & QName != null)  
+               {  
+                   DeleteQueue(QMgr, QName);  
+               }  
             }  
   
-            static void createordeleteQs(string Qswitch, string QMgr, string QName)  
-            {   
-            if ((Qswitch =="c" & (QMgr != null & QName != null)))  
-                {  
-                    CreateQueue(QMgr, QName);  
-                }  
-                else if(QMgr != null & QName != null)  
-                {  
-                    DeleteQueue(QMgr, QName);  
-                }  
-             }  
+           static void CreateQueue(string Qmgr, string Qname)  
+           {  
+               MQSAdmin admin = new MQSAdmin();    
   
-            static void CreateQueue(string Qmgr, string Qname)  
-            {  
-                MQSAdmin admin = new MQSAdmin();    
+               ResultCode resultCode = admin.CreateQueue(Qmgr, Qname, 0, "", "", "", 0);  
   
-                ResultCode resultCode = admin.CreateQueue(Qmgr, Qname, 0, "", "", "", 0);  
+               if ((resultCode & ResultCode.QueueCreated) == ResultCode.QueueCreated)  
+               {  
+                   Console.WriteLine("Queue Created.");  
+               }  
+               else if ((resultCode & ResultCode.QueueAlreadyExists) == ResultCode.QueueAlreadyExists)  
+               {  
+                   Console.WriteLine("Queue Already Exists.");  
+               }  
+           }  
   
-                if ((resultCode & ResultCode.QueueCreated) == ResultCode.QueueCreated)  
-                {  
-                    Console.WriteLine("Queue Created.");  
-                }  
-                else if ((resultCode & ResultCode.QueueAlreadyExists) == ResultCode.QueueAlreadyExists)  
-                {  
-                    Console.WriteLine("Queue Already Exists.");  
-                }  
-            }  
+           static void DeleteQueue(string Qmgr, string Qname)  
+           {  
+               MQSAdmin admin = new MQSAdmin();  
   
-            static void DeleteQueue(string Qmgr, string Qname)  
-            {  
-                MQSAdmin admin = new MQSAdmin();  
+               ResultCode resultCode = admin.DeleteQueue(Qmgr, Qname);  
   
-                ResultCode resultCode = admin.DeleteQueue(Qmgr, Qname);  
+               if ((resultCode & ResultCode.QueueDeleted) == ResultCode.QueueDeleted)  
+               {  
+                   Console.WriteLine("Queue successfully deleted.");  
+               }  
+               if ((resultCode & ResultCode.QueueDoesNotExist) == ResultCode.QueueDoesNotExist)  
+               {  
+                   Console.WriteLine("Queue did not exist anyway!");  
+               }  
+           }  
   
-                if ((resultCode & ResultCode.QueueDeleted) == ResultCode.QueueDeleted)  
-                {  
-                    Console.WriteLine("Queue successfully deleted.");  
-                }  
-                if ((resultCode & ResultCode.QueueDoesNotExist) == ResultCode.QueueDoesNotExist)  
-                {  
-                    Console.WriteLine("Queue did not exist anyway!");  
-                }  
-            }  
+       }  
+   }  
+   ```  
   
-        }  
-    }  
-    ```  
+3. Agregue una referencia a este proyecto a la **biblioteca de tipos MQSAgent 1.0**. El **biblioteca de tipos MQSAgent 1.0** está disponible en el **COM** pestaña de la **Agregar referencia** cuadro de diálogo.  
   
-3.  Agregue una referencia a este proyecto para el **MQSAgent 1.0 Type Library**. El **MQSAgent 1.0 Type Library** está disponible en la **COM** pestaña de la **Agregar referencia** cuadro de diálogo.  
+   > [!NOTE]
+   >  El componente MQSAgent COM+ debe estar instalado en el equipo en el que está ejecutando esta aplicación de consola. Para obtener más información acerca de cómo instalar el componente MQSAgent COM +, consulte [mediante el Asistente de configuración de MQSAgent COM +](../core/using-the-mqsagent-com-configuration-wizard.md).  
   
-    > [!NOTE]
-    >  El componente MQSAgent COM+ debe estar instalado en el equipo en el que está ejecutando esta aplicación de consola. Para obtener más información acerca de cómo instalar el componente MQSAgent COM + vea [mediante el Asistente de configuración de MQSAgent COM +](../core/using-the-mqsagent-com-configuration-wizard.md).  
+4. Genere la aplicación de consola.  
   
-4.  Genere la aplicación de consola.  
+5. Abra un símbolo del sistema en el mismo directorio en el que se encuentra la aplicación de consola compilada.  
   
-5.  Abra un símbolo del sistema en el mismo directorio en el que se encuentra la aplicación de consola compilada.  
+6. Escriba el nombre de la aplicación de consola compilada con los argumentos adecuados y presione ENTRAR. Por ejemplo, para eliminar la cola **testq** en el Administrador de cola **QM_Test** , debería escribir el texto siguiente en el símbolo del sistema y presione ENTRAR:  
   
-6.  Escriba el nombre de la aplicación de consola compilada con los argumentos adecuados y presione ENTRAR. Por ejemplo, para eliminar la cola **testq** en el Administrador de cola **QM_Test** , debería escribir el texto siguiente en el símbolo del sistema y presione ENTRAR:  
+   ```  
+   MQSeriesQueues d QM_Test testq  
+   ```  
   
-    ```  
-    MQSeriesQueues d QM_Test testq  
-    ```  
+7. Para crear la cola **testq** en el Administrador de cola **QM_Test** , debería escribir el texto siguiente en el símbolo del sistema y presione ENTRAR:  
   
-7.  Para crear la cola **testq** en el Administrador de cola **QM_Test** , debería escribir el texto siguiente en el símbolo del sistema y presione ENTRAR:  
-  
-    ```  
-    MQSeriesQueues c QM_Test testq  
-    ```
+   ```  
+   MQSeriesQueues c QM_Test testq  
+   ```

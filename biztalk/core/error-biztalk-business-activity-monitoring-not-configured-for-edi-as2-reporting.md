@@ -1,5 +1,5 @@
 ---
-title: Supervisión de la actividad de negocio de BizTalk no se ha configurado para la generación de informes de estado de EDI AS2 | Documentos de Microsoft
+title: La actividad económica de BizTalk no se ha configurado para informar del estado de EDI / AS2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e84301e55cd6fbdcb74467758c7e338e61b727f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eb2a6b9d6eaa6ac14f51c7f05e40a9f6ccffccd5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241356"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010533"
 ---
-# <a name="biztalk-business-activity-monitoring-has-not-been-configured-for-edi-as2-status-reporting"></a>Supervisión de la actividad de negocio de BizTalk no se ha configurado para la generación de informes de estado de AS2 de EDI
+# <a name="biztalk-business-activity-monitoring-has-not-been-configured-for-edi-as2-status-reporting"></a>La actividad económica de BizTalk no se ha configurado para informar del estado de EDI / AS2
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Supervisión de la actividad económica (BAM) no se ha configurado para la generación de informes de estado de EDI/AS2. La característica de informes de estado se deshabilitará.|  
+|                 |                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
+| Versión del producto |                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |
+|    Identificador del evento     |                                                                      -                                                                      |
+|  Origen del evento   |                           EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                            |
+|    Componente    |                                                                 Motor AS2                                                                  |
+|  Nombre simbólico  |                                                                      -                                                                      |
+|  Texto del mensaje   | Supervisión de la actividad económica (BAM) no se ha configurado para la generación de informes de estado de EDI/AS2. La característica de informes de estado se deshabilitará. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que no se habilitó la generación de informes de estado de EDI/AS2 porque Supervisión de la actividad económica (BAM) no se ha configurado a través del Asistente para configuración de BizTalk. La infraestructura de BAM es un requisito previo para la generación de informes de estado de EDI/AS2.  

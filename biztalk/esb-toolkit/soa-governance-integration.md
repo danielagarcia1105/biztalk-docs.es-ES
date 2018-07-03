@@ -1,6 +1,6 @@
 ---
-title: Integración de regulación de SOA con el Kit de herramientas ESB en BizTalk Server | Documentos de Microsoft
-description: Lista de desafíos de integración de sistema y de terceros basada en SOA con el Kit de herramientas de ESB en BizTalk Server
+title: Integración de gobierno de SOA con el Kit de herramientas ESB en BizTalk Server | Microsoft Docs
+description: Lista de los desafíos de integración del sistema y de terceros basadas en SOA con el Kit de herramientas de ESB en BizTalk Server
 caps.latest.revision: 3
 author: MandiOhlinger
 manager: anneta
@@ -13,46 +13,46 @@ ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccb5ac2d-cd90-414d-a6c7-045a8fe9450b
 ms.author: mandia
-ms.openlocfilehash: 9e1489e01a8918d1dfa7ca61a69d57f5d7316f68
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b989373f4e0f10439374842c2dcf6c8b8226165
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22295020"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023050"
 ---
-# <a name="soa-governance-integration"></a>Integración de regulación de SOA
-Las aplicaciones de nivel empresarial deben admitir características de administración sólida y confiable para que pueda cumplir los requisitos empresariales, legislación gubernamentales, contratos de nivel de servicio (SLA) y del cliente y comerciales las expectativas de los socios comerciales. Regulación de tiempo de ejecución se centra específicamente en los requisitos y desafíos de arquitectura orientada a servicios (SOA) se ejecute correctamente, en función de los sistemas que cumplen estos requisitos. La calidad de servicio ofrecido por un sistema de negocio es el factor predominante que define su éxito o fracaso.  
+# <a name="soa-governance-integration"></a>Integración de gobierno de SOA
+Aplicaciones de nivel empresarial deben admitir las características de administración sólidas y confiables para poder cumplir con los requisitos empresariales, legislación gubernamental, acuerdos de nivel de servicio (SLA) y al cliente y comerciales expectativas asociado. Regulación de tiempo de ejecución se centra específicamente en los requisitos y desafíos de la arquitectura orientada a servicios (SOA) se ejecuta correctamente: en función de los sistemas que cumplen estos requisitos. La calidad del servicio ofrecido por un sistema de negocio es el factor predominante que define su éxito o fracaso.  
 
-## <a name="soa-challenges"></a>Desafíos SOA  
- Implementar sistemas basados en SOA en la producción de las empresas enfrentan a una serie de desafíos, incluidas las siguientes:  
-  
+## <a name="soa-challenges"></a>Retos de SOA:  
+ Las empresas implementar sistemas basados en SOA en producción enfrentan a una serie de desafíos, incluidas las siguientes:  
+
 -   Minimizar el costo de las actualizaciones y mantenimiento y permite que las actualizaciones incrementales  
-  
--   Permitir cambio rápido mediante herramientas de administración y la composición de procesos de negocios  
-  
--   Seguridad de extremo a extremo; Esto incluye la confianza y la protección de la privacidad de contenido, receptores y remitentes de mensajes  
-  
+
+-   Lo que permite un cambio rápido a través de las herramientas de administración y la composición de procesos de negocios  
+
+-   Seguridad de extremo a otro; Esto incluye la confianza y la protección de la privacidad de contenido, receptores y remitentes de mensajes  
+
 -   Identificar, administrar y reparar las excepciones cuando se producen  
-  
--   Separación de servicios y los consumidores  
-  
--   Medir y demostrar el valor empresarial de las aplicaciones SOA para compensar las preocupaciones de costo  
-  
+
+-   Desacoplamiento de servicios y los consumidores  
+
+-   Medir y demostrar el valor empresarial de las aplicaciones SOA se va a desplazar las preocupaciones de costo  
+
 -   Control (control) de la proliferación de servicios duplicadas o innecesarias en caso contrario  
-  
--   Facilitar la identificación de los servicios correspondientes necesarios para los usuarios posibles para reducir el costo de desarrollo inicial  
-  
--   Administrar el ciclo de vida de servicios para minimizar el costo y el riesgo del mantenimiento continuado y cambiar  
-  
--   Simplificar el uso real de servicios adecuados (desacoplamiento ubicación, transporte, directivas, estándares y estilos de mensajería)  
-  
--   Reporting instalaciones utilizadas para identificar quién está utilizando qué servicio, dónde y porqué  
+
+-   Facilitar la identificación de los servicios apropiados que se necesitan los usuarios potenciales para reducir los costos de desarrollo inicial  
+
+-   Administración del ciclo de vida de servicios para minimizar los costos y riesgos de mantenimiento continuo y cambiar  
+
+-   Lo que simplifica el uso real de los servicios apropiados (desacoplamiento ubicación, transporte, directivas, estándares y estilos de mensajería)  
+
+-   Informar de las instalaciones que se usa para identificar quién está usando el servicio, dónde y por qué  
 
 ## <a name="next-steps"></a>Pasos siguientes
  El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] admite la integración con dos sistemas de control de tiempo de ejecución de terceros:  
-  
--   **Resolución de Sentinet SOA y extensiones de servidor BizTalk Server**. Para obtener más información sobre cómo se amplía Sentinet [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] capacidades, consulte [extender BizTalk ESB Toolkit capacidades con Sentinet](../technical-guides/extending-biztalk-esb-toolkit-capabilities-with-sentinet.md).
-  
--   [Punto de administración de BizTalk de SOA](../esb-toolkit/soa-biztalk-management-point.md) de SOA Software, Inc.  
-  
--   [Agente de AmberPoint BizTalk Nano](../esb-toolkit/amberpoint-biztalk-nano-agent.md) de AmberPoint, Inc.
+
+- **Resolución de Sentinet SOA y las extensiones de servidor BizTalk Server**. Para obtener más información sobre cómo se amplía Sentinet [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] capacidades, consulte [ampliar capacidades de Kit de herramientas de BizTalk ESB con Sentinet](../technical-guides/extending-biztalk-esb-toolkit-capabilities-with-sentinet.md).
+
+- [Punto de administración de BizTalk de SOA](../esb-toolkit/soa-biztalk-management-point.md) de SOA Software, Inc.  
+
+- [Agente Nano de BizTalk de AmberPoint](../esb-toolkit/amberpoint-biztalk-nano-agent.md) de AmberPoint, Inc.

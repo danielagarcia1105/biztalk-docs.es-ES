@@ -1,5 +1,5 @@
 ---
-title: No válido ReceiverId | Documentos de Microsoft
+title: Id. de destinatario no válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d397c75efe1172f87def3dee92e20f4d0d7ef4d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f38b480c7c7ada535a921e285e885bcb3bfa9c6c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257060"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024346"
 ---
 # <a name="invalid-receiverid"></a>Id. de destinatario no válido.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12Ta1InvalidReceiverIdDescription|  
-|Texto del mensaje|Id. de destinatario no válido.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                           X12Ta1InvalidReceiverIdDescription                           |
+|  Texto del mensaje   |                                   Id. de destinatario no válido.                                   |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que la canalización de recepción no pudo procesar el intercambio entrante porque el identificador de receptor en el campo ISA08 o la identificación de destinatario en el campo UNB3.1 no se ajustaba al tipo de datos y al número de dígitos que establece el esquema de servicio (X12ServiceSchema o EdifactServiceSchema en BaseArtifacts.dll).  

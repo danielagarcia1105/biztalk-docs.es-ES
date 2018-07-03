@@ -1,5 +1,5 @@
 ---
-title: Crear un previos o posteriores a la secuencia de comandos de procesamiento | Documentos de Microsoft
+title: Crear un anteriores o posteriores a la secuencia de comandos de procesamiento | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 532c730d5a654512610a37c9dac783fbc6a76d6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6993ab2786cc33e40f00bab7910353170e318db0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239300"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006477"
 ---
 # <a name="creating-a-pre--or-post-processing-script"></a>Crear secuencias de comandos previas y posteriores al procesamiento
 Puede crear una secuencia de comandos para realizar acciones cuando se implementa una aplicación y, a continuación, definir en qué momento se ejecutará durante el proceso de implementación. Puede incluir tanto código de limpieza como código de instalación en la misma secuencia de comandos si utiliza variables de entorno para delimitar el código. También puede pasar argumentos de línea de comandos a la secuencia.  
@@ -38,23 +38,23 @@ Puede crear una secuencia de comandos para realizar acciones cuando se implement
   
  Las secuencias de comandos previas y posteriores al procesamiento se ejecutan de la siguiente forma:  
   
--   Las secuencias de comandos previas al procesamiento se ejecutan al principio del proceso de importación o de instalación.  
+- Las secuencias de comandos previas al procesamiento se ejecutan al principio del proceso de importación o de instalación.  
   
--   Las secuencias de comandos posteriores al procesamiento se ejecutan al final del proceso de importación o de instalación.  
+- Las secuencias de comandos posteriores al procesamiento se ejecutan al final del proceso de importación o de instalación.  
   
--   Durante la desinstalación, todas las secuencias se ejecutan en el orden inverso al que se ejecutan durante la instalación. Por lo tanto, las secuencias de comandos posteriores al procesamiento se ejecutan al principio del proceso de desinstalación y las secuencias de comandos previas al procesamiento lo hacen al final.  
+- Durante la desinstalación, todas las secuencias se ejecutan en el orden inverso al que se ejecutan durante la instalación. Por lo tanto, las secuencias de comandos posteriores al procesamiento se ejecutan al principio del proceso de desinstalación y las secuencias de comandos previas al procesamiento lo hacen al final.  
   
--   Si se produce un error en la instalación, se llama a las secuencias de comandos en el orden inverso con la acción adecuada para deshacer.  
+- Si se produce un error en la instalación, se llama a las secuencias de comandos en el orden inverso con la acción adecuada para deshacer.  
   
- Una vez invocado, una secuencia de comandos previa y posteriores al procesamiento determina el estado de implementación (instalar, importar, eliminar, desinstalar, Deshacer importación o deshacer instalación) se está ejecutando mediante la comprobación de las variables de entorno BTAD_ChangeRequestAction, BTAD_InstallMode, y BTAD_HostClass, como se describe en [estado de implementación de indique de Variables de entorno de cómo](../core/how-environment-variables-indicate-deployment-state.md). Para obtener información de referencia acerca de las variables, consulte [las Variables de entorno de secuencia de comandos previas y posteriores al procesamiento](../core/pre-and-post-processing-script-environment-variables.md).  
+  Una vez invocada, una secuencia de comandos previa y posteriores al procesamiento determina el estado de implementación (instalar, importar, eliminar, desinstalar, Deshacer importación o deshacer instalación) se está ejecutando mediante la comprobación de las variables de entorno BTAD_ChangeRequestAction, BTAD_InstallMode, y BTAD_HostClass como se describe en [cómo entorno Variables indique estado de implementación](../core/how-environment-variables-indicate-deployment-state.md). Para obtener información de referencia acerca de las variables, consulte [Variables de entorno de secuencia de comandos previas y posteriores al procesamiento](../core/pre-and-post-processing-script-environment-variables.md).  
   
- Para obtener instrucciones sobre cómo agregar una secuencia de comandos a una aplicación, consulte [cómo agregar un prefijo o procesamiento posterior a la secuencia de comandos a una aplicación](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
+  Para obtener instrucciones sobre cómo agregar una secuencia de comandos a una aplicación, consulte [cómo agregar un prefijo o un Script de posprocesamiento para una aplicación](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
   
 > [!NOTE]
 >  Si desea incluir argumentos de línea de comandos en una secuencia de comandos, debe utilizar el comando AddResource para agregar la secuencia como se explica más adelante en este tema.  
   
 ## <a name="supported-script-file-extensions"></a>Extensiones de archivos de secuencias de comandos admitidas  
- Se admiten las siguientes extensiones de archivo de script: .com, .exe, .bat, .cmd, .vbs, .vbe, .js, .jse, .wsf y WSH. Este conjunto de extensiones se define en la variable de entorno PATHEXT.  
+ Se admiten las siguientes extensiones de archivo de script: .com, .exe, .bat, .cmd, .vbs, .vbe, .js, .jse, .wsf y. WSH. Este conjunto de extensiones se define en la variable de entorno PATHEXT.  
   
 ## <a name="logging-errors"></a>Errores de registro  
  Se recomienda configurar todas las secuencias de comandos para que registren errores en un archivo. Windows Installer no registra los errores que se generan en las secuencias de comandos. Una vez que se ejecute la secuencia de comandos, debería comprobar la existencia de errores que deban solucionarse en estos registros.  
@@ -79,7 +79,7 @@ Puede crear una secuencia de comandos para realizar acciones cuando se implement
   
  `echo %DATE% %TIME% Public key should be set in script >> %LogFile%`  
   
- También puede agregar la línea `exit /b 1` a una secuencia de comandos para generar un código de error de Windows Installer, lo que provocará que se revierta.  
+ También puede agregar la línea `exit /b 1` a un script para generar un código de error de Windows Installer, lo que hará que se revierta.  
   
  En el siguiente ejemplo, si no se ha definido el token de clave público, la secuencia de comandos devolverá un error a Windows Installer y el instalador se revertirá.  
   
@@ -121,8 +121,8 @@ Puede crear una secuencia de comandos para realizar acciones cuando se implement
 > [!IMPORTANT]
 >  No debería utilizar los comandos BTSTask en secuencias de comandos, especialmente los que se ejecutan durante la importación ya que las secuencias de comandos no están dadas de alta en la misma transacción como importación.  
   
- Para obtener instrucciones sobre cómo usar el comando AddResource para agregar una secuencia de comandos a una aplicación, consulte [comando AddResource: secuencia de comandos de preprocesamiento](../core/addresource-command-preprocessing-script.md). Consulte también [comando AddResource: secuencias de comandos](../core/addresource-command-postprocessing-script.md)  
+ Para obtener instrucciones acerca de cómo utilizar el comando AddResource para agregar una secuencia de comandos a una aplicación, consulte [AddResource (comando): secuencia de comandos de preprocesamiento](../core/addresource-command-preprocessing-script.md). Consulte también [AddResource (comando): secuencias de comandos](../core/addresource-command-postprocessing-script.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicación](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)   
+ [Uso de secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)   
  [Plantilla (ejemplo de implementación de aplicaciones)](../core/template-application-deployment-sample.md)

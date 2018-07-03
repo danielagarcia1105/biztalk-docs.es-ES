@@ -1,5 +1,5 @@
 ---
-title: Categorías de esquema en los metadatos de Asistente para agregar adaptador | Documentos de Microsoft
+title: Categorías de esquema en los metadatos de Asistente para agregar adaptador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,26 +12,26 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4fda24ee5ef4993c90eb82e0f406da2e06618776
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 46fd9ffab7aa4f8617e08a18824cc251ad9f4173
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271508"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008013"
 ---
 # <a name="schema-categories-in-the-add-adapter-metadata-wizard"></a>Categorías de esquema en el Asistente para agregar metadatos de adaptador
 
 ## <a name="overview"></a>Información general
 > [!NOTE]
->  Este tema es solo para los adaptadores estáticos que implementan la **IStaticAdapterConfig** interfaz.  
+>  En este tema es solo para los adaptadores estáticos que implementan la **IStaticAdapterConfig** interfaz.  
   
- Un adaptador puede usar cualquiera de los miles de esquemas para transformar los datos antes de pasarlo a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Cuando vaya a agregar metadatos a un proyecto de BizTalk, use el Asistente para agregar metadatos de adaptador para seleccionar un esquema en la lista de todos los esquemas con los que el adaptador interactúa.  
+ Un adaptador puede usar cualquiera de las miles de esquemas para transformar los datos antes de pasarlo a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Cuando vaya a agregar metadatos a un proyecto de BizTalk, use el Asistente para agregar metadatos de adaptador para seleccionar un esquema en la lista de todos los esquemas con los que el adaptador interactúa.  
   
  En el adaptador de archivo de ejemplo, el archivo CategorySchema.xml es una instancia de esquema que se usa junto al archivo BiztalkAdapterFramework.xsd del marco de trabajo de adaptadores para rellenar una organización de vista en árbol de los esquemas de servicio.  El archivo BizTalkAdapterFramework.xsd se encuentra en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Developer Tools.  
   
  Debe crear este archivo para que organice los esquemas de manera intuitiva en la solución. Las categorías que ya existen en CategorySchema.xml son simplemente un ejemplo de lo que puede hacer en su propio árbol. No tienen ninguna relevancia concreta para los datos que el adaptador de ejemplo transfiere. La organización de los esquemas resulta bastante importante con los adaptadores específicos de una aplicación, ya que pueden haber miles de esquemas diferentes. En cambio, para los adaptadores específicos de transporte, esta organización de vista en árbol no es necesaria.  
   
- La siguiente ilustración muestra la **seleccionar servicios para importar** página del Asistente para agregar metadatos de adaptador.  
+ La siguiente ilustración muestra el **seleccionar servicios para importar** página del Asistente para agregar metadatos de adaptador.  
   
  ![](../core/media/ebiz-prog-custad-tree.gif "ebiz_prog_custad_tree")  
 Vista de árbol de las categorías de esquema en el Asistente para agregar metadatos de adaptador  
@@ -77,18 +77,18 @@ Vista de árbol de las categorías de esquema en el Asistente para agregar metad
   
  Los tipos de nodo siguientes aparecen en esta instancia de esquema:  
   
--   **CategoryTree.** Estructura de nivel superior de un modelo de información del sistema. Puede contener o no nodos CategoryTreeNode, ExpandableCategoryTreeNode y ServiceTreeNode.  
+- **CategoryTree.** Estructura de nivel superior de un modelo de información del sistema. Puede contener o no nodos CategoryTreeNode, ExpandableCategoryTreeNode y ServiceTreeNode.  
   
--   **CategoryTreeNode.** Puede contener o no CategoryTreeNode y ServiceTreeNode. Use el nodo CategoryTreeNode que aparece como carpeta en la interfaz de usuario para agrupar un conjunto de servicios relacionados. Normalmente, contiene un nombre para mostrar y una descripción de los servicios que se van a mostrar. Un adaptador podría usar CategoryTreeNode si hay pocos nodos secundarios.  
+- **CategoryTreeNode.** Puede contener o no CategoryTreeNode y ServiceTreeNode. Use el nodo CategoryTreeNode que aparece como carpeta en la interfaz de usuario para agrupar un conjunto de servicios relacionados. Normalmente, contiene un nombre para mostrar y una descripción de los servicios que se van a mostrar. Un adaptador podría usar CategoryTreeNode si hay pocos nodos secundarios.  
   
--   **ExpandableCategoryTreeNode.** Un nodo hoja que se rellena de forma dinámica al expandirse. ExpandableCategoryTreeNode se usa como marcador de posición y aparece como una carpeta en la interfaz de usuario. Se puede usar para aplazar la acción de rellenar un nodo de categoría con subelementos hasta que el usuario haga clic para expandir el nodo. Un adaptador podría usar ExpandableCategoryTreeNode si una categoría contiene un número grande de nodos secundarios.  
+- **ExpandableCategoryTreeNode.** Un nodo hoja que se rellena de forma dinámica al expandirse. ExpandableCategoryTreeNode se usa como marcador de posición y aparece como una carpeta en la interfaz de usuario. Se puede usar para aplazar la acción de rellenar un nodo de categoría con subelementos hasta que el usuario haga clic para expandir el nodo. Un adaptador podría usar ExpandableCategoryTreeNode si una categoría contiene un número grande de nodos secundarios.  
   
--   **ServiceTreeNode.** Un ServiceTreeNode aparece como un documento, o un nodo hoja, en la interfaz de usuario y representa un archivo de Lenguaje de descripción de servicios Web (WSDL).  
+- **ServiceTreeNode.** Un ServiceTreeNode aparece como un documento, o un nodo hoja, en la interfaz de usuario y representa un archivo de Lenguaje de descripción de servicios Web (WSDL).  
   
- Cuando un usuario hace clic en la carpeta para expandir un nodo, el marco de trabajo llama a la **IStaticAdapterConfig.GetServiceOrganization** método en el adaptador pasa el nombre del nodo como el valor de la **NodeIdentifier** atributo. El adaptador debería devolver un CategoryTree que contenga los subnodos para agregar debajo de ExpandableCategoryTreeNode. El marco de trabajo de adaptadores reemplaza ExpandableCategoryTreeNode por CategoryTreeNode y le agrega los elementos secundarios del CategoryTree devuelto.  
+  Cuando un usuario hace clic en la carpeta para expandir un nodo, el marco de adaptador llama a la **IStaticAdapterConfig.GetServiceOrganization** método en el adaptador pasa el nombre del nodo como el valor de la **NodeIdentifier** atributo. El adaptador debería devolver un CategoryTree que contenga los subnodos para agregar debajo de ExpandableCategoryTreeNode. El marco de trabajo de adaptadores reemplaza ExpandableCategoryTreeNode por CategoryTreeNode y le agrega los elementos secundarios del CategoryTree devuelto.  
   
 > [!NOTE]
->  En la llamada inicial a **IStaticAdapterConfig.GetServiceOrganization** el marco de trabajo pasa null para el identificador del nodo. Esto indica al adaptador que devuelva el CategoryTree de nivel raíz.  
+>  En la llamada inicial a **IStaticAdapterConfig.GetServiceOrganization** al marco del adaptador pasa null para el identificador del nodo. Esto indica al adaptador que devuelva el CategoryTree de nivel raíz.  
   
  A continuación, se muestra el esquema de árbol de categorías extraído del archivo BiztalkAdapterFramework.xsd. El Asistente para agregar metadatos de adaptador lo usa como el árbol esquemático con el que rellenar con entidades dependientes de la aplicación específicas desde un archivo XML. En nuestro ejemplo, este archivo es CategorySchema.xml.  
   

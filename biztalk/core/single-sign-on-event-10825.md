@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10825 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10825 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 47a021b49983c897c96eb02ce47d9c2451c7d69e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 771c2b49b33bfc8bb1fc308f2db7116ba206e127
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276244"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015109"
 ---
-# <a name="single-sign-on-event-10825"></a>Inicio de sesión único: Evento 10825
+# <a name="single-sign-on-event-10825"></a>De sesión único: Evento 10825
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10825|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_PSADMIN_APP_ALREADY_ASSIGNED|  
-|Texto del mensaje|Aplicación ya asignada a un adaptador.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10825                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |           ENTSSO_E_PSADMIN_APP_ALREADY_ASSIGNED            |
+|  Texto del mensaje   |     Aplicación ya asignada a un adaptador.     |
   
 ## <a name="explanation"></a>Explicación  
  Una aplicación sólo puede asignarse a un único adaptador.  

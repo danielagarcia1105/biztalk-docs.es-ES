@@ -1,5 +1,5 @@
 ---
-title: Huella digital del certificado de cliente no válido | Documentos de Microsoft
+title: Huella digital del certificado de cliente válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 84401d28261b13c6f49a063f34e29054a4aba108
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 74551ac825f9e517bec1d07edc7f288db732b348
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257412"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018886"
 ---
 # <a name="invalid-client-certificate-thumbprint"></a>Huella digital de certificado de cliente no válida
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Huella digital de certificado no válida; se esperaban 40 dígitos hexadecimales.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |       Huella digital de certificado no válida; se esperaban 40 dígitos hexadecimales.       |
   
 ## <a name="explanation"></a>Explicación  
  Se especificó una huella digital de certificado de cliente no válida.  

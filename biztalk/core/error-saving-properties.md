@@ -1,5 +1,5 @@
 ---
-title: Error al guardar propiedades | Documentos de Microsoft
+title: Error al guardar propiedades | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7eaedc165901caee2ff0257ca16f6be7ec372cb3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 425f49e82ebd779b8a591baf4382e0223f765af0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241596"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007693"
 ---
 # <a name="error-saving-properties"></a>Error al guardar propiedades.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Error al guardar propiedades.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                              Error al guardar propiedades.                               |
   
 ## <a name="explanation"></a>Explicación  
  Este error se produce cuando el adaptador guarda las propiedades para la ubicación de recepción o el puerto de envío desde la base de datos.  

@@ -1,5 +1,5 @@
 ---
-title: Supervisión de trabajos del Agente SQL Server y bases de datos | Documentos de Microsoft
+title: Supervisión de trabajos del Agente SQL Server y bases de datos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,31 +12,31 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f6c9991e7ebd61c72bbeb6a090b0497244da63e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b2a0b770ded2bef9ccf28a763f63f053c0b3c89e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024314"
 ---
 # <a name="monitoring-sql-server-agent-jobs-and-databases"></a>Supervisar bases de datos y trabajos del Agente SQL Server
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]incluye varios [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente que realizan funciones importantes para mantener los servidores operativos y en buen estado. Por ello, debe supervisar el estado de funcionamiento de estos trabajos y garantizar que no se producen errores en su ejecución. Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración contiene reglas para supervisar elementos tales como bases de datos SQL y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente. Debe configurar el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración para una supervisión completa de todos los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente.  
+[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye varios [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente que realizan funciones importantes para mantener los servidores operativos y en buen estado. Por ello, debe supervisar el estado de funcionamiento de estos trabajos y garantizar que no se producen errores en su ejecución. Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración contiene reglas para supervisar elementos tales como bases de datos SQL y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente. Debe configurar el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración de supervisión completa de todos los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente.  
   
  El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración incluye dos reglas deshabilitadas para supervisar el estado de dos de lo más importante BizTalk [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente:  
   
--   Error crítico: Un trabajo del Agente SQL Server de BizTalk no se pudo: copia de seguridad de BizTalk Server  
+- Error crítico: Error en un trabajo de agente SQL Server de BizTalk - Backup BizTalk Server  
   
--   Error crítico: Error en un trabajo de agente SQL Server de BizTalk: realiza el seguimiento de copia del mensaje  
+- Error crítico: Error de un trabajo del Agente SQL Server de BizTalk: realiza el seguimiento de la copia del mensaje  
   
- Para supervisar todos los BizTalk Server [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente desde la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración, debe habilitar estas reglas y cree reglas adicionales para otros trabajos que desea supervisar mediante el proceso siguiente.  
+  Para supervisar todos los BizTalk Server [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajos del agente desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración, debe habilitar estas reglas y crear reglas adicionales para otros trabajos que desea supervisar mediante el proceso siguiente.  
   
--   En la consola de administrador de Operations Manager, cree una copia de cualquiera de las dos reglas anteriores en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] reglas principales de agrupar y cambiar el nombre de la regla de forma adecuada.  
+- En la consola de administrador de Operations Manager, cree una copia de cualquiera de las dos reglas anteriores en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] CRS agrupar y cambiar el nombre de la regla de forma adecuada.  
   
--   En la sección de criterios de la regla, cambiar la comparación de comodín para el parámetro 1 correctamente.  
+- En la sección de criterios de la regla, cambie la comparación de comodín para el parámetro 1 adecuadamente.  
   
--   En algunos casos, los nombres de los trabajos son dependientes de nombres de base de datos creados por el usuario, por ejemplo, el nombre de la base de datos de cuadro de mensajes.  
+- En algunos casos, los nombres de los trabajos son dependientes de nombres de base de datos que crea el usuario, por ejemplo, el nombre de la base de datos de cuadro de mensajes.  
   
--   La regla se puede destinar a un trabajo asociado con un único cuadro de mensajes o todos los cuadros de mensajes.  
+- La regla puede estar dirigida a un trabajo asociado con un único cuadro de mensajes o todos los cuadros de mensajes.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo iniciar al Agente SQL Server](../technical-guides/how-to-start-the-sql-server-agent.md)

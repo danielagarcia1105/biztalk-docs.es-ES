@@ -1,5 +1,5 @@
 ---
-title: Exportar Bindings6 | Documentos de Microsoft
+title: Exportar Bindings6 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,27 +15,27 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3362984eca1dcec4fb68bfbac92c30da81de8a3b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee3d7df759dab97dca6a2e7677abb0bad15f8cd7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246284"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022882"
 ---
-# <a name="exporting-bindings"></a>Exportar enlaces
+# <a name="exporting-bindings"></a>Exportación de enlaces
 En los temas de esta sección se describe cómo exportar enlaces para un grupo, un ensamblado o una aplicación de BizTalk a un archivo .xml. (Los enlaces definen cómo se asocian los hosts, puertos de envío, grupos de puertos de envío, puertos de recepción, ubicaciones de recepción y entidades con las orquestaciones, las canalizaciones, las asignaciones y los esquemas.) A continuación podrá importar los enlaces desde el archivo .xml a otro grupo o aplicación. Al importar enlaces se sobrescriben los enlaces existentes del mismo nombre en el grupo o la aplicación. También puede agregar enlaces a una aplicación, con lo que no se sobrescriben los enlaces existentes. Los enlaces que se agregan no se aplican hasta que se importa la aplicación.  
   
  En los siguientes escenarios, podrá ver que el uso de archivos de enlace acelera la implementación, al evitar la necesidad de configurar los enlaces de forma manual:  
   
--   Mover una aplicación desde un entorno de implementación a otro.  
+- Mover una aplicación desde un entorno de implementación a otro.  
   
--   Actualizar un ensamblado.  
+- Actualizar un ensamblado.  
   
--   Implementar un ensamblado junto con sus enlaces en varios grupos de BizTalk.  
+- Implementar un ensamblado junto con sus enlaces en varios grupos de BizTalk.  
   
- Para obtener más información acerca del uso de archivos de enlace para estos fines, vea [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md).  
+  Para obtener más información sobre el uso de los archivos de enlace para estos fines, consulte [archivos de enlace e implementación de aplicaciones](../core/binding-files-and-application-deployment.md).  
   
- Para obtener más información sobre cómo importar y agregar enlaces, vea [cómo importar enlaces en un grupo de BizTalk](../core/how-to-import-bindings-into-a-biztalk-group.md), [cómo importar enlaces en una aplicación de BizTalk](../core/how-to-import-bindings-into-a-biztalk-application.md), y [cómo agregar un enlace Archivo a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md).  
+  Para obtener más información sobre cómo importar y agregar enlaces, vea [cómo importar enlaces a un grupo de BizTalk](../core/how-to-import-bindings-into-a-biztalk-group.md), [cómo importar enlaces en una aplicación de BizTalk](../core/how-to-import-bindings-into-a-biztalk-application.md), y [cómo agregar un enlace Archivo a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md).  
   
 > [!IMPORTANT]
 >  El archivo de enlace puede contener datos confidenciales. Asegúrese de seguir los pasos necesarios proteger el archivo.  

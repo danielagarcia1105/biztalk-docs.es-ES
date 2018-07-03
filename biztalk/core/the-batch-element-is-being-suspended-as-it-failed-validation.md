@@ -1,5 +1,5 @@
 ---
-title: El elemento de lote se ha suspendido como un error de validación | Documentos de Microsoft
+title: El elemento de lote se ha suspendido debido a un error de validación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7022041d8d47e1bfa52eb7ef45764c17ed1a2d8d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 90f82c88adc18899aac6d481b7a5d3e31e1a72c8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279564"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37021970"
 ---
 # <a name="the-batch-element-is-being-suspended-as-it-failed-validation"></a>El elemento de procesamiento por lotes se ha suspendido debido a un error de validación
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|BatchElementSuspended|  
-|Texto del mensaje|El elemento de procesamiento por lotes se ha suspendido debido a un error de validación. El error es: {0}|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                    Motor de procesamiento por lotes                                     |
+|  Nombre simbólico  |                                 BatchElementSuspended                                  |
+|  Texto del mensaje   |    El elemento de procesamiento por lotes se ha suspendido debido a un error de validación. El error es: {0}    |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que la orquestación por lotes no pudo agregar un conjunto de transacciones a un intercambio por lotes debido a que el conjunto de transacciones tuvo un error en la validación que ha realizado la orquestación por lotes. El intercambio se generará sin el conjunto de transacciones que tuvo un error en la validación. La orquestación por lotes configura la propiedad de contexto EDI.BatchElementValidationFailure en "True". La orquestación BatchSuspend recoge el mensaje que se basa en esa propiedad de contexto, registra la información de error y, a continuación, se suspende.  

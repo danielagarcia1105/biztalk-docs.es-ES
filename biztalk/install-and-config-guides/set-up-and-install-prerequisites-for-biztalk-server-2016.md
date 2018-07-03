@@ -1,5 +1,5 @@
 ---
-title: Configurar e instalar los requisitos previos para BizTalk Server 2016 | Documentos de Microsoft
+title: Configurar e instalar los requisitos previos de BizTalk Server 2016 | Microsoft Docs
 description: Instrucciones paso a paso para instalar y configurar el software necesario y la configuración de BizTalk Server 2016
 author: MandiOhlinger
 manager: anneta
@@ -13,12 +13,12 @@ ms.topic: article
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
 caps.latest.revision: 11
 ms.author: mandia
-ms.openlocfilehash: 666cddaab4d23fa69b0ae488f665e2eda5182c05
-ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
+ms.openlocfilehash: aab7bb1fa22a249eb287f01b2050d10d9f0042ac
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31816968"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018057"
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a>Configurar e instalar los requisitos previos de BizTalk Server 2016
 Configure el servidor e instale y configure los requisitos previos de software.
@@ -80,7 +80,7 @@ El programa de instalación de BizTalk Server mantiene un registro de eventos en
 
 4. Seleccione **Aceptar**.
 
-## <a name="edge-cant-be-opened-optional"></a>No se puede abrir borde (opcional)
+## <a name="edge-cant-be-opened-optional"></a>No se puede abrir Edge (opcional)
 
 Al usar Microsoft Edge, aparece el siguiente mensaje:  
 `Microsoft Edge can't be opened using the Built-in Administrator account. Sign in with a different account and try again.`
@@ -99,7 +99,7 @@ Asegúrese de instalar las últimas actualizaciones críticas de Windows.
 1. En el menú Inicio, abra **Actualizaciones de Windows** y compruebe si hay actualizaciones. También puede abrir **Configuración** y seleccionar **Actualización y seguridad**.
 2. Tras instalar las actualizaciones, puede ser necesario reiniciar el equipo.
 
-## <a name="enable-iis"></a>Habilite el servicio IIS
+## <a name="enable-iis"></a>Habilitar IIS
 BizTalk Server requiere IIS para las características siguientes:
 
 - adaptador de HTTP
@@ -115,26 +115,26 @@ IIS se incluye con el sistema operativo como un **rol** o una **característica*
 2. Seleccione **Internet Information Services** o **Servidor web (IIS)**. Además de las opciones predeterminadas, seleccione las siguientes: 
 
     **Windows 10**
-    - En **Herramientas de administración web**, seleccione también:  
-        - Compatibilidad con la administración de IIS 6
-        - Consola de administración de IIS 6
-        - Herramientas de scripting de IIS 6 (instala adsutil.vbs)
-        - Compatibilidad con la configuración de IIS 6 y metabase de IIS
-        - Consola de administración de IIS
-    - En **Servicios World Wide Web**, expanda **Seguridad** y seleccione también:
-        - Autenticación básica
-        - Autenticación de Windows    
+   - En **Herramientas de administración web**, seleccione también:  
+       - Compatibilidad con la administración de IIS 6
+       - Consola de administración de IIS 6
+       - Herramientas de scripting de IIS 6 (instala adsutil.vbs)
+       - Compatibilidad con la configuración de IIS 6 y metabase de IIS
+       - Consola de administración de IIS
+   - En **Servicios World Wide Web**, expanda **Seguridad** y seleccione también:
+       - Autenticación básica
+       - Autenticación de Windows    
 
-    **Windows Server**
-    - En **Seguridad**, seleccione también: 
-        - Autenticación básica
-        - Autenticación de Windows    
-    - En **Herramientas de administración**, seleccione también:  
-        - Consola de administración de IIS
-        - Compatibilidad con la administración de IIS 6
-        - Compatibilidad con la metabase de IIS 6
-        - Consola de administración de IIS 6
-        - Herramientas de scripting de IIS 6 (instala adsutil.vbs)
+     **Windows Server**
+   - En **Seguridad**, seleccione también: 
+       - Autenticación básica
+       - Autenticación de Windows    
+   - En **Herramientas de administración**, seleccione también:  
+       - Consola de administración de IIS
+       - Compatibilidad con la administración de IIS 6
+       - Compatibilidad con la metabase de IIS 6
+       - Consola de administración de IIS 6
+       - Herramientas de scripting de IIS 6 (instala adsutil.vbs)
 
 3. Continúe con la instalación y reinicie el equipo si se le solicita. 
 
@@ -142,9 +142,9 @@ IIS se incluye con el sistema operativo como un **rol** o una **característica*
 
 
 ## <a name="run-64-bit-bam-portal-optional"></a>Ejecutar el portal de BAM de 64 bits (opcional)
-Si no utiliza el portal de BAM, puede omitir esta sección. 
+Si no usa el portal de BAM, a continuación, puede omitir esta sección. 
 
-El portal de BAM se ejecuta en modo de 32 bits. Si está utilizando Internet Information Services (IIS) en un entorno de 64 bits, a continuación, establezca el grupo de aplicaciones para que se ejecute en modo de 32 bits. 
+El portal de BAM se ejecuta en modo de 32 bits. Si utiliza Internet Information Services (IIS) en un entorno de 64 bits, a continuación, establezca el grupo de aplicaciones se ejecuten en modo de 32 bits. 
 
 #### <a name="using-adsutilvbs"></a>Mediante adsutil.vbs
 1.  Abra un símbolo del sistema como administrador. 
@@ -236,7 +236,7 @@ Office 2016 se instala con "hacer clic y ejecutar" o el "instalador de C2R". La 
 2. Seleccione una **instalación personalizada** y seleccione Excel.
 3. Continúe con la instalación.   
 
-## <a name="install-visual-c-redistributable-package"></a>Instalar el paquete redistribuible de Visual C++
+## <a name="install-visual-c-redistributable-package"></a>Instale el paquete redistribuible de Visual C++
 
 Descargue e instale el [paquete redistribuible de Visual C++](https://support.microsoft.com/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package). Se requiere la versión de 2013, aunque se use Visual Studio 2015.
 
@@ -261,7 +261,7 @@ Se recomienda la edición Visual Studio Enterprise, pero también se admiten las
 > - Si instala Visual Studio antes de instalar BizTalk Server y después actualiza a Visual Studio Team Explorer, puede que sea necesario reparar la instalación de BizTalk Server.
 > - Visual Studio instala automáticamente Microsoft SQL Server Express, que BizTalk Server no usa. Desinstale Microsoft SQL Server Express. También puede desinstalar Microsoft SQL Server Compact.  
 > - Las herramientas de desarrollo de BizTalk Server se basan en Visual Studio. Como mínimo, debe instalar el componente Microsoft Visual C#® .NET antes de instalar el SDK y herramientas de desarrollo de BizTalk Server.
-> - El tiempo de ejecución de BizTalk Server necesita .NET Framework 4.6. Si está instalado el adaptador de Windows Communication Foundation (WCF) o el Interceptor de WCF, .NET Framework 3.0 es necesario
+> - El tiempo de ejecución de BizTalk Server necesita .NET Framework 4.6. Si está instalado el adaptador de Windows Communication Foundation (WCF) o el Interceptor de WCF, es necesario, a continuación, .NET Framework 3.0
 
 #### <a name="uninstall-sql-server-express"></a>Desinstalar SQL Server Express
 1. En el menú Inicio, abra **Programas y características**. O bien, abra el **Panel de control** y seleccione **Desinstalar un programa**.
@@ -281,26 +281,26 @@ BizTalk Server requiere SQL Server. SQL Server se puede instalar en el mismo equ
 > - Para poder usar el SDK de BizTalk Server en su totalidad o implementar aplicaciones de BizTalk Server desde Visual Studio, instale las herramientas de desarrollo de SQL Server.
 > - BizTalk Server admite todas las intercalaciones de SQL Server, tanto si distinguen mayúsculas y minúsculas como si no, excepto las intercalaciones binarias. No se admiten intercalaciones binarias.
 
-**Para obtener pasos de instalación específicos, consulte** [instalar SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) o [instalar SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx).
+**Para conocer los pasos de instalación específicos, consulte** [instalar SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) o [instalar SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx).
 
 1. Inicie la instalación de SQL Server. 
 2. Durante la instalación de las características, seleccione lo siguiente:
-    - Servicios de Motor de base de datos
-        - Replicación de SQL Server
-        - R Services (en bases de datos) (**opcional**; información en [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
-        - Extracciones de texto completo y semánticas de búsqueda
-    - Analysis Services
-    - Reporting Services (nativo)
-    - Características compartidas
-        - Conectividad con las herramientas de cliente
-        - Integration Services
+   - Servicios de Motor de base de datos
+       - Replicación de SQL Server
+       - R Services (en bases de datos) (**opcional**; la información en [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
+       - Extracciones de texto completo y semánticas de búsqueda
+   - Analysis Services
+   - Reporting Services (nativo)
+   - Características compartidas
+       - Conectividad con las herramientas de cliente
+       - Integration Services
 
-    > [!NOTE]
-    > **SQL Server Data Tools** no se incluye en la instalación predeterminada de SQL Server. No es necesario, pero se puede descargar en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Descargue [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms), que funciona con todas las versiones compatibles de SQL Server, incluido Azure SQL Database. Sin embargo, para conectarse a SSIS remoto cuando se usa BAM, debe instalar la misma versión de SSMS que el servidor de SSIS de destino. Por ejemplo, [instalar SSMS 16. *x* ](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) para instalar los controladores relacionados para conectarse a SQL 2016 SSIS. SSMS 17. *x* no se puede conectar a SQL 2016 SSIS. Puede tener varias versiones de SSMS instalado. 
+     > [!NOTE]
+     > **SQL Server Data Tools** no se incluye en la instalación predeterminada de SQL Server. No es necesario, pero se puede descargar en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Descargue [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms), que funciona con todas las versiones compatibles de SQL Server, incluido Azure SQL Database. Sin embargo, para conectarse a SSIS remoto cuando se usa BAM, deberá instalar la misma versión de SSMS como el servidor de SSIS de destino. Por ejemplo, [instalar SSMS 16. *x* ](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) para instalar los controladores relacionados para conectarse a SQL 2016 SSIS. 17 DE SSMS. *x* no se puede conectar a SQL 2016 SSIS. Puede tener varias versiones de SSMS instalado. 
 
 3. Continúe con la instalación y reinicie el equipo si se le solicita.
 
-## <a name="disable-shared-memory"></a>Deshabilite la memoria compartida
+## <a name="disable-shared-memory"></a>Deshabilitación de la memoria compartida
 
 1. Abra el **Administrador de configuración de SQL Server**.
 2. En el Administrador de configuración de SQL Server, expanda **configuración de red de SQL Server**y, a continuación, seleccione **protocolos para MSSQLSERVER**.
@@ -308,10 +308,10 @@ BizTalk Server requiere SQL Server. SQL Server se puede instalar en el mismo equ
 4. Seleccione **Services de SQL Server**, haga clic en SQL **Server (MSSQLSERVER)** y, a continuación, seleccione **detener**. Después de detener el servicio, haga clic en **SQL Server (MSSQLSERVER)** y, a continuación, seleccione **iniciar**.
 5. Cierre el **Administrador de configuración de SQL Server**.
 
-Normalmente, el protocolo de memoria compartida solo afecta a los clientes (BizTalk Server) que están instalados en el mismo equipo que SQL Server. Bajo determinadas condiciones de sobrecarga (como, por ejemplo, cuando los clientes obtienen acceso al servidor SQL Server desde el mismo equipo), el protocolo de memoria compartida de SQL Server puede reducir el rendimiento de BizTalk Server. Al deshabilitar el protocolo de red de memoria compartida, resuelve esto.
+Normalmente, el protocolo de memoria compartida solo afecta a los clientes (BizTalk Server) que están instalados en el mismo equipo que SQL Server. Bajo determinadas condiciones de sobrecarga (como, por ejemplo, cuando los clientes obtienen acceso al servidor SQL Server desde el mismo equipo), el protocolo de memoria compartida de SQL Server puede reducir el rendimiento de BizTalk Server. Deshabilitar el protocolo de red de memoria compartida resuelve esto.
 
 > [!TIP]
-> Si se produce un error en el Agente SQL Server iniciar después de deshabilitar la memoria compartida, a continuación, confirme [ODBC Driver 13.1 para SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) está instalado.
+> Si el Agente SQL Server no se puede iniciar después de deshabilitar la memoria compartida y, después, confirme [ODBC Driver 13.1 para SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) está instalado.
 
 ## <a name="install-sql-xml-4"></a>Instalar SQL XML 4
 Se requiere para el tiempo de ejecución de BizTalk Server, herramientas administrativas y BAM. 
@@ -327,7 +327,7 @@ Si usa alertas de BAM, BizTalk Server requiere correo electrónico de base de da
 > - Debe saber el nombre del servidor y el número de puerto TCP del servidor SMTP. Si instaló IIS y el servidor SMTP en el mismo equipo, use el servidor SMTP local. Si el servidor SMTP requiere autenticación, tenga preparados el nombre de usuario y la contraseña.
 > - El portal de BAM y las alertas de BAM son características independientes. Si usa las alertas de BAM, se requiere el Correo electrónico de base de datos de SQL Server. Si no usa las alertas de BAM, no se requiere el Correo electrónico de base de datos de SQL Server.
 
-**Para los pasos de configuración específicos, consulte**: configurar [correo electrónico de base de datos de SQL Server 2016](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail) o [correo electrónico de base de datos de SQL Server 2014](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx).
+**Para conocer los pasos de configuración específicos, consulte**: configurar [correo electrónico de base de datos de SQL Server 2016](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail) o [correo electrónico de base de datos de SQL Server 2014](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx).
 
    
 Para enviar un correo electrónico de prueba: 
@@ -337,7 +337,7 @@ Para enviar un correo electrónico de prueba:
 Si el destinatario **Para:** lo recibe, el Correo electrónico de base de datos está configurado. 
 
 ## <a name="install-winscp-optional"></a>Instalar WinSCP (opcional)
-Requiere el adaptador de FTP. Si no utiliza el adaptador de FTP, a continuación, omita esta sección. 
+Requiere el adaptador de FTP. Si no usa el adaptador de FTP, omita esta sección. 
 
 Descargue e instale [WinSCP](http://winscp.net). 
 

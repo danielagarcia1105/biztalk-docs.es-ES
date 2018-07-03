@@ -1,5 +1,5 @@
 ---
-title: Análisis de modelo de amenazas | Documentos de Microsoft
+title: Análisis de modelo de amenazas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 06f5de73434d2c3a7bf67e659c6566b530b38aeb
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: f7fa52a2d256bace363c3453f19cabefca81cb73
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "22279916"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016851"
 ---
 # <a name="threat-model-analysis"></a>Análisis de modelo de amenazas
 El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar los riesgos de seguridad que pueden acaecer en un producto, aplicación, red o entorno, así como la forma en la que se aparecen los ataques. El objetivo consiste en determinar cuáles son las amenazas que requieren mitigación y los modos de hacerlo.  
@@ -30,31 +30,31 @@ El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar 
   
  Algunas de las ventajas de un TMA son:  
   
--   Facilita la comprensión de la aplicación.  
+- Facilita la comprensión de la aplicación.  
   
--   Ayuda a detectar errores  
+- Ayuda a detectar errores  
   
--   Puede ayudar a los miembros del nuevo equipo a entender la aplicación con mayor profundidad.  
+- Puede ayudar a los miembros del nuevo equipo a entender la aplicación con mayor profundidad.  
   
--   Contiene información importante para otros equipos que trabajan en su aplicación.  
+- Contiene información importante para otros equipos que trabajan en su aplicación.  
   
--   Resulta de utilidad para los evaluadores.  
+- Resulta de utilidad para los evaluadores.  
   
- Los pasos de nivel alto para llevar a cabo un TMA son los siguientes:  
+  Los pasos de nivel alto para llevar a cabo un TMA son los siguientes:  
   
--   Paso 1. Recopilar información básica  
+- Paso 1. Recopilar información básica  
   
--   Paso 2. Crear y analizar el modelo de amenazas  
+- Paso 2. Crear y analizar el modelo de amenazas  
   
--   Paso 3. Analizar las amenazas  
+- Paso 3. Analizar las amenazas  
   
--   Paso 4. Identificar las tecnologías y técnicas de mitigación  
+- Paso 4. Identificar las tecnologías y técnicas de mitigación  
   
--   Paso 5. Modelo de seguridad de documento y las consideraciones de implementación  
+- Paso 5. Documentar el modelo de seguridad y las consideraciones de implementación  
   
--   Paso 6. Implementar y probar las mitigaciones  
+- Paso 6. Implementar y probar las mitigaciones  
   
--   Paso 7. Mantener el modelo de amenazas sincronizado con el diseño  
+- Paso 7. Mantener el modelo de amenazas sincronizado con el diseño  
   
 ## <a name="step-1-collect-background-information"></a>Paso 1. Recopilar información básica  
  Para preparar un TMA correcto, debe recopilar información básica. Resulta de utilidad analizar el entorno de destino (una aplicación, un programa o la infraestructura completa) de la manera siguiente:  
@@ -86,7 +86,7 @@ El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar 
   
 -   Anote los activos implicados.  
   
--   Aborde cada DFD y busque las amenazas en las siguientes categorías para todas las entradas de DFD: **S**poofing identificar, **T**lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios.  
+-   Aborde cada DFD y busque las amenazas en las siguientes categorías para todas las entradas del DFD: **S**uplantación identificar, **T**anipulación de datos, **R**epudio, **me**ivulgación de información, **d.** enegación de servicio, y **E**levación de privilegios.  
   
 -   Cree una lista de amenazas identificadas. Se recomienda que esta lista incluya lo siguiente: título, descripción breve (incluyendo los árboles de amenazas), activo (activo), impactos, riesgo, técnicas de mitigación, estado de mitigación y número de error.  
   
@@ -94,7 +94,7 @@ El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar 
     >  Puede agregar las categorías de riesgo, técnicas de mitigación y estado de mitigación al revisar las amenazas. No invierta demasiado tiempo en estas áreas durante la reunión sobre el modelo de amenazas.  
   
 ## <a name="step-3-review-threats"></a>Paso 3. Analizar las amenazas  
- Una vez identificadas las amenazas del entorno, debe valorar el riesgo de cada una de ellas y determinar cómo va a actuar ante ellas. Para ello puede convocar nuevas reuniones o utilizar el correo electrónico. Puede usar las siguientes categorías de efecto para calcular la exposición al riesgo: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
+ Una vez identificadas las amenazas del entorno, debe valorar el riesgo de cada una de ellas y determinar cómo va a actuar ante ellas. Para ello puede convocar nuevas reuniones o utilizar el correo electrónico. Puede usar las siguientes categorías de efecto para calcular la exposición al riesgo: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **un**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  Cuando disponga de una lista de las amenazas que ponen en peligro su entorno de destino en función del riesgo, debe determinar cómo actuará ante cada una. Su respuesta puede ser no hacer nada (aunque ésta no suele ser una buena opción), advertir a los usuarios del posible problema o eliminar el problema o solucionarlo.  
   
@@ -114,7 +114,7 @@ El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar 
   
 -   Mantener el modelo de amenazas sincronizado con el diseño  
   
-## <a name="step-5-document-security-model-and-deployment-considerations"></a>Paso 5. Modelo de seguridad de documento y las consideraciones de implementación  
+## <a name="step-5-document-security-model-and-deployment-considerations"></a>Paso 5. Documentar el modelo de seguridad y las consideraciones de implementación  
  Resulta de gran valor documentar todo aquello que se descubre durante el TMA y la forma en que se decide reducir el efecto de las amenazas de su entorno de destino. Esta documentación puede ser de gran ayuda en los controles de calidad (QA), pruebas y soportes, así como para el personal de operaciones. Incluya información sobre las aplicaciones que interactúan o funcionan con el entorno de destino, así como los requisitos y recomendaciones de topologías y servidores de seguridad.  
   
 ## <a name="step-6-implement-and-test-mitigations"></a>Paso 6. Implementar y probar las mitigaciones  
@@ -127,4 +127,4 @@ El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar 
   
 ## <a name="see-also"></a>Vea también  
 [Casos prácticos de seguridad para pequeñas y medianas empresas](../core/security-case-studies-for-small-to-medium-sized-companies.md)   
- [Escenarios de ejemplo para el análisis de modelo de amenaza](../core/sample-scenarios-for-threat-model-analysis.md)
+ [Escenarios de ejemplo para el análisis del modelo de amenazas](../core/sample-scenarios-for-threat-model-analysis.md)

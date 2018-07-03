@@ -1,5 +1,5 @@
 ---
-title: Planos esquema al catálogo | Documentos de Microsoft
+title: Planos de esquema a catálogo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f3a45ad66ca10ab829a4cc7279891487124c3cc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a1dc8093d477773d5efbab46670bac7e9c839d8d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246260"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36999045"
 ---
 # <a name="flat-schema-to-catalog"></a>De esquema sin formato a catálogo
 
@@ -33,7 +33,7 @@ Puede usar el **bucle** functoid para convertir un esquema sin formato en un esq
 </ns0:Root>  
 ```  
   
- Expandir esta parte del catálogo convertiría algunos o todos los **ProductVariant** atributos en registros.  
+ Expandir esta parte del catálogo convertiría algunos o todos los **ProductVariant** atributos en los registros.  
   
 ```  
 <ns0:Root xmlns:ns0="http://ValueMappingFlattening.Catalog">  
@@ -56,15 +56,15 @@ Functoid de bucle, asignación de esquema sin formato
 ## <a name="set-the-schema"></a>Establecer el esquema  
  Para que este tipo de asignación funcione correctamente, debe hacer lo siguiente:  
   
--   Para cada vínculo que conecte con el **nombre** campo del esquema de destino, establezca propiedades de vínculo para copiar el nombre de esquema de origen. Para obtener más información, consulte [configurar vínculos](../core/configuring-links.md). Consulte también **propiedades de vínculo de** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+- Para cada vínculo que conecte con el **nombre** campo del esquema de destino, establezca propiedades de vínculo para copiar el nombre de esquema de origen. Para obtener más información, consulte [vínculos de configurar](../core/configuring-links.md). Consulte también **propiedades de vínculo** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
--   Para cada vínculo que conecte con el **valor** campo del esquema de destino, establezca el esquema de origen propiedades de vínculo para copiar el valor (predeterminado).  
+- Para cada vínculo que conecte con el **valor** campo del esquema de destino, establezca el esquema de origen de las propiedades de vínculo para copiar el valor (predeterminado).  
   
--   Para el vínculo al conectar el **bucle** functoid con el registro denominado **característica** en el esquema de destino, establezca el esquema de destino propiedades de vínculo debe coincidir vínculos de arriba a abajo.  
+- Para el vínculo que conecta el **bucle** functoid con el registro denominado **característica** en el esquema de destino, establezca el esquema de destino propiedades de vínculo para que coincida con los vínculos de arriba a abajo.  
   
- Para el inverso de esta asignación, convertir un esquema de catálogo a un esquema sin formato, vea [Functoid de asignación de valores (sin formato)](../core/value-mapping-flattening-functoid.md).  
+  Para el inverso de esta asignación, convertir un esquema de catálogo en un esquema sin formato, vea [Functoid de asignación de valores (sin formato)](../core/value-mapping-flattening-functoid.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo agregar Functoids a una asignación de bucle](../core/how-to-add-looping-functoids-to-a-map.md)   
+ [Cómo agregar Functoids de bucle a un mapa](../core/how-to-add-looping-functoids-to-a-map.md)   
  [Functoid de bucle](../core/looping-functoid.md)   
- [Valor de asignación de Functoid (sin formato)](../core/value-mapping-flattening-functoid.md)
+ [Functoid de asignación de valores (sin formato)](../core/value-mapping-flattening-functoid.md)

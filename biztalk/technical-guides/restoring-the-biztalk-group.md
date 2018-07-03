@@ -1,5 +1,5 @@
 ---
-title: Restaurar el grupo de BizTalk | Documentos de Microsoft
+title: Restaurar el grupo de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e8d1741d89e8326cc68906644cf34e71bfcc8e1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: b9bea20bacdd6b681d39e2bf3995d7626b9b1f63
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26008117"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37021644"
 ---
 # <a name="restoring-the-biztalk-group"></a>Restaurar el grupo de BizTalk
-El grupo de BizTalk está representado por el conjunto de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] las bases de datos de Analysis Services, paquetes SSIS y trabajos del Agente SQL. En esta sección se describe el proceso para restaurar el grupo de BizTalk.  
+El grupo de BizTalk está representado por el conjunto de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] bases de datos de Analysis Services, paquetes SSIS y trabajos del Agente SQL. En esta sección se describe el proceso para restaurar el grupo de BizTalk.  
   
  En caso de que se requiere un cambio en el sistema de destino (sitio de recuperación ante desastres), deben completar los pasos siguientes:  
   
-1.  Restaurar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y bases de datos de Analysis Services.  
+1. Restaurar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y bases de datos de Analysis Services.  
   
-2.  Restaurar las aplicaciones y servidores de BizTalk Server en tiempo de ejecución.  
+2. Restaurar las aplicaciones y los servidores en tiempo de ejecución de BizTalk Server.  
   
- En la realización de estos pasos, el grupo de BizTalk se ha establecido en el sitio de recuperación ante desastres, el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden configurar servidores de tiempo de ejecución y las aplicaciones pueden implementarse en el grupo de BizTalk. Los temas de esta sección tratan los detalles de este proceso.  
+   Tras la finalización de estos pasos, el grupo de BizTalk se estableció en el sitio de recuperación ante desastres, el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden configurar los servidores en tiempo de ejecución y las aplicaciones pueden implementarse en el grupo de BizTalk. Los temas de esta sección explican los detalles de este proceso.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

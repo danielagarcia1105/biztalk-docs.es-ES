@@ -1,5 +1,5 @@
 ---
-title: Alta disponibilidad para el inicio de sesión único empresarial | Documentos de Microsoft
+title: Alta disponibilidad para el inicio de sesión único empresarial | Microsoft Docs
 ms.custom: ''
 ms.date: 2016-02-29
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 023eaa82b11353347040dea13fc126f6044db3bc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9acc933df7b958ea6ae0f0651fd66ba14daad913
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247532"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37019248"
 ---
 # <a name="high-availability-for-enterprise-single-sign-on"></a>Alta disponibilidad del inicio de sesión único (SSO) empresarial
 Aunque no utilice la funcionalidad de inicio de sesión único (SSO) empresarial para asignar credenciales e inicios de sesión únicos, SSO es una parte fundamental de la infraestructura global de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ya que BizTalk Server utiliza SSO para proteger la información de las ubicaciones de recepción.  
@@ -37,15 +37,15 @@ Aunque no utilice la funcionalidad de inicio de sesión único (SSO) empresarial
   
 > [!NOTE]
 >  Si deja de estar disponible el servidor secreto principal, las instancias de host de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] seguirán realizando operaciones en tiempo de ejecución usando la copia almacenada en caché de memoria del secreto maestro hasta que:  
->   
->  -   Se reinician las instancias de host.  
-> -   Se reinicia el servicio SSO en el equipo que ejecuta instancias de host de BizTalk.  
-> -   Cambia el secreto principal de SSO.  
->   
->  Si se reinicia el servicio SSO en los equipos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o cambia el secreto principal SSO, la copia en caché del secreto maestro se libera de la memoria y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe poder contactar con el servidor de secreto principal con el fin de obtener otra copia del secreto principal. Si el servidor secreto principal no está disponible entonces, fallará cualquier operación administrativa que requiera obtener acceso al servidor secreto principal con fines de cifrado.  
+> 
+> - Se reinician las instancias de host.  
+>   -   Se reinicia el servicio SSO en el equipo que ejecuta instancias de host de BizTalk.  
+>   -   Cambia el secreto principal de SSO.  
+> 
+>   Si se reinicia el servicio SSO en los equipos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o cambia el secreto principal SSO, la copia en caché del secreto maestro se libera de la memoria y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe poder contactar con el servidor de secreto principal con el fin de obtener otra copia del secreto principal. Si el servidor secreto principal no está disponible entonces, fallará cualquier operación administrativa que requiera obtener acceso al servidor secreto principal con fines de cifrado.  
   
 ## <a name="making-the-master-secret-server-available"></a>Hacer que el servidor secreto principal esté disponible  
- Para la disponibilidad del sistema SSO y, por tanto, del entorno de BizTalk Server, es fundamental crear una copia de seguridad del secreto principal inmediatamente después de generarlo. Si se pierde, se perderán también los datos que cifró el sistema SSO utilizando ese secreto principal. Para obtener más información sobre la copia de seguridad del secreto principal, consulte [cómo volver la seguridad del secreto principal](../core/how-to-back-up-the-master-secret.md).  
+ Para la disponibilidad del sistema SSO y, por tanto, del entorno de BizTalk Server, es fundamental crear una copia de seguridad del secreto principal inmediatamente después de generarlo. Si se pierde, se perderán también los datos que cifró el sistema SSO utilizando ese secreto principal. Para obtener más información sobre la seguridad del secreto principal de seguridad, consulte [cómo volver seguridad del secreto principal](../core/how-to-back-up-the-master-secret.md).  
   
  Puede hacer que el servidor secreto principal esté disponible de dos maneras:  
   
@@ -60,9 +60,9 @@ Aunque no utilice la funcionalidad de inicio de sesión único (SSO) empresarial
      Aunque esta configuración tenga una alta disponibilidad, requiere recursos de hardware adicionales. Para obtener más información acerca de las opciones de instalación de alta disponibilidad para SSO, vea [opciones de instalación de SSO de alta disponibilidad](../core/high-availability-sso-installation-options.md). Esta sección incluye información detallada acerca de la configuración del servicio secreto principal de SSO como recurso de clúster de alta disponibilidad en un clúster de Windows Server.  
   
     > [!NOTE]
-    >  Para reducir los recursos de hardware en una solución de alta disponibilidad, puede agregar el servidor secreto principal como recurso de clúster al clúster de SQL Server. No es necesario adquirir más licencias de servidor BizTalk Server para instalar el servicio SSO en otro equipo.  
+    >  Para reducir los recursos de hardware en una solución de alta disponibilidad, puede agregar el servidor secreto principal como recurso de clúster al clúster de SQL Server. No es necesario adquirir licencias adicionales de BizTalk Server para instalar el servicio de inicio de sesión único en otro equipo.  
   
 ## <a name="see-also"></a>Vea también  
- [Agrupación en clústeres las bases de datos de servidor BizTalk Server](../core/clustering-the-biztalk-server-databases1.md)   
- [Crear un entorno de alta disponibilidad de servidor de BizTalk Server](../core/creating-a-highly-available-biztalk-server-environment.md)   
+ [Agrupación en clústeres las bases de datos de BizTalk Server](../core/clustering-the-biztalk-server-databases1.md)   
+ [Creación de un entorno de BizTalk Server de alta disponibilidad](../core/creating-a-highly-available-biztalk-server-environment.md)   
  [Cómo agrupar el servidor secreto principal](../core/how-to-cluster-the-master-secret-server1.md)

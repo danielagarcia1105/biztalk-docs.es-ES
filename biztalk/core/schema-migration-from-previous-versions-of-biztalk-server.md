@@ -1,5 +1,5 @@
 ---
-title: Migración de esquema desde versiones anteriores de BizTalk Server | Documentos de Microsoft
+title: Esquema de migración desde versiones anteriores de BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1666e7cc8459fd4418e0ba0963caf5b654975805
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 54b9dba1ee759cd33f7f3db44553684c27b57d10
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269628"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022466"
 ---
 # <a name="schema-migration-from-previous-versions-of-biztalk-server"></a>Migración de esquemas de versiones anteriores de BizTalk Server
 Esta versión de BizTalk Server usa el lenguaje de definición de esquemas XML (XSD) para representar los esquemas de mensajes, mientras que las versiones anteriores utilizaban la sintaxis de datos reducidos XML (XDR) para representarlos. Si migra desde una versión anterior de BizTalk Server, debe convertir los esquemas para que utilicen XSD en lugar de XDR.  
   
  Debe realizar las siguientes tareas para convertir un esquema de BizTalk de la sintaxis XDR a la sintaxis XSD:  
   
--   Cambie la extensión del archivo de esquema de .xdr a .xsd.  
+- Cambie la extensión del archivo de esquema de .xdr a .xsd.  
   
--   Agregue el esquema cuyo nombre ha cambiado al proyecto de BizTalk correspondiente.  
+- Agregue el esquema cuyo nombre ha cambiado al proyecto de BizTalk correspondiente.  
   
--   Convierta el esquema cuyo nombre ha cambiado de XDR a XSD. Para ello, abra el esquema en el Editor de BizTalk.  
+- Convierta el esquema cuyo nombre ha cambiado de XDR a XSD. Para ello, abra el esquema en el Editor de BizTalk.  
   
--   Guarde el esquema para que la conversión se almacene de forma permanente.  
+- Guarde el esquema para que la conversión se almacene de forma permanente.  
   
- Para obtener información detallada sobre cómo realizar estos pasos, consulte [cómo migrar esquemas XDR en esquemas XSD](../core/how-to-migrate-xdr-schemas-to-xsd-schemas.md).  
+  Para obtener información detallada sobre cómo realizar estos pasos, consulte [cómo migrar esquemas XDR a esquemas XSD](../core/how-to-migrate-xdr-schemas-to-xsd-schemas.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Acerca de los esquemas](../core/about-schemas.md)   
- [Cómo migrar esquemas XDR en esquemas XSD](../core/how-to-migrate-xdr-schemas-to-xsd-schemas.md)   
- [Migrar registros de archivo sin formato](../core/migrating-flat-file-records.md)
+ [Cómo migrar esquemas XDR a esquemas XSD](../core/how-to-migrate-xdr-schemas-to-xsd-schemas.md)   
+ [Migración de registros de archivo sin formato](../core/migrating-flat-file-records.md)

@@ -1,5 +1,5 @@
 ---
-title: Configuración de registro | Documentos de Microsoft
+title: Configuración de registro | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,23 +17,23 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb9a8cfb173881b3ec6c6e346bcd9f2d3ec54b87
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 83e15247158dd21c237064692931a83f6885f05e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004541"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002461"
 ---
 # <a name="logging-configuration"></a>Configuración de registro
-Juntos, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] ofrecer comunicaciones seguras de integración de aplicaciones empresariales (EAI) de transaccional y digitales para proveedores de atención médica como hospitales, las sesiones y convalecientes. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]proporciona la capacidad para coordinar la actividad de la aplicación y el procesamiento de transacciones, enrutar los mensajes de forma dinámica, validar y transformar datos y el transporte a través de una variedad de adaptadores. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite el American National Standards Institute ANSI-accredited mantenimiento nivel siete (HL7) estándar utilizado por aplicaciones clínicas y administrativas en redes de proveedores para intercambiar datos médicos en tiempo real de mensajería.  
+Juntos, servidor MicrosoftBizTalk y [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] ofrecen transaccional y digitales Enterprise Application Integration (EAI) las comunicaciones seguras para los proveedores de atención médica, como hospitales, clínicas y las casas de pacientes. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] proporciona la capacidad para coordinar la actividad de la aplicación y el procesamiento de transacciones, enrutar los mensajes de forma dinámica, validar y transformar datos y el transporte a través de una variedad de adaptadores. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] admite el American National Standards Institute ANSI y acreditadas mantenimiento nivel siete (HL7) estándar que utilizan aplicaciones clínicas y administrativas en las redes del proveedor para intercambiar datos médicos en tiempo real de mensajería.  
   
- Los mensajes HL7 que pasan a través del sistema de acelerador pueden ser muy importantes. Por ejemplo, los datos pudieron ser una transacción financiera o historial médico del paciente. Para garantizar el cumplimiento con las normativas de privacidad y seguridad de HL7, los administradores del sistema deben poder hacer lo siguiente:  
+ Los mensajes de HL7 que pasan por el sistema de acelerador pueden ser muy críticos. Por ejemplo, los datos podrían ser una transacción financiera o registros médicos del paciente. Para garantizar el cumplimiento de seguridad de HL7 y los Reglamentos de privacidad, los administradores del sistema deben poder hacer lo siguiente:  
   
--   Depurar mensajes suspendidos  
+- Depurar mensajes suspendidos  
   
--   Supervisar el acceso de sistema y archivos de forma continuada para detectar posibles intrusos y reducir el riesgo de infracciones de seguridad  
+- Supervisar el acceso del sistema y archivos de forma continuada para detectar posibles intrusos y reducir el riesgo de infracciones de seguridad  
   
- Esta sección proporciona información conceptual y procedimientos para permitirle configurar la auditoría y registro, examinar e interpretar los datos de auditoría y registros de eventos y ejecutar consultas en los datos registrados.  
+  Esta sección proporciona información conceptual y procedimientos para permitirle configurar la auditoría y registro, examinar e interpretar los datos de auditoría y registro de eventos y ejecutar consultas en los datos registrados.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

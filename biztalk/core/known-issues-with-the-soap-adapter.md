@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos con el adaptador de SOAP | Documentos de Microsoft
+title: Problemas conocidos con el adaptador de SOAP | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 671510c6901fc399580ab73018e67eadc86f7212
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 273ebf62251050f6cb4aa8de9582aec9f475cbee
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262852"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018701"
 ---
 # <a name="known-issues-with-the-soap-adapter"></a>Problemas conocidos del adaptador de SOAP
 Esta sección contiene información que puede servir de ayuda para evitar errores.  
@@ -33,7 +33,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
  Este problema se debe a que las opciones de configuración predeterminadas para el adaptador de SOAP o los componentes de dependencia que afectan al adaptador de SOAP no se optimizan para el rendimiento de la carga.  
   
 ##### <a name="resolution"></a>Solución  
- Para resolver este problema, modifique las opciones de configuración del adaptador de SOAP o de los componentes de dependencia descritos en el tema [parámetros de configuración que afectan al rendimiento del adaptador](../core/configuration-parameters-that-affect-adapter-performance.md).  
+ Para resolver este problema, modifique las opciones de configuración del adaptador de SOAP o para los componentes de dependencia descritos en el tema [parámetros de configuración que afectan al rendimiento del adaptador](../core/configuration-parameters-that-affect-adapter-performance.md).  
   
 #### <a name="the-mimesmime-encoder-and-decoder-pipeline-components-cannot-encode-and-decode-data-processed-by-the-soap-adapter"></a>Los componentes de canalización del codificador y del descodificador de MIME/SMIME no pueden codificar ni descodificar los datos procesados por el adaptador de SOAP  
   
@@ -44,14 +44,14 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
  Este problema se produce porque el adaptador de SOAP ensambla y desensambla los mensajes SOAP en la fase de adaptador del proceso.  
   
 ##### <a name="resolution"></a>Solución  
- Para solucionar este problema, use la opción Utilizar SSL para garantizar la comunicación segura para codificar mensajes procesados por el adaptador de SOAP. En el lado de envío, use la **huella digital del certificado de cliente** propiedad en la página de propiedades del adaptador SOAP para lograr esto. En el caso de la recepción, debe configurar el directorio virtual que aloja los servicios Web de BizTalk para las comunicaciones seguras de SSL.  
+ Para solucionar este problema, use la opción Utilizar SSL para garantizar la comunicación segura para codificar mensajes procesados por el adaptador de SOAP. En el lado de envío, use el **huella digital del certificado de cliente** propiedad en la página de propiedades del adaptador SOAP para lograr esto. En el caso de la recepción, debe configurar el directorio virtual que aloja los servicios Web de BizTalk para las comunicaciones seguras de SSL.  
   
 #### <a name="the-default-appdomain-hosting-the-soap-adapter-gets-unloaded-causing-the-host-process-to-hang"></a>El AppDomain predeterminado que aloja el adaptador de SOAP se descarga, lo que causa un bloqueo del proceso de host.  
   
 ##### <a name="problem"></a>Problema  
  El proceso que aloja el adaptador de SOAP se bloquea, lo que hace que el resto de servicios Web del proceso se bloqueen. Esto puede ocasionar el siguiente error:  
   
- Se produjo un error al ejecutar la canalización: "Desconocido" origen: "desconocido"recibir puerto: TwoWayLatencyLoopBack_RxPort"URI:" / /twowaylatencyrxsoap/twowaylatencyws.asmx "razón: intentado tener acceso a un dominio de aplicación descargado.  
+ Se ha producido un error al ejecutar la canalización response(send): "Desconocido" origen: "desconocido"recibir puerto: TwoWayLatencyLoopBack_RxPort"URI:" / /twowaylatencyrxsoap/twowaylatencyws.asmx "razón: intentó obtener acceso a un dominio de aplicación descargado.  
   
 ##### <a name="cause"></a>Causa  
  El adaptador de SOAP se ejecuta en el espacio de proceso de IIS. Si existe más de un servicio Web en el AppPool de IIS, todos los servicios Web terminan teniendo su propio AppDomain.  
@@ -61,15 +61,15 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 ##### <a name="resolution"></a>Solución  
  Para impedir que AppDomain se descargue, siga el procedimiento siguiente:  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk Server** y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft BizTalk Server** y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En **consola de administración de BizTalk Server**, expandir **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **deconfiguracióndeplataforma**y, a continuación, haga clic en **Hosts**.  
+2. En **consola de administración de BizTalk Server**, expandir **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **deconfiguracióndeplataforma**y, a continuación, haga clic en **Hosts**.  
   
-3.  En la lista de Hosts, haga clic en el host necesario y, a continuación, haga clic en **configuración**.  
+3. En la lista de Hosts, haga clic en el host correspodiente y, a continuación, haga clic en **configuración**.  
   
-4.  En el **panel de configuración de BizTalk**, comprobar **dominio de aplicación predeterminado para adaptador aislado** en **General** ficha.  
+4. En el **panel de configuración de BizTalk**, comprobar **dominio de aplicación predeterminado para adaptador aislado** en **General** ficha.  
   
- Al hacerlo, los objetos del motor de mensajería de BizTalk se crean en el AppDomain predeterminado en vez de en los suyos propios. Como el AppDomain predeterminado no se descarga nunca, el problema deja de producirse.  
+   Al hacerlo, los objetos del motor de mensajería de BizTalk se crean en el AppDomain predeterminado en vez de en los suyos propios. Como el AppDomain predeterminado no se descarga nunca, el problema deja de producirse.  
   
 #### <a name="the-soap-adapter-fails-to-register"></a>Se produce un error al registrar el adaptador de SOAP  
   
@@ -78,7 +78,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
   
  "El motor de mensajería no pudo registrar un adaptador "SOAP". Detalles: "registro de varios tipos de adaptador dentro del mismo proceso no es un escenario admitido. Los adaptadores de recepción HTTP y SOAP, por ejemplo, no pueden coexistir en el mismo proceso".  
   
- O bien  
+ o bien  
   
  "El motor de mensajería no pudo registrar un adaptador "HTTP". Detalles: "registro de varios tipos de adaptador dentro del mismo proceso no es un escenario admitido.  Los adaptadores de recepción HTTP y SOAP, por ejemplo, no pueden coexistir en el mismo proceso".  
   

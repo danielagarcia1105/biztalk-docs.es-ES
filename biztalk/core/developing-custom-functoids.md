@@ -1,5 +1,5 @@
 ---
-title: Desarrollar Functoids personalizados | Documentos de Microsoft
+title: Desarrollar Functoids personalizados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,47 +12,47 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e5534f3209cb943fb3e2c2a63a18f9e29928be5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fc424533a859f33a139c081897164e9f5db25b2e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22242052"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37019899"
 ---
 # <a name="developing-custom-functoids"></a>Desarrollar Functoids personalizados
-Aunque [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona muchos functoids para admitir una gran cantidad de operaciones diferentes, probablemente se encontrará con una situación que requiera un enfoque distinto. Los functoids personalizados proporcionan una forma de ampliar la variedad de operaciones disponibles dentro del entorno de asignación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Cada functoid personalizado se implementa como un ensamblado .NET utilizando las clases derivadas de **Microsoft.BizTalk.BaseFunctoids**. Un ensamblado puede contener más de un functoid personalizado.  
+Aunque [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona muchos functoids para admitir una gran cantidad de operaciones diferentes, probablemente se encontrará con una situación que requiera un enfoque distinto. Los functoids personalizados proporcionan una forma de ampliar la variedad de operaciones disponibles dentro del entorno de asignación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Cada functoid personalizado se implementa como un ensamblado .NET utilizando las clases derivados de **Microsoft.BizTalk.BaseFunctoids**. Un ensamblado puede contener más de un functoid personalizado.  
   
  Debería considerar la posibilidad de utilizar un functoid personalizado en los escenarios siguientes:  
   
--   Existen reglas de conversión y validación especiales para un campo de código de carácter que utiliza datos a los que solo se puede obtener acceso a través de un API antiguo del propietario.  
+- Existen reglas de conversión y validación especiales para un campo de código de carácter que utiliza datos a los que solo se puede obtener acceso a través de un API antiguo del propietario.  
   
--   Debe cifrar o descifrar campos mediante lógica empresarial personalizada y administración de claves.  
+- Debe cifrar o descifrar campos mediante lógica empresarial personalizada y administración de claves.  
   
--   Necesita generar un código hash desde una parte del mensaje para utilizarlo en otra aplicación.  
+- Necesita generar un código hash desde una parte del mensaje para utilizarlo en otra aplicación.  
   
--   Las solicitudes de administración de cuentas que transmitieron los mensajes a sus departamentos incluyen información de resumen acerca de ventas totales por cada tipo de producto.  
+- Las solicitudes de administración de cuentas que transmitieron los mensajes a sus departamentos incluyen información de resumen acerca de ventas totales por cada tipo de producto.  
   
--   Si desea reducir la complejidad de una asignación, combine varios pasos relacionados, utilice un enfoque distinto o utilice bibliotecas de clases nuevas.  
+- Si desea reducir la complejidad de una asignación, combine varios pasos relacionados, utilice un enfoque distinto o utilice bibliotecas de clases nuevas.  
   
--   Más de una asignación utiliza el mismo código de secuencia de comandos en un functoid de secuencia de comandos.  
+- Más de una asignación utiliza el mismo código de secuencia de comandos en un functoid de secuencia de comandos.  
   
--   Cuando se produce un error en una operación, lo debe escribir en el registro de eventos.  
+- Cuando se produce un error en una operación, lo debe escribir en el registro de eventos.  
   
- Los functoids personalizados se puede integrar en una solución directamente mediante un código en línea o, indirectamente, al hacer referencia a un método en una biblioteca de clases implementada en la caché de ensamblados global. Ambos tipos de integración se basan en el **BizTalk.BaseFunctoid** clase y siga el mismo conjunto de pasos generales:  
+  Los functoids personalizados se puede integrar en una solución directamente mediante un código en línea o, indirectamente, al hacer referencia a un método en una biblioteca de clases implementada en la caché de ensamblados global. Ambos tipos de integración se basan en el **BizTalk.BaseFunctoid** clase y siga el mismo conjunto de pasos generales:  
   
-1.  Cree un proyecto de biblioteca de clases nueva mediante el lenguaje .NET que prefiera.  
+1. Cree un proyecto de biblioteca de clases nueva mediante el lenguaje .NET que prefiera.  
   
-2.  Mediante la utilidad de nombre seguro sn.exe, cree un keyfile y asígnelo al proyecto.  
+2. Mediante la utilidad de nombre seguro sn.exe, cree un keyfile y asígnelo al proyecto.  
   
-3.  Agregue una referencia a Microsoft.BizTalk.BaseFunctoids.dll. Este ensamblado contiene el **BaseFunctoid** clase base.  
+3. Agregue una referencia a Microsoft.BizTalk.BaseFunctoids.dll. Este ensamblado contiene el **BaseFunctoid** clase base.  
   
-4.  Cree un archivo de recursos y agréguelo al proyecto. Agregue recursos de cadena para el nombre de functoid, la información sobre herramientas y la descripción. Agregue un recurso de imagen de 16 x 16 píxeles para representar el functoid en la paleta de diseñador de asignaciones.  
+4. Cree un archivo de recursos y agréguelo al proyecto. Agregue recursos de cadena para el nombre de functoid, la información sobre herramientas y la descripción. Agregue un recurso de imagen de 16 x 16 píxeles para representar el functoid en la paleta de diseñador de asignaciones.  
   
-5.  Implementa la clase de functoid derivando de **BaseFunctoid**, establecer los parámetros básicos en el constructor y, a continuación, escribir el método de functoid y todos los métodos auxiliares. El ensamblado puede contener varios functoids personalizados.  
+5. Implementar la clase de functoid derivando de **BaseFunctoid**, establecer los parámetros básicos en el constructor y, a continuación, escribir el método de functoid y cualquier método compatible. El ensamblado puede contener varios functoids personalizados.  
   
-6.  Implemente el ensamblado y asegúrese de que el functoid nuevo está disponible de la paleta de Cuadro de herramientas. Vea [agregar y quitar Functoids personalizados del cuadro de herramientas de Visual Studio](../core/adding-and-removing-custom-functoids-from-the-visual-studio-toolbox.md).  
+6. Implemente el ensamblado y asegúrese de que el functoid nuevo está disponible de la paleta de Cuadro de herramientas. Consulte [agregar y quitar Functoids personalizados del cuadro de herramientas de Visual Studio](../core/adding-and-removing-custom-functoids-from-the-visual-studio-toolbox.md).  
   
- A continuación se proporciona es una ilustración del functoid Floor.  
+   A continuación se proporciona es una ilustración del functoid Floor.  
   
 ```  
 /// <summary>  
@@ -136,20 +136,20 @@ SetBitmap("IMAGE_FLOOR");
  Para obtener más información sobre cómo crear un functoid personalizado, consulte [Functoid personalizado (ejemplo de BizTalk Server)](../core/custom-functoid-biztalk-server-sample.md).  
   
 > [!IMPORTANT]
->  Ciertos identificadores de functoid están reservados para functoids del Asignador estándar o integrados. Normalmente, los functoids del asignador estándares usan los identificadores de 1 a 10000. Al crear functoids personalizados, no use identificadores de functoid inferiores a 10.000.  
+>  Ciertos identificadores de functoid están reservados para functoids del Asignador estándar o integrados. Normalmente, los functoids del asignador estándares usan los identificadores del 1 a 10000. Al crear functoids personalizados, no use identificadores de functoid inferiores a 10.000.  
   
 ## <a name="in-this-section"></a>En esta sección  
  Esta sección contiene:  
   
--   [Utilizar BaseFunctoid](../core/using-basefunctoid.md)  
+-   [Uso de BaseFunctoid](../core/using-basefunctoid.md)  
   
--   [Desarrollar un personalizado al que hace referencia de Functoid](../core/developing-a-custom-referenced-functoid.md)  
+-   [Desarrollo de un functoid personalizado al que se hace referencia](../core/developing-a-custom-referenced-functoid.md)  
   
--   [Desarrollar un Functoid en línea personalizado](../core/developing-a-custom-inline-functoid.md)  
+-   [Desarrollo de un functoid en línea personalizado](../core/developing-a-custom-inline-functoid.md)  
   
--   [Desarrollar un Functoid acumulado personalizado](../core/developing-a-custom-cumulative-functoid.md)  
+-   [Desarrollo de un functoid acumulativo personalizado](../core/developing-a-custom-cumulative-functoid.md)  
   
--   [Agregar y quitar Functoids personalizados del cuadro de herramientas de Visual Studio](../core/adding-and-removing-custom-functoids-from-the-visual-studio-toolbox.md)  
+-   [Adición y eliminación de functoids personalizados del cuadro de herramientas de Visual Studio](../core/adding-and-removing-custom-functoids-from-the-visual-studio-toolbox.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Utilizar Functoids para crear asignaciones más complejas.](../core/using-functoids-to-create-more-complex-mappings.md)
+ [Uso de functoids para crear asignaciones más complejas](../core/using-functoids-to-create-more-complex-mappings.md)

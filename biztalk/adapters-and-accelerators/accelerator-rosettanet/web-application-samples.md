@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de aplicaciones de Web | Documentos de Microsoft
+title: Ejemplos de aplicación Web | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,17 +16,17 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 64ed05203fa3eeb2c71641a53589d4affae20e6a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a61b07d34a27d7ceebd5b8d8e0b5171d1659e22
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207020"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014181"
 ---
 # <a name="web-application-samples"></a>Ejemplos de aplicaciones Web
-El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye un ejemplo de RNIFSend.aspx y un ejemplo de trabajo RNIFReceive.aspx. Estas páginas ASPX envían mensajes RNIF del iniciador al Respondedor o reciban mensajes RNIF en el servicio de respuesta.  
+The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye un ejemplo del RNIFSend.aspx y un ejemplo de trabajo RNIFReceive.aspx. Estas páginas ASPX enviar mensajes de RNIF del iniciador para el servicio de respuesta o reciban mensajes RNIF en el servicio de respuesta.  
   
- Para obtener más información acerca de la funcionalidad de las páginas ASPX, vea [envío y recepción páginas ASPX](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md). Esta sección proporciona instrucciones para generar y ejecutar los ejemplos.  
+ Para obtener más información acerca de la funcionalidad de las páginas ASPX, consulte [enviar y recibir páginas ASPX](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md). Esta sección proporciona instrucciones para compilar y ejecutar los ejemplos.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

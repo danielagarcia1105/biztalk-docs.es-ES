@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos con el adaptador de FTP | Documentos de Microsoft
+title: Problemas conocidos con el adaptador de FTP | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e13ce12e8514eaa2b5843ba81eff4f505e65d9e1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: fcab9b35759d491c0732cfb2613a2fd4fe992a3e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010093"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022490"
 ---
 # <a name="known-issues-with-the-ftp-adapter"></a>Problemas conocidos del adaptador de FTP
 Esta sección contiene información que puede servir de ayuda para evitar errores.  
@@ -27,7 +27,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 #### <a name="data-may-be-duplicated-or-lost-when-you-receive-data-in-biztalk-server-by-using-the-ftp-adapter"></a>Puede que se dupliquen o se pierdan datos cuando reciba datos en BizTalk Server mediante el adaptador de FTP.  
   
 ##### <a name="problem"></a>Problema  
- Se duplican o se pierde cuando se reciben los datos en datos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de FTP.  
+ Se duplican o se pierde cuando recibe datos en datos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de FTP.  
   
 ##### <a name="cause"></a>Causa  
  El adaptador de FTP de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el protocolo de cliente de FTP para sondear el servidor FTP designado y recupera datos del servidor “como tal”. El adaptador de FTP no valida los datos que recupera. El adaptador de FTP envía el documento recuperado al motor de mensajería de BizTalk para procesarlo y luego elimina el documento original desde el servidor FTP. Si el adaptador de FTP recupera un documento del servidor FTP que todavía está escribiendo la aplicación de host, el documento recuperado estará incompleto. Si el adaptador de FTP recupera una copia incompleta del documento original, puede que se produzca la duplicación o pérdida de datos en los escenarios siguientes:  
@@ -39,9 +39,9 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 ##### <a name="resolution"></a>Solución  
  Para solucionar este comportamiento, utilice uno de los métodos siguientes:  
   
--   Configure la aplicación de host para escribir en una carpeta temporal del mismo disco duro que la carpeta pública de FTP y mueva periódicamente el contenido de la carpeta temporal a la carpeta de FTP. La carpeta temporal debe estar en el mismo disco duro que la carpeta pública de FTP para garantizar que la operación de desplazamiento sea atómica. Una operación atómica es una operación funcionalmente indivisible. Si escribir datos en la carpeta pública de FTP mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de FTP, puede hacerlo mediante la especificación de una propiedad de la carpeta temporal en el cuadro de diálogo Propiedades de transporte FTP cuando se configura un puerto de envío. Si especifica una propiedad de carpeta temporal, asegúrese de que esta carpeta reside en el mismo disco físico que la carpeta pública de FTP.  
+- Configure la aplicación de host para escribir en una carpeta temporal del mismo disco duro que la carpeta pública de FTP y mueva periódicamente el contenido de la carpeta temporal a la carpeta de FTP. La carpeta temporal debe estar en el mismo disco duro que la carpeta pública de FTP para garantizar que la operación de desplazamiento sea atómica. Una operación atómica es una operación funcionalmente indivisible. Si escribir datos en la carpeta pública de FTP mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de FTP, puede hacerlo mediante la especificación de una propiedad de la carpeta temporal en el cuadro de diálogo Propiedades de transporte FTP cuando se configura un puerto de envío. Si especifica una propiedad de carpeta temporal, asegúrese de que esta carpeta reside en el mismo disco físico que la carpeta pública de FTP.  
   
--   Configure la ubicación de recepción FTP para operar en una ventana de servicio cuando la aplicación de host no escriba datos en el servidor FTP. Puede determinar la ventana de servicio cuando configura las propiedades de ubicación de recepción.  
+- Configure la ubicación de recepción FTP para operar en una ventana de servicio cuando la aplicación de host no escriba datos en el servidor FTP. Puede determinar la ventana de servicio cuando configura las propiedades de ubicación de recepción.  
   
 #### <a name="ftp-adapter-does-not-support-revocation-checks-on-the-server-certificates"></a>El adaptador FTP no admite la comprobación de revocaciones en los certificados del servidor  
   

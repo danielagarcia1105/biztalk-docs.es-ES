@@ -1,5 +1,5 @@
 ---
-title: Errores comunes | Documentos de Microsoft
+title: Errores comunes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b882c44e69489114a2dd8084df71d6414df0cb5
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 01c5dfe58f7b31bb5ef461249765d527f78d9264
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25971538"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009061"
 ---
 # <a name="common-errors"></a>Errores comunes
 En este tema se muestran mensajes de error habituales que pueden aparecer al crear asignaciones usando el Asignador de BizTalk.  
@@ -25,9 +25,9 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
 ## <a name="you-receive-error-event-id-324-when-parsing-dates"></a>Recibe el evento de error ID 324 al analizar las fechas  
   
 ### <a name="problem"></a>Problema  
- Cuando se usa la base de datos **Extractor de valor** functoid en una asignación para extraer un campo de fecha, el documento puede producir un error de validación en la definición de documento de salida. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]puede registrar un error de validación similar al siguiente en el registro de eventos:  
+ Cuando se usa la base de datos **Extractor de valor** functoid en una asignación para extraer un campo de fecha, el documento puede producir un error de validación en la definición de documento de salida. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede registrar un error de validación similar al siguiente en el registro de eventos:  
   
- Origen del evento: El servidor BizTalk Server  
+ Origen del evento: Servidor BizTalk Server  
   
  Categoría del evento: Procesamiento de documentos de  
   
@@ -51,11 +51,11 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
 ### <a name="resolution"></a>Solución  
  Para resolver este problema, realice una de las siguientes opciones:  
   
--   Edite la definición del documento de salida para usar un tipo de datos de cadena en vez de un tipo de datos de fecha.  
+- Edite la definición del documento de salida para usar un tipo de datos de cadena en vez de un tipo de datos de fecha.  
   
--   Crear una personalizada [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)] **Script** functoid que convierta el resultado de la base de datos **Extractor de valor** functoid en el formato ISO 8601.  
+- Crear un personalizado [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)] **Script** functoid que va a convertir el resultado de la base de datos **Extractor de valor** functoid en el formato ISO 8601.  
   
- Para obtener más información, consulte el artículo de KB [278737](http://support.microsoft.com/kb/278737/en-us).  
+  Para obtener más información, consulte el artículo de KB [278737](http://support.microsoft.com/kb/278737/en-us).  
   
 ## <a name="you-receive-internal-compiler-error-0xc0000005-at-address-53624fd6-when-compiling-the-maps"></a>Recibe un error del compilador interno (0xc0000005 en la dirección 53624FD6) al compilar las asignaciones  
   
@@ -73,7 +73,7 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
 ## <a name="you-receive-errors-about-the-type-name-of-a-biztalk-artifact"></a>Recibe errores sobre el nombre de tipo de un artefacto de BizTalk  
   
 ### <a name="problem"></a>Problema  
- En un proyecto de BizTalk, cree un mapa con nombre de archivo **System.btm** o **Microsoft.btm**. Al generar el proyecto, el Asignador de BizTalk genera un error similar a alguno de los siguientes:  
+ En un proyecto de BizTalk, cree un mapa con el nombre de archivo **System.btm** o **Microsoft.btm**. Al generar el proyecto, el Asignador de BizTalk genera un error similar a alguno de los siguientes:  
   
 -   “El nombre de tipo ‘SerializableAttribute’ no existe…”  
   
@@ -84,14 +84,14 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
 -   “El nombre de tipo ‘XLANs’ no existe…”  
   
 ### <a name="cause"></a>Causa  
- El **nombre de tipo** en el **propiedades** cuadrícula no debe tener los espacios de nombres .NET reservado, como **System**, **Microsoft**, etcetera.  
+ El **nombre de tipo** en el **propiedades** cuadrícula no debe tener, como los espacios de nombres .NET reservado, **sistema**, **Microsoft**, etcetera.  
   
 ### <a name="resolution"></a>Solución  
  Para resolver este problema, puede seguir cualquiera de estas soluciones:  
   
--   Modifique el nombre de la asignación por cualquier cadena que no sea una palabra reservada de .NET. De forma predeterminada, el sistema de proyectos de BizTalk crea el **nombre de tipo** desde el nombre del artefacto respectivo.  
+-   Modifique el nombre de la asignación por cualquier cadena que no sea una palabra reservada de .NET. De forma predeterminada, el sistema del proyecto de BizTalk crea el **nombre de tipo** desde el nombre del artefacto respectivo.  
   
-     Para p. ej.: crear una nueva asignación con el nombre **Map1.btm** establece la **nombre de tipo** valor de propiedad **Map1**. Sin embargo, cambiar el nombre de un BizTalk existente artefacto no cambia la **nombre de tipo**.  
+     Para p. ej.: crear una nueva asignación con el nombre **Map1.btm** establece la **nombre de tipo** valor de propiedad **Map1**. Sin embargo, al cambiar el nombre de un BizTalk existente artefacto no cambia el **nombre de tipo**.  
   
 -   Asegúrese de que el nombre de archivo de cualquiera de los artefactos del proyecto BizTalk no es un espacio de nombres reservado de .NET.  
   
@@ -109,7 +109,7 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
   
 -   Varios artefactos tienen el mismo nombre de archivo. Para p. ej., **Map1.xsd** y**Map1.btm**.  
   
--   El nombre de archivo consta únicamente de caracteres especiales (**~**, **!**,  **@** , etcetera.).  
+-   El nombre de archivo consta únicamente de caracteres especiales (**~**, **!**, **@**, etcetera.).  
   
 ### <a name="resolution"></a>Solución  
  Para resolver este problema, puede seguir cualquiera de estas soluciones:  
@@ -123,7 +123,7 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
 ### <a name="problem"></a>Problema  
  La generación de un proyecto de flujo de trabajo C# con una actividad del Asignador de BizTalk muestra la siguiente advertencia relacionada con el conflicto de versiones de EnvDTE.dll  
   
- No hay forma de resolver el conflicto entre "EnvDTE, Version = 8.0.0.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a" y "EnvDTE, Version = 7.0.3300.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a". Selección arbitraria de "EnvDTE, Version = 8.0.0.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a".  Considere la reasignación del archivo app.config del ensamblado "EnvDTE, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" desde la versión "7.0.3300.0" [] a la versión "8.0.0.0" [C:\Archivos de programa (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\EnvDTE.dll] para resolver el conflicto y eliminar la advertencia. C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1360,9): advertencia MSB3247: se encontraron conflictos entre diferentes versiones del mismo ensamblado dependiente.  
+ No hay forma de resolver el conflicto entre "EnvDTE, Version = 8.0.0.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a" y "EnvDTE, Version = 7.0.3300.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a". Selección arbitraria de "EnvDTE, Version = 8.0.0.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a".  Considere la reasignación del archivo app.config del ensamblado "EnvDTE, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" desde la versión "7.0.3300.0" [] a la versión "8.0.0.0" [C:\Archivos de programa (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\EnvDTE.dll] para resolver el conflicto y eliminar la advertencia. C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1360,9): advertencia MSB3247: se encontraron conflictos entre versiones diferentes del mismo ensamblado dependiente.  
   
  WorkflowConsoleApplication3-> C:\Usuarios\btslabs\Desktop\WorkflowConsoleApplication3\bin\Debug\WorkflowConsoleApplication3.exe  
   
@@ -134,4 +134,4 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
  Pasar por alto la advertencia.  
   
 ## <a name="see-also"></a>Vea también  
- [Solucionar problemas de asignaciones](../core/troubleshooting-maps.md)
+ [Solución de problemas de mapas](../core/troubleshooting-maps.md)

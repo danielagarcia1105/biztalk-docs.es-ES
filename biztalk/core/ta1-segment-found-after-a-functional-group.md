@@ -1,5 +1,5 @@
 ---
-title: Ha encontrado después de un grupo funcional un segmento TA1 | Documentos de Microsoft
+title: Un segmento TA1 después de un grupo funcional | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 86e9ac6e1e0c3a3b76dbc144739f3a16fddd0d67
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 87613f9482c5c54e99544b96ddd0d1cfc94d3c85
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278524"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018142"
 ---
 # <a name="ta1-segment-found-after-a-functional-group"></a>Se ha encontrado un segmento TA1 después de un grupo funcional
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|TA1FoundAfterFunctionalGroup|  
-|Texto del mensaje|Se ha encontrado un segmento TA1 después de un grupo funcional. Por lo tanto, se rechaza el mensaje.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                              TA1FoundAfterFunctionalGroup                              |
+|  Texto del mensaje   |     Se ha encontrado un segmento TA1 después de un grupo funcional. Por lo tanto, se rechaza el mensaje.      |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que la canalización de recepción no pudo procesar la confirmación entrante porque ésta contenía un grupo funcional y después un segmento TA1.  

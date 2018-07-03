@@ -1,5 +1,5 @@
 ---
-title: Administrar (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Administrar (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,35 +17,35 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4234614cc9f00809f8922999ae96e6f254989c6a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2a62fe56bed210669625c9fff4c76315d1eb4546
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970970"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022874"
 ---
 # <a name="manage-biztalk-server-sample"></a>Administrar (ejemplo de BizTalk Server)
 El ejemplo para administrar inicio de sesión único (SSO) muestra cómo se construyen archivos .xml que se pueden usar con la utilidad de línea de comandos ssomanage.exe para llevar a cabo los siguientes tipos de operaciones de administración:  
   
--   Actualizar información global en el nivel de sistema de SSO.  
+- Actualizar información global en el nivel de sistema de SSO.  
   
--   Crear aplicaciones afiliadas  
+- Crear aplicaciones afiliadas  
   
--   Crear asignaciones de usuarios  
+- Crear asignaciones de usuario  
   
- Para obtener información conceptual acerca de Enterprise Single Sign-On, vea [mediante SSO](../core/using-sso.md).  
+  Para obtener información conceptual acerca de Enterprise Single Sign-On, vea [SSO utilizando](../core/using-sso.md).  
   
- Para obtener un ejemplo que muestra cómo configurar mediante programación el SSO, como la creación de aplicaciones afiliadas y asignaciones de usuario, consulte [HTTPSSO (ejemplo de BizTalk Server)](../core/httpsso-biztalk-server-sample.md).  
+  Para obtener un ejemplo que muestra cómo configurar mediante programación el inicio de sesión único, como la creación de aplicaciones afiliadas y asignaciones de usuario, consulte [HTTPSSO (ejemplo de BizTalk Server)](../core/httpsso-biztalk-server-sample.md).  
   
 ## <a name="what-this-sample-does"></a>Descripción del ejemplo  
  Este ejemplo incluye pares de XSD y archivos .xml de ejemplo para cada uno de estos tipos de operaciones. Los valores de los archivos .xml de ejemplo no son válidos. Debe efectuar cambios en los valores para adecuarlos a sus necesidades específicas.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>* \SSO\Manage\  
+ *\<Ejemplos de la ruta de acceso\>* \SSO\Manage\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |AffiliateApplication.xml, GlobalInfo.xml, UserMapping.xml|Archivos .xml de ejemplo que puede, después de modificarlos, pasar como argumentos a la utilidad de línea de comandos ssomanage.exe.|  
 |AffiliateApplication.xsd, GlobalInfo.xsd, UserMapping.xsd|Archivos de esquema para los archivos .xml correspondientes que proporcionan descripciones completas de sus posibles elementos y atributos. Puede usarlos para validar los archivos .xml correspondientes recibidos desde otros orígenes.|  
@@ -56,39 +56,39 @@ El ejemplo para administrar inicio de sesión único (SSO) muestra cómo se cons
 ## <a name="running-this-sample"></a>Ejecución del ejemplo  
  Este ejemplo incluye archivos .xml de ejemplo para ejecutar la utilidad de línea de comandos ssomanage.exe en los tres modos diferentes que se indican a continuación:  
   
--   **Actualizar información global en el nivel de sistema SSO.** Para realizar este tipo de operación, efectúe los pasos siguientes:  
+- **Actualizar información global en el nivel de sistema SSO.** Para realizar este tipo de operación, efectúe los pasos siguientes:  
   
-    1.  Edite el archivo GlobalInfo.xml como sea necesario para la configuración concreta.  
+  1. Edite el archivo GlobalInfo.xml como sea necesario para la configuración concreta.  
   
-    2.  Ejecute la utilidad de línea de comandos ssomanage.exe con los argumentos adecuados, del modo siguiente:  
+  2. Ejecute la utilidad de línea de comandos ssomanage.exe con los argumentos adecuados, del modo siguiente:  
   
-        ```  
-        ssomanage –updatedb GlobalInfo.xml  
-        ```  
+     ```  
+     ssomanage –updatedb GlobalInfo.xml  
+     ```  
   
      Asegúrese de que edita los valores en el archivo GlobalInfo.xml para que coincidan con el entorno. Por ejemplo, la cuenta de administrador de SSO debe ser una cuenta de Windows válida. Tanto la cuenta de administrador de SSO como la cuenta de administrador afiliado de SSO deben ser cuentas del grupo de dominios globales de Windows.  
   
--   **Crear aplicaciones afiliadas.** Para realizar este tipo de operación, efectúe los pasos siguientes:  
+- **Crear aplicaciones afiliadas.** Para realizar este tipo de operación, efectúe los pasos siguientes:  
   
--   Edite el archivo AffiliateApplication.xml como sea necesario para la configuración concreta.  
+- Edite el archivo AffiliateApplication.xml como sea necesario para la configuración concreta.  
   
-    -   Ejecute la utilidad de línea de comandos ssomanage.exe con los argumentos apropiados, como se indica a continuación:  
+  - Ejecute la utilidad de línea de comandos ssomanage.exe con los argumentos adecuados, como sigue:  
   
-        ```  
-        ssomanage –createapps AffiliateApplication.xml  
-        ```  
+    ```  
+    ssomanage –createapps AffiliateApplication.xml  
+    ```  
   
-     Puede crear varias aplicaciones afiliadas al mismo tiempo.  
+    Puede crear varias aplicaciones afiliadas al mismo tiempo.  
   
--   **Crear asignaciones de usuarios.** Para realizar este tipo de operación, efectúe los pasos siguientes:  
+- **Crear asignaciones de usuario.** Para realizar este tipo de operación, efectúe los pasos siguientes:  
   
-    1.  Edite el archivo UserMapping.xml como sea necesario para la configuración concreta.  
+  1. Edite el archivo UserMapping.xml como sea necesario para la configuración concreta.  
   
-    2.  Ejecute la utilidad de línea de comandos ssomanage.exe con los argumentos apropiados, como se indica a continuación:  
+  2. Ejecute la utilidad de línea de comandos ssomanage.exe con los argumentos adecuados, como sigue:  
   
-        ```  
-        ssomanage –createmappings UserMapping.xml  
-        ```  
+     ```  
+     ssomanage –createmappings UserMapping.xml  
+     ```  
   
      Puede crear varias asignaciones para una o más aplicaciones afiliadas al mismo tiempo.  
   

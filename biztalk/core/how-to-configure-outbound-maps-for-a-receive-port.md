@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar asignaciones de salida para un puerto de recepción | Documentos de Microsoft
+title: Cómo configurar asignaciones de salida para un puerto de recepción | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,12 +21,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a9006f655879bcb5d8fe2c2448c8feba0642c9a5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c74fcc259b833a64a480bbe88f4cc0273d2a83c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248516"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023610"
 ---
 # <a name="how-to-configure-outbound-maps-for-a-receive-port"></a>Cómo configurar asignaciones de salida para un puerto de recepción
 En este tema, se describe cómo utilizar la consola de administración de BizTalk Server para configurar asignaciones de salida para un puerto de recepción. Las asignaciones de salida pueden utilizarse con puertos de recepción de solicitud-respuesta para transformar mensajes de salida de un esquema a otro (por ejemplo, para transformar mensajes que utiliza la empresa en un esquema que utiliza un socio comercial).  
@@ -34,25 +34,25 @@ En este tema, se describe cómo utilizar la consola de administración de BizTal
  Se utiliza una asignación para aplicar una transformación XSL a un mensaje de respuesta enviado por el puerto de recepción, sin tener que procesar el mensaje a través de una orquestación. Es posible agregar una asignación de salida, quitar una asignación o cambiar una ya existente por otra distinta. Puede agregar más de una asignación a un puerto de recepción, aunque cada asignación debe tener un único esquema de origen. Para obtener información general acerca de las asignaciones, vea [asigna](../core/maps.md).  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-configure-outbound-maps-for-a-receive-port"></a>Para configurar asignaciones de salida para un puerto de recepción  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda el grupo de BizTalk y la aplicación de BizTalk para la que desee configurar asignaciones de salida para un puerto de recepción.  
+2. En el árbol de consola, expanda el grupo de BizTalk y la aplicación de BizTalk para la que desee configurar asignaciones de salida para un puerto de recepción.  
   
-3.  Expanda **puertos de recepción**, haga clic en el puerto de recepción, haga clic en **propiedades**y, a continuación, haga clic en **asignaciones de salida**.  
+3. Expanda **puertos de recepción**, haga clic en el puerto de recepción, haga clic en **propiedades**y, a continuación, haga clic en **asignaciones de salida**.  
   
-4.  Configurar las asignaciones de salida tal y como se describe en la tabla siguiente y, a continuación, haga clic en **Aceptar**.  
+4. Configure las asignaciones de salida tal y como se describe en la tabla siguiente y, a continuación, haga clic en **Aceptar**.  
   
-    |Use|Para|  
-    |--------------|----------------|  
-    |**Quitar**|Quitar la asignación seleccionada.|  
-    |**Documento de origen**|Seleccionar el esquema de origen para usar con este puerto en la lista desplegable.|  
-    |**Mapa**|Seleccionar la asignación que desea asociar con este puerto en la lista desplegable.|  
-    |**Documento de destino**|Seleccionar el esquema de destino para usar con este puerto en la lista desplegable.|  
+   |Use|Para|  
+   |--------------|----------------|  
+   |**Quitar**|Quitar la asignación seleccionada.|  
+   |**Documento de origen**|Seleccionar el esquema de origen para usar con este puerto en la lista desplegable.|  
+   |**Mapa**|Seleccionar la asignación que desea asociar con este puerto en la lista desplegable.|  
+   |**Documento de destino**|Seleccionar el esquema de destino para usar con este puerto en la lista desplegable.|  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar puertos de recepción](../core/managing-receive-ports.md)   
- [Administración de mapas](../core/managing-maps.md)
+ [Administración de asignaciones](../core/managing-maps.md)

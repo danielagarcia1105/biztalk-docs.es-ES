@@ -1,5 +1,5 @@
 ---
-title: Mensajes de archivo sin formato con registros posicionales | Documentos de Microsoft
+title: Mensajes de archivo sin formato con registros posicionales | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 42ad36873c5b252afb185f5e341de923942dea73
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: a3cee44a9fbb3cdce4b75da765caf3fbf8f265d8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005597"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990757"
 ---
 # <a name="flat-file-messages-with-positional-records"></a>Mensajes de archivo sin formato con registros posicionales
 Los registros posicionales dentro de un mensaje de instancia de archivo sin formato contienen campos (elementos de datos) y cada uno de ellos tiene una longitud predefinida. Los campos se analizan según estas longitudes. Por ejemplo, considere el siguiente registro posicional de un mensaje de instancia de archivo sin formato que contiene una dirección de envío (la primera línea muestra el número de caracteres reservados para cada campo).  
@@ -29,19 +29,19 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
  Una definición razonable para este registro en un esquema de archivo sin formato se puede describir como un registro posicional llamado shipTo que contiene los campos siguientes:  
   
--   Un atributo denominado country/region, alineado a la izquierda, de 10 caracteres de longitud y con un desplazamiento de caracteres de cero.  
+- Un atributo denominado country/region, alineado a la izquierda, de 10 caracteres de longitud y con un desplazamiento de caracteres de cero.  
   
--   Un elemento denominado name, alineado a la izquierda, de 20 caracteres de longitud y con un desplazamiento de caracteres de cero.  
+- Un elemento denominado name, alineado a la izquierda, de 20 caracteres de longitud y con un desplazamiento de caracteres de cero.  
   
--   Un elemento denominado street, alineado a la izquierda, de 20 caracteres de longitud y con un desplazamiento de caracteres de cero.  
+- Un elemento denominado street, alineado a la izquierda, de 20 caracteres de longitud y con un desplazamiento de caracteres de cero.  
   
--   Un elemento denominado city, alineado a la izquierda, de 15 caracteres de longitud y con un desplazamiento de caracteres de cero.  
+- Un elemento denominado city, alineado a la izquierda, de 15 caracteres de longitud y con un desplazamiento de caracteres de cero.  
   
--   Un elemento denominado state, alineado a la izquierda, de 2 caracteres de longitud y con un desplazamiento de caracteres de cero.  
+- Un elemento denominado state, alineado a la izquierda, de 2 caracteres de longitud y con un desplazamiento de caracteres de cero.  
   
--   Un elemento denominado zip, alineado a la izquierda, de 5 caracteres de longitud y con un desplazamiento de caracteres de cero.  
+- Un elemento denominado zip, alineado a la izquierda, de 5 caracteres de longitud y con un desplazamiento de caracteres de cero.  
   
- Según estas definiciones de registros y campos, el desensamblador de archivos sin formato creará el siguiente XML equivalente de este registro.  
+  Según estas definiciones de registros y campos, el desensamblador de archivos sin formato creará el siguiente XML equivalente de este registro.  
   
 ```  
 <shipTo country/region="US">  
@@ -56,17 +56,17 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
  Existen varias cuestiones que es necesario tener en cuenta en relación con los registros posicionales, y que afectan a la forma de analizar el registro cuando se recibe y a la forma de construirlo cuando se envía, entre ellas:  
   
--   El carácter utilizado para rellenar la parte no utilizada de cada campo, conocido como carácter controlador. Para obtener más información, consulte [relleno de los campos](../core/field-padding.md).  
+- El carácter utilizado para rellenar la parte no utilizada de cada campo, conocido como carácter controlador. Para obtener más información, consulte [relleno de los campos](../core/field-padding.md).  
   
--   Una etiqueta opcional dentro del registro para distinguir el registro de otros similares. Normalmente, las etiquetas se encuentran al comienzo del registro, aunque se pueden situar en cualquier parte del mismo. Para obtener más información, consulte [tratar las etiquetas en los registros posicionales](../core/tag-handling-in-positional-records.md). Los registros posicionales se pueden definir de modo que tengan o no tengan etiquetas, pero una vez definidos, deben contener o no etiquetas según la definición establecida.  
+- Una etiqueta opcional dentro del registro para distinguir el registro de otros similares. Normalmente, las etiquetas se encuentran al comienzo del registro, aunque se pueden situar en cualquier parte del mismo. Para obtener más información, consulte [tratar las etiquetas en los registros posicionales](../core/tag-handling-in-positional-records.md). Los registros posicionales se pueden definir de modo que tengan o no tengan etiquetas, pero una vez definidos, deben contener o no etiquetas según la definición establecida.  
   
--   Modo de justificar los datos en un campo de longitud fija con respecto a los caracteres controladores existentes. Para obtener más información, consulte [justificación de los campos](../core/field-justification.md).  
+- Modo de justificar los datos en un campo de longitud fija con respecto a los caracteres controladores existentes. Para obtener más información, consulte [justificación de campos](../core/field-justification.md).  
   
--   Registros posicionales anidados dentro de otros registros posicionales o delimitados. Para obtener más información, consulte [registros posicionales anidados](../core/nested-positional-records.md).  
+- Registros posicionales anidados dentro de otros registros posicionales o delimitados. Para obtener más información, consulte [registros posicionales anidados](../core/nested-positional-records.md).  
   
--   Registros posicionales con longitudes de campo especificadas como un número determinado de bytes en vez de como un número específico de caracteres. Para obtener más información, consulte [contar posiciones en Bytes](../core/position-counting-in-bytes.md).  
+- Registros posicionales con longitudes de campo especificadas como un número determinado de bytes en vez de como un número específico de caracteres. Para obtener más información, consulte [contar posiciones en Bytes](../core/position-counting-in-bytes.md).  
   
- Para ayudarle a comprender mejor cómo trabajar con archivos sin formato posicionales, vea los ejemplos disponibles en las carpetas FlatFileReceive y FlatFileSend que se encuentran en \Program BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
+  Para ayudarle a comprender mejor cómo trabajar con archivos sin formato posicionales, consulte los ejemplos en las carpetas FlatFileReceive y FlatFileSend que se encuentran en \Program Files\Microsoft BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
   
 > [!NOTE]
 >  Si el archivo sin formato contiene registros delimitados y posicionales, debe establecer el **estructura** propiedad del nodo raíz a **delimitado** y **estructura** propiedad de los subordinados a cualquiera de los nodos Registro **delimitado** o **posicional** según corresponda.  

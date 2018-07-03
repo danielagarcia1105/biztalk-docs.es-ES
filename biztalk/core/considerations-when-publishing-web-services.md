@@ -1,5 +1,5 @@
 ---
-title: Consideraciones al publicar servicios Web | Documentos de Microsoft
+title: Consideraciones al publicar servicios Web | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 825a16555f0b0c82282ae4d85592567d2a19c073
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: eb9ef5d7dd2e035caaa1981129eae5ac4b51ac71
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22239124"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014781"
 ---
 # <a name="considerations-when-publishing-web-services"></a>Consideraciones al publicar servicios web
 En este tema se proporciona información que debe tener en cuenta antes de publicar servicios Web.  
@@ -30,11 +30,11 @@ En este tema se proporciona información que debe tener en cuenta antes de publi
 ## <a name="publishing-schemas-and-the-include-element"></a>Publicar esquemas y el elemento include  
  Hay algunos escenarios donde los esquemas que contienen el **incluyen** elemento no se pueden publicar como un servicio Web. Se producirá un error al finalizar el Asistente para publicación de servicios Web de BizTalk. Entre estas restricciones se incluyes las siguientes:  
   
--   Incluyen circulares (el esquema incluido tiene un **incluyen** elemento en el esquema de inclusión)  
+- Incluyen circulares (el esquema incluido tiene un **incluyen** elemento para el esquema de inclusión)  
   
--   Un sin resolver **schemaLocation** atributo producirá un error  
+- Un sin resolver **schemaLocation** atributo producirá un error  
   
- Para obtener más información acerca del límite del elemento include, vea "Include Element Binding Support" en [ http://go.microsoft.com/fwlink/?LinkId=62312 ](http://go.microsoft.com/fwlink/?LinkId=62312).  
+  Para obtener más información acerca de la limitación del elemento include, vea "Include Element Binding Support" en [ http://go.microsoft.com/fwlink/?LinkId=62312 ](http://go.microsoft.com/fwlink/?LinkId=62312).  
   
 ## <a name="publishing-schemas-and-the-import-element"></a>Publicar esquemas y el elemento import  
  El Asistente para publicar servicios Web de BizTalk Server tiene la misma limitación que el XSD.exe incluido en .NET Framework. Para obtener más información, vea "Import Element Binding Support" en [ http://go.microsoft.com/fwlink/?LinkId=62311 ](http://go.microsoft.com/fwlink/?LinkId=62311).  
@@ -62,7 +62,7 @@ En este tema se proporciona información que debe tener en cuenta antes de publi
   
  La modificación de los atributos existentes o la agregación de nuevos atributos a servicios Web generados por el Asistente para publicar servicios Web de BizTalk puede provocar que el servicio Web no funcione correctamente.  
   
- Para obtener más información acerca de los atributos de método Web y servicios Web, consulte el **WebServiceAttribute** y **WebMethodAttribute** clases en la documentación de .NET Framework SDK.  
+ Para obtener más información acerca de los atributos de método Web y servicios Web, consulte el **WebServiceAttribute** y **WebMethodAttribute** clases en la documentación del SDK de .NET Framework.  
   
 ## <a name="web-method-required"></a>Método Web necesario  
  Un servicio Web debe tener como mínimo un método Web. Sin por lo menos un método Web, las operaciones de los tipos de puertos no se crearán. XLANG/s no admite tipos de puertos que no tengan operaciones.  
@@ -71,7 +71,7 @@ En este tema se proporciona información que debe tener en cuenta antes de publi
  Los servicios Web no admiten caracteres de extensión A de ideogramas unificados de chino/japonés/coreano (CJK).  
   
 ## <a name="republishing-web-services-using-the-biztalk-web-services-publishing-wizard"></a>Volver a publicar servicios Web mediante el Asistente para publicación de servicios Web de BizTalk  
- Puede usar el Asistente para publicación de servicios Web de BizTalk para crear un servicio Web publicado. En el **Web *** servicio *** proyecto** página, puede seleccionar la **sobrescribir *** Web *** servicio** opción.  
+ Puede usar el Asistente para publicación de servicios Web de BizTalk para crear un servicio Web publicado. En el **Web**<strong>servicio</strong>**proyecto** página, puede seleccionar la **sobrescritura**<strong>Web</strong> **Servicio** opción.  
   
  El asistente no almacena la configuración usada anteriormente. Si realiza cambios en la configuración al volver a ejecutar el asistente, puede producirse un error en cualquiera de los clientes Web que consuman el servicio Web publicado (o lo llamen). Debe actualizar las referencias Web de los clientes que consuman un servicio Web que se ha vuelto a publicar (o lo llamen).  
   
@@ -80,9 +80,9 @@ En este tema se proporciona información que debe tener en cuenta antes de publi
   
  Si los clientes Web que utilizan .NET Framework efectúan llamadas a un servicio Web generado con el Asistente para publicación de servicios Web de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es posible que el cliente no pueda recibir errores de tiempo de espera de la secuencia de comandos de servidor, ya que el tiempo de espera de solicitud del cliente se produce en primer lugar de forma predeterminada. Para resolver el problema, puede llevar a cabo uno de los siguientes procedimientos:  
   
--   Aumentar el tiempo de espera de solicitud de cliente a un valor mayor que el tiempo de espera de secuencia de comandos de servidor si aumenta el valor de la **HttpWebRequest.Timeout** propiedad en el cliente.  
+-   Aumentar el tiempo de espera de solicitud de cliente en un valor mayor que el tiempo de espera de script de servidor si aumenta el valor de la **HttpWebRequest.Timeout** propiedad en el cliente.  
   
--   Reducir el tiempo de espera de secuencia de comandos de servidor en un valor menor que el tiempo de espera de solicitud de cliente al disminuir el valor de la **HttpServerUtility.ScriptTimeout** propiedad en el servidor.  
+-   Reducir el tiempo de espera de script de servidor en un valor menor que el tiempo de espera de solicitud de cliente al reducir el valor de la **HttpServerUtility.ScriptTimeout** propiedad en el servidor.  
   
 ## <a name="see-also"></a>Vea también  
  [Publicación de servicios web](../core/publishing-web-services.md)

@@ -1,5 +1,5 @@
 ---
-title: Tipo de enlace no admitido | Documentos de Microsoft
+title: Tipo de enlace no admitido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 98d156f22b5e903cd704dc109f98435203bd6ba8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4a1090157a3b39dea62a3c95cb787b91e0a33bfc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286596"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004341"
 ---
 # <a name="unsupported-binding-type"></a>Tipo de enlace no compatible.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Tipo de enlace no compatible.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                              Tipo de enlace no compatible.                              |
   
 ## <a name="explanation"></a>Explicación  
  Se eligió el enlace MsmqIntegration, pero no era compatible con el adaptador de WCF.  
@@ -40,4 +40,4 @@ ms.locfileid: "22286596"
   
  Para obtener más información sobre la configuración de adaptadores, vea el recurso siguiente:  
   
--   [Configurar el adaptador de WCF-NetMsmq](../core/configuring-the-wcf-netmsmq-adapter.md)
+-   [Configuración del adaptador de WCF-NetMsmq](../core/configuring-the-wcf-netmsmq-adapter.md)

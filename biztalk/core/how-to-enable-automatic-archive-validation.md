@@ -1,5 +1,5 @@
 ---
-title: Cómo habilitar la validación automática de archivos | Documentos de Microsoft
+title: Cómo habilitar la validación automática de archivos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e654d22a08a7b07210ded9c319953c288065927a
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: ed636b1d733589b646ef170a8038a25b05d94cab
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "25971802"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023874"
 ---
 # <a name="how-to-enable-automatic-archive-validation"></a>Cómo habilitar la validación automática de archivos
 La validación de archivos permite validar los archivos a medida que se crean. Antes de poder habilitar la validación de archivos automática, tendrá que configurar un servidor de base de datos secundario, también denominado servidor de validación. Ya que el proceso de archivo es una simple copia de seguridad, es posible que se pueda dañar la imagen real almacenada en el disco debido a un problema de hardware.  
@@ -36,51 +36,51 @@ La validación de archivos permite validar los archivos a medida que se crean. A
   
 ### <a name="to-enable-automatic-archive-validation"></a>Para habilitar la validación automática del archivado  
   
-1.  En el servidor de validación, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 SP2**y, a continuación, haga clic en **SQL Server Management Studio** .  
+1. En el servidor de validación, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 SP2**y, a continuación, haga clic en **SQL Server Management Studio** .  
   
-2.  En el **conectar al servidor** diálogo cuadro, especifique el nombre de la [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] donde puede validar el archivo mediante la realización de una prueba del proceso de restauración y, a continuación, haga clic en **conectar** para conectarse a la servidor de SQL Server apropiado.  
+2. En el **conectar al servidor** diálogo cuadro, especifique el nombre de la [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] donde puede validar el archivo mediante la realización de una prueba del proceso de restauración y, a continuación, haga clic en **Connect** para conectarse a la servidor de SQL Server apropiado.  
   
-    > [!NOTE]
-    >  Este servidor no debería ser otro servidor de base de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ya que reduce el rendimiento del sistema cuando valida el archivo.  
+   > [!NOTE]
+   >  Este servidor no debería ser otro servidor de base de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ya que reduce el rendimiento del sistema cuando valida el archivo.  
   
-3.  En **Microsoft SQL Server Management Studio**, haga clic en **archivo**, haga clic en **abiertos**y, a continuación, haga clic en **archivo**.  
+3. En **Microsoft SQL Server Management Studio**, haga clic en **archivo**, haga clic en **abierto**y, a continuación, haga clic en **archivo**.  
   
-4.  En el **archivos abiertos** cuadro de diálogo, desplácese hasta el siguiente script SQL:  
+4. En el **abrir archivo** cuadro de diálogo, desplácese hasta el siguiente script SQL:  
   
-    ```  
-    %SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\BTS_Tracking_ValidateArchive.sql  
-    ```  
+   ```  
+   %SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\BTS_Tracking_ValidateArchive.sql  
+   ```  
   
-    > [!NOTE]
-    >  Es posible que se necesite copiar el script desde el equipo en el que se ejecuta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el servidor de validación.  
+   > [!NOTE]
+   >  Es posible que se necesite copiar el script desde el equipo en el que se ejecuta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el servidor de validación.  
   
-5.  Haga clic en el **consulta** menú y, a continuación, haga clic en **Execute**.  
+5. Haga clic en el **consulta** menú y, a continuación, haga clic en **Execute**.  
   
-    > [!NOTE]
-    >  La secuencia de comandos BTS_Tracking_ValidateArchive.sql sólo funciona si la carpeta en la que se archiva la base de datos de seguimiento de BizTalk (BizTalkDTADb) es un recurso compartido de red.  
+   > [!NOTE]
+   >  La secuencia de comandos BTS_Tracking_ValidateArchive.sql sólo funciona si la carpeta en la que se archiva la base de datos de seguimiento de BizTalk (BizTalkDTADb) es un recurso compartido de red.  
   
-     La secuencia de comandos BTS_Tracking_ValidateArchive.sql crea un trabajo del Agente SQL Server que se denomina ValidateArchive.  
+    La secuencia de comandos BTS_Tracking_ValidateArchive.sql crea un trabajo del Agente SQL Server que se denomina ValidateArchive.  
   
-6.  El proceso de archivo y purgado potencialmente tiene acceso o actualiza las bases de datos en diferentes servidores de SQL Server, por lo que debe configurar servidores vinculados entre las instancias de SQL Server implicadas. En **SQL Server Management Studio**, haga doble clic en **objetos Server**, haga clic en **servidores vinculados**y, a continuación, haga clic en **nuevo servidor vinculado**.  
+6. El proceso de archivado y purga potencialmente tiene acceso a o actualiza las bases de datos en diferentes servidores de SQL Server, por lo que debe configurar servidores vinculados entre las instancias de SQL Server implicadas. En **SQL Server Management Studio**, haga doble clic en **objetos de servidor**, haga clic en **servidores vinculados**y, a continuación, haga clic en **nuevo servidor vinculado**.  
   
-     Debe configurar el servidor vinculado entre los siguientes componentes:  
+    Debe configurar el servidor vinculado entre los siguientes componentes:  
   
-    -   Cada una de las bases de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) y la base de datos de seguimiento de BizTalk (BizTalkDTADb), en el caso de que residan en servidores distintos.  
+   -   Cada una de las bases de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) y la base de datos de seguimiento de BizTalk (BizTalkDTADb), en el caso de que residan en servidores distintos.  
   
-    -   La base de datos de seguimiento de BizTalk (BizTalkDTADb) y el servidor de validación para la validación de archivos.  
+   -   La base de datos de seguimiento de BizTalk (BizTalkDTADb) y el servidor de validación para la validación de archivos.  
   
-    -   Las cuentas de servicio del Agente SQL Server del equipo que aloja la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) deben contar con los permisos db_datareader y db_datawriter para la base de datos de seguimiento de BizTalk (BizTalkDTADb) del servidor vinculado.  
+   -   Las cuentas de servicio del Agente SQL Server del equipo que aloja la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) deben contar con los permisos db_datareader y db_datawriter para la base de datos de seguimiento de BizTalk (BizTalkDTADb) del servidor vinculado.  
   
-    > [!NOTE]
-    >  La cuenta utilizada para ejecutar el trabajo debe tener privilegios de operador de base de datos (DBO) en las dos bases de datos.  
+   > [!NOTE]
+   >  La cuenta utilizada para ejecutar el trabajo debe tener privilegios de operador de base de datos (DBO) en las dos bases de datos.  
   
-7.  En el **nuevo servidor vinculado** cuadro de diálogo la **General** página **servidor vinculado**, escriba el nombre del servidor que desea vincularse.  
+7. En el **nuevo servidor vinculado** cuadro de diálogo el **General** página **servidor vinculado**, escriba el nombre del servidor que desea vincular a.  
   
-     Por ejemplo, el servidor que aloja la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb), la base de datos de seguimiento de BizTalk (BizTalkDTADb) o el servidor de validación.  
+    Por ejemplo, el servidor que aloja la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb), la base de datos de seguimiento de BizTalk (BizTalkDTADb) o el servidor de validación.  
   
-8.  En **tipo de servidor**, haga clic en **SQL Server**y, a continuación, haga clic en **Aceptar**.  
+8. En **tipo de servidor**, haga clic en **SQL Server**y, a continuación, haga clic en **Aceptar**.  
   
-9. En **Microsoft SQL Server Management Studio**, haga doble clic en **Agente SQL Server**y, a continuación, haga clic en **trabajos**.  
+9. En **Microsoft SQL Server Management Studio**, haga doble clic en **del Agente SQL Server**y, a continuación, haga clic en **trabajos**.  
   
 10. En el **detalles del explorador de objetos** panel, haga clic en **ValidateArchive**y, a continuación, haga clic en **propiedades**.  
   
@@ -88,7 +88,7 @@ La validación de archivos permite validar los archivos a medida que se crean. A
   
 12. En el **lista de pasos de trabajo**, haga clic en **validar**y, a continuación, haga clic en **editar**.  
   
-13. En el **General** página, en la **comando** cuadro, en el comando **exec dtasp_ValidateArchive es null null**, sustituya null, null con el nombre del servidor que hospeda el BizTalk Seguimiento de la base de datos, entre comillas, seguidas del nombre de la base de seguimiento de BizTalk entrecomillado comillas simples y, a continuación, haga clic en **Aceptar**. Por ejemplo:  
+13. En el **General** página, en el **comando** cuadro, en el comando, **null de exec dtasp_ValidateArchive, null**, sustituya null, null con el nombre del servidor que hospeda el BizTalk Seguimiento de la base de datos, rodeado por comillas, seguidas del nombre de la base de seguimiento de BizTalk, rodeado por comillas simples y, a continuación, haga clic en **Aceptar**. Por ejemplo:  
   
      **exec dtasp_ValidateArchive '** *\<TrackingServerName\>* **','** *\<TrackingDatabaseName\>* **'**  
   

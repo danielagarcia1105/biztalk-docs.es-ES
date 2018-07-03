@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Utilizar sobres XML (básicos) | Documentos de Microsoft'
+title: 'Tutorial: Utilizar sobres XML (básicos) | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9090c4ee7d576bb7ab610cd81637680d837b2cae
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2b637f37c8d0953417ca628204fe299318b91266
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975762"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022098"
 ---
 # <a name="walkthrough-using-xml-envelopes-basic"></a>Tutorial: Utilizar sobres XML (básicos)
 En este ejemplo se demuestra un desensamblado de sobre XML básico implementando parte de un sistema de seguimiento de errores ficticio. El ejemplo cumple los requisitos siguientes:  
@@ -35,7 +35,7 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
 3.  Un mensaje de error se puede enviar por sí solo, sin sobre, o como un lote contenido en un sobre.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- En este ejemplo que debe estar familiarizado con la creación de proyectos de BizTalk, al firmar un ensamblado y, mediante la consola de administración de BizTalk Server para ver las aplicaciones y los puertos. También debe estar familiarizado con las ideas presentadas en [Tutorial: implementar una aplicación básica de BizTalk](../core/walkthrough-deploying-a-basic-biztalk-application.md).  
+ En este ejemplo que es preciso saber desenvolverse con la creación de proyectos de BizTalk, al firmar un ensamblado y, mediante la consola de administración de BizTalk Server para ver las aplicaciones y los puertos. También debe estar familiarizado con las ideas presentadas en [Tutorial: implementar una aplicación básica de BizTalk](../core/walkthrough-deploying-a-basic-biztalk-application.md).  
   
 ## <a name="what-this-example-does"></a>Qué se hace en este ejemplo  
  En el ejemplo se procesan los mensajes de entrada que contienen un solo mensaje de error o un lote de éstos. Para ello, se define un esquema de sobres y se usa la canalización XmlDisassembler.  
@@ -48,52 +48,52 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 ##### <a name="to-create-and-configure-a-new-biztalk-project"></a>Para crear y configurar un nuevo proyecto de BizTalk  
   
-1.  Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para crear un nuevo proyecto de BizTalk. Asigne al proyecto el **BasicXMLEnvelope**.  
+1. Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para crear un nuevo proyecto de BizTalk. Llame al proyecto **BasicXMLEnvelope**.  
   
-2.  Genere un archivo de clave y asígnelo al proyecto. Para obtener más información acerca de esta tarea, vea [cómo configurar un archivo de clave de ensamblado de nombre seguro](../core/how-to-configure-a-strong-name-assembly-key-file.md).  
+2. Genere un archivo de clave y asígnelo al proyecto. Para obtener más información acerca de esta tarea, vea [cómo configurar un archivo de clave de ensamblado de nombre seguro](../core/how-to-configure-a-strong-name-assembly-key-file.md).  
   
-3.  En las propiedades de configuración de implementación para el proyecto, asigne un **nombre de la aplicación** y establecer **reiniciar instancias de Host** a `True`. Al definir esta marca, se ordena al host que borre todas las instancias del ensamblado almacenadas en caché.  
+3. En las propiedades de configuración de implementación para el proyecto, asigne un **nombre de la aplicación** y establecer **reiniciar instancias de Host** a `True`. Al definir esta marca, se ordena al host que borre todas las instancias del ensamblado almacenadas en caché.  
   
 ### <a name="create-the-error-schema"></a>Crear el esquema de error  
  En este paso, se creará el esquema de error. Define el mensaje clave para el sistema.  
   
 ##### <a name="to-create-the-error-schema"></a>Para crear el esquema de error  
   
-1.  Agregue un nuevo esquema denominado "Error" al proyecto.  
+1. Agregue un nuevo esquema denominado "Error" al proyecto.  
   
-2.  Cambiar el espacio de nombres de destino para el esquema como **http://BasicXMLEnvelope**.  
+2. Cambiar el espacio de nombres de destino para el esquema como **http://BasicXMLEnvelope**.  
   
-3.  Cambiar la propiedad de esquema **Element FormDefault** en el **avanzadas** categoría a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+3. Cambiar la propiedad de esquema **Element FormDefault** bajo el **avanzadas** categoría a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
-4.  Cambie el nombre del nodo raíz "Error" y cree cinco elementos secundarios con los tipos que se indican:  
+4. Cambie el nombre del nodo raíz "Error" y cree cinco elementos secundarios con los tipos que se indican:  
   
-    -   ID, xs:int  
+   - ID, xs:int  
   
-    -   Type, xs:int  
+   - Type, xs:int  
   
-    -   Priority, xs:string  
+   - Priority, xs:string  
   
-    -   Description, xs:string  
+   - Description, xs:string  
   
-    -   ErrorDateTime, xs:string  
+   - ErrorDateTime, xs:string  
   
      El esquema tendrá el siguiente aspecto:  
   
      ![Esquema de Error completado](../core/media/error-schema.gif "error_schema")  
   
-5.  Cree un mensaje de ejemplo para este esquema Este mensaje se usa para comprobar que los mensajes sencillos, no contenidos en un sobre, se procesan correctamente. Un mensaje de ejemplo es:  
+5. Cree un mensaje de ejemplo para este esquema Este mensaje se usa para comprobar que los mensajes sencillos, no contenidos en un sobre, se procesan correctamente. Un mensaje de ejemplo es:  
   
-    ```  
-    <Error xmlns="http://BasicXMLEnvelope">  
-      <ID>1</ID>  
-      <Type>5</Type>  
-      <Priority>Low</Priority>  
-      <Description>Sprocket widget prints reports slowly.</Description>  
-      <ErrorDateTime>1999-05-31T13:20:00.000-05:00</ErrorDateTime>  
-    </Error>  
-    ```  
+   ```  
+   <Error xmlns="http://BasicXMLEnvelope">  
+     <ID>1</ID>  
+     <Type>5</Type>  
+     <Priority>Low</Priority>  
+     <Description>Sprocket widget prints reports slowly.</Description>  
+     <ErrorDateTime>1999-05-31T13:20:00.000-05:00</ErrorDateTime>  
+   </Error>  
+   ```  
   
-     Guarde este mensaje en un archivo en el directorio del proyecto.  
+    Guarde este mensaje en un archivo en el directorio del proyecto.  
   
 ### <a name="create-the-envelope-schema"></a>Crear el esquema de sobres  
  El sobre contiene uno o más mensajes de error. En este ejemplo básico, el sobre no tiene propiedades ni elementos propios.  
@@ -102,13 +102,13 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 1.  Agregue un nuevo esquema denominado "Envelope" al proyecto BasicXMLEnvelope.  
   
-2.  Cambiar el espacio de nombres de destino para **http://BasicXMLEnvelope**.  
+2.  Cambiar el espacio de nombres de destino a **http://BasicXMLEnvelope**.  
   
 3.  Cambie el nombre del nodo raíz de "Root" a "Envelope".  
   
-4.  Ahora, marque el esquema como esquema de sobres. Haga clic en el  **\<esquema\>**  nodo. En el panel Propiedades, establezca la propiedad de referencia de esquema **sobres** a `OK`.  
+4.  Ahora, marque el esquema como esquema de sobres. Haga clic en el **\<esquema\>** nodo. En el panel Propiedades, establezca la propiedad de referencia de esquema **sobres** a `OK`.  
   
-5.  Establecer el **XPath de cuerpo** propiedad. Para ello, haga clic en el **sobres** nodo. En la ventana Propiedades, haga clic en el botón de puntos suspensivos (**...** ) botón en el **XPath de cuerpo** propiedad, seleccione **sobres**y, a continuación, haga clic en **Aceptar**.  
+5.  Establecer el **XPath de cuerpo** propiedad. Para ello, haga clic en el **sobres** nodo. En la ventana Propiedades, haga clic en el botón de puntos suspensivos (**...** ) situado en la **XPath de cuerpo** propiedad, seleccione **sobres**y, a continuación, haga clic en **Aceptar**.  
   
 6.  Agregue un elemento secundario Cualquier elemento al nodo Envelope. El mensaje de error estará contenido en este elemento. El esquema tendrá el siguiente aspecto:  
   
@@ -142,17 +142,17 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 ##### <a name="to-deploy-basicxmlenvelope"></a>Para implementar BasicXMLEnvelope  
   
-1.  De [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], elija **implementar BasicXMLEnvelope** en el menú Generar. Se generará e implementará en BizTalk Server como la aplicación "BasicXMLEnvelope".  
+1. Desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], elija **implementar BasicXMLEnvelope** en el menú compilar. Se generará e implementará en BizTalk Server como la aplicación "BasicXMLEnvelope".  
   
-2.  En la consola de administración de BizTalk Server, expanda el **aplicaciones** grupo para comprobar que **BasicXMLEnvelope** está presente como una aplicación personalizada.  
+2. En la consola de administración de BizTalk Server, expanda el **aplicaciones** grupo para comprobar que **BasicXMLEnvelope** está presente como una aplicación personalizada.  
   
 ##### <a name="to-configure-the-receive-port"></a>Para configurar el puerto de recepción  
   
-1.  Utilice el Explorador de Windows para crear un directorio denominado "Receive" en la **BasicXMLEnvelope** directorio del proyecto.  
+1.  Usar el Explorador de Windows para crear un directorio denominado "Receive" en el **BasicXMLEnvelope** directorio del proyecto.  
   
-2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de recepción**, seleccione **nuevo**y, a continuación, haga clic en **Unidireccional puerto de recepción**.  
+2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de recepción**, apunte a **New**y, a continuación, haga clic en **Unidireccional puerto de recepción**.  
   
-3.  En el **propiedades de puerto de recepción** diálogo cuadro, establezca el nombre del puerto de "Recepción".  
+3.  En el **propiedades de puerto de recepción** diálogo cuadro, establezca el nombre del puerto "Receive".  
   
 4.  Haga clic en ubicaciones de recepción y, a continuación, haga clic en **New** para agregar un puerto de recepción. Defina "ReceiveError" como nombre del nuevo puerto. Establecer el **canalización de recepción** a **XMLReceive**. Para **tipo de transporte**, seleccione **archivo**y, a continuación, haga clic en **configurar**.  
   
@@ -160,13 +160,13 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 ##### <a name="to-configure-the-send-port"></a>Para configurar el puerto de envío  
   
-1.  Utilice el Explorador de Windows para crear un directorio denominado "Send" en la **BasicXMLEnvelope** directorio del proyecto.  
+1.  Usar el Explorador de Windows para crear un directorio denominado "Send" en el **BasicXMLEnvelope** directorio del proyecto.  
   
-2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en  **Unidireccional estático**.  
+2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de envío**, apunte a **New**y, a continuación, haga clic en  **Unidireccional estático**.  
   
 3.  En el **propiedades de puerto de envío** diálogo cuadro, establezca el nombre del puerto de "Envío".  
   
-4.  Para **tipo de transporte**, seleccione **archivo**y, a continuación, haga clic en **configurar**. Establece la carpeta de destino en el directorio de envío que creó anteriormente y haga clic en **Aceptar**.  
+4.  Para **tipo de transporte**, seleccione **archivo**y, a continuación, haga clic en **configurar**. Establezca la carpeta de destino en el directorio de envío que creó anteriormente y haga clic en **Aceptar**.  
   
 5.  Haga clic en **filtros** y agregue un filtro único:  
   
@@ -186,24 +186,24 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
 ## <a name="extending-the-example"></a>Ampliar el ejemplo  
  Puede ampliar el ejemplo para adaptarlo a otros requisitos. En esta sección se tratan dos escenarios comunes.  
   
--   Si se envía un lote de errores dentro de un sobre, los errores en mensajes individuales del desensamblado no deberían prohibir el procesamiento ulterior de los demás mensajes sin errores.  
+- Si se envía un lote de errores dentro de un sobre, los errores en mensajes individuales del desensamblado no deberían prohibir el procesamiento ulterior de los demás mensajes sin errores.  
   
--   Los errores deberán enviarse a distintas ubicaciones según la prioridad del error. Los mensajes de alta prioridad se envían antes, mientras que los demás niveles de prioridad se administran por los canales normales.  
+- Los errores deberán enviarse a distintas ubicaciones según la prioridad del error. Los mensajes de alta prioridad se envían antes, mientras que los demás niveles de prioridad se administran por los canales normales.  
   
- En las siguientes secciones se amplía el ejemplo de modo que incluya estos requisitos.  
+  En las siguientes secciones se amplía el ejemplo de modo que incluya estos requisitos.  
   
 ### <a name="recoverable-interchange-processing"></a>Procesamiento de intercambio recuperable  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]admite el procesamiento de intercambio recuperable. Esta característica permite garantizar que los lotes de mensajes con errores se traten individualmente en el desensamblado, y no como un lote.  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] admite el procesamiento de intercambio recuperable. Esta característica permite garantizar que los lotes de mensajes con errores se traten individualmente en el desensamblado, y no como un lote.  
   
 ##### <a name="to-configure-the-example-for-recoverable-interchange-processing"></a>Para configurar el ejemplo para el procesamiento de intercambio recuperable  
   
 1.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de recepción**y, a continuación, haga doble clic en el puerto de recepción. Éste es el puerto creado anteriormente.  
   
-2.  En el **propiedades de puerto de recepción** cuadro de diálogo, haga clic en **ubicaciones de recepción**. Haga clic en **propiedades** para que aparezca el **propiedades de ubicación de recepción ReceiveError** cuadro de diálogo. Haga clic en el botón de puntos suspensivos (**...** ) botón la **canalización de recepción**.  
+2.  En el **propiedades de puerto de recepción** cuadro de diálogo, haga clic en **ubicaciones de recepción**. Haga clic en **propiedades** para que aparezca el **propiedades de ubicación de recepción ReceiveError** cuadro de diálogo. Haga clic en el botón de puntos suspensivos (**...** ) botón el **canalización de recepción**.  
   
-3.  En el **configurar canalización: XMLReceive** cuadro de diálogo, establezca la **procesamiento de intercambio recuperable** propiedad `True`y, a continuación, haga clic en **Aceptar**.  
+3.  En el **configurar canalización: XMLReceive** cuadro de diálogo, establezca el **procesamiento de intercambio recuperable** propiedad `True`y, a continuación, haga clic en **Aceptar**.  
   
-4.  Haga clic en **Aceptar** para cerrar el **propiedades de la ubicación de recepción** cuadro de diálogo y, a continuación, haga clic en **Aceptar** para cerrar el **propiedades de puerto de recepción** cuadro de diálogo cuadro.  
+4.  Haga clic en **Aceptar** para cerrar el **propiedades de ubicación de recepción** cuadro de diálogo y, a continuación, haga clic en **Aceptar** para cerrar el **propiedades de puerto de recepción** cuadro de diálogo cuadro.  
   
 ##### <a name="to-create-a-sample-file-and-run-the-example"></a>Para crear un archivo de ejemplo y ejecutar el ejemplo  
   
@@ -228,7 +228,7 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
     </Envelope>  
     ```  
   
-2.  En la consola de administración de BizTalk Server, haga clic en **aplicaciones** y compruebe que la **BasicXMLEnvelope** aplicación se está ejecutando.  
+2.  En la consola de administración de BizTalk Server, haga clic en **aplicaciones** y compruebe que la **BasicXMLEnvelope** se está ejecutando la aplicación.  
   
 3.  Coloque el mensaje en la ubicación de recepción. Después del procesamiento, deberá encontrar el primer mensaje en la ubicación de envío y el segundo, de baja prioridad, en la cola de suspensión.  
   
@@ -243,23 +243,23 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 ##### <a name="to-promote-the-priority-field-in-the-error-schema"></a>Para promocionar el campo Priority del esquema de error  
   
-1.  Con el **BasicXMLEnvelope** proyecto abierto en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el **Error** esquema y expanda el **Error** nodo.  
+1. Con el **BasicXMLEnvelope** proyecto abierto en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el **Error** esquema y expanda el **Error** nodo.  
   
-2.  Haga clic en el **prioridad** elemento, seleccione **promover**y, a continuación, haga clic en **promoción rápida**.  
+2. Haga clic en el **prioridad** elemento, seleccione **promover**y, a continuación, haga clic en **promoción rápida**.  
   
-3.  Haga clic en **Aceptar** para confirmar la adición de un nuevo esquema de propiedad para las propiedades promocionadas.  
+3. Haga clic en **Aceptar** para confirmar la adición de un nuevo esquema de propiedad para las propiedades promocionadas.  
   
-4.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el Explorador de soluciones, abra el nuevo esquema de propiedades PropertySchema.xsd. Quite "Field1" del esquema.  
+4. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el Explorador de soluciones, abra el nuevo esquema de propiedades PropertySchema.xsd. Quite "Field1" del esquema.  
   
-5.  Vuelva a compilar e implementar la solución. En el menú Generar, elija Implementar BasicXMLEnvelope.  
+5. Vuelva a compilar e implementar la solución. En el menú Generar, elija Implementar BasicXMLEnvelope.  
   
-6.  El proyecto se configuró para restablecer la instancia de host cuando se vuelve a implementar la solución. Si lo ha modificado, deberá detener e iniciar el host.  
+6. El proyecto se configuró para restablecer la instancia de host cuando se vuelve a implementar la solución. Si lo ha modificado, deberá detener e iniciar el host.  
   
 ##### <a name="to-configure-the-low-and-medium-priority-send-port"></a>Para configurar el puerto de envío de prioridad media y baja  
   
-1.  Utilice el Explorador de Windows para crear un directorio denominado "SendLowMediumPriority" en la **BasicXMLEnvelope** directorio del proyecto.  
+1.  Usar el Explorador de Windows para crear un directorio denominado "SendLowMediumPriority" en el **BasicXMLEnvelope** directorio del proyecto.  
   
-2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en  **Unidireccional estático**.  
+2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de envío**, apunte a **New**y, a continuación, haga clic en  **Unidireccional estático**.  
   
 3.  En el **propiedades de puerto de envío** diálogo cuadro, establezca el nombre del puerto "SendLowMediumPriority".  
   
@@ -267,7 +267,7 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 5.  Haga clic en **filtros** y agregue tres expresiones de filtro:  
   
-    -   BTS.MessageType == http://BasicXMLEnvelope#Error And  
+    -   BTS. MessageType == http://BasicXMLEnvelope#Error y  
   
     -   BasicXMLEnvelope.PropertySchema.Priority == Low Or  
   
@@ -277,9 +277,9 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 ##### <a name="to-configure-the-high-priority-send-port"></a>Para configurar el puerto de envío de prioridad alta  
   
-1.  Utilice el Explorador de Windows para crear un directorio denominado "SendHighPriority" en la **BasicXMLEnvelope** directorio del proyecto.  
+1.  Usar el Explorador de Windows para crear un directorio denominado "SendHighPriority" en el **BasicXMLEnvelope** directorio del proyecto.  
   
-2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en  **Unidireccional estático**.  
+2.  En la consola de administración de BizTalk Server, expanda el **BasicXMLEnvelope** aplicación, haga clic en **puertos de envío**, apunte a **New**y, a continuación, haga clic en  **Unidireccional estático**.  
   
 3.  En el **propiedades de puerto de envío** diálogo cuadro, establezca el nombre del puerto "SendHighPriority".  
   
@@ -287,7 +287,7 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 5.  Haga clic en **filtros** y agregue dos expresiones de filtro:  
   
-    -   BTS.MessageType == http://BasicXMLEnvelope#Error And  
+    -   BTS. MessageType == http://BasicXMLEnvelope#Error y  
   
     -   BasicXMLEnvelope.PropertySchema.Priority == High  
   

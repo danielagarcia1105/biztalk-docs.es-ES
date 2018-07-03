@@ -1,5 +1,5 @@
 ---
-title: Cómo eliminar una base de datos de cuadro de mensajes | Documentos de Microsoft
+title: Cómo eliminar una base de datos de cuadro de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a12c74bfef8d6afec15b0c83f520eb4be43696c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a025ea29e13ef938a39f9555785177f2c64e922
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22250068"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023602"
 ---
 # <a name="how-to-delete-a-messagebox-database"></a>Cómo eliminar una base de datos de cuadro de mensajes
 Utilice la consola de administración de BizTalk o el Instrumental de administración de Windows (WMI) para quitar una base de datos de cuadro de mensajes de un grupo de BizTalk. Puede quitar una base de datos de cuadro de mensajes de un grupo de BizTalk o la puede eliminar por completo de su implementación de BizTalk Server.  
@@ -32,11 +32,11 @@ Utilice la consola de administración de BizTalk o el Instrumental de administra
   
 1.  Deshabilitar la publicación de nuevos mensajes.  
   
-     Debe deshabilitar la publicación de mensajes nuevos antes de eliminar una base de datos de cuadro de mensajes. Para obtener información acerca de cómo deshabilitar la publicación de mensajes nuevos, consulte [cómo deshabilitar la publicación de nuevos mensajes](../core/how-to-disable-new-message-publication.md).  
+     Debe deshabilitar la publicación de mensajes nuevos antes de eliminar una base de datos de cuadro de mensajes. Para obtener información acerca de cómo deshabilitar la publicación de nuevos mensajes, vea [cómo deshabilitar la publicación de nuevos mensajes](../core/how-to-disable-new-message-publication.md).  
   
 2.  Esperar a que caduque el intervalo de actualización de la caché.  
   
-     Después de deshabilitar la publicación de mensajes nuevos, debe esperar para eliminar la base de datos. El tiempo de espera se define como el doble de la longitud correspondiente a CacheRefreshInterval. El valor predeterminado de CacheRefreshInterval (intervalo de actualización de la caché) es de 60 segundos. Usa el **propiedades del grupo de** cuadro de diálogo para cambiar la actualización de la caché.  
+     Después de deshabilitar la publicación de mensajes nuevos, debe esperar para eliminar la base de datos. El tiempo de espera se define como el doble de la longitud correspondiente a CacheRefreshInterval. El valor predeterminado de CacheRefreshInterval (intervalo de actualización de la caché) es de 60 segundos. Usa el **propiedades del grupo** cuadro de diálogo para cambiar la actualización de la caché.  
   
 3.  Quitar la base de datos de cuadro de mensajes del grupo de BizTalk.  
   
@@ -79,21 +79,21 @@ Utilice la consola de administración de BizTalk o el Instrumental de administra
   
 ### <a name="to-delete-a-messagebox-database-from-a-biztalk-group"></a>Para eliminar una base de datos de cuadro de mensajes de un grupo de BizTalk  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **cuadros de mensaje**.  
+2. En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **cuadros de mensaje**.  
   
-3.  En el panel de detalles, haga clic en la base de datos de cuadro de mensaje que desea quitar y, a continuación, haga clic en **propiedades**.  
+3. En el panel de detalles, haga clic en la base de datos de cuadro de mensaje que desea quitar y, a continuación, haga clic en **propiedades**.  
   
-4.  En el **propiedades de cuadro de mensaje** cuadro de diálogo, seleccione la **Deshabilitar publicación de nuevos mensajes** casilla de verificación.  
+4. En el **propiedades de cuadro de mensaje** cuadro de diálogo, seleccione el **Deshabilitar publicación de nuevos mensajes** casilla de verificación.  
   
-5.  Utilice la página Concentrador de grupo de la consola de administración de BizTalk Server para comprobar que no haya instancias de mensaje deshidratadas o suspendidas en la base de datos de cuadro de mensajes que vaya a eliminar.  
+5. Utilice la página Concentrador de grupo de la consola de administración de BizTalk Server para comprobar que no haya instancias de mensaje deshidratadas o suspendidas en la base de datos de cuadro de mensajes que vaya a eliminar.  
   
-6.  Espere durante un período de tiempo que equivalga al doble de la longitud de CacheRefreshInterval. El valor predeterminado de CacheRefreshInterval (intervalo de actualización de la caché) es de 60 segundos.  
+6. Espere durante un período de tiempo que equivalga al doble de la longitud de CacheRefreshInterval. El valor predeterminado de CacheRefreshInterval (intervalo de actualización de la caché) es de 60 segundos.  
   
-7.  En el panel de detalles, haga clic en la base de datos de cuadro de mensajes que desea eliminar y haga clic en **eliminar**.  
+7. En el panel de detalles, haga clic en la base de datos de cuadro de mensajes que desea eliminar y haga clic en **eliminar**.  
   
-8.  Después de leer el mensaje de advertencia, haga clic en **Aceptar**.  
+8. Después de leer el mensaje de advertencia, haga clic en **Aceptar**.  
   
 9. En el árbol de consola, expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
   

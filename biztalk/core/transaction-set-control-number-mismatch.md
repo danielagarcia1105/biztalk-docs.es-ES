@@ -1,5 +1,5 @@
 ---
-title: Error de coincidencia de número de Control del conjunto de transacciones | Documentos de Microsoft
+title: Error de coincidencia de número de Control del conjunto de transacciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efd80bac6a5c58306a8d9ca64748ddbb8cb2bc81
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da4c20eb6853827709731c41631a38225214424d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278084"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37021978"
 ---
 # <a name="transaction-set-control-number-mismatch"></a>El número de control de conjunto de transacciones no coincide.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12TsControlNumberMismatchDescription|  
-|Texto del mensaje|El número de control de conjunto de transacciones no coincide.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                         X12TsControlNumberMismatchDescription                          |
+|  Texto del mensaje   |                        El número de control de conjunto de transacciones no coincide.                         |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción EDI rechazó el conjunto de transacciones entrantes porque el número de control contenido en el campo SE02 del conjunto de transacciones no coincidió con el número de control en el campo ST02.  

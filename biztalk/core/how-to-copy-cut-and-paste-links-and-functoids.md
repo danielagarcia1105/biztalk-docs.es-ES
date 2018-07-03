@@ -1,5 +1,5 @@
 ---
-title: Cómo copiar, cortar y pegar vínculos y Functoids | Documentos de Microsoft
+title: Cómo copiar, cortar y pegar vínculos y Functoids | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5eec0ddc164af936e1c3739e4da167753a6e58c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3dcce057f4c3e04eb4974ccd7f8833e2dab8e580
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22250372"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016043"
 ---
 # <a name="how-to-copy-cut-and-paste-links-and-functoids"></a>Cómo copiar, cortar y pegar vínculos y functoids
 La característica de copiar, cortar y pegar del Asignador de BizTalk permite la reutilización de una relación. En este tema se proporcionan instrucciones detalladas para copiar y cortar functoids y/o vínculos de una asignación, así como pegarlos en ella.  
@@ -25,39 +25,39 @@ La característica de copiar, cortar y pegar del Asignador de BizTalk permite la
  Puede usar la característica de copiar y pegar cuando desee reutilizar un conjunto de functoids y/o vínculos. Y, cuando desee eliminar la selección de la ubicación existente y moverla a una nueva ubicación, puede usar la característica de cortar y pegar.  
   
 > [!IMPORTANT]
->  ¿Cree que las características de cortar y pegar y la característica de mover son similares? Hay una diferencia. Cuando selecciona cortar, solo los functoids o los vínculos de la selección se quitan de la página de cuadrícula de origen. Pero, cuando selecciona mover, todos los functoids y los vínculos de la relación (independientemente de la selección), de forma recursiva, se eliminan de la página de cuadrícula de origen. Para obtener más información acerca de cómo mover una relación, vea [cómo mover una relación entre páginas de cuadrícula](../core/how-to-move-a-relationship-between-grid-pages.md).  
+>  ¿Cree que las características de cortar y pegar y la característica de mover son similares? Hay una diferencia. Cuando selecciona cortar, solo los functoids o los vínculos de la selección se quitan de la página de cuadrícula de origen. Pero, cuando selecciona mover, todos los functoids y los vínculos de la relación (independientemente de la selección), de forma recursiva, se eliminan de la página de cuadrícula de origen. Para obtener más información acerca de cómo mover una relación, vea [cómo mover una relación entre las páginas de cuadrícula](../core/how-to-move-a-relationship-between-grid-pages.md).  
   
  Cuando copia o corta un conjunto de functoids o vínculos, se conservan los functoids, las etiquetas, los comentarios y los valores constantes (junto con los marcadores correctos) asociados a ese conjunto.  
   
  Solamente se pueden copiar y cortar estos elementos de asignación:  
   
--   Vínculo de origen al esquema de destino.  
+- Vínculo de origen al esquema de destino.  
   
--   Vínculo de functoid a nodo de esquema, únicamente si el “functoid” también se selecciona junto con el vínculo  
+- Vínculo de functoid a nodo de esquema, únicamente si el “functoid” también se selecciona junto con el vínculo  
   
--   Vínculo de functoid a functoid, únicamente si ambos functoids se seleccionan junto con el vínculo.  
+- Vínculo de functoid a functoid, únicamente si ambos functoids se seleccionan junto con el vínculo.  
   
- Puede copiar y pegar functoids y/o vínculos de:  
+  Puede copiar y pegar functoids y/o vínculos de:  
   
--   Dentro de la misma página de cuadrícula de un mapa  
+- Dentro de la misma página de cuadrícula de un mapa  
   
--   Una página de cuadrícula a las otras del mismo mapa  
+- Una página de cuadrícula a las otras del mismo mapa  
   
--   Una asignación a las otras de la misma instancia de Visual Studio  
+- Una asignación a las otras de la misma instancia de Visual Studio  
   
--   Entre diferentes instancias de Visual Studio  
+- Entre diferentes instancias de Visual Studio  
   
- Las operaciones de cortar y pegar no se pueden deshacer o rehacer. Para obtener más información, consulte [cómo deshacer o rehacer operaciones de usuario](../core/how-to-undo-or-redo-user-operations.md).  
+  Las operaciones de cortar y pegar no se pueden deshacer o rehacer. Para obtener más información, consulte [cómo deshacer o rehacer operaciones de usuario](../core/how-to-undo-or-redo-user-operations.md).  
   
- Además de esto, debe tener en cuenta lo siguiente al pegar vínculos:  
+  Además de esto, debe tener en cuenta lo siguiente al pegar vínculos:  
   
--   Un vínculo entre el esquema de origen y el de destino únicamente se puede pegar si la asignación actual, donde se pega el vínculo, contiene un nodo de origen, así como un nodo de destino cuya XPath es idéntica a la XPath de los nodos de origen y de destino del vínculo que se pega.  
+- Un vínculo entre el esquema de origen y el de destino únicamente se puede pegar si la asignación actual, donde se pega el vínculo, contiene un nodo de origen, así como un nodo de destino cuya XPath es idéntica a la XPath de los nodos de origen y de destino del vínculo que se pega.  
   
--   Un vínculo entre el esquema de origen y el de destino únicamente se puede pegar si no hay ningún vínculo existente entre el origen indicado y los nodos de destino.  
+- Un vínculo entre el esquema de origen y el de destino únicamente se puede pegar si no hay ningún vínculo existente entre el origen indicado y los nodos de destino.  
   
--   Un vínculo de un functoid a un esquema de destino únicamente se puede pegar si existe un nodo de destino cuya XPath sea la misma que la XPath del nodo de destino del vínculo que se pega.  
+- Un vínculo de un functoid a un esquema de destino únicamente se puede pegar si existe un nodo de destino cuya XPath sea la misma que la XPath del nodo de destino del vínculo que se pega.  
   
--   Un vínculo de un esquema de origen a un functoid únicamente se puede pegar si existe un nodo de origen cuya XPath sea la misma que la XPath del nodo de origen del vínculo que se pega.  
+- Un vínculo de un esquema de origen a un functoid únicamente se puede pegar si existe un nodo de origen cuya XPath sea la misma que la XPath del nodo de origen del vínculo que se pega.  
   
 > [!NOTE]
 >  Cuando selecciona varios elementos (vínculos o functoids) de modo que algunos de ellos no se pueden cortar o copiar, al ejecutar el comando cortar o copiar, la barra de estado de Visual Studio muestra el mensaje de advertencia en el que se indica que no se pudieron cortar o copiar algunos de los elementos seleccionados. El mensaje también muestra información relevante.  

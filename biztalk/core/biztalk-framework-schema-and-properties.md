@@ -1,5 +1,5 @@
 ---
-title: Propiedades y esquema de BizTalk Framework | Documentos de Microsoft
+title: Esquema de BizTalk Framework y las propiedades | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,19 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 992f0fb9c66ee00cf425609db4231a57bf5782c4
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 75bbb67410f320cc566871f987f58ec3bae216b4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "22232724"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013061"
 ---
 # <a name="biztalk-framework-schema-and-properties"></a>Propiedades y esquema de BizTalk Framework
-El **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** espacio de nombres contiene propiedades que puede utilizar para establecer propiedades de contexto de mensajes y partes para el componente de canalización de desensamblador de BizTalk Framework. El componente de canalización de desensamblador de BizTalk Framework utiliza estas propiedades para generar los encabezados apropiados en el mensaje que se crea. La tabla siguiente describe las propiedades de BizTalk Framework.  
+El **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** espacio de nombres contiene propiedades que puede utilizar para establecer las propiedades de mensajes y partes de contexto para el componente de canalización de desensamblador de BizTalk Framework. El componente de canalización de desensamblador de BizTalk Framework utiliza estas propiedades para generar los encabezados apropiados en el mensaje que se crea. La tabla siguiente describe las propiedades de BizTalk Framework.  
 
 ## <a name="properties-list"></a>Lista Propiedades  
-|Nombre|Tipo|Description|  
+
+|Nombre|Tipo|Descripción|  
 |----------|----------|-----------------|  
 |**IsReliable**|xs:boolean|Indica si el mensaje de BizTalk Framework tiene que volver a enviarse hasta que se reciba una confirmación de un destino. Los componentes de BizTalk Framework establecen internamente esta propiedad y la utiliza el motor. No cambie el valor de esta propiedad en el código.|  
 |**PassAckThrough**|xs:boolean|Indica si se debe mandar un mensaje de confirmación mediante el componente de canalización de desensamblador de BizTalk Framework en vez de consumirse.|  
@@ -48,7 +49,7 @@ El **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** espacio de nomb
 |**commitmentRct_decidedAt**|xs:string|Especifica la marca de hora de la decisión de procesamiento en que se confirma la recepción del documento.|  
 |**commitmentRct_decision**|xs:string|Especifica la decisión real, con valores posibles positivos o negativos.|  
 |**commitmentRct_commitmentCode**|xs:QName|Especifica el nombre completo (en XSD) que establece un estado más específico en relación con la decisión de procesamiento.|  
-  
+
 ## <a name="see-also"></a>Vea también  
--  **Propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
--  [Configuración de componentes de canalización nativos](../core/configuring-native-pipeline-components.md)
+- **Propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+- [Configuración de componentes de canalización nativos](../core/configuring-native-pipeline-components.md)

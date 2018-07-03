@@ -1,5 +1,5 @@
 ---
-title: Use el control de errores | Documentos de Microsoft
+title: Uso de control de errores | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,35 +12,35 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00547917da65253123cb2067715a09633547eb4d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 90cb589894b9bb2166cf701866575092da53540e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22287468"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015125"
 ---
 # <a name="using-fault-handling"></a>Utilizar el control de errores
-Durante la [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] un mensaje de excepción de control de errores no se devuelven al cliente a menos que un **FaultException** (o un subtipo) se produce o un **FaultContract** se implementa. Por este motivo, sólo se puede realizar el seguimiento de datos desde el propio mensaje de error en estos escenarios. Una excepción en las implementaciones de devolución de llamada vuelve automáticamente como un mensaje de error para ambos **ServerFault** y **ClientFault** puntos de seguimiento. Sin embargo, siempre devuelve un error genérico con un mensaje genérico. Para obtener más información acerca de los contratos de errores WCF, vea [http://go.microsoft.com/fwlink/?LinkId=83132](http://go.microsoft.com/fwlink/?LinkId=83132).  
+Durante la [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] un mensaje de excepción de control de errores no se devuelven al cliente a menos que un **FaultException** (o un subtipo) se produce o un **FaultContract** se implementa. Por este motivo, sólo se puede realizar el seguimiento de datos desde el propio mensaje de error en estos escenarios. Una excepción en las implementaciones de devolución de llamada vuelve automáticamente como un mensaje de error para ambos **ServerFault** y **ClientFault** puntos de seguimiento. Sin embargo, siempre devuelve un error genérico con un mensaje genérico. Para obtener más información acerca de los contratos de errores WCF, vea [ http://go.microsoft.com/fwlink/?LinkId=83132 ](http://go.microsoft.com/fwlink/?LinkId=83132).  
   
  También puede realizar el seguimiento de constantes y de propiedades de contexto a través de puntos de seguimiento de error.  
   
- Si se devuelven los detalles de excepción en errores con el **IncludeExceptionDetailInFaults** atributo, extraer el mensaje de excepción real a través de la expresión XPath.  
+ Si se devuelven detalles de la excepción en errores mediante la **IncludeExceptionDetailInFaults** atributo, extraer el mensaje de excepción real a través de la expresión XPath.  
   
- Control de errores proporcionada por los puntos de seguimiento de error definidos en [getservicecontractcallpoint (operación)](../core/getservicecontractcallpoint.md):  
+ Proporciona control de errores definidos en los puntos de seguimiento de errores [GetServiceContractCallPoint](../core/getservicecontractcallpoint.md):  
   
--   ServiceFault  
+- ServiceFault  
   
--   ClientFault  
+- ClientFault  
   
--   CallbackFault  
+- CallbackFault  
   
- Cuando se utilizan estos puntos de seguimiento de errores, los datos de error se guardan siempre, incluso cuando se trabaja en un escenario basado en transacciones. La integridad transaccional se mantiene en todos los datos de seguimiento sin error y los datos de seguimiento sin error se revierten como respuesta al error.  
+  Cuando se utilizan estos puntos de seguimiento de errores, los datos de error se guardan siempre, incluso cuando se trabaja en un escenario basado en transacciones. La integridad transaccional se mantiene en todos los datos de seguimiento sin error y los datos de seguimiento sin error se revierten como respuesta al error.  
   
 > [!NOTE]
->  Pista de estos puntos se aplican a la ruta de acceso de respuesta y solo se aplican a los ServiceReply, ClientReply y callbackreply que contrato llamada puntos de servicio proporcionados por [getservicecontractcallpoint (operación)](../core/getservicecontractcallpoint.md).  
+>  Pista de estos puntos se aplican a la ruta de acceso de respuesta y solo se aplican a los ServiceReply, ClientReply y callbackreply que contrato llamada puntos de servicio proporcionados por [GetServiceContractCallPoint](../core/getservicecontractcallpoint.md).  
   
 ## <a name="fault-configuration-sample"></a>Ejemplo de configuración de error  
- El siguiente ejemplo muestra el mensaje de excepción de seguimiento en un **ServiceFault** cuando el servicio lanza un **FaultException** en el **AuthorizationServiceFault** evento; en caso contrario, realiza un seguimiento de la expresión booleana devuelta por la operación en el **AuthorizationServiceReply** eventos. Ya sea la **AuthorizationServiceReply** OnEvent o **AuthorizationServiceFault** OnEvent se conserva.  
+ El ejemplo siguiente muestra el mensaje de excepción de seguimiento en un **ServiceFault** cuando el servicio lanza un **FaultException** en el **AuthorizationServiceFault** evento; en caso contrario, realiza un seguimiento de la expresión booleana devuelta por la operación en el **AuthorizationServiceReply** eventos. Ya sea el **AuthorizationServiceReply** OnEvent o **AuthorizationServiceFault** OnEvent se conserva.  
   
 > [!NOTE]
 >  La implementación de este ejemplo demuestra la exclusividad mutua de los puntos de seguimiento ServiceReply y ServiceFault.  
@@ -148,4 +148,4 @@ Durante la [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswinc
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el adaptador WCF para interceptar datos BAM](../core/configuring-the-wcf-adapter-to-intercept-bam-data.md)
+ [Configuración del adaptador de WCF para interceptar datos de BAM](../core/configuring-the-wcf-adapter-to-intercept-bam-data.md)

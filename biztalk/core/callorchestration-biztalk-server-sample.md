@@ -1,5 +1,5 @@
 ---
-title: CallOrchestration (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: CallOrchestration (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9cf37bd2b4ceacfe38736cadd8343b4259db126e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 614cbb4531d0d7052263e5e4c7d73ec209e9b685
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966770"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37021882"
 ---
 # <a name="callorchestration-biztalk-server-sample"></a>CallOrchestration (ejemplo de BizTalk Server)
 El ejemplo de CallOrchestration muestra cómo llamar a una orquestación de BizTalk desde otra orquestación.  
@@ -58,17 +58,17 @@ End If
 >  No puede llamar a una transacción de larga ejecución desde una orquestación atómica.  
   
 > [!NOTE]
->  La diferencia entre utilizar el **orquestación de llamada** forma y el **Iniciar orquestación** forma es que al llamar a una orquestación, el llamador espera a que la orquestación anidada finalice antes de continuar. Al iniciar una orquestación desde una orquestación, una vez que el autor de la llamada inicia la acción, pasa al siguiente paso del flujo de procesos. La orquestación invocada por el autor de la llamada se ejecuta de forma independiente hasta que finaliza el flujo de procesos. Para obtener más información, consulte [cómo configurar la forma de orquestación llame a](../core/how-to-configure-the-call-orchestration-shape.md). Consulte también [cómo configurar la forma de orquestación iniciar](../core/how-to-configure-the-start-orchestration-shape.md).  
+>  La diferencia entre usar el **orquestación de llamada** forma y el **Iniciar orquestación** forma es que al llamar a una orquestación, el llamador espera a que la orquestación anidada finalice antes de continuar. Al iniciar una orquestación desde una orquestación, una vez que el autor de la llamada inicia la acción, pasa al siguiente paso del flujo de procesos. La orquestación invocada por el autor de la llamada se ejecuta de forma independiente hasta que finaliza el flujo de procesos. Para obtener más información, consulte [cómo configurar la forma de orquestación llame a](../core/how-to-configure-the-call-orchestration-shape.md). Consulte también [cómo configurar la forma de orquestación de inicio](../core/how-to-configure-the-start-orchestration-shape.md).  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*\>\Orchestrations\CallOrchestration\  
+ \<*Ejemplos de la ruta de acceso*\>\Orchestrations\CallOrchestration\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |CallOrchestration.btproj, CallOrchestration.sln|Archivos de proyectos y de soluciones de este ejemplo.|  
-|CallOrchestrationBinding.xml|Se utiliza para la instalación automatizada, como el enlace de puerto.|  
+|CallOrchestrationBinding.xml|Se usa para la instalación automatizada, como el enlace de puerto.|  
 |Cleanup.bat|Se utiliza para anular la implementación de ensamblados y quitarlos de la caché de ensamblados global. Quita los puertos de envío y recepción. Quita los directorios virtuales de los Servicios de Microsoft Internet Information (IIS) según sea necesario.|  
 |findShippingPrice.odx|La orquestación de BizTalk que sirve como orquestación secundaria llamada desde la orquestación principal, receivePO.odx.|  
 |InputPO.xml|El mensaje de pedido de entrada de ejemplo que se ajusta al esquema definido en el archivo PO.xsd.|  
@@ -81,19 +81,19 @@ End If
   
 #### <a name="to-build-and-initialize-the-callorchestration-sample"></a>Para crear e iniciar el ejemplo de CallOrchestration  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Orchestrations\CallOrchestration\  
+    \<*Ejemplos de la ruta de acceso*\>\Orchestrations\CallOrchestration\  
   
-2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
+2. Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
-    -   Crea las carpetas de entrada (In) y salida (Out) de este ejemplo en la carpeta CallOrchestration.  
+   - Crea las carpetas de entrada (In) y salida (Out) de este ejemplo en la carpeta CallOrchestration.  
   
-    -   Compila e implementa el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] que contiene las dos orquestaciones de este ejemplo.  
+   - Compila e implementa el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] que contiene las dos orquestaciones de este ejemplo.  
   
-    -   Crea y enlaza la ubicación de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y los puertos de envío y recepción.  
+   - Crea y enlaza la ubicación de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y los puertos de envío y recepción.  
   
-    -   Habilita la ubicación de recepción e inicia el puerto de envío.  
+   - Habilita la ubicación de recepción e inicia el puerto de envío.  
   
 > [!NOTE]
 >  Antes de intentar ejecutar este ejemplo, debe confirmar que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha informado de ningún error durante el proceso de generación e inicialización.  
@@ -104,17 +104,17 @@ End If
   
 1.  Guarde una copia del archivo InputPO.xml en la carpeta In.  
   
-2.  Observe el archivo de pedido XML actualizado creado en la carpeta Out. Contiene el mensaje de pedido original, modificado para incluir el costo de envío calculado del modo explicado anteriormente. El formato del nombre de este archivo es \< *MessageID*\>.xml, donde  *\<MessageID\>*  es el GUID generado para identificar de forma única el mensaje .  
+2.  Observe el archivo de pedido XML actualizado creado en la carpeta Out. Contiene el mensaje de pedido original, modificado para incluir el costo de envío calculado del modo explicado anteriormente. El formato del nombre de este archivo es \< *MessageID*\>.xml, donde *\<MessageID\>* es el GUID generado para identificar de forma única el mensaje .  
   
 ## <a name="uninstalling-this-sample"></a>Desinstalar este ejemplo  
   
 #### <a name="to-uninstall-the-callorchestration-sample"></a>Para desinstalar el ejemplo CallOrchestration  
   
-1.  En una ventana de comandos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], desplácese a la siguiente carpeta:  
+1. En una ventana de comandos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\Orchestrations\CallOrchestration\  
+    \<*Ejemplos de la ruta de acceso*\>\Orchestrations\CallOrchestration\  
   
-2.  Ejecute Cleanup.bat.  
+2. Ejecute Cleanup.bat.  
   
 ## <a name="see-also"></a>Vea también  
  [Orquestaciones (carpetas de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)

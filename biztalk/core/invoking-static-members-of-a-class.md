@@ -1,5 +1,5 @@
 ---
-title: Invocar miembros estáticos de una clase | Documentos de Microsoft
+title: Invocar miembros estáticos de una clase | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,15 +12,15 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2128bf6cb71c773cd31be497765e39b0d7815b4a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f3cb6a673fcf7fb363de678eceefd62802a063ca
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262276"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022082"
 ---
 # <a name="invoking-static-members-of-a-class"></a>Invocar miembros estáticos de una clase
-De forma predeterminada, el motor de reglas necesita que imponga una instancia de una clase .NET para ejecutar una directiva que invoque un miembro estático de la clase .NET. Puede modificar este comportamiento si cambia el valor de la **StaticSupport** clave del registro bajo **HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0** a uno de los valores en la tabla siguiente.  
+De forma predeterminada, el motor de reglas necesita que imponga una instancia de una clase .NET para ejecutar una directiva que invoque un miembro estático de la clase .NET. Puede modificar este comportamiento cambiando el valor de la **StaticSupport** clave del registro bajo **HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0** a uno de los valores en la tabla siguiente.  
   
 |Valor del Registro StaticSupport|Comportamiento del motor de reglas|  
 |----------------------------------|--------------------------|  
@@ -33,21 +33,21 @@ De forma predeterminada, el motor de reglas necesita que imponga una instancia d
   
  **Para agregar la clave de registro StaticSupport**  
   
-1.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **RegEdit**y, a continuación, haga clic en **Aceptar**.  
+1. Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **RegEdit**y, a continuación, haga clic en **Aceptar**.  
   
-2.  Expanda **HKEY_LOCAL_MACHINE**, expanda **Software**, expanda **Microsoft**, expanda **BusinessRules**y, a continuación, seleccione **3.0**.  
+2. Expanda **HKEY_LOCAL_MACHINE**, expanda **Software**, expanda **Microsoft**, expanda **BusinessRules**y, a continuación, seleccione **3.0**.  
   
-3.  En el panel derecho, haga clic en, seleccione **New**y, a continuación, haga clic en **valor DWORD**.  
+3. En el panel derecho, haga clic en, seleccione **New**y, a continuación, haga clic en **valor DWORD**.  
   
-4.  Para **nombre**, tipo **StaticSupport**.  
+4. Para **nombre**, tipo **StaticSupport**.  
   
- Si el **StaticSupport** clave del registro ya existe y tiene que cambiar su valor, realice los pasos siguientes.  
+   Si el **StaticSupport** clave del registro ya existe y necesita cambiar su valor, realice los pasos siguientes.  
   
 > [!IMPORTANT]
->  Si BizTalk está instalado en un equipo de 64 bits, puede agregar **StaticSupport** clave del registro con cualquiera de las siguientes opciones:  
->   
->  -   Busque en HKLM\Software\Wow6432Node\Microsoft\BusinessRules\3.0. Si existe esta clave, puede agregar **StaticSupport** aquí.  
-> -   Otra opción consiste en colocar **StaticSupport** en el **BTNTsvc [64] exe. config** archivo, esta configuración reemplaza el contenido en el registro.  Además, también se puede argumentar que esta opción es preferible, ya que aísla el cambio del comportamiento predeterminado solo en BizTalk, mientras que la configuración del Registro se aplica a todo el sistema operativo.  
+>  Si BizTalk está instalado en un equipo de 64 bits, a continuación, puede agregar **StaticSupport** clave del registro con cualquiera de las siguientes opciones:  
+> 
+> - Busque en HKLM\Software\Wow6432Node\Microsoft\BusinessRules\3.0. Si existe esta clave, puede agregar **StaticSupport** aquí.  
+>   -   Otra opción consiste en colocar **StaticSupport** en el **BTNTsvc [64]. exe. config** de archivos, ya que esta configuración invalida lo que hay en el registro.  Además, también se puede argumentar que esta opción es preferible, ya que aísla el cambio del comportamiento predeterminado solo en BizTalk, mientras que la configuración del Registro se aplica a todo el sistema operativo.  
   
  **Para cambiar el valor de la clave de registro StaticSupport**  
   

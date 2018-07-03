@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación | Documentos de Microsoft'
+title: 'Tutorial: Módulo 3: obtener acceso a las propiedades de SharePoint desde una orquestación | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,61 +17,61 @@ caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23bc9f0b1f2d350864509536a393de639e108e2d
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: b0d66a381403f8649174046cb249ff92a644ac15
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010965"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006829"
 ---
-# <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a>Tutorial: Módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación
-En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md) y muestra cómo obtener acceso a las propiedades de un mensaje entrante en el contexto de Windows SharePoint Services tiempo de ejecución y, a continuación, determine el destino del mensaje, en función de una propiedad que utiliza puertos dinámicos en una orquestación. Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
+# <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a>Tutorial: Módulo 3: obtener acceso a las propiedades de SharePoint desde una orquestación
+En este tutorial es una continuación de [Tutorial: módulo 2: integración de Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md) y le muestra cómo obtener acceso a las propiedades de un mensaje entrante en el contexto de Windows SharePoint Services tiempo de ejecución y, a continuación, determine el destino del mensaje, en función de una propiedad que utiliza puertos dinámicos en una orquestación. Para obtener una introducción al adaptador de Windows SharePoint Services, consulte [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  A continuación, se enumeran los requisitos previos para efectuar los procedimientos de este tema:  
   
--   Debe tener una implementación de servidor único con una instalación completa de BizTalk Server que se ejecutan en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
+- Debe tener una implementación de servidor único con una instalación completa de BizTalk Server que se ejecutan en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
   
--   Debe completar los siguientes tutoriales: [Tutorial: módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) y [Tutorial: módulo 2: integrar Office con las ventanas Adaptador de SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)  
+- Debe completar los siguientes tutoriales: [Tutorial: módulo 1: enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) y [Tutorial: módulo 2: integración de Office con el Windows Adaptador de SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)  
   
- Para obtener información acerca de cómo utilizar el adaptador de Windows SharePoint Services en una implementación de varios servidores, vea [configurar e implementar el adaptador de Windows SharePoint Services](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
+  Para obtener información sobre cómo usar el adaptador de Windows SharePoint Services en una implementación de varios servidores, consulte [configurar e implementar el adaptador de Windows SharePoint Services](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
   
 ## <a name="modify-the-biztalk-project"></a>Modificar el proyecto de BizTalk  
- En este procedimiento, modificará el esquema PurchaseOrder de [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md). En este procedimiento se muestra cómo promocionar una propiedad de esquema para facilitar el acceso en una orquestación de BizTalk.  
+ En este procedimiento, modificará el esquema PurchaseOrder de [Tutorial: módulo 2: integración de Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md). En este procedimiento se muestra cómo promocionar una propiedad de esquema para facilitar el acceso en una orquestación de BizTalk.  
   
 #### <a name="modify-the-purchaseorderxsd-schema"></a>Modificar el esquema PurchaseOrder.xsd  
   
-1.  Iniciar **Microsoft Visual Studio**.  
+1. Iniciar **Microsoft Visual Studio**.  
   
-2.  Haga clic en **archivo**, haga clic en **abiertos**y, a continuación, haga clic en **proyecto/solución**.  
+2. Haga clic en **archivo**, haga clic en **abierto**y, a continuación, haga clic en **proyecto/solución**.  
   
-3.  Vaya a la `OrderProcess.sln` de archivos y, a continuación, haga clic en **abiertos**.  
+3. Vaya a la `OrderProcess.sln` de archivo y, a continuación, haga clic en **abierto**.  
   
-4.  En **el Explorador de soluciones**, haga clic en el `OrderProcessSchema.xsd` de archivos y, a continuación, haga clic en **abiertos**.  
+4. En **el Explorador de soluciones**, haga clic en el `OrderProcessSchema.xsd` de archivo y, a continuación, haga clic en **abierto**.  
   
-5.  En **el Editor de BizTalk**, expanda `PurchaseOrder`.  
+5. En **el Editor de BizTalk**, expanda `PurchaseOrder`.  
   
-6.  Haga clic en `Amount`, haga clic en **promover**y, a continuación, haga clic en **promoción rápida**.  
+6. Haga clic en `Amount`, haga clic en **promover**y, a continuación, haga clic en **promoción rápida**.  
   
-7.  Haga clic en **Aceptar**.  
+7. Haga clic en **Aceptar**.  
   
-    > [!NOTE]
-    >  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] crea un esquema de propiedades para esto en el proyecto actual.  
+   > [!NOTE]
+   >  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] crea un esquema de propiedades para esto en el proyecto actual.  
   
-8.  Guarde `PurchaseOrder.xsd`.  
+8. Guarde `PurchaseOrder.xsd`.  
   
 ## <a name="create-an-orchestration"></a>Crear una orquestación  
  En este procedimiento, se creará una nueva orquestación de BizTalk. En él, se crea la orquestación que se utiliza para procesar un mensaje recibido por el adaptador de Windows Sharepoint Services.  
   
 #### <a name="add-a-biztalk-orchestration"></a>Agregar una orquestación de BizTalk  
   
-1.  En **el Explorador de soluciones**, haga clic en el `OrderProcess` proyecto de equipo y haga clic en **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+1.  En **el Explorador de soluciones**, haga clic en el `OrderProcess` del proyecto, haga clic en **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
 2.  En **categorías**, seleccione **archivos de orquestación**.  
   
 3.  En **plantillas**, seleccione **orquestación de BizTalk**.  
   
-4.  Tipo de `MyCompanyOrderProcessing` en el **nombre** campo y, a continuación, haga clic en **agregar**.  
+4.  Tipo `MyCompanyOrderProcessing` en el **nombre** campo y, a continuación, haga clic en **agregar**.  
   
 ## <a name="create-receive-information"></a>Crear información de recepción  
  En este procedimiento, creará un mensaje, un puerto de recepción y una forma de recepción nuevos para la orquestación. En él se muestra cómo configurar una orquestación para recibir un mensaje de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -84,7 +84,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 3.  Haga clic en `Message_PO`y, a continuación, haga clic en **ventana propiedades**.  
   
-4.  En el **tipo de mensaje** propiedad, expanda **esquemas**y, a continuación, seleccione `OrderProcess.OrderProcessSchema` esquema.  
+4.  En el **tipo de mensaje** propiedades, expanda **esquemas**y, a continuación, seleccione `OrderProcess.OrderProcessSchema` esquema.  
   
 #### <a name="add-a-receive-port-to-the-orchestration"></a>Agregar un puerto de recepción a la orquestación  
   
@@ -92,13 +92,13 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 2.  En la pantalla de bienvenida, haga clic en **siguiente**.  
   
-3.  Tipo de `ReceivePurchaseOrder` en el **nombre** campo y, a continuación, haga clic en **siguiente**.  
+3.  Tipo `ReceivePurchaseOrder` en el **nombre** campo y, a continuación, haga clic en **siguiente**.  
   
 4.  Seleccione **crear un nuevo tipo de puerto**.  
   
-5.  Tipo de `PurchaseOrderPT` en el **nombre de tipo de puerto** campo y, a continuación, haga clic en **siguiente**.  
+5.  Tipo `PurchaseOrderPT` en el **nombre de tipo de puerto** campo y, a continuación, haga clic en **siguiente**.  
   
-6.  En el **enlace de puerto pantalla**, deje los valores predeterminados y, a continuación, haga clic en **siguiente**.  
+6.  En el **pantalla de enlace de puerto**, deje los valores predeterminados y, a continuación, haga clic en **siguiente**.  
   
 7.  Haga clic en **Finalizar**.  
   
@@ -117,7 +117,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
     > [!NOTE]
     >  Si la propiedad Activar está establecida en False, obtendrá el siguiente error: "error X2214: debe especificar al menos una correlación ya inicializada establecida para una recepción de no activación de un puerto no autocorrelacionado"  
   
-4.  Tipo de `Receive_PO` en el **nombre** campo.  
+4.  Tipo `Receive_PO` en el **nombre** campo.  
   
 5.  En el **ventana propiedades**, seleccione `Message_PO` para la propiedad de mensaje.  
   
@@ -134,7 +134,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 3.  Haga clic en `Message_Task`y, a continuación, haga clic en **ventana propiedades**.  
   
-4.  En el **tipo de mensaje** propiedad, expanda **esquemas**y, a continuación, seleccione `OrderProcess.OrderProcessSchema` esquema.  
+4.  En el **tipo de mensaje** propiedades, expanda **esquemas**y, a continuación, seleccione `OrderProcess.OrderProcessSchema` esquema.  
   
 #### <a name="add-a-send-port-to-the-orchestration"></a>Agregar un puerto de envío a la orquestación  
   
@@ -142,13 +142,13 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 2.  En la pantalla de bienvenida, haga clic en **siguiente**.  
   
-3.  Tipo de `SendPurchaseOrder` en el **nombre** campo y, a continuación, haga clic en **siguiente**.  
+3.  Tipo `SendPurchaseOrder` en el **nombre** campo y, a continuación, haga clic en **siguiente**.  
   
 4.  Seleccione **utilizar un tipo de puerto existente**.  
   
 5.  En **tipos de puertos disponibles**, seleccione `OrderProcess.PurchaseOrderPT`y, a continuación, haga clic en **siguiente**.  
   
-6.  En el **enlace de puerto pantalla**, en **dirección de puerto de comunicación**, seleccione `I'll always be sending messages on this port`y, a continuación, haga clic en **siguiente**.  
+6.  En el **pantalla de enlace de puerto**, en **dirección de puerto de comunicación**, seleccione `I'll always be sending messages on this port`y, a continuación, haga clic en **siguiente**.  
   
 7.  Haga clic en **Finalizar**.  
   
@@ -156,9 +156,9 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 1.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **enviar** forma para el Diseñador de orquestaciones. Colóquela bajo la forma de recepción `Receive_PO`.  
   
-2.  Haga clic en la forma de envío y, a continuación, haga clic en **ventana propiedades**.  
+2.  Haga clic en la forma envío y, a continuación, haga clic en **ventana propiedades**.  
   
-3.  Tipo de `Send_PO` en el **nombre** campo.  
+3.  Tipo `Send_PO` en el **nombre** campo.  
   
 4.  Seleccione `Message_PO` para el **mensaje** propiedad.  
   
@@ -170,13 +170,13 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 2.  Haga clic en la forma decidir y, a continuación, haga clic en **ventana Propiedades.**  
   
-3.  Tipo de `NeedsApproval` en el **nombre** campo.  
+3.  Tipo `NeedsApproval` en el **nombre** campo.  
   
 4.  En el Diseñador de orquestaciones, haga clic en **Rule_1** en la forma decidir.  
   
-5.  En la ventana Propiedades, escriba `ApprovalRequired` para el **nombre** propiedad.  
+5.  En las propiedades de Windows, escriba `ApprovalRequired` para el **nombre** propiedad.  
   
-6.  Haga clic en el **expresión** propiedad de campo y, a continuación, haga clic en los puntos suspensivos (**...** ) botón.  
+6.  Haga clic en el **expresión** propiedad de campo y, a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón.  
   
 7.  En el Editor de expresiones de BizTalk, escriba o copie lo siguiente:  
   
@@ -192,13 +192,13 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 2.  En la pantalla de bienvenida, haga clic en **siguiente**.  
   
-3.  Tipo de `SendToTasksList` en el **nombre** campo y, a continuación, haga clic en **siguiente**.  
+3.  Tipo `SendToTasksList` en el **nombre** campo y, a continuación, haga clic en **siguiente**.  
   
 4.  Seleccione **utilizar un tipo de puerto existente**.  
   
 5.  En **tipos de puertos disponibles**, seleccione `OrderProcess.PurchaseOrderPT`y, a continuación, haga clic en **siguiente**.  
   
-6.  En el **enlace de puerto pantalla**, en **dirección de puerto de comunicación**, seleccione `I'll always be sending messages on this port`.  
+6.  En el **pantalla de enlace de puerto**, en **dirección de puerto de comunicación**, seleccione `I'll always be sending messages on this port`.  
   
 7.  En **enlace de puerto**, seleccione `Dynamic`y, a continuación, haga clic en **siguiente**.  
   
@@ -208,9 +208,9 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 1.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **enviar** forma para el Diseñador de orquestaciones. Colóquela bajo la forma `ApprovalRequired`.  
   
-2.  Haga clic en la forma de envío y, a continuación, haga clic en **ventana Propiedades**  
+2.  Haga clic en la forma envío y, a continuación, haga clic en **ventana Propiedades**  
   
-3.  Tipo de `CreateApprovalTask` en el **nombre** campo.  
+3.  Tipo `CreateApprovalTask` en el **nombre** campo.  
   
 4.  Seleccione `Message_Task` para el **mensaje** propiedad.  
   
@@ -221,13 +221,13 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 #### <a name="create-a-new-expression"></a>Crear una nueva expresión  
   
-1.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **expresión** forma antes de la `CreateApprovalTask` forma de envío.  
+1.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **expresión** forma antes de la `CreateApprovalTask` forma envío.  
   
-2.  Haga clic en la forma de expresión y, a continuación, haga clic en **ventana Propiedades.**  
+2.  Haga clic en la forma expresión y, a continuación, haga clic en **ventana Propiedades.**  
   
-3.  Tipo de `SetPortDestination` en el **nombre** campo.  
+3.  Tipo `SetPortDestination` en el **nombre** campo.  
   
-4.  Haga clic en el **expresión** propiedad de campo y, a continuación, haga clic en los puntos suspensivos (**...** ) botón.  
+4.  Haga clic en el **expresión** propiedad de campo y, a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón.  
   
 5.  En el **Editor de expresiones de BizTalk**, escriba lo siguiente:  
   
@@ -242,19 +242,19 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 #### <a name="add-a-construct-shape"></a>Agregar una forma Construir  
   
-1.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **construir mensaje** forma antes de la `SetPortDestination` forma expresión.  
+1.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **construir mensaje** forma antes de la `SetPortDestination` forma de expresión.  
   
 2.  Haga clic en la forma construir mensaje y, a continuación, haga clic en **ventana Propiedades.**  
   
-3.  Tipo de `ConstructTaskMessage`en el **nombre** campo.  
+3.  Tipo `ConstructTaskMessage`en el **nombre** campo.  
   
 4.  Seleccione `Message_Task` para el **mensajes construidos** propiedad.  
   
-5.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **asignación de mensajes** forma la `ConstructTaskMessage` **construir mensaje** forma.  
+5.  En **orquestaciones de BizTalk** en el cuadro de herramientas, arrastre un **asignación de mensajes** dar forma la `ConstructTaskMessage` **construir mensaje** forma.  
   
 6.  En el **ventana propiedades**, tipo `InitTaskMessage` en el **nombre** campo.  
   
-7.  Haga clic en el **expresión** propiedad de campo y, a continuación, haga clic en los puntos suspensivos (**...** ) botón.  
+7.  Haga clic en el **expresión** propiedad de campo y, a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón.  
   
 8.  En el **Editor de expresiones de BizTalk**, escriba o copie lo siguiente:  
   
@@ -277,26 +277,26 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 #### <a name="build-and-deploy-the-solution"></a>Compilar e implementar la solución  
   
-1.  Haga clic en **generar**y, a continuación, haga clic en **generar OrderProcess**.  
+1. Haga clic en **compilar**y, a continuación, haga clic en **generar OrderProcess**.  
   
-2.  Haga clic en **generar**y, a continuación, haga clic en **implementar OrderProcess**.  
+2. Haga clic en **compilar**y, a continuación, haga clic en **implementar OrderProcess**.  
   
-3.  Cierre Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+3. Cierre Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
 ## <a name="modify-the-receive-location-and-send-port"></a>Modificar la ubicación de recepción y el puerto de envío  
  En este procedimiento, modificará la ubicación de recepción y el puerto de envío existentes para utilizar el procesamiento XML para las canalizaciones. La canalización XML de recepción almacena las propiedades de mensaje utilizadas durante el procesamiento de la orquestación, mientras que la canalización XML de envío almacena las propiedades de mensaje que se aplican en la orquestación y que se utilizarán posteriormente para el enrutamiento de mensajes.  
   
 #### <a name="modify-the-receive-location"></a>Modificar la ubicación de recepción  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server.**  
+1. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server.**  
   
-2.  Expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **complemento Administración**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda  **BizTalk Application 1**y, a continuación, haga clic en el **ubicaciones de recepción** nodo.  
+2. Expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **del complemento Administración de**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda  **BizTalk Application 1**y, a continuación, haga clic en el **ubicaciones de recepción** nodo.  
   
-3.  Haga clic en `SourceLocation`y, a continuación, haga clic en **propiedades**.  
+3. Haga clic en `SourceLocation`y, a continuación, haga clic en **propiedades**.  
   
-4.  En el **propiedades de la ubicación de recepción** cuadro de diálogo **General**, seleccione `XMLReceive` para el **canalización de recepción** propiedad.  
+4. En el **propiedades de ubicación de recepción** cuadro de diálogo **General**, seleccione `XMLReceive` para el **canalización de recepción** propiedad.  
   
-5.  Haga clic en **Aceptar**.  
+5. Haga clic en **Aceptar**.  
   
 #### <a name="modify-the-send-port"></a>Modificar el puerto de envío  
   
@@ -308,7 +308,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 4.  Seleccione el **filtros** ficha.  
   
-5.  Seleccione la condición existente, presione la tecla SUPR y, a continuación, haga clic en **Aceptar**.  
+5.  Seleccione la condición existente, presione SUPR y, a continuación, haga clic en **Aceptar**.  
   
 #### <a name="start-a-new-send-port"></a>Iniciar un nuevo puerto de envío  
   
@@ -324,21 +324,21 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 #### <a name="bind-the-orchestration"></a>Enlazar la orquestación  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en el **orquestaciones** nodo.  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en el **orquestaciones** nodo.  
   
-2.  Haga clic en el `OrderProcess.MyCompanyOrderProcessing` orquestación y, a continuación, haga clic en **propiedades**.  
+2. Haga clic en el `OrderProcess.MyCompanyOrderProcessing` orquestación y, a continuación, haga clic en **propiedades**.  
   
-3.  Seleccione el **enlaces** ficha.  
+3. Seleccione el **enlaces** ficha.  
   
-4.  En **Host**, seleccione `BizTalkServerApplication` en el **Host** campo.  
+4. En **Host**, seleccione `BizTalkServerApplication` en el **Host** campo.  
   
-5.  En **enlaces**, seleccione `FromSource` para el `ReceivePurchaseOrder` puerto lógico de entrada.  
+5. En **enlaces**, seleccione `FromSource` para el `ReceivePurchaseOrder` puerto lógico de entrada.  
   
-6.  En **enlaces**, seleccione `SendToDestination` para el `SendPurchaseOrder` puerto lógico de salida.  
+6. En **enlaces**, seleccione `SendToDestination` para el `SendPurchaseOrder` puerto lógico de salida.  
   
-7.  Haga clic en **Aceptar**.  
+7. Haga clic en **Aceptar**.  
   
-8.  Haga clic en `OrderProcess.MyCompanyOrderProcessing` orquestación y, a continuación, haga clic en **iniciar**.  
+8. Haga clic en `OrderProcess.MyCompanyOrderProcessing` orquestación y, a continuación, haga clic en **iniciar**.  
   
 ## <a name="send-a-message-through-the-system"></a>Enviar un mensaje a través del sistema  
  En este procedimiento, creará un formulario de InfoPath y lo cargará en el sitio web de Windows SharePoint Services. El adaptador de Windows SharePoint Services tomará el mensaje, lo archivará en la biblioteca de documentos de archivo y, a continuación, lo enviará a la biblioteca de documentos de destino. Durante el procesamiento del mensaje, se obtendrá acceso a las propiedades de contexto de Windows SharePoint Services que ayudan a determinar el destino.  
@@ -349,7 +349,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 2.  En el menú Inicio rápido, haga clic en `InfoPathSolutions`.  
   
-3.  Haga clic en el `PurchaseOrder` archivo para mostrar el **descarga de archivos** cuadro de diálogo y, a continuación, haga clic en **abiertos**. InfoPath cargará el formulario.  
+3.  Haga clic en el `PurchaseOrder` archivo para mostrar el **de descarga del archivo** cuadro de diálogo y, a continuación, haga clic en **abierto**. InfoPath cargará el formulario.  
   
 4.  En el **Purchase Order ID** , escriba `1003`.  
   
@@ -363,7 +363,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
   
 9. En el **Guardar como** cuadro de diálogo, escriba `http://<server_name>/sites/WSSAdapterWalkthrough/Source`en el **nombre de archivo** campo y, a continuación, presione ENTRAR.  
   
-10. Tipo de `PurchaseOrder3.xml` en el **nombre de archivo** campo y, a continuación, haga clic en **guardar**.  
+10. Tipo `PurchaseOrder3.xml` en el **nombre de archivo** campo y, a continuación, haga clic en **guardar**.  
   
 11. Cierre InfoPath.  
   

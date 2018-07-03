@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de mensajería | Documentos de Microsoft
+title: Ejemplos de mensajería | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,15 +16,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7ae03dd74961393e58583720e1116f53523e218d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c527ea9e00cf089390749e93030e8536a80b29b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209228"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008589"
 ---
 # <a name="messaging-samples"></a>Ejemplos de mensajería
-El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye ejemplos que muestran la funcionalidad de mensajería. Esta sección proporciona información detallada acerca de la funcionalidad que se muestra en estos ejemplos e instrucciones para compilar y ejecutar los ejemplos y los resultados que puede esperar.  
+The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye ejemplos que muestran la funcionalidad de mensajería. En esta sección se proporciona información detallada acerca de la funcionalidad que se muestra en estos ejemplos e instrucciones para compilar y ejecutar los ejemplos y los resultados que puede esperar.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
@@ -32,6 +32,6 @@ El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_Curre
   
 -   [Ejemplo de GetMessages](../../adapters-and-accelerators/accelerator-rosettanet/getmessages-sample.md)  
   
--   [Ejemplo de ASPX de envío de mensajes](../../adapters-and-accelerators/accelerator-rosettanet/message-submission-aspx-sample.md)  
+-   [Ejemplo del envío del mensaje ASPX](../../adapters-and-accelerators/accelerator-rosettanet/message-submission-aspx-sample.md)  
   
 -   [Ejemplo de seguimiento](../../adapters-and-accelerators/accelerator-rosettanet/tracking-sample.md)

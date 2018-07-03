@@ -1,5 +1,5 @@
 ---
-title: 'Paso 1 (para Azure): Crear el proyecto EDI | Documentos de Microsoft'
+title: 'Paso 1 (para Azure): Crear el proyecto EDI | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 51264a79480031bd334dfb7d699a3a701f2c0254
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: ec854bc6edecb59e9cb721c71dafa09c3e0bc2dc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010005"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018134"
 ---
 # <a name="step-1-for-azure-create-the-edi-project"></a>Paso 1 (para Azure): Crear el proyecto EDI
 En esta sección, Contoso crea un proyecto de EDI con la versión de [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] de abril de 2012. Como parte del proyecto, Contoso agrega lo siguiente:  
   
--   Un esquema de pedido de ventas interno (**ECommerceSalesOrder.xsd**) a la que el X12 840 esquema de pedido de ventas de EDI que se van a transformar. Contoso usa el esquema interno para procesar el mensaje una vez recibido en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Un esquema de pedido de ventas interno (**ECommerceSalesOrder.xsd**) a la que el X12 se transformará el esquema de pedido de ventas EDI 840. Contoso usa el esquema interno para procesar el mensaje una vez recibido en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Una transformación (**EDI840TOSALESORDER. TRFM**) para convertir el X12 esquema de pedidos de 840 venta el **ECommerceSalesOrder** esquema.  
+- Una transformación (**EDI840TOSALESORDER. TRFM**) para convertir el X12 esquema de pedido de 840 ventas el **ECommerceSalesOrder** esquema.  
   
- Contoso usa estos artefactos al crear un acuerdo en el portal Azure de BizTalk en [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)].  
+  Contoso usa estos artefactos al crear un acuerdo en el portal Azure de BizTalk en [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)].  
   
 ### <a name="to-create-edi-project"></a>Para crear un proyecto EDI  
   
-1.  Abra Visual Studio, desde la **archivo** menú, seleccione **New**y, a continuación, haga clic en **proyecto**.  
+1.  Abra Visual Studio, desde el **archivo** menú, seleccione **New**y, a continuación, haga clic en **proyecto**.  
   
-2.  En el **nuevo proyecto** cuadro de diálogo, desde el **plantillas instaladas**, seleccione **Bus de servicio**. Especifique un nombre de proyecto y una ubicación para el proyecto y, a continuación, haga clic en **Aceptar**.  
+2.  En el **nuevo proyecto** cuadro de diálogo desde el **plantillas instaladas**, seleccione **Service Bus**. Especifique un nombre de proyecto y una ubicación para el proyecto y, a continuación, haga clic en **Aceptar**.  
   
-##  <a name="BKMK_CreateSchema"></a>Para crear un esquema en el proyecto EDI  
+##  <a name="BKMK_CreateSchema"></a> Para crear un esquema en el proyecto EDI  
   
 1.  En el Explorador de soluciones, haga clic en el nombre del proyecto que acaba de crear, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
-2.  En el **Agregar nuevo elemento** cuadro de diálogo, desde el **plantillas instaladas**, seleccione **esquema**, especifique el nombre del esquema como **ECommerceSalesOrder.xsd**y, a continuación, haga clic en **agregar**.  
+2.  En el **Agregar nuevo elemento** cuadro de diálogo desde el **plantillas instaladas**, seleccione **esquema**, especifique el nombre del esquema como **ECommerceSalesOrder.xsd**y, a continuación, haga clic en **agregar**.  
   
 3.  Edite y cree el esquema para que quede de forma similar a la siguiente:  
   
@@ -85,19 +85,19 @@ En esta sección, Contoso crea un proyecto de EDI con la versión de [!INCLUDE[a
   
 4.  Guarde el esquema.  
   
-##  <a name="BKMK_CreateTrfm"></a>Para crear una transformación en el proyecto EDI  
+##  <a name="BKMK_CreateTrfm"></a> Para crear una transformación en el proyecto EDI  
   
 1.  En el Explorador de soluciones, haga clic en el nombre del proyecto que acaba de crear, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
-2.  En el **Agregar nuevo elemento** cuadro de diálogo, desde el **plantillas instaladas**, seleccione **mapa**, especifique el nombre del esquema como **Edi840ToSalesOrder.trfm**y, a continuación, haga clic en **agregar**.  
+2.  En el **Agregar nuevo elemento** cuadro de diálogo desde el **plantillas instaladas**, seleccione **mapa**, especifique el nombre del esquema como **Edi840ToSalesOrder.trfm**y, a continuación, haga clic en **agregar**.  
   
-3.  En el mapa, para el esquema de origen seleccione **X12_00401_840.xsd**. Este es el esquema X12 estándar para un pedido de ventas EDI. Ya debe tener agregado este esquema al proyecto EDI que ha creado. Puede descargar este y otros X12 esquemas a partir de [http://go.microsoft.com/fwlink/p/?LinkId=235057](http://go.microsoft.com/fwlink/p/?LinkId=235057). El X12 esquemas forman parte de la **MicrosoftEdiXSDTemplates.zip** paquete disponible desde la ubicación de descarga.  
+3.  En el mapa, para el esquema de origen seleccione **X12_00401_840.xsd**. Este es el esquema X12 estándar para un pedido de ventas EDI. Ya debe tener agregado este esquema al proyecto EDI que ha creado. Puede descargar este y otros X12 esquemas desde [ http://go.microsoft.com/fwlink/p/?LinkId=235057 ](http://go.microsoft.com/fwlink/p/?LinkId=235057). El X12 esquemas forman parte de la **MicrosoftEdiXSDTemplates.zip** paquete disponible desde la ubicación de descarga.  
   
-4.  Para el esquema de destino, seleccione **ECommerceSalesOrder.xsd**. Ha creado este esquema anteriormente en este tema.  
+4.  El esquema de destino, seleccione **ECommerceSalesOrder.xsd**. Ha creado este esquema anteriormente en este tema.  
   
 5.  Cree el mapa conectando los nodos correspondientes en los esquemas de origen y destino.  
   
 6.  Guarde el mapa.  
   
 ## <a name="see-also"></a>Vea también  
- [Tutorial 4: Crear una aplicación híbrida mediante BizTalk Server 2013](../core/tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013.md)
+ [Tutorial 4: Crear una aplicación híbrida con BizTalk Server 2013](../core/tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013.md)

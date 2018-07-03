@@ -1,5 +1,5 @@
 ---
-title: Importación de certificados | Documentos de Microsoft
+title: Importación de certificados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,24 +15,24 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c78773d6eb1fc7e51ca80afadfd282d54def80b2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 96bdc2a681cf3632f6393a3fef05ec275f60f82f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209980"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006085"
 ---
 # <a name="importing-certificates"></a>Importación de certificados
-Esta sección describe cómo importar certificados, como dónde desea importarlos desde, dónde desea almacenarlos y qué herramientas para utilizar para importarlos.  
+En esta sección se describe cómo importar certificados, incluidos where importarlos desde dónde almacenarla y qué herramientas para utilizar para importarlos.  
   
- Hay dos maneras de importar los certificados. Puede usar la herramienta CertWizard o el complemento de certificados para [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC).  
+ Hay dos formas de importar los certificados. Puede usar la herramienta CertWizard o el complemento certificados para Microsoft Management Console (MMC).  
   
--   CertWizard es un asistente paso a paso de línea de comandos que configura el uso del certificado según la configuración de los conmutadores. Esta herramienta está disponible en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] carpeta del SDK.  
+- CertWizard es un asistente paso a paso de línea de comandos que configura el uso del certificado según la configuración de modificadores. Esta herramienta está disponible en Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] carpeta del SDK.  
   
--   Con el complemento de certificados en MMC, puede importar un certificado en el almacén de certificados. Sin embargo, este proceso manual requiere que configure el uso del certificado por separado.  
+- Con el complemento de certificados en MMC, puede importar un certificado al almacén de certificados. Sin embargo, este proceso manual requiere que configure el uso del certificado por separado.  
   
-    > [!IMPORTANT]
-    >  Para importar o trabajar con certificados privada en MMC, el usuario que ha iniciado sesión debe tener la identidad del usuario de los Hosts de BizTalk. Si no es así, debe ejecutar el **runas** comando con el modificador de usuario y la cuenta de servicio de host para iniciar la consola de MMC de certificados, por ejemplo, **runas /user:hostsvc mmc**. Al ejecutar este comando, asume la identidad de usuario de los Hosts de BizTalk (BizTalkServerApplication y BizTalkServerIsolatedHost).  
+  > [!IMPORTANT]
+  >  Para importar o trabajar con certificados privados en MMC, el usuario que ha iniciado sesión debe tener la identidad del usuario de los Hosts de BizTalk. Si no, debe ejecutar el **runas** comando con el modificador de usuario y la cuenta de servicio de host para iniciar MMC certificados, por ejemplo, **runas /user:hostsvc mmc**. Al ejecutar este comando, asume la identidad de usuario de los Hosts de BizTalk (BizTalkServerApplication y BizTalkServerIsolatedHost).  
   
 ## <a name="in-this-section"></a>En esta sección  
   

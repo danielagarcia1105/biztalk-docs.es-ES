@@ -1,5 +1,5 @@
 ---
-title: El segmento contiene delimitadores finales en el componente o subcomponente nivel | Documentos de Microsoft
+title: El segmento tiene uno o más delimitadores finales en el componente o subcomponente nivel | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3eede2923da1ed206a897b879b7b6be589800e4c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 94b95e45cc4c6676bdbd2e787661a73547f45148
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024248"
 ---
 # <a name="segment-has-trailing-delimiters-at-component-or-sub-component-level"></a>El segmento tiene uno o más delimitadores finales en el nivel de componente o subcomponente.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12SeSegmentHasTrailingDelimiterDescription|  
-|Texto del mensaje|El segmento tiene uno o más delimitadores finales en el nivel de componente o subcomponente.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                      X12SeSegmentHasTrailingDelimiterDescription                       |
+|  Texto del mensaje   |         El segmento tiene uno o más delimitadores finales en el nivel de componente o subcomponente.          |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque el intercambio contenía delimitadores finales y estos no están habilitados para la entidad como remitente del intercambio.  

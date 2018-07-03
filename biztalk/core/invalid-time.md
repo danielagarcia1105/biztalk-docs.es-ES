@@ -1,5 +1,5 @@
 ---
-title: Hora no válida | Documentos de Microsoft
+title: Hora no válida | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aae508a945cc6934e83408b2a9b78c324947e0e8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 555934e0be188011a69efb3966e5316bc716c254
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22261980"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023826"
 ---
 # <a name="invalid-time"></a>Hora no válida
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12Ta1InvalidTimeDescription|  
-|Texto del mensaje|Hora no válida|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                              X12Ta1InvalidTimeDescription                              |
+|  Texto del mensaje   |                                      Hora no válida                                      |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque un valor de hora en un elemento de datos no se ajustaba al tipo de datos que especifica el esquema EDI o el valor de hora en el encabezado del campo GS05 en un intercambio X12 no se ajusta al esquema de servicio (X12ServiceSchema in BaseArtifacts.dll). Para X12, el esquema de servicio define una hora en el campo GS05 según el tipo de datos X12_TM y de entre cuatro y ocho caracteres de longitud.  

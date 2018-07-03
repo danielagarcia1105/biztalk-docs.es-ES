@@ -1,5 +1,5 @@
 ---
-title: Prueba de carga sostenible | Documentos de Microsoft
+title: Prueba de carga sostenible | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a32f7ab31435cb81bee9e4ed52afc1f7d5194e8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d17d8d38323f7933c8e60cb2b87e0ec312d270c5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279524"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015653"
 ---
 # <a name="sustainable-load-test"></a>Prueba de carga sostenible
-La información de este tema hace referencia a las pruebas que se explican en [escenarios de prueba para medir el rendimiento máximo Sostenible del motor de](../core/test-scenarios-for-measuring-mst-of-the-engine.md).  
+La información de este tema hace referencia a las pruebas se explica en [escenarios de prueba para medir MST del motor](../core/test-scenarios-for-measuring-mst-of-the-engine.md).  
   
  Para la primera prueba, el sistema se colocó en estado MST para que se pudiesen realizar observaciones de un sistema en buen estado.  
   
@@ -31,15 +31,15 @@ La información de este tema hace referencia a las pruebas que se explican en [e
   
  **Perfil de carga de prueba de carga sostenible**  
   
- ![Medición de carga sostenible del monitor de rendimiento](../core/media/bts06-sustainable-load.gif "BTS06_Sustainable_Load")  
+ ![Monitor de sistema de medición de carga sostenible](../core/media/bts06-sustainable-load.gif "BTS06_Sustainable_Load")  
   
  Este gráfico muestra que, durante la hora de la prueba, la profundidad de la cola fue estable y no creció:  
   
--   Las líneas negras situadas en la parte superior del gráfico indican el total de mensajes recibidos por segundo en el sistema (por ejemplo, en los dos servidores de recepción).  
+- Las líneas negras situadas en la parte superior del gráfico indican el total de mensajes recibidos por segundo en el sistema (por ejemplo, en los dos servidores de recepción).  
   
--   Las líneas que se encuentran en la parte inferior del gráfico especifican la profundidad de la cola del cuadro de mensajes en cada uno de los servidores SQL Server.  
+- Las líneas que se encuentran en la parte inferior del gráfico especifican la profundidad de la cola del cuadro de mensajes en cada uno de los servidores SQL Server.  
   
- Una vez que el sistema alcanza el punto máximo de profundidad de cola estable, se mide el valor MST mediante el número de mensajes recibidos por segundo. Para este escenario y con el hardware descrito, se logró un valor MST de 290 mensajes por segundo.  
+  Una vez que el sistema alcanza el punto máximo de profundidad de cola estable, se mide el valor MST mediante el número de mensajes recibidos por segundo. Para este escenario y con el hardware descrito, se logró un valor MST de 290 mensajes por segundo.  
   
 > [!NOTE]
 >  Cuando el sistema alcanza un punto en el que la profundidad de la cola deja de ser estable en el tiempo significa que se ha superado el valor MST. Es posible que sea necesario llevar a cabo varias ejecuciones de prueba con distinta carga para evaluar la carga máxima con la que la profundidad de la cola se mantiene estable y con la que el sistema puede controlar el registro de mensajes sin incurrir en un registro adicional de mensajes.  
@@ -48,7 +48,7 @@ La información de este tema hace referencia a las pruebas que se explican en [e
   
  **Uso de CPU**  
   
-|Server|Uso promedio de la CPU|  
+|Servidor|Uso promedio de la CPU|  
 |------------|-----------------------------|  
 |Servidores BizTalk Server|55%|  
 |Servidor SQL Server (servidor de cuadro de mensajes principal)|76%|  
@@ -56,11 +56,11 @@ La información de este tema hace referencia a las pruebas que se explican en [e
   
  **Tiempo de inactividad de disco físico**  
   
-|Server|Promedio de tiempo de inactividad del disco|  
+|Servidor|Promedio de tiempo de inactividad del disco|  
 |------------|----------------------------|  
 |Promedio para todos los servidores SQL Server|69%|  
   
- **Bloqueos SQL en SQL Server**  
+ **Bloqueos de SQL en SQL Server**  
   
 |Parámetro|Valor|  
 |---------------|-----------|  
@@ -71,15 +71,15 @@ La información de este tema hace referencia a las pruebas que se explican en [e
   
  A partir de estos datos se pueden extraer las siguientes conclusiones:  
   
--   No existen cuellos de botella de recursos obvios en el sistema.  
+- No existen cuellos de botella de recursos obvios en el sistema.  
   
--   Todos los indicadores se encuentran dentro de los límites de buen estado de funcionamiento.  
+- Todos los indicadores se encuentran dentro de los límites de buen estado de funcionamiento.  
   
--   Los tiempos de inactividad de la CPU y del disco ponen de manifiesto que existe una elevada capacidad y ni tan siquiera se aproximan a valores críticos.  
+- Los tiempos de inactividad de la CPU y del disco ponen de manifiesto que existe una elevada capacidad y ni tan siquiera se aproximan a valores críticos.  
   
--   Los indicadores de bloqueo SQL aparezcan correctamente, **los tiempos de espera de bloqueos/seg.** no empieza a ser un problema hasta alrededor de 5000 o así (en función de su servidor SQL Server) y de espera de bloqueo veces menos de 1 segundo también están en buen estado.  
+- Los indicadores de bloqueo SQL se ven bien, **tiempos de espera de bloqueo/s** no empieza a ser un problema hasta alrededor de 5000 ó es así (dependiendo de su servidor SQL Server) y espera de bloqueo de horas de menos de 1 segundo también están en buen estado.  
   
- Tras haber demostrado cómo hallar el rendimiento sostenible máximo y haber visto cuáles son los valores de los indicadores clave en un sistema sostenible en buen estado, examinaremos algunos comportamientos asociados con un sistema que recibe más rápido de lo que procesa y que recopila elementos no utilizados. Continúe con [sobrecargar la prueba de carga](../core/overdrive-load-test.md).  
+  Tras haber demostrado cómo hallar el rendimiento sostenible máximo y haber visto cuáles son los valores de los indicadores clave en un sistema sostenible en buen estado, examinaremos algunos comportamientos asociados con un sistema que recibe más rápido de lo que procesa y que recopila elementos no utilizados. Continúe con [sobrecarga (porcentaje) prueba de carga](../core/overdrive-load-test.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Escenarios de prueba para medir MST del motor de](../core/test-scenarios-for-measuring-mst-of-the-engine.md)   

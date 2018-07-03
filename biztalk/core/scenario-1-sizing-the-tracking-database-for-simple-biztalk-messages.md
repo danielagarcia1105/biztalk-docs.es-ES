@@ -1,5 +1,5 @@
 ---
-title: 'Escenario 1: Ajustar el tamaño de la base de datos de seguimiento para mensajes sencillos de BizTalk | Documentos de Microsoft'
+title: 'Escenario 1: Ajustar el tamaño de la base de datos de seguimiento para mensajes sencillos de BizTalk | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b9c99c99485e34f95c6f6a75b86170d73678518
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 13faa8f149c70d7647ff9f2dbf1d3718472f4a0b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269724"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006725"
 ---
 # <a name="scenario-1-sizing-the-tracking-database--for-simple-biztalk-messages"></a>Escenario 1: Ajustar el tamaño de la base de datos de seguimiento para mensajes sencillos de BizTalk
 En la ilustración siguiente, un mensaje sencillo del servidor BizTalk Server entra y sale de éste sin sufrir ninguna transformación.  
@@ -30,25 +30,25 @@ En la ilustración siguiente, un mensaje sencillo del servidor BizTalk Server en
   
  Antes de aplicar la fórmula de la sección anterior, necesitará algunos datos acerca de este escenario. En este ejemplo, se usan los siguientes parámetros:  
   
--   El tamaño del mensaje es 5 K.  
+- El tamaño del mensaje es 5 K.  
   
--   No se promoverá ninguna propiedad.  
+- No se promoverá ninguna propiedad.  
   
--   Se reciben 3,5 millones de mensajes al año.  
+- Se reciben 3,5 millones de mensajes al año.  
   
--   El seguimiento está activado para todos los eventos. Hay cuatro eventos en este escenario. Estos eventos son:  
+- El seguimiento está activado para todos los eventos. Hay cuatro eventos en este escenario. Estos eventos son:  
   
-    -   Recepción del mensaje M0  
+  -   Recepción del mensaje M0  
   
-    -   Salida del mensaje M1 del puerto de recepción  
+  -   Salida del mensaje M1 del puerto de recepción  
   
-    -   Recepción del mensaje M1 por la canalización de transmisión  
+  -   Recepción del mensaje M1 por la canalización de transmisión  
   
-    -   Salida del mensaje M2 por la canalización de envío  
+  -   Salida del mensaje M2 por la canalización de envío  
   
--   Se crean dos mensajes adicionales en este escenario. El mensaje M0 es el mensaje entrante y, por tanto, no lo crea BizTalk Server. M1 es el mensaje de salida del puerto de recepción y M2 es el mensaje de salida del puerto de transmisión. BizTalk Server crea los mensajes M1 y M2.  
+- Se crean dos mensajes adicionales en este escenario. El mensaje M0 es el mensaje entrante y, por tanto, no lo crea BizTalk Server. M1 es el mensaje de salida del puerto de recepción y M2 es el mensaje de salida del puerto de transmisión. BizTalk Server crea los mensajes M1 y M2.  
   
- Si se aplica esta información a la fórmula, se obtiene el siguiente resultado:  
+  Si se aplica esta información a la fórmula, se obtiene el siguiente resultado:  
   
 ```  
 [(5*252 bytes) + (10*182 bytes) + (0*5(40 bytes + 0) * 3,500,000]/1024/1024  
@@ -87,8 +87,8 @@ En la ilustración siguiente, un mensaje sencillo del servidor BizTalk Server en
  Sumar los resultados de las dos ecuaciones permite estimar que la base de datos de seguimiento de BizTalk aumentará, aproximadamente, de 54,48 GB a 54,88 GB por año.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar Variables de mensaje para cambiar el tamaño de la base de datos de seguimiento](../core/using-message-variables-to-size-the-tracking-database.md)   
- [Ajustar el tamaño de la base de datos de seguimiento para realizar el seguimiento de cuerpos de mensaje](../core/sizing-the-tracking-database-to-track-message-bodies.md)   
- [Escenario 2: Ajustar el tamaño de la base de datos de seguimiento para mensajes de orquestaciones](../core/scenario-2-sizing-the-tracking-database-for-messages-in-orchestrations.md)   
+ [Uso de Variables de mensaje para cambiar el tamaño de la base de datos de seguimiento](../core/using-message-variables-to-size-the-tracking-database.md)   
+ [Ajustar el tamaño de la base de datos de seguimiento para realizar un seguimiento de cuerpos de mensaje](../core/sizing-the-tracking-database-to-track-message-bodies.md)   
+ [Escenario 2: Ajustar el tamaño de la base de datos de seguimiento para mensajes en orquestaciones](../core/scenario-2-sizing-the-tracking-database-for-messages-in-orchestrations.md)   
  [Escenario 4: Ajustar el tamaño de la base de datos de seguimiento para todos los mensajes](../core/scenario-4-sizing-the-tracking-database-for-all-messages.md)   
  [Escenario 3: Ajustar el tamaño de la base de datos de seguimiento para los mensajes enviados a listas de distribución](../core/scenario-3-size-the-tracking-database-for-messages-sent-to-distribution-lists.md)

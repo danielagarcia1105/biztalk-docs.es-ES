@@ -1,5 +1,5 @@
 ---
-title: Cómo abrir la consola de administración de BizTalk Server | Documentos de Microsoft
+title: Cómo abrir la consola de administración de BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 81efcc6e2d972bde7b30c57860da4ced711b1294
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 46c5185307aeda0289fd8d4c53363ec45510a492
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254484"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016126"
 ---
 # <a name="how-to-open-the-biztalk-server-administration-console"></a>Cómo abrir la consola de administración de BizTalk Server
 Puede utilizar los procedimientos siguientes para abrir la consola de administración de BizTalk Server, ordenar o actualizar los datos que se muestran en el panel de detalles.  
@@ -31,11 +31,11 @@ Puede utilizar los procedimientos siguientes para abrir la consola de administra
   
 ### <a name="to-open-the-biztalk-server-administration-console"></a>Para abrir la consola de administración de BizTalk Server  
   
--   Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+- Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-     O bien  
+   o bien  
   
--   Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **BTSmmcLauncher.exe**y, a continuación, haga clic en **Aceptar**.  
+- Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **BTSmmcLauncher.exe**y, a continuación, haga clic en **Aceptar**.  
   
 ### <a name="to-refresh-the-biztalk-server-administration-console"></a>Para actualizar la consola de administración de BizTalk Server  
   

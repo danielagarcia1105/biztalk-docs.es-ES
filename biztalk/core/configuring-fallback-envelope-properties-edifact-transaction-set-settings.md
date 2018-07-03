@@ -1,5 +1,5 @@
 ---
-title: Configuración de las propiedades de sobres de reserva (configuración del conjunto de transacciones EDIFACT) | Documentos de Microsoft
+title: Configuración de las propiedades de sobres de reserva (configuración del conjunto de transacciones EDIFACT) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c93f9aae6d67e5dc56d383626e36d1db412be9d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f060b37004346ae5b7419acbe9f1fcf1d128179
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233724"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37020264"
 ---
 # <a name="configuring-fallback-envelope-properties-edifact-transaction-set-settings"></a>Configuración de propiedades de sobres de reserva (configuración del conjunto de transacciones EDIFACT)
 En el **sobres** página de la **configuración del conjunto de transacciones** sección, defina cómo BizTalk Server genera los segmentos UNG para un intercambio con codificación EDIFACT que envía a la entidad.  
@@ -29,37 +29,37 @@ En el **sobres** página de la **configuración del conjunto de transacciones** 
   
 ### <a name="to-define-the-ung-segments"></a>Para definir segmentos UNG  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en el **partes** nodo y, a continuación, haga clic en **configuración de reserva de EDIFACT**.  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en el **partes** nodo y, a continuación, haga clic en **configuración de reserva de EDIFACT**.  
   
-2.  En el **configuración de reserva de EDIFACT** cuadro de diálogo la **páginas del acuerdo EDIFACT** , bajo la **configuración del conjunto de transacciones** sección, haga clic en **sobres** .  
+2. En el **configuración de reserva de EDIFACT** cuadro de diálogo el **páginas del acuerdo EDIFACT** , bajo el **configuración del conjunto de transacciones** sección, haga clic en **sobres** .  
   
-3.  Para **Id. de grupo funcional (UNG1)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de seis caracteres. Este campo es obligatorio.  
+3. Para **Id. de grupo funcional (UNG1)**, escriba un valor alfanumérico con un carácter como mínimo y seis caracteres como máximo. Este campo es obligatorio.  
   
-4.  Escriba los valores para identificar **remitente de aplicación (UNG2)**.  
+4. Escriba los valores que identificar **remitente de la aplicación (UNG2)**.  
   
-    -   Para **identificación (UNG2.1)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de 35 caracteres. Este campo es obligatorio.  
+   -   Para **identificación (UNG2.1)**, escriba un valor alfanumérico con un carácter como mínimo y 35 caracteres como máximo. Este campo es obligatorio.  
   
-    -   Para **calificador de código (UNG2.2)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de cuatro caracteres. Se trata de un campo opcional.  
+   -   Para **calificador de código (UNG2.2)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de cuatro caracteres. Se trata de un campo opcional.  
   
-5.  Escriba los valores para identificar **destinatario de la aplicación (UNG3)**.  
+5. Escriba los valores que identificar **destinatario de la aplicación (UNG3)**.  
   
-    -   Para **identificación (UNG3.1)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de 35 caracteres. Este campo es obligatorio.  
+   -   Para **identificación (UNG3.1)**, escriba un valor alfanumérico con un carácter como mínimo y 35 caracteres como máximo. Este campo es obligatorio.  
   
-    -   Para **calificador de código (UNG3.2)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de cuatro caracteres. Se trata de un campo opcional.  
+   -   Para **calificador de código (UNG3.2)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de cuatro caracteres. Se trata de un campo opcional.  
   
-6.  Para **Agencia de control (UNG6)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de dos caracteres. Este campo es obligatorio.  
+6. Para **Agencia de control (UNG6)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de dos caracteres. Este campo es obligatorio.  
   
-7.  Escriba los valores para identificar **versión del mensaje (UNG7)**.  
+7. Escriba los valores que identificar **versión del mensaje (UNG7)**.  
   
-    -   Para **versión (UNG7.1)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de tres caracteres. Este campo es obligatorio.  
+   -   Para **versión (UNG7.1)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de tres caracteres. Este campo es obligatorio.  
   
-    -   Para **versión (UNG7.2)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de tres caracteres. Este campo es obligatorio.  
+   -   Para **versión (UNG7.2)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de tres caracteres. Este campo es obligatorio.  
   
-    -   Para **código (UNG7.3) asignado a la asociación**, escriba un valor alfanumérico con un mínimo de 1 carácter y un máximo de 6 caracteres. Se trata de un campo opcional.  
+   -   Para **asignado a la asociación (UNG7.3) código**, escriba un valor alfanumérico con un mínimo de 1 carácter y un máximo de 6 caracteres. Se trata de un campo opcional.  
   
-8.  Para **contraseña de aplicaciones (UNG8)**, escriba un valor alfanumérico con un carácter como mínimo y un máximo de 14 caracteres. Este campo es obligatorio.  
+8. Para **contraseña de aplicaciones (UNG8)**, escriba un valor alfanumérico con un carácter como mínimo y 14 caracteres como máximo. Este campo es obligatorio.  
   
 9. Haga clic en **aplicar** para aceptar los cambios antes de continuar con la configuración o haga clic en **Aceptar** para validar los cambios y, a continuación, cierre el cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar la configuración de propiedades de acuerdo de reserva de EDIFACT para la transacción](../core/configuring-edifact-fallback-agreement-properties-for-transaction-set-settings.md)
+ [Configuración de las propiedades de acuerdos de reserva de EDIFACT para valores de conjuntos de transacciones](../core/configuring-edifact-fallback-agreement-properties-for-transaction-set-settings.md)

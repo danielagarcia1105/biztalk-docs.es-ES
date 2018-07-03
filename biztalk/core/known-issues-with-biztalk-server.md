@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos con BizTalk Server | Documentos de Microsoft
+title: Problemas conocidos con BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b7998225af7ca598d4df5b4fd98f2826edce3a4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3ab3522254ea7cd965ed1b9172de2c382d214fb6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22264284"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014461"
 ---
 # <a name="known-issues-with-biztalk-server"></a>Problemas conocidos con BizTalk Server
 En este tema se tratan algunos problemas conocidos con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -27,9 +27,9 @@ En este tema se tratan algunos problemas conocidos con [!INCLUDE[btsBizTalkServe
   
  Al configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], se pueden producir los errores siguientes cuando los puertos de DTC no estén habilitados en el firewall:  
   
- **Error de WMI durante la creación de la base de datos; intentará revertir y eliminar la base de datos 'SQLServerName\BizTalkMsgBoxDb' creada parcialmente**  
+ **Se ha producido un Error de WMI durante la creación de la base de datos; intentará revertir y eliminar la base de datos 'SQLServerName\BizTalkMsgBoxDb' creada parcialmente**  
   
- **Se genera una descripción de error WMI: excepción de tipo 'System.EnterpriseServices.TransactionProxyException' se inició.**  
+ **Se genera la descripción del error WMI: excepción de tipo 'System.EnterpriseServices.TransactionProxyException' se ha producido.**  
   
  Los vínculos siguientes proporcionan información adicional:  
   
@@ -37,7 +37,7 @@ En este tema se tratan algunos problemas conocidos con [!INCLUDE[btsBizTalkServe
   
  [Pasos posteriores a la instalación de BizTalk Server 2013 y 2013 R2](../install-and-config-guides/post-installation-steps-for-biztalk-server-2013-and-2013-r2.md)  
   
-##  <a name="BKMK_BAM"></a>Supervisión de la actividad de negocio  
+##  <a name="BKMK_BAM"></a> La actividad económica  
  Esta sección muestra los problemas frecuentes del módulo Supervisión de la actividad económica (BAM).  
   
 ### <a name="bam-definition-deployment-fails-due-to-a-sql-login-error"></a>La implementación de una definición de BAM no funciona debido a un error de inicio de sesión en SQL  
@@ -55,24 +55,24 @@ OLE DB error: OLE DB or ODBC error: Login failed for user <username>.; 42000.
  Para corregir este problema, asegúrese de que la cuenta de inicio de sesión de SQL Analysis Services tiene permisos para todas las bases de datos relacionadas con BAM.  
   
 ### <a name="bam-configuration-might-result-in-warnings-related-to-the-bam-analysis-logon-account"></a>La configuración de BAM puede producir advertencias relacionadas con la cuenta de inicio de sesión de análisis de BAM  
- Configuración de BAM agrega los permisos de cuenta de inicio de sesión de análisis de BAM en todas las bases de datos relacionadas con BAM para que pueda tener acceso a ellos. Sin embargo, es posible que la configuración no consiga hacerlo y muestre una advertencia si no se cumple alguno de los siguientes requisitos previos:  
+ Configuración de BAM agrega los permisos de cuenta de inicio de sesión de análisis de BAM en todas las bases de datos relacionadas con BAM para poder tener acceso a ellos. Sin embargo, es posible que la configuración no consiga hacerlo y muestre una advertencia si no se cumple alguno de los siguientes requisitos previos:  
   
--   El usuario con el que se ejecuta la configuración de BAM debe ser administrador en el equipo donde está instalado Analysis Services.  
+- El usuario con el que se ejecuta la configuración de BAM debe ser administrador en el equipo donde está instalado Analysis Services.  
   
--   En ese equipo, debe estar permitida la administración remota a través del firewall.  
+- En ese equipo, debe estar permitida la administración remota a través del firewall.  
   
--   Puede que aparezca otra advertencia si la cuenta de inicio de sesión de análisis de BAM es de un administrador del servidor SQL Server donde están instaladas las bases de datos relacionadas con BAM. Puede pasar por alto esta advertencia y continuar.  
+- Puede que aparezca otra advertencia si la cuenta de inicio de sesión de análisis de BAM es de un administrador del servidor SQL Server donde están instaladas las bases de datos relacionadas con BAM. Puede pasar por alto esta advertencia y continuar.  
   
- **Solución alternativa** : debe agregar manualmente el permiso para la cuenta de inicio de sesión de análisis de BAM en todas las bases de datos relacionadas con BAM.  
+  **Solución alternativa** : debe agregar manualmente el permiso de la cuenta de inicio de sesión de análisis de BAM en todas las bases de datos relacionadas con BAM.  
   
 ### <a name="bam-portal-compatibility-with-internet-explorer-10"></a>Compatibilidad del portal BAM con Internet Explorer 10  
  Para utilizar el Portal de BAM con Internet Explorer 10, deberá utilizar siempre el explorador en Modo de compatibilidad.  
   
 ### <a name="receiving-notification-e-mails-even-after-the-alert-host-service-is-stopped"></a>Recepción de mensajes de notificación incluso tras la detención del servicio de host de alertas  
- Si usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], debe configurar la característica correo electrónico de base de datos en SQL Server si desea usar alertas de BAM. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]utiliza un servicio de Host de alertas junto con la característica correo electrónico de base de datos para enviar alertas de notificación. El servicio de host de alertas, tras procesar las notificaciones, pasa la carga de trabajo de notificaciones al componente Correo electrónico de base de datos de SQL Server. Por ello, aunque detenga el servicio de host de alertas, es posible que siga recibiendo notificaciones de eventos procesados por el servicio de host de alertas y no procesados por el componente Correo electrónico de base de datos.  
+ Si usas [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], debe configurar la característica correo electrónico de base de datos en SQL Server si desea usar alertas de BAM. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] utiliza un servicio de Host de alertas junto con la característica correo electrónico de base de datos para enviar alertas de notificación. El servicio de host de alertas, tras procesar las notificaciones, pasa la carga de trabajo de notificaciones al componente Correo electrónico de base de datos de SQL Server. Por ello, aunque detenga el servicio de host de alertas, es posible que siga recibiendo notificaciones de eventos procesados por el servicio de host de alertas y no procesados por el componente Correo electrónico de base de datos.  
   
 ### <a name="configuring-tracing-for-bam-alerts"></a>Configuración del seguimiento de alertas de BAM  
- Si utiliza [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] y desea habilitar el seguimiento de diagnóstico de alertas de BAM, deberá crear un archivo de configuración para el host de alertas de BAM. Debe asignar un nombre el archivo como **BAMAlerts.exe.config** y cópielo en la misma ubicación que el archivo EXE (**BAMAlerts.exe**), que se encuentra en \Program BizTalk Server\Tracking\\.  
+ Si utiliza [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] y desea habilitar el seguimiento de diagnóstico de alertas de BAM, deberá crear un archivo de configuración para el host de alertas de BAM. Debe asignar el nombre del archivo como **BAMAlerts.exe.config** y cópielo en la misma ubicación que el archivo EXE (**BAMAlerts.exe**), que se encuentra en \Program Files\Microsoft BizTalk Server\Tracking\\.  
   
  Este es el aspecto que tiene el archivo de configuración. Este archivo registra **información** detalles en el Visor de eventos de nivel.  
   
@@ -86,10 +86,10 @@ OLE DB error: OLE DB or ODBC error: Login failed for user <username>.; 42000.
 </configuration>  
 ```  
   
-##  <a name="BKMK_Upgrade"></a>Problemas al usar el servidor BizTalk Server con SQL Server 2012  
- Al usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] puede establecer la **Remote Login Timeout** valor en SQL Server en 20 segundos. De lo contrario, es posible que se produzcan errores en condiciones de sobrecarga. Para obtener instrucciones sobre cómo establecer el valor de tiempo de espera de inicio de sesión remoto en [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], consulte [http://msdn.microsoft.com/library/ms175136.aspx](http://msdn.microsoft.com/library/ms175136.aspx)  
+##  <a name="BKMK_Upgrade"></a> Problemas al usar BizTalk Server con SQL Server 2012  
+ Al usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] puede establecer el **Remote Login Timeout** valor en SQL Server en 20 segundos. De lo contrario, es posible que se produzcan errores en condiciones de sobrecarga. Para obtener instrucciones sobre cómo establecer el valor de tiempo de espera de inicio de sesión remoto en [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], vea [http://msdn.microsoft.com/library/ms175136.aspx](http://msdn.microsoft.com/library/ms175136.aspx)  
   
-##  <a name="BKMK_Adapters"></a>Problemas con los adaptadores  
+##  <a name="BKMK_Adapters"></a> Problemas con los adaptadores  
  Esta sección muestra los problemas frecuentes con los adaptadores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ### <a name="dynamic-port-may-fail-while-using-the-windows-sharepoint-services-wss-adapter"></a>Posibles errores del puerto dinámico durante la utilización del adaptador de Windows SharePoint Services (WSS)  
@@ -105,7 +105,7 @@ Error details: The Windows SharePoint Services site was not found. The URL "http
   
 -   Habilitar la **Windows Identity Foundation 3.5** característica.  
   
--   Confirmar la cuenta que ejecuta el host de BizTalk tiene acceso a SharePoint.  
+-   Confirme que la cuenta que ejecuta el host de BizTalk tiene acceso a SharePoint.  
   
 ### <a name="adapters-available-with-biztalk-adapter-pack-cannot-be-administered-on-a-computer-that-only-has-biztalk-server-administration-component-installed"></a>No se pueden administrar los adaptadores disponibles con BizTalk Adapter Pack en un equipo en el que solo se haya instalado el componente de administración de BizTalk Server  
  Si tiene instalado BizTalk Adapter Pack en un equipo en el que solo esté instalada la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], los adaptadores instalados como parte de BizTalk Adapter Pack no estarán disponibles al crear un puerto de envío o ubicación de recepción. Esto se debe a que los adaptadores dependen de que el tiempo de ejecución de BizTalk esté instalado en el mismo equipo.  
@@ -118,9 +118,9 @@ Error details: The Windows SharePoint Services site was not found. The URL "http
  Para utilizar los ejemplos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluidos en esa versión, debe ejecutar los archivos setup.bat correspondientes solo desde un símbolo del sistema de 32 bits. La ejecución de los archivos de lotes desde un símbolo del sistema de 64 bits provocará un error.  
   
 ### <a name="run-setup-as-administrator"></a>Ejecutar el programa de instalación como administrador  
- Al instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], use la **ejecutar como administrador** opción. De lo contrario, pueden producirse los errores siguientes:  
+ Al instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], utilice el **ejecutar como administrador** opción. De lo contrario, pueden producirse los errores siguientes:  
   
- Error interno 2761. Código devuelto: 1  
+ Error interno 2761. Código de retorno: 1  
   
  Instalación de MSI devolvió 1603: error irrecuperable durante la instalación.  
   

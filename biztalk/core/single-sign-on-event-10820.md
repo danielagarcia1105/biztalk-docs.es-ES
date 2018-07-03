@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10820 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10820 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46a3ae1be84ca0b936fe38463e51e6385071f7a9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78b566c4dfe4437017b743228c9bae2631c79a00
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276692"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011661"
 ---
-# <a name="single-sign-on-event-10820"></a>Inicio de sesión único: Evento 10820
+# <a name="single-sign-on-event-10820"></a>De sesión único: Evento 10820
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10820|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_REQUIRE_OLD_PASSWORD|  
-|Texto del mensaje|Al cambiar la contraseña de una cuenta externa, el adaptador debe proporcionar la contraseña anterior.|  
+|                 |                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                  Inicio de sesión único (SSO) empresarial                                   |
+| Versión del producto |                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                  |
+|    Identificador del evento     |                                            10820                                             |
+|  Origen del evento   |                                            ENTSSO                                            |
+|    Componente    |                                             N/D                                              |
+|  Nombre simbólico  |                                ENTSSO_E_REQUIRE_OLD_PASSWORD                                 |
+|  Texto del mensaje   | Al cambiar la contraseña de una cuenta externa, el adaptador debe proporcionar la contraseña anterior. |
   
 ## <a name="explanation"></a>Explicación  
  Esta aplicación está configurada para que el adaptador de sincronización de contraseñas deba proporcionar la contraseña anterior.  

@@ -1,5 +1,5 @@
 ---
-title: Recomendaciones para la planificación de proyectos por fases | Documentos de Microsoft
+title: Recomendaciones para la planificación de proyectos por fases | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb8886f3e52d347651630a4cafb716049fdf19fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 70c938b8f72114b71bd5dece7c7c97ffc4df0158
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22264956"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008109"
 ---
 # <a name="project-planning-recommendations-by-phase"></a>Recomendaciones de planeación de proyectos por fases
 Actualmente existen varios modelos de ciclo de vida del desarrollo de software, cada uno con sus propios enfoques, ventajas y limitaciones. El objetivo de esta sección es proporcionar un conjunto de recomendaciones que le ayudarán a planear de forma adecuada un proyecto de desarrollo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] correcto.  
@@ -29,30 +29,30 @@ Actualmente existen varios modelos de ciclo de vida del desarrollo de software, 
   
  En este modelo hay cinco fases cuyos límites definen un conjunto secuencias de hitos para el proyecto. Las fases, por orden de ejecución, son las siguientes:  
   
--   **Requisitos de**. Requisitos de los usuarios se recogen en especificaciones funcionales que definen lo que se van a compilar.  
+- **Requisitos**. Requisitos de los usuarios se recogen en especificaciones funcionales que definen lo que se van a compilar.  
   
--   **Diseño**. Según los requisitos funcionales, especificaciones de diseño físico se crean y se realiza el prototipo para comprobar las ideas de diseño e investigar las capacidades de la plataforma.  
+- **Diseño**. Según los requisitos funcionales, las especificaciones de diseño físico se crean y se lleva a cabo la creación de prototipos para comprobar las ideas de diseño e investigar las capacidades de la plataforma.  
   
--   **Implementación**. Uso de las especificaciones funcionales y diseño, el código del software se realiza.  
+- **Implementación**. El software de codificación se realiza mediante el diseño y las especificaciones funcionales.  
   
--   **Comprobación**. Este es el proceso de prueba del software para comprobar que funciona según las especificaciones.  
+- **Comprobación**. Este es el proceso de prueba del software para comprobar que funciona según las especificaciones.  
   
--   **Versión**. Después de que el software se ha comprobado totalmente, se empaqueta y se prepara para lanzamiento a los usuarios.  
+- **Versión**. Después de comprobar completamente el software, se empaqueta y se prepara para lanzamiento a los usuarios.  
   
- La siguiente ilustración muestra el ciclo de planeamiento de este proyecto.  
+  La siguiente ilustración muestra el ciclo de planeamiento de este proyecto.  
   
- ![Recomendaciones para la planificación de proyectos por fases](../core/media/planningbyphase.gif "PlanningByPhase")  
+  ![Recomendaciones para la planificación de proyectos por fases](../core/media/planningbyphase.gif "PlanningByPhase")  
   
- La mayoría de estas fases, si no todas, se superponen en el tiempo y normalmente hay subfases iterativas. Por ejemplo, es habitual completar la implementación de un subjuego de las características del producto y, con fines de comprobación, comenzar con ese subjuego mientras se realiza la implementación del siguiente subjuego de características. Por consiguiente, mientras que las recomendaciones de esta sección están relacionadas con determinadas fases, no se pretende dar a entender que no puedan suceder en paralelo, sino indicar en cierta medida el orden relativo en el que se deben tener en cuenta las recomendaciones y su importancia en la planeamiento.  
+  La mayoría de estas fases, si no todas, se superponen en el tiempo y normalmente hay subfases iterativas. Por ejemplo, es habitual completar la implementación de un subjuego de las características del producto y, con fines de comprobación, comenzar con ese subjuego mientras se realiza la implementación del siguiente subjuego de características. Por consiguiente, mientras que las recomendaciones de esta sección están relacionadas con determinadas fases, no se pretende dar a entender que no puedan suceder en paralelo, sino indicar en cierta medida el orden relativo en el que se deben tener en cuenta las recomendaciones y su importancia en la planeamiento.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Recomendaciones de la fase de requisitos](../core/requirements-phase-recommendations.md)  
+-   [Recomendaciones para la fase de requisitos](../core/requirements-phase-recommendations.md)  
   
--   [Recomendaciones de la fase de diseño](../core/design-phase-recommendations.md)  
+-   [Recomendaciones para la fase de diseño](../core/design-phase-recommendations.md)  
   
--   [Recomendaciones de la fase de implementación](../core/implementation-phase-recommendations.md)  
+-   [Recomendaciones para la fase de implementación](../core/implementation-phase-recommendations.md)  
   
--   [Recomendaciones de la fase de comprobación](../core/verification-phase-recommendations.md)  
+-   [Recomendaciones para la fase de comprobación](../core/verification-phase-recommendations.md)  
   
--   [Recomendaciones para la fase versión](../core/release-phase-recommendations.md)
+-   [Recomendaciones para la fase de lanzamiento](../core/release-phase-recommendations.md)

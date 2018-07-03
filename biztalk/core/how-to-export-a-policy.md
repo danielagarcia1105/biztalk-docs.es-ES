@@ -1,5 +1,5 @@
 ---
-title: Cómo exportar una directiva | Documentos de Microsoft
+title: Cómo exportar una directiva | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 752336e0642c42418f6c68ddefb719d02051d937
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 71d697d378e48b516e3afd2ebae82cb897af12a9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254916"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011469"
 ---
 # <a name="how-to-export-a-policy"></a>Cómo exportar una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para exportar una o varias directivas y sus vocabularios asociados.  
@@ -47,7 +47,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
 ## <a name="prerequisites"></a>Requisitos previos  
  A continuación, se enumeran los requisitos previos para efectuar los procedimientos de este tema:  
   
--   Es preciso haber iniciado sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información acerca de los permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+-   Es preciso haber iniciado sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 -   El motor de reglas de negocios debe estar instalado. Para obtener más información, consulte [Introducción a la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
@@ -57,25 +57,25 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 #### <a name="using-the-biztalk-server-administration-console"></a>Mediante la consola de administración de BizTalk Server  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server** y expanda el grupo de BizTalk.  
+2. En el árbol de consola, expanda **administración de BizTalk Server** y expanda el grupo de BizTalk.  
   
-3.  Si desea seleccionar las directivas para exportar de todas las directivas en un menú contextual de grupo de BizTalk de la **aplicaciones** carpeta, haga clic en **exportar**y, a continuación, haga clic en **directivas**.  
+3. Si desea seleccionar las directivas para exportar todas las directivas en un secundario del grupo de BizTalk la **aplicaciones** carpeta, haga clic en **exportar**y, a continuación, haga clic en **directivas**.  
   
-     o  
+    O BIEN  
   
-     Si desea exportar las directivas de una aplicación concreta, expanda la carpeta de aplicaciones, haga clic en la aplicación, haga clic en **exportar**y, a continuación, haga clic en **directivas**.  
+    Si desea exportar las directivas en una aplicación concreta, expanda la carpeta de aplicaciones, haga clic en la aplicación, haga clic en **exportar**y, a continuación, haga clic en **directivas**.  
   
-     o  
+    O BIEN  
   
-     Si desea exportar sólo una directiva concreta, haga clic en la carpeta de directivas que contiene la directiva, haga clic en la directiva y, a continuación, haga clic en **exportar**.  
+    Si desea exportar sólo una directiva concreta, haga clic en la carpeta de directivas que contiene la directiva, haga clic en la directiva y, a continuación, haga clic en **exportar**.  
   
-4.  En la página Exportar directivas, en **directivas para exportar**, seleccione las directivas que se va a exportar.  
+4. En la página Exportar directivas, en **directivas para exportar**, seleccione las directivas para exportar.  
   
-5.  En **vocabularios que va a exportar**, active las casillas de los vocabularios que va a exportar y desactive las casillas de los vocabularios que no va a exportar. Los vocabularios que esta directiva usa están seleccionados automáticamente.  
+5. En **vocabularios que va a exportar**, active las casillas de los vocabularios que va a exportar y desactive las casillas de los vocabularios que no desea exportar. Los vocabularios que esta directiva usa están seleccionados automáticamente.  
   
-6.  En **archivo para exportar** , escriba la ruta de acceso del archivo XML que se va a exportar la directiva o directivas y, a continuación, haga clic en **Aceptar**.  
+6. En **archivo para exportar** , escriba la ruta de acceso del archivo XML que se va a exportar la directiva o directivas y, a continuación, haga clic en **Aceptar**.  
   
 #### <a name="using-the-command-line"></a>Utilizar la línea de comandos  
   
@@ -88,5 +88,5 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
      BTSTask exporta las directivas especificadas así como todos sus vocabularios asociados a un archivo .msi de aplicación.  
   
 ## <a name="see-also"></a>Vea también  
- [Exportar aplicaciones de BizTalk, los enlaces y directivas](../core/exporting-biztalk-applications-bindings-and-policies.md)   
+ [Exportar aplicaciones de BizTalk, enlaces y directivas](../core/exporting-biztalk-applications-bindings-and-policies.md)   
  [Administración de directivas](../core/managing-policies.md)
