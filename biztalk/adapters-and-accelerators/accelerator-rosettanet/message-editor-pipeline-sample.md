@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de canalización del Editor de mensajes | Documentos de Microsoft
+title: Ejemplo de canalización del Editor de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4bfe7187492652cc24a04527d64a0d4746858708
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ea5ce9c658b7fa0f5a641166cc3423c948a8e6d7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209220"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974621"
 ---
-# <a name="message-editor-pipeline-sample"></a><span data-ttu-id="b4350-102">Ejemplo de canalización del Editor de mensajes</span><span class="sxs-lookup"><span data-stu-id="b4350-102">Message Editor Pipeline Sample</span></span>
-<span data-ttu-id="b4350-103">Este ejemplo muestra cómo modificar el contenido de un mensaje entrante mediante la adición de un componente personalizado a la canalización de recepción.</span><span class="sxs-lookup"><span data-stu-id="b4350-103">This sample demonstrates how to modify the contents of an incoming message by adding a custom component to the receive pipeline.</span></span>  
+# <a name="message-editor-pipeline-sample"></a><span data-ttu-id="1f849-102">Ejemplo de canalización del Editor de mensajes</span><span class="sxs-lookup"><span data-stu-id="1f849-102">Message Editor Pipeline Sample</span></span>
+<span data-ttu-id="1f849-103">Este ejemplo muestra cómo modificar el contenido de un mensaje entrante mediante la adición de un componente personalizado a la canalización de recepción.</span><span class="sxs-lookup"><span data-stu-id="1f849-103">This sample demonstrates how to modify the contents of an incoming message by adding a custom component to the receive pipeline.</span></span>  
   
- <span data-ttu-id="b4350-104">Este ejemplo está disponible en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] sitio Web en [http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467).</span><span class="sxs-lookup"><span data-stu-id="b4350-104">This sample is available from the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467).</span></span>  
+ <span data-ttu-id="1f849-104">Este ejemplo está disponible desde Microsoft [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] sitio Web en [ http://go.microsoft.com/fwlink/?LinkId=37877 ](http://go.microsoft.com/fwlink/?LinkId=37467).</span><span class="sxs-lookup"><span data-stu-id="1f849-104">This sample is available from the Microsoft [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467).</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="b4350-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="b4350-105">See Also</span></span>  
- [<span data-ttu-id="b4350-106">Ejemplos de canalizaciones</span><span class="sxs-lookup"><span data-stu-id="b4350-106">Pipeline Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)
+## <a name="see-also"></a><span data-ttu-id="1f849-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="1f849-105">See Also</span></span>  
+ [<span data-ttu-id="1f849-106">Ejemplos de canalizaciones</span><span class="sxs-lookup"><span data-stu-id="1f849-106">Pipeline Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10837 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10837 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 17ebd2ee0af9fe8c8c1a8579228eec71bee5c4f4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e64fb7c0777ea6ba52b3a22b902db675a8652083
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969429"
 ---
-# <a name="single-sign-on-event-10837"></a><span data-ttu-id="733d1-102">Inicio de sesión único: Evento 10837</span><span class="sxs-lookup"><span data-stu-id="733d1-102">Single Sign-On: Event 10837</span></span>
-## <a name="details"></a><span data-ttu-id="733d1-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="733d1-103">Details</span></span>  
+# <a name="single-sign-on-event-10837"></a><span data-ttu-id="ff040-102">De sesión único: Evento 10837</span><span class="sxs-lookup"><span data-stu-id="ff040-102">Single Sign-On: Event 10837</span></span>
+## <a name="details"></a><span data-ttu-id="ff040-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ff040-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="733d1-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="733d1-104">Product Name</span></span>|<span data-ttu-id="733d1-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="733d1-105">Enterprise Single Sign-On</span></span>|  
-|<span data-ttu-id="733d1-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="733d1-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|<span data-ttu-id="733d1-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="733d1-107">Event ID</span></span>|<span data-ttu-id="733d1-108">10837</span><span class="sxs-lookup"><span data-stu-id="733d1-108">10837</span></span>|  
-|<span data-ttu-id="733d1-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="733d1-109">Event Source</span></span>|<span data-ttu-id="733d1-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="733d1-110">ENTSSO</span></span>|  
-|<span data-ttu-id="733d1-111">Componente</span><span class="sxs-lookup"><span data-stu-id="733d1-111">Component</span></span>|<span data-ttu-id="733d1-112">N/D</span><span class="sxs-lookup"><span data-stu-id="733d1-112">N/A</span></span>|  
-|<span data-ttu-id="733d1-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="733d1-113">Symbolic Name</span></span>|<span data-ttu-id="733d1-114">ENTSSO_E_MAX_SQL_DATABASE</span><span class="sxs-lookup"><span data-stu-id="733d1-114">ENTSSO_E_MAX_SQL_DATABASE</span></span>|  
-|<span data-ttu-id="733d1-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="733d1-115">Message Text</span></span>|<span data-ttu-id="733d1-116">La longitud máxima para nombre de base de datos SQL es de 128 caracteres.</span><span class="sxs-lookup"><span data-stu-id="733d1-116">The maximum SQL database name length is 128 characters.</span></span>|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  <span data-ttu-id="ff040-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="ff040-104">Product Name</span></span>   |                 <span data-ttu-id="ff040-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="ff040-105">Enterprise Single Sign-On</span></span>                  |
+| <span data-ttu-id="ff040-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="ff040-106">Product Version</span></span> | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    <span data-ttu-id="ff040-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="ff040-107">Event ID</span></span>     |                           <span data-ttu-id="ff040-108">10837</span><span class="sxs-lookup"><span data-stu-id="ff040-108">10837</span></span>                            |
+|  <span data-ttu-id="ff040-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="ff040-109">Event Source</span></span>   |                           <span data-ttu-id="ff040-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="ff040-110">ENTSSO</span></span>                           |
+|    <span data-ttu-id="ff040-111">Componente</span><span class="sxs-lookup"><span data-stu-id="ff040-111">Component</span></span>    |                            <span data-ttu-id="ff040-112">N/D</span><span class="sxs-lookup"><span data-stu-id="ff040-112">N/A</span></span>                             |
+|  <span data-ttu-id="ff040-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="ff040-113">Symbolic Name</span></span>  |                 <span data-ttu-id="ff040-114">ENTSSO_E_MAX_SQL_DATABASE</span><span class="sxs-lookup"><span data-stu-id="ff040-114">ENTSSO_E_MAX_SQL_DATABASE</span></span>                  |
+|  <span data-ttu-id="ff040-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="ff040-115">Message Text</span></span>   |  <span data-ttu-id="ff040-116">La longitud máxima para nombre de base de datos SQL es de 128 caracteres.</span><span class="sxs-lookup"><span data-stu-id="ff040-116">The maximum SQL database name length is 128 characters.</span></span>   |
   
-## <a name="explanation"></a><span data-ttu-id="733d1-117">Explicación</span><span class="sxs-lookup"><span data-stu-id="733d1-117">Explanation</span></span>  
- <span data-ttu-id="733d1-118">La longitud máxima para nombre de base de datos SQL es de 128 caracteres.</span><span class="sxs-lookup"><span data-stu-id="733d1-118">The maximum SQL database name length is 128 characters.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="ff040-117">Explicación</span><span class="sxs-lookup"><span data-stu-id="ff040-117">Explanation</span></span>  
+ <span data-ttu-id="ff040-118">La longitud máxima para nombre de base de datos SQL es de 128 caracteres.</span><span class="sxs-lookup"><span data-stu-id="ff040-118">The maximum SQL database name length is 128 characters.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="733d1-119">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="733d1-119">User Action</span></span>  
- <span data-ttu-id="733d1-120">Use un nombre que respete estas pautas.</span><span class="sxs-lookup"><span data-stu-id="733d1-120">Use a name which fits these guidelines.</span></span>
+## <a name="user-action"></a><span data-ttu-id="ff040-119">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="ff040-119">User Action</span></span>  
+ <span data-ttu-id="ff040-120">Use un nombre que respete estas pautas.</span><span class="sxs-lookup"><span data-stu-id="ff040-120">Use a name which fits these guidelines.</span></span>

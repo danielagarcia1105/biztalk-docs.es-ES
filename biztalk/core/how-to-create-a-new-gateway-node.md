@@ -1,5 +1,5 @@
 ---
-title: Cómo crear un nuevo nodo de puerta de enlace | Documentos de Microsoft
+title: Cómo crear un nuevo nodo de puerta de enlace | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,60 +14,60 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b371243d58389415349d5a88c05b7bf312e70ef9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c26dd33fcdc4bd8ad43f03ef3fff6d006480a1c1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249388"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976165"
 ---
-# <a name="how-to-create-a-new-gateway-node"></a><span data-ttu-id="404a6-102">Cómo crear un nodo de puerta de enlace nuevo</span><span class="sxs-lookup"><span data-stu-id="404a6-102">How to Create a New Gateway Node</span></span>
-<span data-ttu-id="404a6-103">Siga los pasos que se detallan a continuación y configure un nodo de puerta de enlace nuevo en PeopleSoft Enterprise.</span><span class="sxs-lookup"><span data-stu-id="404a6-103">Follow these steps to create and configure a new Gateway node in PeopleSoft Enterprise.</span></span>  
+# <a name="how-to-create-a-new-gateway-node"></a><span data-ttu-id="0bc9f-102">Cómo crear un nodo de puerta de enlace nuevo</span><span class="sxs-lookup"><span data-stu-id="0bc9f-102">How to Create a New Gateway Node</span></span>
+<span data-ttu-id="0bc9f-103">Siga los pasos que se detallan a continuación y configure un nodo de puerta de enlace nuevo en PeopleSoft Enterprise.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-103">Follow these steps to create and configure a new Gateway node in PeopleSoft Enterprise.</span></span>  
   
-### <a name="to-create-and-configure-a-new-gateway-node"></a><span data-ttu-id="404a6-104">Para crear y configurar un nuevo nodo de puerta de enlace</span><span class="sxs-lookup"><span data-stu-id="404a6-104">To create and configure a new gateway node</span></span>  
+### <a name="to-create-and-configure-a-new-gateway-node"></a><span data-ttu-id="0bc9f-104">Para crear y configurar un nuevo nodo de puerta de enlace</span><span class="sxs-lookup"><span data-stu-id="0bc9f-104">To create and configure a new gateway node</span></span>  
   
-1.  <span data-ttu-id="404a6-105">En PeopleSoft, en el panel izquierdo, haga clic en el **definiciones del nodo** vínculo.</span><span class="sxs-lookup"><span data-stu-id="404a6-105">In PeopleSoft, on the left panel, click the **Node Definitions** link.</span></span>  
+1. <span data-ttu-id="0bc9f-105">En PeopleSoft, en el panel izquierdo, haga clic en el **Node Definitions** vínculo.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-105">In PeopleSoft, on the left panel, click the **Node Definitions** link.</span></span>  
   
-2.  <span data-ttu-id="404a6-106">Haga clic en el **agregar un nuevo valor** ficha.</span><span class="sxs-lookup"><span data-stu-id="404a6-106">Click the **Add a New Value** tab.</span></span>  
+2. <span data-ttu-id="0bc9f-106">Haga clic en el **agregar un nuevo valor** ficha.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-106">Click the **Add a New Value** tab.</span></span>  
   
-3.  <span data-ttu-id="404a6-107">En el **nombre de nodo** , escriba `MSEXTERNAL`y, a continuación, haga clic en **agregar**.</span><span class="sxs-lookup"><span data-stu-id="404a6-107">In the **Node Name** field, enter `MSEXTERNAL`, and then click **Add**.</span></span>  
+3. <span data-ttu-id="0bc9f-107">En el **nombre de nodo** , introduzca `MSEXTERNAL`y, a continuación, haga clic en **agregar**.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-107">In the **Node Name** field, enter `MSEXTERNAL`, and then click **Add**.</span></span>  
   
-4.  <span data-ttu-id="404a6-108">Haga clic en el **nodo** pestaña y escriba la información siguiente:</span><span class="sxs-lookup"><span data-stu-id="404a6-108">Click the **Node** tab, and enter the following information:</span></span>  
+4. <span data-ttu-id="0bc9f-108">Haga clic en el **nodo** pestaña y escriba la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="0bc9f-108">Click the **Node** tab, and enter the following information:</span></span>  
   
-    1.  <span data-ttu-id="404a6-109">**Descripción:** escriba una descripción para el nodo.</span><span class="sxs-lookup"><span data-stu-id="404a6-109">**Description:** Enter a description for the node.</span></span>  
+   1. <span data-ttu-id="0bc9f-109">**Descripción:** escriba una descripción para el nodo.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-109">**Description:** Enter a description for the node.</span></span>  
   
-    2.  <span data-ttu-id="404a6-110">**Tipo de nodo:** seleccione **externo**.</span><span class="sxs-lookup"><span data-stu-id="404a6-110">**Node Type:** Select **External**.</span></span>  
+   2. <span data-ttu-id="0bc9f-110">**Tipo de nodo:** seleccione **externo**.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-110">**Node Type:** Select **External**.</span></span>  
   
-    3.  <span data-ttu-id="404a6-111">**Tipo de enrutamiento:** seleccione **implícita**.</span><span class="sxs-lookup"><span data-stu-id="404a6-111">**Routing Type:** Select **Implicit**.</span></span>  
+   3. <span data-ttu-id="0bc9f-111">**Tipo de enrutamiento:** seleccione **implícita**.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-111">**Routing Type:** Select **Implicit**.</span></span>  
   
-     ![](../core/media/psadapter-34-task-gatewaynodeconnector.gif "PSAdapter_34_Task_GatewayNodeConnector")  
+      <span data-ttu-id="0bc9f-112">![](../core/media/psadapter-34-task-gatewaynodeconnector.gif "PSAdapter_34_Task_GatewayNodeConnector")</span><span class="sxs-lookup"><span data-stu-id="0bc9f-112">![](../core/media/psadapter-34-task-gatewaynodeconnector.gif "PSAdapter_34_Task_GatewayNodeConnector")</span></span>  
   
-5.  <span data-ttu-id="404a6-112">Haga clic en el **conectores** pestaña y escriba la información siguiente:</span><span class="sxs-lookup"><span data-stu-id="404a6-112">Click the **Connectors** tab, and enter the following information:</span></span>  
+5. <span data-ttu-id="0bc9f-113">Haga clic en el **conectores** pestaña y escriba la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="0bc9f-113">Click the **Connectors** tab, and enter the following information:</span></span>  
   
-    1.  <span data-ttu-id="404a6-113">**Id. de puerta de enlace:** escriba `LOCAL`.</span><span class="sxs-lookup"><span data-stu-id="404a6-113">**Gateway ID:** Enter `LOCAL`.</span></span>  
+   1. <span data-ttu-id="0bc9f-114">**Id. de puerta de enlace:** escriba `LOCAL`.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-114">**Gateway ID:** Enter `LOCAL`.</span></span>  
   
-    2.  <span data-ttu-id="404a6-114">**Id. de conector:** escriba `HTTPTARGET`.</span><span class="sxs-lookup"><span data-stu-id="404a6-114">**Connector ID:** Enter `HTTPTARGET`.</span></span>  
+   2. <span data-ttu-id="0bc9f-115">**Id. de conector:** escriba `HTTPTARGET`.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-115">**Connector ID:** Enter `HTTPTARGET`.</span></span>  
   
-     ![](../core/media/psadapter-35-task-gatewayhttptarget.gif "PSAdapter_35_Task_GatewayHTTPTarget")  
+      <span data-ttu-id="0bc9f-116">![](../core/media/psadapter-35-task-gatewayhttptarget.gif "PSAdapter_35_Task_GatewayHTTPTarget")</span><span class="sxs-lookup"><span data-stu-id="0bc9f-116">![](../core/media/psadapter-35-task-gatewayhttptarget.gif "PSAdapter_35_Task_GatewayHTTPTarget")</span></span>  
   
-6.  <span data-ttu-id="404a6-115">Haga clic en el **búsqueda** icono.</span><span class="sxs-lookup"><span data-stu-id="404a6-115">Click the **Lookup** icon.</span></span>  
+6. <span data-ttu-id="0bc9f-117">Haga clic en el **búsqueda** icono.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-117">Click the **Lookup** icon.</span></span>  
   
-7.  <span data-ttu-id="404a6-116">En **Id. del conector**, haga clic en el **HTTPTARGET** vínculo.</span><span class="sxs-lookup"><span data-stu-id="404a6-116">Under **Connector ID**, click the **HTTPTARGET** link.</span></span>  
+7. <span data-ttu-id="0bc9f-118">En **Id. de conector**, haga clic en el **HTTPTARGET** vínculo.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-118">Under **Connector ID**, click the **HTTPTARGET** link.</span></span>  
   
-     ![](../core/media/psadapter-36-task-gatewayconnectorid.gif "PSAdapter_36_Task_GatewayConnectorID")  
+    <span data-ttu-id="0bc9f-119">![](../core/media/psadapter-36-task-gatewayconnectorid.gif "PSAdapter_36_Task_GatewayConnectorID")</span><span class="sxs-lookup"><span data-stu-id="0bc9f-119">![](../core/media/psadapter-36-task-gatewayconnectorid.gif "PSAdapter_36_Task_GatewayConnectorID")</span></span>  
   
-8.  <span data-ttu-id="404a6-117">En el **propiedades** ficha, escriba la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="404a6-117">On the **Properties** tab, enter the following information:</span></span>  
+8. <span data-ttu-id="0bc9f-120">En el **propiedades** , escriba la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="0bc9f-120">On the **Properties** tab, enter the following information:</span></span>  
   
-    1.  <span data-ttu-id="404a6-118">**Encabezado:** escriba `Y`.</span><span class="sxs-lookup"><span data-stu-id="404a6-118">**Header:** Enter `Y`.</span></span>  
+   1.  <span data-ttu-id="0bc9f-121">**Encabezado:** escriba `Y`.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-121">**Header:** Enter `Y`.</span></span>  
   
-    2.  <span data-ttu-id="404a6-119">**HTTPPROPERTY:** escriba `POST`.</span><span class="sxs-lookup"><span data-stu-id="404a6-119">**HTTPPROPERTY:** Enter `POST`.</span></span>  
+   2.  <span data-ttu-id="0bc9f-122">**HTTPPROPERTY:** escriba `POST`.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-122">**HTTPPROPERTY:** Enter `POST`.</span></span>  
   
-    3.  <span data-ttu-id="404a6-120">**PrimaryURL:** escriba la dirección IP y el puerto del equipo de destino (el equipo de desarrollo).</span><span class="sxs-lookup"><span data-stu-id="404a6-120">**PrimaryURL:** Enter the IP address and port of the target computer (the development computer).</span></span>  
+   3.  <span data-ttu-id="0bc9f-123">**PrimaryURL:** escriba la dirección IP y puerto del equipo de destino (el equipo de desarrollo).</span><span class="sxs-lookup"><span data-stu-id="0bc9f-123">**PrimaryURL:** Enter the IP address and port of the target computer (the development computer).</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="404a6-121">El **puerto de recepción** se ha establecido anteriormente.</span><span class="sxs-lookup"><span data-stu-id="404a6-121">The **Receive Port** was previously set.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="0bc9f-124">El **puerto de recepción** se configuró anteriormente.</span><span class="sxs-lookup"><span data-stu-id="0bc9f-124">The **Receive Port** was previously set.</span></span>  
   
-     ![](../core/media/psadapter-37-task-gatewaynodereceiveport.gif "PSAdapter_37_Task_GatewayNodeReceivePort")  
+    <span data-ttu-id="0bc9f-125">![](../core/media/psadapter-37-task-gatewaynodereceiveport.gif "PSAdapter_37_Task_GatewayNodeReceivePort")</span><span class="sxs-lookup"><span data-stu-id="0bc9f-125">![](../core/media/psadapter-37-task-gatewaynodereceiveport.gif "PSAdapter_37_Task_GatewayNodeReceivePort")</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="404a6-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="404a6-122">See Also</span></span>  
- [<span data-ttu-id="404a6-123">Crear un Host de HTTP de PeopleSoft y puerto</span><span class="sxs-lookup"><span data-stu-id="404a6-123">Creating a PeopleSoft HTTP Host and Port</span></span>](../core/creating-a-peoplesoft-http-host-and-port.md)
+## <a name="see-also"></a><span data-ttu-id="0bc9f-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="0bc9f-126">See Also</span></span>  
+ [<span data-ttu-id="0bc9f-127">Creación de puertos y hosts HTTP de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="0bc9f-127">Creating a PeopleSoft HTTP Host and Port</span></span>](../core/creating-a-peoplesoft-http-host-and-port.md)
