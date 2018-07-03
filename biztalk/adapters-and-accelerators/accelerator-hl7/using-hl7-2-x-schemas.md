@@ -1,5 +1,5 @@
 ---
-title: Utilizar esquemas de HL7 2.X | Documentos de Microsoft
+title: Uso de esquemas de HL7 2.X | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,34 +16,34 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 934ca60bb3d89e08c9e803813f3548f196c3d56d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 155710a421eaaf98f551729a00d724cd9a29ce3b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206780"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979565"
 ---
-# <a name="using-hl7-2x-schemas"></a>Utilizar esquemas 2.X HL7
-Esta sección describen las versiones 2.X del nivel de mantenimiento siete (HL7) estándar admitidos por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
+# <a name="using-hl7-2x-schemas"></a>Uso de esquemas de HL7 2.X
+Esta sección describen las versiones 2.X del estándar de siete de nivel de mantenimiento (HL7) compatible con Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
   
 > [!IMPORTANT]
->  Que necesite actualizar los esquemas que se instala con BTAHL7 para que coincida con el estándar HL7. Para ello, consulte [resolver errores de base de datos](../../adapters-and-accelerators/accelerator-hl7/resolving-database-errors.md).  
+>  Es posible que deba actualizar los esquemas se instalan con BTAHL7 para cumplir con el estándar HL7. Para ello, consulte [resolver errores de base de datos](../../adapters-and-accelerators/accelerator-hl7/resolving-database-errors.md).  
   
 > [!NOTE]
->  El motor de BTAHL7 no puede procesar instancias de mensajes que cumplen los esquemas de HL7 que tienen una estructura de esquema ambigua. Una estructura de esquema ambigua es aquella que no se ha definido totalmente el estándar HL7. Estos esquemas incluyen los tipos de mensaje CSU y SUR.  
+>  El motor de BTAHL7 no puede procesar instancias de mensaje que se ajuste a los esquemas de HL7 que tienen una estructura de esquema ambiguo. Una estructura de esquema ambigua es aquella que no se ha definido totalmente el estándar HL7. Estos esquemas incluyen para los tipos de mensaje CSU y SUR.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Versiones 2.X HL7](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-versions.md)  
+-   [Versiones de HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-versions.md)  
   
--   [Eventos y las subcarpetas de HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-subfolders-and-events.md)  
+-   [Subcarpetas y eventos de HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-subfolders-and-events.md)  
   
--   [Archivos de esquema HL7 2.X comunes](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-common-schema-files.md)  
+-   [Archivos de esquema comunes de HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-common-schema-files.md)  
   
--   [Extender HL7 2.X esquemas con objetos de Z](../../adapters-and-accelerators/accelerator-hl7/extending-hl7-2-x-schemas-with-z-objects.md)  
+-   [Ampliar esquemas de HL7 2.X con objetos de Z](../../adapters-and-accelerators/accelerator-hl7/extending-hl7-2-x-schemas-with-z-objects.md)  
   
--   [Resolver errores de base de datos](../../adapters-and-accelerators/accelerator-hl7/resolving-database-errors.md)  
+-   [Resolución de errores de base de datos](../../adapters-and-accelerators/accelerator-hl7/resolving-database-errors.md)  
   
--   ['X' y 'Y' opcionalidad](../../adapters-and-accelerators/accelerator-hl7/x-and-y-optionality.md)  
+-   [Opcionalidad “X” e “Y”](../../adapters-and-accelerators/accelerator-hl7/x-and-y-optionality.md)  
   
--   [Segmentos de campo repetible](../../adapters-and-accelerators/accelerator-hl7/repeatable-field-segments.md)
+-   [Segmentos de campo repetibles](../../adapters-and-accelerators/accelerator-hl7/repeatable-field-segments.md)

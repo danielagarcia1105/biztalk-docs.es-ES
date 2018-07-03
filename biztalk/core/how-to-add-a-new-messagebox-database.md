@@ -1,5 +1,5 @@
 ---
-title: Cómo agregar una nueva base de datos de cuadro de mensajes | Documentos de Microsoft
+title: Cómo agregar una nueva base de datos de cuadro de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cab4fd370aab2d85519b3fd52e0dadcd9583275e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db394722afcdf9e5972a925963b5200b4eba157e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247244"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974525"
 ---
 # <a name="how-to-add-a-new-messagebox-database"></a>Cómo agregar una nueva base de datos de cuadro de mensajes
 Utilice la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para agregar una nueva base de datos de cuadro de mensaje a la implementación de BizTalk Server. Las bases de datos de cuadro de mensajes son la base para los elementos de equilibrio de carga de red entre servidores que realizan procesamiento cooperativo. Para aumentar el número de mensajes que puede procesar el sistema, puede ser necesario agregar bases de datos de cuadro de mensajes adicionales.  
@@ -42,24 +42,24 @@ Utilice la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](..
   
 ### <a name="to-add-a-new-messagebox-database"></a>Para agregar una base de datos de cuadro de mensaje nueva  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk y, a continuación, haga clic en **configuración de plataforma**.  
+2. En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk y, a continuación, haga clic en **configuración de plataforma**.  
   
-3.  Haga clic en **cuadros de mensaje**, haga clic en **New**y, a continuación, haga clic en **cuadro de mensaje**.  
+3. Haga clic en **cuadros de mensaje**, haga clic en **New**y, a continuación, haga clic en **cuadro de mensaje**.  
   
-4.  En el **propiedades de cuadro de mensaje** cuadro de diálogo, realice lo siguiente y, a continuación, haga clic en **Aceptar**:  
+4. En el **propiedades de cuadro de mensaje** cuadro de diálogo, haga lo siguiente y, a continuación, haga clic en **Aceptar**:  
   
-    |Use|Para|  
-    |--------------|----------------|  
-    |**SQL Server**|Mostrar el nombre del servidor SQL que aloja la base de datos de cuadro de mensajes.|  
-    |**Base de datos**|Mostrar el nombre de la base de datos de cuadro de mensajes.|  
-    |**Cuadro de mensaje de suscripción principal**|Indicar si la base de datos de cuadros de mensajes seleccionada es la principal. Si la base de datos de cuadro de mensajes es la principal, esta casilla está activada y no disponible. La primera base de datos de cuadro de mensajes creada cuando se ejecuta el Asistente para Configuración es la principal de forma predeterminada.|  
-    |**Deshabilitar la publicación de mensajes nuevos**|Activar esta casilla para especificar que no desea que esta base de datos de cuadro de mensajes reciba mensajes de activación.|  
+   |Use|Para|  
+   |--------------|----------------|  
+   |**SQL Server**|Mostrar el nombre del servidor SQL que aloja la base de datos de cuadro de mensajes.|  
+   |**Base de datos**|Mostrar el nombre de la base de datos de cuadro de mensajes.|  
+   |**Cuadro de mensaje de suscripción principal**|Indicar si la base de datos de cuadros de mensajes seleccionada es la principal. Si la base de datos de cuadro de mensajes es la principal, esta casilla está activada y no disponible. La primera base de datos de cuadro de mensajes creada cuando se ejecuta el Asistente para Configuración es la principal de forma predeterminada.|  
+   |**Deshabilitar la publicación de mensajes nuevos**|Activar esta casilla para especificar que no desea que esta base de datos de cuadro de mensajes reciba mensajes de activación.|  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar bases de datos de cuadro de mensajes](../core/managing-messagebox-databases.md)   
  [Cómo deshabilitar la publicación de mensajes nuevos](../core/how-to-disable-new-message-publication.md)   
  [Cómo eliminar una base de datos de cuadro de mensajes](../core/how-to-delete-a-messagebox-database.md)   
- [Copia de seguridad y restaurar bases de datos de servidor BizTalk Server](../core/backing-up-and-restoring-biztalk-server-databases.md)   
+ [Copia de seguridad y restaurar bases de datos de BizTalk Server](../core/backing-up-and-restoring-biztalk-server-databases.md)   
  [La base de datos de cuadro de mensajes](../core/the-messagebox-database.md)

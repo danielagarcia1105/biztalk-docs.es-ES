@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11055 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11055 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4626041ba952260834e9bcdbdf9b3538e4d4855a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 49ecac7ef371dd5a40af59c6d9b335c7a758312b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277324"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978227"
 ---
-# <a name="single-sign-on-event-11055"></a>Inicio de sesión único: Evento 11055
+# <a name="single-sign-on-event-11055"></a>De sesión único: Evento 11055
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11055|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_PS_DIRECT_SET_EXTERNAL_PASSWORD|  
-|Texto del mensaje|No se pudo actualizar directamente la contraseña externa en la base de datos de SSO.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Nombre de la aplicación: %2 %r<br /><br /> Cuenta de Windows: %3 %r<br /><br /> Cuenta externa: %4 %r<br /><br /> Código de error: %5|  
+|                 |                                                                                                                                                                                                                                         |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                                        Inicio de sesión único (SSO) empresarial                                                                                                        |
+| Versión del producto |                                                                                       [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                        |
+|    Identificador del evento     |                                                                                                                  11055                                                                                                                  |
+|  Origen del evento   |                                                                                                                 ENTSSO                                                                                                                  |
+|    Componente    |                                                                                                                   N/D                                                                                                                   |
+|  Nombre simbólico  |                                                                                                SSO_WARN_PS_DIRECT_SET_EXTERNAL_PASSWORD                                                                                                 |
+|  Texto del mensaje   | No se pudo actualizar directamente la contraseña externa en la base de datos de SSO.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Nombre de la aplicación: %2 %r<br /><br /> Cuenta de Windows: %3 %r<br /><br /> Cuenta externa: %4 %r<br /><br /> Código de error: %5 |
   
 ## <a name="explanation"></a>Explicación  
  No se pudo actualizar directamente la contraseña externa en la base de datos de SSO.  

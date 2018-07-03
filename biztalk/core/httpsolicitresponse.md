@@ -1,5 +1,5 @@
 ---
-title: HTTPSolicitResponse | Documentos de Microsoft
+title: HTTPSolicitResponse | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 500ec05df9a3a365a350571e8b3e66f5d584f92d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c5a68e24cee95b25596ad5162223c34a75139c13
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973130"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981301"
 ---
 # <a name="httpsolicitresponse"></a>HTTPSolicitResponse
 El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que aproveche una aplicación ASP.NET para ayudar a procesar los datos de la orquestación. En este ejemplo, la orquestación hace uso de un puerto de solicitud y respuesta para enviar un mensaje a la aplicación ASP.NET y para recuperar la respuesta. La integración entre la orquestación de BizTalk Server y la aplicación ASP.NET se consigue mediante el adaptador de HTTP. Para obtener más información, consulte [adaptador de HTTP](../core/http-adapter.md).  
@@ -37,11 +37,11 @@ El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsof
 4.  La orquestación recibe el resultado como XML en una respuesta HTTP y escribe dicho resultado en un archivo .xml en una carpeta concreta.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HTTPSolicitResponse  
+ \<*Ejemplos de la ruta de acceso*\>\AdaptersUsage\HTTPSolicitResponse  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |Cleanup.bat|Anula la implementación de ensamblados y los elimina de la caché de ensamblados global (GAC); elimina puertos de envío y de recepción; elimina directorios virtuales de los Servicios de Microsoft Internet Information Server (IIS) según sea necesario.|  
 |HttpSolicitResponse.btproj, HttpSolicitResponse.sln|Proporciona archivos del proyecto y de origen para el proyecto de BizTalk que contiene la orquestación que usa la aplicación ASP.NET de multiplicador, los esquemas asociados, etc.|  
@@ -60,51 +60,51 @@ El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsof
   
 #### <a name="to-build-and-initialize-the-sample"></a>Para crear e iniciar el ejemplo  
   
-1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
+1. En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HTTPSolicitResponse  
+    \<*Ejemplos de la ruta de acceso*\>\AdaptersUsage\HTTPSolicitResponse  
   
-2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
+2. Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
-    -   Crea las carpetas de entrada y de salida para este ejemplo:  
+   - Crea las carpetas de entrada y de salida para este ejemplo:  
   
-         \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
+      \<*Ejemplos de la ruta de acceso*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
   
-         \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
+      \<*Ejemplos de la ruta de acceso*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
   
-    -   Compila y configura la aplicación ASP.NET de multiplicador que usa este ejemplo.  
+   - Compila y configura la aplicación ASP.NET de multiplicador que usa este ejemplo.  
   
-        > [!NOTE]
-        >  Al crear el grupo de aplicaciones en el Administrador de IIS, establezca el **DefaultAppPool** versión de .NET Framework para **.Net Framework v4.0**.  
+     > [!NOTE]
+     >  Al crear el grupo de aplicaciones en el Administrador de IIS, establezca el **DefaultAppPool** versión de .NET Framework para **.Net Framework v4.0**.  
   
-    -   Compila e implementa la orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que se usa en este ejemplo.  
+   - Compila e implementa la orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que se usa en este ejemplo.  
   
-    -   Crea y enlaza la ubicación y los puertos de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesarios.  
+   - Crea y enlaza la ubicación y los puertos de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesarios.  
   
-        > [!NOTE]
-        >  Este ejemplo muestra las siguientes advertencias al crear y enlazar los puertos:  
+     > [!NOTE]
+     >  Este ejemplo muestra las siguientes advertencias al crear y enlazar los puertos:  
   
-        > [!NOTE]
-        >  `Warning: Receive handler not specified for receive location "HttpSolicitResponseReceiveLocation"; updating with first receive handler with matching transport type.`  
+     > [!NOTE]
+     >  `Warning: Receive handler not specified for receive location "HttpSolicitResponseReceiveLocation"; updating with first receive handler with matching transport type.`  
   
-        > [!NOTE]
-        >  `Warning: Host not specified for orchestration "Microsoft.Samples.BizTalk.HttpSolicitResponse.MultiplyTwoIntegers"; updating with first available host.`  
+     > [!NOTE]
+     >  `Warning: Host not specified for orchestration "Microsoft.Samples.BizTalk.HttpSolicitResponse.MultiplyTwoIntegers"; updating with first available host.`  
   
-    -   Habilita la ubicación de recepción e inicia el puerto de envío.  
+   - Habilita la ubicación de recepción e inicia el puerto de envío.  
   
-        > [!NOTE]
-        >  La orquestación de este ejemplo usa un puerto bidireccional para la interacción HTTP con la aplicación ASP.NET.  
+     > [!NOTE]
+     >  La orquestación de este ejemplo usa un puerto bidireccional para la interacción HTTP con la aplicación ASP.NET.  
   
-        > [!NOTE]
-        >  Debe confirmar que BizTalk no ha informado de ningún error durante el proceso de generación e inicialización antes de intentar ejecutar este ejemplo.  
+     > [!NOTE]
+     >  Debe confirmar que BizTalk no ha informado de ningún error durante el proceso de generación e inicialización antes de intentar ejecutar este ejemplo.  
   
-        > [!NOTE]
-        >  Si opta por abrir y crear los proyectos de este ejemplo sin ejecutar el archivo Setup.bat, debe crear, en primer lugar, un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice este par de claves para firmar los ensamblados resultantes.  
+     > [!NOTE]
+     >  Si opta por abrir y crear los proyectos de este ejemplo sin ejecutar el archivo Setup.bat, debe crear, en primer lugar, un par de claves de nombre seguro mediante la utilidad de nombre seguro de .NET Framework (sn.exe). Utilice este par de claves para firmar los ensamblados resultantes.  
   
-        > [!NOTE]
-        >  Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
+     > [!NOTE]
+     >  Para deshacer los cambios realizados por Setup.bat, ejecute Cleanup.bat. Debe ejecutar Cleanup.bat antes de ejecutar Setup.bat por segunda vez.  
   
-## <a name="running-the-sample"></a>Ejecutar el ejemplo  
+## <a name="running-the-sample"></a>Ejecución del ejemplo  
  Utilice el siguiente procedimiento para ejecutar el ejemplo HTTPSolicitResponse.  
   
 #### <a name="to-run-the-sample"></a>Para ejecutar el ejemplo  

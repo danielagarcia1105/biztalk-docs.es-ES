@@ -1,5 +1,5 @@
 ---
-title: Componente de canalización del Editor de mensajes | Documentos de Microsoft
+title: Componente de canalización del Editor de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,48 +17,48 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f7685fbf800ad69b20eda31e9b64cb75ec7c511
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: 6f0ac419e64b8a1a949fb2e3044be9de670b387a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855687"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975429"
 ---
 # <a name="message-editor-pipeline-component"></a>Componente de canalización del editor de mensajes
 Este componente permite editar automáticamente cualquier parte de un mensaje de varias partes dentro de una canalización de envío o recepción. Este componente se agrega a una canalización existente para configurar el reemplazo como parte del procesamiento normal.  
   
 ## <a name="building-the-message-editor-pipeline-component-into-an-existing-pipeline"></a>Crear el componente de canalización del editor de mensajes en una canalización existente  
- Para usar el componente de canalización del editor de mensajes, debe agregar el componente a una canalización existente. Para obtener más información, vea "Crear canalizaciones con Diseñador de canalizaciones" en la Ayuda de BizTalk Server.  
+ Para usar el componente de canalización del editor de mensajes, debe agregar el componente a una canalización existente. Para obtener más información, consulte "Creación de canalizaciones con Diseñador de canalizaciones" en la Ayuda de BizTalk Server.  
   
 #### <a name="to-add-the-message-editor-pipeline-component-to-an-existing-pipeline"></a>Para agregar el componente de canalización del editor de mensajes en una canalización existente  
   
-1.  Inicie Visual Studio.  
+1. Inicie Visual Studio.  
   
-2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
+2. En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
-3.  Mover a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, seleccione **MessageEditor.csproj**y, a continuación, haga clic en **abrir** .  
+3. Mover a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, seleccione **MessageEditor.csproj**y, a continuación, haga clic en **abierto** .  
   
-4.  Inicie el símbolo del sistema de Visual Studio.  
+4. Inicie el símbolo del sistema de Visual Studio.  
   
-5.  En el símbolo del sistema, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
+5. En el símbolo del sistema, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
   
-6.  En el símbolo del sistema, escriba **sn -k MessageEditor.snk** para crear una clave y, a continuación, presione ENTRAR.  
+6. En el símbolo del sistema, escriba **sn -k MessageEditor.snk** para crear una clave y, a continuación, presione ENTRAR.  
   
-7.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en el Explorador de soluciones, haga clic en **MessageEditor**y, a continuación, haga clic en **propiedades**.  
+7. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en el Explorador de soluciones, haga clic en **MessageEditor**y, a continuación, haga clic en **propiedades**.  
   
-8.  En la página **Propiedad de MessageEditor** , haga clic en la ficha **Firma** y, a continuación, haga clic en la casilla **Firmar el ensamblado** .  
+8. En la página **Propiedad de MessageEditor** , haga clic en la ficha **Firma** y, a continuación, haga clic en la casilla **Firmar el ensamblado** .  
   
-9. En **elegir un archivo de clave de nombre seguro** lista desplegable, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para Component\obj\debug de canalización RosettaNet\ SDK\Message Editor y seleccione **MessageEditor.snk** y, a continuación, haga clic en **abiertos**.  
+9. En **elegir un archivo de clave de nombre seguro** lista desplegable, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> aceleración de menú rosettanet\sdk\message Editor Pipeline Component\obj\debug y seleccione **MessageEditor.snk** y, a continuación, haga clic en **abierto**.  
   
 10. En el Explorador de soluciones, haga clic con el botón derecho en **MessageEditor**y, a continuación, haga clic en **Compilar**. En el panel de salida, compruebe que la compilación se realizó correctamente.  
   
 11. Haga clic en **Inicio**, elija **Todos los programas**, seleccione **Accesorios**y, a continuación, haga clic en **Explorador de Windows**.  
   
-12. En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] pulse el botón derecho en el explorador, vaya a C:\Program Files\Microsoft BizTalk 2013 Accelerator para RosettaNet\SDK\Message Editor Pipeline Component\obj\debug, **Microsoft.Solutions.BTARN.SDK.MessageEditor.dll**, y, a continuación, haga clic en **copia**.  
+12. En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] haga clic en el explorador, vaya a C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug, **Microsoft.Solutions.BTARN.SDK.MessageEditor.dll**, y, a continuación, haga clic en **copia**.  
   
 13. Vaya a C:\Program Files\Microsoft BizTalk Server 2013\Pipeline Components, haga clic con el botón derecho en **Componentes de canalización**y haga clic en **Pegar**.  
   
-14. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en la **archivo** menú, elija **abiertos**y, a continuación, haga clic en **proyecto**.  
+14. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en el **archivo** menú, elija **abierto**y, a continuación, haga clic en **proyecto**.  
   
 15. Abra el proyecto que contiene la canalización a la que desea agregar el editor.  
   

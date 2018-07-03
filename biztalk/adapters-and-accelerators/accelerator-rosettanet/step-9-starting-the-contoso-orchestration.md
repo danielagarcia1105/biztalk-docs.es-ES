@@ -1,5 +1,5 @@
 ---
-title: 'Paso 9: Iniciar la orquestación de Contoso | Documentos de Microsoft'
+title: 'Paso 9: Iniciar la orquestación de Contoso | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d58d7f2f9d725fca94eb6cf3d2412b3c376fe015
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 994355b67c19a7411c62f8858033e44cb8bdf3f4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209452"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990831"
 ---
 # <a name="step-9-starting-the-contoso-orchestration"></a>Paso 9: Iniciar la orquestación de Contoso
 En este paso completará el proceso de configuración de los puertos mediante la definición de las ubicaciones físicas de origen y de destino. Enlazar los puertos físicos a los puertos lógicos que creó en [paso 7: crear y configurar puertos](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md). A continuación, dará de alta el servicio para asociar el proceso de negocio que ha diseñado en la orquestación con el entorno físico en el que se ejecutará la orquestación. Por último, iniciará la orquestación para que pueda participar en transacciones de negocio con Fabrikam.  
@@ -42,11 +42,11 @@ En este paso completará el proceso de configuración de los puertos mediante la
   
 ### <a name="to-start-the-biztalk-runtime-process"></a>Para iniciar el proceso de tiempo de ejecución de BizTalk  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En la consola de administración de BizTalk, en el panel izquierdo, expanda [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, Expanda **instancias de Host**.  
+2. En la consola de administración de BizTalk, en el panel izquierdo, expanda [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, Expanda **instancias de Host**.  
   
-3.  Compruebe que el estado del servicio **BizTalkServerApplication** es **En ejecución**.  
+3. Compruebe que el estado del servicio **BizTalkServerApplication** es **En ejecución**.  
   
 ### <a name="to-enlist-and-start-the-orchestration"></a>Para dar de alta e iniciar la orquestación  
   

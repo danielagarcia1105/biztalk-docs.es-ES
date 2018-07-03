@@ -1,5 +1,5 @@
 ---
-title: Tipos de errores de mensaje | Documentos de Microsoft
+title: Tipos de errores de mensaje | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,12 +23,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 466c7c21fd1a00e192307dd82384dc613b6697a5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8a3dc40d2b82e90332b27719adce36b27f78ebd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286756"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984013"
 ---
 # <a name="types-of-message-failures"></a>Tipos de errores de mensaje
 En este tema se enumeran los distintos puntos en los que puede producirse un error de mensaje.  
@@ -45,13 +45,13 @@ En este tema se enumeran los distintos puntos en los que puede producirse un err
   
  **Errores durante la fase de transformación**  
   
--   **Mensajes recibidos**. Cuando se recibe un mensaje procedente de una ubicación de recepción, se efectúa el desensamblado del mensaje (por ejemplo, se descifra y se analiza) y, de forma opcional, puede transformarse a un formato distinto mediante una asignación de entrada especificada en un puerto de envío, además de publicarse en el cuadro de mensajes para su enrutamiento a una orquestación o a un puerto de envío. En este caso, puede producirse un error de procesamiento durante la fase de transformación debido a una asignación de entrada incorrecta, o a problemas en el esquema o en el mensaje recibido.  
+- **Los mensajes recibidos**. Cuando se recibe un mensaje procedente de una ubicación de recepción, se efectúa el desensamblado del mensaje (por ejemplo, se descifra y se analiza) y, de forma opcional, puede transformarse a un formato distinto mediante una asignación de entrada especificada en un puerto de envío, además de publicarse en el cuadro de mensajes para su enrutamiento a una orquestación o a un puerto de envío. En este caso, puede producirse un error de procesamiento durante la fase de transformación debido a una asignación de entrada incorrecta, o a problemas en el esquema o en el mensaje recibido.  
   
--   **Los mensajes enviados**. Cuando un mensaje debe enviarse a una ubicación de envío, una asignación de entrada configurada en el puerto de envío puede, de forma opcional, transformar el mensaje. A continuación, el mensaje transformado se ensambla y se entrega al adaptador para su transmisión definitiva a la ubicación de envío. En este caso, puede producirse un error de procesamiento en la fase de transformación debido a una asignación de salida incorrecta, o a problemas en el esquema o en el mensaje de origen.  
+- **Los mensajes enviados**. Cuando un mensaje debe enviarse a una ubicación de envío, una asignación de entrada configurada en el puerto de envío puede, de forma opcional, transformar el mensaje. A continuación, el mensaje transformado se ensambla y se entrega al adaptador para su transmisión definitiva a la ubicación de envío. En este caso, puede producirse un error de procesamiento en la fase de transformación debido a una asignación de salida incorrecta, o a problemas en el esquema o en el mensaje de origen.  
   
- **Errores en la fase de ensamblado de mensaje**  
+  **Errores en la fase de ensamblado de mensaje**  
   
- También puede producirse un error de procesamiento durante la fase de ensamblado del mensaje, es decir, en el componente de canalización. Cuando el mensaje se ha ensamblado correctamente, el siguiente punto posible de error es la transmisión a la ubicación de envío; por ejemplo, cuando la ubicación de envío (que pertenece a un socio comercial) no funciona o no existe.  
+  También puede producirse un error de procesamiento durante la fase de ensamblado del mensaje, es decir, en el componente de canalización. Cuando el mensaje se ha ensamblado correctamente, el siguiente punto posible de error es la transmisión a la ubicación de envío; por ejemplo, cuando la ubicación de envío (que pertenece a un socio comercial) no funciona o no existe.  
   
 ## <a name="see-also"></a>Vea también  
- [Investigación de orquestación, puerto y errores de mensaje](../core/investigating-orchestration-port-and-message-failures.md)
+ [Investigación de errores de mensaje, orquestación y puerto](../core/investigating-orchestration-port-and-message-failures.md)

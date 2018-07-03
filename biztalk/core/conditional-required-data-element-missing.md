@@ -1,5 +1,5 @@
 ---
-title: Requerido condicional falta de elemento de datos | Documentos de Microsoft
+title: Falta un elemento de datos requerido condicional | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d77a25e60af0d8287515d6fb3a7e2797d5af0b3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f43ebf2ba593ad5133b93400bf0e9cb1151dc45b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231964"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978445"
 ---
 # <a name="conditional-required-data-element-missing"></a>Falta un elemento de datos requerido condicional.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12DeConditionalRequiredDataElementMissingDescription|  
-|Texto del mensaje|Falta un elemento de datos requerido condicional.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                 X12DeConditionalRequiredDataElementMissingDescription                  |
+|  Texto del mensaje   |                       Falta un elemento de datos requerido condicional.                        |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción EDI no pudo procesar el intercambio entrante porque no existe en el intercambio un elemento de datos requerido por la regla X12ConditionDesignatorX.  

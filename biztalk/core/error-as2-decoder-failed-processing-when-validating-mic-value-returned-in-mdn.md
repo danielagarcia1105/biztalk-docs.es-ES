@@ -1,5 +1,5 @@
 ---
-title: El descodificador AS2 no pudo procesar al validar el valor MIC devuelto en MDN | Documentos de Microsoft
+title: El descodificador AS2 no pudo procesar al validar el valor MIC devuelto en MDN | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 90388f27c44314d1c5bc795744366cfc88ed6321
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b15ec1518e4736052e31254283db66395d87fb6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985845"
 ---
 # <a name="the-as2-decoder-failed-processing-when-validating-the-mic-value-returned-in-the-mdn"></a>Error de procesamiento de descodificador AS2 al validar el valor MIC devuelto en MDN
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|AS2DecoderMdnMicFailureDuringProcessing|  
-|Texto del mensaje|Error de procesamiento de descodificador AS2 al validar el valor MIC devuelto en MDN.  Detalles del mensaje MDN son los siguientes: AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}" OriginalMessageID: "\ {3\}"|  
+|                 |                                                                                                                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                           |
+| Versión del producto |                                                                      [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                       |
+|    Identificador del evento     |                                                                                                   -                                                                                                   |
+|  Origen del evento   |                                                        EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                         |
+|    Componente    |                                                                                              Motor AS2                                                                                               |
+|  Nombre simbólico  |                                                                                AS2DecoderMdnMicFailureDuringProcessing                                                                                |
+|  Texto del mensaje   | Error de procesamiento de descodificador AS2 al validar el valor MIC devuelto en MDN.  Detalles del mensaje MDN son los siguientes: AS2-de: "{0}" AS2-para: "{1}" MessageID: "{2}" OriginalMessageID: "{3}" |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el MDN entrante debido a que la comprobación de integridad del mensaje (MIC) no se pudo validar.  

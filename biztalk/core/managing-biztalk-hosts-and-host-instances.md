@@ -1,5 +1,5 @@
 ---
-title: Administrar instancias de Host y Hosts de BizTalk | Documentos de Microsoft
+title: Administración de Hosts de BizTalk y las instancias de Host | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0e60981f69bc3ff71bdd8581659f9cdd20f87467
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1915408853680140643445f4878d9ac925139def
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262588"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983405"
 ---
 # <a name="managing-biztalk-hosts-and-host-instances"></a>Administrar hosts de BizTalk e instancias de host
 Un host de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es un conjunto lógico de cero o más procesos de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el que se implementan elementos como controladores de adaptador, ubicaciones de recepción (incluidas las canalizaciones) y orquestaciones. Para obtener más información acerca de los hosts, consulte [Hosts](../core/hosts.md).  
@@ -30,32 +30,32 @@ Un host de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernove
   
  Los hosts tienen las siguientes características:  
   
--   Los hosts son contenedores lógicos de objetos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Los hosts son contenedores lógicos de objetos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Solo puede existir una instancia de un host específico en cada servidor.  
+- Solo puede existir una instancia de un host específico en cada servidor.  
   
--   Puede asignar un host a varios servidores.  
+- Puede asignar un host a varios servidores.  
   
- Las instancias de host tienen las siguientes características:  
+  Las instancias de host tienen las siguientes características:  
   
--   Las instancias de host son contenedores físicos de objetos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Las instancias de host son contenedores físicos de objetos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Se crea una instancia de host cuando se asigna un servidor a un host.  
+- Se crea una instancia de host cuando se asigna un servidor a un host.  
   
--   Pueden existir varias instancias de host (o hosts diferentes) en un servidor cuando se efectúa el equilibrio de carga o para la conmutación por error.  
+- Pueden existir varias instancias de host (o hosts diferentes) en un servidor cuando se efectúa el equilibrio de carga o para la conmutación por error.  
   
- La siguiente ilustración muestra la relación entre servidores, hosts e instancias de host.  
+  La siguiente ilustración muestra la relación entre servidores, hosts e instancias de host.  
   
- ![Hosts, instancias de host y las relaciones de servidor](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")  
-Relación entre hosts, instancias de host y servidores  
+  ![Hosts, instancias de host y las relaciones de servidor](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")  
+  Relación entre hosts, instancias de host y servidores  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Cómo crear un entorno de host de BizTalk Server](../core/how-to-create-a-biztalk-server-hosting-environment.md)  
+-   [Cómo crear un entorno de hospedaje de BizTalk Server](../core/how-to-create-a-biztalk-server-hosting-environment.md)  
   
 -   [Cómo crear un nuevo Host](../core/how-to-create-a-new-host.md)  
   
--   [Cómo modificar las propiedades de Host](../core/how-to-modify-host-properties.md)  
+-   [Cómo modificar las propiedades del Host](../core/how-to-modify-host-properties.md)  
   
 -   [Cómo eliminar un Host](../core/how-to-delete-a-host.md)  
   
@@ -67,4 +67,4 @@ Relación entre hosts, instancias de host y servidores
   
 -   [Cómo eliminar una instancia de Host](../core/how-to-delete-a-host-instance.md)  
   
--   [Cómo modificar las propiedades de la instancia de Host](../core/how-to-modify-host-instance-properties.md)
+-   [Cómo modificar las propiedades de instancia de Host](../core/how-to-modify-host-instance-properties.md)

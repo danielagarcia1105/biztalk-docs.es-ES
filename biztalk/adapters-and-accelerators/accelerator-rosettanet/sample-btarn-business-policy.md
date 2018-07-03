@@ -1,5 +1,5 @@
 ---
-title: Directiva empresarial de BTARN de ejemplo | Documentos de Microsoft
+title: Directiva empresarial de BTARN de ejemplo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c85cbb7894f0d8bd1b61b7e7856865b49fd33859
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 5e055d039e323fb985d9650f6f105bb3b44e9581
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25960626"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974909"
 ---
 # <a name="sample-btarn-business-policy"></a>Directiva empresarial de BTARN de ejemplo
-Este ejemplo es el código XML asociado con un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] directiva de reglas de negocios.  
+Este ejemplo es el código XML asociado con un Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] directiva de reglas de negocios.  
   
- El archivo de ejemplo es samplebtarnpolicy.XML, en \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK\ PIPAutomation\3A4.  
+ El archivo de ejemplo es samplebtarnpolicy.XML, en \< *unidad*\>: \Program archivos\\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\ PIPAutomation\3A4.  
   
 ## <a name="demonstrates"></a>Demostraciones  
  Este código muestra una directiva de reglas de negocio con la siguiente regla:  

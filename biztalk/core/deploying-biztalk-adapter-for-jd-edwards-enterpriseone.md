@@ -1,5 +1,5 @@
 ---
-title: Importar aplicaciones de JD Edwards EnterpriseOne | Documentos de Microsoft
+title: Importar aplicaciones JD Edwards EnterpriseOne | Microsoft Docs
 description: Confirmar la instalación, importe el archivo de enlace de la aplicación y revisar las limitaciones del adaptador de JD Edwards EnterpriseOne en BizTalk
 ms.custom: ''
 ms.date: 10/18/2017
@@ -13,12 +13,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 55374c87192c993e26cc11cb496d89074d527868
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 708e9d3513c9d36e9a4aa28d607332e4c1aac077
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25969676"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989373"
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>Importar la aplicación JD Edwards EnterpriseOne
   
@@ -27,13 +27,13 @@ Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
   
  Puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para realizar las tareas siguientes:  
   
--   Implementar o quitar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ensamblados en una base de datos de configuración de BizTalk  
+- Implementar o quitar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ensamblados en una base de datos de configuración de BizTalk  
   
--   Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
+- Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
   
--   Importar o exportar información de vínculos de ensamblados de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde y a archivos de vínculos  
+- Importar o exportar información de vínculos de ensamblados de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde y a archivos de vínculos  
   
-Usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
+Para usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
   
 > [!NOTE]
 >  El adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne solo necesita que tenga Visual Studio en un equipo de origen (desarrollo). Visual Studio no es necesario en el equipo de producción.  
@@ -50,7 +50,7 @@ Antes de usar BizTalk Server para importar un archivo de enlace, debe comprobar 
 ## <a name="clean-the-target-computer"></a>Limpiar el equipo de destino
 Al volver a implementar un archivo de enlace (y un ensamblado) en un equipo de destino, los puertos de envío y las ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se vuelven a importar.  
   
-Antes de importar, quite los puertos de envío y ubicaciones de recepción vinculadas a la orquestación. Si Visual Studio no está instalado en el equipo de destino, puede quitar los puertos ejecutando estos scripts:  
+Antes de importar, quite los puertos de envío y enlazadas a la orquestación de las ubicaciones de recepción. Si Visual Studio no está instalado en el equipo de destino, puede quitar los puertos ejecutando estos scripts:  
   
 - [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
   

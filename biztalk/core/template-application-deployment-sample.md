@@ -1,5 +1,5 @@
 ---
-title: Plantilla (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+title: Plantilla (ejemplo de implementación de aplicaciones) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,17 +17,17 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 315a685f0e289d60e3db9dfbe77bae5a7e2b19f0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 7d096dac4d1c51101ddadff9eb6c49c04202d375
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975018"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000061"
 ---
 # <a name="template-application-deployment-sample"></a>Plantilla (ejemplo de implementación de aplicaciones)
 En este tema se describe cómo usar el ejemplo de la plantilla para la implementación de aplicaciones.  
   
- Puede crear y utilizar dos tipos de scripts de implementación para personalizar la implementación de la aplicación de BizTalk: las secuencias de comandos de procesamiento previo y posterior al procesamiento de las secuencias de comandos. Las secuencias de comandos previas al procesamiento se invocan antes de la importación e instalación de la aplicación y después de finalizar el proceso de desinstalación. Las secuencias de comandos posteriores se invocan después de la importación e instalación de la aplicación y antes de finalizar el proceso de desinstalación.  
+ Puede crear y usar dos tipos de scripts de implementación para personalizar la implementación de la aplicación de BizTalk: procesamiento previo de las secuencias de comandos y scripts de postprocesamiento. Las secuencias de comandos previas al procesamiento se invocan antes de la importación e instalación de la aplicación y después de finalizar el proceso de desinstalación. Las secuencias de comandos posteriores se invocan después de la importación e instalación de la aplicación y antes de finalizar el proceso de desinstalación.  
   
  Puede escribir secuencias de comandos previas y posteriores al procesamiento para que estén invocadas en cada una de estas operaciones. También puede configurar las secuencias de comandos para que sólo se ejecuten después de una operación. Para obtener más información sobre cómo escribir secuencias de comandos, consulte [mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md).  
   
@@ -65,7 +65,7 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Este ejemplo se encuentra en la carpeta de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], en la ruta de acceso siguiente:  
   
- *\<Ejemplos de ruta de acceso\>* \applicationdeployment\template  
+ *\<Ejemplos de la ruta de acceso\>* \applicationdeployment\template  
   
  Como se ha mencionado anteriormente, el ejemplo incluye dos archivos:  
   
@@ -86,35 +86,35 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
   
 ### <a name="to-create-a-new-application"></a>Para crear una aplicación nueva  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] y el grupo de BizTalk.  
+2. En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] y el grupo de BizTalk.  
   
-3.  Haga clic en **aplicaciones** y, a continuación, haga clic en **nuevo**.  
+3. Haga clic en **aplicaciones** y, a continuación, haga clic en **New**.  
   
-4.  En **nombre de la aplicación**, tipo `SamplesTemplate`y, a continuación, haga clic en **Aceptar**.  
+4. En **nombre de la aplicación**, tipo `SamplesTemplate`y, a continuación, haga clic en **Aceptar**.  
   
 ### <a name="to-add-the-scripts-to-the-application"></a>Para agregar las secuencias de comandos a la aplicación  
   
 1.  Expanda la carpeta de la aplicación SamplesTemplate que acaba de crear y haga clic en **recursos** en el panel izquierdo.  
   
-2.  Seleccione **agregar** y haga clic en **secuencias de comandos de preprocesamiento**.  
+2.  Seleccione **agregar** y haga clic en **secuencias de comandos de procesamiento previo**.  
   
 3.  Haga clic en **agregar** y desplácese a SamplePreProcessing.bat.  
   
-4.  Seleccione el archivo y haga clic en **abiertos**.  
+4.  Seleccione el archivo y haga clic en **abierto**.  
   
-5.  En **tipo de archivo**, haga clic en **System.BizTalk:PreprocessingScript**y, a continuación, haga clic en **Aceptar**.  
+5.  En **tipo de archivo**, haga clic en **BizTalk: preprocessingscript**y, a continuación, haga clic en **Aceptar**.  
   
      SamplesPreProcessing.bat se agrega a la aplicación y se muestra en la carpeta Recursos de la aplicación.  
   
-6.  Haga clic en recursos de nuevo, seleccione **agregar**y, a continuación, haga clic en **secuencias de comandos posteriores al procesamiento**.  
+6.  Haga clic en los recursos de nuevo, seleccione **agregar**y, a continuación, haga clic en **secuencias de comandos posteriores al procesamiento**.  
   
 7.  Haga clic en **agregar** y desplácese a SamplePostProcessing.bat.  
   
-8.  Seleccione el archivo y haga clic en **abiertos**.  
+8.  Seleccione el archivo y haga clic en **abierto**.  
   
-9. En **tipo de archivo**, haga clic en **System.BizTalk:PostprocessingScript**y, a continuación, haga clic en **Aceptar**.  
+9. En **tipo de archivo**, haga clic en **BizTalk: postprocessingscript**y, a continuación, haga clic en **Aceptar**.  
   
      SamplesPostProcessing.bat se agregará a la aplicación y se mostrará en la carpeta Recursos de la aplicación.  
   
@@ -122,7 +122,7 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
   
 1.  En la consola de administración de BizTalk Server, haga clic en la aplicación SamplesTemplate, seleccione **exportar**y, a continuación, haga clic en **archivo MSI**.  
   
-2.  En la página Asistente para la página del Asistente para exportación, haga clic en **siguiente**.  
+2.  En la bienvenida a la página del Asistente para exportación, haga clic en **siguiente**.  
   
 3.  En la página Seleccionar recursos, haga clic en **siguiente**.  
   
@@ -142,18 +142,18 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
   
 ### <a name="to-import-the-msi-file"></a>Para importar el archivo .msi  
   
-1.  En la consola de administración de BizTalk Server, haga clic en **aplicaciones**, seleccione **importación**y, a continuación, haga clic en **archivo MSI**.  
+1.  En la consola de administración de BizTalk Server, haga clic en **aplicaciones**, apunte a **importación**y, a continuación, haga clic en **archivo MSI**.  
   
-2.  En la página Asistente para la página del Asistente para la importación, en **archivo MSI para importar**, escriba la ruta de acceso del archivo .msi que exportó anteriormente y, a continuación, haga clic en **siguiente**. Si es necesario, también puede examinar para encontrar el archivo MSI haciendo clic en el **(...)** botón.  
+2.  En la bienvenida a la página del Asistente para la importación, en **archivo MSI para importar**, escriba la ruta de acceso del archivo .msi que se haya exportado anteriormente y, a continuación, haga clic en **siguiente**. Si es necesario, puede examinar para encontrar el archivo MSI haciendo clic en el **(...)** botón.  
   
-3.  En la página Configuración de la aplicación, en la **nombre de la aplicación** lista desplegable, seleccione el nombre de la aplicación.  
+3.  En la página de configuración de la aplicación, en el **nombre de la aplicación** lista desplegable, seleccione el nombre de la aplicación.  
   
 4.  En **aplicaciones disponibles para agregar referencias a**, seleccione las aplicaciones que se va a agregar referencias, si los hay y, a continuación, haga clic en **siguiente**.  
   
-5.  En la página de configuración del entorno de destino de aplicación, haga clic en **siguiente**.  
+5.  En la página Configuración del entorno de destino de aplicación, haga clic en **siguiente**.  
   
     > [!NOTE]
-    >  No es necesario especificar un entorno de destino para los fines de este ejemplo. Para obtener información general acerca de esta característica, consulte [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md). Para obtener instrucciones sobre cómo agregar archivos de enlace, consulte [cómo agregar un archivo de enlace a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md).  
+    >  No es necesario especificar un entorno de destino para los fines de este ejemplo. Para obtener información general sobre esta característica, consulte [archivos de enlace e implementación de aplicaciones](../core/binding-files-and-application-deployment.md). Para obtener instrucciones sobre cómo agregar archivos de enlace, consulte [cómo agregar un archivo de enlace a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md).  
   
 6.  En la página Importar resumen, confirme que la información de resumen es correcta y, a continuación, haga clic en **importación**.  
   

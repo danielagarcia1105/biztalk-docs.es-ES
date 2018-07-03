@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos de instalación, configuración e implementación | Documentos de Microsoft
+title: Problemas conocidos de instalación, configuración e implementación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cda1bd5c8167bbf9f6049b3620c0c949950b1e89
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 067d579317f9f034c65fe0f23cbf2f2d7f7b77f6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299836"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982653"
 ---
 # <a name="known-issues-in-installation-configuration-and-deployment"></a>Problemas conocidos en la instalación, configuración e implementación
 ## <a name="some-biztalk-edias2-artifacts-are-still-active-after-unconfiguring"></a>Algunos artefactos de EDI y AS2 de BizTalk siguen activos después de quitar la configuración  
@@ -52,11 +52,11 @@ ms.locfileid: "22299836"
   
 ### <a name="problem"></a>Problema  
   
--   El Asistente para configuración de reglas de negocio falla con el error "Error al configurar algunos componentes. No se aplicó la configuración a esos componentes".  
+- El Asistente para configuración de reglas de negocio falla con el error "Error al configurar algunos componentes. No se aplicó la configuración a esos componentes".  
   
--   En los equipos de BizTalk Server para los que ya se ha configurado correctamente el motor de reglas de negocio, se produce un error al iniciar el servicio Actualización del motor de reglas y no se puede iniciar manualmente.  
+- En los equipos de BizTalk Server para los que ya se ha configurado correctamente el motor de reglas de negocio, se produce un error al iniciar el servicio Actualización del motor de reglas y no se puede iniciar manualmente.  
   
- Cuando se da este problema, es posible que se genere un error similar al siguiente en el registro de aplicación del equipo de BizTalk Server:  
+  Cuando se da este problema, es posible que se genere un error similar al siguiente en el registro de aplicación del equipo de BizTalk Server:  
   
 ```  
 Service could not be started. : System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it ::1:3132  
@@ -76,7 +76,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
  El archivo HOSTS se encuentra en el directorio %systemroot%\drivers\etc\.  
   
 > [!NOTE]
->  Para obtener más información sobre la actualización de firma del Centro de protección contra malware de Microsoft que trata una posible amenaza de SettingsModifier:Win32/PossibleHostsFileHijack, consulte [http://go.microsoft.com/fwlink/?LinkId=146221](http://go.microsoft.com/fwlink/?LinkId=146221).  
+>  Para obtener más información sobre la actualización de firma de Microsoft Malware Protection Center que trata una posible amenaza de settingsmodifier: Win32 / PossibleHostsFileHijack, consulte [ http://go.microsoft.com/fwlink/?LinkId=146221 ](http://go.microsoft.com/fwlink/?LinkId=146221).  
   
 ## <a name="enlistment-of-an-orchestration-fails-if-referenced-assemblies-are-missing-from-the-gacmgmt-db"></a>Se produce un error al dar de alta una orquestación si en la base de datos de GAC/Mgmt faltan ensamblados a los que se hace referencia  
   

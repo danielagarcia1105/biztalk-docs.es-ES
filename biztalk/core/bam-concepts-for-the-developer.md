@@ -1,5 +1,5 @@
 ---
-title: Conceptos BAM para que el programador | Documentos de Microsoft
+title: Conceptos de BAM para el desarrollador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e407121e9f71707b45f95e77a8520ed30df3b33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fc6d74eb8b14479776febea1530e142e6897729
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230812"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967453"
 ---
 # <a name="bam-concepts-for-the-developer"></a>Conceptos de BAM para el programador
 Como programador de BAM, es necesario familiarizarse con los conceptos BAM importantes, por ejemplo, las actividades, continuaciones y referencias. Además, debe comprender las diferencias entre el procesamiento de seguimiento y el procesamiento transaccional.  
@@ -36,11 +36,11 @@ Como programador de BAM, es necesario familiarizarse con los conceptos BAM impor
 ## <a name="what-is-a-continuation"></a>¿Qué es una continuación?  
  Las continuaciones proporcionan a la infraestructura de BAM la siguiente información:  
   
--   El orden en que se espera que se produzcan los eventos  
+- El orden en que se espera que se produzcan los eventos  
   
--   Un medio para controlar cualquier cambio en el Id. único con el que se correlacionan los elementos de evento  
+- Un medio para controlar cualquier cambio en el Id. único con el que se correlacionan los elementos de evento  
   
- Para obtener más información acerca de las continuaciones y cómo se utilizan, consulte [nodos Continuation y ContinuationID](../core/continuation-and-continuationid-nodes.md).  
+  Para obtener más información acerca de las continuaciones y cómo se usan, vea [nodos Continuation y ContinuationID](../core/continuation-and-continuationid-nodes.md).  
   
 ## <a name="what-is-a-reference"></a>¿Qué es una referencia?  
  Una referencia (también conocida como actividad relacionada) especifica una relación entre una actividad y algún otro elemento. Los ejemplos de elementos que se pueden relacionar son otra actividad o una ubicación de documentación.  

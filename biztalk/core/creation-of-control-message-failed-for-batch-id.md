@@ -1,5 +1,5 @@
 ---
-title: Error de creación del mensaje de Control para el identificador de lote | Documentos de Microsoft
+title: Error de creación del mensaje de Control para el identificador de lote | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a5650ab649e9b0957e64f3cdecc13c725d64536
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ba63bc570ac29f95c70b5bc6e09050e26c435b2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238196"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979805"
 ---
 # <a name="creation-of-control-message-failed-for-batch-id"></a>Error en la creación del mensaje de control para el identificador del lote
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|CreateControlMessageFailed|  
-|Texto del mensaje|Error en la creación del mensaje de control para el identificador {0} del lote.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                               CreateControlMessageFailed                               |
+|  Texto del mensaje   |                  Error en la creación del mensaje de control para el identificador {0} del lote.                  |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que BizTalk Server no pudo iniciar o detener un lote.  

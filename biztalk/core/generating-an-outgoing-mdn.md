@@ -1,5 +1,5 @@
 ---
-title: Generar un MDN saliente | Documentos de Microsoft
+title: Generar un MDN saliente | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a903cc72a41362f6843449a4d635878706f2ea1e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b9fdd5b5d52d5d741b71ec46be276b4926528a67
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247956"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984477"
 ---
 # <a name="generating-an-outgoing-mdn"></a>Generar un MDN saliente
 Las canalizaciones de recepción AS2 generan una respuesta MDN (Message Disposition Notification) para un mensaje entrante. Esto lo realiza el componente de la canalización del desensamblador EDI en la canalización de recepción AS2EReceive (en respuesta a un mensaje cifrado de EDI) o el componente de canalización del desensamblador AS2 en la canalización de recepción AS2Receive (en respuesta a un mensaje cifrado que no sea EDI).  
@@ -25,25 +25,25 @@ Las canalizaciones de recepción AS2 generan una respuesta MDN (Message Disposit
 ## <a name="when-and-how-an-mdn-is-generated"></a>Cuándo y cómo se genera un MDN  
  Un MDN se genera normalmente según los encabezados AS2 en el mensaje AS2 original, del siguiente modo:  
   
--   Se enviará un MDN si el encabezado Disposition-Notification-To está presente en el mensaje AS2.  
+- Se enviará un MDN si el encabezado Disposition-Notification-To está presente en el mensaje AS2.  
   
--   Si los encabezados Disposition-Notification-To y Receipt-Delivery-Option están presentes en el mensaje, el MDN se enviará de forma asíncrona. Se enviará a la URL en el encabezado Receipt-Delivery-Option, a través de una conexión distinta del mensaje original.  
+- Si los encabezados Disposition-Notification-To y Receipt-Delivery-Option están presentes en el mensaje, el MDN se enviará de forma asíncrona. Se enviará a la URL en el encabezado Receipt-Delivery-Option, a través de una conexión distinta del mensaje original.  
   
--   Si el encabezado Disposition-Notification-To está presente en el mensaje pero el encabezado Receipt-Delivery-Option no lo está, se enviará el MDN de forma sincrónica a través de la misma conexión que el mensaje original.  
+- Si el encabezado Disposition-Notification-To está presente en el mensaje pero el encabezado Receipt-Delivery-Option no lo está, se enviará el MDN de forma sincrónica a través de la misma conexión que el mensaje original.  
   
- El desensamblador crea el encabezado AS2-From en el MDN a partir del encabezado AS2-To en el mensaje AS2 recibido y cree el encabezado AS2-To en el MDN a partir del encabezado AS2-From en el mensaje AS2 recibido.  
+  El desensamblador crea el encabezado AS2-From en el MDN a partir del encabezado AS2-To en el mensaje AS2 recibido y cree el encabezado AS2-To en el MDN a partir del encabezado AS2-From en el mensaje AS2 recibido.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] le permite anular estos valores, especificando si se generará un MDN y cómo se generará según las propiedades de acuerdo AS2 de una entidad. Invalidar la configuración del encabezado AS2 en el mensaje mediante la **usar la configuración de acuerdo para validación y MDN en lugar del encabezado de mensaje** propiedad en la ficha de acuerdo AS2 unidireccional de la **propiedades del acuerdo de**cuadro de diálogo. Esta propiedad le permite enviar un MDN aunque el encabezado AS2 no llame a ninguno, o enviar el MDN de forma asíncrona aunque el encabezado AS2 especifique una conexión sincrónica.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] le permite anular estos valores, especificando si se generará un MDN y cómo se generará según las propiedades de acuerdo AS2 de una entidad. Invalidar la configuración del encabezado AS2 en el mensaje mediante la **usar la configuración de acuerdo para validación y MDN en lugar del encabezado de mensaje** propiedad en la ficha de acuerdo AS2 unidireccional del **las propiedades del acuerdo**cuadro de diálogo. Esta propiedad le permite enviar un MDN aunque el encabezado AS2 no llame a ninguno, o enviar el MDN de forma asíncrona aunque el encabezado AS2 especifique una conexión sincrónica.  
   
- Si establece la **usar la configuración de acuerdo para validación y MDN en lugar del encabezado de mensaje** propiedad, los valores de la **solicitar MDN** sección de la **configuración de MDN de remitente** página en la pestaña del acuerdo AS2 unidireccional de la **propiedades del acuerdo de** cuadro de diálogo se usará para el MDN, como se indica a continuación:  
+  Si establece la **usar la configuración de acuerdo para validación y MDN en lugar del encabezado de mensaje** propiedad, los valores de la **solicitar MDN** sección de la **configuración de MDN de remitente** página en la ficha de acuerdo AS2 unidireccional del **las propiedades del acuerdo** cuadro de diálogo se usará para el MDN, como sigue:  
   
--   Se enviará un MDN si la **solicitar MDN** propiedad está seleccionada.  
+- Se enviará un MDN si la **solicitar MDN** propiedad está seleccionada.  
   
--   Si el **solicitar MDN** propiedad está seleccionada y el **solicitar MDN asíncrono** propiedad está seleccionada, el MDN se enviará de forma asincrónica. El MDN se enviará a la dirección URL que el **Receipt-Delivery-Option (URL)** propiedad está establecida en, a través de una conexión distinta del mensaje original.  
+- Si el **solicitar MDN** propiedad está seleccionada y el **solicitar MDN asíncrono** propiedad está activada, el MDN se enviará de forma asincrónica. El MDN se enviará a la dirección URL que el **Receipt-Delivery-Option (URL)** propiedad está establecida en, a través de una conexión distinta del mensaje original.  
   
--   Si el **solicitar MDN** propiedad está seleccionada, pero la **solicitar MDN asíncrono** propiedad no está activada, el MDN se enviará de forma sincrónica a través de la misma conexión que el mensaje original.  
+- Si el **solicitar MDN** propiedad está seleccionada, pero el **solicitar MDN asíncrono** propiedad no está activada, el MDN se enviará de forma sincrónica a través de la misma conexión que el mensaje original.  
   
- Si el **usar la configuración de acuerdo para validación y MDN en lugar del encabezado de mensaje** propiedad está establecida, AS2-de propiedad en el mensaje de encabezado se usará en la generación del MDN pero AS2-a se tomará de las propiedades del acuerdo, y la canalización firmará el MDN según la **solicitar MDN firmado** propiedad. Los encabezados AS2 corresponden a las propiedades de acuerdo como se muestran a continuación:  
+  Si el **usar la configuración de acuerdo para validación y MDN en lugar del encabezado de mensaje** propiedad está establecida, AS2-de propiedad en el mensaje de encabezado se usará en la generación del MDN pero AS2-a se tomará de las propiedades del acuerdo, y la canalización firmará el MDN según la **solicitar MDN firmado** propiedad. Los encabezados AS2 corresponden a las propiedades de acuerdo como se muestran a continuación:  
   
 |Propiedad de acuerdo|Encabezado AS2 en el mensaje.|  
 |------------------------|-------------------------------|  
@@ -53,15 +53,15 @@ Las canalizaciones de recepción AS2 generan una respuesta MDN (Message Disposit
   
  Si se habilita un MDN, la canalización de recepción promocionará las siguientes propiedades de contexto:  
   
--   `EdiIntAS.DispositionMode`  
+- `EdiIntAS.DispositionMode`  
   
--   `EdiIntAS.DispositionType`  
+- `EdiIntAS.DispositionType`  
   
- Estas propiedades de contexto deben estar promocionadas para que el MDN se genere. Para obtener más información acerca de estas propiedades de contexto, vea [propiedades de contexto AS2](../core/as2-context-properties.md).  
+  Estas propiedades de contexto deben estar promocionadas para que el MDN se genere. Para obtener más información acerca de estas propiedades de contexto, vea [propiedades de contexto AS2](../core/as2-context-properties.md).  
   
- Si los parámetros de configuración y los encabezados en el mensaje entrante son incoherentes, la canalización generará un MDN negativo.  
+  Si los parámetros de configuración y los encabezados en el mensaje entrante son incoherentes, la canalización generará un MDN negativo.  
   
- Si se solicita el MDN en las propiedades de acuerdo, la canalización de recepción intentará enviar un MDN incluso si se produce un error en el procesamiento AS2.  
+  Si se solicita el MDN en las propiedades de acuerdo, la canalización de recepción intentará enviar un MDN incluso si se produce un error en el procesamiento AS2.  
   
 ## <a name="how-the-receive-pipeline-processes-a-generated-mdn"></a>Cómo la canalización de recepción procesa un MDN generado  
  Si un MDN se genera de acuerdo con las reglas anteriores, la canalización de recepción AS2EDIReceive o AS2Receive procesará el MDN de la siguiente forma:  
@@ -70,7 +70,7 @@ Las canalizaciones de recepción AS2 generan una respuesta MDN (Message Disposit
   
 -   Realiza un procesamiento MIME, incluida la aplicación de una firma digital, si esta opción está habilitada en las propiedades del acuerdo de AS2 unidireccional.  
   
--   Calcula la MIC (Message Integrity Check) para la carga del mensaje AS2 y la anexa al campo de extensión Received-content-MIC del MDN. El algoritmo que se aplicará el MIC se determina mediante el encabezado signed-receipt-micalg del mensaje entrante o **algoritmo de firma** propiedad en el **configuración de MDN de remitente** página de la unidireccional pestaña del acuerdo el **propiedades del acuerdo de** cuadro de diálogo (cuando se invalidan las propiedades de mensaje entrante). Puede ser SHA1 o MD5. El valor del algoritmo también se incluye en el MDN.  
+-   Calcula la MIC (Message Integrity Check) para la carga del mensaje AS2 y la anexa al campo de extensión Received-content-MIC del MDN. El algoritmo que se aplicará para el MIC se determina mediante el encabezado signed-receipt-micalg del mensaje entrante o el **algoritmo de firma** propiedad en el **configuración de MDN de remitente** página de la unidireccional pestaña del acuerdo de la **las propiedades del acuerdo** cuadro de diálogo (cuando se invalidan las propiedades del mensaje entrante). Puede ser SHA1 o MD5. El valor del algoritmo también se incluye en el MDN.  
   
 -   Realiza entradas de correlación en la base de datos sin repudio.  
   
@@ -98,4 +98,4 @@ Las canalizaciones de recepción AS2 generan una respuesta MDN (Message Disposit
  Cuando es necesario un MDN, el receptor del mensaje original genera una MIC (Message Integrity Check) y la agrega al MDN. Cuando el intercambio EDI forma parte de un tipo de contenido MIME de varias partes, la MIC debe calcularse a través del contenido de varias partes completo, incluido el intercambio EDI y los encabezados MIME. Para los mensajes sin firmar y cifrados, el MIC que se va a devolver se calcula en el encabezado MIME descifrado y el contenido. Para los mensajes sin cifrar y sin firmar, debe calcularse la MIC a través de los contenidos de mensaje sin los encabezados MIME.  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo BizTalk Server recibe mensajes AS2](../core/how-biztalk-server-receives-as2-messages.md)
+ [Cómo recibe BizTalk Server los mensajes AS2](../core/how-biztalk-server-receives-as2-messages.md)

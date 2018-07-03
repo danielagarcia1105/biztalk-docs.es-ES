@@ -1,5 +1,5 @@
 ---
-title: Cómo agregar un servidor a un grupo | Documentos de Microsoft
+title: Cómo agregar un servidor a un grupo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,17 +18,17 @@ caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5db5c7b760167f3e17d3ea82bf1023884b65e725
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e8edccbd9bec7c4ef027b1e185e3af6e56a19340
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247684"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979373"
 ---
 # <a name="how-to-add-a-server-to-a-group"></a>Cómo agregar un servidor a un grupo
 Utilice la configuración de BizTalk Server para agregar un servidor a un grupo de BizTalk. Agregue servidores adicionales a un grupo de BizTalk para escalar de forma horizontal el entorno de BizTalk Server.  
   
- Un servidor sólo se puede asociar con un grupo de BizTalk. Si un servidor pertenece ya a otro grupo, debe quitar primero ese servidor del grupo actual para poder agregarlo al grupo nuevo. Para obtener información sobre cómo quitar un servidor de un grupo de BizTalk, consulte [cómo quitar un servidor de un grupo de](../core/how-to-remove-a-server-from-a-group.md).  
+ Un servidor sólo se puede asociar con un grupo de BizTalk. Si un servidor pertenece ya a otro grupo, debe quitar primero ese servidor del grupo actual para poder agregarlo al grupo nuevo. Para obtener información sobre cómo quitar un servidor de un grupo de BizTalk, consulte [cómo quitar un servidor de un grupo](../core/how-to-remove-a-server-from-a-group.md).  
   
 > [!NOTE]
 >  Los grupos de BizTalk asociados con servidores diferentes en un entorno de BizTalk Server no interactúan si no es para intercambiar mensajes.  
@@ -41,25 +41,25 @@ Utilice la configuración de BizTalk Server para agregar un servidor a un grupo 
   
 ### <a name="to-add-a-server-to-a-biztalk-group"></a>Para agregar un servidor a un grupo de BizTalk  
   
-1.  En el equipo que desea agregar a un grupo de BizTalk Server, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **configuración de BizTalk Server**.  
+1. En el equipo que desea agregar a un grupo de BizTalk Server, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **configuración de BizTalk Server**.  
   
-2.  En **configuración de Microsoft BizTalk Server**, seleccione **configuración personalizada**.  
+2. En **configuración de Microsoft BizTalk Server**, seleccione **configuración personalizada**.  
   
-3.  En **el nombre del servidor de base de datos**, escriba el nombre de SQL Server para el grupo de BizTalk que se va a unir el servidor.  
+3. En **el nombre del servidor de base de datos**, escriba el nombre de SQL Server para el grupo de BizTalk que se va a unir el servidor.  
   
-4.  En **credencial del servicio**, escriba el nombre de usuario correspondiente y la contraseña que usará los servicios y, a continuación, haga clic en **configurar**.  
+4. En **credencial de servicio**, escriba el nombre de usuario correspondiente y la contraseña que use los servicios y, a continuación, haga clic en **configurar**.  
   
-5.  En el árbol de navegación en el lado izquierdo de la pantalla, haga clic en **SSO empresarial**.  
+5. En el árbol de navegación en el lado izquierdo de la pantalla, haga clic en **SSO empresarial**.  
   
-6.  En el **Enterprise Single Sign-On** página, haga clic en **unir un sistema SSO existente**.  
+6. En el **Enterprise Single Sign-On** página, haga clic en **unir un sistema SSO existente**.  
   
-     Asegúrese de que el nombre del servidor y el nombre de la base de datos señalen al servidor de base de datos de SSO principal para el grupo de BizTalk Server al que se va a unir el servidor.  
+    Asegúrese de que el nombre del servidor y el nombre de la base de datos señalen al servidor de base de datos de SSO principal para el grupo de BizTalk Server al que se va a unir el servidor.  
   
-7.  En el árbol de navegación en el lado izquierdo de la pantalla, haga clic en **grupo**.  
+7. En el árbol de navegación en el lado izquierdo de la pantalla, haga clic en **grupo**.  
   
-8.  En el **grupo** página, haga clic en **unirse a un grupo de BizTalk existente**.  
+8. En el **grupo** página, haga clic en **unirse a un grupo de BizTalk existente**.  
   
-     Asegúrese de que el nombre del servidor y el nombre de la base de datos señalen a las bases de datos para el grupo de BizTalk Server al que se va a unir el servidor.  
+    Asegúrese de que el nombre del servidor y el nombre de la base de datos señalen a las bases de datos para el grupo de BizTalk Server al que se va a unir el servidor.  
   
 9. En la barra de menús, haga clic en **aplicar configuración** configurar Enterprise Single Sign-On y el grupo en este equipo.  
   

@@ -1,5 +1,5 @@
 ---
-title: Cómo agregar certificados a una aplicación | Documentos de Microsoft
+title: Cómo agregar certificados a una aplicación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0780bf1de3dd2a0181f76edba603012c699c26b5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd28912629e292111b1edf90e4f81568b4b6f030
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22297732"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985141"
 ---
 # <a name="how-to-add-certificates-to-an-application"></a>Cómo agregar certificados a una aplicación
-Para obtener información acerca de cómo agregar certificados a una aplicación vea [cómo agregar un certificado a una aplicación](http://go.microsoft.com/fwlink/?LinkId=155217) (http://go.microsoft.com/fwlink/?LinkId=155217) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.
+Para obtener información sobre cómo agregar certificados a una aplicación vea [cómo agregar un certificado a una aplicación](http://go.microsoft.com/fwlink/?LinkId=155217) (<http://go.microsoft.com/fwlink/?LinkId=155217>) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.

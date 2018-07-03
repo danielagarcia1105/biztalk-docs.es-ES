@@ -1,5 +1,5 @@
 ---
-title: No hay orquestaciones con público puertos de recepción en este ensamblado de BizTalk | Documentos de Microsoft
+title: Hay puertos de recepción de no hay orquestaciones con públicos en este ensamblado de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e04c10119b617ebabe07169dcae999fe60210e0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c062f5e23972ed841c4c9d614ad58967a07a4fe2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279644"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978219"
 ---
 # <a name="there-are-no-orchestrations-with-public-receive-ports-in-this-biztalk-assembly"></a>No hay orquestaciones con puertos de recepción públicos en este ensamblado de BizTalk
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No hay orquestaciones con puertos de recepción públicos en este ensamblado de BizTalk. Retroceda y especifique un ensamblado de BizTalk que contenga orquestaciones con puertos de recepción públicos.|  
+|                 |                                                                                                                                                                               |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                               |
+| Versión del producto |                                                          [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                           |
+|    Identificador del evento     |                                                                                       0                                                                                       |
+|  Origen del evento   |                                                                                       0                                                                                       |
+|    Componente    |                                                                                       0                                                                                       |
+|  Nombre simbólico  |                                                                                       0                                                                                       |
+|  Texto del mensaje   | No hay orquestaciones con puertos de recepción públicos en este ensamblado de BizTalk. Retroceda y especifique un ensamblado de BizTalk que contenga orquestaciones con puertos de recepción públicos. |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que la orquestación selecciona‎da no tiene un puerto público.  
@@ -44,7 +44,7 @@ ms.locfileid: "22279644"
   
     1.  Abra al Asistente para configuración de puerto.  
   
-    2.  En **seleccionar un tipo de puerto**, cambiar **restricciones de acceso** de **interno** (valor predeterminado) en **público: sin límite**.  
+    2.  En **seleccione un tipo de puerto**, cambiar **restricciones de acceso** desde **interno** (predeterminado) a **público: sin límite**.  
   
 2.  Vuelva a compilar el ensamblado.  
   

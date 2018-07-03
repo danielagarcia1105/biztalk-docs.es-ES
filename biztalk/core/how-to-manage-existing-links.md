@@ -1,5 +1,5 @@
 ---
-title: Cómo administrar vínculos existentes | Documentos de Microsoft
+title: Cómo administrar vínculos existentes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7cdc505f98f61dd7259c8893b526ff094128df42
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: cacb316d9783692dd55cbdbbbda92b6f55d98a3a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970148"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982893"
 ---
 # <a name="how-to-manage-existing-links"></a>Cómo administrar vínculos existentes
 A veces puede que necesite cambiar el origen o el destino de un vínculo, asignar o cambiar su nombre o bien eliminar un vínculo. En este tema se proporcionan instrucciones detalladas para llevar a cabo estas operaciones de tipos de vínculo.  
@@ -37,11 +37,11 @@ A veces puede que necesite cambiar el origen o el destino de un vínculo, asigna
   
 ### <a name="to-setedit-the-label-of-a-link"></a>Para configurar o editar la etiqueta de un vínculo  
   
-1.  En una página de cuadrícula del Asignador de BizTalk, haga clic en un vínculo para seleccionarlo.  
+1. En una página de cuadrícula del Asignador de BizTalk, haga clic en un vínculo para seleccionarlo.  
   
-     Se resaltan los puntos finales de un vínculo seleccionado en la página de cuadrícula.  
+    Se resaltan los puntos finales de un vínculo seleccionado en la página de cuadrícula.  
   
-2.  En el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades, proporcione un nombre (nuevo) para el vínculo mediante el **etiqueta** propiedad.  
+2. En el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades, proporcione un nombre (nuevo) para el vínculo mediante el **etiqueta** propiedad.  
   
 ### <a name="to-delete-a-link"></a>Para eliminar un vínculo  
   
@@ -54,7 +54,7 @@ A veces puede que necesite cambiar el origen o el destino de un vínculo, asigna
      También puede presionar la tecla SUPR o haga clic en el vínculo y haga clic en **eliminar** en el menú contextual.  
   
     > [!NOTE]
-    >  Puede seleccionar de forma masiva varios functoids o vínculos y eliminarlos en una única operación. Puede deshacer o rehacer la eliminación masiva de vínculos o functoids. Para obtener más información acerca de cómo deshacer y rehacer las operaciones, vea [cómo deshacer o rehacer operaciones de usuario](../core/how-to-undo-or-redo-user-operations.md).  
+    >  Puede seleccionar de forma masiva varios functoids o vínculos y eliminarlos en una única operación. Puede deshacer o rehacer la eliminación masiva de vínculos o functoids. Para obtener más información acerca de deshacer y rehacer las operaciones, vea [cómo deshacer o rehacer operaciones de usuario](../core/how-to-undo-or-redo-user-operations.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Uso de vínculos para especificar asignaciones de registros y campos](../core/using-links-to-specify-record-and-field-mappings.md)

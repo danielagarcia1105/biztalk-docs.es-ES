@@ -1,5 +1,5 @@
 ---
-title: Usar XPaths no canónicos en las asignaciones de mensajes | Documentos de Microsoft
+title: Usar XPaths no canónicos en las asignaciones de mensajes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,32 +12,32 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 201d6f8b6bc910faf79b64ac0b4617530b20608a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f35d946ff595fa4d85427c7b3d6be81247cedf68
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22287628"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977863"
 ---
 # <a name="using-non-canonical-xpaths-in-message-assignments"></a>Usar XPaths no canónicos en las asignaciones de mensajes
 Si se utilizan partes de mensaje de .Net, es posible anotar el código con el atributo de serialización XML que, cuando también se acompaña con anotaciones de propiedad o campos distintivos, puede tener como resultado expresiones de XPath de considerable complejidad. Es posible que estas expresiones complejas de XPath sean no canónicas. solo se debería utilizar XPath no canónico en orquestaciones de enlace directo; es posible que se produzcan errores con orquestaciones enlazadas lógica o físicamente. Las orquestaciones de enlace directo no se basan en una canalización para procesar el documento XML; en consecuencia, todo el documento XML se carga en la memoria antes del procesamiento.  
   
 ## <a name="canonical-and-non-canonical-xpath"></a>XPath canónico y no canónico  
- La forma abreviada de XPath o canónico utiliza la sintaxis abreviada de la especificación de XPath ([http://www.w3.org/TR/xpath](http://go.microsoft.com/fwlink/?LinkId=119567)) para especificar una ruta de acceso de ubicación. Entre las propiedades distintivas de expresiones de XPath canónico se incluyen las siguientes:  
+ Canónico o abreviada de XPath utiliza la sintaxis abreviada de la especificación de XPath ([http://www.w3.org/TR/xpath](http://go.microsoft.com/fwlink/?LinkId=119567)) para especificar una ruta de acceso de ubicación. Entre las propiedades distintivas de expresiones de XPath canónico se incluyen las siguientes:  
   
--   El `child::` eje se establece como valor predeterminado para cada paso de la expresión  
+- El `child::` eje se establece como valor predeterminado para cada paso de la expresión  
   
--   `@`es una abreviación de `attribute::`.  
+- `@` es la abreviatura de `attribute::`.  
   
--   `//`es una abreviación de `/descendant-or-self::node()/`.  
+- `//` es la abreviatura de `/descendant-or-self::node()/`.  
   
--   `.`es una abreviación de `self::node()`.  
+- `.` es la abreviatura de `self::node()`.  
   
--   `..`es una abreviación de `parent::node()`.  
+- `..` es la abreviatura de `parent::node()`.  
   
- Las expresiones XPath canónicas son expresiones simples como `/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/*[local-name()='element-name']/@*[local-name='attribute-name']`.  
+  Las expresiones XPath canónicas son expresiones simples, como `/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/*[local-name()='element-name']/@*[local-name='attribute-name']`.  
   
- Esto contrasta con la forma no canónica de XPath. Este formulario es también se denomina el "forma general" o "XPath arbitrario" y se distingue mediante expresiones arbitrariamente complejas y pueden combinar varios ejes: `//element-name//*[local-name()='element-name' and position()=2]`.  
+  Esto contrasta con la forma no canónica de XPath. Este formulario es también conocida como la "forma general" o "XPath arbitrario" y se distingue mediante expresiones arbitrariamente complejas y pueden combinar varios ejes: `//element-name//*[local-name()='element-name' and position()=2]`.  
   
 ## <a name="example"></a>Ejemplo  
  Observe el programa siguiente:  

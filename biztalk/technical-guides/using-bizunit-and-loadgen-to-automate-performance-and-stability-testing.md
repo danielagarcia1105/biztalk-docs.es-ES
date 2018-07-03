@@ -1,5 +1,5 @@
 ---
-title: Usar BizUnit y LoadGen para automatizar las pruebas de rendimiento y estabilidad | Documentos de Microsoft
+title: Uso de BizUnit y LoadGen para automatizar las pruebas de rendimiento y estabilidad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,96 +12,96 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e84fcd29af6b698713623fbca556d988e037d8c1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 53dde16a21679e7986f3369a825bc4281ed40f37
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976282"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981701"
 ---
-# <a name="using-bizunit-and-loadgen-to-automate-performance-and-stability-testing"></a>Usando BizUnit y LoadGen para automatizar las pruebas de rendimiento y estabilidad
-Este tema proporciona información acerca de cómo usar la herramienta de Microsoft BizTalk LoadGen 2007 con BizUnit para automatizar las pruebas de rendimiento y estabilidad de una solución de BizTalk Server.  
+# <a name="using-bizunit-and-loadgen-to-automate-performance-and-stability-testing"></a>Uso de BizUnit y LoadGen para automatizar las pruebas de rendimiento y estabilidad
+En este tema se proporciona información sobre cómo usar la herramienta de Microsoft BizTalk LoadGen 2007 con BizUnit para automatizar las pruebas de rendimiento y estabilidad de una solución de BizTalk Server.  
   
-## <a name="biztalk-server-performance-testing-step-by-step"></a>Rendimiento de BizTalk Server prueba, paso a paso  
- Antes de investigar cómo automatizar las pruebas de rendimiento de BizTalk Server, es útil saber qué pasos se realizan normalmente en una prueba de rendimiento. Los siguientes pasos son representativas de un proceso de pruebas de rendimiento de BizTalk Server "típico":  
+## <a name="biztalk-server-performance-testing-step-by-step"></a>Rendimiento de BizTalk Server, las prueba, paso a paso  
+ Antes de investigar cómo automatizar las pruebas de rendimiento de BizTalk Server, es útil saber qué pasos se realizan normalmente en una prueba de rendimiento. Los pasos siguientes son representativos de un proceso de pruebas de rendimiento de BizTalk Server "típico":  
   
-1.  Cree un directorio de resultados de pruebas para almacenar los resultados y los datos recopilados, por ejemplo, registros de eventos, registros de seguimiento, datos del Monitor de rendimiento.  
+1. Cree un directorio de resultados de pruebas para almacenar los resultados y los datos recopilados, por ejemplo, los registros de eventos, registros de seguimiento, datos del Monitor de rendimiento.  
   
-2.  Borre los registros de eventos en todos los servidores en el entorno de prueba.  
+2. Borre los registros de eventos en todos los servidores en el entorno de prueba.  
   
-3.  Detener todas las instancias de host de BizTalk.  
+3. Detener todas las instancias de host de BizTalk.  
   
-4.  Detenga cualquier instancia IIS que se ejecuta los hosts aislados de BizTalk, como controladores de adaptador de recepción de SOAP y HTTP.  
+4. Detenga cualquier instancia IIS que se ejecuta los hosts aislados de BizTalk, como controladores de adaptador de recepción de SOAP y HTTP.  
   
-5.  Reinicie todas las instancias de SQL Server utilizado por los equipos que ejecutan BizTalk Server.  
+5. Reinicie todas las instancias de SQL Server utilizada por los equipos que ejecutan BizTalk Server.  
   
-6.  Limpiar la base de datos de cuadro de mensajes para asegurarse de que no hay ningún dato sobrante de ejecuciones de pruebas anteriores. Esto es importante porque cualquier dato sobrante puede sesgar los resultados de pruebas.  
+6. Limpiar la base de datos de cuadro de mensajes para asegurarse de que no hay ningún dato sobrante de ejecuciones de pruebas anteriores. Esto es importante porque cualquier dato sobrante podría sesgar los resultados de pruebas.  
   
-7.  Iniciar las instancias de host de BizTalk.  
+7. Inicie las instancias de host de BizTalk.  
   
-8.  Iniciar los contadores del Monitor de rendimiento relevantes en todos los servidores del entorno de prueba.  
+8. Iniciar los contadores del Monitor de rendimiento relevantes en todos los servidores del entorno de prueba.  
   
 9. Enviar mensajes de "desbloquear" a través del sistema para inicializar las memorias caché de sistema.  
   
-10. Una vez procesados los mensajes de preparar, realizar un seguimiento de la hora de inicio de la prueba en una base de datos de resultados de prueba de SQL Server.  
+10. Una vez procesados los mensajes de desbloqueo, realizar un seguimiento de la hora de inicio de la prueba en una base de datos de resultados de prueba de SQL Server.  
   
-11. Iniciar la prueba de rendimiento al iniciar todos los agentes de prueba de LoadGen.  
+11. Iniciar la prueba de rendimiento al iniciar todos los agentes de prueba LoadGen.  
   
-12. Espere a que la prueba completar: a menudo esto puede hacerse sistemáticamente midiendo el valor de un contador del Monitor de rendimiento, como la longitud de la cola de host.  
+12. Espere a que complete la prueba: a menudo esto puede hacerse sistemáticamente midiendo el valor de un contador del Monitor de rendimiento como la longitud de cola de host.  
   
-13. Hora de finalización de prueba de seguimiento en una prueba de SQL provoca la base de datos.  
+13. Hora de finalización de prueba de seguimiento en una prueba de SQL da como resultado la base de datos.  
   
 14. Detenga los contadores del Monitor de rendimiento relevantes en todos los servidores del entorno de prueba.  
   
-15. Guardar los datos de prueba en el directorio de resultados de pruebas que creó anteriormente.  
+15. Guarde los datos de prueba en el directorio de resultados de pruebas que creó anteriormente.  
   
 16. Realizar cualquier limpieza necesaria para la siguiente serie de pruebas.  
   
- Cada uno de los pasos enumerados anteriormente se puede automatizar mediante BizUnit. Mediante el uso de los activos de paso de prueba existente que proporciona BizUnit, puede generar rápidamente y con facilidad una prueba de rendimiento automatizada para una solución de BizTalk Server. Una de las principales ventajas de la automatización de pruebas usando BizUnit de rendimiento es la flexibilidad necesaria para ejecutar las pruebas durante la noche, lo que significa que los resultados están listos para el análisis de la mañana. Esto reduce en gran medida la carga de pruebas de rendimiento en un equipo de proyecto.  
+    Cada uno de los pasos enumerados anteriormente se puede automatizar mediante BizUnit. Mediante el uso de los activos de paso de prueba existente que proporciona BizUnit, puede generar rápidamente y con facilidad una prueba de rendimiento automatizadas para una solución de BizTalk Server. Una de las principales ventajas de la automatización de pruebas usando BizUnit de rendimiento es la flexibilidad necesaria para ejecutar pruebas durante la noche, lo que significa que están listos para el análisis de los resultados de la mañana. Esto reduce en gran medida la carga de pruebas de rendimiento en un equipo de proyecto.  
   
 ## <a name="the-microsoft-biztalk-loadgen-2007-tool"></a>La herramienta Microsoft BizTalk LoadGen 2007  
- La herramienta de BizTalk LoadGen 2007 (LoadGen) es una herramienta desarrollada por el equipo de pruebas de rendimiento y esfuerzo en el grupo de producto de BizTalk Server 2006 de prueba de carga. LoadGen se diseñó para rápidamente, fácil y confiable definir pruebas de carga que simulan volúmenes de mensaje de nivel de producción. LoadGen es multiproceso, controlada por la configuración y es compatible con varios transportes. El grupo de producto de BizTalk utiliza LoadGen diariamente; por lo tanto, puede tener un alto grado de confianza que es duradera, la herramienta adecuada para su propósito y puede simular una amplia variedad de escenarios de BizTalk.  
+ La herramienta BizTalk LoadGen 2007 (LoadGen) es una herramienta que fue desarrollado por el equipo de pruebas de rendimiento y esfuerzo en el grupo de producto de BizTalk Server 2006 de prueba de carga. LoadGen se diseñó en forma rápida, sencilla y fiable, definir las pruebas de carga que simulan volúmenes de mensaje de nivel de producción. LoadGen es multiproceso, controlado por la configuración y admite varios transportes. El grupo de producto de BizTalk utiliza LoadGen a diario; por lo tanto, puede tener un alto grado de confianza de que la herramienta sea duradera, ajustarse a propósito y capaz de simular una amplia variedad de escenarios de BizTalk.  
   
- LoadGen emplea un diseño modular que consta de tres capas: **presentación**, **framework** y **componente**. La capa de presentación consta de un controlador de línea de comandos, que es responsable de dirigir el marco de trabajo. La capa de framework lee un archivo de configuración y, a continuación, ejecuta los componentes especificados en él. El nivel de componente consta de tres tipos de componentes: **cargar generadores**, **creadores de mensaje** y **limitar controladores**. Cada uno de estos componentes es extensible, por lo que puede crear sus propios y conéctelos LoadGen para abordar las necesidades de su escenario. Dado que LoadGen fue desarrollado por el grupo de productos de servidor BizTalk Server, debería encontrar que los componentes de cuadro completará la mayoría de los requisitos de pruebas de carga. Cada uno de estos componentes se describe con más detalle a continuación.  
+ LoadGen emplea un diseño modular que consta de tres capas: **presentación**, **framework** y **componente**. La capa de presentación consta de un controlador de línea de comandos, que es responsable de dirigir el marco de trabajo. El nivel de marco de trabajo lee un archivo de configuración y, a continuación, ejecuta los componentes especificados en el mismo. El nivel de componente consta de tres tipos de componentes: **cargar generadores**, **creadores del mensaje** y **limitar controladores**. Cada uno de estos componentes es extensible, por lo que puede crear las suyas propias y conéctelos LoadGen para abordar las necesidades de su escenario. Porque LoadGen fue desarrollado por el grupo de BizTalk Server, encontrará que la mayoría de las requisitos de prueba de carga, cumplirá con los componentes de cuadro. Cada uno de estos componentes se describe con más detalle aquí.  
   
--   **Cargar generadores** son responsables de transmitir los mensajes a través de un transporte determinado. Generadores de carga se proporcionan para los siguientes transportes:  
+- **Cargar generadores** son responsables de la transmisión de mensajes a través de un transporte determinado. Generadores de carga se proporcionan para los siguientes transportes:  
   
-    -   Archivo  
+  -   Archivo  
   
-    -   HTTP  
+  -   HTTP  
   
-    -   MQSeries  
+  -   MQSeries  
   
-    -   MSMQLarge  
+  -   MSMQLarge  
   
-    -   MSMQ  
+  -   MSMQ  
   
-    -   SOAP  
+  -   SOAP  
   
-    -   Web Services Enhancements (WSE)  
+  -   Web Services Enhancements (WSE)  
   
-    -   Windows SharePoint Services (WSS)  
+  -   Windows SharePoint Services (WSS)  
   
-    -   Windows Communication Foundation (WCF)  
+  -   Windows Communication Foundation (WCF)  
   
--   **Creadores de mensaje** son un componente opcional que se puede usar cuando se necesita para generar los mensajes que contienen datos únicos. Creadores de mensaje utilice uno de los dos modos de creación; sincrónico y asincrónico. Si se especifica el modo de creación de mensajes sincrónico, LoadGen usa un único subproceso para crear mensajes para asegurarse de que cada mensaje contiene una carga única. Si bien el modo sincrónico garantiza datos únicos dentro de cada mensaje, este modo también limita la escalabilidad. LoadGen también proporciona los creadores de mensajes asincrónicos que utilizan varios subprocesos de ejecución; Esto permite LoadGen satisfacer la tasa de mensajes de destino (porque simplemente puede crear más subprocesos). En el modo asincrónico, el creador del mensaje puede configurarse para modificar aleatoriamente los datos para cada mensaje individual. Sin embargo, porque utiliza varios subprocesos, garantiza que todos los mensajes generados durante la prueba contendrá una carga exclusivos.  
+- **Creadores de mensaje** son un componente opcional que se puede usar cuando se necesita generar los mensajes que contienen datos únicos. Creadores de mensaje utilice uno de los dos modos de creación; sincrónicas y asincrónicas. Si se especifica el modo de creación de un mensaje sincrónico, LoadGen usa un único subproceso para crear mensajes para asegurarse de que cada mensaje contiene una carga única. Si bien el modo sincrónico garantiza que los datos únicos dentro de cada mensaje, este modo también limita la escalabilidad. LoadGen también proporciona los creadores de mensajes asincrónicos que usan varios subprocesos de ejecución; Esto permite LoadGen cumplir con la tasa de mensajes de destino (ya que simplemente pueden crear más subprocesos). En modo asincrónico, el creador del mensaje puede configurarse para modificar aleatoriamente los datos para cada mensaje individual. Sin embargo, dado que usa varios subprocesos, no garantiza que todos los mensajes generados durante la prueba contendrá una carga única.  
   
--   **Limitar los controladores de** asegurarse de que los mensajes se transmiten a una velocidad constante por que rigen los generadores de carga mientras se ejecuta la prueba. LoadGen también expone limitación personalizados, lo que permite controlar el flujo de mensajes en función de criterios, incluidos:  
+- **Limitar los controladores de** asegurarse de que los mensajes se transmiten a una velocidad constante que rigen los generadores de carga mientras se ejecuta la prueba. LoadGen también expone limitación personalizado, que le permite controlar el flujo de mensajes en función de criterios incluidos:  
   
-    -   Número de archivos en una carpeta  
+  -   Número de archivos en una carpeta  
   
-    -   Número de filas de una tabla de base de datos  
+  -   Número de filas de una tabla de base de datos  
   
-    -   Profundidad de una cola de mensajes MSMQ o MQSeries  
+  -   Profundidad de una cola de mensajes MSMQ o MQSeries  
   
- Microsoft [herramienta BizTalk LoadGen 2007](http://go.microsoft.com/fwlink/?LinkId=59841) está disponible para su descarga en [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841).  
+  Microsoft [herramienta BizTalk LoadGen 2007](http://go.microsoft.com/fwlink/?LinkId=59841) está disponible para su descarga en [ http://go.microsoft.com/fwlink/?LinkId=59841 ](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841).  
   
 ### <a name="sample-loadgen-configuration-file"></a>Archivo de configuración de ejemplo LoadGen  
- LoadGen toda la información de configuración se almacena en un archivo xml. El archivo de configuración de LoadGen contiene un \<CommonSection\> elemento que configura las opciones predeterminadas para todas las tareas de LoadGen en el escenario de LoadGen. El archivo de configuración de LoadGen también puede contener uno o varios \<sección\> elementos que proporcionan valores de configuración para una tarea específica de LoadGen. Las entradas de un \<sección\> elemento sustituyen a los valores predeterminados especificados en la \<CommonSection\> elemento.  
+ LoadGen toda la información de configuración se almacena en un archivo xml. El archivo de configuración LoadGen contiene un \<CommonSection\> elemento que configura la configuración predeterminada para todas las tareas de LoadGen en el escenario de LoadGen. El archivo de configuración LoadGen también puede contener uno o más \<sección\> elementos que proporcionan valores de configuración para una tarea específica de LoadGen. Las entradas de un \<sección\> elemento sustituyen a los valores predeterminados especificados en el \<CommonSection\> elemento.  
   
- El archivo de configuración de LoadGen de ejemplo que sigue es una versión ligeramente modificada del archivo de configuración de ejemplo FileToFileLG.xml que se incluye en el subdirectorio \ConfigFiles\ConsoleConfigFiles del directorio de instalación de LoadGen. Esta prueba envía 25 mensajes \<LotSizePerInterval\> cada 200 milisegundos \<SleepInterval\>, 5 subprocesos por el generador de carga \<NumThreadsperSection\>y se detendrá la carga probar después de 5000 mensajes \<NumFiles\> se han enviado.  
+ El archivo de configuración de LoadGen de ejemplo que sigue es una versión ligeramente modificada del archivo de configuración de ejemplo FileToFileLG.xml que se incluye en el subdirectorio \ConfigFiles\ConsoleConfigFiles del directorio de instalación LoadGen. Esta prueba envía 25 mensajes \<LotSizePerInterval\> cada 200 milisegundos \<SleepInterval\>, 5 subprocesos por el generador de carga \<NumThreadsperSection\>y se detendrá la carga Después de 5000 mensajes de prueba \<NumFiles\> se han enviado.  
   
- El controlador de limitación del archivo se especifica en el \<ThrottleController\> sección. El valor de \<ThresholdRange\> se establece en 1.000-2.000, lo que significa que si la ubicación del archivo C:\Scenarios\FileToFile\Receive (parámetros) tiene menos de 1000 o más de 2000 archivos, el controlador de limitación limitará el archivo generador y aumentar o disminuir la carga según corresponda. El número de archivos en la ubicación del archivo será comprueba cada 1000 milisegundos \<SleepInterval\>. El \<FileSection\> elemento define las propiedades de los mensajes que se enviarán por los generadores de carga. El archivo FileToFileLG.xml \<SrcFilePath\> copiarán LoadGen en la entrega de archivos C:\Scenarios\FileToFile\Receive \<DstFilePath >. El transporte de archivo se utiliza aquí porque se trata el transporte predeterminado especificado en el \<nombre del transporte\> elemento dentro de la \<CommonSection\> elemento.  
+ El controlador de limitación del archivo se especifica en el \<ThrottleController\> sección. El valor de \<ThresholdRange\> se establece en 1000-2000, lo que significa que si la ubicación del archivo C:\Scenarios\FileToFile\Receive (parámetros) tiene menos de 1000 o más de 2000 archivos, el controlador de limitación limitará el archivo generador y aumentar o disminuir la carga según corresponda. El número de archivos en la ubicación del archivo será comprueban cada 1000 milisegundos \<SleepInterval\>. El \<FileSection\> elemento define las propiedades de los mensajes que se enviarán por los generadores de carga. El archivo FileToFileLG.xml \<SrcFilePath\> copiará LoadGen para la entrega de archivos C:\Scenarios\FileToFile\Receive \<DstFilePath >. El transporte de archivo se usa aquí porque se trata el transporte predeterminado especificado en el \<nombre del transporte\> elemento dentro de la \<CommonSection\> elemento.  
   
 ```  
 <LoadGenFramework>  
@@ -140,7 +140,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 ```  
   
 ### <a name="using-bizunit-to-drive-loadgen"></a>Uso de BizUnit para unidad LoadGen  
- BizUnit proporciona el **LoadGenExecuteStep** para facilitar automatizada pruebas de rendimiento y estabilidad. El **TestExecution** fase de un archivo de configuración de BizUnit de ejemplo que usa **LoadGenExecuteStep** se muestra en el ejemplo de código siguiente. Tenga en cuenta que este paso acepta un parámetro de configuración único, que es la ubicación del archivo de configuración de LoadGen.  
+ BizUnit proporciona el **LoadGenExecuteStep** para facilitar las pruebas de estabilidad y rendimiento automatizada. El **TestExecution** fase de un archivo de configuración de BizUnit de ejemplo que usa **LoadGenExecuteStep** se muestra en el ejemplo de código siguiente. Tenga en cuenta que este paso acepta un parámetro de configuración único, que es la ubicación del archivo de configuración LoadGen.  
   
 ```  
 <TestCase testName="Test_LoadGen">  
@@ -157,18 +157,18 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestCase>  
 ```  
   
- El resto de este tema describe el archivo de configuración para un caso de prueba de BizUnit que automatiza con LoadGen de pruebas de rendimiento.  
+ El resto de este tema describe el archivo de configuración para un caso de prueba de BizUnit que automatiza las pruebas de rendimiento con LoadGen.  
   
 > [!NOTE]  
->  Este archivo de configuración se puede utilizar como plantilla para integrar rápidamente BizUnit y LoadGen como parte de las pruebas de rendimiento. Antes de ejecutar este caso de prueba, debe personalizar el archivo de configuración para su entorno. Secciones del archivo de configuración que deben personalizarse se indican en consecuencia.  
+>  Este archivo de configuración puede utilizarse como plantilla para la integración rápida BizUnit y LoadGen como parte de las pruebas de rendimiento. Antes de ejecutar este caso de prueba, deberá personalizar el archivo de configuración para su entorno. Las secciones del archivo de configuración que deben personalizarse se indican en consecuencia.  
   
- Para comenzar con, especifique un valor para el **nombreDePrueba** parámetro que sea adecuada para la solución de BizTalk.  
+ Para empezar, especifique un valor para el **testName** parámetro que sea adecuado para la solución de BizTalk.  
   
 ```  
 <TestCase testName="Performance-Guide-Sample-Loadgen-Test">  
 ```  
   
- A continuación, agregue las variables de contexto para la **TestSetup** fase. Estas variables de contexto se hará referencia a lo largo de la duración del caso de prueba. Para usar este archivo de configuración, modifique los valores especificados para **TestCaseResultsDir** (C:\Dev Work\Perf guía Demos\PerfResults\\) y **máquina** (BIZTALKADMIN01) para que coincida con su entorno.  
+ A continuación, agregue las variables de contexto para el **TestSetup** fase. Estas variables de contexto se hará referencia a lo largo de la duración del caso de prueba. Para usar este archivo de configuración, modifique los valores especificados para **TestCaseResultsDir** (C:\Dev Work\Perf guía Demos\PerfResults\\) y **máquina** (BIZTALKADMIN01) para que coincida con su entorno.  
   
 ```  
 <TestSetup>  
@@ -212,7 +212,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestSetup>  
 ```  
   
- Después de completar la **TestSetup** fase, escribimos la **TestExecution** fase. El primer paso es detener las instancias de host de BizTalk. Otro **BizUnit.HostConductorStep** sección debe agregarse para cada instancia de host distintos. Si está utilizando este archivo de configuración en su entorno, también necesitará escribir los valores adecuados para **HostInstanceName**, **Server**, **inicio de sesión**y  **Contraseña**.  
+ Después de completar la **TestSetup** fase, escribimos el **TestExecution** fase. El primer paso es detener las instancias de host de BizTalk. Otro **BizUnit.HostConductorStep** sección debe agregarse para cada instancia de host distintos. Si usa este archivo de configuración en su entorno, también deberá especificar los valores adecuados para **HostInstanceName**, **Server**, **inicio de sesión**y  **Contraseña**.  
   
 ```  
 <TestExecution>  
@@ -227,7 +227,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
    </TestStep>  
 ```  
   
- Después de detener todas las instancias de host, se limpiar la base de datos de BizTalk MessageBox con el bts_CleanupMsgBox procedimiento almacenado de. Para usar este paso debe modificar el valor de **ConnectionString** para que coincida con su entorno.  
+ Después de detener todas las instancias de host, limpiar la base de datos de BizTalk MessageBox con el bts_CleanupMsgBox almacenamos procedimiento. Para usar este paso se debe modificar el valor para **ConnectionString** para que coincida con su entorno.  
   
 ```  
 <!-- Step 2: Clean Up MessageBox -->  
@@ -240,7 +240,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- Paso 3 de la **TestExecution** fase inicia contadores del Monitor de rendimiento (PerfMon) que se especifican en un archivo de plantilla. Un archivo de plantilla de ejemplo se muestra debajo el ejemplo **BizUnit.PerfmonCountersStep** a continuación. Para usar el archivo de plantilla, debe modificar el valor especificado para **CountersListFilePath** para que coincida con su entorno. Modificar el archivo de plantilla ejemplo contador de monitor de rendimiento para incluir los contadores de rendimiento que desea supervisar o los que no son pertinentes para su escenario quite.  
+ Paso 3 de la **TestExecution** fase inicia los contadores del Monitor de rendimiento (PerfMon) que se especifican en un archivo de plantilla. Un archivo de plantilla de ejemplo se enumera bajo el ejemplo **BizUnit.PerfmonCountersStep** a continuación. Para usar el archivo de plantilla, debe modificar el valor especificado para **CountersListFilePath** para que coincida con su entorno. Modifique el archivo de plantilla ejemplo contador de monitor de rendimiento para incluir los contadores de rendimiento que le gustaría supervisar o los que no son pertinentes para su escenario quite.  
   
 ```  
 <!-- Step 3: Start Perfmon counters -->  
@@ -253,7 +253,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- **Archivo de plantilla de contador de Monitor de rendimiento muestra (Test_06_PerfCounters.txt al que hace referencia el BizUnit.PerfmonCountersStep):**  
+ **Archivo de la plantilla de contador de Monitor de rendimiento del ejemplo (Test_06_PerfCounters.txt al que hace referencia el BizUnit.PerfmonCountersStep):**  
   
 ```  
 \Processor(*)\*  
@@ -279,7 +279,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 \XLANG/s Orchestrations(*)\*  
 ```  
   
- Ahora se inicie las instancias de host de BizTalk Server. Otro **BizUnit.HostConductorStep** sección debe agregarse para cada instancia de host diferenciados (distinct incluye varias instancias de un host a través de servidores). Si está utilizando este archivo de configuración en su entorno, también necesitará escribir los valores adecuados para **HostInstanceName**, **Server**, **inicio de sesión**y  **Contraseña**.  
+ Ahora se inicie las instancias de host de BizTalk Server. Otro **BizUnit.HostConductorStep** sección debe agregarse para cada instancia de host distintos (distinct incluye varias instancias de un host a través de servidores). Si usa este archivo de configuración en su entorno, también deberá especificar los valores adecuados para **HostInstanceName**, **Server**, **inicio de sesión**y  **Contraseña**.  
   
 ```  
 <!-- Step 4: Start BizTalk Hosts -->  
@@ -302,7 +302,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- Paso 6 escribe el archivo de configuración de LoadGen en la memoria, por lo que puede, a continuación, escribirse en la base de datos de resultados de pruebas cuando se completa la prueba.  
+ Paso 6 escribe el archivo de configuración LoadGen en la memoria para que lo, a continuación, se puede escribir en la base de datos de resultados de pruebas cuando se completa la prueba.  
   
 ```  
   
@@ -313,7 +313,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- Ahora escribir la hora de inicio de prueba a una base de datos de resultados de pruebas. Modificar el **ConnectionString** y **RawSQLQuery** parámetros para que coincida con su entorno.  
+ Ahora, escribimos la hora de inicio de la prueba en una base de datos de resultados de pruebas. Modificar el **ConnectionString** y **RawSQLQuery** parámetros para que coincida con su entorno.  
   
 ```  
 <!-- Step 7: Update test results DB with test start time -->  
@@ -330,7 +330,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- Paso 8 es donde es la prueba de rendimiento real inicia utilizando **BizUnit.LoadGenExecuteStep**. Este paso especifica el mismo archivo de configuración de LoadGen que se utilizó en el paso 5, pero puede especificar cualquier LoadGen archivo de configuración válido aquí. **BizUnit.DelayStep** se utiliza en el paso 9 para imponer un retardo de 5 segundos para dejar tiempo para los mensajes al inicio que fluyen a través del sistema. Longitud de la cola de host se calcula utilizando **BizUnit.PerMonCounterMonitorStep**. Cuando este parámetro alcance un valor de 1 tal como se especifica en el paso 10, se concluye la prueba. Cambiar los valores de la **nombreDeInstancia** y **Server** parámetros para que coincida con el nombre de la instancia de host y el servidor que desea supervisar en su entorno.  
+ Paso 8 es donde es la prueba de rendimiento real inicia mediante **BizUnit.LoadGenExecuteStep**. Este paso especifica el mismo archivo de configuración de LoadGen que se usó en el paso 5, pero puede especificar cualquier LoadGen archivo de configuración válido aquí. **BizUnit.DelayStep** se utiliza en el paso 9 para imponer un retraso de 5 segundos para dejar tiempo para los mensajes empezar a fluir a través del sistema. Longitud de cola de host se calcula mediante **BizUnit.PerMonCounterMonitorStep**. Cuando este parámetro alcanza un valor de 1, tal como se especifica en el paso 10, se concluye la prueba. Cambie los valores de la **nombreDeInstancia** y **Server** parámetros para que coincida con el nombre de la instancia de host y el servidor que gustaría supervisar en su entorno.  
   
 ```  
 <!-- Step 8: LoadGen: Load actual perf test -->  
@@ -351,7 +351,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- Al final de la prueba usamos **BizUnit.DBExecuteNonQueryStep** para actualizar la base de datos de resultados de pruebas. Finalización del este paso indica el final de la fase de ejecución de prueba, tal y como indica el cierre \</TestExecution\> etiqueta. De nuevo, debe modificar el **ConnectionString** y **RawSQLQuery** parámetros para que coincida con su entorno.  
+ Al final de la prueba usamos **BizUnit.DBExecuteNonQueryStep** para actualizar la base de datos de resultados de pruebas. Completar este paso indica el final de la fase de ejecución de prueba, tal y como indica el cierre \</TestExecution\> etiqueta. De nuevo, debe modificar el **ConnectionString** y **RawSQLQuery** parámetros para que coincida con su entorno.  
   
 ```  
    <!-- Step 11: Update test results DB with test stop time -->  
@@ -368,7 +368,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestExecution>  
 ```  
   
- Al concluir la fase de ejecución escribimos la fase de limpieza de prueba. Esta fase se utiliza **BizUnit.PerfmonCountersStep** para detener los contadores del Monitor de rendimiento que se iniciaron anteriormente (en el paso 3).  
+ Al concluir la fase de ejecución, escribimos la fase de limpieza de pruebas. Esta fase se utiliza **BizUnit.PerfmonCountersStep** para detener los contadores del Monitor de rendimiento que se iniciaron anteriormente (en el paso 3).  
   
 ```  
 <TestCleanup>  
@@ -382,12 +382,12 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestCase>  
 ```  
   
- En este ejemplo se muestra cómo se puede combinar BizUnit con LoadGen para automatizar las pruebas de rendimiento. En la misma manera que las pruebas funcionales, se puede ejecutar la prueba de carga descrita en el archivo de configuración de BizUnit de las herramientas de pruebas de Visual Studio. Este enfoque le permite administrar centralmente, administrar y recopilar datos de las pruebas de rendimiento.  
+ En este ejemplo se muestra cómo se puede combinar BizUnit con LoadGen para automatizar las pruebas de rendimiento. En la misma manera que las pruebas funcionales, se puede ejecutar la prueba de carga descrita por el archivo de configuración de BizUnit desde herramientas de pruebas de Visual Studio. Adoptar este enfoque le permite administrar centralmente, administrar y recopilar datos para las pruebas de rendimiento.  
   
- Usando BizUnit y LoadGen en un enfoque automatizado, es muy fácil de programar varias series de pruebas que se produzca durante horas de inactividad, que proporcionarán los resultados de pruebas suficiente para el análisis durante el horario laboral normal. Para automatizar las pruebas de rendimiento, considere la posibilidad de utilizar secuencias de comandos de LoadGen que modelo distintos niveles de carga a través del sistema, por ejemplo puede que desee simular varios grados (75% y 100% de 125%) del volumen de mensajes de producción esperado. Al realizar pruebas de carga, es especialmente importante probar el escenario de "un mal día" o la sobrecarga. Antes de colocar el sistema en producción, debe saber cuál es el rendimiento máximo sostenible (MST) para cada caso de prueba en el entorno de BizTalk Server. Para obtener más información sobre el rendimiento máximo sostenible, consulte [¿qué es rendimiento sostenible?](http://go.microsoft.com/fwlink/?LinkID=132304) (http://go.microsoft.com/fwlink/?LinkID=132304) en la documentación de BizTalk Server 2009.  
+ Mediante el uso de BizUnit y LoadGen en un enfoque automatizado, es muy fácil de programar varias series de pruebas que se produzca durante horas de inactividad, que le proporcionarán los resultados de pruebas suficiente para el análisis durante el horario laboral normal. Para automatizar las pruebas de rendimiento, considere el uso de LoadGen secuencias de comandos que distintas cargas de modelo a través del sistema, por ejemplo puede simular distintos grados (75%, 100% y 125%) del volumen de mensajes esperado de producción. Al realizar las pruebas de carga, es especialmente importante probar la sobrecarga o escenario "mal día". Antes de colocar el sistema en producción, debe saber cuál es el rendimiento máximo sostenible (MST) para cada caso de prueba en el entorno de BizTalk Server. Para obtener más información sobre el rendimiento máximo sostenible, consulte [¿qué es rendimiento sostenible?](http://go.microsoft.com/fwlink/?LinkID=132304) (http://go.microsoft.com/fwlink/?LinkID=132304) en la documentación de BizTalk Server 2009.  
   
 ### <a name="the-complete-bizunit-loadgen-sample-configuration-file"></a>El archivo de configuración de ejemplo completo de BizUnit LoadGen  
- En la lista siguiente contiene todo el contenido del archivo de configuración BizUnit mencionado anteriormente.  
+ En la lista siguiente contiene todo el contenido del archivo de configuración BizUnit mencionada anteriormente.  
   
 ```  
 <TestCase testName="Performance-Guide-Sample-Loadgen-Test">  

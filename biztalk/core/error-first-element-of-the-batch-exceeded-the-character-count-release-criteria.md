@@ -1,5 +1,5 @@
 ---
-title: El primer elemento del lote excedía el conjunto de criterios de versión de recuento de caracteres | Documentos de Microsoft
+title: El primer elemento del lote excedía el recuento de caracteres versión criterio establecido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 746fbfabb2fe411310735f66c6d8a8398a94a5dc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 880e29ceb2be1c574aeaec248ce47317e332e5a6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241556"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972661"
 ---
 # <a name="the-first-element-of-the-batch-exceeded-the-character-count-release-criteria-set"></a>El primer elemento del lote excedía el recuento de caracteres, el criterio de publicación establecido
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|FirstElementExceededCharCount|  
-|Texto del mensaje|El primer elemento del lote excedía el recuento de caracteres, el criterio de publicación establecido. Modifique los criterios de lanzamiento de recuento de caracteres para poder procesar el mensaje. Una vez modificada la configuración, el mensaje debe enviarse de nuevo al sistema de procesamiento por lotes|  
+|                 |                                                                                                                                                                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                         |
+| Versión del producto |                                                                                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                                     |
+|    Identificador del evento     |                                                                                                                                 -                                                                                                                                  |
+|  Origen del evento   |                                                                                       EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                       |
+|    Componente    |                                                                                                                          Motor de procesamiento por lotes                                                                                                                           |
+|  Nombre simbólico  |                                                                                                                   FirstElementExceededCharCount                                                                                                                    |
+|  Texto del mensaje   | El primer elemento del lote excedía el recuento de caracteres, el criterio de publicación establecido. Modifique los criterios de lanzamiento de recuento de caracteres para poder procesar el mensaje. Una vez modificada la configuración, el mensaje debe enviarse de nuevo al sistema de procesamiento por lotes |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la orquestación por lotes no pudo generar el intercambio por lotes porque el número de caracteres del primer elemento de lote seleccionado por la orquestación de lote superó el número de caracteres especificado por la propiedad "Número máximo de caracteres de un intercambio" de los criterios de lanzamiento de lote. Tenga en cuenta que el número de caracteres comparado con el máximo no incluye el número de caracteres del sobre.  

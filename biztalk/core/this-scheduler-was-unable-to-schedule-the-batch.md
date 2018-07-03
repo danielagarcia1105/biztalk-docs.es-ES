@@ -1,5 +1,5 @@
 ---
-title: Este programador no pudo programar el lote | Documentos de Microsoft
+title: Este programador no pudo programar el lote | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2129e81168ee893adadb48a6c379d346d111fd60
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0a7be725a96f00c3d27db71db7748aff512ad960
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278148"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974365"
 ---
-# <a name="this-scheduler-was-unable-to-schedule-the-batch"></a>Este programador no pudo programar el lote.
+# <a name="this-scheduler-was-unable-to-schedule-the-batch"></a>Este programador no pudo programar el lote
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|UnableToScheduleBatch|  
-|Texto del mensaje|Este programador no pudo programar el lote.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                    Motor de procesamiento por lotes                                     |
+|  Nombre simbólico  |                                 UnableToScheduleBatch                                  |
+|  Texto del mensaje   |                    Este programador no pudo programar el lote                     |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que el programador no pudo determinar la siguiente repetición de una liberación por lotes.  

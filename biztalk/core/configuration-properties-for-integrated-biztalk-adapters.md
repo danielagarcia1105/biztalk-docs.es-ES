@@ -1,5 +1,5 @@
 ---
-title: Propiedades de configuración para los adaptadores integrados de BizTalk | Documentos de Microsoft
+title: Propiedades de configuración para adaptadores integrados de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,26 +21,26 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 950f244c3a46af87164c4e276a50cd7a91fee14b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 45779131906460040db969bd4ef412b8f9220ab6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25969962"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005989"
 ---
 # <a name="configuration-properties-for-integrated-biztalk-adapters"></a>Propiedades de configuración para adaptadores integrados de BizTalk
-El modelo de objetos del explorador de BizTalk expone la **IReceiveLocation.CustomData** y **ISendPort.CustomData** propiedades que contienen la bolsa de propiedades de configuración de adaptador en forma de un valor de nombre cadena XML de par. Esta cadena XML de par nombre/valor se almacena en un \<CustomProps\> elemento dentro de un \<TransportTypeData\> elemento en un archivo de enlace. La mayoría de la información de la \<CustomProps\> elemento corresponde a la información que se pueden establecer para un adaptador en la interfaz de usuario de BizTalk Server (por ejemplo, la consola de administración de BizTalk o el Explorador de BizTalk). Si estos valores se encuentran en un archivo de enlace, se aplicarán a la configuración del adaptador para las ubicaciones de recepción y los puertos de envío especificados cuando se importa el archivo de enlace. La información de configuración de todos los adaptadores se almacena en la base de datos de Inicio de sesión único.  
+El modelo de objetos del explorador de BizTalk expone la **IReceiveLocation.CustomData** y **ISendPort.CustomData** propiedades que contienen la bolsa de propiedades de configuración de adaptador en forma de un valor de nombre cadena XML de par. Esta cadena XML de par nombre/valor se almacena en un \<CustomProps\> elemento dentro de un \<TransportTypeData\> elemento en un archivo de enlace. La mayoría de la información de la \<CustomProps\> elemento corresponde a la información que se puede establecer para un adaptador en la interfaz de usuario de BizTalk Server (por ejemplo, la consola de administración de BizTalk o el Explorador de BizTalk). Si estos valores se encuentran en un archivo de enlace, se aplicarán a la configuración del adaptador para las ubicaciones de recepción y los puertos de envío especificados cuando se importa el archivo de enlace. La información de configuración de todos los adaptadores se almacena en la base de datos de Inicio de sesión único.  
   
  En esta sección se describen las propiedades de configuración que se pueden definir para cada adaptador integrado de BizTalk.  
   
 > [!NOTE]
->  Información de contraseña que se almacena en la \<TransportTypeData\> elemento de un archivo de enlace está enmascarada de modo que los datos confidenciales no se guardan en texto no cifrado. En función del transporte, la información de la contraseña se reemplaza con un valor nulo (NULL) o con asteriscos. Debe especificar manualmente esta información en el archivo de enlace para actualizar la configuración del adaptador antes de importar el archivo de enlace a la configuración del BizTalk Server de destino.  
+>  Información de contraseña que se almacena en el \<TransportTypeData\> se enmascara el elemento de un archivo de enlace para que los datos confidenciales no se guardan en texto no cifrado. En función del transporte, la información de la contraseña se reemplaza con un valor nulo (NULL) o con asteriscos. Debe especificar manualmente esta información en el archivo de enlace para actualizar la configuración del adaptador antes de importar el archivo de enlace a la configuración del BizTalk Server de destino.  
   
- Los datos de configuración para adaptadores generada mediante el marco de trabajo se almacenan en un \<AdapterConfig\> elemento. Puesto que la \<AdapterConfig\> elemento especifica la VT_BSTR (vt = "8") tipo de datos, el  **\< \>**  caracteres contenidos en este elemento deben convertirse o se producirá un error cuando se intento de importar el archivo de enlace. Esto causa que el texto de los datos de configuración sea menos legible para las personas que si estos caracteres no estuvieran acompañados de marcas de escape. En el ejemplo siguiente se muestra el efecto de las marcas de escape de estos caracteres desde los datos de configuración de ejemplo para un puerto de envío enlazado al adaptador de POP3.  
+ Los datos de configuración para adaptadores generada mediante el marco de trabajo de adaptador se almacenan en un \<AdapterConfig\> elemento. Puesto que la \<AdapterConfig\> elemento especifica el VT_BSTR (vt = "8") el tipo de datos, el **\< \>** caracteres contenidos en este elemento deben ser de escape o se producirá un error cuando se intento de importar el archivo de enlace. Esto causa que el texto de los datos de configuración sea menos legible para las personas que si estos caracteres no estuvieran acompañados de marcas de escape. En el ejemplo siguiente se muestra el efecto de las marcas de escape de estos caracteres desde los datos de configuración de ejemplo para un puerto de envío enlazado al adaptador de POP3.  
   
- **Los datos de configuración de TransportTypeData que no se convierte los caracteres de <> utilizados en el \<AdapterConfig\> elemento**  
+ **Los datos de configuración de TransportTypeData que no realiza escape de los caracteres <> usados en el \<AdapterConfig\> elemento**  
   
- Estos datos de configuración no están válidos porque la \<AdapterConfig\> elemento especifica la VT_BSTR (vt = "8") tipo de datos y la \< \> caracteres contenidos en el \<AdapterConfig\> elemento sin escape:  
+ Estos datos de configuración no están válidos porque la \<AdapterConfig\> elemento especifica el VT_BSTR (vt = "8") el tipo de datos y el \< \> caracteres contenidos en el \<AdapterConfig\> elemento sin el escape:  
   
 ```  
 <TransportTypeData>  
@@ -66,9 +66,9 @@ El modelo de objetos del explorador de BizTalk expone la **IReceiveLocation.Cust
 </TransportTypeData>  
 ```  
   
- **Los datos de configuración de TransportTypeData que convierte los caracteres de <> utilizados en el \<AdapterConfig\> elemento**  
+ **Los datos de configuración de TransportTypeData que convierte los caracteres <> usados en el \<AdapterConfig\> elemento**  
   
- Puesto que la \<AdapterConfig\> elemento especifica la VT_BSTR (vt = "8") tipo de datos, el \< \> caracteres deben convertirse de la \<AdapterConfig\> elemento tal como se muestra a continuación:  
+ Puesto que la \<AdapterConfig\> elemento especifica el VT_BSTR (vt = "8") el tipo de datos, el \< \> deben ser caracteres de escape de la \<AdapterConfig\> elemento tal como se muestra a continuación:  
   
 ```  
 <TransportTypeData>  
@@ -92,17 +92,17 @@ gt;<bodyPartIndex>1</bodyPartIndex><errorThreshold>10
   
  Entre los adaptadores integrados que se han creado con el marco de trabajo de adaptadores se incluyen los siguientes:  
   
--   Adaptador de FTP  
+- Adaptador de FTP  
   
--   Adaptador de MQSeries  
+- Adaptador de MQSeries  
   
--   Adaptador de MSMQ  
+- Adaptador de MSMQ  
   
--   Adaptador de POP3  
+- Adaptador de POP3  
   
--   Adaptador de Windows Sharepoint Services  
+- Adaptador de Windows Sharepoint Services  
   
- Para ver una cadena de ejemplo usada como los datos de configuración de TransportTypeData para cada adaptador integrado, consulte en esta sección el tema sobre propiedades de configuración asociado al adaptador que corresponda.  
+  Para ver una cadena de ejemplo usada como los datos de configuración de TransportTypeData para cada adaptador integrado, consulte en esta sección el tema sobre propiedades de configuración asociado al adaptador que corresponda.  
   
 ## <a name="in-this-section"></a>En esta sección  
  [Tipos de variables de las propiedades de configuración](../core/configuration-property-variable-types.md)  

@@ -1,5 +1,5 @@
 ---
-title: Defensa contra los ataques por denegación de servicio | Documentos de Microsoft
+title: Defensa contra los ataques por denegación de servicio | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,18 +15,18 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 667b9d321f7703f770297b001ef2a99be2bf4902
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ab2aa48e126aafc7b2202547fd72806b5d471ef4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209708"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976941"
 ---
 # <a name="defending-against-denial-of-service-attacks"></a>Defensa contra los ataques por denegación de servicio
-Un usuario puede iniciar un ataque de denegación de servicio en una instalación de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] agotando el RNIFReceive.aspx de página de recepción. Puede hacerlo mediante el envío de grandes cantidades de mensajes vacíos a esa página. Si no está activada, este tipo de ataque podría saturar el registro de eventos con eventos publicados por el ASPX izquierda recibe la página.  
+Un usuario podría iniciar un ataque de denegación de servicio contra una instalación de Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] agotan la RNIFReceive.aspx página de recepción. Puede hacerlo mediante el envío de grandes cantidades de mensajes vacíos a esa página. Si no está activada, este tipo de ataque podría saturar el registro de eventos con eventos publicados por el ASPX izquierda recibe la página.  
   
 ## <a name="defending-against-an-attack"></a>Defensa contra un ataque  
- Para proteger el servidor contra los ataques de denegación de servicio, se recomienda que mantenga el registro de eventos con un tamaño razonable y tomar medidas para tratar con un número excesivo de eventos. Puede hacerlo estableciendo el tamaño máximo del registro, seleccionando una manera de sobrescribir eventos o usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]® Management Instrumentation (WMI) para administrar el tamaño del registro. Para obtener más información, consulte la ayuda para [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsWinSvrNoVersion](../../includes/btswinsvrnoversion-md.md)]™.  
+ Para proteger al servidor frente a ataques de denegación de servicio, se recomienda que mantenga el registro de eventos con un tamaño razonable y tomar medidas para tratar con un número excesivo de eventos. Puede hacerlo estableciendo el tamaño máximo del registro, seleccionando una manera de sobrescribir eventos o usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]® Management Instrumentation (WMI) para administrar el tamaño del registro. Para obtener más información, consulte la Ayuda de Microsoft [!INCLUDE[btsWinSvrNoVersion](../../includes/btswinsvrnoversion-md.md)]™.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar la configuración, certificados, las bases de datos y seguridad](manage-configuration-certificates-databases-security.md)
+ [Administrar la configuración, certificados, bases de datos y seguridad](manage-configuration-certificates-databases-security.md)

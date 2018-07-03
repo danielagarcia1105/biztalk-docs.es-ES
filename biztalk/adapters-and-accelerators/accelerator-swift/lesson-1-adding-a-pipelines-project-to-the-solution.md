@@ -1,5 +1,5 @@
 ---
-title: 'Lección 1: Agregar un proyecto de canalizaciones a la solución | Documentos de Microsoft'
+title: 'Lección 1: Agregar un proyecto de canalizaciones a la solución | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,32 +15,32 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b45fb5e3ebc47bcaa27226be28618269f9da2e55
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.openlocfilehash: cc2d7081b7f07cb50200d16415394f48651f525e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
-ms.locfileid: "25965706"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982981"
 ---
 # <a name="lesson-1-adding-a-pipelines-project-to-the-solution"></a>Lección 1: Agregar un proyecto de canalizaciones a la solución
-En esta lección, se agregará que un nuevo proyecto de BizTalk para SWIFT canaliza a la solución para que pueda personalizar su envío y las canalizaciones de recepción.  
+En esta lección, agregará que un nuevo proyecto de BizTalk para SWIFT canalizaciones a la solución para que pueda personalizar su envío y las canalizaciones de recepción.  
   
 ### <a name="to-add-a-new-swift-pipelines-project-to-the-solution"></a>Para agregar un nuevo proyecto de canalizaciones SWIFT a la solución  
   
-1.  En Visual Studio, haga clic en **archivo**, seleccione **New**y, a continuación, haga clic en **proyecto**.  
+1. En Visual Studio, haga clic en **archivo**, apunte a **New**y, a continuación, haga clic en **proyecto**.  
   
-2.  En el cuadro de diálogo nuevo proyecto, en la **tipos de proyecto** panel, seleccione la **proyectos de BizTalk** carpeta.  
+2. En el cuadro de diálogo nuevo proyecto, en el **tipos de proyecto** panel, seleccione el **proyectos de BizTalk** carpeta.  
   
-3.  En el **plantillas** panel, seleccione **proyecto vacío de servidor BizTalk**.  
+3. En el **plantillas** panel, seleccione **proyecto vacío de servidor BizTalk**.  
   
-4.  En el **nombre** , escriba **SWIFTPipelines** como el nombre del proyecto.  
+4. En el **nombre** , escriba **SWIFTPipelines** como el nombre del proyecto.  
   
-5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, localice y seleccione  **\< *unidad*:\>\labs\SWIFTProject** está seleccionada.  
+5. En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, busque y seleccione  **\< *unidad*:\>\labs\SWIFTProject** está seleccionada.  
   
-6.  Haga clic en **Aceptar** para abrir el nuevo proyecto.  
+6. Haga clic en **Aceptar** para abrir el nuevo proyecto.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Agrega un nuevo proyecto en el Explorador de soluciones y crea la carpeta del proyecto y los archivos en el \< *unidad*\>: \Labs\SWIFTProject carpeta.  
+    [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Agrega un nuevo proyecto en el Explorador de soluciones y crea la carpeta del proyecto y archivos en el \< *unidad*\>: carpeta \Labs\SWIFTProject.  
   
-7.  Aplicar el archivo de clave de ensamblado que creó en la lección 2 del módulo 2 para el proyecto SWIFTPipelines. Para obtener más información, consulte [lección 2: crear un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).  
+7. Aplicar el archivo de clave de ensamblado que creó en la lección 2 del módulo 2 para el proyecto SWIFTPipelines. Para obtener más información, consulte [lección 2: creación de un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).  
   
- Continúe con [lección 2: agregar referencias de proyecto](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-project-references.md).
+   Continúe con [lección 2: agregar referencias de proyecto](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-project-references.md).

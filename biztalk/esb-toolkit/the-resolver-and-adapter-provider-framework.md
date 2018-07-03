@@ -1,5 +1,5 @@
 ---
-title: Resolución ESB y marco de proveedores de adaptador | Documentos de Microsoft
+title: Marco de proveedores de adaptador y la resolución ESB | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,146 +12,146 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a350ac19ac1fa95ffb8eb6782380bda78a457b75
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 95134a1f806398f14a5596149eb605e2de20cac2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31008439"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002805"
 ---
-# <a name="the-resolver-and-adapter-provider-framework"></a>La resolución y el marco de proveedores de adaptador
-La resolución y el marco de proveedores de adaptador es compatible con la resolución de itinerario, transformación y punto de conexión y el enrutamiento. El marco de trabajo puede resolver los puntos de conexión y establecer las propiedades de salida del adaptador dinámicamente. Después de la resolución de una componente resuelve un punto de conexión (por ejemplo, mediante Universal Description, Discovery e integración [UDDI] para buscar un extremo de servicio Web salientes), un componente de proveedor de adaptador establece propiedades específicas del servidor BizTalk Server registrado adaptadores. Por ejemplo, el proveedor del adaptador de WCF-BasicHttp es responsable de establecer el mensaje de BizTalk específico de propiedades de contexto para el extremo de URI que se va a utilizar el adaptador de BizTalk específico; el proveedor de adaptador FTP es responsable de establecer las propiedades específicas del adaptador de FTP.  
+# <a name="the-resolver-and-adapter-provider-framework"></a>El marco de proveedores de adaptador y resolución
+El marco de proveedores de adaptador y la resolución admite itinerario, transformación y punto de conexión de la resolución y enrutamiento. El marco de trabajo dinámicamente puede resolver los puntos de conexión y establecer propiedades del adaptador de salida. Después de la resolución de una componente se resuelve como un punto de conexión (por ejemplo, el uso de Universal Description, Discovery and Integration [UDDI] para buscar un punto de conexión de servicio Web salientes), un componente de proveedor de adaptador establece propiedades específicas de servidor BizTalk Server registrado adaptadores. Por ejemplo, el proveedor del adaptador WCF-BasicHttp es responsable de establecer el mensaje de BizTalk específico de propiedades de contexto para el punto de conexión de URI que se usará el adaptador de BizTalk específico; el proveedor del adaptador FTP es responsable de establecer las propiedades específicas para el adaptador de FTP.  
   
- Uno de los objetivos de la resolución y el marco de proveedores de adaptador es compatible con la resolución y el enrutamiento en el nivel mensajería, sin requerir el uso de las orquestaciones de BizTalk, o en el nivel de orquestación. En ambos casos, el marco acoplable proporciona fácil desarrollo, la implementación y el registro de proveedores de adaptador y resoluciones nuevo. Todas las resoluciones y proveedores de adaptador implementan interfaces bien definidas y están demanda de carga en tiempo de ejecución a través del registro en los archivos de configuración.  
+ Es uno de los objetivos de la resolución y el marco de proveedores de adaptador admitir la resolución y enrutamiento en el nivel mensajería, sin requerir el uso de las orquestaciones de BizTalk, o en el nivel de orquestación. En ambos casos, el marco acoplable proporciona fácil desarrollo, implementación y registro de las resoluciones nuevo y proveedores de adaptador. Todas las resoluciones y proveedores de adaptador implementan interfaces bien definidas y son de carga a petición en tiempo de ejecución a través del registro en los archivos de configuración.  
   
- El distribuidor de ESB y ESB distribuidor desensamblar los componentes de canalización usan la resolución y el marco de proveedores de adaptador, pase la cadena de conexión desde el encabezado SOAP de itinerario o la configuración de canalización con el Administrador de resolución.  
+ El distribuidor de ESB y desensamblar distribuidor de ESB componentes de canalización usan el marco de proveedores de adaptador y la resolución pasando la cadena de conexión desde el encabezado SOAP del itinerario o la configuración de canalización para el Administrador de solucionador.  
   
- El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] configuración contiene los detalles de todos los solucionadores y proveedores de adaptador. En tiempo de ejecución, los administradores de resolución y administradores de adaptador leer detalles de los proveedores de adaptador y resoluciones registradas desde los archivos de configuración, cargar los ensamblados adecuados y almacenarlos en una caché de nivel del host de BizTalk. Esta técnica de almacenamiento en caché elimina la necesidad de repetidas de lectura de archivos de configuración y la carga de ensamblados para cada mensaje enviado.  
+ El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] configuración contiene los detalles de todas las instancias registradas resoluciones y proveedores de adaptador. En tiempo de ejecución, los administradores de resolución y administradores de adaptador que se leen los archivos de configuración en los detalles de los proveedores de adaptador y resoluciones registradas, cargar los ensamblados adecuados y almacenarlos en una caché de nivel del host de BizTalk. Esta técnica de almacenamiento en caché elimina el requisito para repetidas de lectura de archivos de configuración y carga de ensamblados para cada mensaje enviado.  
   
- Para obtener más información sobre cómo funciona la resolución y marco de proveedores de adaptador y cómo puede ampliarlo mediante la creación de solucionadores personalizados y los proveedores de adaptador, vea [modificar y extender el Kit de herramientas de ESB de BizTalk](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md).  
+ Para obtener más información sobre cómo el marco resolución y adaptadores proveedor funciona y cómo puede ampliarlo mediante la creación de los solucionadores personalizados y proveedores de adaptador, vea [modificación y extensión del Kit de herramientas de BizTalk ESB](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md).  
   
-## <a name="supported-resolution-mechanisms-resolvers"></a>Mecanismos de resolución admitidos (resoluciones)  
+## <a name="supported-resolution-mechanisms-resolvers"></a>Resolución admite mecanismos (resoluciones)  
  El Kit de herramientas de ESB de BizTalk incluye las siguientes resoluciones: **estático, UDDI, UDDI3, XPATH, BRE, BRI, itinerario, itinerario estático** y **LDAP**.  
   
- Cadena de conexión de una resolución siempre consta de un **moniker** (como **BRE**) seguido de ":\\\\" y los detalles de conexión o el procesamiento. El moniker coincide con la definición de la resolución asociada en el archivo de configuración. Las propiedades asociadas a cada cadena de conexión son únicas y no todas las propiedades son necesarias. El esquema para cada uno de los solucionadores puede encontrarse en ESB. Proyecto de Resolvers.Schemas.  
+ Cadena de conexión de una resolución siempre consta de un **moniker** (como **BRE**) seguido de ":\\\\" y los detalles de conexión o procesamiento. El moniker coincide con la definición de la resolución asociada en el archivo de configuración. Las propiedades asociadas con cada cadena de conexión son únicas y no todas las propiedades que son necesarias. El esquema para cada una de las resoluciones puede encontrarse en el ESB. Proyecto Resolvers.Schemas.  
   
  Los siguientes son ejemplos de cadenas de conexión:  
   
--   **ESTÁTICO**  
+- **ESTÁTICO**  
   
-     ESTÁTICO:\\\TransportType=;  
+   ESTÁTICO:\\\TransportType=;  
   
-     TransportLocation =http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
+   TransportLocation =<http://localhost/ESB.CanadianServices/SubmitPOService.asmx>;  
   
-     Acción =;  
+   Acción =;  
   
-     EndPointConfig =;  
+   EndPointConfig =;  
   
-     JaxRpcResponse = false;  
+   JaxRpcResponse = false.  
   
-     MessageExchangePattern=;  
+   MessageExchangePattern=;  
   
-     TargetNamespace =http://globalbank.esb.dynamicresolution.com/canadianservices/;  
+   TargetNamespace =<http://globalbank.esb.dynamicresolution.com/canadianservices/>;  
   
-     TransformType =;  
+   TransformType =;  
   
--   **UDDI**  
+- **UDDI**  
   
-     UDDI:\\\serverUrl=http://localhost:9901/rmengine;  
+   UDDI:\\\serverUrl=<http://localhost:9901/rmengine>;  
   
-     serviceName=OrderPurchaseWebService;  
+   serviceName=OrderPurchaseWebService;  
   
-     serviceProvider = ESB de prácticas de Microsoft  
+   serviceProvider = ESB de prácticas de Microsoft  
   
--   **XPATH**  
+- **XPATH**  
   
-     XPATH:\\\TransportType=;  
+   XPATH:\\\TransportType=;  
   
-     `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
+   `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
-     Acción =;  
+   Acción =;  
   
-     EndPointConfig =;  
+   EndPointConfig =;  
   
-     JaxRpcResponse =;  
+   JaxRpcResponse =;  
   
-     MessageExchangePattern=;  
+   MessageExchangePattern=;  
   
-     `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
+   `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
-     TransformType =;  
+   TransformType =;  
 
--   **BRE**  
+- **BRE**  
   
-     BRE:\\\policy=GetCanadaEndPoint;  
+   BRE:\\\policy=GetCanadaEndPoint;  
   
-     versión =;  
+   versión =;  
   
-     useMsg =;  
+   useMsg =;  
   
--   **BRI**  
+- **BRI**  
   
-     BRI:\\\policy=ResolveItinerary;  
+   BRI:\\\policy=ResolveItinerary;  
   
-     versión =;  
+   versión =;  
   
-     useMsg =;  
+   useMsg =;  
   
--   **ITINERARIO**  
+- **ITINERARIO**  
   
-     ITINERARIO:\\\name=TwoWayTestItinerary;  
+   ITINERARIO:\\\name=TwoWayTestItinerary;  
   
-     versión =;  
+   versión =;  
   
--   **ITINERARIO ESTÁTICOS**  
+- **ITINERARIO ESTÁTICO**  
   
-     ITINERARIO estático:\\\name=TwoWayTestItinerary;  
+   ITINERARIO estático:\\\name=TwoWayTestItinerary;  
   
-     versión =;  
+   versión =;  
   
--   **LDAP**  
+- **LDAP**  
   
-     LDAP:\\\TransportType=SMTP;  
+   LDAP:\\\TransportType=SMTP;  
   
-     TransportLocation = {correo}  
+   TransportLocation = {correo electrónico de}  
   
-     Filtro = (&(objectClass=User) (| () userPrincipalName =yourname@domain.com)));  
+   Filtro = (&(objectClass=User) (| () userPrincipalName =yourname@domain.com)));  
   
-     SearchRoot =;  
+   SearchRoot =;  
   
-     SearchScope = subárbol;  
+   SearchScope = subárbol;  
   
-     EndpointConfig = sujeto = mensaje de prueba de itinerario a {mail} & 
+   EndpointConfig = asunto = mensaje de prueba de itinerario para correo electrónico de {} & 
   
-     SMTPAuthenticate = 0 &
+   SMTPAuthenticate = 0 &
   
-     SMTPHost = 127.0.0.1 &
+   SMTPHost = 127.0.0.1 &
   
-     FROM =test@globalbank.com&
+   FROM =test@globalbank.com&
   
-     DeliveryReceipt = false &
+   DeliveryReceipt = false &
   
-     MessagePartsAttachments = 0 &
+   MessagePartsAttachments = 0 &
   
-     ReadReceipt = false;  
+   ReadReceipt = false.  
   
-     ThrowErrorIfNotFound = false;  
+   ThrowErrorIfNotFound = false.  
   
-     Acción =;  
+   Acción =;  
   
-     JaxRpcResponse = false;  
+   JaxRpcResponse = false.  
   
-     MessageExchangePattern=;  
+   MessageExchangePattern=;  
   
-     TargetNamespace =;  
+   TargetNamespace =;  
   
-     TransformType =;  
+   TransformType =;  
   
- No todos los atributos de la cadena de conexión son obligatorios. Además, **EndPointConfig** es un atributo especial que puede rellenar y devolver cualquier resolución. Si lo desea, la resolución puede almacenar los pares de nombre/valor que se corresponden con determinadas propiedades de contexto del adaptador de BizTalk, que a su vez, pueden escribir en el contexto del mensaje de BizTalk.  
+  No todos los atributos en la cadena de conexión son obligatorios. Además, **EndPointConfig** es un atributo especial que puede rellenar y devolver cualquier resolución. Opcionalmente, la resolución puede almacenar los pares nombre/valor que se corresponden con determinadas propiedades de contexto del adaptador de BizTalk, que a su vez, pueden escribir en el contexto del mensaje de BizTalk.  
   
- En este caso, el **ResolverDictionary** instancia que contiene todas las propiedades resueltas devuelto por el proceso de resolución, a continuación, pasa al administrador de adaptador. El Administrador de adaptador pasa el diccionario con el proveedor de adaptador específico que se establece propiedades para el mensaje de todo el específicas de punto de conexión y adaptador de BizTalk el contexto. Buscan las resoluciones el **EndPointConfig** propiedad, extraer los pares de nombre/valor que se corresponden con sus propiedades de adaptador correspondiente y, a continuación, establecer estos valores en el mensaje.  
+  En este caso, el **ResolverDictionary** instancia que contiene todas las propiedades resueltas devuelto por el proceso de resolución, a continuación, pasa al administrador de adaptador. El Administrador de adaptador pasa el diccionario con el proveedor de adaptador específico que se establece propiedades para el mensaje de todo el específicas del punto de conexión y adaptador de BizTalk el contexto. Busque las resoluciones del **EndPointConfig** propiedad, extraer los pares nombre/valor que se corresponden con sus propiedades de adaptador correspondiente y, a continuación, establezca estos valores en el mensaje.  
   
 ## <a name="supported-adapter-providers"></a>Proveedores compatibles con el adaptador  
  El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye los siguientes proveedores de adaptador integrado: **archivo, FTP, SMTP, MQSeries, WCF-BasicHttp, WCF-WSHttp,** y **WCF-Custom**. El nombre de cada proveedor de adaptador es idéntico al nombre del adaptador asociado (tipo de transporte) en BizTalk Server.  
   
- Una ventaja fundamental de la resolución y el marco de proveedores de adaptador es que puede ampliarlo mediante la creación y registrar sus propio solucionadores personalizados para resolver la información de extremo y los proveedores de adaptador personalizado para establecer las propiedades específicas de los adaptadores de BizTalk registrados. Para obtener más información, consulte [modificar y extender el Kit de herramientas de ESB de BizTalk](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md).
+ Una ventaja fundamental de la resolución y el marco de proveedores de adaptador es que puede ampliarlo mediante la creación y registro de sus propias resoluciones personalizadas para resolver la información de punto de conexión y los proveedores de adaptador personalizado para establecer propiedades específicas de los adaptadores de BizTalk registrados. Para obtener más información, consulte [modificación y extensión del Kit de herramientas de BizTalk ESB](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md).

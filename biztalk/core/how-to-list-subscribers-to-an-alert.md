@@ -1,5 +1,5 @@
 ---
-title: Cómo enumerar suscriptores de una alerta | Documentos de Microsoft
+title: Cómo enumerar suscriptores de una alerta | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,29 +16,29 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 909854abd251d94fa71ce963c3714f6d664153c1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ae95582e2923c682a5d4138235029f21293fd847
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974346"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972653"
 ---
 # <a name="how-to-list-subscribers-to-an-alert"></a>Cómo enumerar suscriptores de una alerta
 Los administradores utilizan el **get-subscriptions** comando para enumerar todos los suscriptores a una alerta específica.  
   
 ### <a name="to-list-subscribers-to-an-alert"></a>Para enumerar suscriptores de una alerta  
   
-1.  Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
+1. Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
+2. Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Tipo de **bm get-subscriptions-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\>**.  
+3. Tipo **bm get-subscriptions-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\>**.  
   
-    > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+   > [!NOTE]
+   >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
-4.  Presione **ENTRAR**.  
+4. Presione **ENTRAR**.  
   
 ## <a name="see-also"></a>Vea también  
- [Administración de la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md)   
+ [Administrar la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md)   
  [Utilidad de administración de BAM](../core/bam-management-utility.md)

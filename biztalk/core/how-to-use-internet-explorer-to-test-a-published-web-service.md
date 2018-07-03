@@ -1,5 +1,5 @@
 ---
-title: Probar el servicio web de BizTalk | Documentos de Microsoft
+title: Probar el servicio web de BizTalk | Microsoft Docs
 description: Configurar ubicaciones de recepción y web.config para probar el servicio web de BizTalk en un explorador web
 ms.custom: ''
 ms.date: 06/08/2017
@@ -13,21 +13,21 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48a35373735102bd75d1c388da29b06d4392ba18
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.openlocfilehash: dbf7e57d163b5729685c4103a8a3e5da78e37355
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
-ms.locfileid: "26008853"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979693"
 ---
 # <a name="test-a-biztalk-web-service"></a>Probar un servicio Web de BizTalk
 
 ## <a name="overview"></a>Información general
-Puede probar el servicio Web publicado sin escribir una aplicación cliente Web. Se puede utilizar un explorador Web, por ejemplo Internet Explorer, para probar el servicio Web publicado. Aunque es posible obtener acceso a cualquier servicio Web publicado mediante un explorador Web, sólo puede probar los servicios Web con métodos Web que contienen parámetros de tipo simple. Para probar el método Web en un explorador Web, los elementos de mensaje para los mensajes de solicitud y respuesta que se usan en el puerto de recepción sólo puede un tipo simple, como **System.String** o **System.Int32**. Si la parte de mensaje utiliza un esquema como tipo de mensaje, no puede probar el método Web con un explorador.  
+Puede probar el servicio Web publicado sin escribir una aplicación cliente Web. Se puede utilizar un explorador Web, por ejemplo Internet Explorer, para probar el servicio Web publicado. Aunque es posible obtener acceso a cualquier servicio Web publicado mediante un explorador Web, sólo puede probar los servicios Web con métodos Web que contienen parámetros de tipo simple. Para probar el método Web en un explorador Web, los elementos de mensaje para los mensajes de solicitud y respuesta que se usan en el puerto de recepción pueden solo ser un tipo simple, como **System.String** o **System.Int32**. Si la parte de mensaje utiliza un esquema como tipo de mensaje, no puede probar el método Web con un explorador.  
   
  Si desea probar los servicios Web publicados que usan HTTP-GET o HTTP-POST, debe configurar la ubicación de recepción de BizTalk para el adaptador de SOAP y modificar el archivo Web.config para el servicio Web publicado.  
   
- **Modificar las ubicaciones de recepción**  
+ **Modificación de las ubicaciones de recepción**  
   
  Si el adaptador de SOAP configura las ubicaciones de recepción, éste establece normalmente el URI de la ubicación de recepción proporcionando el nombre del archivo .asmx al directorio virtual y al servicio Web:  
   
@@ -49,41 +49,41 @@ Puede probar el servicio Web publicado sin escribir una aplicación cliente Web.
   
 ## <a name="update-the-webconfig"></a>Actualizar el archivo Web.config
   
-1.  Abra el archivo Web.config del servicio Web publicado.  
+1. Abra el archivo Web.config del servicio Web publicado.  
   
-    > [!NOTE]
-    >  Puede buscar el archivo Web.config en el directorio que ha configurado para la raíz virtual de IIS que contiene el servicio Web.  
+   > [!NOTE]
+   >  Puede buscar el archivo Web.config en el directorio que ha configurado para la raíz virtual de IIS que contiene el servicio Web.  
   
-2.  Buscar el \<protocolos\> sección:  
+2. Buscar el \<protocolos\> sección:  
   
-    ```  
-    <webServices>  
-       <protocols>  
-         <remove name="HttpPost" />  
-         <remove name="HttpGet" />  
-         <remove name="HttpPostLocalhost" />  
-       </protocols>  
+   ```  
+   <webServices>  
+      <protocols>  
+        <remove name="HttpPost" />  
+        <remove name="HttpGet" />  
+        <remove name="HttpPostLocalhost" />  
+      </protocols>  
   
-    </webServices>  
-    ```  
+   </webServices>  
+   ```  
   
-3.  Para probar HTTP-GET, HTTP-POST o HTTP-POST en el equipo local, quite la línea correspondiente de la \<protocolos\> sección.  
+3. Para probar HTTP-GET, HTTP-POST o HTTP-POST en el equipo local, quite la línea correspondiente de la \<protocolos\> sección.  
   
- Para obtener más información acerca de las opciones de configuración, consulte [opciones de configuración de servicios Web XML creados con ASP.NET](https://msdn.microsoft.com/library/b2c0ew36.aspx). 
+   Para obtener más información acerca de las opciones de configuración, consulte [opciones de configuración de servicios Web XML creados con ASP.NET](https://msdn.microsoft.com/library/b2c0ew36.aspx). 
   
 #### <a name="access-a-web-service-with-internet-explorer"></a>Obtener acceso a un servicio Web con Internet Explorer  
   
--   En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL para el servicio Web con el formato **http://*servername*/*apppath* / *webservicename*.asmx**.  
+- En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL del servicio Web con el formato **http://<em>servername</em>/*apppath* / *webservicename*.asmx**.  
   
-    |Parámetro|Value|  
-    |---------------|-----------|  
-    |***servername***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
-    |***Apppath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
-    |***webservicename.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
+  |Parámetro|Valor|  
+  |---------------|-----------|  
+  |***nombre de servidor***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
+  |***AppPath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
+  |***WebServiceName.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
   
- La descripción del servicio Web muestra todos los métodos del servicio Web que admite el servicio Web concreto. La página de descripción del servicio Web contiene vínculos para los métodos Web disponibles y la descripción del servicio del servicio Web.  
+  La descripción del servicio Web muestra todos los métodos del servicio Web que admite el servicio Web concreto. La página de descripción del servicio Web contiene vínculos para los métodos Web disponibles y la descripción del servicio del servicio Web.  
   
-#### <a name="test-a-web-service-with-internet-explorer-using-http-get"></a>Probar un servicio Web con Internet Explorer mediante HTTP-GET  
+#### <a name="test-a-web-service-with-internet-explorer-using-http-get"></a>Probar un servicio Web con Internet Explorer utilizando HTTP-GET  
   
 1.  Tras obtener acceso a la página de descripción del servicio Web, haga clic en uno de los métodos Web enumerados en la página de descripción del servicio Web.  
   
@@ -96,16 +96,16 @@ Puede probar el servicio Web publicado sin escribir una aplicación cliente Web.
     <double>74.5</double>  
     ```  
   
-#### <a name="test-a-web-service-with-internet-explorer-using-http-get-alternate-method"></a>Probar un servicio Web con Internet Explorer mediante HTTP-GET (método alternativo)  
+#### <a name="test-a-web-service-with-internet-explorer-using-http-get-alternate-method"></a>Probar un servicio Web con Internet Explorer utilizando HTTP-GET (método alternativo)  
   
-1.  En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL para el servicio Web con el formato ***http://servername/vdir/webservicename.asmx/Methodname?parameter=value***.  
+1.  En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL del servicio Web con el formato ***http://servername/vdir/webservicename.asmx/Methodname?parameter=value***.  
   
-    |Parámetro|Value|  
+    |Parámetro|Valor|  
     |---------------|-----------|  
-    |***servername***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
-    |***Apppath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
-    |***webservicename.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
-    |***Methodname***|El nombre de un método público que expone el servicio Web XML. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
+    |***nombre de servidor***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
+    |***AppPath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
+    |***WebServiceName.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
+    |***MethodName***|El nombre de un método público que expone el servicio Web XML. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
     |***parameter***|El nombre y el valor del parámetro correspondiente para los parámetros que requiere el método. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
   
     > [!NOTE]
@@ -114,7 +114,7 @@ Puede probar el servicio Web publicado sin escribir una aplicación cliente Web.
 2.  Presione ENTRAR. El explorador Web muestra una respuesta XML en el servidor.  
   
     > [!NOTE]
-    >  Además, puede usar HTTP-POST para llamar al servicio Web. Para obtener información y ejemplos sobre cómo llamar a servicios Web XML desde un explorador Web, consulte [acceso a los servicios Web XML desde un explorador](https://msdn.microsoft.com/library/45fez2a8.aspx).  
+    >  Además, puede usar HTTP-POST para llamar al servicio Web. Para obtener información y ejemplos sobre cómo llamar a servicios Web XML desde un explorador Web, consulte [acceso a servicios Web desde un explorador](https://msdn.microsoft.com/library/45fez2a8.aspx).  
   
 ## <a name="see-also"></a>Vea también  
  [Probar servicios web publicados](../core/testing-published-web-services.md)

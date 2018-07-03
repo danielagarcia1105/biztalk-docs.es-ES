@@ -1,5 +1,5 @@
 ---
-title: ¿Qué ocurre cuando se implementa un ensamblado desde Visual Studio | Documentos de Microsoft
+title: ¿Qué ocurre cuando se implementa un ensamblado desde Visual Studio | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66454d80d702cc6b3ca20708b07fd64cdfcb00d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c74336e90e1ac58088de0d528695dbfed617d9b5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290172"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985269"
 ---
 # <a name="what-happens-when-you-deploy-an-assembly-from-visual-studio"></a>¿Qué ocurre cuando se implementa un ensamblado desde Visual Studio?
 En este tema se describe lo que sucede al implementar ensamblados desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
- Puede implementar un proyecto de forma individual o todos los proyectos al mismo tiempo en una solución. Antes de implementar un proyecto, ya sea por separado o como parte de una solución, debe especificar la aplicación en la que se va a implementar su ensamblado en las propiedades del proyecto, como se describe en [cómo establecer propiedades de implementación en Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). Cuando implementa un proyecto o una solución en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], los ensamblados se crean y se implementan automáticamente en la aplicación especificada. Si el nombre de una aplicación que ya existe en el grupo de BizTalk local es el mismo que el de la aplicación especificada en las propiedades del proyecto, el ensamblado se implementa en la aplicación que ya existe; en caso contrario, se crea una nueva aplicación con el nombre especificado y el ensamblado se implementa en ella. Como parte de este proceso, el ensamblado junto con las orquestaciones, canalizaciones, esquemas y asignaciones que contiene (denominados "artefactos") se importan a la base de datos de administración de BizTalk local y se asocian en ella con la aplicación especificada.  
+ Puede implementar un proyecto de forma individual o todos los proyectos al mismo tiempo en una solución. Antes de implementar un proyecto, ya sea por separado o como parte de una solución, debe especificar la aplicación en el que se va a implementar su ensamblado en las propiedades del proyecto, como se describe en [cómo establecer propiedades de implementación en Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). Cuando implementa un proyecto o una solución en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], los ensamblados se crean y se implementan automáticamente en la aplicación especificada. Si el nombre de una aplicación que ya existe en el grupo de BizTalk local es el mismo que el de la aplicación especificada en las propiedades del proyecto, el ensamblado se implementa en la aplicación que ya existe; en caso contrario, se crea una nueva aplicación con el nombre especificado y el ensamblado se implementa en ella. Como parte de este proceso, el ensamblado junto con las orquestaciones, canalizaciones, esquemas y asignaciones que contiene (denominados "artefactos") se importan a la base de datos de administración de BizTalk local y se asocian en ella con la aplicación especificada.  
   
  Puede implementar los proyectos en una solución en la misma aplicación de BizTalk o en aplicaciones de BizTalk diferentes, incluso cuando implementa los proyectos en una solución al mismo tiempo. En el diagrama siguiente se ilustra la implementación de tres ensamblados, que una solución de BizTalk contiene en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en dos aplicaciones de BizTalk diferentes.  
   
@@ -37,15 +37,15 @@ En este tema se describe lo que sucede al implementar ensamblados desde [!INCLUD
   
  Para solucionar este problema, siga el procedimiento siguiente:  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], implemente el ensamblado.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], implemente el ensamblado.  
   
-2.  Una vez implementado, abra el administrador de BizTalk.  
+2. Una vez implementado, abra el administrador de BizTalk.  
   
-3.  Modifique la ubicación de destino como corresponda. Por ejemplo, cambie la ubicación de destino a %BTAD_InstallDir%.  
+3. Modifique la ubicación de destino como corresponda. Por ejemplo, cambie la ubicación de destino a %BTAD_InstallDir%.  
   
- Una vez que haya modificado la ubicación de destino, se usará la nueva de forma predeterminada para las nuevas implementaciones posteriores del mismo ensamblado.  
+   Una vez que haya modificado la ubicación de destino, se usará la nueva de forma predeterminada para las nuevas implementaciones posteriores del mismo ensamblado.  
   
- Para obtener más información, consulte [cómo implementar un ensamblado de BizTalk desde Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md).  
+   Para obtener más información, consulte [cómo implementar un ensamblado de BizTalk desde Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md).  
   
 ## <a name="deploying-solutions-vs-projects"></a>Implementación de soluciones de vs. Proyectos  
  Se recomienda encarecidamente implementar siempre una solución en vez de un proyecto individual. Cuando implementa un proyecto individual y existen dependencias entre el ensamblado que implementa y otro, debe efectuar una serie de pasos manuales para completar la implementación. Sin embargo, cuando implementa una solución, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo automáticamente todos los pasos para administrar las dependencias que existan entre ensamblados. Para obtener más información, consulte [cómo volver a implementar un ensamblado de BizTalk desde Visual Studio](../core/how-to-redeploy-a-biztalk-assembly-from-visual-studio.md).  
@@ -55,4 +55,4 @@ En este tema se describe lo que sucede al implementar ensamblados desde [!INCLUD
  ![Implementar ensamblados en una solución](../core/media/deployassemblies.gif "DeployAssemblies")  
   
 ## <a name="see-also"></a>Vea también  
- [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+ [Implementación de ensamblados de BizTalk en una aplicación de BizTalk desde Visual Studio](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

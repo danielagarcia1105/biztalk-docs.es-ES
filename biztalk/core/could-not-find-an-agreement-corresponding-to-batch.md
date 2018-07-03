@@ -1,5 +1,5 @@
 ---
-title: No se pudo encontrar ningún acuerdo correspondiente al lote | Documentos de Microsoft
+title: No se pudo encontrar ningún acuerdo correspondiente al lote | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bce17af0e382a137dc8d55d30705da58dd52301c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4b51fabd7aaf01d751f1a5ecff3c3a4e773e0b7b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22237932"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978381"
 ---
 # <a name="could-not-find-an-agreement-corresponding-to-batch"></a>No se encuentra ningún acuerdo correspondiente al lote
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|AgreementNotFoundForBatch|  
-|Texto del mensaje|No se encuentra ningún acuerdo correspondiente al lote {0}.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                               AgreementNotFoundForBatch                                |
+|  Texto del mensaje   |                No se pudo encontrar ningún acuerdo correspondiente al lote {0}.                 |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error indica que BizTalk Server no pudo encontrar un lote correspondiente a este identificador al tratar de iniciar o detener un lote o procesar un mensaje por lotes.  

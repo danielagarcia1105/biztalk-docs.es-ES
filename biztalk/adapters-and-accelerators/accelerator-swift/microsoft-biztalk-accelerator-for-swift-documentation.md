@@ -1,6 +1,6 @@
 ---
-title: Acelerador de Microsoft BizTalk para SWIFT documentación | Documentos de Microsoft
-description: Vínculos rápidos a instalar, configurar, implementar, introducción, proteger, desarrollar y solución de problemas del Acelerador de SWIFT de BizTalk Server
+title: Acelerador de Microsoft BizTalk para SWIFT documentación | Microsoft Docs
+description: Vínculos rápidos a instalar, configurar, implementar, empezar a trabajar, proteger, desarrollar y solución de problemas en BizTalk Server el Acelerador de SWIFT
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,37 +13,37 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e248ef72d52730894b4fed61c904896e9fe061e7
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: f6064103964257f295d90188b0d0387031d67804
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26006485"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976645"
 ---
 # <a name="microsoft-biztalk-accelerator-for-swift-documentation"></a>Acelerador de Microsoft BizTalk para SWIFT documentación
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] es un complemento para [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server y aprovecha las herramientas de basada en estándares abiertos y funciones de tiempo de ejecución de BizTalk Server para implementar la compatibilidad para la sociedad para formatos de mensaje de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo .  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] es un complemento para Microsoft BizTalk Server y aprovecha las herramientas de código abierto y basada en estándares y las funciones de tiempo de ejecución de BizTalk Server para implementar la compatibilidad de la sociedad para mensaje de telecomunicaciones financieros entre bancos más (SWIFT) en todo el mundo da formato.  
   
- Esta funcionalidad agregada facilita a las empresas que deben adoptarse en BizTalk Server como una plataforma de integración de middleware de uso general. Con A4SWIFT, los clientes, socios e integradores de sistemas pueden simplificar el desarrollo, implementación y compatibilidad de las soluciones de integración para los servicios financieros principales, infraestructura de aplicaciones y procesos empresariales.  
+ Esta funcionalidad se ha agregado facilita a las empresas a adoptar a BizTalk Server como una plataforma de integración de middleware de uso general. Con A4SWIFT, los clientes, socios e integradores de sistemas pueden simplificar el desarrollo, implementación y compatibilidad de las soluciones de integración para los servicios financieros principales, infraestructura de aplicaciones y procesos empresariales.  
 
 ## <a name="install-configure-and-deploy"></a>Instalar, configurar e implementar
-[Instalar, configurar e implementar](../../adapters-and-accelerators/accelerator-swift/install-configure-and-deploy-the-biztalk-accelerator-for-swift.md) muestra cómo instalar y configurar el acelerador en el servidor BizTalk Server. También puede configurar el tiempo de ejecución, reparación de mensajes y respuesta FIN. 
+[Instalar, configurar e implementar](../../adapters-and-accelerators/accelerator-swift/install-configure-and-deploy-the-biztalk-accelerator-for-swift.md) se muestra cómo instalar y configurar el acelerador en el servidor BizTalk Server. También puede configurar el tiempo de ejecución, la reparación de mensajes y respuestas de FIN. 
 
-Utilice esta sección para configurar una configuración de red e implementar los servidores. 
+Utilice esta sección para configurar también una configuración de red e implemente sus servidores. 
 
 ## <a name="get-started"></a>Introducción
-[Introducción a](../../adapters-and-accelerators/accelerator-swift/getting-started-with-biztalk-accelerator-for-swift.md) incluye algunos tutoriales to-end.  
+[Introducción a](../../adapters-and-accelerators/accelerator-swift/getting-started-with-biztalk-accelerator-for-swift.md) incluye algunos tutoriales de extremo a otro.  
 
 ## <a name="messaging"></a>Mensajería  
-[Tiempo de ejecución, reparación, la respuesta FIN y la mensajería de mensajes](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md) describe cómo fluyen los datos a través del SWIFT ensamblador y desensamblador, explica reparación de mensajes, se explica cómo los diferentes artefactos controlan mensajes y mucho más. 
+[Tiempo de ejecución, reparación, respuesta FIN y mensajería mensajes](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md) describe cómo fluyen los datos a través de desensamblador y ensamblador de SWIFT, explica la reparación de mensajes, se explica cómo los diferentes artefactos de controlan los mensajes y mucho más. 
 
 ## <a name="security"></a>Seguridad  
-[Estándares de seguridad y privacidad](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md) proporciona más detalles sobre la seguridad en BizTalk Server, el tiempo de ejecución y el rápido a los usuarios y grupos. 
+[Estándares de seguridad y privacidad](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md) proporciona más detalles sobre la seguridad de BizTalk Server, el tiempo de ejecución y SWIFT a los usuarios y grupos. 
 
 ## <a name="developing-apps"></a>Desarrollo de aplicaciones  
-[Guía de los programadores](../../adapters-and-accelerators/accelerator-swift/programmers-guide-frr-nak-sample-and-tools.md) incluye ejemplo del controlador FRR NAK y las herramientas.
+[Guía de los programadores](../../adapters-and-accelerators/accelerator-swift/programmers-guide-frr-nak-sample-and-tools.md) incluye el ejemplo del controlador NAK de FRR y herramientas.
 
 ## <a name="operations"></a>Operaciones  
-[Las tareas operativas](../../adapters-and-accelerators/accelerator-swift/operational-tasks.md) describe la reparación de mensajes, comprobar y aprobar mensajes y proporciona información sobre cómo utilizar el motor de reglas de negocios (BRE) y mucho más. 
+[Las tareas operativas](../../adapters-and-accelerators/accelerator-swift/operational-tasks.md) describe la reparación de mensajes, comprobar y aprobar los mensajes y proporciona información sobre el uso de motor de reglas de negocios (BRE) y mucho más. 
 
 ## <a name="troubleshoot"></a>Solucionar problemas  
-[Solución de problemas de](../../adapters-and-accelerators/accelerator-swift/troubleshooting-and-known-issues.md) se enumeran algunas instrucciones sobre las distintas partes para este acelerador y también se enumeran algunos problemas conocidos.
+[Solución de problemas](../../adapters-and-accelerators/accelerator-swift/troubleshooting-and-known-issues.md) se enumeran algunas instrucciones sobre las distintas partes para este acelerador y también se enumeran algunos problemas conocidos.

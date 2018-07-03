@@ -1,5 +1,5 @@
 ---
-title: 'Paso 4: Crear el proyecto HeaderHelper | Documentos de Microsoft'
+title: 'Paso 4: Creación del proyecto HeaderHelper | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,31 +15,31 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2525e0e87106e2eeb82fb05b52b3ec69d4be876d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: a01323dba6fba4673e4bcd2886df53d408421f9f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25965530"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970797"
 ---
-# <a name="step-4-creating-the-headerhelper-project"></a>Paso 4: Crear el proyecto HeaderHelper
-En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] biblioteca de clases. Cuando una orquestación de procesos privados recibe un mensaje entrante, la biblioteca de HeaderHelper determina si una conversión de documento es necesaria y si es necesario, realiza esa conversión. Esto permite que la orquestación trabajar con distintas versiones de documentos de RosettaNet Implementation Framework (RNIF). Además, cuando se envía un mensaje de respuesta de 3A2, la biblioteca HeaderHelper realiza una conversión de documento adicionales antes de transmitir el mensaje.  
+# <a name="step-4-creating-the-headerhelper-project"></a>Paso 4: Creación del proyecto HeaderHelper
+En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] biblioteca de clases. Cuando una orquestación de procesos privado, recibe un mensaje entrante, la biblioteca HeaderHelper determina si una conversión de documentos, es necesaria y si es necesario, realiza esa conversión. Esto permite que la orquestación trabajar con distintas versiones de documentos de RosettaNet Implementation Framework (RNIF). Además, cuando se envía un mensaje de respuesta de 3A2, la biblioteca HeaderHelper realiza una conversión de documentos adicional antes de transmitir el mensaje.  
   
 ### <a name="to-create-the-headerhelper-project"></a>Para crear el proyecto HeaderHelper  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en el Explorador de soluciones, haga clic en la solución de Contoso, seleccione **agregar**y, a continuación, haga clic en **nuevo proyecto**.  
+1. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en el Explorador de soluciones, haga clic en la solución de Contoso, seleccione **agregar**y, a continuación, haga clic en **nuevo proyecto**.  
   
-2.  En el cuadro de diálogo Agregar nuevo proyecto, en el panel tipos de proyecto, seleccione **Visual C#**.  
+2. En el cuadro de diálogo Agregar nuevo proyecto, en el panel tipos de proyecto, seleccione **Visual C#**.  
   
-3.  En el panel Plantillas, seleccione la **biblioteca de clases** plantilla.  
+3. En el panel Plantillas, seleccione el **biblioteca de clases** plantilla.  
   
-4.  En el **nombre** , escriba **HeaderHelper**y, a continuación, haga clic en **Aceptar** para crear el proyecto.  
+4. En el **nombre** , escriba **HeaderHelper**y, a continuación, haga clic en **Aceptar** para crear el proyecto.  
   
-5.  En el Explorador de soluciones, haga clic con el **Class1.cs** un archivo en el **HeaderHelper** proyecto de equipo y haga clic en **cambiar el nombre de**, tipo **HeaderHelper.cs**, y, a continuación, presione **ENTRAR**.  
+5. En el Explorador de soluciones, haga clic la **Class1.cs** de archivos en el **HeaderHelper** del proyecto, haga clic en **cambiar el nombre de**, tipo **HeaderHelper.cs**, y, a continuación, presione **ENTRAR**.  
   
 ### <a name="to-create-the-helper-class"></a>Para crear la clase auxiliar  
   
-1.  En el Explorador de soluciones, expanda la **HeaderHelper** del proyecto y, a continuación, haga doble clic en el **HeaderHelper.cs** nodo para abrir el archivo de origen HeaderHelper.  
+1.  En el Explorador de soluciones, expanda el **HeaderHelper** del proyecto y, a continuación, haga doble clic en el **HeaderHelper.cs** el nodo para abrir el archivo de origen HeaderHelper.  
   
 2.  Escriba el código siguiente en el archivo de código fuente, sobrescribir todo el código existente:  
   
@@ -109,19 +109,19 @@ En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] b
   
 1.  En el Explorador de soluciones, haga clic en el **HeaderHelper** del proyecto y, a continuación, haga clic en **propiedades**.  
   
-2.  En el cuadro de diálogo páginas de propiedades de HeaderHelper, seleccione **firma** en el panel izquierdo del panel de propiedades HeaderHelp.  
+2.  En el cuadro de diálogo páginas de propiedades HeaderHelper seleccione **firma** en el panel izquierdo del panel de propiedades de HeaderHelp.  
   
 3.  En el panel derecho, haga clic en **firmar el ensamblado**.  
   
-4.  Haga clic en el **elegir un archivo de clave de nombre seguro** cuadro de texto y, a continuación, seleccione  **\<examinar\>**  en la lista desplegable.  
+4.  Haga clic en el **elegir un archivo de clave de nombre seguro** cuadro de texto y, a continuación, seleccione **\<examinar\>** en la lista desplegable.  
   
 5.  En el cuadro de diálogo Seleccionar archivo, desplácese a la ubicación del ensamblado de Contoso y haga doble clic en **FabConPriceAvail.snk**.  
   
 6.  En el menú **Archivo** , haga clic en **Guardar todo**.  
   
-7.  En el Explorador de soluciones, expanda la **HeaderHelper** proyecto de equipo y expanda el **propiedades** nodo y, a continuación, haga doble clic en el **AssemblyInfo.cs** nodo para abrir el archivo AssemblyInfo.cs archivo de código fuente.  
+7.  En el Explorador de soluciones, expanda el **HeaderHelper** del proyecto, expanda el **propiedades** nodo y, a continuación, haga doble clic en el **AssemblyInfo.cs** el nodo para abrir el AssemblyInfo.cs archivo de origen.  
   
-8.  En el archivo de origen AssemblyInfo.cs, escriba el código siguiente en la línea después del atributo AssemblyCulture:  
+8.  En el archivo AssemblyInfo.cs de origen, escriba el código siguiente en la línea después del atributo AssemblyCulture:  
   
     ```  
     [assembly: AssemblyKeyFile("../../../FabConPriceAvail.snk")]  
@@ -131,11 +131,11 @@ En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] b
   
 ### <a name="to-build-and-deploy-the-headerhelper-project"></a>Para compilar e implementar el proyecto HeaderHelper  
   
-1.  En el Explorador de soluciones, haga clic en el **HeaderHelper** del proyecto y, a continuación, haga clic en **generar**.  
+1.  En el Explorador de soluciones, haga clic en el **HeaderHelper** del proyecto y, a continuación, haga clic en **compilar**.  
   
 2.  Inicie un **símbolo del sistema de Visual Studio 2012**.  
   
-3.  En el símbolo del sistema, desplácese a la ubicación de la **HeaderHelper** el directorio de salida del proyecto (la carpeta \Bin\Debug).  
+3.  En el símbolo del sistema, desplácese a la ubicación de la **HeaderHelper** directorio de salida del proyecto (la carpeta \Bin\Debug).  
   
 4.  En el símbolo del sistema, escriba **gacutil /if HeaderHelper.dll** y presione **ENTRAR** para instalar el **HeaderHelper** ensamblado en el **caché Global de ensamblados** .  
   

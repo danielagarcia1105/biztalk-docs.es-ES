@@ -1,5 +1,5 @@
 ---
-title: 'TMA de ejemplo: BizTalk adaptador de Message Queue | Documentos de Microsoft'
+title: 'TMA de ejemplo: Adaptador de puesta en cola de mensajes de BizTalk | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,29 +18,29 @@ caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 91f37c57c24bdd37c0f2cc0399a797050228aa54
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec34f90e57df67c8c8a4fc84b10cdd2df8836f1f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22272460"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994877"
 ---
-# <a name="sample-tma-biztalk-message-queuing-adapter"></a>TMA de ejemplo: El adaptador de BizTalk para Message Queue
+# <a name="sample-tma-biztalk-message-queuing-adapter"></a>TMA de ejemplo: Adaptador de puesta en cola de mensaje de BizTalk
 En este tema se presenta el análisis de modelo de amenazas (TMA) para el escenario del adaptador de Message Queue Server de BizTalk de la arquitectura de ejemplo.  
   
-## <a name="step-1-collect-background-information-biztalk-message-queuing-adapter-scenario"></a>Paso 1. Recopilar información básica (escenario de adaptador de puesta en cola de mensaje de BizTalk)  
+## <a name="step-1-collect-background-information-biztalk-message-queuing-adapter-scenario"></a>Paso 1. Recopilar información básica (escenario del adaptador puesta en cola de mensaje de BizTalk)  
  Esta sección contiene el diagrama de flujo de datos (DFD) del escenario del adaptador de BizTalk para Message Queue de la arquitectura de ejemplo. La siguiente ilustración muestra la arquitectura de ejemplo del escenario de los adaptadores de HTTP y SOAP.  
   
- **Figura 1: arquitectura de ejemplo para el escenario del adaptador de Message Queue Server de BizTalk**  
+ **Figura 1 arquitectura de ejemplo para el escenario del adaptador de BizTalk para Message Queue**  
   
  ![Ejemplo de arquitectura para Message Queue Server de BizTalk](../core/media/tdi-sec-refarch-msmq.gif "TDI_Sec_RefArch_MSMQ")  
   
- El resto de información de segundo plano es el mismo para los cuatro escenarios de uso y se ha descrito anteriormente en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
+ Toda la información en segundo plano es el mismo para los cuatro escenarios de uso y se ha descrito anteriormente en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
 ### <a name="data-flow-diagram"></a>Diagrama de flujo de datos  
  En la siguiente ilustración, aparece el DFD de la arquitectura de ejemplo al utilizar el adaptador de BizTalk para Message Queue.  
   
- **Figura 2: DFD de la arquitectura de ejemplo del escenario de adaptador de Message Queue Server de BizTalk**  
+ **Figura 2: DFD de la arquitectura de ejemplo de escenario de adaptador de BizTalk para Message Queue**  
   
  ![Ejemplo de arquitectura para Message Queue Server de BizTalk](../core/media/tdi-sec-refarch-dfd-msmq.gif "TDI_Sec_RefArch_DFD_MSMQ")  
   
@@ -57,13 +57,13 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) para el escena
 ## <a name="step-2-create-and-analyze-the-threat-model-biztalk-message-queuing-adapter-scenario"></a>Paso 2. Crear y analizar el modelo de amenazas (escenario del adaptador puesta en cola de mensaje de BizTalk)  
  Esta sección contiene el resultado del TMA del escenario del adaptador de BizTalk para Message Queue de la arquitectura de ejemplo.  
   
--   **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
+- **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
--   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes del servidor de BizTalk Server.  
+- **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas del DFD para identificar posibles amenazas al escenario: **S**uplantación identificar, **T**lteración con los datos, **R**epudio, **me**ivulgación de información, **d.** enegación de servicio, y **E**levación de privilegios. La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes del servidor de BizTalk Server.  
   
- **Tabla 1: lista de amenazas identificadas**  
+  **Tabla 1: lista de las amenazas identificadas**  
   
-|Amenaza|Description|Asset|Impacto|  
+|Amenaza|Descripción|Asset|Impacto|  
 |------------|-----------------|-----------|------------|  
 |Envío de gran cantidad de mensajes a la ubicación de recepción|Un usuario malintencionado puede enviar una gran cantidad de mensajes válidos o no válidos y saturar la aplicación.|Entorno de BizTalk Server|Denegación del servicio|  
 |El encabezado del mensaje no está cifrado durante su desplazamiento a través de la red|El encabezado del mensaje está visible durante el tránsito entre la cola y el adaptador de recepción de BizTalk para Message Queue y, por tanto, es posible que los usuarios malintencionados lo lean y manipulen.|Encabezado del mensaje|Manipulación de datos<br /><br /> Revelación de información|  
@@ -71,11 +71,11 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) para el escena
 |Un usuario malintencionado podría manipular los mensajes antes que el servidor BizTalk Server los reciba.|Un usuario malintencionado puede interceptar el mensaje mientras está en tránsito y modificarlo.|Cuerpo del mensaje|Manipulación de datos<br /><br /> Revelación de información|  
   
 ## <a name="step-3-review-threats-biztalk-message-queuing-adapter-scenario"></a>Paso 3. Analizar las amenazas (escenario del adaptador puesta en cola de mensaje de BizTalk)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de BizTalk para Message Queue para la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de BizTalk para Message Queue para la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, hemos revisado las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
- En la tabla siguiente enumera la evaluación del riesgo de las amenazas identificadas al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes hacia y desde BizTalk Server.  
+ En la tabla siguiente se enumera las clasificaciones de riesgo para las amenazas que identificamos al usar el adaptador de BizTalk para Message Queue para enviar y recibir mensajes hacia y desde BizTalk Server.  
   
- **Tabla 2 evaluación del riesgo de las amenazas identificadas**  
+ **Evaluación del riesgo de la tabla 2 para las amenazas identificadas**  
   
 |Amenaza|Impacto|Posibilidad del daño|Posibilidad de reproducir la amenaza|Posibilidad de que se aproveche|Usuarios afectados|Posibilidad de descubrir la amenaza|Exposición al riesgo|  
 |------------|------------|----------------------|---------------------|--------------------|--------------------|---------------------|-------------------|  
@@ -93,12 +93,12 @@ En este tema se presenta el análisis de modelo de amenazas (TMA) para el escena
   
 |Amenaza|Impacto|Exposición al riesgo|Tecnologías y técnicas de mitigación|  
 |------------|------------|-------------------|--------------------------------------------|  
-|Envío de gran cantidad de mensajes a la ubicación de recepción|Denegación del servicio|6.8|Utilice el adaptador de BizTalk para Message Queue en el modo de autenticación necesaria. Establecer el **necesita autenticación de MSMQ** marca en la ubicación de recepción y **autenticación requerido (quitar mensajes)** en el puerto de recepción.<br /><br /> Configure BizTalk para Message Queue para requerir la autenticación basada en certificados. Este funcionamiento se produce en el nivel de adaptadores y es distinto del componente de resolución de entidades de las canalizaciones de BizTalk. El certificado público puede configurarse para incluirlo en el mensaje entrante. Éste es el único modo de autenticación de clientes disponible para Message Queue Server de BizTalk. Para usar este modo de autenticación de clientes, debe instalar BizTalk para Message Queue con el modo de integración de Active Directory. Si usa esta característica, no olvide activar la **requerir autenticación** ubicación de recepción de la casilla de verificación en el cuadro de diálogo de propiedades de BizTalk para Message Queue.|  
+|Envío de gran cantidad de mensajes a la ubicación de recepción|Denegación del servicio|6.8|Utilice el adaptador de BizTalk para Message Queue en modo de autenticación requerida. Establecer el **necesita autenticación de MSMQ** marca en la ubicación de recepción y **(quitar mensajes) requiere autenticación** en el puerto de recepción.<br /><br /> Configure BizTalk para Message Queue para requerir la autenticación basada en certificados. Este funcionamiento se produce en el nivel de adaptadores y es distinto del componente de resolución de entidades de las canalizaciones de BizTalk. El certificado público puede configurarse para incluirlo en el mensaje entrante. Éste es el único modo de autenticación de clientes disponible para Message Queue Server de BizTalk. Para usar este modo de autenticación de clientes, debe instalar BizTalk para Message Queue con el modo de integración de Active Directory. Al usar esta característica, no olvide seleccionar la **requerir autenticación** ubicación de recepción de la casilla de verificación en el cuadro de diálogo de propiedades para la cola de mensajes de BizTalk.|  
 |El encabezado del mensaje no está cifrado durante su desplazamiento a través de la red|Manipulación de datos<br /><br /> Revelación de información|6.8|Use la seguridad de Protocolo Internet (IPSec) para proteger el encabezado y el cuerpo del mensaje en su tránsito de un servidor a otro.|  
 |Un usuario no autorizado puede establecer una conexión de red con el servidor BizTalk Server que ejecuta el host de Message Queue Server de BizTalk.|Rechazo<br /><br /> Manipulación de datos<br /><br /> Revelación de información<br /><br /> Denegación del servicio<br /><br /> Elevación de privilegios|9|Cree una canalización personalizada con un componente de canalización de resolución de entidades y configúrelo para usar el Id. de remitente (SID) para resolver la entidad. Establecer el **resolver entidad mediante certificado** propiedad **False**y el **resolver entidad mediante SID** propiedad **True**. Para obtener más información, consulte [componente de canalización de resolución de entidad](../core/party-resolution-pipeline-component.md).<br /><br /> En el puerto de recepción, establezca la **autenticación** propiedad **requerido (quitar mensajes)**.|  
-|Un usuario malintencionado podría manipular los mensajes antes que el servidor BizTalk Server los reciba.|Manipulación de datos<br /><br /> Revelación de información|6|Utilice la autenticación del nivel de protocolos para asegurarse de que el mensaje no ha sido manipulado mientras estaba en tránsito. Para usar la autenticación del nivel de protocolos, necesita un enrutador de Message Queue en el dominio de negocio electrónico. Configure el servidor BizTalk Server de la forma siguiente:<br /><br /> -En el **mensajería de BizTalk** página del Administrador de configuración, proporcione el nombre del enrutador.<br />-Para el puerto de recepción, establezca la **autenticación** propiedad **requerido (quitar mensajes)** o **requerido (mantener mensajes)**.<br />-Para el controlador de envío, en la **General** ficha la **enrutador de MSMQ** cuadro Nombre, escriba el nombre del enrutador de Message Queue Server.<br />-Para el puerto de envío, seleccione **utilizar autenticación de MSMQ**.|  
+|Un usuario malintencionado podría manipular los mensajes antes que el servidor BizTalk Server los reciba.|Manipulación de datos<br /><br /> Revelación de información|6|Utilice la autenticación del nivel de protocolos para asegurarse de que el mensaje no ha sido manipulado mientras estaba en tránsito. Para usar la autenticación del nivel de protocolos, necesita un enrutador de Message Queue en el dominio de negocio electrónico. Configure el servidor BizTalk Server de la forma siguiente:<br /><br /> -En el **mensajería de BizTalk** página del Administrador de configuración, proporcione el nombre del enrutador.<br />-Para el puerto de recepción, establezca la **autenticación** propiedad **requerido (quitar mensajes)** o **requerido (mantener mensajes)**.<br />-Para el controlador de envío, en el **General** ficha la **enrutador de MSMQ** cuadro, escriba el nombre del enrutador de Message Queue Server.<br />-Para el puerto de envío, seleccione **utilizar autenticación de MSMQ**.|  
   
 ## <a name="see-also"></a>Vea también  
  [Análisis de modelo de amenazas](../core/threat-model-analysis.md)   
- [Escenarios de ejemplo para el análisis de modelo de amenaza](../core/sample-scenarios-for-threat-model-analysis.md)   
+ [Escenarios de ejemplo para el análisis de modelo de amenazas](../core/sample-scenarios-for-threat-model-analysis.md)   
  [Arquitecturas de ejemplo para pequeñas y medianas empresas](../core/sample-architectures-for-small-medium-sized-companies.md)

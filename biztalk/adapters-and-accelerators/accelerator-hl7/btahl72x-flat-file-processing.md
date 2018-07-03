@@ -1,5 +1,5 @@
 ---
-title: Procesamiento de archivos planos BTAHL72X | Documentos de Microsoft
+title: Procesamiento de archivos planos BTAHL72X | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -38,92 +38,92 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bcd1afb4843f68b56228c8e9aaa655d83f70119e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 0a0220d44386eed94efbddc1a5a22fe6704a7780
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25962090"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975557"
 ---
-# <a name="btahl72x-flat-file-processing"></a>Procesamiento de archivo sin formato BTAHL72X
-Los componentes siguientes en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proceso HL7 2.X (codificada HL7) mensajes:  
+# <a name="btahl72x-flat-file-processing"></a>Procesamiento de archivos planos BTAHL72X
+Los siguientes componentes en el Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) mensajes de proceso HL7 2.X (codificada HL7):  
   
--   Las canalizaciones y las bibliotecas principales: [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. PipelineCommon.dll y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. PipelineMessageCore.dll  
+- Las canalizaciones y las bibliotecas de core: [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. PipelineCommon.dll y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. PipelineMessageCore.dll  
   
--   Bibliotecas de ensamblador y desensamblador: [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. HL72fAsm.dll y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. HL72fDAsm.dll  
+- Bibliotecas de ensamblador y desensamblador: [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. HL72fAsm.dll y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. HL72fDAsm.dll  
   
--   Adaptador de envío de la biblioteca de validación de confirmación (ACK) utilizada para la MLLP bidireccional: [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. HL7ACKHelper.dll  
+- Adaptador de envío de la biblioteca de validación de confirmación (ACK) usada para el MLLP bidireccional: [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. HL7ACKHelper.dll  
   
 ## <a name="hl7-message-modes"></a>HL7 Modos de mensaje  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite los siguientes modos de mensaje para los mensajes 2.X:  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] admite los siguientes modos de mensaje para mensajes 2.X:  
   
--   Modo de publicador y el suscriptor (publicación-suscripción)  
+- Modo de publicación-suscripción (pub-sub)  
   
-     El publicador se difunde a una entidad de suscriptores, como declarativas o un no solicitados update. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] proporcionar flexibilidad de este modo, ya que puede administrar las suscripciones y las entidades después de tiempo de diseño.  
+   El publicador se difunde a una entidad de los suscriptores, de forma declarativas o un no solicitados update. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] proporcionan flexibilidad de este modo, ya que puede administrar las suscripciones y las partes después de tiempo de diseño.  
   
--   Modo de solicitud-respuesta  
+- Modo de solicitud y respuesta  
   
-     Intercambio de mensajes un interrogative o consulta en la que da como resultado una solicitud específica de una entidad específica en un mensaje de respuesta.  
+   Intercambio de mensajes un interrogative o consulta en el que da como resultado una solicitud específica de una entidad específica en un mensaje de respuesta.  
   
 ## <a name="flat-file-parsing"></a>Análisis de archivo sin formato  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]analiza HL7 mensajes de varias partes de 2.X en tres partes:  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] analiza HL7 2.X mensajes varias partes en tres partes:  
   
--   Parte del encabezado MSH  
+-   Parte de encabezado MSH  
   
 -   Parte del cuerpo  
   
 -   Parte de la Z  
   
 ## <a name="hl7-header-validation"></a>HL7 Validación de encabezados  
- El Desensamblador de HL7 y de ensamblador realizan la validación estructural y esquemática del encabezado de un mensaje 2.X, con el fin de comprobar que puede procesar el mensaje. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]basa la validación del esquema en el esquema de encabezado común, MSH_25_GLO_DEF.  
+ El Desensamblador HL7 y ensamblador de realizan la validación estructural y esquemática del encabezado de un mensaje 2.X, con el fin de comprobar que puede procesar el mensaje. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] bases de la validación de esquema en el esquema de encabezado común, MSH_25_GLO_DEF.  
   
- Por ejemplo, el analizador determina que los campos MSH1 y MSH2 sean correctos. MSH1 debe tener un solo carácter. MSH2 debe estar comprendido entre dos y cuatro caracteres y no puede repetir ningún carácter.  
+ Por ejemplo, el analizador determina que los campos MSH1 y MSH2 están bien formados. MSH1 debe tener un solo carácter. MSH2 debe estar comprendido entre dos y cuatro caracteres y no puede repetir ningún carácter.  
   
 ## <a name="hl7-body-validation"></a>HL7 Validación de cuerpo  
- El Desensamblador de HL7 y de ensamblador realizan una validación básica del cuerpo de un mensaje 2.X estructural y validación de esquema, si se habilita.  
+ El Desensamblador HL7 y ensamblador realizan validación estructural básica del cuerpo de un mensaje 2.X y validación de esquema, si habilita esta opción.  
   
- La validación estructural básica del cuerpo, que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] siempre realiza, incluye comprobar lo siguiente:  
+ La validación estructural básica del cuerpo, que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] siempre lleva a cabo, incluye la comprobación de los siguientes:  
   
--   Hay tres caracteres en segmentos  
+- Hay tres caracteres en segmentos  
   
--   Que es el delimitador de segmento \<CR\> o \<CR\>\<LF\> (opcional para el último segmento)  
+- Que es el delimitador de segmento \<CR\> o \<CR\>\<LF\> (opcional para el último segmento)  
   
--   Que son adecuados los delimitadores de campo  
+- Que son adecuados los delimitadores de campo  
   
--   Que no hay ningún segmento declarado (con una etiqueta de segmento definido de tres caracteres) en un segmento de Z no declarado  
+- Que no hay ningún segmento declarado (con una etiqueta de segmento de tres caracteres definido) en un segmento de Z no declarado  
   
- Validación de esquema más amplia del cuerpo de la incluye lo siguiente:  
+  Validación de esquema más extensa del cuerpo de la incluye lo siguiente:  
   
--   Delimitadores de campo finales  
+- Delimitadores de campo al final  
   
-     En el segmento de encabezado MSH y segmentos de cuerpo  
+   En el segmento de encabezado MSH y segmentos de cuerpo  
   
--   Segmento de Z  
+- Segmento de Z  
   
--   Tipo de datos admite XSD y personalizados  
+- Tipo de datos de XSD compatibles y personalizadas  
   
-     XSD compatibles y los tipos de XSD no (TS (marca de tiempo), DT (fecha), TM (tiempo) y TN (número de teléfono)  
+   XSD compatibles y los tipos de XSD no (TS (marca de tiempo), DT (fecha), TM (tiempo) y TN (número de teléfono)  
   
--   Enumeraciones  
+- Enumeraciones  
   
-     Id. (tablas definidas por el HL7) e IS (tablas definidas por el usuario)  
+   Id. (las tablas definidas por HL7) e IS (tablas definidas por el usuario)  
   
--   Definir la opcionalidad como  
+- Opcionalidad  
   
-     Obligatorios y opcionales  
+   Obligatorios y opcionales  
   
--   Repetición  
+- Repetición  
   
-     Segmento y el campo  
+   Segmento y campo  
   
--   Secuencias de escape  
+- Secuencias de escape  
   
-     La codificación de caracteres, el formato y los juegos de caracteres  
+   Codificación de caracteres, el formato y los juegos de caracteres  
   
- Habilitar o deshabilitar la validación de esquema para todos los mensajes recibidos o enviados a un usuario específico (entidad de origen para el desensamblador, la entidad de destino para el ensamblador). [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]usa el HL7 2.X esquemas directamente para este procesamiento, según lo determinado por el campo de encabezado de la estructura de los mensajes MSH9.3, el campo de Id. de versión MSH12 (2.3.1, 2.4 o 2.5) y el espacio de nombres en [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración.  
+  Habilitar o deshabilitar la validación de esquema para todos los mensajes recibidos o enviados a una entidad específica (entidad de origen para el desensamblador, la entidad de destino para el ensamblador). [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] usa el HL7 2.X esquemas directamente para este procesamiento, según lo determinado por el campo de encabezado MSH9.3 estructura de mensaje, el campo de Id. de versión MSH12 (2.3.1 2.4 y 2.5) y el espacio de nombres en [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Explorador de configuración.  
   
 ## <a name="hl7-disassembler-processing"></a>HL7 Procesamiento de desensamblador  
- El Desensamblador de HL7 analiza los mensajes entrantes de HL7 en segmentos XML para su procesamiento. A medida que analiza los mensajes, el Desensamblador realiza las tareas siguientes:  
+ El Desensamblador HL7 analiza los mensajes entrantes de HL7 en segmentos XML para su procesamiento. A medida que analiza los mensajes, el Desensamblador realiza las siguientes tareas:  
   
 -   Identificadores de secuencias de escape  
   
@@ -131,30 +131,30 @@ Los componentes siguientes en [!INCLUDE[btsCoName](../../includes/btsconame-md.m
   
 -   Identificadores definen segmentos e indefinidos o inesperados Z (para obtener una descripción de los segmentos de Z, consulte [personalizar mensajes a través de objetos de Z](../../adapters-and-accelerators/accelerator-hl7/customizing-messages-through-z-objects.md)).  
   
--   Omite los segmentos inesperados al final de una instancia (que se convierten en no declarados segmentos Z)  
+-   Omite los segmentos inesperados al final de una instancia (que se convierten en segmentos de Z no declarados)  
   
 ## <a name="error-reporting"></a>Informes de errores  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]notifica la mayoría de los errores en el formato de error estándar HL7, que incluyen el código de segmento, secuencia, campo y error. Sin embargo, la condición de error puede ser tal que no todas ellas están disponibles, por ejemplo, si no hay ningún esquema. Para tratar estos casos, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] puede notificar los errores en una alternativa [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] formato de error. El segmento en un mensaje de error incluye dos partes: una para el error HL7 y otra para la alternativa [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] error.  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] notifica la mayoría de los errores en el formato de error estándar HL7, que incluyen el código de segmento, secuencia, campo y error. Sin embargo, la condición de error puede ser que no todos ellos están disponibles, por ejemplo, si no hay ningún esquema. Para controlar estos casos, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] puede informar sobre errores en uno alternativo [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] formato de error. El segmento en un mensaje de error incluye dos partes: una para el error de HL7 y otra para la alternativa [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] error.  
   
 ## <a name="ack-generation"></a>Generación de confirmación  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite los siguientes tipos de confirmaciones (ACK) para los mensajes 2.X. El tipo de error de HL7 y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] se utiliza el tipo de error (alternativo):  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] admite los siguientes tipos de confirmación (ACK) para los mensajes 2.X. Tanto el tipo de error de HL7 y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] se utiliza el tipo de error (alternativo):  
   
 -   Asignación de confirmación y del mensaje original  
   
--   Confirmaciones originales HL7  
+-   Mensajes de confirmación originales de HL7  
   
 -   HL7 mejorado confirmaciones  
   
-     Acepte la confirmación y aplicación acepte  
+     Acepte la confirmación y la aplicación acepte  
   
--   Confirmación de estático/proxy  
+-   Confirmación de proxy/estático  
   
      Confirmación o NAK  
   
 ## <a name="property-promotion"></a>Promoción de propiedades  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite la promoción de las propiedades 2.X siguientes:  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] admite la promoción de las siguientes propiedades 2.X:  
   
--   Esquema de propiedades  
+-   Esquema de propiedad  
   
 -   Esquema de encabezado de MSH  
   
@@ -166,5 +166,5 @@ Los componentes siguientes en [!INCLUDE[btsCoName](../../includes/btsconame-md.m
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-processing.md)   
- [Procesamiento de mensajes HL7](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   
+ [Procesamiento de mensajes de HL7](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   
  [Uso de esquemas HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)

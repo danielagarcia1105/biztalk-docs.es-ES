@@ -1,5 +1,5 @@
 ---
-title: Importar y exportar la configuración de servidor BizTalk Server | Documentos de Microsoft
+title: Importar y exportar la configuración de BizTalk Server | Microsoft Docs
 description: Pasos para aplicar, importar, exportar o quitar la configuración de los componentes y actualizar las bases de datos y las cuentas de servicio de BizTalk Server
 ms.custom: ''
 ms.date: 08/14/2017
@@ -13,12 +13,12 @@ caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d0d2ae3f94c0ced65c65fd36dc3499c93ce40b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 60faef2bf700a5e7fa1f5ced556e9fdd572201b4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22300132"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980741"
 ---
 # <a name="import-and-export-biztalk-server-configuration"></a>Importar y exportar la configuración de BizTalk Server
 La configuración de BizTalk Server proporciona un análisis de alto nivel del estado de configuración de las características instaladas en el equipo local. La herramienta permite configurar las funciones y quitar su configuración, definir la configuración de seguridad, así como importar configuraciones y exportarlas.  
@@ -29,10 +29,10 @@ La configuración de BizTalk Server proporciona un análisis de alto nivel del e
   
 -   Las cuentas predeterminadas que genera BizTalk Server y que se enumeran en la configuración de BizTalk Server son grupos locales. En un entorno multiservidor, reemplace estos grupos locales con grupos de dominio.  
   
--   La cuenta que ha iniciado sesión como debe ser un miembro del grupo Administradores de OLAP en el equipo OLAP, si la configuración.  
+-   La cuenta que ha iniciado sesión como debe ser miembro del grupo Administradores de OLAP en el equipo OLAP, si la configuración.  
   
     > [!NOTE]
-    >  Si cambia la pertenencia a grupos del usuario con sesión iniciada actual y el grupo es también un miembro del dominio, puede cierre de sesión seguro y, a continuación, vuelva a iniciarla después de que se hayan terminado de los cambios. Si no inicia sesión fuera/inicio de sesión en, se puede se denegará el acceso como nueva pertenencia a grupos no se refleja en la sesión actual.  
+    >  Si cambia la pertenencia a grupos del usuario con sesión iniciada actual y el grupo también es un miembro del dominio, estar seguro de cierre de sesión y vuelva a iniciar sesión una vez finalizados los cambios. Si no inicia sesión out/inicio de sesión en, se haya denegado acceso como nueva pertenencia a grupos no se refleja en el inicio de sesión actual.  
   
 ## <a name="apply-the-configuration"></a>Aplicar la configuración  
   
@@ -45,9 +45,9 @@ La configuración de BizTalk Server proporciona un análisis de alto nivel del e
 ## <a name="import-configuration"></a>Importar configuración
 
 > [!IMPORTANT]
-> Cuando se importa un archivo de configuración, confirme que el archivo de configuración no configura un componente que no se ha instalado en el servidor de BizTalk que se va a configurar. Al intentar configurar un componente inexistente en el servidor de BizTalk Server, puede producirse una condición de interbloqueo. En esta situación, desconfigurar los componentes que dependen del componente que está intentando configurar el archivo de configuración. Sin embargo, intentar desconfigurar los componentes dependientes puede requerir que el componente que falta esté presente y configurado. Para resolver este problema, debe editar el archivo de configuración para quitar las referencias a componentes no instalados o el archivo de configuración se aplican a una instalación compatible de BizTalk Server.  
+> Al importar un archivo de configuración, confirme que el archivo de configuración no configure un componente que no se ha instalado en el servidor BizTalk Server que está configurando. Al intentar configurar un componente inexistente en el servidor de BizTalk Server, puede producirse una condición de interbloqueo. En esta situación, desconfigurar los componentes que dependen del componente que intenta volver a configurar el archivo de configuración. Sin embargo, al intentar desconfigurar los componentes dependientes puede requerir que el componente que falta esté presente y configurado. Para resolver este problema, debe editar el archivo de configuración para quitar las referencias a componentes no instalados o aplicar el archivo de configuración para una instalación compatible de BizTalk Server.  
 > 
->  Las contraseñas y ubicaciones de archivos de copia de seguridad no se guardan en el archivo de configuración que se va a importar, a menos que se haya editado manualmente el archivo. Si ya están configuradas las características, no se importan.  
+>  No se guardan las contraseñas y las ubicaciones de archivo de copia de seguridad en el archivo de configuración que se va a importar, a menos que se haya editado manualmente el archivo. Si las características ya están configuradas, no se importan.  
   
   
 1.  En la **Configuración de BizTalk Server**, haga clic en **Importar configuración**.  
@@ -67,11 +67,11 @@ Puede importar archivos de configuración de BizTalk Server mediante el marco de
 > [!NOTE]
 >  Las contraseñas no se guardan en el archivo de configuración.    
  
-1.  En la **Configuración de BizTalk Server**, haga clic en **Exportar configuración**.  
+1. En la **Configuración de BizTalk Server**, haga clic en **Exportar configuración**.  
   
-2.  En el cuadro de diálogo **Guardar como**, escriba el nombre del archivo que quiera guardar y, después, haga clic en **Guardar**.  
+2. En el cuadro de diálogo **Guardar como**, escriba el nombre del archivo que quiera guardar y, después, haga clic en **Guardar**.  
 
- Puede exportar configuraciones de BizTalk Server mediante el marco de trabajo de configuración de BizTalk Server. Para obtener más información sobre cómo trabajar con estos archivos, consulte [trabajar con el marco de trabajo de configuración](../install-and-config-guides/working-with-the-configuration-framework.md)  
+   Puede exportar las configuraciones de BizTalk Server mediante el marco de trabajo de configuración de BizTalk Server. Para obtener más información sobre cómo trabajar con estos archivos, consulte [trabajar con Configuration Framework](../install-and-config-guides/working-with-the-configuration-framework.md)  
   
 ## <a name="unconfigure-features"></a>quitar la configuración de características;  
  Se puede quitar la configuración de las características de BizTalk Server del equipo al eliminarlas en la configuración de BizTalk Server.  
@@ -122,6 +122,6 @@ Puede importar archivos de configuración de BizTalk Server mediante el marco de
   
 4.  En el cuadro de diálogo **Cuentas de servicio**, haga clic en **Cerrar**.  
   
-## <a name="see-also"></a>Ver también  
+## <a name="see-also"></a>Vea también  
  [Configuración de BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)   
  [Trabajo con Configuration Framework](../install-and-config-guides/working-with-the-configuration-framework.md)   

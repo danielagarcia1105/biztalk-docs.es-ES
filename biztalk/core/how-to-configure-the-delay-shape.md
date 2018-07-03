@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar la forma retraso | Documentos de Microsoft
+title: Cómo configurar la forma retraso | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,42 +18,42 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b76448398facd3af7f3b9712491f9895ffb406d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 7c00e002418dac53295828a4cbed632a6de0c235
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "22248340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993653"
 ---
 # <a name="how-to-configure-the-delay-shape"></a>Cómo configurar la forma Retraso
 ![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")  
 Forma Retraso  
   
- Hay dos maneras de especificar el tiempo de espera para una **retraso**:  
+ Hay dos maneras de especificar el tiempo de espera para un **retraso**:  
   
--   Puede usar **System.DateTime**, lo que hace que la orquestación se pause hasta que la fecha especificada y se alcanza el tiempo.  
+- Puede usar **System.DateTime**, lo que hace que la orquestación se pause hasta que la fecha especificada y se alcanza el tiempo.  
   
-     System.DateTime.UtcNow.AddSeconds(60)  
+   System.DateTime.UtcNow.AddSeconds(60)  
   
-    > [!NOTE]
-    >  Retrasos deben expresar en hora Universal coordinada (UTC) cuando se usa **DateTime**.  
+  > [!NOTE]
+  >  Retrasos se deben expresar en hora Universal coordinada (UTC) cuando se usa **DateTime**.  
   
--   Puede usar **System.TimeSpan**, lo que hace que la orquestación durante el período de tiempo especificado.  
+- Puede usar **System.TimeSpan**, lo que hace que la orquestación para pausarse durante el período de tiempo especificado.  
   
-     System.TimeSpan(0, 1, 0)  
+   System.TimeSpan(0, 1, 0)  
   
- Si su **retraso** forma está dentro de un **escuchar** forma, no es necesario agregar un punto y coma al final de la expresión.  
+  Si su **retraso** forma está dentro de un **escuchar** forma, no es necesario agregar un punto y coma al final de la expresión.  
   
- Para obtener más información acerca de **System.DateTime** y **System.TimeSpan**, consulte "DateTime (estructura)" y "TimeSpan (estructura)" en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] colección combinada.  
-  
-> [!NOTE]
->  En un entorno de instalación de varios equipos donde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server están instalados en equipos separados, la **retraso** forma puede finalizar antes de lo esperado debido a las horas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] máquinas no están sincronizadas.  
+  Para obtener más información acerca de **System.DateTime** y **System.TimeSpan**, consulte "DateTime (estructura)" y "TimeSpan (estructura)" en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.  
   
 > [!NOTE]
->  En condiciones de sobrecarga, el tiempo de espera especificado en el **retraso** forma posible se prolongue más de lo especificado. Esto se debe a la falta de subprocesos en condiciones de sobrecarga.  
+>  En un entorno de instalación de varios equipos donde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server están instalados en equipos separados, la **retraso** puede finalizar antes de lo esperado debido a las horas en la forma [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] las máquinas no están sincronizadas.  
+> 
+> [!NOTE]
+>  En condiciones de sobrecarga, el tiempo de espera especificado en el **retraso** forma puede producirse más tarde que ha especificado. Esto se debe a la falta de subprocesos en condiciones de sobrecarga.  
   
 ### <a name="to-configure-a-delay-shape"></a>Para configurar una forma Retraso  
   
-1.  Si el Editor de expresiones de BizTalk no está visible, haga clic en el **retraso** forma y haga clic en **editar retraso**, o en la ventana Propiedades, haga clic en el **puntos suspensivos** (**...** ) botón la **expresión** propiedad.  
+1.  Si el Editor de expresiones de BizTalk no está visible, haga clic en el **retraso** dar forma y haga clic en **editar retraso**, o en la ventana Propiedades, haga clic en el **puntos suspensivos** (**...**) botón el **expresión** propiedad.  
   
-2.  En el Editor de expresiones de BizTalk, cree una expresión que devuelve un **System.DateTime** objeto o un **System.TimeSpan** objeto. Para obtener más información, consulte [requisitos y limitaciones para las expresiones](../core/requirements-and-limitations-for-expressions.md).
+2.  En el Editor de expresiones de BizTalk, cree una expresión que devuelve un **System.DateTime** objeto o un **System.TimeSpan** objeto. Para obtener más información, consulte [requisitos y limitaciones para expresiones](../core/requirements-and-limitations-for-expressions.md).

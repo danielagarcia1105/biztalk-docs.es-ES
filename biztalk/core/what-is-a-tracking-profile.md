@@ -17,12 +17,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: da032fb6063d81cedca9f21899c5e2bbe6eca947
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d9dbcdd4ff93749de5059b80fecfa140e41df422
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289708"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977880"
 ---
 # <a name="what-is-a-tracking-profile"></a>¿Qué es un perfil de seguimiento?
 Un perfil es un conjunto de características que definen un proceso empresarial. Un perfil de seguimiento contiene la asignación de estas características de una actividad a orquestaciones y puertos. Un perfil de seguimiento es un archivo con extensión .btt de nombre de archivo.  
@@ -32,27 +32,27 @@ Un perfil es un conjunto de características que definen un proceso empresarial.
   
  Cuando se crea un perfil de seguimiento utilizando el TPE, se utilizan los objetos siguientes:  
   
--   Actividades de BAM  
+- Actividades de BAM  
   
--   Orquestaciones de BizTalk en ensamblados implementados  
+- Orquestaciones de BizTalk en ensamblados implementados  
   
--   Puertos de envío y recepción.  
+- Puertos de envío y recepción.  
   
--   Esquemas de mensaje en ensamblados implementados  
+- Esquemas de mensaje en ensamblados implementados  
   
--   Propiedades de contexto  
+- Propiedades de contexto  
   
--   Base de datos de importación principal de BAM  
+- Base de datos de importación principal de BAM  
   
--   Base de datos de administración de BizTalk  
+- Base de datos de administración de BizTalk  
   
--   Base de datos de seguimiento de BizTalk  
+- Base de datos de seguimiento de BizTalk  
   
- Para definir la extracción de datos desde una orquestación, coloque los elementos de esquemas de mensaje, formas de orquestación y propiedades de contexto en las carpetas de hitos económicos (evento) y de elementos de datos.  
+  Para definir la extracción de datos desde una orquestación, coloque los elementos de esquemas de mensaje, formas de orquestación y propiedades de contexto en las carpetas de hitos económicos (evento) y de elementos de datos.  
   
- Por ejemplo, considere una actividad de BAM que incluya un hito llamado Pedido recibido y que tenga un puerto de mensajería por el que fluyen los pedidos para iniciar el procesamiento. Los programadores pueden asociar el hito `PO Received` a una propiedad de mensajería de BizTalk denominada `PortEndTime` para el puerto en su solución. Semánticamente, indica que el Pedido se recibe satisfactoriamente cuando el puerto de recepción concluye su acción y rellena la propiedad `PortEndTime`. El programador realiza ésta y otras asignaciones para completar el perfil de seguimiento. Se asignarán todos los elementos de la actividad siempre que tengan un origen de BizTalk Server. Por el contrario, si el origen de los datos o eventos es un proceso externo al tiempo de ejecución de BizTalk Server, los elementos se dejarán sin asignar, para ser completados directamente por llamadas de API.  
+  Por ejemplo, considere una actividad de BAM que incluya un hito llamado Pedido recibido y que tenga un puerto de mensajería por el que fluyen los pedidos para iniciar el procesamiento. Los programadores pueden asociar el hito `PO Received` a una propiedad de mensajería de BizTalk denominada `PortEndTime` para el puerto en su solución. Semánticamente, indica que el Pedido se recibe satisfactoriamente cuando el puerto de recepción concluye su acción y rellena la propiedad `PortEndTime`. El programador realiza ésta y otras asignaciones para completar el perfil de seguimiento. Se asignarán todos los elementos de la actividad siempre que tengan un origen de BizTalk Server. Por el contrario, si el origen de los datos o eventos es un proceso externo al tiempo de ejecución de BizTalk Server, los elementos se dejarán sin asignar, para ser completados directamente por llamadas de API.  
   
- Aunque cada panel o vista del TPE dispone de una función exclusiva, todas las vistas y carpetas tienen características de exploración similares para ayudarle a buscar y controlar la información.  
+  Aunque cada panel o vista del TPE dispone de una función exclusiva, todas las vistas y carpetas tienen características de exploración similares para ayudarle a buscar y controlar la información.  
   
 ## <a name="who-uses-tracking-profiles-and-the-tpe"></a>¿Quién utiliza los perfiles de seguimiento y el TPE?  
  Los usuarios implicados en el desarrollo de integración empresarial utilizan los perfiles de seguimiento y el TPE para asignar orígenes de eventos de BizTalk Server a actividades de destino de BAM. El archivo .btt resultante se entrega a la implementación de TI para su implantación.  

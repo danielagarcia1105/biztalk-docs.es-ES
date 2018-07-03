@@ -1,5 +1,5 @@
 ---
-title: Administración y supervisión | Documentos de Microsoft
+title: Administración y supervisión | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b24c5bd1fcc1d2e81f50221c6c1e148d22394d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ea24b6e36de3920a820efe2ac1af177b8a00720d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22264468"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973573"
 ---
 # <a name="management-and-monitoring"></a>Administración y supervisión
 Todas las aplicaciones generadas en el motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesitan administración. ¿Cómo se instalan las nuevas aplicaciones? ¿Qué configuraciones pueden aplicarse? ¿Qué está ocurriendo en este momento dentro del sistema? Esta sección examina las herramientas proporcionadas para responder a estas cuestiones.  
@@ -43,16 +43,16 @@ Todas las aplicaciones generadas en el motor de [!INCLUDE[btsBizTalkServerNoVers
 ## <a name="managing-applications"></a>Administrar aplicaciones  
  La herramienta principal para administrar el motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es la consola de administración de BizTalk Server, un complemento de Microsoft Management Console (MMC) que proporciona una interfaz de usuario para los administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No obstante, aunque esta herramienta confiere a los administradores distintas capacidades, las tres más importantes son las siguientes:  
   
--   **Implementar aplicaciones de BizTalk.** [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite que los administradores trabajen con una aplicación de BizTalk completa como una unidad. Mediante la consola de administración de BizTalk Server, un administrador puede crear una aplicación de BizTalk e implementarla en uno o varios servidores.  
+- **Implementar aplicaciones de BizTalk.** [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite que los administradores trabajen con una aplicación de BizTalk completa como una unidad. Mediante la consola de administración de BizTalk Server, un administrador puede crear una aplicación de BizTalk e implementarla en uno o varios servidores.  
   
--   **Configurar aplicaciones de BizTalk.** Cuando los programadores crean orquestaciones, trabajan en gran parte en términos lógicos. Por ejemplo, para definir la forma en la que el motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] establecerá comunicación con una aplicación determinada, el programador puede seleccionar un adaptador de HTTP sin preocuparse por la dirección URL específica que se usará. Del mismo modo, el programador puede especificar que la canalización de envío debe incluir un componente que agregue una firma digital a los mensajes salientes sin preocuparse por la clave concreta que se empleará para crear dicha firma. Sin embargo, es necesario especificar estos detalles para que la aplicación funcione. La consola de administración de BizTalk Server permite al administrador crear y modificar configuraciones de este tipo.  
+- **Configurar aplicaciones de BizTalk.** Cuando los programadores crean orquestaciones, trabajan en gran parte en términos lógicos. Por ejemplo, para definir la forma en la que el motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] establecerá comunicación con una aplicación determinada, el programador puede seleccionar un adaptador de HTTP sin preocuparse por la dirección URL específica que se usará. Del mismo modo, el programador puede especificar que la canalización de envío debe incluir un componente que agregue una firma digital a los mensajes salientes sin preocuparse por la clave concreta que se empleará para crear dicha firma. Sin embargo, es necesario especificar estos detalles para que la aplicación funcione. La consola de administración de BizTalk Server permite al administrador crear y modificar configuraciones de este tipo.  
   
--   **Supervisar las aplicaciones de BizTalk.** Mediante el **concentrador de grupo** página en la consola de administración de BizTalk Server, un administrador puede supervisar el funcionamiento de las aplicaciones de BizTalk. El Concentrador de grupo muestra información sobre el estado actual de estas aplicaciones y las aplicaciones se pueden examinar de varias maneras. En lugar de requerir un administrador buscar problemas, por ejemplo, el **concentrador de grupo** página utiliza indicadores de colores para mostrar esos problemas. De esta manera, los administradores pueden dedicarse a la supervisión de aplicaciones de forma proactiva.  
+- **Supervisar aplicaciones de BizTalk.** Mediante el **concentrador de grupo** página en la consola de administración de BizTalk Server, un administrador puede supervisar el funcionamiento de las aplicaciones de BizTalk. El Concentrador de grupo muestra información sobre el estado actual de estas aplicaciones y las aplicaciones se pueden examinar de varias maneras. En lugar de requerir un administrador buscar problemas, por ejemplo, el **concentrador de grupo** página usa indicadores codificado por colores para mostrar esos problemas. De esta manera, los administradores pueden dedicarse a la supervisión de aplicaciones de forma proactiva.  
   
- La consola de administración de BizTalk, que usa elementos de la base de datos de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], también ofrece otros servicios. Los administradores pueden agregar equipos de forma dinámica y especificar los hosts que deben asignarse a ellos durante la ejecución de una aplicación. No es necesario apagar la aplicación para realizar estos cambios. También se podrá tener acceso a las funciones de la consola de administración de forma programada con el Instrumental de administración de Windows (WMI), que permite a los administradores crear secuencias de comandos para automatizar las funciones de administración.  
+  La consola de administración de BizTalk, que usa elementos de la base de datos de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], también ofrece otros servicios. Los administradores pueden agregar equipos de forma dinámica y especificar los hosts que deben asignarse a ellos durante la ejecución de una aplicación. No es necesario apagar la aplicación para realizar estos cambios. También se podrá tener acceso a las funciones de la consola de administración de forma programada con el Instrumental de administración de Windows (WMI), que permite a los administradores crear secuencias de comandos para automatizar las funciones de administración.  
   
 ## <a name="reporting-on-and-debugging-applications"></a>Depuración aplicaciones y creación de informes:  
- Aplicaciones de BizTalk realizan muchas funciones: enviar y recibir mensajes, procesar los mensajes en orquestaciones, se comunican con distintos sistemas mediante protocolos diferentes y mucho más. Por ello resulta muy útil conservar un registro de la actividad de la aplicación, en especial cuando se producen errores. Del mismo modo, también es esencial conocer alguna forma para depurar orquestaciones y otros componentes de la aplicación. Ambas características las proporciona el Concentrador de grupo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+ Las aplicaciones de BizTalk realizan muchas funciones: enviar y recibir mensajes, procesar los mensajes en orquestaciones, comunicarse con distintos sistemas mediante protocolos diferentes y mucho más. Por ello resulta muy útil conservar un registro de la actividad de la aplicación, en especial cuando se producen errores. Del mismo modo, también es esencial conocer alguna forma para depurar orquestaciones y otros componentes de la aplicación. Ambas características las proporciona el Concentrador de grupo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 -   El Concentrador de grupo ofrece acceso gráfico a la información de las aplicaciones que se ejecutan en el motor. En esta información se puede incluir cuándo se inicia y finaliza una orquestación, cuándo se ejecuta cada una de las formas que la componen, cuándo se envía y se recibe cada uno de los mensajes, cuál es el contenido de los mensajes, etc. Los programadores o administradores pueden, además, establecer puntos de interrupción, lo que permite detener y analizar la orquestación en ubicaciones determinadas. La herramienta Concentrador de grupo también puede usarse para analizar los datos archivados, con el objetivo de buscar patrones y tendencias en la ejecución de un proceso empresarial. Esta información resulta útil para depurar, responder a cuestiones de ámbito empresarial (como comprobar si realmente se ha enviado un mensaje a un cliente) y mantener estadísticas de forma continua que se puedan utilizar para mejorar el rendimiento.  
   
@@ -60,5 +60,5 @@ Todas las aplicaciones generadas en el motor de [!INCLUDE[btsBizTalkServerNoVers
  [El motor de mensajería de BizTalk Server](../core/the-biztalk-server-messaging-engine.md)   
 Instalar [BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md) o [BizTalk Server 2013 o R2](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)    
 [Configuración de BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)  
- [Implementar y administrar aplicaciones de BizTalk](../core/deploying-and-managing-biztalk-applications.md)   
- [Mediante la página concentrador de grupo](../core/using-the-group-hub-page.md)
+ [Implementación y administración de aplicaciones de BizTalk](../core/deploying-and-managing-biztalk-applications.md)   
+ [Uso de la página Concentrador de grupo](../core/using-the-group-hub-page.md)

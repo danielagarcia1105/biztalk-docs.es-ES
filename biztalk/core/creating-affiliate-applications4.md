@@ -1,5 +1,5 @@
 ---
-title: Crear aplicaciones afiliadas Applications4 | Documentos de Microsoft
+title: Creación de aplicaciones afiliadas Applications4 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 87aa9be716e437e80c0e85bd9e462713e48090ad
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: e240fbc99705c18a0e789a1ddea0e26d8f479e55
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "24015091"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984045"
 ---
 # <a name="creating-affiliate-applications"></a>Crear aplicaciones afiliadas
 Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliadas con SSO.  
@@ -33,46 +33,46 @@ Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliad
   
 ### <a name="to-create-an-affiliate-application"></a>Para crear una aplicación afiliada  
   
-1.  En el Panel de Control, abra **Services**y compruebe que está ejecutando el servicio de Enterprise Single Sign-On.  
+1. En el Panel de Control, abra **servicios**y compruebe que se está ejecutando el servicio Enterprise Single Sign-On.  
   
-2.  En el símbolo del sistema, vaya al directorio de la carpeta de instalación del inicio de sesión único empresarial.  
+2. En el símbolo del sistema, vaya al directorio de la carpeta de instalación del inicio de sesión único empresarial.  
+  
+    Por ejemplo:  
+  
+    **C:\Program Files\Common Files\Enterprise Single Sign-On >**  
+  
+3. Utilice los comandos del Inicio de sesión único empresarial. Para obtener una lista de comandos, utilice el **-ayuda** cambie.  
+  
+4. Para crear una aplicación afiliada usando un archivo *.XML como inicio, escriba el siguiente comando:  
+  
+    `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
+  
+    donde:  
+  
+   - C:\SSOtest es la carpeta que contiene la aplicación XML.  
+  
+   - El archivo AffiliateApplication.xml es la aplicación XML creada que contiene la información de inicio de sesión.  
   
      Por ejemplo:  
   
-     **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
+   ```  
+   <?xml version="1.0"?>  
+   <SSO>  
+       <application name="JDEdwardsApp">  
+           <description>JDEdwards SSO Application</description>  
+           <contact>someone@microsoft.com</contact>  
+           <userGroup>ibi\Domain Users</userGroup>  
+           <!—an existing group on the domain controller - >   
+           <appAdminGroup>ibi\YourID</appAdminGroup>  
+           <!-- an existing account within the domain group - >   
   
-3.  Utilice los comandos del Inicio de sesión único empresarial. Para obtener una lista de comandos, utilice la **-ayuda** cambiar.  
+           <field ordinal="0" label="User ID" masked="no" />  
+           <field ordinal="1" label="Password" masked="yes" />  
+           <flags groupApp="no" allowTickets="yes" enableApp="yes"/>  
   
-4.  Para crear una aplicación afiliada usando un archivo *.XML como inicio, escriba el siguiente comando:  
-  
-     `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
-  
-     donde:  
-  
-    -   C:\SSOtest es la carpeta que contiene la aplicación XML.  
-  
-    -   El archivo AffiliateApplication.xml es la aplicación XML creada que contiene la información de inicio de sesión.  
-  
-     Por ejemplo:  
-  
-    ```  
-    <?xml version="1.0"?>  
-    <SSO>  
-        <application name="JDEdwardsApp">  
-            <description>JDEdwards SSO Application</description>  
-            <contact>someone@microsoft.com</contact>  
-            <userGroup>ibi\Domain Users</userGroup>  
-            <!—an existing group on the domain controller - >   
-            <appAdminGroup>ibi\YourID</appAdminGroup>  
-            <!-- an existing account within the domain group - >   
-  
-            <field ordinal="0" label="User ID" masked="no" />  
-            <field ordinal="1" label="Password" masked="yes" />  
-            <flags groupApp="no" allowTickets="yes" enableApp="yes"/>  
-  
-        </application>  
-    </SSO>  
-    ```  
+       </application>  
+   </SSO>  
+   ```  
   
 ### <a name="to-create-single-sign-on-tickets"></a>Para crear vales de inicio de sesión único  
   
@@ -86,35 +86,35 @@ Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliad
   
      Cuando haya terminado, recibirá el siguiente mensaje de confirmación:  
   
-     **Se está utilizando el servidor SSO en este equipo. La operación finalizada correctamente.**  
+     **Se está utilizando el servidor SSO en este equipo. La operación se completó correctamente.**  
   
 ### <a name="to-enable-affiliate-application-xml"></a>Para habilitar un archivo XML de aplicación afiliada  
   
-1.  Escriba el siguiente comando:  
+1. Escriba el siguiente comando:  
   
-     `ssomanage -enableapp JDEdwardsApp`  
+    `ssomanage -enableapp JDEdwardsApp`  
   
-2.  Escriba el comando siguiente para que se enumeren las aplicaciones y para comprobar que se ha creado la aplicación:  
+2. Escriba el comando siguiente para que se enumeren las aplicaciones y para comprobar que se ha creado la aplicación:  
   
-     `ssoclient.exe –listapps`  
+    `ssoclient.exe –listapps`  
   
-     Aparecerán en una lista las aplicaciones afiliadas disponibles para su uso:  
+    Aparecerán en una lista las aplicaciones afiliadas disponibles para su uso:  
   
-     **Aplicaciones disponibles para IBI\YourID - JDEdwardsApp**  
+    **Aplicaciones disponibles para IBI\YourID - JDEdwardsApp**  
   
-3.  Escriba el siguiente comando para establecer al afiliada credenciales de la aplicación:  
+3. Escriba el siguiente comando para establecer a la filial de credenciales de la aplicación:  
   
-     `ssoclient.exe -setcredentials JDEdwardsApp`  
+    `ssoclient.exe -setcredentials JDEdwardsApp`  
   
-4.  Escriba el nombre de usuario y la contraseña en los cuadros. Escriba las credenciales de inicio de sesión para la aplicación afiliada JDEdwardsApp.  
+4. Escriba el nombre de usuario y la contraseña en los cuadros. Escriba las credenciales de inicio de sesión para la aplicación afiliada JDEdwardsApp.  
   
-     Por ejemplo, escriba la identificación de usuario y la contraseña para que el usuario obtenga acceso al sistema a través del servidor SSO.  
+    Por ejemplo, escriba la identificación de usuario y la contraseña para que el usuario obtenga acceso al sistema a través del servidor SSO.  
   
-    -   Id. de usuario: **usuario**  
+   - Id. de usuario: **usuario**  
   
-    -   Contraseña: `******`  
+   - Contraseña: `******`  
   
-    -   Confirmar? Contraseña: `******`  
+   - Confirmar? Contraseña: `******`  
   
      La aplicación afiliada aparecerá en el adaptador de BizTalk para JD Edwards EnterpriseOne **propiedades de transporte** cuadro de diálogo.  
   

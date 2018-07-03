@@ -1,5 +1,5 @@
 ---
-title: Planear el entorno de BizTalk Server | Documentos de Microsoft
+title: Planificación del entorno de BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,59 +12,59 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66cd358f3d8a4fbda2c4ed43432f1ad8b2f6979e
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: d92039b397053d24909d6ade75797c9f68d06172
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010581"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977741"
 ---
-# <a name="planning-the-environment-for-biztalk-server"></a>Planear el entorno de BizTalk Server
-La sección de planeamiento de la Guía de operaciones describe los roles y responsabilidades asociadas con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno. Incluye la planificación de las recomendaciones para los niveles de aplicación y los datos de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y proporciona recomendaciones de planificación de la versión de fases de la administración de una solución de BizTalk.  
+# <a name="planning-the-environment-for-biztalk-server"></a>Planificación del entorno de BizTalk Server
+La sección de planeación de la Guía de operaciones describe funciones y responsabilidades asociadas con un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno. Incluye recomendaciones para los niveles de aplicación y datos de planear una [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y proporciona recomendaciones de planificación de la versión de las fases de la administración de una solución de BizTalk.  
   
- Como los hablados queda, "Si se produce un error planear, piensa producirá un error." Aunque por supuesto, hay excepciones a este Consejo sage, una implementación correcta de una solución de BizTalk de producción no es uno de ellos. Este tema de introducción a la sección de planeamiento proporciona una descripción general de las decisiones que debe tomar al planear la solución de BizTalk.  
+ Como se suele decir deja, "Si no puede planear, va a producir un error." Aunque ciertamente hay excepciones a este Consejo sage, una implementación correcta de una solución de BizTalk de producción no es uno de ellos. Este tema de introducción a la sección de planeación proporciona una descripción general de las decisiones que debe tomar al planear la solución de BizTalk.  
   
 ## <a name="deciding-whether-biztalk-server-is-the-right-tool-for-the-job"></a>Decidir si el servidor BizTalk Server es la herramienta adecuada para el trabajo  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]puede considerarse como un "motor de integración empresarial". En esencia, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está diseñado para integrar los sistemas empresariales diferentes, los procesos y mensajes. Por ejemplo, un sistema de negocio que intercambia mensajes que cumplen el estándar EDI necesite integrar con un sistema de negocio que intercambia mensajes que cumplen el estándar de RosettaNet. O bien, un sistema de negocio internas que utiliza SAP que necesite comunicarse con otro sistema de negocio internas que almacena los datos en una base de datos de Microsoft SQL Server. O quizás se necesita un sistema de negocio que solo se puede enviar o recibir mensajes mediante el protocolo FTP intercambiar mensajes con un sistema de negocio que solo se puede usar el protocolo HTTP.  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede considerarse como un "motor de integración empresarial". En esencia, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está diseñado para integrar sistemas empresariales dispares, procesos y los mensajes. Por ejemplo, un sistema de negocio que intercambia mensajes que cumplen el estándar EDI que deba integrarse en un sistema de negocio que intercambia mensajes que cumplen el estándar de RosettaNet. O bien, un sistema de negocio internas que utiliza SAP que necesite para comunicarse con otro sistema de negocio internas que almacena datos en una base de datos de Microsoft SQL Server. O quizás se necesita un sistema de negocio que solo se puede enviar o recibir mensajes mediante el protocolo FTP intercambiar mensajes con un sistema de negocio que solo se puede usar el protocolo HTTP.  
   
- [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]admite la integración de estos sistemas dispares que actúa como intermediario para la entrega de mensajes entre los sistemas. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]admite una gran variedad de protocolos de transporte estándar del sector, formatos de intercambio de documentos y aplicaciones empresariales.  
+ [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] actuando como intermediario para la entrega de mensajes entre los sistemas se adapta a la integración de dichos sistemas dispares. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] admite una amplia gama de protocolos de transporte estándar del sector, formatos de intercambio de documentos y aplicaciones empresariales.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]También proporciona capacidades de automatización de procesos de negocios eficaces en el motor de orquestación de BizTalk. Utilice el Diseñador de orquestaciones de BizTalk para crear representaciones visuales de los procesos empresariales que se pueden compilar en código ejecutable que se ejecuta en el motor de orquestaciones de BizTalk.  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] También proporciona las capacidades de automatización del proceso de negocio eficaces en el motor de orquestaciones de BizTalk. Utilice el Diseñador de orquestaciones de BizTalk para crear representaciones visuales de los procesos empresariales que pueden crearse en el código ejecutable que se ejecuta en el motor de orquestaciones de BizTalk.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]También incluye otras características que facilitan la integración de negocio incluye un motor de flujo de trabajo de mensaje, un motor de reglas de negocios (BRE) y tecnologías para trabajadores de la información como la actividad de supervisión a económica (BAM).  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] También incluye otras características que facilitan la integración de negocio incluye un motor de flujo de trabajo de mensaje, un motor de reglas de negocios (BRE) y tecnologías para los trabajadores de información como la actividad de supervisión a económica (BAM).  
   
- Para obtener más información sobre el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] funcionalidad de administración de procesos de negocio, consulte [notas del producto: Microsoft y BPM: Introducción técnica a](http://go.microsoft.com/fwlink/?LinkId=106015) (http://go.microsoft.com/fwlink/?LinkId=106015). Para obtener más información acerca de las tecnologías de integración diferentes ofrecidas por Microsoft y las ventajas uno tiene sobre el otro, consulte [entender las tecnologías de integración de Microsoft](http://go.microsoft.com/fwlink/?LinkId=158452) (http://go.microsoft.com/fwlink/?LinkId=158452).  
+ Para obtener más información sobre el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] funcionalidad de administración de procesos de negocio, consulte [notas del producto: Microsoft y BPM: Introducción técnica a](http://go.microsoft.com/fwlink/?LinkId=106015) (<http://go.microsoft.com/fwlink/?LinkId=106015>). Para obtener más información acerca de las tecnologías de integración diferentes ofrecidas por Microsoft y las ventajas que uno tiene sobre el otro, consulte [entender las tecnologías de Microsoft Integration](http://go.microsoft.com/fwlink/?LinkId=158452) (<http://go.microsoft.com/fwlink/?LinkId=158452>).  
   
- Ciertos escenarios de integración se adaptan mejor a otros productos de Microsoft. Si su objetivo principal es ante cualquiera de los siguientes escenarios, considere el uso de estos productos de Microsoft en lugar de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
+ Ciertos escenarios de integración son más adecuadas para otros productos de Microsoft. Si su objetivo principal es ante cualquiera de los siguientes escenarios, considere el uso de estos productos de Microsoft en lugar de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
-|**Escenario**|**Poder usar producto**|  
+|**Escenario**|**Producto de usar**|  
 |------------------|------------------------|  
-|Aprovisionamiento de usuarios|**Microsoft Identity Lifecycle Manager 2010**<br /><br /> Para obtener más información acerca de Microsoft Identity Lifecycle Manager 2010, vea [Microsoft Identity Lifecycle Manager 2010 FP1](http://go.microsoft.com/fwlink/?LinkId=204577) (http://go.microsoft.com/fwlink/?LinkId=204577).|  
+|Aprovisionamiento de usuarios|**Ciclo de vida de Microsoft Identity Manager 2010**<br /><br /> Para obtener más información acerca del ciclo de vida de Microsoft Identity Manager 2010, consulte [Microsoft Identity Lifecycle Manager 2010 FP1](http://go.microsoft.com/fwlink/?LinkId=204577) (http://go.microsoft.com/fwlink/?LinkId=204577).|  
 |Replicación de datos entre sistemas|**Replicación de SQL Server**<br /><br /> Para obtener más información acerca de la replicación de SQL Server, vea [replicación de SQL Server 2008 R2](http://go.microsoft.com/fwlink/?LinkID=69978) (http://go.microsoft.com/fwlink/?LinkID=69978).|  
-|Extracción de datos, transformación y carga (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> Para obtener más información acerca de SQL Server Integration Services, vea [SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044).|  
+|Extracción de datos, transformación y carga (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> Para obtener más información acerca de SQL Server Integration Services, consulte [SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044).|  
   
-## <a name="deciding-which-edition-of-biztalk-server-is-right-for-the-job"></a>Decidir qué edición de BizTalk Server es correcta para el trabajo  
- Hay cuatro ediciones de BizTalk Server, cada uno de los cuales está destinada a escenarios concretos. Las cuatro ediciones de BizTalk Server incluyen:  
+## <a name="deciding-which-edition-of-biztalk-server-is-right-for-the-job"></a>Decidir qué edición de BizTalk Server es el derecho para el trabajo  
+ Hay cuatro ediciones de BizTalk Server, cada uno de los cuales se destina a escenarios específicos. Las cuatro ediciones de BizTalk Server incluyen:  
   
--   **Enterprise** : diseñado para los clientes con requisitos de nivel de empresa de gran volumen, confiabilidad y disponibilidad.  
+- **Enterprise** : diseñada para los clientes con requisitos de nivel empresarial de gran volumen, la confiabilidad y disponibilidad.  
   
--   **Estándar** : diseñada para empresas con moderado volumen y requisitos de implementación de escala.  
+- **Estándar** : diseñada para las empresas con volumen moderado y requisitos de implementación de escalado.  
   
--   **Rama** -versión especializada de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] diseñado para su concentrador y radio escenarios de implementación incluso RFID.  
+- **Rama** -versión de Especialidad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] diseñado para el concentrador y radio escenarios de implementación incluida de RFID.  
   
--   **Developer** : proporciona toda la funcionalidad de la edición Enterprise para fines de pruebas y desarrollo y está disponible como la edición de evaluación de BizTalk Server sin costo alguno para fines de evaluación. Cuando se instala como la edición de evaluación, BizTalk Server funcionará de 120 días.  
+- **Desarrollador** : proporciona toda la funcionalidad de Enterprise Edition para fines de prueba y desarrollo y está disponible como la edición de evaluación de BizTalk Server sin costo alguno para fines de evaluación. Cuando se instala como la edición de evaluación, BizTalk Server funcionará durante 120 días.  
   
--   **RFID empresarial** : diseñado para proporcionar una plataforma escalable y extensible para desarrollo, implementación y administración de RFID enriquecida y las soluciones de sensor, incluye el servidor BizTalk RFID y BizTalk RFID Mobile.  
+- **Enterprise RFID** : diseñada para proporcionar una plataforma escalable y extensible para desarrollo, implementación y administración de RFID enriquecido y soluciones de sensor, incluye el servidor BizTalk RFID y BizTalk RFID Mobile.  
   
- Para obtener más información acerca de las diferentes ediciones de BizTalk Server, vea [ediciones de Microsoft BizTalk Server](http://go.microsoft.com/fwlink/?LinkId=108051) (http://go.microsoft.com/fwlink/?LinkId=108051).  
+  Para obtener más información sobre las diferentes ediciones de BizTalk Server, consulte [ediciones de Microsoft BizTalk Server](http://go.microsoft.com/fwlink/?LinkId=108051) (http://go.microsoft.com/fwlink/?LinkId=108051).  
   
 ## <a name="planning-for-message-load"></a>Planeación de la carga de mensajes  
- Una vez que ha determinado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cumple su integración negocio necesita, lo siguiente que debe determinar la carga de mensajes que será la solución de BizTalk debe procesar. Esto es una decisión importante porque las distintas ediciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tienen capacidades distintas de escalado vertical y horizontal.  
+ Cuando haya determinado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cumple su integración negocio necesita, lo siguiente que debe determinar la carga de mensajes que será la solución de BizTalk debe procesar. Esto es una decisión importante porque las diferentes ediciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiene distintas capacidades de escalado vertical y horizontal.  
   
- La clave para determinar la carga de mensaje es para realizar pruebas de carga para determinar el rendimiento sostenible máximo (MST) y el máximo sostenible seguimiento de rendimiento (MSTT) de la solución de BizTalk. Para obtener más información acerca de cómo medir el rendimiento máximo sostenible y prácticas recomendadas de rendimiento en general, vea el [Guía de rendimiento de BizTalk Server 2009](http://go.microsoft.com/fwlink/?LinkID=150492) (http://go.microsoft.com/fwlink/?LinkID=150492).  
+ La clave para determinar la carga de mensajes es realizar pruebas de carga para determinar el rendimiento sostenible máximo (MST) y el máximo sostenible seguimiento de rendimiento (MSTT) de la solución de BizTalk. Para obtener más información sobre cómo medir el rendimiento máximo sostenible y procedimientos recomendados de rendimiento en general, consulte el [Guía de rendimiento de BizTalk Server 2009](http://go.microsoft.com/fwlink/?LinkID=150492) (http://go.microsoft.com/fwlink/?LinkID=150492).  
   
 ## <a name="planning-for-expansion"></a>Planeación de expansión  
- Considere la posibilidad de implementar una solución de BizTalk mediante la edición Enterprise de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] si va a agregar un número significativo de socios comerciales, necesita usar clústeres de host, o bien se debe escalar horizontalmente a varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el Grupo de BizTalk. Las ediciones Standard y bifurcación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no se ajustan a varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un grupo o de clústeres de host.  
+ Considere la posibilidad de implementar una solución de BizTalk mediante la edición Enterprise de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] si va a agregar un número significativo de socios comerciales, necesita usar clústeres de host, o bien se debe escalar horizontalmente a varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el Grupo de BizTalk. Las ediciones Standard y rama de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no dar cabida a varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un grupo o los clústeres de host.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

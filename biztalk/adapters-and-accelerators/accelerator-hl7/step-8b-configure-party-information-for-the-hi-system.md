@@ -1,5 +1,5 @@
 ---
-title: 'Paso 8: configurar la información de entidad para el sistema de HI | Documentos de Microsoft'
+title: 'Paso 8B: configurar la información de entidad para el sistema de HI | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,24 +12,24 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 460840cf3bbbd6556b1684b25851a16778be92b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d2cfc31d4bc42b599d7403006f8b44a8bfab447
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206316"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973749"
 ---
-# <a name="step-8b-configure-party-information-for-the-hi-system"></a>Paso 8: configurar la información de entidad para el sistema de alta
-En este paso, configurará la información de entidad para el sistema de alta.  
+# <a name="step-8b-configure-party-information-for-the-hi-system"></a>Paso 8B: configurar la información de entidad para el sistema de HI
+En este paso, configure la información de entidad para el sistema de HI.  
   
-### <a name="to-configure-the-hi-system-party-information"></a>Para configurar la información de entidad del sistema de alta  
+### <a name="to-configure-the-hi-system-party-information"></a>Para configurar la información de entidad del sistema de HI  
   
-1.  En la consola de administración de BizTalk, haga clic en **partes**, seleccione **New**y, a continuación, haga clic en **entidad**.  
+1. En la consola de administración de BizTalk, haga clic en **partes**, apunte a **New**y, a continuación, haga clic en **entidad**.  
   
-2.  En el cuadro de diálogo Propiedades de la entidad, en la **nombre** , escriba **HIS**. (El valor que escriba en este cuadro debe coincidir con la instancia original del mensaje HL7, QRY^Q01.txt MSH5.)  
+2. En el cuadro de diálogo Propiedades de entidad en el **nombre** , escriba **HIS**. (El valor que escriba en este cuadro debe coincidir con la instancia de mensaje original de HL7, QRY^Q01.txt MSH5.)  
   
-3.  En el árbol de consola, haga clic en **puertos de envío**.  
+3. En el árbol de consola, haga clic en **puertos de envío**.  
   
-4.  En el **puerto de envío** panel, para **nombre** en la primera fila, seleccione **HIS_Send**y, a continuación, haga clic en **Aceptar**.  
+4. En el **puerto de envío** panel, para **nombre** en la primera fila, seleccione **HIS_Send**y, a continuación, haga clic en **Aceptar**.  
   
- Continúe con [paso 9: reinicie el servidor BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/step-9-restart-biztalk-server-hl7-main.md).
+   Continúe con [paso 9: reiniciar BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/step-9-restart-biztalk-server-hl7-main.md).

@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11058 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11058 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e221ae4d2642697546f9e2dba2e64943e9830b1b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 95182a83442a8ff9c5dbbde8550b45bdd7cfc3e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277932"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983701"
 ---
-# <a name="single-sign-on-event-11058"></a>Inicio de sesión único: Evento 11058
+# <a name="single-sign-on-event-11058"></a>De sesión único: Evento 11058
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11058|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_INFO_PS_DIRECT_SET_EXTERNAL_PASSWORD|  
-|Texto del mensaje|La contraseña externa se actualizó directamente en la base de datos de SSO.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Nombre de la aplicación: %2 %r<br /><br /> Cuenta de Windows: %3 %r<br /><br /> Cuenta externa: %4|  
+|                 |                                                                                                                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                       Inicio de sesión único (SSO) empresarial                                                                                       |
+| Versión del producto |                                                                      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                       |
+|    Identificador del evento     |                                                                                                 11058                                                                                                 |
+|  Origen del evento   |                                                                                                ENTSSO                                                                                                 |
+|    Componente    |                                                                                                  N/D                                                                                                  |
+|  Nombre simbólico  |                                                                               SSO_INFO_PS_DIRECT_SET_EXTERNAL_PASSWORD                                                                                |
+|  Texto del mensaje   | La contraseña externa se actualizó directamente en la base de datos de SSO.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Nombre de la aplicación: %2 %r<br /><br /> Cuenta de Windows: %3 %r<br /><br /> Cuenta externa: %4 |
   
 ## <a name="explanation"></a>Explicación  
  La contraseña externa se actualizó directamente en la base de datos de SSO.  

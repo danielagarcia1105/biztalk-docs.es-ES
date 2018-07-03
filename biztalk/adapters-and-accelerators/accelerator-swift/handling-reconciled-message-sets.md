@@ -1,5 +1,5 @@
 ---
-title: Control de conjuntos de mensajes reconciliarse | Documentos de Microsoft
+title: Control de conjuntos de mensajes reconciliar | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,20 +15,20 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2fc9f35f9381f82df90acb92e9536bbd967901a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d3a06955e0072348098ddd7f191bf4862fb119a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209044"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986093"
 ---
-# <a name="handling-reconciled-message-sets"></a>Control conciliado conjuntos de mensajes
-Cuando AAS devolución una respuesta a [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] registra la respuesta en el cuadro de mensajes y coincide con la respuesta o respuestas al mensaje original. Puede implementar un comportamiento de aplicación personalizada con esta información. Para ello, desarrollar controladores personalizados que implementan reacciones específica del cliente a los conjuntos de conciliado/respuesta del mensaje. Puede crear controladores personalizados que haga lo siguiente:  
-  
--   Procesar los mensajes que se correlacionan FRR con un mensaje de confirmación negativo MTS21_FIN_ACKNAK, lo que indica que SWIFT no ha recibido correctamente el mensaje de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]. Esto puede permitir un taller de reparación solucionar el mensaje y enviarlo de nuevo a la red SWIFT, que después de la reparación espero será capaz de recibir el mensaje correctamente y AAS. Para obtener más información sobre esta solución, consulte [FRR NAK controlador ejemplo](../../adapters-and-accelerators/accelerator-swift/frr-nak-handler-sample.md).  
-  
--   Quitar conjuntos de respuesta de mensaje publicados por la orquestación en una carpeta de archivos con nombres de archivo único que indica las relaciones de los mensajes en el conjunto. A continuación, puede realizar la lógica de negocios en estos mensajes.  
-  
--   Mensajes de proceso ha superado el tiempo de espera.  
-  
--   Los resultados de la transmisión de mensajes de registro y, a continuación, descartar los mensajes reales.
+# <a name="handling-reconciled-message-sets"></a>Control de conjuntos de mensajes conciliados
+Cuando devuelve una respuesta a AAS [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] registra la respuesta en el cuadro de mensajes y coincide con la respuesta o las respuestas al mensaje original. Puede implementar el comportamiento de la aplicación personalizada con esta información. Para ello, desarrollar controladores personalizados que implementan conjuntos reconciliar/respuesta al mensaje de reacciones específica del cliente. Puede crear controladores personalizados que haga lo siguiente:  
+
+- Procesar los mensajes que se correlacionan FRR con un mensaje de confirmación negativo MTS21_FIN_ACKNAK, que indica que SWIFT no ha recibido correctamente el mensaje de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]. Esto puede permitir que un taller de reparación solucionar el mensaje y vuelva a enviar a AAS y la red SWIFT, que después de la reparación, espero que pueda recibir el mensaje correctamente. Para obtener más información sobre esta solución, consulte [ejemplo de controlador NAK de FRR](../../adapters-and-accelerators/accelerator-swift/frr-nak-handler-sample.md).  
+
+- Quitar conjuntos de respuesta de mensajes publicados por la orquestación en una carpeta de archivos con nombres de archivo único que indica las relaciones de los mensajes en el conjunto. A continuación, puede realizar lógica de negocios en estos mensajes.  
+
+- Procesar mensajes de tiempo de espera.  
+
+- Los resultados de la transmisión del mensaje de registro y, a continuación, descartar los mensajes reales.

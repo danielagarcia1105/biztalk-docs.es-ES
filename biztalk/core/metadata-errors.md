@@ -1,5 +1,5 @@
 ---
-title: Errores en los metadatos | Documentos de Microsoft
+title: Errores en los metadatos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4dce5fc9eb944eccbeed57073c2546f81825ec6f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 07167c2c0189c36f7b1a321d81bd0070398953e8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975125"
 ---
 # <a name="metadata-errors"></a>Errores de metadatos
 Información para diagnosticar y resolver errores en los metadatos de WCF.  
   
 ## <a name="error-consuming-wcf-service-metadata"></a>Error al consumir los metadatos del Servicio WCF
 
-||Detalles del error|  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Error al consumir los metadatos del Servicio WCF|  
+|                 |                                   Detalles del error                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                        Error al consumir los metadatos del Servicio WCF                        |
   
 ### <a name="explanation"></a>Explicación  
  Este error indica que los metadatos para el servicio no están disponibles o que no son válidos.  
@@ -42,15 +42,15 @@ Información para diagnosticar y resolver errores en los metadatos de WCF.
 
 ## <a name="failed-to-get-metadata"></a>Error al obtener metadatos
 
-||Detalles del error|  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Error al obtener metadatos de "{0}.|  
+|                 |                                   Detalles del error                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                          Error al obtener los metadatos de"{0}                          |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que los metadatos no están disponibles para el servicio.  

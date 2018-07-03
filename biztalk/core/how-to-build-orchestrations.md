@@ -1,5 +1,5 @@
 ---
-title: Cómo generar orquestaciones | Documentos de Microsoft
+title: Cómo generar orquestaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79e91ec6ecfa061aa4621effba9a1f868cad5d96
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9000c986e95270328d9c31ef4f5e3bda7f1576e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248148"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987333"
 ---
 # <a name="how-to-build-orchestrations"></a>Cómo generar orquestaciones
 Tras finalizar el diseño de una orquestación, se crea el proyecto de BizTalk en un ensamblado que encapsula una orquestación ejecutable.  
@@ -33,13 +33,13 @@ Tras finalizar el diseño de una orquestación, se crea el proyecto de BizTalk e
   
  Existen varias opciones para generar aplicaciones en Visual Studio:  
   
--   Puede generar la solución completa en la que resida su orquestación.  
+- Puede generar la solución completa en la que resida su orquestación.  
   
--   Puede generar un único proyecto dentro de la solución.  
+- Puede generar un único proyecto dentro de la solución.  
   
--   Puede omitir la orquestación al generar el proyecto o solución.  
+- Puede omitir la orquestación al generar el proyecto o solución.  
   
- Si desea generar otros componentes, incluidas otras orquestaciones, pero no desea generar una orquestación específica, puede indicar en las propiedades del archivo .odx de la orquestación que no desea generarla y ésta se omitirá.  
+  Si desea generar otros componentes, incluidas otras orquestaciones, pero no desea generar una orquestación específica, puede indicar en las propiedades del archivo .odx de la orquestación que no desea generarla y ésta se omitirá.  
   
 ### <a name="to-build-an-orchestration"></a>Para generar una orquestación  
   
@@ -47,11 +47,11 @@ Tras finalizar el diseño de una orquestación, se crea el proyecto de BizTalk e
   
 ### <a name="to-build-a-solution"></a>Para generar una solución  
   
--   En el Explorador de soluciones, haga clic en la solución y seleccione **generar solución**.  
+-   En el Explorador de soluciones, haga clic en la solución y seleccione **compilar solución**.  
   
 ### <a name="to-build-a-project"></a>Para generar un proyecto  
   
--   Haga clic en un proyecto y seleccione **generar**.  
+-   Haga clic en un proyecto y seleccione **compilar**.  
   
 ### <a name="to-build-a-project-or-solution-without-compiling-a-particular-orchestration"></a>Para generar un proyecto o solución sin compilar una orquestación específica  
   

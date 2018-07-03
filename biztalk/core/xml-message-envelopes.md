@@ -1,5 +1,5 @@
 ---
-title: Sobres de mensajes XML | Documentos de Microsoft
+title: Sobres de mensajes XML | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,21 +12,21 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3adb33866a3e6fdaee387934d2edededaab08aac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f4b60dfbc128baead6b0a1ad38d319ba7b6e8fc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290116"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972413"
 ---
 # <a name="xml-message-envelopes"></a>Sobres de mensajes XML
 Los sobres XML cumplen dos objetivos dentro de los mensajes de instancia XML enviados y recibidos por Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   Los sobres XML pueden contener datos que complementen a los datos de los documentos XML. Estos datos se pueden promocionar en el contexto del mensaje con el desensamblador XML para proporcionar un acceso más sencillo desde varios componentes de BizTalk Server. Para los mensajes de instancia XML de salida, el ensamblador XML puede degradar valores del contexto del mensaje en un sobre para su inclusión en la transmisión del mensaje de instancia.  
+- Los sobres XML pueden contener datos que complementen a los datos de los documentos XML. Estos datos se pueden promocionar en el contexto del mensaje con el desensamblador XML para proporcionar un acceso más sencillo desde varios componentes de BizTalk Server. Para los mensajes de instancia XML de salida, el ensamblador XML puede degradar valores del contexto del mensaje en un sobre para su inclusión en la transmisión del mensaje de instancia.  
   
--   Los sobres XML se pueden usar para combinar varios documentos XML en un único mensaje de instancia XML válido. Si no hay un sobre para incluir los distintos documentos dentro de una etiqueta raíz, un mensaje de instancia XML que contenga varios documentos no será calificado como XML con formato correcto.  
+- Los sobres XML se pueden usar para combinar varios documentos XML en un único mensaje de instancia XML válido. Si no hay un sobre para incluir los distintos documentos dentro de una etiqueta raíz, un mensaje de instancia XML que contenga varios documentos no será calificado como XML con formato correcto.  
   
- Un sobre XML típico (en negrita) contiene datos y una etiqueta para delimitar el documento o los documentos XML (fuente normal) que contiene.  
+  Un sobre XML típico (en negrita) contiene datos y una etiqueta para delimitar el documento o los documentos XML (fuente normal) que contiene.  
   
 ```  
   
@@ -61,4 +61,4 @@ Los sobres XML cumplen dos objetivos dentro de los mensajes de instancia XML env
 ## <a name="see-also"></a>Vea también  
  [Sobres de mensajes XML anidados](../core/nested-xml-message-envelopes.md)   
  [Estructura de un mensaje XML](../core/structure-of-an-xml-message.md)   
- [Cómo crear esquemas de sobres](../core/how-to-create-schemas-for-envelopes.md)
+ [Cómo crear esquemas para sobres](../core/how-to-create-schemas-for-envelopes.md)

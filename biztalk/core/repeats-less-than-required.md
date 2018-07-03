@@ -1,5 +1,5 @@
 ---
-title: Se repite menor que el necesario | Documentos de Microsoft
+title: Menos repeticiones de las necesarias | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d88fe1868a91bce7208c0da557f20211cde23109
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4f0ca660f792494e66d3ad26ead90f8878d80a0d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268532"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974893"
 ---
 # <a name="repeats-less-than-required"></a>Menos repeticiones de las necesarias.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12FeRepeatsLessThanRequiredDescription|  
-|Texto del mensaje|Menos repeticiones de las necesarias.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                        X12FeRepeatsLessThanRequiredDescription                         |
+|  Texto del mensaje   |                               Menos repeticiones de las necesarias.                               |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que los segmentos de un intercambio X12 entrante que se encuentran dentro o fuera de un bucle se repiten menos veces que las que requiere el esquema del documento.  

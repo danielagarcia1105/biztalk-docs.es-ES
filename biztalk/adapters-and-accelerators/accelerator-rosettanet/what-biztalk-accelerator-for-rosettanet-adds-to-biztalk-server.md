@@ -1,5 +1,5 @@
 ---
-title: Lo que agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server | Documentos de Microsoft
+title: Qué agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,17 +15,17 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24c06f6a7709962c5d67f0dbda4e5d7117d35276
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: c73d8d8d75b704973cbd0998256dc5c324bee289
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855575"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979621"
 ---
-# <a name="what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server"></a>Lo que agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] compila un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] sistema de integración de BizTalk Server en un sistema de integración compatible con RosettaNet. Todo lo que debe tener para implementar una solución compatible con RosettaNet agrega.  
+# <a name="what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server"></a>Qué agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] un sistema de integración de Microsoft BizTalk Server se basa en un sistema de integración compatible con RosettaNet. Agrega todo lo que debe tener para implementar una solución compatible con RosettaNet.  
   
-Instalar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sobre BizTalk Server y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] agrega funcionalidad para el núcleo del motor de BizTalk Server. Agrega características, herramientas y utilidades para los que proporciona BizTalk Server. También agrega interfaces de programación de aplicaciones (API) para lo que proporciona el kit de desarrollo de software (SDK) de BizTalk Server.  
+Instalar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sobre BizTalk Server y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] agrega funcionalidad para el motor de BizTalk Server core. Agrega las características, herramientas y utilidades para los que proporciona BizTalk Server. También se agrega interfaces de programación de aplicaciones (API) a lo que ofrece el kit de desarrollo de software (SDK) de BizTalk Server.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

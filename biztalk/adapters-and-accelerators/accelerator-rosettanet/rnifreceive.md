@@ -1,5 +1,5 @@
 ---
-title: RNIFReceive | Documentos de Microsoft
+title: RNIFReceive | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 57af8140157b901d7e6265fc26249c7fbfef0c46
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: d54b66c42fae286ec748ef560c461a22124165b0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25963882"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991781"
 ---
 # <a name="rnifreceive"></a>RNIFReceive
-Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFReceive.aspx archivo que recibe un mensaje RNIF y se prepara para que lo procese la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] proceso público. Puede personalizar la página ASPX para hacer lo siguiente:  
+Este ejemplo proporciona un Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFReceive.aspx archivo que recibe un mensaje RNIF y lo prepara para el procesamiento por la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] proceso público. Puede personalizar la página ASPX para hacer lo siguiente:  
   
--   Agregar o quitar los contadores de rendimiento  
+- Agregar o quitar los contadores de rendimiento  
   
--   Agregar funciones a la página, como escribir datos en una base de datos o personalizar la función de seguimiento  
+- Agregar funciones a la página, como escribir datos en una base de datos o personalizar la función de seguimiento  
   
--   Agregar validación a la página  
+- Agregar validación a la página  
   
- Este ejemplo se encuentra en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\WebApplication\RNIFReceiver.  
+  Este ejemplo se encuentra en  *\<unidad\>*: \Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\WebApplication\RNIFReceiver.  
   
 ## <a name="demonstrates"></a>Demostraciones  
  Este ejemplo muestra cómo preparar los mensajes entrantes para el proceso público, incluidos los siguientes pasos:  

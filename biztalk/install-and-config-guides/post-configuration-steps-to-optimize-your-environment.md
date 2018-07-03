@@ -1,6 +1,6 @@
 ---
-title: Pasos posteriores a la configuración para optimizar el entorno | Documentos de Microsoft
-description: Tareas que debe completar después de instalar y configurar BizTalk Server, incluidos configurar los trabajos del Agente SQL, instalar esquemas EDI, cree hosts y las instancias de host y mucho más en BizTalk Server
+title: Pasos posteriores a la configuración para optimizar el entorno | Microsoft Docs
+description: Para completar después de instalar y configurar BizTalk Server, las tareas como configurar los trabajos del Agente SQL, instalar esquemas EDI, crear hosts y las instancias de host y mucho más en BizTalk Server
 ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 09/27/2017
@@ -13,12 +13,12 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80c5f4b69e8204c89ebb3dd74252e85e815b1867
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 51f78d561af0c7ebe1212bffe79c862a16d0a512
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976842"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986149"
 ---
 # <a name="post-configuration-steps-to-optimize-your-environment"></a>Pasos posteriores a la configuración para optimizar el entorno
 Pasos posteriores a la configuración que ayudan a mejorar el rendimiento, conservar el entorno de BizTalk e instalar los esquemas EDI.
@@ -67,7 +67,7 @@ BizTalk Server no incluye ningún trabajo para eliminar archivos de copia de seg
     FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
     WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
     AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
- 
+
     DECLARE @cmd varchar(400)
     OPEN DeleteBackupFiles
     FETCH NEXT FROM DeleteBackupFiles INTO @cmd
@@ -101,65 +101,66 @@ BizTalk Server no incluye ningún trabajo para eliminar archivos de copia de seg
 5. En la ventana de la **tarea Limpieza**, vaya a **Buscar en carpeta y eliminar archivos…**, seleccione la carpeta de la copia de seguridad (probablemente F:\BizTalkBackUps) y escriba **.bak** en la extensión de archivo. También puede eliminar archivos según su antigüedad. Por ejemplo, escriba 3 si quiere eliminar archivos con una antigüedad superior a tres semanas. Seleccione **Siguiente**.
 6. Finalice el asistente y escriba la información adicional que quiera. Seleccione **Finalizar**.
 
-  
+
 ## <a name="install-edi-schemas-and-more-edi-as2-configuration"></a>Instalar esquemas EDI y más opciones de configuración de EDI y AS2
  Los archivos de esquema EANCOM, EDIFACT, HIPAA y X12 se incluyen en un archivo ejecutable autoextraíble denominado MicrosoftEdiXSDTemplates.exe. Para crear soluciones EDI, extraiga estos archivos e impleméntelos con los proyectos. Para instalar y extraer estos archivos:  
-  
-1.  Ejecute la instalación de [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] e instale el componente **SDK y herramientas de programadores**. Este componente descarga el archivo de esquema EDI MicrosoftEdiXSDTemplates.exe en la carpeta \XSD_Schema\EDI.  
-  
-    > [!NOTE]
-    > Si se actualiza [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], el archivo MicrosoftEdiXSDTemplates.exe de la instalación se sustituirá por el nuevo archivo MicrosoftEdiXSDTemplates.exe asociado a la actualización. Si necesita los esquemas anteriores, realice una copia de seguridad del anterior archivo MicrosoftEdiXSDTemplates.exe.  
-  
-    > [!NOTE] 
-    > Si actualiza los esquemas de mensaje cuando actualice [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] a una compilación posterior, se pueden producir problemas al usar los esquemas actualizados o puede que tenga que realizar algunos pasos adicionales de actualización. Consulte la sección "Consideraciones para actualizar esquemas" de [Consideraciones importantes para actualizar aplicaciones](../core/important-considerations-for-updating-applications.md).
-  
-2.  Vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI y haga doble clic en MicrosoftEdiXSDTemplates.exe.  
-  
-3.  Extraiga los esquemas en [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI. Cuando se extraen los esquemas, se almacenan en las carpetas EANCOM, EDIFACT, HIPAA y X12.  
-  
+
+1. Ejecute la instalación de [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] e instale el componente **SDK y herramientas de programadores**. Este componente descarga el archivo de esquema EDI MicrosoftEdiXSDTemplates.exe en la carpeta \XSD_Schema\EDI.  
+
+   > [!NOTE]
+   > Si se actualiza [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], el archivo MicrosoftEdiXSDTemplates.exe de la instalación se sustituirá por el nuevo archivo MicrosoftEdiXSDTemplates.exe asociado a la actualización. Si necesita los esquemas anteriores, realice una copia de seguridad del anterior archivo MicrosoftEdiXSDTemplates.exe.  
+   > 
+   > [!NOTE]
+   > Si actualiza los esquemas de mensaje cuando actualice [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] a una compilación posterior, se pueden producir problemas al usar los esquemas actualizados o puede que tenga que realizar algunos pasos adicionales de actualización. Consulte la sección "Consideraciones para actualizar esquemas" de [Consideraciones importantes para actualizar aplicaciones](../core/important-considerations-for-updating-applications.md).
+
+2. Vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI y haga doble clic en MicrosoftEdiXSDTemplates.exe.  
+
+3. Extraiga los esquemas en [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI. Cuando se extraen los esquemas, se almacenan en las carpetas EANCOM, EDIFACT, HIPAA y X12.  
+
 #### <a name="add-a-reference-to-the-biztalk-server-edi-application"></a>Agregar una referencia a la aplicación EDI de BizTalk Server  
  Los esquemas EDI, las canalizaciones y las orquestaciones se implementan en la **aplicación EDI de BizTalk**. Para usar cualquier otra aplicación como una aplicación EDI, debe agregar una referencia a la **aplicación EDI de BizTalk**. Pasos:  
-  
-1.  En la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], expanda **Aplicaciones**. Haga clic con el botón derecho en la aplicación que quiere usar para EDI (como *Aplicación de BizTalk 1*), seleccione **Agregar** y, después, seleccione **Referencias**.  
-  
-2.  Seleccione **Aplicación EDI de BizTalk** y **Aceptar** para guardar los cambios.  
-  
+
+1. En la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], expanda **Aplicaciones**. Haga clic con el botón derecho en la aplicación que quiere usar para EDI (como *Aplicación de BizTalk 1*), seleccione **Agregar** y, después, seleccione **Referencias**.  
+
+2. Seleccione **Aplicación EDI de BizTalk** y **Aceptar** para guardar los cambios.  
+
 > [!TIP]
 >  Para ver referencias a otras aplicaciones, haga clic con el botón derecho en cualquier aplicación y seleccione **Propiedades**. Seleccione **Referencias**. También puede agregar referencias nuevas y quitar referencias existentes.  
-  
+
 > [!NOTE]
 >  No agregue artefactos personalizados a la aplicación EDI de BizTalk. Es mejor dejar la aplicación tal cual.  
-  
+
 #### <a name="start-batch-orchestrations"></a>Iniciar orquestaciones de procesamiento por lotes  
  Si habilita una entidad para recibir y/o enviar lotes de EDI, debe iniciar las orquestaciones de procesamiento por lotes. Ni el asistente de instalación ni el de configuración inicia estas orquestaciones. Pasos:  
-  
-1.  En la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], expanda **Aplicación EDI de BizTalk** y seleccione**Orquestaciones**.  
-  
-2.  Haga clic con el botón derecho en cada una de las siguientes orquestaciones y seleccione **Iniciar**:  
-  
-    -   Microsoft.BizTalk.Edi.BatchSuspendOrchestration.BatchElementSuspendService (ensamblado: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
-  
-    -   Microsoft.BizTalk.Edi.BatchingOrchestration.BatchingService (ensamblado: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
-  
-    -   Microsoft.BizTalk.Edi.RoutingOrchestration.BatchRoutingService (ensamblado: Microsoft.BizTalk.Edi.RoutingOrchestration.dll)  
-  
+
+1. En la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], expanda **Aplicación EDI de BizTalk** y seleccione**Orquestaciones**.  
+
+2. Haga clic con el botón derecho en cada una de las siguientes orquestaciones y seleccione **Iniciar**:  
+
+   -   Microsoft.BizTalk.Edi.BatchSuspendOrchestration.BatchElementSuspendService (ensamblado: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
+
+   -   Microsoft.BizTalk.Edi.BatchingOrchestration.BatchingService (ensamblado: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
+
+   -   Microsoft.BizTalk.Edi.RoutingOrchestration.BatchRoutingService (ensamblado: Microsoft.BizTalk.Edi.RoutingOrchestration.dll)  
+
 > [!NOTE]
 >  Las orquestaciones de procesamiento por lotes EDI solo deberían iniciarse si se reciben y/o envían lotes de EDI. Si se inician cuando el sistema no va a recibir ni enviar lotes de EDI, el rendimiento del sistema podría verse afectado.  
-  
-#### <a name="migrate-edi-artifacts-from-a-previous-biztalk-version"></a>Migrar artefactos EDI desde una versión anterior de BizTalk  
+
+#### <a name="migrate-edi-artifacts-from-a-previous-biztalk-version"></a>Migrar artefactos de EDI desde una versión anterior de BizTalk  
  La forma en que se administran los socios comerciales en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ha actualizado en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 y versiones posteriores. En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], se creaba una entidad solo para el socio comercial, y no para el socio que hospedaba [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 y posterior, debe crearse una entidad para todos los socios comerciales, incluido el socio que hospeda [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], las propiedades de codificación (X12 y EDIFACT) y del protocolo de transporte (AS2) se definían en el nivel de entidad. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 y versiones posteriores, estas propiedades se definen mediante acuerdos.  
-  
+
  Para migrar datos de entidades de versiones anteriores, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye la Herramienta de migración de entidades. Tenga en cuenta las siguientes rutas de migración:  
-  
-|Versión de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|Ruta de migración|  
-|---------------------------------------------------------------------------------------|--------------------|  
-|**[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]**|Actualice a BizTalk Server 2009. Después, use la Herramienta de migración de entidades que se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2 para migrar a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.<br /><br /> **O bien**, use la Herramienta de migración de entidades que se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2 para migrar a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010. Después, actualice a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.|  
-|**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009**|Use la Herramienta de migración de entidades que se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2 para migrar directamente a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.|  
-|**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010**|Actualice a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.|  
-  
+
+
+| Versión de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  |                                                                                                                                                                                                                                                                                                                                     Ruta de migración                                                                                                                                                                                                                                                                                                                                      |
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      **[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]**       | Actualice a BizTalk Server 2009. Después, use la Herramienta de migración de entidades que se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2 para migrar a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.<br /><br /> **O bien**, use la Herramienta de migración de entidades que se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2 para migrar a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010. Después, actualice a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2. |
+| **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009** |                                                                                                                                                                                                           Use la Herramienta de migración de entidades que se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2 para migrar directamente a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.                                                                                                                                                                                                            |
+| **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010** |                                                                                                                                                                                                                                                                                       Actualice a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 o 2013 R2.                                                                                                                                                                                                                                                                                       |
+
  La Herramienta de migración de entidades está disponible en el medio de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], en la carpeta \PartyMigrationTool.  
 
-  
+
 ## <a name="install-biztalk-health-monitor-bhm"></a>Instalar BizTalk Health Monitor (BHM)
 
 BizTalk Health Monitor ofrece un panel para crear y ver informes del visor de cuadro de mensajes, crear consultas personalizadas, ejecutar tareas del terminador, supervisar varios entornos de BizTalk y mucho más. Si es usted el responsable de un entorno de BizTalk, se recomienda que instale y use esta herramienta para comprobar el estado del entorno de BizTalk y llevar a cabo el mantenimiento.
@@ -179,5 +180,5 @@ Existen muchas recomendaciones relacionadas con esta área. A continuación se i
 [Proporcionar alta disponibilidad a hosts de BizTalk](../core/providing-high-availability-for-biztalk-hosts.md)  
 [Best Practices: Create and Configure BizTalk Server Host and Host Instances](http://social.technet.microsoft.com/wiki/contents/articles/19701.biztalk-server-best-practices-create-and-configure-biztalk-server-host-and-host-instances.aspx) (Procedimientos recomendados: crear y configurar un host e instancias de host de BizTalk Server)  
 [Running Orchestrations in Multiple Hosts on the Same Computer](http://social.technet.microsoft.com/wiki/contents/articles/31183.biztalk-server-running-orchestrations-in-multiple-hosts-on-the-same-computer.aspx) (Ejecutar orquestaciones en varios hosts en el mismo equipo)  
-[PowerShell para crear y configurar el Host de BizTalk Server, instancias de Host y controladores](https://gallery.technet.microsoft.com/PowerShell-to-Configure-43d77916)  
+[PowerShell para crear y configurar el Host de BizTalk Server, las instancias de Host y controladores](https://gallery.technet.microsoft.com/PowerShell-to-Configure-43d77916)  
 [BizTalk Server Resources on the TechNet Wiki](http://social.technet.microsoft.com/wiki/contents/articles/2240.biztalk-server-resources-on-the-technet-wiki.aspx) (Recursos de BizTalk Server en la Wiki de TechNet)

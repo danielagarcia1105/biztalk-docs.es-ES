@@ -1,5 +1,5 @@
 ---
-title: Valor de autorización no válido | Documentos de Microsoft
+title: Valor no válido de autorización | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b4e83d35e379babeedca783fa8eb00774ccf05ea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 674585daa50f0adc0708a792b318bc0b736eca49
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22256996"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974437"
 ---
 # <a name="invalid-authorization-value"></a>Valor de autorización no válido.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12Ta1InvalidAuthorizationValueDescription|  
-|Texto del mensaje|Valor de autorización no válido.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                       X12Ta1InvalidAuthorizationValueDescription                       |
+|  Texto del mensaje   |                              Valor de autorización no válido.                               |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque el valor de la información sobre autorización en ISA02 no se ajustaba al tipo de datos que especifica el esquema (X12_AN) o no tenía el número de dígitos que requiere el esquema (10). El esquema es X12ServiceSchema en BaseArtifacts.dll.  

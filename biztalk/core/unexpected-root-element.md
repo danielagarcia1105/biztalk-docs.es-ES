@@ -1,5 +1,5 @@
 ---
-title: Elemento raíz inesperado. | Documentos de Microsoft
+title: Elemento raíz inesperado | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec4ed8e39a05f81984dca21794eca3d829ba8f42
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b0e54e0eac7e3f8ae54d23417033388bc493b0ab
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973034"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981637"
 ---
 # <a name="unexpected-root-element"></a>Elemento raíz inesperado.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Elemento raíz inesperado.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                              Elemento raíz inesperado.                               |
   
 ## <a name="explanation"></a>Explicación  
  Propiedad de encabezado no está en \<encabezados\>...\</headers\> formato. Normalmente esta situación se aplica a InboundHeaders y OutboundCustomHeaders.  

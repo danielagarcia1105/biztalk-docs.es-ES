@@ -1,5 +1,5 @@
 ---
-title: Propiedades predeterminadas de deshidratación | Documentos de Microsoft
+title: Propiedades predeterminadas de deshidratación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ff78b1e096f1a73675ffc02550794f5a300f5614
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 907bd9f9b47db10a199f5a93a828558dfb3ae210
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22242492"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981965"
 ---
 # <a name="dehydration-default-properties"></a>Propiedades predeterminadas de deshidratación
 A continuación se proporcionan los nombres de las propiedades de deshidratación y sus valores predeterminados. Estas propiedades se pueden configurar en [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] o como XML en el archivo de configuración de BizTalk (BTSNTSvc.exe.config o BTSNTSvc64.exe.config). Los valores del archivo de configuración de BizTalk se aplican antes. A continuación, se aplica la configuración de [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)]. Las propiedades de deshidratación se leen cuando se inician todas las instancias de host que contienen una orquestación.  
@@ -25,54 +25,54 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
 > [!IMPORTANT]
 >  No toda la configuración de orquestación se expone en [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)]. Para esta configuración, se usa el archivo de configuración de BizTalk (BTSNTSvc.exe.config o BTSNTSvc64.exe.config). Cuando se usa el archivo de configuración de BizTalk, muchas propiedades no aparecen en la lista. Sin embargo, estas propiedades se aplican con sus valores predeterminados aunque no se especifiquen explícitamente en el archivo de configuración.  
   
- Para cambiar los valores predeterminados, puede usar [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] o agregarlos explícitamente al archivo de configuración de BizTalk. Para obtener más información, consulte [uso del panel de configuración para la optimización de rendimiento de BizTalk Server](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md) y [archivo BTSNTSvc.exe.config](../core/btsntsvc-exe-config-file.md).  
+ Para cambiar los valores predeterminados, puede usar [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] o agregarlos explícitamente al archivo de configuración de BizTalk. Para obtener más información, consulte [uso del panel de configuración para la optimización del rendimiento de BizTalk Server](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md) y [archivo BTSNTSvc.exe.config](../core/btsntsvc-exe-config-file.md).  
   
  **Deshidratación**  
   
--   **MaxThreshold** = 1800  
+- **MaxThreshold** = 1800  
   
--   **MinThreshold** = 1  
+- **MinThreshold** = 1  
   
--   **ConstantThreshold** = -1  
+- **ConstantThreshold** = -1  
   
- **VirtualMemoryThrottlingCriteria**  
+  **VirtualMemoryThrottlingCriteria**  
   
--   **OptimalUsage** = 900  
+- **OptimalUsage** = 900  
   
--   **MaximalUsage** =  1300  
+- **MaximalUsage** = 1300  
   
--   **IsActive** = true  
+- **IsActive** = true  
   
- **PrivateMemoryThrottlingCriteria**  
+  **PrivateMemoryThrottlingCriteria**  
   
--   **OptimalUsage** = 50  
+- **OptimalUsage** = 50  
   
--   **MaximalUsage** =  350  
+- **MaximalUsage** = 350  
   
--   **IsActive** = true  
+- **IsActive** = true  
   
- **PhysicalMemoryThrottlingCriteria**  
+  **PhysicalMemoryThrottlingCriteria**  
   
--   **OptimalUsage** = 90  
+- **OptimalUsage** = 90  
   
--   **MaximalUsage** =  95  
+- **MaximalUsage** = 95  
   
--   **IsActive** = false  
+- **IsActive** = false  
   
- Cada una de estas propiedades se describe a continuación de forma detallada.  
+  Cada una de estas propiedades se describe a continuación de forma detallada.  
   
 ## <a name="dehydration"></a>Deshidratación  
- **MaxThreshold** y **MinThreshold** son la parte superior y reducir los límites, en segundos, del tiempo que puede estar bloqueada una orquestación en una suscripción (es decir, bloqueada por una recepción, escucha o retraso) antes de su deshidratación. También habrá un valor calculado en tiempo de ejecución, denominado **TestThreshold**, y su valor, en segundos, entre **MinThreshold** y **MaxThreshold**.  
+ **MaxThreshold** y **MinThreshold** son la parte superior y reducir los límites indicados, en segundos, el tiempo que puede estar bloqueada una orquestación en una suscripción (es decir, bloqueada por una recepción, escucha o retraso) antes de que se deshidrate. También habrá un valor calculado en tiempo de ejecución, denominado **TestThreshold**, y su valor, medido en segundos, entre **MinThreshold** y **MaxThreshold**.  
   
- Si establece un valor además del valor predeterminado de -1 para **ConstantThreshold**, no habrá un valor de tiempo de ejecución **TestThreshold**. Cuando se bloquea una orquestación en una suscripción, y el historial de cuánto tiempo se han bloqueado todas las instancias de esa orquestación en esa suscripción es mayor que el valor de **TestThreshold**, aparecerán de la orquestación deshidratar. En caso contrario, si el historial es inferior a **TestThreshold** valor no se deshidratará la orquestación. Además, aunque el historial indique que deshidratación no llevará a cabo, si el tiempo de bloqueo actual llega a 2 ***TestThreshold**, a continuación, llevará a cabo la deshidratación. El historial queda definido por el promedio de los últimos diez intervalos de tiempo de espera en segundos o por cuantos tiempos de espera haya en el historial si su número es inferior a diez.  
+ Si establece un valor además del valor predeterminado de -1 para **ConstantThreshold**, no habrá un valor de tiempo de ejecución **TestThreshold**. Cuando se bloquea una orquestación en una suscripción y el historial de cuánto tiempo se han bloqueado en esa suscripción todas las instancias de esa orquestación es mayor que el valor de **TestThreshold**, a continuación, la orquestación deshidratar. En caso contrario, si el historial es menor que **TestThreshold** valor no se deshidratará la orquestación. Además, incluso si el historial indica que deshidratación no llevará a cabo, si el tiempo de bloqueo actual llega a 2<em>**TestThreshold</em>*, a continuación, llevará a cabo la deshidratación. El historial queda definido por el promedio de los últimos diez intervalos de tiempo de espera en segundos o por cuantos tiempos de espera haya en el historial si su número es inferior a diez.  
   
- Cuando el valor de **TestThreshold** tiende hacia **MinThreshold** como uso de memoria aumenta, se llama "memoria según la limitación de deshidratación". Esta limitación permite que haya más instancias de orquestación activas porque, cuando cualquiera de ellas está bloqueada esperando alguna actividad (es decir, esperando un mensaje o un retraso), se pueden deshidratar y extraerse de la memoria. **TestThreshold** es una función de reducción continua del uso de memoria, y es inversamente proporcional al uso de memoria.  
+ Cuando el valor de **TestThreshold** tiende hacia **MinThreshold** como aumenta el uso de memoria, se denomina "en memoria basado en la limitación de deshidratación." Esta limitación permite que haya más instancias de orquestación activas porque, cuando cualquiera de ellas está bloqueada esperando alguna actividad (es decir, esperando un mensaje o un retraso), se pueden deshidratar y extraerse de la memoria. **TestThreshold** es una función de reducción continua del uso de memoria, es inversamente proporcional al uso de memoria.  
   
  A continuación se proporcionan descripciones de cada una de las propiedades de deshidratación:  
   
--   **MaxThreshold**: los límites superiores, en segundos, del tiempo que puede estar bloqueada una orquestación en una suscripción antes de su deshidratación.  
+-   **MaxThreshold**: los límites superiores, en segundos, el tiempo que puede estar bloqueada una orquestación en una suscripción antes de que se deshidrate.  
   
--   **MinThreshold**: los límites inferiores, en segundos, del tiempo que puede estar bloqueada una orquestación en una suscripción antes de su deshidratación.  
+-   **MinThreshold**: límites inferiores, expresados en segundos, el tiempo que puede estar bloqueada una orquestación en una suscripción antes de que se deshidrate.  
   
 -   **ConstantThreshold**: el umbral dinámico, que generalmente fluctúa entre los valores mínimos y máximo especificados. Sin embargo, puede convertir el umbral en un valor fijo si define esta propiedad. Un valor de -1 indica al motor que no utilice un umbral constante. No defina esta propiedad con un valor distinto de -1 porque deshabilitará la limitación basada en la deshidratación.  
   
@@ -81,9 +81,9 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
   
  A continuación se proporcionan descripciones de cada una de las propiedades de VirtualMemoryThrottlingCriteria:  
   
--   **OptimalUsage**: la cantidad de uso de memoria virtual en qué deshidratación limitación empieza a surtir efecto. En este momento, **TestThreshold** tiene el valor **MaxThreshold** y cualquier uso de memoria mayor **OptimalUsage** hace **TestThreshold**sea inferior a **MaxThreshold**.  
+-   **OptimalUsage**: la cantidad de uso de memoria virtual que deshidratación limitación empieza a surtir efecto. En este momento, **TestThreshold** tiene el valor **MaxThreshold** y cualquier uso de memoria mayor **OptimalUsage** hace **TestThreshold**sea inferior a **MaxThreshold**.  
   
--   **MaximalUsage**: la cantidad de uso de memoria virtual en que deshidratación limitación es como máximo. En este momento, **TestThreshold** tiene el valor **MinThreshold** y cualquier uso de memoria inferior a **MaximalUsage** hace **TestThreshold** debe ser mayor que **MinThreshold**.  
+-   **MaximalUsage**: la cantidad de uso de memoria virtual que deshidratación limitación es como máximo. En este momento, **TestThreshold** tiene el valor **MinThreshold** y cualquier uso de memoria inferior a **MaximalUsage** hace **TestThreshold** para ser mayor que **MinThreshold**.  
   
 -   **IsActive**: un valor booleano que indica si la limitación de memoria virtual está activa.  
   
@@ -92,9 +92,9 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
   
  A continuación se proporcionan descripciones de cada una de las propiedades de PrivateMemoryThrottlingCriteria:  
   
--   **OptimalUsage**: la cantidad de uso de memoria privada, en MB, en qué deshidratación limitación empieza a surtir efecto. En este momento **TestThreshold** tiene el valor **MaxThreshold** y cualquier uso de memoria mayor **OptimalUsage** hace **TestThreshold**sea inferior a **MaxThreshold**.  
+-   **OptimalUsage**: la cantidad de uso de memoria privada, en MB, qué deshidratación limitación empieza a surtir efecto. En este momento **TestThreshold** tiene el valor **MaxThreshold** y cualquier uso de memoria mayor **OptimalUsage** hace **TestThreshold**sea inferior a **MaxThreshold**.  
   
--   **MaximalUsage**: la cantidad de uso de memoria privada, en MB, en qué deshidratación limitación se encuentra en su punto máximo. En este momento **TestThreshold** tiene el valor **MinThreshold** y cualquier uso de memoria inferior a **MaximalUsage** hace **TestThreshold** debe ser mayor que **MinThreshold**.  
+-   **MaximalUsage**: la cantidad de uso de memoria privada, en MB, qué deshidratación limitación es como máximo. En este momento **TestThreshold** tiene el valor **MinThreshold** y cualquier uso de memoria inferior a **MaximalUsage** hace **TestThreshold** para ser mayor que **MinThreshold**.  
   
 -   **IsActive**: un valor booleano que indica si la limitación de memoria privada está activa.  
   
@@ -116,6 +116,6 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
   
  Las propiedades de deshidratación establecen diferencias entre Bytes privados y Bytes virtuales en lo que respecta al host de orquestación:  
   
--   **Bytes virtuales**. Se trata de tamaño debe aplicarse, en bytes, del espacio de direcciones virtuales que el proceso está usando. El uso del espacio de direcciones virtuales no implica necesariamente un uso equivalente de páginas de disco o de memoria principal. Sin embargo, el espacio virtual es finito y el proceso puede limitar su capacidad para cargar bibliotecas.  
+-   **Bytes virtuales**. Se trata del tamaño actual, en bytes, del espacio de direcciones virtuales que del proceso está usando. El uso del espacio de direcciones virtuales no implica necesariamente un uso equivalente de páginas de disco o de memoria principal. Sin embargo, el espacio virtual es finito y el proceso puede limitar su capacidad para cargar bibliotecas.  
   
 -   **Bytes privados**. se trata del tamaño actual, expresado en bytes, de la memoria que este proceso ha asignado y que no puede compartirse con otros procesos.

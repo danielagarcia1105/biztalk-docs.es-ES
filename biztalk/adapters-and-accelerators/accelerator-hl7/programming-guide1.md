@@ -1,5 +1,5 @@
 ---
-title: Programación Guide1 | Documentos de Microsoft
+title: Programación Guide1 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,18 +15,18 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 230ecf4cf9b735bdc2d4e68fc233799e95bb3182
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: f0a36c2714c8da07f054553466f4e9105c4f6517
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004685"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980693"
 ---
 # <a name="programming-guide"></a>Guía de programación
-El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Guía de programación se explican conceptos y procedimientos para los programadores que escriben código con BTAHL7. Use esta guía junto con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentación.  
+Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Programming Guide explica los conceptos y procedimientos para los desarrolladores escribir código con BTAHL7. Use esta guía, junto con Microsoft [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentación.  
   
 > [!NOTE]
->  Antes de leer esta guía, debe estar familiarizado con [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] desarrollo, BizTalk Server, y [obtener información sobre el Acelerador para HL7 y las herramientas de BizTalk disponibles](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md).  
+>  Antes de leer esta guía, debe estar familiarizado con [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] desarrollo, BizTalk Server, y [Obtenga información sobre el Acelerador de HL7 y las herramientas de BizTalk disponibles](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   

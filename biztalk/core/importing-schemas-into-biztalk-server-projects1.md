@@ -1,5 +1,5 @@
 ---
-title: Importación de esquemas en BizTalk Server Projects1 | Documentos de Microsoft
+title: Importación de esquemas en BizTalk Server Projects1 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 719679dffa5bcffdeddcbcd889f847f147a705b4
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 70eff140259cd7cf815e8e05125f9ade78bf5493
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24015451"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982365"
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a>Importación de esquemas en proyectos de BizTalk Server
 La información siguiente describe cómo importar esquemas en un proyecto de BizTalk Server.  
@@ -31,25 +31,25 @@ La información siguiente describe cómo importar esquemas en un proyecto de Biz
   
 #### <a name="to-import-schemas"></a>Para importar esquemas  
   
-1.  En el Explorador de soluciones, haga clic en el proyecto, seleccione **agregar**y seleccione **agregar elementos generados**.  
+1. En el Explorador de soluciones, haga clic en el proyecto, seleccione **agregar**y seleccione **agregar elementos generados**.  
   
-2.  Haga clic en **agregar adaptador**y, a continuación, seleccione **abiertos**.  
+2. Haga clic en **agregar adaptador**y, a continuación, seleccione **abierto**.  
   
-3.  Seleccione el adaptador **, J.D. Edwards OneWorld XE**.  
+3. Seleccione el adaptador<strong>, J.D. Edwards OneWorld XE</strong>.  
   
-4.  En la lista desplegable, seleccione el puerto **SSOSendToJD Edwards OneWorld XE**y, a continuación, haga clic en **siguiente**.  
+4. En la lista desplegable, seleccione el puerto **SSOSendToJD Edwards OneWorld XE**y, a continuación, haga clic en **siguiente**.  
   
-     MyJ.D. Sistema lógico Edwards OneWorld XESSO aparece en el explorador (este sistema lógico se creó con la SSOSendToJ.D. Puerto Edwards OneWorld XE).  
+    El myJ.D. Sistema lógico Edwards OneWorld XESSO aparece en el explorador (este sistema lógico se creó con la SSOSendToJ.D. Puerto Edwards OneWorld XE).  
   
-5.  Expanda **myJ.D. Edwards OneWorld XESSO**.  
+5. Expanda **myJ.D. Edwards OneWorld XESSO**.  
   
-6.  Haga clic en el icono de flecha para mover el elemento (o simplemente arrástrelo) en el **transmisión** ventana y, a continuación, haga clic en **Aceptar**.  
+6. Haga clic en el icono de flecha para mover el elemento (o simplemente arrástrelo) en el **transmisión** ventana y, a continuación, haga clic en **Aceptar**.  
   
-     Los esquemas se agregan al proyecto SSOSchedule.  
+    Los esquemas se agregan al proyecto SSOSchedule.  
   
-7.  En el Explorador de soluciones, expanda **proyecto SSOSchedule**.  
+7. En el Explorador de soluciones, expanda **proyecto SSOSchedule**.  
   
-8.  Haga clic en **BizTalk orchestration.odx**y, a continuación, haga clic en **eliminar**.  
+8. Haga clic en **BizTalk orchestration.odx**y, a continuación, haga clic en **eliminar**.  
   
 9. En el Explorador de soluciones, haga doble clic en **GetList.odx** para inspeccionar la orquestación.  
   

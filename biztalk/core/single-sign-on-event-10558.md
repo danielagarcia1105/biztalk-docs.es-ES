@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10558 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10558 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c2ee5c21bdf90e6aedcdbe2ac83e0e51a7f48f6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1d9a281d6a6ca20a274db4b3ffe5b2697ff812c2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270804"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974875"
 ---
-# <a name="single-sign-on-event-10558"></a>Inicio de sesión único: Evento 10558
+# <a name="single-sign-on-event-10558"></a>De sesión único: Evento 10558
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10558|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_USER_OWN_MAPPINGS|  
-|Texto del mensaje|Sólo se permiten usuarios de aplicación para controlar sus propias asignaciones.%r<br /><br /> Nombre de dominio: %1 %r<br /><br /> Nombre de usuario: %2 %r<br /><br /> Nombre de la aplicación: %3 %r<br /><br /> Usuario cliente: %4|  
+|                 |                                                                                                                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                  Inicio de sesión único (SSO) empresarial                                                                                   |
+| Versión del producto |                                                                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                  |
+|    Identificador del evento     |                                                                                            10558                                                                                             |
+|  Origen del evento   |                                                                                            ENTSSO                                                                                            |
+|    Componente    |                                                                                             N/D                                                                                              |
+|  Nombre simbólico  |                                                                                  SSO_WARN_USER_OWN_MAPPINGS                                                                                  |
+|  Texto del mensaje   | Sólo se permiten usuarios de aplicación para controlar sus propias asignaciones.%r<br /><br /> Nombre de dominio: %1 %r<br /><br /> Nombre de usuario: %2 %r<br /><br /> Nombre de la aplicación: %3 %r<br /><br /> Usuario cliente: %4 |
   
 ## <a name="explanation"></a>Explicación  
  Un usuario de aplicación intentó controlar las asignaciones de otro usuario. Esto no está permitido.  

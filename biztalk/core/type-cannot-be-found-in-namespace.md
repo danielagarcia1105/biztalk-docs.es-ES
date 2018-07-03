@@ -1,5 +1,5 @@
 ---
-title: No se encuentra el tipo de espacio de nombres | Documentos de Microsoft
+title: No se encuentra el tipo de espacio de nombres | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 515dd9b6b73b43bee22ffc7b67745bb45adcaf6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b369b3ce29b989f01f0ea95d6f32a663d7e7bc5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286460"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980774"
 ---
 # <a name="type-cannot-be-found-in-namespace"></a>No se encuentra el tipo en el espacio de nombres
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Error: El tipo "{0}" no se encuentra en el espacio de nombres "{{1}"|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |                Error: Tipo de "{0}"no se encuentra en el espacio de nombres"{1}"                |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que los artefactos que se crean hacen referencias a tipos que no se encuentran en el espacio de nombres especificado.  

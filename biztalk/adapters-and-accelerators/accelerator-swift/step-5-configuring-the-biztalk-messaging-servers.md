@@ -1,5 +1,5 @@
 ---
-title: 'Paso 5: Configurar lo servidores de mensajería de BizTalk | Documentos de Microsoft'
+title: 'Paso 5: Configurar lo servidores de mensajería de BizTalk | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,32 +15,32 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e1aea1187417b77071f0821547869a5b84549c7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9baea2c567148ead98abf6b3aca3f5cad8258e60
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214012"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980005"
 ---
 # <a name="step-5-configuring-the-biztalk-messaging-servers"></a>Paso 5: Configurar lo servidores de mensajería de BizTalk
 Esta sección proporciona instrucciones sobre cómo configurar los servidores de mensajería de BizTalk.  
   
 ### <a name="to-configure-the-biztalk-messaging-servers"></a>Para configurar los servidores de mensajería de BizTalk  
   
-1.  Habilitar el acceso de coordinador de transacciones distribuidas (DTC) de red mediante la selección de agregar o quitar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] componentes en la categoría de servidor de aplicaciones. Acceso de cliente de red DTC se habilitó en el [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] equipo en un paso anterior. Consulte los siguientes artículos de Knowledge Base en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] sitio Web de ayuda y soporte técnico para obtener información acerca de cómo solucionar problemas de DTC:  
+1. Habilitar el acceso de coordinador de transacciones distribuidas (DTC) de red seleccionando desde Agregar o quitar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] componentes en la categoría de servidor de aplicaciones. Se ha habilitado el acceso de cliente de red DTC en el [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] equipo en el paso anterior. Consulte los siguientes artículos de Knowledge Base en el sitio Web de soporte técnico y Microsoft Help para obtener información acerca de cómo solucionar problemas de DTC:  
   
-    -   Cómo To Troubleshoot MS DTC Firewall Issues, ubicado en [http://go.microsoft.com/fwlink/?linkid=48870](http://go.microsoft.com/fwlink/?linkid=48870).  
+   - Cómo To Troubleshoot MS DTC Firewall Issues, ubicado en [ http://go.microsoft.com/fwlink/?linkid=48870 ](http://go.microsoft.com/fwlink/?linkid=48870).  
   
-    -   Cómo utilizar la herramienta DTCTester, ubicado en [http://go.microsoft.com/fwlink/?linkid=48871](http://go.microsoft.com/fwlink/?linkid=48871).  
+   - Cómo utilizar la herramienta DTCTester, ubicado en [ http://go.microsoft.com/fwlink/?linkid=48871 ](http://go.microsoft.com/fwlink/?linkid=48871).  
   
-    -   Si el DTC está detrás de un firewall, vea "configurar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Coordinador de transacciones distribuidas (DTC) to Work Through un Firewall", que se encuentra en [http://go.microsoft.com/fwlink/?linkid=48872](http://go.microsoft.com/fwlink/?linkid=48872).  
+   - Si el DTC está detrás de un firewall, consulte "Configuración de Microsoft distribuidas transacción coordinador (DTC) to trabajo Through a Firewall", ubicado en [ http://go.microsoft.com/fwlink/?linkid=48872 ](http://go.microsoft.com/fwlink/?linkid=48872).  
   
-2.  Configurar y comprobar el equilibrio de carga de red en el BizTalk reciben servidores como se describe en [paso 2: configurar NLB en los servidores](../../adapters-and-accelerators/accelerator-swift/step-2-configuring-nlb-on-the-servers.md).  
+2. Configurar y comprobar el equilibrio de carga de red en el BizTalk reciben servidores como se describe en [paso 2: configurar NLB en los servidores](../../adapters-and-accelerators/accelerator-swift/step-2-configuring-nlb-on-the-servers.md).  
   
-3.  Instalar y configurar [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] tal y como se describe en [instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-accelerator-for-swift-on-messaging-servers.md).  
+3. Instalar y configurar [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] como se describe en [instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-accelerator-for-swift-on-messaging-servers.md).  
   
- Esta sección contiene:  
+   Esta sección contiene:  
   
--   [Instalar y configurar el servidor BizTalk Server en el servidor de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-messaging-server.md)  
+-   [Instalación y configuración de BizTalk Server en el servidor de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-messaging-server.md)  
   
--   [Instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-accelerator-for-swift-on-messaging-servers.md)
+-   [Instalación y configuración del Acelerador de BizTalk para SWIFT en servidores de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-accelerator-for-swift-on-messaging-servers.md)

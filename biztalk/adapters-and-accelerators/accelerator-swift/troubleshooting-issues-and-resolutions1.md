@@ -1,5 +1,5 @@
 ---
-title: 'Solución de problemas: Problemas y Resolutions1 | Documentos de Microsoft'
+title: 'Solución de problemas: Problemas y Resolutions1 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,24 +15,24 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07eacd1197b36a0f160f900e4442455876e86c87
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a2b2f7cbbe2fb6f4ba67ce1268d9ebea4ff48e3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214556"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982925"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a>Solución de problemas: Problemas y soluciones
-Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Cada problema detalla un síntoma específico, una posible causa y una solución.  
+Este tema tratan los problemas relacionados con la ejecución de Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Cada problema detalla un síntoma específico, una causa posible y una solución.  
   
- Los problemas y soluciones se agrupan en las siguientes áreas:  
+ Los problemas y soluciones se agrupan en las áreas siguientes:  
   
--   [Instalación y solución de problemas de configuración](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
+-   [Solución de problemas de instalación y configuración](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
   
--   [Solución de problemas de actualización y migración](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
+-   [Solución de problemas de migración y actualización](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
   
--   [Reparación de mensajes y solución de problemas de envío nuevo](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
+-   [Solución de problemas de reparación de mensajes y nuevo envío](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
   
--   [Respuesta FIN conciliación solucionar problemas](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
+-   [Solución de problemas de conciliación de respuestas de FIN](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
   
--   [Solución de problemas de varios](../../adapters-and-accelerators/accelerator-swift/miscellaneous-troubleshooting.md)
+-   [Solución de problemas varios](../../adapters-and-accelerators/accelerator-swift/miscellaneous-troubleshooting.md)

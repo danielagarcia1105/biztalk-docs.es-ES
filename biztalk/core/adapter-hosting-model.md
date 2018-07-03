@@ -1,5 +1,5 @@
 ---
-title: Adaptador de modelo para alojamiento | Documentos de Microsoft
+title: Modelo de hospedaje del adaptador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,40 +12,40 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 645a1fcd41650c98c442549a898f7083be770842
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: d5576acf4251b9da420ac8747f4857c08064ed5b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "22225172"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978541"
 ---
-# <a name="adapter-hosting-model"></a>Adaptador de modelo para alojamiento
+# <a name="adapter-hosting-model"></a>Modelo de hospedaje del adaptador
 En general, los adaptadores de BizTalk se hospedan en el servicio de BizTalk, Btsntsvc.exe. Esto significa que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administra la duración del adaptador. También hay situaciones, que se describen a continuación, en las que otros procesos administran el adaptador.  
   
 ## <a name="in-process-adapters"></a>Adaptadores de tipo En curso  
- Los adaptadores que se administran mediante [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se denominan adaptadores en curso. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hace lo siguiente para estos adaptadores:  
+ Los adaptadores que se administran mediante [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se denominan adaptadores en curso. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] realiza las siguientes acciones para estos adaptadores:  
   
--   Crear una instancia del adaptador al [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se inicia  
+- Crear una instancia del adaptador cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se inicia  
   
--   Transfiere el proxy de transporte del adaptador al adaptador durante la inicialización  
+- Transfiere el proxy de transporte del adaptador al adaptador durante la inicialización  
   
--   Atiende las solicitudes del adaptador  
+- Atiende las solicitudes del adaptador  
   
--   Finaliza el adaptador apagado de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicio  
+- Finaliza el adaptador apagado de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicio  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ofrece información de configuración de configuración y el punto de conexión de controlador para el adaptador en tiempo de ejecución. Se especifican otros aspectos de la configuración, tales como las ventanas de servicio que definen períodos de tiempo específicos durante los cuales el adaptador está habilitado para administrar solicitudes de forma activa.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Proporciona información de configuración de punto de conexión y de configuración de controlador para el adaptador en tiempo de ejecución. Se especifican otros aspectos de la configuración, tales como las ventanas de servicio que definen períodos de tiempo específicos durante los cuales el adaptador está habilitado para administrar solicitudes de forma activa.  
   
- El servicio BizTalk se puede apagar manualmente mediante la consola de administración [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o mediante el Administrador de control de servicios. Si la conectividad a la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos se pierde automáticamente el servicio se recicla.  
+  El servicio BizTalk se puede apagar manualmente mediante la consola de administración [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o mediante el Administrador de control de servicios. Si la conectividad a la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos se pierde automáticamente en el servicio se recicla.  
   
- En el modelo de asignación de host típico, los adaptadores de recepción y los adaptadores envío están alojados en el mismo proceso que el servicio de BizTalk, junto con el motor de mensajería y el motor de orquestaciones. El modelo de asignación de host es lo suficientemente flexible como para permitir la separación de hosts de recepción y de envío, de orquestaciones y de cualquier combinación de ellos. En la siguiente ilustración, el host ejecuta los tres en el mismo proceso.  
+  En el modelo de asignación de host típico, los adaptadores de recepción y los adaptadores envío están alojados en el mismo proceso que el servicio de BizTalk, junto con el motor de mensajería y el motor de orquestaciones. El modelo de asignación de host es lo suficientemente flexible como para permitir la separación de hosts de recepción y de envío, de orquestaciones y de cualquier combinación de ellos. En la siguiente ilustración, el host ejecuta los tres en el mismo proceso.  
   
- Durante el desarrollo de adaptadores conviene recordar que, gracias al modelo de asignación de host enriquecido, los adaptadores de envío y recepción tal vez nunca se configuren en el mismo host. Incluso pueden configurarse para que se ejecuten en equipos diferentes.  
+  Durante el desarrollo de adaptadores conviene recordar que, gracias al modelo de asignación de host enriquecido, los adaptadores de envío y recepción tal vez nunca se configuren en el mismo host. Incluso pueden configurarse para que se ejecuten en equipos diferentes.  
   
- ![](../core/media/regularadapterhostingmodel.gif "RegularAdapterHostingModel")  
-Modelo de asignación de host a adaptador de tipo En curso  
+  ![](../core/media/regularadapterhostingmodel.gif "RegularAdapterHostingModel")  
+  Modelo de asignación de host a adaptador de tipo En curso  
   
 ## <a name="isolated-adapters"></a>Adaptadores aislados  
- Hay escenarios en los que no es posible realizar la asignación de host de adaptadores de recepción en el servicio de BizTalk. Por ejemplo, en el modelo de proceso de Internet Information Services (IIS), IIS administra el período de vida de las aplicaciones ASP.NET y las extensiones ISAPI. El adaptador de SOAP de BizTalk, se debe ejecutar en el mismo espacio de proceso que IIS, lo que sea imposible que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para controlar la duración de las instancias del adaptador de SOAP.  
+ Hay escenarios en los que no es posible realizar la asignación de host de adaptadores de recepción en el servicio de BizTalk. Por ejemplo, en el modelo de proceso de Internet Information Services (IIS), IIS administra el período de vida de las aplicaciones ASP.NET y las extensiones ISAPI. El adaptador de SOAP de BizTalk se debe ejecutar en el mismo espacio de proceso que IIS, lo que sea imposible [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para controlar la duración de las instancias del adaptador de SOAP.  
   
  Existe otro modelo de asignación de host para estos tipos de adaptadores y recibe el nombre de adaptadores de recepción aislados, o simplemente adaptadores aislados. No existe el concepto de adaptador de envío aislado.  
   

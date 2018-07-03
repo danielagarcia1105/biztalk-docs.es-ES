@@ -1,6 +1,6 @@
 ---
-title: Crear TIBCO Rendezvous artefactos de recepción del adaptador | Documentos de Microsoft
-description: Crear un puerto de envío, configure las propiedades de transporte para recibir mensajes desde el adaptador de BizTalk para TIBCO Rendezvous en BizTalk
+title: Creación de TIBCO Rendezvous artefactos de recepción del adaptador | Microsoft Docs
+description: Crear un puerto de envío, configure las propiedades de transporte para recibir mensajes del adaptador de BizTalk para TIBCO Rendezvous en BizTalk
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,17 +13,17 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed400a06f07d61f78f62f2633a80deeee293f618
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: cbe8e3da4e56b7a7d0df0114057f2e17ff1ce333
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "24014491"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982413"
 ---
 # <a name="create-tibco-rendezvous-receive-artifacts"></a>Crear artefactos de recepción de TIBCO Rendezvous
 Crear notificaciones o eventos es similar a crear otras llamadas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En esta sección se explica cómo crear una ubicación de recepción para escuchar mensajes de TIBCO Rendezvous.  
 
-## <a name="events-and-receive-locations"></a>Eventos y ubicaciones de recepción
+## <a name="events-and-receive-locations"></a>Los eventos y las ubicaciones de recepción
 Cualquier sistema TIBCO Rendezvous puede enviar mensajes a su nombre de asunto de elección. El concepto de *eventos* es la generación de mensajes de otros programas de TIBCO Rendezvous.  
   
  En los pasos siguientes se describe el ciclo de vida de una ubicación de recepción:  
@@ -40,7 +40,7 @@ Cualquier sistema TIBCO Rendezvous puede enviar mensajes a su nombre de asunto d
   
 > [!IMPORTANT]
 >  Cada ubicación de recepción debe tener un nombre único. Dos ubicaciones de recepción no pueden tener el mismo nombre en la misma implementación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
-  
+> 
 > [!IMPORTANT]
 >  Asimismo, conviene establecer listas de control de acceso (ACL) seguras en las ubicaciones de destino de las ubicaciones de recepción. Por ejemplo, debe establecer listas ACL seguras para el directorio desde el que la ubicación de recepción de archivos toma los mensajes, de modo que solo los usuarios autorizados puedan entregar mensajes en esta ubicación. 
 
@@ -48,9 +48,9 @@ Cualquier sistema TIBCO Rendezvous puede enviar mensajes a su nombre de asunto d
   
 1.  En **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda la aplicación.  
   
-2.  Haga clic en **puertos de recepción**, seleccione **New**y, a continuación, haga clic en **puertos de recepción unidireccionales**.  
+2.  Haga clic en **puertos de recepción**, apunte a **New**y, a continuación, haga clic en **puertos de recepción unidireccionales**.  
   
-3.  En el **propiedades de puerto de recepción** ventana, en la **General** página, realice lo siguiente:  
+3.  En el **propiedades de puerto de recepción** ventana, en el **General** página, realice lo siguiente:  
   
     1.  En el **nombre** , escriba `ReceiveFromTIBCORV`.  
   
@@ -62,21 +62,21 @@ Cualquier sistema TIBCO Rendezvous puede enviar mensajes a su nombre de asunto d
   
     1.  Haga clic en **Nueva**.  
   
-    2.  En el **ubicaciones de recepción** ventana, en la **General** página, escriba el **nombre** de la ubicación de recepción.  
+    2.  En el **ubicaciones de recepción** ventana, en el **General** página, escriba el **nombre** de la ubicación de recepción.  
   
-    3.  Desde el **tipo** lista desplegable, seleccione la **BizTalkServerIsolatedHost**y desde el **controlador de recepción** lista desplegable, seleccione la dirección de transporte.  
+    3.  Desde el **tipo** lista desplegable, seleccione el **BizTalkServerIsolatedHost**y desde el **controlador de recepción** lista desplegable, seleccione la dirección de transporte.  
   
     4.  Desde el **canalización de recepción** lista desplegable, seleccione **XMLReceive** o cualquier canalización equivalente. 
   
-    5.  En el **programación** página, seleccione la **fecha de inicio** y **fecha de finalización** para restringir la recepción de documentos.  
+    5.  En el **programación** página, seleccione el **fecha de inicio** y **fecha de finalización** para restringir la recepción de documentos.  
   
     6.  Seleccione el **habilitar ventana de servicio** casilla de verificación.  
   
     7.  Haga clic en **Aceptar**.  
   
-5.  En el **asignaciones de entrada** , seleccione las asignaciones de entrada para transformar documentos en el puerto seleccionado.  
+5.  En el **asignaciones de entrada** , seleccione las asignaciones de entrada para transformar los documentos en el puerto seleccionado.  
   
-6.  En el **seguimiento** página, seleccione el seguimiento de cuerpos de mensaje y el seguimiento de propiedades de mensaje deseado.  
+6.  En el **seguimiento** , seleccione el seguimiento de cuerpos de mensaje deseado y las propiedades de mensaje de seguimiento.  
   
 7.  Haga clic en **Aceptar**.  
 
@@ -84,7 +84,7 @@ Cualquier sistema TIBCO Rendezvous puede enviar mensajes a su nombre de asunto d
 Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para escuchar mensajes, debe especificar los nombres de asunto que debe escuchar. Ésta es la única propiedad necesaria.  
   
  
-1.  En el cuadro de diálogo Propiedades de transporte de TIBCO Rendezvous, expanda **propiedades de adaptador necesarias**, escriba la **nombre de asunto de Rendezvous**.  
+1.  En el cuadro de diálogo Propiedades de transporte de TIBCO Rendezvous, expanda **propiedades de adaptador necesarias**, escriba el **nombre de asunto de Rendezvous**.  
   
      Se trata del nombre de asunto (se permiten caracteres de comodín de Rendezvous) que escucha el adaptador. En el escenario de implementación más sencillo, es la única propiedad necesaria.  
   
@@ -109,7 +109,7 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
   
      El nombre de host debe ser un nombre de host DNS válido o una dirección IP. Para cada una de estas directivas, el adaptador encuentra el valor asociado con su host y lo usa con la API de TIBCO Rendezvous.  
   
-     Si los valores son idénticos en todos los equipos, puede escribir un valor simple en lugar de la lista de pares de nombre: valor Nombre_valor (por ejemplo, **20**).  
+     Si los valores deben ser idénticos en todos los equipos, puede escribir un valor simple en lugar de la lista de pares de nombre-valor Nombre_valor (por ejemplo, **20**).  
   
     |Use|Para|  
     |--------------|----------------|  
@@ -124,16 +124,16 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
     |Use|Para|  
     |--------------|----------------|  
     |**Sustituto de comodín de apéndice**|Especifique un sustituto de texto comodín. Los nombres de asunto que escucha una ubicación de recepción se usan para generar el espacio de nombres del destino XML en los mensajes resultantes. De forma predeterminada, el adaptador reemplaza cualquier comodín '>' con el texto GTWILDCARD en los mensajes generados. Puede especificar un comodín diferente en este campo.|  
-    |**Número de página de códigos**|Identifica la página de códigos que usa el originador del mensaje para codificar las cadenas contenidas en los mensajes entrantes. Valor predeterminado es 65001. (El adaptador no admite tener los mismos asuntos del mensaje generados a partir de dos entornos de página de códigos diferente.)|  
-    |**Sustituto de comodín de elemento**|Especifique un sustituto de texto comodín diferente, los nombres de asunto que escucha una ubicación de recepción se utilizan para generar el espacio de nombres XML en los mensajes resultantes. De forma predeterminada, el adaptador reemplaza cualquier comodín '*' con el texto STARWILDCARD en los mensajes generados. Puede especificar un comodín diferente en este campo.|  
-    |**Nombre de la cola de eventos**|Especifique un nombre que se va a usar al crear el objeto de cola Rendezvous. Se proporciona por comodidad, porque los mensajes de registro asociados muestran el nombre de la cola de eventos. Valor predeterminado está vacío.|  
-    |**Filtro**|Si especifica caracteres comodín al escuchar nombres de asunto, es posible que la orquestación de destino solo esté interesada en un subconjunto del conjunto de asuntos que podrían alcanzarse, potencialmente muy grande. Para minimizar el impacto en BizTalk Server y el acceso asociado a las bases de datos, puede especificar qué mensajes deben enviarse a BizTalk Server. Esta entrada contiene una lista separada por punto y coma de nombres de asunto (no se permiten caracteres comodín). Los mensajes que coincidan con un nombre de asunto especificado por comodín, pero cuyo nombre de asunto se encuentre en esta lista, se desechan (no se envían a BizTalk Server). La lógica del filtro puede invertirse anteponiendo un carácter '!' al valor del filtro. El valor predeterminado es vacío (sin filtro).|  
+    |**Número de página de códigos**|Identifica la página de códigos que usa el originador del mensaje para codificar las cadenas contenidas en los mensajes entrantes. El valor predeterminado es 65001. (El adaptador no admite tener la misma asuntos del mensaje generados a partir de dos entornos de página de códigos diferentes).|  
+    |**Sustituto de comodín de elemento**|Especifique un sustituto de texto comodín diferente, los nombres de asunto que escucha una ubicación de recepción se usan para generar el espacio de nombres XML en los mensajes resultantes. De forma predeterminada, el adaptador reemplaza cualquier comodín '*' con el texto STARWILDCARD en los mensajes generados. Puede especificar un comodín diferente en este campo.|  
+    |**Nombre de la cola de eventos**|Especifique un nombre que se va a usar al crear el objeto de cola Rendezvous. Se proporciona por comodidad, porque los mensajes de registro asociados muestran el nombre de la cola de eventos. Valor predeterminado es empty.|  
+    |**Filter**|Si especifica caracteres comodín al escuchar nombres de asunto, es posible que la orquestación de destino solo esté interesada en un subconjunto del conjunto de asuntos que podrían alcanzarse, potencialmente muy grande. Para minimizar el impacto en BizTalk Server y el acceso asociado a las bases de datos, puede especificar qué mensajes deben enviarse a BizTalk Server. Esta entrada contiene una lista separada por punto y coma de nombres de asunto (no se permiten caracteres comodín). Los mensajes que coincidan con un nombre de asunto especificado por comodín, pero cuyo nombre de asunto se encuentre en esta lista, se desechan (no se envían a BizTalk Server). La lógica del filtro puede invertirse anteponiendo un carácter '!' al valor del filtro. El valor predeterminado es vacío (sin filtro).|  
     |**Asignar tipos no compatibles a cadena**|Si los tipos no compatibles generan un error o se asignan a una cadena. Puede usarse si se usa el adaptador con una versión más reciente de TIBCO Rendezvous, en la cual se hayan agregado nuevos tipos.|  
     |**Miembro del grupo de BizTalk**|Si se configura en True, deberán configurarse los parámetros de Cola distribuida (consulte el nodo Configuración de cola distribuida) y de Escucha certificada (consulte el nodo Configuración de escucha certificada). El valor predeterminado es False.|  
     |**Ruta de acceso**|Configúrelo para que señale los binarios de TIBCO Rendezvous, en caso de que dicha información no se encuentre aún en la variable de entorno PATH.|  
     |**Conservar el orden**|Si el adaptador distribuye los mensajes entrantes a BizTalk Server en el mismo orden en que se reciben (por ejemplo, usando un único subproceso de distribución). Tenga en cuenta que si no se configuran los parámetros de Mensajes certificados, ello no supone que el adaptador reciba el mensaje en el mismo orden en que se enviaron (refiriéndose a un único origen).|  
     |**Identificador de ubicación de recepción**|El nombre de la ubicación de recepción.|  
-    |**Reservado**|Campo reservado para uso especial.|  
+    |**Reserved**|Campo reservado para uso especial.|  
   
 5.  Expanda el **transporte Rendezvous**y escriba toda la información necesaria para la comunicación entre los programas y daemons de TIBCO Rendezvous.  
   
@@ -141,20 +141,20 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
   
      Un transporte de TIBCO Rendezvous define el ámbito de entrega; es decir, el conjunto de posibles destinos para los mensajes que envía. Este conjunto de propiedades define un transporte.  
   
-    |Parámetro|Description|  
+    |Parámetro|Descripción|  
     |---------------|-----------------|  
-    |**Daemon**|Escriba el identificador numérico para el parámetro Daemon del transporte Rendezvous.|  
-    |**Network**|Escriba el nombre del parámetro Red de Rendezvous.|  
+    |**Demonio**|Escriba el identificador numérico para el parámetro Daemon del transporte Rendezvous.|  
+    |**Red**|Escriba el nombre del parámetro Red de Rendezvous.|  
     |**Nombre de servicio** `e`|Escriba el nombre del servicio de transporte Rendezvous.|  
   
 6.  Proporcione credenciales mediante el inicio de sesión único (SSO).  
   
      Hay dos métodos que puede utilizar para tener acceso al sistema TIBCO Rendezvous. Puede usar credenciales (parámetros de nombre de usuario y contraseña) o el inicio de sesión único.  
   
-    1.  Seleccione **Sí** en el **usar SSO** usar Single Sign-On.  
+    1.  Seleccione **Sí** en el **usar SSO** utilizar inicio de sesión único.  
   
         > [!NOTE]
-        >  Vea [seguridad](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md) para obtener información acerca de cómo configurar SSO.  
+        >  Consulte [seguridad](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md) para obtener información acerca de cómo configurar el inicio de sesión único.  
   
     2.  Seleccione una aplicación afiliada de la lista.  
   

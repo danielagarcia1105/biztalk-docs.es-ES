@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11030 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11030 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7c6d2fbbf5b6ebe874d589361e7f1874fc93ce7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 06e096adc4978035a918b6ac419105a71b51d5ae
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276980"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977365"
 ---
-# <a name="single-sign-on-event-11030"></a>Inicio de sesión único: Evento 11030
+# <a name="single-sign-on-event-11030"></a>De sesión único: Evento 11030
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11030|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_INFO_PS_WIN_CHANGE_DISCARDED_NO_MAPPINGS|  
-|Texto del mensaje|Se descartó el cambio de contraseña de Windows porque no existen asignaciones para esta cuenta de Windows.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Cuenta de Windows: %2 %r<br /><br /> Usuario cliente: %3|  
+|                 |                                                                                                                                                                                               |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                   Inicio de sesión único (SSO) empresarial                                                                                   |
+| Versión del producto |                                                                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                   |
+|    Identificador del evento     |                                                                                             11030                                                                                             |
+|  Origen del evento   |                                                                                            ENTSSO                                                                                             |
+|    Componente    |                                                                                              N/D                                                                                              |
+|  Nombre simbólico  |                                                                         SSO_INFO_PS_WIN_CHANGE_DISCARDED_NO_MAPPINGS                                                                          |
+|  Texto del mensaje   | Se descartó el cambio de contraseña de Windows porque no existen asignaciones para esta cuenta de Windows.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Cuenta de Windows: %2 %r<br /><br /> Usuario cliente: %3 |
   
 ## <a name="explanation"></a>Explicación  
  Se descartó el cambio de contraseña de Windows porque no existen asignaciones para esta cuenta de Windows.  

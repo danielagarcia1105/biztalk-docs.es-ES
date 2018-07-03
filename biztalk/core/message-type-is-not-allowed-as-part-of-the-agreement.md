@@ -1,5 +1,5 @@
 ---
-title: No se permite el tipo de mensaje como parte del acuerdo | Documentos de Microsoft
+title: No se permite el tipo de mensaje como parte del acuerdo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 979aa43d23d2fca95c244e10cb9d4768d76cf3db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e1ed9c1e4891a3365484b60e51848a998f2d152b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262740"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982373"
 ---
 # <a name="message-type-is-not-allowed-as-part-of-the-agreement"></a>No se permite el tipo de mensaje como parte del acuerdo
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|TransactionSetNotAllowedDescription|  
-|Texto del mensaje|Tipo de mensaje {0} no se permite como parte del acuerdo.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                          TransactionSetNotAllowedDescription                           |
+|  Texto del mensaje   |               Tipo de mensaje {0} no se permite como parte del acuerdo.                |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server no pudo procesar el documento porque el tipo de mensaje del documento no se permite como parte del acuerdo.  

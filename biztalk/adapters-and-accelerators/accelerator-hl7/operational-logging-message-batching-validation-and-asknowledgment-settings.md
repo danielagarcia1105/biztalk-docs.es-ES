@@ -1,5 +1,5 @@
 ---
-title: Registro operativo, el procesamiento por lotes de mensajes, configuración de validación y asknowledgment | Documentos de Microsoft
+title: Registro operativo, mensaje de procesamiento por lotes, configuración de validación y confirmaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,29 +17,29 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3282d69fc572c4aa32888f9a3ed8a806deef5c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 015182a6b091ccbba7452df4c44ed4e4f45c336e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206004"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974685"
 ---
-# <a name="operational-logging-message-batching-validation-and-asknowledgment-settings"></a>Registro operativo, el procesamiento por lotes de mensajes, validación y configuración de asknowledgment
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] incluye un servidor y una serie de herramientas de integración de aplicaciones empresariales (EAI), la automatización de procesos de negocio y facilitar las interacciones con los socios comerciales. Basado en la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] BTAHL7 de plataforma, promociona la integración de aplicaciones médicas para cualquier instalación utilizando el estándar HL7. HL7 contiene estándares para intercambiar, integración y recuperar la información electrónica en práctica clínica y administración.  
+# <a name="operational-logging-message-batching-validation-and-asknowledgment-settings"></a>Registro operativo, el procesamiento por lotes de mensajes, validación y configuración de confirmaciones
+Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] abarca un servidor y una serie de herramientas para la integración de aplicaciones empresariales (EAI), automatización de procesos empresariales y al facilitar las interacciones con los socios comerciales. Basado en el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] BTAHL7 promueve la plataforma de integración de aplicaciones médicas para cualquier instalación mediante el estándar HL7. HL7 contiene estándares para intercambiar, integración y recuperar información electrónica en prácticas clínicas y administración.  
   
- Los analistas de usuario de interfaz configurar socios comerciales, las confirmaciones de mensaje, el procesamiento por lotes de mensajes y otros detalles que requiera el proceso de negocio.  
+ Los analistas de interfaz usuario configuración socios comerciales, las confirmaciones de mensajes, procesamiento por lotes de mensajes y otros detalles que necesita el proceso de negocio.  
   
- Esta sección proporciona información conceptual y procedimientos que le permite supervisar y mantener el entorno de aplicación de BTAHL7 eficazmente.  
+ Esta sección proporciona información conceptual y de procedimiento que permite supervisar y mantener el entorno de aplicación de BTAHL7 de manera eficaz.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Configuración de registro](../../adapters-and-accelerators/accelerator-hl7/logging-configuration.md)  
+-   [Configuración del registro](../../adapters-and-accelerators/accelerator-hl7/logging-configuration.md)  
   
--   [Procesamiento por lotes de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)  
+-   [Procesamiento de mensajes por lotes](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)  
   
 -   [Configuración de la validación](../../adapters-and-accelerators/accelerator-hl7/validation-settings.md)  
   
--   [Invalidaciones de campo de MSH](../../adapters-and-accelerators/accelerator-hl7/msh-field-overrides.md)  
+-   [Invalidaciones de campos MSH](../../adapters-and-accelerators/accelerator-hl7/msh-field-overrides.md)  
   
 -   [Configuración de confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-settings.md)  
   

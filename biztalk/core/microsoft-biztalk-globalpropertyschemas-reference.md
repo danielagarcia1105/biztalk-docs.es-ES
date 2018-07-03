@@ -1,5 +1,5 @@
 ---
-title: Referencia de Microsoft.BizTalk.GlobalPropertySchemas | Documentos de Microsoft
+title: Referencia de Microsoft.BizTalk.GlobalPropertySchemas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,31 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db71f6bbf80b924262a473e7ecdef28d914ae3ef
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.openlocfilehash: d8e24cee64b5f03b212fabd7003f8ba3586b1c22
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
-ms.locfileid: "29710399"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982885"
 ---
-# <a name="microsoftbiztalkglobalpropertyschemas-reference"></a>Microsoft.BizTalk.GlobalPropertySchemas Reference
+# <a name="microsoftbiztalkglobalpropertyschemas-reference"></a>Referencia de Microsoft.BizTalk.GlobalPropertySchemas
 El **Microsoft.BizTalk.GlobalPropertySchemas** espacio de nombres contiene esquemas de propiedad para las propiedades que usan varios componentes de BizTalk Server. Este espacio de nombres contiene propiedades del sistema que utiliza el motor de BizTalk, propiedades específicas de transporte que cada transporte utiliza para controlar la configuración y propiedades para configurar componentes de canalización.  
 
 ## <a name="namespace-schemas"></a>Esquemas de Namespace  
 
- La siguiente tabla muestra los esquemas de propiedad global incluidos en el **Microsoft.BizTalk.GlobalPropertySchemas** espacio de nombres.  
-  
-|Esquema de propiedades|Área de características y descripción|  
-|---------------------|----------------------------------|  
-|bts-btf2-properties.xsd|Esquema de propiedad.|  
-|btf2-endpoints-header.xsd<br /><br /> btf2-envelope.xsd<br /><br /> btf2-manifest-header.xsd<br /><br /> btf2-process-header.xsd<br /><br /> btf2-properties-header.xsd<br /><br /> btf2-receipt-header.xsd<br /><br /> btf2-services-header.xsd|Esquemas que definen las construcciones de BizTalk Framework. Estos esquemas son específicos de los componentes de canalización de ensamblador y de desensamblador de BizTalk Framework.|  
-|bts-system-properties.xsd|Esquema de propiedad del sistema. El motor de BizTalk utiliza la mayoría de las propiedades de este esquema. Puede utilizar algunas propiedades para enrutamiento de mensajes. Para obtener más información sobre las propiedades que puede utilizar para enrutar los mensajes, consulte **propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|  
-|bts-endpoint-properties.xsd|Esquema de propiedad interno.|  
-|bts-mime-properties.xsd<br /><br /> bts-xmlnorm-properties.xsd|Esquemas de propiedad para componentes de canalización: componentes de canalización de MIME, XML, archivos planos y ensamblador de BizTalk Framework y desensamblador.|  
-|bts-messagetracking-properties.xsd|Motor de seguimiento utiliza este esquema.|  
-|bts-file-properties.xsd<br /><br /> bts-ftp-properties.xsd<br /><br /> bts-http-properties.xsd<br /><br /> bts-pop3-properties.xsd<br /><br /> bts-smtp-properties.xsd<br /><br /> soap-encoding_1__1.xsd<br /><br /> soap-envelope_1__1.xsd<br /><br /> bts-soap-properties.xsd<br /><br /> bts-WindowsSharePointServices-properties.xsd|Esquemas de propiedad específicos de transporte. Los transportes utilizan estos esquemas para trasladar información y configuraciones de transporte específicas. Para obtener más información sobre los transportes, consulte [usando adaptadores](../core/using-adapters.md).|  
-|XLANGsBizTalkProperties.xsd|El motor de orquestaciones utiliza este esquema.|  
-  
+ La siguiente tabla muestra los esquemas de propiedad globales incluidos en el **Microsoft.BizTalk.GlobalPropertySchemas** espacio de nombres.  
+
+
+|                                                                                                                                                              Esquema de propiedad                                                                                                                                                              |                                                                                                                                                               Área de características y descripción                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                          bts-btf2-properties.xsd                                                                                                                                                          |                                                                                                                                                                     Esquema de propiedad.                                                                                                                                                                      |
+|                                             btf2-endpoints-header.xsd<br /><br /> btf2-envelope.xsd<br /><br /> btf2-manifest-header.xsd<br /><br /> btf2-process-header.xsd<br /><br /> btf2-properties-header.xsd<br /><br /> btf2-receipt-header.xsd<br /><br /> btf2-services-header.xsd                                              |                                                                                                   Esquemas que definen las construcciones de BizTalk Framework. Estos esquemas son específicos de los componentes de canalización de ensamblador y de desensamblador de BizTalk Framework.                                                                                                   |
+|                                                                                                                                                         bts-system-properties.xsd                                                                                                                                                         | Esquema de propiedad del sistema. El motor de BizTalk utiliza la mayoría de las propiedades de este esquema. Puede utilizar algunas propiedades para enrutamiento de mensajes. Para obtener más información sobre las propiedades que puede usar el enrutamiento de mensajes, vea **las propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. |
+|                                                                                                                                                        bts-endpoint-properties.xsd                                                                                                                                                        |                                                                                                                                                           Esquema de propiedad interno.                                                                                                                                                            |
+|                                                                                                                                      bts-mime-properties.xsd<br /><br /> bts-xmlnorm-properties.xsd                                                                                                                                       |                                                                                                      Esquemas de propiedad para componentes de canalización: componentes de canalización de MIME, XML, archivos sin formato y ensamblador de BizTalk Framework y desensamblador.                                                                                                      |
+|                                                                                                                                                    bts-messagetracking-properties.xsd                                                                                                                                                     |                                                                                                                                                           Motor de seguimiento utiliza este esquema.                                                                                                                                                           |
+| bts-file-properties.xsd<br /><br /> bts-ftp-properties.xsd<br /><br /> bts-http-properties.xsd<br /><br /> bts-pop3-properties.xsd<br /><br /> bts-smtp-properties.xsd<br /><br /> soap-encoding_1__1.xsd<br /><br /> soap-envelope_1__1.xsd<br /><br /> bts-soap-properties.xsd<br /><br /> bts-WindowsSharePointServices-properties.xsd |                                                               Esquemas de propiedad específicos de transporte. Los transportes utilizan estos esquemas para trasladar información y configuraciones de transporte específicas. Para obtener más información sobre los transportes, consulte [utilizando adaptadores](../core/using-adapters.md).                                                                |
+|                                                                                                                                                        XLANGsBizTalkProperties.xsd                                                                                                                                                        |                                                                                                                                                        El motor de orquestaciones utiliza este esquema.                                                                                                                                                         |
+
 ## <a name="see-also"></a>Vea también  
  [Acerca de las referencias de espacio de nombres de BizTalk incluidos en proyectos de BizTalk](../core/about-biztalk-namespace-references-included-in-biztalk-projects.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Paso 6: Configurar formas de orquestación (Contoso) | Documentos de Microsoft'
+title: 'Paso 6: Configurar formas de orquestación (Contoso) | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9310e9b287f35876a137d13dbcc2d1fa39ba9588
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 31ffbdbe5cea810f08b5dc08b8d3dcae265c9f04
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26009389"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980653"
 ---
 # <a name="step-6-configuring-orchestration-shapes-contoso"></a>Paso 6: Configurar formas de orquestación (Contoso)
-En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificar la orquestación de procesos privado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). Esto incluye la configuración de la comunicación entre [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.  
+En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificación de la orquestación de procesos privados de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). Esto incluye la configuración de la comunicación entre Microsoft® BizTalk Server y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.  
   
 ### <a name="to-configure-the-constructmessagepip3a2requestmessage-shape"></a>Para configurar la forma ConstructMessagePIP3A2RequestMessage  
   
@@ -51,7 +51,7 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
   
 4.  En la ventana Propiedades, seleccione la propiedad **Nombre de asignación** y, después, haga clic en el botón de puntos suspensivos (**…**) para abrir el cuadro de diálogo Configuración de transformación.  
   
-5.  En el cuadro de diálogo Configuración de transformación, haga clic en **mapa existente**y, a continuación, en la **cuadro de nombre completo de asignación**, seleccione  **\<seleccionar del ensamblado mencionado\>**  en la lista desplegable para abrir el cuadro de diálogo Seleccionar tipo de artefacto.  
+5.  En el cuadro de diálogo Configuración de transformación, haga clic en **mapa existente**y, a continuación, en el **cuadro del nombre completo de asignación**, seleccione **\<seleccionar del ensamblado mencionado\>** en la lista desplegable para abrir el cuadro de diálogo Seleccionar tipo de artefacto.  
   
 6.  En el cuadro de diálogo Seleccionar tipo de artefacto, seleccione el ensamblado **ContosoPriceAndAvailability** en el panel izquierdo, seleccione la asignación **PIP3A2RequestToContosoPriceRequest** en el panel derecho y, después, haga clic en **Aceptar**.  
   
@@ -73,21 +73,21 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
   
 ### <a name="to-configure-the-construct3a2responsemessage-transform-shape"></a>Para configurar la forma de transformación Construct3A2ResponseMessage  
   
-1.  En la superficie de diseño de orquestación, haga clic en la forma **Construct3A2ResponseMessage** .  
+1. En la superficie de diseño de orquestación, haga clic en la forma **Construct3A2ResponseMessage** .  
   
-2.  En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** , después seleccione **PIP3A2ResponseMessage** en la lista desplegable y, después, presione **ENTRAR**.  
+2. En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** , después seleccione **PIP3A2ResponseMessage** en la lista desplegable y, después, presione **ENTRAR**.  
   
-3.  Seleccione la forma **Transform_2** dentro de la forma **Construct3A2ResponseMessage** .  
+3. Seleccione la forma **Transform_2** dentro de la forma **Construct3A2ResponseMessage** .  
   
-4.  En la ventana Propiedades, haga clic en **Asignar nombre**y, después, haga clic en el botón de puntos suspensivos (**…**).  
+4. En la ventana Propiedades, haga clic en **Asignar nombre**y, después, haga clic en el botón de puntos suspensivos (**…**).  
   
-5.  En el cuadro de diálogo Configuración de Transformación, haga clic en **Nueva asignación**.  
+5. En el cuadro de diálogo Configuración de Transformación, haga clic en **Nueva asignación**.  
   
-6.  En el cuadro **Asignación válida** , escriba **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.  
+6. En el cuadro **Asignación válida** , escriba **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.  
   
-7.  En el cuadro de diálogo Configuración de transformación, seleccione **Origen** en el panel izquierdo.  
+7. En el cuadro de diálogo Configuración de transformación, seleccione **Origen** en el panel izquierdo.  
   
-8.  Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable**y, después, seleccione **PIP3A2RequestMessage** en la lista desplegable.  
+8. Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable**y, después, seleccione **PIP3A2RequestMessage** en la lista desplegable.  
   
 9. Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable** y, después, seleccione **Contoso3A2ResponseMessage** en la lista desplegable.  
   
@@ -98,7 +98,7 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
 12. En el cuadro de diálogo **Abrir con - ContosoResponse3A2RequestMerge.btm** , seleccione **Editor XML** en la lista de programas y, después, haga clic en **Aceptar**. Haga clic en **Sí**.  
   
     > [!NOTE]
-    >  Debido al elevado número de vínculos necesarios para esta asignación, este tutorial usa [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] 2008 HTML/XML, Editor para construir la asignación copiando manualmente la información del mapa.  
+    >  Debido al gran número de vínculos necesarios para esta asignación, este tutorial se usa [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] 2008 Editor de HTML/XML para construir la asignación copiando manualmente la información del mapa.  
   
 13. En el menú **Editar** , haga clic en **Seleccionar todo**.  
   

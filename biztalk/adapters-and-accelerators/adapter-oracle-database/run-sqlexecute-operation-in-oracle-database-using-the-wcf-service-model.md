@@ -1,5 +1,5 @@
 ---
-title: Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
+title: Ejecutar la operación SQLEXECUTE en la base de datos de Oracle mediante el modelo de servicio WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,31 +16,31 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c6bda1c864e7a6eff442099d6caf1a2bba98e7f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2aedcd9874682ed71af774db72979c152836ab3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22215980"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004861"
 ---
-# <a name="run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model"></a>Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante el modelo de servicio de WCF
-La[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto estándar de operaciones en artefactos de base de datos de Oracle. Mediante el uso de estas operaciones, puede hacer cosas como llamada a una función de Oracle o un procedimiento, o realizar operaciones del lenguaje (DML) de manipulación de datos de básico SQL en tablas. Sin embargo, pueden haber escenarios controlados por la lógica de negocios que requieren realizar operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] no expuesta. Por ejemplo, puede:  
+# <a name="run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model"></a>Ejecutar la operación SQLEXECUTE en la base de datos de Oracle mediante el modelo de servicio de WCF
+La[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto estándar de operaciones en los artefactos de base de datos de Oracle. Mediante el uso de estas operaciones, puede hacer cosas como la llamada a una función de Oracle o un procedimiento, o realizar operaciones del lenguaje (DML) de manipulación de datos de básica SQL en tablas. Sin embargo, puede haber escenarios controlados por la lógica de negocios que necesitan realizar operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] no se exponen. Por ejemplo, es posible que desee:  
   
--   Realizar una operación en artefactos de base de datos que no se exponen a través de la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; por ejemplo, obtenga el CURVAL o NEXTVAL de las secuencias de Oracle.  
+- Realizar una operación en artefactos de base de datos que no se exponen mediante el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; por ejemplo, obtener el CURVAL o NEXTVAL de una secuencia de Oracle.  
   
--   Realizar operaciones de lenguaje de definición de datos; Por ejemplo, crear una tabla.  
+- Realizar operaciones de lenguaje de definición de datos; Por ejemplo, cree una tabla.  
   
--   Realizar operaciones en un artefacto de la base de datos que no estaba presente en tiempo de diseño; Por ejemplo, actualizar registros en una tabla temporal que se crea mediante la lógica de negocios.  
+- Realizar operaciones en un artefacto de la base de datos que no estaba presente en tiempo de diseño; Por ejemplo, actualizar registros en una tabla temporal creada por la lógica de negocios.  
   
--   Realizar operaciones más complejas de DML en tablas que las operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies; por ejemplo, para realizar una consulta que incluye una cláusula de combinación.  
+- Realizar operaciones más complejas de DML en tablas que las operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies; por ejemplo, para realizar una consulta que incluye una cláusula JOIN.  
   
- Para estos tipos de escenarios, el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] emerge la operación SQLEXECUTE. Mediante la operación SQLEXECUTE, puede realizar una instrucción SQL con parámetros en la base de datos de Oracle. La operación SQLEXECUTE admite un bloque de parámetro de entrada consta de los conjuntos de parámetros que permiten ejecutar la misma instrucción SQL una vez para cada conjunto. La operación SQLEXECUTE devuelve los resultados de la instrucción SQL en un conjunto de registros genérico.  
+  Para estos tipos de escenarios, la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expone la operación SQLEXECUTE. Mediante el uso de la operación SQLEXECUTE, puede realizar una instrucción SQL con parámetros en la base de datos de Oracle. La operación SQLEXECUTE admite un bloque de parámetro de entrada consta de conjuntos de parámetros que permiten ejecutar la misma instrucción SQL una vez para cada conjunto. La operación SQLEXECUTE devuelve los resultados de la instrucción SQL en un conjunto de registros genérico.  
   
-## <a name="about-the-examples-used-in-this-topic"></a>Acerca de los ejemplos usados en este tema  
- Los ejemplos de este tema se utiliza una secuencia de Oracle denominan TID_SEQ. Una secuencia de comandos para generar esta secuencia se suministra con los ejemplos del SDK. Para obtener más información acerca de los ejemplos SDK, vea [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
+## <a name="about-the-examples-used-in-this-topic"></a>Acerca de los ejemplos usados en este tema.  
+ Los ejemplos de este tema se usa una secuencia de Oracle denominan TID_SEQ. Una secuencia de comandos para generar esta secuencia se suministra con los ejemplos del SDK. Para obtener más información acerca de los ejemplos SDK, consulte [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
   
 ## <a name="the-wcf-client-class"></a>La clase de cliente WCF  
- El modelo de servicio WCF genera un cliente WCF dedicado, **SQLEXECUTEClient**, para la operación SQLEXECUTE. El código siguiente muestra el **SQLEXECUTEClient** y la firma del método que se llama para invocar la operación SQLEXECUTE.  
+ El modelo de servicio WCF genera un cliente WCF dedicado, **SQLEXECUTEClient**, para la operación SQLEXECUTE. El siguiente código muestra la **SQLEXECUTEClient** y la firma del método que se llama para invocar la operación SQLEXECUTE.  
   
 ```  
 public partial class SQLEXECUTEClient : System.ServiceModel.ClientBase<SQLEXECUTE>, SQLEXECUTE {  
@@ -51,7 +51,7 @@ public partial class SQLEXECUTEClient : System.ServiceModel.ClientBase<SQLEXECUT
 }  
 ```  
   
- La operación SQLEXECUTE devuelve un conjunto de registros genérico. Este conjunto de registros contiene los valores (si existe) que se devuelven las instrucciones que se ejecuta la operación SQLEXECUTE. Puede pasar conjuntos de parámetros de entrada a la operación SQLEXECUTE en una colección de objetos PARAMETERDATA, cada uno de los cuales contiene una colección de parámetros de entrada representadas como cadenas. El código siguiente muestra la definición de un conjunto PARAMETERDATA.  
+ La operación SQLEXECUTE devuelve un conjunto de registros genérico. Este conjunto de registros contiene los valores (si existe) que son devueltos por las instrucciones que se ejecuta la operación SQLEXECUTE. Puede pasar conjuntos de parámetros de entrada a la operación SQLEXECUTE en una colección de objetos PARAMETERDATA, cada uno de los cuales contiene una colección de parámetros de entrada representada como cadenas. El código siguiente muestra la definición de un conjunto PARAMETERDATA.  
   
 ```  
 namespace microsoft.lobservices.oracledb._2007._03 {  
@@ -83,16 +83,16 @@ namespace microsoft.lobservices.oracledb._2007._03 {
 ## <a name="invoking-the-sqlexecute-operation"></a>Invocar la operación SQLEXECUTE  
  Para invocar la operación SQLEXECUTE mediante un cliente WCF, realice los pasos siguientes.  
   
-1.  Generar un **SQLEXECUTEClient** clase para la tabla de destino o la vista.  
+1. Generar un **SQLEXECUTEClient** clase para la tabla de destino o vista.  
   
-    > [!IMPORTANT]
-    >  La operación SQLEXECUTE aparece bajo el nodo raíz (**/**) en el **seleccione una categoría de** panel en el **Agregar referencia de servicio de adaptador** cuadro de diálogo.  
+   > [!IMPORTANT]
+   >  La operación SQLEXECUTE aparece bajo el nodo raíz (**/**) en el **seleccionar una categoría** panel en el **Add Adapter Service Reference** cuadro de diálogo.  
   
-2.  Cree una instancia de la **SQLEXECUTEClient** clase e invocar el **SQLEXECUTE** método para ejecutar instrucciones SQL en la base de datos de Oracle.  
+2. Cree una instancia de la **SQLEXECUTEClient** clase e invocar el **SQLEXECUTE** método para ejecutar instrucciones SQL en la base de datos de Oracle.  
   
- Para obtener más información acerca de cómo crear una clase de cliente WCF e invocar operaciones en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
+   Para obtener más información acerca de cómo crear una clase de cliente WCF e invocar operaciones en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [general del modelo de servicio WCF con el adaptador de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
   
- En el ejemplo siguiente se usa el **SQLEXECUTEClient** para obtener el siguiente valor de una secuencia de Oracle, TID_SEQ, mediante la ejecución de la siguiente instrucción SQL: `SELECT tid_seq.nextval id from DUAL`. A continuación, se escribe el resultado en la consola.  
+   En el ejemplo siguiente se usa el **SQLEXECUTEClient** para obtener el siguiente valor de una secuencia de Oracle, TID_SEQ, mediante la ejecución de la siguiente instrucción SQL: `SELECT tid_seq.nextval id from DUAL`. La salida, a continuación, se escribe en la consola.  
   
 ```  
 using (SQLEXECUTEClient sqlClient = new SQLEXECUTEClient("OracleDBBinding_SQLEXECUTE"))  

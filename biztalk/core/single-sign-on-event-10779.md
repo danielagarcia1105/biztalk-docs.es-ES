@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10779 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10779 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e59844b5b4a2ab675e153bd87029fae857c37ba6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 362d1b5149b4ce74975915ff27ddf12b5db5fa6a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277788"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983309"
 ---
-# <a name="single-sign-on-event-10779"></a>Inicio de sesión único: Evento 10779
+# <a name="single-sign-on-event-10779"></a>De sesión único: Evento 10779
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10779|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_BACKUP_FILE_WRONG_PASSWORD|  
-|Texto del mensaje|Se especificó una contraseña incorrecta para el archivo de copia de seguridad.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10779                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |            ENTSSO_E_BACKUP_FILE_WRONG_PASSWORD             |
+|  Texto del mensaje   |  Se especificó una contraseña incorrecta para el archivo de copia de seguridad.  |
   
 ## <a name="explanation"></a>Explicación  
  Se especificó una contraseña incorrecta para el archivo de copia de seguridad.  

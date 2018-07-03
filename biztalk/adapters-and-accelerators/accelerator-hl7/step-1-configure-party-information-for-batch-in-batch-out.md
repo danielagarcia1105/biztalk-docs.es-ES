@@ -1,5 +1,5 @@
 ---
-title: 'Paso 1: Configurar la información de entidad para el lote en procesos por lotes el | Documentos de Microsoft'
+title: 'Paso 1: Configurar la información de entidad para fuera de proceso por lotes en Batch | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,26 +12,26 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4cb67fb2e1a232894a0e936bc7827270ca79e6f8
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: eafe692cf86ccf3c6fbe0713c1e621a99a601d5d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25960514"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974925"
 ---
-# <a name="step-1-configure-party-information-for-batch-inbatch-out"></a>Paso 1: Configurar la información de entidad para el lote en / lote Out
+# <a name="step-1-configure-party-information-for-batch-inbatch-out"></a>Paso 1: Configurar la información de entidad para el lote o salida
 En este paso, desactivar la fragmentación del procesamiento por lotes para la entidad, lo que permite el lote en / escenario de lote. A continuación, reinicie [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para habilitar el cambio de configuración surta efecto.  
   
 ### <a name="to-turn-off-fragmentation-of-batching-for-the-party"></a>Para desactivar la fragmentación del procesamiento por lotes para la entidad  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en **Explorador de configuración de BTAHL7**.  
+1. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en **Explorador de configuración de BTAHL7**.  
   
-2.  En el Explorador de configuración de BTAHL7, en la **partes** en el panel izquierdo, haga clic en **Tutorial_BatchSource**.  
+2. En el Explorador de configuración de BTAHL7, en el **partes** , haga clic en el panel izquierdo **Tutorial_BatchSource**.  
   
-3.  Haga clic en el **definición por lotes** ficha.  
+3. Haga clic en el **definición de lote** ficha.  
   
-4.  Seleccione **No** para **requerida fragmentación**y, a continuación, haga clic en **guardar**.  
+4. Seleccione **No** para **requerida fragmentación**y, a continuación, haga clic en **guardar**.  
   
-5.  Asegúrese de que en **soporte técnico de intercambio recuperable requiere** lista desplegable **False** está seleccionada.  
+5. Asegúrese de que en **soporte técnico de intercambio recuperable requiere** lista desplegable **False** está seleccionada.  
   
- Continúe con [paso 2: modificar o crear el envío y puertos de recepción](../../adapters-and-accelerators/accelerator-hl7/step-2-modify-or-create-the-send-and-receive-ports.md).
+   Continúe con [paso 2: modificar o crear el envío y recepción](../../adapters-and-accelerators/accelerator-hl7/step-2-modify-or-create-the-send-and-receive-ports.md).

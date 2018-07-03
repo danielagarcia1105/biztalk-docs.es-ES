@@ -1,5 +1,5 @@
 ---
-title: Mediante el Type1 MATH_NUMERIC | Documentos de Microsoft
+title: Mediante el Type1 MATH_NUMERIC | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,25 +20,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec4a5df2d15f489d52c8e3d6dfc575f9e644c646
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dba376c1bbbb6e5219969b97393f72380c75d9fa
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288516"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007533"
 ---
 # <a name="using-the-mathnumeric-type"></a>Uso del tipo MATH_NUMERIC
 En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan los exponentes, el número máximo de dígitos y el número máximo de dígitos decimales. También incluye una explicación sobre:  
   
--   Exponentes  
+- Exponentes  
   
--   Valores no válidos  
+- Valores no válidos  
   
--   Precisión para las operaciones  
+- Precisión para las operaciones  
   
--   Moneda  
+- Moneda  
   
- El tipo MATH_NUMERIC es un tipo de cadena numérica. Para usarlo, introduzca valores de parámetros del siguiente formato:  
+  El tipo MATH_NUMERIC es un tipo de cadena numérica. Para usarlo, introduzca valores de parámetros del siguiente formato:  
   
 ```  
 <OptionalSign><IntegerAndFractionalPart><OptionalExponentPart>  
@@ -47,7 +47,7 @@ En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan lo
   
  Where  
   
- `<OptionalSign>`puede ser `+` o `-`. `+`es el valor predeterminado.  
+ `<OptionalSign>` puede ser `+` o `-`. `+` es el valor predeterminado.  
   
  `<IntegerAndFractionalPart>` es un máximo de 32 dígitos significativos, sin contar el símbolo decimal. El símbolo decimal depende de la configuración regional en la instalación de JD Edwards EnterpriseOne; normalmente es un punto (.) o una coma (,). Los dígitos pueden ser todos enteros, todos fraccionarios o una parte entera y otra fraccionaria, pero no pueden ser mayores de 32.  
   
@@ -59,7 +59,7 @@ En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan lo
   
  Where  
   
- `<OptionalSign>`puede ser `+` o `-`. `+`es el valor predeterminado.  
+ `<OptionalSign>` puede ser `+` o `-`. `+` es el valor predeterminado.  
   
  `<ExponentDigits>` tienen como máximo dos dígitos. Se permiten valores entre 63 y-63 excluyendo el cero.  
   
@@ -87,13 +87,13 @@ En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan lo
   
  Ejemplos de **válido** valores de MATH_NUMERIC:  
   
--   1034.00000000000000000000000000001023 - demasiados dígitos significativos  
+- 1034.00000000000000000000000000001023 - demasiados dígitos significativos  
   
--   1.023e - 64 - exponente demasiado pequeño  
+- 1.023e - 64 - exponente demasiado pequeño  
   
--   0.00317e64 - exponente demasiado grande  
+- 0.00317e64 - exponente demasiado grande  
   
- Los caracteres no numéricos diferentes a los adecuados para signos y símbolos decimales originan valores no válidos.  
+  Los caracteres no numéricos diferentes a los adecuados para signos y símbolos decimales originan valores no válidos.  
   
 ## <a name="exponents"></a>Exponentes  
  Los exponentes los proporciona MATH_NUMERIC de JD Edwards EnterpriseOne como comodidad para introducir valores. Sin embargo, la mayoría de los valores se devuelven sin exponentes (con los 32 dígitos significativos visibles).  
@@ -111,4 +111,4 @@ En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan lo
  Cuando una función empresarial de JD Edwards EnterpriseOne espera un valor de divisa, dicha función siempre tiene un parámetro independiente para un código de divisa de cuatro caracteres. No es necesario escribir este código salvo que use una divisa distinta a la configurada de manera predeterminada para el sistema JD Edwards EnterpriseOne.  
   
 ## <a name="see-also"></a>Vea también  
- [Apéndice B: tipos de datos](../core/appendix-b-data-types.md)
+ [Apéndice B: Tipos de datos](../core/appendix-b-data-types.md)

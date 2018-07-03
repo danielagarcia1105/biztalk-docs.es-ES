@@ -1,6 +1,6 @@
 ---
-title: Agregar el adaptador de BizTalk para JD Edwards OneWorld | Documentos de Microsoft
-description: Agregar JD Edwards OneWorld a administración de BizTalk, cree el puerto de envío, configurar las propiedades de transporte y use las canalizaciones XMLReceive y XMLTransmit al usar el adaptador de JD Edwards OneWorld en BizTalk Server
+title: Agregar el adaptador de BizTalk para JD Edwards OneWorld | Microsoft Docs
+description: Agregar J.D. Edwards OneWorld a administración de BizTalk, cree el puerto de envío, configure las propiedades de transporte y usa las canalizaciones XMLReceive y XMLTransmit cuando se usa el adaptador de JD Edwards OneWorld en BizTalk Server
 ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
@@ -13,17 +13,17 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 784323634d3084efd0b56aac1d5dbc97f2b4329f
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: decababef3ece92c99687a4019b15625b1b4c6b7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24014259"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981397"
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a>Configurar los artefactos de JD Edwards EnterpriseOne en administración de BizTalk
 El adaptador de BizTalk para JD Edwards OneWorld contiene las carpetas Controlador de recepción y Controlador de envío. La carpeta Controlador de envío contiene BizTalkServerApplication. El adaptador de BizTalk para JD Edwards OneWorld se puede crear; se ejecuta en curso con BizTalk Server y no se ejecuta en un proceso de host aislado.  
 
-## <a name="add-the-adapter-to-biztalk-administration"></a>Agregar el adaptador de administración de BizTalk 
+## <a name="add-the-adapter-to-biztalk-administration"></a>Agregar el adaptador para la administración de BizTalk 
 
 1.  Abra **administración de BizTalk Server**, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**y, a continuación, expanda **deconfiguracióndeplataforma**.  
   
@@ -34,23 +34,23 @@ El adaptador de BizTalk para JD Edwards OneWorld contiene las carpetas Controlad
 4.  Seleccione **JDEOneWorld** desde el **adaptador** lista y seleccione **Aceptar**.  
 
   
-### <a name="check-if-the-adapter-is-working"></a>Comprobar si el adaptador funciona 
- En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, puede comprobar que el adaptador funciona correctamente examinando el **sistema lógico** ventana. En la instalación inicial, esta ventana está vacía, porque todavía no se ha establecido ninguna conexión con el sistema de servidor ni se ha creado ningún sistema lógico.  
+### <a name="check-if-the-adapter-is-working"></a>Compruebe si funciona el adaptador 
+ En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, puede comprobar que el adaptador funciona correctamente, examine la **sistema lógico** ventana. En la instalación inicial, esta ventana está vacía, porque todavía no se ha establecido ninguna conexión con el sistema de servidor ni se ha creado ningún sistema lógico.  
   
  
-1.  En **administración de BizTalk Server**, expanda **configuración de plataforma**, expanda **adaptadores**y, a continuación, seleccione **JDEOneWorld**.  
+1. En **administración de BizTalk Server**, expanda **configuración de plataforma**, expanda **adaptadores**y, a continuación, seleccione **JDEOneWorld**.  
   
-2.  En el panel de detalles, haga clic en **BizTalkServerApplication**y seleccione **propiedades**.  
+2. En el panel de detalles, haga clic en **BizTalkServerApplication**y seleccione **propiedades**.  
   
-3.  Seleccione el **propiedades** ficha.  
+3. Seleccione el **propiedades** ficha.  
   
-4.  Establezca los parámetros de la conexión SQL.  
+4. Establezca los parámetros de la conexión SQL.  
   
-    -   **Definir parámetros de la base de datos SQL -** el nombre de SQL Server y la base de datos son los que se establecen durante la instalación. Esta es el área de texto en la que se puede redefinir el servidor y la base de datos del adaptador.  
+   -   **Definir parámetros de la base de datos SQL -** el nombre de SQL Server y base de datos son los que se establecen durante la instalación. Esta es el área de texto en la que se puede redefinir el servidor y la base de datos del adaptador.  
   
-5.  Seleccione **cerrar** para salir del **sistema lógico** ventana.  
+5. Seleccione **cerrar** para salir del **sistema lógico** ventana.  
   
-     El siguiente paso es agregar un sistema lógico mediante [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+    El siguiente paso es agregar un sistema lógico mediante [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
 
 ## <a name="create-the-send-port"></a>Crear el puerto de envío  
   
@@ -61,7 +61,7 @@ El adaptador de BizTalk para JD Edwards OneWorld contiene las carpetas Controlad
     > [!NOTE]
     >  También puede usar **Puerto unidireccional estático**.  
   
-3.  En el **propiedades de puerto de envío**, seleccione la **nombre** campo y escriba un nombre de puerto de envío. Por ejemplo, escriba **SendToJDE**.  
+3.  En el **propiedades de puerto de envío**, seleccione el **nombre** campo y escriba un nombre de puerto de envío. Por ejemplo, escriba **SendToJDE**.  
   
 4.  En el **tipo** lista desplegable, seleccione **JDEOneWorld**.  
   
@@ -80,17 +80,17 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
 >  Todas las entradas distinguen entre mayúsculas y minúsculas.  
   
 ### <a name="set-the-properties"></a>Establecer las propiedades  
- En el **propiedades de transporte** cuadro de diálogo, se establecen los parámetros de conexión y las credenciales que son específicos del sistema servidor y los objetos que está intentando obtener acceso.  
+ En el **propiedades de transporte** cuadro de diálogo, se establecen los parámetros de conexión y las credenciales que son específicos para el sistema del servidor y los objetos que está intentando acceder.  
   
 1.  Proporcionar credenciales. Se puede tener acceso al sistema JD Edwards OneWorld usando uno de los métodos siguientes:  
   
-    -   Credenciales (contraseña, nombre de usuario) de inicio de sesión: Si utiliza este método, vaya al paso 5.  
+    -   Inicio de sesión de credenciales (nombre de usuario, contraseña): si usa este método, vaya al paso 5.  
   
     -   Inicio de sesión único (SSO).  
   
 2.  Para usar el inicio de sesión único (SSO), seleccione **Sí** en el **usar SSO**.  
   
-     Para obtener más información acerca de cómo configurar SSO, vea [seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)  
+     Para obtener más información acerca de cómo configurar el inicio de sesión único, vea [seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)  
   
 3.  Seleccione una aplicación afiliada en la lista.  
   
@@ -102,9 +102,9 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
   
      ![](../core/media/jdedadapter-02-jdesystem.gif "JDEdAdapter_02_JDESystem")  
   
-     Después de establecer los parámetros de conexión, puede examinar un sistema JD Edwards OneWorld. Para obtener más información, consulte [importar JD Edwards OneWorld esquemas en proyectos de BizTalk Server](../core/importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects.md).  
+     Después de establecer los parámetros de conexión, puede examinar un sistema JD Edwards OneWorld. Para obtener más información, consulte [importar esquemas de JD Edwards OneWorld en proyectos de BizTalk Server](../core/importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects.md).  
   
-5.  Escriba un valor que representa el número de llamadas, por ejemplo, 200, en **número máximo de llamadas simultáneas** si es necesario.  
+5.  Escriba un valor que representa el número de llamadas, por ejemplo, 200, en **las llamadas máximas simultáneas** si es necesario.  
   
      El `Max Concurrent Calls` parámetro le permite optimizar su configuración. Este parámetro se usa en aquellas instancias en las que el rendimiento excede las capacidades de procesamiento del servidor, para activar la protección ante la sobrecarga de mensajes. El valor predeterminado es -1, lo que significa que las llamadas son ilimitadas.  
   
@@ -112,21 +112,21 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
   
      Cambiar este parámetro ejerce efecto en el plazo de un minuto; BizTalk Server debe recuperar los cambios de la configuración del adaptador que se haya guardado en la base de datos de SQL.  
   
-6.  Seleccione **Sí** para **agente de actualización** para forzar que los procesos runtimeagent.exe y browsingagent.exe se reinicie automáticamente cuando sea necesario.  
+6.  Seleccione **Sí** para **agente de actualización** para forzar los procesos runtimeagent.exe y browsingagent.exe se reinicie automáticamente cuando sea necesario.  
   
      Por ejemplo, si desea que el proceso se reinicie automáticamente si éste pierde la conexión con el servidor, o si agrega algo al servidor y no se muestra en el asistente para adaptadores de Microsoft para su selección.  
   
     > [!NOTE]
-    >  Browsingagent.exe no se actualiza hasta que no salga de la sesión de exploración actual. Por ejemplo, debe salir de la **agregar genera elemento** exploración sesión y volver a entrar para actualizar browsingagent.exe.  
+    >  Browsingagent.exe no se actualiza hasta que no salga de la sesión de exploración actual. Por ejemplo, debe salir de la **agregar genera elemento** exploración de la sesión y vuelva a escribir para actualizar browsingagent.exe.  
   
 7.  Después de proporcionar toda la información necesaria, haga clic en **aplicar**y, a continuación, haga clic en **Aceptar** para aceptar la información de conexión.  
   
      Debe configurar parámetros de conexión para que el Adaptador de BizTalk para JD Edwards OneWorld pueda obtener acceso a JD Edwards OneWorld.  
   
-### <a name="adapter-required-properties"></a>Propiedades de adaptador necesario  
+### <a name="adapter-required-properties"></a>Propiedades de adaptador necesaria  
  Si no ha especificado variables de entorno globales en el Panel de control, puede hacerlo en esta sección.  
   
-|Parámetro|Description|  
+|Parámetro|Descripción|  
 |---------------|-----------------|  
 |`Host`|Escriba el nombre del nombre de equipo del servidor de host (por ejemplo, `actsvr1`); o la dirección IP del equipo (por ejemplo, `123.456.0.789`).|  
 |JAVA_HOME|Escriba la ruta de acceso completa de la instalación de JDK.|  
@@ -136,8 +136,8 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
 |Puerto|Escriba el número de puerto que intercambiará datos (por ejemplo, `6009`).|  
 |Nombre de usuario|Escriba un nombre de usuario de JD Edwards OneWorld que se usará para iniciar sesión en ese sistema.|  
 
-## <a name="use-the-xmltransmit-and-xmlreceive-pipelines"></a>Utilizar las canalizaciones XMLTransmit y XMLReceive
-Microsoft BizTalk Adapter para JD Edwards OneWorld requiere que seleccione XMLTransmit y XMLReceive para el envío y las canalizaciones de recepción.  
+## <a name="use-the-xmltransmit-and-xmlreceive-pipelines"></a>Usa las canalizaciones XMLTransmit y XMLReceive
+Microsoft BizTalk Adapter para JD Edwards OneWorld necesita que seleccione XMLTransmit y XMLReceive para el envío y las canalizaciones de recepción.  
   
 1.  En **administración de BizTalk Server**, expanda **aplicaciones**y, a continuación, expanda la aplicación.  
   
@@ -145,12 +145,12 @@ Microsoft BizTalk Adapter para JD Edwards OneWorld requiere que seleccione XMLTr
   
 3.  En el **propiedades de puertos de envío**, realice lo siguiente:  
   
-    1.  Seleccione la canalización de envío de la **canalización de envío** lista desplegable.  
+    1.  Seleccione la canalización de envío desde la **canalización de envío** lista desplegable.  
   
-    2.  Seleccione la canalización de recepción de la **canalización de recepción** lista desplegable.  
+    2.  Seleccione la canalización de recepción desde el **canalización de recepción** lista desplegable.  
   
 4.  Seleccione **Aceptar**.  
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Importar esquemas de adaptador en Visual Studio](importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects.md)  
+[Importar esquemas de adaptador a Visual Studio](importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects.md)  
 [Usar propiedades de contexto de mensaje](using-message-context-properties2.md)

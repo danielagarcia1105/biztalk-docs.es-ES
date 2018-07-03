@@ -1,5 +1,5 @@
 ---
-title: Controlar el flujo en el adaptador de BizTalk para JD Edwards OneWorld | Documentos de Microsoft
+title: Controlar el flujo en el adaptador de BizTalk para JD Edwards OneWorld | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0fc5a8be6516b61c4049242952967ce939513e9c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c777d909d5ffd405caec6641ef4a50a59e66b3b9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22237980"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978933"
 ---
 # <a name="control-flow-in-biztalk-adapter-for-jd-edwards-oneworld"></a>Control del flujo del adaptador de BizTalk para JD Edwards OneWorld
 En este tema se tratan los flujos de control de tiempo de diseño y de tiempo de ejecución en el Adaptador de Microsoft BizTalk para JD Edwards OneWorld.  
@@ -37,21 +37,21 @@ En este tema se tratan los flujos de control de tiempo de diseño y de tiempo de
   
  El adaptador habilita las aplicaciones de la empresa para que interactúen con la aplicación JD Edwards OneWorld extendiendo las funciones desde la aplicación en forma de uno o varios de los siguientes:  
   
--   Formatos de datos nativos  
+- Formatos de datos nativos  
   
--   Procedimientos  
+- Procedimientos  
   
--   Métodos  
+- Métodos  
   
--   Mensajes  
+- Mensajes  
   
--   Propiedades  
+- Propiedades  
   
--   Interfaces de aplicación  
+- Interfaces de aplicación  
   
- En tiempo de ejecución, el adaptador de BizTalk para JD Edwards OneWorld benera interfaces de aplicación para las aplicaciones cliente que interactúan con JD Edwards OneWorld. El adaptador puede crear, eliminar e invocar objetos empresariales según sea necesario, para realizar cálculos en la aplicación e invocar métodos directamente. Todas las llamadas a JD Edwards OneWorld son llamadas sincrónicas. El adaptador recibe los mensajes XML desde BizTalk Server, incluye los mensajes en un sobre SOAP y transforma los datos para la llamada desde mensajes SOAP a tipos de Java.  
+  En tiempo de ejecución, el adaptador de BizTalk para JD Edwards OneWorld benera interfaces de aplicación para las aplicaciones cliente que interactúan con JD Edwards OneWorld. El adaptador puede crear, eliminar e invocar objetos empresariales según sea necesario, para realizar cálculos en la aplicación e invocar métodos directamente. Todas las llamadas a JD Edwards OneWorld son llamadas sincrónicas. El adaptador recibe los mensajes XML desde BizTalk Server, incluye los mensajes en un sobre SOAP y transforma los datos para la llamada desde mensajes SOAP a tipos de Java.  
   
- La respuesta se devuelve siguiendo un proceso similar:  
+  La respuesta se devuelve siguiendo un proceso similar:  
   
 1.  Los tipos de Java se transforman en mensajes SOAP.  
   
@@ -69,4 +69,4 @@ En este tema se tratan los flujos de control de tiempo de diseño y de tiempo de
   
 ## <a name="see-also"></a>Vea también  
  [Desarrollo de aplicaciones](../core/developing-applications3.md)   
- [Planeamiento y arquitectura](../core/planning-and-architecture17.md)
+ [Planificación y arquitectura](../core/planning-and-architecture17.md)

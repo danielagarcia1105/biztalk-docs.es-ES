@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10778 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10778 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92eded3760aa2e2ea96c8f7c8c4f44e9d362a0ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 003b3f58e2160585e3acb4955b2728b28b2f292f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276772"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971413"
 ---
-# <a name="single-sign-on-event-10778"></a>Inicio de sesión único: Evento 10778
+# <a name="single-sign-on-event-10778"></a>De sesión único: Evento 10778
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10778|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_DECRYPT_FAILED|  
-|Texto del mensaje|Error de descifrado.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10778                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                  ENTSSO_E_DECRYPT_FAILED                   |
+|  Texto del mensaje   |                     Error de descifrado.                     |
   
 ## <a name="explanation"></a>Explicación  
  Código de error interno.  
   
 ## <a name="user-action"></a>Acción del usuario  
- Si se produce este error, póngase en contacto con los servicios de soporte técnico de Microsoft.
+ Si se produce este error, póngase en contacto con el soporte técnico de Microsoft.

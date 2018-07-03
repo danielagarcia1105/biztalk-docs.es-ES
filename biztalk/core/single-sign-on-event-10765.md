@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10765 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10765 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c0fbc04f4c8fc98a87de87a4cd48529a3ca7e2e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bd49ead3fc30d3b98ea804a98a5882696ea749d7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278420"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975109"
 ---
-# <a name="single-sign-on-event-10765"></a>Inicio de sesión único: Evento 10765
+# <a name="single-sign-on-event-10765"></a>De sesión único: Evento 10765
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10765|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_NO_CREDENTIALS|  
-|Texto del mensaje|No se establecieron credenciales para la asignación.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10765                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                  ENTSSO_E_NO_CREDENTIALS                   |
+|  Texto del mensaje   |       No se establecieron credenciales para la asignación.        |
   
 ## <a name="explanation"></a>Explicación  
  Se solicitó GetCredentials en una asignación, pero la asignación especificada no tiene credenciales.  

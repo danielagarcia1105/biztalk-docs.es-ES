@@ -1,5 +1,5 @@
 ---
-title: Determinación del esquema en el ensamblador 2.X HL7 | Documentos de Microsoft
+title: Determinación del esquema en el ensamblador HL7 2.X | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,34 +16,34 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 50a430750846ae2567f063f9aa77221bad9c97e0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 962f9576032ec8b42542111502c2b6d6698f98d1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206100"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983653"
 ---
-# <a name="schema-determination-in-the-hl7-2x-assembler"></a>Determinación del esquema en el ensamblador 2.X HL7
-Cuando se transmite un mensaje para el serializador, el serializador en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) usa MSH5 (entidad de destino) del mensaje para determinar las operaciones que se realizarán en el mensaje. Estas operaciones incluyen:  
+# <a name="schema-determination-in-the-hl7-2x-assembler"></a>Determinación del esquema en el ensamblador HL7 2.X
+Cuando un mensaje fluye al serializador, el serializador en el Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) usa MSH5 (entidad de destino) del mensaje para determinar las operaciones que se realizará en el mensaje. Estas operaciones incluyen:  
   
--   Si se debe realizar la validación de XML para los segmentos de cuerpo  
+- Si se debe realizar la validación de XML de segmentos de cuerpo  
   
--   Si se debe validar los tipos de datos personalizados para los segmentos de cuerpo  
+- Si se debe validar los tipos de datos personalizados para los segmentos de cuerpo  
   
--   Si desea permitir delimitadores en el cuerpo finales  
+- Si desea permitir delimitadores en el cuerpo de la derecha  
   
--   Qué espacio de nombres de destino de esquema va a usar el serializador  
+- Qué espacio de nombres de destino de esquema usará el serializador  
   
--   Si el serializador se debe asignar el encabezado  
+- Si el serializador se debe asignar el encabezado  
   
- Para determinar el esquema, el serializador realiza lo siguiente:  
+  Para determinar el esquema, el serializador realiza lo siguiente:  
   
--   Establece el espacio de nombres de destino (**TargetNS**) en el mismo valor que el espacio de nombres configurado para la entidad de destino  
+- Establece el espacio de nombres de destino (**TargetNS**) en el mismo valor que el espacio de nombres configurado para la entidad de destino  
   
--   Extrae **Rootnode** desde el **BTS. MessageType** propiedad promocionada  
+- Extrae **Rootnode** desde el **BTS. MessageType** propiedad promocionada  
   
- El **doctype** se convierte en **TargetNS + "#" + Rootnode**.  
+  El **doctype** se convierte en **TargetNS + "#" + Rootnode**.  
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-processing.md)   
- [Procesamiento de archivo sin formato BTAHL72X](../../adapters-and-accelerators/accelerator-hl7/btahl72x-flat-file-processing.md)
+ [Procesamiento de archivos planos BTAHL72X](../../adapters-and-accelerators/accelerator-hl7/btahl72x-flat-file-processing.md)

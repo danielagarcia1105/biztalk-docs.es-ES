@@ -1,5 +1,5 @@
 ---
-title: Encabezados SOAP con servicios WCF publicados | Documentos de Microsoft
+title: Encabezados SOAP con servicios WCF publicados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,15 +16,15 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78f36e778930a781ac797e18308240ecb4bef667
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ea48ab7afeae2b54136c9134d3ef92878b802924
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975690"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985373"
 ---
 # <a name="soap-headers-with-published-wcf-services"></a>Encabezados SOAP con servicios WCF publicados
-Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado SOAP en los mensajes entrantes en el **InboundHeaders** propiedad, o puede escribir o promover valores específicos en el contexto del mensaje de BizTalk. Los adaptadores pueden funcionar con los encabezados SOAP personalizados y los encabezados SOAP estándar que utiliza la infraestructura de WCF, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. El **InboundHeaders** propiedad de contexto está en el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**y contiene representaciones de cadena de SOAP valores de encabezado de mensajes entrantes.  
+Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado SOAP en los mensajes entrantes en el **InboundHeaders** propiedad, o puede escribir o promover valores específicos en el contexto del mensaje de BizTalk. Los adaptadores pueden funcionar con los encabezados SOAP personalizados y los encabezados SOAP estándar que utiliza la infraestructura de WCF, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. El **InboundHeaders** es propiedad de contexto en el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**y contiene representaciones de cadena de los valores del encabezado SOAP en mensajes entrantes.  
   
 > [!NOTE]
 >  Si va a promover los valores del encabezado SOAP que ha especificado, debe haber un esquema de propiedades implementado en el proyecto de BizTalk que corresponda a los valores que se van a promover.  
@@ -32,7 +32,7 @@ Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado S
 > [!NOTE]
 >  Las propiedades promocionadas no pueden ser superiores a 256 caracteres.  
   
- Los siguientes datos XML muestran un ejemplo de la representación de cadena de los encabezados SOAP para la **InboundHeaders** propiedad. Esto se recibe desde el cliente y se envía a la ubicación de recepción de BizTalk.  
+ Los siguientes datos XML muestran un ejemplo de la representación de cadena de los encabezados SOAP para el **InboundHeaders** propiedad. Esto se recibe desde el cliente y se envía a la ubicación de recepción de BizTalk.  
   
 ```  
 <headers>  
@@ -46,15 +46,15 @@ Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado S
   
  Para escribir o promover los valores del encabezado SOAP en el contexto del mensaje de BizTalk, es necesario colocar una colección de parejas de valores que se componen del nombre de propiedad y de espacio de nombres en el mensaje WCF, de modo que los adaptadores de WCF reconocerán que los valores de encabezado se deben escribir o promover. Un adaptador de WCF espera las siguientes propiedades del mensaje en los mensajes de WCF para escribir o promover los valores del encabezado SOAP en el contexto del mensaje de BizTalk:  
   
--   Para promover los valores del encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF se buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote** y el valor **lista\< KeyValuePair\<XmlQualifiedName, objeto\>\>**.  
+- Para promover los valores de encabezado SOAP en el contexto de mensaje de BizTalk, adaptadores WCF buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote** y valor **lista\<KeyValuePair\<XmlQualifiedName, objeto \>\>**.  
   
-     Con esta pareja, adaptadores de WCF toman el espacio de nombres, el nombre y el valor de la **XmlQualifiedName** objeto y usarlos para la promoción de los valores de encabezado.  
+   Con esta pareja, adaptadores de WCF toman el espacio de nombres, nombre y valor de la **XmlQualifiedName** objeto y usarlos para promover los valores de encabezado.  
   
--   Para escribir pero no promover los valores del encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF se buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext** y el valor  **Lista\<KeyValuePair\<XmlQualifiedName, objeto\>\>**.  
+- Para escribir pero no promover los valores de encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext** y valor **lista\<KeyValuePair\< XmlQualifiedName, objeto\>\>**.  
   
-     Con esta pareja, los adaptadores de WCF escriben los valores en el contexto del mensaje.  
+   Con esta pareja, los adaptadores de WCF escriben los valores en el contexto del mensaje.  
   
- El siguiente código muestra cómo escribir o promover los valores del encabezado SOAP en el contexto del mensaje de BizTalk:  
+  El siguiente código muestra cómo escribir o promover los valores del encabezado SOAP en el contexto del mensaje de BizTalk:  
   
 ```  
 const string PropertiesToPromoteKey="http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote";  
@@ -100,5 +100,5 @@ wcfMessage.Properties[PropertiesToWriteKey]=writeProps;
 -   [Obtener acceso a encabezados SOAP en mensajes WCF con componentes de canalización](../core/accessing-soap-headers-in-wcf-messages-with-pipeline-components.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Propiedades y esquema de propiedades de adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   
+ [Las propiedades y esquema de propiedades de los adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   
  [Encabezados SOAP con servicios WCF consumidos](../core/soap-headers-with-consumed-wcf-services.md)

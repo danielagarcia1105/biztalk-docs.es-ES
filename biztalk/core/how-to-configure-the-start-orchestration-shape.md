@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar la forma Iniciar orquestación | Documentos de Microsoft
+title: Cómo configurar la forma Iniciar orquestación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,37 +20,37 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f8181849b700939ba86f55cd372b80ed2ebf70e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4877d775b30f7ab407f57ebf2679f8cb65a0ef08
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974917"
 ---
 # <a name="how-to-configure-the-start-orchestration-shape"></a>Cómo configurar la forma Iniciar orquestación
-El **Iniciar orquestación** forma es similar a la **orquestación de llamada** forma, pero invoca otra orquestación de forma asincrónica con el **Iniciar orquestación** forma, es decir, el flujo de control en la orquestación invocar continúa más allá de la invocación, sin esperar a la orquestación invocada finalizar su trabajo.  
+El **Iniciar orquestación** forma es similar a la **orquestación de llamada** forma, pero invoca otra orquestación de forma asincrónica con el **Iniciar orquestación** forma, es decir, el flujo de control en la orquestación invoca continúa más allá de la invocación, sin esperar a la orquestación invocada termine.  
   
- Puede especificar parámetros que pasarán a la orquestación invocada. Los parámetros pueden ser mensajes, variables, referencias a puertos, vínculos de función o conjuntos de correlaciones. El **Iniciar orquestación** forma solo puede tomar *en* parámetros; no puede tomar *out* o *ref* parámetros.  
+ Puede especificar parámetros que pasarán a la orquestación invocada. Los parámetros pueden ser mensajes, variables, referencias a puertos, vínculos de función o conjuntos de correlaciones. El **Iniciar orquestación** solo puede tomar la forma *en* parámetros; no puede tomar *out* o *ref* parámetros.  
   
 > [!CAUTION]
 >  Si pasa objetos no serializables como XmlDocument o XmlNode como parámetros a una orquestación, se generará un error.  
   
- El **Iniciar orquestación** forma es la única forma en que se puede invertir la polaridad en un puerto que se pasa como parámetro, por ejemplo un *utiliza* (puerto de envío) se puede pasar a una orquestación invocada, pero la orquestación invocada puede tratarlo como un *implementa* puerto (puerto de recepción). Tenga en cuenta que esto sólo se puede hacer con puertos que usen enlaces directos.  
+ El **Iniciar orquestación** forma es la única forma en que puede invertir la polaridad en un puerto que se pasa como parámetro, por ejemplo un *usa* (puerto de envío) se puede pasar a una orquestación invocada, pero la orquestación invocada puede tratarlo como un *implementa* puerto (puerto de recepción). Tenga en cuenta que esto sólo se puede hacer con puertos que usen enlaces directos.  
   
- El **Iniciar orquestación** forma también puede utilizarse para llamar a una orquestación que se hace referencia en otro proyecto. Esto permite volver a utilizar patrones de flujo de trabajo de orquestaciones comunes en los proyectos de BizTalk. Para que la orquestación que se hace referencia se puede llamar, asegúrese de que el **modificador de tipo** propiedad para la orquestación de llamada está establecida en **público**. Para establecer el **modificador de tipo** propiedad para una orquestación **público**, abra la orquestación en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], haga clic en la forma Inicio verde en la parte superior de la orquestación para mostrar el  **Propiedades de orquestación** cuadro de diálogo y establezca el **modificador de tipo** propiedad **público**. El valor predeterminado de **modificador de tipo** es **privada**.  
+ El **Iniciar orquestación** forma también se puede usar para llamar a una orquestación que se hace referencia en otro proyecto. Esto permite volver a utilizar patrones de flujo de trabajo de orquestaciones comunes en los proyectos de BizTalk. Para que poder llamar a la orquestación que se hace referencia, asegúrese de que el **modificador de tipo** propiedad para la orquestación de llamada se establece en **pública**. Para establecer el **modificador de tipo** propiedad para una orquestación **pública**, abra la orquestación en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], haga clic en la forma Inicio verde en la parte superior de la orquestación para mostrar el  **Propiedades de orquestación** cuadro de diálogo y establezca el **modificador de tipo** propiedad **pública**. El valor predeterminado de **modificador de tipo** es **privada**.  
   
- Para obtener un ejemplo de cómo usar **Iniciar orquestación** forma, descargue el ejemplo SDK "Implementing Scatter and Gather Pattern" de [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).  
+ Para obtener un ejemplo de cómo usar **Iniciar orquestación** forma, descargue el ejemplo SDK "Implementing Scatter y Gather Pattern" de [ http://go.microsoft.com/fwlink/?LinkId=73703 ](http://go.microsoft.com/fwlink/?LinkId=73703).  
   
 ### <a name="to-configure-a-start-orchestration-shape"></a>Para configurar una forma Iniciar orquestación  
   
-1.  Mediante el **selección de orquestación** cuadro de lista desplegable, seleccione una orquestación de la lista.  
+1. Mediante el **selección de orquestación** cuadro de lista desplegable, seleccione una orquestación de la lista.  
   
-2.  Mediante el **parámetros de orquestación** cuadrícula controlar, especifique argumentos que se pasarán a la orquestación: según lo especificado en el **selección de orquestación** cuadro de lista desplegable, que se inicia. Para especificar estos argumentos en las celdas de la columna Variable (una variable por celda) puede escribir el nombre de una variable o hacer clic en una variable de la lista desplegable de la celda.  
+2. Mediante el **parámetros de orquestación** cuadrícula controlar, especificar argumentos para pasar a la orquestación, según lo especificado en el **selección de orquestación** cuadro de lista desplegable, que se ha iniciado. Para especificar estos argumentos en las celdas de la columna Variable (una variable por celda) puede escribir el nombre de una variable o hacer clic en una variable de la lista desplegable de la celda.  
   
-3.  Para configurar el **Iniciar orquestación** forma según el servicio y los argumentos que especificó en el cuadro de diálogo, haga clic en **Aceptar**. Para cerrar la **iniciar configuración de orquestación** cuadro de diálogo sin realizar ningún cambio a la **Iniciar orquestación** forma, haga clic en **cancelar**.  
+3. Para configurar el **Iniciar orquestación** forma según el servicio y los argumentos que especificó en el cuadro de diálogo, haga clic en **Aceptar**. Para cerrar el **iniciar configuración de orquestación** cuadro de diálogo sin realizar ningún cambio a la **Iniciar orquestación** forma, haga clic en **cancelar**.  
   
-    > [!CAUTION]
-    >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no admite orquestaciones recursivas. Si Orquestación A llama a Orquestación B o la inicia, ésta no podrá llamar a Orquestación A o iniciarla directamente; tampoco podrá llamar a las orquestaciones que llamen directa o indirectamente a la Orquestación A, ni iniciarlas.  
+   > [!CAUTION]
+   >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no admite orquestaciones recursivas. Si Orquestación A llama a Orquestación B o la inicia, ésta no podrá llamar a Orquestación A o iniciarla directamente; tampoco podrá llamar a las orquestaciones que llamen directa o indirectamente a la Orquestación A, ni iniciarlas.  
   
 ## <a name="orchestration-selection-drop-down-list-box"></a>Cuadro de lista desplegable de selección de orquestación  
  Haga clic en la flecha hacia abajo que se encuentra en el cuadro de lista desplegable para ver las orquestaciones disponibles y seleccionar uno. Esta lista contiene todas las orquestaciones que se pueden iniciar desde la orquestación actual, incluidos los ensamblados a los que se hace referencia.  

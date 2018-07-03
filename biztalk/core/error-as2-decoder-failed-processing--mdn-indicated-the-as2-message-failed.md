@@ -1,5 +1,5 @@
 ---
-title: El descodificador AS2 no pudo procesar el MDN indicó el procesamiento del mensaje de error de AS2 | Documentos de Microsoft
+title: El descodificador AS2 no pudo procesar el MDN indicó el procesamiento del mensaje error de AS2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20454f1c551b6b4828c42e09f0442b83275256ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 240c90d488d313bf43982c7c98db3e8a1ea05e75
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22240124"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984501"
 ---
 # <a name="the-as2-decoder-failed-processing-because-the-mdn-indicated-the-as2-message-failed-processing"></a>Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|AS2DecoderMdnProcessingFailureReturned|  
-|Texto del mensaje|Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2.  Detalles del mensaje MDN son los siguientes: AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}" OriginalMessageID: "\ {3\}"|  
+|                 |                                                                                                                                                                                                                  |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                |
+| Versión del producto |                                                                            [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                            |
+|    Identificador del evento     |                                                                                                        -                                                                                                         |
+|  Origen del evento   |                                                              EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                              |
+|    Componente    |                                                                                                    Motor AS2                                                                                                    |
+|  Nombre simbólico  |                                                                                      AS2DecoderMdnProcessingFailureReturned                                                                                      |
+|  Texto del mensaje   | Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2.  Detalles del mensaje MDN son los siguientes: AS2-de: "{0}" AS2-para: "{1}" MessageID: "{2}" OriginalMessageID: "{3}" |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la respuesta de MDN indica que el receptor del mensaje AS2 original no pudo procesar el mensaje AS2 original.  

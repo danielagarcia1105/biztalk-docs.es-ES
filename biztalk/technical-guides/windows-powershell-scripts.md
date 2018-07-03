@@ -1,5 +1,5 @@
 ---
-title: Scripts de Windows PowerShell | Documentos de Microsoft
+title: Scripts de Windows PowerShell | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,21 +12,21 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4248a81f918b674dcf72c930132b7743472241f3
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b531fa3469139434f341fe9e413a49b4b021e86f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976346"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979133"
 ---
 # <a name="windows-powershell-scripts"></a>Scripts de Windows PowerShell
-Este tema contiene las secuencias de comandos de Windows PowerShell que se pueden ejecutar en los equipos en un entorno de BizTalk Server para aplicar la configuración del registro descrita en esta guía.  
+En este tema contiene scripts de Windows PowerShell que se pueden ejecutar en los equipos en un entorno de BizTalk Server para aplicar la configuración del registro descrita en esta guía.  
   
-> [!IMPORTANT]  
->  Sólo se deben ejecutar estos scripts [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)], no en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. Mientras estas secuencias de comandos se ejecutarán correctamente en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], pruebas de laboratorio ha indicado que estas secuencias de comandos no proporcionan ninguna ventaja de rendimiento significativas en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. Estos scripts solo deben ejecutarse un [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] entorno de producción después de realizar pruebas minuciosas y evaluación.  
+> [!IMPORTANT]
+>  Sólo se deben ejecutar estos scripts [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)], no en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. Mientras estas secuencias de comandos se ejecutarán correctamente en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], las pruebas en laboratorio ha indicado que estos scripts no proporcionan ninguna ventaja de rendimiento significativas en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. Sólo se deben ejecutar estos scripts un [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] entorno de producción después de realizar pruebas minuciosas y evaluación.  
   
 ## <a name="optimizing-operating-system-performance-through-registry-settings"></a>Optimizar el rendimiento del sistema operativo a través de la configuración del registro  
- El siguiente script de Windows PowerShell se puede usar para aplicar la configuración del registro descrita en [optimizar el rendimiento del sistema operativo](../technical-guides/optimizing-operating-system-performance.md).  
+ El siguiente script de Windows PowerShell puede usarse para aplicar la configuración del registro descrita en [optimizar el rendimiento del sistema operativo](../technical-guides/optimizing-operating-system-performance.md).  
   
  Copie el script siguiente en el Bloc de notas y guardar como conjunto OSRegSettings.ps1. A continuación, ejecute el script en cada equipo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno siguiendo las instrucciones de [optimizar el rendimiento del sistema operativo](../technical-guides/optimizing-operating-system-performance.md):  
   
@@ -121,10 +121,10 @@ SetProperty "HKLM:\System\CurrentControlSet\Services\LanmanServer\Parameters" "S
 SetProperty "HKLM:\System\CurrentControlSet\Control\Session Manager\Memory Management" "LargeSystemCache" 0          
 ```  
   
-## <a name="optimizing-network-performance-through-registry-settings"></a>Optimizar el rendimiento de la red a través de la configuración del registro  
- El siguiente script de Windows PowerShell se puede usar para aplicar la configuración del registro descrita en [optimizar el rendimiento de red](../technical-guides/optimizing-network-performance.md).  
+## <a name="optimizing-network-performance-through-registry-settings"></a>Optimizar el rendimiento de red a través de la configuración del registro  
+ El siguiente script de Windows PowerShell puede usarse para aplicar la configuración del registro descrita en [optimización del rendimiento de red](../technical-guides/optimizing-network-performance.md).  
   
- Copie el script siguiente en el Bloc de notas y guardar como conjunto NetworkRegSettings.ps1. A continuación, ejecute el script en cada equipo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno siguiendo las instrucciones de [optimizar el rendimiento de red](../technical-guides/optimizing-network-performance.md):  
+ Copie el script siguiente en el Bloc de notas y guardar como conjunto NetworkRegSettings.ps1. A continuación, ejecute el script en cada equipo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno siguiendo las instrucciones de [optimización del rendimiento de red](../technical-guides/optimizing-network-performance.md):  
   
 ```  
 #Set-NetworkRegSettings.ps1  

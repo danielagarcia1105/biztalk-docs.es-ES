@@ -1,5 +1,5 @@
 ---
-title: Sugerencias para diseñar un adaptador | Documentos de Microsoft
+title: Sugerencias para diseñar un adaptador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,22 +12,22 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 93c59efc2ae811827cd0cb1cf4763485b675f4ea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 306cb2ae9aeca57804a57f0dfa8c1de1bfd0025d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279868"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982685"
 ---
 # <a name="tips-for-designing-your-adapter"></a>Sugerencias para diseñar un adaptador
 Esta sección contiene sugerencias e ideas que los programadores de adaptadores han aprendido al diseñar adaptadores.  
   
 ## <a name="handler-properties-should-be-strings-if-used-as-default-configurations"></a>Las propiedades de controlador deben ser cadenas si se usan como configuraciones predeterminadas  
- Parece interesante usar las propiedades en la hoja de propiedades de controlador generado mediante XSD como valores predeterminados para sus **ubicación** propiedades porque si el valor no está establecido en **ubicación** el tiempo de ejecución automáticamente usa el valor establecido en el controlador. Pero existen varios problemas que reducen la utilidad de esta posibilidad.  
+ Parece interesante usar las propiedades en la hoja de propiedades de controlador generado mediante XSD como valores predeterminados para sus **ubicación** propiedades porque si el valor no se establece **ubicación** el tiempo de ejecución automáticamente usa el valor establecido en el controlador. Pero existen varios problemas que reducen la utilidad de esta posibilidad.  
   
  El problema aparece cuando no se sabe si el valor presentado en tiempo de ejecución debe sobrescribirse o no. La forma habitual de hacerlo es definir alguna noción de NULL para los valores y, a continuación, ejecutar una prueba con ese valor. El problema de usar hojas de propiedades basadas en XSD en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es que NULL solo se admite para cadenas. Aunque desee que el adaptador tenga una configuración predeterminada mediante el uso de esta prueba de NULL y esté dispuesto a restringir el adaptador a los tipos de cadena, sigue arriesgándose a obtener una interfaz de usuario de lo más extraño.  
   
- Las hojas de propiedades generado mediante XSD solo admiten la configuración de una propiedad en NULL haciendo clic en la propiedad, momento en que un **anulan?** aparece el menú contextual y la propiedad puede establecerse en NULL. No existe ninguna información visual que indique si una propiedad es NULL.  
+ Las hojas de propiedades generado mediante XSD solo admiten la configuración de una propiedad en NULL con el botón secundario de la propiedad, momento en que un **anulan?** aparece el menú contextual y la propiedad puede establecerse en NULL. No existe ninguna información visual que indique si una propiedad es NULL.  
   
 ## <a name="considerations-for-implementing-schema-generation-wizards"></a>Consideraciones sobre la implementación de asistentes para generación de esquemas  
  Los programadores prefieren escribir código basado en modelos de objetos de tipo seguro. Al principio, manipular XML en el código puede parecer extraño y proclive a errores. Pero algunos trucos y el uso inteligente de la compatibilidad que ofrece .NET Framework pueden simplificarlo todo de manera drástica.  
@@ -55,11 +55,11 @@ Esta sección contiene sugerencias e ideas que los programadores de adaptadores 
   
  La solución en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es:  
   
--   Usar conjuntos de correlaciones en la orquestación  
+- Usar conjuntos de correlaciones en la orquestación  
   
--   Configurar dos puertos independientes: uno para el envío y otro para la recepción  
+- Configurar dos puertos independientes: uno para el envío y otro para la recepción  
   
- En un caso sencillo, la orquestación especifica el Id. de correlación asociado al mensaje por el adaptador. Éste se pasa al adaptador como propiedad de contexto en el mensaje. En un caso más complejo, el escenario requiere el sistema de mensajería externo asignar el identificador. En este caso se puede pasar desde el puerto de envío a la orquestación con un mensaje de respuesta. Este mensaje de respuesta se utiliza exclusivamente para devolver el Id., y no es la verdadera respuesta al mensaje.  
+  En un caso sencillo, la orquestación especifica el Id. de correlación asociado al mensaje por el adaptador. Éste se pasa al adaptador como propiedad de contexto en el mensaje. En un caso más complejo, el escenario llama al sistema de mensajería externa asignar el identificador. En este caso se puede pasar desde el puerto de envío a la orquestación con un mensaje de respuesta. Este mensaje de respuesta se utiliza exclusivamente para devolver el Id., y no es la verdadera respuesta al mensaje.  
   
 > [!NOTE]
 >  Existe una condición de anticipación en el motor de orquestación que permite que la verdadera respuesta al mensaje llegue antes que la respuesta del Id. correspondiente al envío. Esta condición de anticipación se debe controlar en la propia orquestación.

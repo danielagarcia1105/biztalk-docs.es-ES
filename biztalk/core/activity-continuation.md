@@ -1,5 +1,5 @@
 ---
-title: Continuación de actividad | Documentos de Microsoft
+title: Continuación de actividad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,32 +18,32 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7568da0647ae9847c3de2d060d75a53466b9709
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 91eadd02e3b0a8792b9b27ea6c913b847b534456
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22224796"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981997"
 ---
 # <a name="activity-continuation"></a>Continuación de actividad
-La actividad de BAM (a la que también se denomina la actividad de negocio) puede abarcar varias aplicaciones heterogéneas (por ejemplo, una canalización, dos orquestaciones, una aplicación de líneas de negocio y la otra canalización). La infraestructura de BAM puede correlacionar los eventos de varias aplicaciones con un poco de Ayuda del programador, concepto que se denomina "*continuación*," que se muestra en la ilustración siguiente.  
+La actividad de BAM (a la que también se denomina la actividad de negocio) puede abarcar varias aplicaciones heterogéneas (por ejemplo, una canalización, dos orquestaciones, una aplicación de líneas de negocio y la otra canalización). La infraestructura de BAM puede correlacionar los eventos de varias aplicaciones con un poco de Ayuda del programador, un concepto denominado "*continuación*," que se muestra en la ilustración siguiente.  
   
  ![](../core/media/ebiz-prog-bam-fig4-app-scopes-cont-tokens.gif "ebiz_prog_bam_fig4_app_scopes_cont_tokens")  
 
 ## <a name="applications"></a>Aplicaciones  
- La primera parte de la actividad ocurre en la aplicación de ventas, la segunda parte de la actividad ocurre en la aplicación de empaquetado y ensamblado y, por último, el progreso de entrega está disponible en la aplicación de envíos. Cada aplicación utiliza identificadores diferentes para la unidad de trabajo actual: número de pedido (PO), número de pedido de venta (SO) y el número de orden de envío (UPS) de la compra. Para correlacionar los eventos entre dos aplicaciones diferentes, es necesario:  
+ La primera parte de la actividad ocurre en la aplicación de ventas, la segunda parte de la actividad ocurre en la aplicación ENS & Amblado de empaquetado y, por último, el progreso de entrega está disponible en la aplicación de envíos. Cada aplicación utiliza identificadores diferentes para la unidad de trabajo actual: número de pedido (PO), número de pedido de ventas (SO) y el número de pedido de envío (UPS) de la compra. Para correlacionar los eventos entre dos aplicaciones diferentes, es necesario:  
   
--   Identificar el token de continuación, que es un conjunto único de datos que está disponible para las dos aplicaciones (por ejemplo, la parte del mensaje que se intercambia).  
+- Identificar el token de continuación, que es un conjunto único de datos que está disponible para las dos aplicaciones (por ejemplo, la parte del mensaje que se intercambia).  
   
--   Llamar a EnableContinuation en la primera aplicación y pase el token de continuación junto con el ActivityID actual.  
+- Llamar a EnableContinuation en la primera aplicación y pase el token de continuación junto con el ActivityID actual.  
   
--   No llame a BeginActivity en la segunda aplicación.  
+- No llame a BeginActivity en la segunda aplicación.  
   
--   Activar todos los eventos posteriores en la segunda aplicación mediante el token de continuación en vez de ActivityID.  
+- Activar todos los eventos posteriores en la segunda aplicación mediante el token de continuación en vez de ActivityID.  
   
- En el ejemplo del código siguiente se ilustra el uso de continuación de actividad entre tres aplicaciones:  
+  En el ejemplo del código siguiente se ilustra el uso de continuación de actividad entre tres aplicaciones:  
   
- **Aplicación de pedidos de compra**  
+  **Aplicaciones de pedido de compra**  
   
 ```  
 string oID="PO#123";  
@@ -97,4 +97,4 @@ es.EndActivity("PurchaseOrder",upsID)
   
  [Infraestructura dinámica de BAM](../core/bam-dynamic-infrastructure.md)   
  [API de BAM (ejemplo de BizTalk Server)](../core/bam-api-biztalk-server-sample.md)   
- [BAM-to-End (ejemplo de BizTalk Server)](../core/bam-end-to-end-biztalk-server-sample.md)
+ [Extremo a extremo de BAM (ejemplo de BizTalk Server)](../core/bam-end-to-end-biztalk-server-sample.md)

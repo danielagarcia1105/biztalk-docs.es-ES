@@ -1,5 +1,5 @@
 ---
-title: Herramientas de tiempo de administración y ejecución | Documentos de Microsoft
+title: Herramientas de tiempo de administración y ejecución | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,27 +23,27 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 479532d41259ebb7f50877ea75bdd79051160bb3
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: ca5a941ebe6ab2710c2c49ee701ef4af0d12fb1d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004501"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979653"
 ---
 # <a name="administration-and-run-time-tools"></a>Herramientas de administración y tiempo de ejecución
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona un conjunto de herramientas para realizar tareas de tiempo de ejecución y administrativas, como la implementación, administración de configuración, administración, administración de reglas de negocio y la supervisión. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.  
+Microsoft BizTalk Server y Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona un conjunto de herramientas para realizar tareas de tiempo de ejecución y administrativas, como la implementación, administración de configuración, administración, administración de reglas de negocio y la supervisión. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] herramientas, consulte la Ayuda de servidor de MicrosoftBizTalk.  
   
 ## <a name="biztalk-explorer"></a>Explorador de BizTalk  
- Utilice el Explorador de BizTalk para configurar y administrar proyectos, entidades y orquestaciones. El Explorador de BizTalk muestra el contenido de la base de datos de configuración (también conocido como la administración de BizTalk base de datos), que muestra elementos como ensamblados, puertos y entidades (en un árbol jerárquico).  
+ Utilice el Explorador de BizTalk para configurar y administrar proyectos, entidades y orquestaciones. El Explorador de BizTalk muestra el contenido de la base de datos de configuración (también conocida como la administración de BizTalk base de datos), que muestra elementos como ensamblados, puertos y entidades (en un árbol jerárquico).  
   
 ## <a name="btahl7-configuration-explorer"></a>BTAHL7 Explorador de configuración  
- Con [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración, puede revisar y configurar las definiciones de lote, las configuraciones de confirmación y configuración de almacén de datos de registro. Con [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración, puede iniciativa activación, la solicitud y la terminación de en el nivel de entidad de procesamiento por lotes.  
+ Con [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración, puede revisar y configurar las definiciones de batch, las configuraciones de confirmación y configuración de almacén de datos de registro. Uso de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración, puede activación iniciativa, la solicitud y la terminación de en el nivel de entidad de procesamiento por lotes.  
   
 ## <a name="business-rule-engine"></a>Motor de reglas de negocios  
- El motor de reglas de negocios (BRE) de BizTalk es un motor de inferencia de tiempo de ejecución que puede usar para evaluar las reglas con respecto a datos e iniciar acciones según los resultados de la evaluación.  
+ El motor de reglas de negocios (BRE) de BizTalk es un motor de inferencia de tiempo de ejecución que puede usar para evaluar reglas con respecto a datos e iniciar acciones según los resultados de la evaluación.  
   
 ## <a name="windows-performance-monitors"></a>Monitores de rendimiento de Windows  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite el uso de [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] rendimiento supervisa el estado de conexión y en su totalidad (procesa y rechazado).  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] admite el uso de [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] rendimiento supervisa el estado de conexión y en su totalidad (procesa y rechazado).  
   
 ## <a name="see-also"></a>Vea también  
  [Herramientas y características](../../adapters-and-accelerators/accelerator-hl7/tools-and-features.md)   

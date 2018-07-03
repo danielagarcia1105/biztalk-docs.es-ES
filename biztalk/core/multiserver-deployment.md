@@ -1,5 +1,5 @@
 ---
-title: Implementación multiservidor | Documentos de Microsoft
+title: Implementación multiservidor | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af87c78ef632ea9794d725cb70440d62371c349e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: e857aece2911aa9f1b3551f339524d2262cc0bf4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974442"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979765"
 ---
 # <a name="multiserver-deployment"></a>Implementación multiservidor
 En este tema se analizan la implementación y configuración multiservidor del adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Windows SharePoint Services.  
@@ -36,24 +36,24 @@ En este tema se analizan la implementación y configuración multiservidor del a
   
  El adaptador de Windows SharePoint Services tiene tres componentes:  
   
--   Componentes de tiempo de ejecución  
+- Componentes de tiempo de ejecución  
   
--   Componentes de tiempo de diseño  
+- Componentes de tiempo de diseño  
   
--   Servicio web del adaptador  
+- Servicio web del adaptador  
   
- La característica de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instala y configura automáticamente el tiempo de ejecución del adaptador. Los componentes de tiempo de diseño del adaptador se instalan y configuran con otras características de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para interactuar con los componentes de tiempo de diseño, cree puertos de Windows SharePoint Services con las herramientas que se incluyen en las características Herramientas de administración, SDK y Herramientas de programadores o Tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No puede personalizar ninguna de las opciones de configuración de los componentes de tiempo de ejecución y tiempo de diseño. Únicamente puede personalizar las opciones del servicio web del adaptador de Windows SharePoint Services.  
+  La característica de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instala y configura automáticamente el tiempo de ejecución del adaptador. Los componentes de tiempo de diseño del adaptador se instalan y configuran con otras características de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para interactuar con los componentes de tiempo de diseño, cree puertos de Windows SharePoint Services con las herramientas que se incluyen en las características Herramientas de administración, SDK y Herramientas de programadores o Tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No puede personalizar ninguna de las opciones de configuración de los componentes de tiempo de ejecución y tiempo de diseño. Únicamente puede personalizar las opciones del servicio web del adaptador de Windows SharePoint Services.  
   
- Solo los miembros del grupo Hosts habilitados de SharePoint tienen permiso para invocar el servicio web del adaptador. Para obtener más información acerca de los permisos de Windows SharePoint Services que sea necesario mediante la ejecución del adaptador de Windows SharePoint Services, vea la sección de seguridad en [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
+  Solo los miembros del grupo Hosts habilitados de SharePoint tienen permiso para invocar el servicio web del adaptador. Para obtener más información acerca de los permisos de Windows SharePoint Services necesita el tiempo de ejecución del adaptador de Windows SharePoint Services, consulte la sección de seguridad en [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
   
 > [!NOTE]
 >  El componente de servicio web del adaptador de Windows SharePoint Services se selecciona automáticamente si elige instalar BAS.  
   
 #### <a name="to-install-the-windows-sharepoint-services-adapter"></a>Para instalar el adaptador de Windows SharePoint Services  
   
-1.  Instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para obtener más información, consulte [Introducción a la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+1. Instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para obtener más información, consulte [Introducción a la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
-2.  En el **instalación de componentes** pantalla **componentes disponibles**, en **Software adicional**, seleccione **adaptador de Windows SharePoint Services Servicio Web**.  
+2. En el **instalación de componentes** pantalla **componentes disponibles**, en **Software adicional**, seleccione **adaptador de Windows SharePoint Services Servicio Web**.  
   
 > [!NOTE]
 >  Debe ejecutar la instalación y configuración tanto en el equipo que hospeda el tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] como en el equipo que ejecuta Windows SharePoint Services.  
@@ -69,7 +69,7 @@ En este tema se analizan la implementación y configuración multiservidor del a
 |Use|Para|  
 |--------------|----------------|  
 |**Habilitar a adaptador de Windows SharePoint Services en este equipo**|Seleccione **habilitar adaptador de Windows SharePoint Services en este equipo** para habilitar el adaptador en este equipo.|  
-|**Grupo de Windows**|El **grupo de Windows** lista proporciona una vista que se puede editar del grupo de Windows de Hosts habilitados de BizTalk SharePoint adaptador.|  
+|**Grupo de Windows**|El **grupo Windows** lista proporciona una vista que se puede editar del grupo de BizTalk SharePoint adaptador habilita Hosts Windows.|  
 |**Sitio Web del adaptador de Windows SharePoint Services**|Seleccione el sitio web que hospedará el servicio web del adaptador de Windows SharePoint Services.|  
   
  Al configurar el adaptador de Windows SharePoint Services con la configuración personalizada, ocurre lo siguiente:  
@@ -85,24 +85,24 @@ En este tema se analizan la implementación y configuración multiservidor del a
 > [!NOTE]
 >  Si ya existe este directorio virtual, la configuración no actualizará las propiedades en la metabase. Debe eliminar el directorio virtual y ejecutar de nuevo la configuración.  
   
--   La aplicación virtual BTSharePointAdapterWS contiene el servicio Web  
+- La aplicación virtual BTSharePointAdapterWS contiene el servicio Web  
   
- Para obtener más información acerca de la configuración de BizTalk Server, vea [importar y exportar la configuración de BizTalk Server](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
+  Para obtener más información sobre la configuración de BizTalk Server, consulte [importar y exportar la configuración de BizTalk Server](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
   
 ##### <a name="to-configure-the-windows-sharepoint-services-adapter-by-using-custom-configuration"></a>Para configurar el adaptador de Windows SharePoint Services con la configuración personalizada  
   
-1.  En el **configuración de BizTalk Server**, seleccione la **adaptador de Windows SharePoint** nodo.  
+1. En el **configuración de BizTalk Server**, seleccione el **adaptador de SharePoint** nodo.  
   
-2.  Seleccione **habilitar adaptador de Windows SharePoint Services en este equipo**.  
+2. Seleccione **habilitar adaptador de Windows SharePoint Services en este equipo**.  
   
-3.  En **grupo de Windows**, seleccione el grupo de Windows que se va a usar para el adaptador de Windows SharePoint Services. El grupo predeterminado es Hosts habilitados de SharePoint.  
+3. En **grupo Windows**, seleccione el grupo de Windows que se va a usar para el adaptador de Windows SharePoint Services. El grupo predeterminado es Hosts habilitados de SharePoint.  
   
-4.  En el **sitio Web de adaptador de Windows SharePoint Services** cuadro de lista desplegable, seleccione el sitio Web donde se instalará los componentes de adaptador. De forma predeterminada, éste es el sitio Web predeterminado.  
+4. En el **sitio Web de adaptador de Windows SharePoint Services** cuadro de lista desplegable, seleccione el sitio Web donde se instalará los componentes del adaptador. De forma predeterminada, éste es el sitio Web predeterminado.  
   
-    > [!NOTE]
-    >  La instalación del sitio web del adaptador de Windows SharePoint Services en un equipo de SharePoint Server remoto que no tiene ningún otro componente de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es una configuración completamente admitida.  
+   > [!NOTE]
+   >  La instalación del sitio web del adaptador de Windows SharePoint Services en un equipo de SharePoint Server remoto que no tiene ningún otro componente de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es una configuración completamente admitida.  
   
-5.  Haga clic en **Aplicar configuración**.  
+5. Haga clic en **Aplicar configuración**.  
   
 ## <a name="considerations-for-a-multiserver-deployment"></a>Consideraciones para una implementación multiservidor  
  ![](../core/media/adapters-wss-multiserver-screenshot01.gif "Adapters_WSS_Multiserver_Screenshot01")  
@@ -110,25 +110,25 @@ En este tema se analizan la implementación y configuración multiservidor del a
 ### <a name="general-considerations"></a>Consideraciones generales  
  Al configurar e implementar el adaptador de Windows SharePoint Services en un entorno multiservidor, tenga en cuenta lo siguiente:  
   
--   Agregue la cuenta de servicio de BizTalk al grupo de Windows Hosts habilitados de SharePoint de cada servidor.  
+- Agregue la cuenta de servicio de BizTalk al grupo de Windows Hosts habilitados de SharePoint de cada servidor.  
   
--   Agregue el grupo Hosts habilitados de SharePoint a la función Colaboradores de SharePoint con la herramienta Administración central de SharePoint.  
+- Agregue el grupo Hosts habilitados de SharePoint a la función Colaboradores de SharePoint con la herramienta Administración central de SharePoint.  
   
--   En [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], la identidad bajo la que el servicio web del adaptador de SharePoint se ejecuta debe tener los permisos siguientes:  
+- En [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], la identidad bajo la que el servicio web del adaptador de SharePoint se ejecuta debe tener los permisos siguientes:  
   
-     **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS**  
+   **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], los permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
-     **Lectura** permiso en la siguiente clave del registro: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
+   **Lectura** permiso en la siguiente clave del registro: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
   
-     Permisos de inicio de sesión en el servidor SQL Server que contiene las bases de datos de SharePoint.  
+   Permisos de inicio de sesión en el servidor SQL Server que contiene las bases de datos de SharePoint.  
   
-     Un miembro de la **público** y **WSS_Content_Application_Pools** roles dentro de la base de datos de configuración de SharePoint.  
+   Un miembro de la **pública** y **WSS_Content_Application_Pools** roles dentro de la base de datos de configuración de SharePoint.  
   
-     Un miembro de la **público** y **propietario de la base de datos** roles dentro de la base de datos de contenido de SharePoint.  
+   Un miembro de la **pública** y **propietario de la base de datos** roles dentro de la base de datos de contenido de SharePoint.  
   
--   El sitio web en el que se instale el servicio web debe extenderse como un sitio web de SharePoint Services.  
+- El sitio web en el que se instale el servicio web debe extenderse como un sitio web de SharePoint Services.  
   
--   Puede instalar y configurar el adaptador de Windows SharePoint Services con una instalación silenciosa. Para obtener más información, consulte [Apéndice A: instalación silenciosa](../install-and-config-guides/appendix-a-silent-installation.md).  
+- Puede instalar y configurar el adaptador de Windows SharePoint Services con una instalación silenciosa. Para obtener más información, consulte [Apéndice A: instalación silenciosa](../install-and-config-guides/appendix-a-silent-installation.md).  
   
 ### <a name="considerations-for-network-load-balancing-nlb"></a>Consideraciones para el equilibrio de carga de red (NLB)  
  El adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Windows SharePoint Services es compatible con los clústeres de NLB de los servidores de Windows SharePoint Services junto con varios servidores de BizTalk configurados en el mismo grupo. Para ello, Windows SharePoint Services debe instalarse en el clúster de NLB como se recomienda en la documentación de SharePoint.  

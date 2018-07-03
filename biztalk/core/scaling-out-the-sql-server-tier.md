@@ -1,5 +1,5 @@
 ---
-title: Escalar horizontalmente el nivel de servidor SQL | Documentos de Microsoft
+title: Escalar horizontalmente el nivel de SQL Server | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 702c253a0135c1dc4af4cea15a9b47c77792586f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8d8059f405907690f210191d60fee60af69f019
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22272356"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972525"
 ---
 # <a name="scaling-out-the-sql-server-tier"></a>Escalar horizontalmente el nivel de SQL Server
 Para cada grupo de BizTalk, se agrega una base de datos de cuadro de mensajes principal. Todas las bases de datos de cuadro de mensajes posteriores que se agregan se denominan cuadros de mensajes secundarios. El cuadro de mensajes principal controla todas las suscripciones y el enrutamiento de mensajes. También puede publicar mensajes. Las bases de datos de cuadro de mensajes secundario solo publicarán mensajes cuando estén específicamente configuradas para ello.  
@@ -31,25 +31,25 @@ Para cada grupo de BizTalk, se agrega una base de datos de cuadro de mensajes pr
 ## <a name="how-to-add-a-secondary-messagebox-database"></a>Cómo agregar una base de datos de cuadro de mensajes secundario  
  Existen dos maneras de agregar bases de datos de cuadro de mensajes secundario:  
   
--   Agregue la base de datos de cuadro de mensajes secundario al mismo servidor físico.  
+- Agregue la base de datos de cuadro de mensajes secundario al mismo servidor físico.  
   
-     Lleve a cabo lo anterior si el servidor físico de cuadro de mensajes existente dispone de recursos de CPU y E/S suficientes y solo se producen en él cuellos de botella por contención de bloqueo. Cree la base de datos de cuadro de mensajes secundario en otras unidades de E/S.  
+   Lleve a cabo lo anterior si el servidor físico de cuadro de mensajes existente dispone de recursos de CPU y E/S suficientes y solo se producen en él cuellos de botella por contención de bloqueo. Cree la base de datos de cuadro de mensajes secundario en otras unidades de E/S.  
   
-     Ventajas:  
+   Ventajas:  
   
-    -   El espacio en cabeza adicional de CPU puede utilizarlo otro cuadro de mensajes.  
+  -   El espacio en cabeza adicional de CPU puede utilizarlo otro cuadro de mensajes.  
   
-    -   Se necesita un menor número de licencias de SQL Server.  
+  -   Se necesita un menor número de licencias de SQL Server.  
   
-    -   Se elimina el salto de red.  
+  -   Se elimina el salto de red.  
   
--   Agregue la base de datos de cuadro de mensajes secundaria a un servidor físico diferente.  
+- Agregue la base de datos de cuadro de mensajes secundaria a un servidor físico diferente.  
   
-     En este caso, utilice un servidor físico exclusivo con su propia E/S como base de datos de cuadro de mensajes adicional.  
+   En este caso, utilice un servidor físico exclusivo con su propia E/S como base de datos de cuadro de mensajes adicional.  
   
- La ilustración siguiente muestra un escenario donde el nivel de SQL se escala de forma horizontal a tres bases de datos de cuadro de mensajes a partir de una base de datos de cuadro de mensajes.  
+  La ilustración siguiente muestra un escenario donde el nivel de SQL se escala de forma horizontal a tres bases de datos de cuadro de mensajes a partir de una base de datos de cuadro de mensajes.  
   
- ![Escala de MSGBOX](../core/media/scaleoutmsgbox.gif "ScaleOutMSGBOX")  
+  ![Escala de MSGBOX](../core/media/scaleoutmsgbox.gif "ScaleOutMSGBOX")  
   
 ## <a name="when-to-scale-out-the-messagebox-database"></a>Cuándo es recomendable escalar de forma horizontal a una base de datos de cuadro de mensajes  
   
@@ -61,7 +61,7 @@ Para cada grupo de BizTalk, se agrega una base de datos de cuadro de mensajes pr
   
 -   El escalamiento vertical no contribuye a solucionar el cuello de botella. Por ejemplo, si la base de datos de cuadro de mensajes principal se encuentra limitada por la contención de bloqueo, el escalamiento horizontal se convierte en la única posibilidad.  
   
--   El escalamiento vertical resulta demasiado caro. Por ejemplo, si actualizar el servidor de cuatro procesadores existente a un servidor en 8 direcciones resulta más caro que agregar otro servidor de cuatro procesadores, el escalamiento horizontal se convierte en la opción más adecuada.  
+-   El escalamiento vertical es demasiado costoso. Por ejemplo, si actualizar el servidor de cuatro procesadores existente a un servidor en 8 direcciones resulta más caro que agregar otro servidor de cuatro procesadores, el escalamiento horizontal se convierte en la opción más adecuada.  
   
 ## <a name="when-you-cant-scale-out-the-sql-tier"></a>Cuándo no es recomendable escalar de forma horizontal el nivel de SQL  
  En teoría, el nivel de SQL se debería escalar de forma indefinida siempre que la base de datos de cuadro de mensajes principal no sea el cuello de botella. Para lograrlo, puede convertir la base de datos de cuadro de mensajes principal en una base de datos de no publicación, de manera que solo realice el enrutamiento. No obstante, una vez que el cuadro de mensajes principal contenga un cuello de botella producido por contención de bloqueo, ya no podrá escalar el nivel de SQL de forma horizontal.  
@@ -70,7 +70,7 @@ Para cada grupo de BizTalk, se agrega una base de datos de cuadro de mensajes pr
   
 -   Realice primero un escalamiento vertical de la base de datos de cuadro de mensajes principal y, a continuación, lleve a cabo el escalamiento horizontal.  
   
--   Escalamiento horizontal de 1 a 3 bases de datos de SQL en lugar de 1 a 2. Tenga en cuenta la 1 topología de SQL server que se muestra en la ilustración anterior titulada "4 BizTalk Server, 1 topología de SQL Server" y da por supuesto que el servidor SQL server está limitada por la CPU, en otras palabras, el procesamiento de la CPU es un cuello de botella. Si agrega solo una base de datos de cuadro de mensajes a esta topología, el cuello de botella aún estará en la CPU y la base de datos de cuadro de mensajes secundario se estará utilizando por debajo de sus posibilidades. Por lo tanto, el factor de escala es casi 1. Si deshabilita la publicación en la base de datos maestra MessageBox y dedicar la base de datos maestra MessageBox solo para el enrutamiento, la base de datos de cuadro de mensajes secundario realizará la publicación. Esto no ayudará a aumentar el rendimiento global, puesto que la base de datos de cuadro de mensajes secundario es el único editor y en ella se produce el cuello de botella. Por consiguiente, la manera más recomendable de realizar el escalamiento horizontal consiste en agregar dos bases de datos de cuadro de mensajes secundario y deshabilitar la publicación en la base de datos de cuadro de mensajes principal.  
+-   Escalamiento horizontal de 1 a 3 bases de datos de SQL en lugar de 1 a 2. Tenga en cuenta la 1 topología de SQL server que se muestra en la ilustración anterior titulada "4 BizTalk Server, 1 topología de SQL Server" y se supone que el servidor SQL server está limitado por la CPU, en otras palabras, el procesamiento de la CPU es un cuello de botella. Si agrega solo una base de datos de cuadro de mensajes a esta topología, el cuello de botella aún estará en la CPU y la base de datos de cuadro de mensajes secundario se estará utilizando por debajo de sus posibilidades. Por lo tanto, el factor de escala es casi 1. Si deshabilita la publicación en la base de datos maestra MessageBox y dedicar la base de datos maestra MessageBox solo para el enrutamiento, la base de datos de cuadro de mensajes secundario realizará la publicación. Esto no ayudará a aumentar el rendimiento global, puesto que la base de datos de cuadro de mensajes secundario es el único editor y en ella se produce el cuello de botella. Por consiguiente, la manera más recomendable de realizar el escalamiento horizontal consiste en agregar dos bases de datos de cuadro de mensajes secundario y deshabilitar la publicación en la base de datos de cuadro de mensajes principal.  
   
 -   La base de datos de cuadro de mensajes principal formará un cuello de botella en última instancia. Por ello, el equipo físico que aloje la base de datos de cuadro de mensajes principal debe ser más grande y más rápido.  
   
@@ -82,11 +82,11 @@ Para cada grupo de BizTalk, se agrega una base de datos de cuadro de mensajes pr
   
 ## <a name="see-also"></a>Vea también  
  [Escalar horizontalmente el nivel de servidor BizTalk Server](../core/scaling-out-the-biztalk-server-tier.md)   
- [Cómo ampliar el nivel de servidor BizTalk Server](../core/scaling-up-the-biztalk-server-tier.md)   
- [Cómo ampliar el nivel de SQL Server](../core/scaling-up-the-sql-server-tier.md)   
- [Hosts de recepción escalados](../core/scaled-out-receiving-hosts.md)   
- [Hosts de procesamiento de escala horizontal](../core/scaled-out-processing-hosts.md)   
- [Hosts de envío de escala horizontal](../core/scaled-out-sending-hosts.md)   
+ [Escalar verticalmente el nivel de BizTalk Server](../core/scaling-up-the-biztalk-server-tier.md)   
+ [Escalar verticalmente el nivel de SQL Server](../core/scaling-up-the-sql-server-tier.md)   
+ [Hosts de recepción escalados horizontalmente](../core/scaled-out-receiving-hosts.md)   
+ [Hosts de procesamiento escalados horizontalmente](../core/scaled-out-processing-hosts.md)   
+ [Hosts de envío escalados horizontalmente](../core/scaled-out-sending-hosts.md)   
  [Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2](../core/use-windows-cluster-to-provide-high-availability-for-biztalk-hosts.md)   
- [Bases de datos de escala horizontal](../core/scaled-out-databases.md)   
- [Agrupación en clústeres las bases de datos de servidor BizTalk Server](../core/clustering-the-biztalk-server-databases1.md)
+ [Bases de datos escaladas horizontalmente](../core/scaled-out-databases.md)   
+ [Agrupación en clústeres de las bases de datos de BizTalk Server](../core/clustering-the-biztalk-server-databases1.md)

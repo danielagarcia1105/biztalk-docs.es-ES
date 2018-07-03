@@ -1,5 +1,5 @@
 ---
-title: Cómo purgar datos manualmente desde la base de datos de cuadro de mensajes en un entorno de prueba | Documentos de Microsoft
+title: Cómo purgar datos manualmente desde la base de datos de cuadro de mensajes en un entorno de prueba | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d4a6d5f8b232e31a140ee4786b87d2bb270505f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5282ad864e5c2d4f47b541b59d608087f090f935
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254060"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979737"
 ---
 # <a name="how-to-manually-purge-data-from-the-messagebox-database-in-a-test-environment"></a>Purga manual de datos de la base de datos de cuadro de mensaje en un entorno de prueba
 Al ejecutar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno de desarrollo o prueba, los datos almacenados en la base de datos de cuadro de mensajes no son normalmente datos económicos importantes "activos", por lo cual pueden eliminarse. En estos casos, es posible que necesite un método "rápido y sucio" para depurar datos desde la base de datos de cuadro de mensajes. Siga los procedimientos de este tema para depurar datos manualmente desde la base de datos de cuadro de mensajes usando el procedimiento almacenado bts_CleanupMsgbox.  
@@ -35,30 +35,30 @@ Al ejecutar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernov
   
 ### <a name="to-create-and-execute-the-btscleanupmsgbox-stored-procedure-using-sql-server-2008"></a>Para crear y ejecutar el procedimiento almacenado bts_CleanupMsgbox con SQL Server 2008  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **SQL Server Management Studio**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **SQL Server Management Studio**.  
   
-2.  En el **conectar con SQL Server** cuadro de diálogo, seleccione el servidor SQL server y el método de autenticación adecuado y, a continuación, haga clic en **conectar**.  
+2. En el **conectar con SQL Server** cuadro de diálogo, seleccione el servidor SQL server y el método de autenticación adecuado y, a continuación, haga clic en **Connect**.  
   
-3.  En el **bases de datos disponibles** lista desplegable, seleccione la base de datos de BizTalk Messagebox (**BizTalkMsgBoxDB** de forma predeterminada).  
+3. En el **bases de datos disponibles** lista desplegable, seleccione la base de datos de BizTalk Messagebox (**BizTalkMsgBoxDB** de forma predeterminada).  
   
-4.  Haga clic en el **nueva consulta** icono en la barra de herramientas.  
+4. Haga clic en el **nueva consulta** icono en la barra de herramientas.  
   
-5.  Abra la **msgbox_cleanup_logic.sql** archivo desde SQL Server Management Studio. El archivo msgbox_cleanup_logic.sql se encuentra en el directorio [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\ del equipo de BizTalk Server.  
+5. Abra el **msgbox_cleanup_logic.sql** archivo desde SQL Server Management Studio. El archivo msgbox_cleanup_logic.sql se encuentra en el directorio [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\ del equipo de BizTalk Server.  
   
-6.  Haga clic en el **Ejecutar consulta** icono en la barra de herramientas para ejecutar el script para crear el bts_CleanupMsgbox procedimiento almacenado. El procedimiento almacenado bts_CleanupMsgbox puede verse a continuación en la lista de procedimientos almacenados como dbo.bts_CleanupMsgbox.  
+6. Haga clic en el **Ejecutar consulta** icono en la barra de herramientas para ejecutar el script para crear el bts_CleanupMsgbox procedimiento almacenado. El procedimiento almacenado bts_CleanupMsgbox puede verse a continuación en la lista de procedimientos almacenados como dbo.bts_CleanupMsgbox.  
   
-7.  Haga clic en el **nueva consulta** icono en la barra de herramientas.  
+7. Haga clic en el **nueva consulta** icono en la barra de herramientas.  
   
-8.  Pegue el siguiente comando en la nueva ventana de consulta:  
+8. Pegue el siguiente comando en la nueva ventana de consulta:  
   
-    ```  
-    exec bts_CleanupMsgbox  
-    ```  
+   ```  
+   exec bts_CleanupMsgbox  
+   ```  
   
-9. Haga clic en el **Ejecutar consulta** icono en la barra de herramientas para ejecutar la bts_CleanupMsgbox procedimiento almacenado.  
+9. Haga clic en el **Ejecutar consulta** icono en la barra de herramientas para ejecutar el bts_CleanupMsgbox procedimiento almacenado.  
   
-    > [!IMPORTANT]
-    >  No ejecute el procedimiento almacenado bts_CleanupMsgbox en un servidor de producción que esté ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. solo debe ejecutar el procedimiento almacenado bts_CleanupMsgbox en un entorno de prueba. No se admite la ejecución del procedimiento almacenado bts_CleanupMsgbox en un entorno de producción.  
+   > [!IMPORTANT]
+   >  No ejecute el procedimiento almacenado bts_CleanupMsgbox en un servidor de producción que esté ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. solo debe ejecutar el procedimiento almacenado bts_CleanupMsgbox en un entorno de prueba. No se admite la ejecución del procedimiento almacenado bts_CleanupMsgbox en un entorno de producción.  
   
 10. Reinicie los servicios de BizTalk según sea necesario.  
   

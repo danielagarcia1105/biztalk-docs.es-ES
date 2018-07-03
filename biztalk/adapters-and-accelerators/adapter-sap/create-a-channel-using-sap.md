@@ -1,5 +1,5 @@
 ---
-title: Crear un canal con SAP | Documentos de Microsoft
+title: Crear un canal mediante SAP | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,41 +17,41 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22a0d6e48d1a33e4d7c0aec8a1231346a671c1ef
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c8f42d21fe70a3058a9d92384c6a2853b0e35c84
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25963978"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981413"
 ---
 # <a name="create-a-channel-using-sap"></a>Crear un canal con SAP
-En el modelo del canal WCF, puede invocar las operaciones en el sistema SAP o recibir mensajes desde el sistema SAP mediante el intercambio de mensajes SOAP con el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sobre un canal WCF.  
+En el modelo de canal WCF, invocar operaciones en el sistema SAP o recibir mensajes desde el sistema SAP mediante el intercambio de mensajes SOAP con el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] a través de un canal WCF.  
   
--   Invocar operaciones (operaciones de salida) utilizando una **IRequestChannel** o un **IOutputChannel** para enviar mensajes al adaptador  
+- Invocar operaciones (operaciones de salida) mediante el uso un **IRequestChannel** o un **IOutputChannel** para enviar mensajes al adaptador  
   
--   Recibir mensajes (desencadenados desde el sistema SAP) sobre una **IReplyChannel**.  
+- Recibir mensajes (desencadenados desde el sistema SAP) a través de un **IReplyChannel**.  
   
- Los temas de esta sección proporcionan información acerca de cómo crear y configurar formas del canal que se utilizan para las operaciones de entrada y salidas.  
+  Los temas de esta sección proporcionan información acerca de cómo crear y configurar las formas del canal que se usan para las operaciones de entrada y salidas.  
   
-## <a name="creating-outbound-client-channels"></a>Crear los canales de salida (cliente)  
- Puede usar un **IRequestChannel** o un **IOutputChannel** para invocar operaciones en el sistema SAP. En cualquier caso, cree primero un **System.ServiceModel.ChannelFactory** mediante la interfaz adecuada. A continuación, utilice el generador para crear el canal. Después de haber creado el canal se puede usar para invocar operaciones en el adaptador.  
+## <a name="creating-outbound-client-channels"></a>Crear canales salientes (cliente)  
+ Puede usar un **IRequestChannel** o un **IOutputChannel** para invocar operaciones en el sistema SAP. En cualquier caso, cree primero un **System.ServiceModel.ChannelFactory** mediante la interfaz adecuada. Utilizamos el generador para crear el canal. Después de haber creado el canal se puede usar para invocar operaciones en el adaptador.  
   
 #### <a name="to-create-and-open-an-outbound-channel"></a>Para crear y abrir un canal de salida  
   
-1.  Crear e inicializar una instancia de **ChannelFactory** para la forma del canal deseado mediante un punto de conexión y un enlace. El punto de conexión especifica un URI de conexión de SAP y el enlace es una instancia de **SAPDBBinding**. (Establezca las propiedades de enlace necesarias antes de abrir el generador de canales.)  
+1. Crear e inicializar una instancia de **ChannelFactory** para la forma del canal deseado mediante el uso de un punto de conexión y un enlace. El punto de conexión especifica un URI de conexión de SAP y el enlace es una instancia de **SAPDBBinding**. (Establecer las propiedades de enlace necesarias antes de abrir el generador de canales).  
   
-2.  Proporcione las credenciales SAP para el generador de canales mediante el uso de la **ClientCredentials** propiedad.  
+2. Proporcionar credenciales de SAP para el generador de canales mediante la **ClientCredentials** propiedad.  
   
-3.  Abra el generador de canales.  
+3. Abra el generador de canales.  
   
-4.  Obtener una instancia del canal invocando la **CreateChannel** método en el generador de canales.  
+4. Obtener una instancia del canal invocando el **CreateChannel** método en el generador de canales.  
   
-5.  Abrir el canal.  
+5. Abrir el canal.  
   
- Puede especificar la dirección de enlace y el punto de conexión en el código o de configuración.  
+   Puede especificar la dirección de enlace y el punto de conexión en el código o de configuración.  
   
-### <a name="specifying-the-binding-and-endpoint-address-in-code"></a>Especificar el enlace y la dirección del extremo en el código  
- En el ejemplo de código siguiente se muestra cómo crear un **IRequestChannel** especificando la dirección de enlace y el punto de conexión en el código. El código para crear un **IOutputChannel** es el mismo, salvo que debe especificar un **IOutputChannel** interfaz para la **ChannelFactory** y tipo de canal.  
+### <a name="specifying-the-binding-and-endpoint-address-in-code"></a>Especifica el enlace y dirección de punto de conexión en el código  
+ En el ejemplo de código siguiente se muestra cómo crear un **IRequestChannel** especificando la dirección de enlace y el punto de conexión en el código. El código para crear un **IOutputChannel** es el mismo, salvo que debe especificar un **IOutputChannel** interfaz para el **ChannelFactory** y tipo de canal.  
   
 ```  
 // Create binding -- set binding properties before you open the factory.  
@@ -76,8 +76,8 @@ IRequestChannel channel = factory.CreateChannel();
 channel.Open();  
 ```  
   
-### <a name="specifying-the-binding-and-endpoint-address-in-configuration"></a>Especificar el enlace y la dirección del extremo en la configuración  
- En el ejemplo de código siguiente se muestra cómo crear un generador de canales de un punto de conexión de cliente especificado en la configuración.  
+### <a name="specifying-the-binding-and-endpoint-address-in-configuration"></a>Especifica el enlace y dirección de punto de conexión en la configuración  
+ El ejemplo de código siguiente muestra cómo crear un generador de canales desde un punto de conexión de cliente especificado en la configuración.  
   
 ```  
 // Create channel factory from configuration.  
@@ -97,7 +97,7 @@ channel.Open();
 ```  
   
 #### <a name="the-configuration-settings"></a>Los valores de configuración  
- El código siguiente muestra los valores de configuración que se usa para el ejemplo anterior. El contrato para el extremo de cliente debe ser "System.ServiceModel.Channels.IRequestChannel" o "System.ServiceModel.Channels.IRequestChannel" según el tipo de forma del canal que se va a crear.  
+ El código siguiente muestra las opciones de configuración que se usa en el ejemplo anterior. El contrato para el extremo del cliente debe ser "System.ServiceModel.Channels.IRequestChannel" o "System.ServiceModel.Channels.IRequestChannel" según el tipo de forma del canal que desea crear.  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -124,26 +124,26 @@ channel.Open();
 </configuration>  
 ```  
   
-### <a name="creating-inbound-service-channels"></a>Crear los canales de entrada (servicio)  
- Configurar el adaptador para recibir mensajes entrantes de un sistema SAP estableciendo las propiedades de enlace en una instancia de **SAPBinding**. A continuación, utilice este enlace para compilar un agente de escucha de canal desde el que se puede obtener un **IReplyChannel** canal para operaciones de recepción del adaptador.  
+### <a name="creating-inbound-service-channels"></a>Creación de canales de entrada (servicio)  
+ Configurar el adaptador para recibir los mensajes entrantes de un sistema SAP estableciendo las propiedades de enlace en una instancia de **SAPBinding**. A continuación, se usan este enlace para compilar un agente de escucha del canal desde el que puede obtener un **IReplyChannel** canal para operaciones de recepción del adaptador.  
   
-##### <a name="to-create-and-open-an-ireplychannel-to-receive-data-changed-notifications"></a>Para crear y abrir un IReplyChannel para las notificaciones de cambio de datos de recepción  
+##### <a name="to-create-and-open-an-ireplychannel-to-receive-data-changed-notifications"></a>Para crear y abrir un IReplyChannel a las notificaciones de cambio de datos de recepción  
   
-1.  Cree una instancia de **SAPBinding**.  
+1. Cree una instancia de **SAPBinding**.  
   
-2.  Establezca las propiedades de enlace necesarias para las operaciones que desea recibir. Asegúrese de establecer el **AcceptCredentialsInUri** propiedad de enlace.  
+2. Establezca las propiedades de enlace necesarias para las operaciones que desea recibir. Asegúrese de establecer el **AcceptCredentialsInUri** enlaza la propiedad.  
   
-3.  Crear un **BindingParameterCollection** y agregue un **InboundActionCollection** que contiene las acciones de las operaciones que desea recibir. El adaptador devolverá una excepción al sistema SAP para todas las demás operaciones. Este paso es opcional. Para obtener más información, consulte [recibir las operaciones de entrada desde el sistema SAP mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
+3. Crear un **BindingParameterCollection** y agregue un **InboundActionCollection** que contiene las acciones de las operaciones que desea recibir. El adaptador devolverá una excepción al sistema SAP para todas las demás operaciones. Este paso es opcional. Para obtener más información, consulte [recibir operaciones de entrada desde el sistema SAP mediante el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
   
-4.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IReplyChannel\>**  método en el **SAPBinding**. Especifique el URI de conexión de SAP como uno de los parámetros a este método. El URI de conexión debe contener parámetros para un destino RFC en el sistema SAP. Para obtener más información sobre el URI de conexión de SAP, consulte la [cree el URI de conexión del sistema SAP](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). Si ha creado un **BindingParameterCollection** en el paso 3, también especificarlo al crear la escucha del canal.  
+4. Crear un agente de escucha del canal invocando **BuildChannelListener\<IReplyChannel\>**  método en el **SAPBinding**. Especifique el URI de conexión de SAP como uno de los parámetros a este método. El URI de conexión debe contener los parámetros para un destino de RFC en el sistema SAP. Para obtener más información sobre el URI de conexión de SAP, consulte la [cree el URI de conexión del sistema SAP](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). Si ha creado un **BindingParameterCollection** en el paso 3, especificarlo al crear la escucha del canal.  
   
-5.  Abra el agente de escucha.  
+5. Abra el agente de escucha.  
   
-6.  Obtener un **IReplyChannel** canal invocando la **AcceptChannel** método en el agente de escucha.  
+6. Obtener un **IReplyChannel** canal invocando el **AcceptChannel** método en el agente de escucha.  
   
-7.  Abrir el canal.  
+7. Abrir el canal.  
   
- El código siguiente muestra cómo crear un agente de escucha de canal y obtener un **IReplyChannel** para operaciones de recepción del adaptador.  
+   El código siguiente muestra cómo crear un agente de escucha del canal y obtener un **IReplyChannel** para operaciones de recepción del adaptador.  
   
 ```  
 // Create a binding and specify any binding properties required  

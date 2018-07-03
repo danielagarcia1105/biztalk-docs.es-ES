@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 11028 | Documentos de Microsoft'
+title: 'De sesión único: Evento 11028 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b2227a91704962da2f64e48c76a954b002aa28fb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e1e555e913b72cdc5b63049bd3888588b0881a53
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276444"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975925"
 ---
-# <a name="single-sign-on-event-11028"></a>Inicio de sesión único: Evento 11028
+# <a name="single-sign-on-event-11028"></a>De sesión único: Evento 11028
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|11028|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_INFO_GROUP_GET_CREDS_OK|  
-|Texto del mensaje|GetCredentials satisfactorio para aplicación de grupo.%r<br /><br /> Aplicación: %1 %r<br /><br /> Usuarios de aplicación: %2 %r<br /><br /> Índice: %3|  
+|                 |                                                                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                         Inicio de sesión único (SSO) empresarial                                                         |
+| Versión del producto |                                        [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                         |
+|    Identificador del evento     |                                                                   11028                                                                   |
+|  Origen del evento   |                                                                  ENTSSO                                                                   |
+|    Componente    |                                                                    N/D                                                                    |
+|  Nombre simbólico  |                                                        SSO_INFO_GROUP_GET_CREDS_OK                                                        |
+|  Texto del mensaje   | GetCredentials satisfactorio para aplicación de grupo.%r<br /><br /> Aplicación: %1 %r<br /><br /> Usuarios de aplicación: %2 %r<br /><br /> Índice: %3 |
   
 ## <a name="explanation"></a>Explicación  
  El método GetCredentials para una aplicación de grupo fue satisfactorio.  

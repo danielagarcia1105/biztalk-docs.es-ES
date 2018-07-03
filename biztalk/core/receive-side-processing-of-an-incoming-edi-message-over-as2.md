@@ -1,5 +1,5 @@
 ---
-title: Procesamiento de un mensaje EDI entrante a través de AS2 de lado de recepción | Documentos de Microsoft
+title: Recepción de procesamiento de un mensaje EDI entrante a través de AS2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1fc9069dddf8a8b58ad439ed915fc9afa539c2a8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b6c17e3f9fd0950d27d2d86568e08726d4886b2f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270068"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983421"
 ---
 # <a name="receive-side-processing-of-an-incoming-edi-message-over-as2"></a>Procesamiento de recepción de un mensaje EDI entrante a través de AS2
 El procesamiento de recepción de un mensaje EDI a través de AS2 incluye la recepción de un mensaje AS2, el envío de un MDN, el procesamiento de la carga EDI y el envío de confirmaciones EDI (si están habilitadas).  
@@ -37,36 +37,36 @@ El procesamiento de recepción de un mensaje EDI a través de AS2 incluye la rec
 ## <a name="processing-the-received-as2-message"></a>Procesar el mensaje AS2 recibido  
  El descodificador AS2 en la canalización de recepción AS2EdiReceive procesa un mensaje de AS2 entrante. Para ello, utiliza la propiedad de contexto `InboundHTTPHeaders` que el adaptador de HTTP crea desde los encabezados de HTTP en el mensaje AS2. Estos encabezados incluyen los siguientes encabezados de AS2:  
   
--   AS2-To  
+- AS2-To  
   
--   AS2-From  
+- AS2-From  
   
--   AS2-Version  
+- AS2-Version  
   
--   MessageID  
+- MessageID  
   
--   OriginalMessageID (solo para MDN)  
+- OriginalMessageID (solo para MDN)  
   
--   Disposition-Notification-To (si se ha solicitado un MDN)  
+- Disposition-Notification-To (si se ha solicitado un MDN)  
   
--   Receipt-Delivery-Option (si se ha solicitado un MDN)  
+- Receipt-Delivery-Option (si se ha solicitado un MDN)  
   
--   Signed-Receipt-MICalg (si se ha solicitado un MDN)  
+- Signed-Receipt-MICalg (si se ha solicitado un MDN)  
   
- El descodificador AS2 promocionará estos encabezados en el contexto del mensaje. Después realiza las operaciones siguientes:  
+  El descodificador AS2 promocionará estos encabezados en el contexto del mensaje. Después realiza las operaciones siguientes:  
   
--   Realiza la resolución de acuerdo para determinar las propiedades que se usarán para procesar el mensaje entrante. Para obtener más información, consulte [resolución del acuerdo para mensajes AS2 entrantes](../core/agreement-resolution-for-incoming-as2-messages.md).  
+- Realiza la resolución de acuerdo para determinar las propiedades que se usarán para procesar el mensaje entrante. Para obtener más información, consulte [resolución del acuerdo para mensajes AS2 entrantes](../core/agreement-resolution-for-incoming-as2-messages.md).  
   
--   Autentica el remitente mediante la **AS2-de** propiedad.  
+- Autentica el remitente mediante la **AS2-desde** propiedad.  
   
-    > [!NOTE]
-    >  Para obtener más información acerca del procesamiento que canalizaciones de recepción AS2 realizan en mensajes AS2 entrantes, vea [procesar un mensaje AS2 entrante](../core/processing-an-incoming-as2-message.md).  
+  > [!NOTE]
+  >  Para obtener más información acerca del procesamiento que canalizaciones de recepción AS2 realizan en los mensajes AS2 entrantes, vea [procesar un mensaje AS2 entrante](../core/processing-an-incoming-as2-message.md).  
   
 ## <a name="sending-an-mdn"></a>Enviar un MDN  
  Si se ha habilitado un MDN, la canalización AS2EdiReceive genera un MDN y lo coloca en el cuadro de mensajes.  
   
 > [!NOTE]
->  Para obtener más información acerca del procesamiento que canalizaciones de recepción AS2 realizan en los MDN salientes, vea [generar un MDN saliente](../core/generating-an-outgoing-mdn.md).  
+>  Para obtener más información acerca del procesamiento que canalizaciones de recepción AS2 realizan en los MDN salientes, consulte [generar un MDN saliente](../core/generating-an-outgoing-mdn.md).  
   
  **Modo sincrónico**  
   
@@ -83,7 +83,7 @@ El procesamiento de recepción de un mensaje EDI a través de AS2 incluye la rec
  Si BizTalk transporta un mensaje con codificación AS2/EDIINT a través de HTTP/HTTPS pero se produce un error en el procesamiento de la carga con codificación EDI, el remitente del mensaje original recibirá un MDN que indica un procesamiento AS2 correcto y una confirmación EDI que indica un error en el procesamiento de EDI. Se suspenderá la carga de codificación EDI y se registrará un error.  
   
 ## <a name="processing-the-received-edi-payload"></a>Procesar la carga EDI recibida  
- Si el **opción de procesamiento por lotes de entrada** para EDI se establece en **dividir intercambio**, asociada con la de canalización de recepción de la AS2EdiReceive analiza de ubicación de recepción de solicitud-respuesta el Establezca el mensaje EDI en un mensaje XML independiente para cada transacción de EDI. Si el **opción de procesamiento por lotes de entrada** está establecido en **conservar intercambio**, la canalización de recepción no analizará el mensaje EDI.  
+ Si el **opción de procesamiento por lotes de entrada** para EDI de un acuerdo está configurado para **dividir intercambio**, asociada con la de canalización de recepción de la AS2EdiReceive analiza de ubicación de recepción de solicitud-respuesta el Establece el mensaje EDI en un mensaje XML independiente para cada transacción EDI. Si el **opción de procesamiento por lotes de entrada** está establecido en **conservar intercambio**, la canalización de recepción no analizará el mensaje EDI.  
   
  La canalización de recepción enruta los conjuntos de transacciones XML o el intercambio EDI conservado en el cuadro de mensajes de BizTalk.  
   
@@ -95,9 +95,9 @@ El procesamiento de recepción de un mensaje EDI a través de AS2 incluye la rec
 ## <a name="sending-the-edi-acknowledgment"></a>Enviar la confirmación EDI  
  Si se habilitó una confirmación EDI, el desensamblador EDI en el puerto de recepción AS2EdiReceive generará las confirmaciones EDI (si están habilitadas). Las confirmaciones EDI deben enviarse mediante la canalización de envío AS2EdiSend en un puerto de envío unidireccional independiente.  
   
- Si configuras una solicitud-respuesta bidireccional puerto de recepción para mensajes EDI/AS2 devolver un MDN sincrónico o una respuesta HTTP (en el caso de un MDN asíncrono), el **puerto de recepción de enrutar confirmación para la canalización de envío de solicitud-respuesta** (de propiedad establecer en el **configuración de Host Local** página del acuerdo de EDI unidireccional en el **propiedades del acuerdo de** cuadro de diálogo) se pasará por alto. Incluso si se selecciona esta propiedad, la canalización de envío se devolverá un MDN sincrónico o una respuesta HTTP, no una confirmación EDI.  
+ Si configura una solicitud y respuesta bidireccional puerto de recepción para mensajes EDI/AS2 devolver un MDN sincrónico o una respuesta HTTP (en el caso de un MDN asíncrono), el **enrutar confirmación para la canalización de envío de solicitud-respuesta de puerto de recepción** (propiedad establecer en el **configuración de Host Local** página del acuerdo EDI unidireccional en el **las propiedades del acuerdo** cuadro de diálogo) se pasará por alto. Incluso si se selecciona esta propiedad, la canalización de envío se devolverá un MDN sincrónico o una respuesta HTTP, no una confirmación EDI.  
   
  Para obtener más información, consulte [envía una confirmación EDI](../core/sending-an-edi-acknowledgment.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo BizTalk Server recibe mensajes AS2](../core/how-biztalk-server-receives-as2-messages.md)
+ [Cómo recibe BizTalk Server los mensajes AS2](../core/how-biztalk-server-receives-as2-messages.md)

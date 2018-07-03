@@ -1,6 +1,6 @@
 ---
-title: Requisitos previos para el tutorial de doble acción de RosettaNet en BizTalk Server | Documentos de Microsoft
-description: Requisitos previos para recorrer el tutorial de doble acción para el Acelerador para RosettaNet (BTARN) en BizTalk Server
+title: Requisitos previos del tutorial de doble acción de RosettaNet en BizTalk Server | Microsoft Docs
+description: Requisitos previos para recorrer el tutorial de doble acción para el Acelerador de RosettaNet (BTARN) en BizTalk Server
 ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
@@ -13,26 +13,26 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfc247aa1ab9ec7cb6f056cd45df54bc324990ad
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 48584cf7dfee0ca4812b41e56b4e8f7c0984e4fc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25963522"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979013"
 ---
 # <a name="prepare-for-the-double-action-tutorial"></a>Prepararse para el tutorial de doble acción
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de iniciar el tutorial:
+Antes de comenzar el tutorial:
   
--   Realice una instalación completa de BizTalk Server y [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] en dos equipos. Para obtener más información, consulte [instalar y configurar](install-configure-biztalk-accelerator-for-rosettanet.md).  
+- Realizar una instalación completa de BizTalk Server y [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] en dos equipos. Para obtener más información, consulte [instalar y configurar](install-configure-biztalk-accelerator-for-rosettanet.md).  
   
-    > [!IMPORTANT]
-    >  Asegúrese de configurar totalmente el Acelerador para RosettaNet, incluido el inicio de las orquestaciones de BTARN. Vea [instalar y configurar](install-configure-biztalk-accelerator-for-rosettanet.md).
+  > [!IMPORTANT]
+  >  Asegúrese de que configurar completamente el Acelerador de RosettaNet, incluido el inicio de las orquestaciones de BTARN. Consulte [instalar y configurar](install-configure-biztalk-accelerator-for-rosettanet.md).
   
--   Este tutorial simula un escenario real mediante el uso de dos equipos en lugar de un único equipo con un contrato de bucle invertido. Cada vez que este tutorial usa nombres de equipo, utiliza un marcador de posición. Reemplace ese marcador de posición con el nombre real del equipo elegido. Por ejemplo, si el equipo que está ejecutando la solución de Contoso se denomina **Contoso**, reemplace las apariciones en el tutorial de \\ \\< contoso **_**  *equipo* \> con ese nombre de equipo.  
+- Este tutorial simula un escenario del mundo real con dos equipos en lugar de un solo equipo con un acuerdo de bucle invertido. Cada vez que este tutorial usa los nombres de equipo, utiliza un marcador de posición. Reemplace el marcador de posición con el nombre real del equipo que eligió. Por ejemplo, si el equipo que ejecuta la solución de Contoso se denomina **Contoso**, reemplace las apariciones en el tutorial de \\ \\< contoso<strong>_</strong>  *equipo* \> con ese nombre de equipo.  
   
--   Este tutorial promueve una comunicación segura a través de certificados entre Contoso y Fabrikam. Debe generar los certificados que requiere e instalarlas en sus respectivos equipos.  
+- En este tutorial se promueve una comunicación segura a través de certificados entre Contoso y Fabrikam. Debe generar los certificados que requiere e instalarlas en sus respectivos equipos.  
   
 ## <a name="next-steps"></a>Pasos siguientes 
   

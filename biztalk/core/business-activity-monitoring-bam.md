@@ -1,5 +1,5 @@
 ---
-title: La actividad económica (BAM) de supervisión | Documentos de Microsoft
+title: La actividad económica (BAM) de supervisión | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -29,12 +29,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fea5ce33dddc0f40eaabd6ef34e6035e50c9fab9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 258294a8a51e6f8e80e360668123e522acf6ff15
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22234788"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972309"
 ---
 # <a name="business-activity-monitoring-bam"></a>Supervisión de la actividad económica (SAE)
 El diagrama siguiente muestra la arquitectura de la característica Supervisión de la actividad económica (BAM).  
@@ -44,35 +44,35 @@ El diagrama siguiente muestra la arquitectura de la característica Supervisión
 ## <a name="tools"></a>Herramientas  
  Puede usar las siguientes herramientas para diseñar, desarrollar e implementar soluciones de BizTalk que se integren con BAM.  
   
--   **Microsoft Excel**. El complemento BAM para Excel proporciona una interfaz de usuario que guía a los analistas de negocios durante la creación de actividades y vistas. Excel sirve como herramienta de diseño para los analistas de negocios y como herramienta de consumo de datos para los usuarios empresariales. Para obtener más información sobre el complemento de BAM para Excel, vea [requisitos para usar el complemento de BAM para Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md).  
+-   **Microsoft Excel**. El complemento BAM para Excel proporciona una interfaz de usuario que guía a los analistas de negocios durante la creación de actividades y vistas. Excel sirve como herramienta de diseño para los analistas de negocios y como herramienta de consumo de datos para los usuarios empresariales. Para obtener más información sobre el complemento BAM para Excel, vea [requisitos para usar el complemento BAM para Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md).  
   
 -   **Utilidad de administración de BAM**. La utilidad de administración de BAM es una herramienta de implementación que permite implementar en la empresa las definiciones de BAM creadas en Excel. Esta utilidad crea las bases de datos de SQL Server, los cubos de Analysis Services, las bases de datos de Servicios de notificación de SQL y las tareas DTS o SSIS necesarias (según la versión de SQL Server instalada). Para obtener más información acerca del Administrador de BAM, consulte [utilidad de administración de BAM](../core/bam-management-utility.md).  
   
 -   **Editor de perfiles de seguimiento**. El Editor de perfiles de seguimiento permite a los programadores de BizTalk asignar los elementos de datos definidos por los analistas de negocios en la implementación de BizTalk, incluidas las orquestaciones y la mensajería. Para obtener más información sobre el Editor de perfiles de seguimiento, vea [Editor de perfiles de seguimiento](../core/tracking-profile-editor.md).  
   
--   **Utilidad de implementación de perfil de seguimiento**. La utilidad de implementación de perfiles de seguimiento permite a los profesionales de TI implementar perfiles de seguimiento nuevos y actualizados en la infraestructura de BAM. Para obtener más información acerca de la herramienta de implementación de perfiles de seguimiento, vea [utilidad de implementación de perfiles de seguimiento](../core/tracking-profile-deployment-utility.md).  
+-   **Utilidad de implementación de perfil de seguimiento**. La utilidad de implementación de perfiles de seguimiento permite a los profesionales de TI implementar perfiles de seguimiento nuevos y actualizados en la infraestructura de BAM. Para obtener más información acerca de la herramienta de implementación de perfiles de seguimiento, vea [utilidad de implementación de perfil de seguimiento](../core/tracking-profile-deployment-utility.md).  
   
 ## <a name="presentation"></a>Presentación  
  La capa de presentación consta de lo siguiente:  
   
--   **Portal de BAM**. El portal de BAM en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona visibilidad en tiempo real, to-end a un proceso empresarial. Es una característica basada en web que consta de una colección de páginas ASP .NET. Puede personalizar BAM para mejorar el rendimiento y la experiencia de los usuarios. Para obtener más información sobre el Portal de BAM, consulte [Portal de BAM](../core/bam-portal.md).  
+- **Portal de BAM**. El portal de BAM en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona visibilidad en tiempo real, to-end a un proceso empresarial. Es una característica basada en web que consta de una colección de páginas ASP .NET. Puede personalizar BAM para mejorar el rendimiento y la experiencia de los usuarios. Para obtener más información sobre el Portal de BAM, consulte [Portal de BAM](../core/bam-portal.md).  
   
--   **Microsoft Excel**. El complemento BAM para Excel proporciona una interfaz de usuario que guía a los analistas de negocios durante la creación de actividades y vistas. Excel sirve como herramienta de diseño para los analistas de negocios y como herramienta de consumo de datos para los usuarios empresariales. Para obtener más información sobre el complemento de BAM para Excel, vea [requisitos para usar el complemento de BAM para Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md).  
+- **Microsoft Excel**. El complemento BAM para Excel proporciona una interfaz de usuario que guía a los analistas de negocios durante la creación de actividades y vistas. Excel sirve como herramienta de diseño para los analistas de negocios y como herramienta de consumo de datos para los usuarios empresariales. Para obtener más información sobre el complemento BAM para Excel, vea [requisitos para usar el complemento BAM para Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md).  
   
--   **Interfaz de usuario personalizada**. Los ISV y programadores pueden crear aplicaciones personalizadas que muestren los datos de BAM.  
+- **Interfaz de usuario personalizada**. Los ISV y programadores pueden crear aplicaciones personalizadas que muestren los datos de BAM.  
   
 ## <a name="processing"></a>Procesamiento  
  La capa de procesamiento consta de lo siguiente:  
   
--   **Servicio Web de administración de BAM**. La aplicación del portal de BAM usa este servicio web para comunicarse con las tablas de importación principal (PIT) de BAM. La comunicación con la base de datos se realiza a través de credenciales suplantadas almacenadas en el Registro que se crean durante la configuración. Los clientes personalizados pueden usar los métodos expuestos por este servicio web para obtener vistas y los detalles correspondientes, además de actividades relacionadas y diseños de tabla dinámica para cualquier usuario. Los métodos también se pueden usar para administrar alertas en la base de datos.  
+- **Servicio Web de administración de BAM**. La aplicación del portal de BAM usa este servicio web para comunicarse con las tablas de importación principal (PIT) de BAM. La comunicación con la base de datos se realiza a través de credenciales suplantadas almacenadas en el Registro que se crean durante la configuración. Los clientes personalizados pueden usar los métodos expuestos por este servicio web para obtener vistas y los detalles correspondientes, además de actividades relacionadas y diseños de tabla dinámica para cualquier usuario. Los métodos también se pueden usar para administrar alertas en la base de datos.  
   
--   **Bus de eventos** . El servicio de bus de eventos BAM procesa los datos de seguimiento (secuencias) almacenados en una base de datos de origen y los guarda con formato de tabla de consulta en la base de datos de destino.  
+- **Bus de eventos** . El servicio de bus de eventos BAM procesa los datos de seguimiento (secuencias) almacenados en una base de datos de origen y los guarda con formato de tabla de consulta en la base de datos de destino.  
   
--   **Servicios de notificación SQL**. Los servicios de notificación SQL evalúan las alertas de instancias y agregados de BAM que define el usuario empresarial.  
+- **Servicios de notificación SQL**. Los servicios de notificación SQL evalúan las alertas de instancias y agregados de BAM que define el usuario empresarial.  
   
- El diagrama siguiente muestra los procesos físicos subyacentes de la arquitectura de BAM.  
+  El diagrama siguiente muestra los procesos físicos subyacentes de la arquitectura de BAM.  
   
- ![](../core/media/architecture-bam-02.gif "architecture_bam_02")  
+  ![](../core/media/architecture-bam-02.gif "architecture_bam_02")  
   
 ## <a name="design-time-experience"></a>Experiencia en tiempo de diseño  
  El diagrama siguiente muestra la experiencia en tiempo de diseño.  
@@ -94,15 +94,15 @@ El diagrama siguiente muestra la arquitectura de la característica Supervisión
 ## <a name="deployment"></a>Implementación  
  Hay dos categorías de implementación:  
   
--   Crear la infraestructura dinámica  
+- Crear la infraestructura dinámica  
   
--   Instrumentar el tiempo de ejecución para recopilar datos  
+- Instrumentar el tiempo de ejecución para recopilar datos  
   
- El siguiente diagrama ilustra la implementación de BAM.  
+  El siguiente diagrama ilustra la implementación de BAM.  
   
- ![](../core/media/architecture-bam-04.gif "architecture_bam_04")  
+  ![](../core/media/architecture-bam-04.gif "architecture_bam_04")  
   
- Los pasos siguientes describen la secuencia que se muestra en la ilustración de arriba.  
+  Los pasos siguientes describen la secuencia que se muestra en la ilustración de arriba.  
   
 1.  Se utiliza la utilidad de administración de BAM para crear la infraestructura dinámica. Mediante la definición de BAM o un libro Excel en tiempo de diseño, más el archivo XML de configuración de BAM, la utilidad de administración de BAM crea todas las bases de datos necesarias y las tareas DTS o SSIS correspondientes que el sistema necesita para el funcionamiento.  
   
@@ -141,7 +141,7 @@ El diagrama siguiente muestra la arquitectura de la característica Supervisión
     3.  El servicio Web llama a procedimientos almacenados en la base de datos de importación principal de BAM para realizar comprobaciones de seguridad y recuperar metadatos e información acerca de agregaciones en tiempo real de BAM.  
   
         > [!NOTE]
-        >  Actualmente el Portal de BAM utiliza un servicio Web no documentado denominado el **servicio Web de consulta**. Este servicio no es compatible y probablemente se deje de utilizar en la próxima versión.  
+        >  Actualmente, el Portal de BAM utiliza un servicio Web no documentado denominado el **servicio Web de consulta**. Este servicio no es compatible y probablemente se deje de utilizar en la próxima versión.  
   
     4.  Internet Explorer aloja Office Web Controls (OWC), que permite realizar conexiones directas a los cubos de Analysis Services de BAM.  
   
@@ -210,4 +210,4 @@ El diagrama siguiente muestra la arquitectura de la característica Supervisión
  La característica de exploración distribuida del portal de BAM permite a los usuarios ver las relaciones de actividad a través de límites remotos.  
   
 ## <a name="see-also"></a>Vea también  
- [Arquitectura de seguimiento y administración](../core/management-and-tracking-architecture.md)
+ [Arquitectura de administración y seguimiento](../core/management-and-tracking-architecture.md)

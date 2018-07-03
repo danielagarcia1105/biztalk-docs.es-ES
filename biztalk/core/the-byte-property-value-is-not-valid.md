@@ -1,5 +1,5 @@
 ---
-title: El valor de propiedad de bytes no es válido | Documentos de Microsoft
+title: No es válido el valor de propiedad bytes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5789ae17b5127b58de45e5c4764b4ef490c43f1f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ef443c74c47883d04bcad2c1da5bb9423f7c01d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278716"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977855"
 ---
 # <a name="the-byte-property-value-is-not-valid"></a>El valor de la propiedad en bytes no es válido.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|InvalidBytePropertyValue|  
-|Texto del mensaje|El valor de la propiedad en bytes no es válido.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                    Motor de procesamiento por lotes                                     |
+|  Nombre simbólico  |                                InvalidBytePropertyValue                                |
+|  Texto del mensaje   |                          El valor de la propiedad en bytes no es válido.                          |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que un valor especificado para una propiedad de una fila del cuadro de diálogo Filtro por lotes no era válido, pues la propiedad requería un valor en bytes y el valor especificado no lo era.  

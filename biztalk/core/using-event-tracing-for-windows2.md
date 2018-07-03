@@ -1,5 +1,5 @@
 ---
-title: Uso de seguimiento de eventos para Windows2 | Documentos de Microsoft
+title: Uso de seguimiento de eventos para Windows2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c5f610d75048b250fc90aba7f723cee39c4f2e1
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: c8f022035dd432e818c02289246a2d3a43849557
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25974418"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980781"
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
 Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta Seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl: por ejemplo, tracerpt.exe o tracedmp.exe.  
@@ -28,38 +28,38 @@ Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de erro
 ## <a name="etw-components"></a>Componentes de ETW  
  Seguimiento de eventos para Windows tiene tres componentes:  
   
--   **Aplicación del controlador.** Activa y desactiva un proveedor (por ejemplo, tracelog.exe o logman.exe).  
+- **Aplicación de controlador.** Activa y desactiva un proveedor (por ejemplo, tracelog.exe o logman.exe).  
   
-     Configure su variable de entorno PATH para que señale la ubicación de tracelog.exe. Esto garantiza que las llamadas de BTAJDEdwardsOneWorldTrace pueden localizar tracelog.exe en el sistema. De forma predeterminada, BTAJDEdwardsOneWorldTrace busca en la ruta de acceso actual.  
+   Configure su variable de entorno PATH para que señale la ubicación de tracelog.exe. Esto garantiza que las llamadas de BTAJDEdwardsOneWorldTrace pueden localizar tracelog.exe en el sistema. De forma predeterminada, BTAJDEdwardsOneWorldTrace busca en la ruta de acceso actual.  
   
-    > [!NOTE]
-    >  tracelog.exe está disponible en Microsoft SDK y es compatible con los comandos proporcionados por BizTalk Adapter para JD Edwards OneWorld. Para usar logman.exe consulte la documentación de logman.  
+  > [!NOTE]
+  >  tracelog.exe está disponible en Microsoft SDK y es compatible con los comandos proporcionados por BizTalk Adapter para JD Edwards OneWorld. Para usar logman.exe consulte la documentación de logman.  
   
--   **Aplicación de consumidor.** Lee eventos registrados.  
+- **Aplicación de consumidor.** Lee eventos registrados.  
   
-     Para que la aplicación de consumidor pueda leer el evento en el archivo .etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente, esto se realiza cuando el controlador desactiva el seguimiento.  
+   Para que la aplicación de consumidor pueda leer el evento en el archivo .etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente, esto se realiza cuando el controlador desactiva el seguimiento.  
   
-     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción en tiempo real,  **\<tiempo Real\> = -rt**.  
+   Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción en tiempo real,  **\<en tiempo Real\> = -rt**.  
   
--   **Provider.** Proporciona el evento.  
+- **Proveedor.** Proporciona el evento.  
   
- El Adaptador de BizTalk para J.D. Edwards OneWorld incluye cinco proveedores diferentes. Están registrados en el Instrumental de administración de Windows (WMI). Para encontrar los proveedores registrados en la ruta root\WMI\EventTrace, puede usar herramientas tales como WMI CIM Studio.  
+  El Adaptador de BizTalk para J.D. Edwards OneWorld incluye cinco proveedores diferentes. Están registrados en el Instrumental de administración de Windows (WMI). Para encontrar los proveedores registrados en la ruta root\WMI\EventTrace, puede usar herramientas tales como WMI CIM Studio.  
   
- BizTalk Adapter para JD Edwards OneWorld tiene cinco proveedores, que permiten registrar diferentes clases de mensajes:  
+  BizTalk Adapter para JD Edwards OneWorld tiene cinco proveedores, que permiten registrar diferentes clases de mensajes:  
   
--   **Proveedor de registro de receptor.** El \<elemento Trace\> conmutador **-receptor**.  
+- **Proveedor de registro de receptor.** El \<elemento Trace\> modificador es **-receptor**.  
   
--   **Proveedor CastDetails de receptor.** El \<elemento Trace\> conmutador **- castDetailsReceive**.  
+- **Proveedor CastDetails de receptor.** El \<elemento Trace\> modificador es **- castDetailsReceive**.  
   
--   **Proveedor de registro de transmisor.** El \<elemento Trace\> conmutador **-transmisor**.  
+- **Proveedor de registro de transmisor.** El \<elemento Trace\> modificador es **-transmisor**.  
   
--   **Proveedor CastDetails de transmisor.** El \<elemento Trace\> conmutador **- castDetailsTransmit**.  
+- **Proveedor CastDetails de transmisor.** El \<elemento Trace\> modificador es **- castDetailsTransmit**.  
   
--   **Proveedor de registro de administración.** El \<elemento Trace\> conmutador **-administración**.  
+- **Proveedor de registro de administración.** El \<elemento Trace\> modificador es **-administración**.  
   
- Comando BTAJDEOneWorldTrace  
+  Comando BTAJDEOneWorldTrace  
   
- Para usar ETW, ejecute el adaptador de BizTalk para el comando de JD Edwards OneWorld, BTAJDEOneWorldTrace.cmd. Use este comando como sigue:  
+  Para usar ETW, ejecute el adaptador de BizTalk para el comando de JD Edwards OneWorld, BTAJDEOneWorldTrace.cmd. Use este comando como sigue:  
   
 ```  
 BTAJDEOneWorldTrace <Trace element> -start [-cir <MB>|   
@@ -69,31 +69,31 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
  Donde:  
   
--   **\<Elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
+- **\<Elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
   
--   Las opciones son:  
+- Sus opciones son:  
   
-    -   **-castDetailsTransmit**  
+  -   **-castDetailsTransmit**  
   
-    -   **-transmitter**  
+  -   **-transmisor**  
   
-    -   **-castDetailsReceive**  
+  -   **-castDetailsReceive**  
   
-    -   **-receiver**  
+  -   **-receptor**  
   
-    -   **-management**  
+  -   **-administración**  
   
-    -   **-iniciar, - detener**: activar o desactivar el proveedor.  
+  -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   
-    -   **-cir \<MB\>**: tamaño y tipo de archivo. -cir es un archivo circular. \<MB\>: tamaño en meg.  
+  -   **-cir \<MB\>**: tamaño y tipo de archivo. -cir es un archivo circular. \<MB\>: tamaño en meg.  
   
-    -   **-seq \<MB\>**: tamaño y tipo de archivo. -seq es un archivo secuencial. \<MB\>: tamaño en meg.  
+  -   **-seq \<MB\>**: tamaño y tipo de archivo. -seq es un archivo secuencial. \<MB\>: tamaño en meg.  
   
-    -   **-rt**: activar el modo de tiempo real.  
+  -   **-rt**: activar el modo en tiempo real.  
   
-    -   **Archivo de registro**: nombre del archivo de registro (c:\rtlog.etl es el valor predeterminado).  
+  -   **Archivo de registro**: nombre del archivo de registro (c:\rtlog.etl es el valor predeterminado).  
   
- Por ejemplo:  
+  Por ejemplo:  
   
 ```  
 BTAJDEOneWorldTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl  

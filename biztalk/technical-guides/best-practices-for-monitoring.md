@@ -1,5 +1,5 @@
 ---
-title: Prácticas recomendadas para la supervisión | Documentos de Microsoft
+title: Procedimientos recomendados para la supervisión | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,69 +12,69 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 51b3d4761c32123db53ea35daf91d0f13d9a2488
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 9bfb2b5575fe46c1104ddc6b852695fb777275ef
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26008533"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981661"
 ---
-# <a name="best-practices-for-monitoring"></a>Prácticas recomendadas para la supervisión
-Este tema proporciona prácticas recomendadas para la supervisión de su entorno de Microsoft BizTalk Server y las aplicaciones.  
+# <a name="best-practices-for-monitoring"></a>Procedimientos recomendados para la supervisión
+En este tema proporciona prácticas recomendadas para la supervisión de su entorno de Microsoft BizTalk Server y las aplicaciones.  
   
- **Crear y, a continuación, implementar un plan de supervisión de las aplicaciones de BizTalk y la infraestructura**  
+ **Crear y, a continuación, implementar un plan de supervisión para la infraestructura y aplicaciones de BizTalk**  
   
--   Lea los temas de supervisión en esta guía para garantizar una solución de supervisión más completa. Factores a tener en cuenta son los siguientes:  
+- Lea los temas de supervisión en esta guía para garantizar una solución de supervisión más completa. Factores a considerar incluyen lo siguiente:  
   
-    -   ¿Quién llevará a cabo diariamente, semanalmente, mensualmente y como tareas de supervisión necesarios?  
+  -   ¿Quién llevará a cabo la diaria, semanal, mensual y como las tareas de supervisión necesarias?  
   
-    -   ¿Es un usuario recibe una notificación de eventos, mensajes suspendidos u otros errores de aplicación o del sistema?  
+  -   ¿Es alguien una notificación de eventos, los mensajes suspendidos u otros errores de sistema o una aplicación?  
   
-    -   ¿Son "esperadas" excepciones filtrada o debido a una prioridad más baja?  
+  -   ¿"Esperadas" excepciones filtrada o dada una prioridad más baja?  
   
-    -   ¿Son que todas las instancias supervisados para garantizar que siguen ejecutándose de host?  
+  -   ¿Son que todas supervisadas para asegurarse de que continúan la ejecución de instancias de host?  
   
-    -   ¿Son todos los servicios personalizados, registros de eventos personalizados y bases de datos personalizadas supervisados?  
+  -   ¿Son todos los servicios personalizados, los registros de eventos personalizados y bases de datos personalizadas que supervisan?  
   
-    -   ¿Son los equipos de SQL Server y el Agente SQL Server de BizTalk supervisados los trabajos?  
+  -   ¿Son los equipos de SQL Server y el Agente SQL Server de BizTalk los trabajos que se supervisan?  
   
- **Si es posible, instale una aplicación de supervisión como [!INCLUDE[opsmgr_short](../includes/opsmgr-short-md.md)] con el fin de automatizar la supervisión de la infraestructura y aplicaciones de BizTalk Server**  
+  **Si es posible, instalar una aplicación de supervisión como [!INCLUDE[opsmgr_short](../includes/opsmgr-short-md.md)] con el fin de automatizar la supervisión de su infraestructura y aplicaciones de BizTalk Server**  
   
--   Con Microsoft System Center Operations Manager es el método preferido para la supervisión automatizada porque los módulos de administración de BizTalk Server proporcionan centenares de reglas integradas para BizTalk Server.  
+- Uso de Microsoft System Center Operations Manager es el método preferido para la supervisión automatizada porque los módulos de administración de BizTalk Server proporcionan centenares de reglas integradas de BizTalk Server.  
   
-     Para obtener más información, vea los recursos siguientes:  
+   Para obtener más información, vea los recursos siguientes:  
   
-    -   [Módulo de administración de Microsoft BizTalk Server para System Center Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkID=190339) (http://go.microsoft.com/fwlink/?LinkID=190339).  
+  -   [Módulo de administración de Microsoft BizTalk Server para System Center Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkID=190339) (http://go.microsoft.com/fwlink/?LinkID=190339).  
   
-    -   [Cómo importar un módulo de administración en Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkID=98348) (http://go.microsoft.com/fwlink/?LinkID=98348)  
+  -   [Cómo importar un módulo de administración en Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkID=98348) ()http://go.microsoft.com/fwlink/?LinkID=98348)  
   
-    -   [Cómo marcar las bases de datos de BizTalk Server para la supervisión personalizada](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
+  -   [Cómo marcar las bases de datos de BizTalk Server para la supervisión personalizada](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
   
- **Ejecutar el analizador de procedimientos recomendados de BizTalk Server**  
+  **Ejecutar servidor BizTalk Server Best Practices Analyzer**  
   
--   BizTalk Server Best Practices Analyzer examina una implementación de BizTalk Server y genera una lista de problemas relacionados con los estándares de prácticas recomendados. La herramienta realiza la comprobación de nivel de configuración mediante la recopilación de datos de orígenes de información diferente, como las clases de Instrumental de administración de Windows (WMI) y las bases de datos de SQL Server, las entradas del registro. Los datos, a continuación, se utilizan para evaluar la configuración de implementación. La herramienta lee solo informes y no modifica cualquier configuración del sistema y no es una herramienta de optimización automática.  
+- BizTalk Server Best Practices Analyzer examina la implementación de BizTalk Server y genera una lista de problemas relacionados con los estándares de prácticas recomendados. La herramienta realiza la comprobación de nivel de configuración mediante la recopilación de datos de orígenes de información diferente, como las clases de Instrumental de administración de Windows (WMI), las bases de datos de SQL Server y las entradas del registro. Los datos, a continuación, se utilizan para evaluar la configuración de implementación. La herramienta lee solo para informes y no modifica cualquier configuración del sistema y no es una herramienta de ajuste automático.  
   
-     Puede descargar el analizador de procedimientos recomendados de BizTalk Server en [http://go.microsoft.com/fwlink/?LinkId=83317](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).  
+   Puede descargar BizTalk Server Best Practices Analyzer en [ http://go.microsoft.com/fwlink/?LinkId=83317 ](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).  
   
- **Ejecutar la herramienta de análisis de registros de rendimiento (PAL)**  
+  **Ejecute la herramienta de análisis de registros de rendimiento (PAL)**  
   
--   Está disponible como descarga gratuita en PAL [https://github.com/clinthuffman/PAL](https://github.com/clinthuffman/PAL). Para obtener información importante de instalación, consulte [mediante la herramienta de análisis de rendimiento de registros (PAL)](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
+- Está disponible como descarga gratuita en PAL [ https://github.com/clinthuffman/PAL ](https://github.com/clinthuffman/PAL). Para obtener información importante de instalación, consulte [mediante la herramienta de análisis de rendimiento de los registros (PAL)](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
   
- **Ejecutar el analizador del registro**  
+  **Ejecutar el analizador de registros**  
   
--   Analizador del registro es una herramienta eficaz y versátil que proporciona acceso universal de consulta a datos basados en texto, como archivos de registro, archivos XML y archivos CSV, así como orígenes de datos clave en el sistema de operativo Windows® como el registro de eventos, el registro, el sistema de archivos y Active Directory®. Puede usar esta herramienta para consultar una cantidad significativa de información de registro. Puede descargar la herramienta de analizador del registro en [http://go.microsoft.com/fwlink/?LinkID=85574](http://go.microsoft.com/fwlink/?LinkID=85574)  
+- Log Parser es una herramienta eficaz y versátil que ofrece acceso universal de consulta a datos basados en texto tales como archivos de registro, archivos XML y archivos CSV, así como orígenes de datos clave en el sistema de operativo Windows® como el registro de eventos, el registro, el sistema de archivos y activo Directory®. Es posible que desee usar esta herramienta para consultar una cantidad significativa de información de registro. Puede descargar la herramienta Log Parser en [http://go.microsoft.com/fwlink/?LinkID=85574](http://go.microsoft.com/fwlink/?LinkID=85574)  
   
- **Ejecutar la herramienta BizTalk MsgBoxViewer**  
+  **Ejecute la herramienta BizTalk MsgBoxViewer**  
   
- Ejecute el [herramienta BizTalk MsgBoxViewer](http://go.microsoft.com/fwlink/?LinkId=151930) disponibles en [http://go.microsoft.com/fwlink/?LinkId=151930](http://go.microsoft.com/fwlink/?LinkId=151930). Esta herramienta analiza BizTalk MessageBox y otras bases de datos y genera un informe HTML que contiene advertencias, si cualquier y otra información relacionada con las bases de datos. También puede guardar los informes para su uso posterior. Estos informes pueden ser útiles al solucionar problemas relacionados con la aplicación de BizTalk.  
+  Ejecute el [herramienta BizTalk MsgBoxViewer](http://go.microsoft.com/fwlink/?LinkId=151930) disponibles desde [ http://go.microsoft.com/fwlink/?LinkId=151930 ](http://go.microsoft.com/fwlink/?LinkId=151930). Esta herramienta analiza BizTalk MessageBox y otras bases de datos y genera un informe HTML que contiene las advertencias, si cualquier y otra información relacionada con las bases de datos. También puede guardar los informes para su uso posterior. Estos informes pueden ser útiles al solucionar problemas con la aplicación de BizTalk.  
   
- Si la herramienta de BizTalk MsgBoxViewer identifica los problemas, ejecute el [herramienta terminador](http://go.microsoft.com/fwlink/?LinkId=151931) disponible en [http://go.microsoft.com/fwlink/?LinkId=151931](http://go.microsoft.com/fwlink/?LinkId=151931). Esta herramienta permite a los usuarios a resolver fácilmente los problemas identificados por la herramienta de BizTalk MsgBoxViewer. Para obtener más información acerca de cómo la herramienta de terminador se integra con la herramienta de BizTalk MsgBoxViewer, consulte [utilizando el terminador de BizTalk para resolver los problemas identificados por BizTalk MsgBoxViewer](http://go.microsoft.com/fwlink/?LinkId=151932) (http://go.microsoft.com/fwlink/?LinkId=151932).  
+  Si la herramienta BizTalk MsgBoxViewer identifica cualquier problema, ejecute el [herramienta terminador](http://go.microsoft.com/fwlink/?LinkId=151931) disponible en [ http://go.microsoft.com/fwlink/?LinkId=151931 ](http://go.microsoft.com/fwlink/?LinkId=151931). Esta herramienta permite a los usuarios fácil de resolver los problemas detectados por la herramienta BizTalk MsgBoxViewer. Para obtener más información acerca de cómo la herramienta terminador se integra con la herramienta BizTalk MsgBoxViewer, consulte [utilizando el terminador de BizTalk para resolver los problemas identificados por BizTalk MsgBoxViewer](http://go.microsoft.com/fwlink/?LinkId=151932) (http://go.microsoft.com/fwlink/?LinkId=151932).  
   
 > [!NOTE]  
->  Uso de estas herramientas no es compatible con Microsoft y Microsoft no otorga ninguna garantía sobre la idoneidad de estos programas. El uso de estos programas queda bajo su propia responsabilidad.  
+>  Uso de estas herramientas no es compatible con Microsoft y Microsoft no ofrece ninguna garantía sobre la idoneidad de estos programas. El uso de estos programas queda bajo su propia responsabilidad.  
   
- **Asegúrese de supervisar una prioridad**  
+ **Realizar supervisión de una prioridad**  
   
--   Supervisión coherente de infraestructura y las aplicaciones de BizTalk Server es esencial para mantener un entorno correcto.  
+-   Una supervisión constante de la infraestructura y aplicaciones de BizTalk Server es esencial para mantener un entorno correcto.  
   
--   Periódicamente, evaluar y ajustar sus herramientas de supervisión con el tiempo y que las aplicaciones de BizTalk Server y el cambio en la infraestructura.
+-   Periódicamente, evaluar y ajustar sus herramientas de supervisión con el tiempo y como las aplicaciones de BizTalk Server y el cambio en la infraestructura.

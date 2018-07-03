@@ -1,5 +1,5 @@
 ---
-title: Durante la serialización nodo raíz no se coloca en el elemento de inicio | Documentos de Microsoft
+title: Durante la serialización nodo raíz no se coloca en el elemento de inicio | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3dced7e36802dd9d9ec9620272fc8a96bd6b590
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce91021f966ac1179a5137373df09fe7f3c4cece
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22240052"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978421"
 ---
 # <a name="during-serialization-root-node-is-not-placed-at-start-element"></a>Durante la serialización, el nodo raíz no se coloca en el elemento de inicio.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Durante la serialización, el nodo raíz no se coloca en el elemento de inicio.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                                           -                                            |
+|  Texto del mensaje   |             Durante la serialización, el nodo raíz no se coloca en el elemento de inicio.              |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar un intercambio entrante porque el conjunto de transacciones no comienza con un encabezado ST o UNH.  

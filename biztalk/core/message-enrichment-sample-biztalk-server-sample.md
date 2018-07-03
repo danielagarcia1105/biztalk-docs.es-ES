@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de enriquecimiento (ejemplo de BizTalk Server) del mensaje | Documentos de Microsoft
+title: Mensaje Enrichment (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3413345c4e2d0a2ce4cd7ee1cb5ebda50b1dea7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 01fa66b344548654a4d2e2e2f2b8700b604ec0e7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22265212"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998509"
 ---
 # <a name="message-enrichment-sample-biztalk-server-sample"></a>Message Enrichment (ejemplo de BizTalk Server)
 El ejemplo Message Enrichment muestra cómo anexar encabezados de intercambio a mensajes de conjunto de transacciones para documentos X12 y EDIFACT.  
@@ -47,7 +47,7 @@ El ejemplo Message Enrichment muestra cómo anexar encabezados de intercambio a 
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |Cleanup.bat|Anula la implementación del escenario de ejemplo. Para que se realice correctamente, no debe haber instancias activas de la orquestación. De lo contrario, no se realizará correctamente.|  
 |MessageEnrichment.sln|Contiene los proyectos MessageEnrichment y MessageEnrichmentLibrary.|  
@@ -76,47 +76,47 @@ El ejemplo Message Enrichment muestra cómo anexar encabezados de intercambio a 
   
 #### <a name="to-build-and-deploy-the-biztalk-project-for-this-sample"></a>Para crear e implementar el proyecto de BizTalk para este ejemplo  
   
-1.  Mediante Notepad.Exe, abra [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\MessageEnrichment\  
-    MessageEnrichment\properties\AssemblyInfo.cs y agregue la siguiente línea al final del archivo:  
+1. Con Notepad.Exe, abra [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\MessageEnrichment\  
+   MessageEnrichment\properties\AssemblyInfo.cs y agregue la siguiente línea en la parte inferior del archivo:  
   
-    ```  
-    [assembly: Microsoft.XLANGs.BaseTypes.BizTalkAssembly(typeof(Microsoft.BizTalk.XLANGs.BTXEngine.BTXService))]  
-    ```  
+   ```  
+   [assembly: Microsoft.XLANGs.BaseTypes.BizTalkAssembly(typeof(Microsoft.BizTalk.XLANGs.BTXEngine.BTXService))]  
+   ```  
   
-2.  Guarde el archivo AssemblyInfo.cs modificado y, a continuación, cierre el Bloc de notas.  
+2. Guarde el archivo AssemblyInfo.cs modificado y, a continuación, cierre el Bloc de notas.  
   
-3.  En una ventana de comandos, vaya a la siguiente carpeta:  
+3. En una ventana de comandos, vaya a la siguiente carpeta:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\Message Enrichment  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\Message Enrichment  
   
-4.  Ejecutar **Setup.bat**, que realiza las siguientes acciones:  
+4. Ejecute **Setup.bat**, que realiza las acciones siguientes:  
   
-    -   Crea la recepción (**en**) y enviar (**out**) para este ejemplo en la carpeta \MessageEnrichment.  
+   -   Crea la recepción (**en**) y enviar (**out**) para este ejemplo en la carpeta \MessageEnrichment.  
   
-    -   Escribe un par de claves en MessageEnrichmentLibrary\testkey.snk  
+   -   Escribe un par de claves en MessageEnrichmentLibrary\testkey.snk  
   
-    -   Crea e implementa el proyecto MessageEnrichmentLibrary.btproj.  
+   -   Crea e implementa el proyecto MessageEnrichmentLibrary.btproj.  
   
-    -   Crea e implementa el proyecto MessageEnrichment.btproj.  
+   -   Crea e implementa el proyecto MessageEnrichment.btproj.  
   
-    -   Lee la información de enlaces de MessageEnrichmentBindings.xml.  
+   -   Lee la información de enlaces de MessageEnrichmentBindings.xml.  
   
-        > [!NOTE]
-        >  El enlace para este proyecto requiere que el host de BizTalk está marcado como autenticación de confianza.  Para usar esta opción con un host que no sea de confianza, modifique el archivo MessageEnrichmentBindings.xml y cambie las entradas HostTrusted=”true” a HostTrusted=”false”.  
+       > [!NOTE]
+       >  El enlace para este proyecto requiere que el host de BizTalk está marcado como autenticación de confianza.  Para usar esta opción con un host que no sea de confianza, modifique el archivo MessageEnrichmentBindings.xml y cambie las entradas HostTrusted=”true” a HostTrusted=”false”.  
   
-    -   Actualiza los enlaces de la orquestación.  
+   -   Actualiza los enlaces de la orquestación.  
   
-    -   Actualiza los puertos de envío, grupos de puertos de envío y puertos de recepción.  
+   -   Actualiza los puertos de envío, grupos de puertos de envío y puertos de recepción.  
   
-    -   Actualiza entidades e inscripciones.  
+   -   Actualiza entidades e inscripciones.  
   
-    -   Inicia el puerto de envío.  
+   -   Inicia el puerto de envío.  
   
-    -   Habilita la ubicación de recepción.  
+   -   Habilita la ubicación de recepción.  
   
-    -   Da de alta e inicia la orquestación.  
+   -   Da de alta e inicia la orquestación.  
   
- Ahora, el servidor BizTalk Server estará preparado para trabajar con este ejemplo.  
+   Ahora, el servidor BizTalk Server estará preparado para trabajar con este ejemplo.  
   
 ## <a name="running-this-sample"></a>Ejecución del ejemplo  
  Utilice el siguiente procedimiento para ejecutar el ejemplo Message Enrichment.  
@@ -134,7 +134,7 @@ El ejemplo Message Enrichment muestra cómo anexar encabezados de intercambio a 
 5.  Abra el archivo nuevo de la carpeta \MessageEnrichment\Out. Verifique que se trata de una representación XML del archivo X12_examples.edi de la carpeta \MessageEnrichment\Instances, y que su contenido es idéntico al del archivo X12_examples.edi, excepto por el hecho de que el archivo de salida tiene encabezados ISA de X12.  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>Clases o métodos usados en el ejemplo  
- Ninguno  
+ None  
   
 ## <a name="see-also"></a>Vea también  
  [EDI y AS2 (carpeta de ejemplos de BizTalk Server)](../core/edi-and-as2-biztalk-server-samples-folder.md)
