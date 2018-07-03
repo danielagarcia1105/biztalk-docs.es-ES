@@ -1,5 +1,5 @@
 ---
-title: 'Solución de problemas: Problemas y Resolutions1 | Documentos de Microsoft'
+title: 'Solución de problemas: Problemas y Resolutions1 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,24 +15,24 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07eacd1197b36a0f160f900e4442455876e86c87
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a2b2f7cbbe2fb6f4ba67ce1268d9ebea4ff48e3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214556"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982925"
 ---
-# <a name="troubleshooting-issues-and-resolutions"></a><span data-ttu-id="abf43-102">Solución de problemas: Problemas y soluciones</span><span class="sxs-lookup"><span data-stu-id="abf43-102">Troubleshooting: Issues and Resolutions</span></span>
-<span data-ttu-id="abf43-103">Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="abf43-103">This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="abf43-104">Cada problema detalla un síntoma específico, una posible causa y una solución.</span><span class="sxs-lookup"><span data-stu-id="abf43-104">Each issue details a specific symptom, a possible cause, and a solution.</span></span>  
+# <a name="troubleshooting-issues-and-resolutions"></a><span data-ttu-id="71e86-102">Solución de problemas: Problemas y soluciones</span><span class="sxs-lookup"><span data-stu-id="71e86-102">Troubleshooting: Issues and Resolutions</span></span>
+<span data-ttu-id="71e86-103">Este tema tratan los problemas relacionados con la ejecución de Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="71e86-103">This topic addresses issues related to running Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="71e86-104">Cada problema detalla un síntoma específico, una causa posible y una solución.</span><span class="sxs-lookup"><span data-stu-id="71e86-104">Each issue details a specific symptom, a possible cause, and a solution.</span></span>  
   
- <span data-ttu-id="abf43-105">Los problemas y soluciones se agrupan en las siguientes áreas:</span><span class="sxs-lookup"><span data-stu-id="abf43-105">The issues and resolutions are grouped into the following areas:</span></span>  
+ <span data-ttu-id="71e86-105">Los problemas y soluciones se agrupan en las áreas siguientes:</span><span class="sxs-lookup"><span data-stu-id="71e86-105">The issues and resolutions are grouped into the following areas:</span></span>  
   
--   [<span data-ttu-id="abf43-106">Instalación y solución de problemas de configuración</span><span class="sxs-lookup"><span data-stu-id="abf43-106">Installation and Configuration Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
+-   [<span data-ttu-id="71e86-106">Solución de problemas de instalación y configuración</span><span class="sxs-lookup"><span data-stu-id="71e86-106">Installation and Configuration Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
   
--   [<span data-ttu-id="abf43-107">Solución de problemas de actualización y migración</span><span class="sxs-lookup"><span data-stu-id="abf43-107">Migration and Upgrade Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
+-   [<span data-ttu-id="71e86-107">Solución de problemas de migración y actualización</span><span class="sxs-lookup"><span data-stu-id="71e86-107">Migration and Upgrade Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
   
--   [<span data-ttu-id="abf43-108">Reparación de mensajes y solución de problemas de envío nuevo</span><span class="sxs-lookup"><span data-stu-id="abf43-108">Message Repair and New Submission Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
+-   [<span data-ttu-id="71e86-108">Solución de problemas de reparación de mensajes y nuevo envío</span><span class="sxs-lookup"><span data-stu-id="71e86-108">Message Repair and New Submission Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
   
--   [<span data-ttu-id="abf43-109">Respuesta FIN conciliación solucionar problemas</span><span class="sxs-lookup"><span data-stu-id="abf43-109">FIN Response Reconciliation Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
+-   [<span data-ttu-id="71e86-109">Solución de problemas de conciliación de respuestas de FIN</span><span class="sxs-lookup"><span data-stu-id="71e86-109">FIN Response Reconciliation Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
   
--   [<span data-ttu-id="abf43-110">Solución de problemas de varios</span><span class="sxs-lookup"><span data-stu-id="abf43-110">Miscellaneous Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/miscellaneous-troubleshooting.md)
+-   [<span data-ttu-id="71e86-110">Solución de problemas varios</span><span class="sxs-lookup"><span data-stu-id="71e86-110">Miscellaneous Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/miscellaneous-troubleshooting.md)

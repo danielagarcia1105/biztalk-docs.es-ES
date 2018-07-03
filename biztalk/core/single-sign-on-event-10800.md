@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10800 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10800 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b197ce890845abba6285564267e11c582b5bf5c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 86d6f4078511470fa272e51661fc9bb8d0c8ce63
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277076"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976877"
 ---
-# <a name="single-sign-on-event-10800"></a><span data-ttu-id="86960-102">Inicio de sesión único: Evento 10800</span><span class="sxs-lookup"><span data-stu-id="86960-102">Single Sign-On: Event 10800</span></span>
-## <a name="details"></a><span data-ttu-id="86960-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="86960-103">Details</span></span>  
+# <a name="single-sign-on-event-10800"></a><span data-ttu-id="3d95e-102">De sesión único: Evento 10800</span><span class="sxs-lookup"><span data-stu-id="3d95e-102">Single Sign-On: Event 10800</span></span>
+## <a name="details"></a><span data-ttu-id="3d95e-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="3d95e-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="86960-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="86960-104">Product Name</span></span>|<span data-ttu-id="86960-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="86960-105">Enterprise Single Sign-On</span></span>|  
-|<span data-ttu-id="86960-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="86960-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|<span data-ttu-id="86960-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="86960-107">Event ID</span></span>|<span data-ttu-id="86960-108">10800</span><span class="sxs-lookup"><span data-stu-id="86960-108">10800</span></span>|  
-|<span data-ttu-id="86960-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="86960-109">Event Source</span></span>|<span data-ttu-id="86960-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="86960-110">ENTSSO</span></span>|  
-|<span data-ttu-id="86960-111">Componente</span><span class="sxs-lookup"><span data-stu-id="86960-111">Component</span></span>|<span data-ttu-id="86960-112">N/D</span><span class="sxs-lookup"><span data-stu-id="86960-112">N/A</span></span>|  
-|<span data-ttu-id="86960-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="86960-113">Symbolic Name</span></span>|<span data-ttu-id="86960-114">ENTSSO_E_WRONG_STATE</span><span class="sxs-lookup"><span data-stu-id="86960-114">ENTSSO_E_WRONG_STATE</span></span>|  
-|<span data-ttu-id="86960-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="86960-115">Message Text</span></span>|<span data-ttu-id="86960-116">Se llamó a esta función en el estado incorrecto.</span><span class="sxs-lookup"><span data-stu-id="86960-116">This function has been called in the wrong state.</span></span>|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  <span data-ttu-id="3d95e-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="3d95e-104">Product Name</span></span>   |                 <span data-ttu-id="3d95e-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="3d95e-105">Enterprise Single Sign-On</span></span>                  |
+| <span data-ttu-id="3d95e-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="3d95e-106">Product Version</span></span> | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    <span data-ttu-id="3d95e-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="3d95e-107">Event ID</span></span>     |                           <span data-ttu-id="3d95e-108">10800</span><span class="sxs-lookup"><span data-stu-id="3d95e-108">10800</span></span>                            |
+|  <span data-ttu-id="3d95e-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="3d95e-109">Event Source</span></span>   |                           <span data-ttu-id="3d95e-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="3d95e-110">ENTSSO</span></span>                           |
+|    <span data-ttu-id="3d95e-111">Componente</span><span class="sxs-lookup"><span data-stu-id="3d95e-111">Component</span></span>    |                            <span data-ttu-id="3d95e-112">N/D</span><span class="sxs-lookup"><span data-stu-id="3d95e-112">N/A</span></span>                             |
+|  <span data-ttu-id="3d95e-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="3d95e-113">Symbolic Name</span></span>  |                    <span data-ttu-id="3d95e-114">ENTSSO_E_WRONG_STATE</span><span class="sxs-lookup"><span data-stu-id="3d95e-114">ENTSSO_E_WRONG_STATE</span></span>                    |
+|  <span data-ttu-id="3d95e-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="3d95e-115">Message Text</span></span>   |     <span data-ttu-id="3d95e-116">Se llamó a esta función en el estado incorrecto.</span><span class="sxs-lookup"><span data-stu-id="3d95e-116">This function has been called in the wrong state.</span></span>      |
   
-## <a name="explanation"></a><span data-ttu-id="86960-117">Explicación</span><span class="sxs-lookup"><span data-stu-id="86960-117">Explanation</span></span>  
- <span data-ttu-id="86960-118">Se llamó a la función en el estado incorrecto.</span><span class="sxs-lookup"><span data-stu-id="86960-118">The function has been called in the wrong state.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="3d95e-117">Explicación</span><span class="sxs-lookup"><span data-stu-id="3d95e-117">Explanation</span></span>  
+ <span data-ttu-id="3d95e-118">Se llamó a la función en el estado incorrecto.</span><span class="sxs-lookup"><span data-stu-id="3d95e-118">The function has been called in the wrong state.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="86960-119">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="86960-119">User Action</span></span>  
- <span data-ttu-id="86960-120">Compruebe la aplicación.</span><span class="sxs-lookup"><span data-stu-id="86960-120">Check your application.</span></span>
+## <a name="user-action"></a><span data-ttu-id="3d95e-119">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="3d95e-119">User Action</span></span>  
+ <span data-ttu-id="3d95e-120">Compruebe la aplicación.</span><span class="sxs-lookup"><span data-stu-id="3d95e-120">Check your application.</span></span>

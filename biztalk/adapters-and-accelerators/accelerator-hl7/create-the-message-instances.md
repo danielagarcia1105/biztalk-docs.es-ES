@@ -1,5 +1,5 @@
 ---
-title: Crear las instancias de mensaje | Documentos de Microsoft
+title: Crear las instancias de mensaje | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,24 +12,24 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfd39e1da4e8c730e2ca1c663a5844355ac9cd08
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 9f7ce59f356cfbc6b1804dc033f40aa732691342
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25960218"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982541"
 ---
-# <a name="create-the-message-instances"></a><span data-ttu-id="ef81e-102">Crear las instancias de mensaje</span><span class="sxs-lookup"><span data-stu-id="ef81e-102">Create the Message Instances</span></span>
-<span data-ttu-id="ef81e-103">Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.txt y para crear las instancias de mensaje que debe usar al ejecutar el tutorial de procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="ef81e-103">Use the following procedures to create the ADT^A03.txt message file, and to create the message instances that you will need to use when you run the Batching tutorial.</span></span>  
+# <a name="create-the-message-instances"></a><span data-ttu-id="c8bef-102">Crear las instancias de mensaje</span><span class="sxs-lookup"><span data-stu-id="c8bef-102">Create the Message Instances</span></span>
+<span data-ttu-id="c8bef-103">Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.txt y para crear las instancias de mensaje que debe usar al ejecutar el tutorial de procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="c8bef-103">Use the following procedures to create the ADT^A03.txt message file, and to create the message instances that you will need to use when you run the Batching tutorial.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="ef81e-104">Al crear estos mensajes en el Bloc de notas, elimine el después de la última línea retorno de carro.</span><span class="sxs-lookup"><span data-stu-id="ef81e-104">When creating these messages in Notepad, delete the carriage return following the last line.</span></span>  
+>  <span data-ttu-id="c8bef-104">Al crear estos mensajes en el Bloc de notas, elimine el siguiendo la última línea de retorno de carro.</span><span class="sxs-lookup"><span data-stu-id="c8bef-104">When creating these messages in Notepad, delete the carriage return following the last line.</span></span>  
   
-### <a name="to-create-the-fragmented-batch-message-instance-text-file"></a><span data-ttu-id="ef81e-105">Para crear el archivo de texto de instancia de mensaje de lote fragmentado</span><span class="sxs-lookup"><span data-stu-id="ef81e-105">To create the fragmented batch message instance text file</span></span>  
+### <a name="to-create-the-fragmented-batch-message-instance-text-file"></a><span data-ttu-id="c8bef-105">Para crear el archivo de texto de instancia de mensaje de lote fragmentado</span><span class="sxs-lookup"><span data-stu-id="c8bef-105">To create the fragmented batch message instance text file</span></span>  
   
-1.  <span data-ttu-id="ef81e-106">Abra el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-106">Open Notepad.</span></span>  
+1.  <span data-ttu-id="c8bef-106">Abra el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-106">Open Notepad.</span></span>  
   
-2.  <span data-ttu-id="ef81e-107">Copie el texto siguiente en el Bloc de notas:</span><span class="sxs-lookup"><span data-stu-id="ef81e-107">Copy the following text into Notepad:</span></span>  
+2.  <span data-ttu-id="c8bef-107">En el Bloc de notas, copie el texto siguiente:</span><span class="sxs-lookup"><span data-stu-id="c8bef-107">Copy the following text into Notepad:</span></span>  
   
     ```  
     FHS|^~\&|Tutorial_BatchSource|FileSendingFacility|Tutorial_BatchParty|FileReceivingFacility|20040215115056.2222-0800  
@@ -48,13 +48,13 @@ ms.locfileid: "25960218"
     FTS|1|File,BatchCount,TrailerComment  
     ```  
   
-3.  <span data-ttu-id="ef81e-108">Guarde el archivo como **FragmentedInboundBatch.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-108">Save the file as **FragmentedInboundBatch.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
+3.  <span data-ttu-id="c8bef-108">Guarde el archivo como **FragmentedInboundBatch.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-108">Save the file as **FragmentedInboundBatch.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
   
-### <a name="to-create-the-batch-inbatch-out-message-instance-text-file"></a><span data-ttu-id="ef81e-109">Para crear el lote / archivo de instancia de mensaje de texto de lote</span><span class="sxs-lookup"><span data-stu-id="ef81e-109">To create the batch in/batch out message instance text file</span></span>  
+### <a name="to-create-the-batch-inbatch-out-message-instance-text-file"></a><span data-ttu-id="c8bef-109">Para crear el lote o archivo de texto instancia de mensaje de lote</span><span class="sxs-lookup"><span data-stu-id="c8bef-109">To create the batch in/batch out message instance text file</span></span>  
   
-1.  <span data-ttu-id="ef81e-110">Abra el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-110">Open Notepad.</span></span>  
+1.  <span data-ttu-id="c8bef-110">Abra el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-110">Open Notepad.</span></span>  
   
-2.  <span data-ttu-id="ef81e-111">Copie el texto siguiente en el Bloc de notas:</span><span class="sxs-lookup"><span data-stu-id="ef81e-111">Copy the following text into Notepad:</span></span>  
+2.  <span data-ttu-id="c8bef-111">En el Bloc de notas, copie el texto siguiente:</span><span class="sxs-lookup"><span data-stu-id="c8bef-111">Copy the following text into Notepad:</span></span>  
   
     ```  
     MSH|^~\&|Tutorial_BatchSource|XYZ_ADMITTING|MESA_IS|XYZ_HOSPITAL|20040215115056||ADT^A03|000001|P|2.3.1  
@@ -69,34 +69,34 @@ ms.locfileid: "25960218"
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-3.  <span data-ttu-id="ef81e-112">Guarde el archivo como **BatchInBatchOut.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-112">Save the file as **BatchInBatchOut.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
+3.  <span data-ttu-id="c8bef-112">Guarde el archivo como **BatchInBatchOut.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-112">Save the file as **BatchInBatchOut.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
   
-### <a name="to-create-the-create-batch-message-instance-text-files"></a><span data-ttu-id="ef81e-113">Para crear la instancia de mensaje de lote de crear archivos de texto</span><span class="sxs-lookup"><span data-stu-id="ef81e-113">To create the create batch message instance text files</span></span>  
+### <a name="to-create-the-create-batch-message-instance-text-files"></a><span data-ttu-id="c8bef-113">Para crear la instancia de mensaje de lote de crear archivos de texto</span><span class="sxs-lookup"><span data-stu-id="c8bef-113">To create the create batch message instance text files</span></span>  
   
-1.  <span data-ttu-id="ef81e-114">Abra el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-114">Open Notepad.</span></span>  
+1. <span data-ttu-id="c8bef-114">Abra el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-114">Open Notepad.</span></span>  
   
-2.  <span data-ttu-id="ef81e-115">Copie el texto siguiente en el Bloc de notas:</span><span class="sxs-lookup"><span data-stu-id="ef81e-115">Copy the following text into Notepad:</span></span>  
+2. <span data-ttu-id="c8bef-115">En el Bloc de notas, copie el texto siguiente:</span><span class="sxs-lookup"><span data-stu-id="c8bef-115">Copy the following text into Notepad:</span></span>  
   
-    ```  
-    MSH|^~\&|Tutorial_BatchSource|XYZ_ADMITTING|Tutorial_BatchDest|XYZ_HOSPITAL|20040215115056||ADT^A03|Msg01|P|2.3.1  
-    EVN|A03|199601121005||01||199601121000  
-    PID|||191919^^^MYHOS^MR~123-45-6789^^^USSSA^SS|253763|SMITH^JOHN^Q||19560129|M|||123MAIN^^BUFFALO^NY^98052^""||(123)555-0100||S|M|10199925^^^MYHOS^AN|123-45-6789  
-    PD1|S|F|NormalString^A^+1^-1^ISO^simpletext&Test&HCD^GI^simpletext&NormalString&ISO^I|NormalString^Test&Test^Test^Test^Test^Test^AE^simpletext^simpletext&Test&ISO^P^NormalString^M10^MC^simpletext&NormalString&HCD^A|N|simpletext|I|I|N|NormalString^+1^M11^simpletext&NormalString&L,M,N^RRI^simpletext&NormalString&HCD|NOVALUE^NormalString^Test^Test^NormalString^Test|N  
-    PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
-    ```  
+   ```  
+   MSH|^~\&|Tutorial_BatchSource|XYZ_ADMITTING|Tutorial_BatchDest|XYZ_HOSPITAL|20040215115056||ADT^A03|Msg01|P|2.3.1  
+   EVN|A03|199601121005||01||199601121000  
+   PID|||191919^^^MYHOS^MR~123-45-6789^^^USSSA^SS|253763|SMITH^JOHN^Q||19560129|M|||123MAIN^^BUFFALO^NY^98052^""||(123)555-0100||S|M|10199925^^^MYHOS^AN|123-45-6789  
+   PD1|S|F|NormalString^A^+1^-1^ISO^simpletext&Test&HCD^GI^simpletext&NormalString&ISO^I|NormalString^Test&Test^Test^Test^Test^Test^AE^simpletext^simpletext&Test&ISO^P^NormalString^M10^MC^simpletext&NormalString&HCD^A|N|simpletext|I|I|N|NormalString^+1^M11^simpletext&NormalString&L,M,N^RRI^simpletext&NormalString&HCD|NOVALUE^NormalString^Test^Test^NormalString^Test|N  
+   PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
+   ```  
   
-3.  <span data-ttu-id="ef81e-116">Guarde el archivo como **CreateBatchMessage1.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-116">Save the file as **CreateBatchMessage1.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
+3. <span data-ttu-id="c8bef-116">Guarde el archivo como **CreateBatchMessage1.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-116">Save the file as **CreateBatchMessage1.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
   
-4.  <span data-ttu-id="ef81e-117">Copie el texto siguiente en una nueva instancia del Bloc de notas:</span><span class="sxs-lookup"><span data-stu-id="ef81e-117">Copy the following text into a new instance of Notepad:</span></span>  
+4. <span data-ttu-id="c8bef-117">En una nueva instancia del Bloc de notas, copie el texto siguiente:</span><span class="sxs-lookup"><span data-stu-id="c8bef-117">Copy the following text into a new instance of Notepad:</span></span>  
   
-    ```  
-    MSH|^~\&|Tutorial_BatchSource|XYZ_ADMITTING|Tutorial_BatchDest|XYZ_HOSPITAL|20040215115056||ADT^A03|Msg02|T|2.3.1  
-    EVN|A03|199601121005||01||199601121000  
-    PID|||191919^^^MYHOS^MR~123-45-6789^^^USSSA^SS|253763|DOE^JOHN||19560129|M|||123MAIN^^BUFFALO^NY^98052^""||(123)555-0100||S|M|10199925^^^MYHOS^AN|123-45-6789  
-    PD1|S|F|String^A^+1^-1^ISO^simpletext&Test&HCD^GI^simpletext&NormalString&ISO^I|NormalString^Test&Test^Test^Test^Test^Test^AE^simpletext^simpletext&Test&ISO^P^NormalString^M10^MC^simpletext&NormalString&HCD^A|N|simpletext|I|I|N|NormalString^+1^M11^simpletext&NormalString&L,M,N^RRI^simpletext&NormalString&HCD|NOVALUE^NormalString^Test^Test^NormalString^Test|N  
-    PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
-    ```  
+   ```  
+   MSH|^~\&|Tutorial_BatchSource|XYZ_ADMITTING|Tutorial_BatchDest|XYZ_HOSPITAL|20040215115056||ADT^A03|Msg02|T|2.3.1  
+   EVN|A03|199601121005||01||199601121000  
+   PID|||191919^^^MYHOS^MR~123-45-6789^^^USSSA^SS|253763|DOE^JOHN||19560129|M|||123MAIN^^BUFFALO^NY^98052^""||(123)555-0100||S|M|10199925^^^MYHOS^AN|123-45-6789  
+   PD1|S|F|String^A^+1^-1^ISO^simpletext&Test&HCD^GI^simpletext&NormalString&ISO^I|NormalString^Test&Test^Test^Test^Test^Test^AE^simpletext^simpletext&Test&ISO^P^NormalString^M10^MC^simpletext&NormalString&HCD^A|N|simpletext|I|I|N|NormalString^+1^M11^simpletext&NormalString&L,M,N^RRI^simpletext&NormalString&HCD|NOVALUE^NormalString^Test^Test^NormalString^Test|N  
+   PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
+   ```  
   
-5.  <span data-ttu-id="ef81e-118">Guarde el archivo como **CreateBatchMessage2.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="ef81e-118">Save the file as **CreateBatchMessage2.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
+5. <span data-ttu-id="c8bef-118">Guarde el archivo como **CreateBatchMessage2.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.</span><span class="sxs-lookup"><span data-stu-id="c8bef-118">Save the file as **CreateBatchMessage2.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.</span></span>  
   
- <span data-ttu-id="ef81e-119">Continúe con [parte 1: fragmentado por lotes entrantes escenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="ef81e-119">Proceed to [Part 1: Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md).</span></span>
+   <span data-ttu-id="c8bef-119">Continúe con [parte 1: fragmentados por lotes entrantes escenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="c8bef-119">Proceed to [Part 1: Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md).</span></span>

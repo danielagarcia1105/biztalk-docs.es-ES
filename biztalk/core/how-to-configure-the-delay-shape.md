@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar la forma retraso | Documentos de Microsoft
+title: Cómo configurar la forma retraso | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,42 +18,42 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b76448398facd3af7f3b9712491f9895ffb406d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 7c00e002418dac53295828a4cbed632a6de0c235
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "22248340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993653"
 ---
-# <a name="how-to-configure-the-delay-shape"></a><span data-ttu-id="dae5e-102">Cómo configurar la forma Retraso</span><span class="sxs-lookup"><span data-stu-id="dae5e-102">How to Configure the Delay Shape</span></span>
-<span data-ttu-id="dae5e-103">![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")</span><span class="sxs-lookup"><span data-stu-id="dae5e-103">![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")</span></span>  
-<span data-ttu-id="dae5e-104">Forma Retraso</span><span class="sxs-lookup"><span data-stu-id="dae5e-104">Delay shape</span></span>  
+# <a name="how-to-configure-the-delay-shape"></a><span data-ttu-id="5adb7-102">Cómo configurar la forma Retraso</span><span class="sxs-lookup"><span data-stu-id="5adb7-102">How to Configure the Delay Shape</span></span>
+<span data-ttu-id="5adb7-103">![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")</span><span class="sxs-lookup"><span data-stu-id="5adb7-103">![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")</span></span>  
+<span data-ttu-id="5adb7-104">Forma Retraso</span><span class="sxs-lookup"><span data-stu-id="5adb7-104">Delay shape</span></span>  
   
- <span data-ttu-id="dae5e-105">Hay dos maneras de especificar el tiempo de espera para una **retraso**:</span><span class="sxs-lookup"><span data-stu-id="dae5e-105">There are two ways to specify the timeout for a **Delay**:</span></span>  
+ <span data-ttu-id="5adb7-105">Hay dos maneras de especificar el tiempo de espera para un **retraso**:</span><span class="sxs-lookup"><span data-stu-id="5adb7-105">There are two ways to specify the timeout for a **Delay**:</span></span>  
   
--   <span data-ttu-id="dae5e-106">Puede usar **System.DateTime**, lo que hace que la orquestación se pause hasta que la fecha especificada y se alcanza el tiempo.</span><span class="sxs-lookup"><span data-stu-id="dae5e-106">You can use **System.DateTime**, which causes your orchestration to pause until the specified date and time is reached.</span></span>  
+- <span data-ttu-id="5adb7-106">Puede usar **System.DateTime**, lo que hace que la orquestación se pause hasta que la fecha especificada y se alcanza el tiempo.</span><span class="sxs-lookup"><span data-stu-id="5adb7-106">You can use **System.DateTime**, which causes your orchestration to pause until the specified date and time is reached.</span></span>  
   
-     <span data-ttu-id="dae5e-107">System.DateTime.UtcNow.AddSeconds(60)</span><span class="sxs-lookup"><span data-stu-id="dae5e-107">System.DateTime.UtcNow.AddSeconds(60)</span></span>  
+   <span data-ttu-id="5adb7-107">System.DateTime.UtcNow.AddSeconds(60)</span><span class="sxs-lookup"><span data-stu-id="5adb7-107">System.DateTime.UtcNow.AddSeconds(60)</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="dae5e-108">Retrasos deben expresar en hora Universal coordinada (UTC) cuando se usa **DateTime**.</span><span class="sxs-lookup"><span data-stu-id="dae5e-108">Delays must be expressed in Coordinated Universal Time (UTC) when using **DateTime**.</span></span>  
+  > [!NOTE]
+  >  <span data-ttu-id="5adb7-108">Retrasos se deben expresar en hora Universal coordinada (UTC) cuando se usa **DateTime**.</span><span class="sxs-lookup"><span data-stu-id="5adb7-108">Delays must be expressed in Coordinated Universal Time (UTC) when using **DateTime**.</span></span>  
   
--   <span data-ttu-id="dae5e-109">Puede usar **System.TimeSpan**, lo que hace que la orquestación durante el período de tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="dae5e-109">You can use **System.TimeSpan**, which causes your orchestration to pause for the specified length of time.</span></span>  
+- <span data-ttu-id="5adb7-109">Puede usar **System.TimeSpan**, lo que hace que la orquestación para pausarse durante el período de tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="5adb7-109">You can use **System.TimeSpan**, which causes your orchestration to pause for the specified length of time.</span></span>  
   
-     <span data-ttu-id="dae5e-110">System.TimeSpan(0, 1, 0)</span><span class="sxs-lookup"><span data-stu-id="dae5e-110">System.TimeSpan(0, 1, 0)</span></span>  
+   <span data-ttu-id="5adb7-110">System.TimeSpan(0, 1, 0)</span><span class="sxs-lookup"><span data-stu-id="5adb7-110">System.TimeSpan(0, 1, 0)</span></span>  
   
- <span data-ttu-id="dae5e-111">Si su **retraso** forma está dentro de un **escuchar** forma, no es necesario agregar un punto y coma al final de la expresión.</span><span class="sxs-lookup"><span data-stu-id="dae5e-111">If your **Delay** shape is inside a **Listen** shape, you do not need to add a semicolon at the end of the expression.</span></span>  
+  <span data-ttu-id="5adb7-111">Si su **retraso** forma está dentro de un **escuchar** forma, no es necesario agregar un punto y coma al final de la expresión.</span><span class="sxs-lookup"><span data-stu-id="5adb7-111">If your **Delay** shape is inside a **Listen** shape, you do not need to add a semicolon at the end of the expression.</span></span>  
   
- <span data-ttu-id="dae5e-112">Para obtener más información acerca de **System.DateTime** y **System.TimeSpan**, consulte "DateTime (estructura)" y "TimeSpan (estructura)" en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] colección combinada.</span><span class="sxs-lookup"><span data-stu-id="dae5e-112">For more information about **System.DateTime** and **System.TimeSpan**, see "DateTime Structure" and "TimeSpan Structure" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.</span></span>  
-  
-> [!NOTE]
->  <span data-ttu-id="dae5e-113">En un entorno de instalación de varios equipos donde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server están instalados en equipos separados, la **retraso** forma puede finalizar antes de lo esperado debido a las horas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] máquinas no están sincronizadas.</span><span class="sxs-lookup"><span data-stu-id="dae5e-113">In a multiple machines installation environment where [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server are installed on separated machines, the **Delay** shape may end earlier than expected because of the times on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] machines are unsynchronized.</span></span>  
+  <span data-ttu-id="5adb7-112">Para obtener más información acerca de **System.DateTime** y **System.TimeSpan**, consulte "DateTime (estructura)" y "TimeSpan (estructura)" en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.</span><span class="sxs-lookup"><span data-stu-id="5adb7-112">For more information about **System.DateTime** and **System.TimeSpan**, see "DateTime Structure" and "TimeSpan Structure" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="dae5e-114">En condiciones de sobrecarga, el tiempo de espera especificado en el **retraso** forma posible se prolongue más de lo especificado.</span><span class="sxs-lookup"><span data-stu-id="dae5e-114">Under the stress condition, the timeout specified in the **Delay** shape may occur later than what you have specified.</span></span> <span data-ttu-id="dae5e-115">Esto se debe a la falta de subprocesos en condiciones de sobrecarga.</span><span class="sxs-lookup"><span data-stu-id="dae5e-115">This is because of the thread starvation under the stress condition.</span></span>  
+>  <span data-ttu-id="5adb7-113">En un entorno de instalación de varios equipos donde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server están instalados en equipos separados, la **retraso** puede finalizar antes de lo esperado debido a las horas en la forma [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] las máquinas no están sincronizadas.</span><span class="sxs-lookup"><span data-stu-id="5adb7-113">In a multiple machines installation environment where [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server are installed on separated machines, the **Delay** shape may end earlier than expected because of the times on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] machines are unsynchronized.</span></span>  
+> 
+> [!NOTE]
+>  <span data-ttu-id="5adb7-114">En condiciones de sobrecarga, el tiempo de espera especificado en el **retraso** forma puede producirse más tarde que ha especificado.</span><span class="sxs-lookup"><span data-stu-id="5adb7-114">Under the stress condition, the timeout specified in the **Delay** shape may occur later than what you have specified.</span></span> <span data-ttu-id="5adb7-115">Esto se debe a la falta de subprocesos en condiciones de sobrecarga.</span><span class="sxs-lookup"><span data-stu-id="5adb7-115">This is because of the thread starvation under the stress condition.</span></span>  
   
-### <a name="to-configure-a-delay-shape"></a><span data-ttu-id="dae5e-116">Para configurar una forma Retraso</span><span class="sxs-lookup"><span data-stu-id="dae5e-116">To configure a Delay shape</span></span>  
+### <a name="to-configure-a-delay-shape"></a><span data-ttu-id="5adb7-116">Para configurar una forma Retraso</span><span class="sxs-lookup"><span data-stu-id="5adb7-116">To configure a Delay shape</span></span>  
   
-1.  <span data-ttu-id="dae5e-117">Si el Editor de expresiones de BizTalk no está visible, haga clic en el **retraso** forma y haga clic en **editar retraso**, o en la ventana Propiedades, haga clic en el **puntos suspensivos** (**...** ) botón la **expresión** propiedad.</span><span class="sxs-lookup"><span data-stu-id="dae5e-117">If BizTalk Expression Editor is not visible, right-click the **Delay** shape and click **Edit Delay**, or in the Properties window, click the **Ellipsis** (**...**) button for the **Expression** property.</span></span>  
+1.  <span data-ttu-id="5adb7-117">Si el Editor de expresiones de BizTalk no está visible, haga clic en el **retraso** dar forma y haga clic en **editar retraso**, o en la ventana Propiedades, haga clic en el **puntos suspensivos** (**...**) botón el **expresión** propiedad.</span><span class="sxs-lookup"><span data-stu-id="5adb7-117">If BizTalk Expression Editor is not visible, right-click the **Delay** shape and click **Edit Delay**, or in the Properties window, click the **Ellipsis** (**...**) button for the **Expression** property.</span></span>  
   
-2.  <span data-ttu-id="dae5e-118">En el Editor de expresiones de BizTalk, cree una expresión que devuelve un **System.DateTime** objeto o un **System.TimeSpan** objeto.</span><span class="sxs-lookup"><span data-stu-id="dae5e-118">In BizTalk Expression Editor, create an expression that returns a **System.DateTime** object or a **System.TimeSpan** object.</span></span> <span data-ttu-id="dae5e-119">Para obtener más información, consulte [requisitos y limitaciones para las expresiones](../core/requirements-and-limitations-for-expressions.md).</span><span class="sxs-lookup"><span data-stu-id="dae5e-119">For more information, see [Requirements and Limitations for Expressions](../core/requirements-and-limitations-for-expressions.md).</span></span>
+2.  <span data-ttu-id="5adb7-118">En el Editor de expresiones de BizTalk, cree una expresión que devuelve un **System.DateTime** objeto o un **System.TimeSpan** objeto.</span><span class="sxs-lookup"><span data-stu-id="5adb7-118">In BizTalk Expression Editor, create an expression that returns a **System.DateTime** object or a **System.TimeSpan** object.</span></span> <span data-ttu-id="5adb7-119">Para obtener más información, consulte [requisitos y limitaciones para expresiones](../core/requirements-and-limitations-for-expressions.md).</span><span class="sxs-lookup"><span data-stu-id="5adb7-119">For more information, see [Requirements and Limitations for Expressions](../core/requirements-and-limitations-for-expressions.md).</span></span>

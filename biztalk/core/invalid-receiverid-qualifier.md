@@ -1,5 +1,5 @@
 ---
-title: Calificador no válido ReceiverId | Documentos de Microsoft
+title: Calificador de Id. de destinatario no válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 86c9adc1fa20f244d1061b67878e433d73dfa72d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7f4cf13bb338959ca4cd7d2d25a85749f0ff0171
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257196"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981821"
 ---
-# <a name="invalid-receiverid-qualifier"></a><span data-ttu-id="42cbe-102">Calificador de Id. de destinatario no válido.</span><span class="sxs-lookup"><span data-stu-id="42cbe-102">Invalid ReceiverId Qualifier</span></span>
-## <a name="details"></a><span data-ttu-id="42cbe-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="42cbe-103">Details</span></span>  
+# <a name="invalid-receiverid-qualifier"></a><span data-ttu-id="22219-102">Calificador de Id. de destinatario no válido.</span><span class="sxs-lookup"><span data-stu-id="22219-102">Invalid ReceiverId Qualifier</span></span>
+## <a name="details"></a><span data-ttu-id="22219-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="22219-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="42cbe-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="42cbe-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|<span data-ttu-id="42cbe-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="42cbe-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|<span data-ttu-id="42cbe-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="42cbe-106">Event ID</span></span>|-|  
-|<span data-ttu-id="42cbe-107">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="42cbe-107">Event Source</span></span>|<span data-ttu-id="42cbe-108">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="42cbe-108">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span>|  
-|<span data-ttu-id="42cbe-109">Componente</span><span class="sxs-lookup"><span data-stu-id="42cbe-109">Component</span></span>|<span data-ttu-id="42cbe-110">Motor EDI</span><span class="sxs-lookup"><span data-stu-id="42cbe-110">EDI Engine</span></span>|  
-|<span data-ttu-id="42cbe-111">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="42cbe-111">Symbolic Name</span></span>|<span data-ttu-id="42cbe-112">X12Ta1InvalidReceiverIdQualifierDescription</span><span class="sxs-lookup"><span data-stu-id="42cbe-112">X12Ta1InvalidReceiverIdQualifierDescription</span></span>|  
-|<span data-ttu-id="42cbe-113">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="42cbe-113">Message Text</span></span>|<span data-ttu-id="42cbe-114">Calificador de Id. de destinatario no válido.</span><span class="sxs-lookup"><span data-stu-id="42cbe-114">Invalid ReceiverId Qualifier</span></span>|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  <span data-ttu-id="22219-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="22219-104">Product Name</span></span>   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| <span data-ttu-id="22219-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="22219-105">Product Version</span></span> |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    <span data-ttu-id="22219-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="22219-106">Event ID</span></span>     |                                           -                                            |
+|  <span data-ttu-id="22219-107">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="22219-107">Event Source</span></span>   | <span data-ttu-id="22219-108">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="22219-108">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span> |
+|    <span data-ttu-id="22219-109">Componente</span><span class="sxs-lookup"><span data-stu-id="22219-109">Component</span></span>    |                                       <span data-ttu-id="22219-110">Motor EDI</span><span class="sxs-lookup"><span data-stu-id="22219-110">EDI Engine</span></span>                                       |
+|  <span data-ttu-id="22219-111">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="22219-111">Symbolic Name</span></span>  |                      <span data-ttu-id="22219-112">X12Ta1InvalidReceiverIdQualifierDescription</span><span class="sxs-lookup"><span data-stu-id="22219-112">X12Ta1InvalidReceiverIdQualifierDescription</span></span>                       |
+|  <span data-ttu-id="22219-113">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="22219-113">Message Text</span></span>   |                              <span data-ttu-id="22219-114">Calificador de Id. de destinatario no válido.</span><span class="sxs-lookup"><span data-stu-id="22219-114">Invalid ReceiverId Qualifier</span></span>                              |
   
-## <a name="explanation"></a><span data-ttu-id="42cbe-115">Explicación</span><span class="sxs-lookup"><span data-stu-id="42cbe-115">Explanation</span></span>  
- <span data-ttu-id="42cbe-116">Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque el calificador de destinatario en el campo ISA07 (para un intercambio X12) o el calificador de código de destinatario en el campo UNB3.2 (para un intercambio EDIFACT) no coincidía con un valor en la enumeración que establece el esquema de servicio (X12ServiceSchema o EdifactServiceSchema en BaseArtifacts.dll).</span><span class="sxs-lookup"><span data-stu-id="42cbe-116">This Error/Warning/Information event indicates that the receive pipeline could not process the incoming interchange because the Receiver Qualifier in the ISA07 field (for an X12 interchange) or the Recipient Code Qualifier in the UNB3.2 field (for an EDIFACT interchange) did not match a value in the enumeration established by the service schema (X12ServiceSchema or the EdifactServiceSchema in BaseArtifacts.dll).</span></span>  
+## <a name="explanation"></a><span data-ttu-id="22219-115">Explicación</span><span class="sxs-lookup"><span data-stu-id="22219-115">Explanation</span></span>  
+ <span data-ttu-id="22219-116">Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque el calificador de destinatario en el campo ISA07 (para un intercambio X12) o el calificador de código de destinatario en el campo UNB3.2 (para un intercambio EDIFACT) no coincidía con un valor en la enumeración que establece el esquema de servicio (X12ServiceSchema o EdifactServiceSchema en BaseArtifacts.dll).</span><span class="sxs-lookup"><span data-stu-id="22219-116">This Error/Warning/Information event indicates that the receive pipeline could not process the incoming interchange because the Receiver Qualifier in the ISA07 field (for an X12 interchange) or the Recipient Code Qualifier in the UNB3.2 field (for an EDIFACT interchange) did not match a value in the enumeration established by the service schema (X12ServiceSchema or the EdifactServiceSchema in BaseArtifacts.dll).</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="42cbe-117">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="42cbe-117">User Action</span></span>  
- <span data-ttu-id="42cbe-118">Para resolver este error, asegúrese de que el campo ISA07 o el campo UNB3.2 coincide con uno de los valores de la enumeración que establece el esquema de servicio.</span><span class="sxs-lookup"><span data-stu-id="42cbe-118">To resolve this error, make sure that the ISA07 field or the UNB3.2 field matches one of the values in the enumeration established by the service schema.</span></span> <span data-ttu-id="42cbe-119">Vuelva a enviar el intercambio.</span><span class="sxs-lookup"><span data-stu-id="42cbe-119">Have the interchange resent.</span></span>
+## <a name="user-action"></a><span data-ttu-id="22219-117">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="22219-117">User Action</span></span>  
+ <span data-ttu-id="22219-118">Para resolver este error, asegúrese de que el campo ISA07 o el campo UNB3.2 coincide con uno de los valores de la enumeración que establece el esquema de servicio.</span><span class="sxs-lookup"><span data-stu-id="22219-118">To resolve this error, make sure that the ISA07 field or the UNB3.2 field matches one of the values in the enumeration established by the service schema.</span></span> <span data-ttu-id="22219-119">Vuelva a enviar el intercambio.</span><span class="sxs-lookup"><span data-stu-id="22219-119">Have the interchange resent.</span></span>
