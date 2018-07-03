@@ -1,5 +1,5 @@
 ---
-title: Desensamblador XML y ensamblador | Documentos de Microsoft
+title: Desensamblador XML y ensamblador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,42 +15,42 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4978484f888290377986ee4ae8bf049c14a1b31
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d8dfaf91d9b0d3d058c4d3e31cd67c652235eff
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206652"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983045"
 ---
 # <a name="xml-disassembler-and-assembler"></a>Ensamblador y desensamblador XML
-El desensamblador XML y el ensamblador de asegurarse de que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) no solo es compatible con mensajes con codificación HL7, pero también admite mensajes XML entrantes o salientes.  
+El desensamblador XML y el ensamblador de asegurarse de que el Acelerador de Microsoft BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) no solo es compatible con los mensajes codificados en HL7, pero también admite mensajes XML entrantes o salientes.  
   
 ## <a name="xml-disassembler"></a>Desensamblador XML  
- El desensamblador XML analiza mensajes XML entrantes en segmentos XML para su procesamiento. A medida que analiza los mensajes, el Desensamblador realiza las tareas siguientes:  
+ El desensamblador XML analiza los mensajes XML entrantes en segmentos XML para su procesamiento. A medida que analiza los mensajes, el Desensamblador realiza las siguientes tareas:  
   
--   Identificadores de secuencias de escape  
+- Identificadores de secuencias de escape  
   
--   Controla las comprobaciones de propiedades obligatorias y opcionales  
+- Controla las comprobaciones de propiedades obligatorias y opcionales  
   
--   Identificadores declarados segmentos Z  
+- Identificadores declarados segmentos de Z  
   
- A medida que analiza los mensajes, el Desensamblador realiza lo siguiente:  
+  A medida que analiza los mensajes, el Desensamblador realiza lo siguiente:  
   
--   Validación sintáctica  
+- Validación sintáctica  
   
--   Validación del esquema (si está habilitado)  
+- Validación del esquema (si está habilitado)  
   
 ## <a name="xml-assembler"></a>ensamblador XML.  
- El ensamblador XML serializa los segmentos XML en un mensaje XML saliente. El ensamblador XML admite y crea el siguiente reconocimiento de mensajes (ACK):  
+ El ensamblador XML serializa los segmentos XML en un mensaje XML saliente. El ensamblador XML admite y crea la siguiente confirmación de mensajes (ACK):  
   
--   Estático  
+- Estático  
   
--   Modo original  
+- Modo original  
   
--   Modo mejorado  
+- Modo mejorado  
   
- El ensamblador XML también tiene la capacidad para enrutar los mensajes de confirmación diferidos.  
+  El ensamblador XML también tiene la capacidad para enrutar los mensajes de confirmación diferidos.  
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de BTAHL72XML](../../adapters-and-accelerators/accelerator-hl7/btahl72xml-processing.md)   
- [Acelerador de BizTalk para HL7 componentes](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)
+ [Acelerador de BizTalk para componentes de HL7](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)

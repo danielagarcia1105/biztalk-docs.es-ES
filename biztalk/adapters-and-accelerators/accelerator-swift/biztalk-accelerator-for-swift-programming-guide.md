@@ -1,5 +1,5 @@
 ---
-title: Acelerador de BizTalk para SWIFT Guía de programación | Documentos de Microsoft
+title: Acelerador de BizTalk para SWIFT Guía de programación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,23 +15,23 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac316a8eec53f9323c54f2025f25f5f4d9e93512
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6495aea00b8a0d06f112cf6592bc9f15b5a4073e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209028"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985629"
 ---
 # <a name="biztalk-accelerator-for-swift-programming-guide"></a>Acelerador de BizTalk para SWIFT Guía de programación
-En esta sección se explica conceptos y procedimientos para los programadores que escriben código con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Use esta guía junto con la [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentación.  
+En esta sección se explica los conceptos y procedimientos para los desarrolladores escribir código con Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Use esta guía, junto con el [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentación.  
   
 > [!NOTE]
->  Antes de leer esta guía, debe estar familiarizado con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] desarrollo, [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)], y [en tiempo de ejecución, reparación, la respuesta FIN y la mensajería de mensajes](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md).  
+>  Antes de leer esta guía, debe estar familiarizado con Microsoft [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] desarrollo, [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)], y [en tiempo de ejecución, reparación, respuesta FIN y mensajería mensajes](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md).  
   
  Esta sección contiene:  
   
 -   [Trabajar con esquemas](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)  
   
--   [Trabajar con el Desensamblador SWIFT y de ensamblador](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md)  
+-   [Trabajar con el desensamblador y el ensamblador de SWIFT](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md)  
   
 -   [Trabajar con suscripciones de mensajes con errores](../../adapters-and-accelerators/accelerator-swift/working-with-failed-message-subscriptions.md)

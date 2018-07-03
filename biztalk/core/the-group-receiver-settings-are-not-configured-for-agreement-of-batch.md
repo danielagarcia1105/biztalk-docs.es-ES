@@ -1,5 +1,5 @@
 ---
-title: La configuración del receptor de grupo no está configurada para el acuerdo del lote | Documentos de Microsoft
+title: La configuración del receptor de grupo no está configurada para el acuerdo del lote | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ea41ad5c8de88e446a86745b57ff282d5b90af5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 534d426d192e27bbe7c6c7e866399b42360a8e3a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279076"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990645"
 ---
 # <a name="the-group-receiver-settings-are-not-configured-for-agreement-of-batch"></a>La configuración de receptor de grupo no está configurada para el acuerdo del lote
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor de procesamiento por lotes|  
-|Nombre simbólico|GroupReceiverNotSelected|  
-|Texto del mensaje|Los valores de destinatario de grupo no se han configurado para el acuerdo del lote {0}. Debe configurarlos antes de que el procesamiento por lotes pueda continuar.|  
+|                 |                                                                                                                                     |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                          |
+| Versión del producto |                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                      |
+|    Identificador del evento     |                                                                  -                                                                  |
+|  Origen del evento   |                       EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                        |
+|    Componente    |                                                           Motor de procesamiento por lotes                                                           |
+|  Nombre simbólico  |                                                      GroupReceiverNotSelected                                                       |
+|  Texto del mensaje   | La configuración del receptor de grupo no está configurada para el acuerdo del lote {0}. Debe configurarlos antes de que el procesamiento por lotes pueda continuar. |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que ha tenido lugar una de estas dos condiciones:  

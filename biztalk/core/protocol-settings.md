@@ -1,5 +1,5 @@
 ---
-title: La configuración del protocolo | Documentos de Microsoft
+title: Configuración del protocolo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a8fe9e7024bfe3a9d5f1d5d7727a2115bcd31a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3c5d32f7a691aa9781760f0d7711d7f20851a038
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271924"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989285"
 ---
 # <a name="protocol-settings"></a>Configuración de protocolo
 ## <a name="overview"></a>Información general
 Después de crear los perfiles de negocio, que reflejan las divisiones de la empresa dentro de una organización, es necesario que una empresa declare los parámetros que definen cómo tiene lugar la comunicación entre los perfiles de negocio. Estos parámetros de comunicación se definen como configuración del protocolo. La configuración del protocolo define cómo deben admitirse las transacciones empresariales para un determinado protocolo B2B. Cada perfil de negocio define las diversas opciones para procesar mensajes (codificación) o transmitir mensajes (transporte) para cada uno de los protocolos B2B a través de los cuales puede comunicarse el socio. Los parámetros de comunicación para los perfiles de negocio se definen en las dos categorías siguientes:  
   
--   **Configuración de protocolo de codificación**: los protocolos de codificación rigen la estructura y el contenido de un mensaje de B2B. La configuración del protocolo de codificación para un perfil de negocio define el protocolo de codificación que usa una división empresarial para enviar y recibir mensajes B2B. Algunos ejemplos de protocolos de codificación son X12, EDIFACT, HL7, etcetera. Para obtener una explicación detallada aproximadamente admite protocolos de codificación para [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], consulte [compatibilidad con los estándares EDI](../core/edi-standards-support.md). Como parte del protocolo de codificación, puede proporcionar varias opciones, como si la parte que envía espera una confirmación, si los mensajes se enviarán por lotes o individualmente, etc. Siempre podrá sobrescribir estas opciones como parte del acuerdo de socio comercial. Vea [acuerdo de socio comercial](../core/trading-partner-agreement.md).  
+- **Configuración de protocolo de codificación**: los protocolos de codificación rigen la estructura y el contenido de un mensaje de B2B. La configuración del protocolo de codificación para un perfil de negocio define el protocolo de codificación que usa una división empresarial para enviar y recibir mensajes B2B. Algunos ejemplos de protocolos de codificación son X12, EDIFACT, HL7, etcetera. Para obtener una explicación detallada aproximadamente admite protocolos de codificación para [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], consulte [compatibilidad con estándares EDI](../core/edi-standards-support.md). Como parte del protocolo de codificación, puede proporcionar varias opciones, como si la parte que envía espera una confirmación, si los mensajes se enviarán por lotes o individualmente, etc. Siempre podrá sobrescribir estas opciones como parte del acuerdo de socio comercial. Consulte [acuerdo entre socios comerciales](../core/trading-partner-agreement.md).  
   
--   **Configuración del protocolo de transporte**: el protocolo de transporte rige el canal de transporte usado para enviar los mensajes entre dos socios. Dado que el transporte es esencialmente entre dos extremos de transporte, cada perfil de negocio define su propia configuración de “extremo de transporte” y se comunica con un “extremo de transporte” singular del perfil de negocio de su socio comercial. Para obtener información acerca del protocolo de transporte admitidos, consulte [compatibilidad de AS2 en BizTalk Server](../core/as2-support-in-biztalk-server.md). Como parte del protocolo de transporte, puede proporcionar varias opciones, como si debe firmarse, cifrarse, etc. el mensaje. Siempre podrá sobrescribir estas opciones como parte del acuerdo de socio comercial. Para obtener más información acerca de los acuerdos, vea [acuerdo de socios comerciales](../core/trading-partner-agreement.md).  
+- **Configuración del protocolo de transporte**: el protocolo de transporte rige el canal de transporte usado para enviar los mensajes entre dos socios. Dado que el transporte es esencialmente entre dos extremos de transporte, cada perfil de negocio define su propia configuración de “extremo de transporte” y se comunica con un “extremo de transporte” singular del perfil de negocio de su socio comercial. Para obtener información acerca del protocolo de transporte admitidos, vea [compatibilidad con AS2 en BizTalk Server](../core/as2-support-in-biztalk-server.md). Como parte del protocolo de transporte, puede proporcionar varias opciones, como si debe firmarse, cifrarse, etc. el mensaje. Siempre podrá sobrescribir estas opciones como parte del acuerdo de socio comercial. Para obtener más información acerca de los acuerdos, vea [acuerdo entre socios comerciales](../core/trading-partner-agreement.md).  
   
- Mediante la definición de la configuración del protocolo, los perfiles de negocio declaran el formato de mensaje y el protocolo de transporte que debe usarse para enviar mensajes B2B entre socios comerciales.  
+  Mediante la definición de la configuración del protocolo, los perfiles de negocio declaran el formato de mensaje y el protocolo de transporte que debe usarse para enviar mensajes B2B entre socios comerciales.  
   
 > [!NOTE]
 >  Definir la configuración de protocolo como parte de un perfil de negocio es opcional. Si no especifica la configuración de protocolo como parte del perfil de negocio, siempre puede especificarlo en un acuerdo.  
   
  En la siguiente figura se ilustra cómo se reúnen socio comercial, perfiles de negocio y configuración de protocolo en una solución TPM:  
   
- ![Perfiles de socios comerciales y configuración del protocolo comerciales](../core/media/protocolsettings.gif "ProtocolSettings")  
+ ![Perfiles de socios comerciales y la configuración del protocolo comerciales](../core/media/protocolsettings.gif "ProtocolSettings")  
   
  En la ilustración anterior, el perfil de negocio “Shipping” puede enviar y recibir mensajes con el formato de codificación X12 enviado sobre el protocolo de transporte AS2. De forma similar, el perfil de negocio “Invoice” puede enviar y recibir mensajes de los formatos de codificación tanto X12 como EDIFACT sobre el protocolo de transporte AS2.  
   
@@ -46,9 +46,9 @@ Después de crear los perfiles de negocio, que reflejan las divisiones de la emp
 > [!IMPORTANT]
 >  Si no define la configuración del protocolo como parte del perfil de negocio, deberá especificar los valores como parte de cada acuerdo para dicho perfil de negocio, evitando así el modelo de escalabilidad de la nueva solución de TPM. Por lo tanto, Microsoft recomienda que defina la configuración del protocolo para cada perfil de negocio. Siempre podrá anular dicha configuración si es necesario, al crear un acuerdo de socio comercial.  
 
-## <a name="learn-next"></a>Obtenga información acerca de continuación
-[Acuerdo de socio comercial](../core/trading-partner-agreement.md)  
-[Perspectiva general: definir una solución de administración de socios comerciales](../core/putting-it-all-together-defining-a-trading-partner-management-solution.md)  
+## <a name="learn-next"></a>Aprenda a continuación
+[Acuerdo entre socios comerciales](../core/trading-partner-agreement.md)  
+[Perspectiva general: Definición de una solución de administración de socios comerciales](../core/putting-it-all-together-defining-a-trading-partner-management-solution.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Bloques de creación de una solución de administración de socios comerciales](../core/building-blocks-of-a-trading-partner-management-solution.md)

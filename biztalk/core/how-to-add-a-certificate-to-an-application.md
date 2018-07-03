@@ -1,5 +1,5 @@
 ---
-title: Cómo agregar un certificado a una aplicación | Documentos de Microsoft
+title: Cómo agregar un certificado a una aplicación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7551e18b1e63f706dfe7e5ff8f951e7aee4f4694
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 764853a43f29910727b302d6554cb3bbd741abd8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248180"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986421"
 ---
 # <a name="how-to-add-a-certificate-to-an-application"></a>Cómo agregar un certificado a una aplicación
 En este tema se describe cómo utilizar la línea de comandos para agregar un certificado a una aplicación de BizTalk. Esta opción no está disponible en la consola de administración de BizTalk Server. Puede agregar un certificado a una aplicación de BizTalk, de modo que pueda transportar el certificado de un grupo de BizTalk a otro, empaquetado con una aplicación. Puede usar certificados para comprobar identidades y establecer vínculos seguros para los puertos de envío y las ubicaciones de recepción. Para obtener más información, consulte [cómo asignar un certificado a un puerto de envío](../core/how-to-assign-a-certificate-to-a-send-port.md) y [cómo asignar un certificado a una ubicación de recepción](../core/how-to-assign-a-certificate-to-a-receive-location.md).  
@@ -39,30 +39,30 @@ En este tema se describe cómo utilizar la línea de comandos para agregar un ce
 -   Si una ubicación de recepción o un puerto de envío va a utilizar un certificado en dos o varias aplicaciones, se recomienda implementar el certificado en una aplicación diferente y, a continuación, hacer referencia a esta aplicación desde las aplicaciones que necesitan utilizar el certificado. Esto se debe a que en un grupo de BizTalk solo puede existir un certificado que tenga una huella digital determinada, por lo que no podrá importar el mismo cerificado de dos aplicaciones diferentes. Si intenta importar dos aplicaciones que utilicen el mismo certificado, la primera importación se realizará correctamente, pero la segunda no. En este caso, la utilización de la opción Sobrescribir importación no soluciona el problema, ya que otra aplicación contiene el certificado existente que desea sobrescribir.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar los procedimientos descritos en este tema, deberá iniciar la sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar los procedimientos descritos en este tema, deberá iniciar la sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-add-a-certificate-to-an-application"></a>Para agregar un certificado a una aplicación  
   
-1.  Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo `cmd`y, a continuación, haga clic en **Aceptar**.  
+1. Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo `cmd`y, a continuación, haga clic en **Aceptar**.  
   
-2.  Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
+2. Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
   
-     **BTSTask AddResource** [**/ApplicationName:***valor*] **/Type:System.BizTalk:Certificate** [**/Overwrite**] **/Thumbprint: "***valor***"** [**/Server:***valor*] [**/Database:***valor*]  
+    **BTSTask AddResource** [**/ApplicationName:**<em>valor</em>] **/Type:System.BizTalk:Certificate** [**/Overwrite**] **/Thumbprint: "**<em>valor</em>**"** [**/Server:**<em>valor</em>] [**/ Base de datos:**<em>valor</em>]  
   
-     Ejemplo:  
+    Ejemplo:  
   
-     **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:Certificate /Overwrite /Thumbprint: "04 8e a2 32 24 f9 a 36 b9 42 81 12 71 3a d2 ef db c7 9C 83 dc" /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:Certificate /Overwrite /Thumbprint: "04 8e a2 32 24 f9 a 36 b9 42 81 12 71 3a d2 ef db c7 9C 83 dc" /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
-    |Parámetro|Valor|  
-    |---------------|-----------|  
-    |**/ ApplicationName**|Nombre de la aplicación de BizTalk a la que se agrega el certificado. Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk para el grupo. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles (").|  
-    |**/ Tipo**|**System.BizTalk:Certificate** (este valor no distingue entre mayúsculas y minúsculas).|  
-    |**/ Sobrescribir**|Opción para actualizar un certificado existente. Si no se especifica y ya existe un certificado en la aplicación que tiene la misma propiedad Huella digital que el certificado que se agrega, se produce un error en la operación Agregar. Puede ver la propiedad Huella digital si hace doble clic en el certificado del complemento Certificados y si hace clic en la pestaña Detalles. Para obtener más información, consulte la sección acerca de información de certificado de la documentación del complemento Certificados.|  
-    |**/ Huella digital**|Propiedad de huella digital del certificado (una *huella digital* es una síntesis de datos). Este valor se debe incluir entre comillas dobles (").|  
-    |**/ Servidor**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
-    |**/ Base de datos**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
+   |Parámetro|Valor|  
+   |---------------|-----------|  
+   |**/ ApplicationName**|Nombre de la aplicación de BizTalk a la que se agrega el certificado. Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk para el grupo. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles (").|  
+   |**/ Tipo**|**BizTalk: Certificate** (este valor no distingue mayúsculas de minúsculas).|  
+   |**/ Sobrescribir**|Opción para actualizar un certificado existente. Si no se especifica y ya existe un certificado en la aplicación que tiene la misma propiedad Huella digital que el certificado que se agrega, se produce un error en la operación Agregar. Puede ver la propiedad Huella digital si hace doble clic en el certificado del complemento Certificados y si hace clic en la pestaña Detalles. Para obtener más información, consulte la sección acerca de información de certificado de la documentación del complemento Certificados.|  
+   |**/ Huella digital**|Propiedad de huella digital del certificado (una *huella digital* es una síntesis de datos). Este valor se debe incluir entre comillas dobles (").|  
+   |**/ Servidor**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
+   |**/ Base de datos**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar ensamblados. NET, certificados y otros recursos](../core/managing-net-assemblies-certificates-and-other-resources.md)   
+ [Administración de ensamblados. NET, certificados y otros recursos](../core/managing-net-assemblies-certificates-and-other-resources.md)   
  [AddResource (comando): certificado](../core/addresource-command-certificate.md)   
- [Creación y modificación de las aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md)
+ [Creación y modificación de aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md)

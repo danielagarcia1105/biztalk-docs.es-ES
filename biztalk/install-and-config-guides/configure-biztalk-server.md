@@ -1,6 +1,6 @@
 ---
-title: Configurar usando la configuración básica o personalizada | Documentos de Microsoft
-description: Pasos para realizar una configuración básica o personalizada de BizTalk Server y obtenga información acerca de lo que ocurre con cada configuración
+title: Configurar usando la configuración básica o personalizada | Microsoft Docs
+description: Pasos para realizar una configuración básica o personalizada de BizTalk Server y obtenga información sobre lo que ocurre con cada configuración
 ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb5850c9dc32fd7b793e24cc08862d86a17abedd
-ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
+ms.openlocfilehash: a74d7e03582e9da54d0fec25eeeb6edb409e328a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31816984"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983693"
 ---
 # <a name="configure-biztalk-server"></a>Configuración de BizTalk Server
 Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante una configuración básica o una configuración personalizada.
@@ -29,7 +29,7 @@ Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 * Si su configuración usa nombres de grupo personalizados en lugar de los nombres de grupo predeterminados, use una configuración personalizada.
 * Si su configuración usa nombres de base de datos personalizados en lugar de los nombres de base de datos predeterminados, use una configuración personalizada.
 * Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server están en equipos diferentes, se requieren grupos de dominio. Por tanto, use una configuración personalizada.
-* No se puede configurar el análisis de BAM en un servidor de SQL Server con la configuración básica de instancia con nombre. Si usa instancias con nombre y quiere configurar el análisis de BAM, use una configuración personalizada.
+* No se puede configurar el análisis de BAM en un servidor SQL Server mediante la configuración básica de instancia con nombre. Si usa instancias con nombre y quiere configurar el análisis de BAM, use una configuración personalizada.
 * La configuración básica es recomendable para usuarios que llevan a cabo una instalación completa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server en ejecución en un único servidor.
 * La configuración básica es más rápida porque crea automáticamente los grupos y las bases de datos locales con los nombres predeterminados.
 
@@ -51,7 +51,7 @@ Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
     3. Escriba el **Nombre de usuario** y la **Contraseña** para la cuenta en la que se ejecutarán los servicios de BizTalk. Se recomienda que cree una cuenta única. No use su nombre de usuario personal.  
         ![bts2016BasicConfig](../install-and-config-guides/media/bts2016basicconfig.gif)  
     Si especifica un nombre de usuario con credenciales administrativas en el equipo, recibirá una advertencia. Es algo normal. Seleccione **Aceptar** para continuar.
-    
+
 3. Seleccione **Configurar**.
 4. Revise los detalles de configuración y seleccione **Siguiente**.
 5. Una vez completado el Asistente para la configuración, seleccione **Finalizar**.
@@ -70,7 +70,7 @@ Al usar una configuración básica, ocurre lo siguiente:
 - El sitio Web predeterminado de los Servicios de Internet Information Server (IIS) se utiliza para todas las características que requieran IIS.
 
 ## <a name="custom-configuration"></a>Configuración personalizada
-  
+
 1. En el menú Inicio, haga clic con el botón derecho en **Configuración de BizTalk Server** y, después, seleccione **Ejecutar como administrador**. De este modo, se abre el Asistente para configuración.
 2. Seleccione **Configuración personalizada** y, después, **Configurar**.
 
@@ -83,14 +83,16 @@ Al usar una configuración básica, ocurre lo siguiente:
 1. Seleccione **SSO empresarial**.
 2. Configure lo siguiente:
 
-    | Use | Para |
-    | --- | --- |
-    |Habilitar Inicio de sesión único empresarial en este equipo | Configurar este servidor con la configuración de SSO. |
-    |Crear un nuevo sistema SSO | Si es el primer servidor de SSO que va a configurar, seleccione esta opción. De este modo, se crea y se configura la base de datos de SSO, se crea el secreto maestro (una clave de seguridad cifrada) y se instalan los servicios que usa SSO. También debe hacer una copia de seguridad del secreto de este servidor secreto.<br/><br/>Detalles de clave: <br/><ul><li>Se recomienda que configure el servidor de secreto maestro como servidor independiente.</li><li>Para llevar a cabo esta tarea de configuración, debe ser un administrador de SSO.</li><li>Tan sólo un servidor secreto principal puede asociarse a un grupo de BizTalk. No se admite la asociación de dos servidores secretos principales con el mismo grupo de BizTalk.</li></ul>|
-    |Unir un sistema SSO existente | Si va a agregar un servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a un grupo existente, seleccione esta opción. El servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] comparte la misma configuración de SSO y las bases de datos con los demás servidores [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del grupo. |
-    |Almacenes de datos | Escriba el nombre de su servidor de SSO. Si se encuentra en el servidor de SSO, seleccione el nombre del servidor local. Puede conservar **SSODB** como nombre predeterminado de la base de datos o especificar un nombre personalizado.|
-    |Servicio de Windows| Especifique la cuenta que se usa para ejecutar el servicio Enterprise Single Sign-On. Si SQL Server está en otro equipo, especifique la cuenta de dominio. |
-    |cuentas de Windows|Puede conservar los nombres de grupo predeterminados o especificar un nombre personalizado. Si SQL Server está en otro equipo, especifique las cuentas de dominio. |
+
+   |                     Use                      |                                                                                                                                                                                                                                                                                                                           Para                                                                                                                                                                                                                                                                                                                            |
+   |---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   | Habilitar Inicio de sesión único empresarial en este equipo |                                                                                                                                                                                                                                                                                                            Configurar este servidor con la configuración de SSO.                                                                                                                                                                                                                                                                                                             |
+   |              Crear un nuevo sistema SSO              | Si es el primer servidor de SSO que va a configurar, seleccione esta opción. De este modo, se crea y se configura la base de datos de SSO, se crea el secreto maestro (una clave de seguridad cifrada) y se instalan los servicios que usa SSO. También debe hacer una copia de seguridad del secreto de este servidor secreto.<br/><br/>Detalles de clave: <br/><ul><li>Se recomienda que configure el servidor de secreto maestro como servidor independiente.</li><li>Para llevar a cabo esta tarea de configuración, debe ser un administrador de SSO.</li><li>Tan sólo un servidor secreto principal puede asociarse a un grupo de BizTalk. No se admite la asociación de dos servidores secretos principales con el mismo grupo de BizTalk.</li></ul> |
+   |            Unir un sistema SSO existente            |                                                                                                                          Si va a agregar un servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a un grupo existente, seleccione esta opción. El servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] comparte la misma configuración de SSO y las bases de datos con los demás servidores [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del grupo.                                                                                                                          |
+   |                    Almacenes de datos                    |                                                                                                                                                                                                                                   Escriba el nombre de su servidor de SSO. Si se encuentra en el servidor de SSO, seleccione el nombre del servidor local. Puede conservar **SSODB** como nombre predeterminado de la base de datos o especificar un nombre personalizado.                                                                                                                                                                                                                                    |
+   |                  Servicio de Windows                  |                                                                                                                                                                                                                                                              Especifique la cuenta que se usa para ejecutar el servicio Enterprise Single Sign-On. Si SQL Server está en otro equipo, especifique la cuenta de dominio.                                                                                                                                                                                                                                                               |
+   |                 cuentas de Windows                  |                                                                                                                                                                                                                                                                Puede conservar los nombres de grupo predeterminados o especificar un nombre personalizado. Si SQL Server está en otro equipo, especifique las cuentas de dominio.                                                                                                                                                                                                                                                                |
+
 
 3. Seleccione **Copia de seguridad de secreto de SSO empresarial**. Esta opción guarda el secreto maestro en un archivo de copia de seguridad cifrado. 
 4. Configure lo siguiente:  
@@ -103,7 +105,7 @@ Al usar una configuración básica, ocurre lo siguiente:
     |Ubicación del archivo de copia de seguridad|Mostrar el nombre y la ubicación del archivo de copia de seguridad. De forma predeterminada, se almacena en \Archivos de programa\Common Files\Enterprise Single Sign-On\ *nombreDeArchivo*.bak.|
 
 **SIEMPRE** realice una copia de seguridad del secreto maestro y comparta la contraseña con otro administrador de BizTalk.
-    
+
 ### <a name="configure-groups"></a>Configurar grupos
 
 * Cuando se usa una instancia con nombre local de SQL Server como almacén de datos, use `LocalMachineName\InstanceName`. No use `LocalMachineName\InstanceName, PortNumber`.
@@ -111,14 +113,15 @@ Al usar una configuración básica, ocurre lo siguiente:
 1. Seleccione **Grupo**.
 2. Configure lo siguiente:
 
-    |Use|Para|
-    | --- | --- |
-    |Habilitar el grupo de BizTalk Server en este equipo|Seleccione esta opción para crear un grupo de BizTalk en este servidor o para unirse a un grupo existente. |
-    |Crear un nuevo grupo de BizTalk| Si es el primer servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del grupo, seleccione esta opción. Use esta opción para crear las bases de datos y agregar los grupos.|
-    |Unir un grupo de BizTalk existente| Si va a agregar este servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a un grupo existente, seleccione esta opción.|
-    |Crear una base de datos de análisis para realizar un seguimiento de las agregaciones|Seleccione esta opción para instalar SQL Server Analysis Services y si quiere proceder al seguimiento y el almacenamiento de los cubos OLAP de seguimiento de estado.|
-    |Almacenes de datos| Especifique el nombre del servidor que hospeda las bases de datos de BizTalk. Si este servidor tiene instalados un servidor BizTalk y SQL, escriba el nombre del servidor local. Si SQL Server está en otro equipo, especifique el nombre de SQL Server.<br/><br/>Puede conservar los nombres de base de datos predeterminados o especificar un nombre personalizado.|
-    |Funciones administrativas de BizTalk|Puede conservar los nombres de grupo predeterminados o especificar un nombre personalizado. Si SQL Server está en otro equipo, especifique las cuentas de dominio.|
+
+   |                       Use                        |                                                                                                                                         Para                                                                                                                                          |
+   |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |     Habilitar el grupo de BizTalk Server en este equipo      |                                                                                                 Seleccione esta opción para crear un grupo de BizTalk en este servidor o para unirse a un grupo existente.                                                                                                 |
+   |              Crear un nuevo grupo de BizTalk               |                                       Si es el primer servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del grupo, seleccione esta opción. Use esta opción para crear las bases de datos y agregar los grupos.                                       |
+   |            Unir un grupo de BizTalk existente             |                                                                    Si va a agregar este servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a un grupo existente, seleccione esta opción.                                                                     |
+   | Crear una base de datos de análisis para realizar un seguimiento de las agregaciones |                                                                                  Seleccione esta opción para instalar SQL Server Analysis Services y si quiere proceder al seguimiento y el almacenamiento de los cubos OLAP de seguimiento de estado.                                                                                  |
+   |                      Almacenes de datos                      | Especifique el nombre del servidor que hospeda las bases de datos de BizTalk. Si este servidor tiene instalados un servidor BizTalk y SQL, escriba el nombre del servidor local. Si SQL Server está en otro equipo, especifique el nombre de SQL Server.<br/><br/>Puede conservar los nombres de base de datos predeterminados o especificar un nombre personalizado. |
+   |             Funciones administrativas de BizTalk              |                                                                              Puede conservar los nombres de grupo predeterminados o especificar un nombre personalizado. Si SQL Server está en otro equipo, especifique las cuentas de dominio.                                                                              |
 
 ### <a name="configure-the-biztalk-runtime"></a>Configurar el tiempo de ejecución de BizTalk
 
@@ -129,14 +132,14 @@ Al usar una configuración básica, ocurre lo siguiente:
 1. Seleccione **Tiempo de ejecución de BizTalk**.
 2. Configure lo siguiente:
 
-    |Use|Para|
-    | --- | --- |
-    | Registrar los componentes de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] | Seleccione esta opción para crear los hosts y las instancias de host en este servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. |
-    | Crear un host de BizTalk de tipo En curso y una instancia | Crea la instancia y el host BizTalkServerApplication en este equipo.<br/><br/>Opciones adicionales: <ul><li>**De confianza**: pasa las credenciales (SSID o identificador de entidad) del remitente al enviar mensajes a la base de datos de cuadro de mensaje. Esto equivale a crear una relación de confianza entre los servidores. La mayoría de los hosts e instancias no es de confianza.</li><li>**Solo de 32 bits**: algunos adaptadores solo se ejecutan en un proceso de 32 bits, pero la mayoría es compatible con 64 bits. Esta opción puede habilitarse o deshabilitarse en la Administración de BizTalk después de que se haya configurado BizTalk. Por lo tanto, no debe preocuparse por este asunto.</li><li>**Nombre de host**: el valor predeterminado es BizTalkServerApplication. Cuando cree hosts e instancias en la Administración de BizTalk puede usar nombres más específicos, como TrackingHost o ReceivingHost. Por lo tanto, déjelo tal cual.</li></ul>|
-    | Crear un host aislado y una instancia| El host aislado se ejecuta en IIS. En muchos entornos, es mejor mantener los valores predeterminados.<br/><br/>Opciones adicionales: <ul><li>**De confianza**: pasa las credenciales (SSID o identificador de entidad) del remitente al enviar mensajes a la base de datos de cuadro de mensaje. Esto equivale a crear una relación de confianza entre los servidores. La mayoría de los hosts e instancias no es de confianza.</li><li>**Solo de 32 bits**: algunos adaptadores solo se ejecutan en un proceso de 32 bits, pero la mayoría es compatible con 64 bits. Esta opción puede habilitarse o deshabilitarse en la Administración de BizTalk después de que se haya configurado BizTalk.</li><li>**Nombre de host aislado**: el valor predeterminado es BizTalkServerIsolatedHost. Déjelo tal cual. </li></ul>|
-    |Servicio de Windows| Especifique las cuentas que se usan para ejecutar las instancias de host. Si SQL Server está en otro equipo, especifique las cuentas de dominio. |
-    |Grupos de Windows|Puede conservar los nombres de grupo predeterminados o especificar un nombre personalizado. Si SQL Server está en otro equipo, especifique las cuentas de dominio. |
 
+   |                                                      Use                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                 Para                                                                                                                                                                                                                                                                                                                                                                                                                  |
+   |--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   | Registrar los componentes de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |                                                                                                                                                                                                                                                                                                                                            Seleccione esta opción para crear los hosts y las instancias de host en este servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].                                                                                                                                                                                                                                                                                                                                            |
+   |                                        Crear un host de BizTalk de tipo En curso y una instancia                                         | Crea la instancia y el host BizTalkServerApplication en este equipo.<br/><br/>Opciones adicionales: <ul><li>**De confianza**: pasa las credenciales (SSID o identificador de entidad) del remitente al enviar mensajes a la base de datos de cuadro de mensaje. Esto equivale a crear una relación de confianza entre los servidores. La mayoría de los hosts e instancias no es de confianza.</li><li>**Solo de 32 bits**: algunos adaptadores solo se ejecutan en un proceso de 32 bits, pero la mayoría es compatible con 64 bits. Esta opción puede habilitarse o deshabilitarse en la Administración de BizTalk después de que se haya configurado BizTalk. Por lo tanto, no debe preocuparse por este asunto.</li><li>**Nombre de host**: el valor predeterminado es BizTalkServerApplication. Cuando cree hosts e instancias en la Administración de BizTalk puede usar nombres más específicos, como TrackingHost o ReceivingHost. Por lo tanto, déjelo tal cual.</li></ul> |
+   |                                         Crear un host aislado y una instancia                                          |                                                                         El host aislado se ejecuta en IIS. En muchos entornos, es mejor mantener los valores predeterminados.<br/><br/>Opciones adicionales: <ul><li>**De confianza**: pasa las credenciales (SSID o identificador de entidad) del remitente al enviar mensajes a la base de datos de cuadro de mensaje. Esto equivale a crear una relación de confianza entre los servidores. La mayoría de los hosts e instancias no es de confianza.</li><li>**Solo de 32 bits**: algunos adaptadores solo se ejecutan en un proceso de 32 bits, pero la mayoría es compatible con 64 bits. Esta opción puede habilitarse o deshabilitarse en la Administración de BizTalk después de que se haya configurado BizTalk.</li><li>**Nombre de host aislado**: el valor predeterminado es BizTalkServerIsolatedHost. Déjelo tal cual. </li></ul>                                                                          |
+   |                                                  Servicio de Windows                                                   |                                                                                                                                                                                                                                                                                                                                                             Especifique las cuentas que se usan para ejecutar las instancias de host. Si SQL Server está en otro equipo, especifique las cuentas de dominio.                                                                                                                                                                                                                                                                                                                                                             |
+   |                                                   Grupos de Windows                                                   |                                                                                                                                                                                                                                                                                                                                                      Puede conservar los nombres de grupo predeterminados o especificar un nombre personalizado. Si SQL Server está en otro equipo, especifique las cuentas de dominio.                                                                                                                                                                                                                                                                                                                                                      |
 
 ### <a name="configure-business-rules-engine-bre"></a>Configurar el motor de reglas de negocios (BRE)
 
@@ -147,12 +150,12 @@ Si no usa BRE, omita esta sección.
 1. Seleccione **Motor de reglas de negocios**.
 2. Configure lo siguiente:
 
-    |Use|Para|
-    | --- | --- |
-    |Habilitar el motor de reglas de negocios en este equipo | Si usa BRE en este servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], seleccione esta opción. |
-    |Almacenes de datos| Especifique el nombre del servidor que hospeda la base de datos de reglas. Si este servidor tiene instalados un servidor BizTalk y SQL, escriba el nombre del servidor local. Si SQL Server está en otro equipo, especifique el nombre de SQL Server.<br/><br/>Puede conservar el nombre de base de datos predeterminado o especificar un nombre personalizado.|
-    |Servicio de Windows| Especifique las cuentas que se usan para ejecutar el servicio de actualización de reglas. Si SQL Server está en otro equipo, especifique la cuenta de dominio. |
 
+   |                   Use                    |                                                                                                                                       Para                                                                                                                                        |
+   |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   | Habilitar el motor de reglas de negocios en este equipo |                                                                           Si usa BRE en este servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], seleccione esta opción.                                                                           |
+   |                  Almacenes de datos                  | Especifique el nombre del servidor que hospeda la base de datos de reglas. Si este servidor tiene instalados un servidor BizTalk y SQL, escriba el nombre del servidor local. Si SQL Server está en otro equipo, especifique el nombre de SQL Server.<br/><br/>Puede conservar el nombre de base de datos predeterminado o especificar un nombre personalizado. |
+   |                Servicio de Windows                |                                                                                 Especifique las cuentas que se usan para ejecutar el servicio de actualización de reglas. Si SQL Server está en otro equipo, especifique la cuenta de dominio.                                                                                 |
 
 ### <a name="configure-bam-tools"></a>Configurar herramientas de BAM
 
@@ -182,8 +185,8 @@ Entre las herramientas de Supervisión de la actividad económica se incluyen la
     | Habilitar servicios de análisis para las agregaciones de BAM | Proporciona información de seguimiento de las alertas de BAM.|
     |Almacenes de datos| Especifique el nombre del servidor que hospeda las bases de datos de BAM. Si este servidor tiene instalados un servidor BizTalk y SQL, escriba el nombre del servidor local. Si SQL Server está en otro equipo, especifique el nombre de SQL Server.<br/><br/>Puede conservar el nombre de base de datos predeterminado o especificar un nombre personalizado.|
     |Quitar las herramientas de Supervisión de la actividad económica para este grupo de BizTalk | Desinstala y quita las herramientas de BAM del grupo de BizTalk. |
-    
- ### <a name="configure-bam-alerts"></a>Configurar alertas de BAM 
+
+   ### <a name="configure-bam-alerts"></a>Configurar alertas de BAM 
 
 Las alertas BAM requieren que las herramientas de BAM estén habilitadas.
 
@@ -243,8 +246,8 @@ Las alertas BAM requieren que las herramientas de BAM estén habilitadas.
     | Habilitar Adaptador de Windows SharePoint Services en este equipo | Seleccione esta opción para instalar el servicio web de SharePoint Services. En el equipo de SharePoint Services también se instala un servicio web IIS que puede estar en el mismo equipo de BizTalk Server o en otro distinto. En la mayoría de los entornos, BizTalk Server y SharePoint Services están en equipos independientes.|
     |Grupo de Windows|Puede conservar el nombre de grupo predeterminado o especificar un nombre personalizado. |
     |Sitio web del adaptador de Windows SharePoint Services|Seleccione el sitio web que hospeda el servicio web del adaptador de Windows SharePoint Services.|
-    
-    
+
+
 ### <a name="apply-your-configuration"></a>Aplicar la configuración
 
 Seleccione **Aplicar configuración** y continúe con la configuración. 
@@ -255,35 +258,35 @@ Seleccione **Aplicar configuración** y continúe con la configuración.
 Al acabar, se genera un archivo de registro de configuración en una carpeta temporal, similar al siguiente: `
 C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`.
 
-## <a name="iis-application-pools-and-web-sites"></a>Grupos de aplicaciones de IIS y sitios web
-Después de configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pueden crearse los siguientes grupos de aplicaciones de Internet Information Services (IIS) y las aplicaciones virtuales: 
-  
+## <a name="iis-application-pools-and-web-sites"></a>Grupos de aplicaciones IIS y sitios web
+Después de configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], se pueden crear los siguientes grupos de aplicaciones de Internet Information Services (IIS) y las aplicaciones virtuales: 
+
 ### <a name="application-pools"></a>Grupos de aplicaciones  
-  
-|Grupo de aplicaciones|Identidad del grupo de aplicaciones predeterminado|Description|  
+
+|Grupo de aplicaciones|Identidad del grupo de aplicaciones predeterminado|Descripción|  
 |----------------------|---------------------------------------|-----------------|  
 |BAMAppPool|*Definido por el usuario*|Grupo de aplicaciones para el portal de BAM.|  
 |BTSSharePointAdapterWSAppPool|*Definido por el usuario*|Grupo de aplicaciones para el servicio Web del adaptador de Windows SharePoint Services.|  
 |STSWebServiceAppPool|*Definido por el usuario*|Grupo de aplicaciones para las Herramientas de Administración de socios comerciales.|  
 |TpmWSAppPool|*Definido por el usuario*|Grupo de aplicaciones para el servicio Web de administración de TPM.|  
-  
-### <a name="virtual-applications"></a>Aplicaciones virtuales  
-  
-|Aplicación virtual|Grupo de aplicaciones predeterminado|Description|  
-|-------------------------|------------------------------|-----------------|  
-|BAM|BAMAppPool|Aplicación virtual que aloja los componentes del portal de BAM (páginas, imágenes, código precompilado y otros recursos). Esta aplicación virtual llama a la aplicación BAMManagementService para comunicarse con las bases de datos de BAM. **Nota:** su marca en el Portal de BAM, puede modificar el contenido de esta aplicación.|  
-|BAMManagementService|BAMAppPool|La aplicación virtual que aloja el servicio Web BAMManagementService. La aplicación del portal de BAM utiliza este servicio Web para comunicarse con las tablas de importación principal (PIT) de BAM. La comunicación con la base de datos se realiza a través de credenciales suplantadas almacenadas en el Registro que se crean durante la configuración. Los clientes personalizados pueden usar los métodos expuestos por este servicio Web para obtener vistas y los detalles correspondientes, además de actividades relacionadas y diseños de tabla dinámica para cualquier usuario. Los métodos también se pueden usar para administrar alertas en la base de datos.|  
-|BTSharePointAdapterWS|BTSSharePointAdapterWSAppPool|Aplicación virtual que aloja el servicio Web del adaptador de Windows SharePoint Services. Se aplica a BizTalk Server 2013 R2 y solo de 2013.|  
 
- 
+### <a name="virtual-applications"></a>Aplicaciones virtuales  
+
+|Aplicación virtual|Grupo de aplicaciones predeterminado|Descripción|  
+|-------------------------|------------------------------|-----------------|  
+|BAM|BAMAppPool|Aplicación virtual que aloja los componentes del portal de BAM (páginas, imágenes, código precompilado y otros recursos). Esta aplicación virtual llama a la aplicación BAMManagementService para comunicarse con las bases de datos de BAM. **Nota:** para personalizar el Portal de BAM, puede modificar el contenido de esta aplicación.|  
+|BAMManagementService|BAMAppPool|La aplicación virtual que aloja el servicio Web BAMManagementService. La aplicación del portal de BAM utiliza este servicio Web para comunicarse con las tablas de importación principal (PIT) de BAM. La comunicación con la base de datos se realiza a través de credenciales suplantadas almacenadas en el Registro que se crean durante la configuración. Los clientes personalizados pueden usar los métodos expuestos por este servicio Web para obtener vistas y los detalles correspondientes, además de actividades relacionadas y diseños de tabla dinámica para cualquier usuario. Los métodos también se pueden usar para administrar alertas en la base de datos.|  
+|BTSharePointAdapterWS|BTSSharePointAdapterWSAppPool|Aplicación virtual que aloja el servicio Web del adaptador de Windows SharePoint Services. Se aplica a BizTalk Server 2013 R2 y 2013 solo.|  
+
+
 ## <a name="more-configuration-topics"></a>Más temas de configuración  
-  
+
  [Configurar BizTalk Server en una máquina virtual de Azure](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
-  
+
 [Configuración de BizTalk Server en un clúster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
 
 [Pasos posteriores a la configuración para optimizar el entorno](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
 
  [Proteger la implementación de BizTalk Server](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
-  
- 
+
+
