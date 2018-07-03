@@ -1,5 +1,5 @@
 ---
-title: No se puede obtener el tipo de enlace de extensión de enlace | Documentos de Microsoft
+title: No se puede obtener el tipo de enlace para la extensión de enlace | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,42 +12,42 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79b649f69b7503f345f212aa5f014ce7b256148d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: fdf0e0fd1ebf88c9231d70e9102d76fa67157cb9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973770"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006237"
 ---
-# <a name="unable-to-get-binding-type-for-binding-extension"></a><span data-ttu-id="f2f0c-102">No se puede obtener el tipo de enlace para la extensión de enlace</span><span class="sxs-lookup"><span data-stu-id="f2f0c-102">Unable to get binding type for binding extension</span></span>
-## <a name="details"></a><span data-ttu-id="f2f0c-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="f2f0c-103">Details</span></span>  
-  
-|||  
-|-|-|  
-|<span data-ttu-id="f2f0c-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="f2f0c-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|<span data-ttu-id="f2f0c-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="f2f0c-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|<span data-ttu-id="f2f0c-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="f2f0c-106">Event ID</span></span>|<span data-ttu-id="f2f0c-107">0</span><span class="sxs-lookup"><span data-stu-id="f2f0c-107">0</span></span>|  
-|<span data-ttu-id="f2f0c-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="f2f0c-108">Event Source</span></span>|<span data-ttu-id="f2f0c-109">0</span><span class="sxs-lookup"><span data-stu-id="f2f0c-109">0</span></span>|  
-|<span data-ttu-id="f2f0c-110">Componente</span><span class="sxs-lookup"><span data-stu-id="f2f0c-110">Component</span></span>|<span data-ttu-id="f2f0c-111">0</span><span class="sxs-lookup"><span data-stu-id="f2f0c-111">0</span></span>|  
-|<span data-ttu-id="f2f0c-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="f2f0c-112">Symbolic Name</span></span>|<span data-ttu-id="f2f0c-113">0</span><span class="sxs-lookup"><span data-stu-id="f2f0c-113">0</span></span>|  
-|<span data-ttu-id="f2f0c-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="f2f0c-114">Message Text</span></span>|<span data-ttu-id="f2f0c-115">No se puede obtener el tipo de enlace para la extensión de enlace "{0}".</span><span class="sxs-lookup"><span data-stu-id="f2f0c-115">Unable to get binding type for binding extension "{0}".</span></span> <span data-ttu-id="f2f0c-116">Si machine.config se actualizó mientras estaba abierta la aplicación, reinicie la aplicación para que se apliquen los cambios.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-116">If machine.config was updated while your application was open, restart your application to pick up changes.</span></span> <span data-ttu-id="f2f0c-117">Compruebe que la extensión de enlace está registrada en machine.config.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-117">Verify the binding extension is registered in machine.config</span></span>|  
-  
-## <a name="explanation"></a><span data-ttu-id="f2f0c-118">Explicación</span><span class="sxs-lookup"><span data-stu-id="f2f0c-118">Explanation</span></span>  
- <span data-ttu-id="f2f0c-119">Una extensión de enlace personalizado para un transporte WCF-Custom o WCF-CustomIsolated no se configuró correctamente.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-119">A custom binding extension for a WCF-Custom or a WCF-CustomIsolated transport was not configured properly.</span></span>  
-  
-## <a name="user-action"></a><span data-ttu-id="f2f0c-120">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="f2f0c-120">User Action</span></span>  
- <span data-ttu-id="f2f0c-121">Par resolver este error, realice una de las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="f2f0c-121">To resolve this error do one or more of the following:</span></span>  
-  
--   <span data-ttu-id="f2f0c-122">Asegúrese del **archivo.config** en **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config** tiene la \< **bindingExtensions** \> elemento configurado correctamente.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-122">Ensure the **machine.config file** in **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config** has the \<**bindingExtensions**\> element configured properly.</span></span>  
-  
--   <span data-ttu-id="f2f0c-123">En el Explorador de Windows, vaya a **%WinDir%\Assembly**y asegúrese de que los ensamblados que implementan la extensión de enlace personalizada están instalados correctamente.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-123">In Windows Explorer, go to **%WinDir%\Assembly**, and make sure the assemblies implementing the custom binding extension are installed properly.</span></span>  
-  
--   <span data-ttu-id="f2f0c-124">Para el adaptador de WCF-Custom, en la consola de administración de BizTalk, reinicie la instancia de host que ejecuta el transporte WCF.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-124">For the WCF-Custom adapter, in the BizTalk Administration console, restart the host instance running the WCF transport.</span></span>  
-  
--   <span data-ttu-id="f2f0c-125">Para el adaptador de WCF-CustomIsolated, en la consola de administración de IIS, reinicie el grupo de aplicaciones que hospeda el transporte WCF.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-125">For the WCF-CustomIsolated adapter, in the IIS Management console, restart the application pool hosting the WCF transport.</span></span>  
-  
--   <span data-ttu-id="f2f0c-126">Abra y cierre la consola de administración de BizTalk si estaba abierta.</span><span class="sxs-lookup"><span data-stu-id="f2f0c-126">Open and close the BizTalk Administration console if it was opened</span></span>  
-  
- <span data-ttu-id="f2f0c-127">Para obtener más información, vea el recurso siguiente:</span><span class="sxs-lookup"><span data-stu-id="f2f0c-127">For further information, see the following resource:</span></span>  
-  
--   [<span data-ttu-id="f2f0c-128">Cómo habilitar los puntos de extensibilidad de WCF con los adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="f2f0c-128">How to Enable the WCF Extensibility Points with the WCF Adapters</span></span>](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md)
+# <a name="unable-to-get-binding-type-for-binding-extension"></a><span data-ttu-id="7d664-102">No se puede obtener el tipo de enlace para la extensión de enlace</span><span class="sxs-lookup"><span data-stu-id="7d664-102">Unable to get binding type for binding extension</span></span>
+## <a name="details"></a><span data-ttu-id="7d664-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="7d664-103">Details</span></span>  
+
+|                 |                                                                                                                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <span data-ttu-id="7d664-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="7d664-104">Product Name</span></span>   |                                                                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                        |
+| <span data-ttu-id="7d664-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="7d664-105">Product Version</span></span> |                                                                                    [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                                                    |
+|    <span data-ttu-id="7d664-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="7d664-106">Event ID</span></span>     |                                                                                                                <span data-ttu-id="7d664-107">0</span><span class="sxs-lookup"><span data-stu-id="7d664-107">0</span></span>                                                                                                                 |
+|  <span data-ttu-id="7d664-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="7d664-108">Event Source</span></span>   |                                                                                                                <span data-ttu-id="7d664-109">0</span><span class="sxs-lookup"><span data-stu-id="7d664-109">0</span></span>                                                                                                                 |
+|    <span data-ttu-id="7d664-110">Componente</span><span class="sxs-lookup"><span data-stu-id="7d664-110">Component</span></span>    |                                                                                                                <span data-ttu-id="7d664-111">0</span><span class="sxs-lookup"><span data-stu-id="7d664-111">0</span></span>                                                                                                                 |
+|  <span data-ttu-id="7d664-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="7d664-112">Symbolic Name</span></span>  |                                                                                                                <span data-ttu-id="7d664-113">0</span><span class="sxs-lookup"><span data-stu-id="7d664-113">0</span></span>                                                                                                                 |
+|  <span data-ttu-id="7d664-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="7d664-114">Message Text</span></span>   | <span data-ttu-id="7d664-115">No se puede obtener el tipo de enlace para la extensión de enlace "{0}".</span><span class="sxs-lookup"><span data-stu-id="7d664-115">Unable to get binding type for binding extension "{0}".</span></span> <span data-ttu-id="7d664-116">Si machine.config se actualizó mientras estaba abierta la aplicación, reinicie la aplicación para que se apliquen los cambios.</span><span class="sxs-lookup"><span data-stu-id="7d664-116">If machine.config was updated while your application was open, restart your application to pick up changes.</span></span> <span data-ttu-id="7d664-117">Compruebe que la extensión de enlace está registrada en machine.config.</span><span class="sxs-lookup"><span data-stu-id="7d664-117">Verify the binding extension is registered in machine.config</span></span> |
+
+## <a name="explanation"></a><span data-ttu-id="7d664-118">Explicación</span><span class="sxs-lookup"><span data-stu-id="7d664-118">Explanation</span></span>  
+ <span data-ttu-id="7d664-119">Una extensión de enlace personalizado para un transporte WCF-Custom o WCF-CustomIsolated no se configuró correctamente.</span><span class="sxs-lookup"><span data-stu-id="7d664-119">A custom binding extension for a WCF-Custom or a WCF-CustomIsolated transport was not configured properly.</span></span>  
+
+## <a name="user-action"></a><span data-ttu-id="7d664-120">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="7d664-120">User Action</span></span>  
+ <span data-ttu-id="7d664-121">Par resolver este error, realice una de las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="7d664-121">To resolve this error do one or more of the following:</span></span>  
+
+- <span data-ttu-id="7d664-122">Asegúrese del **archivo.config** en **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config** tiene la \< **bindingExtensions** \> elemento configurado correctamente.</span><span class="sxs-lookup"><span data-stu-id="7d664-122">Ensure the **machine.config file** in **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config** has the \<**bindingExtensions**\> element configured properly.</span></span>  
+
+- <span data-ttu-id="7d664-123">En el Explorador de Windows, vaya a **%WinDir%\Assembly**y asegúrese de que los ensamblados que implementan la extensión de enlace personalizada están instalados correctamente.</span><span class="sxs-lookup"><span data-stu-id="7d664-123">In Windows Explorer, go to **%WinDir%\Assembly**, and make sure the assemblies implementing the custom binding extension are installed properly.</span></span>  
+
+- <span data-ttu-id="7d664-124">Para el adaptador de WCF-Custom, en la consola de administración de BizTalk, reinicie la instancia de host que ejecuta el transporte WCF.</span><span class="sxs-lookup"><span data-stu-id="7d664-124">For the WCF-Custom adapter, in the BizTalk Administration console, restart the host instance running the WCF transport.</span></span>  
+
+- <span data-ttu-id="7d664-125">Para el adaptador de WCF-CustomIsolated, en la consola de administración de IIS, reinicie el grupo de aplicaciones que hospeda el transporte WCF.</span><span class="sxs-lookup"><span data-stu-id="7d664-125">For the WCF-CustomIsolated adapter, in the IIS Management console, restart the application pool hosting the WCF transport.</span></span>  
+
+- <span data-ttu-id="7d664-126">Abra y cierre la consola de administración de BizTalk si estaba abierta.</span><span class="sxs-lookup"><span data-stu-id="7d664-126">Open and close the BizTalk Administration console if it was opened</span></span>  
+
+  <span data-ttu-id="7d664-127">Para obtener más información, vea el recurso siguiente:</span><span class="sxs-lookup"><span data-stu-id="7d664-127">For further information, see the following resource:</span></span>  
+
+- [<span data-ttu-id="7d664-128">Cómo habilitar los puntos de extensibilidad de WCF con adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="7d664-128">How to Enable the WCF Extensibility Points with the WCF Adapters</span></span>](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md)

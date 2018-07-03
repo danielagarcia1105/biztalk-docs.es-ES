@@ -1,5 +1,5 @@
 ---
-title: Cómo importar BPEL4WS | Documentos de Microsoft
+title: Cómo importar BPEL4WS | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,50 +12,50 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e82dd80e280eff39ff5c1678b5c9751e378ee1b
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 0043cca1305f0acf7f07878acd7e75b1390ffea5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31008479"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995973"
 ---
-# <a name="import-bpel4ws-in-biztalk-server"></a><span data-ttu-id="99244-102">Importar BPEL4WS en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="99244-102">Import BPEL4WS in BizTalk Server</span></span>
-<span data-ttu-id="99244-103">Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.</span><span class="sxs-lookup"><span data-stu-id="99244-103">You can import from existing BPEL4WS to create an orchestration.</span></span>  
+# <a name="import-bpel4ws-in-biztalk-server"></a><span data-ttu-id="72371-102">Importar BPEL4WS en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="72371-102">Import BPEL4WS in BizTalk Server</span></span>
+<span data-ttu-id="72371-103">Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.</span><span class="sxs-lookup"><span data-stu-id="72371-103">You can import from existing BPEL4WS to create an orchestration.</span></span>  
   
 > [!IMPORTANT]
->  <span data-ttu-id="99244-104">Esta versión de BizTalk Server es compatible con BPEL4WS 1.1.</span><span class="sxs-lookup"><span data-stu-id="99244-104">This release of BizTalk Server supports BPEL4WS 1.1.</span></span> <span data-ttu-id="99244-105">No es compatible con BPEL4WS 1.0 para realizar importaciones o exportaciones.</span><span class="sxs-lookup"><span data-stu-id="99244-105">You cannot import or export BPEL4WS 1.0.</span></span>  
+>  <span data-ttu-id="72371-104">Esta versión de BizTalk Server es compatible con BPEL4WS 1.1.</span><span class="sxs-lookup"><span data-stu-id="72371-104">This release of BizTalk Server supports BPEL4WS 1.1.</span></span> <span data-ttu-id="72371-105">No es compatible con BPEL4WS 1.0 para realizar importaciones o exportaciones.</span><span class="sxs-lookup"><span data-stu-id="72371-105">You cannot import or export BPEL4WS 1.0.</span></span>  
   
- <span data-ttu-id="99244-106">Para obtener un ejemplo de cómo importar BPEL4WS, consulte [BPEL importar (ejemplo de BizTalk Server)](../core/bpel-import-biztalk-server-sample.md).</span><span class="sxs-lookup"><span data-stu-id="99244-106">For an example of how to import BPEL4WS, see [BPEL Import (BizTalk Server Sample)](../core/bpel-import-biztalk-server-sample.md).</span></span>  
+ <span data-ttu-id="72371-106">Para obtener un ejemplo de cómo importar BPEL4WS, consulte [importar de BPEL (ejemplo de BizTalk Server)](../core/bpel-import-biztalk-server-sample.md).</span><span class="sxs-lookup"><span data-stu-id="72371-106">For an example of how to import BPEL4WS, see [BPEL Import (BizTalk Server Sample)](../core/bpel-import-biztalk-server-sample.md).</span></span>  
   
-## <a name="import-bpel4ws-into-an-orchestration"></a><span data-ttu-id="99244-107">Importar BPEL4WS a una orquestación</span><span class="sxs-lookup"><span data-stu-id="99244-107">Import BPEL4WS into an orchestration</span></span>  
+## <a name="import-bpel4ws-into-an-orchestration"></a><span data-ttu-id="72371-107">Importar BPEL4WS a una orquestación</span><span class="sxs-lookup"><span data-stu-id="72371-107">Import BPEL4WS into an orchestration</span></span>  
   
-1.  <span data-ttu-id="99244-108">Cree un nuevo proyecto.</span><span class="sxs-lookup"><span data-stu-id="99244-108">Create a new project.</span></span>  
+1. <span data-ttu-id="72371-108">Cree un nuevo proyecto.</span><span class="sxs-lookup"><span data-stu-id="72371-108">Create a new project.</span></span>  
   
-2.  <span data-ttu-id="99244-109">En los tipos disponibles en Proyecto de BizTalk, haga doble clic en Proyecto de importación BPEL de servidor BizTalk Server, o bien seleccione Proyecto de importación BPEL de servidor BizTalk Server y haga clic en Aceptar.</span><span class="sxs-lookup"><span data-stu-id="99244-109">From the BizTalk Project types, double-click BizTalk Server BPEL Import Project, or select BizTalk Server BPEL Import Project and press OK.</span></span>  
+2. <span data-ttu-id="72371-109">En los tipos disponibles en Proyecto de BizTalk, haga doble clic en Proyecto de importación BPEL de servidor BizTalk Server, o bien seleccione Proyecto de importación BPEL de servidor BizTalk Server y haga clic en Aceptar.</span><span class="sxs-lookup"><span data-stu-id="72371-109">From the BizTalk Project types, double-click BizTalk Server BPEL Import Project, or select BizTalk Server BPEL Import Project and press OK.</span></span>  
   
-3.  <span data-ttu-id="99244-110">En el asistente, seleccione los archivos BPEL, WSDL y XSD que se deben importar para crear el nuevo proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="99244-110">In the wizard, select the BPEL, WSDL and XSD files that should be imported to form the new BizTalk project.</span></span> <span data-ttu-id="99244-111">Incluya todos los archivos a los que se hace referencia mediante las instrucciones import e include.</span><span class="sxs-lookup"><span data-stu-id="99244-111">Include all files that are referenced via import and include statements.</span></span>  
+3. <span data-ttu-id="72371-110">En el asistente, seleccione los archivos BPEL, WSDL y XSD que se deben importar para crear el nuevo proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="72371-110">In the wizard, select the BPEL, WSDL and XSD files that should be imported to form the new BizTalk project.</span></span> <span data-ttu-id="72371-111">Incluya todos los archivos a los que se hace referencia mediante las instrucciones import e include.</span><span class="sxs-lookup"><span data-stu-id="72371-111">Include all files that are referenced via import and include statements.</span></span>  
   
-4.  <span data-ttu-id="99244-112">Seleccione los archivos WSDL para los servicios Web invocados.</span><span class="sxs-lookup"><span data-stu-id="99244-112">Select WSDL files for invoked Web services.</span></span>  
+4. <span data-ttu-id="72371-112">Seleccione los archivos WSDL para los servicios Web invocados.</span><span class="sxs-lookup"><span data-stu-id="72371-112">Select WSDL files for invoked Web services.</span></span>  
   
-     <span data-ttu-id="99244-113">Ahora puede modificar o implementar la nueva orquestación.</span><span class="sxs-lookup"><span data-stu-id="99244-113">You can now modify or deploy the new orchestration.</span></span>  
+    <span data-ttu-id="72371-113">Ahora puede modificar o implementar la nueva orquestación.</span><span class="sxs-lookup"><span data-stu-id="72371-113">You can now modify or deploy the new orchestration.</span></span>  
   
- <span data-ttu-id="99244-114">**Restricciones de importación de BPEL4WS**</span><span class="sxs-lookup"><span data-stu-id="99244-114">**Import restrictions on BPEL4WS**</span></span>  
+   <span data-ttu-id="72371-114">**Restricciones de importación de BPEL4WS**</span><span class="sxs-lookup"><span data-stu-id="72371-114">**Import restrictions on BPEL4WS**</span></span>  
   
--   <span data-ttu-id="99244-115">Al importar BPEL y WSDL, asegúrese de que la propiedad de nombre del nodo de definición WSDL y el nodo de proceso BPEL no coinciden.</span><span class="sxs-lookup"><span data-stu-id="99244-115">When importing BPEL and WSDL, make sure that the Name property of the WSDL definition node and the BPEL process node do not match.</span></span>  
+-   <span data-ttu-id="72371-115">Al importar BPEL y WSDL, asegúrese de que la propiedad de nombre del nodo de definición WSDL y el nodo de proceso BPEL no coinciden.</span><span class="sxs-lookup"><span data-stu-id="72371-115">When importing BPEL and WSDL, make sure that the Name property of the WSDL definition node and the BPEL process node do not match.</span></span>  
   
--   <span data-ttu-id="99244-116">No utilice palabras reservadas para XLANG/s en BPEL4WS cuando realice la importación.</span><span class="sxs-lookup"><span data-stu-id="99244-116">Do not use XLANG/s reserved words in BPEL4WS that you import.</span></span> <span data-ttu-id="99244-117">Para obtener una lista completa, consulte [palabras reservadas de XLANG/s](../core/xlang-s-reserved-words.md).</span><span class="sxs-lookup"><span data-stu-id="99244-117">For a complete list, see [XLANG/s Reserved Words](../core/xlang-s-reserved-words.md).</span></span>  
+-   <span data-ttu-id="72371-116">No utilice palabras reservadas para XLANG/s en BPEL4WS cuando realice la importación.</span><span class="sxs-lookup"><span data-stu-id="72371-116">Do not use XLANG/s reserved words in BPEL4WS that you import.</span></span> <span data-ttu-id="72371-117">Para obtener una lista completa, consulte [palabras reservadas de XLANG/s](../core/xlang-s-reserved-words.md).</span><span class="sxs-lookup"><span data-stu-id="72371-117">For a complete list, see [XLANG/s Reserved Words](../core/xlang-s-reserved-words.md).</span></span>  
   
--   <span data-ttu-id="99244-118">solo los tipos simples XSD predefinidos son compatibles.</span><span class="sxs-lookup"><span data-stu-id="99244-118">Only XSD predefined simple types are supported.</span></span>  
+-   <span data-ttu-id="72371-118">solo los tipos simples XSD predefinidos son compatibles.</span><span class="sxs-lookup"><span data-stu-id="72371-118">Only XSD predefined simple types are supported.</span></span>  
   
--   <span data-ttu-id="99244-119">xsd: QName no es compatible; se importa como System.String.</span><span class="sxs-lookup"><span data-stu-id="99244-119">xsd:QName is not supported; it is imported as System.String.</span></span> <span data-ttu-id="99244-120">Utilice en su lugar xsd: String.</span><span class="sxs-lookup"><span data-stu-id="99244-120">Use xsd:string instead.</span></span>  
+-   <span data-ttu-id="72371-119">xsd: QName no es compatible; se importa como System.String.</span><span class="sxs-lookup"><span data-stu-id="72371-119">xsd:QName is not supported; it is imported as System.String.</span></span> <span data-ttu-id="72371-120">Utilice xsd: String.</span><span class="sxs-lookup"><span data-stu-id="72371-120">Use xsd:string instead.</span></span>  
   
--   <span data-ttu-id="99244-121">Considere usar XPath canónicos al importar con BPEL4WS.</span><span class="sxs-lookup"><span data-stu-id="99244-121">Consider using canonical XPaths when importing BPEL4WS.</span></span>  
+-   <span data-ttu-id="72371-121">Considere usar XPath canónicos al importar con BPEL4WS.</span><span class="sxs-lookup"><span data-stu-id="72371-121">Consider using canonical XPaths when importing BPEL4WS.</span></span>  
   
-     <span data-ttu-id="99244-122">Se recomienda importar solamente XPath canónicos para obtener un rendimiento óptimo.</span><span class="sxs-lookup"><span data-stu-id="99244-122">It is good practice to import only canonical XPaths in order to achieve optimal performance.</span></span> <span data-ttu-id="99244-123">La ruta de acceso completa de la raíz al nodo promocionado se debe especificar mediante '/\*[local-name()="someName" y namespace-uri()="someUri"]'.</span><span class="sxs-lookup"><span data-stu-id="99244-123">The entire path from root to the promoted node must be spelled out by using '/\*[local-name()="someName" and namespace-uri()="someUri"]'.</span></span>  
+     <span data-ttu-id="72371-122">Se recomienda importar solamente XPath canónicos para obtener un rendimiento óptimo.</span><span class="sxs-lookup"><span data-stu-id="72371-122">It is good practice to import only canonical XPaths in order to achieve optimal performance.</span></span> <span data-ttu-id="72371-123">La ruta de acceso completa de la raíz al nodo promocionado se debe especificar mediante '/\*[local-name()="someName" y namespace-uri()="someUri"]'.</span><span class="sxs-lookup"><span data-stu-id="72371-123">The entire path from root to the promoted node must be spelled out by using '/\*[local-name()="someName" and namespace-uri()="someUri"]'.</span></span>  
   
-     <span data-ttu-id="99244-124">Si importa un XPath no canónico, puede quitar una promoción y volver a promocionar el mismo campo para que el editor de esquemas cree el XPath canónico correcto.</span><span class="sxs-lookup"><span data-stu-id="99244-124">If you import a non-canonical XPath, you can remove a promotion and repromote the same field in order to have the Schema Editor create the correct canonical XPath.</span></span>  
+     <span data-ttu-id="72371-124">Si importa un XPath no canónico, puede quitar una promoción y volver a promocionar el mismo campo para que el editor de esquemas cree el XPath canónico correcto.</span><span class="sxs-lookup"><span data-stu-id="72371-124">If you import a non-canonical XPath, you can remove a promotion and repromote the same field in order to have the Schema Editor create the correct canonical XPath.</span></span>  
   
-     <span data-ttu-id="99244-125">Ejemplo: (targetNamespace = http://BizTalk_Server_Project3.Schema1)</span><span class="sxs-lookup"><span data-stu-id="99244-125">Example: (targetNamespace = http://BizTalk_Server_Project3.Schema1)</span></span>  
+     <span data-ttu-id="72371-125">Ejemplo: (targetNamespace = http://BizTalk_Server_Project3.Schema1)</span><span class="sxs-lookup"><span data-stu-id="72371-125">Example: (targetNamespace = http://BizTalk_Server_Project3.Schema1)</span></span>  
   
     ```  
     <element name=Root type=complexType>  
@@ -67,10 +67,10 @@ ms.locfileid: "31008479"
   
      `XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']` 
   
-    |<span data-ttu-id="99244-126">XPath canónico</span><span class="sxs-lookup"><span data-stu-id="99244-126">Canonical XPath</span></span>|<span data-ttu-id="99244-127">XPath no canónico</span><span class="sxs-lookup"><span data-stu-id="99244-127">Non-Canonical XPath</span></span>|  
+    |<span data-ttu-id="72371-126">XPath canónico</span><span class="sxs-lookup"><span data-stu-id="72371-126">Canonical XPath</span></span>|<span data-ttu-id="72371-127">XPath no canónico</span><span class="sxs-lookup"><span data-stu-id="72371-127">Non-Canonical XPath</span></span>|  
     |---------------------|--------------------------|  
-    |<span data-ttu-id="99244-128">El Editor de BizTalk muestra un icono especial (![](../core/media/ebiz-orch-promotedprop.gif "ebiz_orch_promotedprop")) para indicar que se ha promocionado el campo.</span><span class="sxs-lookup"><span data-stu-id="99244-128">BizTalk Editor displays a special icon (![](../core/media/ebiz-orch-promotedprop.gif "ebiz_orch_promotedprop")) to denote that the field has been promoted.</span></span> <span data-ttu-id="99244-129">El uso de expresiones XPath canónicas para promocionar campos mejora el rendimiento a través del recorrido más eficaz de XML.</span><span class="sxs-lookup"><span data-stu-id="99244-129">Usage of canonical XPath expressions to promote fields improves performance through more efficient traversal of the XML</span></span>|<span data-ttu-id="99244-130">El Editor de BizTalk no muestra ningún icono especial.</span><span class="sxs-lookup"><span data-stu-id="99244-130">BizTalk Editor does not display a special icon.</span></span> <span data-ttu-id="99244-131">Tanto el compilador como el cuadro de diálogo de promoción presentan advertencias.</span><span class="sxs-lookup"><span data-stu-id="99244-131">Both the compiler and the promotion dialog give warnings.</span></span> <span data-ttu-id="99244-132">Hay un efecto lineal, aunque no trivial, sobre el rendimiento a medida que aumenta el tamaño del mensaje.</span><span class="sxs-lookup"><span data-stu-id="99244-132">There is a linear but nontrivial effect on performance as the message size increases.</span></span>|  
+    |<span data-ttu-id="72371-128">El Editor de BizTalk muestra un icono especial (![](../core/media/ebiz-orch-promotedprop.gif "ebiz_orch_promotedprop")) para indicar que se ha promocionado el campo.</span><span class="sxs-lookup"><span data-stu-id="72371-128">BizTalk Editor displays a special icon (![](../core/media/ebiz-orch-promotedprop.gif "ebiz_orch_promotedprop")) to denote that the field has been promoted.</span></span> <span data-ttu-id="72371-129">El uso de expresiones XPath canónicas para promocionar campos mejora el rendimiento a través del recorrido más eficaz de XML.</span><span class="sxs-lookup"><span data-stu-id="72371-129">Usage of canonical XPath expressions to promote fields improves performance through more efficient traversal of the XML</span></span>|<span data-ttu-id="72371-130">El Editor de BizTalk no muestra ningún icono especial.</span><span class="sxs-lookup"><span data-stu-id="72371-130">BizTalk Editor does not display a special icon.</span></span> <span data-ttu-id="72371-131">Tanto el compilador como el cuadro de diálogo de promoción presentan advertencias.</span><span class="sxs-lookup"><span data-stu-id="72371-131">Both the compiler and the promotion dialog give warnings.</span></span> <span data-ttu-id="72371-132">Hay un efecto lineal, aunque no trivial, sobre el rendimiento a medida que aumenta el tamaño del mensaje.</span><span class="sxs-lookup"><span data-stu-id="72371-132">There is a linear but nontrivial effect on performance as the message size increases.</span></span>|  
   
-## <a name="see-also"></a><span data-ttu-id="99244-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="99244-133">See Also</span></span>  
- <span data-ttu-id="99244-134">[Cómo exportar BPEL4WS](../core/how-to-export-bpel4ws.md) </span><span class="sxs-lookup"><span data-stu-id="99244-134">[How to Export BPEL4WS](../core/how-to-export-bpel4ws.md) </span></span>  
- [<span data-ttu-id="99244-135">Conversiones de tipos de XLANG/s a BPEL4WS</span><span class="sxs-lookup"><span data-stu-id="99244-135">XLANG-s to BPEL4WS Type Conversions</span></span>](../core/xlang-s-to-bpel4ws-type-conversions.md)
+## <a name="see-also"></a><span data-ttu-id="72371-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="72371-133">See Also</span></span>  
+ <span data-ttu-id="72371-134">[Cómo exportar BPEL4WS](../core/how-to-export-bpel4ws.md) </span><span class="sxs-lookup"><span data-stu-id="72371-134">[How to Export BPEL4WS](../core/how-to-export-bpel4ws.md) </span></span>  
+ [<span data-ttu-id="72371-135">Conversiones de tipos de XLANG/s a BPEL4WS</span><span class="sxs-lookup"><span data-stu-id="72371-135">XLANG-s to BPEL4WS Type Conversions</span></span>](../core/xlang-s-to-bpel4ws-type-conversions.md)

@@ -1,5 +1,5 @@
 ---
-title: Finalizadores de sistema | Documentos de Microsoft
+title: Finalizadores del sistema | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,87 +15,87 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a0a8c5b7be12a90aa2d31e828298cf7b95834036
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d991125654e04167b026aa98c62c8ffdc7b2b8e2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214084"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006021"
 ---
-# <a name="system-trailers"></a><span data-ttu-id="c0440-102">Finalizadores de sistema</span><span class="sxs-lookup"><span data-stu-id="c0440-102">System Trailers</span></span>
-<span data-ttu-id="c0440-103">Finalizadores de sistema transmiten los detalles adicionales o especiales sobre el mensaje SWIFT.</span><span class="sxs-lookup"><span data-stu-id="c0440-103">System trailers convey additional or special details about the SWIFT message.</span></span> <span data-ttu-id="c0440-104">Si cualquiera de los finalizadores de tres sistema primera están presentes, se producen en el siguiente orden.</span><span class="sxs-lookup"><span data-stu-id="c0440-104">If any of the first three system trailers are present, they occur in the following order.</span></span> <span data-ttu-id="c0440-105">Los finalizadores de sistema restantes pueden aparecer en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="c0440-105">The remaining system trailers can occur in any order.</span></span>  
+# <a name="system-trailers"></a><span data-ttu-id="5f0c5-102">Finalizadores del sistema</span><span class="sxs-lookup"><span data-stu-id="5f0c5-102">System Trailers</span></span>
+<span data-ttu-id="5f0c5-103">Finalizadores del sistema proporcionan detalles adicionales o especiales sobre el mensaje SWIFT.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-103">System trailers convey additional or special details about the SWIFT message.</span></span> <span data-ttu-id="5f0c5-104">Si cualquiera de la primera finalizadores tres del sistema están presentes, se producen en el orden siguiente.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-104">If any of the first three system trailers are present, they occur in the following order.</span></span> <span data-ttu-id="5f0c5-105">Los finalizadores de sistema restantes pueden producirse en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-105">The remaining system trailers can occur in any order.</span></span>  
   
-|<span data-ttu-id="c0440-106">Código de finalizador</span><span class="sxs-lookup"><span data-stu-id="c0440-106">Trailer code</span></span>|<span data-ttu-id="c0440-107">Nombre</span><span class="sxs-lookup"><span data-stu-id="c0440-107">Name</span></span>|  
+|<span data-ttu-id="5f0c5-106">Código de finalizador</span><span class="sxs-lookup"><span data-stu-id="5f0c5-106">Trailer code</span></span>|<span data-ttu-id="5f0c5-107">Nombre</span><span class="sxs-lookup"><span data-stu-id="5f0c5-107">Name</span></span>|  
 |------------------|----------|  
-|<span data-ttu-id="c0440-108">**DISTRIB**</span><span class="sxs-lookup"><span data-stu-id="c0440-108">**CHK**</span></span>|<span data-ttu-id="c0440-109">Suma de comprobación</span><span class="sxs-lookup"><span data-stu-id="c0440-109">Checksum</span></span>|  
-|<span data-ttu-id="c0440-110">**SYS**</span><span class="sxs-lookup"><span data-stu-id="c0440-110">**SYS**</span></span>|<span data-ttu-id="c0440-111">Mensaje que originó sistema</span><span class="sxs-lookup"><span data-stu-id="c0440-111">System Originated Message</span></span>|  
-|<span data-ttu-id="c0440-112">**TNG**</span><span class="sxs-lookup"><span data-stu-id="c0440-112">**TNG**</span></span>|<span data-ttu-id="c0440-113">Aprendizaje</span><span class="sxs-lookup"><span data-stu-id="c0440-113">Training</span></span>|  
-|<span data-ttu-id="c0440-114">**PDM**</span><span class="sxs-lookup"><span data-stu-id="c0440-114">**PDM**</span></span>|<span data-ttu-id="c0440-115">Posibles mensajes duplicados</span><span class="sxs-lookup"><span data-stu-id="c0440-115">Possible Duplicate Message</span></span>|  
-|<span data-ttu-id="c0440-116">**DLM**</span><span class="sxs-lookup"><span data-stu-id="c0440-116">**DLM**</span></span>|<span data-ttu-id="c0440-117">Mensajes retrasada</span><span class="sxs-lookup"><span data-stu-id="c0440-117">Delayed Message</span></span>|  
-|<span data-ttu-id="c0440-118">**MRF**</span><span class="sxs-lookup"><span data-stu-id="c0440-118">**MRF**</span></span>|<span data-ttu-id="c0440-119">Referencia de mensajes</span><span class="sxs-lookup"><span data-stu-id="c0440-119">Message Reference</span></span>|  
+|<span data-ttu-id="5f0c5-108">**"CHK"**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-108">**CHK**</span></span>|<span data-ttu-id="5f0c5-109">Suma de comprobación</span><span class="sxs-lookup"><span data-stu-id="5f0c5-109">Checksum</span></span>|  
+|<span data-ttu-id="5f0c5-110">**SYS**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-110">**SYS**</span></span>|<span data-ttu-id="5f0c5-111">Sistema originó el mensaje</span><span class="sxs-lookup"><span data-stu-id="5f0c5-111">System Originated Message</span></span>|  
+|<span data-ttu-id="5f0c5-112">**TNG**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-112">**TNG**</span></span>|<span data-ttu-id="5f0c5-113">Aprendizaje</span><span class="sxs-lookup"><span data-stu-id="5f0c5-113">Training</span></span>|  
+|<span data-ttu-id="5f0c5-114">**PDM**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-114">**PDM**</span></span>|<span data-ttu-id="5f0c5-115">Posible mensaje duplicado</span><span class="sxs-lookup"><span data-stu-id="5f0c5-115">Possible Duplicate Message</span></span>|  
+|<span data-ttu-id="5f0c5-116">**DLM**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-116">**DLM**</span></span>|<span data-ttu-id="5f0c5-117">Mensaje demorado</span><span class="sxs-lookup"><span data-stu-id="5f0c5-117">Delayed Message</span></span>|  
+|<span data-ttu-id="5f0c5-118">**MRF**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-118">**MRF**</span></span>|<span data-ttu-id="5f0c5-119">Referencia de mensajes</span><span class="sxs-lookup"><span data-stu-id="5f0c5-119">Message Reference</span></span>|  
   
--   <span data-ttu-id="c0440-120">**Sistema que originó finalizador de mensaje (SYS).**</span><span class="sxs-lookup"><span data-stu-id="c0440-120">**System Originated Message (SYS) Trailer.**</span></span> <span data-ttu-id="c0440-121">El mensaje del sistema o un mensaje de servicio, generada por un sistema PLT, tiene un finalizador SYS.</span><span class="sxs-lookup"><span data-stu-id="c0440-121">The system message or service message, which is generated by a system PLT, has a SYS trailer.</span></span> <span data-ttu-id="c0440-122">Todos los solicitado mensajes del sistema con un identificador de servicio de 01, contengan el MIR de la solicitud y el tiempo.</span><span class="sxs-lookup"><span data-stu-id="c0440-122">All solicited system messages with a Service Identifier of 01, contain the MIR of the request, and may contain the time.</span></span>  
+- <span data-ttu-id="5f0c5-120">**Sistema había originado el finalizador de mensaje (SYS).**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-120">**System Originated Message (SYS) Trailer.**</span></span> <span data-ttu-id="5f0c5-121">El mensaje del sistema o el mensaje de servicio, que es generado por un sistema PLT, tiene un finalizador SYS.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-121">The system message or service message, which is generated by a system PLT, has a SYS trailer.</span></span> <span data-ttu-id="5f0c5-122">Todos solicitado mensajes del sistema con un identificador de servicio de 01, contienen el MIR de la solicitud y pueden contener el tiempo.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-122">All solicited system messages with a Service Identifier of 01, contain the MIR of the request, and may contain the time.</span></span>  
   
-     <span data-ttu-id="c0440-123">El código siguiente es un ejemplo del formato de finalizador SYS:</span><span class="sxs-lookup"><span data-stu-id="c0440-123">The following code is an example of the SYS trailer format:</span></span>  
+   <span data-ttu-id="5f0c5-123">El código siguiente es un ejemplo del formato de finalizador SYS:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-123">The following code is an example of the SYS trailer format:</span></span>  
   
-    ```  
-    {SYS:[<time><mir>]}  
-    ```  
+  ```  
+  {SYS:[<time><mir>]}  
+  ```  
   
--   <span data-ttu-id="c0440-124">**Prueba y entrenamiento finalizador de mensaje (TNG).**</span><span class="sxs-lookup"><span data-stu-id="c0440-124">**Test & Training Message (TNG) Trailer.**</span></span> <span data-ttu-id="c0440-125">El finalizador TNG es obligatorio para mensajes FINÉS y GPA (con un identificador de servicio de 01) enviado por o entregados a una prueba y entrenamiento lógico Terminal (IL).</span><span class="sxs-lookup"><span data-stu-id="c0440-125">The TNG trailer is mandatory for FIN and GPA messages (with a Service Identifier of 01) sent by, or delivered to, a Test and Training Logical Terminal (LT).</span></span> <span data-ttu-id="c0440-126">Este finalizador tiene sólo una etiqueta y ningún valor.</span><span class="sxs-lookup"><span data-stu-id="c0440-126">This trailer has a tag only, and no value.</span></span>  
+- <span data-ttu-id="5f0c5-124">**Prueba y entrenamiento de finalizador de mensaje (TNG).**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-124">**Test & Training Message (TNG) Trailer.**</span></span> <span data-ttu-id="5f0c5-125">El finalizador TNG es obligatorio para mensajes Finanzas y GPA (con un identificador de servicio de 01) enviados por o entregados a una prueba y entrenamiento lógico Terminal (LT).</span><span class="sxs-lookup"><span data-stu-id="5f0c5-125">The TNG trailer is mandatory for FIN and GPA messages (with a Service Identifier of 01) sent by, or delivered to, a Test and Training Logical Terminal (LT).</span></span> <span data-ttu-id="5f0c5-126">Este finalizador tiene sólo una etiqueta y ningún valor.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-126">This trailer has a tag only, and no value.</span></span>  
   
-     <span data-ttu-id="c0440-127">El código siguiente es un ejemplo del formato de finalizador TNG:</span><span class="sxs-lookup"><span data-stu-id="c0440-127">The following code is an example of the TNG trailer format:</span></span>  
+   <span data-ttu-id="5f0c5-127">El código siguiente es un ejemplo del formato TNG finalizador:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-127">The following code is an example of the TNG trailer format:</span></span>  
   
-    ```  
-    {TNG:}  
-    ```  
+  ```  
+  {TNG:}  
+  ```  
   
--   <span data-ttu-id="c0440-128">**Finalizador de emisión duplicados posibles (PDE).**</span><span class="sxs-lookup"><span data-stu-id="c0440-128">**Possible Duplicate Emission (PDE) Trailer.**</span></span> <span data-ttu-id="c0440-129">El destino del mensaje usa el finalizador PDE.</span><span class="sxs-lookup"><span data-stu-id="c0440-129">The destination of the message uses the PDE trailer.</span></span> <span data-ttu-id="c0440-130">Solo se aplica a los mensajes de usuario a otro de FINÉS (con un identificador de servicio de 01) y categorías de mensaje reservados para banca mensajes.</span><span class="sxs-lookup"><span data-stu-id="c0440-130">It only applies to FIN user-to-user messages (with a Service Identifier of 01) and message categories reserved for banking messages.</span></span> <span data-ttu-id="c0440-131">El sistema puede contener varios PDEs.</span><span class="sxs-lookup"><span data-stu-id="c0440-131">The system may contain multiple PDEs.</span></span> <span data-ttu-id="c0440-132">El sistema no comprueba el orden ni restringir el número (excepto para la longitud máxima de mensajes).</span><span class="sxs-lookup"><span data-stu-id="c0440-132">The system does not verify the order nor restrict the number (except for maximum message length).</span></span>  
+- <span data-ttu-id="5f0c5-128">**Finalizador de emisión duplicados posibles (PDE).**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-128">**Possible Duplicate Emission (PDE) Trailer.**</span></span> <span data-ttu-id="5f0c5-129">El destino del mensaje usa el finalizador PDE.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-129">The destination of the message uses the PDE trailer.</span></span> <span data-ttu-id="5f0c5-130">Solo se aplica a mensajes de usuario a FIN (con un identificador de servicio de 01) y las categorías de mensaje reservadas para los mensajes de banca.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-130">It only applies to FIN user-to-user messages (with a Service Identifier of 01) and message categories reserved for banking messages.</span></span> <span data-ttu-id="5f0c5-131">El sistema puede contener varios PDEs.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-131">The system may contain multiple PDEs.</span></span> <span data-ttu-id="5f0c5-132">El sistema no comprueba el orden ni restringir el número (excepto para la longitud máxima de mensajes).</span><span class="sxs-lookup"><span data-stu-id="5f0c5-132">The system does not verify the order nor restrict the number (except for maximum message length).</span></span>  
   
-     <span data-ttu-id="c0440-133">El sistema acepta con el formato correcto finalizadores PDE aplicados a los mensajes de sistema de usuario, pero no procesarlos.</span><span class="sxs-lookup"><span data-stu-id="c0440-133">The system accepts correctly formatted PDE trailers applied to user-to-system messages, but does not process them.</span></span> <span data-ttu-id="c0440-134">Esto significa que el sistema no realiza una comprobación para ver si existe el mensaje original.</span><span class="sxs-lookup"><span data-stu-id="c0440-134">This means that the system does not check to see if the original message exists.</span></span> <span data-ttu-id="c0440-135">Por lo tanto, el sistema puede procesar una solicitud de recuperación que se envía con un finalizador PDE dos veces: si el sistema recibe el mensaje original.</span><span class="sxs-lookup"><span data-stu-id="c0440-135">Therefore, the system may process a retrieval request sent with a PDE trailer twice—if the system received the original message.</span></span>  
+   <span data-ttu-id="5f0c5-133">El sistema acepta con el formato correcto finalizadores PDE aplicados a los mensajes de sistema de usuario, pero no procesarlos.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-133">The system accepts correctly formatted PDE trailers applied to user-to-system messages, but does not process them.</span></span> <span data-ttu-id="5f0c5-134">Esto significa que el sistema no se comprueba para ver si existe el mensaje original.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-134">This means that the system does not check to see if the original message exists.</span></span> <span data-ttu-id="5f0c5-135">Por lo tanto, el sistema puede procesar una solicitud de recuperación que se envían con un finalizador PDE dos veces: si el sistema recibe el mensaje original.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-135">Therefore, the system may process a retrieval request sent with a PDE trailer twice—if the system received the original message.</span></span>  
   
-     <span data-ttu-id="c0440-136">El código siguiente es un ejemplo del formato de finalizador PDE:</span><span class="sxs-lookup"><span data-stu-id="c0440-136">The following code is an example of the PDE trailer format:</span></span>  
+   <span data-ttu-id="5f0c5-136">El código siguiente es un ejemplo del formato de finalizador PDE:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-136">The following code is an example of the PDE trailer format:</span></span>  
   
-    ```  
-    {PDE:[<time><mir>]}  
-    where <time><mir> refers to the emission of the previous possible issue  
-    ```  
+  ```  
+  {PDE:[<time><mir>]}  
+  where <time><mir> refers to the emission of the previous possible issue  
+  ```  
   
--   <span data-ttu-id="c0440-137">**Finalizador de mensaje diferida (DLM).**</span><span class="sxs-lookup"><span data-stu-id="c0440-137">**Delayed Message (DLM) Trailer.**</span></span> <span data-ttu-id="c0440-138">El finalizador DLM se agrega a todos los mensajes de salida de usuario a otro FIN que han superado el período de obsolescencia.</span><span class="sxs-lookup"><span data-stu-id="c0440-138">The DLM trailer is added to all FIN user-to-user output messages that have exceeded their obsolescence period.</span></span> <span data-ttu-id="c0440-139">Si aparece este finalizador en GPA o FINÉS mensajes del sistema, puede pasar por alto.</span><span class="sxs-lookup"><span data-stu-id="c0440-139">If this trailer appears in GPA or FIN system messages, you can ignore it.</span></span> <span data-ttu-id="c0440-140">Este finalizador tiene sólo una etiqueta y ningún valor.</span><span class="sxs-lookup"><span data-stu-id="c0440-140">This trailer has a tag only, and no value.</span></span>  
+- <span data-ttu-id="5f0c5-137">**Finalizador de mensaje demorado (DLM).**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-137">**Delayed Message (DLM) Trailer.**</span></span> <span data-ttu-id="5f0c5-138">El finalizador DLM se agrega a todos los mensajes de salida de usuario a FIN que han superado su período de obsolescencia.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-138">The DLM trailer is added to all FIN user-to-user output messages that have exceeded their obsolescence period.</span></span> <span data-ttu-id="5f0c5-139">Si este finalizador aparece en los mensajes de sistema de GPA o FIN, puede pasar por alto.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-139">If this trailer appears in GPA or FIN system messages, you can ignore it.</span></span> <span data-ttu-id="5f0c5-140">Este finalizador tiene sólo una etiqueta y ningún valor.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-140">This trailer has a tag only, and no value.</span></span>  
   
-     <span data-ttu-id="c0440-141">El período de obsolescencia es como sigue:</span><span class="sxs-lookup"><span data-stu-id="c0440-141">The obsolescence period is as follows:</span></span>  
+   <span data-ttu-id="5f0c5-141">El período de obsolescencia es como sigue:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-141">The obsolescence period is as follows:</span></span>  
   
-    -   <span data-ttu-id="c0440-142">U = 15 minutos</span><span class="sxs-lookup"><span data-stu-id="c0440-142">U = 15 minutes</span></span>  
+  - <span data-ttu-id="5f0c5-142">U = 15 minutos</span><span class="sxs-lookup"><span data-stu-id="5f0c5-142">U = 15 minutes</span></span>  
   
-    -   <span data-ttu-id="c0440-143">N = 100 minutos</span><span class="sxs-lookup"><span data-stu-id="c0440-143">N = 100 minutes</span></span>  
+  - <span data-ttu-id="5f0c5-143">N = 100 minutos</span><span class="sxs-lookup"><span data-stu-id="5f0c5-143">N = 100 minutes</span></span>  
   
-     <span data-ttu-id="c0440-144">El código siguiente es un ejemplo del formato de finalizador DLM:</span><span class="sxs-lookup"><span data-stu-id="c0440-144">The following code is an example of the DLM trailer format:</span></span>  
+    <span data-ttu-id="5f0c5-144">El código siguiente es un ejemplo del formato de DLM finalizador:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-144">The following code is an example of the DLM trailer format:</span></span>  
   
-    ```  
-    {DLM:}  
-    ```  
+  ```  
+  {DLM:}  
+  ```  
   
--   <span data-ttu-id="c0440-145">**Finalizador de mensaje duplicados posibles (PDM).**</span><span class="sxs-lookup"><span data-stu-id="c0440-145">**Possible Duplicate Message (PDM) Trailer.**</span></span> <span data-ttu-id="c0440-146">El sistema agrega el finalizador PDM a cualquier mensaje de salida (GPA y FINÉS con un identificador de servicio de 01) que se va a reenviar porque una entrega anterior puede no ser válida.</span><span class="sxs-lookup"><span data-stu-id="c0440-146">The PDM trailer is added by the system to any output message (GPA and FIN with a Service Identifier of 01) being resent because a prior delivery may not be valid.</span></span> <span data-ttu-id="c0440-147">Si un sistema PLT recibe una solicitud de informe con un finalizador PDM, la respuesta tiene un PDM sin formato (sin la referencia de entrega opcional).</span><span class="sxs-lookup"><span data-stu-id="c0440-147">If a system PLT receives a report request with a PDM trailer, the response has a plain PDM (without the optional delivery reference).</span></span> <span data-ttu-id="c0440-148">Se pueden agregar otros PDMs debido a intentos fallidos de entrega al usuario.</span><span class="sxs-lookup"><span data-stu-id="c0440-148">Other PDMs may be added because of unsuccessful delivery attempts to the user.</span></span>  
+- <span data-ttu-id="5f0c5-145">**Finalizador de mensaje duplicados posibles (PDM).**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-145">**Possible Duplicate Message (PDM) Trailer.**</span></span> <span data-ttu-id="5f0c5-146">Se agrega el finalizador PDM por el sistema en cualquier mensaje de salida (GPA y FIN con un identificador de servicio de 01) que se va a reenviar porque una entrega anterior que no sean válida.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-146">The PDM trailer is added by the system to any output message (GPA and FIN with a Service Identifier of 01) being resent because a prior delivery may not be valid.</span></span> <span data-ttu-id="5f0c5-147">Si un sistema PLT recibe una solicitud de informe con un finalizador PDM, la respuesta tiene un PDM sin formato (sin la referencia entrega opcional).</span><span class="sxs-lookup"><span data-stu-id="5f0c5-147">If a system PLT receives a report request with a PDM trailer, the response has a plain PDM (without the optional delivery reference).</span></span> <span data-ttu-id="5f0c5-148">Puede agregarse otros PDM debido a intentos fallidos de entrega al usuario.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-148">Other PDMs may be added because of unsuccessful delivery attempts to the user.</span></span>  
   
-     <span data-ttu-id="c0440-149">El código siguiente es un ejemplo del formato de finalizador PDM:</span><span class="sxs-lookup"><span data-stu-id="c0440-149">The following code is an example of the PDM trailer format:</span></span>  
+   <span data-ttu-id="5f0c5-149">El código siguiente es un ejemplo del formato de finalizador PDM:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-149">The following code is an example of the PDM trailer format:</span></span>  
   
-    ```  
-    {PDM:[<time><mor>]}  
-    where <time> and the Message Output Reference <mor> are that of the previous attempt  
-    ```  
+  ```  
+  {PDM:[<time><mor>]}  
+  where <time> and the Message Output Reference <mor> are that of the previous attempt  
+  ```  
   
--   <span data-ttu-id="c0440-150">**Finalizador de referencia (MRF) del mensaje.**</span><span class="sxs-lookup"><span data-stu-id="c0440-150">**Message Reference (MRF) Trailer.**</span></span> <span data-ttu-id="c0440-151">El finalizador MRF especifica la referencia de mensaje del mensaje de usuario original en la copia de FIN de 096 MT para mensajes de entidad Central.</span><span class="sxs-lookup"><span data-stu-id="c0440-151">The MRF trailer specifies the message reference of the original user message in MT 096 FIN Copy to Central Institution Messages.</span></span>  
+- <span data-ttu-id="5f0c5-150">**Finalizador de referencia (MRF) del mensaje.**</span><span class="sxs-lookup"><span data-stu-id="5f0c5-150">**Message Reference (MRF) Trailer.**</span></span> <span data-ttu-id="5f0c5-151">El finalizador MRF especifica la referencia de mensaje del mensaje original de usuario de copia de FIN de MT 096 en mensajes de la entidad Central.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-151">The MRF trailer specifies the message reference of the original user message in MT 096 FIN Copy to Central Institution Messages.</span></span>  
   
-     <span data-ttu-id="c0440-152">El código siguiente es un ejemplo del formato de finalizador MRF:</span><span class="sxs-lookup"><span data-stu-id="c0440-152">The following code is an example of the MRF trailer format:</span></span>  
+   <span data-ttu-id="5f0c5-152">El código siguiente es un ejemplo del formato MRF finalizador:</span><span class="sxs-lookup"><span data-stu-id="5f0c5-152">The following code is an example of the MRF trailer format:</span></span>  
   
-    ```  
-    {MRF:<date><full-time><mir>}  
-    where <mir> is that of the original user message whose fields are copied in the MT 096 FIN  
-    Copy to Central Institution Message  
-    ```  
+  ```  
+  {MRF:<date><full-time><mir>}  
+  where <mir> is that of the original user message whose fields are copied in the MT 096 FIN  
+  Copy to Central Institution Message  
+  ```  
   
-    > [!NOTE]
-    >  <span data-ttu-id="c0440-153">El finalizador MRF es específico a FIN copia y se genera automáticamente en la copia MT 096 FINÉS mensajes entidad Central.</span><span class="sxs-lookup"><span data-stu-id="c0440-153">The MRF trailer is specific to FIN Copy and is automatically generated in the MT 096 FIN Copy to Central Institution Message.</span></span> <span data-ttu-id="c0440-154">Sólo se puede utilizar este finalizador en campo 109 de la copia de FINÉS 096 MT para mensajes de entidad Central para identificar el 096 MT a la que el 097 MT es una respuesta.</span><span class="sxs-lookup"><span data-stu-id="c0440-154">You can only use this trailer in field 109 of the MT 096 FIN Copy to Central Institution Message to identify the MT 096 to which the MT 097 is a response.</span></span> <span data-ttu-id="c0440-155">El formato de la MRF está sujeta a cambios.</span><span class="sxs-lookup"><span data-stu-id="c0440-155">The format of the MRF is subject to change.</span></span>  
+  > [!NOTE]
+  >  <span data-ttu-id="5f0c5-153">El finalizador MRF es específico a FIN copia y se genera automáticamente en la copia de MT 096 FIN al mensaje de entidad Central.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-153">The MRF trailer is specific to FIN Copy and is automatically generated in the MT 096 FIN Copy to Central Institution Message.</span></span> <span data-ttu-id="5f0c5-154">Solo puede usar este finalizador en campo 109 de la copia de MT 096 FIN al mensaje de tu institución Central para identificar el 096 MT para que el 097 MT es una respuesta.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-154">You can only use this trailer in field 109 of the MT 096 FIN Copy to Central Institution Message to identify the MT 096 to which the MT 097 is a response.</span></span> <span data-ttu-id="5f0c5-155">El formato de la MRF está sujeta a cambios.</span><span class="sxs-lookup"><span data-stu-id="5f0c5-155">The format of the MRF is subject to change.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="c0440-156">Vea también</span><span class="sxs-lookup"><span data-stu-id="c0440-156">See Also</span></span>  
- [<span data-ttu-id="c0440-157">Trabajar con esquemas</span><span class="sxs-lookup"><span data-stu-id="c0440-157">Working with Schemas</span></span>](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)
+## <a name="see-also"></a><span data-ttu-id="5f0c5-156">Vea también</span><span class="sxs-lookup"><span data-stu-id="5f0c5-156">See Also</span></span>  
+ [<span data-ttu-id="5f0c5-157">Trabajar con esquemas</span><span class="sxs-lookup"><span data-stu-id="5f0c5-157">Working with Schemas</span></span>](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)
