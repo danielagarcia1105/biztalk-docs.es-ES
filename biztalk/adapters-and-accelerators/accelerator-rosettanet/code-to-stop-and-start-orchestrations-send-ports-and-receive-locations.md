@@ -1,5 +1,5 @@
 ---
-title: Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación | Documentos de Microsoft
+title: Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,40 +22,40 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96b914129d9afb6dfd542f00a302e739e34dafbe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2736f76e3292c6e21a05c995afdd2808a9f60590
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210884"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995477"
 ---
-# <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a><span data-ttu-id="7a08c-102">Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación</span><span class="sxs-lookup"><span data-stu-id="7a08c-102">Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically</span></span>
-<span data-ttu-id="7a08c-103">Este tema proporciona código de ejemplo para detener mediante programación y a partir de orquestaciones, puertos de envío y ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="7a08c-103">This topic provides sample code for programmatically stopping and starting orchestrations, send ports, and receive locations.</span></span> <span data-ttu-id="7a08c-104">Puede realizar estas acciones en todas las orquestaciones, puertos de envío y recepción ubicaciones como un grupo o individualmente.</span><span class="sxs-lookup"><span data-stu-id="7a08c-104">You can perform these actions on all orchestrations, send ports, and receive locations as a group or individually.</span></span> <span data-ttu-id="7a08c-105">Puede incluir este código en un programa para realizar estas acciones de forma dinámica.</span><span class="sxs-lookup"><span data-stu-id="7a08c-105">You can include this code in a program to perform these actions dynamically.</span></span> <span data-ttu-id="7a08c-106">Realizar estas acciones en la interfaz gráfica de usuario en tiempo de diseño en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], o en tiempo de ejecución en la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="7a08c-106">You perform these actions in the graphical user interface at design time in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], or at run time in the BizTalk Administration console.</span></span>  
+# <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a><span data-ttu-id="0ebc8-102">Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación</span><span class="sxs-lookup"><span data-stu-id="0ebc8-102">Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically</span></span>
+<span data-ttu-id="0ebc8-103">Este tema proporciona código de ejemplo para detener mediante programación y a partir de las orquestaciones, puertos de envío y ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-103">This topic provides sample code for programmatically stopping and starting orchestrations, send ports, and receive locations.</span></span> <span data-ttu-id="0ebc8-104">Puede realizar estas acciones en todas las orquestaciones, puertos de envío y recepción ubicaciones como un grupo o de forma individual.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-104">You can perform these actions on all orchestrations, send ports, and receive locations as a group or individually.</span></span> <span data-ttu-id="0ebc8-105">Puede incluir este código en un programa para realizar estas acciones de forma dinámica.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-105">You can include this code in a program to perform these actions dynamically.</span></span> <span data-ttu-id="0ebc8-106">Realizar estas acciones en la interfaz gráfica de usuario en tiempo de diseño en Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], o en tiempo de ejecución en la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-106">You perform these actions in the graphical user interface at design time in Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], or at run time in the BizTalk Administration console.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="7a08c-107">Para que el código iniciar y detener orquestaciones, no es necesario designar las orquestaciones, puertos de envío o ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="7a08c-107">For the code to start and stop orchestrations, you do not have to designate the orchestrations, send ports, or receive locations.</span></span> <span data-ttu-id="7a08c-108">El código de ejemplo realiza la acción en todas las orquestaciones, puertos de envío y ubicaciones de recepción que [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] instalado en el conjunto de seguridad.</span><span class="sxs-lookup"><span data-stu-id="7a08c-108">The sample code performs the action on all orchestrations, send ports, and receive locations that [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] installed at set up.</span></span> <span data-ttu-id="7a08c-109">Para el código que actúa sobre una orquestación única, puerto de envío, ubicación de recepción, agregue un parámetro que indica en qué orquestación, puerto de envío o ubicación que desee para ejecutar el código de recepción.</span><span class="sxs-lookup"><span data-stu-id="7a08c-109">For the code that acts on a single orchestration, send port, or receive location, add a parameter indicating on which orchestration, send port, or receive location you want the code to run.</span></span>  
+>  <span data-ttu-id="0ebc8-107">Para que el código iniciar y detener las orquestaciones, no es necesario designar las orquestaciones, puertos de envío o ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-107">For the code to start and stop orchestrations, you do not have to designate the orchestrations, send ports, or receive locations.</span></span> <span data-ttu-id="0ebc8-108">El código de ejemplo realiza la acción en todas las orquestaciones, puertos de envío y ubicaciones de recepción que [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] instalado en el conjunto de copia.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-108">The sample code performs the action on all orchestrations, send ports, and receive locations that [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] installed at set up.</span></span> <span data-ttu-id="0ebc8-109">Para el código que actúa en una única orquestación, puerto de envío o ubicación de recepción, agregar un parámetro que indica en qué orquestación, puerto de envío o desea ejecutar el código de ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="0ebc8-109">For the code that acts on a single orchestration, send port, or receive location, add a parameter indicating on which orchestration, send port, or receive location you want the code to run.</span></span>  
   
-## <a name="demonstrates"></a><span data-ttu-id="7a08c-110">Demostraciones</span><span class="sxs-lookup"><span data-stu-id="7a08c-110">Demonstrates</span></span>  
- <span data-ttu-id="7a08c-111">El código de ejemplo en este tema incluye las secciones de código independiente para hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="7a08c-111">The sample code in this topic includes separate code sections to do the following:</span></span>  
+## <a name="demonstrates"></a><span data-ttu-id="0ebc8-110">Demostraciones</span><span class="sxs-lookup"><span data-stu-id="0ebc8-110">Demonstrates</span></span>  
+ <span data-ttu-id="0ebc8-111">El código de ejemplo en este tema incluye las secciones de código independiente para hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="0ebc8-111">The sample code in this topic includes separate code sections to do the following:</span></span>  
   
--   <span data-ttu-id="7a08c-112">Iniciar orquestaciones: iniciar todos los puertos de envío y ubicaciones de recepción y dar de alta e iniciar todas las orquestaciones</span><span class="sxs-lookup"><span data-stu-id="7a08c-112">Start orchestrations—start all the send ports and receive locations, and enlist and start all orchestrations</span></span>  
+-   <span data-ttu-id="0ebc8-112">Iniciar orquestaciones, iniciar todos los puertos de envío y ubicaciones de recepción y dar de alta e iniciar todas las orquestaciones</span><span class="sxs-lookup"><span data-stu-id="0ebc8-112">Start orchestrations—start all the send ports and receive locations, and enlist and start all orchestrations</span></span>  
   
--   <span data-ttu-id="7a08c-113">Detener orquestaciones, dar de baja todas las orquestaciones, dar de baja todos los puertos de envío y deshabilitar todas las ubicaciones de recepción</span><span class="sxs-lookup"><span data-stu-id="7a08c-113">Stop orchestrations—unenlist all orchestrations, unenlist all send ports, and disable all receive locations</span></span>  
+-   <span data-ttu-id="0ebc8-113">Detener las orquestaciones, dar de baja todas las orquestaciones, dar de baja todos los puertos de envío y deshabilitar todas las ubicaciones de recepción</span><span class="sxs-lookup"><span data-stu-id="0ebc8-113">Stop orchestrations—unenlist all orchestrations, unenlist all send ports, and disable all receive locations</span></span>  
   
--   <span data-ttu-id="7a08c-114">Iniciar un puerto de envío único</span><span class="sxs-lookup"><span data-stu-id="7a08c-114">Start a single send port</span></span>  
+-   <span data-ttu-id="0ebc8-114">Iniciar un puerto de envío único</span><span class="sxs-lookup"><span data-stu-id="0ebc8-114">Start a single send port</span></span>  
   
--   <span data-ttu-id="7a08c-115">Habilitar una única ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="7a08c-115">Enable a single receive location</span></span>  
+-   <span data-ttu-id="0ebc8-115">Habilitar una sola ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="0ebc8-115">Enable a single receive location</span></span>  
   
--   <span data-ttu-id="7a08c-116">Dar de baja un puerto de envío único</span><span class="sxs-lookup"><span data-stu-id="7a08c-116">Unenlist a single send port</span></span>  
+-   <span data-ttu-id="0ebc8-116">Dar de baja un puerto de envío único</span><span class="sxs-lookup"><span data-stu-id="0ebc8-116">Unenlist a single send port</span></span>  
   
--   <span data-ttu-id="7a08c-117">Deshabilitar una única ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="7a08c-117">Disable a single receive location</span></span>  
+-   <span data-ttu-id="0ebc8-117">Deshabilite una única ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="0ebc8-117">Disable a single receive location</span></span>  
   
--   <span data-ttu-id="7a08c-118">Iniciar una orquestación única</span><span class="sxs-lookup"><span data-stu-id="7a08c-118">Start a single orchestration</span></span>  
+-   <span data-ttu-id="0ebc8-118">Iniciar una orquestación única</span><span class="sxs-lookup"><span data-stu-id="0ebc8-118">Start a single orchestration</span></span>  
   
--   <span data-ttu-id="7a08c-119">Dar de baja una orquestación única</span><span class="sxs-lookup"><span data-stu-id="7a08c-119">Unenlist a single orchestration</span></span>  
+-   <span data-ttu-id="0ebc8-119">Dar de baja una orquestación única</span><span class="sxs-lookup"><span data-stu-id="0ebc8-119">Unenlist a single orchestration</span></span>  
   
-## <a name="example"></a><span data-ttu-id="7a08c-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7a08c-120">Example</span></span>  
- <span data-ttu-id="7a08c-121">El código de ejemplo en este tema incluye las secciones de código independiente para realizar las funciones enumeradas en la sección "Demonstrates".</span><span class="sxs-lookup"><span data-stu-id="7a08c-121">The sample code in this topic includes separate code sections to do the functions listed in the "Demonstrates" section.</span></span>  
+## <a name="example"></a><span data-ttu-id="0ebc8-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="0ebc8-120">Example</span></span>  
+ <span data-ttu-id="0ebc8-121">El código de ejemplo en este tema incluye las secciones de código independiente para realizar las funciones enumeradas en la sección "Demonstrates".</span><span class="sxs-lookup"><span data-stu-id="0ebc8-121">The sample code in this topic includes separate code sections to do the functions listed in the "Demonstrates" section.</span></span>  
   
 ```  
 using System;  
@@ -316,5 +316,5 @@ return false;
 }  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="7a08c-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="7a08c-122">See Also</span></span>  
- [<span data-ttu-id="7a08c-123">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="7a08c-123">Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)
+## <a name="see-also"></a><span data-ttu-id="0ebc8-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="0ebc8-122">See Also</span></span>  
+ [<span data-ttu-id="0ebc8-123">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="0ebc8-123">Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)
