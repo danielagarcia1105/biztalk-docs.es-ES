@@ -1,5 +1,5 @@
 ---
-title: 'Tarea 4: Configurar el forma1 de mensaje de construcción | Documentos de Microsoft'
+title: 'Tarea 4: Configurar el forma1 mensaje construcción | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f781e03f83223f7d82628ee9c01728a0754b149f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa5af2bcc421c1cf6fbfee86a0a0a4a9df28fa87
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278212"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024130"
 ---
 # <a name="task-4-configure-the-construct-message-shape"></a>Tarea 4: Configurar la forma construir mensaje
 Las formas Construir mensaje contienen asignaciones de mensajes con las instrucciones para el código Begin, Edit y End Doc.  
@@ -26,78 +26,78 @@ Las formas Construir mensaje contienen asignaciones de mensajes con las instrucc
   
 ### <a name="to-configure-the-construct-message-shape"></a>Para configurar la forma Construir mensaje  
   
-1.  Arrastre una forma Construir mensaje entre ReceiveBeginDoc y SendBeginDoc.  
+1. Arrastre una forma Construir mensaje entre ReceiveBeginDoc y SendBeginDoc.  
   
-    -   **Mensajes construidos:** BeginDocSessionMsg  
+   -   **Mensajes construidos:** BeginDocSessionMsg  
   
-    -   **Nombre:** ConstructBeginDocMessageWithSession  
+   -   **Nombre:** ConstructBeginDocMessageWithSession  
   
-    1.  Arrastre una forma Asignación de mensajes a la orquestación donde desea crear un mensaje nuevo.  
+   1. Arrastre una forma Asignación de mensajes a la orquestación donde desea crear un mensaje nuevo.  
   
-    2.  Haga doble clic en la forma MessageAssignment_1 interna.  
+   2. Haga doble clic en la forma MessageAssignment_1 interna.  
   
-         Aparecerá el Editor de expresiones de BizTalk.  
+       Aparecerá el Editor de expresiones de BizTalk.  
   
-    3.  Escriba su código, por ejemplo:  
+   3. Escriba su código, por ejemplo:  
   
-        ```  
-        BeginDocSessionMsg = BeginDocMsg;  
-        BeginDocSessionMsg(JDE.ReserveSession) = true;  
-        BeginDocSessionMsg(JDE.SessionID) = 0;  
-        ```  
+      ```  
+      BeginDocSessionMsg = BeginDocMsg;  
+      BeginDocSessionMsg(JDE.ReserveSession) = true;  
+      BeginDocSessionMsg(JDE.SessionID) = 0;  
+      ```  
   
-         Esto indica al adaptador que desea iniciar una sesión. El valor de SessionID se inicializa como 0 pero cuando vuelve la respuesta se le asignará el Id. de forma el J.D. Servidor de Edwards EnterpriseOne.  
+       Esto indica al adaptador que desea iniciar una sesión. SessionID se inicializa como 0 pero cuando vuelve la respuesta el J.D. asignará el Id. Servidor de Edwards EnterpriseOne.  
   
-     ![Editor de expresiones de mensaje](../core/media/message-expression-editor.gif "message_expression_editor")  
+      ![Editor de expresiones de mensaje](../core/media/message-expression-editor.gif "message_expression_editor")  
   
-2.  Arrastre una forma Construir mensaje delante de SendEditLine.  
+2. Arrastre una forma Construir mensaje delante de SendEditLine.  
   
-    -   **Mensajes construidos:** EditLineSessionMsg  
+   - **Mensajes construidos:** EditLineSessionMsg  
   
-    -   **Nombre:** ConstructEditLineMessageWithSession  
+   - **Nombre:** ConstructEditLineMessageWithSession  
   
-     ![Enviar Editar línea](../core/media/constructoreditlinemessagewithsession.gif "constructoreditlinemessagewithsession")  
+     ![Enviar línea editar](../core/media/constructoreditlinemessagewithsession.gif "constructoreditlinemessagewithsession")  
   
-    1.  Arrastre una forma Asignación de mensajes a la orquestación donde desea crear un mensaje nuevo.  
+   1. Arrastre una forma Asignación de mensajes a la orquestación donde desea crear un mensaje nuevo.  
   
-    2.  Haga doble clic en la forma MessageAssignment_1 interna.  
+   2. Haga doble clic en la forma MessageAssignment_1 interna.  
   
-         Aparecerá el Editor de expresiones de BizTalk.  
+       Aparecerá el Editor de expresiones de BizTalk.  
   
-    3.  Escriba su código, por ejemplo:  
+   3. Escriba su código, por ejemplo:  
   
-        ```  
-        EditLineSessionMsg = EditLineMsg;  
-        EditLineSessionMsg(JDE.ReserveSession) = true;  
-        EditLineSessionMsg(JDE.SessionID) =  
-        BeginDocResponseMsg(JDE.SessionID);  
-        ```  
+      ```  
+      EditLineSessionMsg = EditLineMsg;  
+      EditLineSessionMsg(JDE.ReserveSession) = true;  
+      EditLineSessionMsg(JDE.SessionID) =  
+      BeginDocResponseMsg(JDE.SessionID);  
+      ```  
   
-     ![Editar línea Editor](../core/media/editline-editor.gif "editline_editor")  
+      ![Editar línea Editor](../core/media/editline-editor.gif "editline_editor")  
   
-3.  Arrastre una forma construir mensaje delante de SendEndDoc.  
+3. Arrastre una forma construir mensaje delante de SendEndDoc.  
   
-    -   **Mensajes construidos:** EndDocSessionMsg  
+   -   **Mensajes construidos:** EndDocSessionMsg  
   
-    -   **Nombre:** ConstructEndDocMessageWithSession  
+   -   **Nombre:** ConstructEndDocMessageWithSession  
   
-    1.  Arrastre una forma Asignación de mensajes a la orquestación donde desea crear un mensaje nuevo.  
+   1.  Arrastre una forma Asignación de mensajes a la orquestación donde desea crear un mensaje nuevo.  
   
-    2.  Haga doble clic en la forma MessageAssignment_1 interna.  
+   2.  Haga doble clic en la forma MessageAssignment_1 interna.  
   
-         Aparecerá el Editor de expresiones de BizTalk.  
+        Aparecerá el Editor de expresiones de BizTalk.  
   
-    3.  Escriba su código, por ejemplo:  
+   3.  Escriba su código, por ejemplo:  
   
-        ```  
-        EndDocSessionMsg = EndDocMsg;  
-        EndDocSessionMsg(JDE.ReserveSession) = false;  
-        EndDocSessionMsg(JDE.SessionID) =  
-           BeginDocResponseMsg(JDE.SessionID);  
-        ```  
+       ```  
+       EndDocSessionMsg = EndDocMsg;  
+       EndDocSessionMsg(JDE.ReserveSession) = false;  
+       EndDocSessionMsg(JDE.SessionID) =  
+          BeginDocResponseMsg(JDE.SessionID);  
+       ```  
   
 ## <a name="see-also"></a>Vea también  
- [Tarea 1: Crear los puertos](../core/task-1-create-the-ports1.md)   
- [Tarea 2: Crear los mensajes](../core/task-2-create-the-messages2.md)   
+ [Tarea 1: Creación de los puertos](../core/task-1-create-the-ports1.md)   
+ [Tarea 2: Creación de los mensajes](../core/task-2-create-the-messages2.md)   
  [Tarea 3: Configurar el envío y recepción formas](../core/task-3-configure-the-send-and-receive-shapes2.md)   
- [Tarea 5: Configurar la forma transformación](../core/task-5-configure-the-transform-shape2.md)
+ [Tarea 5: Configurar la forma Transformación](../core/task-5-configure-the-transform-shape2.md)

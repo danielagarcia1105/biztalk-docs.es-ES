@@ -1,5 +1,5 @@
 ---
-title: Configurar puertos dinámicos con el adaptador de Siebel | Documentos de Microsoft
+title: Configurar puertos dinámicos con el adaptador de Siebel | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,17 +15,17 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b036bf772e3e9580c84616f74786d4908aca7515
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 80a568880aaf8b11cc79e04c7eaee5a5c9e512a5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22221916"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000860"
 ---
 # <a name="configure-dynamic-ports-with-the-siebel-adapter"></a>Configurar puertos dinámicos con el adaptador de Siebel
-En [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], puede configurar puertos dinámicos para una [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. Dado que [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] es un adaptador de WCF, puede configurar dinámicamente un puerto para el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] mediante las propiedades de contexto de mensaje.  
+En [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], puede configurar los puertos dinámicos para una [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. Dado que [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] es un adaptador de WCF, puede configurar dinámicamente un puerto para el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] mediante las propiedades de contexto de mensaje.  
   
- Para el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], el URI, acción y enlace podrían se determina a partir de una propiedad en un mensaje entrante y, a continuación, se especifica en el **expresión** forma, tal y como se muestra en el ejemplo siguiente:  
+ Para el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], el URI, acción y el enlace es posible que se determina a partir de una propiedad en un mensaje entrante y, a continuación, se especifica en el **expresión** dar forma, como se muestra en el ejemplo siguiente:  
   
 ```  
 Request2=Request1;  
@@ -39,17 +39,17 @@ SendPort(Microsoft.XLANGs.BaseTypes.TransportType)="WCF-Custom";
 ```  
   
 > [!NOTE]
->  Si está usando un adaptador de WCF-Siebel en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, también puede especificar el tipo de transporte como `SendPort(Microsoft.XLANGs.BaseTypes.TransportType)="SiebelAdapter"`, donde **SiebelAdapter** es el nombre con el que agregó el adaptador de WCF-Siebel en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]Consola de administración.  
+>  Si está usando un adaptador de WCF-Siebel en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, también puede especificar el tipo de transporte como `SendPort(Microsoft.XLANGs.BaseTypes.TransportType)="SiebelAdapter"`, donde **SiebelAdapter** es el nombre con el que se ha agregado el adaptador de WCF-Siebel [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]Consola de administración.  
   
  En el ejemplo anterior:  
   
--   Se está creando Solicitud2 mensaje del mensaje Solicitud1. Los mensajes se asignan a un esquema de operación, que se genera mediante el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)].  
+- Se está creando la Solicitud2 mensaje del mensaje de la Solicitud1. Los mensajes que se asignan a un esquema de operación, que se genera mediante el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)].  
   
--   PuertoEnvío es el nombre del puerto de envío lógico en la orquestación de BizTalk.  
+- Puerto de envío es el nombre del puerto de envío lógico en la orquestación de BizTalk.  
   
- La forma de expresión es parte de la orquestación de BizTalk. Al implementar la orquestación, también se crea el puerto de envío WCF-Custom.  
+  La forma de expresión es parte de la orquestación de BizTalk. Al implementar la orquestación, también se crea el puerto de envío WCF-Custom.  
   
- Para obtener más información acerca de cómo configurar puertos dinámicos, consulte [configurar dinámica enviar puertos usando adaptadores de propiedades de contexto WCF](../../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md).
+  Para obtener más información sobre cómo configurar puertos dinámicos, consulte [configuración dinámica enviar puertos utilizando propiedades adaptadores de WCF contexto](../../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md).
   
 ## <a name="see-also"></a>Vea también  
 [Bloques de creación para crear aplicaciones de BizTalk con el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md)

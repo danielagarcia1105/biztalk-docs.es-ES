@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10594 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10594 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 804b2616080ceee0b6a31f7623e19e05c11481f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba733d9a919b2af09824242a48a2fa85af8ab481
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270564"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004764"
 ---
-# <a name="single-sign-on-event-10594"></a>Inicio de sesión único: Evento 10594
+# <a name="single-sign-on-event-10594"></a>De sesión único: Evento 10594
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10594|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_TICKET_VALIDATE_FAILED|  
-|Texto del mensaje|Error al validar el vale. El nombre del remitente debe coincidir con el emisor del vale.%r<br /><br /> Nombre de la aplicación: %1 %r<br /><br /> Vale emitido por: %2 %r<br /><br /> Nombre del remitente: %3|  
+|                 |                                                                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                                                                                 Inicio de sesión único (SSO) empresarial                                                                                  |
+| Versión del producto |                                                                 [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                 |
+|    Identificador del evento     |                                                                                           10594                                                                                            |
+|  Origen del evento   |                                                                                           ENTSSO                                                                                           |
+|    Componente    |                                                                                            N/D                                                                                             |
+|  Nombre simbólico  |                                                                              SSO_WARN_TICKET_VALIDATE_FAILED                                                                               |
+|  Texto del mensaje   | Error al validar el vale. El nombre del remitente debe coincidir con el emisor del vale.%r<br /><br /> Nombre de la aplicación: %1 %r<br /><br /> Vale emitido por: %2 %r<br /><br /> Nombre del remitente: %3 |
   
 ## <a name="explanation"></a>Explicación  
  Para que se valide un vale, deben coincidir los campos Vale emitido por y Nombre del remitente (en el mensaje de advertencia). Sin embargo, si el mensaje se envía a través de un host de BizTalk que no es de confianza, el nombre del remitente cambia al nombre de este host y no se valida el vale.  

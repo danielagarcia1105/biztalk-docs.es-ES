@@ -1,5 +1,5 @@
 ---
-title: Cómo definir agregaciones de BAM | Documentos de Microsoft
+title: Cómo definir agregaciones de BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,29 +18,29 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef1b5b377611eb8e28088cb2d0c2f2ed6f829de8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57df4978f2b133794efd8fbdc99819bcedf144cb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249516"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015909"
 ---
 # <a name="how-to-define-bam-aggregations"></a>Cómo definir agregaciones de BAM
 BAM admite dos tipos de agregación de datos:  
   
--   Agregaciones de procesamiento analítico en línea (OLAP)  
+- Agregaciones de procesamiento analítico en línea (OLAP)  
   
--   Agregaciones en tiempo real (ATR)  
+- Agregaciones en tiempo real (ATR)  
   
- BAM usa Microsoft SQL Server Analysis para implementar agregaciones OLAP.  
+  BAM usa Microsoft SQL Server Analysis para implementar agregaciones OLAP.  
   
- Debe configurar los desencadenadores de la base de datos de importación principal de BAM para definir las ATR.  
+  Debe configurar los desencadenadores de la base de datos de importación principal de BAM para definir las ATR.  
   
 ### <a name="to-define-olap-aggregations"></a>Para definir las agregaciones OLAP  
   
 1.  En el libro de Excel de BAM, cree una vista, agregue al menos una dimensión y una medida al informe de tabla dinámica, desactive el botón ATR de la barra de herramientas y, por último, guarde el libro.  
   
-    -   Para obtener información acerca de cómo abrir el libro BAM, crear una vista y agregar dimensiones y medidas, vea [definir una vista de SAE](../core/defining-a-bam-view.md).  
+    -   Para obtener información acerca de cómo abrir el libro BAM, crear una vista y agregar dimensiones y medidas, vea [definir una vista de BAM](../core/defining-a-bam-view.md).  
   
 2.  Implemente el libro.  
   
@@ -48,11 +48,11 @@ BAM admite dos tipos de agregación de datos:
   
 3.  Un programador de soluciones utiliza el **DirectEventStream** clase para importar eventos a la base de datos de importación principal de BAM.  
   
-    -   Para obtener información sobre la **DirectEventStream** de clases, consulte [clase DirectEventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.directeventstream.aspx).  
+    -   Para obtener información sobre la **DirectEventStream** de clases, vea [clase DirectEventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.directeventstream.aspx).  
   
 4.  Ejecute el paquete de Servicios de transformación de datos (DTS) del cubo de actualización.  
   
-    -   Para obtener información acerca de cómo ejecutar el paquete DTS del cubo de actualización, vea [paquetes DTS de SAE](../core/bam-dts-packages.md).  
+    -   Para obtener información acerca de cómo ejecutar el paquete DTS del cubo de actualización, vea [paquetes DTS de BAM](../core/bam-dts-packages.md).  
   
 5.  Abra la copia de datos activos más reciente del libro para ver las agregaciones OLAP.  
   
@@ -66,7 +66,7 @@ BAM admite dos tipos de agregación de datos:
     > [!WARNING]
     >  No defina varias ATR que usan la misma actividad de BAM . Si lo hace, los datos de ATR serán incorrectos cuando archive los datos de BAM.  
   
-    -   Para obtener información acerca de cómo abrir el libro BAM, crear una vista y agregar dimensiones y medidas, vea "Definir una vista de actividad económica" y "Definir agregaciones" en la *Guía de usuario de los trabajadores de información*.  
+    -   Para obtener información acerca de cómo abrir el libro BAM, crear una vista y agregar dimensiones y medidas, vea "Definir una vista de actividad económica" y "Definir agregaciones" en el *Guía de usuario de los trabajadores de información*.  
   
 2.  Implemente el libro.  
   

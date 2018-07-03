@@ -1,5 +1,5 @@
 ---
-title: Cómo asignar credenciales de inicio de sesión único | Documentos de Microsoft
+title: Cómo asignar credenciales de inicio de sesión único | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a2717a990cf6ac2bac92067354afd42931c9a75
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5534eb63d7b9586017d77ffd84606a842f12a48d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254212"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002901"
 ---
 # <a name="how-to-map-single-sign-on-credentials"></a>Cómo asignar credenciales de inicio de sesión único
-Si sabe que tiene aplicaciones afiliadas en la base de datos de inicio de sesión único (SSO) empresarial, puede asignar las credenciales de un usuario a esa aplicación. Asignación de las credenciales del usuario actual a una aplicación afiliada requiere el uso de una combinación de la `ISSOMapper` y `ISSOMapping` interfaces.  
+Si sabe que tiene aplicaciones afiliadas en la base de datos de inicio de sesión único (SSO) empresarial, puede asignar las credenciales de un usuario a esa aplicación. Asignar las credenciales del usuario actual a una aplicación afiliada requiere el uso de una combinación de la `ISSOMapper` y `ISSOMapping` interfaces.  
   
 ### <a name="to-map-between-an-affiliated-application-and-user-credentials"></a>Para realizar una asignación entre una aplicación afiliada y las credenciales de usuario  
   
-1.  Crear nuevas instancias de `ISSOMapper` y `ISSOMapping`.  
+1. Crear nuevas instancias de `ISSOMapper` y `ISSOMapping`.  
   
-2.  Establecer el `ISSOMapping` propiedades en los valores correspondientes.  
+2. Establecer el `ISSOMapping` propiedades en los valores correspondientes.  
   
-     Las propiedades pertinentes para `ISSOMapping` son el nombre de dominio de Microsoft Windows del usuario, el nombre de usuario de Windows, el nombre de la aplicación afiliada y el nombre de usuario externo.  
+    Las propiedades pertinentes para `ISSOMapping` son el nombre de dominio de Microsoft Windows del usuario, el nombre de usuario de Windows, el nombre de la aplicación afiliada y el nombre de usuario externo.  
   
-3.  Cree la asignación mediante una llamada a ISSOMapping.Create.  
+3. Cree la asignación mediante una llamada a ISSOMapping.Create.  
   
-     Al llamar a `ISSOMapping.Create` propaga la copia local de asignación en el servidor de Enterprise Single Sign-On.  
+    Una llamada a `ISSOMapping.Create` propaga la copia local de asignación en el servidor de Enterprise Single Sign-On.  
   
-4.  Establecer las credenciales en la asignación con una llamada a `ISSOMapper.SetExternalCredentials`.  
+4. Establecer las credenciales de la asignación con una llamada a `ISSOMapper.SetExternalCredentials`.  
   
-5.  Habilite la asignación mediante una llamada a `ISSOMapping.Enable`.  
+5. Habilite la asignación mediante una llamada a `ISSOMapping.Enable`.  
   
- En el siguiente ejemplo se muestra cómo agregar una asignación entre una aplicación de inicio de sesión único empresarial especificada y un usuario.  
+   En el siguiente ejemplo se muestra cómo agregar una asignación entre una aplicación de inicio de sesión único empresarial especificada y un usuario.  
   
 ```  
 public static bool AddMapping(string application, string user, string XU, string XP)  
@@ -69,4 +69,4 @@ public static bool AddMapping(string application, string user, string XU, string
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Programar con Enterprise Single Sign-On](../core/programming-with-enterprise-single-sign-on.md)
+ [Programación con Enterprise Single Sign-On](../core/programming-with-enterprise-single-sign-on.md)

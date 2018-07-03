@@ -1,5 +1,5 @@
 ---
-title: Ejemplo FileTransport | Documentos de Microsoft
+title: Ejemplo de FileTransport | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,46 +12,46 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 38c08be5cd58ed6c80af351715ff6257f533c6af
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 4a4be76ba244418612fe9c4a4996569b3c40b506
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005005"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007005"
 ---
 # <a name="filetransport-sample"></a>Ejemplo de FileTransport
-El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utilice puertos de archivo, en lugar de los puertos SQL. El ejemplo FileTransport usa el protocolo de transferencia de archivos (FTP) para enviar y recibir mensajes, en lugar de HTTP.  
+El ejemplo de FileTransport muestra cómo configurar Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] para usar puertos de archivo, en lugar de puertos SQL. El ejemplo de FileTransport usa el protocolo de transferencia de archivos (FTP) para enviar y recibir mensajes, en lugar de HTTP.  
   
 > [!NOTE]
->  Este documento se da por supuesto que está instalando [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] prueba o demostración sólo por motivos internos. No recomiendan cualquier cuenta de seguridad mínima o configurar. Debe usar una cuenta que tenga permisos administrativos locales a lo largo de los procedimientos de este tema.  
-  
+>  Este documento se da por supuesto que está instalando [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] prueba o demostración solamente para fines internos. No recomiendan cualquier cuenta de seguridad mínima o configurar. Debe usar una cuenta que tenga permisos administrativos locales a lo largo de los procedimientos de este tema.  
+> 
 > [!NOTE]
->  Este ejemplo no es compatible con los datos adjuntos del mensaje.  
+>  En este ejemplo no es compatible con los datos adjuntos del mensaje.  
   
 ## <a name="filetransport-binding-files"></a>Archivos de enlace de FileTransport  
- El ejemplo de FileTransport incluye dos archivos de enlace. Puede utilizar cada uno de estos archivos de enlace para configurar los puertos de archivo para su uso con una orquestación de BTARN. Estos archivos de enlace se encuentran en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet \SDK\FileTransport. Abra cada archivo de enlace en un editor como el Bloc de notas para ver la configuración de la orquestación, puerto de envío, puerto de recepción y ubicación de recepción, como se muestra a continuación.  
+ El ejemplo de FileTransport incluye dos archivos de enlace. Puede usar cada uno de estos archivos de enlace para configurar los puertos de archivo para su uso con una orquestación de BTARN. Estos archivos de enlace se encuentran en  *\<unidad\>*: \Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet \SDK\FileTransport. Abra cada archivo de enlace en un editor como el Bloc de notas para ver la configuración de la orquestación, puerto de envío, puerto de recepción y ubicación de recepción, como se muestra a continuación.  
   
--   PrivateInitiatorusingFileDrops.xml  
+- PrivateInitiatorusingFileDrops.xml  
   
-    -   Orquestación: Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatorProcess  
+  -   Orquestación: Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatorProcess  
   
-    -   Puerto de envío: PrivateInitiator_To_File  
+  -   Puerto de envío: PrivateInitiator_To_File  
   
-    -   Puerto de recepción: File_To_PrivateInitiator  
+  -   Puerto de recepción: File_To_PrivateInitiator  
   
-    -   Ubicación de recepción: File_To_PrivateInitiator  
+  -   Ubicación de recepción: File_To_PrivateInitiator  
   
--   PrivateResponderusingFileDrops.xml  
+- PrivateResponderusingFileDrops.xml  
   
-    -   Orquestación: Microsoft.Solutions.BTARN.PrivateResponder.PrivateResponderProcess  
+  -   Orquestación: Microsoft.Solutions.BTARN.PrivateResponder.PrivateResponderProcess  
   
-    -   Puerto de envío: PrivateResponder_To_File  
+  -   Puerto de envío: PrivateResponder_To_File  
   
-    -   Puerto de recepción: File_To_PrivateResponder  
+  -   Puerto de recepción: File_To_PrivateResponder  
   
-    -   Ubicación de recepción: File_To_PrivateResponder  
+  -   Ubicación de recepción: File_To_PrivateResponder  
   
- El siguiente procedimiento describe cómo importar los enlaces de los archivos de enlace mediante el comando BTSTask. Para obtener más información, vea el tema "Comando ImportBindings" en la Ayuda de BizTalk Server.  
+  El siguiente procedimiento describe cómo importar los enlaces desde los archivos de enlace con el comando BTSTask. Para obtener más información, vea el tema "Comando ImportBindings" en la Ayuda de BizTalk Server.  
   
 ## <a name="procedure"></a>Procedimiento  
   
@@ -67,7 +67,7 @@ El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../inc
   
 5.  Dar de baja Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatatorProcess.  
   
-6.  Cree una carpeta \FileDrops en la carpeta BTARN de C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet y, a continuación, cree la siguiente estructura de carpetas en \FileDrops:  
+6.  Cree una carpeta \FileDrops en la carpeta BTARN de C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet y, a continuación, cree la siguiente estructura de carpetas bajo \FileDrops:  
   
     -   \PrivateInitiator  
   
@@ -95,7 +95,7 @@ El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../inc
   
 9. Iniciar los puertos de envío: PrivateInitiator_To_File y PrivateResponder_To_File.  
   
-10. Habilitar los puertos de recepción: LOB_To_PrivateInitiator y LOB_To_PrivateResponder.  
+10. Habilite los puertos de recepción: LOB_To_PrivateInitiator y LOB_To_PrivateResponder.  
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos de mensajería](../../adapters-and-accelerators/accelerator-rosettanet/messaging-samples.md)

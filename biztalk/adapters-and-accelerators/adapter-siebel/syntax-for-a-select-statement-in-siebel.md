@@ -1,5 +1,5 @@
 ---
-title: Sintaxis de una instrucción SELECT en Siebel | Documentos de Microsoft
+title: Sintaxis de una instrucción SELECT en Siebel | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,15 +16,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e3eeb0a6d4a1fceebe7e16b3f71566f848e4a20f
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 543445fe6958a156894bb6c0d268d9b3b5814b23
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25964162"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022666"
 ---
 # <a name="syntax-for-a-select-statement-in-siebel"></a>Sintaxis de una instrucción SELECT de Siebel
-Mediante la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], los clientes ADO.NET pueden realizar una consulta SELECT en componentes empresariales de Siebel mediante la especificación de una cláusula WHERE que representa una especificación de búsqueda de Siebel válida. La sintaxis de la instrucción SELECT es:  
+Mediante el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], los clientes de ADO.NET pueden realizar una consulta SELECT en componentes empresariales de Siebel mediante la especificación de una cláusula WHERE que representa una especificación válida de búsqueda de Siebel. La sintaxis de la instrucción SELECT es:  
   
 ```  
 SELECT  
@@ -39,63 +39,63 @@ OPTION
 'ViewMode <value>'  
 ```  
   
- En la sintaxis anterior, la opción ViewMode corresponde al sistema Siebel modos de vista, que es un mecanismo de filtrado para restringir el conjunto de registros que coinciden con la consulta. Para el conjunto de valores permitido, consulte la documentación de Siebel.  
+ En la sintaxis anterior, la opción de ViewMode corresponde al sistema Siebel modos de vista, que es un mecanismo de filtrado para restringir el conjunto de registros que coinciden con la consulta. Para el conjunto de valores permitido, consulte la documentación de Siebel.  
   
 > [!NOTE]
->  Si los nombres de campo en la cláusula WHERE contienen caracteres especiales ni espacios en blanco, asegúrese de que siempre incluye los nombres de campo entre corchetes.  
-  
+>  Si los nombres de campo en la cláusula WHERE contiene caracteres especiales ni espacios vacíos, asegúrese de que siempre incluya los nombres de campo dentro de corchetes.  
+> 
 > [!NOTE]
 >  En las consultas SELECT que contiene los nombres de alias con caracteres especiales, asegúrese de que incluir los nombres de alias entre corchetes.  
-  
+> 
 > [!NOTE]
->  El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] alias admite nombres para las tablas en la cláusula SELECT, pero no en la cláusula WHERE.  
+>  El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] alias admite nombres de tablas en la cláusula SELECT, pero no en la cláusula WHERE.  
   
-## <a name="searching-and-sorting-data-using-the-data-provider-for-siebel"></a>Buscar y ordenar los datos mediante el proveedor de datos para Siebel  
- El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] es compatible con una condición de filtro en las instrucciones de SQL basadas en las especificaciones de búsqueda admitidas por el sistema Siebel.  
+## <a name="searching-and-sorting-data-using-the-data-provider-for-siebel"></a>Búsqueda y ordenación de datos con el proveedor de datos para Siebel  
+ El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] es compatible con una condición de filtro en las instrucciones SQL según las especificaciones de búsqueda compatibles con el sistema Siebel.  
   
  Las reglas para la especificación de búsqueda son:  
   
--   Operadores de comparación estándar deben utilizarse para comparar un campo con una constante o un campo a otro campo. Puede tratarse de =,! =, >, <>, =, y < =.  
+- Operadores de comparación estándar deben usarse para comparar un campo a una constante o un campo a otro campo. Estos incluyen =,! =, >, <>, =, y < =.  
   
-    ```  
-    Example: [Revenue] > 5000  
-    ```  
+  ```  
+  Example: [Revenue] > 5000  
+  ```  
   
--   Constantes de cadena deben ir entre comillas dobles y los valores de cadena deben distinguir mayúsculas de minúsculas.  
+- Las constantes de cadena deben incluirse entre comillas dobles y los valores de cadena deben distinguir mayúsculas de minúsculas.  
   
-    ```  
-    Example: [Type] != "COST LIST"  
-    ```  
+  ```  
+  Example: [Type] != "COST LIST"  
+  ```  
   
--   Los operadores lógicos AND, OR y no debe utilizarse para negar o combinar expresiones. Se omite la distinción entre mayúsculas y en estos operadores; Por ejemplo, "y" es igual a "AND".  
+- Los operadores lógicos AND, OR y no debe utilizarse para invalidar o combinar expresiones. Mayúsculas y minúsculas se omiten en estos operadores; Por ejemplo, "y" es igual que "AND".  
   
-    ```  
-    Example: [Competitor] IS NOT NULL and [Competitor] != "N"  
-    ```  
+  ```  
+  Example: [Competitor] IS NOT NULL and [Competitor] != "N"  
+  ```  
   
--   Un nombre de campo en una especificación de búsqueda debe incluirse entre corchetes.  
+- Un nombre de campo en una especificación de búsqueda debe estar entre corchetes.  
   
-    ```  
-    Example: [Conflict Id] = 0  
-    ```  
+  ```  
+  Example: [Conflict Id] = 0  
+  ```  
   
--   El operador LIKE se puede utilizar para crear expresiones de comparación en el que un campo se compara con una constante de cadena de texto o un campo a otro campo y una búsqueda de coincidencias en los primeros caracteres varias es obligatorio. Los caracteres comodín "*"y"?" debe utilizarse para indicar cualquier número de caracteres y un carácter único, respectivamente.  
+- El operador LIKE puede usarse para crear expresiones de comparación en la que se compara un campo con una constante de cadena de texto o un campo a una coincidencia en los primeros caracteres varios y de otro campo es obligatorio. Los caracteres comodín "*"y"?" debe usarse para indicar cualquier número de caracteres y un único carácter, respectivamente.  
   
--   Los clientes ADO.NET pueden especificar objetos de negocios de Siebel originales, los componentes empresariales y nombres de campo del componente de negocio. Estos nombres deben incluirse entre corchetes si contienen espacios en blanco ni caracteres especiales. Ejemplos de consultas que se admiten son:  
+- Los clientes ADO.NET pueden especificar objetos de negocios de Siebel originales, los componentes empresariales y los nombres de campo del componente de negocio. Estos nombres deben incluirse entre corchetes si contienen caracteres especiales ni espacios en blanco. Ejemplos de consultas que se admiten son:  
   
-    ```  
-    SELECT [Name], [Postal Code] FROM Account.Account where [Postal Code] != '11065'  
-    SELECT [Name], [Postal Code], Id From Account.Account where [Postal Code] != '60626' Order BY Id ASC, Name DESC  
-    SELECT * FROM [Admin Price List].[Price Book Items]  
-    ```  
+  ```  
+  SELECT [Name], [Postal Code] FROM Account.Account where [Postal Code] != '11065'  
+  SELECT [Name], [Postal Code], Id From Account.Account where [Postal Code] != '60626' Order BY Id ASC, Name DESC  
+  SELECT * FROM [Admin Price List].[Price Book Items]  
+  ```  
   
- El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] admite ordenar especificaciones en instrucciones SQL basándose en la especificación de ordenación compatible con Siebel. Las reglas para la especificación de clasificación son:  
+  El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] admite ordenar especificaciones en instrucciones SQL según la especificación de ordenación admitida por Siebel. Las reglas para la especificación de clasificación son:  
   
--   Use comas para separar los nombres de campo en una especificación de ordenación; Por ejemplo, nombre, la ubicación  
+- Use comas para separar los nombres de campo en una especificación de clasificación; Por ejemplo, nombre, ubicación  
   
--   Para indicar que un campo en la lista se ordena en orden descendente, incluir (DESC) después del nombre de campo, como en "Fecha de inicio (DESC)." Si no se especifica ningún criterio de ordenación, se utiliza el orden ascendente. Para especificar explícitamente el orden ascendente, utilice la palabra clave (ASC).  
+- Para indicar que un campo en la lista se ordena en orden descendente, incluya (DESC) después del nombre de campo, como en "Fecha de inicio (DESC)." Si no se especifica ningún criterio de ordenación, se utiliza el orden ascendente. Para especificar explícitamente el orden ascendente, use la palabra clave (ASC).  
   
--   La expresión de la especificación de ordenación debe ser 255 caracteres o menos.  
+- La expresión de la especificación de ordenación debe tener 255 caracteres o menos.  
   
 ## <a name="see-also"></a>Vea también  
  [Usar el proveedor de datos de .NET Framework para aplicaciones de negocio electrónico de Siebel](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)

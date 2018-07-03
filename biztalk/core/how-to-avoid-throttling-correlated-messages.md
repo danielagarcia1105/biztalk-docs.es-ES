@@ -1,5 +1,5 @@
 ---
-title: Cómo evitar la limitación de mensajes correlacionados | Documentos de Microsoft
+title: Cómo evitar la limitación de mensajes correlacionados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 10cfcf0009cac5a72d71190c1b974ca6d01a2e1e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 755622a55f7b0216399cfe33842994ff0f70a259
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248508"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994437"
 ---
 # <a name="how-to-avoid-throttling-correlated-messages"></a>Cómo evitar la limitación de mensajes correlacionados
 Los mensajes que están en cola en BizTalk Server, por ejemplo, a través de una ubicación de recepción o mediante orquestaciones, se pueden procesar en uno de los siguientes modos:  
   
--   Pueden activar instancias nuevas de suscriptores (es decir, orquestaciones o puertos de envío)  
+- Pueden activar instancias nuevas de suscriptores (es decir, orquestaciones o puertos de envío)  
   
--   Se pueden enrutar a una instancia de suscriptor existente a través de la correlación. Para obtener más información acerca de la correlación, vea [usar correlaciones en orquestaciones](../core/using-correlations-in-orchestrations.md).  
+- Se pueden enrutar a una instancia de suscriptor existente a través de la correlación. Para obtener más información sobre la correlación, vea [utilizando las correlaciones en orquestaciones](../core/using-correlations-in-orchestrations.md).  
   
- Numerosos programadores piensan en las ubicaciones de recepción para integrar una solución cuando se reciben mensajes de activación y correlacionados para obtener la solución a través del mismo puerto. Esto es natural, puesto que minimiza el número de direcciones a las que los remitentes del mensaje deben realizar el seguimiento. Sin embargo, con la limitación en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pueden haber ventajas al pensar sobre la secuencia de mensajes de activación y la secuencia de mensajes correlacionados por separado en cuanto se refiere a la limitación.  
+  Numerosos programadores piensan en las ubicaciones de recepción para integrar una solución cuando se reciben mensajes de activación y correlacionados para obtener la solución a través del mismo puerto. Esto es natural, puesto que minimiza el número de direcciones a las que los remitentes del mensaje deben realizar el seguimiento. Sin embargo, con la limitación en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pueden haber ventajas al pensar sobre la secuencia de mensajes de activación y la secuencia de mensajes correlacionados por separado en cuanto se refiere a la limitación.  
   
- Cuando los mensajes de correlación y de activación llegan a través de la misma ubicación de recepción, están sujetos al mismo estado de limitación debido a que la limitación se aplica en el nivel de host. Por tanto, todos los mensajes que llegan a las ubicaciones de recepción del host se limitarán como unidad. Esto no supone un problema para muchos escenarios, aunque hay casos en los que la limitación de correlaciones con activaciones puede dar lugar a un tipo de interbloqueo del sistema.  
+  Cuando los mensajes de correlación y de activación llegan a través de la misma ubicación de recepción, están sujetos al mismo estado de limitación debido a que la limitación se aplica en el nivel de host. Por tanto, todos los mensajes que llegan a las ubicaciones de recepción del host se limitarán como unidad. Esto no supone un problema para muchos escenarios, aunque hay casos en los que la limitación de correlaciones con activaciones puede dar lugar a un tipo de interbloqueo del sistema.  
   
 ## <a name="example"></a>Ejemplo  
  Por ejemplo, supongamos que tiene un escenario con una orquestación que recibe una activación, se usa para inicializar un conjunto de correlaciones y, a continuación, recibe un convoy de 10 mensajes más que siguen el conjunto de correlaciones. Además, se supone que, en cuanto a la carga, se acumula un registro en la cola de impresión cuando llega la combinación de mensajes de correlación y de activación, lo que da lugar a una limitación de la cantidad de mensajes que se pueden recibir. Desafortunadamente, los mensajes de correlación se limitan junto con las activaciones, lo que ralentiza la finalización de las orquestaciones y da a lugar a un registro posterior y a una limitación adicional. En el caso de que puedan continuar, esto daría lugar a una limitación del sistema a un rendimiento cercano a cero.  

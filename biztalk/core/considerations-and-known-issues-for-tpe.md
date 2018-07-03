@@ -1,5 +1,5 @@
 ---
-title: Consideraciones y problemas conocidos de TPE | Documentos de Microsoft
+title: Consideraciones y problemas conocidos del TPE | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d630b2cfa5cca1d7a441796ef8c555d02bb04910
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 41f728126f14193ad8fc584a94574dab61f7140f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22234580"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996877"
 ---
 # <a name="considerations-and-known-issues-for-tpe"></a>Consideraciones y problemas conocidos del TPE
 Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de seguimiento y el TPE.  
@@ -36,38 +36,38 @@ Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de 
 ## <a name="developing-orchestrations-for-the-tpe"></a>Desarrollar orquestaciones para el TPE  
  No podrá asignar una orquestación a una actividad empresarial si ésta empieza o termina con una forma no válida. El motor de orquestaciones no permite el seguimiento de determinadas formas. Estas sobrecargas son:  
   
--   Asignación de mensajes  
+- Asignación de mensajes  
   
--   Transformar  
+- Transformación  
   
--   Agrupar (Tarea)  
+- Agrupar (Tarea)  
   
--   Suspender  
+- Suspender  
   
--   Bucle (While)  
+- Bucle (While)  
   
--   Branch  
+- Branch  
   
--   Finalizar  
+- Finalizar  
   
--   Throw  
+- Throw  
   
--   Catch  
+- Catch  
   
--   Forma While  
+- Forma While  
   
- Tenga en cuenta estas directrices a la hora de asignar actividades empresariales, para que el Editor de perfiles de seguimiento y otras herramientas de BAM puedan utilizarlas:  
+  Tenga en cuenta estas directrices a la hora de asignar actividades empresariales, para que el Editor de perfiles de seguimiento y otras herramientas de BAM puedan utilizarlas:  
   
--   Para la forma Agrupar, utilice una forma Ámbito no transaccional.  
+- Para la forma Agrupar, utilice una forma Ámbito no transaccional.  
   
--   En el caso de la forma While, ajústela en una forma Ámbito no transaccional.  
+- En el caso de la forma While, ajústela en una forma Ámbito no transaccional.  
   
--   En el caso de las formas Finalizar, no hay un procedimiento alternativo, pues el evento de fin de esta forma nunca se produce en un escenario normal.  
+- En el caso de las formas Finalizar, no hay un procedimiento alternativo, pues el evento de fin de esta forma nunca se produce en un escenario normal.  
   
--   No inicie ni finalice programaciones con ninguna de las formas en las que no estén permitidas las operaciones de arrastrar y colocar.  
+- No inicie ni finalice programaciones con ninguna de las formas en las que no estén permitidas las operaciones de arrastrar y colocar.  
   
 ## <a name="applying-tracking-profiles-that-monitor-running-processes"></a>Aplicar perfiles de seguimiento que controlen procesos en ejecución  
- La actualización de un perfil de seguimiento puede afectar a las instancias de actividad en ejecución si la actividad incluye una continuación de BAM. En concreto, si la actualización del perfil de seguimiento determina una intercepción descendente de datos para un elemento de actividad ya registrado, es posible que se sobrescriba el valor original. Fundamentalmente, una única secuencia de eventos no se verá afectada por la aplicación de las actualizaciones de perfiles de seguimiento, ya que cada objeto de la secuencia está unido a una versión determinada del perfil que ya existía cuando se inició la actividad o secuencia. Sin embargo, ya que las continuaciones son el medio de correlacionar varias secuencias de eventos, las secuencias que todavía no hayan comenzado cuando se actualice el perfil, recogerán los cambios en las actualizaciones, lo que hace que sea posible la mencionada sobrescritura de datos. Para obtener más información acerca de las continuaciones, consulte [continuación de actividad](../core/activity-continuation.md) y [cómo crear una continuación](../core/how-to-create-a-continuation.md).  
+ La actualización de un perfil de seguimiento puede afectar a las instancias de actividad en ejecución si la actividad incluye una continuación de BAM. En concreto, si la actualización del perfil de seguimiento determina una intercepción descendente de datos para un elemento de actividad ya registrado, es posible que se sobrescriba el valor original. Fundamentalmente, una única secuencia de eventos no se verá afectada por la aplicación de las actualizaciones de perfiles de seguimiento, ya que cada objeto de la secuencia está unido a una versión determinada del perfil que ya existía cuando se inició la actividad o secuencia. Sin embargo, ya que las continuaciones son el medio de correlacionar varias secuencias de eventos, las secuencias que todavía no hayan comenzado cuando se actualice el perfil, recogerán los cambios en las actualizaciones, lo que hace que sea posible la mencionada sobrescritura de datos. Para obtener más información acerca de las continuaciones, consulte [continuación de la actividad](../core/activity-continuation.md) y [cómo crear una continuación](../core/how-to-create-a-continuation.md).  
   
 ## <a name="tracking-profiles-without-a-send-or-receive-shape-from-which-to-draw-message-properties"></a>Perfiles de seguimiento sin una forma Envío o Recepción desde la que dibujar propiedades de mensaje  
  Las continuaciones realizan un seguimiento de actividades mediante propiedades de contexto o datos de carga que coinciden entre actividades. Las propiedades como Id. de mensaje, Id. de servicio e Id. de instancia cambian su valor de una actividad a otra.  
@@ -80,7 +80,7 @@ Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de 
   
 -   También puede utilizar el Id. de mensaje, siempre que se sea exactamente el mismo mensaje recibido de la canalización el que se utilice en la orquestación; es decir, el puerto de orquestación está vinculado a una canalización, y el seguimiento de la forma Recibir y del Id. de mensaje se efectúa desde dicha ubicación. Si realiza el seguimiento del Id. de mensaje de una forma distinta, el Id. de mensaje no será válido para su uso en las continuaciones.  
   
--   Si una orquestación llama a otro y se pasa ningún mensaje, o una orquestación llama a otro, pero el destinatario no tiene ninguna construcción, recepción, o forma de envío donde se pueden recuperar los valores de datos de carga, el usuario puede utilizar el identificador de instancia. El identificador de instancia de las orquestaciones llamadas no cambia.  
+-   Si una orquestación llama a otra y se pasa ningún mensaje, o una orquestación llama a otra, pero el destinatario no tiene ninguna construcción, recepción, o forma de envío donde se pueden recuperar los valores de datos de carga, el usuario puede utilizar el identificador de instancia. El identificador de instancia para las orquestaciones llamadas no cambia.  
   
 -   Si la orquestación carga otra orquestación mediante una llamada de ejecución, en lugar de llamar directamente, no será posible utilizar propiedades de mensaje estáticas para realizar el seguimiento de la actividad. El usuario no puede habilitar una continuación. La única forma de realizar el seguimiento en esta instancia consistiría en pasar un mensaje a través de la canalización que contiene los datos de carga exclusivos en los que efectuar el seguimiento.  
   
@@ -110,7 +110,7 @@ Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de 
   
  Las actividades en bucle son acciones que se repiten dentro de una orquestación. Existe la posibilidad de capturar los eventos de acciones asociadas en bucle dentro de una orquestación. Para hacerlo, se deberá crear otra actividad y asignar todos los hitos de actividad y datos nuevos del bucle. Este procedimiento es necesario porque el procesamiento de datos del bucle tendrá lugar más de una vez por cada ejecución programada.  
   
- Por ejemplo, si tiene un pedido de compra con varios elementos de línea que se procesan en un bucle, preguntas como "qué pedidos tienen precios de $100?" son ambiguas. Las preguntas no ambiguas son:  
+ Por ejemplo, si tiene un pedido de compra con varios elementos de línea que se procesan en un bucle, preguntas como "qué pedidos tienen precios de artículos de $100?" son ambiguas. Las preguntas no ambiguas son:  
   
  ¿Qué pedidos tienen elementos de línea con un precio de $100?  
   
@@ -123,7 +123,7 @@ Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de 
  Debe utilizar un elemento de carga como ActivityID de la actividad raíz y hacer que dicho elemento de carga esté disponible en algunos de los mensajes dentro del bucle. Asigne la actividad al nodo de relación que se muestra bajo la actividad secundaria, y asígnele el mismo nombre que la actividad raíz.  
   
 ## <a name="tracking-profiles-spanning-multiple-applications"></a>Perfiles de seguimiento que abarcan varias aplicaciones  
- Si un perfil de seguimiento abarca varias aplicaciones, su implementación debe realizarse tras implementar todas las aplicaciones de la solución. Si el perfil de seguimiento no es el último elemento implementado, recibirá el siguiente mensaje, "**no se encontró el origen de asignación.**", cuando el Asistente para implementar llame a BTTDeploy.exe.  
+ Si un perfil de seguimiento abarca varias aplicaciones, su implementación debe realizarse tras implementar todas las aplicaciones de la solución. Si el perfil de seguimiento no es el último elemento implementado, recibirá el siguiente mensaje, "**no se encuentra el origen de asignación.**", cuando el Asistente para implementación, llame a BTTDeploy.exe.  
   
 ## <a name="mapping-multiple-biztalk-server-artifacts-to-a-document-reference-url-or-messageid-nodes"></a>Asignar varios artefactos de BizTalk Server a nodos URL de referencia de documento o MessageID  
  El TPE le permite arrastrar y colocar desde varios artefactos de BizTalk Server hasta el mismo nodo URL de referencia de documento o MessageID.  
@@ -131,7 +131,7 @@ Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de 
  En los casos que varios orígenes se asignen al mismo elemento de una actividad de BAM, el último artefacto encontrado durante el procesamiento de BAM será el que se conserve en los datos de seguimiento y pueda verse en el portal de BAM.  
   
 ## <a name="updating-btt-versions-to-match-biztalk-solution-versions"></a>Actualizar versiones de BTT para adaptarlas a versiones de solución de BizTalk  
- Los programadores y administradores de BAM pueden mantener la sincronización de versiones entre perfiles de seguimiento y soluciones de BizTalk automatizando la actualización del archivo BTT. Para ello, modifique la **versión** de atributo en el **DataLevel** elemento del archivo BTT. En el siguiente elemento de ejemplo, se modificaría la información de versión en los atributos TargetAssemblyName y SchemaName.  
+ Los programadores y administradores de BAM pueden mantener la sincronización de versiones entre perfiles de seguimiento y soluciones de BizTalk automatizando la actualización del archivo BTT. Para ello, modifique la **versión** atributo en el **DataLevel** elemento del archivo BTT. En el siguiente elemento de ejemplo, se modificaría la información de versión en los atributos TargetAssemblyName y SchemaName.  
   
 ```  
 <DataLevel Name="City" SourceTypeSelected="Messaging Payload" TargetAssemblyName="TheImplementationOfOrderMgmt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c5b33e44ffa4658b" SchemaName="TheImplementationOfOrderMgmt.PurchaseOrder,TheImplementationOfOrderMgmt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c5b33e44ffa4658b" SomXPath="/*[local-name()='<Schema>' and namespace-uri()='http://TheImplementationOfOrderMgmt.PurchaseOrder']/*[local-name()='PurchaseOrder' and namespace-uri()='http://TheImplementationOfOrderMgmt.PurchaseOrder']/*[local-name()='Header' and namespace-uri()='']/*[local-name()='ShipTo' and namespace-uri()='']/@*[local-name()='City' and namespace-uri()='']" XPath="/*[local-name()='PurchaseOrder' and namespace-uri()='http://TheImplementationOfOrderMgmt.PurchaseOrder']/*[local-name()='Header' and namespace-uri()='']/*[local-name()='ShipTo' and namespace-uri()='']/@*[local-name()='City' and namespace-uri()='']" IsBeginActivity="true" IsEndActivity="false">  
@@ -165,30 +165,30 @@ Debe tener en cuenta los siguientes problemas a la hora de utilizar perfiles de 
   
  Durante la configuración, es posible escribir el nombre de servidor en varios formatos. Por ejemplo:  
   
--   mgmtsvr1316267,15001\inst  
+- mgmtsvr1316267,15001\inst  
   
--   MGMTSVR1316267\inst,15001  
+- MGMTSVR1316267\inst,15001  
   
- El TPE realiza una comparación básica de las cadenas al usar la entrada del Registro. Para recuperar los perfiles de seguimiento implementados es necesario inspeccionar los nombres de servidor y base de datos almacenados y especificarlos en el TPE **establecer base de datos de administración** cuadro de diálogo.  
+  El TPE realiza una comparación básica de las cadenas al usar la entrada del Registro. Para recuperar los perfiles de seguimiento implementados es necesario inspeccionar los nombres de servidor y base de datos almacenados y especificarlos en el TPE **establecer base de datos de administración** cuadro de diálogo.  
   
 #### <a name="to-determine-the-syntax-for-server-and-database-names-and-enter-it-in-the-biztalk-management-database"></a>Para determinar la sintaxis de los nombres de servidor y base de datos, y especificarlos en la base de datos de administración de BizTalk  
   
-1.  Abra la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **Administrador de configuración personalizada**. Para obtener información sobre el uso de la **Administrador de configuración personalizada**, consulte [configurar BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).  
+1. Abra el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **Administrador de configuración personalizada**. Para obtener información sobre el uso de la **Administrador de configuración personalizada**, consulte [configurar BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).  
   
-2.  En el panel de navegación, seleccione **grupo** para abrir la página de configuración del grupo.  
+2. En el panel de navegación, seleccione **grupo** para abrir la página Configuración del grupo.  
   
-3.  En el **almacenes de datos** cuadrícula, observe los formatos de la **nombre del servidor** y **nombre de base de datos**.  
+3. En el **almacenes de datos** cuadrícula, observar los formatos de la **nombre del servidor** y **nombre de base de datos**.  
   
-4.  Abra el TPE y seleccione el **herramientas** elemento de menú.  
+4. Abra el TPE y seleccione el **herramientas** elemento de menú.  
   
-5.  Seleccione el **establecer base de datos de administración** elemento de menú para abrir el **establecer base de datos de administración** cuadro de diálogo.  
+5. Seleccione el **establecer base de datos de administración** elemento de menú para abrir el **establecer base de datos de administración** cuadro de diálogo.  
   
-6.  En el **SQL Server** texto cuadro, escriba el nombre del servidor que se utilizó en el **nombre del servidor** campo de la **almacenes de datos** gridon la **Administrador de configuración personalizada**  página del grupo.  
+6. En el **SQL Server** texto, escriba el nombre del servidor que se utilizó en el **nombre del servidor** campo de la **almacenes de datos** gridon la **Administrador de configuración personalizada**  página del grupo.  
   
-7.  En el **nombre de base de datos** texto cuadro, escriba el nombre de base de datos que se utilizó en el **nombre de base de datos** campo de la **almacenes de datos** gridon el **configuración personalizada Administrador de** página del grupo.  
+7. En el **nombre de base de datos** texto, escriba el nombre de base de datos que se utilizó en el **nombre de base de datos** campo de la **almacenes de datos** gridon el **configuración personalizada Administrador de** página del grupo.  
   
-8.  Haga clic en el **Aceptar** botón para guardar las entradas.  
+8. Haga clic en el **Aceptar** botón para guardar las entradas.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar el TPE](../core/using-the-tpe.md)   
+ [Uso del TPE](../core/using-the-tpe.md)   
  [Editor de perfiles de seguimiento](../core/tracking-profile-editor.md)

@@ -1,5 +1,5 @@
 ---
-title: Cómo quitar un servidor de un grupo | Documentos de Microsoft
+title: Cómo quitar un servidor de un grupo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,12 +22,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b69eb694da320e598c7d0cfe5a03d58e0a723a8b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19c4381f7ca011698aa647f0d7a4a7ccf9ca91a4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22255388"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37017631"
 ---
 # <a name="how-to-remove-a-server-from-a-group"></a>Cómo quitar un servidor de un grupo
 Un servidor sólo se puede asociar con un grupo de BizTalk. Si un servidor pertenece ya a otro grupo, debe quitar primero ese servidor del grupo actual para poder agregarlo al grupo nuevo.  
@@ -37,22 +37,22 @@ Un servidor sólo se puede asociar con un grupo de BizTalk. Si un servidor perte
   
 ### <a name="to-remove-a-server-from-a-group"></a>Para quitar un servidor de un grupo  
   
-1.  En el equipo que desea quitar de un grupo de BizTalk Server, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **deconfiguracióndeBizTalkServer**.  
+1. En el equipo que desea quitar de un grupo de BizTalk Server, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **deconfiguracióndeBizTalkServer**.  
   
-2.  En la barra de menús, haga clic en **desconfigurar características**.  
+2. En la barra de menús, haga clic en **desconfigurar características**.  
   
-3.  En el **desconfigurar características** cuadro de diálogo, seleccione **grupo**y, a continuación, haga clic en **Aceptar**.  
+3. En el **desconfigurar características** cuadro de diálogo, seleccione **grupo**y, a continuación, haga clic en **Aceptar**.  
   
-    > [!CAUTION]
-    >  Al quitar la configuración de un grupo, también se quitará la configuración de todas las características dependientes que ya estén configuradas en ese equipo.  
+   > [!CAUTION]
+   >  Al quitar la configuración de un grupo, también se quitará la configuración de todas las características dependientes que ya estén configuradas en ese equipo.  
   
-4.  Haga clic en **Sí**.  
+4. Haga clic en **Sí**.  
   
-5.  En el Asistente para la configuración de Microsoft BizTalk Server, haga clic en **siguiente**.  
+5. En el Asistente para la configuración de Microsoft BizTalk Server, haga clic en **siguiente**.  
   
-     Se quitará la configuración del grupo y de las características dependientes.  
+    Se quitará la configuración del grupo y de las características dependientes.  
   
-6.  Haga clic en **Finalizar**.  
+6. Haga clic en **Finalizar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de grupos](../core/managing-groups.md)   

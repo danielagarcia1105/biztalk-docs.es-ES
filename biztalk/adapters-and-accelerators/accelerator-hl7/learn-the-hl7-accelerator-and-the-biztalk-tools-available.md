@@ -1,5 +1,5 @@
 ---
-title: Obtenga información sobre el Acelerador para HL7 y las herramientas de BizTalk disponibles | Documentos de Microsoft
+title: Obtenga información sobre el Acelerador de HL7 y las herramientas de BizTalk disponibles | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,26 +16,26 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 579b715a8cf11e09c39e5ef805e59628590a3e06
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 73456b8938faa52403149e3d20523eb1e1de8f57
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22205036"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003685"
 ---
-# <a name="learn-the-hl7-accelerator-and-the-biztalk-tools-available"></a>Obtenga información sobre el Acelerador para HL7 y las herramientas de BizTalk disponibles
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] es muy versátil y rendimiento una solución completa de atención sanitaria para el intercambio de datos entre aplicaciones informáticas sanitaria se basa en el estándar de siete de nivel de mantenimiento (HL7).  
+# <a name="learn-the-hl7-accelerator-and-the-biztalk-tools-available"></a>Obtenga información sobre el Acelerador de HL7 y las herramientas de BizTalk disponibles
+Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] muy versátil y eficaz una solución completa de atención médica para el intercambio de datos entre aplicaciones informáticas de atención médica se basa en el estándar de siete de nivel de mantenimiento (HL7).  
   
  Use esta documentación para familiarizarse con los siguientes servicios, capacidades y características de BTAHL7.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [La necesidad de integración de sistemas de atención médica](../../adapters-and-accelerators/accelerator-hl7/the-need-for-health-care-systems-integration.md)  
+-   [La necesidad de integración de sistemas de asistencia sanitaria](../../adapters-and-accelerators/accelerator-hl7/the-need-for-health-care-systems-integration.md)  
   
--   [Cómo BizTalk Server resuelve la necesidad empresarial](../../adapters-and-accelerators/accelerator-hl7/how-biztalk-server-solves-the-business-need2.md)  
+-   [Cómo resuelve BizTalk Server la necesidad empresarial](../../adapters-and-accelerators/accelerator-hl7/how-biztalk-server-solves-the-business-need2.md)  
   
 -   [Cómo funciona el Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/how-biztalk-accelerator-for-hl7-works.md)  
   
 -   [Herramientas y características](../../adapters-and-accelerators/accelerator-hl7/tools-and-features.md)  
   
--   [Mensajería HL7](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)
+-   [Mensajería de HL7](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)

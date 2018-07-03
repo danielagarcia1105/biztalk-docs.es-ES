@@ -1,5 +1,5 @@
 ---
-title: El intercambio contenía un error estructural-antes del primer grupo funcional | Documentos de Microsoft
+title: El intercambio contenía un error estructural-antes del primer grupo funcional | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d5ab490de214f53e85ea32c1b243456f837c72e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 04150fc8db853719517c26e7ae91a904e7096fb5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278660"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996661"
 ---
 # <a name="the-interchange-had-a-structural-error-in-before-the-first-functional-group"></a>El intercambio contenía un error estructural-antes del primer grupo funcional
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12InterchangeStructuralErrorBefore1stGroup|  
-|Texto del mensaje|El intercambio con el identificador '{0}', Id. de remitente '{1}', Id. de destinatario '{2}' contenía un error estructural en o antes del primer grupo funcional|  
+|                 |                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                        |
+| Versión del producto |                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                    |
+|    Identificador del evento     |                                                                -                                                                 |
+|  Origen del evento   |                      EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                      |
+|    Componente    |                                                            Motor EDI                                                            |
+|  Nombre simbólico  |                                           X12InterchangeStructuralErrorBefore1stGroup                                            |
+|  Texto del mensaje   | El intercambio con Id. '{0}', Id. de remitente '{1}', Id. de destinatario '{2}' contenía un error estructural en o antes del primer grupo funcional |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante por una de las siguientes razones:  

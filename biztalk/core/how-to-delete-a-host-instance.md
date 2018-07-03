@@ -1,5 +1,5 @@
 ---
-title: Eliminar una instancia de Host | Documentos de Microsoft
+title: Eliminar una instancia de Host | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 798ea341ef61b15729dd15742eef7701641e7547
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ecc7999e807b4036f80e8fdd1941d447f7af163
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249204"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023586"
 ---
 # <a name="delete-a-host-instance"></a>Eliminar una instancia de Host
 
 ## <a name="overview"></a>Información general
-El Instrumental de administración de Windows (WMI) o la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usan para eliminar instancias de host. Para obtener más información acerca de las instancias de host, consulte [instancias de Host](../core/host-instances.md). Para obtener información acerca de cómo utilizar WMI para eliminar una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+El Instrumental de administración de Windows (WMI) o la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usan para eliminar instancias de host. Para obtener más información acerca de las instancias de host, consulte [instancias de Host](../core/host-instances.md). Para obtener información sobre cómo usar WMI para eliminar una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  Cuando se elimina una instancia de host, la instancia de tiempo de ejecución de BizTalk Server se elimina del servidor asociado y la base de datos de administración de BizTalk se actualiza para eliminar esa instancia del host.  
   
@@ -48,20 +48,20 @@ El Instrumental de administración de Windows (WMI) o la consola de administraci
   
 ## <a name="steps"></a>Pasos
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
+2. En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
   
-3.  En el panel de detalles, haga clic en la instancia de host que desea eliminar y, a continuación, haga clic en **eliminar**.  
+3. En el panel de detalles, haga clic en la instancia de host que desea eliminar y, a continuación, haga clic en **eliminar**.  
   
-4.  En el **Confirmar eliminación de instancia de host** cuadro de diálogo, haga clic en **Sí**.  
+4. En el **Confirmar eliminación de instancia de host** cuadro de diálogo, haga clic en **Sí**.  
   
-    > [!NOTE]
-    >  Si BizTalk Server no puede eliminar la instancia de host, aparece un cuadro de diálogo en el que puede forzar la eliminación de la instancia de host. Después de leer la información proporcionada, haga clic en **Sí** para eliminar la instancia de host.  
+   > [!NOTE]
+   >  Si BizTalk Server no puede eliminar la instancia de host, aparece un cuadro de diálogo en el que puede forzar la eliminación de la instancia de host. Después de leer la información proporcionada, haga clic en **Sí** para eliminar la instancia de host.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
  [Cómo agregar una instancia de Host](../core/how-to-add-a-host-instance.md)   
  [Cómo iniciar una instancia de Host](../core/how-to-start-a-host-instance.md)   
  [Cómo detener una instancia de Host](../core/how-to-stop-a-host-instance.md)   
- [Cómo modificar las propiedades de la instancia de Host](../core/how-to-modify-host-instance-properties.md)
+ [Cómo modificar las propiedades de instancia de Host](../core/how-to-modify-host-instance-properties.md)

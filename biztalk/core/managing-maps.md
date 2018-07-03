@@ -1,6 +1,6 @@
 ---
-title: Administrar mapas | Documentos de Microsoft
-description: Vínculos para que funcionen con los mapas de BizTalk Server, como ver y quitar asignaciones
+title: Administrar los mapas | Microsoft Docs
+description: Vínculos a trabajar con mapas en BizTalk Server, incluida la visualización y eliminación de asignaciones
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c86a1cd23fe8f06c2671be163409cd405e9cbe1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5d6957a4f3d73c5f59df5cd36f70a7ed34631fa6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263132"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37019834"
 ---
 # <a name="manage-maps"></a>Administrar asignaciones
 
@@ -28,16 +28,16 @@ En esta sección, se proporcionan instrucciones acerca de la administración de 
 ## <a name="add-maps-to-an-application"></a>Agregar mapas a una aplicación  
  Se generan los mapas [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y se compilan en ensamblados de BizTalk. No es posible agregar una asignación a una aplicación de manera individual; una asignación se agrega a una aplicación del modo que se especifica a continuación:  
   
--   Al agregar un ensamblado de BizTalk que contiene una asignación a la aplicación, como se describe en [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
+- Cuando agrega un ensamblado de BizTalk que contiene una asignación a la aplicación, como se describe en [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
   
--   Al importar un archivo .msi en una aplicación que incluye un ensamblado de BizTalk que contiene una asignación, como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
+- Al importar un archivo .msi en una aplicación que incluye un ensamblado de BizTalk que contiene una asignación, como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
   
--   Cuando un programador implementa en una aplicación un ensamblado que contiene una asignación de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tal y como se describe en [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
+- Cuando un programador implementa en una aplicación un ensamblado que contiene una asignación de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tal y como se describe en [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
   
- Para obtener información general acerca de las asignaciones, vea [asigna](../core/maps.md). Para obtener información sobre la creación de mapas, vea [crear asigna utilizando el asignador de BizTalk](../core/creating-maps-using-biztalk-mapper.md).  
+  Para obtener información general acerca de las asignaciones, vea [asigna](../core/maps.md). Para obtener información sobre la creación de mapas, vea [crear se asigna utilizando el asignador de BizTalk](../core/creating-maps-using-biztalk-mapper.md).  
   
 > [!NOTE]
->  Puede usar el modelo de objetos de Microsoft Windows Management Instrumentation (WMI) para crear y ejecutar scripts que automatizan las tareas administrativas. Para obtener información acerca del uso de WMI, consulte el **referencia de clase WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+>  Puede usar el modelo de objetos de Microsoft Windows Management Instrumentation (WMI) para crear y ejecutar los scripts que automatizan las tareas administrativas. Para obtener información sobre el uso de WMI, vea el **referencia de clases WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="next-steps"></a>Pasos siguientes 
   

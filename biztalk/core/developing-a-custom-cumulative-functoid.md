@@ -1,5 +1,5 @@
 ---
-title: Desarrollar un Functoid acumulado personalizado | Documentos de Microsoft
+title: Desarrollar un Functoid acumulado personalizado | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f69ae870269948358f117b07f37d481faced160
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8763f557c5bacb13b3fbc1542216d9eb9be8d319
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22242332"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008533"
 ---
 # <a name="developing-a-custom-cumulative-functoid"></a>Desarrollar un functoid acumulativo personalizado
 Utilice un functoid acumulado personalizado para realizar operaciones de acumulación para los valores que aparecen varias veces en un mensaje de instancia.  
@@ -27,15 +27,15 @@ Utilice un functoid acumulado personalizado para realizar operaciones de acumula
 ## <a name="writing-a-thread-safe-functoid"></a>Escribir un functoid que sea seguro para subprocesos  
  El código de un functoid debe ser seguro para subprocesos, ya que se pueden ejecutar simultáneamente varias instancias de una asignación en circunstancias de mucha actividad. Algunos de los puntos que debe recordar son:  
   
--   El estado estático debe ser seguro para subprocesos.  
+- El estado estático debe ser seguro para subprocesos.  
   
--   El estado de la instancia no siempre tiene que ser seguro para subprocesos.  
+- El estado de la instancia no siempre tiene que ser seguro para subprocesos.  
   
--   El diseño debe tener en cuenta la ejecución en condiciones de mucha actividad. Evite los bloqueos en la medida de lo posible.  
+- El diseño debe tener en cuenta la ejecución en condiciones de mucha actividad. Evite los bloqueos en la medida de lo posible.  
   
--   Evite la necesidad de sincronización si es posible.  
+- Evite la necesidad de sincronización si es posible.  
   
- BizTalk Server proporciona un mecanismo sencillo para reducir la complejidad de escritura de un functoid acumulado que sea seguro para subprocesos. Las tres funciones tienen el mismo primer parámetro, un valor de índice entero. BizTalk Server asigna un número único al valor de índice cuando llama a la función de inicialización. Puede usar este valor como un índice en una matriz que almacene los valores acumulados, tal como se muestra en el siguiente código:  
+  BizTalk Server proporciona un mecanismo sencillo para reducir la complejidad de escritura de un functoid acumulado que sea seguro para subprocesos. Las tres funciones tienen el mismo primer parámetro, un valor de índice entero. BizTalk Server asigna un número único al valor de índice cuando llama a la función de inicialización. Puede usar este valor como un índice en una matriz que almacene los valores acumulados, tal como se muestra en el siguiente código:  
   
 ```  
 private HashTable cumulativeArray = new HashTable();  
@@ -59,7 +59,7 @@ public string InitCumulativeMultiply(int index)
 |Propósito de la función|Argumentos|Para establecer una referencia|Para establecer la secuencia de comandos en línea|  
 |----------------------|---------------|------------------------|--------------------------|  
 |Inicialización|**índice de int**|**SetExternalFunctionName**|**SetScriptBuffer** con `functionNumber` = 0|  
-|Cumulation|**int de índice, val, ámbito de la cadena de cadena**|**SetExternalFunctionName2**|**SetScriptBuffer** con `functionNumber` = 1|  
+|Cumulation|**int index, val, ámbito de la cadena de cadena**|**SetExternalFunctionName2**|**SetScriptBuffer** con `functionNumber` = 1|  
 |Obtener|**índice de int**|**SetExternalFunctionName3**|**SetScriptBuffer** con `functionNumber` = 2|  
   
 ### <a name="initialization"></a>Inicialización  
@@ -68,16 +68,16 @@ public string InitCumulativeMultiply(int index)
 ### <a name="cumulation"></a>Cumulation  
  Aquí es donde se realiza la operación de acumulación apropiada para el functoid. BizTalk Server pasa los tres parámetros siguientes:  
   
--   **Índice.** un valor de entero que representa una instancia de asignación. Puede haber en ejecución varias instancias de asignación a la vez.  
+- **Índice.** un valor de entero que representa una instancia de asignación. Puede haber en ejecución varias instancias de asignación a la vez.  
   
--   **Val.** una cadena que contiene el valor que se debe acumular. Será un valor numérico salvo si escribe un functoid acumulado de tipo cadena.  
+- **Val.** una cadena que contiene el valor que se debe acumular. Será un valor numérico salvo si escribe un functoid acumulado de tipo cadena.  
   
--   **Ámbito.** una cadena que contiene un número que indica qué valor de atributo o elemento se debe acumular. Los valores reales se determinan mediante una implementación.  
+- **Ámbito.** una cadena que contiene un número que indica qué valor de atributo o elemento se debe acumular. Los valores reales se determinan mediante una implementación.  
   
- Decida los valores que se van acumular y los que se van a omitir. Por ejemplo, puede omitir los valores que no estén por debajo de 0 pero que produzcan una excepción cuando el valor no sea numérico. **BaseFunctoid** proporciona dos funciones:**IsDate** y **IsNumeric**: para ayudar con la validación.  
+  Decida los valores que se van acumular y los que se van a omitir. Por ejemplo, puede omitir los valores que no estén por debajo de 0 pero que produzcan una excepción cuando el valor no sea numérico. **BaseFunctoid** proporciona dos funciones:**IsDate** y **IsNumeric**, para ayudar con la validación.  
   
 > [!NOTE]
->  Si usa **IsDate** o **IsNumeric** en un script en línea, asegúrese de establecer **RequiredGlobalHelperFunctions** para que las funciones se ponen a disposición del script.  
+>  Si usas **IsDate** o **IsNumeric** en un script en línea, asegúrese de establecer **RequiredGlobalHelperFunctions** para que las funciones están disponibles para el script.  
   
  No se utiliza el valor devuelto por la cadena.  
   
@@ -186,6 +186,6 @@ namespace Microsoft.Samples.BizTalk.CustomFunctoid
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Utilizar BaseFunctoid](../core/using-basefunctoid.md)   
+ [Uso de BaseFunctoid](../core/using-basefunctoid.md)   
  [Desarrollar un Functoid en línea personalizado](../core/developing-a-custom-inline-functoid.md)   
  [Functoid personalizado (ejemplo de BizTalk Server)](../core/custom-functoid-biztalk-server-sample.md)

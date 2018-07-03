@@ -1,5 +1,5 @@
 ---
-title: 'Paso 7: Iniciar la orquestación y reiniciar el servidor BizTalk Server | Documentos de Microsoft'
+title: 'Paso 7: Iniciar la orquestación y reiniciar BizTalk Server | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,20 +12,20 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc1c5cb301e1630d6b1ad3d780d85679a64943b5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7bf1541edcd5341461a2ff948ef82839c623ea51
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206356"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006493"
 ---
-# <a name="step-7-start-the-orchestration-and-restart-biztalk-server"></a>Paso 7: Iniciar la orquestación y reiniciar el servidor BizTalk Server
-En este paso, inicie la orquestación y, a continuación, reinicie [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para que surtan efecto los cambios realizados en este tutorial.  
+# <a name="step-7-start-the-orchestration-and-restart-biztalk-server"></a>Paso 7: Iniciar la orquestación y reiniciar BizTalk Server
+En este paso, iniciar la orquestación y, a continuación, reinicie [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para que surtan efecto los cambios realizados en este tutorial.  
   
 ### <a name="to-start-the-orchestration-and-restart-biztalk-server"></a>Para iniciar la orquestación y reiniciar el servidor BizTalk Server  
   
-1.  En la consola de administración de BizTalk, haga clic en **orquestaciones**, haga clic en **BatchOrchestration.Orchestration_1**y, a continuación, haga clic en **iniciar**.  
+1. En la consola de administración de BizTalk, haga clic en **orquestaciones**, haga clic en **BatchOrchestration.Orchestration_1**y, a continuación, haga clic en **iniciar**.  
   
-2.  Expanda **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**. Haga clic en **BizTalkServerApplication**y, a continuación, haga clic en **reiniciar**. Compruebe que el estado indica **detenido**y, a continuación, **ejecutando**.  
+2. Expanda **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**. Haga clic en **BizTalkServerApplication**y, a continuación, haga clic en **reiniciar**. Compruebe que el estado indica **detenido**y, a continuación, **ejecutando**.  
   
- Continúe con [paso 8: probar el escenario de lote crear](../../adapters-and-accelerators/accelerator-hl7/step-8-test-the-create-batch-scenario.md).
+   Continúe con [paso 8: probar el escenario de creación de lote](../../adapters-and-accelerators/accelerator-hl7/step-8-test-the-create-batch-scenario.md).

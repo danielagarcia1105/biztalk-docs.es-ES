@@ -1,5 +1,5 @@
 ---
-title: Cómo administrar la vista de árbol de esquema | Documentos de Microsoft
+title: Cómo administrar la vista de árbol de esquema | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,60 +12,60 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f84ba68cd515c673daaac2e2ca96bb0e2346ecbb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 88c596e1d2c1cdd92597ab001013012b8625eb32
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254908"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998989"
 ---
 # <a name="how-to-manage-the-schema-tree-view"></a>Cómo administrar la vista de árbol de esquema
-Tareas de administración con respecto a la vista de árbol de esquema pueden dividirse en cuatro categorías: cambiar el tamaño, cambiar el color de fondo y la fuente, cambiar su uso de los cuadros de diálogo de advertencia y expandir y contraer la estructura del árbol. Este tema proporciona instrucciones paso a paso para esta serie de tareas.  
+Las tareas de administración con respecto a la vista de árbol de esquema se pueden dividir en cuatro categorías: cambiar su tamaño, cambiar el color de fondo y la fuente, cambiar su uso de los cuadros de diálogo de advertencia y expandir y contraer la estructura del árbol. Este tema proporciona instrucciones paso a paso para esta serie de tareas.  
   
 ### <a name="to-make-the-schema-tree-view-taller-or-shorter"></a>Para hacer que la vista de árbol de esquema sea más alta o baja  
   
-1.  Mueva el puntero del mouse hasta el borde inferior de la ventana de edición principal de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en la que se presenta la vista XSD y la vista de árbol de esquema en paralelo, hasta que el cursor cambie al icono de ajuste de tamaño vertical de ventana estándar.  
+1. Mueva el puntero del mouse hasta el borde inferior de la ventana de edición principal de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en la que se presenta la vista XSD y la vista de árbol de esquema en paralelo, hasta que el cursor cambie al icono de ajuste de tamaño vertical de ventana estándar.  
   
-2.  Haga clic y mantenga presionado el botón primario del mouse y arrastre el borde de la ventana hacia arriba o hacia abajo.  
+2. Haga clic y mantenga presionado el botón primario del mouse y arrastre el borde de la ventana hacia arriba o hacia abajo.  
   
-     Ha cambiado el tamaño vertical de la vista de árbol de esquema al ajustar el tamaño vertical de toda la ventana de edición principal.  
+    Ha cambiado el tamaño vertical de la vista de árbol de esquema al ajustar el tamaño vertical de toda la ventana de edición principal.  
   
 ### <a name="to-make-the-schema-tree-view-wider-or-more-narrow"></a>Para hacer que la vista de árbol de esquema sea más ancha o más estrecha  
   
-1.  Mueva el puntero del mouse hasta el divisor de panel en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] la ventana de edición principal, que divide la vista de árbol de esquema de la vista XSD, hasta que el cursor cambie al icono de cambio de tamaño horizontal de ventana estándar.  
+1. Mueva el puntero del mouse hasta el divisor de panel en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] la ventana de edición principal, que divide la vista de árbol de esquema de la vista XSD, hasta que el cursor cambia a horizontal, el icono de cambio de tamaño de ventana estándar.  
   
-2.  Haga clic y mantenga presionado el botón primario del mouse y arrastre el borde del panel hacia la izquierda (más estrecho) o hacia la derecha (más ancho).  
+2. Haga clic y mantenga presionado el botón primario del mouse y arrastre el borde del panel hacia la izquierda (más estrecho) o hacia la derecha (más ancho).  
   
-     Ha cambiado el tamaño horizontal de la vista de árbol de esquema al cambiar la parte de la ventana de edición principal que se dedica a la vista de árbol de esquema con respecto a la vista XSD.  
+    Ha cambiado el tamaño horizontal de la vista de árbol de esquema al cambiar la parte de la ventana de edición principal que se dedica a la vista de árbol de esquema con respecto a la vista XSD.  
   
-     También puede hacer que la vista de árbol de esquema sea más ancha o estrecha al ajustar el tamaño horizontal de toda la ventana de edición principal.  
+    También puede hacer que la vista de árbol de esquema sea más ancha o estrecha al ajustar el tamaño horizontal de toda la ventana de edición principal.  
   
 ### <a name="to-change-the-background-color-andor-font-used-by-the-schema-tree-view"></a>Para cambiar el color de fondo o la fuente utilizados por la vista de árbol de esquema  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el menú **Herramientas** , haga clic en **Opciones**.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el menú **Herramientas** , haga clic en **Opciones**.  
   
-2.  En el **opciones** cuadro de diálogo, haga clic en la carpeta Editor de BizTalk y, si es necesario, expanda el **Mostrar esquema** categoría haciendo clic en el signo más (+) icono.  
+2. En el **opciones** cuadro de diálogo, haga clic en la carpeta Editor de BizTalk y, si es necesario, expanda el **Mostrar esquema** categoría, haga clic en el signo más (+) icono.  
   
-3.  Cambiar el color de fondo o la fuente mediante el selector de colores de la lista desplegable o **fuente** cuadro de diálogo asociado con el **Color de fondo de árbol de esquema** y **fuente de árbol de esquema**propiedades, respectivamente.  
+3. Cambiar el color de fondo o la fuente mediante el selector de colores de la lista desplegable o **fuente** cuadro de diálogo asociado con el **Color de fondo de árbol de esquema** y **fuente de árbol de esquema**propiedades, respectivamente.  
   
-     Acceso a la **fuente** cuadro de diálogo mediante el uso de los puntos suspensivos (**...** ) situado en el extremo derecho de la **fuente de árbol de esquema** cuadro de valor de propiedad.  
+    Acceso a la **fuente** cuadro de diálogo mediante el uso de los puntos suspensivos (**...** ) situado en el extremo derecho de la **fuente de árbol de esquema** cuadro del valor de propiedad.  
   
 ### <a name="to-change-the-warning-dialogs-used-when-working-in-the-schema-tree-view"></a>Para cambiar los cuadros de diálogo de advertencia utilizados cuando se trabaja en la vista de árbol de esquema  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el menú **Herramientas** , haga clic en **Opciones**.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en el menú **Herramientas** , haga clic en **Opciones**.  
   
-2.  En el **opciones** cuadro de diálogo, haga clic en el **el Editor de BizTalk** carpeta y si es necesario, expanda el **opciones de edición** sección haciendo clic en el signo más (+) icono.  
+2. En el **opciones** cuadro de diálogo, haga clic en el **el Editor de BizTalk** carpeta y si es necesario, expanda el **opciones de edición** sección haciendo clic en el signo más (+) icono.  
   
-3.  Defina cualquiera de las siguientes propiedades en **True** o **False** mediante la lista desplegable en el borde derecho del cuadro de valor de propiedad respectiva.  
+3. Establecer cualquiera de las siguientes propiedades a **True** o **False** mediante el uso de la lista desplegable acceso en el borde derecho del cuadro de valor de propiedad respectiva.  
   
-    > [!NOTE]
-    >  El valor **True** es el valor predeterminado para las tres opciones del cuadro de diálogo de advertencia.  
+   > [!NOTE]
+   >  El valor **True** es el valor predeterminado para las tres opciones del cuadro de diálogo de advertencia.  
   
-    |Propiedad|Description|  
-    |--------------|-----------------|  
-    |**Mostrar destruir el cuadro de diálogo de advertencia de estructura**|Cuando se establece en **True**, muestra un cuadro de diálogo de advertencia antes de que se destruye la estructura del esquema y permite cancelar la operación de destrucción.|  
-    |**Mostrar el cuadro de diálogo de advertencia de codificar**|Cuando se establece en **True**, muestra un cuadro de diálogo cuando el nombre del nodo que ha escrito no es válido en XML a menos que codificar, lo que permite cancelar la operación de asignación de nombres, o continuar con la codificación del nombre.|  
-    |**Mostrar el cuadro de diálogo de inserción no válida**|Cuando se establece en **True**, muestra un cuadro de diálogo de advertencia para determinados errores de inserción de nodo y ofrece opciones sobre cómo continuar. Los errores posibles de inserción de nodo son:<br /><br /> -Crear duplicados **atributo de campo** nodos con el mismo nombre y el mismo nodo primario.<br />-Crear duplicados **registro** nodos con el mismo nombre y el mismo nodo primario, pero con diferentes tipos subyacentes.|  
+   |Property|Descripción|  
+   |--------------|-----------------|  
+   |**Mostrar destruir el cuadro de diálogo de advertencia de estructura**|Cuando se establece en **True**, muestra un cuadro de diálogo de advertencia antes de la estructura del esquema se destruye y permite cancelar la operación de destrucción.|  
+   |**Mostrar el cuadro de diálogo de advertencia de codificación**|Cuando se establece en **True**, muestra un cuadro de diálogo cuando el nombre del nodo que ha escrito no es válido en XML a menos que se codifica, lo que permite cancelar la operación de nomenclatura o continuar con el nombre de codificación.|  
+   |**Mostrar el cuadro de diálogo inserción no válida**|Cuando se establece en **True**, muestra un cuadro de diálogo de advertencia para determinados errores de inserción de nodo y ofrece opciones sobre cómo continuar. Los errores posibles de inserción de nodo son:<br /><br /> -Se ha creado duplicados **atributo de campo** nodos con el mismo nombre y el mismo nodo primario.<br />-Se ha creado duplicados **registro** nodos con el mismo nombre y el mismo nodo primario, pero con diferentes tipos subyacentes.|  
   
 ### <a name="to-completely-expand-all-or-part-of-the-schema-tree"></a>Para expandir completamente una parte o la totalidad de un árbol de esquema  
   
@@ -73,10 +73,10 @@ Tareas de administración con respecto a la vista de árbol de esquema pueden di
   
      El nodo seleccionado debe tener junto a él un icono más (+) o menos (-).  
   
-     En el **BizTalk** menú, o en el menú contextual para ese nodo, haga clic en **Expandir nodo de esquema**. Todos los nodos situados por debajo del nodo seleccionado se expandirán completamente. Si el árbol de esquema debajo del nodo seleccionado ya está completamente expandido, el **Expandir nodo de esquema** elemento de menú estará atenuado.  
+     En el **BizTalk** menú, o en el menú contextual para ese nodo, haga clic en **Expandir nodo de esquema**. Todos los nodos situados por debajo del nodo seleccionado se expandirán completamente. Si el árbol de esquema bajo el nodo seleccionado ya está completamente expandido, el **Expandir nodo de esquema** elemento de menú estará atenuado.  
   
     > [!NOTE]
-    >  En un esquema grande y complejo, al hacer clic en **Expandir nodo de esquema** en un nodo que contenga tipos complejos, algunos nodos en el esquema pueden permanecer en el estado contraído. Esto se debe a que el proceso recursivo expande solo el primer caso de un tipo complejo determinado. Deberá expandir manualmente los casos posteriores del mismo tipo. Este comportamiento está diseñado para optimizar el rendimiento a la hora de expandir nodos en esquemas grandes y complejos.  
+    >  En un esquema grande y complejo, al hacer clic en **Expandir nodo de esquema** en un nodo que contenga tipos complejos, algunos de los nodos del esquema pueden permanecer en el estado contraído. Esto se debe a que el proceso recursivo expande solo el primer caso de un tipo complejo determinado. Deberá expandir manualmente los casos posteriores del mismo tipo. Este comportamiento está diseñado para optimizar el rendimiento a la hora de expandir nodos en esquemas grandes y complejos.  
   
 ### <a name="to-completely-collapse-all-or-part-of-the-schema-tree"></a>Para contraer completamente una parte o la totalidad de un árbol de esquema  
   
@@ -89,7 +89,7 @@ Tareas de administración con respecto a la vista de árbol de esquema pueden di
      Todos los nodos situados por debajo del nodo seleccionado se contraerán completamente.  
   
     > [!NOTE]
-    >  Si el árbol de esquema debajo del nodo seleccionado ya está contraído, el **Contraer nodo de esquema** elemento de menú estará atenuado.  
+    >  Si el árbol de esquema bajo el nodo seleccionado ya está contraído, el **Contraer nodo de esquema** elemento de menú estará atenuado.  
   
     > [!NOTE]
     >  Esta operación no recordará la configuración individual de expansión o contracción de los nodos situados por debajo del nodo seleccionado. Es decir, cuando vuelva a expandir un nodo contraído, la configuración individual previa se pierde y debe expandir el árbol de esquema situado por debajo de ese punto nodo por nodo, o bien expandirlo por completo.  

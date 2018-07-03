@@ -1,5 +1,5 @@
 ---
-title: Limitaciones al consultar y recuperar listas | Documentos de Microsoft
+title: Limitaciones al realizar consultas y recuperaciones de listas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f2e0f813a793aa05756ef52925081375203f2f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27880dc3f603f39c9cb9f71207edc1926df4df7f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002829"
 ---
 # <a name="limitations-when-querying-and-retrieving-lists"></a>Limitaciones cuando se realizan consultas y recuperaciones de listas
 La arquitectura de comunicación JD Edwards OneWorld es una arquitectura de respuesta única de mensaje único. No puede devolver una lista de mensajes o una matriz. El código subyacente es C++, que llama con un puntero a una estructura única, realiza cambios en la estructura y, a continuación, se cierra.  
@@ -39,21 +39,21 @@ La arquitectura de comunicación JD Edwards OneWorld es una arquitectura de resp
   
  A continuación se encuentra una lista de técnicas para controlar la iteración:  
   
--   En la parte de JD Edwards OneWorld, escriba el conjunto de resultados en el archivo de almacenamiento temporal, que devuelve un Id. (como un nombre de archivo o un número de tarea) que pueden darse e en las sucesivas llamadas junto con el número de registro para colocar el cursor. Las sucesivas llamadas se colocan dentro de la lista basada en el número de registro que se ha pasado.  
+- En la parte de JD Edwards OneWorld, escriba el conjunto de resultados en el archivo de almacenamiento temporal, que devuelve un Id. (como un nombre de archivo o un número de tarea) que pueden darse e en las sucesivas llamadas junto con el número de registro para colocar el cursor. Las sucesivas llamadas se colocan dentro de la lista basada en el número de registro que se ha pasado.  
   
-    > [!NOTE]
-    >  Las llamadas a través del adaptador de BizTalk para JD Edwards One World pueden tener equilibrio de carga, sin embargo, se proporcionan finalmente por un único servidor de aplicaciones que se basa en las credenciales y funciones empresariales que se van a invocar. Por lo tanto, si una llamada crea un archivo temporal en un servidor, las llamadas adicionales se sirven mediante el mismo servidor. Para obtener más información, vea la asignación de configuración de objetos en las guías de JD Edwards OneWorld CNC.  
+  > [!NOTE]
+  >  Las llamadas a través del adaptador de BizTalk para JD Edwards One World pueden tener equilibrio de carga, sin embargo, se proporcionan finalmente por un único servidor de aplicaciones que se basa en las credenciales y funciones empresariales que se van a invocar. Por lo tanto, si una llamada crea un archivo temporal en un servidor, las llamadas adicionales se sirven mediante el mismo servidor. Para obtener más información, vea la asignación de configuración de objetos en las guías de JD Edwards OneWorld CNC.  
   
--   La información de la colocación (como la del valor de clave primaria) puede devolverse en la segunda llamada y en las siguientes y la consulta puede volver a emitirse basando la clave como un parámetro adicional. Este método se utiliza en el código de exploración del repositorio para el adaptador de BizTalk para JD Edwards OneWorld.  
+- La información de la colocación (como la del valor de clave primaria) puede devolverse en la segunda llamada y en las siguientes y la consulta puede volver a emitirse basando la clave como un parámetro adicional. Este método se utiliza en el código de exploración del repositorio para el adaptador de BizTalk para JD Edwards OneWorld.  
   
-    > [!NOTE]
-    >  De las primeras dos técnicas, el método recomendado utilizará los valores de la clave principal y volver a emitir la consulta. Este método requiere la cantidad mínima de código y sitúa la optimización y almacenamiento en caché de carga en la base de datos.  
+  > [!NOTE]
+  >  De las primeras dos técnicas, el método recomendado utilizará los valores de la clave principal y volver a emitir la consulta. Este método requiere la cantidad mínima de código y sitúa la optimización y almacenamiento en caché de carga en la base de datos.  
   
--   La aplicación que realiza la llamada puede almacenar una lista de claves principales (como un referencia cruzada). Por ejemplo, si un sistema de administración de relaciones con los clientes (CRM) crea un registro de clientes y, a continuación, lo agrega a JD Edwards One World mediante la llamada de función empresarial, la función empresarial que agrega un registro de clientes establece el valor para el campo AN8 (número de dirección corta) y se visualiza en el búfer de retorno. Este número puede escribirse en un campo de referencia en el registro de cliente original o almacenarse en una tabla de referencia cruzada personalizada.  
+- La aplicación que realiza la llamada puede almacenar una lista de claves principales (como un referencia cruzada). Por ejemplo, si un sistema de administración de relaciones con los clientes (CRM) crea un registro de clientes y, a continuación, lo agrega a JD Edwards One World mediante la llamada de función empresarial, la función empresarial que agrega un registro de clientes establece el valor para el campo AN8 (número de dirección corta) y se visualiza en el búfer de retorno. Este número puede escribirse en un campo de referencia en el registro de cliente original o almacenarse en una tabla de referencia cruzada personalizada.  
   
--   La mayoría de todos los registros maestros en JD Edwards One World tienen un concepto de búsqueda o clave alternativa. Esta clave puede utilizarse para almacenar la información esencial del sistema de llamada. Las funciones empresariales pueden realizar la búsqueda en la parte de JD Edwards One World. Cuando los parámetros pasan a la función empresarial crean un registro de clientes, se establece el valor de clave larga.  
+- La mayoría de todos los registros maestros en JD Edwards One World tienen un concepto de búsqueda o clave alternativa. Esta clave puede utilizarse para almacenar la información esencial del sistema de llamada. Las funciones empresariales pueden realizar la búsqueda en la parte de JD Edwards One World. Cuando los parámetros pasan a la función empresarial crean un registro de clientes, se establece el valor de clave larga.  
   
- Para obtener más información sobre estos conceptos, vea el tema de interoperabilidad en el sistema de ayuda de JD Edwards OneWorld.  
+  Para obtener más información sobre estos conceptos, vea el tema de interoperabilidad en el sistema de ayuda de JD Edwards OneWorld.  
   
 ## <a name="see-also"></a>Vea también  
- [Planeamiento y arquitectura](../core/planning-and-architecture17.md)
+ [Planificación y arquitectura](../core/planning-and-architecture17.md)

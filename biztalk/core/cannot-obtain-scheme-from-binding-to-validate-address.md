@@ -1,5 +1,5 @@
 ---
-title: No se puede obtener el esquema del enlace para validar la dirección | Documentos de Microsoft
+title: No se puede obtener el esquema del enlace para validar la dirección | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c952e967a391011bbd887513d58e426d90d325a1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2032decfdf59ae175f3ee8fc686341c8a4061fc6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230964"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991341"
 ---
 # <a name="cannot-obtain-scheme-from-binding-to-validate-address"></a>No se puede obtener el esquema del enlace para validar la dirección
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se puede obtener el esquema del enlace para validar la dirección.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |               No se puede obtener el esquema del enlace para validar la dirección.               |
   
 ## <a name="explanation"></a>Explicación  
  El elemento de enlace de transporte que se ha especificado no tiene esquema.  
@@ -40,4 +40,4 @@ ms.locfileid: "22230964"
   
  Para obtener más información, consulte los siguientes recursos en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda:  
   
--   [Configurar el adaptador de WCF-Custom](../core/configuring-the-wcf-custom-adapter.md)
+-   [Configuración del adaptador de WCF-Custom](../core/configuring-the-wcf-custom-adapter.md)

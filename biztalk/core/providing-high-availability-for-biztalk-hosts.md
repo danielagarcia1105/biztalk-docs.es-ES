@@ -1,5 +1,5 @@
 ---
-title: Proporcionar alta disponibilidad de Hosts de BizTalk | Documentos de Microsoft
+title: Proporcionar alta disponibilidad de Hosts de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,12 +22,12 @@ caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f964a8e170c2215c4abb2b6b5842f8fe0e159457
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 68ed85354a3f98aa8fbd08d82e5dd942e6751605
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271900"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004813"
 ---
 # <a name="providing-high-availability-for-biztalk-hosts"></a>Proporcionar alta disponibilidad a hosts de BizTalk
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona gran flexibilidad a la hora de tratar la alta disponibilidad, porque permite dedicar hosts lógicos de forma estratégica para ejecutar áreas específicas de funcionalidad como la recepción, el envío de mensajes o el procesamiento de orquestaciones.  
@@ -38,21 +38,21 @@ ms.locfileid: "22271900"
   
  Los elementos que contienen los hosts de BizTalk pueden realizar las siguientes funciones:  
   
--   **Recibir** estos elementos realizan el procesamiento inicial de los mensajes después de haberlos recogido en una ubicación de recepción. Cuando un host contiene un elemento de recepción, como una canalización o una ubicación de recepción, actúa como un límite de seguridad y la descodificación y descifrado de mensajes tiene lugar en una canalización del host.  
+- **Recibir** estos elementos realizan el procesamiento inicial de los mensajes después de haberlos recogido en una ubicación de recepción. Cuando un host contiene un elemento de recepción, como una canalización o una ubicación de recepción, actúa como un límite de seguridad y la descodificación y descifrado de mensajes tiene lugar en una canalización del host.  
   
--   **Enviar** estos elementos realizan el procesamiento final de los mensajes antes de que se envíen al puerto de envío. Cuando un host contiene un elemento de envío, como un puerto de envío o una canalización, el host actúa como un límite de seguridad, y la firma y cifrado de mensajes tiene lugar en una canalización del host.  
+- **Enviar** estos elementos realizan el procesamiento final de los mensajes antes de que se envíen al puerto de envío. Cuando un host contiene un elemento de envío, como un puerto de envío o una canalización, el host actúa como un límite de seguridad, y la firma y cifrado de mensajes tiene lugar en una canalización del host.  
   
--   **Procesamiento** estos elementos procesan los mensajes basados en las instrucciones que aparecen en una orquestación.  
+- **Procesamiento** estos elementos procesan los mensajes según las instrucciones de una orquestación.  
   
- Aunque un único host de BizTalk puede contener elementos que reciban, envíen y procesen mensajes, se considera una práctica recomendable crear diferentes hosts para cada función para generar límites de seguridad y para facilitar la administración y la escalabilidad. En concreto, se recomienda utilizar hosts diferentes para operaciones de procesamiento y recepción y envío, así como separar los elementos de confianza de los no confiables.  
+  Aunque un único host de BizTalk puede contener elementos que reciban, envíen y procesen mensajes, se considera una práctica recomendable crear diferentes hosts para cada función para generar límites de seguridad y para facilitar la administración y la escalabilidad. En concreto, se recomienda utilizar hosts diferentes para operaciones de procesamiento y recepción y envío, así como separar los elementos de confianza de los no confiables.  
   
- Por ejemplo, si recibe un mensaje, ejecuta una orquestación y envía diez mensajes, deseará separar la funcionalidad de recepción y de envío en dos hosts diferentes porque los elementos de envío tendrán diez veces más tráfico que los elementos de recepción. Si recibe un mensaje, ejecuta una orquestación y envía un mensaje, puede pensar en estos elementos como una unidad de trabajo y agruparlos en un solo host. Como alternativa, puede separarlos en tres hosts diferentes para aumentar el rendimiento y la flexibilidad.  
+  Por ejemplo, si recibe un mensaje, ejecuta una orquestación y envía diez mensajes, deseará separar la funcionalidad de recepción y de envío en dos hosts diferentes porque los elementos de envío tendrán diez veces más tráfico que los elementos de recepción. Si recibe un mensaje, ejecuta una orquestación y envía un mensaje, puede pensar en estos elementos como una unidad de trabajo y agruparlos en un solo host. Como alternativa, puede separarlos en tres hosts diferentes para aumentar el rendimiento y la flexibilidad.  
   
- Hosts de BizTalk pueden ser de dos tipos, **en curso** o **Isolated**. Los hosts en curso se ejecutan dentro del proceso de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mientras que los hosts aislados no se ejecutan en el proceso de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. La tabla siguiente enumera los elementos que puede contener cada uno de estos tipos de host.  
+  Hosts de BizTalk pueden ser de dos tipos, **en proceso** o **aislado**. Los hosts en curso se ejecutan dentro del proceso de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mientras que los hosts aislados no se ejecutan en el proceso de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. La tabla siguiente enumera los elementos que puede contener cada uno de estos tipos de host.  
   
 |**Tipo de host**|**Contenedor lógico para**|  
 |-------------------|-------------------------------|  
-|En curso|-Orquestaciones<br />-Controladores de envío de adaptador<br />-Adaptador de recepción controladores distintos de HTTP y SOAP|  
+|En curso|-Orquestaciones<br />-Controladores de envío del adaptador<br />-Adaptador de recepción controladores distintos de HTTP y SOAP|  
 |Aislado|Controladores de recepción HTTP y SOAP|  
   
  Para obtener más información sobre los hosts y las instancias de host, consulte [administración de Hosts de BizTalk e instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md).  
@@ -67,20 +67,20 @@ ms.locfileid: "22271900"
 ## <a name="separating-the-host-and-database-functions"></a>Separar las funciones de host y base de datos  
  Puesto que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] separa los datos de los hosts que procesan los datos, un paso que puede realizar para crear un entorno altamente disponible es separar las funciones de host (envío, recepción y procesamiento) que se producen en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de las funciones de base de datos que se producen en [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Mediante la separación de estas funciones, puede escalar independientemente los hosts de procesamiento, envío y recepción y las bases de datos que almacenan los datos. Las capas de tiempo de ejecución y de base de datos están relacionadas, es decir, si aumenta el número de equipos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] probablemente necesitará aumentar el número de equipos que ejecutan [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] para manejar la carga adicional. Sin embargo, no hay una relación directa entre la capa de base de datos y la capa de BizTalk. Son dos capas independientes y puede escalarlas por separado.  
   
- Lo que debe hacer para que los hosts tengan una alta disponibilidad es diferente de lo que debe hacer para que las bases de datos tengan una alta disponibilidad. Las secciones siguientes explican lo que debe hacer para lograr una alta disponibilidad en los hosts de recepción, envío y procesamiento. Para obtener más información acerca de cómo hacer que la capa de base de datos sea alta disponibilidad, vea [proporcionar una alta disponibilidad para bases de datos de BizTalk Server](../core/providing-high-availability-for-biztalk-server-databases.md).  
+ Lo que debe hacer para que los hosts tengan una alta disponibilidad es diferente de lo que debe hacer para que las bases de datos tengan una alta disponibilidad. Las secciones siguientes explican lo que debe hacer para lograr una alta disponibilidad en los hosts de recepción, envío y procesamiento. Para obtener más información acerca de cómo hacer que la capa de base de datos altamente disponibles, consulte [proporcionar una alta disponibilidad para bases de datos de BizTalk Server](../core/providing-high-availability-for-biztalk-server-databases.md).  
   
  Para las implementaciones en las que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesa más que SQL Server, puede configurar varios equipos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que usen el mismo equipo que ejecuta SQL Server. Esta configuración utiliza los recursos disponibles en cada equipo. Por ejemplo, si se hace un gran uso (más del 75%) de la CPU o de la memoria en el equipo con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pero el uso es bajo (menos del 25%) en el equipo que ejecuta SQL Server, puede incluir equipos con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adicionales para distribuir la carga de trabajo a la vez que aumenta el uso de recursos en el equipo que ejecuta SQL Server.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Hosts de recepción escalados](../core/scaled-out-receiving-hosts.md)  
+-   [Hosts de recepción escalados horizontalmente](../core/scaled-out-receiving-hosts.md)  
   
--   [Hosts de procesamiento de escala horizontal](../core/scaled-out-processing-hosts.md)  
+-   [Hosts de procesamiento escalados horizontalmente](../core/scaled-out-processing-hosts.md)  
   
--   [Hosts de envío de escala horizontal](../core/scaled-out-sending-hosts.md)  
+-   [Hosts de envío escalados horizontalmente](../core/scaled-out-sending-hosts.md)  
   
 -   [Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2](../core/use-windows-cluster-to-provide-high-availability-for-biztalk-hosts.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Proporcionar una alta disponibilidad para bases de datos de servidor BizTalk Server](../core/providing-high-availability-for-biztalk-server-databases.md)   
- [Alta disponibilidad para el inicio de sesión único empresarial](../core/high-availability-for-enterprise-single-sign-on.md)
+ [Proporcionar alta disponibilidad de las bases de datos de BizTalk Server](../core/providing-high-availability-for-biztalk-server-databases.md)   
+ [Alta disponibilidad de Enterprise Single Sign-On](../core/high-availability-for-enterprise-single-sign-on.md)

@@ -1,5 +1,5 @@
 ---
-title: Se ha revocado el certificado utilizado para firmar un mensaje | Documentos de Microsoft
+title: Se ha revocado el certificado usado para firmar un mensaje | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8527f89d03d3250a7685380fcabf484254fbbf86
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b2e05acaa5a1bca68952072f90364ac3890be9af
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278236"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022722"
 ---
 # <a name="the-certificate-used-for-signing-a-message-has-been-revoked"></a>El certificado usado para firmar un mensaje se ha revocado
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|SigningCertificateHasBeenRevokedError|  
-|Texto del mensaje|El certificado usado para firmar un mensaje se ha revocado. Huella digital del certificado: {0}|  
+|                 |                                                                                          |
+|-----------------|------------------------------------------------------------------------------------------|
+|  Nombre del producto   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]    |
+| Versión del producto |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                |
+|    Identificador del evento     |                                            -                                             |
+|  Origen del evento   |  EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  |
+|    Componente    |                                        Motor AS2                                        |
+|  Nombre simbólico  |                          SigningCertificateHasBeenRevokedError                           |
+|  Texto del mensaje   | El certificado usado para firmar un mensaje se ha revocado. Huella digital del certificado: {0} |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que la canalización de envío no pudo procesar el mensaje saliente porque se ha recovado el certificado identificado como certificado de firma.  

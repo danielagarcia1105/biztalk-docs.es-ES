@@ -1,5 +1,5 @@
 ---
-title: Sintaxis para una instrucción EXEC en SAP | Documentos de Microsoft
+title: Sintaxis de una instrucción EXEC en SAP | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,15 +14,15 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 362aa1f81158c9d9f1135c9bff25c64d7d745953
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 7da9395ec244f6877dc7902e0feae22f6d81b391
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966034"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37020083"
 ---
-# <a name="syntax-for-an-exec-statement-in-sap"></a>Sintaxis para una instrucción EXEC en SAP
-La siguiente sección describe las especificaciones de gramática para implementar instrucciones EXEC en la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]. Tenga en cuenta que, en muchos casos, la sintaxis es un poco diferente de la sintaxis de Transact-SQL.  
+# <a name="syntax-for-an-exec-statement-in-sap"></a>Sintaxis de una instrucción EXEC en SAP
+La siguiente sección describe las especificaciones de gramática para la implementación de instrucciones EXEC contra el [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]. Tenga en cuenta que en algunos casos, la sintaxis es un poco diferente de la sintaxis de Transact-SQL.  
   
 ```  
 EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledatavalidation>, <firstresultset> ]  
@@ -30,30 +30,30 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
   
  donde:  
   
--   **rfc_name** especifica el nombre de la llamada de función para ejecutar.  
+- **rfc_name** especifica el nombre de la llamada de función para ejecutar.  
   
--   **< argument_element >** :: = @param_name = [0,1] \<const\> {[entrada &#124; SALIDA]} [0,1]  
+- **< argument_element >** :: = @param_name = [0,1] \<const\> {[entrada &#124; salida]} [0,1]  
   
-    -   **param_name** especifica el nombre de parámetro definido en la interfaz de la función.  
+  -   **param_name** especifica el nombre del parámetro definido en la interfaz de la función.  
   
-    -   **\<¿Const\>**  :: = entero &#124; real &#124; cadena &#124;? &#124; NULL &#124; xml_element  
+  -   **\<¿Const\>**  :: = entero &#124; real &#124; cadena &#124; ? &#124;NULL &#124; xml_element  
   
--   **OPCIÓN** proporciona la opción en cómo desea presentar los datos. Las opciones disponibles son:  
+- **OPCIÓN** proporciona la opción de cómo desee presentar los datos. Las opciones disponibles son:  
   
-    -   **disabledatavalidation** opción establece la **EnableSafeTyping** enlace de propiedad en subyacente [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Cuando escriba seguro está habilitado los tipos de datos de archivos DAT, TIM y NUMC se representan como cadenas. Para obtener más información acerca de esta propiedad de enlace, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+  - **disabledatavalidation** conjuntos de opciones la **EnableSafeTyping** enlaza la propiedad en subyacente [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Cuando se habilita la seguro escribiendo los tipos de datos DAT, TIM y NUMC se representan como cadenas. Para obtener más información acerca de esta propiedad de enlace, consulte [Obtenga información sobre el adaptador de BizTalk para las propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
-    -   **firstresultset** especifica el primer conjunto de resultados devuelto por la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]. Cuando se ejecute la instrucción en un origen de proveedor ADO, solo el primer conjunto de resultados devuelto está disponible. Para escenarios de RFC EXEC, normalmente varios parámetros de la tabla se devuelven, pero está disponibles para el programa cliente, que no puede ser útil si solo el primer conjunto de resultados. Al especificar la palabra clave "firstresultset" como parte de la cláusula OPTION, los clientes pueden especificar el primer parámetro de la tabla que desean usar el proveedor para devolver. Por ejemplo:  
+  - **firstresultset** especifica el primer conjunto de resultados devuelto por la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]. Cuando se ejecuta una instrucción en un origen de proveedor de ADO, solo el primer conjunto de resultados devuelto está disponible. Para escenarios de RFC EXEC, normalmente varios parámetros de la tabla se devuelven, pero está disponibles para el programa cliente, que no puede ser útil si solo el primer conjunto de resultados. Al especificar la palabra clave "firstresultset" como parte de la cláusula OPTION, los clientes pueden especificar el primer parámetro de la tabla que desean usar el proveedor para devolver. Por ejemplo:  
   
-        ```  
-        EXEC Z_TEST_ALL_TYPES @P_IN='TestInput' OPTION 'disabledatavalidation', firstresultset TAB_ALLTYPES'  
-        ```  
+    ```  
+    EXEC Z_TEST_ALL_TYPES @P_IN='TestInput' OPTION 'disabledatavalidation', firstresultset TAB_ALLTYPES'  
+    ```  
   
-         En este ejemplo, la instrucción EXEC especifica que el primer parámetro de tabla devuelto debería ser TAB_ALLTYPES.  
+     En este ejemplo, la instrucción EXEC especifica que el primer parámetro de tabla devuelto debe ser TAB_ALLTYPES.  
   
-    > [!IMPORTANT]
-    >  Siempre debe proporcionar los valores de la palabra clave de opción entre comillas simples, por ejemplo, '*disabledatavalidation*'.  
+  > [!IMPORTANT]
+  >  Siempre debe proporcionar los valores de la palabra clave de opción entre comillas simples, por ejemplo, '*disabledatavalidation*'.  
   
- En la sintaxis anterior, xml_element puede utilizarse para proporcionar la entrada para los tipos complejos. La estructura del elemento xml será diferente para las estructuras y tablas. El xml_element de estructura es similar al siguiente:  
+  En la sintaxis anterior, xml_element puede utilizarse para proporcionar la entrada para los tipos complejos. La estructura del elemento xml será diferente para las estructuras y las tablas. El xml_element de estructura es similar al siguiente:  
   
 ```  
 <PARAM_NAME>  
@@ -64,7 +64,7 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
 </ PARAM_NAME>  
 ```  
   
- El xml_element de tabla es similar al siguiente:  
+ El xml_element para la tabla es similar al siguiente:  
   
 ```  
 <PARAM_NAME>  
@@ -106,58 +106,58 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
  Por ejemplo, vea [ejemplos de la instrucción EXEC](../../adapters-and-accelerators/adapter-sap/examples-for-exec-statement.md).  
   
 ## <a name="handling-named-parameters"></a>Control de parámetros con nombre  
- Éstas son directrices para especificar parámetros con nombre en las consultas EXEC:  
+ Estas son directrices para especificar parámetros con nombre en las consultas de ejecución:  
   
--   Debe especificar los parámetros por nombre (por ejemplo, @param_name= value).  
+- Debe especificar los parámetros por nombre (por ejemplo, @param_name= value).  
   
-    > [!NOTE]
-    >  No se admiten parámetros sin nombre  
+  > [!NOTE]
+  >  No se admiten parámetros sin nombre  
   
--   Cuando se define un parámetro con un valor predeterminado, puede ejecutar el procedimiento sin especificar un parámetro.  
+- Cuando se define un parámetro con un valor predeterminado, puede ejecutar el procedimiento sin especificar un parámetro.  
   
--   Las consultas EXEC no admiten el uso de parámetros con las siguientes propiedades:  
+- Las consultas EXEC no admiten el uso de parámetros con las siguientes propiedades:  
   
-    -   Estructuras anidadas (estructuras que contienen estructuras como sus campos).  
+  - Estructuras anidadas (estructuras que contienen estructuras como sus campos).  
   
-    -   Tablas anidadas.  
+  - Tablas anidadas.  
   
-    -   Una tabla que contiene una estructura.  
+  - Una tabla que contiene una estructura.  
   
-    -   Una estructura que contiene una tabla.  
+  - Una estructura que contiene una tabla.  
   
-    -   Una estructura o una tabla que tiene campos con tipos de cadena compuesta, por ejemplo `SSTRING` o `RAWSTRING`.  
+  - Una estructura o una tabla que tiene los campos con tipos de cadena compuesta, por ejemplo `SSTRING` o `RAWSTRING`.  
   
-     En la tabla siguiente se enumera las asignaciones lógicas entre los tipos de parámetro RFC y direcciones de parámetro al ejecutar una solicitud de cambio.  
+    En la tabla siguiente se enumera las asignaciones lógicas entre los tipos de parámetro RFC y direcciones de parámetros al ejecutar una solicitud de cambio.  
   
-    |Tipo de parámetro RFC|Palabra clave de consulta|Dirección del parámetro|  
-    |--------------------|-------------------|-------------------------|  
-    |Importación de parámetros|Nada|Paramdirection.Input|  
-    |Parámetros de exportación|Salida|Paramdirection.Output|  
-    |Parámetros de la tabla|Salida/Nothing|InputOutput|  
+  |Tipo de parámetro RFC|Palabra clave de consulta|Dirección del parámetro|  
+  |--------------------|-------------------|-------------------------|  
+  |Importación de parámetros|Nada|Paramdirection.Input|  
+  |Parámetros de exportación|Salida|Paramdirection.Output|  
+  |Parámetros de la tabla|Salida o Nothing|InputOutput|  
   
- Los siguientes son directrices generales para controlar parámetros:  
+  Los siguientes son directrices generales para controlar los parámetros:  
   
--   Puede especificar valores de parámetros como constantes o mediante el uso de marcadores de posición en la consulta.  
+- Puede especificar los valores de parámetros como constantes o mediante el uso de marcadores de posición en la consulta.  
   
--   Cuando se usa marcadores de posición en la consulta, debe crear un `SAPParameter` y agregarlo al objeto de comando correspondiente. A continuación, pasar el nombre de marcador de posición para el constructor; la dirección y el valor dependen del contexto.  
+- Cuando se usa marcadores de posición en la consulta, debe crear un `SAPParameter` y agregarlo al objeto de comando correspondiente. Pasa el nombre de marcador de posición, a continuación, al constructor; la dirección y el valor dependen del contexto.  
   
-    -   Para `Input` parámetros, no se especifica en la consulta una palabra clave para la dirección del parámetro. El `value` debe establecerse el campo del objeto de parámetro o el proveedor iniciará una excepción. No debe establecer explícitamente la `direction` campo del objeto de parámetro, porque el proveedor predeterminado es `Input`.  
+  -   Para `Input` los parámetros, no se especifican en la consulta una palabra clave para la dirección del parámetro. El `value` se debe establecer el campo del objeto de parámetro o el proveedor devolverá una excepción. No debe establecer explícitamente el `direction` campo del objeto de parámetro, porque el proveedor de valor predeterminado es `Input`.  
   
-    -   Otros parámetros, utilice el formato `@paramname=@placeholder` y especifique el `Output` palabra clave explícitamente en la consulta. A continuación, debe agregar una `SAPParameter` que se corresponde con el marcador de posición y se establece explícitamente la dirección del parámetro como `ParamDirection.Output` o `ParamDirection.InputOutput`, según el tipo de parámetro.  
+  -   Para otros parámetros, use el formulario `@paramname=@placeholder` y especifique el `Output` palabra clave explícitamente en la consulta. A continuación, debe agregar un `SAPParameter` que se corresponde con el marcador de posición y establecer explícitamente la dirección del parámetro en `ParamDirection.Output` o `ParamDirection.InputOutput`, según el tipo de parámetro.  
   
--   Nombres de parámetro y los nombres de marcador de posición no distinguen mayúsculas de minúsculas.  
+- Los nombres de parámetro y los nombres de marcador de posición no distinguen mayúsculas de minúsculas.  
   
--   No se puede repetir los nombres de parámetro en una consulta a menos que tengan direcciones diferentes.  
+- Los nombres de parámetro no se puede repetir en una consulta a menos que tengan direcciones diferentes.  
   
--   No se puede repetir los nombres de marcador de posición en una consulta.  
+- No se puede repetir los nombres de marcador de posición en una consulta.  
   
 ## <a name="considerations-when-calling-an-exec-statement"></a>Consideraciones al llamar a una instrucción EXEC  
  Esta sección enumeran los puntos que debe tener en cuenta al utilizar la instrucción EXEC con [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].  
   
--   Para una instrucción EXEC, el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] devuelve `TIMS` valores de campo como .NET `System.DateTime` objetos.  
+- Para una instrucción EXEC, el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] devuelve `TIMS` valores de campo como .NET `System.DateTime` objetos.  
   
-    > [!NOTE]
-    >  Para una instrucción SELECT, la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] devuelve `TIMS` valores de campo como .NET `System.TimeSpan` objetos. Para obtener más información acerca de la instrucción SELECT, vea [sintaxis para una instrucción SELECT en SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md).  
+  > [!NOTE]
+  >  Para una instrucción SELECT, la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] devuelve `TIMS` valores de campo como .NET `System.TimeSpan` objetos. Para obtener más información acerca de la instrucción SELECT, vea [sintaxis para una instrucción SELECT en SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Acerca del proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)

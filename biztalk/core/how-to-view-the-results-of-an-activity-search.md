@@ -1,5 +1,5 @@
 ---
-title: Cómo ver los resultados de una búsqueda de actividad | Documentos de Microsoft
+title: Cómo ver los resultados de una búsqueda de actividad | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,17 +21,17 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c5e96da9ed256557306cc4d69ad529161fa3342
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 061f6a8c15f4ce2aabbdf90364a521a8fdf2093b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257732"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008901"
 ---
 # <a name="how-to-view-the-results-of-an-activity-search"></a>Cómo ver los resultados de una búsqueda de actividad
-Los usuarios pueden ver los resultados de una consulta haciendo clic en el **Ejecutar consulta** botón en la sección superior del marco de contenido del portal de BAM. Los resultados de la consulta se muestran en la **resultados** sección en la parte inferior del marco.  
+Los usuarios pueden ver los resultados de una consulta haciendo clic en el **Ejecutar consulta** botón en la sección superior del marco de contenido del portal de BAM. Los resultados de la consulta se muestran en el **resultados** en la parte inferior del marco.  
   
- Los resultados de una búsqueda de actividad se muestran con un registro por fila. Cada registro consta de los datos y los hitos seleccionado en el selector de columnas y se muestran en el orden en el que se hayan organizado en el **elementos para mostrar** cuadro.  
+ Los resultados de una búsqueda de actividad se muestran con un registro por fila. Cada registro consta de los datos y los hitos seleccionados en el selector de columnas y se muestran en el orden en el que se han organizado en el **elementos para mostrar** cuadro.  
   
  Para obtener detalles adicionales acerca de un registro devuelto, puede hacer clic en el interior de la fila.  
   
@@ -42,28 +42,28 @@ Los usuarios pueden ver los resultados de una consulta haciendo clic en el **Eje
   
 #### <a name="to-execute-a-query-to-return-results"></a>Para ejecutar una consulta para que devuelva resultados  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **sitio Web de Portal de BAM**.  
+1. Haga clic en **iniciar**, apunte a **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **sitio Web de Portal de BAM**.  
   
-2.  En el **Mis vistas** panel, haga clic en una vista para la que está creando la búsqueda de actividad.  
+2. En el **Mis vistas** panel, haga clic en una vista para el que está creando la búsqueda de actividad.  
   
-3.  Haga clic en una actividad asociada a la vista para cargar dicha actividad en el marco de contenido.  
+3. Haga clic en una actividad asociada a la vista para cargar dicha actividad en el marco de contenido.  
   
-4.  Cree una búsqueda de actividad o abra una ya existente. Para obtener información acerca de la creación o apertura de búsquedas de actividad, vea [cómo crear una consulta de búsqueda de actividad](../core/how-to-create-a-query-in-activity-search.md).  
+4. Cree una búsqueda de actividad o abra una ya existente. Para obtener información sobre la creación o apertura de búsquedas de actividad, consulte [cómo crear una consulta en búsqueda de actividad](../core/how-to-create-a-query-in-activity-search.md).  
   
-5.  Haga clic en el **Ejecutar consulta** situado en la parte superior del marco de contenido del portal.  
+5. Haga clic en el **Ejecutar consulta** situado en la parte superior del marco de contenido del portal.  
   
-6.  Desplácese hacia abajo para ver el resultado de la consulta en el **resultados** área del marco de contenido.  
+6. Desplácese hacia abajo para ver la salida de la consulta en el **resultados** área del marco de contenido.  
   
 ## <a name="view-results-information"></a>Ver información de resultados  
  Puede ver el estado detallado de los elementos devueltos por la consulta. Los detalles adicionales que se muestran son:  
   
--   Estado de actividad, que contiene los hitos y datos asociados.  
+- Estado de actividad, que contiene los hitos y datos asociados.  
   
--   Documentos relacionados  
+- Documentos relacionados  
   
--   Actividades relacionadas  
+- Actividades relacionadas  
   
- Además, puede solicitar asistencia del administrador haciendo clic en el **asistencia** botón siguiente la **actividades relacionadas** área en el marco de contenido.  
+  Además, puede solicitar asistencia del administrador, haga clic en el **asistencia** botón a continuación el **actividades relacionadas** área en el marco de contenido.  
   
 #### <a name="to-view-detailed-status-information-on-results"></a>Para ver información de estado detallada sobre los resultados  
   
@@ -84,4 +84,4 @@ Los usuarios pueden ver los resultados de una consulta haciendo clic en el **Eje
 -   [Solicitar asistencia](../core/request-assistance.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Búsquedas de actividad en el Portal de BAM](../core/activity-searches-in-the-bam-portal.md)
+ [Búsquedas de actividad del portal de BAM](../core/activity-searches-in-the-bam-portal.md)

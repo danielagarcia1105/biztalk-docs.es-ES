@@ -1,5 +1,5 @@
 ---
-title: Cómo crear un administrador de almacenes | Documentos de Microsoft
+title: Cómo crear un administrador de almacenes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,17 +20,17 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20ea60356580ae7d5a6ac2be3336ec07314211f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3157eca412123556a6e9637e1ffa28a8da7daa19
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22250212"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012325"
 ---
 # <a name="how-to-create-a-fact-retriever"></a>Cómo crear un administrador de almacenes de datos
-Un administrador de almacenes de datos es un componente que se utiliza para imponer instancias de hechos a largo plazo en una directiva durante su ejecución. Puede implementar la **IFactRetriever** interfaz y configurar una versión de directiva para utilizar esta implementación en tiempo de ejecución para que aparezcan las instancias de hechos a largo plazo. La versión de directiva, se invoca el **UpdateFacts** método de la implementación de almacenes de datos de hechos en cada ciclo de ejecución, si un administrador de almacenes se configura para una versión concreta.  
+Un administrador de almacenes de datos es un componente que se utiliza para imponer instancias de hechos a largo plazo en una directiva durante su ejecución. Puede implementar la **IFactRetriever** interfaz y configurar una versión de directiva para utilizar esta implementación en tiempo de ejecución para que las instancias de hechos a largo plazo. La versión de directiva invoca el **UpdateFacts** método de la implementación de almacenes de datos de hechos en cada ciclo de ejecución si un administrador de almacenes se configura para una versión concreta.  
   
- También puede implementar la **IFactRemover** interfaz en un componente recuperador de datos. El motor de reglas, se invoca el **UpdateFactsAfterExecution** método de la **IFactRemover** cuando se elimina la directiva de la interfaz. Esto le ofrece la oportunidad de realizar cualquier trabajo posterior a la ejecución, como confirmar cambios en la base de datos o retirar instancias de objetos de la memoria de trabajo del motor de reglas.  
+ También puede implementar la **IFactRemover** interfaz en un componente recuperador de datos. El motor de reglas invoca el **UpdateFactsAfterExecution** método de la **IFactRemover** cuando se elimina la directiva de la interfaz. Esto le ofrece la oportunidad de realizar cualquier trabajo posterior a la ejecución, como confirmar cambios en la base de datos o retirar instancias de objetos de la memoria de trabajo del motor de reglas.  
   
 ## <a name="to-specify-a-fact-retriever-for-a-policy"></a>Para especificar un administrador de almacenes de datos para una directiva  
  Puede utilizar el siguiente código para configurar la regla establecida para utilizar una clase denominada "Retriever" en el ensamblado denominado "MyAssembly" como el administrador de almacenes de datos.  
@@ -44,19 +44,19 @@ rsCfg.FactRetriever = factRetriever;
 ```  
   
 > [!NOTE]
->  Si especifica un nombre de ensamblado simple como MyAssembly como el primer parámetro para el constructor RuleEngineComponentConfiguration, el motor de reglas de BizTalk supone que es un ensamblado privado y busca el ensamblado en su carpeta de aplicación. Si especifica el nombre de ensamblado completo como **MyAssembly, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = a310908b42c024fe**, el motor de reglas se da por supuesto que es un ensamblado compartido y busca el ensamblado en la información global caché de ensamblados (GAC). Puede buscar las definiciones de nombres de ensamblado simple y completo en [http://go.microsoft.com/fwlink/?LinkId=64535](http://go.microsoft.com/fwlink/?LinkId=64535).  
+>  Si especifica un nombre de ensamblado simple como MyAssembly como el primer parámetro para el constructor RuleEngineComponentConfiguration, el motor de reglas de BizTalk supone que es un ensamblado privado y busca el ensamblado en su carpeta de aplicación. Si especifica el nombre completo del ensamblado como **MyAssembly, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = a310908b42c024fe**, el motor de reglas se da por supuesto que es un ensamblado compartido y busca el ensamblado en el global caché de ensamblados (GAC). Puede encontrar las definiciones de los nombres de ensamblado simple y completo en [ http://go.microsoft.com/fwlink/?LinkId=64535 ](http://go.microsoft.com/fwlink/?LinkId=64535).  
   
- Puede diseñar el administrador de almacenes de datos con la lógica específica de la aplicación requerida para conectar con los orígenes de datos necesarios, imponer los datos como hechos a largo plazo en el motor y especificar la lógica para actualizar o imponer nuevas instancias de los hechos a largo plazo en el motor. Hasta que no estén actualizados, los valores que se imponen inicialmente en el motor y, por consiguiente, se guardan en caché, se utilizarán en ciclos de ejecución posteriores. Devuelve un objeto que es análogo a un símbolo (token) de la implementación de almacenes de datos de hechos y puede utilizarse junto con la **factsHandleIn** objeto para determinar si deben actualizarse los hechos existentes o imponer nuevos hechos. Cuando una versión de directiva llama a sus almacenes de datos por primera vez, el **factsHandleIn** objeto siempre es null y, a continuación, toma el valor del objeto devuelto después de la ejecución de almacenes.  
+ Puede diseñar el administrador de almacenes de datos con la lógica específica de la aplicación requerida para conectar con los orígenes de datos necesarios, imponer los datos como hechos a largo plazo en el motor y especificar la lógica para actualizar o imponer nuevas instancias de los hechos a largo plazo en el motor. Hasta que no estén actualizados, los valores que se imponen inicialmente en el motor y, por consiguiente, se guardan en caché, se utilizarán en ciclos de ejecución posteriores. Devuelve un objeto que es análogo a un token de la implementación de almacenes de datos de hechos y puede usarse junto con el **factsHandleIn** objeto para determinar si deben actualizarse los hechos existentes o imponer nuevos hechos. Cuando una versión de directiva llama a sus almacenes de datos por primera vez, el **factsHandleIn** objeto siempre es null y, a continuación, toma el valor del objeto devuelto después de la ejecución de almacenes.  
   
- Observe que para la misma instancia de motor de reglas, un hecho a largo plazo solo necesita imponerse una vez. Por ejemplo, cuando usa el **reglas de llamada** forma de una orquestación, la instancia de directiva se mueve a una caché interna. En ese momento, todos los hechos a corto plazo se retraen y los hechos a largo plazo se mantienen. Si vuelve a llamarse a la misma directiva, ya sea mediante la misma instancia de orquestación o mediante una diferente del mismo host, esa instancia de directiva se recupera de la caché y vuelve a utilizarse. En algunos escenarios de proceso por lotes, pueden crearse varias instancias de la misma directiva. Si se crea una nueva instancia de directiva, debe asegurarse de que se han impuesto los hechos a largo plazo correctos.  
+ Observe que para la misma instancia de motor de reglas, un hecho a largo plazo solo necesita imponerse una vez. Por ejemplo, cuando usa el **reglas de llamada** forma de una orquestación, la instancia de directiva se mueve a una memoria caché interna. En ese momento, todos los hechos a corto plazo se retraen y los hechos a largo plazo se mantienen. Si vuelve a llamarse a la misma directiva, ya sea mediante la misma instancia de orquestación o mediante una diferente del mismo host, esa instancia de directiva se recupera de la caché y vuelve a utilizarse. En algunos escenarios de proceso por lotes, pueden crearse varias instancias de la misma directiva. Si se crea una nueva instancia de directiva, debe asegurarse de que se han impuesto los hechos a largo plazo correctos.  
   
  Además, quizá necesite escribir código personalizado para implementar las siguientes estrategias:  
   
--   Saber cuándo actualizar los hechos a largo plazo  
+- Saber cuándo actualizar los hechos a largo plazo  
   
--   Realizar un seguimiento para saber qué instancia de motor de reglas utiliza qué hechos a largo plazo  
+- Realizar un seguimiento para saber qué instancia de motor de reglas utiliza qué hechos a largo plazo  
   
- En el siguiente código de ejemplo se muestran diversas implementaciones de administrador de almacenes de datos, que están asociadas con MyPolicy para imponer MyTableInstance como un hecho a largo plazo, mediante tipos de enlace diferentes.  
+  En el siguiente código de ejemplo se muestran diversas implementaciones de administrador de almacenes de datos, que están asociadas con MyPolicy para imponer MyTableInstance como un hecho a largo plazo, mediante tipos de enlace diferentes.  
   
 ## <a name="datatable-binding"></a>Enlace DataTable  
   
@@ -222,6 +222,6 @@ namespace MyBizTalkApplication.FactRetriever
 }  
 ```  
   
- Tenga en cuenta que **DataConnection**s debería imponerse siempre, cuando provenga de un administrador de almacenes, como se muestra en el ejemplo de código anterior. La instancia del motor utiliza el **DataConnection** consultar la base de datos según las condiciones de regla y las filas devueltas por la consulta se impondrá en la memoria de trabajo del motor como **TypedDataRow**s. Reasserting DataConnection garantiza que las filas de una ejecución anterior del motor se borran de la memoria.  
+ Tenga en cuenta que **DataConnection**debe imponerse siempre, cuando provenga de un administrador de almacenes, como se muestra en el ejemplo de código anterior. La instancia del motor utiliza el **DataConnection** consultar la base de datos según las condiciones de regla, y todas las filas devueltas por la consulta se impondrá en la memoria de trabajo del motor como **TypedDataRow**s. Reasserting DataConnection garantiza que las filas de una ejecución anterior del motor se borran de la memoria.  
   
- De hecho, hay muy pocas ventajas imponer un **DataConnection** a través de un hecho de almacenes de datos excepto en que proporciona una manera de Exteriorizar el origen de datos.
+ De hecho, existen muy pocas ventajas para imponer un **DataConnection** a través de un hecho de almacenes de datos, salvo que proporciona una manera de extraer el origen de datos.

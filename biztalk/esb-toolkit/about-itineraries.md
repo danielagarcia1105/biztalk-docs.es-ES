@@ -1,5 +1,5 @@
 ---
-title: Acerca de itinerarios | Documentos de Microsoft
+title: Acerca de los itinerarios | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,18 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66a9a759a6afdd55c3c1646d02c480aa193261aa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ddd41dcfc1c5b6a090d48411956b19986aa2d676
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290612"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001093"
 ---
-# <a name="about-itineraries"></a>Acerca de itinerarios
-Un itinerario es una representación de una directiva de mediación de ESB para ejecutar una secuencia de procesamiento de instrucciones según el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] formato extensible. Un itinerario puede verse como un lenguaje de alto nivel de mediación que describe una secuencia de servicios itinerarios declarativas que están asociados a componentes de mediación por la configuración de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] motor principal. Puede diseñar flujos de mediación para describir cómo se deben procesar los mensajes, y puede organizar el flujo completo como un dibujo visual. En tiempo de ejecución, el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] motor principal ejecuta el itinerario generado por el Diseñador de itinerario.  
+# <a name="about-itineraries"></a>Acerca de los itinerarios
+Un itinerario es una representación de una directiva de mediación de ESB para ejecutar una secuencia de procesamiento de instrucciones basadas en la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] formato extensible. Un itinerario puede verse como un lenguaje de mediación de alto nivel que describe una secuencia de los servicios de itinerario declarativas que están asociados con los componentes de mediación mediante la configuración de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] motor principal. Puede diseñar flujos de mediación para describir cómo se deben procesar los mensajes, y puede organizar el flujo completo como un dibujo visual. En tiempo de ejecución, el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] motor principal ejecuta el itinerario generado por el Diseñador de itinerario.  
   
 ## <a name="the-itinerary-designer-surface"></a>La superficie del Diseñador de itinerarios  
- La superficie del Diseñador de itinerario es un diseñador visual que se utiliza para crear [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerarios y exportar estos itinerarios en formato de tiempo de ejecución. Es un lienzo en el que puede arrastrar elementos desde el cuadro de herramientas, como se muestra en la figura 1.  
+ La superficie del Diseñador de itinerarios es un diseñador visual que se usa para crear [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerarios y exportar estas itinerarios en formato de tiempo de ejecución. Es un lienzo al que puede arrastrar elementos desde el cuadro de herramientas, como se muestra en la figura 1.  
   
  ![Diseñador de itinerarios](../esb-toolkit/media/ch5-itinerarydesigner.gif "Ch5-ItineraryDesigner")  
   
@@ -31,49 +31,49 @@ Un itinerario es una representación de una directiva de mediación de ESB para 
   
  **Superficie del Diseñador de itinerarios**  
   
- El nombre de la itinerario se muestra en la pestaña superior del Diseñador de itinerario y en la barra de título de Microsoft Visual Studio. La superficie de diseño es un área única y contiene elementos del modelo que describen el flujo de mensajes real de la itinerario. El ItineraryDSL le permite modificar las propiedades del elemento de modelo mediante la ventana Propiedades de Visual Studio.  
+ El nombre del itinerario se muestra en la pestaña superior del Diseñador de itinerario y en la barra de título de Microsoft Visual Studio. La superficie de diseño es una sola área y contiene los elementos del modelo que describen el flujo de mensajes real de los itinerarios. El ItineraryDSL le permite modificar las propiedades del elemento de modelo mediante la ventana Propiedades de Visual Studio.  
   
 ## <a name="itinerary-designer-toolbox"></a>Cuadro de herramientas Diseñador de itinerario  
- El cuadro de herramientas de Visual Studio contiene fichas, que representan los conjuntos de herramientas. Al abrir un proyecto de Visual Studio que usa el Diseñador de itinerario, el cuadro de herramientas contiene dos pestañas: el **General** ficha y **ItineraryDsl** pestañas. El **ItineraryDsl** pestaña contiene las siguientes herramientas:  
+ El cuadro de herramientas de Visual Studio contiene fichas, que representan conjuntos de herramientas. Al abrir un proyecto de Visual Studio que usa el Diseñador de itinerario, el cuadro de herramientas contiene dos pestañas: el **General** ficha y el **ItineraryDsl** pestañas. El **ItineraryDsl** ficha contiene las siguientes herramientas:  
   
--   **Herramienta de servicio itinerario**. Este elemento de modelo se corresponde con el servicio de mediación itinerarios y representa una instrucción de procesamiento.  
+-   **Herramienta de servicio de itinerarios**. Este elemento de modelo se corresponde con el servicio de itinerarios de mediación y representa una instrucción de procesamiento.  
   
--   **Herramienta conector**. Este elemento de modelo define la relación entre elementos de modelo individuales en la superficie del Diseñador de itinerario.  
+-   **Herramienta conector**. Este elemento de modelo define la relación entre los elementos de modelo individuales de la superficie del Diseñador de itinerario.  
   
--   **Herramienta de fuera de rampa**. Este elemento de modelo corresponde a la fuera de rampa que envía un mensaje. El Diseñador de itinerario permite varios desactivar pendientes por cada modelo.  
+-   **Herramienta de fuera de rampa**. Este elemento de modelo corresponde a la fuera de rampa que envía un mensaje. El Diseñador de itinerario permite varios rampas por modelo.  
   
--   **Herramienta de en rampa**. Este elemento de modelo corresponde a en rampa que recibe un mensaje. El Diseñador de itinerario permite solo una en rampa por modelo.  
+-   **Herramienta de rampa de**. Este elemento de modelo corresponde a una vía rápida que recibe un mensaje. El Diseñador de itinerario permite solo una vía rápida por modelo.  
   
--   **Herramienta de Service Broker itinerario**. Este elemento de modelo corresponde al servicio de mediación itinerarios que permite el flujo de mensajes definidos con varias entradas y salidas múltiples.  
+-   **Herramienta de Service Broker itinerario**. Este elemento de modelo corresponde al servicio de itinerarios mediación que permite el flujo de mensajes definido con varias entradas y salidas múltiples.  
   
--   **Puerto de salida de Broker itinerario**. Este elemento de modelo correspondiente al puerto de salida única del servicio de agente de itinerario. El elemento de modelo de itinerario de Service Broker permite a varios puertos de salida.  
+-   **Puerto de salida de Broker itinerario**. Este elemento de modelo corresponde al puerto de salida único del servicio de agente de itinerario. El elemento de modelo de itinerario de Service Broker permite a varios puertos de salida.  
   
-## <a name="steps-in-itinerary-development"></a>Pasos de desarrollo itinerario  
+## <a name="steps-in-itinerary-development"></a>Pasos en el desarrollo de itinerarios  
  Para desarrollar un itinerario, que representa el flujo de mediación de ESB, normalmente debe realizar las siguientes acciones:  
   
--   Agregar elementos de modelo para representar lo pasos para su itinerario de procesamiento de mensajes. El Diseñador de itinerario proporciona un cuadro de herramientas que contiene formas utilizadas para representar diferentes acciones o abstracciones de clave.  
+- Agregar elementos de modelo para representar el mensaje de procesamiento de los pasos para su itinerario. El Diseñador de itinerario proporciona un cuadro de herramientas que contiene formas que se utilizan para representar diferentes acciones o abstracciones clave.  
   
--   Especificar propiedades del modelo itinerarios, que incluyen una cadena de conexión a la configuración de exportador de base de datos y el modelo de administración de Microsoft BizTalk Server.  
+- Especifique las propiedades del modelo de itinerarios, que incluyen una cadena de conexión a la configuración de exportador de base de datos y el modelo de administración de Microsoft BizTalk Server.  
   
--   Elementos de modelo en rampa y fuera de rampa de enlace a BizTalk físico ubicaciones de recepción y puertos de envío mediante la asociación de estos elementos de modelo con extensores de tecnología correspondiente.  
+- Los elementos del modelo de vía rápida y fuera de rampa de enlace a BizTalk físico ubicaciones de recepción y puertos de envío mediante la asociación de estos elementos de modelo con extensores de tecnología correspondiente.  
   
--   Asociar elementos de modelo de servicios itinerarios extensores y definir propiedades específicas de la tecnología requeridos por un dispositivo extender. Estas propiedades pueden variar de un tipo determinado del extensor; pueden representar propiedades del servicio de mediación itinerarios y propiedades específicas de BizTalk asociados con sus componentes en tiempo de ejecución y artefactos.  
+- Asociar elementos de modelo de servicios de itinerario extensores y definir propiedades de tecnologías específicas requeridas un objeto extender. Estas propiedades pueden variar de un tipo determinado del extensor; pueden representar las propiedades del servicio de itinerarios de mediación y propiedades específicas de BizTalk asociadas con sus componentes de tiempo de ejecución y los artefactos.  
   
--   Identifique los componentes personalizados que desea hacer referencia como servicios de mediación itinerarios. Por ejemplo, puede desarrollar una orquestación como servicio de itinerarios.  
+- Identificar los componentes personalizados que desea hacer referencia como servicios de mediación de itinerarios. Por ejemplo, puede desarrollar una orquestación como servicio de itinerarios.  
   
--   Compruebe la configuración de elemento de modelo de resolución contra [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] configuración de tiempo de ejecución mediante la invocación de servicio de la resolución de la superficie del diseñador.  
+- Compruebe la configuración de elemento de modelo de resolución frente a [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] configuración en tiempo de ejecución mediante la invocación de servicio de resolución de la superficie del diseñador.  
   
--   Validar y exportar la directiva de tiempo de ejecución itinerario mediante un exportador. El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona dos exportadores con el Diseñador de itinerario: exportador y exportador de la base de datos de archivos. Como alternativa, puede implementar un exportador personalizado.  
+- Validar y exportar la directiva de tiempo de ejecución itinerario mediante un exportador. El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona dos exportadores con el Diseñador de itinerario: exportador y exportador de la base de datos de archivos. Como alternativa, puede implementar un exportador personalizado.  
   
--   Probar su itinerario usando BizUnit framework o aplicaciones de cliente de prueba.  
+- Pruebe su itinerario mediante BizUnit framework o aplicaciones de cliente de prueba.  
   
-## <a name="security-considerations-for-developing-itineraries"></a>Consideraciones de seguridad para desarrollar itinerarios  
- Cuando diseña itinerarios, debe tener en cuenta posibles problemas de seguridad:  
+## <a name="security-considerations-for-developing-itineraries"></a>Consideraciones de seguridad para el desarrollo de itinerarios  
+ Al diseñar los itinerarios, debe considerar los posibles problemas de seguridad:  
   
--   Evite especificar credenciales de usuario sin usar un certificado de las propiedades del modelo.  
+-   Evite la especificación de credenciales de usuario sin usar un certificado de las propiedades del modelo.  
   
 -   ¿Se refieren a BizTalk puertos de recepción con ubicaciones de recepción que permiten el acceso anónimo.  
   
--   Proteja el canal de transporte o mensaje si el mensaje itinerario contiene datos confidenciales.  
+-   Proteja el canal de transporte o mensaje si el mensaje de itinerarios contiene datos confidenciales.  
   
--   Proteger los mensajes en el cuadro de mensaje con un componente de canalización si los mensajes contienen datos confidenciales que necesitan ser protegido mientras están en tránsito.
+-   Proteger los mensajes en el cuadro de mensaje con un componente de canalización si los mensajes contienen datos confidenciales que necesita ser protegido mientras están en tránsito.

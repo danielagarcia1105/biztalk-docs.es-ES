@@ -1,5 +1,5 @@
 ---
-title: Solución de problemas de servicios de Internet Information Server | Documentos de Microsoft
+title: Solución de problemas de Internet Information Services | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 222d034c2dee38f041bb53b3164869712201bc76
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f7ca928aa2e47b5c62548aba02834b96d6a3baf
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22280108"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006661"
 ---
 # <a name="troubleshooting-internet-information-services"></a>Solución de problemas de Internet Information Services
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa mucho Microsoft Internet Information Services (IIS) para diversas funcionalidades, incluidos los adaptadores de HTTP, SOAP y Windows SharePoint Services. En esta tema se explican algunos problemas conocidos que se puede encontrar en IIS y las posibles soluciones a estos problemas.  
@@ -29,7 +29,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 1.  En el **herramientas** menú, haga clic en **opciones de Internet**.  
   
-2.  En el **avanzadas** ficha la **exploración** sección, desactive el **mostrar mensajes de error HTTP descriptivos** casilla de verificación y, a continuación, haga clic en **Aceptar**.  
+2.  En el **avanzadas** ficha la **exploración** sección, desactive la **mostrar mensajes de error HTTP descriptivos** casilla de verificación y, a continuación, haga clic en **Aceptar**.  
   
 3.  Cierre Internet Explorer.  
   
@@ -60,7 +60,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   Un directorio virtual se asigna a la raíz de una unidad en otro servidor.  
   
 ##### <a name="resolution"></a>Solución  
- Siga los pasos descritos en la sección de solución de Microsoft Knowledge Base artículo 248033, "razones comunes por IIS Server devuelve el error"HTTP 404 – archivo no encontrado"" disponible en [http://support.microsoft.com/kb/248033](http://support.microsoft.com/kb/248033).  
+ Siga los pasos descritos en la sección de solución de Microsoft Knowledge Base artículo 248033, "razones comunes por IIS Server devuelve el error"HTTP 404 – archivo no encontrado"" disponible en [ http://support.microsoft.com/kb/248033 ](http://support.microsoft.com/kb/248033).  
   
 #### <a name="cannot-find-server-or-dns-error-error-occurs-when-accessing-a-web-page-on-an-iis-server"></a>Al obtener acceso a una página web en un servidor IIS, se produce el error “No se pudo encontrar el servidor o error DNS”  
   
@@ -85,7 +85,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   Su adaptador de red no está funcionando correctamente o tiene instalados controladores de adaptador de red incompatibles.  
   
 ##### <a name="resolution"></a>Solución  
- Siga los pasos descritos en la sección resolución de artículo de Microsoft Knowledge Base 326155, "mensaje de Error al intentar obtener acceso a un sitio Web en Internet Explorer:"No se puede mostrar la página"" disponible en [http://support.microsoft.com/kb/326155](http://support.microsoft.com/kb/326155).  
+ Siga los pasos descritos en la sección resolución de artículo de Microsoft Knowledge Base 326155, "mensaje de Error al intentar obtener acceso a un sitio Web en Internet Explorer:"No se puede mostrar la página"" disponible en [ http://support.microsoft.com/kb/326155 ](http://support.microsoft.com/kb/326155).  
   
 #### <a name="401---access-denied-error-occurs-when-accessing-a-web-page-on-an-iis-server"></a>Al obtener acceso a una página Web en un servidor IIS, se produce el error “401 – Acceso denegado”  
   
@@ -97,19 +97,19 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 ##### <a name="cause"></a>Causa  
  IIS define varios errores 401 diferentes que indican una causa más específica del error. Estos códigos de error específicos se muestran en el explorador:  
   
--   401.1 – Error en el inicio de sesión.  
+- 401.1 – Error en el inicio de sesión.  
   
--   401.2 – Error en el inicio de sesión debido a la configuración del servidor.  
+- 401.2 – Error en el inicio de sesión debido a la configuración del servidor.  
   
--   401.3 – No autorizado debido a ACL en el recurso.  
+- 401.3 – No autorizado debido a ACL en el recurso.  
   
--   401.4 – No autorizado: error de autorización debido a un filtro instalado en el servidor web.  
+- 401.4 – No autorizado: error de autorización debido a un filtro instalado en el servidor web.  
   
--   401.5 – Error de autorización debido a una aplicación ISAP o CGI.  
+- 401.5 – Error de autorización debido a una aplicación ISAP o CGI.  
   
--   401.7 – Acceso denegado por directiva de autorización de URL en el servidor web. Este código de error es específico de IIS 6.0.  
+- 401.7 – Acceso denegado por directiva de autorización de URL en el servidor web. Este código de error es específico de IIS 6.0.  
   
- Para obtener una lista completa de los códigos de estado de IIS 7.0, vea el artículo 943891, de Microsoft Knowledge Base "Los códigos de estado HTTP en IIS 7.0" disponible en [http://support.microsoft.com/kb/943891](http://support.microsoft.com/kb/943891).  
+  Para obtener una lista completa de los códigos de estado de IIS 7.0, vea el artículo 943891, de Microsoft Knowledge Base "Los códigos de estado HTTP en IIS 7.0" disponible en [ http://support.microsoft.com/kb/943891 ](http://support.microsoft.com/kb/943891).  
   
 ##### <a name="resolution"></a>Solución  
  Siga los pasos de [directrices para resolver problemas de permisos de IIS](../core/guidelines-for-resolving-iis-permissions-problems.md) para resolver los problemas de permisos de IIS.  
@@ -127,25 +127,25 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 ##### <a name="resolution"></a>Solución  
  Para solucionar el problema, haga lo siguiente:  
   
--   Revise el registro de la aplicación del servidor IIS para obtener información acerca de la causa del error.  
+- Revise el registro de la aplicación del servidor IIS para obtener información acerca de la causa del error.  
   
--   Revise los archivos de registro de IIS o de HTTPERR para obtener información que pueda ser útil a la hora de determinar la causa del error. De forma predeterminada, los archivos de registro de IIS se encuentran en el siguiente directorio de un equipo con el sistema operativo [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)]:  
+- Revise los archivos de registro de IIS o de HTTPERR para obtener información que pueda ser útil a la hora de determinar la causa del error. De forma predeterminada, los archivos de registro de IIS se encuentran en el siguiente directorio de un equipo con el sistema operativo [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)]:  
   
-     *% WinDir %\\*system32\LogFiles\W3SVC1\  
+   <em>% WinDir %\\</em>system32\LogFiles\W3SVC1\  
   
-    > [!NOTE]
-    >  *% WinDir %* es un marcador de posición para la ubicación del directorio de Windows en el servidor IIS.  
+  > [!NOTE]
+  >  *% WinDir %* es un marcador de posición para la ubicación del directorio de Windows en el servidor IIS.  
   
-     De forma predeterminada, en un equipo con Windows Server 2008 o Windows Vista, los archivos de registro de IIS se encuentran en el siguiente directorio:  
+   De forma predeterminada, en un equipo con Windows Server 2008 o Windows Vista, los archivos de registro de IIS se encuentran en el siguiente directorio:  
   
-     C:\inetpub\logs\LogFiles\W3SVC1\  
+   C:\inetpub\logs\LogFiles\W3SVC1\  
   
-     De forma predeterminada, en [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], los archivos de registro de HTTPERR se encuentran en el siguiente directorio:  
+   De forma predeterminada, en [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], los archivos de registro de HTTPERR se encuentran en el siguiente directorio:  
   
-     *% WinDir %* system32LogFilesHTTPERR  
+   <em>% WinDir %</em>system32LogFilesHTTPERR  
   
-    > [!NOTE]
-    >  El archivo de registro de HTTPERR solo se encuentra disponible en un equipo con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o Windows Vista.  
+  > [!NOTE]
+  >  El archivo de registro de HTTPERR solo se encuentra disponible en un equipo con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o Windows Vista.  
   
 #### <a name="service-unavailable-error-occurs-when-accessing-a-web-page-on-an-iis-server"></a>Al obtener acceso a una página web en un servidor IIS, se produce el error “Servicio no disponible”  
   

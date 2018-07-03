@@ -1,5 +1,5 @@
 ---
-title: Adaptador de envío de WCF | Documentos de Microsoft
+title: Adaptador de envío WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,12 +22,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 70604fbc15f5f15b0a7ff2325debdc28ac3a97c1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7f36bca73ebd178d8d4052bfbcfa837c0d548ab
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288764"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37020680"
 ---
 # <a name="wcf-send-adapter"></a>Adaptador de envío WCF
 El adaptador de envío WCF le permite llamar a un Servicio WCF a través del contrato sin tipo.  
@@ -35,11 +35,11 @@ El adaptador de envío WCF le permite llamar a un Servicio WCF a través del con
 ## <a name="specifying-the-wcf-message-body"></a>Especificar el cuerpo de mensaje WCF  
  El cuerpo de mensaje que necesita enviar al servidor BizTalk Server puede insertarse en el mensaje SOAP mediante la utilización de una de las siguientes opciones:  
   
--   Extraer el contenido del cuerpo del mensaje de BizTalk  
+- Extraiga el contenido del cuerpo del mensaje de BizTalk  
   
--   Especificar el contenido mediante la plantilla  
+- Especificar el contenido mediante la plantilla  
   
- Puede configurar estas opciones en el cuadro de diálogo de propiedades de transporte de puerto de envío.  
+  Puede configurar estas opciones en el cuadro de diálogo de propiedades de transporte de puerto de envío.  
   
 #### <a name="extract-the-content-of-the-biztalk-message-body"></a>Extraer el contenido del cuerpo de mensaje de BizTalk  
  Cuando se selecciona esta opción, se inserta el contenido del cuerpo de mensaje de BizTalk en el elemento de Cuerpo de SOAP para el cuerpo de mensaje de salida de WCF.  
@@ -57,18 +57,18 @@ El adaptador de envío WCF le permite llamar a un Servicio WCF a través del con
 -   Si el mensaje de BizTalk contiene datos XML arbitrarios, el mensaje de BizTalk se coloca en el elemento Cuerpo de SOAP.  
   
 ## <a name="handling-web-services-headers"></a>Controlar encabezados de servicios Web  
- Durante las operaciones de envío, BizTaklk Server no tiene control sobre los encabezados estándar de servicios Web. WCF establece y procesa los encabezados. El único encabezado estándar que se puede modificar mediante la aplicación de BizTalk Server es el **un: acción** encabezado. Si la propiedad de contexto **acción** se especifica en el espacio de nombres de adaptador, el adaptador de envío WCF utilizará el valor de la propiedad para establecer el **acción** en el mensaje SOAP.  
+ Durante las operaciones de envío, BizTaklk Server no tiene control sobre los encabezados estándar de servicios Web. WCF establece y procesa los encabezados. El encabezado estándar solo puede modificarse mediante la aplicación de BizTalk Server es el **un: acción** encabezado. Si la propiedad de contexto **acción** se especifica en el espacio de nombres de adaptador, el adaptador de envío WCF utilizará el valor de la propiedad para establecer el **acción** en el mensaje SOAP.  
   
 > [!NOTE]
->  Para dinámicas de puertos de envío, si **acción** se especifica en el **OutboundHeaders**, la propiedad de contexto establecido para el **WCF. Acción** se pasará por alto.  
+>  Para dinámicos de puertos de envío, si **acción** se especifica en el **OutboundHeaders**, la propiedad de contexto establecido para el **WCF. Acción** se pasará por alto.  
   
 ## <a name="specifying-the-btsisdynamicsend-context-property"></a>Especificar la propiedad de contexto BTS.IsDynamicSend  
- El adaptador de envío WCF almacena la configuración para los puertos de envío. Si el **BTS. IsDynamicSend** propiedad está establecida en true, el envío WCF adaptador no usa la configuración almacenada en caché, sino que lee toda la información de configuración desde el mensaje de propiedades de contexto de los mensajes salientes. En un puerto de envío estático, WCF adaptador de envío utiliza **BTS. SPLastUpdatedTime**, que es el momento en que la configuración del puerto de envío estático se modificó por última vez, para detectar si hay cualquier configuración de puerto de envío de cambios en el método estático. De esta forma, el adaptador de envío WCF no necesita leer todas las configuraciones de todos los contextos de mensaje.  
+ El adaptador de envío WCF almacena la configuración para los puertos de envío. Si el **BTS. IsDynamicSend** propiedad está establecida en true, el envío WCF adaptador no utiliza la configuración almacenada en caché, sino que lee toda la información de configuración desde el mensaje de las propiedades de contexto de los mensajes salientes. En un puerto de envío estático, WCF adaptador de envío utiliza **BTS. SPLastUpdatedTime**, que es el momento en que la configuración del puerto de envío estático se modificaron por última vez, para detectar si hay cualquier configuración de puerto de envío de cambios en estático. De esta forma, el adaptador de envío WCF no necesita leer todas las configuraciones de todos los contextos de mensaje.  
   
- Si desea invalidar las propiedades de puerto de envío estático distinto de la **WCF. Acción** propiedad en una canalización de envío, debe establecer el **BTS. IsDynamicSend** no ha cambiado la propiedad en true para que el adaptador de envío WCF no usará la configuración almacenada en caché aunque la última marca de tiempo actualizada.  
+ Si desea invalidar las propiedades de puerto de envío estático no sea el **WCF. Acción** propiedad en una canalización de envío, deberá establecer el **BTS. IsDynamicSend** no ha cambiado la propiedad en true para que el adaptador de envío WCF no usará la configuración almacenada en caché aunque la marca de tiempo actualizada.  
   
 ## <a name="see-also"></a>Vea también  
  [Especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
- [Adaptador de recepción de WCF](../core/wcf-receive-adapter.md)   
+ [Adaptador de recepción WCF](../core/wcf-receive-adapter.md)   
  [¿Cuáles son los adaptadores de WCF?](../core/what-are-the-wcf-adapters.md)   
- [Cómo utilizar propiedades de contexto de mensaje](../core/how-to-use-message-context-properties.md)
+ [Cómo usar las propiedades de contexto de mensaje](../core/how-to-use-message-context-properties.md)

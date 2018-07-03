@@ -1,5 +1,5 @@
 ---
-title: No se puede continuar debido a un conflicto entre nombres de tipo | Documentos de Microsoft
+title: No se puede continuar por un conflicto de nombre | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2de1d4962db915a462990962e933c1413a408eee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 742d537f2329c53cd974abbaac9a6b9f7f8f5126
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231212"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008485"
 ---
 # <a name="cannot-proceed-due-to-type-name-clash"></a>No se puede continuar por un conflicto entre nombres
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se puede continuar por un conflicto entre nombres. "{0}" ya existe en el espacio de nombres.|  
+|                 |                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------|
+|  Nombre del producto   |  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |              [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]               |
+|    Identificador del evento     |                                           0                                           |
+|  Origen del evento   |                                           0                                           |
+|    Componente    |                                           0                                           |
+|  Nombre simbólico  |                                           0                                           |
+|  Texto del mensaje   | No se puede continuar por un conflicto entre nombres. El nombre "{0}" ya existe en el espacio de nombres |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que varios artefactos del mismo espacio de nombres definido tienen el mismo nombre.  

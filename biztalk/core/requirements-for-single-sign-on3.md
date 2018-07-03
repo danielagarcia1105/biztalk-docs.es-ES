@@ -1,5 +1,5 @@
 ---
-title: Requisitos de SSO para adaptador TIBCO Rendevous | Documentos de Microsoft
+title: Requisitos de inicio de sesión único para el adaptador TIBCO Rendevous | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 40cf27a3b96534239fa871bd04b90febee9beafe
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 7e61b456def74ee76d887fa42149ee95b9ca3cbf
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24015999"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013741"
 ---
 # <a name="requirements-for-single-sign-on"></a>Requisitos para el inicio de sesión único
 
@@ -30,20 +30,20 @@ Para usar el inicio de sesión único (SSO), debe tener lo siguiente:
   
 -   Inicio de sesión único (SSO) empresarial  
   
--   Un sistema de servidor que admite el SSO  
+-   Un sistema de servidor que admita el inicio de sesión único  
   
 -   El host aislado debe configurarse como autenticación de confianza.  
   
-## <a name="enable-sso"></a>Habilitar SSO  
+## <a name="enable-sso"></a>Habilitar el inicio de sesión único  
   
-1.  En el **propiedades de transporte** ventana, seleccione **Sí** para **usar SSO**.  
+1. En el **propiedades de transporte** ventana, seleccione **Sí** para **usar SSO**.  
   
-2.  Al especificar las propiedades del transporte, seleccione una aplicación afiliada adecuada.  
+2. Al especificar las propiedades del transporte, seleccione una aplicación afiliada adecuada.  
   
- Para obtener más información, consulte [crear aplicaciones afiliadas](../core/creating-affiliate-applications1.md).  
+   Para obtener más información, consulte [crear aplicaciones afiliadas](../core/creating-affiliate-applications1.md).  
   
 > [!NOTE]
->  Después de trabajar mediante SSO, no olvide restablecer las carpetas de uso compartido de Web en **no comparten**. Las aplicaciones que usen dichas carpetas no se actualizarán ni se desinstalarán correctamente si la carpeta es de uso compartido, ya que se considerará que están en uso.  
+>  Después de trabajar mediante SSO, no olvide restablecer cualquier carpeta de uso compartido de Web **no comparten**. Las aplicaciones que usen dichas carpetas no se actualizarán ni se desinstalarán correctamente si la carpeta es de uso compartido, ya que se considerará que están en uso.  
   
 ## <a name="see-also"></a>Vea también  
 [Seguridad](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

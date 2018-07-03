@@ -1,5 +1,5 @@
 ---
-title: Cómo quitar un puerto de envío de un grupo de puertos de envío | Documentos de Microsoft
+title: Cómo quitar un puerto de envío de un grupo de puertos de envío | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d109064a1286bcd622479a4075ef2d23dc8d320c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ce54faf09b45a46d2ac5150e1c2bbbe88c8ccac
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254524"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018927"
 ---
 # <a name="how-to-remove-a-send-port-from-a-send-port-group"></a>Cómo quitar un puerto de envío de un grupo de puertos de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para quitar un puerto de envío de un grupo de puertos de envío. Al hacerlo, el puerto de envío no se eliminará de la aplicación o de la base de datos de administración de BizTalk.  
@@ -34,18 +34,18 @@ En este tema se describe cómo utilizar la consola de administración de BizTalk
 >  Para enrutar mensajes, un grupo de puertos de envío debe contener al menos un puerto de envío.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-remove-a-send-port-from-a-send-port-group"></a>Para quitar un puerto de envío de un grupo de puertos de envío  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda el grupo de BizTalk y la aplicación de BizTalk de cuyos grupos de puertos de envío desee quitar un puerto de envío.  
+2. En el árbol de consola, expanda el grupo de BizTalk y la aplicación de BizTalk de cuyos grupos de puertos de envío desee quitar un puerto de envío.  
   
-3.  Haga clic en **grupos de puertos de envío**, haga clic en el grupo de puertos de envío y, a continuación, haga clic en **propiedades**.  
+3. Haga clic en **grupos de puertos de envío**, haga clic en el grupo de puertos de envío y, a continuación, haga clic en **propiedades**.  
   
-4.  En **nombre**, haga clic en el puerto de envío para quitar y, a continuación, haga clic en **quitar**.  
+4. En **nombre**, haga clic en el puerto de envío para quitar y, a continuación, haga clic en **quitar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Crear y configurar grupos de puertos de envío](../core/creating-and-configuring-send-port-groups.md)   
- [Crear y configurar puertos de envío](../core/creating-and-configuring-send-ports.md)
+ [Creación y configuración de puertos de envío](../core/creating-and-configuring-send-ports.md)

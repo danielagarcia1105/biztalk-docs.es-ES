@@ -1,5 +1,5 @@
 ---
-title: Instalar BizTalk Server 2016 | Documentos de Microsoft
+title: Instalar BizTalk Server 2016 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f89aa7599040a2cc6c50f11b70c2751fcf2df1ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f6c6868302554aa14d80c296955e657c9f171d6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299980"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003741"
 ---
 # <a name="install-biztalk-server-2016"></a>Instalar BizTalk Server 2016
 Instale BizTalk Server en un solo equipo.
@@ -56,21 +56,21 @@ Instale BizTalk Server en un solo equipo.
 
     Seleccione **Siguiente**.   
   
- 7. En función de los componentes que elija, puede haber algunos requisitos previos adicionales, como ADOMD.NET. El programa de instalación puede instalar automáticamente todos los requisitos previos redistribuibles. Existen varias opciones:
-* **Instalar manualmente los requisitos previos redistribuibles**: el Asistente para instalación se cierra para que pueda instalar manualmente los requisitos previos que faltan.
-* **Instalar automáticamente los requisitos previos redistribuibles desde Internet**: valor predeterminado. Esta opción requiere acceso a Internet.
-* **Descargar el archivo .cab de requisitos previos redistribuibles**: descarga un archivo CAB, que puede instalar más adelante.
-* **Instalar automáticamente los requisitos previos redistribuibles desde un archivo .cab**: si ya ha descargado los archivos CAB, puede seleccionar esta opción para usarlos. 
+   7. En función de los componentes que elija, puede haber algunos requisitos previos adicionales, como ADOMD.NET. El programa de instalación puede instalar automáticamente todos los requisitos previos redistribuibles. Existen varias opciones:
+7. **Instalar manualmente los requisitos previos redistribuibles**: el Asistente para instalación se cierra para que pueda instalar manualmente los requisitos previos que faltan.
+8. **Instalar automáticamente los requisitos previos redistribuibles desde Internet**: valor predeterminado. Esta opción requiere acceso a Internet.
+9. **Descargar el archivo .cab de requisitos previos redistribuibles**: descarga un archivo CAB, que puede instalar más adelante.
+10. **Instalar automáticamente los requisitos previos redistribuibles desde un archivo .cab**: si ya ha descargado los archivos CAB, puede seleccionar esta opción para usarlos. 
 
-  Seleccione **Siguiente**.
+    Seleccione **Siguiente**.
   
-8. Revise la página de resumen. Para realizar algún cambio, seleccione **Atrás**. De este modo, puede activar o desactivar componentes. 
+11. Revise la página de resumen. Para realizar algún cambio, seleccione **Atrás**. De este modo, puede activar o desactivar componentes. 
 
-     Para habilitar el inicio de sesión automático después de reiniciar el sistema, seleccione **Establecer** y especifique la cuenta de inicio de sesión. Esto solo se habilita durante la instalación de BizTalk. Cuando finalice la instalación, esta configuración se deshabilita. 
+      Para habilitar el inicio de sesión automático después de reiniciar el sistema, seleccione **Establecer** y especifique la cuenta de inicio de sesión. Esto solo se habilita durante la instalación de BizTalk. Cuando finalice la instalación, esta configuración se deshabilita. 
 
-    Elija **Instalar**.
+     Elija **Instalar**.
   
-9. Para configurar ahora BizTalk, active la opción **Iniciar configuración de BizTalk Server**. Si no quiere configurar ahora BizTalk, desactive esta opción y seleccione **Finalizar** para cerrar el Asistente para instalación. 
+12. Para configurar ahora BizTalk, active la opción **Iniciar configuración de BizTalk Server**. Si no quiere configurar ahora BizTalk, desactive esta opción y seleccione **Finalizar** para cerrar el Asistente para instalación. 
 
 Se genera un archivo de registro de instalación en una carpeta temporal, similar al siguiente: `C:\Users\*username*\AppData\Local\Setup(011217 xxxxxx).htm`.
   

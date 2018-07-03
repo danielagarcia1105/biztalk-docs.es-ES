@@ -1,5 +1,5 @@
 ---
-title: X12 juego de caracteres EDI | Documentos de Microsoft
+title: X12 juego de caracteres EDI | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,24 +12,25 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46bcf25317d38846c6376b1fa25572b926c92992
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9bd501c81b92f4fa7824009a949fd6c7e58eaf3b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289036"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023106"
 ---
 # <a name="x12-edi-character-set"></a>Juego de caracteres X12 de EDI
 Al usar el carácter Ñ o un acento grave (`), especifique lo siguiente:  
-  
-||Juego de caracteres|  
-|-|-------------------|  
-|Solo el carácter Ñ en el documento EDI|Usar el juego de caracteres ampliado|  
-|Solo el acento grave (`) en el documento EDI|Usar el juego de caracteres UTF8|  
-|El carácter Ñ **y** un acento grave (') en el mismo documento:|-El documento de entrada debe tener codificación UTF8<br />-Use el juego de caracteres UTF8|  
-  
+
+
+|                                                                   |                                  Juego de caracteres                                   |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------|
+|             Solo el carácter Ñ en el documento EDI              |                            Usar el juego de caracteres ampliado                            |
+|           Solo un acento grave (\`) en el documento EDI            |                              Usar el juego de caracteres UTF8                              |
+| El carácter Ñ **y** un acento grave (\`) en el mismo documento: | -El documento de entrada debe tener codificación UTF8<br />-Use el juego de caracteres UTF8 |
+
  Los siguientes vínculos proporcionan más información sobre los juegos de caracteres EDI:  
-  
- [Juegos de caracteres EDI](http://go.microsoft.com/fwlink/p/?LinkId=271249)  
-  
- [Compatibilidad con juego de caracteres de EDI](http://go.microsoft.com/fwlink/p/?LinkId=271250)
+
+ [Juegos de caracteres de EDI](http://go.microsoft.com/fwlink/p/?LinkId=271249)  
+
+ [Compatibilidad de juegos de caracteres de EDI](http://go.microsoft.com/fwlink/p/?LinkId=271250)

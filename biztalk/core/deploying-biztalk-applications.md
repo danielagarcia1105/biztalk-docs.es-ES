@@ -1,5 +1,5 @@
 ---
-title: Implementar aplicaciones de BizTalk | Documentos de Microsoft
+title: Implementar aplicaciones de BizTalk | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,38 +18,38 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 56417fa7e9c4aef40a6c76144a8e2d9e5bae548f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f141b0b5ee89c0106e25666a4a6c253e91499aea
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239076"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007653"
 ---
 # <a name="deploying-biztalk-applications"></a>Implementar aplicaciones de BizTalk
 Esta sección proporciona la siguiente información acerca de la implementación de aplicaciones de BizTalk:  
   
--   Exportar una aplicación y los artefactos correspondientes a un archivo de Windows Installer (.msi)  
+- Exportar una aplicación y los artefactos correspondientes a un archivo de Windows Installer (.msi)  
   
--   Importar el archivo .msi en otro grupo de BizTalk para crear la aplicación y los artefactos correspondientes en el grupo nuevo  
+- Importar el archivo .msi en otro grupo de BizTalk para crear la aplicación y los artefactos correspondientes en el grupo nuevo  
   
--   Instalar la aplicación en los equipos que la ejecutarán  
+- Instalar la aplicación en los equipos que la ejecutarán  
   
--   Instalar ensamblados de BizTalk en la caché de ensamblados global (GAC)  
+- Instalar ensamblados de BizTalk en la caché de ensamblados global (GAC)  
   
--   Supervisar el progreso de la implementación y probar la aplicación  
+- Supervisar el progreso de la implementación y probar la aplicación  
   
--   Implementar una aplicación en un socio comercial  
+- Implementar una aplicación en un socio comercial  
   
--   Editar un archivo de enlace para personalizar los enlaces para los distintos entornos de implementación  
+- Editar un archivo de enlace para personalizar los enlaces para los distintos entornos de implementación  
   
- Para las listas de comprobación de las tareas que debe realizar en escenarios de implementación de aplicación diferente, consulte [listas de comprobación de administración y la implementación de aplicaciones de BizTalk](../core/biztalk-application-deployment-and-management-checklists.md). Para obtener información general sobre las aplicaciones de BizTalk y su implementación, consulte [implementación de aplicación de BizTalk de descripción y administración](../core/understanding-biztalk-application-deployment-and-management.md). Para obtener información acerca de cómo crear una aplicación y cómo modificarla agregando o quitando artefactos o agregar una referencia a otra aplicación, consulte [crear y modificar las aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md). Para obtener información sobre cómo implementar ensamblados de BizTalk, consulte [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
+  Para listas de comprobación de tareas que debe realizar en escenarios de implementación de aplicación diferente, consulte [listas de comprobación de administración y la implementación de aplicaciones de BizTalk](../core/biztalk-application-deployment-and-management-checklists.md). Para obtener información general sobre las aplicaciones de BizTalk y su implementación, consulte [implementación de aplicaciones de BizTalk de comprensión y administración](../core/understanding-biztalk-application-deployment-and-management.md). Para obtener información sobre cómo crear una aplicación y modificarla agregando o quitando artefactos o agregar una referencia a otra aplicación, consulte [creación y modificación de las aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md). Para obtener información sobre cómo implementar ensamblados de BizTalk, consulte [implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Exportar aplicaciones de BizTalk, los enlaces y directivas](../core/exporting-biztalk-applications-bindings-and-policies.md)  
+-   [Exportación de aplicaciones, enlaces y directivas de BizTalk](../core/exporting-biztalk-applications-bindings-and-policies.md)  
   
--   [Importación de directivas, los enlaces y las aplicaciones de BizTalk](../core/importing-biztalk-applications-bindings-and-policies.md)  
+-   [Importación de aplicaciones, enlaces y directivas de BizTalk](../core/importing-biztalk-applications-bindings-and-policies.md)  
   
 -   [Cómo instalar una aplicación de BizTalk](../core/how-to-install-a-biztalk-application.md)  
   
--   [Supervisar el progreso de la implementación de aplicaciones de BizTalk](../core/monitoring-the-progress-of-your-biztalk-application-deployment.md)
+-   [Supervisión del progreso de implementación de la aplicación de BizTalk](../core/monitoring-the-progress-of-your-biztalk-application-deployment.md)

@@ -1,5 +1,5 @@
 ---
-title: Hechos | Documentos de Microsoft
+title: Hechos | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,23 +18,23 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2625223cdaa835d5bd2c93ac562cd3e365a3351e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bddfeb22484358f68d93f279a42a69c67812ec17
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22245796"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37017623"
 ---
 # <a name="facts"></a>Hechos
-Los hechos son elementos discretos de información acerca del mundo. Hechos pueden tener diferentes orígenes (sistemas de eventos, objetos en las aplicaciones empresariales, tablas de base de datos etc.) y se deben incluir en el motor de reglas de negocios en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante uno de los siguientes elementos:  
+Los hechos son elementos discretos de información acerca del mundo. Los hechos pueden tener diferentes orígenes (sistemas de eventos, objetos en aplicaciones empresariales, tablas de base de datos etc.) y se deben incluir en el motor de reglas de negocios en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante uno de los siguientes elementos:  
   
--   Objetos .NET (métodos, propiedades y campos)  
+- Objetos .NET (métodos, propiedades y campos)  
   
--   Documentos XML (elementos, atributos y subsecciones de documentos)  
+- Documentos XML (elementos, atributos y subsecciones de documentos)  
   
--   Conjunto de filas de base de datos (valores de columna de tabla)  
+- Conjunto de filas de base de datos (valores de columna de tabla)  
   
- En el Compositor de reglas de negocio, puede usar el Explorador de hechos para examinar y copiar datos de orígenes distintos en las reglas.  
+  En el Compositor de reglas de negocio, puede usar el Explorador de hechos para examinar y copiar datos de orígenes distintos en las reglas.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
@@ -42,7 +42,7 @@ Los hechos son elementos discretos de información acerca del mundo. Hechos pued
   
 -   [Hechos con tipo](../core/typed-facts.md)  
   
--   [Frente a hechos a corto plazo. Hechos a largo plazo](../core/short-term-facts-vs-long-term-facts.md)  
+-   [Hechos a corto plazo frente a hechos a largo plazo](../core/short-term-facts-vs-long-term-facts.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Motor de reglas de negocios](../core/business-rules-engine.md)
+ [Motor de reglas de negocio](../core/business-rules-engine.md)

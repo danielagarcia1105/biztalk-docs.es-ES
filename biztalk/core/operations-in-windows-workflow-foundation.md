@@ -1,5 +1,5 @@
 ---
-title: Operaciones de Windows Workflow Foundation | Documentos de Microsoft
+title: Operaciones en Windows Workflow Foundation | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62cb1ba3cb82a21bb573145d00057112784c89a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 057154a2e64541b00c704be7078ef27ba596de20
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22265628"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007605"
 ---
 # <a name="operations-in-windows-workflow-foundation"></a>Operaciones en Windows Workflow Foundation
 Esta sección contiene las operaciones personalizadas que admite el interceptor de WF de BAM.  
@@ -25,13 +25,13 @@ Esta sección contiene las operaciones personalizadas que admite el interceptor 
 ## <a name="determining-where-operations-are-allowed"></a>Determinar dónde se permiten las operaciones  
  Las operaciones personalizadas que proporciona el interceptor de WF de BAM se pueden clasificar según el tipo de punto de seguimiento asociado de Windows Workflow Foundation:  
   
--   Actividad  
+- Actividad  
   
--   Flujo de trabajo  
+- Flujo de trabajo  
   
--   Usuario  
+- Usuario  
   
- El interceptor de WF de BAM utiliza las categorías para asignar un tipo de punto de seguimiento a cada **OnEvent**. Basa esta asignación de los tipos de operaciones que ve en el **OnEvent** filtro y las secciones de extracción y manipulación de datos. Por ejemplo, si la **OnEvent** contiene un **actualización** elemento que usa el **GetUserData** operación, es el proceso de tipo de punto de realizar un seguimiento de usuario porque lo hacen los eventos de actividad y flujo de trabajo no se admite esta operación. Para obtener más información acerca de los puntos de seguimiento, vea System.Workflow.Runtime.Tracking en [http://go.microsoft.com/fwlink/?LinkId=80242](http://go.microsoft.com/fwlink/?LinkId=80242).  
+  El interceptor de WF de BAM utiliza las categorías para asignar un tipo de punto de seguimiento a cada **OnEvent**. Basa esta asignación en los tipos de operaciones que ve en el **OnEvent** filtro y las secciones de extracción y manipulación de datos. Por ejemplo, si la **OnEvent** contiene un **actualización** elemento que usa el **GetUserData** operación, es una pista de usuario tipo de punto dado que los eventos de actividad y flujo de trabajo no se admite esta operación. Para obtener más información acerca de los puntos de seguimiento, vea System.Workflow.Runtime.Tracking en [ http://go.microsoft.com/fwlink/?LinkId=80242 ](http://go.microsoft.com/fwlink/?LinkId=80242).  
   
 > [!NOTE]
 >  Los puntos de seguimiento de flujo de trabajo no pueden extraer datos del flujo de trabajo.  
@@ -42,20 +42,20 @@ Esta sección contiene las operaciones personalizadas que admite el interceptor 
 |---------------------------------|-------------------------------------|-------------------------------------|---------------------------------|  
 |Es igual a|Sí|Sí|Sí|  
 |And|Sí|Sí|Sí|  
-|Concatenate|No|No|No|  
+|Concatenate|no|no|no|  
 |Constante|Sí|Sí|Sí|  
-|GetActivityEvent (operación)|Sí|No|No|  
-|GetActivityName|Sí|No|Sí|  
-|GetActivityProperty|Sí|No|Sí|  
-|GetActivityType|Sí|No|Sí|  
-|GetContextProperty|No|No|No|  
-|GetUserData (operación)|No|No|No|  
-|GetUserDataType (operación)|No|No|Sí|  
-|GetUserKey (operación)|No|No|Sí|  
-|GetWorkflowEvent (operación)|No|Sí|No|  
-|GetWorkflowProperty|No|No|No|  
+|GetActivityEvent (operación)|Sí|no|no|  
+|GetActivityName|Sí|no|Sí|  
+|GetActivityProperty|Sí|no|Sí|  
+|GetActivityType|Sí|no|Sí|  
+|GetContextProperty|no|no|no|  
+|GetUserData (operación)|no|no|no|  
+|GetUserDataType (operación)|no|no|Sí|  
+|GetUserKey (operación)|no|no|Sí|  
+|GetWorkflowEvent (operación)|no|Sí|no|  
+|GetWorkflowProperty|no|no|no|  
   
- Si mezcla operaciones incompatibles, recibirá un error al implementar el archivo de configuración del interceptor. Por ejemplo, si se usan los la `GetActivityEvent` y `GetWorkflowEvent` dentro de un filtro, o en un evento de extracción o manipulación de datos y filtro (como **CorrelationID**), recibirá un error.  
+ Si mezcla operaciones incompatibles, recibirá un error al implementar el archivo de configuración del interceptor. Por ejemplo, si utiliza ambos el `GetActivityEvent` y `GetWorkflowEvent` dentro de un filtro, o en un evento de extracción o manipulación de datos y filtro (como **CorrelationID**), recibirá un error.  
   
  La tabla siguiente resume las operaciones que admite cada tipo de actividad en la extracción o la manipulación de datos.  
   
@@ -65,16 +65,16 @@ Esta sección contiene las operaciones personalizadas que admite el interceptor 
 |And|Sí|Sí|Sí|  
 |Concatenate|Sí|Sí|Sí|  
 |Constante|Sí|Sí|Sí|  
-|GetActivityEvent (operación)|Sí|No|No|  
-|GetActivityName|Sí|No|Sí|  
-|GetActivityProperty|Sí|No|Sí|  
-|GetActivityType|Sí|No|Sí|  
+|GetActivityEvent (operación)|Sí|no|no|  
+|GetActivityName|Sí|no|Sí|  
+|GetActivityProperty|Sí|no|Sí|  
+|GetActivityType|Sí|no|Sí|  
 |GetContextProperty|Sí|Sí|Sí|  
-|GetUserData (operación)|No|No|Sí|  
-|GetUserDataType (operación)|No|No|Sí|  
-|GetUserKey (operación)|No|No|Sí|  
-|GetWorkflowEvent (operación)|No|Sí|No|  
-|GetWorkflowProperty|Sí|No|Sí|  
+|GetUserData (operación)|no|no|Sí|  
+|GetUserDataType (operación)|no|no|Sí|  
+|GetUserKey (operación)|no|no|Sí|  
+|GetWorkflowEvent (operación)|no|Sí|no|  
+|GetWorkflowProperty|Sí|no|Sí|  
   
 > [!NOTE]
 >  Hay una asignación unívoca entre un único **OnEvent** y un único punto de seguimiento.  
@@ -89,15 +89,15 @@ Esta sección contiene las operaciones personalizadas que admite el interceptor 
   
 -   [GetActivityType](../core/getactivitytype.md)  
   
--   [Getcontextproperty (operación)](../core/getcontextproperty2.md)  
+-   [GetContextProperty](../core/getcontextproperty2.md)  
   
 -   [GetUserData](../core/getuserdata.md)  
   
--   [Getuserdatatype (operación)](../core/getuserdatatype.md)  
+-   [GetUserDataType](../core/getuserdatatype.md)  
   
--   [Getuserkey (operación)](../core/getuserkey.md)  
+-   [GetUserKey](../core/getuserkey.md)  
   
--   [Getworkflowevent (operación)](../core/getworkflowevent.md)  
+-   [GetWorkflowEvent](../core/getworkflowevent.md)  
   
 -   [GetWorkflowProperty](../core/getworkflowproperty.md)  
   

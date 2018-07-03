@@ -1,5 +1,5 @@
 ---
-title: Tipo de documento no es válido | Documentos de Microsoft
+title: Tipo de documento no es válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fec7dc4f2dfed0c8e8b8fcde13593d4e29997f7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0676653df3124de72740a18c1d29b58f9282f684
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239148"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001853"
 ---
 # <a name="doctype-is-invalid"></a>El tipo de documento no es válido
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|DocTypeInvalidFormat|  
-|Texto del mensaje|Doctype {0} no es válido. No es posible determinar uno o más Id. de conjunto de transacciones, espacio de nombres o versión|  
+|                 |                                                                                                                 |
+|-----------------|-----------------------------------------------------------------------------------------------------------------|
+|  Nombre del producto   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                |
+| Versión del producto |                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                            |
+|    Identificador del evento     |                                                        -                                                        |
+|  Origen del evento   |             EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]              |
+|    Componente    |                                                   Motor EDI                                                    |
+|  Nombre simbólico  |                                              DocTypeInvalidFormat                                               |
+|  Texto del mensaje   | DOCTYPE {0} no es válido. No es posible determinar uno o más Id. de conjunto de transacciones, espacio de nombres o versión |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción EDI no pudo procesar el intercambio entrante, pues el esquema no se ha descubierto correctamente.  

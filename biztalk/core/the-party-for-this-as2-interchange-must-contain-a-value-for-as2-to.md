@@ -1,5 +1,5 @@
 ---
-title: La entidad de este intercambio AS2 debe contener un valor para AS2-para | Documentos de Microsoft
+title: La entidad de este intercambio AS2 debe contener un valor para AS2-para | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4adda90c2ae0e5dfa659e3bd36dcadfc58f815ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 333657b16b0e4a0b9bbbb30c73641f7db8466b87
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279092"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006701"
 ---
 # <a name="the-party-for-this-as2-interchange-must-contain-a-value-for-as2-to"></a>La entidad de este intercambio AS2 debe contener un valor para AS2-To
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|InvalidAgreementAS2ToName|  
-|Texto del mensaje|La entidad de este intercambio AS2 debe contener un valor para AS2-To.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                               InvalidAgreementAS2ToName                                |
+|  Texto del mensaje   |          La entidad de este intercambio AS2 debe contener un valor para AS2-To.           |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que la canalización de envío no pudo procesar el mensaje AS2 saliente porque no se ha configurado la propiedad AS2-To para la entidad resuelta como receptora del mensaje. Esto indica que la entidad para el mensaje AS2 saliente se ha resuelto al hacer coincidir el puerto de envío asociado con la entidad con el puerto de envío que suscribió el mensaje.  

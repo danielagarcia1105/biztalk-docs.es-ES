@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial 2: EDI Interface Developer Tutorial | Documentos de Microsoft'
+title: 'Tutorial 2: EDI Interface Developer Tutorial | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9cb84454d2570ae6833847b598b55af6cf7777e9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7f995cc21bd94ddc00ab15d78c74679eb51d939b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37020433"
 ---
 # <a name="tutorial-2-edi-interface-developer-tutorial"></a>Tutorial 2: Tutorial de desarrollador de la interfaz EDI
 Este tutorial muestra cómo usar la funcionalidad EDI en un escenario de desarrolladores de interfaz de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -43,54 +43,54 @@ Este tutorial muestra cómo usar la funcionalidad EDI en un escenario de desarro
   
  La solución de este tutorial hará lo siguiente:  
   
-1.  Recibir un intercambio de archivos sin formato del socio comercial Fabrikam.  
+1. Recibir un intercambio de archivos sin formato del socio comercial Fabrikam.  
   
-    > [!NOTE]
-    >  Puede que los eventos de esta lista no se produzcan en el orden mostrado.  
+   > [!NOTE]
+   >  Puede que los eventos de esta lista no se produzcan en el orden mostrado.  
   
-2.  Validar el intercambio EDI con su esquema, desensamblar el mensaje a XML y depositar el mensaje XML en el cuadro de mensajes.  
+2. Validar el intercambio EDI con su esquema, desensamblar el mensaje a XML y depositar el mensaje XML en el cuadro de mensajes.  
   
-3.  Generar una confirmación 997 al intercambio EDI recibido y depositarla en el cuadro de mensajes.  
+3. Generar una confirmación 997 al intercambio EDI recibido y depositarla en el cuadro de mensajes.  
   
-4.  Recoger el XML de 997 mediante un puerto de envío unidireccional y ensamblar el intercambio EDI 997.  
+4. Recoger el XML de 997 mediante un puerto de envío unidireccional y ensamblar el intercambio EDI 997.  
   
-5.  Enviar un intercambio 997 a Fabrikam.  
+5. Enviar un intercambio 997 a Fabrikam.  
   
-6.  Recoger el XML del mensaje mediante un puerto de envío unidireccional y ensamblar el intercambio EDI del mensaje.  
+6. Recoger el XML del mensaje mediante un puerto de envío unidireccional y ensamblar el intercambio EDI del mensaje.  
   
-7.  Enviar un intercambio EDI a OrderSystem.  
+7. Enviar un intercambio EDI a OrderSystem.  
   
- **Configuración**  
+   **Configuración**  
   
- En este tutorial, llevará a cabo lo siguiente:  
+   En este tutorial, llevará a cabo lo siguiente:  
   
--   Configurar BizTalk para recibir un mensaje 850 de su socio comercial y devolver una confirmación 997.t  
+- Configurar BizTalk para recibir un mensaje 850 de su socio comercial y devolver una confirmación 997.t  
   
--   Utilizar una asignación de BizTalk para convertir el mensaje 850 al formato necesario según el sistema de pedidos. Este mapa se proporciona en los archivos del tutorial en el SDK de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Utilizar una asignación de BizTalk para convertir el mensaje 850 al formato necesario según el sistema de pedidos. Este mapa se proporciona en los archivos del tutorial en el SDK de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Configurar un puerto de recepción para recibir el mensaje 850.  
+- Configurar un puerto de recepción para recibir el mensaje 850.  
   
--   Configurar un puerto de envío para enviar el mensaje 850 a OrderSystem en el formato correcto.  
+- Configurar un puerto de envío para enviar el mensaje 850 a OrderSystem en el formato correcto.  
   
--   Configurar un puerto de envío para que se suscriba a la confirmación 997 generada por BizTalk y la devuelva al socio comercial, Fabrikam.  
+- Configurar un puerto de envío para que se suscriba a la confirmación 997 generada por BizTalk y la devuelva al socio comercial, Fabrikam.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Paso 1: Preparar el Tutorial de programadores de la interfaz EDI](../core/step-1-prepare-for-the-edi-interface-developer-tutorial.md)  
+-   [Paso 1: Prepara el tutorial de programadores de interfaces de EDI](../core/step-1-prepare-for-the-edi-interface-developer-tutorial.md)  
   
--   [Paso 2: Actualizar e implementar la solución del Tutorial](../core/step-2-update-and-deploy-the-tutorial-solution.md)  
+-   [Paso 2: Actualizar e implementar la solución del tutorial](../core/step-2-update-and-deploy-the-tutorial-solution.md)  
   
--   [Paso 3: Configurar una entidad y perfil de negocio para su organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization1.md)  
+-   [Paso 3: Configurar un perfil de entidad y negocio para la organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization1.md)  
   
--   [Paso 4: Configurar una entidad y perfil de negocio para el socio comercial](../core/step-4-configure-a-party-and-business-profile-for-your-trading-partner1.md)  
+-   [Paso 4: Configurar un perfil de entidad y negocio para el socio comercial](../core/step-4-configure-a-party-and-business-profile-for-your-trading-partner1.md)  
   
--   [Paso 5: Configurar un puerto de recepción y ubicación de recepción](../core/step-5-configure-a-receive-port-and-receive-location.md)  
+-   [Paso 5: Configurar un puerto y una ubicación de recepción](../core/step-5-configure-a-receive-port-and-receive-location.md)  
   
--   [Paso 6: Configurar un puerto de envío para enviar datos a su organización](../core/step-6-configure-a-send-port-to-send-data-to-your-organization.md)  
+-   [Paso 6: Configurar un puerto de envío para enviar datos a la organización](../core/step-6-configure-a-send-port-to-send-data-to-your-organization.md)  
   
 -   [Paso 7: Configurar un puerto de envío para enviar la confirmación al socio comercial](../core/step-7-configure-a-send-port-to-send-the-acknowledgment-to-trading-partner.md)  
   
--   [Paso 8: Configurar el acuerdo de socio comercial entre las partes](../core/step-8-configure-the-trading-partner-agreement-between-the-parties.md)  
+-   [Paso 8: Configurar el acuerdo entre socios comerciales entre las entidades](../core/step-8-configure-the-trading-partner-agreement-between-the-parties.md)  
   
 -   [Paso 9: Probar la solución EDI](../core/step-9-test-the-edi-solution.md)  
   

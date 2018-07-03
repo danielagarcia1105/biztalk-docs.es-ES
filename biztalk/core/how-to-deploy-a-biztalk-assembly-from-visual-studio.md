@@ -1,5 +1,5 @@
 ---
-title: Cómo implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft
+title: Cómo implementar un ensamblado de BizTalk desde Visual Studio | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 39
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8fc232edf6d99e31b5679932eb19873481fa579b
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 51895a80e3b0db50f9ee9061002506219943b823
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26007405"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010637"
 ---
 # <a name="how-to-deploy-a-biztalk-assembly-from-visual-studio"></a>Cómo implementar un ensamblado de BizTalk desde Visual Studio
 En este tema se proporcionan instrucciones sobre el uso del Explorador de soluciones de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] o el símbolo del sistema de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para implementar los ensamblados de BizTalk desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk. Aunque se pueda implementar un solo ensamblado desde el nivel de proyecto (haciendo clic con el botón secundario en el proyecto y haciendo clic en Implementar) o implementar todos los ensamblados en la solución al mismo tiempo desde el nivel de solución (haciendo clic con el botón secundario en la solución y haciendo clic en Implementar), recomendamos encarecidamente que se implementen todos al mismo tiempo desde el nivel de solución.  
   
  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se querían implementar varios ensamblados en una solución y alguno de ellos tenía una dependencia en cualquiera de los demás ensamblados, había que implementar individualmente los ensamblados en orden inverso a sus dependencias. Por ejemplo, si Ensamblado1 tenía una dependencia en Ensamblado2, había que implementar primero el Ensamblado 2 y, a continuación, el Ensamblado1.  
   
- Esto sigue siendo así al implementar ensamblados desde el nivel de proyecto. Con BizTalk Server, sin embargo, al implementar ensamblados desde el nivel de solución en lugar de nivel de proyecto, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ocupa automáticamente de todos los pasos de implementación, incluida la implementación de ensamblados en el orden correcto. Por lo tanto, para simplificar la implementación, cuando otro ensamblado tenga una dependencia en el ensamblado que se esté implementando, se deberán implementar los ensamblados en el nivel de solución.  
+ Esto sigue siendo así al implementar ensamblados desde el nivel de proyecto. Con BizTalk Server, sin embargo, al implementar ensamblados desde el nivel de solución en lugar de nivel de proyecto, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se encarga automáticamente de todos los pasos de implementación, incluida la implementación de ensamblados en el orden correcto. Por lo tanto, para simplificar la implementación, cuando otro ensamblado tenga una dependencia en el ensamblado que se esté implementando, se deberán implementar los ensamblados en el nivel de solución.  
   
  Al seleccionar la opción para implementar un proyecto o una solución desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], el ensamblado o ensamblados se crean e implementan automáticamente en la aplicación de BizTalk especificada en el grupo local de BizTalk. Si la aplicación aún no existe en el grupo, la implementación también crea la aplicación. Los ensamblados y los artefactos que contienen se registran y sus datos se guardan en la base de datos de administración (de configuración) de BizTalk correspondiente al grupo de BizTalk. Además, si se especifica esta opción en las propiedades de implementación del proyecto, los ensamblados se agregan a la caché de ensamblados global (GAC).  
   
- Un "artefacto" es cualquier elemento de una aplicación de BizTalk, incluidos los recursos con los que se trabaja en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tales como ensamblados y orquestaciones, así como otros elementos que se crean o se agregan posteriormente después de implementar la aplicación, tales como puertos de envío y recepción, certificados y scripts. Una vez implementado el ensamblado, se pueden ver y administrar sus artefactos en el nodo Aplicaciones de la consola de administración de [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]. Cada aplicación se almacena en su propia carpeta, con subcarpetas que muestran los artefactos de la aplicación. Para obtener más información, consulte [mediante la consola de administración de BizTalk Server](../core/using-the-biztalk-server-administration-console.md). Para obtener más información sobre cómo crear y administrar aplicaciones, consulte [implementar y administrar aplicaciones de BizTalk](../core/deploying-and-managing-biztalk-applications.md).  
+ Un "artefacto" es cualquier elemento de una aplicación de BizTalk, incluidos los recursos con los que se trabaja en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tales como ensamblados y orquestaciones, así como otros elementos que se crean o se agregan posteriormente después de implementar la aplicación, tales como puertos de envío y recepción, certificados y scripts. Una vez implementado el ensamblado, se pueden ver y administrar sus artefactos en el nodo Aplicaciones de la consola de administración de [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]. Cada aplicación se almacena en su propia carpeta, con subcarpetas que muestran los artefactos de la aplicación. Para obtener más información, consulte [mediante la consola de administración de BizTalk Server](../core/using-the-biztalk-server-administration-console.md). Para obtener más información sobre la creación y administración de aplicaciones, consulte [implementar y administrar aplicaciones de BizTalk](../core/deploying-and-managing-biztalk-applications.md).  
   
  Antes de implementar un ensamblado, hay que llevar a cabo los pasos siguientes:  
   
--   Crear un archivo de clave de ensamblado de nombre seguro y lo ha asignado a cada proyecto, como se describe en [cómo configurar un archivo de clave de ensamblado de nombre seguro](../core/how-to-configure-a-strong-name-assembly-key-file.md).  
+-   Crear un archivo de clave de ensamblado de nombre seguro y asignarlo a cada proyecto, como se describe en [cómo configurar un archivo de clave de ensamblado de nombre seguro](../core/how-to-configure-a-strong-name-assembly-key-file.md).  
   
 -   Establezca las propiedades de implementación para el proyecto, como se describe en [cómo establecer propiedades de implementación en Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md).  
   
@@ -40,20 +40,20 @@ En este tema se proporcionan instrucciones sobre el uso del Explorador de soluci
   
 > [!IMPORTANT]
 >  No se deben realizar las tareas que se describen en este tema en un equipo de producción. Durante el proceso de desarrollo, el programador suele volver a implementar ensamblados de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Para que ello sea posible, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] puede anular la implementación artefactos que existan en la misma aplicación o en aplicaciones distintas, y desenlazarlos, detenerlos y darlos de baja. Aunque esto resulta necesario y apropiado en un entorno de desarrollo, puede producir consecuencias inesperadas no deseadas en un entorno de producción. Además, para evitar la posibilidad de que alguien intente implementar un ensamblado desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en un equipo de producción, se recomienda que no instale [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en un equipo de producción.  
-  
+> 
 > [!NOTE]
 >   La directiva de seguridad en tiempo de ejecución de .NET Framework impide de forma predeterminada la implementación de ensamblados desde un recurso compartido de red. Si intenta implementar un ensamblado desde un recurso compartido de red y experimenta dificultades, consulte al administrador de seguridad de .NET Framework o vea la sección sobre administración de directivas de seguridad en la colección combinada de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar los procedimientos de este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. If, en **implementación** propiedades, se ha habilitado la opción instalar un ensamblado en la caché global de ensamblados (GAC), a continuación, también necesitará permisos de lectura/escritura en la GAC. La cuenta de administradores del equipo local cuenta con este permiso. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar los procedimientos de este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. If, en **implementación** propiedades, ha habilitado la opción de instalar un ensamblado en la caché global de ensamblados (GAC), a continuación, también necesitará permisos de lectura/escritura en la GAC. La cuenta de administradores del equipo local cuenta con este permiso. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ## <a name="to-deploy-a-biztalk-assembly-or-assemblies"></a>Para implementar un ensamblado o ensamblados de BizTalk  
   
 #### <a name="using-visual-studio-solution-explorer"></a>Mediante el Explorador de soluciones de Visual Studio  
   
--   En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones, haga clic en un proyecto de BizTalk o la solución y, a continuación, haga clic en **implementar**.  
+- En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones, haga clic en un proyecto de BizTalk o la solución y, a continuación, haga clic en **implementar**.  
   
-     El ensamblado del proyecto o los ensamblados de la solución se implementan en la aplicación de BizTalk especificada. El estado del proceso de generación e implementación se muestra en la esquina inferior izquierda de la página.  
+   El ensamblado del proyecto o los ensamblados de la solución se implementan en la aplicación de BizTalk especificada. El estado del proceso de generación e implementación se muestra en la esquina inferior izquierda de la página.  
   
 #### <a name="using-the-visual-studio-command-prompt"></a>Mediante el símbolo del sistema de Visual Studio  
   
@@ -61,7 +61,7 @@ En este tema se proporcionan instrucciones sobre el uso del Explorador de soluci
   
 2.  Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
   
-     **Devenv / deploy***Nombreconfigsolución* *nombresolución* [**/proyecto** *Nombre_proyecto*] [**/ projectconfig** *Nombreconfigproyecto*]  
+     **Devenv /Deploy***Nombreconfigsolución* *SolutionName* [**/proyecto** *Nombre_proyecto*] [**/ projectconfig** *Nombreconfigproyecto*]    
   
      Ejemplo:  
   

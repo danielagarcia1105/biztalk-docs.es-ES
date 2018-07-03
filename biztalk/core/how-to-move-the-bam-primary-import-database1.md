@@ -1,5 +1,5 @@
 ---
-title: Cómo mover la Database1 de importación principal de BAM | Documentos de Microsoft
+title: Cómo mover la base de datos1 de importación principal BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a63c556bfb95f4b22a3256540d3ecb336a17f7f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ff5caa9120be64e919ab4b6050f8df0c62fa33a6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25972666"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010613"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>Cómo mover la base de datos de importación principal de BAM
 Este procedimiento se puede utilizar para mover la base de datos de importación principal de BAM a otro servidor.  
@@ -30,31 +30,31 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 ### <a name="to-move-the-bam-primary-import-database"></a>Para mover la base de datos de importación principal de BAM  
   
-1.  Detenga todos los servicios de BizTalk Server. Para obtener más información, consulte [cómo iniciar, detener, pausar, reanudar o reiniciar los servicios de BizTalk Server](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
+1. Detenga todos los servicios de BizTalk Server. Para obtener más información, consulte [cómo iniciar, detener, pausar, reanudar o reiniciar los servicios de BizTalk Server](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
   
-2.  Detenga el servicio IIS.  
+2. Detenga el servicio IIS.  
   
-3.  Detenga el servicio de notificación para alertas de BAM:  
+3. Detenga el servicio de notificación para alertas de BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+   1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-    2.  En el símbolo del sistema, escriba:  
+   2.  En el símbolo del sistema, escriba:  
   
-        ```  
-        Net stop NS$BamAlerts  
-        ```  
+       ```  
+       Net stop NS$BamAlerts  
+       ```  
   
-4.  Siga las instrucciones en Libros en pantalla de SQL Server para realizar copias de seguridad de la base de datos de importación principal de BAM del servidor anterior.  
+4. Siga las instrucciones en Libros en pantalla de SQL Server para realizar copias de seguridad de la base de datos de importación principal de BAM del servidor anterior.  
   
-5.  Copie la base de datos de importación principal de BAM en el nuevo servidor SQL Server.  
+5. Copie la base de datos de importación principal de BAM en el nuevo servidor SQL Server.  
   
-6.  Siga las instrucciones en Libros en pantalla de SQL Server para restaurar la base de datos de importación principal de BAM en el nuevo servidor.  
+6. Siga las instrucciones en Libros en pantalla de SQL Server para restaurar la base de datos de importación principal de BAM en el nuevo servidor.  
   
-7.  En un equipo en el que se ejecute [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], desplácese hasta la siguiente carpeta:  
+7. En un equipo en el que se ejecute [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], desplácese hasta la siguiente carpeta:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore  
   
-8.  Haga clic en **SampleUpdateInfo.xml**y, a continuación, haga clic en **editar**.  
+8. Haga clic en **SampleUpdateInfo.xml**y, a continuación, haga clic en **editar**.  
   
 9. En la sección de la base de datos de importación principal del archivo, reemplace **"SourceServer"** con el nombre del sistema de origen y reemplace **"DestinationServer"** con el nombre del sistema de destino.  
   
@@ -131,13 +131,13 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
     1.  En el servidor que aloja SAE, abra el Administrador corporativo de SQL Server.  
   
-    2.  Abra la **Data Transformation Services** carpeta.  
+    2.  Abra el **Data Transformation Services** carpeta.  
   
-    3.  Abra la **paquetes locales** carpeta y, a continuación, abra los paquetes DTS.  
+    3.  Abra el **paquetes locales** carpeta y, a continuación, abra los paquetes DTS.  
   
     4.  En el **paquete** menú, haga clic en **propiedades**.  
   
-    5.  En el **Variables globales** ficha, actualice los valores para el servidor de importación principal y la base de datos.  
+    5.  En el **Variables globales** pestaña, actualice los valores para el servidor de importación principal y la base de datos.  
   
     6.  Cambie las líneas siguientes para que coincidan con el nuevo servidor y la nueva base de datos:  
   

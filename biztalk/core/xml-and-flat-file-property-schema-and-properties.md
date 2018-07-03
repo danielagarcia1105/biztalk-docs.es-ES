@@ -1,5 +1,5 @@
 ---
-title: Propiedades y esquema de propiedades de archivos XML y plana | Documentos de Microsoft
+title: Propiedades y esquema de propiedad de archivo XML y plana | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,19 +12,19 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb69a5375603d307c15a0bf884c924c0f6e6bb31
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 6de871dedff280604a48c7e2adcd47bb6bea5d41
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "22290420"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006149"
 ---
 # <a name="xml-and-flat-file-property-schema-and-properties"></a>Propiedades y esquema de propiedades de archivo sin formato y XML
-El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de nombres contiene propiedades que puede utilizar para configurar los componentes de canalización de ensamblador de archivo sin formato y desensamblador de archivo sin formato. Las propiedades se describen en la tabla siguiente.  
+El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de nombres contiene propiedades que puede utilizar para configurar los componentes de canalización de ensamblador de archivo sin formato y el Desensamblador de archivo sin formato. Las propiedades se describen en la tabla siguiente.  
 
 ## <a name="properties-list"></a>Lista Propiedades
-  
-|Propiedad|Tipo|Description|  
+
+|Property|Tipo|Descripción|  
 |--------------|----------|-----------------|  
 |**FlatFileHeaderDocument**|xs:string|El encabezado de un documento de archivo sin formato entrante puede almacenarse con esta propiedad.|  
 |**AllowUnrecognizedMessage**|xs:Boolean|Especifica si componentes XML deben procesar mensajes desconocidos.|  
@@ -37,12 +37,12 @@ El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de n
 |**AddXMLDeclaration**|xs:boolean|Especificar si debe agregarse una declaración XML a un documento saliente.|  
 |**HeaderSpecName**|xs:string|Especifica un encabezado de documento de archivo sin formato.|  
 |**TrailerSpecName**|xs:string|Especifica un finalizador de documento de archivo sin formato.|  
-|**PromotePropertiesOnly**|xs:boolean|Cuando se establece en **True**, el componente de desensamblador XML no quite un sobre de mensaje ni lo desensambla. solo se realiza una promoción de propiedad.|  
-  
+|**PromotePropertiesOnly**|xs:boolean|Cuando se establece en **True**, el componente de desensamblador XML no quita un sobre de mensaje ni lo desensamblar. solo se realiza una promoción de propiedad.|  
+
 ## <a name="see-also"></a>Vea también  
--  [Configurar el componente de canalización de ensamblador de archivo sin formato](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
--  [Configurar el componente de canalización de desensamblador de archivo sin formato](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
--  [Configurar el componente de canalización de ensamblador de XML](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
--  [Configurar el componente de canalización de desensamblador de XML](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
--  [Configurar componentes de canalización nativos](../core/configuring-native-pipeline-components.md)   
--  **Propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+- [Configurar el componente de canalización de ensamblador de archivo sin formato](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
+- [Configurar el componente de canalización de desensamblador de archivo sin formato](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
+- [Configurar el componente de canalización de ensamblador de XML](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
+- [Configurar el componente de canalización de desensamblador de XML](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
+- [Configurar componentes de canalización nativos](../core/configuring-native-pipeline-components.md)   
+- **Propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

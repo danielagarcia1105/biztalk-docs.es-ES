@@ -1,5 +1,5 @@
 ---
-title: Cambiar las propiedades de la instancia de Host | Documentos de Microsoft
+title: Cambiar las propiedades de la instancia de Host | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 859170362ce804db6eff5b0e928998f008d0c2c5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 53a64257f752e161963539256dcaca3f7f8f1077
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22255156"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003349"
 ---
 # <a name="update-host-instance-properties"></a>Actualizar las propiedades de la instancia de Host
 
@@ -38,7 +38,7 @@ Puede usar la consola de administración de BizTalk Server o el Instrumental de 
 > [!CAUTION]
 >  Si cambia las credenciales de una instancia de host, ha de cambiar también las credenciales correspondientes del servidor SQL Server. Si no actualiza las credenciales del servidor SQL Server, la instancia de host no funcionará correctamente.  
   
- Para obtener información acerca del uso de WMI para modificar una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+ Para obtener información sobre cómo usar WMI para modificar una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo este procedimiento, debe haber iniciado sesión como miembro del grupo de administradores y del grupo de administradores de BizTalk Server.  
@@ -60,29 +60,29 @@ Puede usar la consola de administración de BizTalk Server o el Instrumental de 
   
 ## <a name="steps"></a>Pasos
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
+2. En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk, haga clic en **configuración de plataforma**y, a continuación, haga clic en **instancias de Host**.  
   
-3.  En el panel de detalles, haga clic en la instancia de host que desea modificar y, a continuación, haga clic en **propiedades**.  
+3. En el panel de detalles, haga clic en la instancia de host que desea modificar y, a continuación, haga clic en **propiedades**.  
   
-4.  En el **propiedades de la instancia de Host** cuadro de diálogo, haga clic en **configurar** para modificar la información de cuenta de servicio.  
+4. En el **propiedades de la instancia de Host** cuadro de diálogo, haga clic en **configurar** para modificar la información de cuenta de servicio.  
   
-5.  En el **las credenciales de inicio de sesión** diálogo cuadro, escriba el nombre de cuenta y la contraseña de la cuenta en la que ejecutar la instancia de host y, a continuación, haga clic en **Aceptar**.  
+5. En el **las credenciales de inicio de sesión** diálogo cuadro, escriba el nombre de cuenta y la contraseña de la cuenta bajo la que ejecutará la instancia de host y, a continuación, haga clic en **Aceptar**.  
   
-6.  En el **propiedades de la instancia de Host** cuadro de diálogo, realice lo siguiente y, a continuación, haga clic en **Aceptar**:  
+6. En el **propiedades de la instancia de Host** cuadro de diálogo, haga lo siguiente y, a continuación, haga clic en **Aceptar**:  
   
-    |Use|Para|  
-    |--------------|----------------|  
-    |**Nombre de host**|Ver el nombre del host asociado con el servidor seleccionado.|  
-    |**Server**|Ver el servidor asociado con el host seleccionado.|  
-    |**Inicio de sesión**|Ver el nombre de cuenta de la cuenta de servicio nueva en la que se ejecutará la instancia de host.|  
-    |**Configurar**|Haga clic para mostrar la **las credenciales de inicio de sesión** cuadro de diálogo donde puede escribir el nombre de cuenta y la contraseña de la cuenta bajo la que se ejecutará la instancia de host.|  
-    |**Deshabilitar inicio de instancia de host**|Active esta casilla para cambiar el estado del host seleccionado de habilitado a deshabilitado. Deshabilitar una instancia de host es útil si no desea que se inicie la instancia de host pero sí quiere conservar su configuración.|  
+   |Use|Para|  
+   |--------------|----------------|  
+   |**Nombre de host**|Ver el nombre del host asociado con el servidor seleccionado.|  
+   |**Server**|Ver el servidor asociado con el host seleccionado.|  
+   |**Si está habilitada la limitación, a continuación, se convertirá en su entorno de BizTalk más allá de MST de inserción para que a su vez podría detectar qué el true MST es casi imposible.**|Ver el nombre de cuenta de la cuenta de servicio nueva en la que se ejecutará la instancia de host.|  
+   |**Configurar**|Haga clic para mostrar el **las credenciales de inicio de sesión** cuadro de diálogo donde puede escribir el nombre de cuenta y la contraseña de la cuenta bajo la que se ejecutará la instancia de host.|  
+   |**Deshabilitar inicio de instancia de host**|Active esta casilla para cambiar el estado del host seleccionado de habilitado a deshabilitado. Deshabilitar una instancia de host es útil si no desea que se inicie la instancia de host pero sí quiere conservar su configuración.|  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
  [Agregar una instancia de Host](../core/how-to-add-a-host-instance.md)   
  [Iniciar una instancia de Host](../core/how-to-start-a-host-instance.md)   
  [Detener una instancia de Host](../core/how-to-stop-a-host-instance.md)   
- [Eliminar una instancia de Host](../core/how-to-delete-a-host-instance.md)
+ [Eliminar una instancia de host](../core/how-to-delete-a-host-instance.md)

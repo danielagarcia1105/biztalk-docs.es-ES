@@ -1,5 +1,5 @@
 ---
-title: Crear canalizaciones personalizadas para procesar mensajes JSON | Documentos de Microsoft
+title: Crear canalizaciones personalizadas para procesar mensajes JSON | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e4c329bce3ee8f9e2e4faf11a60e5e38a82ff467
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: e28f825b1f26f3c080a02fd9a2e2bf8960a816fd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005013"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005997"
 ---
 # <a name="create-custom-pipelines-to-process-json-messages"></a>Crear canalizaciones personalizadas para procesar mensajes JSON
 > [!NOTE]
@@ -27,19 +27,19 @@ ms.locfileid: "26005013"
   
 ## <a name="create-a-custom-receive-pipeline"></a>Crear una canalización de recepción personalizada  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación, desde el Explorador de soluciones, haga clic en el proyecto y seleccione **agregar** > **nuevo elemento** > **decanalizaciónderecepción**. Proporcione el nombre de canalización como `JSONToXmlReceivePipeline.btp`y, a continuación, haga clic en **agregar**.  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación, desde el Explorador de soluciones, haga clic en el proyecto y elija **agregar** > **nuevo elemento** > **decanalizaciónderecepción**. Proporcione el nombre de la canalización como `JSONToXmlReceivePipeline.btp`y, a continuación, haga clic en **agregar**.  
   
-2.  En el **Decode** fase agrega el nuevo **descodificador JSON**. Proceda en las demás fases y otros componentes de canalización como se muestra en la captura de pantalla y guarde los cambios.  
+2. Dentro de la **Decode** agregar la nueva fase **descodificador JSON**. Proceda en las demás fases y otros componentes de canalización como se muestra en la captura de pantalla y guarde los cambios.  
   
-     ![Canalización de recepción personalizada](../core/media/btsjson-receivepipeline.png "BTSJSON_ReceivePipeline")  
+    ![Canalización de recepción personalizada](../core/media/btsjson-receivepipeline.png "BTSJSON_ReceivePipeline")  
   
 ## <a name="create-a-custom-send-pipeline"></a>Crear una canalización de envío personalizada  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación, desde el Explorador de soluciones, haga clic en el proyecto y seleccione **agregar** > **nuevo elemento** > **decanalizacióndeenvío**. Proporcione el nombre de canalización como `XmlToJSONSendPipeline.btp`y, a continuación, haga clic en **agregar**.  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación, desde el Explorador de soluciones, haga clic en el proyecto y elija **agregar** > **nuevo elemento** > **decanalizacióndeenvío**. Proporcione el nombre de la canalización como `XmlToJSONSendPipeline.btp`y, a continuación, haga clic en **agregar**.  
   
-2.  En el **Encode** fase agrega el nuevo **codificador JSON**. Proceda en las demás fases y otros componentes de canalización como se muestra en la captura de pantalla y guarde los cambios.  
+2. Dentro de la **Encode** agregar la nueva fase **codificador JSON**. Proceda en las demás fases y otros componentes de canalización como se muestra en la captura de pantalla y guarde los cambios.  
   
-     ![Canalización de envío personalizada](../core/media/btsjson-sendpipeline.png "BTSJSON_SendPipeline")  
+    ![Canalización de envío personalizada](../core/media/btsjson-sendpipeline.png "BTSJSON_SendPipeline")  
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes JSON con BizTalk Server](../core/processing-json-messages-using-biztalk-server.md)

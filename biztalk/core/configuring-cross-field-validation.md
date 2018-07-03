@@ -1,5 +1,5 @@
 ---
-title: Configuración de la validación de campos cruzados | Documentos de Microsoft
+title: Configuración de la validación de campos cruzados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4bde88ac82d69cdaa0dec7513e294953b7164b56
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 97951adc5c98f8350e7f42c92214f89558f2a70d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233652"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014493"
 ---
 # <a name="configuring-cross-field-validation"></a>Configurar la validación de campos cruzados
 Este tema describe cómo habilitar la validación de campos cruzados o segmentos en elementos de datos del conjunto de transacciones en mensajes con codificación EDI Para ello, necesita definir dos valores:  
   
--   Defina la marca de validación de campos cruzados en una anotación del esquema EDI. Para los esquemas HIPAA o X12, se trata de la **X12ConditionDesignator_Check** marca. Para los esquemas EDIFACT, se trata de la **EdifactDependencyRule_Check** marca.  
+-   Defina la marca de validación de campos cruzados en una anotación del esquema EDI. Para X12 o esquemas HIPAA, se trata la **X12ConditionDesignator_Check** marca. Para los esquemas EDIFACT, esta es la **EdifactDependencyRule_Check** marca.  
   
 -   Habilite la validación de tipo EDI en las propiedades del acuerdo.  
   
@@ -31,21 +31,21 @@ Este tema describe cómo habilitar la validación de campos cruzados o segmentos
   
 ### <a name="configuring-cross-field-validation"></a>Configurar la validación de campos cruzados  
   
-1.  Abra el esquema en el Editor de BizTalk.  
+1. Abra el esquema en el Editor de BizTalk.  
   
-2.  En el caso de un X12 o esquema HIPAA, busque el **X12ConditionDesignator_Check** marca una anotación en la sección appinfo del esquema. Establézcalo en **Sí**.  
+2. Para un X12 o esquema HIPAA, busque el **X12ConditionDesignator_Check** marca una anotación en la sección appinfo del esquema. Establézcalo en **Sí**.  
   
-    > [!NOTE]
-    >  Si establece la marca X12ConditionDesignator_Check para **Sí** no se puede realizar desde el Editor de esquema de BizTalk. pero puede abrirla en un bloc de notas o en un editor de texto similar, editarla y guardar el archivo de esquema (.xsd).  
+   > [!NOTE]
+   >  Si establece la marca X12ConditionDesignator_Check para **Sí** no se puede realizar desde el Editor de esquemas de BizTalk. pero puede abrirla en un bloc de notas o en un editor de texto similar, editarla y guardar el archivo de esquema (.xsd).  
   
-3.  En el caso de un esquema EDIFACT, busque el **EdifactDependencyRule_Check** marca la anotación en la sección appinfo del esquema. Establézcalo en **Sí**.  
+3. Para un esquema EDIFACT, busque el **EdifactDependencyRule_Check** marca la anotación en la sección appinfo del esquema. Establézcalo en **Sí**.  
   
-4.  Para los segmentos que correspondan del esquema, especifique las condiciones de relación (X12 e HIPAA) o las reglas de dependencia (EDIFACT) que sean de aplicación. Para obtener más información, consulte [validación cruzada de segmentos de campos](../core/cross-field-segment-validation.md).  
+4. Para los segmentos que correspondan del esquema, especifique las condiciones de relación (X12 e HIPAA) o las reglas de dependencia (EDIFACT) que sean de aplicación. Para obtener más información, consulte [validación cruzada de segmentos / campos](../core/cross-field-segment-validation.md).  
   
-    > [!NOTE]
-    >  Se especifica una regla o condición de validación de campos cruzados para un segmento del esquema EDI. Si especifica una regla de validación de campos cruzados para un elemento de datos en lugar de un segmento, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generará una advertencia cuando se lleve a cabo la validación del esquema.  
+   > [!NOTE]
+   >  Se especifica una regla o condición de validación de campos cruzados para un segmento del esquema EDI. Si especifica una regla de validación de campos cruzados para un elemento de datos en lugar de un segmento, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generará una advertencia cuando se lleve a cabo la validación del esquema.  
   
-5.  En el **validación** página (bajo la **configuración del conjunto de transacciones** sección) de la ficha de acuerdo unidireccional el **propiedades del acuerdo de** cuadro de diálogo acuerdo correspondiente, Asegúrese de que el **validación de tipo EDI** propiedad está seleccionada.  
+5. En el **validación** página (bajo la **configuración del conjunto de transacciones** sección) de la ficha de acuerdo unidireccional del **las propiedades del acuerdo** acuerdo correspondiente, cuadro de diálogo Asegúrese de que el **validación de tipo EDI** propiedad está seleccionada.  
   
 ## <a name="see-also"></a>Vea también  
  [Desarrollo de esquemas EDI](../core/developing-edi-schemas.md)

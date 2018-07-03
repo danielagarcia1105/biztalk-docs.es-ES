@@ -1,5 +1,5 @@
 ---
-title: Tutorial interrogative | Documentos de Microsoft
+title: Tutorial de interrogación | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,31 +16,31 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 642f2521917dd87b60ee43a4cd7decaeeb1f1365
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 92c832de8b6572e5ac70b79db1cbcc75d3812ea6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25960554"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003205"
 ---
-# <a name="interrogative-tutorial"></a>Tutorial interrogative
-Este tutorial contiene los pasos detallados que describen cómo usar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para facilitar procesos empresariales en un escenario de consulta/respuesta.  
+# <a name="interrogative-tutorial"></a>Tutorial de interrogación
+Este tutorial contiene los pasos detallados que describen cómo utilizar Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para facilitar procesos empresariales en un escenario de consulta/respuesta.  
   
 > [!NOTE]
->  Para utilizar este tutorial, debe instalar las herramientas de prueba MLLP. Estas herramientas no se instalan mediante una instalación típica de BTAHL7. Debe ejecutar una instalación personalizada y seleccione **herramienta de prueba de MLLP** desde la carpeta del adaptador y **instancias de prueba** desde la carpeta de artefactos. Si se instalan las herramientas de prueba, el sistema contendrá la carpeta \< *unidad*:\>\Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades. Vea [instalar el Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md).  
+>  Para usar este tutorial, debe instalar las herramientas de prueba MLLP. Estas herramientas no se instalan una instalación típica de BTAHL7. Debe ejecutar una instalación personalizada y seleccione **herramienta de prueba de MLLP** desde la carpeta del adaptador y **las instancias de prueba** desde la carpeta de artefactos. Si se instalan las herramientas de prueba, el sistema contendrá la carpeta \< *unidad*:\>\Program Files\Microsoft BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades. Consulte [instalar el Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md).  
   
-## <a name="interrogative-scenario"></a>Escenario interrogative  
- Este tutorial utiliza el escenario de Interrogative o consulta/respuesta. En este escenario, el flujo de trabajo es similar al que se muestra en la ilustración siguiente. La lista numerada de la figura siguiente describe el flujo de trabajo.  
+## <a name="interrogative-scenario"></a>Escenario de interrogación  
+ Este tutorial usa la consulta/respuesta o un escenario de interrogación. En este escenario, el flujo de negocio es similar al que se muestra en la ilustración siguiente. La lista numerada de la figura siguiente describe el flujo de trabajo.  
   
  ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-intertutorial.gif "hl7_intertutorial")  
   
-1.  El flujo de trabajo comienza cuando un sistema de admisión de descarga y transferir (ADT) envía una consulta en el sistema de información de salud. El mensaje HL7 utiliza el "**consulta ^ Q01**" esquema. En el tutorial, la utilidad MllpSend simula el ADT sistema envía el mensaje de consulta para el sistema de información de Hospital aprovechando el ADT puerto de recepción en el motor de integración de BTAHL7.  
+1.  El flujo de trabajo comienza cuando un sistema de admisión de descarga y transferir (ADT) envía una consulta al sistema de información de Hospital. El mensaje de HL7 usa el "**QRY ^ Q01**" esquema. En el tutorial, la utilidad MllpSend simula el ADT sistema que envía el mensaje de consulta al sistema de información de Hospital a través de la ADT puerto de recepción en el motor de integración de BTAHL7.  
   
 2.  El motor de integración de BTAHL7 recibe el mensaje de consulta desde el sistema ADT y lo valida. A continuación, la canalización de BTAHL7 envía una confirmación al ADT.  
   
 3.  El motor de la interfaz de BTAHL7 procesa el mensaje y, a continuación, el puerto de envío el mensaje de consulta en el destino de HIS de terceros a través de la HIS de rutas.  
   
-4.  Después de recibir la confirmación de la consulta original, el sistema ADT esperará una respuesta. El sistema de información de salud envían un mensaje de respuesta a través de la HIS puerto de recepción. Para este tutorial, la utilidad MllpSend simula el sistema de información de salud enviar el mensaje de respuesta.  
+4.  Después de recibir la confirmación de la consulta original, el sistema ADT espera una respuesta. Puerto de recepción de los envíos de sistema de información de Hospital un mensaje de respuesta hacia atrás por la HIS. Para este tutorial, la utilidad MllpSend simula el sistema de información de Hospital enviar el mensaje de respuesta.  
   
 5.  El motor de la interfaz de BTAHL7 procesa el mensaje de respuesta y, a continuación, se enruta a la entidad de destino a través del puerto de envío ADT.  
   

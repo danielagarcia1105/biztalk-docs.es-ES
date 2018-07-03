@@ -1,5 +1,5 @@
 ---
-title: MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,28 +19,28 @@ caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79d92ca7a65262d18a08cab700710284accfbf78
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f3780aa186146d0cc1b7bca90f7934f4823882ab
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975814"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014525"
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a>MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server)
 En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo usar un identificador de correlación producido por MQSeries Server en lugar de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="what-this-sample-does"></a>Descripción del ejemplo  
- La orquestación envía un mensaje con un valor vacío para la **MQMD_MsgID** propiedad en el encabezado del mensaje. MQSeries genera MessageID y CorrelationID y devuelve un mensaje con un valor asignado a **MQMD_MsgID** y **MQMD_CorrelId** puerto del adaptador de envío como parte de la respuesta en la petición-respuesta . La orquestación utiliza el identificador de correlación generado para inicializar el conjunto de correlaciones y se indica a continuación, el conjunto de correlaciones en la siguiente ubicación de recepción mediante la comprobación de la **MQMD_CorrelId** propiedad del mensaje. El adaptador también asigna el identificador de correlación para **BizTalk_CorrelationID**, que también se puede utilizar en una orquestación. Para obtener más información sobre el uso de identificadores de correlación con el adaptador, vea [correlación de solicitud y respuesta utilizando mensajes](../core/correlating-messages-using-request-reply.md).  
+ La orquestación envía un mensaje con un valor vacío para el **MQMD_MsgID** propiedad en el encabezado del mensaje. MQSeries genera MessageID y CorrelationID y devuelve un mensaje con un valor asignado a **MQMD_MsgID** y **MQMD_CorrelId** como parte de la respuesta de petición-respuesta de puerto del adaptador de envío . La orquestación usa el identificador de correlación generado para inicializar el conjunto de correlaciones y ubicación de recepción se indica a continuación, Establece la correlación en una posterior activando el **MQMD_CorrelId** propiedad del mensaje. El adaptador también asigna el identificador de correlación para **BizTalk_CorrelationID**, que también se podría usar en una orquestación. Para obtener más información sobre el uso de identificadores de correlación con el adaptador, vea [correlación de solicitud y respuesta utilizando mensajes](../core/correlating-messages-using-request-reply.md).  
   
 > [!IMPORTANT]
 >  Las orquestaciones que utilizan esta técnica pueden experimentar problemas si el mensaje de MQSeries Server llega antes que el identificador de correlación. Asegúrese de diseñar las orquestaciones de modo que otorgue el tiempo suficiente a MQSeries Server para devolver el identificador de correlación. Este ejemplo no considera esta posible condición de anticipación.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
+ *\<Ejemplos de la ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|**Archivo**|**Description**|  
+|**Archivo**|**Descripción**|  
 |--------------|---------------------|  
 |**MQSCorrelationSolicitResponse.btproj,**<br /><br /> **MQSCorrelationSolicitResponse.sln**|Archivos de proyectos y soluciones para la aplicación.|  
 |**MQSCorrelationSolicitResponse.odx**|El archivo de orquestación de BizTalk para la aplicación.|  
@@ -50,31 +50,31 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
 ## <a name="how-to-use-this-sample"></a>Uso del ejemplo  
  Para crear la aplicación, debe realizar los siguientes pasos:  
   
--   Crear dos colas MQSeries.  
+- Crear dos colas MQSeries.  
   
--   Configurar una ubicación de recepción y un puerto de envío de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Configurar una ubicación de recepción y un puerto de envío de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Habilitar la ubicación de recepción.  
+- Habilitar la ubicación de recepción.  
   
--   Inicie el puerto de envío.  
+- Iniciar el puerto de envío.  
   
--   Crear las carpetas correspondientes.  
+- Crear las carpetas correspondientes.  
   
--   Modificar la orquestación.  
+- Modificar la orquestación.  
   
--   Implementar, enlazar e iniciar la orquestación.  
+- Implementar, enlazar e iniciar la orquestación.  
   
- Si dispone de los permisos necesarios para la instalación de MQSeries Server para Windows, puede crear la cola MQSeries mediante los cuadros de diálogo del adaptador y puede omitir el procedimiento siguiente. Si no dispone de este acceso, puede crear la cola con IBM WebSphere MQ Explorer. Para crear las colas con WebSphere MQ Explorer, realice los siguientes pasos.  
+  Si dispone de los permisos necesarios para la instalación de MQSeries Server para Windows, puede crear la cola MQSeries mediante los cuadros de diálogo del adaptador y puede omitir el procedimiento siguiente. Si no dispone de este acceso, puede crear la cola con IBM WebSphere MQ Explorer. Para crear las colas con WebSphere MQ Explorer, realice los siguientes pasos.  
   
 ## <a name="creating-the-mqseries-queues-through-the-websphere-mq-explorer"></a>Crear las colas MQSeries con WebSphere MQ Explorer  
   
 #### <a name="to-create-the-mqseries-queues-through-the-websphere-mq-explorer"></a>Para crear las colas MQSeries con WebSphere MQ Explorer  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
+1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
   
-2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se suele llamar **QM_***< nombre_equipo >* donde *nombre_equipo* es el nombre del equipo.  
+2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se denomina normalmente ***** QM_ < nombre_equipo >* donde *nombre_equipo* es el nombre del equipo.  
   
-3.  Haga clic en **colas**, seleccione **New**y, a continuación, haga clic en **cola Local**.  
+3.  Haga clic en **colas**, apunte a **New**y, a continuación, haga clic en **cola Local**.  
   
 4.  En **Create Local Queue** cuadro de diálogo **nombre de la cola**, escriba "REPLYTOQ" y, a continuación, haga clic en **Aceptar**.  
   
@@ -91,13 +91,13 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 2.  Expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda la aplicación necesaria.  
   
-3.  Haga clic en **puertos de recepción**, seleccione **New**y, a continuación, haga clic en **puerto de recepción unidireccional**.  
+3.  Haga clic en **puertos de recepción**, apunte a **New**y, a continuación, haga clic en **puerto de recepción unidireccional**.  
   
-4.  En el **propiedades del puerto de recepción unidireccional** cuadro de diálogo, en la **nombre** cuadro, escriba "MQReply" y haga clic en **Aceptar**.  
+4.  En el **propiedades del puerto de recepción unidireccional** cuadro de diálogo el **nombre** cuadro, escriba "MQReply" y haga clic en **Aceptar**.  
   
-5.  En el panel izquierdo, haga clic en **ubicaciones de recepción** ficha y, a continuación, haga clic en **nuevo**.  
+5.  En el panel izquierdo, haga clic en **ubicaciones de recepción** pestaña y, a continuación, haga clic en **New**.  
   
-6.  En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **nombre** , escriba "MQReply".  
+6.  En el **propiedades de ubicación de recepción** cuadro de diálogo el **nombre** , escriba "MQReply".  
   
 7.  En el **tipo de transporte** cuadro, seleccione **MQSeries**.  
   
@@ -107,11 +107,11 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 10. Haga clic en **configurar**.  
   
-11. En el **propiedades de transporte MQSeries** cuadro de diálogo, en la **intervalo de sondeo** , escriba "10".  
+11. En el **propiedades de transporte MQSeries** cuadro de diálogo el **intervalo de sondeo** , escriba "10".  
   
 12. En el **definición de la cola** cuadro, haga clic en el botón de puntos suspensivos (...).  
   
-13. En el **definición de la cola** cuadro de diálogo, en la **nombre del servidor** , escriba el nombre del equipo.  
+13. En el **definición de la cola** cuadro de diálogo el **nombre del servidor** , escriba el nombre del equipo.  
   
 14. En el **Administrador de cola** , seleccione el Administrador de cola predeterminado.  
   
@@ -123,9 +123,9 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 #### <a name="to-create-the-send-port-and-mqseries-queue"></a>Para crear el puerto de envío y la cola MQSeries  
   
-1.  Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
+1.  Haga clic en **puertos de envío**, apunte a **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
-2.  En el **propiedades de puerto de envío** cuadro de diálogo, en la **nombre** , escriba "MQSolicitResponse".  
+2.  En el **propiedades de puerto de envío** cuadro de diálogo el **nombre** , escriba "MQSolicitResponse".  
   
 3.  En el **tipo de transporte** cuadro, seleccione **MQSeries**.  
   
@@ -135,9 +135,9 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 6.  Haga clic en **configurar**.  
   
-7.  En el **propiedades de transporte MQSeries** cuadro de diálogo, en la **definición de la cola** cuadro, haga clic en el botón de puntos suspensivos (...).  
+7.  En el **propiedades de transporte MQSeries** cuadro de diálogo el **definición de la cola** cuadro, haga clic en el botón de puntos suspensivos (...).  
   
-8.  En el **definición de la cola** cuadro de diálogo, en la **nombre del servidor** , escriba el nombre del equipo.  
+8.  En el **definición de la cola** cuadro de diálogo el **nombre del servidor** , escriba el nombre del equipo.  
   
 9. En el **Administrador de cola** , seleccione el Administrador de cola predeterminado.  
   
@@ -162,7 +162,7 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 1.  Si no existe ninguna, cree una carpeta denominada "temp" en la unidad C:\.  
   
-2.  Cree las carpetas en el **C:\temp** directorio denominado "Pickup2", "Dropit2" y "MoveIt".  
+2.  Crear carpetas en el **C:\temp** directorio denominado "Pickup2", "Dropit2" y "MoveIt".  
   
 ## <a name="modifying-the-orchestration-used-by-the-application"></a>Modificar la orquestación usada por la aplicación  
  Este procedimiento modifica la orquestación usada por la aplicación.  
@@ -170,7 +170,7 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
 ||  
 |-|  
 |Para modificar la orquestación usada por la aplicación|  
-|-En Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], haga doble clic en el archivo de solución, **MQSCorrelationSolicitResponse.sln**, para abrir la solución.<br /><br /> -En el panel Explorador de soluciones, haga doble clic en la orquestación **MQSCorrelationSolicitResponse.odx** para ver la orquestación.<br /><br /> -Haga doble clic en la forma asignación de mensajes **MessageAssignment_1** para iniciar el Editor de expresiones de BizTalk.<br /><br /> : Especifique el nombre de administrador de cola de MQSeries apropiado para la expresión siguiente:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_ReplyToQMgr) = "QM_<machine_name>";`<br /><br /> -Si desea que el mensaje de respuesta enviado desde BizTalk contenga todo el contenido del mensaje original en lugar de solo los primeros 100 bytes, modifique la línea siguiente en el Editor de expresiones de BizTalk.<br /><br /> -Línea original:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 768;`<br /><br /> Cambiar por:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 1792;`<br /><br /> -En el Editor de expresiones de BizTalk, haga clic en **Aceptar** para guardar la expresión modificada.<br /><br /> -En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], seleccione **archivo**y, a continuación, seleccione **guardar todo**.|  
+|-En Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], haga doble clic en el archivo de solución, **MQSCorrelationSolicitResponse.sln**para abrir la solución.<br /><br /> -Desde el panel Explorador de soluciones, haga doble clic en la orquestación **MQSCorrelationSolicitResponse.odx** para ver la orquestación.<br /><br /> -Haga doble clic en la forma asignación de mensajes **MessageAssignment_1** para iniciar el Editor de expresiones de BizTalk.<br /><br /> -Escriba el nombre de administrador de cola de MQSeries adecuado de la siguiente expresión:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_ReplyToQMgr) = "QM_<machine_name>";`<br /><br /> -Si desea que el mensaje de respuesta enviado desde BizTalk contenga todo el contenido del mensaje original en lugar de únicamente los 100 primeros bytes, modifique la línea siguiente en el Editor de expresiones de BizTalk.<br /><br /> -Línea original:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 768;`<br /><br /> Cambiar por:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 1792;`<br /><br /> -En el Editor de expresiones de BizTalk, haga clic en **Aceptar** para guardar la expresión modificada.<br /><br /> -En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], seleccione **archivo**y, a continuación, seleccione **guardar todo**.|  
   
 ## <a name="building-and-deploying-the-sample"></a>Generar e implementar el ejemplo  
  Este procedimiento genera e implementa la solución que contiene la orquestación usada en esta aplicación.  
@@ -231,17 +231,17 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 #### <a name="to-test-the-application"></a>Para probar la aplicación  
   
-1.  Coloque un archivo el **C:\Temp\Pickup2** carpeta.  
+1. Coloque un archivo en el **C:\Temp\Pickup2** carpeta.  
   
-2.  Examine los archivos de la **C:\Temp\Dropit2** carpeta y el **C:\Temp\Moveit**carpeta.  
+2. Examine los archivos en el **C:\Temp\Dropit2** carpeta y el **C:\Temp\Moveit**carpeta.  
   
-    -   El **C:\Temp\Dropit2** carpeta debe contener una copia del mensaje que ha recogido originalmente por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+   - El **C:\Temp\Dropit2** carpeta debe contener una copia del mensaje que se ha recogido originalmente [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    -   El **C:\Temp\Moveit**carpeta debería contener un documento de respuesta con el identificador de mensaje (MQMD_MsgId) y el identificador de correlación (MQMD_CorrelId).  
+   - El **C:\Temp\Moveit**carpeta debe contener un documento de respuesta con el identificador de mensajes (MQMD_MsgId) y el identificador de correlación (MQMD_CorrelId).  
   
-    > [!NOTE]
-    >  Si deshabilita la **MQReply** ubicación de recepción, puede examinar el mensaje en WebSphere MQ Explorer y observar que se establecen los identificadores de mensaje y correlación. Para ello, inicie la **WebSphere MQ Explorer** y examine el mensaje colocado en el **REPLYTOQ** cola. Los identificadores de mensaje y correlación aparecen en la **identificadores** pestaña de la **Messageproperties** cuadro de diálogo.  
+   > [!NOTE]
+   >  Si deshabilita el **MQReply** ubicación de recepción, puede examinar el mensaje en WebSphere MQ Explorer y observar que se establecen los identificadores de mensaje y correlación. Para ello, inicie el **WebSphere MQ Explorer** y examine el mensaje colocado en el **REPLYTOQ** cola. Los identificadores de mensaje y correlación aparecen en la **identificadores** pestaña de la **Messageproperties** cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Correlacionar mensajes mediante la solicitud y respuesta](../core/correlating-messages-using-request-reply.md)   
+ [Correlación de mensajes mediante la solicitud y respuesta](../core/correlating-messages-using-request-reply.md)   
  [Ejemplos del adaptador de MQSeries](../core/mqseries-adapter-samples.md)

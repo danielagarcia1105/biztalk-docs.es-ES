@@ -1,5 +1,5 @@
 ---
-title: No se pudo generar un nombre de archivo único | Documentos de Microsoft
+title: No se pudo generar un nombre de archivo único | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6b08fe4a4766aeb7edfd2f19076ec8ca72fd8f3d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f86cd0867e9b4819c88c2d788b7c7775cba35028
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22237764"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010661"
 ---
 # <a name="could-not-generate-a-unique-file-name"></a>No se pudo generar un nombre de archivo único
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se pudo generar un nombre de archivo único para "{0}" en la carpeta "{{1}"|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Nombre del producto   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Versión del producto |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Identificador del evento     |                                         0                                          |
+|  Origen del evento   |                                         0                                          |
+|    Componente    |                                         0                                          |
+|  Nombre simbólico  |                                         0                                          |
+|  Texto del mensaje   |          No se pudo generar un nombre de archivo único para "{0}"en la carpeta"{1}"           |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que ya existe un archivo con el mismo nombre.  

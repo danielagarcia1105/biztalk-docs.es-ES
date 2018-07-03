@@ -1,5 +1,5 @@
 ---
-title: El esquema de control debería tener segmentos en el orden siguiente ST .... SE | Documentos de Microsoft
+title: El esquema de control debería tener segmentos en el orden siguiente ST .... SE | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2563247dc6fc4c092fe2867c6b4d03239c4be7e1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c98bc756e4bd75a8a15111c54f433a7f9c6c0509
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269100"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015173"
 ---
 # <a name="schema-should-have-segments-in-the-following-order-st--se"></a>El esquema de control debería tener segmentos en el orden siguiente ST .... SE
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|SchemaCode116ETransactionSetSchemaStSeOutOfOrder|  
-|Texto del mensaje|El esquema de control debería tener segmentos en el orden siguiente ST .... SE|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                    SchemaCode116ETransactionSetSchemaStSeOutOfOrder                    |
+|  Texto del mensaje   |             El esquema de control debería tener segmentos en el orden siguiente ST .... SE              |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que el esquema de documento personalizado no es válido porque los encabezados y finalizadores no estaban en el orden correcto. BizTalk Server realiza esta validación cuando se implementa el esquema.  

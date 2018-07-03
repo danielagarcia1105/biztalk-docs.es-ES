@@ -1,5 +1,5 @@
 ---
-title: Disposition-Notification-Option no es válido | Documentos de Microsoft
+title: Disposition-Notification-Option no es válido | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72221c98dfcac42f735f63a1ce01a7c26bc45387
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 50831c03bc7dc0412cdb6fcd40ca981e87cf43f3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239052"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023194"
 ---
 # <a name="disposition-notification-option-is-invalid"></a>Disposition-Notification-Option no es válido
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Valor de disposition-Notification-Option: "{0}" no es válido. {1}|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                                           -                                            |
+|  Texto del mensaje   |              Valor disposition-Notification-Option: "{0}" no es válido. {1}              |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción AS2 no pudo generar el MDN debido a que el encabezado Disposition-Notification-Option no era válido.  

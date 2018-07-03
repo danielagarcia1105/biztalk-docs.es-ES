@@ -1,5 +1,5 @@
 ---
-title: Agregar una instancia de Host | Documentos de Microsoft
+title: Agregar una instancia de Host | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,22 +12,22 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c4c2e029e9599143c52577771a313d9810ca6f12
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c95dc019d1d6ed885d195f0c871fd91178b9a58a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25972754"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006821"
 ---
 # <a name="add-a-host-instance"></a>Agregar una instancia de Host
 
 ## <a name="overview"></a>Información general
-Puede usar Instrumental de administración de Windows (WMI) o la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para agregar instancias de host. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solo se puede agregar de una vez una instancia de host a un servidor. Para obtener más información acerca de las instancias de host, consulte [instancias de Host](../core/host-instances.md). Para obtener información acerca del uso de WMI para agregar una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+Puede usar Instrumental de administración de Windows (WMI) o la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para agregar instancias de host. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solo se puede agregar de una vez una instancia de host a un servidor. Para obtener más información acerca de las instancias de host, consulte [instancias de Host](../core/host-instances.md). Para obtener información sobre cómo usar WMI para agregar una instancia de host, consulte **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  Al agregar una instancia de host se asigna la instancia de un host dado a una instancia de BizTalk Server. Si tiene una instancia de host existente que deba reparar, puede actualizar las propiedades de la instancia de host. Debe detener una instancia de host existente para poder agregarla de nuevo. Para obtener información acerca de cómo detener una instancia de host, consulte [cómo detener una instancia de Host](../core/how-to-stop-a-host-instance.md).  
   
 > [!NOTE]
->  Si desea crear más de 26 instancias de host, debe seguir las instrucciones que aparecen en el artículo de Knowledge Base 184802, "User32.dll o Kernel32.dll se produce un error al inicializar," que está disponible en [http://go.microsoft.com/fwlink/?LinkId=26176](http://go.microsoft.com/fwlink/?LinkId=26176). Si necesita instancias de host adicionales tras aplicar las recomendaciones de este artículo de Knowledge Base, puede intentar reducir la cantidad de memoria disponible para cada instancia del servicio BTSNTSvc. Esto proporcionará memoria adicional necesaria para crear más instancias.  
+>  Si desea crear más que 26 instancias de host, debe seguir las instrucciones del artículo 184802, de Knowledge Base "User32.dll o Kernel32.dll se produce un error al inicializar," que está disponible en [ http://go.microsoft.com/fwlink/?LinkId=26176 ](http://go.microsoft.com/fwlink/?LinkId=26176). Si necesita instancias de host adicionales tras aplicar las recomendaciones de este artículo de Knowledge Base, puede intentar reducir la cantidad de memoria disponible para cada instancia del servicio BTSNTSvc. Esto proporcionará memoria adicional necesaria para crear más instancias.  
   
 > [!NOTE]
 >  La cuenta de servicio obtendrá de forma automática permisos de inicio de sesión como servicio en el servidor en el que se instale la instancia de host.  
@@ -52,23 +52,23 @@ Puede usar Instrumental de administración de Windows (WMI) o la consola de admi
   
 ## <a name="steps"></a>Pasos
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk y, a continuación, haga clic en **configuración de plataforma**.  
+2. En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk y, a continuación, haga clic en **configuración de plataforma**.  
   
-3.  Haga clic en **instancias de Host**, haga clic en **New**y, a continuación, haga clic en **instancia de Host**.  
+3. Haga clic en **instancias de Host**, haga clic en **New**y, a continuación, haga clic en **instancia de Host**.  
   
-4.  En el **propiedades de la instancia de Host** cuadro de diálogo, realice lo siguiente y, a continuación, haga clic en **Aceptar**:  
+4. En el **propiedades de la instancia de Host** cuadro de diálogo, haga lo siguiente y, a continuación, haga clic en **Aceptar**:  
   
-    |Use|Para|  
-    |--------------|----------------|  
-    |**Nombre de host**|Ver el nombre del host asociado con el servidor seleccionado.|  
-    |**Server**|Ver el servidor asociado con el host seleccionado.|  
-    |**Inicio de sesión**|Ver el nombre de cuenta de la cuenta de servicio nueva en la que se ejecutará la instancia de host.|  
-    |**Configurar**|Haga clic para mostrar la **las credenciales de inicio de sesión** cuadro de diálogo donde puede escribir el nombre de cuenta y la contraseña de la cuenta bajo la que se ejecutará la instancia de host.|  
-    |**Deshabilitar inicio de instancia de host**|Active esta casilla para cambiar el estado del host seleccionado de habilitado a deshabilitado. Deshabilitar una instancia de host es útil si no desea que se inicie la instancia de host pero sí quiere conservar su configuración.|  
+   |Use|Para|  
+   |--------------|----------------|  
+   |**Nombre de host**|Ver el nombre del host asociado con el servidor seleccionado.|  
+   |**Server**|Ver el servidor asociado con el host seleccionado.|  
+   |**Si está habilitada la limitación, a continuación, se convertirá en su entorno de BizTalk más allá de MST de inserción para que a su vez podría detectar qué el true MST es casi imposible.**|Ver el nombre de cuenta de la cuenta de servicio nueva en la que se ejecutará la instancia de host.|  
+   |**Configurar**|Haga clic para mostrar el **las credenciales de inicio de sesión** cuadro de diálogo donde puede escribir el nombre de cuenta y la contraseña de la cuenta bajo la que se ejecutará la instancia de host.|  
+   |**Deshabilitar inicio de instancia de host**|Active esta casilla para cambiar el estado del host seleccionado de habilitado a deshabilitado. Deshabilitar una instancia de host es útil si no desea que se inicie la instancia de host pero sí quiere conservar su configuración.|  
   
- Tras instalar una instancia de host, debe iniciarla para que pueda enrutar mensajes a las bases de datos de cuadro de mensajes. Para obtener información acerca de cómo iniciar una instancia de host, consulte [cómo iniciar una instancia de Host](../core/how-to-start-a-host-instance.md).  
+   Tras instalar una instancia de host, debe iniciarla para que pueda enrutar mensajes a las bases de datos de cuadro de mensajes. Para obtener información acerca de cómo iniciar una instancia de host, consulte [cómo iniciar una instancia de Host](../core/how-to-start-a-host-instance.md).  
   
 ## <a name="known-issues"></a>Problemas conocidos  
   
@@ -87,26 +87,26 @@ Puede usar Instrumental de administración de Windows (WMI) o la consola de admi
   
  Cuando se hace clic en Aceptar para omitir el cuadro de diálogo, aparecerá otro cuadro de diálogo con el siguiente mensaje de error:  
   
- Limpiar anuló la instalación de host \< *nombre de host* \> en servidor \< *nombre del servidor* \> error.  
+ Limpiar la instalación anulada de host \< *nombre de host* \> en servidor \< *nombre del servidor* \> error.  
   
  Información adicional:  
   
  Se produjo un error al eliminar el servicio de Windows NT BTSSvc {*\<GUID\>*}. (WinMgmt)  
   
- Al hacer clic en **Aceptar** para cerrar este cuadro de diálogo, la instancia del host de BizTalk se verá en la consola de administración de BizTalk con un **estado** de **desinstalar no se pudo** .  
+ Al hacer clic en **Aceptar** para descartar este cuadro de diálogo, la instancia del host de BizTalk se verá en la consola de administración de BizTalk con un **estado** de **no se pudo desinstalar** .  
   
 ##### <a name="cause"></a>Causa  
  Cuando se crea una instancia de host, se realiza una entrada en la base de datos de administración de BizTalk antes de que se instale la instancia de host en el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] designado. Si no se lleva a cabo correctamente la instalación de la instancia de host en el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] designado, el programa de administración de BizTalk intentará desinstalar la instancia de host pero, puesto que el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no está disponible, la desinstalación también generará errores.  
   
 ##### <a name="resolution"></a>Solución  
- Si se crea una instancia de host de BizTalk en la consola de administración de BizTalk con un estado de **desinstalar no se pudo**, elimine la instancia de host y vuelva a la instancia de host una vez el equipo de BizTalk Server designado esté disponible.  
+ Si se crea una instancia de host de BizTalk en la consola de administración de BizTalk con el estado **no se pudo desinstalar**, elimine la instancia de host y vuelva a la instancia de host después de que el equipo de BizTalk Server designado esté disponible.  
   
 > [!NOTE]
->  Si se crea una instancia de host de BizTalk en la consola de administración de BizTalk con un **estado** de **desinstalar no se pudo** la instancia de host no será funcional incluso después de designado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo vuelva a estar disponible.  
+>  Si se crea una instancia de host de BizTalk en la consola de administración de BizTalk con un **estado** de **no se pudo desinstalar** la instancia de host no será funcional incluso después de designado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo vuelva a estar disponible.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
  [Iniciar una instancia de Host](../core/how-to-start-a-host-instance.md)   
  [Detener una instancia de Host](../core/how-to-stop-a-host-instance.md)   
  [Eliminar una instancia de Host](../core/how-to-delete-a-host-instance.md)   
- [Modificar las propiedades de la instancia de Host](../core/how-to-modify-host-instance-properties.md)
+ [Modificar propiedades de la instancia de Host](../core/how-to-modify-host-instance-properties.md)

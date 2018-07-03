@@ -1,5 +1,5 @@
 ---
-title: 'Paso 16: Iniciar la orquestación | Documentos de Microsoft'
+title: 'Paso 16: Iniciar la orquestación | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,26 +15,26 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5256d33dc6751db34d1d827624d2dbe2644639e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d2d1429d6b5d8df7facf55900683356200279b9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206180"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992774"
 ---
 # <a name="step-16-start-the-orchestration"></a>Paso 16: Iniciar la orquestación
-En este paso, dé de alta el servicio con el fin de asociar el proceso empresarial que ha diseñado en la orquestación con el entorno físico en el que se ejecutará la orquestación. Además, iniciar el procesamiento de la orquestación para que pueda probar la aplicación.  
+En este paso, dé de alta el servicio con el fin de asociar el proceso empresarial que se ha diseñado en la orquestación con el entorno físico en el que se ejecutará la orquestación. Además, inicia el procesamiento de la orquestación para que pueda probar la aplicación.  
   
 ### <a name="to-start-the-orchestration"></a>Para iniciar la orquestación  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, en el panel de árbol de consola, en **orquestaciones**, haga clic en **BTAHL7_Project.Doorbell_Orchestration**y, a continuación, haga clic en **dar de alta** .  
+1. En el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, en el panel de árbol de consola, en **orquestaciones**, haga clic en **BTAHL7_Project.Doorbell_Orchestration**y, a continuación, haga clic en **dar de alta** .  
   
-2.  Haga clic en **BTAHL7_Project.Doorbell_Orchestration**y, a continuación, haga clic en **iniciar**.  
+2. Haga clic en **BTAHL7_Project.Doorbell_Orchestration**y, a continuación, haga clic en **iniciar**.  
   
-    > [!NOTE]
-    >  Asegúrese de que se ha iniciado la **MLLPSendPort** puerto de envío y habilitar la **WebService_BTAHL7_Project_Proxy/BTAHL7_Project_Doorbell_Orchestration_SOAPReceivePort** ubicación de recepción.  
+   > [!NOTE]
+   >  Asegúrese de que ha iniciado la **MLLPSendPort** puerto de envío y habilitar el **WebService_BTAHL7_Project_Proxy/BTAHL7_Project_Doorbell_Orchestration_SOAPReceivePort** ubicación de recepción.  
   
- Continúe con [paso 17: crear la aplicación WSClient](../../adapters-and-accelerators/accelerator-hl7/step-17-create-the-wsclient-application.md).  
+   Continúe con [paso 17: crear la aplicación WSClient](../../adapters-and-accelerators/accelerator-hl7/step-17-create-the-wsclient-application.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial de enriquecimiento de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

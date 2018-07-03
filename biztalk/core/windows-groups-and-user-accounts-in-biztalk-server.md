@@ -1,5 +1,5 @@
 ---
-title: Grupos de Windows y cuentas de usuario en BizTalk Server | Documentos de Microsoft
+title: Cuentas de usuario en BizTalk Server y grupos de Windows | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -85,15 +85,15 @@ caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a04b8e774156acaaa44dc49377bbdd7e3f91b198
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: e86772c5ae2565407d53a46cf9af16e214089f9e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976106"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016059"
 ---
 # <a name="windows-groups-and-user-accounts-in-biztalk-server"></a>Cuentas de grupos y de usuario de Windows en BizTalk Server
-Información sobre las cuentas de usuario y grupo de locales y de dominio de BizTalk Server. El Administrador de configuración crea las cuentas de grupo de BizTalk necesarias de forma predeterminada si se instala BizTalk Server con todo el software necesario en un solo equipo. La información de esta sección se aplica a topologías de varios equipos.  
+Información acerca de las cuentas de usuario y grupo de dominio y locales de BizTalk Server. El Administrador de configuración crea las cuentas de grupo de BizTalk necesarias de forma predeterminada si se instala BizTalk Server con todo el software necesario en un solo equipo. La información de esta sección se aplica a topologías de varios equipos.  
   
 > [!IMPORTANT]
 >  BizTalk Server admite cuentas locales de grupo y de usuario sólo en configuraciones de un solo equipo. BizTalk Server admite cuentas de grupo de dominio y de usuario en configuraciones de uno y de varios equipos. Si utiliza grupos de dominio para la configuración de BizTalk Server, debe crear los grupos manualmente antes de configurar BizTalk Server. El Administrador de configuración no puede crear grupos de dominio.  
@@ -102,22 +102,22 @@ Información sobre las cuentas de usuario y grupo de locales y de dominio de Biz
   
 #### <a name="to-create-windows-group-and-user-accounts-in-biztalk-server"></a>Para crear cuentas de grupo y de usuario de Windows en BizTalk Server  
   
-1.  Con Active Directory, desde el **iniciar** menú, elija **programas**, seleccione **herramientas administrativas**y seleccione **usuarios de Active Directory y Equipos**.  
+1. Con Active Directory, desde el **iniciar** menú, elija **programas**, apunte a **herramientas administrativas**y seleccione **usuarios de Active Directory y Equipos**.  
   
-2.  En la ventana usuarios y equipos de usuarios de Active Directory, haga clic en la parte inferior del panel derecho, o haga clic en el **usuarios** carpeta en el árbol de navegación en el panel izquierdo.  
+2. En la ventana usuarios y equipos de usuarios de Active Directory, haga doble clic en la parte inferior del panel derecho, o haga clic en el **usuarios** carpeta en el árbol de navegación en el panel izquierdo.  
   
-3.  Seleccione **New**, a continuación, seleccione **grupo** o **usuario**.  
+3. Seleccione **New**, a continuación, seleccione **grupo** o **usuario**.  
   
-4.  Escriba la información de grupo o de usuario indicada en la tabla siguiente.  
+4. Escriba la información de grupo o de usuario indicada en la tabla siguiente.  
   
- En la tabla siguiente se enumeran los grupos de Windows usados por BizTalk Server, junto con sus pertenencias. También se identifican las funciones de servidor SQL Server o de base de datos de cada grupo.  
+   En la tabla siguiente se enumeran los grupos de Windows usados por BizTalk Server, junto con sus pertenencias. También se identifican las funciones de servidor SQL Server o de base de datos de cada grupo.  
   
 |Grupo|Descripción del grupo|Pertenencia|Funciones de servidor SQL Server o de base de datos|  
 |-----------|-----------------------|----------------|----------------------------------------|  
 |Administradores de SSO|Administrador del servicio de inicio de sesión único (SSO) empresarial.|Contiene cuentas de servicio para el servicio de inicio de sesión único empresarial.<br /><br /> Contiene usuarios o grupos que necesitan tener la capacidad de configurar y administrar BizTalk Server y el servicio de SSO.<br /><br /> Contiene cuentas utilizadas para ejecutar el Administrador de configuración de BizTalk al configurar el servidor secreto principal de SSO.|Función de base de datos de servidor SQL Server db_owner para el SSO<br /><br /> Función de servidor SQL Server securityadmin para el servidor SQL Server en que se encuentra SSO|  
 |Administradores afiliados de SSO|Administradores de ciertas aplicaciones afiliadas de SSO.<br /><br /> Puede crear o eliminar aplicaciones afiliadas de SSO, administrar asignaciones de usuarios y definir credenciales para usuarios de aplicaciones afiliadas|No contiene ninguna cuenta de servicio.<br /><br /> Contiene una cuenta utilizada para los Administradores de BizTalk Server.||  
 |Administradores de servidor BizTalk Server|Tiene los privilegios mínimos necesarios para realizar tareas administrativas<br /><br /> Puede implementar soluciones, administrar aplicaciones y resolver problemas de procesamiento de mensajes.<br /><br /> Para poder realizar tareas administrativas para los adaptadores, recibir y enviar controladores y recibir ubicaciones, los Administradores de BizTalk Server deben agregarse a los Administradores afiliados de inicio de sesión único.<br /><br /> Para obtener más información, consulte [administrar la seguridad de BizTalk Server](../core/managing-biztalk-server-security.md).|Contiene usuarios o grupos que necesitan poder configurar y administrar BizTalk Server.|Función de base de datos de servidor SQL Server BTS_ADMIN_USERS en las siguientes bases de datos:<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport<br /><br /> Función de base de datos de servidor SQL Server db_owner para las siguientes bases de datos:<br /><br /> BAMStarSchema<br /><br /> BAMPrimaryImport<br /><br /> BAMArchive<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Rol de base de datos de servidor SQL Server NSAdmin en las siguientes bases de datos:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Administradores de OLAP en el equipo que hospeda la base de datos de OLAP BAMAnalysis.|  
-|Operadores de servidor BizTalk Server|Tiene una función de pocos privilegios, con acceso sólo para supervisar y solucionar problemas de acciones<br /><br /> Para obtener más información, vea [administrar la seguridad de BizTalk Server](../core/managing-biztalk-server-security.md)|Contiene usuarios o grupos que supervisarán soluciones.<br /><br /> No contiene ninguna cuenta de servicio.|Rol de base de datos de SQL Server BTS_OPERATORS en las siguientes bases de datos:<br /><br /> BizTalkDTADb<br /><br /> BizTalkEDIDb<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb|  
+|Operadores de servidor BizTalk Server|Tiene una función de pocos privilegios, con acceso sólo para supervisar y solucionar problemas de acciones<br /><br /> Para obtener más información, consulte [administrar la seguridad de BizTalk Server](../core/managing-biztalk-server-security.md)|Contiene usuarios o grupos que supervisarán soluciones.<br /><br /> No contiene ninguna cuenta de servicio.|Rol de base de datos de SQL Server BTS_OPERATORS en las siguientes bases de datos:<br /><br /> BizTalkDTADb<br /><br /> BizTalkEDIDb<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb|  
 |Usuarios de aplicación de BizTalk|El nombre predeterminado del primer grupo de host de BizTalk de tipo En curso creado por el administrador de configuración.<br /><br /> Use un Grupo de host de BizTalk por cada host de tipo En curso de su entorno.<br /><br /> Incluye cuentas con acceso a hosts In-Process de BizTalk (procesos de host en BizTalk Server, BTSNTSvc.exe).|Contiene cuentas de servicio para la instancia de host In-Process de BizTalk en el host para el que se ha designado el grupo de host de BizTalk.|Rol de base de datos de SQL Server BTS_HOST_USERS en las siguientes bases de datos:<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport<br /><br /> Función de base de datos de servidor SQL Server de BAM_EVENT_WRITER en el BAMPrimaryImport|  
 |Usuarios de hosts aislados de BizTalk|El nombre predeterminado del primer Grupo de host de BizTalk aislado creado por el Administrador de configuración. Hosts de BizTalk aislados que no se ejecutan en BizTalk Server, como HTTP y SOAP.<br /><br /> Utilice un grupo de host aislado de BizTalk por cada host aislado de su entorno.|Contiene cuentas de servicio para la instancia de host de BizTalk aislado en el host para el que se ha designado el grupo de host aislado de BizTalk.|Rol de base de datos de SQL Server BTS_HOST_USERS en las siguientes bases de datos:<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport|  
 |Usuarios del portal de SAE|Tiene acceso al sitio web del portal de BAM.|Para esta función se usa el grupo Todos de forma predeterminada.<br /><br /> No contiene ninguna cuenta de servicio.||  
@@ -132,7 +132,7 @@ Información sobre las cuentas de usuario y grupo de locales y de dominio de Biz
 |Cuenta de instancias de host de BizTalk|Cuenta de servicio usada para ejecutar la instancia de host In-Process de BizTalk que tiene acceso a la instancia de host In-Process de BizTalk (BTNTSVC).|Usuarios de aplicación de BizTalk<br /><br /> Administradores afiliados de SSO||  
 |Cuenta de instancia de host aislada de BizTalk|Cuenta de servicio usada para ejecutar la instancia de host de BizTalk aislada (HTTP/SOAP).|Usuarios de hosts aislados de BizTalk<br /><br /> Administradores afiliados de SSO<br /><br /> IIS_WPG||  
 |Servicio de actualización de motor de reglas|Cuenta de servicio usada para ejecutar el Servicio de actualización del motor de reglas; recibe notificaciones de la base de datos de motor de reglas relativas a directivas de implementación o de anulación de implementación.||Función de base de datos de servidor SQL Server RE_HOST_USERS en el BizTalkRuleEngineDb|  
-|Usuario de BAM Notification Services|Cuenta de servicio usada para ejecutar Servicios de notificación de SAE; tiene acceso a las bases de datos de SAE.|SQLServer2008NotificationServicesUser$\<**NombreDeEquipo**\>|Función de base de datos de servidor SQL Server NSRunService en las bases de datos siguientes:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Función de servidor SQL Server BAM_ManagementNSReader para el BAMPrimaryImport|  
+|Usuario de BAM Notification Services|Cuenta de servicio usada para ejecutar Servicios de notificación de SAE; tiene acceso a las bases de datos de SAE.|SQLServer2008NotificationServicesUser$\<**ComputerName**\>|Función de base de datos de servidor SQL Server NSRunService en las bases de datos siguientes:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Función de servidor SQL Server BAM_ManagementNSReader para el BAMPrimaryImport|  
 |Usuario de servicio web de administración de BAM|Cuenta de usuario para que el servicio web de administración de BAM (BAMManagementService) tenga acceso a varios recursos de BAM. El portal de SAE llama a BAMManagementService con las credenciales de usuario registradas en el portal de SAE para administrar alertas, obtener el XML de definición de SAE y obtener vistas de SAE|IIS_WPG|Función de base de datos de servidor SQL Server NSSubscriberAdmin en las siguientes bases de datos:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Función de servidor SQL Server BAM_ManagementWS para el BAMPrimaryImport|  
 |Cuenta de grupo de aplicaciones de SAE|Cuenta de grupo de aplicaciones para BAMAppPool que aloja el sitio Web del portal de SAE.|IIS_WPG||  
   

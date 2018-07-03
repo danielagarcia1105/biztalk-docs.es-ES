@@ -1,5 +1,5 @@
 ---
-title: Administración de Hosts y las cuentas de servicio | Documentos de Microsoft
+title: Administración de Hosts y cuentas de servicio | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,12 +23,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0099e683fba7c5f4e2400ad2f9ce005928b0a2aa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0f33a484d67981bb72908243b82e7835e0390e3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262388"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016118"
 ---
 # <a name="managing-hosts-and-service-accounts"></a>Administrar hosts y cuentas de servicio
 Después de configurar BizTalk Server, tendrá que administrar grupos de Windows y cuentas de usuario. En esta sección se proporciona información acerca de cómo administrar estas cuentas para BizTalk Server.  
@@ -38,20 +38,20 @@ Después de configurar BizTalk Server, tendrá que administrar grupos de Windows
   
  Para realizar las tareas siguientes, tendrá que ser un administrador de Windows:  
   
--   Crear un grupo de Windows de host  
+- Crear un grupo de Windows de host  
   
--   Crear cuentas de servicio para cada instancia de host  
+- Crear cuentas de servicio para cada instancia de host  
   
--   Agregar cuentas de servicio al grupo de Windows de host  
+- Agregar cuentas de servicio al grupo de Windows de host  
   
--   Modificar el grupo de Windows asociado al host  
+- Modificar el grupo de Windows asociado al host  
   
- Para una lista completa y una descripción de los grupos y sus cuentas de usuarios afiliados en BizTalk Server, vea [grupos de Windows y cuentas de usuario en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
+  Para una lista completa y una descripción de los grupos y sus cuentas de usuarios afiliados en BizTalk Server, consulte [grupos de Windows y cuentas de usuario en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
   
- Para obtener más información de derechos de usuario mínimos de seguridad para tareas administrativas, consulte [derechos de usuario mínimos de seguridad](../core/minimum-security-user-rights.md).  
+  Para obtener más información de derechos de usuario mínimos de seguridad para las tareas administrativas, consulte [derechos de usuario mínimos de seguridad](../core/minimum-security-user-rights.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Cómo crear servicio cuentas para nuevos Hosts e instancias de Host](../core/how-to-create-service-accounts-for-new-hosts-and-host-instances.md)  
+-   [Cómo crear el servicio de cuentas para nuevos Hosts e instancias de Host](../core/how-to-create-service-accounts-for-new-hosts-and-host-instances.md)  
   
 -   [Cómo cambiar contraseñas y cuentas de servicio](../core/how-to-change-service-accounts-and-passwords.md)

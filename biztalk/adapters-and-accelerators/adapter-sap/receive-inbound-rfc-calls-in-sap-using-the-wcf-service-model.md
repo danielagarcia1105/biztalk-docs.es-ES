@@ -1,5 +1,5 @@
 ---
-title: Recibir llamadas de RFC de entrada en SAP mediante el modelo de servicio de WCF | Documentos de Microsoft
+title: Recibir llamadas entrantes de RFC de SAP mediante el modelo de servicio WCF | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,41 +15,41 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a415e3ab0ecbaab8778254d817241e5cafb61a92
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e9650567f9f2072662af7f75d735a5a647de6d10
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22218460"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014189"
 ---
-# <a name="receive-inbound-rfc-calls-in-sap-using-the-wcf-service-model"></a>Recibir llamadas de RFC de entrada en SAP mediante el modelo de servicio de WCF
-La [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] puede actuar como un servidor RFC para recibir las solicitudes de cambio invocados por un sistema SAP.  
+# <a name="receive-inbound-rfc-calls-in-sap-using-the-wcf-service-model"></a>Recibir llamadas entrantes de RFC de SAP mediante el modelo de servicio de WCF
+El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] puede actuar como un servidor RFC para recibir las solicitudes de cambio que se invoca mediante un sistema SAP.  
   
- Para recibir las RFC entrantes en el modelo de servicio WCF, debe:  
+ Para recibir las RFC de entrada en el modelo de servicio WCF, debe:  
   
--   Asegúrese de que un destino RFC existe en el sistema SAP.  
+- Asegúrese de que un destino RFC existe en el sistema SAP.  
   
--   Asegúrese de que la solicitud de cambio se define en el sistema SAP.  
+- Asegúrese de que la solicitud de cambio se define en el sistema SAP.  
   
--   Generar un contrato de servicio WCF (interfaz) para la operación de RFC de los metadatos expuestos por el adaptador. Para ello, use la [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe).  
+- Generar un contrato de servicio WCF (interfaz) para la operación de RFC de los metadatos expuestos por el adaptador. Para ello, usa el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o ServiceModel Metadata Utility Tool (svcutil.exe).  
   
--   Implementar un servicio WCF de esta interfaz. Los métodos del servicio WCF contienen la lógica necesaria para procesar la solicitud de cambio y devolver una respuesta al adaptador (y por lo tanto, el sistema SAP).  
+- Implementar un servicio WCF desde esta interfaz. Los métodos del servicio WCF contienen la lógica necesaria para procesar la solicitud de cambio y devolver una respuesta al adaptador (y por lo tanto, el sistema SAP).  
   
--   Hospedar este servicio WCF mediante un host de servicio (**System.ServiceModel.ServiceHost**).  
+- Hospedar este servicio WCF mediante un host de servicio (**System.ServiceModel.ServiceHost**).  
   
- Las secciones siguientes muestran cómo recibir las solicitudes de cambio desde el sistema SAP mediante el uso de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  Las secciones siguientes muestran cómo recibir las solicitudes de cambio desde el sistema SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## <a name="how-to-set-up-the-sap-system-to-send-an-rfc-to-the-sap-adapter"></a>Cómo configurar el sistema de SAP para enviar una solicitud de cambio para el adaptador de SAP  
- Para poder enviar una solicitud de cambio del sistema SAP para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], debe asegurarse de que los siguientes son ciertas en el sistema SAP:  
+ Para poder enviar una solicitud de cambio desde el sistema SAP para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], debe asegurarse de que los siguientes son true en el sistema SAP:  
   
--   Un destino RFC para la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] debe existir. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] se registra con un destino RFC para recibir las solicitudes de cambio desde el sistema SAP. Especifica los parámetros con el URI, como el Host de puerta de enlace de SAP y el servicio de puerta de enlace de SAP, el identificador de programa de SAP que utiliza el adaptador registrarse a sí mismo de la conexión de SAP. Para obtener información acerca de cómo configurar un destino RFC en SAP, consulte [crear una solicitud de cambio, el destino de RFC y enviar una solicitud de cambio de sistema SAP](creating-an-rfc-in-an-sap-system.md).  
+- Un destino RFC para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] debe existir. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] se registra con un destino RFC para recibir las solicitudes de cambio desde el sistema SAP. Proporcione los parámetros en el URI como el Host de puerta de enlace de SAP, el servicio de puerta de enlace de SAP y el identificador de programa de SAP que utiliza el adaptador para registrarse a sí mismo de la conexión de SAP. Para obtener información acerca de cómo configurar un destino de RFC de SAP, consulte [crear una RFC, destino RFC y enviar una solicitud de cambio de sistema SAP](creating-an-rfc-in-an-sap-system.md).  
   
--   La solicitud de cambio debe definirse en el sistema SAP. Debe crear un módulo de función que define la solicitud de cambio en el sistema SAP. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] usa la definición de RFC en el sistema SAP para recuperar metadatos sobre la solicitud de cambio (tanto en tiempo de diseño y en tiempo de ejecución). Para obtener más información, consulte [crear una solicitud de cambio en un sistema SAP](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md).  
+- La solicitud de cambio debe definirse en el sistema SAP. Debe crear un módulo de función que define la solicitud de cambio en el sistema SAP. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] utiliza la definición de RFC en el sistema SAP para recuperar metadatos sobre la solicitud de cambio (tanto en tiempo de diseño como en tiempo de ejecución). Para obtener más información, consulte [crear una solicitud de cambio en un sistema SAP](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md).  
   
-    > [!NOTE]
-    >  Debe definir la solicitud de cambio en el sistema SAP; Sin embargo implementa la solicitud de cambio en el código de cliente del adaptador. La solicitud de cambio debe definirse en el sistema SAP para que el adaptador puede recuperar metadatos para la solicitud de cambio.  
+  > [!NOTE]
+  >  Debe definir la solicitud de cambio en el sistema SAP; Sin embargo, implementa la solicitud de cambio en el código de cliente del adaptador. La solicitud de cambio debe definirse en el sistema SAP para que el adaptador puede recuperar los metadatos para la solicitud de cambio.  
   
- El siguiente es un ejemplo del código fuente en el sistema SAP para una solicitud de cambio que agrega dos enteros y devuelve su resultado. El código llama simplemente la solicitud de cambio a través de un destino especificado. La implementación de la función se realiza mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] código de cliente.  
+  El siguiente es un ejemplo del código fuente en el sistema SAP para una solicitud de cambio que agrega dos enteros y devuelve su resultado. El código simplemente llama a la solicitud de cambio a través de un destino especificado. La implementación de la función se realiza mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] código de cliente.  
   
 ```  
 FUNCTION Z_RFC_SAMPLE_ADD.  
@@ -69,10 +69,10 @@ ENDFUNCTION.
 ```  
   
 ## <a name="the-wcf-service-contract-for-an-rfc"></a>El contrato de servicio WCF para una solicitud de cambio  
- Usa el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o los metadatos de herramienta de utilidad ServiceModel (svcutil.exe) para generar un contrato de servicio WCF para los documentos de RFC que se desea recibir desde el sistema SAP. Las secciones siguientes muestran las clases de código administrado e interfaces que se genera para la operación de Z_RFC_MKD_ADD.  
+ Usa el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o el ServiceModel Metadata Utility Tool (svcutil.exe) para generar un contrato de servicio WCF para los documentos RFC que se desean recibir desde el sistema SAP. Las secciones siguientes muestran las clases de código administrado e interfaces que se genera para la operación Z_RFC_MKD_ADD.  
   
 ### <a name="the-rfc-interface-wcf-service-contract"></a>La interfaz de Rfc (contrato de servicio WCF)  
- El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies todas las operaciones de RFC bajo un contrato de servicio único, "Rfc". Esto significa que una única interfaz **Rfc**, se crea para todas las operaciones de RFC que desea recibir. Cada operación de RFC de destino se representa como un método de esta interfaz. Cada método toma un único parámetro, que representa el contrato de mensaje para el mensaje de solicitud de la operación y devuelve un objeto que representa el contrato de mensaje del mensaje de respuesta de la operación.  
+ La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone todas las operaciones de RFC en un contrato de servicio único, "Rfc". Esto significa que una sola interfaz, **Rfc**, se crea para todas las operaciones de RFC que se desean recibir. Cada operación de RFC de destino se representa como un método de esta interfaz. Cada método toma un único parámetro, que representa el contrato de mensaje para el mensaje de solicitud de la operación y devuelve un objeto que representa el contrato de mensaje del mensaje de respuesta de la operación.  
   
 ```  
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]  
@@ -87,7 +87,7 @@ public interface Rfc {
 ```  
   
 ### <a name="the-request-and-response-messages"></a>La solicitud y los mensajes de respuesta  
- Cada operación de RFC toma un parámetro que representa el mensaje de solicitud y devuelve un objeto que representa el mensaje de respuesta. Las propiedades del mensaje de solicitud contienen la importación y parámetros de CHANGING (entrada) de la solicitud de cambio. Las propiedades del mensaje de respuesta contienen la exportación y (salida) cambiando parámetros para la operación.  
+ Cada operación de RFC toma un parámetro que representa el mensaje de solicitud y devuelve un objeto que representa el mensaje de respuesta. Las propiedades del mensaje de solicitud contienen la importación y parámetros de cambio (entrada) de RFC. Las propiedades del mensaje de respuesta contienen la exportación y parámetros de cambio de la operación (salida).  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -132,7 +132,7 @@ public partial class Z_RFC_MKD_ADDResponse {
 ```  
   
 ### <a name="the-generated-wcf-service"></a>El servicio WCF generado  
- El [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] también genera un servicio WCF que implementa el contrato de servicio WCF (**Rfc**). Los métodos de esta clase son auxiliares. Esta clase se genera en un archivo independiente. Puede implementar el código directamente en los métodos de esta clase.  
+ El [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] también genera un servicio WCF que implementa el contrato de servicio WCF (**Rfc**). Los métodos de esta clase se procesó con stub. Esta clase se genera en un archivo independiente. Puede implementar el código directamente en los métodos de esta clase.  
   
 ```  
 namespace SAPBindingNamespace {  
@@ -148,9 +148,9 @@ namespace SAPBindingNamespace {
 ```  
   
 ## <a name="how-to-create-an-rfc-server-application"></a>Cómo crear una aplicación de servidor RFC  
- Para recibir las solicitudes de cambio desde el sistema SAP mediante el modelo de servicio WCF, puede seguir los pasos descritos en [información general sobre el modelo de servicio de WCF con el adaptador SAP](../../adapters-and-accelerators/adapter-sap/overview-of-the-wcf-service-model-with-the-sap-adapter.md). No olvide especificar 'Rfc' para el contrato de servicio cuando se agrega el punto de conexión de servicio (paso 6 del procedimiento para crear e implementar un servicio WCF).  
+ Para recibir las solicitudes de cambio desde el sistema SAP mediante el modelo de servicio WCF, puede seguir los pasos descritos en [general del modelo de servicio WCF con el adaptador SAP](../../adapters-and-accelerators/adapter-sap/overview-of-the-wcf-service-model-with-the-sap-adapter.md). No olvide especificar 'Rfc' para el contrato de servicio al agregar el punto de conexión de servicio (paso 6 del procedimiento para crear e implementar un servicio WCF).  
   
- El código siguiente muestra un ejemplo completo de cómo recibir la Z_RFC_MKD_RFC desde un sistema SAP mediante el uso de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Este RFC toma dos parámetros enteros y devuelve el resultado al sistema SAP.  
+ El código siguiente muestra un ejemplo completo de cómo recibir el Z_RFC_MKD_RFC de un sistema SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Este RFC toma dos parámetros enteros y devuelve el resultado al sistema SAP.  
   
 ```  
 using System;  
@@ -258,4 +258,4 @@ namespace SapRfcServerSM
   
 ## <a name="see-also"></a>Vea también  
 [Desarrollar aplicaciones mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md)   
- [Esquemas de mensaje para las operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md)
+ [Esquemas de mensaje para operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md)

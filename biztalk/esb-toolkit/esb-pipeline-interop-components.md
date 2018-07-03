@@ -1,5 +1,5 @@
 ---
-title: Los componentes de interoperabilidad de canalización ESB | Documentos de Microsoft
+title: Los componentes de interoperabilidad de canalización ESB | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,18 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ccf4d4353e6928b998d31e8096ee642cd80bb60a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 794ce6407d10fc820444384550357f10d24f7723
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22294132"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024250"
 ---
 # <a name="esb-pipeline-interop-components"></a>Componentes de interoperabilidad de canalización ESB
-El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona compatibilidad con componentes y servicios, incluidos los siguientes:  
+El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona componentes de soporte técnico y servicios, incluidos los siguientes:  
   
--   **Componentes de canalización JMS.** Estos componentes reconocerán, validar y exponen los metadatos y el contenido de los mensajes que se ajusta al formato de JMS MQRFH2 utilizado por los sistemas de mensajería de IBM MQ Series. Esta funcionalidad permite un [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] aplicación para recibir mensajes desde y enviar mensajes a sistemas JMS en MQ Series. Los componentes automáticamente promoción la información de encabezado en y disminuir el nivel del contenido del mensaje.  
+- **Componentes de canalización JMS.** Estos componentes reconocerán, validación y exponen los metadatos y el contenido de los mensajes que cumplen el formato de MQRFH2 de JMS usado por los sistemas de mensajería de IBM MQ Series. Esta funcionalidad permite una [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] aplicación para recibir mensajes desde y enviar mensajes a sistemas JMS a través de MQ Series. Los componentes automáticamente promoción la información de encabezado en y disminuir el nivel del contenido del mensaje.  
   
--   **Componentes de canalización de Namespace.** Estos componentes pueden agregar o quitar espacios de nombres en el contenido de los mensajes XML. Esto permite a las aplicaciones reparar los espacios de nombres en conflicto o agregar espacios de nombres que faltan para evitar conflictos de espacio de nombres dentro de las orquestaciones de aplicación y de base de datos de cuadro de mensaje. Los componentes también permiten que el servidor BizTalk Server consumir POX (Plain Old XML) sin modificar de sistemas externos de publicación.  
+- **Componentes de canalización de Namespace.** Estos componentes pueden agregar o quitar espacios de nombres en el contenido de los mensajes XML. Esto permite que las aplicaciones reparar los espacios de nombres en conflicto o agregar espacios de nombres que faltan para evitar conflictos de espacio de nombres dentro de las orquestaciones de aplicación y de base de datos de cuadro de mensaje. Los componentes también permiten a BizTalk Server consumir POX (Plain Old XML) sin modificar los sistemas externos de publicación.  
   
- Para obtener más información acerca de los componentes de canalización ESB, consulte [con los componentes de compatibilidad de canalización](../esb-toolkit/using-the-pipeline-support-components.md).
+  Para obtener más información acerca de los componentes de canalización ESB, consulte [mediante los componentes de soporte técnico de canalización](../esb-toolkit/using-the-pipeline-support-components.md).

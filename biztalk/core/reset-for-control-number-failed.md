@@ -1,5 +1,5 @@
 ---
-title: Restablecer el número de Control no se pudo | Documentos de Microsoft
+title: Restablecer el número de Control no se pudo de | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 302e0efa8368ab972c819e0aa350ea36d2d4c582
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 480a61535697d0b04fa106b4f7930a8a54362e0f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268620"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996605"
 ---
 # <a name="reset-for-control-number-failed"></a>Error al restablecer el número de control
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|EdiControlNumberResetFailed|  
-|Texto del mensaje|Restablecer para {0} no se pudo.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                              EdiControlNumberResetFailed                               |
+|  Texto del mensaje   |                                 Restablecer para {0} error.                                  |
   
- **{0}** : Control de conjunto de transacciones número de Control de número / grupo / número de Control de intercambio  
+ **{0}**: Conjunto de transacciones número de Control de grupo o número de Control / número de Control de intercambio  
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que BizTalk Server no pudo restablecer el número de control.  

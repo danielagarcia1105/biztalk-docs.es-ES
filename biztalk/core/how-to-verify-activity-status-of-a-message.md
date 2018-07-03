@@ -1,5 +1,5 @@
 ---
-title: Cómo comprobar el estado de actividad de un mensaje | Documentos de Microsoft
+title: Cómo comprobar el estado de actividad de un mensaje | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,57 +17,57 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 872c1a1fcfcc905caf926c8299f56d49178a8448
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8af3a77b9bb169e394571444c7eb7e3984f7f7c3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22256548"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013045"
 ---
 # <a name="how-to-verify-activity-status-of-a-message"></a>Cómo comprobar el estado de actividad de un  mensaje
 Para crear un host y un puerto HTTP de PeopleSoft donde PeopleSoft envíe los eventos, se usa el Agente de integración de PeopleSoft. Para asegurarse de que el mensaje esté activo y enrutado, siga estos pasos.  
   
 ### <a name="to-verify-that-a-message-is-active-and-routed-correctly"></a>Para verificar que un mensaje esté activo y se haya enrutado correctamente  
   
-1.  Haga clic en **iniciar**, seleccione **programas**, seleccione **PeopleSoft Application Name**y, a continuación, seleccione **Application Designer**.  
+1. Haga clic en **iniciar**, apunte a **programas**, apunte a **PeopleSoft Application Name**y, a continuación, seleccione **Application Designer**.  
   
-2.  En el **PeopleSoft Sign-on** pantalla, escriba la **Id. de usuario** y **contraseña**y, a continuación, haga clic en **Aceptar**.  
+2. En el **PeopleSoft Sign-on** pantalla, escriba el **Id. de usuario** y **contraseña**y, a continuación, haga clic en **Aceptar**.  
   
-     ![](../core/media/psadapter-24-task-userpass.gif "PSAdapter_24_Task_UserPass")  
+    ![](../core/media/psadapter-24-task-userpass.gif "PSAdapter_24_Task_UserPass")  
   
-     ![](../core/media/psadapter-25-task-emptydesigner.gif "PSAdapter_25_Task_EmptyDesigner")  
+    ![](../core/media/psadapter-25-task-emptydesigner.gif "PSAdapter_25_Task_EmptyDesigner")  
   
-3.  En el Diseñador de aplicaciones, en la **archivo** menú, elija **abiertos**y, a continuación, seleccione **mensaje**.  
+3. En el Diseñador de aplicaciones, en la **archivo** menú, elija **abierto**y, a continuación, seleccione **mensaje**.  
   
-     ![](../core/media/psadapter-26-task-filemessage.gif "PSAdapter_26_Task_FileMessage")  
+    ![](../core/media/psadapter-26-task-filemessage.gif "PSAdapter_26_Task_FileMessage")  
   
-4.  En el **Abrir definición** pantalla, en la **nombre** , escriba `LOCATION_SYNC`y, a continuación, haga clic en **abiertos**.  
+4. En el **Abrir definición** pantalla, en el **nombre** , introduzca `LOCATION_SYNC`y, a continuación, haga clic en **abierto**.  
   
-     ![](../core/media/psadapter-27-task-locationsync.gif "PSAdapter_27_Task_LocationSync")  
+    ![](../core/media/psadapter-27-task-locationsync.gif "PSAdapter_27_Task_LocationSync")  
   
-5.  En el **definiciones que coinciden con los criterios de selección** sección, haga doble clic en el **LOCATION_SYNC** mensaje para ver las propiedades.  
+5. En el **definiciones que coinciden con los criterios de selección** sección, haga doble clic en el **LOCATION_SYNC** mensaje para ver las propiedades.  
   
-     ![](../core/media/psadapter-28-task-locationproperties.gif "PSAdapter_28_Task_LocationProperties")  
+    ![](../core/media/psadapter-28-task-locationproperties.gif "PSAdapter_28_Task_LocationProperties")  
   
-6.  En el Diseñador de aplicaciones, haga clic en **LOCATION_TBL**y seleccione **propiedades de mensaje**.  
+6. En el Diseñador de aplicaciones, haga clic en **LOCATION_TBL**y seleccione **propiedades de mensaje**.  
   
-     ![](../core/media/psadapter-29-task-loctionmenu.gif "PSAdapter_29_Task_LoctionMenu")  
+    ![](../core/media/psadapter-29-task-loctionmenu.gif "PSAdapter_29_Task_LoctionMenu")  
   
-7.  En el **propiedades de mensaje** pantalla, haga clic en el **Use** ficha.  
+7. En el **propiedades de mensaje** pantalla, haga clic en el **Use** ficha.  
   
-     Compruebe lo siguiente y, a continuación, haga clic en **Aceptar**.  
+    Compruebe lo siguiente y, a continuación, haga clic en **Aceptar**.  
   
-    1.  **Mensaje:** Active  
+   1. **Mensaje:** activo  
   
-    2.  **Canal de mensaje:** ENTERPRISE_SETUP  
+   2. **Canal de mensaje:** ENTERPRISE_SETUP  
   
-    3.  **Versión predeterminada:** VERSION_1  
+   3. **Versión predeterminada:** VERSION_1  
   
-     ![](../core/media/psadapter-30-task-messageuse.gif "PSAdapter_30_Task_MessageUse")  
+      ![](../core/media/psadapter-30-task-messageuse.gif "PSAdapter_30_Task_MessageUse")  
   
-8.  Salga de Application Designer.  
+8. Salga de Application Designer.  
   
-     De este modo, se asegura de que el estado del mensaje sea activo, de que usa VERSION_1 y de que se transmite a través del canal ENTERPRISE_SETUP en PeopleSoft.  
+    De este modo, se asegura de que el estado del mensaje sea activo, de que usa VERSION_1 y de que se transmite a través del canal ENTERPRISE_SETUP en PeopleSoft.  
   
 9. Configure el archivo Integration.Gateway.properties para establecer comunicación con la aplicación de PeopleSoft.  
   
@@ -82,4 +82,4 @@ Para crear un host y un puerto HTTP de PeopleSoft donde PeopleSoft envíe los ev
     -   **Ig.ISC.toolsrel:** versión específica  
   
 ## <a name="see-also"></a>Vea también  
- [Crear un Host de HTTP de PeopleSoft y puerto](../core/creating-a-peoplesoft-http-host-and-port.md)
+ [Creación de puertos y hosts HTTP de PeopleSoft](../core/creating-a-peoplesoft-http-host-and-port.md)

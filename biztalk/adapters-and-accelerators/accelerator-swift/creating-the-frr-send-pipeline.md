@@ -1,5 +1,5 @@
 ---
-title: Canalización de envío de crear el FRR | Documentos de Microsoft
+title: Canalización de envío de la creación de la FRR | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,44 +16,44 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 87733b6b3a93d2543d26cd6d11b366b84218d207
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d16003e489944016a7b840b870d33d8ebcf671d5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209460"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005749"
 ---
-# <a name="creating-the-frr-send-pipeline"></a>Crear la canalización de envío FRR
-Para realizar la conciliación de respuesta de FIN, debe crear una canalización de envío que contiene el componente de canalización SWIFTAsmFrrMQSeriesHelper, además el ensamblador SWIFT.  
-  
+# <a name="creating-the-frr-send-pipeline"></a>Creación de la canalización de envío FRR
+Para llevar a cabo la conciliación de respuestas de FIN, deberá crear una canalización de envío que contiene el componente de canalización SWIFTAsmFrrMQSeriesHelper, además del ensamblador de SWIFT.  
+
  **Resumen**  
-  
+
  Crear una canalización de envío con las siguientes fases:  
-  
+
 |Fase|Componente|  
 |-----------|---------------|  
-|Fase de ensamblado|Ensamblador SWIFT|  
+|Fase de ensamblado|Ensamblador de SWIFT|  
 |Fase de codificación|Componente de MQSeries envío Frr SWIFT|  
-  
-### <a name="to-create-a-custom-send-pipeline-for-frr"></a>Para crear una canalización de envío personalizada para FRR  
-  
-1.  En el Explorador de soluciones de Visual Studio, haga clic en el proyecto de canalización, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
-  
-2.  En el cuadro de diálogo Agregar nuevo elemento, seleccione **canalización de envío** desde el panel de plantillas.  
-  
-3.  En el **nombre** , escriba un nombre para la canalización de recepción, como **FRRSendPipeline.btp**. Haga clic en **Agregar**.  
-  
-4.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], haga clic en **vista** y, a continuación, **cuadro de herramientas**.  
-  
-5.  En el cuadro de herramientas de componentes de canalización de BizTalk, arrastre **SWIFT ensamblador** a la **Coloque aquí los** cuadro siguiente la **ensamblar** almacenar provisionalmente la forma en **canalizaciones de BizTalk Diseñador**.  
-  
-6.  En el cuadro de herramientas de componentes de canalización de BizTalk, arrastre **SWIFT Frr MQSeries enviar componente** a la **Coloque aquí los** cuadro siguiente la **Encode** almacenar provisionalmente la forma en  **Diseñador de canalizaciones de BizTalk**.  
-  
-7.  En el Explorador de BizTalk, haga clic en el proyecto de canalización, haga clic en **anular la implementación**y, a continuación, haga clic en **Sí**.  
-  
-    > [!NOTE]
-    >  Después de anular la implementación y, a continuación, volver a implementar el proyecto de canalización, debe restablecer los puertos de envío o ubicaciones de recepción que utilice canalizaciones en el proyecto implementado previamente.  
-  
-8.  En el Explorador de soluciones, haga clic en el proyecto de canalización y, a continuación, haga clic en **generar**.  
-  
-9. Después de la compilación finalice correctamente, haga clic en el proyecto de canalización y, a continuación, haga clic en **implementar**.
+
+### <a name="to-create-a-custom-send-pipeline-for-frr"></a>Para crear una canalización de envío personalizado de FRR  
+
+1. En el Explorador de soluciones de Visual Studio, haga clic en el proyecto de canalización, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+
+2. En el cuadro de diálogo Agregar nuevo elemento, seleccione **canalización de envío** desde el panel Plantillas.  
+
+3. En el **nombre** , escriba un nombre para la canalización de recepción, tales como **FRRSendPipeline.btp**. Haga clic en **Agregar**.  
+
+4. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], haga clic en **vista** y, a continuación, **cuadro de herramientas**.  
+
+5. En el cuadro de herramientas de componentes de canalización de BizTalk, arrastre **ensamblador de SWIFT** a la **Coloque aquí** cuadro a continuación el **ensamblar** en forma de organizar **canalizaciones de BizTalk Diseñador**.  
+
+6. En el cuadro de herramientas de componentes de canalización de BizTalk, arrastre **componente de envío de SWIFT Frr MQSeries** a la **Coloque aquí** cuadro a continuación el **Encode** en forma de organizar  **Diseñador de canalizaciones de BizTalk**.  
+
+7. En el Explorador de BizTalk, haga clic en el proyecto de canalización, haga clic en **Undeploy**y, a continuación, haga clic en **Sí**.  
+
+   > [!NOTE]
+   >  Después de anular la implementación y, a continuación, volver a implementar el proyecto de canalización, debe restablecer los puertos de envío o ubicaciones de recepción que utilice canalizaciones en el proyecto implementado anteriormente.  
+
+8. En el Explorador de soluciones, haga clic en el proyecto de canalización y, a continuación, haga clic en **compilar**.  
+
+9. Después de la compilación se ha realizado correctamente, haga clic en el proyecto de canalización y, a continuación, haga clic en **implementar**.

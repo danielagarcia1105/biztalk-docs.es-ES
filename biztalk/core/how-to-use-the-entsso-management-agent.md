@@ -1,5 +1,5 @@
 ---
-title: Cómo usar el agente de administración de ENTSSO | Documentos de Microsoft
+title: Cómo usar el agente de administración de ENTSSO | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,32 +12,32 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 03c0f7d2c04a2707cf965f64ff7a559d8642a12c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 68c354f2250e9abc6a02ea52f4b7c106f57144e6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22256140"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018480"
 ---
 # <a name="how-to-use-the-entsso-management-agent"></a>Uso del agente de administración ENTSSO
 Esta versión de Enterprise Single Sign-On (SSO) contiene un agente de administración para Microsoft Identity Integration Server (MIIS), que integra SSO empresarial con las capacidades de sincronización de cuentas de MIIS. Esto habilita al administrador de MIIS para administrar asignaciones de SSO en la base de datos de SSO.  
   
- En SSO empresarial, se crean asignaciones entre cuentas de dominio de Windows (*ombreDeUsuario*) y credenciales externas. Si tiene un agente de administración de Active Directory y el agente de administración para el origen de datos externo (ejemplo: RACF MA), puede usar el SSO empresarial (ENTSSO MA) del agente de administración para administrar las asignaciones en la base de datos de SSO. ENTSSO MA es un *exportación basada en llamadas* solo agente de administración.  
+ En SSO empresarial, las asignaciones se crean entre cuentas de dominio de Windows (*nombreDominio\nombreUsuario*) y credenciales externas. Si tiene un agente de administración de Active Directory y el agente de administración para el origen de datos externo (ejemplo: RACF MA), puede usar el SSO empresarial (ENTSSO MA) del agente de administración para administrar las asignaciones en la base de datos de SSO. ENTSSO MA es un *exportación basados en llamada* solo agente de administración.  
   
  Configure el agente de administración en tres partes independientes:  
   
--   Un archivo de configuración (ENTSSO.xml)  
+- Un archivo de configuración (ENTSSO.xml)  
   
--   La interfaz de usuario de MIIS  
+- La interfaz de usuario de MIIS  
   
--   La interfaz de usuario de ENTSSO  
+- La interfaz de usuario de ENTSSO  
   
- Los temas de esta sección describen el proceso de configuración.  
+  Los temas de esta sección describen el proceso de configuración.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Configurar el archivo XML.](../core/configuring-the-xml-file.md)  
+-   [Configuración del archivo XML](../core/configuring-the-xml-file.md)  
   
 -   [Cómo configurar MIIS para ENTSSO MA](../core/how-to-configure-miis-for-entsso-ma.md)  
   
--   [Cómo configurar ENTSSO para la sincronización de contraseña MIIS](../core/how-to-configure-entsso-for-miis-password-sync.md)
+-   [Cómo configurar ENTSSO para la sincronización de contraseñas MIIS](../core/how-to-configure-entsso-for-miis-password-sync.md)

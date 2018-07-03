@@ -1,5 +1,5 @@
 ---
-title: Cómo administrar las asignaciones de usuario para el Host para SSO iniciado | Documentos de Microsoft
+title: Cómo administrar asignaciones de usuario para el Host de SSO iniciado por | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,21 +15,21 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a0bf65bdb3de30d5b701946215b5c7ae7d40d828
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ad232bf81fff96e6cabf367e9c591d02d4296151
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25972386"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006709"
 ---
-# <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a>Cómo administrar las asignaciones de usuario para el Host para SSO iniciado
+# <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a>Cómo administrar asignaciones de usuario para el Host de SSO iniciado por
 Utilice los procedimientos siguientes para crear asignaciones, definir credenciales y habilitar o deshabilitar asignaciones.  
   
 ### <a name="to-manage-user-mappings-for-host-initiated-sso-using-the-mmc-snap-in"></a>Para administrar asignaciones de usuarios para SSO iniciado por host utilizando el Complemento MMC  
   
 1.  En el **iniciar** menú, haga clic en **todos los programas**, haga clic en **Microsoft Enterprise Single Sign-On**y, a continuación, haga clic en **administración de SSO**.  
   
-2.  En el panel de ámbito, el complemento MMC de ENTSSO, expanda la **Enterprise Single Sign-On** nodo.  
+2.  En el panel de ámbito del complemento MMC de ENTSSO, expanda el **Enterprise Single Sign-On** nodo.  
   
 3.  En el panel de ámbito, haga clic en **aplicaciones afiliadas**.  
   
@@ -37,32 +37,32 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 ### <a name="to-create-mappings-in-host-initiated-sso-using-the-command-line"></a>Crear asignaciones en SSO iniciado por host utilizando la línea de comandos  
   
-1.  En el menú **Inicio** , haga clic en **Ejecutar**.  
+1. En el menú **Inicio** , haga clic en **Ejecutar**.  
   
-2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
+2. En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
+3. En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage – createmappings \<archivo de asignación\>**, donde **archivo de asignación >** es el nombre del archivo xml.  
+4. Tipo **ssomanage – createmappings \<archivo de asignación\>**, donde **archivo de asignación >** es el nombre del archivo xml.  
   
-    > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+   > [!NOTE]
+   >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
-     A continuación se muestra un ejemplo de archivo de asignaciones:  
+    A continuación se muestra un ejemplo de archivo de asignaciones:  
   
-    ```  
-    <SSO>  
-      <mapping>  
-        <windowsDomain>DomainName</windowsDomain>  
-        <windowsUserId>UserA</windowsUserId>  
-        <externalApplication>SSOApplication</externalApplication>  
-    <externalUserId>ExternalUserID that corresponds to UserA</externalUserId>  
-      </mapping>  
-    </SSO>  
+   ```  
+   <SSO>  
+     <mapping>  
+       <windowsDomain>DomainName</windowsDomain>  
+       <windowsUserId>UserA</windowsUserId>  
+       <externalApplication>SSOApplication</externalApplication>  
+   <externalUserId>ExternalUserID that corresponds to UserA</externalUserId>  
+     </mapping>  
+   </SSO>  
   
-    ```  
+   ```  
   
- Cuando la característica Validar contraseña está habilitada en la aplicación afiliada, es necesario definir las credenciales tal como se describe a continuación:  
+   Cuando la característica Validar contraseña está habilitada en la aplicación afiliada, es necesario definir las credenciales tal como se describe a continuación:  
   
 #### <a name="to-set-credentials-for-individual-type-affiliate-applications-using-the-command-line"></a>Para definir las credenciales para aplicaciones afiliadas de tipo individual utilizando la línea de comandos  
   
@@ -72,7 +72,7 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - setcredentials \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
+4.  Tipo **ssomanage - setcredentials \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -85,7 +85,7 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - setcredentials \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
+4.  Tipo **ssomanage - setcredentials \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -98,7 +98,7 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - enablemapping \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
+4.  Tipo **ssomanage - enablemapping \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -111,7 +111,7 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - disablemapping \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
+4.  Tipo **ssomanage - disablemapping \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -124,7 +124,7 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - enablemapping \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
+4.  Tipo **ssomanage - enablemapping \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -137,7 +137,7 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - disablemapping \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
+4.  Tipo **ssomanage - disablemapping \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

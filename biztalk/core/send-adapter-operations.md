@@ -1,5 +1,5 @@
 ---
-title: Operaciones del adaptador de envío | Documentos de Microsoft
+title: Operaciones del adaptador de envío | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,31 +12,31 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 444cf4ab7958b0d44838a8331b4b9e6a467baedc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ae8f638d2e9875883224dbfbf0a9d7d44851b8c8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270924"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012989"
 ---
 # <a name="send-adapter-operations"></a>Operaciones del adaptador de envío
 Los adaptadores de envío pueden realizar las siguientes operaciones:  
   
--   **Vuelva a intentarlo: anular reenviar (mensaje de IBaseMessage, marca de tiempo de fecha y hora).** Cuando se produce un error de transmisión en un mensaje, un adaptador lo reenvía cuando sea conveniente. La llamada a este elemento se efectúa por cada uno de los mensajes. Si un lote de mensajes se envían correctamente, el adaptador debe determinar los mensajes que han provocado el error y reenviar los que no se han provocado el lote a un error en las llamadas independientes a **reenviar**. No hay información al final de este tema sobre cómo mantener valores de propiedad de contexto de mensaje cuando se llama a **reenviar**.  
+- **Vuelva a enviar: void reenviar (IBaseMessage msg, marca de tiempo de fecha y hora).** Cuando se produce un error de transmisión en un mensaje, un adaptador lo reenvía cuando sea conveniente. La llamada a este elemento se efectúa por cada uno de los mensajes. Si un lote de mensajes se ha enviado de forma incorrecta, el adaptador debe determinar los mensajes de la causa del error y reenviar los que no se ha provocado el error del lote en llamadas independientes para **reenviar**. No hay información al final de este tema sobre cómo mantener valores de propiedad de contexto de mensaje cuando se llama a **reenviar**.  
   
--   **Pasar al siguiente transporte: void MoveToNextTransport (IBaseMessage msg).** Si se producen errores en un mensaje durante la operación de envío y se han agotado los reintentos, el adaptador puede enviar el mensaje al siguiente transporte que se ha configurado para la retransmisión.  
+- **Mover al siguiente transporte: void MoveToNextTransport (IBaseMessage msg).** Si se producen errores en un mensaje durante la operación de envío y se han agotado los reintentos, el adaptador puede enviar el mensaje al siguiente transporte que se ha configurado para la retransmisión.  
   
--   **Suspender: void MoveToSuspendQ (IBaseMessage msg).** Si no se ha configurado un transporte de reserva adicional, el adaptador mueve un mensaje de envío con errores a la cola de suspensión. No hay información al final de este tema sobre cómo mantener valores de propiedad de contexto de mensaje cuando se llama a **Suspend**.  
+- **Suspender: void MoveToSuspendQ (IBaseMessage msg).** Si no se ha configurado un transporte de reserva adicional, el adaptador mueve un mensaje de envío con errores a la cola de suspensión. No hay información al final de este tema sobre cómo mantener valores de propiedad de contexto de mensaje cuando se llama a **Suspend**.  
   
--   **Delete: void DeleteMessage (IBaseMessage msg).** El adaptador elimina un mensaje después de que BizTalk Server le haya notificado que la transmisión se ha realizado de forma correcta. Al eliminar un mensaje se le comunica a BizTalk Server que el adaptador ha finalizado con el mensaje. Por lo general el **SubmitResponse** operación se realiza en el mismo lote que está asociada **eliminar** operación.  
+- **Delete: void DeleteMessage (IBaseMessage msg).** El adaptador elimina un mensaje después de que BizTalk Server le haya notificado que la transmisión se ha realizado de forma correcta. Al eliminar un mensaje se le comunica a BizTalk Server que el adaptador ha finalizado con el mensaje. Por lo general el **SubmitResponse** operación se realiza en el mismo lote que está asociada **eliminar** operación.  
   
--   **Enviar respuesta: void SubmitResponseMessage (IBaseMessage solicitMsgSent, IBaseMessage responseMsgToSubmit).** El adaptador envía una respuesta al lote que se va a enviar de vuelta a BizTalk Server. Esta operación incluye en la llamada el mensaje original junto con la respuesta para que BizTalk Server pueda correlacionarlas.  
+- **Enviar respuesta: void SubmitResponseMessage (IBaseMessage solicitMsgSent, IBaseMessage responseMsgToSubmit).** El adaptador envía una respuesta al lote que se va a enviar de vuelta a BizTalk Server. Esta operación incluye en la llamada el mensaje original junto con la respuesta para que BizTalk Server pueda correlacionarlas.  
   
--   **Cancelar respuesta: void CancelResponseMessages (string correlationToken).** Si el envío de un mensaje de respuesta debe cancelarse antes de que se envíe el lote, el **CancelResponseMessages** se usa el método, pasando el token de correlación para el mensaje de respuesta asociado va a eliminar.  
+- **Cancelar respuesta: void CancelResponseMessages (string correlationToken).** Si el envío de un mensaje de respuesta debe cancelarse antes de enviar el lote y el **CancelResponseMessages** se usa el método, pasando el token de correlación para que se puede eliminar el mensaje de respuesta asociada.  
   
- Al llamar a **reenviar** o **Suspend** en un mensaje que se desea conservar los valores de determinadas propiedades de contexto del mensaje. Puede hacerlo si guarda los valores de propiedad en formato XML. Cuando se reenvía o se suspende el mensaje, las propiedades correspondientes permanecen disponibles en el contexto del mensaje.  
+  Al llamar a **reenviar** o **Suspend** en un mensaje que desea conservar los valores de determinadas propiedades de contexto del mensaje. Puede hacerlo si guarda los valores de propiedad en formato XML. Cuando se reenvía o se suspende el mensaje, las propiedades correspondientes permanecen disponibles en el contexto del mensaje.  
   
- La siguiente cadena XML describe el formato en el que se almacena la información:  
+  La siguiente cadena XML describe el formato en el que se almacena la información:  
   
 ```  
 <PropertiesToUpdate>  

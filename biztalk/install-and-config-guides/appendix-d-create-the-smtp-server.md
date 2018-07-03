@@ -1,5 +1,5 @@
 ---
-title: 'Apéndice D: crear el servidor SMTP | Documentos de Microsoft'
+title: 'Apéndice D: crear el servidor SMTP | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f4d4acc35f5cb38be5f783ee7c4017c8ada83e2
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: b6c773935a52e58a4bc04b3f963d83d988bf78d8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "22300140"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007085"
 ---
 # <a name="appendix-d-create-the-smtp-server"></a>Apéndice D: Crear el servidor SMTP
 Cree el servidor SMTP usado por Correo electrónico de base de datos de SQL Server.  
@@ -28,7 +28,7 @@ Se requiere Correo electrónico de base de datos de SQL Server para configurar a
 * [!INCLUDE[sqlserver2014](../includes/sqlserver2014-md.md)]
 * [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] 
   
- Correo electrónico de base de datos de SQL Server usa un servidor SMTP para enviar las alertas de BAM. El servidor SMTP se incluye con Internet Information Services (IIS). SMTP se puede instalar en modo local o en el servidor BizTalk Server u otro servidor que tenga IIS instalado.  
+  Correo electrónico de base de datos de SQL Server usa un servidor SMTP para enviar las alertas de BAM. El servidor SMTP se incluye con Internet Information Services (IIS). SMTP se puede instalar en modo local o en el servidor BizTalk Server u otro servidor que tenga IIS instalado.  
   
 > [!IMPORTANT]
 >  Normalmente, los sistemas operativos cliente como Windows 10, Windows 7, etc., no incluyen funcionalidades de servidor SMTP. Puede conectarse a un servidor SMTP en un servidor Windows Server con la característica *Correo electrónico SMTP* de IIS. La característica *Correo electrónico SMTP* NO es un servidor SMTP, que es necesario para Correo electrónico de base de datos de SQL Server. Por tanto, en este tema no se incluyen los pasos para instalar y configurar un servidor SMTP en sistemas operativos cliente.  
@@ -152,47 +152,47 @@ Estos pasos se aplican a:
   
   
 ## <a name="test-the-smtp-server"></a>Probar el servidor SMTP  
- Para probar la configuración del servidor SMTP, se puede usar Telnet. En los pasos siguientes, se envía un mensaje mediante el servidor SMTP configurado a una dirección de correo electrónico. [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) se proporcionan descripciones de los comandos de telnet.  
+ Para probar la configuración del servidor SMTP, se puede usar Telnet. En los pasos siguientes, se envía un mensaje mediante el servidor SMTP configurado a una dirección de correo electrónico. [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) proporciona descripciones de los comandos de telnet.  
   
-1.  Abra una ventana de comandos como administrador.
+1. Abra una ventana de comandos como administrador.
   
-2.  En el símbolo del sistema, escriba:  
+2. En el símbolo del sistema, escriba:  
   
-     `telnet localhost 25`  
+    `telnet localhost 25`  
   
-     Si Telnet no está instalado, escriba lo siguiente para instalarlo:  
+    Si Telnet no está instalado, escriba lo siguiente para instalarlo:  
   
-     `pkgmgr /iu:"TelnetClient"`  
+    `pkgmgr /iu:"TelnetClient"`  
   
-3.  Escriba lo siguiente para iniciar la comunicación:  
+3. Escriba lo siguiente para iniciar la comunicación:  
   
-     `EHLO server`  
+    `EHLO server`  
   
-4.  Escriba la dirección del remitente:  
+4. Escriba la dirección del remitente:  
   
-     `MAIL FROM: *YourEmailAddress*@*YourProvider*.com`  
+    `MAIL FROM: *YourEmailAddress*@*YourProvider*.com`  
   
-     Por ejemplo, escriba:  
+    Por ejemplo, escriba:  
   
-     `MAIL FROM: EmailAddress@outlook.com`  
+    `MAIL FROM: EmailAddress@outlook.com`  
   
-5.  Escriba la dirección del destinatario:  
+5. Escriba la dirección del destinatario:  
   
-     `RCPT TO: *YourEmailAddress*@*YourProvider*.com`  
+    `RCPT TO: *YourEmailAddress*@*YourProvider*.com`  
   
-     Por ejemplo, escriba:  
+    Por ejemplo, escriba:  
   
-     `RCPT TO: EmailAddress@outlook.com`  
+    `RCPT TO: EmailAddress@outlook.com`  
   
-6.  Escriba lo siguiente para indicarle al servidor SMTP que está listo para enviar datos:  
+6. Escriba lo siguiente para indicarle al servidor SMTP que está listo para enviar datos:  
   
-     `DATA`  
+    `DATA`  
   
-7.  Escriba el asunto:  
+7. Escriba el asunto:  
   
-     `Subject: Test Message`  
+    `Subject: Test Message`  
   
-8.  Presione Entrar dos veces.  
+8. Presione Entrar dos veces.  
   
 9. Escriba el cuerpo del mensaje:  
   
@@ -200,5 +200,5 @@ Estos pasos se aplican a:
   
 10. Presione Entrar, escriba un punto (.) y presione Entrar.  
   
- Consulte la dirección RCPT TO para ver si ha llegado el mensaje de correo electrónico. Si no se ha entregado el mensaje (compruebe la bandeja de entrada y la de correo no deseado), significa que el mensaje no se envió correctamente y está en la carpeta de la cola SMTP (C:\inetpub\mailroot\Queue).  
+    Consulte la dirección RCPT TO para ver si ha llegado el mensaje de correo electrónico. Si no se ha entregado el mensaje (compruebe la bandeja de entrada y la de correo no deseado), significa que el mensaje no se envió correctamente y está en la carpeta de la cola SMTP (C:\inetpub\mailroot\Queue).  
   

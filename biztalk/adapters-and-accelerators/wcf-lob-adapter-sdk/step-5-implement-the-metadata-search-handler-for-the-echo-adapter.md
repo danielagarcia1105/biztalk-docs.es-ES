@@ -1,5 +1,5 @@
 ---
-title: 'Paso 5: Implementar el controlador de búsqueda de metadatos para el adaptador de eco | Documentos de Microsoft'
+title: 'Paso 5: Implementar el controlador de búsqueda de metadatos para el adaptador de Echo | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,24 +12,24 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8d241499e10a944eb1941b680bc73b97ce6ffd93
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29768fa47fd26f32308d517f175d906ec088ff7b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22226404"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004093"
 ---
-# <a name="step-5-implement-the-metadata-search-handler-for-the-echo-adapter"></a>Paso 5: Implementar el controlador de búsqueda de metadatos para el adaptador de eco
+# <a name="step-5-implement-the-metadata-search-handler-for-the-echo-adapter"></a>Paso 5: Implementar el controlador de búsqueda de metadatos para el adaptador de Echo
 ![Paso 5 de 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")  
   
  **Tiempo en completarse:** 30 minutos  
   
- En este paso del tutorial, implementará la capacidad de búsqueda del adaptador de eco. A diferencia de exploración, búsqueda es opcional. Según la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], para admitir la capacidad de búsqueda, debe implementar la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interfaz. Para el adaptador de eco, el [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] genera automáticamente una clase derivada denominada EchoAdapterMetadataSearchHandler.  
+ En este paso del tutorial, implementará la capacidad de búsqueda del adaptador de Echo. A diferencia de exploración, búsqueda es opcional. Según el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], para admitir la capacidad de búsqueda, debe implementar la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interfaz. Para el adaptador de Echo la [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] genera automáticamente una clase derivada denominada EchoAdapterMetadataSearchHandler.  
   
- En primer lugar actualizar la clase EchoAdapterMetadataSearchHandler para obtener una mejor comprensión de cómo implementar esta interfaz, cómo rellenar `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto y cómo aparecen los resultados de búsqueda en el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] herramienta.  
+ Actualizar la clase EchoAdapterMetadataSearchHandler para obtener una mejor comprensión de cómo implementar esta interfaz, cómo rellenar `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto y cómo aparecen los resultados de búsqueda en el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] herramienta.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Antes de comenzar este paso, completar [paso 4: implementar el controlador de examinar de metadatos para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md). También debe tener una idea clara acerca de las clases siguientes:  
+ Antes de comenzar este paso, completar [paso 4: implementar el controlador de examinar los metadatos para el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md). También debe tener una idea clara sobre las clases siguientes:  
   
 -   `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`
   
@@ -37,7 +37,7 @@ ms.locfileid: "22226404"
   
 -   `Microsoft.ServiceModel.Channels.MetadataRetrievalNodeDirections`  
   
-## <a name="the-imetadatasearchhandler-interface"></a>La interfaz de IMetadataSearchHandler  
+## <a name="the-imetadatasearchhandler-interface"></a>La interfaz IMetadataSearchHandler  
  El `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` se define como:  
   
 ```  
@@ -51,15 +51,15 @@ public interface IMetadataSearchHandler : IConnectionHandler, IDisposable
   
 |**Parámetro**|**Definición**|  
 |-------------------|--------------------|  
-|nodeId|Para iniciar la búsqueda desde el identificador de nodo. Si es null o una cadena vacía (""), las operaciones se pueden recuperar desde el nodo raíz ("/").|  
-|searchCriteria|Los criterios de búsqueda, que es específica del adaptador. Si no se especifica ningún criterio de búsqueda, el adaptador debería devolver todos los nodos.|  
-|maxChildNodes|El número máximo de nodos de resultado que se va a devolver. Usar Int32.Max para recuperar todos los nodos de resultado.<br /><br /> No se admite el adaptador de eco.|  
-|timeout|El tiempo máximo permitido para que se complete la operación.<br /><br /> No se admite el adaptador de eco.|  
+|nodeId|Para iniciar la búsqueda en el identificador de nodo. Si es null o una cadena vacía (""), las operaciones se recuperan desde el nodo raíz ("/").|  
+|searchCriteria|Los criterios de búsqueda, que es específica del adaptador. Si se especifica ningún criterio de búsqueda, el adaptador debería devolver todos los nodos.|  
+|maxChildNodes|El número máximo de nodos de resultados para devolver. Utilice Int32.Max para recuperar todos los nodos de resultados.<br /><br /> No admite el adaptador de Echo.|  
+|timeout|El tiempo máximo permitido para que se complete la operación.<br /><br /> No admite el adaptador de Echo.|  
   
- Resultado de la búsqueda, puede elegir el adaptador devolver nodos de categoría o nodos de operación o ambos. Es hasta el tipo de característica de búsqueda el adaptador admite.  
+ Resultado de la búsqueda, puede elegir el adaptador devolver los nodos de la categoría o nodos de la operación o ambas. Es hasta el tipo de característica de búsqueda de su adaptador admite.  
   
-## <a name="echo-adapter-metadata-search"></a>Búsqueda de metadatos de adaptador de eco  
- Dependiendo del sistema de destino categorías y operaciones, hay muchas maneras de crear una matriz de `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objetos que se va a devolver. Adaptador de eco implementa la funcionalidad de búsqueda de forma que pasar por cada operación con su identificador de nodo en la lista siguiente:  
+## <a name="echo-adapter-metadata-search"></a>Búsqueda de metadatos de adaptador de echo  
+ Dependiendo de las categorías y las operaciones de su sistema de destino, hay muchas formas de crear una matriz de `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objetos que se va a devolver. El adaptador de Echo implementa la funcionalidad de búsqueda consiste en pasar por cada operación con su Id. de nodo en la lista siguiente:  
   
 ```  
 Echo/OnReceiveEcho, inbound operation  
@@ -68,44 +68,44 @@ Echo/EchoGreetings, outbound operation
 Echo/EchoGreetingFromFile, outbound operation  
 ```  
   
--   Si el identificador de nodo, a continuación, coincide con los criterios de búsqueda, crea un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto utilizando el identificador de nodo de la operación y, a continuación, asigna las propiedades con valores. Por ejemplo,  
+- Si el identificador de nodo, a continuación, coincide con los criterios de búsqueda, crea un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` con el identificador de nodo de la operación de objeto y, a continuación, asigna las propiedades con valores. Por ejemplo,  
   
-    ```  
-    MetadataRetrievalNode nodeInbound = new MetadataRetrievalNode("Echo/OnReceiveEcho"); //create the MetadataRetrievalNode using the operation's node ID.  
-    nodeInbound.DisplayName = "OnReceiveEcho"; //The Display Name shown in the Name column of the Add Adapter Service Reference Visual Studio Plug-in  
-    nodeInbound.Description = "This operation echoes the location and length of a file dropped in the specified file system.";  //The Description shown as the tool tip in the Add Adapter Service Visual Studio Plug-in  
-    nodeInbound.Direction = MetadataRetrievalNodeDirections.Inbound;    //It is an inbound operation  
-    nodeInbound.IsOperation = true;  //It is an operation, not category.  
-    ```  
+  ```  
+  MetadataRetrievalNode nodeInbound = new MetadataRetrievalNode("Echo/OnReceiveEcho"); //create the MetadataRetrievalNode using the operation's node ID.  
+  nodeInbound.DisplayName = "OnReceiveEcho"; //The Display Name shown in the Name column of the Add Adapter Service Reference Visual Studio Plug-in  
+  nodeInbound.Description = "This operation echoes the location and length of a file dropped in the specified file system.";  //The Description shown as the tool tip in the Add Adapter Service Visual Studio Plug-in  
+  nodeInbound.Direction = MetadataRetrievalNodeDirections.Inbound;    //It is an inbound operation  
+  nodeInbound.IsOperation = true;  //It is an operation, not category.  
+  ```  
   
--   Y, a continuación, agregar el objeto a una colección de los `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`s, por ejemplo,  
+- Y, a continuación, agregue el objeto a una colección de los `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`s, por ejemplo,  
   
-    ```  
-    resultList.Add(nodeInbound);  
-    ```  
+  ```  
+  resultList.Add(nodeInbound);  
+  ```  
   
--   Por último, devuelve la colección en un formato de matriz.  
+- Por último, devuelve la colección en un formato de matriz.  
   
-    ```  
-    return resultList.ToArray();  
-    ```  
+  ```  
+  return resultList.ToArray();  
+  ```  
   
- Puede usar el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] herramientas para realizar una búsqueda basada en la conexión para las operaciones disponibles. Por ejemplo, en la siguiente ilustración muestra que cuando el criterio de búsqueda es la cadena **saludo**, la búsqueda se devuelve el **EchoGreetings** y **EchoGreetingFromFile** operaciones.  
+  Puede usar el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] herramientas para realizar una búsqueda basada en la conexión para las operaciones disponibles. Por ejemplo, en la siguiente ilustración muestra que cuando los criterios de búsqueda es la cadena **saludo**, la búsqueda devuelve el **EchoGreetings** y **EchoGreetingFromFile** operaciones.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/874c046a-590f-4047-9b9c-bb8074664755.gif "874c046a-590f-4047-9b9c-bb8074664755")  
+  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/874c046a-590f-4047-9b9c-bb8074664755.gif "874c046a-590f-4047-9b9c-bb8074664755")  
   
- Si se encuentra ninguna coincidencia, cualquiera de las herramientas devolverá el mensaje de error que se muestra en la ilustración siguiente.  
+  Si se encuentra ninguna coincidencia, cualquiera de las herramientas devolverá el mensaje de error que se muestra en la ilustración siguiente.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/cb1f79a2-a63d-4828-9dce-905c026cd1dc.gif "cb1f79a2-a63d-4828-9dce-905c026cd1dc")  
+  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/cb1f79a2-a63d-4828-9dce-905c026cd1dc.gif "cb1f79a2-a63d-4828-9dce-905c026cd1dc")  
   
 ## <a name="implementing-the-imetadatasearchhandler"></a>Implementar el IMetadataSearchHandler  
- Implementará el `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` método de la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interfaz. Si el nombre para mostrar de la operación coincide con los criterios de búsqueda, se creará un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` para esa operación del objeto y, a continuación, agregue dicho objeto a una matriz de los `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objetos.  
+ Implementará el `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` método de la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interfaz. Si el nombre para mostrar de la operación coincide con los criterios de búsqueda, creará un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto para esa operación y, a continuación, agregue dicho objeto a una matriz de los `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objetos.  
   
 #### <a name="to-update-the-echoadaptermetadatasearchhandler-class"></a>Para actualizar la clase EchoAdapterMetadataSearchHandler  
   
 1.  En el Explorador de soluciones, haga doble clic en el **EchoAdapterMetadataSearchHandler.cs** archivo.  
   
-2.  En el editor de Visual Studio, dentro de la **búsqueda** método, reemplace la lógica existente con lo siguiente. Esta lógica se crea un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto si eco/OnReceiveEcho coincide con los criterios de búsqueda especificados.  
+2.  En el editor de Visual Studio, dentro de la **búsqueda** método, reemplace la lógica existente por lo siguiente. Esta lógica se crea un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto a si Echo/OnReceiveEcho coincide con los criterios de búsqueda especificados.  
   
     ```csharp  
     List<MetadataRetrievalNode> resultList = new List<MetadataRetrievalNode>();  
@@ -120,7 +120,7 @@ Echo/EchoGreetingFromFile, outbound operation
     }  
     ```  
   
-3.  Continúe agregando la lógica siguiente para crear un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto si eco/EchoStrings coincide con los criterios de búsqueda especificados.  
+3.  Continúe agregando la lógica siguiente para crear un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto a si Echo/EchoStrings coincide con los criterios de búsqueda especificados.  
   
     ```csharp  
     if ("EchoStrings".ToLower().Contains(searchCriteria.ToLower()))  
@@ -134,7 +134,7 @@ Echo/EchoGreetingFromFile, outbound operation
     }  
     ```  
   
-4.  Continúe agregando la lógica siguiente para crear un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto si eco/EchoGreetings coincide con los criterios de búsqueda especificados.  
+4.  Continúe agregando la lógica siguiente para crear un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto a si Echo/EchoGreetings coincide con los criterios de búsqueda especificados.  
   
     ```csharp  
     if ("EchoGreetings".ToLower().Contains(searchCriteria.ToLower()))  
@@ -148,7 +148,7 @@ Echo/EchoGreetingFromFile, outbound operation
         }  
     ```  
   
-5.  Continúe agregando el código siguiente para crear un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto si eco/EchoGreetingFromFile coincide con los criterios de búsqueda especificados.  
+5.  Continúe agregando el código siguiente para crear un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto a si Echo/EchoGreetingFromFile coincide con los criterios de búsqueda especificados.  
   
     ```csharp  
     if ("EchoCustomGreetingFromFile".ToLower().Contains(searchCriteria.ToLower()))  
@@ -170,18 +170,18 @@ Echo/EchoGreetingFromFile, outbound operation
   
 7.  En Visual Studio, en el **archivo** menú, haga clic en **guardar todo**.  
   
-8.  En el menú **Compilar** , haga clic en **Compilar solución**. Correctamente, debe compilar el proyecto. Si no es así, asegúrese de que ha seguido todos los pasos anteriores.  
+8.  En el menú **Compilar** , haga clic en **Compilar solución**. Correctamente, debe compilar el proyecto. Si no, asegúrese de que ha seguido todos los pasos anteriores.  
   
     > [!NOTE]
-    >  Ya ha guardado su trabajo. Puede cerrar Visual Studio en este momento o vaya al paso siguiente, de forma segura [paso 6: implementar el controlador de resolver metadatos para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md).  
+    >  Ya ha guardado su trabajo. Puede cerrar Visual Studio en este momento o vaya al paso siguiente, de forma segura [paso 6: implementar el controlador de resolver los metadatos para el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md).  
   
-## <a name="what-did-i-just-do"></a>¿Simplemente lo que hacía?  
- Acaba de implementar los metadatos de búsqueda capacidad del adaptador de eco, implementando la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` método de la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interfaz. En concreto, crea un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto para cada operación que coincide con los criterios y, a continuación, devuelve una matriz de los `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objetos.  
+## <a name="what-did-i-just-do"></a>¿Qué simplemente hacer?  
+ Acaba de implementar los metadatos de búsqueda capacidad del adaptador de Echo, implementando la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` método de la `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interfaz. En concreto, crea un `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objeto para cada operación que coincide con los criterios y, a continuación, devuelve una matriz de los `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objetos.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
- Se implementarán los metadatos resolviendo capacidad y las funciones de intercambio de mensajes entrantes y salientes. Por último, se compilará e implementará el adaptador de eco.  
+ Implementará los metadatos de resolución de capacidad y las capacidades de intercambio de mensajes entrantes y salientes. Por último, se compilará e implementará el adaptador de Echo.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 4: Implementar el controlador de exploración de metadatos para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)   
- [Paso 6: Implementar el controlador de la resolución de metadatos para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   
- [Tutorial 1: Desarrollar el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)
+ [Paso 4: Implementar el controlador de exploración de metadatos para el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)   
+ [Paso 6: Implementar el controlador de resolución de metadatos para el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   
+ [Tutorial 1: Desarrollar el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

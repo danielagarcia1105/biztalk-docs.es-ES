@@ -1,5 +1,5 @@
 ---
-title: Referencia de Microsoft.BizTalk.DefaultPipelines | Documentos de Microsoft
+title: Referencia de Microsoft.BizTalk.DefaultPipelines | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -26,50 +26,50 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ad7cad78e3e8606371a5fa49673297cf590ddbe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de2ec54b34a4e6d92f471db7fe9ad5dbc7933014
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263412"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022058"
 ---
 # <a name="microsoftbiztalkdefaultpipelines-reference"></a>Referencia de Microsoft.BizTalk.DefaultPipelines
-El **Microsoft.BizTalk.DefaultPipelines** espacio de nombres contiene las siguientes canalizaciones:  
+El **Microsoft.BizTalk.DefaultPipelines** espacio de nombres contiene los siguientes procesos:  
   
--   XMLReceive  
+- XMLReceive  
   
--   PassThruReceive  
+- PassThruReceive  
   
--   XMLTransmit  
+- XMLTransmit  
   
--   PassThruTransmit  
+- PassThruTransmit  
   
- Una canalización es un componente de software que define y vincula una o varias fases para procesar los mensajes recibidos o enviados mediante [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Las canalizaciones incluyen funciones, como la codificación o descodificación, el ensamblado o desensamblado, y el cifrado o descifrado. Estas funciones se implementan en un orden específico. La herramienta Diseñador de canalizaciones se utiliza para crear canalizaciones de recepción y de envío.  
+  Una canalización es un componente de software que define y vincula una o varias fases para procesar los mensajes recibidos o enviados por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Las canalizaciones incluyen funciones, como la codificación o descodificación, el ensamblado o desensamblado, y el cifrado o descifrado. Estas funciones se implementan en un orden específico. La herramienta Diseñador de canalizaciones se utiliza para crear canalizaciones de recepción y de envío.  
   
- Las referencias predeterminadas de canalización incluidas en un proyecto de BizTalk pueden procesar todos los tipos de documentos mediante el **PassThruReceive** y **PassThruTransmit** canalizaciones.  
+  Las referencias predeterminadas de canalización incluidas en un proyecto de BizTalk pueden procesar todos los tipos de documentos mediante el **PassThruReceive** y **PassThruTransmit** canalizaciones.  
   
- En las listas siguientes se muestran los componentes predeterminados de las canalizaciones predeterminadas. En estas listas también se indica el orden predeterminado de los componentes de cada canalización. Si fuera necesario, puede agregar y eliminar componentes.  
+  En las listas siguientes se muestran los componentes predeterminados de las canalizaciones predeterminadas. En estas listas también se indica el orden predeterminado de los componentes de cada canalización. Si fuera necesario, puede agregar y eliminar componentes.  
   
- Los componentes predeterminados de la canalización XMLReceive predeterminada son:  
+  Los componentes predeterminados de la canalización XMLReceive predeterminada son:  
   
--   Descifrador  
+- Descifrador  
   
--   Descodificador  
+- Descodificador  
   
--   Desensamblador  
+- Desensamblador  
   
--   Validador  
+- Validador  
   
--   Resolución de entidades  
+- Resolución de entidades  
   
- Los componentes predeterminados de la canalización XMLTransmit predeterminada son:  
+  Los componentes predeterminados de la canalización XMLTransmit predeterminada son:  
   
--   Ensamblador  
+- Ensamblador  
   
--   Codificador  
+- Codificador  
   
--   Cifrador  
+- Cifrador  
   
 ## <a name="see-also"></a>Vea también  
  [Crear canalizaciones mediante el Diseñador de canalizaciones](../core/creating-pipelines-using-pipeline-designer.md)   
- [Referencias de Namespace de BizTalk incluidos en los proyectos de BizTalk](../core/about-biztalk-namespace-references-included-in-biztalk-projects.md)
+ [Acerca de las referencias de espacio de nombres de BizTalk incluidos en proyectos de BizTalk](../core/about-biztalk-namespace-references-included-in-biztalk-projects.md)

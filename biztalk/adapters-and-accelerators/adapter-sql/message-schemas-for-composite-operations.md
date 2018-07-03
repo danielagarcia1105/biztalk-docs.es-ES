@@ -1,5 +1,5 @@
 ---
-title: Esquemas de mensajes para operaciones compuestas | Documentos de Microsoft
+title: Los esquemas de mensajes para operaciones compuestas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,26 +12,26 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b89c354baea2ddb46abf549752dc09699b9c9695
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 716e87dd2973572d473f6637e12c5a80ac6cf847
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22222516"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015296"
 ---
 # <a name="message-schemas-for-composite-operations"></a>Esquemas de mensaje para operaciones compuestas
-El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] permite ejecutar operaciones compuestas en la base de datos de SQL Server. Una operación compuesta puede contener varias operaciones, incluida la inserción, actualización y eliminar operaciones en las tablas y vistas y las operaciones en los procedimientos almacenados. Una operación compuesta puede incluir estas operaciones en cualquier orden.  
+El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] le permite ejecutar operaciones compuestas en la base de datos de SQL Server. Una operación compuesta puede contener varias operaciones, incluida la inserción, actualización y eliminar operaciones en las tablas y vistas y en los procedimientos almacenados. Una operación compuesta puede incluir estas operaciones en cualquier orden.  
   
  Para obtener más información acerca de:  
   
--   Operaciones compuestas, consulte [compatibilidad para operaciones compuestas](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).  
+- Operaciones compuestas, vea [compatibilidad para operaciones compuestas](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).  
   
--   Cómo realizar operaciones compuestas mediante la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], consulte [ejecutar operaciones compuestas en SQL Server mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/run-composite-operations-in-sql-server-using-the-sql-adapter.md).  
+- Cómo realizar operaciones compuestas mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], consulte [ejecutar operaciones compuestas en SQL Server mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/run-composite-operations-in-sql-server-using-the-sql-adapter.md).  
   
-## <a name="message-structure-for-the-composite-operation"></a>Estructura del mensaje para la operación de composición  
+## <a name="message-structure-for-the-composite-operation"></a>Estructura de mensaje para la operación compuesta  
  Puesto que una operación compuesta contiene varias operaciones individuales; la estructura del mensaje de una operación compuesta contiene estructuras de mensajes de las operaciones individuales. Como una operación compuesta contiene operaciones en tablas, vistas y procedimientos almacenados, el mensaje de operación compuesta sigue un patrón de intercambio de mensajes de solicitud y respuesta.  
   
- En la tabla siguiente muestra la estructura de los mensajes de solicitud y respuesta de una operación compuesta que contiene una operación de inserción, un procedimiento almacenado que no tome ningún parámetros de entrada y una operación de eliminación.  
+ En la tabla siguiente se muestra la estructura de los mensajes de solicitud y respuesta de una operación compuesta que contiene una operación de inserción, un procedimiento almacenado que no tome ningún parámetros de entrada y una operación de eliminación.  
   
 |Operación|Mensaje XML|  
 |---------------|-----------------|  
@@ -40,18 +40,18 @@ El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] permite ejecutar oper
   
  [Nombre_proyecto] = nombre del proyecto de BizTalk que contiene el esquema de operación compuesta.  
   
- [COMPOSITE_SCHEMA_NAME] = nombre del esquema de operación compuesta proporcionado por el usuario.  
+ [COMPOSITE_SCHEMA_NAME] = nombre del esquema de operación compuesta por parte del usuario.  
   
  [Esquema] = artefactos de la colección de SQL Server; Por ejemplo, dbo.  
   
  [NombreTabla] = nombre de la tabla; Por ejemplo, el empleado.  
   
- [FIELD1_NAME] = nombre de campo de la tabla; Por ejemplo, el nombre.  
+ [FIELD1_NAME] = nombre de campo de tabla; Por ejemplo, el nombre.  
   
  [SP_NAME] = el procedimiento almacenado que se ejecutará; Por ejemplo, ADD_EMP_DETAILS.  
   
-## <a name="message-action-for-the-composite-operation"></a>Acción de mensaje para la operación de composición  
- La acción de mensaje para la operación compuesta es "CompositeOperation."  
+## <a name="message-action-for-the-composite-operation"></a>Acción de mensaje para la operación compuesta  
+ La acción de mensaje para la operación compuesta es "CompositeOperation".  
   
 ## <a name="see-also"></a>Vea también  
- [Mensajes y esquemas de mensaje para el adaptador de BizTalk para SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)
+ [Los mensajes y esquemas de mensaje para el adaptador de BizTalk para SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)

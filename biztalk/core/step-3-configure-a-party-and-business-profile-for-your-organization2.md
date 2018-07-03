@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Configurar una entidad y perfil de negocio de su Organization2 | Documentos de Microsoft'
+title: 'Paso 3: Configurar una entidad y perfil de negocio para su Organization2 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7cb8e65d85ef189a17fc95b3599a5e26da0d308
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 809c8bd4080a7d2ddf14d9c84e98c050e198e6cd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277636"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000365"
 ---
 # <a name="step-3-configure-a-party-and-business-profile-for-your-organization"></a>Paso 3: Configurar una entidad y perfil de negocio para su organización
 ![Paso 3 de 11](../core/media/tut-step3-of-11.gif "Tut_Step3_of_11")  
@@ -29,27 +29,27 @@ ms.locfileid: "22277636"
   
 ### <a name="to-configure-a-party-and-business-profile-for-your-organization"></a>Procedimiento para configurar un perfil de entidad y empresa para su organización  
   
-1.  Abra la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en **iniciar**, seleccionando **todos los programas**, seleccionando [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server** .  
+1. Abra el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en **iniciar**, seleccionando **todos los programas**, seleccionando [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server** .  
   
-2.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]y, a continuación, expanda **grupo de BizTalk**. Haga clic en **partes**, seleccione **New**y, a continuación, haga clic en **entidad**.  
+2. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]y, a continuación, expanda **grupo de BizTalk**. Haga clic en **partes**, apunte a **New**y, a continuación, haga clic en **entidad**.  
   
-3.  En el **propiedades de la entidad** diálogo cuadro, escriba **Contoso** en el **nombre** campo.  
+3. En el **las propiedades de entidad** diálogo cuadro, escriba **Contoso** en el **nombre** campo.  
   
-4.  Seleccione el **BizTalk Local procesa mensajes recibidos por la entidad o admite el envío de mensajes de esta entidad** casilla de verificación. Si selecciona la casilla de verificación, se especifica que la entidad (en este caso, **Contoso**) también aloja BizTalk Server.  
+4. Seleccione el **BizTalk Local procesa mensajes recibidos por la entidad o admite el envío de mensajes desde esta entidad** casilla de verificación. Si activa la casilla de verificación especificar que la entidad (en este caso, **Contoso**) también aloja BizTalk Server.  
   
-5.  Haga clic en **Aceptar**.  
+5. Haga clic en **Aceptar**.  
   
-6.  Haga clic en el nombre de la entidad, seleccione **New**y, a continuación, haga clic en **perfil de negocio**.  
+6. Haga clic en el nombre de la entidad, seleccione **New**y, a continuación, haga clic en **perfil de negocio**.  
   
-7.  En el **propiedades de perfil** cuadro de diálogo la **General** escriba `Contoso_Profile` en el **nombre** cuadro de texto.  
+7. En el **propiedades de perfil** cuadro de diálogo el **General** , escriba `Contoso_Profile` en el **nombre** cuadro de texto.  
   
-    > [!NOTE]
-    >  Cuando se crea una entidad, también se crea un perfil. Puede cambiar el nombre y usar ese perfil en lugar de crear uno nuevo. Para cambiar el nombre de un perfil, haga clic en el perfil y seleccione **propiedades**. En el **General** página, especifique un nombre para el perfil.  
+   > [!NOTE]
+   >  Cuando se crea una entidad, también se crea un perfil. Puede cambiar el nombre y usar ese perfil en lugar de crear uno nuevo. Para cambiar el nombre de un perfil, haga clic en el perfil y seleccione **propiedades**. En el **General** , especifique un nombre para el perfil.  
   
-8.  Haga clic en **Aceptar**.  
+8. Haga clic en **Aceptar**.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
- Configurar un perfil de entidad y de negocio para su organización de socios comerciales (**Fabrikam**), tal y como se describe en [paso 4: configurar una entidad y perfil de negocio para el socio comercial](../core/step-4-configure-a-party-and-business-profile-for-your-trading-partner2.md).  
+ Configurar un perfil de entidad y negocio para su organización asociada (**Fabrikam**), tal y como se describe en [paso 4: configurar una entidad y perfil de negocio para su socio comercial](../core/step-4-configure-a-party-and-business-profile-for-your-trading-partner2.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar propiedades de EDI](../core/configuring-edi-properties.md)
+ [Configuración de las propiedades de EDI](../core/configuring-edi-properties.md)

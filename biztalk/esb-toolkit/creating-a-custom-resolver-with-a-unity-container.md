@@ -1,5 +1,5 @@
 ---
-title: Crear una resolución personalizada con un contenedor de Unity | Documentos de Microsoft
+title: Creación de un solucionador personalizado con un contenedor de Unity | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef4a96542bcf2a7deae4911c6ee81fa846d0766f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b5280108bddeeacd78b9e8f6df0fa908329af8dd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975618"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012677"
 ---
-# <a name="creating-a-custom-resolver-with-a-unity-container"></a>Crear a una resolución personalizada con un contenedor de Unity
-Puede crear una resolución personalizada mediante la [Unity Application Block](http://go.microsoft.com/fwlink/?LinkId=188286) (Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](http://go.microsoft.com/fwlink/?LinkId=188286)) para la inyección de dependencia de tiempo de ejecución de los orígenes de lógica y los metadatos de resolución.
+# <a name="creating-a-custom-resolver-with-a-unity-container"></a>Creación de un solucionador personalizado con un contenedor de Unity
+Puede crear un solucionador personalizado utilizando el [Unity Application Block](http://go.microsoft.com/fwlink/?LinkId=188286) (Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](http://go.microsoft.com/fwlink/?LinkId=188286)) para la inserción de dependencias de tiempo de ejecución de los orígenes de resolución de lógica y los metadatos.
   
  **Proveedores de hechos**  
   
- Proveedores de hechos son instancias de clases que implementan la **IFactProvider** interfaz. Esta interfaz expone tres diferentes sobrecargas de un método denominado **RegisterFact**. Este método toma el mensaje, la configuración de la resolución y, en algunos casos, el contexto de canalización y devuelve un objeto. Este objeto puede ser información extraída de las entradas de alguna manera, puede ser un cálculo de algún tipo o se puede buscar desde algún origen externo. Cada objeto devuelto por un proveedor de datos puede hacer referencia como un hecho y normalmente se agrega a una lista por el contenedor de resolución para su uso posterior por un traductor de hechos.  
+ Proveedores de hechos son instancias de clases que implementan la **IFactProvider** interfaz. Esta interfaz expone tres diferentes sobrecargas de un método denominado **RegisterFact**. Este método toma en el mensaje, la configuración de la resolución y, en algunos casos, el contexto de canalización y devuelve un objeto. Este objeto puede ser información extraída de las entradas de alguna manera, puede ser un cálculo de alguna forma, o puede buscar desde algún origen externo. Cada objeto devuelto por un proveedor de hechos puede se conoce como un hecho y normalmente se agrega a una lista el contenedor de resolución para su uso posterior por un traductor de hechos.  
   
- Una resolución de Unity puede tener cero o más proveedores de hechos que pueden agregarse ni quitarse en cualquier momento con un cambio de configuración único.  
+ Una resolución de Unity puede tener cero o más proveedores de hechos que pueden agregarse o quitarse en cualquier momento con un cambio de configuración único.  
   
- El código siguiente es un ejemplo de la lógica de contenidos en un proveedor de hechos. Este código también puede encontrarse en el archivo ItineraryStaticFactProvider.cs de ESB. Proyecto de Resolver.Itinerary.Facts. Es un componente en la resolución de itinerario ESTÁTICOS que recopila el nombre y la versión de un itinerario de la cadena de conexión de resolución.  
+ El código siguiente es un ejemplo de la lógica de un proveedor de hechos. Este código también puede encontrarse en el archivo ItineraryStaticFactProvider.cs del ESB. Proyecto Resolver.Itinerary.Facts. Es un componente en la resolución de itinerario estático que recopila el nombre y la versión de un itinerario de la cadena de conexión de la resolución.  
   
 ```csharp  
 public object RegisterFact(IBaseMessage message, IPipelineContext pipelineContext, Dictionary\<string, string\> resolverContents)  
@@ -55,11 +55,11 @@ private static object GetItineraryFactFromResolver(Dictionary\<string, string\> 
   
  **Traductores de hechos**  
   
- Traductores de hechos son instancias de clases que implementan la **IFactTranslator** interfaz. Esta interfaz expone un método único denominado **TranslateFact**. Este método se realiza en una matriz de objetos que contiene una lista de hechos y el diccionario de resolución que se devolverá más adelante mediante el solucionador mediante el traductor de hechos. Un traductor de hechos es responsable de procesar los datos proporcionados por los proveedores de datos de forma significativa y, a continuación, rellenar el diccionario de resolución.  
+ Traductores de hechos son instancias de clases que implementan la **IFactTranslator** interfaz. Esta interfaz expone un solo método denominado **TranslateFact**. Este método toma una matriz de objetos que contiene una lista de hechos y el diccionario de resolución que se devolverá más adelante mediante el solucionador utilizando el traductor de hechos. Un traductor de hechos es responsable de procesar los datos proporcionados por los proveedores de hechos de manera significativa y, a continuación, rellenar el diccionario de resolución.  
   
- Una resolución de Unity puede tener cero o más traductores de hechos que pueden agregarse ni quitarse en cualquier momento con un cambio de configuración único.  
+ Una resolución de Unity puede tener cero o más traductores de hechos que se pueden agregar o quitar en cualquier momento con un cambio de configuración único.  
   
- El código siguiente es un ejemplo de la lógica de un traductor de hechos. Este código también puede encontrarse en el archivo ItineraryStaticFactTranslator.cs de ESB. Proyecto de Resolver.Itinerary.Facts. Es un componente en la resolución de itinerario estático que se realiza una consulta de base de datos para recopilar el itinerario XML para un itinerario por nombre y, opcionalmente, por versión.  
+ El código siguiente es un ejemplo de la lógica de un traductor de hechos. Este código también puede encontrarse en el archivo ItineraryStaticFactTranslator.cs del ESB. Proyecto Resolver.Itinerary.Facts. Es un componente en la resolución de itinerario estático que realiza una consulta de base de datos para recopilar el itinerario XML para un itinerario por nombre y, opcionalmente, por versión.  
   
 ```csharp  
 public void TranslateFact(object[] facts, Dictionary\<string, string\> factDictionary)  
@@ -115,11 +115,11 @@ public void TranslateFact(object[] facts, Dictionary\<string, string\> factDicti
 #endregion  
 ```  
   
- **Resolver contenedores**  
+ **Resolver los contenedores**  
   
- Un contenedor de resolución es una clase que implementa el **IResolveContainer** interfaz. Normalmente, también implementa el **IResolveProvider** interfaz. El **IResolveContainer** interfaz expone un método único denominado **inicializar** que toma un **IUnityContainer**. El contenedor que se pasa a este método contendrá todas las dependencias (es decir, instancias de las clases **IFactProvider** y **IFactTranslator**y cualquier otro tipo necesaria) necesarios para el resolución para completar su procesamiento.  
+ Un contenedor de resolución es una clase que implementa el **IResolveContainer** interfaz. Normalmente, también implementa el **IResolveProvider** interfaz. El **IResolveContainer** interfaz expone un solo método denominado **inicializar** que toma un **IUnityContainer**. El contenedor pasado a este método contendrá todas las dependencias (es decir, instancias de las clases **IFactProvider** y **IFactTranslator**y cualquier otro tipo necesario) necesarios para el resolución para completar su procesamiento.  
   
- El código siguiente es un ejemplo de una implementación de la **IResolveContainer** interfaz. Este código también puede encontrarse en el archivo StaticItineraryResolveContainer.cs de ESB. Proyecto de Resolver.Itinerary.  
+ El código siguiente es un ejemplo de una implementación de la **IResolveContainer** interfaz. Este código también puede encontrarse en el archivo StaticItineraryResolveContainer.cs del ESB. Proyecto Resolver.Itinerary.  
   
 ```csharp  
 #region IResolveContainer Members  
@@ -147,9 +147,9 @@ public void Initialize(IUnityContainer container)
 #endregion  
 ```  
   
- En un contenedor de resolución, en las implementaciones de la **resolver** métodos desde el **IResolveProvider** interfaz, es necesario recorrer en iteración todos los proveedores de hechos y traductores de hechos en la unidad contenedor para permitir que cada uno de ellos para realizar su procesamiento.  
+ En un contenedor de resolver, en las implementaciones de la **resolver** métodos desde el **IResolveProvider** interfaz, es necesario recorrer en iteración todos los proveedores de hechos y traductores de hechos en el Unity contenedor para permitir que cada uno de ellos para realizar su procesamiento.  
   
- El código siguiente es un ejemplo de la lógica de incluidos en un contenedor de resolución. Este código también puede encontrarse en el archivo StaticItineraryResolveContainer.cs de ESB. Proyecto de Resolver.Itinerary.  
+ El código siguiente es un ejemplo de la lógica contenida en un contenedor de resolución. Este código también puede encontrarse en el archivo StaticItineraryResolveContainer.cs del ESB. Proyecto Resolver.Itinerary.  
   
 ```csharp  
 public Dictionary\<string, string\> Resolve(ResolverInfo resolverInfo,  
@@ -206,17 +206,17 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
 }  
 ```  
   
- **Configurar a una resolución de Unity personalizado**  
+ **Configurar a una resolución personalizada de Unity**  
   
- Para configurar a una resolución personalizada de Unity, los mismos pasos de configuración se aplican al crear a una resolución personalizada; Sin embargo, hay alguna configuración adicional que se debe incluir para registrar correctamente los componentes que constituyen la resolución.  
+ Para configurar a una resolución personalizada de Unity, se aplican los mismos pasos de configuración como al crear a una resolución personalizada; Sin embargo, hay una configuración adicional que debe incluirse para registrar correctamente los componentes que constituyen la resolución.  
   
- Primero, en el archivo Esb.config, en la declaración de resolución, un **resolverConfig** nodo debe agregarse con las dos propiedades siguientes:  
+ Primero, en el archivo Esb.config, debajo de la declaración de resolución, un **resolverConfig** debe agregarse el nodo con las dos propiedades siguientes:  
   
--   **unitySectionName**. Esta propiedad contiene el nombre de la sección de configuración en el archivo de configuración que contiene la configuración para el bloque de aplicación de Unity; de forma predeterminada, el valor de esta propiedad es **esb.resolver**.  
+- **unitySectionName**. Esta propiedad contiene el nombre de la sección de configuración en el archivo de configuración que contiene la configuración para el bloque de aplicaciones de Unity; de forma predeterminada, el valor de esta propiedad es **esb.resolver**.  
   
--   **unityContainerName**. Esta propiedad contiene el nombre del contenedor Unity definido en la configuración de Unity correspondiente a la resolución personalizada.  
+- **unityContainerName**. Esta propiedad contiene el nombre del contenedor Unity definido en la configuración de Unity específica para su resolución personalizada.  
   
- El siguiente código XML es un ejemplo de la configuración necesaria en el **resoluciones** nodo.  
+  El siguiente código XML es un ejemplo de la configuración necesaria en el **solucionadores** nodo.  
   
 ```xml  
 <resolver name="ITINERARY-STATIC" type="Microsoft.Practices.ESB.Resolver.Unity.ResolveProvider, Microsoft.Practices.ESB.Resolver.Unity, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22">  
@@ -294,24 +294,24 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
 </containers>  
 ```  
   
- Para obtener información detallada sobre la configuración necesaria en el **esb.resolvers** nodo, consulte [esquema de origen para el bloque de aplicaciones de Unity](http://go.microsoft.com/fwlink/?LinkId=188288) ([http://go.microsoft.com/fwlink/ ? LinkId = 188288](http://go.microsoft.com/fwlink/?LinkId=188288)) en MSDN.  
+ Para obtener información detallada sobre la configuración que son necesaria en el **esb.resolvers** nodo, vea [esquema de origen para el bloque de aplicaciones de Unity](http://go.microsoft.com/fwlink/?LinkId=188288) ([ http://go.microsoft.com/fwlink/?LinkId=188288 ](http://go.microsoft.com/fwlink/?LinkId=188288)) en MSDN.  
   
- **Crear a una resolución personalizada de Unity**  
+ **Creación de un solucionador de Unity personalizado**  
   
  **Para crear a una resolución personalizada de Unity**  
   
-1.  (Opcional) Crear un ensamblado o ensamblados con una clase que implementa el **IFactProvider** de interfaz y contiene un **RegisterFact** método que proporciona la información necesaria para la resolución que se produzca.  
+1.  (Opcional) Crear un ensamblado o ensamblados con una clase que implementa el **IFactProvider** interfaz y contiene un **RegisterFact** método que proporciona la información necesaria para la resolución que se produzca.  
   
-2.  (Opcional) Crear un ensamblado o ensamblados con una clase que implementa el **IFactTranslator** de interfaz y contiene un **TranslateFact** método que traduce los hechos proporcionados para pares de clave/valor el diccionario de resolución.  
+2.  (Opcional) Crear un ensamblado o ensamblados con una clase que implementa el **IFactTranslator** interfaz y contiene un **TranslateFact** método que traduce los hechos para los pares de clave-valor proporcionados el diccionario de resolución.  
   
-3.  Crear un ensamblado con una clase que implementa el **IResolveContainer** y **IResolveProvider** interfaz y que contiene un **resolver** método que valida el configuración de la resolución, recopila todos los hechos de los proveedores de hechos, realiza cualquier procesamiento especializados, traduce mediante los traductores de hechos y devuelve los hechos traducidos como una instancia de la **diccionario** clase.  
+3.  Crear un ensamblado con una clase que implementa el **IResolveContainer** y **IResolveProvider** interfaz y que contiene un **resolver** método que valida el configuración de la resolución, recopila todos los hechos de los proveedores de hecho, realiza cualquier procesamiento especializado, traduce mediante los traductores de hechos y devuelve los hechos traducidos como una instancia de la **diccionario** clase.  
   
-4.  Registre el solucionador, éste se agrega al archivo de configuración Esb.config utilizando un  **\<resolución\>**  elemento que contiene el moniker raíz como la **nombre** atributo y totalmente nombre del ensamblado completo como el **tipo** atributo.  
+4.  Registrar la resolución, éste se agrega al archivo de configuración Esb.config utilizando un **\<resolución\>** elemento que contiene el moniker raíz como el **nombre** atributo y totalmente nombre de ensamblado completo como el **tipo** atributo.  
   
-5.  Agregue la configuración específica de Unity para el archivo Esb.config para esta resolución.  
+5.  Agregue la configuración específica de Unity en el archivo Esb.config para esta resolución.  
   
-6.  (Opcional) Crear un esquema que define el moniker raíz y los parámetros de consulta y, a continuación, guárdelo en ESB. Carpeta Schemas.Resolvers. El nombre debe seguir convenciones de nomenclatura de ESB existentes; Esto significa que debe usar el nombre del moniker raíz anexado "_Resolution.xsd".  
+6.  (Opcional) Crear un esquema que define el moniker raíz y los parámetros de consulta y, a continuación, guárdela en el ESB. Carpeta Schemas.Resolvers. El nombre debe seguir convenciones de nomenclatura de ESB existentes; Esto significa que debe usar el nombre del moniker raíz anexado con "_Resolution.xsd".  
   
-7.  (Opcional) Generar una clase desde el nuevo esquema y lo guarda en el ensamblado de la resolución personalizada. Esto expondrá los parámetros de tipo en la resolución personalizada.  
+7.  (Opcional) Generar una clase desde el nuevo esquema y guardarlo en el ensamblado de resolución personalizada. Esto expondrá los parámetros con tipo en la resolución personalizada.  
   
 8.  Registrar todos los ensamblados en la caché global de ensamblados.

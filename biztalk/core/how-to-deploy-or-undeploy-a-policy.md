@@ -1,5 +1,5 @@
 ---
-title: Cómo implementar o anular la implementación de una directiva | Documentos de Microsoft
+title: Cómo implementar o anular la implementación de una directiva | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,34 +19,34 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d6e7f9f70e6f1f0f09ae1d006172fdc00dc1bc0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ad8aa910982ddb63a9f8b9602dbb1bfa843895fa
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970106"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022898"
 ---
 # <a name="how-to-deploy-or-undeploy-a-policy"></a>Cómo implementar o anular la implementación de una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server para implementar o anular la implementación de una directiva de forma manual. Además, al iniciar una aplicación, las directivas que contenga se implementan automáticamente, y cuando se detiene, se anula de forma automáticamente la implementación de las directivas correspondientes. Al implementar una directiva, entra en vigor en la aplicación que la usa. Al anular la implementación de una directiva, se desactiva de modo que deja de funcionar en cualquier aplicación del grupo de BizTalk que la use.  
   
  Al implementar o anular la implementación de una directiva, tenga en cuenta los siguientes puntos importantes:  
   
--   Para poder implementar una directiva, debe existir en la base de datos del motor de reglas del grupo de BizTalk. Si importa una aplicación que contenga una directiva, la directiva se importa automáticamente en la base de datos de motor de reglas, o puede importar explícitamente de una directiva en la base de datos de motor de reglas mediante la consola de administración o BTSTask, como se describe en [Cómo importar una directiva](../core/how-to-import-a-policy.md). Como alternativa, puede agregar una directiva de la base de datos de motor de reglas utilizando el Asistente para la implementación del motor de reglas, como se describe en [cómo implementar y anular la implementación de directivas y vocabularios](../core/how-to-deploy-and-undeploy-policies-and-vocabularies.md).  
+-   Para poder implementar una directiva, debe existir en la base de datos del motor de reglas del grupo de BizTalk. Si importa una aplicación que contenga una directiva, la directiva se importa automáticamente en la base de datos de motor de reglas, o puede importar explícitamente de una directiva en la base de datos de motor de reglas mediante la consola de administración o BTSTask, como se describe en [Cómo importar una directiva](../core/how-to-import-a-policy.md). Como alternativa, puede agregar una directiva a la base de datos de motor de reglas utilizando el Asistente para la implementación del motor de reglas, como se describe en [cómo implementar y anular la implementación de directivas y vocabularios](../core/how-to-deploy-and-undeploy-policies-and-vocabularies.md).  
   
--   Antes de poder implementar una directiva, debe estar publicada, como se describe en [cómo publicar una directiva](../core/how-to-publish-a-policy.md).  
+-   Antes de implementar una directiva, debe estar publicada, como se describe en [cómo publicar una directiva](../core/how-to-publish-a-policy.md).  
   
 -   Una directiva implementada no se puede modificar. Si desea modificar una directiva implementada, debe anular la implementación en primer lugar.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre permisos, consulte [permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+ Para realizar el procedimiento descrito en este tema, deberá iniciar sesión con una cuenta que sea miembro del grupo de administradores de BizTalk Server. Para obtener más información sobre los permisos, consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
 ### <a name="to-deploy-or-undeploy-a-policy"></a>Para implementar o anular la implementación de una directiva  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene la directiva que desea implementar o anular la implementación y, a continuación, expanda  **\<todos los artefactos\>** .  
+2. En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene la directiva que desea implementar o anular la implementación y, a continuación, expanda **\<todos los artefactos\>**.  
   
-3.  Haga clic en **directivas**, haga clic en la directiva y, a continuación, haga clic en **implementar** o **anular la implementación**.  
+3. Haga clic en **directivas**, haga clic en la directiva y, a continuación, haga clic en **implementar** o **Undeploy**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de directivas](../core/managing-policies.md)   

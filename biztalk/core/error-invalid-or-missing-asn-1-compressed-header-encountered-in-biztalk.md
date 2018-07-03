@@ -1,5 +1,5 @@
 ---
-title: No válido o ausente ASN.1 encabezado comprimido detectado durante el proceso de descompresión | Documentos de Microsoft
+title: Ausente o no válido ASN.1 comprimido encontrado un encabezado durante el proceso de descompresión | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c5847e077958a334704248bbc9c8cc21c2bb03d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 682b30bdb513aa9318dbc56cd592aa0009d56e39
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241820"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011965"
 ---
-# <a name="invalid-or-missing-asn1-compressed-header-encountered-during-decompression-processing"></a>Encabezado que se encontró durante el proceso de descompresión comprimido ASN.1 ausente o no válido
+# <a name="invalid-or-missing-asn1-compressed-header-encountered-during-decompression-processing"></a>Encabezado comprimido ASN.1 ausente o no válido detectado durante el proceso de descompresión
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|-|  
-|Texto del mensaje|Encabezado que se encontró durante el proceso de descompresión comprimido ASN.1 ausente o no válido|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                                           -                                            |
+|  Texto del mensaje   | Encabezado comprimido ASN.1 ausente o no válido detectado durante el proceso de descompresión |
   
 ## <a name="explanation"></a>Explicación  
  Este error hace referencia a la estructura ASN.1 de los datos comprimidos. El error indica al remitente de los datos comprimidos que ha estructurado incorrectamente los datos comprimidos o que se ha producido una manipulación (cambio sin autorización) del mensaje.  

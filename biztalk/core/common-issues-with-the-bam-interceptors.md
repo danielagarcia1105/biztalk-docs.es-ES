@@ -1,5 +1,5 @@
 ---
-title: Problemas comunes con los interceptores de BAM | Documentos de Microsoft
+title: Problemas comunes con los interceptores de BAM | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 312bcd2ea1eaedcf44f02e2d3b702989095969d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e6217a96bfbbe0a9dfddef6e8cec5a82cb93254
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231500"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004077"
 ---
 # <a name="common-issues-with-the-bam-interceptors"></a>Problemas comunes de los interceptores de BAM
 En este tema se explican los siguientes problemas comunes que pueden surgir al usar interceptores de BAM:  
@@ -27,17 +27,17 @@ En este tema se explican los siguientes problemas comunes que pueden surgir al u
 ## <a name="you-receive-a-sql-exception-concerning-a-completed-distributed-transaction-or-a-transaction-descriptor"></a>Se recibe una excepción de SQL relacionada con una transacción distribuida completada o con un descriptor de la transacción  
  Al ejecutar el interceptor de Windows Communication Framework (WCF) de BAM, se puede ver alguna de las excepciones siguientes:  
   
--   Se completó la transacción distribuida. Dé de alta esta sesión en una nueva transacción o en la transacción NULL.  
+- Se completó la transacción distribuida. Dé de alta esta sesión en una nueva transacción o en la transacción NULL.  
   
--   No se permite el inicio de la nueva solicitud porque debe llegar con un descriptor válido de la transacción.  
+- No se permite el inicio de la nueva solicitud porque debe llegar con un descriptor válido de la transacción.  
   
- Algunas sugerencias para solucionar este problema son las siguientes:  
+  Algunas sugerencias para solucionar este problema son las siguientes:  
   
--   Habilitar el seguimiento de BAM. Este seguimiento incluirá todos los mensajes relevantes, incluida la causa raíz del error. Para obtener más información acerca del seguimiento de BAM, consulte [cómo habilitar el seguimiento en BAM](../core/how-to-enable-tracing-in-bam.md).  
+- Habilitar el seguimiento de BAM. Este seguimiento incluirá todos los mensajes relevantes, incluida la causa raíz del error. Para obtener más información acerca del seguimiento de BAM, consulte [cómo habilitar el seguimiento en BAM](../core/how-to-enable-tracing-in-bam.md).  
   
--   Al ver la excepción del coordinador de transacciones distribuidas (DTC), intentar volver a ejecutar exactamente el mismo escenario sin transacciones.  
+- Al ver la excepción del coordinador de transacciones distribuidas (DTC), intentar volver a ejecutar exactamente el mismo escenario sin transacciones.  
   
--   Usar el Analizador de SQL Server y buscar errores en el seguimiento que originen la anulación de la transacción.  
+- Usar el Analizador de SQL Server y buscar errores en el seguimiento que originen la anulación de la transacción.  
   
 ## <a name="you-receive-an-error-similar-to-interceptor-configuration-polling-interval-0-must-be-at-least-5-seconds-when-using-the-wcf-interceptor"></a>Se recibe un error parecido a "El intervalo de sondeo '0' de la configuración del interceptor debe ser de '5' segundos" al usar el interceptor de WCF  
  Este error puede aparecer si no se proporciona de forma explícita un valor de intervalo de la configuración del interceptor en el archivo de configuración de la aplicación, o si se especifica un valor pero es inferior a 5 segundos, que es el valor mínimo necesario.  

@@ -1,5 +1,5 @@
 ---
-title: Requisitos para el inicio de sesión único | Documentos de Microsoft
+title: Requisitos para el inicio de sesión único | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fd2a1fb342911c904044c8099901c5056f17ac9f
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 48346802c25e4b5aeb4d6ac1d5e83552b1220149
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24013027"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005493"
 ---
 # <a name="requirements-for-single-sign-on"></a>Requisitos para el inicio de sesión único
 Para usar el inicio de sesión único (SSO), debe tener:  
   
--   Microsoft BizTalk Server 
+- Microsoft BizTalk Server 
   
--   Visual Studio  
+- Visual Studio  
   
--   Inicio de sesión único (SSO) empresarial  
+- Inicio de sesión único (SSO) empresarial  
   
--   Un sistema de servidor compatible con SSO  
+- Un sistema de servidor compatible con SSO  
   
- El host aislado debe configurarse como autenticación de confianza.  
+  El host aislado debe configurarse como autenticación de confianza.  
   
-## <a name="enable-sso"></a>Habilitar SSO  
+## <a name="enable-sso"></a>Habilitar el inicio de sesión único  
   
 1.  En el **propiedades de transporte** ventana, seleccione **Sí** para **usar SSO**.  
   

@@ -1,5 +1,5 @@
 ---
-title: AS2 Utilidad del remitente | Documentos de Microsoft
+title: AS2 Utilidad del remitente | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e69f70e2a404c92393fb02b301b58abf2d97da2f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d2b07b2d791f4870b608e552189cd2f35754c950
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22232284"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998221"
 ---
 # <a name="as2-sender-utility"></a>Utilidad del remitente de AS2
 La utilidad del remitente de AS2 incluida con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] le permite enviar un mensaje AS2 a un sitio web en un único equipo. Esta utilidad simula el envío de un mensaje AS2 de un equipo diferente.  
@@ -30,13 +30,13 @@ La utilidad del remitente de AS2 incluida con [!INCLUDE[btsBizTalkServerNoVersio
 ## <a name="what-this-utility-does"></a>Qué hace esta utilidad  
  La utilidad del remitente de AS2 genera un mensaje AS2 con una carga EDI y envía ese mensaje a un sitio Web que utiliza el filtro ISAPI de BTSHTTPReceive. El tutorial realiza lo siguiente de forma predeterminada:  
   
--   Envía un mensaje AS2 con el nombre X12_00401_864.edi con una carga cifrada 864 X12. Este mensaje se encuentra en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial.  
+- Envía un mensaje AS2 con el nombre X12_00401_864.edi con una carga cifrada 864 X12. Este mensaje se encuentra en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial.  
   
--   Envía un MDN asíncrono en respuesta al mensaje AS2. Esto está determinado por el mensaje enviado y puede modificarse.  
+- Envía un MDN asíncrono en respuesta al mensaje AS2. Esto está determinado por el mensaje enviado y puede modificarse.  
   
--   Envía el mensaje AS2 a una ubicación de recepción a través del directorio virtual de Contoso.  
+- Envía el mensaje AS2 a una ubicación de recepción a través del directorio virtual de Contoso.  
   
- La utilidad se puede modificar para cambiar este comportamiento específico. Consulte la [cómo personalizar la utilidad del remitente de AS2](../core/as2-sender-utility.md#BKMK_Custom) sección más adelante.  
+  La utilidad se puede modificar para cambiar este comportamiento específico. Consulte la [cómo personalizar la utilidad del remitente de AS2](../core/as2-sender-utility.md#BKMK_Custom) sección más adelante.  
   
 ## <a name="how-to-set-up-a-solution-using-the-as2-sender-utility"></a>Cómo configurar una solución mediante la utilidad del remitente de AS2  
  Para configurar una solución con el fin de utilizar la utilidad del remitente de AS2, necesita realizar lo siguiente.  
@@ -52,7 +52,7 @@ La utilidad del remitente de AS2 incluida con [!INCLUDE[btsBizTalkServerNoVersio
   
 -   Establezca las propiedades de entidad de EDI y AS2.  
   
-##  <a name="BKMK_Custom"></a>Cómo personalizar la utilidad del remitente de AS2  
+##  <a name="BKMK_Custom"></a> Cómo personalizar la utilidad del remitente de AS2  
  La utilidad del remitente de AS2 predeterminada envía un intercambio de prueba EDI 864 a través de AS2 a una página Web de Contoso mediante el filtro ISAPI de BTSHTTPReceive. El mensaje AS2, con el nombre X12_00401_864.edi, solicita un MDN asíncrono. El código de la utilidad del remitente de AS2 se encuentra en HttpSender.cs en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]AS2 Tutorial\Sender. La siguiente línea de código de HttpSender.cs envía el archivo de prueba 864:  
   
 ```  
@@ -79,25 +79,25 @@ HttpSender TestSender = new HttpSender("http://localhost/Contoso/BTSHttpReceive.
   
 ### <a name="to-build-the-as2-sender-sample"></a>Para generar el ejemplo del remitente de AS2  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el proyecto Sender.csproj en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender.  
+1. En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el proyecto Sender.csproj en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender.  
   
-2.  Abra HttpSender.cs en el proyecto del remitente y personalice el código del remitente con la página Web de recepción apropiada y la ruta y nombre de archivo EDI apropiados.  
+2. Abra HttpSender.cs en el proyecto del remitente y personalice el código del remitente con la página Web de recepción apropiada y la ruta y nombre de archivo EDI apropiados.  
   
-3.  Haga clic en el proyecto del remitente y, a continuación, haga clic en **propiedades**.  
+3. Haga clic en el proyecto del remitente y, a continuación, haga clic en **propiedades**.  
   
-4.  Haga clic en **firma** en la consola de la izquierda. Asegúrese de que **firmar el ensamblado** está seleccionada, y el archivo de clave de nombre seguro se establece en **Sender.snk**. Asegúrese de que **Retrasar firma sólo** está desactivada.  
+4. Haga clic en **firma** en la consola de la izquierda. Asegúrese de que **firmar el ensamblado** está seleccionada, y el archivo de clave de nombre seguro se establece en **Sender.snk**. Asegúrese de que **Retrasar firma solo** está desactivada.  
   
-5.  Generar el proyecto.  
+5. Generar el proyecto.  
   
 ### <a name="to-run-the-as2-sender-sample"></a>Para ejecutar el ejemplo del remitente de AS2  
   
-1.  Abra un símbolo del sistema. Vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender\bin\debug.  
+1. Abra un símbolo del sistema. Vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender\bin\debug.  
   
-2.  ENTRAR **Sender.exe**y, a continuación, presione **ENTRAR**.  
+2. ENTRAR **Sender.exe**y, a continuación, presione **ENTRAR**.  
   
-3.  Compruebe que visualiza un mensaje que indica que un mensaje AS2 se ha enviado correctamente y, a continuación, cierre el símbolo de sistema.  
+3. Compruebe que visualiza un mensaje que indica que un mensaje AS2 se ha enviado correctamente y, a continuación, cierre el símbolo de sistema.  
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial 3: Tutorial de AS2](../core/tutorial-3-as2-tutorial.md)   
  [Tutorial (AS2): Enviar EDI a través de AS2 con un MDN sincrónico](../core/walkthrough-as2-sending-edi-over-as2-with-a-synchronous-mdn.md)   
- [Tutorial (AS2): Enviar EDI a través de AS2 con un MDN asíncrono](../core/walkthrough-as2-sending-edi-over-as2-with-an-asynchronous-mdn.md)
+ [Tutorial (AS2): Envío de EDI a través de AS2 con un MDN asincrónico](../core/walkthrough-as2-sending-edi-over-as2-with-an-asynchronous-mdn.md)

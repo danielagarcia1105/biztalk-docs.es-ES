@@ -1,5 +1,5 @@
 ---
-title: Base y los esquemas comunes | Documentos de Microsoft
+title: Esquemas base y comunes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,19 +17,19 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88ca51abfcdbfe965bc3da8deeb97f72df736903
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b7f8f86e4b74b84cef556ae95bc6255d8575237
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209180"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012573"
 ---
-# <a name="base-and-common-schemas"></a>Base y los esquemas comunes
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] ha implementado los registros y los elementos que componen los esquemas de mensaje individual en esquemas distintos. Este enfoque proporciona una única ubicación para proporcionar actualizaciones para los campos y formatos, aislar el esquema de mensaje de dichos cambios.  
+# <a name="base-and-common-schemas"></a>Esquemas base y comunes
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] ha implementado los registros y los elementos que componen los esquemas de mensaje individual en esquemas distintos. Este enfoque proporciona una ubicación única para proporcionar actualizaciones para los campos y formatos, aislar el esquema de mensaje de dichos cambios.  
   
- El esquema de base (**Types.xsd Base SWIFT**) contiene las definiciones de registro y elemento comunes que hacen referencia a los esquemas de mensaje. Las definiciones comunes de registro y elemento corresponden a los campos de mensaje de FIN de SWIFT. Debe agregar este esquema a cualquier proyecto que utiliza el esquema de mensaje. El esquema de base trata las reglas y las funciones comunes y define los formatos de A4SWIFT se utiliza para validar las instancias de mensaje adecuado. El esquema de SWIFT Base Types.xsd define XSD **simpleType** y elementos complejos para SWIFT campos. Ha definido SWIFT **simpleType** elementos para todos los campos de base, como la cantidad, velocidad, precio etc., que utiliza SWIFT en muchos de los campos. El esquema de SWIFT Base Types.xsd define también elementos complejos de XSD para los campos que incluyen muchos personalizado **simpleTypes** definido en el esquema. Por ejemplo, el **BankIdentifierCode** elemento complejo utiliza código del banco, código de país, código de área y código de la bifurcación. Los usuarios pueden agregar nuevos **simpleTypes** y elementos complejos que SWIFT campos espejo y pueden modificar los tipos existentes. También debe tener cuidado, sin embargo, cuando se modifican los tipos existentes, porque las características de validación de motor de reglas de negocios (BRE) y la validación de XML dependen de estos tipos definidos.  
+ El esquema de base (**Types.xsd Base SWIFT**) contiene las definiciones de registro y elemento comunes que hacen referencia a los esquemas de mensaje. Las definiciones comunes de registro y elemento corresponden a los campos de mensaje de FIN de SWIFT. Deberá agregar este esquema a cualquier proyecto que utiliza el esquema de mensaje. El esquema de base trata las reglas y las funciones comunes y define los formatos de A4SWIFT para validar las instancias de mensaje adecuado. El esquema de SWIFT Base Types.xsd define XSD **simpleType** y elementos complejos para los campos SWIFT. Ha definido SWIFT **simpleType** elementos para todos los campos de bases, como la cantidad, velocidad, precio etc., que usa SWIFT en muchos de los campos. El esquema de SWIFT Base Types.xsd define también elementos complejos de XSD para los campos que se incluyen muchos de personalizado **simpleTypes** definido en el esquema. Por ejemplo, el **BankIdentifierCode** elemento complejo que usa código del banco, código de país, código de área y código de la sucursal. Los usuarios pueden agregar nuevos **simpleTypes** y elementos complejos que reflejen los campos SWIFT y pueden modificar los tipos existentes. Debe procurar, sin embargo, al modificar tipos existentes, porque las características de validación de motor de reglas de negocios (BRE) y la validación de XML dependen de estos tipos definidos.  
   
- El esquema común (**Types.xsd de datos común de SWIFT**) define los juegos de caracteres apropiado para los campos en el esquema de base. SWIFT define estos juegos de caracteres, como se hace referencia en el *manual de usuario de SWIFT*. También debe agregar el esquema común a los proyectos de esquema.  
+ El esquema común (**Types.xsd datos comunes de SWIFT**) define los juegos de caracteres apropiado para los campos en el esquema de base. SWIFT define estos juegos de caracteres, como se hace referencia en el *manual del usuario de SWIFT*. También deberá agregar el esquema común a los proyectos de esquema.  
   
 ## <a name="see-also"></a>Vea también  
  [Trabajar con esquemas](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)

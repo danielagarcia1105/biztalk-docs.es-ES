@@ -1,5 +1,5 @@
 ---
-title: Trabajar con el Desensamblador SWIFT y de ensamblador | Documentos de Microsoft
+title: Trabajar con el Desensamblador de SWIFT y ensamblador | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,15 +17,15 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a63b27e3c89ac59c698098b09e2f6565980e363
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 1942e6648311c65acc2bb1cd91406904906cc8f4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004877"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005741"
 ---
-# <a name="working-with-the-swift-disassembler-and-assembler"></a>Trabajar con el Desensamblador SWIFT y de ensamblador
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona componentes de canalización personalizados, el Desensamblador SWIFT y SWIFT ensamblador que tienen características diseñadas específicamente para procesar los mensajes de archivo sin formato SWIFT. El [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] enviar y recibir los componentes de canalización de uso la A4SWIFT de canalizaciones para llevar a cabo tareas específicas durante las etapas que se definen de entrada (recepción) y el procesamiento de salida (envío). Para obtener más información sobre el procesamiento de mensajes, canalizaciones y componentes de canalización, vea la Ayuda de BizTalk Server.  
+# <a name="working-with-the-swift-disassembler-and-assembler"></a>Trabajar con el Desensamblador de SWIFT y ensamblador
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona componentes de canalización personalizados, el Desensamblador de SWIFT y ensamblador de SWIFT que tienen características diseñadas específicamente para procesar los mensajes de archivo sin formato SWIFT. El [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] enviar y recibir los componentes de canalización de canalizaciones uso el A4SWIFT para llevar a cabo tareas específicas durante las fases definidas de entrada (recepción) y el procesamiento de salida (enviar). Para obtener más información sobre el procesamiento de mensajes, canalizaciones y los componentes de canalización, consulte la Ayuda de BizTalk Server.  
   
  Esta sección contiene:  
   

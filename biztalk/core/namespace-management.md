@@ -1,5 +1,5 @@
 ---
-title: Administración de Namespace | Documentos de Microsoft
+title: Administración de Namespace | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 897ab6de3e7fddb362cb59356e6a4808d35f8f47
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa476034a578be24bf388c87f38f910565cd2548
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263740"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022474"
 ---
 # <a name="namespace-management"></a>Administrador de espacio de nombres
 El Editor de BizTalk proporciona compatibilidad para los espacios de nombres. Un espacio de nombres XML es una colección de nombres que se puede usar como nombres de elemento o atributo en un mensaje XML. El espacio de nombres califica los nombres de elemento y atributo para evitar conflictos entre los mismos nombres de elemento y atributo que se pueden definir en cualquier lugar dentro del mismo esquema.  
@@ -29,7 +29,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema"
   
 ```  
   
- El prefijo es xs, que se puede ver en la representación XSD, calificar elementos tales como el **elemento** element (xs:) y el **atributo** elemento (xs: Attribute).  
+ El prefijo es xs, puede ver en la representación XSD, calificar elementos tales como el **elemento** (xs: element) y el **atributo** elemento (cualifica).  
   
  Cuando se crea un nuevo esquema, independientemente de si es un esquema de mensaje o un esquema de propiedad, es importante establecer el **Target Namespace** propiedad de la **esquema** nodo correctamente. Debe establecer el espacio de nombres de destino antes de que otro esquema utilice el esquema con los mecanismos import, include y redefine, así como antes de que se defina cualquier promoción de propiedades.  
   
@@ -38,13 +38,13 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema"
   
  Los dos siguientes espacios de nombres se agregan automáticamente como declaraciones de espacios de nombres al elemento schema de la representación del esquema en el lenguaje de definición de esquemas XML (XSD):  
   
--   xmlns:b="http://schemas.microsoft.com/BizTalk/2003"  
+- xmlns: b = "<http://schemas.microsoft.com/BizTalk/2003>"  
   
--   xmlns:xs="http://www.w3.org/2001/XMLSchema"  
+- xmlns: xs = "<http://www.w3.org/2001/XMLSchema>"  
   
- Mientras use otros esquemas dentro del esquema que esté creando, se declararán otros espacios de nombres. Puede examinar estos espacios de nombres, así como los espacios de nombres incluidos automáticamente, en el **importaciones** cuadro de diálogo que se puede tener acceso mediante el **importaciones** propiedad de la **esquema** nodo. Para obtener más información acerca del uso de otros tipos de datos declarados en otros esquemas dentro del esquema que está creando, consulte [esquemas que usan otros esquemas](../core/schemas-that-use-other-schemas.md) y [crear esquemas que usan otros esquemas](../core/how-to-create-schemas-that-use-other-schemas.md).  
+  Mientras use otros esquemas dentro del esquema que esté creando, se declararán otros espacios de nombres. Puede examinar estos espacios de nombres, así como los espacios de nombres incluidos automáticamente, en el **importaciones** cuadro de diálogo que puede tener acceso mediante el uso de la **importaciones** propiedad de la **esquema** nodo. Para obtener más información sobre el uso de otros tipos de datos declarados en otros esquemas dentro del esquema que está creando, consulte [esquemas que usan otros esquemas](../core/schemas-that-use-other-schemas.md) y [crear esquemas que usan otros esquemas](../core/how-to-create-schemas-that-use-other-schemas.md).  
   
- Espacios de nombres asociados con esquemas de propiedades se pueden examinar en el **promocionar propiedades** cuadro de diálogo.  
+  Se pueden examinar los espacios de nombres asociados con esquemas de propiedades en el **promocionar propiedades** cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
  [Consideraciones al crear esquemas](../core/considerations-when-creating-schemas.md)

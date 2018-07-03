@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Probar el Application6 migrados | Documentos de Microsoft'
+title: 'Paso 3: Probar el Application6 migrados | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,58 +15,58 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3ebc175053b7afa1f3c360623b0230809db17bb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2116888c3e56128b7e474e1370930a39e94a93a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22216804"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006916"
 ---
 # <a name="step-3-test-the-migrated-application"></a>Paso 3: Probar la aplicación migrada
 ![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  
   
  **Tiempo en completarse:** 5 minutos  
   
- **Objetivo:** en este paso, probará la aplicación migrada invocando la RFC SD_RFC_CUSTOMER_GET. Para ello, se coloca un mensaje de solicitud que se ajusta al esquema generado con el adaptador SAP vPrev.  
+ **Objetivo:** en este paso, probará la aplicación migrada mediante la invocación de la RFC SD_RFC_CUSTOMER_GET. Para ello, coloque un mensaje de solicitud que se ajusta al esquema generado con el adaptador de SAP vPrev.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
   
--   Configurar la aplicación de BizTalk mediante la asignación de los puertos lógicos de la orquestación de BizTalk a puertos físicos en la consola de administración de BizTalk Server.  
+- Configurar la aplicación de BizTalk mediante la asignación de los puertos lógicos de la orquestación de BizTalk a puertos físicos en la consola de administración de BizTalk Server.  
   
--   Configurar la aplicación de BizTalk para utilizar el puerto de envío WCF-Custom para basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- Configurar la aplicación de BizTalk para utilizar el puerto de envío WCF-Custom basado en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ### <a name="to-test-the-migrated-application"></a>Para probar la aplicación migrada  
   
-1.  En la carpeta SAP_RFC_Migration, copie el mensaje de solicitud de Input.xml. Este mensaje de solicitud cumple el esquema generado por el adaptador SAP vPrev. Mediante la asignación de salida, WCF-Custom enviarla convierte de puerto para que se ajuste al esquema de basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] y lo envía al sistema SAP.  
+1. En la carpeta SAP_RFC_Migration, copie el mensaje de solicitud Input.xml. Este mensaje de solicitud cumple el esquema generado por el adaptador de SAP vPrev. Mediante la asignación de salida, el WCF-Custom enviar puerto convierte esto para ajustarse al esquema basado en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] y lo envía al sistema SAP.  
   
-    ```  
-    <ns0:SD_RFC_CUSTOMER_GET_Request xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003">  
-      <KUNNR>0000001390</KUNNR>  
-      <NAME1/>  
-      <CUSTOMER_T/>  
-    </ns0:SD_RFC_CUSTOMER_GET_Request>  
-    ```  
+   ```  
+   <ns0:SD_RFC_CUSTOMER_GET_Request xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003">  
+     <KUNNR>0000001390</KUNNR>  
+     <NAME1/>  
+     <CUSTOMER_T/>  
+   </ns0:SD_RFC_CUSTOMER_GET_Request>  
+   ```  
   
-2.  Pegar el mensaje de solicitud a la carpeta que se asigna al archivo de la ubicación de recepción.  
+2. Pegar el mensaje de solicitud a la carpeta que se asigna al archivo de la ubicación de recepción.  
   
-3.  La orquestación consume el mensaje de solicitud y lo envía al sistema SAP. Se recibe la respuesta desde el sistema SAP en el esquema que se ajusta con el esquema de basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Mediante la asignación de entrada, WCF-Custom enviarla puerto convierte el esquema para el adaptador SAP vPrev. La respuesta desde el sistema SAP se guarda en la otra ubicación de archivo definida como parte de la orquestación. La respuesta para el mensaje de solicitud anterior es:  
+3. La orquestación consume el mensaje de solicitud y lo envía al sistema SAP. Se recibe la respuesta desde el sistema SAP en el esquema que se ajusta con el esquema de basada en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Mediante la asignación de entrada, el WCF-Custom enviar puerto convierte esto al esquema para el adaptador SAP vPrev. La respuesta desde el sistema SAP se guarda en la otra ubicación de archivo definida como parte de la orquestación. La respuesta para el mensaje de solicitud anterior es:  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8" ?>   
-    <ns0:SD_RFC_CUSTOMER_GET_Response xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003">  
-      <CUSTOMER_T>  
-        <KUNNR>0000001390</KUNNR>   
-        <ANRED>Firma</ANRED>   
-        <NAME1>Contoso, Ltd.</NAME1>   
-        <PFACH />   
-        <STRAS>Strasse 4567</STRAS>   
-        <PSTLZ>50000</PSTLZ>   
-        <ORT01>Aachen</ORT01>   
-        <TELF1>0123-45678</TELF1>   
-        <TELFX>0123-56789</TELFX>   
-      </CUSTOMER_T>  
-    </ns0:SD_RFC_CUSTOMER_GET_Response>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="utf-8" ?>   
+   <ns0:SD_RFC_CUSTOMER_GET_Response xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003">  
+     <CUSTOMER_T>  
+       <KUNNR>0000001390</KUNNR>   
+       <ANRED>Firma</ANRED>   
+       <NAME1>Contoso, Ltd.</NAME1>   
+       <PFACH />   
+       <STRAS>Strasse 4567</STRAS>   
+       <PSTLZ>50000</PSTLZ>   
+       <ORT01>Aachen</ORT01>   
+       <TELF1>0123-45678</TELF1>   
+       <TELFX>0123-56789</TELFX>   
+     </CUSTOMER_T>  
+   </ns0:SD_RFC_CUSTOMER_GET_Response>  
+   ```  
   
 ## <a name="see-also"></a>Vea también  
- [Tutorial 2: Migrar un proyecto de BizTalk RFC de SAP](../../adapters-and-accelerators/adapter-sap/tutorial-2-migrating-an-sap-rfc-biztalk-project.md)
+ [Tutorial 2: Migración de un proyecto de BizTalk RFC de SAP](../../adapters-and-accelerators/adapter-sap/tutorial-2-migrating-an-sap-rfc-biztalk-project.md)

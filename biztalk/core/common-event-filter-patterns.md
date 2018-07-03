@@ -1,5 +1,5 @@
 ---
-title: Patrones de filtro de eventos comunes | Documentos de Microsoft
+title: Patrones de filtro de eventos comunes | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef90a4533b8b12929488d3a323dae47976eace0a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4d5e5b7ad34a8b87bebe88e21630b178fb7ee35c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22234524"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012981"
 ---
 # <a name="common-event-filter-patterns"></a>Patrones de filtro de evento comunes
 A medida que trabaje con el interceptor de BAM para Windows Workflow Foundation (WF), es probable que observe que hay un conjunto de patrones de filtro comunes que utilizará con frecuencia en los archivos de configuración del interceptor. Aunque algunos de estos patrones de filtro serán exclusivos para sus aplicaciones y entornos, hay muchos patrones que se pueden usar en distintos entornos y en varias aplicaciones.  
   
  En este tema se recogen muchos de los patrones de filtro comunes que usan los archivos de configuración del interceptor escritos para aplicaciones WF. Los patrones se agrupan según el evento de seguimiento de Windows Workflow Foundation:  
   
--   Eventos de estado de actividad  
+- Eventos de estado de actividad  
   
--   Eventos de estado de flujo de trabajo  
+- Eventos de estado de flujo de trabajo  
   
--   Eventos de usuario  
+- Eventos de usuario  
   
- Todos los patrones se pueden copiar en el archivo de configuración de interceptor y se pueden modificar para adaptarlos a la aplicación.  
+  Todos los patrones se pueden copiar en el archivo de configuración de interceptor y se pueden modificar para adaptarlos a la aplicación.  
   
 ## <a name="activity-status-event-filter-patterns"></a>Patrones de filtro de evento de estado de actividad  
  Las actividades constituyen los bloques de creación de flujos de trabajo fundamentales. Un flujo de trabajo consiste en un conjunto de actividades organizadas de forma jerárquica en una estructura de árbol. Una actividad representa una acción en un flujo de trabajo. Puede ser una acción sencilla como un retraso o una compuesta con varias actividades secundarias.  
@@ -70,7 +70,7 @@ A medida que trabaje con el interceptor de BAM para Windows Workflow Foundation 
 ```  
   
 ### <a name="filter-by-activity-type-closed-activity-event"></a>Filtrar por tipo de actividad (evento de actividad cerrada)  
- Habrá ocasiones en las que deseará filtrar una actividad por tipo en lugar de por nombre. Por ejemplo, es posible que desee guardar el nombre de la actividad y una marca de fecha y hora de todas las actividades en un flujo de trabajo. Para ello, use la `GetActivityType` operación. `GetActivityType`Compara el tipo facilitado con el tipo base y todos los tipos derivados para determinar a su coincidencia. La comparación con `System.Workflow.ComponentModel.Activity` coincidirá, ya que todas las actividades del flujo de trabajo deben derivarse de ella.  
+ Habrá ocasiones en las que deseará filtrar una actividad por tipo en lugar de por nombre. Por ejemplo, es posible que desee guardar el nombre de la actividad y una marca de fecha y hora de todas las actividades en un flujo de trabajo. Para lograr esto, usa el `GetActivityType` operación. `GetActivityType` Compara el tipo facilitado con el tipo base y todos los tipos derivados para determinar a su coincidencia. La comparación con `System.Workflow.ComponentModel.Activity` coincidirá, ya que todas las actividades del flujo de trabajo deben derivarse de ella.  
   
 ```  
 <ic:Filter>  
@@ -142,7 +142,7 @@ A medida que trabaje con el interceptor de BAM para Windows Workflow Foundation 
 ```  
   
 ### <a name="filter-by-activity-type-and-event"></a>Filtrar por tipo y evento de actividad  
- Este filtro resulta útil para capturar información acerca de todas las actividades que derivan de un tipo específico durante un único evento de actividad. Por ejemplo, es posible que esté interesado en realizar el seguimiento de un Id. de pedido y una marca de fecha y hora de un pedido a medida que pasa por un flujo de trabajo. Para ello, use la `GetActivityEvent` y `GetActivityType` operaciones. `GetActivityType`Compara el tipo facilitado con el tipo base y todos los tipos derivados para determinar a su coincidencia. La comparación con `System.Workflow.ComponentModel.Activity` coincidirá, ya que todas las actividades del flujo de trabajo deben derivarse de ella.  
+ Este filtro resulta útil para capturar información acerca de todas las actividades que derivan de un tipo específico durante un único evento de actividad. Por ejemplo, es posible que esté interesado en realizar el seguimiento de un Id. de pedido y una marca de fecha y hora de un pedido a medida que pasa por un flujo de trabajo. Para lograr esto, usa el `GetActivityEvent` y `GetActivityType` operaciones. `GetActivityType` Compara el tipo facilitado con el tipo base y todos los tipos derivados para determinar a su coincidencia. La comparación con `System.Workflow.ComponentModel.Activity` coincidirá, ya que todas las actividades del flujo de trabajo deben derivarse de ella.  
   
 ```  
 <ic:Filter>  
@@ -214,25 +214,25 @@ A medida que trabaje con el interceptor de BAM para Windows Workflow Foundation 
 ## <a name="user-event-filter-patterns"></a>Patrones de filtro de evento de usuario  
  Si la aplicación realiza el seguimiento de información personalizada con el método TrackData, puede filtrar según las características de los datos mediante una o varias operaciones de datos de usuario personalizados del interceptor de BAM para WF que se indican a continuación:  
   
--   GetUserDataType (operación)  
+- GetUserDataType (operación)  
   
--   GetUserKey (operación)  
+- GetUserKey (operación)  
   
--   GetUserData (operación)  
+- GetUserData (operación)  
   
- El filtro puede combinar estas operaciones con las siguientes para crear una expresión más compleja:  
+  El filtro puede combinar estas operaciones con las siguientes para crear una expresión más compleja:  
   
--   GetActivityName  
+- GetActivityName  
   
--   GetActivityType  
+- GetActivityType  
   
--   GetActivityProperty  
+- GetActivityProperty  
   
--   GetWorkflowProperty  
+- GetWorkflowProperty  
   
--   GetContextProperty  
+- GetContextProperty  
   
- Si el filtro no incluye al menos una operación de datos de usuario, el filtro no será un filtro de evento de usuario y el OnEvent envolvente producirá un error (si una operación de usuario aparece en una expresión de actualización correspondiente) o se identificará como un punto de seguimiento de actividad y no de usuario.  
+  Si el filtro no incluye al menos una operación de datos de usuario, el filtro no será un filtro de evento de usuario y el OnEvent envolvente producirá un error (si una operación de usuario aparece en una expresión de actualización correspondiente) o se identificará como un punto de seguimiento de actividad y no de usuario.  
   
 ### <a name="filter-by-activity-name-and-user-data-type"></a>Filtrar por nombre de actividad y tipo de datos de usuario  
  Con frecuencia, puede identificar un evento por nombre de actividad y tipo de datos de usuario. La siguiente expresión filtra una actividad denominada "MyActivity" y un tipo de datos de usuario que deriva de `System.Object`.  

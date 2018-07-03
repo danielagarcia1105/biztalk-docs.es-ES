@@ -1,5 +1,5 @@
 ---
-title: Cómo mover la notificación de BAM servicios Databases2 | Documentos de Microsoft
+title: Cómo mover la notificación de BAM servicios Databases2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 639a326878cd425a951581711c08a0a53127035b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 73a995a4025bba980614d2c8cefef3da99219984
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254268"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014477"
 ---
 # <a name="how-to-move-the-bam-notification-services-databases"></a>Cómo mover las bases de datos de servicios de notificación de BAM
 Este procedimiento se puede utilizar para mover las bases de datos de servicios de notificación de BAM a otro servidor.  
@@ -34,40 +34,40 @@ Este procedimiento se puede utilizar para mover las bases de datos de servicios 
   
 ### <a name="to-move-the-bam-notification-services-databases"></a>Para mover las bases de datos de servicios de notificación de BAM  
   
-1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
+1. Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+   1. Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-    2.  En el símbolo del sistema, desplácese al directorio siguiente:  
+   2. En el símbolo del sistema, desplácese al directorio siguiente:  
   
-         **%SystemDrive%\Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\Tracking**   
+       **%SystemDrive%\Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\Tracking**   
   
-    3.  En el símbolo del sistema, escriba:  
+   3. En el símbolo del sistema, escriba:  
   
-        ```  
-        Bm.exe get-config –filename:BAMConfiguration.xml  
-        ```  
+      ```  
+      Bm.exe get-config –filename:BAMConfiguration.xml  
+      ```  
   
-        > [!NOTE]
-        >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+      > [!NOTE]
+      >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
-2.  En el símbolo del sistema, escriba:  
+2. En el símbolo del sistema, escriba:  
   
-    ```  
-    Net stop NS$BamAlerts  
-    ```  
+   ```  
+   Net stop NS$BamAlerts  
+   ```  
   
-3.  Siga las instrucciones en libros en pantalla de SQL Server realizar la copia de seguridad de la base de datos en el servidor anterior.  
+3. Siga las instrucciones en libros en pantalla de SQL Server sobre cómo realizar una copia de seguridad de la base de datos en el servidor anterior.  
   
-4.  Copie las bases de datos de servicios de notificación de BAM en el nuevo servidor SQL.  
+4. Copie las bases de datos de servicios de notificación de BAM en el nuevo servidor SQL.  
   
-5.  Siga las instrucciones en Libros en pantalla de SQL Server para la creación de una copia de seguridad de una base de datos en el servidor nuevo.  
+5. Siga las instrucciones en Libros en pantalla de SQL Server para la creación de una copia de seguridad de una base de datos en el servidor nuevo.  
   
-6.  Edite el archivo BAMConfiguration.xml y cambie el valor de ServerName en la sección Alert DeploymentUnit al nombre del nuevo servidor.  
+6. Edite el archivo BAMConfiguration.xml y cambie el valor de ServerName en la sección Alert DeploymentUnit al nombre del nuevo servidor.  
   
-7.  Guarde el archivo BAMConfiguration.xml y ciérrelo.  
+7. Guarde el archivo BAMConfiguration.xml y ciérrelo.  
   
-8.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+8. Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 9. En el símbolo del sistema, desplácese al directorio siguiente:  
   
@@ -82,7 +82,7 @@ Este procedimiento se puede utilizar para mover las bases de datos de servicios 
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
-11. Actualice las referencias a las bases de datos de servicios de notificación de BAM. Para obtener más información, consulte [cómo actualizar referencias a las bases de datos de servicios de notificación de BAM](../core/how-to-update-references-to-the-bam-notification-services-databases.md).  
+11. Actualice las referencias a las bases de datos de servicios de notificación de BAM. Para obtener más información, consulte [cómo actualizar las referencias a las bases de datos de servicios de notificación de BAM](../core/how-to-update-references-to-the-bam-notification-services-databases.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Mover bases de datos de servidor BizTalk Server](../core/moving-biztalk-server-databases.md)
+ [Mover bases de datos de BizTalk Server](../core/moving-biztalk-server-databases.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Paso 6: Validar los esquemas | Documentos de Microsoft'
+title: 'Paso 6: Validar los esquemas | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,25 +16,25 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b6de54e086865f0ca6c406ad8c24127192c8353f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 94f0ab3ba2d9586aa60817bb261be0660305c820
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005341"
 ---
 # <a name="step-6-validate-the-schemas"></a>Paso 6: Validar los esquemas
-En este paso, utilice el comando de esquema validar para determinar si cualquiera de los esquemas contiene alguna incoherencia interna, u otros problemas que pueden impedir que cualquier esquema que se usan de forma efectiva para procesar los mensajes de instancia.  
+En este paso, usa el comando de esquema de validación para determinar si cualquiera de los esquemas contiene alguna incoherencia interna, o tiene otros problemas que pueden impedir que cualquier esquema que se va a usar de forma eficaz para el procesamiento de mensajes de instancia.  
   
 ### <a name="to-validate-the-schema"></a>Para validar el esquema  
   
-1.  En el Explorador de soluciones, haga clic en **Doorbell.xsd** y, a continuación, haga clic en **Validar esquema**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
+1. En el Explorador de soluciones, haga clic en **Doorbell.xsd** y, a continuación, haga clic en **Validar esquema**. Asegúrese de que aparece un mensaje de éxito en la ventana de salida.  
   
-     Si no aparece un mensaje de confirmación, compruebe que ha creado **Doorbell.xsd** correctamente.  
+    Si no aparece un mensaje de confirmación, compruebe que ha creado **Doorbell.xsd** correctamente.  
   
-2.  Repita el paso 1 para el **ADT_A04_22_GLO_DEF.xsd** archivo de esquema. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
+2. Repita el paso 1 para el **ADT_A04_22_GLO_DEF.xsd** archivo de esquema. Asegúrese de que aparece un mensaje de éxito en la ventana de salida.  
   
- Continúe con [paso 7: firmar y compilar los proyectos](../../adapters-and-accelerators/accelerator-hl7/step-7-sign-and-build-the-projects.md).  
+   Continúe con [paso 7: firmar y compilar los proyectos](../../adapters-and-accelerators/accelerator-hl7/step-7-sign-and-build-the-projects.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial de enriquecimiento de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

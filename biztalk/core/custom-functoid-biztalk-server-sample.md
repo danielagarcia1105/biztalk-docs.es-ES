@@ -1,5 +1,5 @@
 ---
-title: Functoid personalizado (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Functoid personalizado (ejemplo de BizTalk Server) | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54f91f83285d554ad9ef825b10cf8004bd7dc0bc
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: de71eb45faa6c5705cca2ef47061686608126577
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970522"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013395"
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a>Functoid personalizado (ejemplo de BizTalk Server)
 El ejemplo de functoid personalizado muestra cómo escribir un functoid personalizado para el asignador de BizTalk. Puede agregar el functoid al cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. El functoid se mostrará en el cuadro de herramientas cuando el asignador de BizTalk esté en el foco.  
@@ -43,11 +43,11 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
 >  Si reutiliza el código de ejemplo del functoid personalizado para implementar su propio functoid, debe asegurarse de cambiar el atributo de GUID a uno que sea único.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>* \XmlTools\CustomFunctoid  
+ *\<Ejemplos de la ruta de acceso\>* \XmlTools\CustomFunctoid  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
-|Archivos|Description|  
+|Archivos|Descripción|  
 |---------------|-----------------|  
 |AssemblyInfo.cs|Código de origen de C# de información de ensamblado.|  
 |CBuildArray.bmp|Mapa de bits del cuadro de herramientas.|  
@@ -69,7 +69,7 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
   
 1.  En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\XmlTools\CustomFunctoid  
+     \<*Ejemplos de la ruta de acceso*\>\XmlTools\CustomFunctoid  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -87,90 +87,90 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
   
 #### <a name="to-run-this-sample"></a>Para ejecutar el ejemplo  
   
-1.  Desde un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, haga clic en el **herramientas** menú y seleccione **elegir elementos del cuadro de herramientas**.  
+1. Desde un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, haga clic en el **herramientas** menú y seleccione **elegir elementos del cuadro de herramientas**.  
   
-2.  En el **elementos de cuadro de herramientas elija** cuadro de diálogo, seleccione la **Functoids del asignador de BizTalk** ficha.  
+2. En el **elementos del cuadro de herramientas elija** cuadro de diálogo, seleccione el **Functoids del asignador de BizTalk** ficha.  
   
-3.  Haga clic en **restablecer**y, a continuación, haga clic en **Aceptar**.  
+3. Haga clic en **restablecer**y, a continuación, haga clic en **Aceptar**.  
   
-    > [!NOTE]
-    >  Si su functoid personalizado no expone ningún código en línea, asegúrese de que su ensamblado está disponible en la caché de ensamblados global.  
+   > [!NOTE]
+   >  Si su functoid personalizado no expone ningún código en línea, asegúrese de que su ensamblado está disponible en la caché de ensamblados global.  
   
-4.  Desde el **archivo** menú, seleccione **Exit** para cerrar [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+4. Desde el **archivo** menú, seleccione **Exit** para cerrar [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-5.  Iniciar **símbolo del sistema de Visual Studio**.  
+5. Iniciar **símbolo del sistema de Visual Studio**.  
   
-6.  En el símbolo del sistema, escriba **devenv /setup**.  
+6. En el símbolo del sistema, escriba **devenv /setup**.  
   
-7.  Iniciar **Microsoft Visual Studio**.  
+7. Iniciar **Microsoft Visual Studio**.  
   
-     Personalizado functoids (functoid de concatenación personalizada, cadena más larga, functoid de matriz de compilación y extraer el functoid de matriz) aparecen en la **Functoids de cadena** ficha del cuadro de herramientas, mientras que el functoid de multiplicación acumulada aparece en el **Functoids acumulativos** ficha.  
+    Personalizado functoids (functoid de concatenación personalizada, cadena más larga, el functoid de matriz de compilación y el functoid de extracción de matriz) aparecen en la **Functoids de cadena** ficha del cuadro de herramientas y el functoid de multiplicación acumulada aparece en el **Functoids acumulativos** ficha.  
   
 ## <a name="removing-this-sample"></a>Eliminar este ejemplo  
  Utilice el siguiente procedimiento para eliminar el ejemplo del functoid personalizado.  
   
 #### <a name="to-remove-this-sample"></a>Para quitar este ejemplo  
   
-1.  Quite los functoids del cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Quite los functoids del cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-    > [!WARNING]
-    >  Si, después de ejecutar Cleanup.bat, sigue viendo los functoids personalizados obsoletos en el cuadro de herramientas (probablemente debido a la memoria caché interna de Visual Studio), siga los procedimientos siguientes:  
+   > [!WARNING]
+   >  Si, después de ejecutar Cleanup.bat, sigue viendo los functoids personalizados obsoletos en el cuadro de herramientas (probablemente debido a la memoria caché interna de Visual Studio), siga los procedimientos siguientes:  
   
-    1.  Desde un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, haga clic en el **herramientas** menú y seleccione **elegir elementos del cuadro de herramientas**.  
+   1. Desde un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, haga clic en el **herramientas** menú y seleccione **elegir elementos del cuadro de herramientas**.  
   
-    2.  En el **elementos de cuadro de herramientas elija** cuadro de diálogo, seleccione la **Functoids del asignador de BizTalk** ficha.  
+   2. En el **elementos del cuadro de herramientas elija** cuadro de diálogo, seleccione el **Functoids del asignador de BizTalk** ficha.  
   
-    3.  Busque en la lista los functoids personalizados (de concatenación personalizada, de cadena más larga, de generación de matriz, de extracción de matriz y de multiplicación acumulada). Haga clic en los respectivos **casilla de verificación** para quitar los functoids y, a continuación, haga clic en **Aceptar**.  
+   3. Busque en la lista los functoids personalizados (de concatenación personalizada, de cadena más larga, de generación de matriz, de extracción de matriz y de multiplicación acumulada). Haga clic en los respectivos **casilla** para quitar los functoids y, a continuación, haga clic en **Aceptar**.  
   
-     Si no funciona el procedimiento anterior, siga el procedimiento siguiente.  
+      Si no funciona el procedimiento anterior, siga el procedimiento siguiente.  
   
-    1.  Desde el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, haga clic en el **cuadro de herramientas** ficha mientras edita una asignación para abrir la paleta de cuadro de herramientas.  
+   4. Desde el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, haga clic en el **cuadro de herramientas** ficha mientras edita una asignación para abrir la paleta de cuadro de herramientas.  
   
-    2.  Haga clic en el cuadro de herramientas y seleccione **elegir elementos**.  
+   5. Haga clic en el cuadro de herramientas y seleccione **elegir elementos**.  
   
-    3.  En el cuadro de diálogo Elegir elementos, haga clic en **restablecer**y, a continuación, haga clic en **Aceptar**.  
+   6. En el cuadro de diálogo Elegir elementos, haga clic en **restablecer**y, a continuación, haga clic en **Aceptar**.  
   
-    4.  Cierre todas las instancias de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   7. Cierre todas las instancias de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-     Si no funciona el procedimiento anterior, siga el procedimiento siguiente.  
+      Si no funciona el procedimiento anterior, siga el procedimiento siguiente.  
   
-    1.  Iniciar **Visual Studio Command Prompt** como administrador.  
+   8. Iniciar **Visual Studio Command Prompt** como administrador.  
   
-    2.  Cierre todas las instancias en ejecución de Visual Studio.  
+   9. Cierre todas las instancias en ejecución de Visual Studio.  
   
-    3.  Escriba los comandos siguientes:  
+   10. Escriba los comandos siguientes:  
   
-         `devenv /resetsettings`  
+        `devenv /resetsettings`  
   
-         `devenv /setup`  
+        `devenv /setup`  
   
-    4.  Puede seleccionar manualmente los functoids no deseados en el cuadro de herramientas. A continuación, haga clic con el functoid y haga clic en **eliminar**.  
+   11. Puede seleccionar manualmente los functoids no deseados en el cuadro de herramientas. A continuación, haga clic con el botón secundario del mouse en el functoid y haga clic en **eliminar**.  
   
-     Si no funciona el procedimiento anterior, siga el procedimiento siguiente.  
+       Si no funciona el procedimiento anterior, siga el procedimiento siguiente.  
   
-    1.  En un proyecto de BizTalk de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], haga clic en la pestaña Cuadro de herramientas mientras edita una asignación para abrir la paleta de cuadro de herramientas.  
+   12. En un proyecto de BizTalk de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], haga clic en la pestaña Cuadro de herramientas mientras edita una asignación para abrir la paleta de cuadro de herramientas.  
   
-    2.  Haga clic en el **Functoids acumulativos** grupo.  
+   13. Haga clic en el **Functoids acumulativos** grupo.  
   
-    3.  Haga clic con el functoid que desea quitar y, a continuación, elija **eliminar** o presione la tecla SUPR.  
+   14. Haga clic con el botón secundario del mouse en el functoid que desea quitar y, a continuación, elija **eliminar** o presione la tecla SUPR.  
   
-    4.  Haga clic en el **Functoids de cadena** grupo.  
+   15. Haga clic en el **Functoids de cadena** grupo.  
   
-    5.  Haga clic con el functoid que desea quitar y, a continuación, elija **eliminar** o presione la tecla SUPR.  
+   16. Haga clic con el botón secundario del mouse en el functoid que desea quitar y, a continuación, elija **eliminar** o presione la tecla SUPR.  
   
-2.  En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
+2. En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*\>\XmlTools\CustomFunctoid  
+    \<*Ejemplos de la ruta de acceso*\>\XmlTools\CustomFunctoid  
   
-3.  Ejecute el archivo Cleanup.bat que realiza las acciones siguientes:  
+3. Ejecute el archivo Cleanup.bat que realiza las acciones siguientes:  
   
-    -   Elimina el ensamblado del directorio Herramientas de programador\Extensiones de asignador.  
+   -   Elimina el ensamblado del directorio Herramientas de programador\Extensiones de asignador.  
   
-    -   Elimina el ensamblado de la GAC.  
+   -   Elimina el ensamblado de la GAC.  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>Clases o métodos usados en el ejemplo  
  [Microsoft.BizTalk.BaseFunctoids.BaseFunctoid](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.basefunctoid.aspx)  
   
 ## <a name="see-also"></a>Vea también  
- [Utilizar BaseFunctoid](../core/using-basefunctoid.md)   
+ [Uso de BaseFunctoid](../core/using-basefunctoid.md)   
  [Herramientas XML (carpeta de ejemplos de BizTalk Server)](../core/xml-tools-biztalk-server-samples-folder.md)

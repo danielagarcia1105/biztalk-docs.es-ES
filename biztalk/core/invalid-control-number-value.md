@@ -1,5 +1,5 @@
 ---
-title: Valor de número de Control no válido. | Documentos de Microsoft
+title: Valor de número de Control no válido. | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1ce9df9724d85a3b4a2d6ebf28f94e4b9c05db05
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 09b274170505bf1b010d61fbefe9d43a51528aac
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257228"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37019842"
 ---
 # <a name="invalid-control-number-value"></a>Valor de número de control no válido.
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12Ta1InvalidControlNumberValueDescription|  
-|Texto del mensaje|Valor de número de control no válido.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor EDI                                       |
+|  Nombre simbólico  |                       X12Ta1InvalidControlNumberValueDescription                       |
+|  Texto del mensaje   |                              Valor de número de control no válido.                              |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio entrante porque el valor de un número de control (intercambio, grupo o conjunto de transacciones) del intercambio no se ajustaba al tipo de datos o no tenía el número de dígitos correcto que especifica el esquema. El esquema es X12ServiceSchema o EdifactServiceSchema en BaseArtifacts.dll.  

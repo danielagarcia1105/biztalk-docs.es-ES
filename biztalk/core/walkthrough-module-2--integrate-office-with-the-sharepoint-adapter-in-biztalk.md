@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Módulo 2: integrar Office con Windows SharePoint Services adaptador | Documentos de Microsoft'
+title: 'Tutorial: Módulo 2: integrar Office con Windows SharePoint Services adaptador | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,24 +19,24 @@ caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 64e23cef8b362accba726c60945548a3345c9c45
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79297c55152688821ba5b472335eade1d31b0ffe
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22291460"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022394"
 ---
 # <a name="walkthrough-module-2---integrating-office-with-the-windows-sharepoint-services-adapter"></a>Tutorial: Módulo 2: integrar Office con el adaptador de Windows SharePoint Services
-En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) y se muestra cómo integrar Microsoft Office con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] basado en contenido aplicación de enrutamiento (CBR) que ha creado. Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
+En este tutorial es una continuación de [Tutorial: módulo 1: enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) y le muestra cómo integrar Microsoft Office con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] basado en contenido aplicación de enrutamiento (CBR) que creó. Para obtener una introducción al adaptador de Windows SharePoint Services, consulte [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  A continuación, se enumeran los requisitos previos para efectuar los procedimientos de este tema:  
   
--   Debe tener una implementación de un solo servidor con una instalación completa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Debe tener una implementación de un solo servidor con una instalación completa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Debe completar el siguiente tutorial: [Tutorial: módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md)  
+- Debe completar el tutorial siguiente: [Tutorial: módulo 1: enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md)  
   
- Para obtener información acerca de cómo utilizar el adaptador de Windows SharePoint Services en una implementación multiservidor, vea [configurar e implementar el adaptador de Windows SharePoint Services](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
+  Para obtener información sobre cómo usar el adaptador de Windows SharePoint Services en una implementación multiservidor, consulte [configurar e implementar el adaptador de Windows SharePoint Services](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
   
 ## <a name="create-a-biztalk-project"></a>Crear un proyecto de BizTalk  
  En este procedimiento, creará un proyecto de BizTalk vacío y un esquema utilizando el Editor de BizTalk. Este procedimiento se requiere para crear el esquema del formulario de InfoPath que se utilizará posteriormente.  
@@ -45,7 +45,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 1.  Iniciar **símbolo del sistema de Visual Studio**.  
   
-2.  Tipo de `sn -k C:\WSSAdapterWalkthrough\OrderProcess.snk`y, a continuación, presione **ENTRAR**. Se escribirá el par de claves.  
+2.  Tipo `sn -k C:\WSSAdapterWalkthrough\OrderProcess.snk`y, a continuación, presione **ENTRAR**. Se escribirá el par de claves.  
   
 3.  Cierre el símbolo del sistema.  
   
@@ -59,7 +59,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 4.  En **plantillas**, seleccione **proyecto vacío de servidor BizTalk**.  
   
-5.  Tipo de `OrderProcess` en el **nombre** campo.  
+5.  Tipo `OrderProcess` en el **nombre** campo.  
   
 6.  Escriba la ruta de acceso al directorio de trabajo en el **ubicación** campo. Por ejemplo, `C:\WSSAdapterWalkthrough\`.  
   
@@ -73,27 +73,27 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 3.  Seleccione la opción **Firmar el ensamblado** , haga clic en la lista desplegable para la opción **Seleccione un archivo de clave de nombre seguro** y, a continuación, haga clic en **Examinar**.  
   
-4.  Type `C:\WSSAdapterWalkthrough\OrderProcess.snk`.  
+4.  Tipo `C:\WSSAdapterWalkthrough\OrderProcess.snk`.  
   
 5.  Haga clic en **Abrir**.  
   
 #### <a name="create-an-xsd-schema-by-using-the-biztalk-editor"></a>Crear un esquema XSD utilizando el Editor de BizTalk  
   
-1.  En el Explorador de soluciones, haga clic en el `OrderProcess` proyecto de equipo y haga clic en **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+1. En el Explorador de soluciones, haga clic en el `OrderProcess` del proyecto, haga clic en **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
-2.  En **categorías**, haga clic en **archivos de esquema**.  
+2. En **categorías**, haga clic en **archivos de esquema**.  
   
-3.  En **plantillas**, haga clic en **esquema**.  
+3. En **plantillas**, haga clic en **esquema**.  
   
-4.  Tipo de `OrderProcessSchema` en el **nombre** campo y, a continuación, haga clic en **agregar**.  
+4. Tipo `OrderProcessSchema` en el **nombre** campo y, a continuación, haga clic en **agregar**.  
   
-5.  En la ventana de propiedades para `OrderProcessSchema`, seleccione `Qualified` para el **Element FormDefault** propiedad.  
+5. En la ventana Propiedades para `OrderProcessSchema`, seleccione `Qualified` para el **Element FormDefault** propiedad.  
   
-6.  En la ventana de propiedades para `OrderProcessSchema`, tipo `http://OrderProcess.PurchaseOrder` en el **Target Namespace** campo.  
+6. En la ventana Propiedades para `OrderProcessSchema`, tipo `http://OrderProcess.PurchaseOrder` en el **Target Namespace** campo.  
   
-7.  En el **el Editor de BizTalk**, haga clic en `Root`, haga clic en **cambiar el nombre de**y, a continuación, escriba `PurchaseOrder`.  
+7. En el **el Editor de BizTalk**, haga clic en `Root`, haga clic en **cambiar el nombre de**y, a continuación, escriba `PurchaseOrder`.  
   
-8.  Haga clic en el **PurchaseOrder** nodo, haga clic en **Insertar nodo de esquema**, a continuación, haga clic en **elemento de campo secundario**.  
+8. Haga clic en el **PurchaseOrder** nodo, haga clic en **Insertar nodo de esquema**, a continuación, haga clic en **elemento de campo secundario**.  
   
 9. Asígnele el nombre `PurchaseOrderID`.  
   
@@ -125,7 +125,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 3.  En **las bibliotecas de documentos**, haga clic en **biblioteca de documentos**.  
   
-4.  En el **nombre y una descripción** sección, escriba `InfoPathSolutions` en el **campo nombre**.  
+4.  En el **nombre y descripción** , escriba `InfoPathSolutions` en el **campo nombre**.  
   
 5.  En el **navegación** sección, seleccione **Sí** para mostrar esta biblioteca de formularios en la barra Inicio rápido.  
   
@@ -133,7 +133,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 7.  Haga clic en **Crear**. Tendrá lugar una redirección a la biblioteca vacía recién creada.  
   
-8.  En el lado izquierdo, haga clic en **modificar configuración y columnas**.  
+8.  En el lado izquierdo, haga clic en **modificar la configuración y las columnas**.  
   
 9. En **columnas**, haga clic en **agregar una nueva columna**.  
   
@@ -145,13 +145,13 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 #### <a name="create-an-infopath-form-based-on-the-orderprocessschema-schema-file"></a>Crear un formulario de InfoPath basado en el archivo de esquema OrderProcessSchema  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Office**y, a continuación, haga clic en **Microsoft Office InfoPath 2007**.  
+1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft Office**y, a continuación, haga clic en **Microsoft Office InfoPath 2007**.  
   
 2.  En el **rellenar un formulario** cuadro de diálogo, seleccione **diseñar un formulario.**  
   
-3.  En el **diseñar un formulario** panel de tareas, seleccione **nuevo a partir de documento o esquema XML**.  
+3.  En el **diseñar un formulario** panel de tareas, seleccione **nuevo a partir de documento XML o esquema**.  
   
-4.  En el **Data Source Wizard**, haga clic en **examinar** y seleccione el archivo de esquema creado en el último procedimiento. Por ejemplo, `C:\WSSAdapterWalkthrough\OrderProcess\OrderProcess\OrderProcessSchema.xsd`.  
+4.  En el **Data Source Wizard**, haga clic en **examinar** y seleccione el archivo de esquema que creó en el último procedimiento. Por ejemplo, `C:\WSSAdapterWalkthrough\OrderProcess\OrderProcess\OrderProcessSchema.xsd`.  
   
 5.  Haga clic en **Siguiente**y, a continuación, en **Finalizar**.  
   
@@ -184,7 +184,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 3.  Mueva el puntero sobre `PurchaseOrder.xsn`, haga clic en él y, a continuación, haga clic en **editar propiedades**.  
   
-4.  Tipo de `http://OrderProcess.PurchaseOrder` en el **Namespace** campo y, a continuación, haga clic en **guardar y cerrar**.  
+4.  Tipo `http://OrderProcess.PurchaseOrder` en el **Namespace** campo y, a continuación, haga clic en **guardar y cerrar**.  
   
 #### <a name="modify-the-destination-document-library"></a>Modificar la biblioteca de documentos de destino  
   
@@ -192,11 +192,11 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 2.  En **las bibliotecas de documentos**, haga clic en **destino**.  
   
-3.  En el lado izquierdo, haga clic en **modificar configuración y columnas**.  
+3.  En el lado izquierdo, haga clic en **modificar la configuración y las columnas**.  
   
 4.  En **columnas**, haga clic en **agregar nueva columna**.  
   
-5.  En **nombre y tipo**, tipo `Partner Name` en el **nombre de la columna** campo.  
+5.  En **nombre y tipo**, tipo `Partner Name` en el **nombre de columna** campo.  
   
 6.  Haga clic en **Aceptar**.  
   
@@ -207,27 +207,27 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 #### <a name="modify-the-send-port"></a>Modificar el puerto de envío  
   
-1.  Abra **administración de BizTalk Server.**  
+1. Abra **administración de BizTalk Server.**  
   
-2.  Expanda **Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y, a continuación, haga clic en el **puertos de envío** nodo.  
+2. Expanda **Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y, a continuación, haga clic en el **puertos de envío** nodo.  
   
-3.  Haga clic en `SendToDestination`y, a continuación, haga clic en **propiedades**.  
+3. Haga clic en `SendToDestination`y, a continuación, haga clic en **propiedades**.  
   
-4.  En **transporte**, haga clic en **configurar**.  
+4. En **transporte**, haga clic en **configurar**.  
   
-5.  En el **Filename** , escriba `PurchaseOrder2-%XPATH=//pons:PurchaseOrder/pons:PurchaseOrderID%.xml`.  
+5. En el **Filename** , escriba `PurchaseOrder2-%XPATH=//pons:PurchaseOrder/pons:PurchaseOrderID%.xml`.  
   
-6.  En el **alias Namespace** , escriba `pons="http://OrderProcess.PurchaseOrder"`.  
+6. En el **Namespace alias** , escriba `pons="http://OrderProcess.PurchaseOrder"`.  
   
-7.  En el **biblioteca de documentos de plantillas de**, tipo `InfoPathSolutions`.  
+7. En el **biblioteca de documentos de plantillas**, tipo `InfoPathSolutions`.  
   
-8.  En el **plantillas Namespace columna**, tipo `Namespace`.  
+8. En el **plantillas Namespace columna**, tipo `Namespace`.  
   
 9. Seleccione `Yes` para el **integración con Microsoft Office** propiedad.  
   
 10. En **integración con Windows SharePoint Services**, tipo `Partner Name` en el **columna 01** campo.  
   
-11. Tipo de `%XPATH=//pons:PurchaseOrder/pons:BillTo%` en el **valor de columna 01** , a continuación, haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo para salir del **propiedades de puerto de envío** cuadro de diálogo.  
+11. Tipo `%XPATH=//pons:PurchaseOrder/pons:BillTo%` en el **valor de columna 01** , a continuación, haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo para salir del **propiedades de puerto de envío** cuadro de diálogo.  
   
 #### <a name="restart-the-send-port"></a>Reiniciar el puerto de envío  
   
@@ -248,7 +248,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 2.  En el lado izquierdo, bajo **documentos**, haga clic en `InfoPathSolutions`.  
   
-3.  Haga clic en el `PurchaseOrder` archivo para mostrar el **descarga de archivos** cuadro de diálogo y, a continuación, haga clic en **abiertos**. InfoPath cargará el formulario.  
+3.  Haga clic en el `PurchaseOrder` archivo para mostrar el **de descarga del archivo** cuadro de diálogo y, a continuación, haga clic en **abierto**. InfoPath cargará el formulario.  
   
 4.  En el **Purchase Order ID** , escriba `1002`.  
   
@@ -262,7 +262,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
   
 9. En el **Guardar como** cuadro de diálogo, escriba `http://<server_name>/sites/WSSAdapterWalkthrough/Source`en el **nombre de archivo** campo y, a continuación, presione ENTRAR.  
   
-10. Tipo de `PurchaseOrder2.xml` en el **nombre de archivo** campo y, a continuación, haga clic en **guardar**.  
+10. Tipo `PurchaseOrder2.xml` en el **nombre de archivo** campo y, a continuación, haga clic en **guardar**.  
   
 11. Cierre Microsoft Office InfoPath.  
   
@@ -283,7 +283,7 @@ En este tutorial es la continuación de [Tutorial: módulo 1 – enviar y recibi
  En este tutorial, ha visto cómo agregar una mayor integración con Microsoft InfoPath utilizando el adaptador de Windows SharePoint Services y el enrutamiento por contenidos (CBR).  
   
 ## <a name="next-steps"></a>Pasos siguientes  
- Ahora que ha completado este tutorial, realice la [Tutorial: módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación](../core/walkthrough-module-3-accessing-sharepoint-properties-from-an-orchestration.md) tutorial que se expande en el trabajo que ha realizado en este tutorial, se integra un orquestación al proyecto y se muestra cómo tener acceso a propiedades de SharePoint desde dentro de él.  
+ Ahora que ha realizado este tutorial, realice el [Tutorial: módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación](../core/walkthrough-module-3-accessing-sharepoint-properties-from-an-orchestration.md) tutorial que se amplía el trabajo que ha realizado en este tutorial, se integra un orquestación al proyecto y se muestra cómo obtener acceso a las propiedades de SharePoint desde dentro de él.  
   
 ## <a name="see-also"></a>Vea también  
  [¿Qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md)   

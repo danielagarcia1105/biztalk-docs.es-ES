@@ -17,12 +17,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9400e80a2f8e8acfdeb12e3d6e61a046151d1e7e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bc78c5ae3f653e76652373767e60ec1dcaefba8c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289804"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013445"
 ---
 # <a name="what-is-the-bam-interceptor"></a>¿Qué es el interceptor de BAM?
 ## <a name="overview"></a>Información general 
@@ -38,7 +38,7 @@ Interceptor de BAM
   
  El interceptor de BAM decide qué datos solicitar, en función de la configuración que pueda crear mediante programación. El interceptor de BAM utiliza entonces los datos obtenidos para llamar a la secuencia DirectEventStream o BufferedEventStream, necesarias para el mantenimiento y el paso como argumento un a OnStep.  
   
- La operación de llamada al interceptor en cada paso no utiliza una gran cantidad de recursos. Si realiza la llamada y no efectúa ningún registro, el interceptor la devolverá inmediatamente. Esto significa que no habrá operaciones de disco, ni transacciones ni asignaciones y que, por lo tanto, casi no habrá impacto en el rendimiento. Al mismo tiempo, tendrá la posibilidad de extraer datos de BAM si es necesario. El impacto de rendimiento en los pasos que implica la extracción de datos y la disponibilidad de los datos dependerá de la implementación de la `IBAMDataExtractor Interface`.  
+ La operación de llamada al interceptor en cada paso no utiliza una gran cantidad de recursos. Si realiza la llamada y no efectúa ningún registro, el interceptor la devolverá inmediatamente. Esto significa que no habrá operaciones de disco, ni transacciones ni asignaciones y que, por lo tanto, casi no habrá impacto en el rendimiento. Al mismo tiempo, tendrá la posibilidad de extraer datos de BAM si es necesario. El impacto de rendimiento en los pasos relacionados con la extracción de datos y la disponibilidad de los datos dependerá de la implementación de la `IBAMDataExtractor Interface`.  
   
  Los siguientes ejemplos de código muestran el uso del interceptor durante la configuración y el tiempo de ejecución.  
   
@@ -77,17 +77,17 @@ Interceptor.OnStep(approvePO, data2, es, callback)
   
  Donde:  
   
--   *recvPO* y *approvePO* son objetos arbitrarios que se usan para identificar los pasos descritos en la aplicación.  
+- *recvPO* y *approvePO* son objetos arbitrarios que se usan para identificar los pasos descritos en la aplicación.  
   
--   *Data1* y *data2* son objetos arbitrarios que tiene en ese momento y puede contener datos interesantes: por ejemplo, el documento XML del pedido de compra.  
+- *Data1* y *data2* son objetos arbitrarios que haya en ese momento y puede contener datos interesantes: por ejemplo, el documento XML del pedido de compra.  
   
--   *es* es la secuencia DirectEventStream o bufferedevent, dependiendo de los requisitos de rendimiento.  
+- *es* es la secuencia DirectEventStream o bufferedevent, dependiendo de los requisitos de rendimiento.  
   
--   *devolución de llamada* es la implementación de la `IBAMDataExtractor Interface`.  
+- *devolución de llamada* es la implementación de la `IBAMDataExtractor Interface`.  
   
- El ejemplo de SDK [API de BAM (ejemplo de BizTalk Server)](../core/bam-api-biztalk-server-sample.md), se muestra el uso del Interceptor, que contiene tanto una herramienta y un ejemplo en tiempo de ejecución aplicación de configuración.  
+  El ejemplo de SDK [API de BAM (ejemplo de BizTalk Server)](../core/bam-api-biztalk-server-sample.md), se muestra el uso del Interceptor, que contiene tanto una herramienta y el ejemplo en tiempo de ejecución aplicación de configuración.  
   
- El motor de orquestaciones de BizTalk permite la intercepción que, a su vez, permite cambiar los datos que deben recopilarse para BAM en el tiempo de ejecución mediante el Editor de perfiles de seguimiento.  
+  El motor de orquestaciones de BizTalk permite la intercepción que, a su vez, permite cambiar los datos que deben recopilarse para BAM en el tiempo de ejecución mediante el Editor de perfiles de seguimiento.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

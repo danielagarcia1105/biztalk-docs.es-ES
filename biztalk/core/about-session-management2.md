@@ -1,5 +1,5 @@
 ---
-title: Acerca de la sesión 2 | Documentos de Microsoft
+title: Acerca de la sesión 2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,19 +12,19 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b9d34038acceb0bd52dc598ca48cf5e914d70d9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 493df24e89a07a97dc7fd501afed53f44017781b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22225612"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006013"
 ---
 # <a name="about-session-management"></a>Administración de sesiones
 El adaptador de Microsoft BizTalk para J.D. Edwards EnterpriseOne crea una sesión de conexión para enviar una llamada al servidor J.D. Edwards EnterpriseOne. Cuando la llamada termina, la sesión se coloca en un grupo para que pueda ser utilizada por una llamada posterior. El adaptador crea varias sesiones de conexión para controlar las llamadas concurrentes al servidor J.D. Edwards EnterpriseOne. El grupo se limpia regularmente para quitar sesiones que ya no son necesarias.  
   
  El adaptador de Microsoft BizTalk para J.D. Edwards EnterpriseOne proporciona dos propiedades de contexto de mensaje para controlar el momento en que deben tener lugar las llamadas dentro de la misma sesión.  
   
-|Nombre|Tipo|Predeterminado|  
+|Nombre|Tipo|Valor predeterminado|  
 |----------|----------|-------------|  
 |JDE.SessionID|int|0|  
 |JDE.ReserveSession|boolean|false|  
@@ -50,21 +50,21 @@ EndDoc
 |EditLine|Se copia de la respuesta BeginDoc|true|  
 |EndDoc|Copia de la respuesta BeginDoc|false|  
   
--   Para la primera llamada, el adaptador puede elegir cualquier sesión disponible (porque el valor de SessionID es cero).  
+- Para la primera llamada, el adaptador puede elegir cualquier sesión disponible (porque el valor de SessionID es cero).  
   
--   El adaptador devuelve el valor de SessionID usado en la respuesta BeginDoc.  
+- El adaptador devuelve el valor de SessionID usado en la respuesta BeginDoc.  
   
--   La propiedad ReserveSession indica al adaptador que reserve esta sesión para las llamadas siguientes que soliciten de forma explícita esta sesión. Ninguna otra llamada puede reutilizar accidentalmente la sesión porque está reservada.  
+- La propiedad ReserveSession indica al adaptador que reserve esta sesión para las llamadas siguientes que soliciten de forma explícita esta sesión. Ninguna otra llamada puede reutilizar accidentalmente la sesión porque está reservada.  
   
--   Las llamadas posteriores solicitan la sesión al establecer SessionID con el valor devuelto en BeginDoc.  
+- Las llamadas posteriores solicitan la sesión al establecer SessionID con el valor devuelto en BeginDoc.  
   
--   La propiedad ReserveSession está establecida como True, al menos hasta la última llamada de la serie.  
+- La propiedad ReserveSession está establecida como True, al menos hasta la última llamada de la serie.  
   
--   La última llamada establece ReserveSession como False para que la sesión esté disponible para cualquier llamada siguiente. No obstante, la orquestación puede optar por conservar la sesión para más llamadas.  
+- La última llamada establece ReserveSession como False para que la sesión esté disponible para cualquier llamada siguiente. No obstante, la orquestación puede optar por conservar la sesión para más llamadas.  
   
- Si la sesión no se usa durante un tiempo, el grupo la eliminará aunque la sesión siga reservada por error.  
+  Si la sesión no se usa durante un tiempo, el grupo la eliminará aunque la sesión siga reservada por error.  
   
- Para obtener información detallada sobre las propiedades de contexto de mensaje, vea la documentación de BizTalk Server.  
+  Para obtener información detallada sobre las propiedades de contexto de mensaje, vea la documentación de BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar propiedades de contexto de mensaje](../core/using-message-context-properties1.md)
+ [Uso de propiedades de contexto de mensaje](../core/using-message-context-properties1.md)

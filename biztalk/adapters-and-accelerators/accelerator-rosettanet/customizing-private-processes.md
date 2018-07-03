@@ -1,5 +1,5 @@
 ---
-title: Personalizar los procesos privados | Documentos de Microsoft
+title: Personalizar los procesos privados | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,20 +16,20 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 767c04a262c32305ae8b26162661c7869b58e970
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa1437d1dbe154f553323077b1c29127c58abdf4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206716"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009533"
 ---
 # <a name="customizing-private-processes"></a>Personalizar los procesos privados
-En esta sección se describe cómo personalizar las orquestaciones de proceso privado que procesan el contenido del servicio. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]implementa los procesos empresariales internos de una organización como procesos privados. Estos procesos son las orquestaciones que procesan la parte del mensaje de contenido del servicio. Para obtener más información, consulte [procesos privados](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md).  
+En esta sección se describe cómo personalizar las orquestaciones de proceso de privado que procesan el contenido del servicio. Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implementa procesos empresariales internos de una organización como procesos privados. Estos procesos son las orquestaciones que procesan la parte del mensaje de contenido del servicio. Para obtener más información, consulte [procesos privados](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Personalizar un proceso privado para trabajar con un PIP específico](../../adapters-and-accelerators/accelerator-rosettanet/customizing-a-private-process-to-work-with-a-specific-pip.md)  
+-   [Personalización de un proceso privado para trabajar con un PIP específico](../../adapters-and-accelerators/accelerator-rosettanet/customizing-a-private-process-to-work-with-a-specific-pip.md)  
   
--   [Asignar una solicitud a una respuesta en un proceso privado](../../adapters-and-accelerators/accelerator-rosettanet/mapping-a-request-to-a-response-in-a-private-process.md)  
+-   [Asignación de una solicitud a una respuesta en un proceso privado](../../adapters-and-accelerators/accelerator-rosettanet/mapping-a-request-to-a-response-in-a-private-process.md)  
   
--   [Definir una regla de negocios para una orquestación de procesos privado](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md)
+-   [Definición de una regla de negocio para una orquestación de procesos privados](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md)

@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar ENTSSO para la sincronización de contraseña MIIS | Documentos de Microsoft
+title: Cómo configurar ENTSSO para la sincronización de contraseñas MIIS | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7a1587c2e3c0d2164a7ffd3842b3d74df5b04685
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9aed37b5b3883242005f46dcc6a0253a4971d680
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005229"
 ---
 # <a name="how-to-configure-entsso-for-miis-password-sync"></a>Cómo configurar ENTSSO para la sincronización de contraseñas de MIIS
 Después de configurar el archivo XML y Microsoft Identity Integration Server (MIIS), el resto de los pasos de configuración deben llevarse a cabo en el sistema de Inicio de sesión único empresarial (ENTSSO).  
@@ -36,23 +36,23 @@ Después de configurar el archivo XML y Microsoft Identity Integration Server (M
   
 ### <a name="to-enable-password-sync-on-the-system-level"></a>Para habilitar la sincronización de contraseñas en el sistema  
   
-1.  En Enterprise Single Sign-On, haga clic en el **System** nodo.  
+1. En Enterprise Single Sign-On, haga clic en el **sistema** nodo.  
   
-2.  Haga clic en **Propiedades**.  
+2. Haga clic en **Propiedades**.  
   
-     El **propiedades** aparece el cuadro de diálogo.  
+    El **propiedades** aparece el cuadro de diálogo.  
   
-3.  Haga clic en el **opciones** ficha.  
+3. Haga clic en el **opciones** ficha.  
   
-4.  En el **Habilitar sincronización de contraseñas** campo, seleccione **de Windows con los adaptadores de**.  
+4. En el **Habilitar sincronización de contraseñas** campos, seleccione **desde Windows a los adaptadores**.  
   
-     **Configuración adicional**  
+    **Configuración adicional**  
   
-     Por último, debe configurar uno de los siguientes elementos:  
+    Por último, debe configurar uno de los siguientes elementos:  
   
-    -   Un Adaptador de sincronización de contraseñas que acepte la Sincronización de contraseñas de Windows.  
+   - Un Adaptador de sincronización de contraseñas que acepte la Sincronización de contraseñas de Windows.  
   
-    -   La Sincronización directa de contraseñas debe estar habilitada en al menos una aplicación.  
+   - La Sincronización directa de contraseñas debe estar habilitada en al menos una aplicación.  
   
      Para obtener más información sobre cómo llevar a cabo este procedimiento, consulte la documentación de sincronización de contraseñas.  
   
@@ -60,9 +60,9 @@ Después de configurar el archivo XML y Microsoft Identity Integration Server (M
   
 1.  En el agente de administración de ENTSSO **propiedades** página, haga clic en **configurar extensiones**.  
   
-2.  En el **información de conexión para la extensión de la contraseña** , a continuación, haga clic en **configuración**.  
+2.  En el **información de conexión para la extensión de contraseña** , a continuación, haga clic en **configuración**.  
   
-3.  En el **conectar a** campo escriba el nombre del equipo que va a recibir los cambios de contraseña.  
+3.  En el **Connect To** campo escriba el nombre del equipo que va a recibir los cambios de contraseña.  
   
      El nombre del equipo debe tener el mismo formato que el que se utilizó en la creación del Nombre principal del servicio (SPN) del servicio ENTSSO del dominio.  
   
@@ -74,7 +74,7 @@ Después de configurar el archivo XML y Microsoft Identity Integration Server (M
   
 ### <a name="additional-configuration-steps"></a>Pasos de configuración adicional  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Identity Integration Server**y, a continuación, haga clic en **Identity Manager**.  
+1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **Microsoft Identity Integration Server**y, a continuación, haga clic en **Identity Manager**.  
   
 2.  En el menú **Herramientas** , haga clic en **Opciones**.  
   

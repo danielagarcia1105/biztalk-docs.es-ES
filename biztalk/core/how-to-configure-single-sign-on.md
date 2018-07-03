@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar el inicio de sesión único | Documentos de Microsoft
+title: Cómo configurar el inicio de sesión único | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3203be74b21fa742e8e1ec2972e40f0212c4d1bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b23e2bb61f4549e642bcd9a59f56bc232b40038
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247772"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37019939"
 ---
 # <a name="how-to-configure-single-sign-on"></a>Cómo configurar el inicio de sesión único
-Antes de obtener acceso al inicio de sesión único (SSO) empresarial, debería estar seguro de que se ha configurado correctamente para el usuario actual. Para la mayoría de las configuraciones, use uno de dos interfaces. `ISSOAdmin`es la interfaz de administración general que le permite crear nuevas aplicaciones afiliadas. Sin embargo, si usa ISSOAdmin.GetGlobalInfo e ISSOAdmin.UpdateGlobalInfo, puede establecer una serie de valores de administración y marcas. Una posible tarea, como se describe en el procedimiento siguiente, consiste en asegurarse de que se ha habilitado la compra de vales SSO.  
+Antes de obtener acceso al inicio de sesión único (SSO) empresarial, debería estar seguro de que se ha configurado correctamente para el usuario actual. Para la mayoría de las configuraciones, use uno de dos interfaces. `ISSOAdmin` es la interfaz de administración general que le permite crear nuevas aplicaciones afiliadas. Sin embargo, si usa ISSOAdmin.GetGlobalInfo e ISSOAdmin.UpdateGlobalInfo, puede establecer una serie de valores de administración y marcas. Una posible tarea, como se describe en el procedimiento siguiente, consiste en asegurarse de que se ha habilitado la compra de vales SSO.  
   
 ### <a name="to-enable-ticketing"></a>Para habilitar la compra de vales  
   
-1.  Cree una nueva instancia de `ISSOAdmin`.  
+1. Cree una nueva instancia de `ISSOAdmin`.  
   
-2.  Recupere la configuración actual mediante `ISSOAdmin.GetGlobalInfo`.  
+2. Recupere la configuración actual mediante `ISSOAdmin.GetGlobalInfo`.  
   
-     En caso necesario, es posible que desee confirmar que las marcas están establecidas en los valores correctos en este punto.  
+    En caso necesario, es posible que desee confirmar que las marcas están establecidas en los valores correctos en este punto.  
   
-3.  Cambie cualquier marca pertinente mediante `ISSOAdmin.UpdateGlobalInfo`.  
+3. Cambie cualquier marca pertinente mediante `ISSOAdmin.UpdateGlobalInfo`.  
   
-     En este caso particular, todas las marcas se establecen para validar y habilitar vales.  
+    En este caso particular, todas las marcas se establecen para validar y habilitar vales.  
   
- En el siguiente ejemplo se muestra cómo habilitar la compra de vales mediante el inicio de sesión único (SSO).  
+   En el siguiente ejemplo se muestra cómo habilitar la compra de vales mediante el inicio de sesión único (SSO).  
   
 ```  
 public static bool EnableTickets()  
@@ -66,4 +66,4 @@ return true;
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Programar con Enterprise Single Sign-On](../core/programming-with-enterprise-single-sign-on.md)
+ [Programación con Enterprise Single Sign-On](../core/programming-with-enterprise-single-sign-on.md)

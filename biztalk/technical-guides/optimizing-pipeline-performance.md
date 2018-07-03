@@ -1,5 +1,5 @@
 ---
-title: Optimizar el rendimiento de la canalización | Documentos de Microsoft
+title: Optimizar el rendimiento de la canalización | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,57 +12,57 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4311efd0d23e29b63f02fc34b1650a894d29d335
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7102eb3fc0f6f7b1ef16a319e5e04daff6d544d1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299556"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007877"
 ---
 # <a name="optimizing-pipeline-performance"></a>Optimizar el rendimiento de la canalización
-Este tema describe las directrices para optimizar el rendimiento de las canalizaciones de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución.  
+En este tema se describe las directrices para optimizar el rendimiento de las canalizaciones de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución.  
   
-## <a name="best-practices-for-optimizing-performance-of-biztalk-server-pipelines"></a>Prácticas recomendadas para optimizar el rendimiento de las canalizaciones de BizTalk Server  
+## <a name="best-practices-for-optimizing-performance-of-biztalk-server-pipelines"></a>Procedimientos recomendados para optimizar el rendimiento de las canalizaciones de BizTalk Server  
   
-1.  Dado que los componentes de canalización tienen un impacto significativo en el rendimiento (por ejemplo, un componente de canalización de paso realiza hasta 30 por ciento mejor que un componente de canalización de ensamblador y desensamblador XML), asegúrese de que los componentes de canalización personalizado realizan un rendimiento óptimo antes de implementarlos en su implementación. Minimice el número de componentes de canalización en sus canalizaciones personalizadas si desea maximizar el rendimiento general de la aplicación de BizTalk.  
+1. Dado que los componentes de canalización tienen un impacto significativo en el rendimiento (por ejemplo, un componente de canalización de paso realiza hasta un 30 por ciento mejor que un componente de canalización de ensamblador y desensamblador XML), asegúrese de que se realice cualquier componente de canalización personalizado óptimamente antes de implementarlos en su implementación. Minimizar el número de componentes de canalización de las canalizaciones personalizadas si desea maximizar el rendimiento general de la aplicación de BizTalk.  
   
-2.  También puede mejorar el rendimiento general al reducir la frecuencia de persistencia de mensaje en el componente de canalización y codificando el componente para minimizar la redundancia. Todos los ensamblados personalizados y en particular la artefactos que pudieron afectar a rendimiento, como los componentes de seguimiento personalizado, se deben probar por separado en condiciones de sobrecarga para observar su comportamiento cuando el sistema funciona con la máxima capacidad y buscar posibles cuellos de botella.  
+2. También puede mejorar el rendimiento general al reducir la frecuencia de persistencia del mensaje en el componente de canalización y codificando el componente para minimizar la redundancia. Todos los ensamblados personalizados y en particular los artefactos que podrían afectar a rendimiento, como los componentes de seguimiento personalizado, se deben probar por separado en condiciones de mucha carga para observar su comportamiento cuando el sistema funciona con la máxima capacidad y buscar posibles cuellos de botella.  
   
-3.  Si tiene que leer el mensaje entrante dentro de un componente de canalización, evite cargar todo el documento en la memoria con un **XmlDocument** objeto. La cantidad de espacio necesario para una instancia de la **XmlDocument** clase para cargar y crear una representación en memoria de un documento XML es hasta 10 veces el tamaño de mensaje real. Para leer un mensaje, debe utilizar un **XmlTextReader** objeto junto con una instancia de las clases siguientes:  
+3. Si tiene que leer el mensaje entrante dentro de un componente de canalización, evite la carga de todo el documento en memoria mediante una **XmlDocument** objeto. La cantidad de espacio necesario por una instancia de la **XmlDocument** clase para cargar y crear una representación en memoria de un documento XML es hasta 10 veces el tamaño de mensaje real. Para leer un mensaje, se debe usar un **XmlTextReader** objeto junto con una instancia de las clases siguientes:  
   
-    -   **VirtualStream (Microsoft.BizTalk.Streaming.dll)** -el código fuente de esta clase se encuentra en dos ubicaciones en el SDK de canalizaciones como sigue: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler y SDK\Samples\Pipelines\ SchemaResolverComponent\SchemaResolverFlatFileDasm.  
+   -   **VirtualStream (Microsoft.BizTalk.Streaming.dll)** -el código fuente de esta clase se encuentra en dos ubicaciones en el SDK de canalizaciones como sigue: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler y SDK\Samples\Pipelines\ SchemaResolverComponent\SchemaResolverFlatFileDasm.  
   
-    -   **ReadOnlySeekableStream (Microsoft.BizTalk.Streaming.dll)**.  
+   -   **ReadOnlySeekableStream (Microsoft.BizTalk.Streaming.dll)**.  
   
-    -   **SeekAbleReadOnlyStream** -el código fuente de esta clase se encuentra en dos ubicaciones en el SDK de canalizaciones como sigue: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler y SDK\Samples\Pipelines\SchemaResolverComponent\ SchemaResolverFlatFileDasm.  
+   -   **SeekAbleReadOnlyStream** -el código fuente de esta clase se encuentra en dos ubicaciones en el SDK de canalizaciones como sigue: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler y SDK\Samples\Pipelines\SchemaResolverComponent\ SchemaResolverFlatFileDasm.  
   
-4.  Utilice la PassThruReceive y las canalizaciones estándares PassThruTransmit siempre que sea posible. No contienen un componente de canalización y no realizan ningún procesamiento del mensaje. Por este motivo, asegurar un rendimiento máximo en recibir o enviar mensajes. Puede usar una canalización PassThruReceive en una ubicación de recepción si necesita publicar un documento binario en BizTalk MessageBox y una canalización PassThruTransmit en un puerto de envío si necesita enviar un mensaje binario. También puede usar la canalización PassThruTransmit en un puerto de envío físico enlazado a una orquestación si el mensaje se ha formateado previamente y está listo para su transmisión. Debe usar un enfoque diferente si necesita realizar una de las siguientes acciones:  
+4. Utilice la PassThruReceive y las canalizaciones estándares de PassThruTransmit siempre que sea posible. No contienen un componente de canalización y no realizan ningún procesamiento del mensaje. Por este motivo, garantiza un rendimiento máximo en recibir o enviar mensajes. Puede usar una canalización PassThruReceive en una ubicación de recepción si necesita publicar un documento binario para BizTalk MessageBox y una canalización PassThruTransmit en un puerto de envío si necesita enviar un mensaje binario. También puede usar la canalización PassThruTransmit en un puerto de envío físicos enlazado a una orquestación si el mensaje se ha formateado y está listo para su transmisión. Necesita usar un enfoque diferente si necesita realizar una de las acciones siguientes:  
   
-    -   Promocionar propiedades en el contexto de un mensaje de archivo sin formato o XML entrante.  
+   - Promocionar propiedades en el contexto de un mensaje de archivo sin formato o XML entrante.  
   
-    -   Aplicar una asignación dentro de una ubicación de recepción.  
+   - Aplicar una asignación dentro de una ubicación de recepción.  
   
-    -   Aplicar una asignación de una orquestación que se suscribe a un mensaje.  
+   - Aplicar una asignación de una orquestación que se suscribe a un mensaje.  
   
-    -   Aplicar una asignación en un puerto de envío que se suscribe a un mensaje.  
+   - Aplicar una asignación en un puerto de envío se suscribe a un mensaje.  
   
-     Para llevar a cabo una de estas acciones, debe sondear y detectar el tipo de documento dentro de la canalización de recepción y asigne el valor (espacio de nombres #root-name) a la propiedad de contexto de MessageType. Esta operación se realiza normalmente por un componente de desensamblador como el componente de desensamblador Xml (XmlDasmComp) o el componente de desensamblador de archivos sin formato (FFDasmComp). En este caso, debe usar un estándar (por ejemplo, la canalización XmlReceive) o una canalización personalizada que contiene un estándar o un componente de desensamblador personalizado.  
+     Para llevar a cabo una de estas acciones, de sondeo y detectar el tipo de documento dentro de la canalización de recepción y asigne el valor de (espacio de nombres #root-name) a la propiedad de contexto de MessageType. Esta operación se realiza normalmente un componente de desensamblador como el componente de desensamblador Xml (XmlDasmComp) o el componente de desensamblador de archivos sin formato (FFDasmComp). En este caso, deberá usar un estándar (por ejemplo, la canalización XmlReceive) o una canalización personalizada que contiene un estándar o un componente de desensamblador personalizado.  
   
-5.  Adquirir recursos lo más tarde posible y liberarlos tan pronto como sea posible. Por ejemplo, si tiene acceso a datos en una base de datos, abra la conexión lo más tarde posible y cerrarlo tan pronto como sea posible. Utilice la instrucción using implícitamente liberar objetos descartables de C# o el bloque finally de una instrucción try-catch-finally para eliminar explícitamente los objetos. Instrumentar el código fuente para hacer que sus componentes fácil de depurar.  
+5. Adquiera recursos tan tarde como sea posible y liberarlos tan pronto como sea posible. Por ejemplo, si necesita acceso a datos en una base de datos, abra la conexión tan tarde como sea posible y cerrarlo tan pronto como sea posible. Utilice la instrucción using implícitamente liberar objetos desechables de C# o el bloque finally de una instrucción try-catch-finally desecharlo de forma explícita los objetos. Instrumentar el código fuente para simplificar la depuración de los componentes.  
   
-6.  Eliminar los componentes de las canalizaciones que no son estrictamente necesarias para acelerar el procesamiento de mensajes.  
+6. Elimine los componentes de las canalizaciones que no son estrictamente necesarias para acelerar el procesamiento de mensajes.  
   
-7.  Dentro de una canalización de recepción, debe promocionar los elementos en el contexto del mensaje solo si se necesita para el enrutamiento de mensajes (orquestaciones, puertos de envío) o degradación de propiedades de contexto del mensaje (puertos de envío).  
+7. Dentro de una canalización de recepción, debe promover elementos en el contexto del mensaje solo si las necesita para el enrutamiento de mensajes (orquestaciones, puertos de envío) o degradación de propiedades de contexto del mensaje (puertos de envío).  
   
-8.  Si es necesario incluir metadatos con un mensaje, y no utiliza los metadatos para fines de enrutamiento o degradación, use la **IBaseMessageContext.Write** en lugar del método la **IBaseMessageContext.Promote** método.  
+8. Si necesita incluir metadatos con un mensaje y no usa los metadatos para fines de enrutamiento o degradación, use el **IBaseMessageContext.Write** método en lugar de la **IBaseMessageContext.Promote** método.  
   
-9. Si necesita extraer información de un mensaje utilizando una expresión XPath, evite cargar todo el documento en la memoria con un **XmlDocument** objeto simplemente que se usará el **SelectNodes** o  **SelectSingleNode** métodos. Como alternativa, use las técnicas descritas en [optimizar el uso de memoria con transmisión por secuencias](../technical-guides/optimizing-memory-usage-with-streaming.md).  
+9. Si necesita extraer información de un mensaje mediante una expresión XPath, evite la carga de todo el documento en memoria mediante una **XmlDocument** objeto solo para usar el **SelectNodes** o  **SelectSingleNode** métodos. Como alternativa, use las técnicas descritas en [optimizar el uso de memoria con Streaming](../technical-guides/optimizing-memory-usage-with-streaming.md).  
   
-## <a name="use-streaming-to-minimize-the-memory-footprint-required-when-loading-messages-in-pipelines"></a>Usar la transmisión por secuencias para minimizar el consumo de memoria necesario al cargar mensajes de canalizaciones  
+## <a name="use-streaming-to-minimize-the-memory-footprint-required-when-loading-messages-in-pipelines"></a>Usar el flujo para minimizar el consumo de memoria necesario al cargar los mensajes en las canalizaciones  
  Las técnicas siguientes describen cómo minimizar el consumo de memoria de un mensaje al cargar el mensaje en una canalización.  
   
 ### <a name="use-readonlyseekablestream-and-virtualstream-to-process-a-message-from-a-pipeline-component"></a>Use ReadOnlySeekableStream y VirtualStream para procesar un mensaje desde un componente de canalización  
- Se considera una práctica recomendada para evitar que se cargue el mensaje completo en la memoria dentro de los componentes de canalización. Un enfoque preferible consiste en encapsular la secuencia de entrada con una implementación de secuencia personalizada y, a continuación, como se realizan las solicitudes de lectura, la implementación de secuencia personalizada lee la secuencia subyacente, ajustada y procesa los datos a medida que se lee (en un modo de transmisión por secuencias puro). Esto puede ser muy difícil de implementar y puede no ser posible, dependiendo de qué debe hacerse con la secuencia. En este caso, utilice la **ReadOnlySeekableStream** y **VirtualStream** clases expuestas por la Microsoft.BizTalk.Streaming.dll. También se proporciona una implementación de estos en [controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)](http://go.microsoft.com/fwlink/?LinkId=160069) (http://go.microsoft.com/fwlink/?LinkId=160069) en el SDK de BizTalk. **ReadOnlySeekableStream** garantiza que se puede mover el cursor al principio de la secuencia. El **VirtualStream** usará una MemoryStream internamente, a menos que el tamaño está por encima de un umbral especificado, en cuyo caso se escribirá la secuencia en el sistema de archivos. Uso de estas dos secuencias en combinación (mediante **VirtualStream** como el almacenamiento persistente para la **ReadOnlySeekableStream**) proporciona capacidades de "desbordamiento del sistema de archivos" y "seekability". Esto es útil para el procesamiento de mensajes de gran tamaño sin necesidad de cargar el mensaje completo en la memoria. El código siguiente podría utilizarse en un componente de canalización para implementar esta funcionalidad.  
+ Se considera una práctica recomendada para evitar cargar todo el mensaje en memoria dentro de los componentes de canalización. Un enfoque preferible es ajustar la secuencia entrante con una implementación de secuencia personalizada y, a continuación, como se realizan solicitudes de lectura, la implementación de secuencia personalizada lee la secuencia subyacente, ajustada y procesa los datos a medida que se lee (de forma pura streaming). Esto puede ser muy difícil de implementar y puede no ser posible, dependiendo de qué debe hacerse con la secuencia. En este caso, utilice el **ReadOnlySeekableStream** y **VirtualStream** clases expuestas por la Microsoft.BizTalk.Streaming.dll. También se proporciona una implementación de estos en [controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)](http://go.microsoft.com/fwlink/?LinkId=160069) (http://go.microsoft.com/fwlink/?LinkId=160069) en el SDK de BizTalk. **ReadOnlySeekableStream** garantiza que se puede mover el cursor al principio de la secuencia. El **VirtualStream** usará un MemoryStream internamente, a menos que el tamaño es a través de un umbral especificado, en cuyo caso escribirá la secuencia en el sistema de archivos. Uso de estas dos secuencias en combinación (mediante **VirtualStream** como almacenamiento persistente para el **ReadOnlySeekableStream**) proporciona capacidades de "desbordamiento del sistema de archivos" y "seekability". Esto permite el procesamiento de mensajes de gran tamaño sin tener que cargar el mensaje completo en la memoria. El código siguiente podría usarse en un componente de canalización para implementar esta funcionalidad.  
   
 ```  
 int bufferSize = 0x280;  
@@ -71,15 +71,15 @@ Stream vStream = new VirtualStream(bufferSize, thresholdSize);
 Stream seekStream = new ReadOnlySeekableStream(inboundStream, vStream, bufferSize);  
 ```  
   
- Este código proporciona un umbral de"desbordamiento" mediante la exposición de bufferSize y thresholdSize variables en cada ubicación de recepción o configuración de puerto de envío. Este umbral de desbordamiento, a continuación, puede ser ajustado por los desarrolladores o los administradores de diferentes tipos de mensaje y distintas configuraciones (por ejemplo, 32 bits. 64 bits).  
+ Este código proporciona un umbral de"desbordamiento" exponiendo bufferSize y thresholdSize variables en cada ubicación de recepción o configuración de puerto de envío. A continuación, se puede ajustar este umbral desbordamiento por desarrolladores o administradores para diferentes tipos de mensaje y para distintas configuraciones (por ejemplo, 32 bits frente a 64 bits).  
   
 ### <a name="using-xpathreader-and-xpathcollection-to-extract-a-given-ibasemessage-object-from-within-a-custom-pipeline-component"></a>Uso de XPathReader y XPathCollection para extraer un objeto determinado de IBaseMessage desde dentro de un componente de canalización personalizado.  
- Si necesitan valores concretos para extraerse de un documento XML, en lugar de utilizar el **SelectNodes** y **SelectSingleNode** métodos expuestos por la clase XmlDocument, utilizar una instancia de la clase XPathReader proporciona el ensamblado Microsoft.BizTalk.XPathReader.dll como se muestra en el ejemplo de código siguiente.  
+ Si los valores específicos que deben extraerse de un documento XML, en lugar de usar el **SelectNodes** y **SelectSingleNode** los métodos expuestos por la clase XmlDocument, use una instancia de la clase XPathReader proporcionado por el ensamblado Microsoft.BizTalk.XPathReader.dll como se muestra en el ejemplo de código siguiente.  
   
 > [!NOTE]  
->  Para los mensajes más pequeños, especialmente, mediante un XmlDocument con SelectNodes o SelectSingleNode puede proporcionar un mejor rendimiento que el uso de XPathReader, pero XPathReader le permite mantener un perfil de memoria de la aplicación.  
+>  Para los mensajes más pequeños, especialmente, usa un XmlDocument con SelectNodes o SelectSingleNode puede proporcionar un mejor rendimiento que el uso de XPathReader, pero XPathReader le permite mantener un perfil de memoria planos de la aplicación.  
   
- Este ejemplo muestra cómo utilizar el XPathReader y XPathCollection para extraer un determinado **IBaseMessage** objeto desde dentro de un componente de canalización personalizado.  
+ En este ejemplo se muestra cómo usar el XPathReader y XPathCollection para extraer un determinado **IBaseMessage** objeto desde dentro de un componente de canalización personalizado.  
   
 ```  
 public IBaseMessage Execute(IPipelineContext context, IBaseMessage message)  
@@ -126,10 +126,10 @@ public IBaseMessage Execute(IPipelineContext context, IBaseMessage message)
 }  
 ```  
   
-## <a name="use-xmlreader-and-xmlwriter-with-xmltranslatorstream-to-process-a-message-from-a-pipeline-component"></a>Usar XMLWriter y XMLReader con XMLTranslatorStream para procesar un mensaje desde un componente de canalización  
- Otro método para implementar un componente de canalización personalizado que usa un método de transmisión por secuencias es usar .NET **XmlReader** y **XmlWriter** clases junto con la  **XmlTranslatorStream** clase proporcionada por el servidor BizTalk Server. Por ejemplo, el **NamespaceTranslatorStream** clase incluida en el ensamblado Microsoft.BizTalk.Pipeline.Components hereda de **XmlTranslatorStream** y puede utilizarse para reemplazar un espacio de nombres anterior con una nueva en el documento XML contenido en la secuencia. Para poder utilizar esta funcionalidad dentro de un componente de canalización personalizado, puede ajustar el flujo de datos original de la parte del cuerpo de mensaje con una nueva instancia de la **NamespaceTranslatorStream** clase y devolver el último. De esta manera el mensaje entrante no se lee o procesar dentro del componente de canalización, pero sólo cuando el flujo de un componente subsiguientes en la misma canalización lee o finalmente es utilizado por el agente de mensajes antes de publicar el documento en el servidor BizTalk Server Cuadro de mensajes.  
+## <a name="use-xmlreader-and-xmlwriter-with-xmltranslatorstream-to-process-a-message-from-a-pipeline-component"></a>Usar XMLReader y XMLWriter con XMLTranslatorStream para procesar un mensaje desde un componente de canalización  
+ Otro método para implementar un componente de canalización personalizado que usa un enfoque de transmisión por secuencias es usar .NET **XmlReader** y **XmlWriter** clases junto con el  **XmlTranslatorStream** clase proporcionada por el servidor BizTalk Server. Por ejemplo, el **NamespaceTranslatorStream** hereda la clase contenida en el ensamblado Microsoft.BizTalk.Pipeline.Components **XmlTranslatorStream** y puede utilizarse para reemplazar un espacio de nombres anterior por otro nuevo en el documento XML contenido en la secuencia. Para poder usar esta funcionalidad dentro de un componente de canalización personalizado, puede ajustar el flujo de datos original de la parte del cuerpo de mensaje con una nueva instancia de la **NamespaceTranslatorStream** clase y devolver el último. De esta forma el mensaje entrante no se leen o procesan dentro del componente de canalización, pero solo cuando la secuencia se lee mediante un componente subsiguientes en la misma canalización o, por último, se consume el agente de mensaje antes de publicar el documento en el servidor BizTalk Server Cuadro de mensajes.  
   
- En el ejemplo siguiente se muestra cómo utilizar esta funcionalidad.  
+ El ejemplo siguiente muestra cómo usar esta funcionalidad.  
   
 ```  
 public IBaseMessage Execute(IPipelineContext context, IBaseMessage message)  
@@ -167,26 +167,26 @@ public IBaseMessage Execute(IPipelineContext context, IBaseMessage message)
 }  
 ```  
   
-## <a name="using-resourcetracker-in-custom-pipeline-components"></a>Utilizar ResourceTracker en componentes de canalización personalizado  
- Un componente de canalización debe administrar la vigencia de los objetos que crea y realizar la recolección de tan pronto como ya no se requieren estos objetos.  Si el componente de canalización quiere que la duración de los objetos hasta el último hasta el final de la ejecución de la canalización, a continuación, debe agregar dichos objetos a la herramienta de seguimiento de recursos que la canalización puede capturar desde el contexto de canalización.  
+## <a name="using-resourcetracker-in-custom-pipeline-components"></a>Uso de ResourceTracker en componentes de canalización personalizados  
+ Un componente de canalización debe administrar la vigencia de los objetos que crea y realizar la recolección de elementos, en cuanto ya no se requieren estos objetos.  Si desea que el componente de canalización de la duración de los objetos hasta el último hasta el final de la ejecución de la canalización, a continuación, debe agregar estos objetos para el seguimiento de recursos que la canalización puede capturar desde el contexto de canalización.  
   
- La herramienta de seguimiento de recursos se utiliza para los siguientes tipos de objetos:  
+ La herramienta de seguimiento de recursos se usa para los siguientes tipos de objetos:  
   
--   Objetos de flujo  
+- Objetos Stream  
   
--   Objetos COM  
+- Objetos COM  
   
--   Objetos IDisposable  
+- Objetos IDisposable  
   
- El motor de mensajería se asegura de que todos los recursos nativos que se agregan a la herramienta de seguimiento de recursos se liberan en el momento adecuado, que resulta después de la canalización se ejecuta completamente, independientemente de si es correcto o incorrecto. La duración de la instancia de seguimiento de recursos y los objetos que está realizando el seguimiento se administra mediante el objeto de contexto de canalización. El contexto de canalización están disponible para todos los tipos de componentes de canalización a través de un objeto que implementa la interfaz IPipelineContext.  
+  El motor de mensajería garantiza que todos los recursos nativos que se agregan a la herramienta de seguimiento de recursos se liberan en el momento adecuado, que es después de la canalización se ejecuta completamente, independientemente de si es correcta o errónea. El objeto de contexto de canalización administra la duración de la instancia de la herramienta de seguimiento de recursos y los objetos que está realizando el seguimiento. El contexto de canalización está disponible para todos los tipos de componentes de canalización a través de un objeto que implementa la interfaz IPipelineContext.  
   
- Por ejemplo, el fragmento de código siguiente es un ejemplo que muestra cómo utilizar la propiedad ResourceTracker en componentes de canalización personalizados. Para utilizar la propiedad ResourceTracker, el fragmento de código utiliza el siguiente parámetro `IPipelineContext.ResourceTracker.AddResource`. En este parámetro:  
+  Por ejemplo, el siguiente fragmento de código es un ejemplo que ilustra cómo usar la propiedad ResourceTracker en componentes de canalización personalizados. Para usar la propiedad ResourceTracker, el fragmento de código usa el parámetro siguiente `IPipelineContext.ResourceTracker.AddResource`. En este parámetro:  
   
--   IPipelineContext (interfaz) define los métodos utilizados para tener acceso a todas las interfaces específicas de procesamiento de documentos.  
+- IPipelineContext (interfaz) define los métodos utilizados para tener acceso a todas las interfaces específicas de procesamiento de documentos.  
   
--   Propiedad ResourceTracker hace referencia a IPipelineContext y se utiliza para realizar un seguimiento de los objetos que se eliminan de forma explícita al final del procesamiento de canalización.  
+- Propiedad ResourceTracker hace referencia a IPipelineContext y se usa para realizar un seguimiento de los objetos que se eliminarán de forma explícita al final del procesamiento de canalización.  
   
--   Método ResourceTracker.AddResource se usa para realizar un seguimiento de los objetos COM, los objetos descartables y secuencias y siempre se debe utilizar dentro de un componente de canalización personalizado para explícitamente cerrar (secuencias), dispose (objetos IDisposable) o liberar (objetos COM) estos tipos de recursos cuando se publica un mensaje a BizTalk MessageBox.  
+- Método ResourceTracker.AddResource se usa para realizar un seguimiento de los objetos COM, objetos desechables y secuencias y siempre se debe usar dentro de un componente de canalización personalizado para explícitamente cerrar (secuencias), eliminar (objetos IDisposable) o liberar (objetos COM) estos tipos de recursos cuando se publica un mensaje a BizTalk MessageBox.  
   
 ```  
 public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)  
@@ -227,16 +227,16 @@ public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)
 }  
 ```  
   
-## <a name="comparison-of-loading-messages-into-pipelines-using-an-in-memory-approach-and-using-a-streaming-approach"></a>Comparación de los mensajes de carga en canalizaciones mediante un enfoque en memoria y mediante un enfoque de transmisión por secuencias  
- La siguiente información se toma del blog de Nic Barden, [http://blogs.objectsharp.com/cs/blogs/nbarden/archive/2008/04/14/developing-streaming-pipeline-components-part-1.aspx](http://go.microsoft.com/fwlink/?LinkId=160228) (http://go.microsoft.com/fwlink/?LinkId=160228). Esta tabla proporciona una comparación resumida de los mensajes de carga en canalizaciones mediante un enfoque en memoria y mediante un enfoque de transmisión por secuencias.  
+## <a name="comparison-of-loading-messages-into-pipelines-using-an-in-memory-approach-and-using-a-streaming-approach"></a>Comparación de los mensajes de la carga en las canalizaciones mediante un enfoque en memoria y uso de un enfoque de transmisión por secuencias  
+ La siguiente información se tomó del blog de Nic Barden, [ http://blogs.objectsharp.com/cs/blogs/nbarden/archive/2008/04/14/developing-streaming-pipeline-components-part-1.aspx ](http://go.microsoft.com/fwlink/?LinkId=160228) (http://go.microsoft.com/fwlink/?LinkId=160228). Esta tabla proporciona una comparación resumida de los mensajes de la carga en canalizaciones mediante un enfoque en memoria y uso de un enfoque de transmisión por secuencias.  
   
 |Comparación de...|Transmisión por secuencias|En la memoria|  
 |----------------------|---------------|---------------|  
-|Uso de memoria por mensaje|Low, independientemente del tamaño del mensaje|Alta (varía en función del tamaño del mensaje)|  
-|Clases comunes que se utilizan para procesar datos XML|Integrado en y personalizados derivaciones de:<br /><br /> XmlTranslatorStream, XmlWriter y XmlReader|XmlDocument, XPathDocument, MemoryStream y VirtualStream|  
-|Documentación|Malo: muchas clases de BizTalk no documentadas y no compatibles|Muy bueno - clases de .NET Framework|  
-|Ubicación del código de "Lógica de procesamiento"|-Lectores "Conectar" y secuencias a través del método Execute.<br />-Ejecución real se produce en los lectores y secuencias cuando se leen los datos.|Directamente desde el método Execute del componente de canalización.|  
-|data|Vuelve a crear en cada nivel de ajuste cuando se leen los datos a través de él.|Leer, modificar y que se escribe en cada componente antes de que se la llame de componente siguiente.|  
+|Uso de memoria por mensaje|Baja, independientemente del tamaño de mensaje|Alto (varía según el tamaño del mensaje)|  
+|Clases comunes que se usan para procesar datos XML|Compila las derivaciones de en y personalizadas de:<br /><br /> XmlTranslatorStream, XmlReader y XmlWriter|XmlDocument, XPathDocument, MemoryStream y VirtualStream|  
+|Documentación|Deficiente: muchas clases de BizTalk no es compatibles y no documentadas|Muy bueno: clases de .NET Framework|  
+|Ubicación del código de la "Lógica de procesamiento"|-Lectores "Conectar" y secuencias a través del método Execute.<br />-Ejecución real se produce en los flujos y los lectores que se leen los datos.|Directamente desde el método Execute del componente de canalización.|  
+|data|Volver a crearse en cada capa de ajuste que se leen los datos a través de él.|Leer, modificar y que se escriben en cada componente antes del siguiente componente que se llama.|  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar las aplicaciones de BizTalk Server](../technical-guides/optimizing-biztalk-server-applications.md)
+ [Optimización de las aplicaciones de BizTalk Server](../technical-guides/optimizing-biztalk-server-applications.md)

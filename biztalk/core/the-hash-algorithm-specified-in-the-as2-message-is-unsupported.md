@@ -1,5 +1,5 @@
 ---
-title: No se admite el algoritmo hash especificado en el mensaje AS2 | Documentos de Microsoft
+title: No se admite el algoritmo hash especificado en el mensaje AS2 | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f6d16c7a3336a798c18b484bc50ff3e2f0c69764
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c3c46f65fb71ef810fc4e657df01e0065757cae
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279300"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008597"
 ---
 # <a name="the-hash-algorithm-specified-in-the-as2-message-is-unsupported"></a>El algoritmo de hash especificado en el mensaje AS2 no es compatible
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|UnsupportedAS2HashAlgorithmError|  
-|Texto del mensaje|El algoritmo de hash especificado en el mensaje AS2 no es compatible.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                            UnsupportedAS2HashAlgorithmError                            |
+|  Texto del mensaje   |            El algoritmo de hash especificado en el mensaje AS2 no es compatible.             |
   
 ## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que la canalización de recepción no pudo generar el MDN según se ha especificado porque el algoritmo hash MIC especificado en el encabezado signed-receipt-micalg del mensaje AS2 recibido no es un valor válido.  

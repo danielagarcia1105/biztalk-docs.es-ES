@@ -1,5 +1,5 @@
 ---
-title: Instalación de ensamblado en la GAC | Documentos de Microsoft
+title: Instalación del ensamblado en la GAC | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 25af22c85602c323b87340cce8b740fe5b68accb
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 1ddcafc37ade0dc4ea57b0271224e09ebe61e0a5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966410"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012597"
 ---
 # <a name="assembly-installation-in-the-gac"></a>Instalación de ensamblado en la GAC
 Todos los equipos tienen una caché de ensamblados global (GAC) que contiene los ensamblados que una o varias aplicaciones del equipo usan. Para que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procese mensajes durante el tiempo de ejecución, los ensamblados incluidos en una aplicación de BizTalk deben estar presente en las GAC de los equipos que ejecutan la aplicación.  
   
- Si la aplicación se encuentra aislada en un servidor, solo será necesario que haya ensamblados en la GAC de ese servidor. En cambio, cuando hay varios servidores que alojan la aplicación, los ensamblados de esa aplicación deben existir en la GAC de cada equipo que necesite obtener acceso a los artefactos que el ensamblado contiene. Por ejemplo, si implementa el ensamblado_a en el servidor_1 y, a continuación, dar de alta ensamblado_a en un host en el servidor_2, ensamblado_a debe instalarse en la GAC en el servidor_2. Si no es así, servidor_2 no podrá tener acceso al ensamblado_a durante el tiempo de ejecución.  
+ Si la aplicación se encuentra aislada en un servidor, solo será necesario que haya ensamblados en la GAC de ese servidor. En cambio, cuando hay varios servidores que alojan la aplicación, los ensamblados de esa aplicación deben existir en la GAC de cada equipo que necesite obtener acceso a los artefactos que el ensamblado contiene. Por ejemplo, si implementa el ensamblado_a en el servidor_1 y, a continuación, dar de alta el ensamblado_a en un host en el servidor_2, el ensamblado_a debe instalarse en la GAC en el servidor_2. Si no es así, servidor_2 no podrá tener acceso al ensamblado_a durante el tiempo de ejecución.  
   
  En concreto, los ensamblados que contienen orquestaciones y ensamblados de los que dependen siempre deben estar instalados en la GAC de los servidores que ejecutan instancias del host al que la orquestación está enlazada. Además, los ensamblados que contienen las asignaciones y las canalizaciones que un puerto usa deben estar instalados en los servidores que ejecutan instancias del host que hace de controlador de adaptador para el puerto.  
   
@@ -30,21 +30,21 @@ Todos los equipos tienen una caché de ensamblados global (GAC) que contiene los
   
  A continuación, se resumen las herramientas y los métodos disponibles para instalar ensamblados en la GAC:  
   
--   **Microsoft Visual Studio.** Como se mencionó anteriormente, puede establecer propiedades del proyecto para instalar ensamblados en la GAC automáticamente cuando las implemente, como se describe en [cómo establecer propiedades de implementación en Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). Puede instalar manualmente los ensamblados en la GAC mediante el uso de la herramienta de línea de comandos Gacutil incluida con [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tal y como se describe en [cómo instalar un ensamblado en la GAC](../core/how-to-install-an-assembly-in-the-gac.md).  
+- **Microsoft Visual Studio.** Como se mencionó anteriormente, puede establecer las propiedades del proyecto para instalar ensamblados en la GAC automáticamente al implementarlos, tal como se describe en [cómo establecer propiedades de implementación en Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). Puede instalar manualmente los ensamblados en la GAC mediante el uso de la herramienta de línea de comandos Gacutil incluida con [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], tal y como se describe en [cómo instalar un ensamblado en la GAC](../core/how-to-install-an-assembly-in-the-gac.md).  
   
--   **Herramienta de línea de comandos BTSTask.** Cuando se agrega un ensamblado a una aplicación de BizTalk mediante BTSTask, puede especificar las opciones para instalar el ensamblado en la GAC cuando se importa o instala la aplicación que contiene. Para obtener más información, consulte [comando AddResource: ensamblado de BizTalk](../core/addresource-command-biztalk-assembly.md). Consulte también [comando AddResource: ensamblado .NET](../core/addresource-command-net-assembly.md).  
+- **Herramienta de línea de comandos BTSTask.** Cuando se agrega un ensamblado a una aplicación de BizTalk mediante BTSTask, puede especificar las opciones para instalar el ensamblado en la GAC cuando se importa o instala la aplicación que contiene. Para obtener más información, consulte [AddResource (comando): ensamblado de BizTalk](../core/addresource-command-biztalk-assembly.md). Consulte también [AddResource (comando): ensamblado .NET](../core/addresource-command-net-assembly.md).  
   
--   **Consola de administración de BizTalk Server.** De la misma manera que con BTSTask, cuando se agrega un ensamblado a una aplicación mediante la consola de administración, puede especificar las opciones para instalar un ensamblado en la GAC cuando se importa o instala la aplicación que contiene. Para obtener más información, consulte [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md). Consulte también [cómo agregar un ensamblado de .NET a una aplicación](../core/how-to-add-a-net-assembly-to-an-application.md).  
+- **Consola de administración de BizTalk Server.** De la misma manera que con BTSTask, cuando se agrega un ensamblado a una aplicación mediante la consola de administración, puede especificar las opciones para instalar un ensamblado en la GAC cuando se importa o instala la aplicación que contiene. Para obtener más información, consulte [cómo agregar un ensamblado de BizTalk a una aplicación](../core/how-to-add-a-biztalk-assembly-to-an-application.md). Consulte también [cómo agregar un ensamblado .NET a una aplicación](../core/how-to-add-a-net-assembly-to-an-application.md).  
   
-     Además, puede configurar opciones de implementación en cualquier momento después de que se ha implementado en un ensamblado o se ha agregado a una aplicación, como se describe en [cómo modificar las opciones de implementación de un ensamblado de BizTalk](../core/how-to-modify-the-deployment-options-of-a-biztalk-assembly.md). Cuando los ensamblados se implementan en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] por primera vez, se establecen las opciones de implementación en la consola de administración como se indica a continuación: está habilitado en la instalación y se deshabilita la GAC durante la importación. Si realiza cambios en esta configuración, los cambios seguirán en vigor si se vuelve a implementar el ensamblado de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   Además, puede configurar las opciones de implementación en cualquier momento después de que se ha implementado en un ensamblado o se ha agregado a una aplicación, como se describe en [cómo modificar las opciones de implementación de un ensamblado de BizTalk](../core/how-to-modify-the-deployment-options-of-a-biztalk-assembly.md). Cuando los ensamblados se implementan en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] por primera vez, las opciones de implementación en la consola de administración se establecen como sigue: está habilitada en la instalación y la GAC durante la importación está deshabilitada. Si realiza cambios en esta configuración, los cambios seguirán estando en efecto si se vuelve a implementar el ensamblado de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
--   **Arrastrar y colocar.** Mediante el Explorador de Windows, puede arrastrar y colocar el archivo de ensamblado en el \< *carpeta Windows*\>\assembly.  
+- **Arrastrar y colocar.** Con el Explorador de Windows, puede arrastrar y colocar el archivo de ensamblado en el \< *carpeta Windows*\>\assembly.  
   
--   **Otros métodos.** Existen otras herramientas y métodos, como el instalador de Windows o herramientas de otros proveedores, que se pueden usar para instalar un ensamblado en la GAC.  
+- **Otros métodos.** Existen otras herramientas y métodos, como el instalador de Windows o herramientas de otros proveedores, que se pueden usar para instalar un ensamblado en la GAC.  
   
 > [!IMPORTANT]
 >  Para que la aplicación funcione correctamente, asegúrese de que las versiones de los ensamblados son las mismas en la base de datos de administración de BizTalk y en la GAC. Si sigue el procedimiento de no instalar siempre un ensamblado en la GAC cuando lo implementa, es posible que tenga diferentes versiones en la GAC y en la base de datos de administración de BizTalk, hecho que producirá errores de procesamiento durante el tiempo de ejecución.  
-  
+> 
 > [!IMPORTANT]
 >  Para obtener información acerca de la numeración de versiones, vea el tema sobre versiones de ensamblados en la ayuda de .NET Framework disponible en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Tenga en cuenta que el uso de archivos de directiva de .NET no es compatible con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   

@@ -1,5 +1,5 @@
 ---
-title: Propiedades de contexto del mensaje para recibir IDOC | Documentos de Microsoft
+title: Propiedades de contexto de mensaje para recibir los IDOC | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,95 +14,95 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca289e37cac15972e75c69d7ad20928b72911963
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1f99c403648ec2fae7fd9ee93f349f7c1fe69434
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22217364"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36999805"
 ---
-# <a name="message-context-properties-for-receiving-idocs"></a>Propiedades de contexto de mensaje para recibir IDOC
+# <a name="message-context-properties-for-receiving-idocs"></a>Propiedades de contexto de mensaje para recibir los IDOC
 Para recibir un IDOC mediante Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite las siguientes propiedades de contexto de mensaje.  
   
  **Propiedades de registro de Control de IDOC.**  
   
--   **TABNAM** -nombre de la estructura de tabla  
+- **TABNAM** -nombre de la estructura de tabla  
   
--   **MANDT** -cliente  
+- **MANDT** -cliente  
   
--   **DOCNUM** -número IDOC  
+- **DOCNUM** -número IDOC  
   
--   **DOCREL** -versión SAP para IDOC  
+- **DOCREL** -versión SAP para IDOC  
   
--   **ESTADO** -estado de IDOC  
+- **ESTADO** -estado de IDOC  
   
--   **DIRECTA** -dirección  
+- **DIRECTO** -dirección  
   
--   **OUTMOD** -modo de salida  
+- **OUTMOD** -modo de salida  
   
--   **EXPRESARSE** : reemplazo en el procesamiento de entrada  
+- **EXPRESARSE** : reemplazo en el procesamiento de entrada  
   
--   **PRUEBA** -indicador de prueba  
+- **PRUEBA** -indicador de prueba  
   
--   **IDOCTYP** -nombre del tipo básico  
+- **IDOCTYP** -nombre del tipo básico  
   
--   **CIMTYP** -extensión (definida por el cliente)  
+- **CIMTYP** -extensión (definida por el cliente)  
   
--   **MESTYP** -tipo de mensaje  
+- **MESTYP** -tipo de mensaje  
   
--   **MESCOD** -código del mensaje  
+- **MESCOD** -código del mensaje  
   
--   **MESFCT** -Message (función)  
+- **MESFCT** -mensaje (función)  
   
--   **STD** -marca estándar, EDI  
+- **STD** -marca estándar, EDI  
   
--   **STDVRS** -EDI estándar, versión y lanzamiento  
+- **STDVRS** -EDI estándar, versión y lanzamiento  
   
--   **STDMES** -tipo de mensaje EDI  
+- **STDMES** -tipo de mensaje EDI  
   
--   **SNDPOR** -puerto de remitente (sistema de SAP, subsistema externo)  
+- **SNDPOR** -puerto de remitente (sistema de SAP, subsistema externo)  
   
--   **SNDPRT** -tipo de remitente de socios comerciales  
+- **SNDPRT** -tipo de remitente de asociados  
   
--   **SNDPFC** -función de remitente de socios comerciales  
+- **SNDPFC** -función de remitente de asociados  
   
--   **SNDPRN** -número de remitente de socios comerciales  
+- **SNDPRN** -número de remitente de asociados  
   
--   **SNDSAD** -dirección de remitente (SADR)  
+- **SNDSAD** -dirección de remitente (SADR)  
   
--   **SNDLAD** -dirección lógica del remitente  
+- **SNDLAD** -dirección lógica del remitente  
   
--   **RCVPOR** -de puerto de recepción  
+- **RCVPOR** -puerto de recepción  
   
--   **RCVPRT** -tipo de socio comercial del receptor  
+- **RCVPRT** -tipo de asociado del receptor  
   
--   **RCVPFC** -función del destinatario de socios comerciales  
+- **RCVPFC** -función de destinatario de asociados  
   
--   **RCVPRN** -número de destinatario de socios comerciales  
+- **RCVPRN** -número de destinatarios de asociados  
   
--   **RCVSAD** -dirección de destinatario (SADR)  
+- **RCVSAD** -dirección de destinatario (SADR)  
   
--   **RCVLAD** -dirección lógica del destinatario  
+- **RCVLAD** -dirección lógica del destinatario  
   
--   **CREDAT** : creado en  
+- **CREDAT** : creado en  
   
--   **CRETIM** -hora de creación  
+- **CRETIM** -hora de creación  
   
--   **REFINT** -archivo de transmisión (intercambio de EDI)  
+- **REFINT** -archivo de transmisión (intercambio de EDI)  
   
--   **REFGRP** -grupo de mensajes (grupo de mensajes de EDI)  
+- **REFGRP** -grupo de mensajes (grupo de mensajes EDI)  
   
--   **REFMES** -EDI (mensaje)  
+- **REFMES** -Message (mensaje EDI)  
   
--   **ARCKEY** - Key para el archivo de mensaje externo  
+- **ARCKEY** - Key para el archivo de mensaje externo  
   
--   **SERIE** -serialización  
+- **SERIE** -serialización  
   
--   **DOCTYP** -tipo IDOC (Esto solo está disponible en EDI_DC. Debe estar presente en la propiedad de contexto, pero debe promocionar solo para la versión 2 idoc)  
+- **DOCTYP** -tipo IDOC (Esto solo está disponible en EDI_DC. Debe estar presente en la propiedad de contexto, pero debe promocionar solo para la versión 2 idoc)  
   
- **TID** : representa el TID enviado por el sistema SAP para las llamadas TRFC entrantes.  
+  **TID** : representa el TID enviado por el sistema SAP para las llamadas TRFC entrantes.  
   
- **GUID** : representa el GUID que el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] utiliza internamente. Esto tiene una asignación unívoca con el TID que se recibió desde el sistema SAP.  
+  **GUID** : representa el GUID que el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] utiliza internamente. Esto tiene una asignación unívoca con el TID que se recibió desde el sistema SAP.  
   
 ## <a name="see-also"></a>Vea también  
- [Mensajes y esquemas de mensaje para el adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)
+ [Los mensajes y esquemas de mensaje para el adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)

@@ -1,5 +1,5 @@
 ---
-title: Puertos de envío y grupos de puertos de envío | Documentos de Microsoft
+title: Puertos de envío y grupos de puertos de envío | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,22 +20,22 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e57e56d05cf3b1a98bba83d0df92d52f09c6eda5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bad7bc94bd1721dcdf55dbf94af3b9ccc0e750d8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271828"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994813"
 ---
 # <a name="send-ports-and-send-port-groups"></a>Puertos de envío y grupos de puertos de envío
-A *puerto de envío* es la ubicación a la que Microsoft BizTalk Server envía mensajes o desde la que BizTalk Server recibe mensajes. Asimismo proporciona la tecnología que utiliza BizTalk Server para implementar la acción de comunicación. El nombre del puerto identifica la ubicación de forma exclusiva.  
+Un *puerto de envío* es la ubicación a la que Microsoft BizTalk Server envía mensajes o desde el que BizTalk Server recibe mensajes. Asimismo proporciona la tecnología que utiliza BizTalk Server para implementar la acción de comunicación. El nombre del puerto identifica la ubicación de forma exclusiva.  
   
  Cada vez que se envía un mensaje a un puerto de envío, se crea una nueva instancia de un servicio de puerto de envío. Esto se denomina instancia de servicio o instancia de puerto de envío.  
   
 > [!NOTE]
 >  solo puede haber una instancia de un puerto de envío con entrega por orden.  
   
- A *grupo de puertos de envío* es una colección con nombre de puertos de envío que BizTalk Server puede usar para enviar el mismo mensaje a varios destinos con una sola configuración.  
+ Un *grupo de puertos de envío* es una colección de puertos de envío que BizTalk Server puede usar para enviar el mismo mensaje a varios destinos con una sola configuración.  
   
  BizTalk Server puede enrutar mensajes directamente desde ubicaciones de recepción a un puerto de envío o grupo de puertos de envío. BizTalk Server envía los mensajes enrutados a un grupo de puertos de envío a todos los puertos de envío de ese grupo.  
   
@@ -46,15 +46,15 @@ A *puerto de envío* es la ubicación a la que Microsoft BizTalk Server envía m
 -   Como si BizTalk Server enrutara los mensajes al puerto de envío directamente  
   
 ## <a name="send-port-and-send-port-group-states"></a>Estados de puertos de envío y de grupos de puertos de envío  
- La consola de administración de BizTalk se muestran los puertos de envío y grupos de puertos de envío en uno de los siguientes estados:  
+ La consola de administración de BizTalk se muestra los puertos de envío y grupos de puertos de envío en uno de los siguientes estados:  
   
--   **Enlazado**. Usando la consola de administración de BizTalk Server, un administrador enlaza el puerto de envío o el grupo de puertos de envío con una orquestación. Antes de que BizTalk Server enrute mensajes a este puerto de envío o grupo de puertos de envío, el administrador dar de alta e iniciar el puerto de envío o grupo de puertos de envío enlazados.  
+- **Enlazado**. Usando la consola de administración de BizTalk Server, un administrador enlaza el puerto de envío o el grupo de puertos de envío con una orquestación. Antes de que BizTalk Server enrute mensajes a este puerto de envío o grupo de puertos de envío, el administrador dar de alta e iniciar el puerto de envío o grupo de puertos de envío enlazados.  
   
--   **Iniciar**. La suscripción para este puerto de envío o grupo de puertos de envío existe y está activa. Cuando el puerto de envío o grupo de puertos de envío está en estado iniciado, BizTalk Server entrega mensajes al puerto de envío o grupo de puertos de envío, y estos los procesan. Para poder iniciar un puerto de envío o grupo de puertos de envío, un administrador debe utilizar la consola de administración de BizTalk para dar de alta al puerto de envío o grupo de puertos de envío enlazados.  
+- **Iniciar**. La suscripción para este puerto de envío o grupo de puertos de envío existe y está activa. Cuando el puerto de envío o grupo de puertos de envío está en estado iniciado, BizTalk Server entrega mensajes al puerto de envío o grupo de puertos de envío, y estos los procesan. Para poder iniciar un puerto de envío o grupo de puertos de envío, un administrador debe utilizar la consola de administración de BizTalk para dar de alta al puerto de envío o grupo de puertos de envío enlazados.  
   
--   **Detenido**. El puerto de envío o grupo de puertos de envío no se está ejecutando. Si inició el puerto de envío o grupo de puertos de envío y luego lo detuvo, el procesamiento continúa en la cola de trabajo. BizTalk Server envía todos los mensajes nuevos enrutados a un puerto de envío o grupo de puertos de envío detenido a la cola de suspensión del host donde se está ejecutando el controlador de envío.  
+- **Detenido**. El puerto de envío o grupo de puertos de envío no se está ejecutando. Si inició el puerto de envío o grupo de puertos de envío y luego lo detuvo, el procesamiento continúa en la cola de trabajo. BizTalk Server envía todos los mensajes nuevos enrutados a un puerto de envío o grupo de puertos de envío detenido a la cola de suspensión del host donde se está ejecutando el controlador de envío.  
   
- En la tabla siguiente se muestran las acciones disponibles en cada estado y el resultado de cada una.  
+  En la tabla siguiente se muestran las acciones disponibles en cada estado y el resultado de cada una.  
   
 ||Enlazado|Detenido|Iniciado|  
 |------|-----------|-------------|-------------|  

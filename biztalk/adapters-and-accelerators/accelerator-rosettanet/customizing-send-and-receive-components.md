@@ -1,6 +1,6 @@
 ---
-title: Personalizar el envío y recepción componentes mediante el Acelerador para RosettaNet en BizTalk Server | Documentos de Microsoft
-description: Crear, personalizar o establecer las propiedades de la RosettaNet acelerador (BTARN) en envío y puertos de recepción en BizTalk Server
+title: Personalizar el envío y recepción componentes mediante el Acelerador de RosettaNet en BizTalk Server | Microsoft Docs
+description: Crear, personalizar o establecer las propiedades de la RosettaNet (BTARN) de acelerador en enviar y puertos de recepción en BizTalk Server
 ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
@@ -18,22 +18,22 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19dbd20fe8e032a31c3665670b6add61eec3c1f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2215a5464c2798c7b7ffe6f128deccf48d8500e3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209540"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009157"
 ---
 # <a name="customizing-send-and-receive-components"></a>Personalización de envío y recepción de componentes
-Los temas de esta sección describen cómo crear, personalizar o establecer las propiedades de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] enviar y recibir los componentes. Estos componentes incluyen páginas ASPX, envían y puertos de recepción y adaptadores.  
+Los temas de esta sección describen cómo crear, personalizar o establecer las propiedades de Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] enviar y recibir los componentes. Estos componentes incluyen páginas ASPX, enviar y reciben adaptadores y puertos.  
   
- Para obtener más información acerca de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], a continuación, [que conozca el Acelerador para RosettaNet](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md).  
+ Para obtener más información acerca de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], a continuación, [Obtenga información sobre el Acelerador de RosettaNet](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md).  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Establecer el tiempo de espera de conexión para una página ASPX](../../adapters-and-accelerators/accelerator-rosettanet/setting-the-connection-time-out-for-an-aspx-page.md)  
+-   [Establecimiento del tiempo de espera de conexión para una página ASPX](../../adapters-and-accelerators/accelerator-rosettanet/setting-the-connection-time-out-for-an-aspx-page.md)  
   
--   [Crear un puerto de envío para que procese huérfano o mensajes duplicados](../../adapters-and-accelerators/accelerator-rosettanet/creating-a-send-port-to-handle-orphan-or-duplicate-messages.md)  
+-   [Creación de un puerto de envío para procesar mensajes huérfanos o duplicados](../../adapters-and-accelerators/accelerator-rosettanet/creating-a-send-port-to-handle-orphan-or-duplicate-messages.md)  
   
--   [Establecer los tiempos de espera para una orquestación de proceso público y un adaptador de HTTP](../../adapters-and-accelerators/accelerator-rosettanet/setting-time-outs-for-a-public-process-orchestration-and-an-http-adapter.md)
+-   [Establecimiento de los tiempos de espera para una orquestación de proceso público y un adaptador de HTTP](../../adapters-and-accelerators/accelerator-rosettanet/setting-time-outs-for-a-public-process-orchestration-and-an-http-adapter.md)

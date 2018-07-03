@@ -1,5 +1,5 @@
 ---
-title: Cómo capturar un volcado de memoria de un proceso que no responde | Documentos de Microsoft
+title: Cómo capturar un volcado de memoria de un proceso que no responde | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 520921010a8bbfd73de8c3b305a1270ca8363c46
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f79cbc492611a6a1271e45b4198401b3d17452e7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248588"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016191"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-non-responsive"></a>Cómo capturar un volcado de memoria de un proceso que no responde
-El proceso de BizTalk BTSNTSvc.exe se define como **francesa** cuando el proceso parece que deja de responder. Los síntomas comunes de que un proceso no responde incluyen los siguientes:  
+El proceso de BizTalk BTSNTSvc.exe se define como **francesa** cuando el proceso parece dejar de responder. Los síntomas comunes de que un proceso no responde incluyen los siguientes:  
   
--   Parece que las orquestaciones dejan de ejecutarse.  
+- Parece que las orquestaciones dejan de ejecutarse.  
   
--   Los mensajes no se procesan.  
+- Los mensajes no se procesan.  
   
--   Se producen problemas generales de tiempo de espera.  
+- Se producen problemas generales de tiempo de espera.  
   
--   El proceso de BizTalk BTSNTSvc.exe consume una cantidad inusualmente elevada de ciclos de CPU tal como se ve en el **procesos** ficha de **el Administrador de tareas**.  
+- El proceso de BizTalk BTSNTSvc.exe consume una cantidad inusualmente elevada de ciclos de CPU, tal como se ve en el **procesos** ficha de **el Administrador de tareas**.  
   
- Para capturar un volcado de memoria de un proceso BTSNTSvc.exe que no responde, siga los siguientes pasos.  
+  Para capturar un volcado de memoria de un proceso BTSNTSvc.exe que no responde, siga los siguientes pasos.  
   
 ### <a name="to-configure-the-debug-diagnostics-tool-to-capture-a-hang-dump"></a>Para configurar la herramienta de diagnósticos de depuración y capturar un volcado que no responde  
   
@@ -38,7 +38,7 @@ El proceso de BizTalk BTSNTSvc.exe se define como **francesa** cuando el proceso
   
 2.  Si el **Select Rule Type** se muestra el cuadro de diálogo del Asistente para la configuración de reglas, haga clic en el **cancelar** botón.  
   
-3.  Haga clic en el **procesos** ficha de la herramienta de diagnóstico de depuración.  
+3.  Haga clic en el **procesos** pestaña de la herramienta Debug Diagnostic Tool.  
   
 4.  Haga clic en el proceso BTSNTSvc.exe que no responde y seleccione **Create Full Userdump**. De forma predeterminada, un volcado de memoria del proceso se guardará en el directorio \Archivos de programa\IIS Resources\DebugDiag\Logs\Misc del equipo local.  
   

@@ -1,5 +1,5 @@
 ---
-title: Tipos de datos de Oracle base de datos LOB utilizando el modelo del canal de WCF de streaming | Documentos de Microsoft
+title: Tipos de datos de Oracle Database LOB mediante el modelo de canal de WCF de streaming | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,35 +15,35 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bf0ee2f8d1c90f69a206a3006398d52e67f819e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa8a493c94761ce74d76885ee59fae1425c15523
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22215796"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013845"
 ---
-# <a name="streaming-oracle-database-lob-data-types-using-the-wcf-channel-model"></a>Transmisión por secuencias tipos de datos LOB de base de datos de Oracle, utilizando el modelo del canal de WCF
-El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite-to-end de transmisión por secuencias de datos LOB para determinadas operaciones. Las secciones de este tema describen cómo implementar la transmisión por secuencias de datos LOB cuando se usa el modelo de canal WCF.  
+# <a name="streaming-oracle-database-lob-data-types-using-the-wcf-channel-model"></a>Streaming tipos de datos LOB de base de datos de Oracle, mediante el modelo de canal de WCF
+El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite la transmisión de extremo a otro de los datos LOB para determinadas operaciones. Las secciones de este tema describen cómo implementar el streaming de datos de LOB cuando se usa el modelo de canal WCF.  
   
- Para obtener información general acerca de cómo el adaptador es compatible con transmisión por secuencias de tipos de datos LOB, vea [transmisión por secuencias de tipos de datos de objetos grandes en el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md). Debe leer este tema antes de continuar.  
+ Para obtener información general sobre cómo el adaptador es compatible con transmisión por secuencias de tipos de datos LOB, vea [hacer Streaming de tipos de datos de objetos grandes en el adaptador de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md). Debe leer este tema antes de continuar.  
   
- Un ejemplo que muestra la transmisión por secuencias de datos LOB está disponible en los ejemplos de SDK que se incluyen con el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. Para obtener más información, consulte [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
+ Un ejemplo que muestra la transmisión de datos LOB está disponible en los ejemplos SDK incluidos en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. Para obtener más información, consulte [ejemplos del SDK](../../core/samples-in-the-sdk.md).  
   
-## <a name="streaming-outbound-messages-to-the-adapter"></a>Transmisión de mensajes salientes al adaptador  
- El adaptador admite datos LOB-to-end para el mensaje de solicitud para la operación de UpdateLOB de transmisión por secuencias.  
+## <a name="streaming-outbound-messages-to-the-adapter"></a>Transmisión por secuencias mensajes salientes para el adaptador  
+ El adaptador admite datos LOB-to-end para el mensaje de solicitud para la operación UpdateLOB de transmisión por secuencias.  
   
- Para admitir la transmisión por secuencias to-end en las operaciones de UpdateLOB en el modelo de canal WCF, debe:  
+ Para admitir la transmisión por secuencias to-end en UpdateLOB operaciones en el modelo de canal WCF, debe:  
   
 1.  Establecer el **UseAmbientTransaction** enlaza la propiedad en true.  
   
-2.  Implemente un **System.ServiceModel.Channels.BodyWriter** que es capaz de transmitir por secuencias los datos LOB (realizando la transmisión por secuencias en los datos de LOB en el valor de nodo).  
+2.  Implemente un **System.ServiceModel.Channels.BodyWriter** que es capaz de transmitir los datos de LOB (realizando la transmisión por secuencias en los datos de LOB en el valor de nodo).  
   
-3.  Realizar la operación de UpdateLOB dentro de un ámbito de transacción.  
+3.  Realizar la operación UpdateLOB dentro de un ámbito de transacción.  
   
-4.  Crear el **System.ServiceModel.Message** se utiliza para invocar la operación si se suministra el cuerpo del mensaje a este **BodyWriter** con una sobrecarga adecuada de la **Message.Create** método.  
+4.  Crear el **System.ServiceModel.Message** utilizada para invocar la operación si se suministra el cuerpo del mensaje con este **BodyWriter** mediante una sobrecarga adecuada de la **Message.Create** método.  
   
 ### <a name="setting-the-useambienttransaction-binding-property"></a>Establecer la propiedad de enlace de UseAmbientTransaction  
- En el ejemplo siguiente se muestra cómo crear un enlace para el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] y establezca el **UseAmbientTransaction** propiedad de enlace.  
+ El ejemplo siguiente muestra cómo crear un enlace para el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] y establezca el **UseAmbientTransaction** enlaza la propiedad.  
   
 ```  
 // Create binding  
@@ -55,7 +55,7 @@ binding.UseAmbientTransaction = true;
 ```  
   
 ### <a name="implementing-a-bodywriter"></a>Implementar un BodyWriter  
- En el ejemplo siguiente se muestra una implementación de un **BodyWriter** que realiza la transmisión por secuencias de valor de nodo.  
+ El ejemplo siguiente muestra una implementación de un **BodyWriter** que realiza el valor del nodo de transmisión por secuencias.  
   
 ```  
 /// <summary>  
@@ -126,7 +126,7 @@ class StreamingBodyWriter : BodyWriter, IDisposable
 ```  
   
 ### <a name="perform-the-operations-within-a-transaction-scope"></a>Realizar las operaciones dentro de un ámbito de transacción  
- En el ejemplo siguiente se muestra cómo realizar operaciones dentro de un ámbito de transacción.  
+ El ejemplo siguiente muestra cómo realizar operaciones en un ámbito de transacción.  
   
 ```  
 // Create a transaction scope  
@@ -142,8 +142,8 @@ using(TransactionScope tx = new TransactionScope())
   
 ```  
   
-### <a name="creating-a-message-by-using-a-bodywriter"></a>Crear un mensaje mediante un BodyWriter  
- En el ejemplo siguiente se muestra cómo crear un mensaje de solicitud de UpdateLOB con el **BodyWriter** en el ejemplo anterior. Los datos del mensaje se leen desde un archivo.  
+### <a name="creating-a-message-by-using-a-bodywriter"></a>Creación de un mensaje con un BodyWriter  
+ El ejemplo siguiente muestra cómo crear un mensaje de solicitud UpdateLOB con el **BodyWriter** en el ejemplo anterior. Los datos del mensaje se leen desde un archivo.  
   
 ```  
 // Create a transaction scope  
@@ -165,31 +165,31 @@ using(TransactionScope tx = new TransactionScope())
   
 ```  
   
-## <a name="streaming-inbound-messages-from-the-adapter"></a>Transmisión de mensajes entrantes desde el adaptador  
- El adaptador admite datos LOB-to-end de transmisión por secuencias para los mensajes entrantes siguientes:  
+## <a name="streaming-inbound-messages-from-the-adapter"></a>Transmisión por secuencias mensajes entrantes desde el adaptador  
+ El adaptador admite streaming para los siguientes mensajes de entrada de datos LOB-to-end:  
   
--   Mensaje de respuesta para las funciones con fuera o en los parámetros OUT que contienen datos LOB. Tenga en cuenta que los parámetros de tipo de registro pueden contener columnas de datos LOB.  
+- Mensaje de respuesta para las funciones con fuera o en los parámetros OUT que contienen datos de LOB. Tenga en cuenta que los parámetros de tipo de registro pueden contener columnas de datos LOB.  
   
--   Mensaje de respuesta para las funciones con parámetros de salida de REF CURSOR (o los valores devueltos) que contienen datos LOB. Esto incluye el lado de salida de parámetros en espera REF CURSOR.  
+- Mensaje de respuesta para las funciones con parámetros de salida de REF CURSOR (o valores devueltos) que contienen datos de LOB. Esto incluye el lado de salida de los parámetros OUT en REF CURSOR.  
   
--   Mensaje de respuesta para los procedimientos con IN o en los parámetros OUT que contienen datos LOB. Tenga en cuenta que los parámetros de tipo de registro pueden contener columnas de datos LOB.  
+- Mensaje de respuesta para los procedimientos con IN o OUT en los parámetros que contienen datos de LOB. Tenga en cuenta que los parámetros de tipo de registro pueden contener columnas de datos LOB.  
   
--   Mensaje de respuesta para los procedimientos con parámetros de salida de REF CURSOR que contienen datos LOB. Esto incluye el lado de salida de parámetros en espera REF CURSOR  
+- Mensaje de respuesta para los procedimientos con parámetros de salida de REF CURSOR que contienen datos de LOB. Esto incluye el lado de salida de los parámetros OUT en REF CURSOR  
   
--   Mensaje de respuesta para las operaciones de SQLEXECUTE que devuelven conjuntos de resultados que contienen datos LOB.  
+- Mensaje de respuesta para las operaciones de SQLEXECUTE que devuelven conjuntos de resultados que contienen datos de LOB.  
   
--   Establece el mensaje de respuesta para la tabla o vista operaciones Select que devuelven datos LOB en el resultado.  
+- Establece el mensaje de respuesta para la tabla o vista operaciones Select que devuelven datos LOB en el resultado.  
   
--   Mensaje de solicitud para la operación de POLLINGSTMT (entrante)  
+- Mensaje de solicitud para la operación POLLINGSTMT (entrante)  
   
- Para admitir la transmisión por secuencias to-end en un mensaje entrante en el modelo de canal WCF, debe:  
+  Para admitir la transmisión por secuencias to-end en un mensaje entrante en el modelo de canal WCF, debe:  
   
-1.  Implemente un **System.Xml.XmlDictionaryWriter** que es capaz de transmitir por secuencias los datos LOB (realizando la transmisión por secuencias en los datos de LOB en el valor de nodo).  
+1.  Implemente un **System.Xml.XmlDictionaryWriter** que es capaz de transmitir los datos de LOB (realizando la transmisión por secuencias en los datos de LOB en el valor de nodo).  
   
-2.  Consumir la **mensaje** invocando **WriteBodyContents** método con este **XmlDictionaryWriter**.  
+2.  Consumir el **mensaje** invocando **WriteBodyContents** método con este **XmlDictionaryWriter**.  
   
 ### <a name="implementing-an-xmldictionarywriter"></a>Implementar un XmlDictionaryWriter  
- En el ejemplo siguiente se muestra una implementación de un **XmlDictionaryWriter** que realiza la transmisión por secuencias de valor de nodo.  
+ El ejemplo siguiente muestra una implementación de un **XmlDictionaryWriter** que realiza el valor del nodo de transmisión por secuencias.  
   
 ```  
 using System;  
@@ -333,8 +333,8 @@ class FileXmlWriter : XmlDictionaryWriter
 }  
 ```  
   
-### <a name="consuming-a-message-by-using-an-xmldictionarywriter"></a>Usar un mensaje utilizando un XmlDictionaryWriter  
- En el ejemplo siguiente se muestra cómo utilizar un mensaje de respuesta seleccione tabla utilizando la **FileXmlWriter** implementado en el ejemplo anterior. (El **FileWriter** clase creó subclasificando **XmlDictionaryWriter**.) El ejemplo se usa un **IRequestChannel** canal para invocar la operación de selección. Se han omitido los detalles de la creación del canal. El mensaje de solicitud Select se lee desde un archivo y el mensaje de respuesta Select se escribe en un archivo.  
+### <a name="consuming-a-message-by-using-an-xmldictionarywriter"></a>Consumir un mensaje utilizando el escritor XmlDictionaryWriter  
+ El ejemplo siguiente muestra cómo consumir un mensaje de respuesta seleccione tabla utilizando la **FileXmlWriter** implementado en el ejemplo anterior. (El **FileWriter** clase creada por subclasificando **XmlDictionaryWriter**.) El ejemplo se usa un **IRequestChannel** canal para invocar la operación de selección. Se han omitido los detalles de la creación del canal. El mensaje de solicitud Select se lee desde un archivo y el mensaje de respuesta Select se escribe en un archivo.  
   
 ```  
 // Read Select message body from a file  
@@ -354,7 +354,7 @@ fileXmlWriter.Close();
 OutputMsg.Close();  
 ```  
   
- El siguiente XML muestra el mensaje de solicitud (contenido del archivo select.xml) para la operación de selección. La tabla CUSTOMER contiene una columna BLOB denominada PHOTO.  
+ El siguiente XML muestra el mensaje de solicitud (el contenido del archivo select.xml) para la operación de selección. La tabla CUSTOMER contiene una columna BLOB denominada PHOTO.  
   
 ```  
 <Select xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER">  

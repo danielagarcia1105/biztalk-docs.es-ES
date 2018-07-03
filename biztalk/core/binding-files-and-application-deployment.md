@@ -1,5 +1,5 @@
 ---
-title: Archivos de enlace e implementación de aplicaciones | Documentos de Microsoft
+title: Archivos de enlace e implementación de aplicaciones | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -33,12 +33,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc6908f962cd3bb8f9fdec3fcaab6bc131c889da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 316ce46898bca23461c042f88fddb95b0d6a2f80
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22234068"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004965"
 ---
 # <a name="binding-files-and-application-deployment"></a>Archivos de enlace e implementación de la aplicación
 En este tema se proporciona información general acerca del uso de archivos de enlace para que la implementación de ensamblados y aplicaciones de BizTalk sea más sencilla. En los siguientes escenarios, podrá ver que los archivos de enlace aceleran la implementación al evitar la necesidad de configurar los enlaces de forma manual:  
@@ -82,9 +82,9 @@ En este tema se proporciona información general acerca del uso de archivos de e
 4.  Importe el archivo .msi de aplicación a los grupos y aplicaciones de BizTalk donde quiera implementarlo. Los enlaces del archivo se aplican de forma automática al ensamblado durante la importación.  
   
 ## <a name="how-can-i-generate-and-use-binding-files"></a>¿Cómo puedo generar y usar archivos de enlace?  
- Un archivo de enlace no se genera automáticamente para un ensamblado, aplicación o el grupo de BizTalk, pero puede generar un archivo de enlace mediante la exportación de enlaces, tal y como se describe en [exportar enlaces](../core/exporting-bindings6.md). A continuación, puede importar el archivo de enlace a una aplicación o un grupo, como se describe en [cómo importar enlaces en una aplicación de BizTalk](../core/how-to-import-bindings-into-a-biztalk-application.md) y [cómo importar enlaces en un grupo de BizTalk](../core/how-to-import-bindings-into-a-biztalk-group.md), que automáticamente se aplica sus enlaces.  
+ No se genera automáticamente un archivo de enlace de un ensamblado, aplicación o el grupo de BizTalk, pero puede generar un archivo de enlace mediante la exportación de enlaces, como se describe en [exportar enlaces](../core/exporting-bindings6.md). A continuación, puede importar el archivo de enlace a una aplicación o un grupo, como se describe en [cómo importar enlaces en una aplicación de BizTalk](../core/how-to-import-bindings-into-a-biztalk-application.md) y [cómo importar enlaces a un grupo de BizTalk](../core/how-to-import-bindings-into-a-biztalk-group.md), que automáticamente se aplica sus enlaces.  
   
- Como alternativa, puede agregar el archivo de enlace a una aplicación para que sus enlaces se aplican cuando la aplicación se importa a otro grupo, en lugar de aplicarlos de forma inmediata, como se describe en [cómo agregar un archivo de enlace a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md). Mediante este último método, puede agregar varios archivos de enlace a una aplicación y, de forma opcional, especificar un entorno de implementación de destino para cada uno de ellos. Al importar la aplicación, a continuación, puede seleccionar que los enlaces que se aplican, según el entorno de implementación de destino, como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md). Mediante este último método, también puede importar archivos de enlace diferentes para los distintos ensamblados de la aplicación.  
+ Como alternativa, puede agregar el archivo de enlace a una aplicación para que sus enlaces se aplican cuando la aplicación se importa en otro grupo, en lugar de que se aplican inmediatamente, como se describe en [cómo agregar un archivo de enlace a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md). Mediante este último método, puede agregar varios archivos de enlace a una aplicación y, de forma opcional, especificar un entorno de implementación de destino para cada uno de ellos. Al importar la aplicación, puede seleccionar qué enlaces va a aplicar, según el entorno de implementación de destino, tal y como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md). Mediante este último método, también puede importar archivos de enlace diferentes para los distintos ensamblados de la aplicación.  
   
  Después de generar los archivos de enlace, puede editarlos para cambiar su información de enlace. Para obtener más información, consulte [personalizar archivos de enlace](../core/customizing-binding-files.md).  
   
@@ -94,32 +94,32 @@ En este tema se proporciona información general acerca del uso de archivos de e
 ### <a name="binding-to-hosts"></a>Enlace a hosts  
  Cuando los enlaces se exportan por separado o como parte de una aplicación, los hosts y los niveles de confianza se almacenan en el archivo de enlace de la manera siguiente:  
   
--   **Puerto de envío.** Nivel de confianza del host asociado con el controlador de envío.  
+- **Puerto de envío.** Nivel de confianza del host asociado con el controlador de envío.  
   
--   **Ubicación de recepción.** Nivel de confianza del host asociado con el controlador de recepción.  
+- **Ubicación de recepción.** Nivel de confianza del host asociado con el controlador de recepción.  
   
--   **Orquestación.** Nivel de confianza del host.  
+- **Orquestación.** Nivel de confianza del host.  
   
- Cuando los enlaces se importan a una aplicación o bien una aplicación se importa desde el archivo .msi a un nuevo grupo de BizTalk, se establece la coincidencia de los hosts y los niveles de confianza de los archivos de enlace con los hosts y los niveles de confianza de la aplicación de la manera siguiente:  
+  Cuando los enlaces se importan a una aplicación o bien una aplicación se importa desde el archivo .msi a un nuevo grupo de BizTalk, se establece la coincidencia de los hosts y los niveles de confianza de los archivos de enlace con los hosts y los niveles de confianza de la aplicación de la manera siguiente:  
   
--   **Puerto de envío.** El puerto de envío se enlaza a un controlador de envío del mismo nombre y a un host con el mismo nivel de confianza que los que están almacenados en el archivo de enlace.  
+- **Puerto de envío.** El puerto de envío se enlaza a un controlador de envío del mismo nombre y a un host con el mismo nivel de confianza que los que están almacenados en el archivo de enlace.  
   
--   **Ubicación de recepción.** La ubicación de recepción se enlaza a un controlador de recepción del mismo nombre y a un host con el mismo nivel de confianza que los que están almacenados en el archivo de enlace.  
+- **Ubicación de recepción.** La ubicación de recepción se enlaza a un controlador de recepción del mismo nombre y a un host con el mismo nivel de confianza que los que están almacenados en el archivo de enlace.  
   
--   **Orquestaciones.** La orquestación se enlaza a un host del mismo nombre y con el mismo nivel de confianza que los que aparecen en el archivo de enlace.  
+- **Orquestaciones.** La orquestación se enlaza a un host del mismo nombre y con el mismo nivel de confianza que los que aparecen en el archivo de enlace.  
   
 ### <a name="order-in-which-bindings-are-applied"></a>Orden de aplicación de los enlaces  
  Cuando importa una aplicación, los enlaces se aplican en el orden siguiente:  
   
-1.  Los enlaces de la aplicación generados por BizTalk Server que no se agregaron explícitamente a la aplicación mediante un archivo de enlace, pero que el usuario seleccionó explícitamente para exportarlos al archivo .msi de la aplicación.  
+1. Los enlaces de la aplicación generados por BizTalk Server que no se agregaron explícitamente a la aplicación mediante un archivo de enlace, pero que el usuario seleccionó explícitamente para exportarlos al archivo .msi de la aplicación.  
   
-2.  Los enlaces de los archivos de enlace que se han agregado a la aplicación y que no tienen especificado un entorno de implementación de destino. Estos enlaces no se aplican en ningún orden específico.  
+2. Los enlaces de los archivos de enlace que se han agregado a la aplicación y que no tienen especificado un entorno de implementación de destino. Estos enlaces no se aplican en ningún orden específico.  
   
-3.  Los enlaces de los archivos de enlace que se han agregado a la aplicación y que tienen un entorno de implementación de destino asociado que coincide con el entorno de implementación seleccionado para la importación de la aplicación. Estos enlaces no se aplican en ningún orden específico.  
+3. Los enlaces de los archivos de enlace que se han agregado a la aplicación y que tienen un entorno de implementación de destino asociado que coincide con el entorno de implementación seleccionado para la importación de la aplicación. Estos enlaces no se aplican en ningún orden específico.  
   
- A medida que se aplican los enlaces durante el proceso de importación, los enlaces que ya se han aplicado se sobrescriben con enlaces nuevos que tienen el mismo nombre. Es decir, surtirá efecto el último enlace de un nombre concreto que se aplica.  
+   A medida que se aplican los enlaces durante el proceso de importación, los enlaces que ya se han aplicado se sobrescriben con enlaces nuevos que tienen el mismo nombre. Es decir, surtirá efecto el último enlace de un nombre concreto que se aplica.  
   
- Por ejemplo, si una aplicación que ya existe incluye un puerto de envío denominado SendPort1, y se aplica un archivo de enlace que describe un puerto de envío con el mismo nombre, la configuración del archivo de enlace sobrescribirá la configuración que ya existe para SendPort1. Si una aplicación que ya existe incluye una orquestación denominada, por ejemplo, ErrorHandling.ErrorHandler.ResubmitLogic, y un archivo de enlace describe una orquestación con el mismo nombre, todos los enlaces de la orquestación se escribirán con los enlaces del archivo de enlace.  
+   Por ejemplo, si una aplicación que ya existe incluye un puerto de envío denominado SendPort1, y se aplica un archivo de enlace que describe un puerto de envío con el mismo nombre, la configuración del archivo de enlace sobrescribirá la configuración que ya existe para SendPort1. Si una aplicación que ya existe incluye una orquestación denominada, por ejemplo, ErrorHandling.ErrorHandler.ResubmitLogic, y un archivo de enlace describe una orquestación con el mismo nombre, todos los enlaces de la orquestación se escribirán con los enlaces del archivo de enlace.  
   
 ## <a name="see-also"></a>Vea también  
- [Descripción de la implementación de aplicaciones de BizTalk y administración](../core/understanding-biztalk-application-deployment-and-management.md)
+ [Descripción de la implementación y administración de aplicaciones de BizTalk](../core/understanding-biztalk-application-deployment-and-management.md)

@@ -1,5 +1,5 @@
 ---
-title: No se puede obtener acceso al Acuerdo mediante la identidad del receptor | Documentos de Microsoft
+title: No se puede obtener acceso al Acuerdo mediante la identidad del receptor | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f41b126ca0ebb96716f21381d2e1681ea59bd414
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 630ce4850c2bb11f9b5a18db03204ef2c1e24cae
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286516"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003733"
 ---
 # <a name="unable-to-access-agreement-using-receiver-identity"></a>No se puede obtener acceso al acuerdo mediante la identidad del receptor
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|UnableToLocateAS2PartyByPartyNameError|  
-|Texto del mensaje|No se puede obtener acceso al Acuerdo mediante la identidad del receptor: {0}|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                         UnableToLocateAS2PartyByPartyNameError                         |
+|  Texto del mensaje   |                No se puede obtener acceso al Acuerdo mediante la identidad del receptor: {0}                 |
   
 ## <a name="explanation"></a>Explicación  
  Este error indica que la canalización de envío no pudo determinar la entidad para un mensaje AS2 saliente porque no pudo hacer coincidir la propiedad de contexto AS2To del mensaje saliente o la propiedad AS2To de la propiedad de contexto Http.UserHttpheaders con el nombre de la entidad en la propiedad AS2-To de la página Entidad como receptora del mensaje AS2 del cuadro de diálogo Propiedades de AS2.  

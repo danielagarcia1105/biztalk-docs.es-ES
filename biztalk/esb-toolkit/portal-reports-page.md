@@ -1,5 +1,5 @@
 ---
-title: Página informes del portal | Documentos de Microsoft
+title: Página informes del portal | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,42 +12,42 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 14e9f6491c403f5386f47587c5420c3748e18a24
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a487f30fc4ca9897cfd1dc4642c26a2e5f36fd7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22294604"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016775"
 ---
 # <a name="portal-reports-page"></a>Página Informes del portal
-La página de informes del Portal, que se muestra en la figura 1 muestra los siguientes gráficos:  
-  
--   **Recuento de errores por aplicación**. Esta opción muestra una vista agregada de todos los errores generados para un grupo de aplicaciones especificado durante un tiempo especificado.  
-  
--   **Recuento de errores por tipo de Error**. Esta opción muestra una vista agregada de todos los errores por tipo de error especificado generado para un grupo de aplicaciones especificado durante un tiempo especificado.  
-  
--   **Recuento de errores de tiempo**. Esta opción muestra el recuento de errores durante un período determinado para un conjunto específico de aplicaciones. Puede seleccionar una aplicación para mostrar un gráfico de tendencias que muestra el número de errores con el tiempo para servicios específicos dentro de la aplicación.  
-  
--   **Número de alertas por aplicación**. Esta opción muestra una vista agregada de todas las alertas generadas para un grupo de aplicaciones especificado durante un tiempo especificado.  
-  
--   **Reenvíos con el tiempo**. Esta opción muestra el recuento de reenvíos de mensajes con errores durante un período determinado para un conjunto específico de aplicaciones.  
-  
--   **Las suscripciones de alerta con el tiempo**. Esta opción muestra el recuento de suscripciones de alerta en un período específico para un conjunto específico de aplicaciones.  
-  
- ![Página informes del portal](../esb-toolkit/media/portalreportspage.gif "PortalReportsPage")  
-  
- **Figura 1**  
-  
- **La página de informes del Portal de administración de ESB**  
-  
- En la lista siguiente se explica cómo puede usar las características de la página de Portal de administración de ESB de nueva entrada de registro:  
-  
--   Haga clic en el **SelectApplications** vincular por encima del primer gráfico y, a continuación, active o desactive las casillas de verificación en la lista de aplicaciones instaladas de Microsoft BizTalk Server que aparece. También puede usar los vínculos que aparecen seleccionar todas o ninguna de las aplicaciones. Haga clic en **guardar** para mostrar la información de las aplicaciones seleccionadas, o haga clic en **cancelar** abandonar los cambios.  
-  
--   Utilice la lista desplegable situada encima del primer gráfico para seleccionar el intervalo sobre el que desea que los gráficos para mostrar los datos. Puede incluir datos de la anterior **hora, día, semana, mes, trimestre, año,** o **todos los**.  
-  
--   Haga clic en uno de los gráficos en la página que se muestre un desglose de los datos por el servicio dentro de la aplicación. Dependiendo del gráfico que seleccione, esto muestra una línea de tendencia o de recuento errores individuales, alertas, tipos de errores, reenvíos o suscripciones de alerta para cada servicio.  
-  
--   Haga clic en el nombre de un servicio en este gráfico para mostrar una tabla que enumera todos los errores, las alertas, tipos de errores, reenvíos o suscripciones de alerta para el servicio seleccionado.  
-  
--   Haga clic en **exportar a Excel** para descargar la lista de suscripciones en un formato que se puede ver en Microsoft Excel.
+La página de los informes del Portal, que se muestra en la figura 1 muestra los gráficos siguientes:  
+
+- **Número de error por aplicación**. Esta opción muestra una vista agregada de todos los errores generados para un conjunto de aplicaciones especificado durante un tiempo especificado.  
+
+- **Recuento de errores por tipo de Error**. Esta opción muestra una vista agregada de todos los errores por tipo de error especificado generado para un conjunto de aplicaciones especificado durante un tiempo especificado.  
+
+- **Recuento de errores de tiempo**. Esta opción muestra el recuento de errores durante un período determinado para un conjunto de aplicaciones especificado. Puede seleccionar una aplicación para mostrar un gráfico de tendencias que muestra el número de errores con el tiempo para servicios específicos dentro de la aplicación.  
+
+- **Número de alertas por aplicación**. Esta opción muestra una vista agregada de todas las alertas generadas para un conjunto de aplicaciones especificado durante un tiempo especificado.  
+
+- **Reenvíos en el tiempo**. Esta opción muestra el recuento de reenvíos de mensajes con errores durante un período determinado para un conjunto de aplicaciones especificado.  
+
+- **Las suscripciones de alerta con el tiempo**. Esta opción muestra el recuento de suscripciones de alerta durante un período determinado para un conjunto de aplicaciones especificado.  
+
+  ![Página informes del portal](../esb-toolkit/media/portalreportspage.gif "PortalReportsPage")  
+
+  **Figura 1**  
+
+  **La página de los informes del Portal de administración de ESB**  
+
+  En la lista siguiente se explica cómo puede usar las características de la página de Portal de administración de ESB de nueva entrada de registro:  
+
+- Haga clic en el **SelectApplications** vincular por encima del primer gráfico y, a continuación, active o desactive las casillas de verificación en la lista de aplicaciones instaladas de Microsoft BizTalk Server que aparece. También puede usar los vínculos que aparecen seleccionar todas o ninguna de las aplicaciones. Haga clic en **guardar** para mostrar la información de las aplicaciones seleccionadas, o haga clic en **cancelar** para abandonar los cambios.  
+
+- Use la lista desplegable situada encima del primer gráfico para seleccionar el intervalo durante el que desea que los gráficos para mostrar los datos. Puede elegir incluir datos de los anteriores **hora, día, semana, mes, trimestre, año,** o **todas**.  
+
+- Haga clic en uno de los gráficos en la página para mostrar un desglose de los datos de servicio dentro de la aplicación. Según el gráfico seleccionado, se muestra una línea de tendencia o de recuento de errores individuales, las alertas, tipos de errores, reenvíos o suscripciones de alerta para cada servicio.  
+
+- Haga clic en el nombre de un servicio en este gráfico para mostrar una tabla que enumera todos los errores, las alertas, tipos de error, reenvíos o suscripciones de alerta para el servicio seleccionado.  
+
+- Haga clic en **exportar a Excel** para descargar la lista de suscripciones en un formato que puede ver en Microsoft Excel.

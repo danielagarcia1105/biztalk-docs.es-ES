@@ -1,5 +1,5 @@
 ---
-title: 'Inicio de sesión único: Evento 10764 | Documentos de Microsoft'
+title: 'De sesión único: Evento 10764 | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a51e5bd0687cce2934868a7fb201fc7342cd6d82
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6a4a48704c15d301176e32b079164f8a6328c90
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276484"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005541"
 ---
-# <a name="single-sign-on-event-10764"></a>Inicio de sesión único: Evento 10764
+# <a name="single-sign-on-event-10764"></a>De sesión único: Evento 10764
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10764|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_MAPPING_DISABLED|  
-|Texto del mensaje|La asignación está deshabilitada.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Nombre del producto   |                 Inicio de sesión único (SSO) empresarial                  |
+| Versión del producto | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Identificador del evento     |                           10764                            |
+|  Origen del evento   |                           ENTSSO                           |
+|    Componente    |                            N/D                             |
+|  Nombre simbólico  |                 ENTSSO_E_MAPPING_DISABLED                  |
+|  Texto del mensaje   |                  La asignación está deshabilitada.                  |
   
 ## <a name="explanation"></a>Explicación  
  La asignación está deshabilitada.  
   
 ## <a name="user-action"></a>Acción del usuario  
- Para obtener información sobre cómo habilitar y deshabilitar asignaciones, consulte [administración de asignaciones de usuario](../core/managing-user-mappings.md).
+ Para obtener información sobre cómo habilitar y deshabilitar asignaciones, vea [administración de asignaciones de usuario](../core/managing-user-mappings.md).

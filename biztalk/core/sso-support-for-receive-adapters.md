@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con SSO para adaptadores de recepción | Documentos de Microsoft
+title: Compatibilidad SSO para adaptadores de recepción | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e3c992f47ad46b4a9d5ee095ad650f6cc492179
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 00948d53ada9dd5eb428b0d1975e16b21b19064d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22276668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008437"
 ---
 # <a name="sso-support-for-receive-adapters"></a>Compatibilidad de SSO para adaptadores de recepción
 El inicio de sesión único (SSO) empresarial proporciona servicios para almacenar y transmitir credenciales de usuario cifradas a través de los límites locales, de red y de dominio. Los escritores del adaptador de transporte pueden aprovechar las API de SSO para controlar las credenciales de usuario que un adaptador de transporte usa para tener acceso a las aplicaciones de servidor.  
@@ -27,11 +27,11 @@ El inicio de sesión único (SSO) empresarial proporciona servicios para almacen
 ## <a name="how-receive-adapters-work-with-sso"></a>Cómo funcionan los adaptadores de recepción con SSO  
  Los adaptadores de recepción compatibles con SSO realizan los pasos siguientes después de recibir un mensaje y antes de publicarlo en BizTalk Server:  
   
-1.  El adaptador suplanta al remitente y obtiene el vale de SSO en nombre del remitente con el **ISSOTicket.IssueTicket** API.  
+1. El adaptador suplanta al remitente y obtiene el vale de SSO en nombre del remitente con el **ISSOTicket.IssueTicket** API.  
   
-2.  Después de obtener correctamente un vale de SSO, el adaptador lo almacena en la propiedad de contexto del mensaje “SSOTicket” en el espacio de nombres del sistema.  
+2. Después de obtener correctamente un vale de SSO, el adaptador lo almacena en la propiedad de contexto del mensaje “SSOTicket” en el espacio de nombres del sistema.  
   
- El fragmento de código siguiente muestra cómo se obtiene el vale y cómo se almacena en el contexto del mensaje.  
+   El fragmento de código siguiente muestra cómo se obtiene el vale y cómo se almacena en el contexto del mensaje.  
   
 ```  
 public class MyAdapter : IBTTransport,   
@@ -91,11 +91,11 @@ public class MyAdapter : IBTTransport,
 ```  
   
 ## <a name="party-resolution"></a>Resolución de entidades  
- La misión del componente de canalización de resolución de entidades consiste en asignar el certificado de remitente o el identificador de seguridad de remitente (SID) a la correspondiente entidad de BizTalk Server configurada. Adaptadores que tienen esta información a su disposición deben establecer el mensaje del dos sistema propiedades de contexto, **WindowsUser** y **SignatureCertificate**, que será consumido por la resolución de entidades de nivel inferior componente si ha configurado.  
+ La misión del componente de canalización de resolución de entidades consiste en asignar el certificado de remitente o el identificador de seguridad de remitente (SID) a la correspondiente entidad de BizTalk Server configurada. Los adaptadores que tienen esta información a su disposición deben establecer el mensaje del sistema de dos propiedades de contexto, **WindowsUser** y **SignatureCertificate**, que será consumido por la resolución de entidades de nivel inferior componente si ha configurado.  
   
  El **WindowsUser** propiedad se rellena con el usuario de dominio del remitente, por ejemplo redmond\myBtsUser. El **SignatureCertificate** propiedad se rellena con la huella digital del certificado de autenticación del cliente.  
   
 ## <a name="managing-passwords"></a>Administrar contraseñas  
  Si coloca las credenciales directamente en las propiedades de un extremo, el campo de contraseña estará en blanco cuando necesite exportar un archivo de enlace. Por ello, el usuario deberá volver a escribir la contraseña como administrador. Para evitar este contratiempo, use SSO para las credenciales.  
   
- Si el extremo del adaptador tiene un **contraseña** propiedad, tenga en cuenta que el valor real se almacena en texto no cifrado en la base de datos de almacén de configuración de SSO. Esto es así a pesar de que en la interfaz de usuario se muestra como "*". Esta propiedad también se transfiere a través de la red y una secuencia de comandos sencilla mediante el ejemplo de BizTalk Server que ExplorerOM podrá leer.
+ Si el extremo del adaptador tiene una **contraseña** propiedad, tenga en cuenta que el valor real se almacena en texto no cifrado en la base de datos Store de la configuración de inicio de sesión único. Esto es así a pesar de que en la interfaz de usuario se muestra como "*". Esta propiedad también se transfiere a través de la red y una secuencia de comandos sencilla mediante el ejemplo de BizTalk Server que ExplorerOM podrá leer.

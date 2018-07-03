@@ -1,5 +1,5 @@
 ---
-title: Campo de compresión ASN.1 ZLib no válido detectado durante el proceso de descompresión | Documentos de Microsoft
+title: Campo de compresión ASN.1 ZLib no válido detectado durante el procesamiento de descompresión | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a347f63325e1c93497d178ffcc486ff8bd1c4f6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d1ee1388304eb9923dcd2c6fef1468794f7c622a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241868"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012853"
 ---
-# <a name="invalid-asn1-zlib-compression-field-encountered-during-decompression-processing"></a>Campo de compresión ASN.1 ZLib no válido detectado durante el proceso de descompresión
+# <a name="invalid-asn1-zlib-compression-field-encountered-during-decompression-processing"></a>Campo de compresión ASN.1 ZLib no válido detectado durante el procesamiento de descompresión
 ## <a name="details"></a>Detalles  
   
-|||  
-|-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|InvalidOptionalZLibFieldEncountered|  
-|Texto del mensaje|Campo de compresión ASN.1 ZLib no válido detectado durante el proceso de descompresión|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Nombre del producto   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Versión del producto |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Identificador del evento     |                                           -                                            |
+|  Origen del evento   | EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+|    Componente    |                                       Motor AS2                                       |
+|  Nombre simbólico  |                          InvalidOptionalZLibFieldEncountered                           |
+|  Texto del mensaje   |    Campo de compresión ASN.1 ZLib no válido detectado durante el procesamiento de descompresión    |
   
 ## <a name="explanation"></a>Explicación  
  Este error hace referencia a la estructura ASN.1 de los datos comprimidos. El error indica al remitente de los datos comprimidos que ha estructurado incorrectamente los datos comprimidos o que se ha producido una manipulación (cambio sin autorización) del mensaje.  
