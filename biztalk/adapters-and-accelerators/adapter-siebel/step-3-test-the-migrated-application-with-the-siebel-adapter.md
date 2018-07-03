@@ -1,5 +1,5 @@
 ---
-title: 'Paso 3: Probar la aplicación con el adaptador de Siebel migrar | Documentos de Microsoft'
+title: 'Paso 3: Probar la aplicación migrado con el adaptador de Siebel | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,58 +12,58 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d72799af5221319db2f5f3243e09d984e13399c7
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c1669ed459dffbd8746936ffa1ba8c23677173e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25963106"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989589"
 ---
-# <a name="step-3-test-the-migrated-application-with-the-siebel-adapter"></a><span data-ttu-id="0327a-102">Paso 3: Probar la aplicación migran con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="0327a-102">Step 3: Test the Migrated Application with the Siebel adapter</span></span>
-<span data-ttu-id="0327a-103">![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="0327a-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
+# <a name="step-3-test-the-migrated-application-with-the-siebel-adapter"></a><span data-ttu-id="24618-102">Paso 3: Probar la aplicación migrado con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="24618-102">Step 3: Test the Migrated Application with the Siebel adapter</span></span>
+<span data-ttu-id="24618-103">![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="24618-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
- <span data-ttu-id="0327a-104">**Tiempo en completarse:** 5 minutos</span><span class="sxs-lookup"><span data-stu-id="0327a-104">**Time to complete:** 5 minutes</span></span>  
+ <span data-ttu-id="24618-104">**Tiempo en completarse:** 5 minutos</span><span class="sxs-lookup"><span data-stu-id="24618-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="0327a-105">**Objetivo:** en este paso, probará la aplicación migrada realizando una operación de inserción en el componente de negocio de la cuenta.</span><span class="sxs-lookup"><span data-stu-id="0327a-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the Account business component.</span></span> <span data-ttu-id="0327a-106">Para ello, se coloca un mensaje de solicitud que se ajusta al esquema generado con el adaptador de Siebel vPrev.</span><span class="sxs-lookup"><span data-stu-id="0327a-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Siebel adapter.</span></span>  
+ <span data-ttu-id="24618-105">**Objetivo:** en este paso, probará la aplicación migrada mediante la realización de una operación de inserción en el componente de negocio de la cuenta.</span><span class="sxs-lookup"><span data-stu-id="24618-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the Account business component.</span></span> <span data-ttu-id="24618-106">Para ello, coloque un mensaje de solicitud que se ajusta al esquema generado con el adaptador de Siebel vPrev.</span><span class="sxs-lookup"><span data-stu-id="24618-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Siebel adapter.</span></span>  
   
-## <a name="prerequisites"></a><span data-ttu-id="0327a-107">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="0327a-107">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="24618-107">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="24618-107">Prerequisites</span></span>  
   
--   <span data-ttu-id="0327a-108">Configurar la aplicación de BizTalk mediante la asignación de los puertos lógicos de la orquestación de BizTalk a puertos físicos en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="0327a-108">Configure the BizTalk application by mapping the logical ports in the BizTalk orchestration to physical ports in the BizTalk Server Administration console.</span></span>  
+- <span data-ttu-id="24618-108">Configurar la aplicación de BizTalk mediante la asignación de los puertos lógicos de la orquestación de BizTalk a puertos físicos en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="24618-108">Configure the BizTalk application by mapping the logical ports in the BizTalk orchestration to physical ports in the BizTalk Server Administration console.</span></span>  
   
--   <span data-ttu-id="0327a-109">Configurar la aplicación de BizTalk para utilizar el puerto de envío WCF-Custom para basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="0327a-109">Configure the BizTalk application to use the WCF-Custom send port for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span>  
+- <span data-ttu-id="24618-109">Configurar la aplicación de BizTalk para utilizar el puerto de envío WCF-Custom basado en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="24618-109">Configure the BizTalk application to use the WCF-Custom send port for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span>  
   
-### <a name="to-test-the-migrated-application"></a><span data-ttu-id="0327a-110">Para probar la aplicación migrada</span><span class="sxs-lookup"><span data-stu-id="0327a-110">To test the migrated application</span></span>  
+### <a name="to-test-the-migrated-application"></a><span data-ttu-id="24618-110">Para probar la aplicación migrada</span><span class="sxs-lookup"><span data-stu-id="24618-110">To test the migrated application</span></span>  
   
-1.  <span data-ttu-id="0327a-111">En la carpeta Siebel_BussComp_Migration, copie el mensaje de solicitud de AccountInsert.xml.</span><span class="sxs-lookup"><span data-stu-id="0327a-111">From the Siebel_BussComp_Migration folder, copy the AccountInsert.xml request message.</span></span> <span data-ttu-id="0327a-112">Este mensaje de solicitud cumple el esquema generado por el adaptador de Siebel vPrev.</span><span class="sxs-lookup"><span data-stu-id="0327a-112">This request message conforms to the schema generated by the vPrev Siebel adapter.</span></span> <span data-ttu-id="0327a-113">Mediante la asignación de salida, WCF-Custom enviarla convierte de puerto para que se ajuste al esquema de basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] y lo envía al sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="0327a-113">Using the outbound map, the WCF-Custom send port converts this to conform to the schema for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and sends it to the Siebel system.</span></span>  
+1. <span data-ttu-id="24618-111">En la carpeta Siebel_BussComp_Migration, copie el mensaje de solicitud AccountInsert.xml.</span><span class="sxs-lookup"><span data-stu-id="24618-111">From the Siebel_BussComp_Migration folder, copy the AccountInsert.xml request message.</span></span> <span data-ttu-id="24618-112">Este mensaje de solicitud cumple el esquema generado por el adaptador de Siebel vPrev.</span><span class="sxs-lookup"><span data-stu-id="24618-112">This request message conforms to the schema generated by the vPrev Siebel adapter.</span></span> <span data-ttu-id="24618-113">Mediante la asignación de salida, el WCF-Custom enviar puerto convierte esto para ajustarse al esquema basado en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] y lo envía al sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="24618-113">Using the outbound map, the WCF-Custom send port converts this to conform to the schema for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and sends it to the Siebel system.</span></span>  
   
-    ```  
-    <Insert xmlns="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]">  
-      <AccountInsertRecordSet>  
-        <AccountInsertRecord xmlns="http://schemas.microsoft.com/Business_Objects">  
-          <Currency_Code>USD</Currency_Code>  
-          <Customer_Account_Group>Sold-To-Party</Customer_Account_Group>  
-          <Location>Location_1</Location>  
-          <Main_Phone_Number>012345678</Main_Phone_Number>  
-          <Name>John_Smith</Name>  
-          <Party_Name>Party_Name_1</Party_Name>  
-          <Primary_Address_Id></Primary_Address_Id>  
-        </AccountInsertRecord>  
-      </AccountInsertRecordSet>  
-    </Insert>  
-    ```  
+   ```  
+   <Insert xmlns="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]">  
+     <AccountInsertRecordSet>  
+       <AccountInsertRecord xmlns="http://schemas.microsoft.com/Business_Objects">  
+         <Currency_Code>USD</Currency_Code>  
+         <Customer_Account_Group>Sold-To-Party</Customer_Account_Group>  
+         <Location>Location_1</Location>  
+         <Main_Phone_Number>012345678</Main_Phone_Number>  
+         <Name>John_Smith</Name>  
+         <Party_Name>Party_Name_1</Party_Name>  
+         <Primary_Address_Id></Primary_Address_Id>  
+       </AccountInsertRecord>  
+     </AccountInsertRecordSet>  
+   </Insert>  
+   ```  
   
-2.  <span data-ttu-id="0327a-114">Pegar el mensaje de solicitud a la carpeta que se asigna al archivo de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="0327a-114">Paste the request message to the folder mapped to the file receive location.</span></span>  
+2. <span data-ttu-id="24618-114">Pegar el mensaje de solicitud a la carpeta que se asigna al archivo de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="24618-114">Paste the request message to the folder mapped to the file receive location.</span></span>  
   
-3.  <span data-ttu-id="0327a-115">La orquestación consume el mensaje de solicitud y lo envía al sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="0327a-115">The orchestration consumes the request message and sends it to the Siebel system.</span></span> <span data-ttu-id="0327a-116">Se recibe la respuesta en el sistema Siebel en el esquema que se ajusta con el esquema de basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="0327a-116">The response from the Siebel system is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span> <span data-ttu-id="0327a-117">Mediante la asignación de entrada, WCF-Custom enviarla puerto convierte el esquema para el adaptador de Siebel vPrev.</span><span class="sxs-lookup"><span data-stu-id="0327a-117">Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Siebel adapter.</span></span> <span data-ttu-id="0327a-118">La respuesta en el sistema Siebel se guarda en la otra ubicación de archivo definida como parte de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="0327a-118">The response from the Siebel system is saved to the other file location defined as part of the orchestration.</span></span> <span data-ttu-id="0327a-119">La respuesta para el mensaje de solicitud anterior es:</span><span class="sxs-lookup"><span data-stu-id="0327a-119">The response for the preceding request message is:</span></span>  
+3. <span data-ttu-id="24618-115">La orquestación consume el mensaje de solicitud y lo envía al sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="24618-115">The orchestration consumes the request message and sends it to the Siebel system.</span></span> <span data-ttu-id="24618-116">Se recibe la respuesta en el sistema Siebel en el esquema que se ajusta con el esquema de basada en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="24618-116">The response from the Siebel system is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span> <span data-ttu-id="24618-117">Mediante la asignación de entrada, el WCF-Custom enviar puerto convierte esto al esquema para el adaptador de Siebel vPrev.</span><span class="sxs-lookup"><span data-stu-id="24618-117">Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Siebel adapter.</span></span> <span data-ttu-id="24618-118">La respuesta en el sistema Siebel se guarda en la otra ubicación de archivo definida como parte de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="24618-118">The response from the Siebel system is saved to the other file location defined as part of the orchestration.</span></span> <span data-ttu-id="24618-119">La respuesta para el mensaje de solicitud anterior es:</span><span class="sxs-lookup"><span data-stu-id="24618-119">The response for the preceding request message is:</span></span>  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8"?>  
-    <ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]" xmlns:exposed="http://schemas.microsoft.com" xmlns:Business_Objects="http://schemas.microsoft.com/Business_Objects">  
-      <ns0:RowIDList>  
-        <exposed:String>1-8EWWZ</exposed:String>  
-      </ns0:RowIDList>  
-    </ns0:InsertResponse>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="utf-8"?>  
+   <ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]" xmlns:exposed="http://schemas.microsoft.com" xmlns:Business_Objects="http://schemas.microsoft.com/Business_Objects">  
+     <ns0:RowIDList>  
+       <exposed:String>1-8EWWZ</exposed:String>  
+     </ns0:RowIDList>  
+   </ns0:InsertResponse>  
+   ```  
   
-## <a name="see-also"></a><span data-ttu-id="0327a-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="0327a-120">See Also</span></span>  
- [<span data-ttu-id="0327a-121">Tutorial 2: Migración de proyectos de BizTalk de Siebel</span><span class="sxs-lookup"><span data-stu-id="0327a-121">Tutorial 2: Migrating BizTalk Projects in Siebel</span></span>](../../adapters-and-accelerators/adapter-siebel/tutorial-2-migrating-biztalk-projects-in-siebel.md)
+## <a name="see-also"></a><span data-ttu-id="24618-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="24618-120">See Also</span></span>  
+ [<span data-ttu-id="24618-121">Tutorial 2: Migración de proyectos de BizTalk de Siebel</span><span class="sxs-lookup"><span data-stu-id="24618-121">Tutorial 2: Migrating BizTalk Projects in Siebel</span></span>](../../adapters-and-accelerators/adapter-siebel/tutorial-2-migrating-biztalk-projects-in-siebel.md)

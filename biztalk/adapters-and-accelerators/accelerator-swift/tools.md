@@ -1,5 +1,5 @@
 ---
-title: Herramientas | Documentos de Microsoft
+title: Herramientas | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,20 +14,20 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34ac99b3342a22a8708a9673f5091baed0cd4a0b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1916b5b182fdd11718254c738c8df83a6ca6e6c7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22213916"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985069"
 ---
-# <a name="tools"></a><span data-ttu-id="4a3f1-102">Herramientas</span><span class="sxs-lookup"><span data-stu-id="4a3f1-102">Tools</span></span>
-<span data-ttu-id="4a3f1-103">Esta sección proporciona instrucciones para usar utilidades incluidas en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK).</span><span class="sxs-lookup"><span data-stu-id="4a3f1-103">This section provides instructions for using utilities included in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Software Development Kit (SDK).</span></span>  
+# <a name="tools"></a><span data-ttu-id="2538a-102">Herramientas</span><span class="sxs-lookup"><span data-stu-id="2538a-102">Tools</span></span>
+<span data-ttu-id="2538a-103">Esta sección proporciona instrucciones para usar las utilidades incluidas en Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK).</span><span class="sxs-lookup"><span data-stu-id="2538a-103">This section provides instructions for using utilities included in the Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Software Development Kit (SDK).</span></span>  
   
- <span data-ttu-id="4a3f1-104">Esta sección contiene:</span><span class="sxs-lookup"><span data-stu-id="4a3f1-104">This section contains:</span></span>  
+ <span data-ttu-id="2538a-104">Esta sección contiene:</span><span class="sxs-lookup"><span data-stu-id="2538a-104">This section contains:</span></span>  
   
--   [<span data-ttu-id="4a3f1-105">Utilidad de implementación de BRE</span><span class="sxs-lookup"><span data-stu-id="4a3f1-105">BRE Deployment Utility</span></span>](../../adapters-and-accelerators/accelerator-swift/bre-deployment-utility.md)  
+-   [<span data-ttu-id="2538a-105">Utilidad de implementación de BRE</span><span class="sxs-lookup"><span data-stu-id="2538a-105">BRE Deployment Utility</span></span>](../../adapters-and-accelerators/accelerator-swift/bre-deployment-utility.md)  
   
--   [<span data-ttu-id="4a3f1-106">Clase de ejemplo de error extractor de tablas</span><span class="sxs-lookup"><span data-stu-id="4a3f1-106">Error Extractor Sample Class</span></span>](../../adapters-and-accelerators/accelerator-swift/error-extractor-sample-class.md)  
+-   [<span data-ttu-id="2538a-106">Clase de ejemplo de extractor de errores</span><span class="sxs-lookup"><span data-stu-id="2538a-106">Error Extractor Sample Class</span></span>](../../adapters-and-accelerators/accelerator-swift/error-extractor-sample-class.md)  
   
--   [<span data-ttu-id="4a3f1-107">Herramienta de limpieza de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="4a3f1-107">A4SWIFT Cleanup Tool</span></span>](../../adapters-and-accelerators/accelerator-swift/a4swift-cleanup-tool.md)
+-   [<span data-ttu-id="2538a-107">Herramienta de limpieza de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="2538a-107">A4SWIFT Cleanup Tool</span></span>](../../adapters-and-accelerators/accelerator-swift/a4swift-cleanup-tool.md)
