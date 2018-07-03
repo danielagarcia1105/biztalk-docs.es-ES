@@ -1,5 +1,5 @@
 ---
-title: Cómo editar propiedades de vínculo | Documentos de Microsoft
+title: Cómo editar las propiedades de vínculo | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d5ba72178bf48d22bb0f2583d022a6befb0df1e1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7633d02c61fa113267d68a2a76b91d1389bd699e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22253780"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014197"
 ---
-# <a name="how-to-edit-link-properties"></a><span data-ttu-id="1ff60-102">Cómo editar propiedades de vínculo</span><span class="sxs-lookup"><span data-stu-id="1ff60-102">How to Edit Link Properties</span></span>
-<span data-ttu-id="1ff60-103">Los vínculos tienen varias propiedades que aparecen en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] **propiedades** ventana, como los siguientes:</span><span class="sxs-lookup"><span data-stu-id="1ff60-103">Links have several properties that appear in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]**Properties** window, such as the following:</span></span>  
+# <a name="how-to-edit-link-properties"></a><span data-ttu-id="8b815-102">Cómo editar propiedades de vínculo</span><span class="sxs-lookup"><span data-stu-id="8b815-102">How to Edit Link Properties</span></span>
+<span data-ttu-id="8b815-103">Los vínculos tienen varias propiedades que aparecen en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] **propiedades** ventana, como la siguiente:</span><span class="sxs-lookup"><span data-stu-id="8b815-103">Links have several properties that appear in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]**Properties** window, such as the following:</span></span>  
   
--   <span data-ttu-id="1ff60-104">**Etiqueta** propiedad proporciona una breve descripción del vínculo y es especialmente útil en bucles controlados por la tabla.</span><span class="sxs-lookup"><span data-stu-id="1ff60-104">**Label** property provides a short description of the link and is especially helpful in table-driven looping.</span></span> <span data-ttu-id="1ff60-105">Para obtener información sobre la **etiqueta** propiedad, vea [cómo administrar vínculos existentes](../core/how-to-manage-existing-links.md).</span><span class="sxs-lookup"><span data-stu-id="1ff60-105">For information about the **Label** property, see [How to Manage Existing Links](../core/how-to-manage-existing-links.md).</span></span>  
+- <span data-ttu-id="8b815-104">**Etiqueta** propiedad proporciona una breve descripción del vínculo y es especialmente útil en bucles controlados por tablas.</span><span class="sxs-lookup"><span data-stu-id="8b815-104">**Label** property provides a short description of the link and is especially helpful in table-driven looping.</span></span> <span data-ttu-id="8b815-105">Para obtener información sobre la **etiqueta** propiedad, vea [cómo administrar vínculos existentes](../core/how-to-manage-existing-links.md).</span><span class="sxs-lookup"><span data-stu-id="8b815-105">For information about the **Label** property, see [How to Manage Existing Links](../core/how-to-manage-existing-links.md).</span></span>  
   
--   <span data-ttu-id="1ff60-106">**Vínculos de origen** propiedad determina si el vínculo representa el valor de texto de un elemento o el nombre del elemento.</span><span class="sxs-lookup"><span data-stu-id="1ff60-106">**Source Links** property determines whether the link represents the text value of an element or the name of the element.</span></span>  
+- <span data-ttu-id="8b815-106">**Vínculos de origen** propiedad determina si el vínculo representa el valor de texto de un elemento o el nombre del elemento.</span><span class="sxs-lookup"><span data-stu-id="8b815-106">**Source Links** property determines whether the link represents the text value of an element or the name of the element.</span></span>  
   
--   <span data-ttu-id="1ff60-107">**Vínculos de destino** propiedad le permite controlar el orden en el que se procesan los vínculos del mapa.</span><span class="sxs-lookup"><span data-stu-id="1ff60-107">**Target Links** property enables you to control the order in which links are processed in the map.</span></span>  
+- <span data-ttu-id="8b815-107">**Vínculos de destino** propiedad le permite controlar el orden en que se procesan los vínculos en el mapa.</span><span class="sxs-lookup"><span data-stu-id="8b815-107">**Target Links** property enables you to control the order in which links are processed in the map.</span></span>  
   
- <span data-ttu-id="1ff60-108">![captura de pantalla sin llamadas](../core/media/properties-grid.gif "Properties_Grid")</span><span class="sxs-lookup"><span data-stu-id="1ff60-108">![screenshot without callouts](../core/media/properties-grid.gif "Properties_Grid")</span></span>  
+  <span data-ttu-id="8b815-108">![captura de pantalla sin llamadas](../core/media/properties-grid.gif "Properties_Grid")</span><span class="sxs-lookup"><span data-stu-id="8b815-108">![screenshot without callouts](../core/media/properties-grid.gif "Properties_Grid")</span></span>  
   
- <span data-ttu-id="1ff60-109">Para obtener información general acerca de los esquemas de origen y de destino, vea [vínculos y directivas de compilador](../core/compiler-directives-and-links.md).</span><span class="sxs-lookup"><span data-stu-id="1ff60-109">For general information about source and target schemas, see [Compiler Directives and Links](../core/compiler-directives-and-links.md).</span></span> <span data-ttu-id="1ff60-110">Para obtener información sobre cómo configurar y usar el **vínculos de origen** y **vínculos de destino** propiedades, consulte [cómo configurar la coincidencia de jerarquía de nodos](../core/how-to-configure-node-hierarchy-matching.md) y [cómo Establezca el valor de compilador de vínculos de origen](../core/how-to-set-the-source-links-compiler-value.md).</span><span class="sxs-lookup"><span data-stu-id="1ff60-110">For information about setting and using the **Source Links** and **Target Links** properties, see [How to Configure Node Hierarchy Matching](../core/how-to-configure-node-hierarchy-matching.md) and [How to Set the Source Links Compiler Value](../core/how-to-set-the-source-links-compiler-value.md).</span></span>  
+  <span data-ttu-id="8b815-109">Para obtener información general acerca de los esquemas de origen y destino, consulte [directivas de compilador y los vínculos](../core/compiler-directives-and-links.md).</span><span class="sxs-lookup"><span data-stu-id="8b815-109">For general information about source and target schemas, see [Compiler Directives and Links](../core/compiler-directives-and-links.md).</span></span> <span data-ttu-id="8b815-110">Para obtener información sobre cómo configurar y usar el **vínculos de origen** y **vínculos de destino** propiedades, consulte [cómo configurar la coincidencia de jerarquía de nodos](../core/how-to-configure-node-hierarchy-matching.md) y [cómo Establecer el valor del compilador de vínculos de origen](../core/how-to-set-the-source-links-compiler-value.md).</span><span class="sxs-lookup"><span data-stu-id="8b815-110">For information about setting and using the **Source Links** and **Target Links** properties, see [How to Configure Node Hierarchy Matching](../core/how-to-configure-node-hierarchy-matching.md) and [How to Set the Source Links Compiler Value](../core/how-to-set-the-source-links-compiler-value.md).</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="1ff60-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="1ff60-111">See Also</span></span>  
- [<span data-ttu-id="1ff60-112">Utilizar vínculos para especificar el registro y las asignaciones de campos</span><span class="sxs-lookup"><span data-stu-id="1ff60-112">Using Links to Specify Record and Field Mappings</span></span>](../core/using-links-to-specify-record-and-field-mappings.md)
+## <a name="see-also"></a><span data-ttu-id="8b815-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="8b815-111">See Also</span></span>  
+ [<span data-ttu-id="8b815-112">Uso de vínculos para especificar asignaciones de registros y campos</span><span class="sxs-lookup"><span data-stu-id="8b815-112">Using Links to Specify Record and Field Mappings</span></span>](../core/using-links-to-specify-record-and-field-mappings.md)
