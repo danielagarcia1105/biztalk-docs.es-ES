@@ -17,12 +17,12 @@ ms.devlang: na
 ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
-ms.openlocfilehash: 536e497cdb1cde65259254db0bcfd10804e90ffa
-ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
+ms.openlocfilehash: fb8b62c272da41d1056bee10095715dc33770e67
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31816952"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993421"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -681,7 +681,7 @@ ms.locfileid: "31816952"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>What's New</h3>
+                                                    <h3>Novedades</h3>
                                                     <p>Vea las novedades en la versión más reciente de HIS</p>
                                                 </div>
                                             </div>
