@@ -2,7 +2,7 @@
 title: Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn | Microsoft Docs
 description: Grupo de la base de datos de BizTalk Server en nodos diferentes para obtener una solución de alta disponibilidad (HA) mediante SQL Server siempre en disponibles grupos (AG), incluidos los requisitos del sistema y las limitaciones. Siempre en AG requiere clústeres de conmutación por error de servidor de Windows (WSFC).
 ms.custom: ''
-ms.date: 06/27/2018
+ms.date: 07/8/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24a72698a97aa79ccd1b748a390f8e919ff0717f
-ms.sourcegitcommit: 6379723045cf05ed36f2bc500f6b41be1135f47c
+ms.openlocfilehash: d163c035cdf45ede600509783040114a0eaa0a2b
+ms.sourcegitcommit: 1f0306e812c95dc32c4496345c19f141612cb2c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37069401"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37913861"
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups---biztalk-server"></a>Alta disponibilidad mediante SQL Server en grupos de disponibilidad Always - servidor BizTalk Server
 Configurar la alta disponibilidad mediante grupos de disponibilidad AlwaysOn de SQL Server.
@@ -84,7 +84,8 @@ Esta configuración es se muestra a continuación y se recomienda para bases de 
 Junto con las bases de datos de SQL Server, configuración de BizTalk Server también crea los inicios de sesión de seguridad de SQL Server y trabajos del Agente SQL. Grupos de disponibilidad AlwaysOn solo proporcionan la capacidad para administrar las bases de datos dentro de un grupo de disponibilidad. Inicios de sesión y trabajos del Agente SQL de BizTalk deben crearse y actualizado o administrarse manualmente en todas las réplicas de disponibilidad.  
 
 > [!NOTE]
-> SQL Server 2016 Service Pack 2 es compatible con las transacciones de DTC entre varias bases de datos dentro del mismo grupo de disponibilidad. BizTalk Server es compatible con esta funcionalidad a partir de CU5.
+> SQL Server 2016 Service Pack 2 y posterior admite transacciones de DTC entre varias bases de datos dentro del mismo grupo de disponibilidad. BizTalk Server es compatible con esta funcionalidad a partir de CU5.
+> Al configurar BizTalk Server 2016 con Service Pack 2 de SQL Server 2016 y versiones más recientes, todas las bases de datos de BizTalk Server pueden implementarse en un único grupo de disponibilidad.
 
 La siguiente lista de inicios de sesión de seguridad de SQL Server están asociados con BizTalk Server. Puede tener inicios de sesión adicionales creados para las aplicaciones de BizTalk Server. Si es así, debe replicarlos en cada instancia de SQL Server que hospeda una réplica de bases de datos de BizTalk. 
 
