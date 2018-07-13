@@ -1,1 +1,1 @@
-Servicios de BizTalk de Microsoft Azure
+Microsoft Azure BizTalk Services
