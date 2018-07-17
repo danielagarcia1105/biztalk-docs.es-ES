@@ -1,1 +1,1 @@
-en la orientación de la interfaz de usuario y la referencia del programador
+en las instrucciones de la interfaz de usuario y la referencia del programador
