@@ -1,1 +1,1 @@
-<span data-ttu-id="b2bb6-101">en la orientación de la interfaz de usuario y la referencia del programador</span><span class="sxs-lookup"><span data-stu-id="b2bb6-101">in the UI guidance and Developers reference</span></span>
+<span data-ttu-id="d7293-101">en las instrucciones de la interfaz de usuario y la referencia del programador</span><span class="sxs-lookup"><span data-stu-id="d7293-101">in the UI guidance and Developers reference</span></span>

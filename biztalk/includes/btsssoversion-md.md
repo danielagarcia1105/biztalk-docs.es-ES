@@ -1,1 +1,1 @@
-<span data-ttu-id="3c46e-101">6.0</span><span class="sxs-lookup"><span data-stu-id="3c46e-101">6.0</span></span>
+<span data-ttu-id="3488e-101">6.0</span><span class="sxs-lookup"><span data-stu-id="3488e-101">6.0</span></span>

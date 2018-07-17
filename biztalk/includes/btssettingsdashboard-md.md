@@ -1,1 +1,1 @@
-<span data-ttu-id="bd7a1-101">Panel de configuraciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="bd7a1-101">BizTalk Settings Dashboard</span></span>
+<span data-ttu-id="12c6f-101">Panel de configuraciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="12c6f-101">BizTalk Settings Dashboard</span></span>

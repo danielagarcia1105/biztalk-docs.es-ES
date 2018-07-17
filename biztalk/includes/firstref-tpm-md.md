@@ -1,1 +1,1 @@
-<span data-ttu-id="d7d2f-101">Administración de socios comerciales (TPM)</span><span class="sxs-lookup"><span data-stu-id="d7d2f-101">Trading Partner Management (TPM)</span></span>
+<span data-ttu-id="5cb38-101">Administración de socios comerciales (TPM)</span><span class="sxs-lookup"><span data-stu-id="5cb38-101">Trading Partner Management (TPM)</span></span>

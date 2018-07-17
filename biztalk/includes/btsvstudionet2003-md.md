@@ -1,1 +1,1 @@
-<span data-ttu-id="345f2-101">Visual Studio .NET 2003</span><span class="sxs-lookup"><span data-stu-id="345f2-101">Visual Studio .NET 2003</span></span>
+<span data-ttu-id="39d21-101">Visual Studio .NET 2003</span><span class="sxs-lookup"><span data-stu-id="39d21-101">Visual Studio .NET 2003</span></span>

@@ -1,1 +1,1 @@
-<span data-ttu-id="817cf-101">Asistente para el desarrollo de servicios de adaptadores LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="817cf-101">WCF LOB Adapter Service Development Wizard</span></span>
+<span data-ttu-id="e89f6-101">Asistente para el desarrollo de servicios de adaptadores LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="e89f6-101">WCF LOB Adapter Service Development Wizard</span></span>

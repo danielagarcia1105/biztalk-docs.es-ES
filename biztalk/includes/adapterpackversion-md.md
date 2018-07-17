@@ -1,1 +1,1 @@
-<span data-ttu-id="d96f2-101">Versión de paquete del adaptador de BizTalk</span><span class="sxs-lookup"><span data-stu-id="d96f2-101">BizTalk Adapter Pack version</span></span>
+<span data-ttu-id="4779b-101">Versión de paquete del adaptador de BizTalk</span><span class="sxs-lookup"><span data-stu-id="4779b-101">BizTalk Adapter Pack version</span></span>

@@ -1,1 +1,1 @@
-<span data-ttu-id="5a522-101">Office</span><span class="sxs-lookup"><span data-stu-id="5a522-101">Office</span></span>
+<span data-ttu-id="0867d-101">Office</span><span class="sxs-lookup"><span data-stu-id="0867d-101">Office</span></span>

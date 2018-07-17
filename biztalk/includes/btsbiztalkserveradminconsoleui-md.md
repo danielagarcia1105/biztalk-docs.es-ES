@@ -1,1 +1,1 @@
-<span data-ttu-id="155c3-101">Administración de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="155c3-101">BizTalk Server Administration</span></span>
+<span data-ttu-id="79651-101">Administración de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="79651-101">BizTalk Server Administration</span></span>

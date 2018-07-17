@@ -1,1 +1,1 @@
-<span data-ttu-id="a9363-101">WCF LOB Adapter Development Wizard</span><span class="sxs-lookup"><span data-stu-id="a9363-101">WCF LOB Adapter Development Wizard</span></span>
+<span data-ttu-id="dde99-101">WCF LOB Adapter Development Wizard</span><span class="sxs-lookup"><span data-stu-id="dde99-101">WCF LOB Adapter Development Wizard</span></span>

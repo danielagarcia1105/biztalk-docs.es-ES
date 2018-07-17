@@ -1,1 +1,1 @@
-<span data-ttu-id="02adb-101">Exchange 2000 Server SP2</span><span class="sxs-lookup"><span data-stu-id="02adb-101">Exchange Server</span></span>
+<span data-ttu-id="ee34d-101">Exchange 2000 Server SP2</span><span class="sxs-lookup"><span data-stu-id="ee34d-101">Exchange Server</span></span>
