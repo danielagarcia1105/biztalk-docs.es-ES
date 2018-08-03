@@ -31,7 +31,7 @@ Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includ
   
 2.  En el símbolo del sistema, escriba:  
   
-     **NSControl register - name BamAlerts-server***\<ServerName\>***-service - serviceusername "**  *\< ServiceUserName\>*  **"- servicepassword"**  *\<ServicePassword\>*  **"**   
+     **NSControl register - name BamAlerts-server***\<ServerName\>***-service - serviceusername "** *\< ServiceUserName\>* **"- servicepassword"** *\<ServicePassword\>* **"**   
   
      Esto habilita los servicios de notificación iniciar sesión en la base de datos correcta (esta información se mantiene en el registro del equipo del servicio NSControl).  
   
