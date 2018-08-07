@@ -105,7 +105,7 @@ Los grupos y cuentas usados por BizTalk Server tienen los derechos de usuario m�
 |4|-Derechos de usuario concedidos al nivel 3<br />-función de SQL Server sysadmin en todos los servidores SQL Server que tienen bases de datos de BizTalk MessageBox|-Crear bases de datos de cuadro de mensajes|  
   
 ##  <a name="BKMK_Community"></a> Adición de la Comunidad: lista de tareas  
- [Derechos de seguridad mínimos para BizTalk Server 2013 R2](http://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2013-r2.aspx) ()http://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2013-r2.aspx)  
+ [Derechos de seguridad mínimos para BizTalk Server 2013 R2](http://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2013-r2.aspx) (http://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2013-r2.aspx)  
   
 ## <a name="see-also"></a>Vea también  
  [Control de acceso y seguridad de los datos](../core/access-control-and-data-security.md)   

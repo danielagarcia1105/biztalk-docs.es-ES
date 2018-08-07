@@ -101,7 +101,7 @@ Se crea un archivo de registro de instalación, similar a 'C:\Users\yourUserName
    - Seleccione **aplicar configuración** para crear las aplicaciones que ha seleccionado. Asegúrese de que las aplicaciones se han creado en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="upgrade-esb-toolkit--community-addition"></a>Actualizar el Kit de herramientas ESB: adición de la Comunidad  
- [Actualización de ESB Toolkit 2.1 a 2.2 local](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) ()http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
+ [Actualización de ESB Toolkit 2.1 a 2.2 local](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
 
 ## <a name="see-also"></a>Vea también
 [Solucionar problemas de errores & resoluciones de problemas de instalación y comunes](troubleshooting-the-biztalk-esb-toolkit.md)

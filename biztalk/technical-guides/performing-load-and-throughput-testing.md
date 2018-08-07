@@ -30,7 +30,7 @@ Se debe disponer de un entorno que coincida con su entorno de producción para p
   
 -   [Medir el rendimiento máximo sostenible del motor](http://go.microsoft.com/fwlink/?LinkId=154388) ()http://go.microsoft.com/fwlink/?LinkId=154388)  
   
--   [Medir el rendimiento de seguimiento sostenible máximo](http://go.microsoft.com/fwlink/?LinkID=153815) ()http://go.microsoft.com/fwlink/?LinkID=153815)  
+-   [Medir el rendimiento de seguimiento sostenible máximo](http://go.microsoft.com/fwlink/?LinkID=153815) (http://go.microsoft.com/fwlink/?LinkID=153815)  
   
 ## <a name="see-also"></a>Vea también  
  [Lista de comprobación: probar la preparación operativa](../technical-guides/checklist-testing-operational-readiness.md)
