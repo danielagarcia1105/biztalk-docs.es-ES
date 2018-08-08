@@ -28,7 +28,7 @@ Se debe disponer de un entorno que coincida con su entorno de producción para p
 ## <a name="testing-load-and-determining-recovery-time"></a>Las pruebas de carga y determinar el tiempo de recuperación  
  Debe probar todas las aplicaciones de BizTalk para el rendimiento y esfuerzo antes de ponerlos en producción. Debe realizar las pruebas con respecto al esperado cargas y cargas máximas. Debe determinar el rendimiento sostenible máximo (MST) para la aplicación de BizTalk. Además, debe determinar cuánto tarda el sistema para recuperarse de las cargas máximas. Si el sistema no se recupera totalmente de una carga máxima antes del siguiente pico se produce la carga y después el sistema obtendrá progresivamente más lejos y no podrá recuperar completamente. Para obtener más información, vea:  
   
--   [Medir el rendimiento máximo sostenible del motor](http://go.microsoft.com/fwlink/?LinkId=154388) ()http://go.microsoft.com/fwlink/?LinkId=154388)  
+-   [Medir el rendimiento máximo sostenible del motor](http://go.microsoft.com/fwlink/?LinkId=154388) (http://go.microsoft.com/fwlink/?LinkId=154388)  
   
 -   [Medir el rendimiento de seguimiento sostenible máximo](http://go.microsoft.com/fwlink/?LinkID=153815) (http://go.microsoft.com/fwlink/?LinkID=153815)  
   
