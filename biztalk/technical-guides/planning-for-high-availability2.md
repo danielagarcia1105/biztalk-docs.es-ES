@@ -37,7 +37,7 @@ Alta disponibilidad para el servidor BizTalk Server se centra en la recuperació
   
   Esta sección proporciona información acerca de cómo obtener alta disponibilidad en cada una de estas categorías. Dado que una solución de alta disponibilidad de BizTalk Server se basa en Windows y SQL Server, asegúrese de implementar estos productos con alta disponibilidad antes de configurar hosts de BizTalk Server. Los siguientes vínculos incluyen información sobre cómo proporcionar alta disponibilidad a estos productos subyacentes:  
   
-- **Soluciones de alta disponibilidad (SQL Server)])https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server)**  
+- **Soluciones de alta disponibilidad (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server)**  
   
 - **[Conmutación por error en Windows Server](https://docs.microsoft.com/windows-server/failover-clustering/failover-clustering-overview)**
   
