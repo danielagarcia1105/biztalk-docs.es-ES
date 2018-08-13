@@ -39,7 +39,7 @@ En este tema se describe los procedimientos recomendados que debe considerar el 
   
   **Usar un producto de control de versiones**  
   
-- Debe usar un producto de control de versiones, como Microsoft Visual Studio® Team Foundation Server 2010 para seguimiento y control de versiones de artefactos de BizTalk. Para obtener más información acerca de Microsoft Visual Studio® Team Foundation Server 2010 consulte [Microsoft Visual Studio® Team Foundation Server 2010](http://go.microsoft.com/fwlink/?LinkId=210637) ()http://go.microsoft.com/fwlink/?LinkId=210637)  
+- Debe usar un producto de control de versiones, como Microsoft Visual Studio® Team Foundation Server 2010 para seguimiento y control de versiones de artefactos de BizTalk. Para obtener más información acerca de Microsoft Visual Studio® Team Foundation Server 2010 consulte [Microsoft Visual Studio® Team Foundation Server 2010](http://go.microsoft.com/fwlink/?LinkId=210637) (http://go.microsoft.com/fwlink/?LinkId=210637)  
   
   **Artefactos de factor en varias aplicaciones de BizTalk**  
   

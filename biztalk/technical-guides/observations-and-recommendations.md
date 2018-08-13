@@ -99,11 +99,11 @@ ms.locfileid: "36980077"
 |Establecer la unidad de asignación de archivos NTFS a 64 KB.|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
 |Instalar SQL Server 2008 R2.|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
 |Configurar SQL Server 2008 R2 datos recopilador/almacenamiento.|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
-|Asegúrese de que los privilegios adecuados de Windows se han ampliado a las cuentas de servicio de SQL Server.|SQL Server 2008 R2: [configurar Windows de las cuentas de servicio](http://go.microsoft.com/fwlink/?LinkID=132144) ()http://go.microsoft.com/fwlink/?LinkID=132144)|  
+|Asegúrese de que los privilegios adecuados de Windows se han ampliado a las cuentas de servicio de SQL Server.|SQL Server 2008 R2: [configurar Windows de las cuentas de servicio](http://go.microsoft.com/fwlink/?LinkID=132144) (http://go.microsoft.com/fwlink/?LinkID=132144)|  
 |Establezca la memoria de servidor mínima y máxima para SQL Server.|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
 |Conceda el privilegio de Windows bloquear páginas en memoria a la cuenta que se usa para SQL Server.|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
 |Cambiar tamaño previamente las bases de datos de BizTalk Server para el tamaño adecuado con varios archivos de datos...|[Configuración posterior a la base de datos Optimizations2](../technical-guides/post-configuration-database-optimizations2.md)|  
-|Configurar protocolos de cliente SQL Server.|[Solucionar problemas de SQL Server](http://go.microsoft.com/fwlink/?LinkID=154250) ()http://go.microsoft.com/fwlink/?LinkID=154250)|  
+|Configurar protocolos de cliente SQL Server.|[Solucionar problemas de SQL Server](http://go.microsoft.com/fwlink/?LinkID=154250) (http://go.microsoft.com/fwlink/?LinkID=154250)|  
 |Dividir la base de datos tempdb en varios archivos de datos del mismo tamaño en cada instancia de SQL Server usados por BizTalk Server|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
 |Establecer manualmente la afinidad de proceso de SQL Server|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  
 |Configurar MSDTC y deshabilitar el seguimiento de DTC|[Base de datos de configuración previa Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)|  

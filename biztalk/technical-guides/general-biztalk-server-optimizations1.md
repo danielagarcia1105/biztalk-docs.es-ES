@@ -296,15 +296,15 @@ Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de
 ## <a name="performance-optimizations-in-the-biztalk-server-documentation"></a>Optimizaciones de rendimiento en la documentación de BizTalk Server  
  Se aplican las siguientes recomendaciones de la documentación de BizTalk Server según corresponda:  
   
--   [Solucionar problemas de latencia del cuadro de mensajes](http://go.microsoft.com/fwlink/?LinkId=158019) ()http://go.microsoft.com/fwlink/?LinkId=158019)  
+-   [Solucionar problemas de latencia del cuadro de mensajes](http://go.microsoft.com/fwlink/?LinkId=158019) (http://go.microsoft.com/fwlink/?LinkId=158019)  
   
--   [Identificar cuellos de botella de rendimiento](http://go.microsoft.com/fwlink/?LinkID=154238) ()http://go.microsoft.com/fwlink/?LinkID=154238)  
+-   [Identificar cuellos de botella de rendimiento](http://go.microsoft.com/fwlink/?LinkID=154238) (http://go.microsoft.com/fwlink/?LinkID=154238)  
   
--   [Evitar excepciones DBNETLIB](http://go.microsoft.com/fwlink/?LinkID=155308) ()http://go.microsoft.com/fwlink/?LinkID=155308)  
+-   [Evitar excepciones DBNETLIB](http://go.microsoft.com/fwlink/?LinkID=155308) (http://go.microsoft.com/fwlink/?LinkID=155308)  
   
--   [Evitar el agotamiento de puertos TCP/IP](http://go.microsoft.com/fwlink/?LinkID=153240) ()http://go.microsoft.com/fwlink/?LinkID=153240)  
+-   [Evitar el agotamiento de puertos TCP/IP](http://go.microsoft.com/fwlink/?LinkID=153240) (http://go.microsoft.com/fwlink/?LinkID=153240)  
   
--   [Establecer el tamaño del grupo de subprocesos EPM](http://go.microsoft.com/fwlink/?LinkId=158020) ()http://go.microsoft.com/fwlink/?LinkId=158020)  
+-   [Establecer el tamaño del grupo de subprocesos EPM](http://go.microsoft.com/fwlink/?LinkId=158020) (http://go.microsoft.com/fwlink/?LinkId=158020)  
   
 ## <a name="see-also"></a>Vea también  
  [Optimización del rendimiento de BizTalk Server](../technical-guides/optimizing-biztalk-server-performance.md)
