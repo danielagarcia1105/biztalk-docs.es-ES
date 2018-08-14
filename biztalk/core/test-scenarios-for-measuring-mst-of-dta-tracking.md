@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3855dfe405e85e33e01642dd1ded5336c8efb892
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1386c7113c534c2491bed447fdcc0ba970881bac
+ms.sourcegitcommit: ed9590dbcd97c12a1fe5ce2cdf8d826492cccdff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36994885"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39640152"
 ---
 # <a name="test-scenarios-for-measuring-mst-of-dta-tracking"></a>Escenarios de prueba para medir MST de seguimiento de DTA
 Para mostrar el funcionamiento de todo esto en la práctica y para presentar una técnica sencilla de medir el rendimiento máximo sostenible (MST) para seguimiento, presentamos ahora un escenario de prueba en el que se ha medido el MST de seguimiento. Además de las técnicas proporcionadas, también puede usar los datos presentados como punto de inicio para calcular el rendimiento de seguimiento para otros sistemas.  
@@ -60,7 +60,7 @@ Para mostrar el funcionamiento de todo esto en la práctica y para presentar una
   
 - **Propiedades de mensaje**. El punto de seguimiento asociado con el desensamblador (DA) en la canalización de entrada representa el seguimiento de 10 propiedades del mensaje de entrada. Para obtener más información acerca de cómo promocionar propiedades para el seguimiento, vea [promocionar propiedades](../core/promoting-properties.md).  
   
-- **Cuerpo del mensaje**. En la ilustración, los dos puntos de cuerpo del mensaje (MB) representan los puntos en los que se realiza el seguimiento de los cuerpos de mensaje. Para obtener más información sobre cómo configurar el seguimiento de cuerpos de mensaje, consulte [configuración de seguimiento del uso de la consola de administración de BizTalk Server](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef).  
+- **Cuerpo del mensaje**. En la ilustración, los dos puntos de cuerpo del mensaje (MB) representan los puntos en los que se realiza el seguimiento de los cuerpos de mensaje. Para obtener más información sobre cómo configurar el seguimiento de cuerpos de mensaje, consulte [configuración de seguimiento del uso de la consola de administración de BizTalk Server](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef).  
   
   **Arquitectura del escenario de prueba**  
   

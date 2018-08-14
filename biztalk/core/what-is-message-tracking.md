@@ -23,12 +23,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d76a4bd4133906a7949fac9e63816168506f412
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 944261c6193020c158f707b7f8d39c55ce2d058f
+ms.sourcegitcommit: ed9590dbcd97c12a1fe5ce2cdf8d826492cccdff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974642"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39640128"
 ---
 # <a name="what-is-message-tracking"></a>¿Qué es el seguimiento de mensajes?
 Un mensaje es una instancia electrónica de datos, que se intercambia normalmente entre dos aplicaciones o procesos empresariales que se estén ejecutando. Una instancia de mensaje está compuesta por un cuerpo de mensaje, propiedades de mensaje y metadatos.  
@@ -39,11 +39,11 @@ Un mensaje es una instancia electrónica de datos, que se intercambia normalment
  El seguimiento del cuerpo del mensaje proporciona un registro de mensajes enviados y recibidos. Para guardar los mensajes después de que se haya completado el procesamiento de instancias de servicio, debe tener activado el seguimiento del cuerpo de los mensajes. Después de haber establecido las opciones de seguimiento, puede tardar unos minutos en ver los mensajes.  
   
 > [!IMPORTANT]
->  El servicio Agente SQL Server debe ejecutarse en todas las bases de datos de cuadro de mensajes. El TrackedMessages_Copy_\<Nombrecuadrodemensajes\> trabajo pone a disposición para consultas de seguimiento y WMI cuerpos de mensaje. Para copiar eficazmente los cuerpos de mensaje, permanecen en la base de datos de cuadro de mensajes y se copian periódicamente a la base de datos de seguimiento de BizTalk (BizTalkDTADb) el TrackedMessages_Copy_\<Nombrecuadrodemensajes\> trabajo. Asimismo, la ejecución del servicio Agente SQL Server constituye un requisito previo para que el proceso de archivo y purga funcione correctamente.  
+>  El servicio Agente SQL Server debe ejecutarse en todas las bases de datos de cuadro de mensajes. El TrackedMessages_Copy_\<Nombrecuadrodemensajes\> trabajo hace que los cuerpos de mensaje disponibles para consultas de seguimiento y WMI. Para copiar eficazmente los cuerpos de mensaje, que permanecen en la base de datos de cuadro de mensajes y periódicamente se copian en la base de datos de seguimiento de BizTalk (BizTalkDTADb) mediante el TrackedMessages_Copy_\<Nombrecuadrodemensajes\> trabajo. Asimismo, la ejecución del servicio Agente SQL Server constituye un requisito previo para que el proceso de archivo y purga funcione correctamente.  
   
  Puede utilizar mensajes de los que se ha realizado un seguimiento para proporcionar confirmación de recepción, habilitar la solución de problemas y permitir la extracción de datos de las transacciones históricas. Es posible realizar un seguimiento de los cuerpos de mensaje en las orquestaciones, canalizaciones y puertos de entrada y salida. Puede recuperar estos mensajes mediante la consola de administración de BizTalk Server o mediante las interfaces de programación de aplicaciones (API) de Instrumental de administración de Windows (WMI) o del modelo de objetos (OM) de Operaciones (recomendado).  
   
- BizTalk Server no realiza el seguimiento de mensajes que no utilizan correctamente uno de los puntos de seguimiento. En algunos casos, como cuando un mensaje se ha suspendido porque no es válido, o si no hay ningún host espera el mensaje, pueden colocarse en la cola de suspensión sin sometidos a seguimiento. Si termina este mensaje, no se realizará ningún registro.  
+ BizTalk Server no realiza el seguimiento de mensajes que no utilizan correctamente uno de los puntos de seguimiento. En algunos casos, como cuando se suspende un mensaje porque no es válido, o si no hay ningún host espera el mensaje, puede colocarse en la cola de suspensión sin que se realiza el seguimiento. Si termina este mensaje, no se realizará ningún registro.  
   
 > [!IMPORTANT]
 >  El seguimiento de cuerpos de mensaje no constituye un sustituto de la auditoría legalmente obligatoria y no es compatible con la imposibilidad del rechazo.  
@@ -68,7 +68,7 @@ Un mensaje es una instancia electrónica de datos, que se intercambia normalment
 ## <a name="sensitive-data"></a>Datos confidenciales  
  Puede proteger los datos siguientes si se asegura de que no aparezcan en la ventana de propiedades de esquemas correspondiente, con lo que no serán susceptibles de seguimiento.  
   
--   Aplicar el **isSensitive** atributo a cualquier propiedad confidencial de un esquema de propiedades, por lo que ya no está visible en la propiedad de mensaje selecciones de configuración de seguimiento.  
+-   Aplicar el **isSensitive** atributo para cualquier propiedad confidencial de un esquema de propiedad, por lo que ya no está visible en la propiedad de mensaje de seguimiento de las selecciones de configuración.  
   
 -   Todos los transportes estándar tienen contraseñas confidenciales, por lo que no se puede realizar el seguimiento de estos transportes.  
   
@@ -80,4 +80,4 @@ Un mensaje es una instancia electrónica de datos, que se intercambia normalment
     >  Una propiedad promocionada puede contener datos confidenciales. Si las consultas de seguimiento de la página Concentrador de grupo realizan el seguimiento de una propiedad que incluya datos confidenciales, cualquier usuario con permiso para ejecutar las consultas de seguimiento podrá ver estos datos.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el seguimiento mediante la consola de administración de BizTalk Server](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)
+ [Configurar el seguimiento mediante la consola de administración de BizTalk Server](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef)

@@ -1,5 +1,6 @@
 ---
-title: Asistente para publicar esquemas como un servicio Web de publicación de servicios de uso de la Web de BizTalk | Microsoft Docs
+title: Use el Asistente para publicar los servicios Web para publicar esquemas como un servicio Web | Microsoft Docs
+description: Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar esquemas como un servicio Web
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,19 +16,19 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d7a6f0ed34fe14db9e751d7f29efba443944932a
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: de203b20c2b7c455c5c7479e77582561fb093933
+ms.sourcegitcommit: ed9590dbcd97c12a1fe5ce2cdf8d826492cccdff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36975797"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39640136"
 ---
-# <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-schemas-as-a-web-service"></a>Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar esquemas como un servicio Web
+# <a name="publish-schemas-as-a-web-service-in-biztalk"></a>Publicar esquemas como un servicio Web de BizTalk
 El Asistente para publicar servicios Web de BizTalk permite publicar esquemas como servicio Web.  
   
-### <a name="to-publish-schemas-as-a-web-service"></a>Para publicar esquemas como servicio Web  
+## <a name="publish-schemas-as-a-web-service"></a>Publicar esquemas como un servicio web  
   
-1. Haga clic en **iniciar**, apunte a **todos los programas**, apunte a [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **Asistente para publicación de BizTalk Web Services**.  
+1. En **programas**, seleccione **BizTalk Server**y, a continuación, seleccione **Asistente para publicación de BizTalk Web Services**.  
   
    > [!IMPORTANT]
    >  Antes de ejecutar el Asistente para publicar servicios Web de BizTalk, debe crear los proyectos de BizTalk.  
@@ -60,7 +61,7 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
   
    |Opción|Valor|Descripción|  
    |------------|-----------|-----------------|  
-   |Estilo de parámetro SOAP|Valor predeterminado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
+   |Estilo de parámetro SOAP|Default|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
    |Estilo de parámetro SOAP|Operativo|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
    |Estilo de parámetro SOAP|Ajustado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
    |Afirmaciones de conformidad|None|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [ http://go.microsoft.com/fwlink/?LinkId=193064 ](http://go.microsoft.com/fwlink/?LinkId=193064).|  
@@ -89,7 +90,7 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
    > [!NOTE]
    >  La misma combinación de espacio de nombres de destino/nombre de elemento raíz sólo se puede agregar una vez como un encabezado SOAP de solicitud y una vez como encabezado SOAP de respuesta.  
   
-9. En el **proyecto de servicio Web** página, en el **ubicación del proyecto** texto, escriba la ubicación del proyecto. Puede aceptar la ubicación predeterminada (http://localhost/<*project_name*>), escriba una ubicación para el proyecto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
+9. En el **proyecto de servicio Web** página, en el **ubicación del proyecto** texto, escriba la ubicación del proyecto. Puede aceptar la ubicación predeterminada (`http://localhost/your_project_name`), escriba una ubicación para el proyecto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
   
     -   **Sobrescribir proyecto existente.** Esta opción únicamente está disponible si la ubicación del proyecto ya existe. Podrá publicar en la misma ubicación sólo si selecciona esta opción. De lo contrario, debe especificar una ubicación de proyecto diferente.  
   
@@ -98,10 +99,10 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
     -   **Creación de BizTalk las ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe otra ubicación de recepción, no se sustituirá. Las ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato "/\<*nombre del directorio virtual*\>/\<*namespace_typename_portname de orquestación*  \>.asmx ". Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como **http://&lt*servername*>/<*project_name*>**.  
+        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como **`http://<servername>/<project_name>`**.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: http://localhost:8080/< *project_name*>.  
+        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: `http://localhost:8080/<project_name>`.  
   
         > [!NOTE]
         >  Al usar el asistente para crear ubicaciones de recepción, éstas se crean mediante muchos valores predeterminados. Los valores predeterminados para las canalizaciones de envío y recepción son **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** y **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**. Si los mensajes recibidos a través del servicio Web publicado requieren algún procesamiento de canalización especial (por ejemplo, validación, correlación o asignaciones de entrada/salida), debe establecer el envío y recepción de canalizaciones para  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, **Microsoft.BizTalk.DefaultPipelines.XMLSend**, o en una canalización personalizada.  
