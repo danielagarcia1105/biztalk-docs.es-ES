@@ -84,7 +84,7 @@ Utilice el Asistente para publicación de Servicio WCF de BizTalk para crear un 
      ![Página ubicación del servicio WCF](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
 
      > [!NOTE]
-     >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como http://&lt*servername*>/<*ubicación del servicio WCF*>.  
+     >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como http://<*servername*>/<*ubicación del servicio WCF*>.  
 
      > [!NOTE]
      >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://&lt*servername*>: 8080 / <*ubicación del servicio WCF*>.  
