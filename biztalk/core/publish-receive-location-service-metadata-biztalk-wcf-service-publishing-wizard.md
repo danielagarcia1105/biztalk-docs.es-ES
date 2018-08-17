@@ -87,7 +87,7 @@ Utilice el Asistente para publicación de Servicio WCF de BizTalk para crear un 
      >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como http://<*servername*>/<*ubicación del servicio WCF*>.  
 
      > [!NOTE]
-     >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://&lt*servername*>: 8080 / <*ubicación del servicio WCF*>.  
+     >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://<*servername*>: 8080 / <*ubicación del servicio WCF*>.  
 
      > [!NOTE]
      >  El archivo BindingInfo.xml que crea el Asistente en la carpeta App_DataTemp de la aplicación Web utiliza los valores predeterminados para las canalizaciones. El valor predeterminado para la canalización de recepción es el **Microsoft.BizTalk.DefaultPipelines.XMLReceive** canalización y el valor predeterminado para la canalización de envío es el  **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit** canalización.  
