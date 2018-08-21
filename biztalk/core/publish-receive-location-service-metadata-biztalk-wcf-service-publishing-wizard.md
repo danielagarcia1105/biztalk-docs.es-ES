@@ -19,7 +19,7 @@ ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 53d290067b33d676f9c3052f93e61100252ad34f
 ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/27/2018
 ms.locfileid: "36996869"
