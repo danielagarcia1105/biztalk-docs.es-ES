@@ -27,7 +27,7 @@ ms.locfileid: "22231980"
 Puede agregar condiciones a una **bucle** functoid vinculándose a la salida de un **bucle** functoid y un **lógicos** functoid en el mismo registro de destino. Los registros de destino solo se crean cuando se cumple la condición lógica.  
   
 ## <a name="conditional-looping-map"></a>Asignación de bucle condicional  
- ![Mapa que ilustra el functoid de bucle condicional. ] (../core/media/loopingconditionalfunctoid.gif "loopingconditionalfunctoid")  
+ ![Mapa que ilustra el functoid de bucle condicional. ](../core/media/loopingconditionalfunctoid.gif "loopingconditionalfunctoid")  
   
  En la ilustración anterior, la primera **igual** functoid compara el **nombre** campo **FoodSurvey** con "Wendy Wheeler". El segundo **igual** functoid compara el **nombre** campo **FlowerSurvey** con "Kelly Focht". Por lo tanto, la asignación crea el destino **dirección** registros solo para los dos nombres. Con los datos de ejemplo de la **bucle** ejemplo de functoid, podría aparecer el mensaje de instancia de salida como sigue.  
   

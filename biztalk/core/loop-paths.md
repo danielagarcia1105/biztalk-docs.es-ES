@@ -30,7 +30,7 @@ Un elemento en un esquema está en bucle si su propiedad Max Occurs es mayor que
   
  Puede configurar una ruta de bucle en una asignación vinculando un campo de un registro de bucle del esquema de origen con un campo de un registro de bucle del esquema de destino. La ilustración siguiente muestra una asignación que copia solo registros de encuestas de comida a una lista de direcciones maestra.  
   
- ![Mapa que ilustra el uso de una ruta de acceso de bucle. ] (../core/media/correct-loop-path-map.gif "correct_loop_path_map")  
+ ![Mapa que ilustra el uso de una ruta de acceso de bucle. ](../core/media/correct-loop-path-map.gif "correct_loop_path_map")  
 Asignación de ruta de acceso  
   
 ## <a name="multiple-loop-paths"></a>Varias rutas de bucle  
@@ -41,7 +41,7 @@ Asignación con varias rutas de bucle (incorrecto)
   
  Esta asignación no producirá los resultados esperados. Cuando el Asignador encuentra varias rutas de bucle durante la compilación, genera una advertencia y selecciona la primera ruta de bucle de forma predeterminada. Para combinar las dos direcciones diferentes en una lista de direcciones maestra única, utilice un **bucle** functoid tal como se muestra en la asignación siguiente.  
   
- ![Mapa que ilustra el uso del functoid de bucle. ] (../core/media/loopingfunctoid.gif "loopingfunctoid")  
+ ![Mapa que ilustra el uso del functoid de bucle. ](../core/media/loopingfunctoid.gif "loopingfunctoid")  
 Asignación con functoid de bucle (correcto)  
   
  El **bucle** functoid debe usarse en lugar de varias rutas de bucle en los escenarios siguientes:  

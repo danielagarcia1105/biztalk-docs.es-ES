@@ -132,7 +132,7 @@ Para implementar un adaptador, debe instalar al ensamblado del adaptador en la c
   
 2.  En el panel de vista de árbol (con la etiqueta **configuración**), expanda el árbol de nodos. Haga clic en el **avanzadas** carpeta, haga clic en el **extensiones** carpeta y, a continuación, seleccione el elemento de extensiones de enlace.  
   
-     ![Editor de configuración de servicio. ] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0a44a070-b788-4287-bd9e-c946fafcf11c.gif "0a44a070-b788-4287-bd9e-c946fafcf11c")  
+     ![Editor de configuración de servicio. ](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0a44a070-b788-4287-bd9e-c946fafcf11c.gif "0a44a070-b788-4287-bd9e-c946fafcf11c")  
   
 3.  Cree una nueva extensión de enlace. Haga clic en el **New** botón para abrir la extensión **Editor de elementos de configuración** cuadro de diálogo. En **nombre de la configuración**, escriba un nombre único para las extensiones, por ejemplo *MyAdapterExtension*.  
   
@@ -144,13 +144,13 @@ Para implementar un adaptador, debe instalar al ensamblado del adaptador en la c
   
 6.  Haga clic en el ensamblado del adaptador.  
   
-     ![Crear Explorador de tipo de extensión. ] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7528e218-8930-4b01-b29d-8ec125a9b818.gif "7528e218-8930-4b01-b29d-8ec125a9b818")  
+     ![Crear Explorador de tipo de extensión. ](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7528e218-8930-4b01-b29d-8ec125a9b818.gif "7528e218-8930-4b01-b29d-8ec125a9b818")  
   
 7.  Haga clic en el **abierto** botón para seleccionar el ensamblado.  
   
 8.  En el **Explorador de tipos de extensión de enlace** diálogo cuadro, haga clic en el nombre del tipo que implementa el elemento de la colección de enlace.  
   
-     ![Crear Explorador de tipo de extensión. ] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce.gif "a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce")  
+     ![Crear Explorador de tipo de extensión. ](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce.gif "a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce")  
   
 9. Haga clic en el **abierto** botón para seleccionar el tipo.  
   
@@ -158,7 +158,7 @@ Para implementar un adaptador, debe instalar al ensamblado del adaptador en la c
   
 11. En el panel de detalles de la **enlace extensiones de Editor**, compruebe que aparece la extensión de enlace. En la ilustración siguiente, se resalta MyAdapterExtension.  
   
-     ![Editor de configuración de servicio con la extensión agregada. ] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
+     ![Editor de configuración de servicio con la extensión agregada. ](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
   
 12. Cerrar la **Editor de configuración del servicio**.  
   

@@ -30,5 +30,5 @@ ms.locfileid: "37011677"
   
 3. En el **archivos de esquema** cuadro de diálogo, seleccione un archivo XSD y, a continuación, haga clic en **abierto**.  
   
-   ![Captura de pantalla del cuadro de diálogo de hechos exlorer. ] (../core/media/ebiz-bre-factsexplorer-xml.gif "ebiz_bre_factsexplorer_xml")  
+   ![Captura de pantalla del cuadro de diálogo de hechos exlorer. ](../core/media/ebiz-bre-factsexplorer-xml.gif "ebiz_bre_factsexplorer_xml")  
    Examinar un esquema XML

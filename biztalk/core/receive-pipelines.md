@@ -30,7 +30,7 @@ ms.locfileid: "22268868"
 # <a name="receive-pipelines"></a>Canalizaciones de recepción
 La ilustración que aparece a continuación muestra el flujo de trabajo de procesamiento de mensajes aunque se centra en la canalización de recepción.  
   
- ![Diagrama del flujo de trabajo de procesamiento de mensajes. ] (../core/media/ebiz-dev-busprcsb.gif "ebiz_dev_busprcsb")  
+ ![Diagrama del flujo de trabajo de procesamiento de mensajes. ](../core/media/ebiz-dev-busprcsb.gif "ebiz_dev_busprcsb")  
 Representación del flujo de trabajo de procesamiento de mensajes.  
   
  Una canalización de recepción funciona en un mensaje después de ser recibido por el adaptador de recepción. La canalización de recepción toma el mensaje inicial, realiza algunas transformaciones, y desensambla los datos sin procesar en uno, ninguno o varios mensajes. Entonces, el servidor de BizTalk Server puede procesar estos mensajes individuales.  

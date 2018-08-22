@@ -32,4 +32,4 @@ ms.locfileid: "25968946"
   
  **Acción del usuario**  
   
- Seleccione el functoid **índice** functoid, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **parámetros de entrada** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, en la **configurar \<Functoid\> Functoid** cuadro de diálogo, elimine el índice exceso los parámetros de entrada seleccionando y haciendo clic en el ![ ] (../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete") botón para cada uno de ellos.
+ Seleccione el functoid **índice** functoid, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **parámetros de entrada** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, en la **configurar \<Functoid\> Functoid** cuadro de diálogo, elimine el índice exceso los parámetros de entrada seleccionando y haciendo clic en el ![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete") botón para cada uno de ellos.

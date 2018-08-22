@@ -30,7 +30,7 @@ ms.locfileid: "22238340"
 # <a name="creating-maps-using-biztalk-mapper"></a>Crear asignaciones con el Asignador de BizTalk
 El Asignador de BizTalk es una herramienta que se ejecuta en el entorno Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. El Asignador de BizTalk se puede usar para crear y editar asignaciones, que se utilizan para traducir o transformar mensajes xml. Las asignaciones se usan en orquestaciones, como sugiere la siguiente ilustración, y también se pueden usar para procesar los mensajes recibidos en un puerto de recepción y, a continuación, transformar los mensajes para su envío mediante puertos de envío.  
   
- ![Diagrama de procesamiento empresarial con asignaciones. ] (../core/media/ebiz-dev-busprcsg.gif "ebiz_dev_busprcsg")  
+ ![Diagrama de procesamiento empresarial con asignaciones. ](../core/media/ebiz-dev-busprcsg.gif "ebiz_dev_busprcsg")  
 Asignaciones en procesamiento empresarial  
   
  Las asignaciones le permiten traducir y transformar mensajes. La traducción es el proceso por el que se convierte un mensaje de un formato en otro formato, como convertir un archivo sin formato en un archivo XML. La transformación es el proceso por el que se toma información de un mensaje y se inserta en otro. Por ejemplo, puede tomar las direcciones de envío y de facturación de un pedido e insertarlas en un documento de factura.  

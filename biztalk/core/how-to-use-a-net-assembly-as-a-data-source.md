@@ -35,4 +35,4 @@ Puede especificar un ensamblado .NET como origen de datos. A continuación, pued
     > [!NOTE]
     >  Los ensamblados tienen que estar en la caché de ensamblados global (GAC). El Compositor de reglas de negocio carga un ensamblado .NET al buscar el ensamblado de .NET en el **Explorador de hechos** ventana o en la **clase .NET o una definición de miembro de clase** página de la **vocabulario Definición de** ventana.  Si actualiza el ensamblado en la GAC, cierre el Compositor de reglas de negocios y reinícielo para cargar el ensamblado .NET actualizado. El Compositor de reglas de negocio no actualiza el ensamblado de forma automática.  
   
-     ![Captura de pantalla del explorador de árbol de definición y hechos. ] (../core/media/ebiz-netbrowse.gif "ebiz_netbrowse")
+     ![Captura de pantalla del explorador de árbol de definición y hechos. ](../core/media/ebiz-netbrowse.gif "ebiz_netbrowse")

@@ -37,7 +37,7 @@ Puede especificar una base de datos como origen de datos. A continuación, puede
   
 4.  Seleccione un tipo de autenticación. Si selecciona autenticación de SQL, escriba un nombre de inicio de sesión y una contraseña. Cuando haya introducido su información de autenticación, haga clic en **Aceptar**.  
   
-     ![Captura de pantalla de bases de datos del explorador de árbol. ] (../core/media/ebiz-dbbrows.gif "ebiz_dbbrows")  
+     ![Captura de pantalla de bases de datos del explorador de árbol. ](../core/media/ebiz-dbbrows.gif "ebiz_dbbrows")  
 Examinar una base de datos  
   
 > [!NOTE]

@@ -29,7 +29,7 @@ ms.locfileid: "22270180"
 # <a name="send-pipelines"></a>Canalizaciones de envío
 La ilustración que aparece a continuación muestra el flujo de trabajo de procesamiento de mensajes aunque se centra en la canalización de envío.  
   
- ![Diagrama de flujo de trabajo para procesar un mensaje. ] (../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
+ ![Diagrama de flujo de trabajo para procesar un mensaje. ](../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
 Representación del flujo de trabajo de procesamiento de mensajes.  
   
  La canalización de envío se ocupa del procesamiento de documentos antes de enviarlos a su destino final. La canalización de envío recibe un mensaje y crea otro para enviarlo.  

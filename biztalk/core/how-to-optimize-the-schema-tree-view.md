@@ -47,7 +47,7 @@ Puede usar el **la vista de relevancia** en el asignador de BizTalk para optimiz
   
  ![Esquema cuando la vista de relevancia está activada](../core/media/on-schema.gif "On_schema")  
   
- Cuando se expande los nodos combinados en esquemas de origen o destino, el ![fusionado nodos ocultos](../core/media/mapper-coalescence-on.gif "Mapper_Coalescence_On") cambia a ![fusionado nodos se muestra] (../core/media/switchoff-mapper-coalesence.jpg "SwitchOff_Mapper_Coalesence") icono.  
+ Cuando se expande los nodos combinados en esquemas de origen o destino, el ![fusionado nodos ocultos](../core/media/mapper-coalescence-on.gif "Mapper_Coalescence_On") cambia a ![fusionado nodos se muestra](../core/media/switchoff-mapper-coalesence.jpg "SwitchOff_Mapper_Coalesence") icono.  
   
 > [!NOTE]
 >  Puede presionar CTRL+M, CTRL+E o CTRL+M, CTRL+C para expandir o contraer los tres nodos en el esquema de origen, respectivamente. De manera similar, puede presionar CTRL+M, CTRL+E o CTRL+M, CTRL+C para expandir o contraer los tres nodos en el esquema de destino, respectivamente. También puede presionar CTRL+M, CTRL+H o CTRL+M, CTRL+D para la fusión de origen o de destino, respectivamente. Para obtener una lista de métodos abreviados de teclado del asignador, vea [métodos abreviados de teclado del asignador de BizTalk](../core/biztalk-mapper-keyboard-shortcuts.md).  

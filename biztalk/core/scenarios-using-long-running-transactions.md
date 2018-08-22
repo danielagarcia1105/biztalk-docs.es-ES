@@ -56,8 +56,8 @@ En los escenarios siguientes se describe el uso de transacciones de larga ejecuc
   
  **Orquestación llamada (principal)**  
   
- ![Llamado orquestación &#40; main &#41; ] (../core/media/bts-trans-orch-fig9.gif "BTS_Trans_Orch_Fig9")  
+ ![Llamado orquestación & #40; main & #41; ](../core/media/bts-trans-orch-fig9.gif "BTS_Trans_Orch_Fig9")  
   
  **Orquestación llamada (compensación)**  
   
- ![Llamado orquestación &#40; compensación &#41; ] (../core/media/bts-trans-orch-fig10.gif "BTS_Trans_Orch_Fig10")
+ ![Llamado orquestación & #40; compensación & #41; ](../core/media/bts-trans-orch-fig10.gif "BTS_Trans_Orch_Fig10")

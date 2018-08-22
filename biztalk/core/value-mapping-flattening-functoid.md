@@ -53,7 +53,7 @@ El **asignación de valores (sin formato)** functoid permite aplanar una parte d
   
  En la ilustración siguiente se muestra una asignación que realiza esta conversión.  
   
- ![Asignar registros de origen mediante un functoid. ] (../core/media/valuemappingflattenfunctoid.gif "valuemappingflattenfunctoid")  
+ ![Asignar registros de origen mediante un functoid. ](../core/media/valuemappingflattenfunctoid.gif "valuemappingflattenfunctoid")  
 Asignación del functoid de asignación de valores (sin formato)  
   
  El **asignación de valores (sin formato)** functoid devuelve el valor de su segundo parámetro si el primer parámetro es true. En esta asignación, la primera **igual** functoid comprueba si el **nombre** atributo es igual a "Material". Si el atributo es igual a "Material", la **igual** functoid devuelve **True**. A su vez, esto hace que la **asignación de valores (sin formato)** functoid para asignar el valor de la **valor** atributo al campo en el mensaje de salida.  

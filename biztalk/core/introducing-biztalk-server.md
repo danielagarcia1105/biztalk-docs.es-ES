@@ -62,7 +62,7 @@ BizTalk Server también usa las últimas versiones de otras tecnologías de Micr
   
  La siguiente ilustración muestra un sencillo ejemplo del motor principal de BizTalk Server aplicado a un problema de EAI. En este escenario, una aplicación de inventario, que puede estar ejecutándose en un gran sistema IBM, advierte que quedan pocos repuestos de un elemento, por lo que emite una solicitud para pedir más material. Esta solicitud se envía a la orquestación de BizTalk Server (paso 1) que, a continuación, emite una solicitud de pedido a esta aplicación ERP de la organización (paso 2). La aplicación ERP, que puede estar ejecutándose en un sistema Unix, devuelve el pedido solicitado (paso 3), y la orquestación de BizTalk Server informa a una aplicación de procesamiento, integrada quizás en Windows mediante .NET Framework, de que debería solicitarse dicho elemento (paso 4).  
   
- ![EAI implementado en el motor de BizTalk. ] (../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
+ ![EAI implementado en el motor de BizTalk. ](../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
   
  En este ejemplo, cada aplicación se comunica mediante un protocolo diferente. Por consiguiente, el componente de mensajería del motor de BizTalk Server debe ser capaz de comunicarse con cada aplicación en su estilo de comunicación nativo. Además, tenga en cuenta que ninguna aplicación es consciente del proceso empresarial completo. La inteligencia necesaria para coordinar todas las partes implicadas del software se implementa en la orquestación de BizTalk Server.  
   

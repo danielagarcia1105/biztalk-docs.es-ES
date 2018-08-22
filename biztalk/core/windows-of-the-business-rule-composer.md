@@ -29,7 +29,7 @@ El Compositor de reglas de negocio es una herramienta gráfica que se usa para l
   
  En la ilustración siguiente se muestra el Compositor de reglas de negocio. La ventana Explorador de directivas permite crear directivas que contienen una o varias reglas. La ventana Explorador de hechos permite buscar hechos (XML, base de datos y .NET) y arrastrarlos a la ventana Editor de condiciones o la ventana Editor de acciones. La ventana Editor de condiciones permite especificar una condición para una regla. La ventana Editor de acciones permite especificar acciones que se ejecutan cuando la condición se evalúa en true.  
   
- ![Captura de pantalla del área del compositor de reglas de negocios. ] (../core/media/bcd-ebiz-composerfulls.gif "bcd_ebiz_composerfulls")  
+ ![Captura de pantalla del área del compositor de reglas de negocios. ](../core/media/bcd-ebiz-composerfulls.gif "bcd_ebiz_composerfulls")  
 Compositor de reglas de negocios  
   
 > [!NOTE]

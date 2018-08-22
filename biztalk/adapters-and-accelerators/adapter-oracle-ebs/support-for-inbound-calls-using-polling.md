@@ -57,7 +57,7 @@ El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
 
 9. Cuando el valor de la **PollWhileDataFound** está establecido en "True".  
 
-   ![Escenario de sondeo &#40;PollWhileDataFound&#61;False&#41;](../../adapters-and-accelerators/adapter-oracle-ebs/media/e5f00f4c-cc76-4e8b-9991-b4471f9d4865.gif "e5f00f4c-cc76-4e8b-9991-b4471f9d4865") ![escenario de sondeo &#40;PollWhileDataFound &#61; True&#41; ] (../../adapters-and-accelerators/adapter-oracle-ebs/media/ebecf64c-a770-4525-9c75-62fdb71e1fb1.gif "ebecf64c-a770-4525-9c75-62fdb71e1fb1")  
+   ![Escenario de sondeo &#40;PollWhileDataFound&#61;False&#41;](../../adapters-and-accelerators/adapter-oracle-ebs/media/e5f00f4c-cc76-4e8b-9991-b4471f9d4865.gif "e5f00f4c-cc76-4e8b-9991-b4471f9d4865") ![escenario de sondeo &#40;PollWhileDataFound &#61; True&#41; ](../../adapters-and-accelerators/adapter-oracle-ebs/media/ebecf64c-a770-4525-9c75-62fdb71e1fb1.gif "ebecf64c-a770-4525-9c75-62fdb71e1fb1")  
 
 ## <a name="differences-between-polling-and-notification"></a>Diferencias entre el sondeo y la notificación  
  Aunque el sondeo y la notificación son ambas operaciones de entrada e informar a los clientes del adaptador acerca de los cambios de datos en la base de datos de Oracle, en la tabla siguiente se enumera algunas diferencias entre los dos. Las siguientes diferencias le ayudará a decidirse por una operación según sus requisitos:  

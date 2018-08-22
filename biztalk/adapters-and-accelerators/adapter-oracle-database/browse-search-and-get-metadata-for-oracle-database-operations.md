@@ -231,7 +231,7 @@ Esta sección proporciona información sobre cómo usar [!INCLUDE[consumeadapter
   
     La siguiente ilustración muestra la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] con las operaciones Insert y Update para la SCOTT. Tabla EMP seleccionada.  
   
-    ![Se seleccionan las operaciones Select y Update. ] (../../adapters-and-accelerators/adapter-oracle-database/media/4c41ac7b-784a-494c-ac82-c007e22a4fdf.gif "4c41ac7b-784a-494c-ac82-c007e22a4fdf")  
+    ![Se seleccionan las operaciones Select y Update. ](../../adapters-and-accelerators/adapter-oracle-database/media/4c41ac7b-784a-494c-ac82-c007e22a4fdf.gif "4c41ac7b-784a-494c-ac82-c007e22a4fdf")  
   
    > [!IMPORTANT]
    >  Según las operaciones de salida (o categorías) que usted seleccione, más de un WCF pueden generarse clases de cliente. Para obtener más información, consulte [generar un cliente de WCF o un contrato de servicio WCF para artefactos de la solución de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md).  

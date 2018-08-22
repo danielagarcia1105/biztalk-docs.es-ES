@@ -72,7 +72,7 @@ La siguiente es una lista de los **base de datos** functoids y cómo puede usar:
 
   Esta información se almacena en una base de datos y se distribuye a los socios comerciales periódicamente. Para el fabricante, todas las compras las realiza la oficina central, no las tiendas. Cuando la oficina central envía un pedido a los socios comerciales, es habitual que varias tiendas reciban mercancía encargada mediante el pedido único. En lugar de enviar información de nombre y la dirección de cada tienda que tiene que recibir mercancía, oficina central envía simplemente el **StoreID**. Para insertar la información de nombre y la dirección en la notificación previa de envío, el socio comercial utiliza el **base de datos** functoids para insertar automáticamente esta información en el mensaje de instancia de salida. En la siguiente ilustración se muestra cómo puede implementar un socio comercial la sustitución del StoreID en una asignación.  
 
-  ![Functoids de base de datos diferente que muestra de mapa. ] (../core/media/origdbfunctoids.gif "origdbfunctoids")  
+  ![Functoids de base de datos diferente que muestra de mapa. ](../core/media/origdbfunctoids.gif "origdbfunctoids")  
 
   En la ilustración, el esquema de origen representa un pedido entrante; el esquema de destino representa una notificación previa de envío. El **búsqueda de la base de datos** functoid busca el registro adecuado de la tabla de base de datos adecuada. El **Extractor de valor** functoids extraen la columna apropiada del registro de búsqueda. El **devolución de Error** functoid genera una cadena que contiene información de error si hay errores (por ejemplo, errores de conexión) en tiempo de ejecución.  
 
