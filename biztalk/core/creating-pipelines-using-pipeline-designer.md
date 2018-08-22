@@ -46,7 +46,7 @@ Microsoft BizTalk Server trabaja principalmente con el formato de documentos XML
   
   La ilustración que aparece a continuación muestra el flujo de trabajo que conlleva el procesamiento de un mensaje mediante canalizaciones.  
   
-  ![Diagrama de flujo de trabajo para procesar un mensaje. ] (../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
+  ![Diagrama de flujo de trabajo para procesar un mensaje. ](../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
   Representación del flujo de trabajo de procesamiento de mensajes.  
   
   Como se observa en la ilustración, el mensaje se pasa del adaptador a la canalización de recepción, donde se convierte en XML. A continuación, el mensaje puede ser utilizado por orquestaciones o pasado a una canalización de envío y, seguidamente, a un adaptador de envío.  

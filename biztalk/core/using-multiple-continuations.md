@@ -71,7 +71,7 @@ Usar el Editor de perfiles de seguimiento (TPE) en entornos donde hay varias act
 #### <a name="scenario-solution-3---content-based-routing"></a>Solución de escenario 3: enrutamiento por contenidos  
  En este escenario se define una solución de enrutamiento (CBR) por contenidos. Un mensaje llega exactamente a uno de los puertos de recepción y se envía exactamente a uno de los puertos de envío. Este enrutamiento se produce según el valor de una propiedad de contexto del mensaje. En este caso, solo se necesita una continuación. La asignación tiene una apariencia similar a la siguiente:  
   
- ![Escenario de continuación CBR. ] (../core/media/4459a73d-515f-4d6d-a68f-b18eee072df8.gif "4459a73d-515f-4d6d-a68f-b18eee072df8")  
+ ![Escenario de continuación CBR. ](../core/media/4459a73d-515f-4d6d-a68f-b18eee072df8.gif "4459a73d-515f-4d6d-a68f-b18eee072df8")  
   
 > [!NOTE]
 >  La asignación anterior también es válida para un mensaje que llega exactamente a uno de los puertos de recepción y se envía a todos los puertos de envío.  

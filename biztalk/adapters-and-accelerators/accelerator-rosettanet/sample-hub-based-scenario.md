@@ -33,7 +33,7 @@ En muchos escenarios de cadena de suministro, una empresa trabajará con cada un
 ## <a name="how-a-hub-based-system-works"></a>Cómo funciona un sistema basado en concentrador  
  En un sistema basado en concentrador, la empresa que contrata un sistema integrado se conecta a la empresa de concentrador mediante una conexión RNIF. A continuación, el concentrador se conecta a todos los socios comerciales de la empresa usando el tipo de conexión electrónica que sea necesario. La empresa de concentrador proporciona opciones de conexión a todos los socios comerciales: Conexiones RNIF, EDI, archivo plano, aplicaciones web o conexiones no compatibles de propietario. La administración del sistema de comunicaciones es asunto de la empresa de concentrador. La ilustración siguiente muestra el funcionamiento de este sistema.  
   
- ![&#60; No hay ningún cambio &#62; ] (../../adapters-and-accelerators/accelerator-rosettanet/media/hub-based-scenario.gif "Hub_Based_Scenario")  
+ ![& #60; No hay ningún cambio & #62; ](../../adapters-and-accelerators/accelerator-rosettanet/media/hub-based-scenario.gif "Hub_Based_Scenario")  
   
  Un sistema basado en concentrador tiene muchas ventajas:  
   

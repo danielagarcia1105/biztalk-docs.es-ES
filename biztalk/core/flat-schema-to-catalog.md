@@ -50,7 +50,7 @@ Puede usar el **bucle** functoid para convertir un esquema sin formato en un esq
   
  En la ilustración siguiente se muestra una asignación que realiza esta conversión.  
   
- ![Mapa que muestra el uso del functoid de bucle. ] (../core/media/loopingflattenfunctoid.gif "loopingflattenfunctoid")  
+ ![Mapa que muestra el uso del functoid de bucle. ](../core/media/loopingflattenfunctoid.gif "loopingflattenfunctoid")  
 Functoid de bucle, asignación de esquema sin formato  
 
 ## <a name="set-the-schema"></a>Establecer el esquema  

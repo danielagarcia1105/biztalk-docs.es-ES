@@ -72,7 +72,7 @@ ms.locfileid: "36967133"
   
 2. Cuando el valor de la **PollWhileDataFound** está establecido en "True".  
   
-   ![Flujo de trabajo de sondeo &#40;PollWhileDataFound &#61; False&#41;](../../adapters-and-accelerators/adapter-sql/media/15598c14-3a62-4b8d-90bf-84e004a386db.gif "15598c14-3a62-4b8d-90bf-84e004a386db") ![flujo de trabajo de sondeo &#40;PollWhileDataFound &#61; True&#41; ] (../../adapters-and-accelerators/adapter-sql/media/c20535be-ea45-4456-8b62-4d4585cb1d8c.gif "c20535be-ea45-4456-8b62-4d4585cb1d8c")  
+   ![Flujo de trabajo de sondeo &#40;PollWhileDataFound &#61; False&#41;](../../adapters-and-accelerators/adapter-sql/media/15598c14-3a62-4b8d-90bf-84e004a386db.gif "15598c14-3a62-4b8d-90bf-84e004a386db") ![flujo de trabajo de sondeo &#40;PollWhileDataFound &#61; True&#41; ](../../adapters-and-accelerators/adapter-sql/media/c20535be-ea45-4456-8b62-4d4585cb1d8c.gif "c20535be-ea45-4456-8b62-4d4585cb1d8c")  
   
 ## <a name="differences-between-polling-and-query-notification"></a>Diferencias entre el sondeo y la notificación de consulta  
  Aunque la notificación de sondeo y la consulta son ambas operaciones de entrada e informar a los clientes del adaptador acerca de los cambios de datos en la base de datos de SQL Server, en la tabla siguiente se enumera algunas diferencias entre los dos. Las siguientes diferencias le ayudará a decidirse por una operación según sus requisitos:  

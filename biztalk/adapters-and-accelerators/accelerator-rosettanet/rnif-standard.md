@@ -54,7 +54,7 @@ El estándar del marco de implementación de RosettaNet (RNIF) define cómo tran
   
  La ilustración siguiente describe las definiciones de mensaje de RNIF 1.1 y RNIF 2.01.  
   
- ![&#60; No hay ningún cambio &#62; ] (../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-rnif-message-definitions.gif "RN3_RNIF_Message_Definitions")  
+ ![& #60; No hay ningún cambio & #62; ](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-rnif-message-definitions.gif "RN3_RNIF_Message_Definitions")  
   
  En el mensaje de RNIF 1.1, el número de versión indica la versión RNIF. La longitud del contenido es la longitud del mensaje de servicio de RosettaNet. El mensaje del servicio, que incluye el preámbulo, la cabecera del servicio y el contenido del servicio, es una entidad MIME de varias partes o relacionada. La longitud de la firma se expresa en bytes. Si la firma existe, será una firma Public-Key Cryptography Standards (PKCS) #7 en el campo de mensaje de servicio.  
   

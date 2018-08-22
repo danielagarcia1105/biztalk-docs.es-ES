@@ -56,7 +56,7 @@ El **Scripting** functoid le permite usar un script personalizado o código en t
   
  La siguiente ilustración muestra cómo el **Scripting** functoid aparece en un mapa mediante el script de C# .net a dar formato a un número de teléfono.  
   
- ![Asignar con el C&#35; para dar formato a un número de teléfono. ] (../core/media/scriptingfunctoid.gif "scriptingfunctoid")  
+ ![Asignar con el C&#35; para dar formato a un número de teléfono. ](../core/media/scriptingfunctoid.gif "scriptingfunctoid")  
 Asignación de functoid de secuencia de comandos  
   
 ## <a name="in-this-section"></a>En esta sección  

@@ -56,7 +56,7 @@ El **número de registros** functoid recuentos de registros en el mensaje de ins
   
  La siguiente ilustración muestra un **número de registros** functoid que cuenta el número de elementos de un pedido entrante y escribe ese valor en el **ItemCount** campo el **SummedPO**mensaje de instancia de salida.  
   
- ![Mapa que muestra el uso del functoid de número de registros. ] (../core/media/recordcountfunctoid.gif "recordcountfunctoid")  
+ ![Mapa que muestra el uso del functoid de número de registros. ](../core/media/recordcountfunctoid.gif "recordcountfunctoid")  
 Asignación de functoid de número de registros  
   
  Tenga en cuenta que la **Max Occurs** propiedad para la **elemento** registro sería **unbounded**. Esto indica que la **elemento** bucles de registro y el asignador de BizTalk compila este registro como un bucle.  

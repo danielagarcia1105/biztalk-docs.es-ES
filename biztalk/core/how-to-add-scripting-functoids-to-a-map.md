@@ -32,7 +32,7 @@ El **Scripting** functoid le permite usar un script personalizado o código en t
   
     Aparece la lista de functoids avanzados de la categoría seleccionada.  
   
-2. Arrastre el **Scripting** functoid ![ ] (../core/media/bts-tls-scripting.gif "bts_tls_scripting") desde el cuadro de herramientas hasta la ubicación adecuada en una página de cuadrícula.  
+2. Arrastre el **Scripting** functoid ![](../core/media/bts-tls-scripting.gif "bts_tls_scripting") desde el cuadro de herramientas hasta la ubicación adecuada en una página de cuadrícula.  
   
    > [!NOTE]
    >  El functoid se colocará en la página de cuadrícula mostrada. Si desea colocar el functoid en una página de cuadrícula diferente, deberá mostrar otra página de cuadrícula en primer lugar.  

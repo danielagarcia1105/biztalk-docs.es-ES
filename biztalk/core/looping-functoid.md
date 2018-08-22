@@ -29,7 +29,7 @@ El **bucle** functoid combina múltiples registros o campos del esquema de orige
 > [!NOTE]
 >  El **bucle** y **asignación de valores (sin formato)** functoids no deben usarse juntos. Si ambos se usan conjuntamente, se produce una asignación compilada que supone que no hay dependencia de los nodos de destino que están por debajo de bucle de origen el **bucle** functoid.  
   
- ![Mapa que ilustra el uso del functoid de bucle. ] (../core/media/loopingfunctoid.gif "loopingfunctoid")  
+ ![Mapa que ilustra el uso del functoid de bucle. ](../core/media/loopingfunctoid.gif "loopingfunctoid")  
   
  El **FoodSurvey** y **FlowerSurvey** registros de bucle del esquema de origen se asignan a los bucles **dirección** registro del esquema de destino. Si un mensaje de instancia de entrada tiene tres **FoodSurvey** y dos registros **FlowerSurvey** registros, la **bucle**functoid combina estos elementos para crear cinco  **Dirección** registros en el mensaje de instancia de salida.  
   

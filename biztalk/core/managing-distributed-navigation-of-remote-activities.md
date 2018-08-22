@@ -37,7 +37,7 @@ La exploración distribuida de actividades remotas es el proceso por el que un u
   
   **Usar la exploración distribuida en BAM**  
   
-  ![Escenario de navegación distribuida. ] (../core/media/bcd-distrbuted-nav-scenario.gif "bcd_distrbuted_nav_scenario")  
+  ![Escenario de navegación distribuida. ](../core/media/bcd-distrbuted-nav-scenario.gif "bcd_distrbuted_nav_scenario")  
   
   Los administradores quieren configurar sus servidores para que sean lo más independientes posible, como se muestra a continuación:  
   

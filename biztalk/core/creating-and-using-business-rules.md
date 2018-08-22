@@ -41,7 +41,7 @@ Las reglas de negocios (o las directivas empresariales) definen y controlan la e
   
   Las reglas de negocios (o las directivas empresariales) creadas en el marco de trabajo de reglas de negocios se pueden usar en un proceso empresarial de orquestaciones, como se muestra en la siguiente ilustración.  
   
-  ![Diagrama que muestra una directiva empresarial en proceso. ] (../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  ![Diagrama que muestra una directiva empresarial en proceso. ](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
   Directiva empresarial  
   
   Esta sección proporciona información conceptual acerca de cómo puede aprovechar el marco de trabajo de reglas de negocios y usar las herramientas que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona para desarrollar reglas de negocios.  

@@ -70,7 +70,7 @@ ms.locfileid: "37004397"
 
  La siguiente ilustración muestra un mapa mediante una **multiplicación** functoid y un **suma acumulativa** functoid para agregar registros de elementos de una entrada de pedido de compra y enviar los resultados en el  **POTotal** campo:  
 
- ![Mapa que muestra el uso del functoid de suma acumulativa. ] (../core/media/cumulativefunctoids.gif "cumulativefunctoids")  
+ ![Mapa que muestra el uso del functoid de suma acumulativa. ](../core/media/cumulativefunctoids.gif "cumulativefunctoids")  
 
 
  La asignación produce la siguiente salida con los datos anteriores y con el valor predeterminado del parámetro de ámbito, 0 (cero):  

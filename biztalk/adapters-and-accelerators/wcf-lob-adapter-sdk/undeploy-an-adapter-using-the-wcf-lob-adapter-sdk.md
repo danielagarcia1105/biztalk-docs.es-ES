@@ -82,7 +82,7 @@ Para anular la implementación de un adaptador desde un equipo, el usuario debe 
   
 3.  En el panel de detalles del Editor de extensiones de enlace, haga clic en la extensión de enlace que desea eliminar y, a continuación, haga clic en **eliminar**. En la ilustración siguiente, MyAdapterExtension se resalta y se eliminará.  
   
-     ![Editor de configuración de servicio con la extensión agregada. ] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
+     ![Editor de configuración de servicio con la extensión agregada. ](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
   
 4.  Cierre el editor de configuración de servicio.  
   

@@ -119,7 +119,7 @@ ms.locfileid: "36968621"
   
      En la siguiente ilustración se muestra la orquestación EAIProcess con todos los puertos conectados.  
   
-     ![Orquestación de EAIProcess con puertos conectados. ] (../core/media/tut1-eaiprocessportsconnected.gif "Tut1_EAIProcessPortsConnected")  
+     ![Orquestación de EAIProcess con puertos conectados. ](../core/media/tut1-eaiprocessportsconnected.gif "Tut1_EAIProcessPortsConnected")  
   
 ## <a name="what-did-i-just-do"></a>Síntesis  
  En este paso, ha agregado tres puertos a la orquestación EAIProcess y los ha configurado.  
