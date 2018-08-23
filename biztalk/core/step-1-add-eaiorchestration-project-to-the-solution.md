@@ -1,5 +1,5 @@
 ---
-title: 'Paso 1: Agregar el proyecto EAIOrchestration a la solución | Documentos de Microsoft'
+title: 'Paso 1: Agregar el proyecto EAIOrchestration a la solución | Microsoft Docs'
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f3b8e2b9c197e01ed695311c67bc79cf5056c4d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 08/23/2018
 ms.locfileid: "22276868"
 ---
 # <a name="step-1-add-eaiorchestration-project-to-the-solution"></a>Paso 1: Agregar el proyecto EAIOrchestration a la solución
@@ -24,7 +24,7 @@ ms.locfileid: "22276868"
   
  **Tiempo en completarse:** 5 minutos  
   
- **Objetivo:** en este paso, agregará un segundo proyecto a la solución EAI. A continuación, agregará una orquestación al nuevo proyecto.  
+ **Objetivo:** en este paso, se agregará un segundo proyecto a la solución EAI. A continuación, agregará una orquestación al nuevo proyecto.  
   
  **Propósito:** crear un proyecto independiente para la orquestación. Esto resulta útil cuando varias personas trabajan en una misma solución. La nueva orquestación se empleará para automatizar el proceso empresarial en esta lección.  
   
@@ -34,7 +34,7 @@ ms.locfileid: "22276868"
 -   Antes de comenzar este paso debe completar [lección 1: definir esquemas y una asignación](../core/lesson-1-define-schemas-and-a-map.md).  
   
 ## <a name="procedures"></a>Procedimientos  
- Si ha cerrado la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana, siga el procedimiento "para abrir el proyecto de Visual Studio" en [paso 2: crear el esquema de solicitud de inventario](../core/step-2-create-the-inventory-request-schema.md) para abrirlo.  
+ Si ha cerrado el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana, siga el procedimiento "para abrir el proyecto de Visual Studio" en [paso 2: crear el esquema de solicitud de inventario](../core/step-2-create-the-inventory-request-schema.md) para abrirlo.  
   
 #### <a name="to-add-another-project-to-your-solution"></a>Para agregar otro proyecto a la solución  
   
@@ -45,21 +45,21 @@ ms.locfileid: "22276868"
     |Use|Para|  
     |--------------|----------------|  
     |**Plantillas instaladas**|Haga clic en **proyectos de BizTalk**y, a continuación, haga clic en **proyecto vacío de servidor BizTalk**.|  
-    |**Nombre**|Type `EAIOrchestration`.|  
-    |**Ubicación**|Type `C:\BTSTutorials\EAISolution`.|  
+    |**Nombre**|Tipo `EAIOrchestration`.|  
+    |**Ubicación**|Tipo `C:\BTSTutorials\EAISolution`.|  
   
 3.  Haga clic en **Aceptar**.  
   
 #### <a name="to-add-an-orchestration"></a>Para agregar una orquestación  
   
-1.  En el Explorador de soluciones, haga clic en **EAIOrchestration**, seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
+1.  En el Explorador de soluciones, haga clic en **EAIOrchestration**, apunte a **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
 2.  En el **Agregar nuevo elemento - EAIOrchestration** diálogo cuadro, realice lo siguiente:  
   
     |Use|Para|  
     |--------------|----------------|  
     |**Plantillas instaladas**|Haga clic en **archivos de orquestación**y, a continuación, haga clic en **orquestación de BizTalk**.|  
-    |**Nombre**|Tipo de **EAIProcess.odx**.|  
+    |**Nombre**|Tipo **EAIProcess.odx**.|  
   
 3.  Haga clic en **Agregar**.  
   
@@ -76,4 +76,4 @@ ms.locfileid: "22276868"
 ## <a name="see-also"></a>Vea también  
  [Paso 2: Definir el proceso empresarial](../core/step-2-define-the-business-process.md)   
  [Paso 3: Agregar puertos a la orquestación](../core/step-3-add-ports-to-the-orchestration.md)   
- [Paso 4: Crear el proyecto EAIOrchestration](../core/step-4-build-the-eaiorchestration-project.md)
+ [Paso 4: Generar el proyecto EAIOrchestration](../core/step-4-build-the-eaiorchestration-project.md)
