@@ -18,12 +18,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf10236b5db5b1af1a0a115e57a71ad2ae415eda
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 4079486e7dc225793f0620dfb52a7c6fdbf02899
+ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37022170"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "42709883"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-schemas-as-wcf-services"></a>Cómo utilizar el Asistente para publicación de Servicio WCF de BizTalk para publicar esquemas como servicios WCF
 Use el Asistente para publicación de Servicio WCF de BizTalk para publicar esquemas como servicios WCF.  
@@ -95,7 +95,7 @@ Use el Asistente para publicación de Servicio WCF de BizTalk para publicar esqu
   
      ![Página de propiedades del servicio WCF](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
   
-11. En el **ubicación del servicio WCF** página, en el **ubicación** texto, escriba el nombre del directorio Web donde se generan los servicios WCF. Puede aceptar la ubicación predeterminada (http://localhost/<*nombre de descripción del servicio Web*>), escriba una ubicación para los servicios WCF en el **ubicación** cuadro de texto o haga clic en **examinar**y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
+11. En el **ubicación del servicio WCF** página, en el **ubicación** texto, escriba el nombre del directorio Web donde se generan los servicios WCF. Puede aceptar la ubicación predeterminada (`http://localhost/<Web service description name>`), escriba una ubicación para los servicios WCF en el **ubicación** cuadro de texto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
   
     - **Sobrescribir proyecto existente.** Esta opción está disponible solo si ya existe el directorio Web. Podrá publicar en la misma ubicación solo si selecciona esta opción. De lo contrario, debe especificar una ubicación de proyecto diferente.  
   
@@ -106,10 +106,10 @@ Use el Asistente para publicación de Servicio WCF de BizTalk para publicar esqu
       ![Página ubicación del servicio WCF](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
   
     > [!NOTE]
-    >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como http://&lt*servername*>/<*ubicación del servicio WCF*>.  
+    >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como `http://<servername>/<WCF service location>`.  
   
     > [!NOTE]
-    >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://&lt*servername*>: 8080 / <*ubicación del servicio WCF*>.  
+    >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, `http://<servername>:8080/<WCF service location>`.  
   
     > [!NOTE]
     >  Al utilizar el asistente para crear ubicaciones de recepción, éstas se crean mediante los valores predeterminados. El valor predeterminado para la canalización de recepción es el **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** canalización. Si los mensajes recibidos a través de los servicios WCF publicados requieren algún procesamiento de canalización especial (por ejemplo, validación, promoción de propiedades/correlación o asignaciones de entrada/salida), a continuación, debe establecer la canalización de recepción en  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, o en una canalización personalizada mediante la consola de administración de BizTalk.  
