@@ -42,9 +42,9 @@ ms.locfileid: "36986717"
   
  Para obtener más información sobre el servicio de Bus de eventos BAM, consulte los siguientes temas de Ayuda de BizTalk Server:  
   
--   [Administrar el servicio de Bus de eventos BAM](http://go.microsoft.com/fwlink/?LinkId=154194) ()http://go.microsoft.com/fwlink/?LinkId=154194)  
+-   [Administrar el servicio de Bus de eventos BAM](http://go.microsoft.com/fwlink/?LinkId=154194) (http://go.microsoft.com/fwlink/?LinkId=154194)  
   
--   [Creación de instancias de servicio de Bus de eventos BAM](http://go.microsoft.com/fwlink/?LinkId=154195) ()http://go.microsoft.com/fwlink/?LinkId=154195)  
+-   [Creación de instancias de servicio de Bus de eventos BAM](http://go.microsoft.com/fwlink/?LinkId=154195) (http://go.microsoft.com/fwlink/?LinkId=154195)  
   
 ## <a name="configuring-a-dedicated-tracking-host"></a>Configuración de un Host de seguimiento dedicado  
  Para llevar a cabo el procedimiento en esta sección, debe tener los siguientes derechos de usuario para modificar las propiedades del host para permitir el seguimiento de host:  

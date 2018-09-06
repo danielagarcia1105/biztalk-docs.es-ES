@@ -58,9 +58,9 @@ Un Host de BizTalk representa un conjunto lógico de cero o más procesos de tie
   
  Para obtener más información, vea:  
   
--   [Supervisión de rendimiento de ASP.NET y cuándo alertar a los administradores](http://go.microsoft.com/fwlink/?LinkId=151856) ()http://go.microsoft.com/fwlink/?LinkId=151856)  
+-   [Supervisión de rendimiento de ASP.NET y cuándo alertar a los administradores](http://go.microsoft.com/fwlink/?LinkId=151856) (http://go.microsoft.com/fwlink/?LinkId=151856)  
   
--   [Los límites de memoria para las versiones de Windows](http://go.microsoft.com/fwlink/?LinkId=151857) ()http://go.microsoft.com/fwlink/?LinkId=151857)  
+-   [Los límites de memoria para las versiones de Windows](http://go.microsoft.com/fwlink/?LinkId=151857) (http://go.microsoft.com/fwlink/?LinkId=151857)  
   
 ## <a name="see-also"></a>Vea también  
  [Lista de comprobación: Configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)   
