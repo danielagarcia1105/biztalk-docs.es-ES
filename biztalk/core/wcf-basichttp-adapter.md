@@ -15,10 +15,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: deac1790ecc317c4ca0e7f5d45076fb4f5d8ae74
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.sourcegitcommit: 5d5113325a296252cd45eb2beab067b1fddd1dfc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
+ms.lasthandoff: 09/06/2018
 ms.locfileid: "37014741"
 ---
 # <a name="wcf-basichttp-adapter"></a>Adaptador de WCF-BasicHttp
