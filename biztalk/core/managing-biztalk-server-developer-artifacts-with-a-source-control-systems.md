@@ -105,7 +105,7 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
   
 5. Agregue lo siguiente al final de la lista de archivos binarios. Compruebe que hay puntos y comas entre cada tipo de archivo:  
   
-    *.btm; \*.btp; \*.xsd; \*.odx  
+    \*.btm; \*.btp; \*.xsd; \*.odx  
   
 6. Haga clic en **Aceptar**.  
   
