@@ -1,1 +1,1 @@
-<span data-ttu-id="3f952-101">Visual Basic .NET</span><span class="sxs-lookup"><span data-stu-id="3f952-101">Visual Basic .NET</span></span>
+<span data-ttu-id="5a0cf-101">Visual Basic .NET</span><span class="sxs-lookup"><span data-stu-id="5a0cf-101">Visual Basic .NET</span></span>
