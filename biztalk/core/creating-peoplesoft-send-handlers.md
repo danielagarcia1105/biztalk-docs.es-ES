@@ -46,7 +46,7 @@ Microsoft BizTalk Adapter para PeopleSoft Enterprise obtiene acceso a PeopleSoft
   
 4.  En el **propiedades de transporte de PeopleSoft**, realice lo siguiente:  
   
-    1.  Expanda **propiedades de adaptador necesarias**y escriba **ruta de acceso de servidor de aplicación**, **JAVA_HOME**, **nombre de usuario**, ** contraseña**y el archivo Jar para la conexión en el sistema Peoplesoft.  
+    1.  Expanda **propiedades de adaptador necesarias**y escriba **ruta de acceso de servidor de aplicación**, **JAVA_HOME**, **nombre de usuario**,  **contraseña**y el archivo Jar para la conexión en el sistema Peoplesoft.  
   
          No tiene que establecer la información de inicio de sesión.  
   
