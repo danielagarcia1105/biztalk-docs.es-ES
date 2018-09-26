@@ -56,7 +56,7 @@ ms.locfileid: "37002349"
   
 1.  <span data-ttu-id="65c01-118">En el equipo de Contoso, haga clic en **iniciar**, haga clic en **ejecutar,** tipo **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="65c01-118">On the Contoso computer, click **Start**, click **Run,** type **cmd**, and then click **OK**.</span></span>  
   
-2.  <span data-ttu-id="65c01-119">En el símbolo del sistema, vaya a  *\<unidad\>** *:\Program comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-119">At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.</span></span>  
+2.  <span data-ttu-id="65c01-119">En el símbolo del sistema, vaya a  *\<unidad\>*\* *:\Program comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK*\* y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-119">At the command prompt, move to *\<drive\>\*\*\*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK*\* and then press **Enter**.</span></span>  
   
 3.  <span data-ttu-id="65c01-120">En el símbolo del sistema, escriba **/PublicKey CertWizard "***\<unidad\>***: \Certs\Fabrikam Encryption.cer pública"** y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-120">At the command prompt, type **CertWizard /Publickey "***\<drive\>***:\Certs\Fabrikam Public Encryption.cer"**, and then press **Enter**.</span></span>  
   
@@ -68,7 +68,7 @@ ms.locfileid: "37002349"
   
 2.  <span data-ttu-id="65c01-124">En el equipo Fabrikum, haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="65c01-124">On the Fabrikum computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-3.  <span data-ttu-id="65c01-125">En el símbolo del sistema, vaya a  *\<unidad\>** *:\Program comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-125">At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.</span></span>  
+3.  <span data-ttu-id="65c01-125">En el símbolo del sistema, vaya a  *\<unidad\>*\* *:\Program comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK*\* y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-125">At the command prompt, move to *\<drive\>\*\*\*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK*\* and then press **Enter**.</span></span>  
   
 4.  <span data-ttu-id="65c01-126">En el símbolo del sistema, escriba **CertWizard /Privatekey "***\<unidad\>***: \Certs\Fabrikam Private Encryption.pfx"** y, a continuación, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="65c01-126">At the command prompt, type **CertWizard /Privatekey "***\<drive\>***:\Certs\Fabrikam Private Encryption.pfx"**, and then press **Enter**.</span></span>  
   
@@ -89,7 +89,7 @@ ms.locfileid: "37002349"
   
 1.  <span data-ttu-id="65c01-134">En el equipo Fabrikum, haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="65c01-134">On the Fabrikum computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-2.  <span data-ttu-id="65c01-135">En el símbolo del sistema, vaya a  *\<unidad\>** *:\Program comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-135">At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.</span></span>  
+2.  <span data-ttu-id="65c01-135">En el símbolo del sistema, vaya a  *\<unidad\>*\* *:\Program comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK*\* y, a continuación, presione **ENTRAR** .</span><span class="sxs-lookup"><span data-stu-id="65c01-135">At the command prompt, move to *\<drive\>\*\*\*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK*\* and then press **Enter**.</span></span>  
   
 3.  <span data-ttu-id="65c01-136">En el símbolo del sistema, escriba **/PublicKey CertWizard "***\<unidad\>***: \Certs\Contoso Encryption.cer pública"** y, a continuación, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="65c01-136">At the command prompt, type **CertWizard /Publickey "***\<drive\>***:\Certs\Contoso Public Encryption.cer"**, and then press **Enter**.</span></span>  
   
