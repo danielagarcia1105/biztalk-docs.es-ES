@@ -14,10 +14,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a131cc8e70311f6f57154b90e98ea1067ec5dc02
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.sourcegitcommit: 51ce182c5b71d3999a3920dd884bc9ec8334a899
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
+ms.lasthandoff: 10/04/2018
 ms.locfileid: "36969661"
 ---
 # <a name="node-types-and-ids-for-the-oracle-database-adapter"></a>Tipos de nodo e identificadores para el adaptador de base de datos de Oracle
@@ -30,7 +30,7 @@ El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] sup
 |-----------------------|-----------|-------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |          --           | CATEGORÍA  |                              /                              |                                           /                                            | [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] nodo raíz. Devuelve todos los nodos de primer nivel; Esto incluye todos los nodos de esquema, el nodo de operación POLLINGSTMT y el nodo de operación SQLEXECUTE |
 |      SQLEXECUTE       | OPERATION |                    [VERSIÓN] / SQLEXECUTE                     |                http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE                |                                                                        Nodo de operación SQLEXECUTE. Devuelve el WSDL para la operación SQLEXECUTE.                                                                        |
-|      POLLINGSTMT      | OPERATION |                    [VERSIÓN] / POLLINGSTMT                    |               http://Microsoft.LobServices. OracleDB/2007/03/POLLINGSTMT               |                                                                       Nodo de operación POLLINGSTMT. Devuelve el WSDL para la operación POLLINGSTMT.                                                                       |
+|      POLLINGSTMT      | OPERATION |                    [VERSIÓN] / POLLINGSTMT                    |               http://Microsoft.LobServices  OracleDB/2007/03/POLLINGSTMT               |                                                                       Nodo de operación POLLINGSTMT. Devuelve el WSDL para la operación POLLINGSTMT.                                                                       |
 |      [DB_SCHEMA]      | CATEGORÍA  |                    [VERSIÓN] / [DB_SCHEMA]                    |                  http://Microsoft.LobServices.OracleDB/2007/03/SCOTT                   |                                                Nodo de esquema. Devuelve los nodos de categoría general (tabla, vista, procedimiento, función y paquete) para el esquema especificado.                                                |
 |         Table         | CATEGORÍA  |                 [Versión] / [DB_SCHEMA] / Table                 |               http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table                |                                                                        Nodo de tablas del esquema. Devuelve todos los nodos de tabla para el esquema especificado.                                                                        |
 |      [DB_TABLE]       | CATEGORÍA  |           [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE]            |             http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP              |      Nodo de la tabla. Devuelve todos los nodos de operación (Insert, Select, Update, Delete, ReadLOB y UpdateLOB) de la tabla especificada. (ReadLOB y UpdateLOB son solo devuelve las tablas que contienen una columna LOB.)      |

@@ -1,7 +1,7 @@
 ---
 title: Configuración del adaptador de FTP | Microsoft Docs
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 09/28/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -15,12 +15,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cddd1f1c138dcd376f5baf3e8e0fd047ca5f1867
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: f81353597bf836c2032b8ad79cb1c779749ed6fc
+ms.sourcegitcommit: c1e83b63ae34bd586e6e0ccc914640efdf96bd4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36973925"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48423960"
 ---
 # <a name="configuring-the-ftp-adapter"></a>Configurar el adaptador de FTP
 
@@ -61,7 +61,7 @@ FTP puede establecer las propiedades de adaptador de ubicación de recepción en
    |Use|Para|  
    |--------------|----------------|     
    |**Dirección**|Especificar la dirección del servidor de seguridad, ya sea un nombre DNS o una dirección IP.|  
-   |**Modo**|Especificar el modo en el que el adaptador establece la conexión con el servidor FTP.<br /><br /> **Los valores válidos:** pasiva y activa<br /><br /> En modo activo, el servidor FTP se conecta a un puerto abierto por el adaptador FTP. En modo pasivo, el adaptador FTP se conecta a un puerto abierto por el servidor FTP.<br /><br /> **Valor predeterminado:** activo|  
+   |**Modo**|Especificar el modo en el que el adaptador establece la conexión con el servidor FTP.<br /><br /> **Los valores válidos:** pasiva y activa<br /><br /> En modo activo, el servidor FTP se conecta a un puerto abierto por el adaptador FTP. En modo pasivo, el adaptador FTP se conecta a un puerto abierto por el servidor FTP. Modo activo puede no funcionar si utiliza una dirección IP interna y se conecta a una dirección IP externa. En este caso, deberá usar el modo pasivo o modo activo con una puerta de enlace de capa de aplicación (ALG) con compatibilidad con FTP.<br /><br /> **Valor predeterminado:** activo|  
    |**Contraseña**|Especificar la contraseña del servidor de seguridad.|  
    |**Puerto**|Especificar el puerto del servidor de seguridad.<br /><br /> **Los valores válidos:** 1 y 65535, ambos inclusive<br /><br /> **Valor predeterminado:** 21|  
    |**Tipo**|Especificar el tipo de servidor de seguridad implementado.<br /><br /> **Los valores válidos:** ninguno, Socks 4 y Socks 5<br /><br /> **Valor predeterminado:** ninguno|  
@@ -70,24 +70,24 @@ FTP puede establecer las propiedades de adaptador de ubicación de recepción en
    **FTP**
 
 
-   |         Use         |                                                                                                                                                                                                   Para                                                                                                                                                                                                   |
-   |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |       **Cuenta**        |                                                                                                                                                Especificar el nombre de cuenta para el servidor FTP. Esta opción está en desuso y se desaconseja el uso de esta propiedad.                                                                                                                                                 |
-   |      **Después de Get**       |                                                                                                                                                          Especifique los comandos FTP que ejecutar después del archivo GET. Separe los comandos con un punto y coma (;).                                                                                                                                                           |
-   |      **Antes de Get**      |                                                                                                                           Especifique los comandos FTP que se ejecutarán antes del archivo GET. Separe los comandos con un punto y coma (;). **Nota:** no se admite el comando QUIT antes del archivo GET.                                                                                                                           |
-   |   **Umbral de error**    |                                                                                                                                       Especifique el número de errores que puede encontrar el servidor BizTalk Server antes de la ubicación está deshabilitada.<br /><br /> **Valor predeterminado:** 10                                                                                                                                        |
-   |      **Máscara de archivo**       |                                                                                                                                                                          Especificar el filtro de máscara de archivo que se utilizará al transmitir los archivos.                                                                                                                                                                          |
-   |        **Carpeta**        |                                                                                                                                                                                Especificar la ubicación de sondeo del servidor FTP.                                                                                                                                                                                 |
+   |         Use         |  Para  |
+   |---|---|
+   |       **Cuenta**        |  Especificar el nombre de cuenta para el servidor FTP. Esta opción está en desuso y se desaconseja el uso de esta propiedad.  |
+   |      **Después de Get**       | Especifique los comandos FTP que ejecutar después del archivo GET. Separe los comandos con un punto y coma (;). |
+   |      **Antes de Get**      |   Especifique los comandos FTP que se ejecutarán antes del archivo GET. Separe los comandos con un punto y coma (;). **Nota:** no se admite el comando QUIT antes del archivo GET.   |
+   |   **Umbral de error**    |   Especifique el número de errores que puede encontrar el servidor BizTalk Server antes de la ubicación está deshabilitada.<br /><br /> **Valor predeterminado:** 10   |
+   |      **Máscara de archivo**       |  Especificar el filtro de máscara de archivo que se utilizará al transmitir los archivos.  |
+   |        **Carpeta**        |   Especificar la ubicación de sondeo del servidor FTP.  |
    |   **Tipo de servidor de FTP**    | Nuevo a partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Utilice esta propiedad para elegir un servidor FTP que no requieren el comando SYST. Las opciones son None, AIX, detectar, GXS, MVS, OS400 y otros. <br/><br/>Si establece en **ninguno**, se usa el comando SYST. **Otros** se usa cuando el tipo de sistema operativo no caben dentro de cualquiera de las categorías especificadas. <br /><br /> **Valor predeterminado:** ninguno |
-   |         **Log**          |                                                                                                                                Especifique la ubicación para guardar una copia del archivo de registro. Este archivo se utiliza para diagnosticar las condiciones de error que se producen al enviar o recibir archivos mediante FTP.                                                                                                                                |
-   |    **Tamaño máximo de archivo**     |                                                                                                                             Especificar el tamaño máximo de archivos descargables en megabytes (MB).<br /><br /> Cero (0) indica que no hay límite de tamaño de archivo.<br /><br /> **Valor predeterminado:** 100                                                                                                                             |
-   |       **Contraseña**       |                                                                                                                                                                             Especificar la contraseña de usuario para iniciar la sesión en el servidor FTP.                                                                                                                                                                             |
-   |         **Puerto**         |                                                                                                                                                                Especificar la dirección del puerto de este servidor FTP.<br /><br /> **Valor predeterminado:** 21                                                                                                                                                                 |
-   |    **Representación**    |                                                                                                                                             Seleccionar el modo en el que el FTP recibe los datos.<br /><br /> **Los valores válidos:** binario o ASCII<br /><br /> **Valor predeterminado:** binario                                                                                                                                              |
-   |        **Server**        |                                                                                                                                 Especificar el nombre de servidor o la dirección IP del servidor FTP. **Nota:** el URI para un envío de puerto o recibir ubicación no puede superar los 256 caracteres.                                                                                                                                  |
-   |    **Afiliada de SSO**     |                                                                                                                                                                          Especificar la aplicación afiliada de inicio de sesión único empresarial.                                                                                                                                                                          |
-   | **Use la lista de nombres (NLST)** |                                                                                                                          Especifique cómo el adaptador muestra una lista de archivos. Para ver los nombres de archivo en lugar de la lista de archivos definidos por el sistema, establezca este valor en Sí.<br /><br /> **Valor predeterminado:** n                                                                                                                          |
-   |      **Nombre de usuario**       |                                                                                                                                                                               Especificar el nombre de usuario para iniciar la sesión en el servidor FTP.                                                                                                                                                                               |
+   |         **Log**          |  Especifique la ubicación para guardar una copia del archivo de registro. Este archivo se utiliza para diagnosticar las condiciones de error que se producen al enviar o recibir archivos mediante FTP.    |
+   |    **Tamaño máximo de archivo**     |   Especificar el tamaño máximo de archivos descargables en megabytes (MB).<br /><br /> Cero (0) indica que no hay límite de tamaño de archivo.<br /><br /> **Valor predeterminado:** 100    |
+   |       **Contraseña**       |   Especificar la contraseña de usuario para iniciar la sesión en el servidor FTP. |
+   |         **Puerto**         |  Especificar la dirección del puerto de este servidor FTP.<br /><br /> **Valor predeterminado:** 21 |
+   |    **Representación**    |  Seleccionar el modo en el que el FTP recibe los datos.<br /><br /> **Los valores válidos:** binario o ASCII<br /><br /> **Valor predeterminado:** binario  |
+   |        **Server**        |   Especificar el nombre de servidor o la dirección IP del servidor FTP. **Nota:** el URI para un envío de puerto o recibir ubicación no puede superar los 256 caracteres.  |
+   |    **Afiliada de SSO**     |  Especificar la aplicación afiliada de inicio de sesión único empresarial.  |
+   | **Use la lista de nombres (NLST)** |  Especifique cómo el adaptador muestra una lista de archivos. Para ver los nombres de archivo en lugar de la lista de archivos definidos por el sistema, establezca este valor en Sí.<br /><br /> **Valor predeterminado:** n   |
+   |      **Nombre de usuario**       |  Especificar el nombre de usuario para iniciar la sesión en el servidor FTP.  |
 
    **Sondeo**
 
@@ -111,10 +111,10 @@ FTP puede establecer las propiedades de adaptador de ubicación de recepción en
    **Parámetros de ajuste**
 
 
-   |         Use         |                                                                                                   Para                                                                                                   |
-   |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |         Use         | Para  |
+   |---|---|
    | **Tiempo de espera de datos de recepción** | Especifique el tiempo en milisegundos antes de que se anule la llamada de recepción. Esta propiedad se usa para evitar que un servidor lente haga que la ubicación de recepción deje de responder.<br /><br /> **Valor predeterminado:** 90000 |
-   |   **Carpeta temporal**   |                                               Especificar la ubicación de una carpeta temporal. Se usa esta ubicación para garantizar la recuperación tras un error de transferencia.                                                |
+   |   **Carpeta temporal**   |  Especificar la ubicación de una carpeta temporal. Se usa esta ubicación para garantizar la recuperación tras un error de transferencia.                                                |
 
 
 6. Haga clic en **Aceptar** para guardar la configuración.  
@@ -141,7 +141,7 @@ Puede establecer propiedades de adaptador de puerto de envío FTP en la consola 
    |Use|Para|  
    |--------------|----------------|    
    |**Dirección**|Especificar la dirección del servidor de seguridad, ya sea un nombre DNS o una dirección IP.|  
-   |**Modo**|Seleccionar el modo en el que el adaptador establece la conexión con el servidor FTP.<br /><br /> **Los valores válidos:** pasiva y activa<br /><br /> En modo activo, el servidor FTP se conecta a un puerto abierto por el adaptador FTP. En modo pasivo, el adaptador FTP se conecta a un puerto abierto por el servidor FTP.<br /><br /> **Valor predeterminado:** activo|  
+   |**Modo**|Seleccionar el modo en el que el adaptador establece la conexión con el servidor FTP.<br /><br /> **Los valores válidos:** pasiva y activa<br /><br /> En modo activo, el servidor FTP se conecta a un puerto abierto por el adaptador FTP. En modo pasivo, el adaptador FTP se conecta a un puerto abierto por el servidor FTP. Modo activo puede no funcionar si utiliza una dirección IP interna y se conecta a una dirección IP externa. En este caso, deberá usar el modo pasivo o modo activo con una puerta de enlace de capa de aplicación (ALG) con compatibilidad con FTP.<br /><br /> **Valor predeterminado:** activo|  
    |**Contraseña**|Especificar la contraseña del servidor de seguridad.|  
    |**Puerto**|Especificar el puerto del servidor de seguridad.<br /><br /> **Los valores válidos:** 1 y 65535, ambos inclusive<br /><br /> **Valor predeterminado:** 21|  
    |**Tipo**|Seleccionar el tipo de servidor de seguridad implementado.<br /><br /> **Los valores válidos:** Socks 4, Socks 5, ninguno<br /><br /> **Valor predeterminado:** ninguno|  
@@ -150,22 +150,22 @@ Puede establecer propiedades de adaptador de puerto de envío FTP en la consola 
    **FTP**
 
 
-   |       Use       |                                                                                                                                                                                                   Para                                                                                                                                                                                                   |
-   |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |     **Cuenta**      |                                                                                                                                                 Opcional. Especificar el nombre de cuenta para el servidor FTP. Esta opción se ha dejado de usar y se desaconseja el uso de esta propiedad.                                                                                                                                                 |
-   |    **Después de Put**     |                                                                                                                                                          Especificar los comandos FTP que se ejecutarán después del archivo PUT. Separe los comandos con un punto y coma (;).                                                                                                                                                           |
-   | **Asignar almacenamiento** |                                                                                                       Especificar si se asigna espacio de almacenamiento para sistemas de hosts heredados. Esta opción se proporciona para la compatibilidad con versiones anteriores.<br /><br /> **Los valores válidos:** No y Sí<br /><br /> **Valor predeterminado:** n                                                                                                        |
-   |    **Antes de colocar**    |                                                                              Especificar los comandos FTP que se ejecutarán antes del archivo PUT; por ejemplo, comandos para cambiar los valores predeterminados en el servidor FTP. Separe los comandos con un punto y coma (;). No se requiere ningún comando open. **Nota:** no se admite el comando QUIT antes del archivo PUT.                                                                              |
-   |      **Carpeta**      |                                                                                                                                                                          Especificar la ubicación a la que se moverán los archivos del servidor FTP.                                                                                                                                                                          |
+   |       Use       | Para |
+   |---|---|
+   |     **Cuenta**      |  Opcional. Especificar el nombre de cuenta para el servidor FTP. Esta opción se ha dejado de usar y se desaconseja el uso de esta propiedad. |
+   |    **Después de Put**     |  Especificar los comandos FTP que se ejecutarán después del archivo PUT. Separe los comandos con un punto y coma (;).  |
+   | **Asignar almacenamiento** |  Especificar si se asigna espacio de almacenamiento para sistemas de hosts heredados. Esta opción se proporciona para la compatibilidad con versiones anteriores.<br /><br /> **Los valores válidos:** No y Sí<br /><br /> **Valor predeterminado:** n  |
+   |    **Antes de colocar**    |  Especificar los comandos FTP que se ejecutarán antes del archivo PUT; por ejemplo, comandos para cambiar los valores predeterminados en el servidor FTP. Separe los comandos con un punto y coma (;). No se requiere ningún comando open. **Nota:** no se admite el comando QUIT antes del archivo PUT.  |
+   |      **Carpeta**      |  Especificar la ubicación a la que se moverán los archivos del servidor FTP. |
    | **Tipo de servidor de FTP**  | Nuevo a partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Utilice esta propiedad para elegir un servidor FTP que no requieren el comando SYST. Las opciones son None, AIX, detectar, GXS, MVS, OS400 y otros. <br/><br/>Si establece en **ninguno**, se usa el comando SYST. **Otros** se usa cuando el tipo de sistema operativo no caben dentro de cualquiera de las categorías especificadas. <br /><br /> **Valor predeterminado:** ninguno |
-   |       **Log**        |                                                                                                                               Especificar la ubicación para guardar una copia del archivo de registro. Use este archivo para diagnosticar las condiciones de error que se producen al enviar o recibir archivos a través del adaptador de FTP.                                                                                                                               |
-   |     **Contraseña**     |                                                                                                                                                                               Especifique la contraseña para iniciar sesión en el servidor de FTP.                                                                                                                                                                                |
-   |       **Puerto**       |                                                                                                                                                                 Especifique la dirección del puerto para el servidor FTP.<br /><br /> **Valor predeterminado:** 21                                                                                                                                                                 |
-   |  **Representación**  |                                                                                                                            Seleccione cómo envía los datos el adaptador de FTP, como binarios o como ASCII.<br /><br /> **Los valores válidos:** binario o ASCII<br /><br /> **Valor predeterminado:** binario                                                                                                                            |
-   |      **Server**      |                                                                                                                                                                            Especificar el nombre de servidor o la dirección IP del servidor FTP.                                                                                                                                                                            |
-   |  **Afiliada de SSO**   |                                                                                                                                                                          Especificar la aplicación afiliada de inicio de sesión único empresarial.                                                                                                                                                                          |
-   | **Nombre de archivo de destino** |                                                                                                                   Especificar un nombre alternativo para el archivo. Conservar el nombre predeterminado garantiza que los nombres de mensaje únicos para cada mensaje enviado.<br /><br /> **Valor predeterminado:** %MessageID%.xml                                                                                                                   |
-   |    **Nombre de usuario**     |                                                                                                                                                                               Especificar el nombre de usuario para iniciar la sesión en el servidor FTP.                                                                                                                                                                               |
+   |       **Log**        |  Especificar la ubicación para guardar una copia del archivo de registro. Use este archivo para diagnosticar las condiciones de error que se producen al enviar o recibir archivos a través del adaptador de FTP.    |
+   |     **Contraseña**     |  Especifique la contraseña para iniciar sesión en el servidor de FTP. |
+   |       **Puerto**       | Especifique la dirección del puerto para el servidor FTP.<br /><br /> **Valor predeterminado:** 21  |
+   |  **Representación**  | Seleccione cómo envía los datos el adaptador de FTP, como binarios o como ASCII.<br /><br /> **Los valores válidos:** binario o ASCII<br /><br /> **Valor predeterminado:** binario   |
+   |      **Server**      |  Especificar el nombre de servidor o la dirección IP del servidor FTP.  |
+   |  **Afiliada de SSO**   |  Especificar la aplicación afiliada de inicio de sesión único empresarial. |
+   | **Nombre de archivo de destino** |  Especificar un nombre alternativo para el archivo. Conservar el nombre predeterminado garantiza que los nombres de mensaje únicos para cada mensaje enviado.<br /><br /> **Valor predeterminado:** %MessageID%.xml  |
+   |    **Nombre de usuario**     |  Especificar el nombre de usuario para iniciar la sesión en el servidor FTP. |
 
    **SSL**
 
@@ -179,11 +179,10 @@ Puede establecer propiedades de adaptador de puerto de envío FTP en la consola 
    **Parámetros de ajuste**
 
 
-   |       Use       |                                                                                                                                                                                                                      Para                                                                                                                                                                                                                       |
-   |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |       Use       | Para  |
+   |---|---|
    | **Límite de conexiones** | Especificar el número máximo de conexiones FTP simultáneas que se pueden abrir con el servidor. El valor 0 significa que no hay ningún límite.<br /><br /> **Valor predeterminado:** 0 **Nota:** esta propiedad reemplaza la entrada del registro que se utilizó en versiones anteriores de BizTalk Server para regir el límite de conexiones. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] omite la entrada del registro que se usan para controlar el límite de conexiones. |
    | **Carpeta temporal** |      Especificar la ubicación para una carpeta temporal del servidor FTP. El archivo se carga primero aquí y, a continuación, se mueven a la carpeta de FTP de destino. En caso de error de transferencia, el adaptador reinicia la carga de archivos en modo ASCII de transferencia y reanuda en modo binario de transferencia. **Nota:** si la transferencia de archivos es atómica entre la ubicación temporal y la ubicación correspondiente en el servidor FTP, la carga de archivos también será atómica.      |
-
 
 4. Haga clic en **Aceptar** y **Aceptar** nuevo para guardar la configuración.   
 
@@ -194,32 +193,32 @@ El adaptador de FTP está sujeto a las limitaciones del protocolo FTP y requiere
 El adaptador de FTP funciona como un cliente FTP y puede requerir que los siguientes comandos estén disponibles en el servidor FTP para funcionar correctamente: 
 
 
-| Comando  |                                 Requiere de recepción                                  |                                  Requerido por el envío                                   |
-|----------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Comando  |  Requiere de recepción  |  Requerido por el envío  |
+|---|---|---|
 |   SYST   | ✔ <br/><br/>Opcional a partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] | ✔<br/><br/>Opcional a partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] |
-|  ALMACÉN   |                                                                                      |                                          ✔                                          |
-|   RETR   |                                          ✔                                           |                                                                                     |
-|   User   |                                          ✔                                           |                                          ✔                                          |
-|   PASS   |                                          ✔                                           |                                          ✔                                          |
-|   CWD    |                                          ✔                                           |                                          ✔                                          |
-|   QUIT   |                                          ✔                                           |                                          ✔                                          |
-|   PORT   |                                          ✔                                           |                                          ✔                                          |
-|   PASV   |                                          ✔                                           |                                          ✔                                          |
-|   ABOR   |                                          ✔                                           |                                          ✔                                          |
-|   TYPE   |                                          ✔                                           |                                          ✔                                          |
-|   RNFR   |                                          ✔                                           |                                          ✔                                          |
-|   RNTO   |                                          ✔                                           |                                          ✔                                          |
-|   DELE   |                                          ✔                                           |                                          ✔                                          |
-|   PWD    |                                          ✔                                           |                                          ✔                                          |
-|   LIST   |                                          ✔                                           |                                          ✔                                          |
-|   NLST   |                                          ✔                                           |                                          ✔                                          |
-|   NOOP   |                                          ✔                                           |                                          ✔                                          |
-|   APPE   |                                                                                      |                                          ✔                                          |
-|   ALLO   |                                          ✔                                           |                                          ✔                                          |
-|   MDTM   |                                          ✔                                           |                                                                                     |
-| AUTH TLS |                                          ✔                                           |                                          ✔                                          |
-|   PBSZ   |                                          ✔                                           |                                          ✔                                          |
-|   PROT   |                                          ✔                                           |                                          ✔                                          |
+|  ALMACÉN   |  |  ✔  |
+|   RETR   |  ✔  |  |
+|   User   |  ✔  |  ✔  |
+|   PASS   |  ✔  |  ✔  |
+|   CWD    |  ✔  |  ✔  |
+|   QUIT   |  ✔  |  ✔  |
+|   PORT   |  ✔  |  ✔  |
+|   PASV   |  ✔  |  ✔  |
+|   ABOR   |  ✔  |  ✔  |
+|   TYPE   |  ✔  |  ✔  |
+|   RNFR   |  ✔  |  ✔  |
+|   RNTO   |  ✔  |  ✔  |
+|   DELE   |  ✔  |  ✔  |
+|   PWD    |  ✔  |  ✔  |
+|   LIST   |  ✔  |  ✔  |
+|   NLST   |  ✔  |  ✔  |
+|   NOOP   |  ✔  |  ✔  |
+|   APPE   |  |  ✔   |
+|   ALLO   |  ✔  |  ✔  |
+|   MDTM   |  ✔  |  |
+| AUTH TLS |  ✔  |  ✔  |
+|   PBSZ   |  ✔  |  ✔  |
+|   PROT   |  ✔  |  ✔  |
 
  Para obtener más información acerca de estos comandos FTP, consulte:  
 

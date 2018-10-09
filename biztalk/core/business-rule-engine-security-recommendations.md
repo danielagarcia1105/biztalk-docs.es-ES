@@ -1,7 +1,7 @@
 ---
-title: Recomendaciones de seguridad de motor de reglas de negocios | Documentos de Microsoft
+title: Recomendaciones de seguridad del motor de reglas de negocio | Microsoft Docs
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 09/27/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -16,15 +16,15 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8d7402a1cc36ef3d9473c3303da79b0c23f46bf8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 41815d53b31b2f0bf0ebf3e5626a61d76470ac4c
+ms.sourcegitcommit: c1e83b63ae34bd586e6e0ccc914640efdf96bd4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231948"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48423920"
 ---
-# <a name="business-rule-engine-security-recommendations"></a>Recomendaciones de seguridad de motor de reglas de negocios
-El motor de reglas de negocios es el componente en tiempo de ejecución del marco de trabajo de reglas de negocios. El marco de trabajo de reglas de negocios permite conectar reglas de gran riqueza semántica, declarativas y muy legibles con cualquier objeto de negocios (componentes .NET), documento XML o tabla de base de datos. Para obtener más información sobre el marco de trabajo de reglas de negocios, vea [crear y usar las reglas de negocios](../core/creating-and-using-business-rules.md). Para obtener más información sobre el motor de reglas de negocios, vea [motor de reglas](../core/rule-engine.md).  
+# <a name="business-rule-engine-security-recommendations"></a>Recomendaciones de seguridad del motor de reglas de negocios
+El motor de reglas de negocios es el componente en tiempo de ejecución del marco de trabajo de reglas de negocios. El marco de trabajo de reglas de negocios permite conectar reglas de gran riqueza semántica, declarativas y muy legibles con cualquier objeto de negocios (componentes .NET), documento XML o tabla de base de datos. Para obtener más información sobre el marco de trabajo de la regla de negocios, vea [Creating and Using Business Rules](../core/creating-and-using-business-rules.md). Para obtener más información sobre el motor de reglas de negocios, vea [motor de reglas](../core/rule-engine.md).  
   
  No hay ningún grupo de usuarios de Windows para el motor de reglas de negocios, solo cuentas individuales. BizTalk Server restringe el acceso a los recursos del motor de reglas de negocios con dos roles del servidor SQL Server:  
   
@@ -33,10 +33,12 @@ El motor de reglas de negocios es el componente en tiempo de ejecución del marc
  El grupo RE_Host_Users está destinado a todos los demás usuarios del motor de reglas de negocios que no necesitan derechos de usuario administrativos y que realizan tareas tales como la lectura y ejecución de reglas. Entre los miembros del rol RE_Host_Users se incluyen la función BizTalk_Host_Users. Para implementar permisos en el motor de reglas de negocios de forma independiente de los permisos de BizTalk Server, puede usar los roles del servidor SQL Server. Para obtener más información acerca de los permisos mínimos necesarios para usar el motor de reglas de negocios, vea [derechos de usuario mínimos de seguridad](../core/minimum-security-user-rights.md). Es recomendable seguir estas directrices para proteger e implementar el motor de reglas de negocios en su entorno.  
   
 -   BizTalk Server proporciona la cuenta que utilizó para instalar el inicio de sesión del servicio de actualización como derechos de servicio y la agrega al rol RE_Host_Users del servidor SQL Server en la base de datos del motor de reglas de negocios. Si la cuenta que utiliza para la instalación no es la misma que la que va a utilizar para ejecutar el servicio de actualización, debe quitar la cuenta de instalación del rol RE_Host_Users del servidor de SQL Server.  
-  
+
+-   Si no usa la misma cuenta con otra cuenta de servicio de host de BizTalk, también agregar la cuenta de servicio RuleEngine a BTS_HOST_USERS en BizTalkMgmtDb y BizTalkMsgBoxDb.
+
 -   Si utiliza el componente de servicio de actualización, deberá instalarlo en todos los equipos de tiempo de ejecución de BizTalk. Para recuperar una regla de la base de datos del motor de reglas, el servicio de actualización suplanta al autor de la llamada al servicio.  
   
--   De forma predeterminada, todos los hosts de BizTalk tienen el mismo nivel de acceso a los artefactos del motor de reglas. No hay segregación de seguridad por host. Puede configurar la seguridad por directivas mediante las API del motor de reglas. Para obtener más información acerca de cómo configurar la seguridad por directivas, consulte [seguridad de Framework de reglas de negocios](../core/business-rules-framework-security.md).  
+-   De forma predeterminada, todos los hosts de BizTalk tienen el mismo nivel de acceso a los artefactos del motor de reglas. No hay segregación de seguridad por host. Puede configurar la seguridad por directivas mediante las API del motor de reglas. Para obtener más información acerca de cómo configurar la seguridad por directivas, consulte [Business Framework: las reglas de seguridad](../core/business-rules-framework-security.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Puertos para los servidores de procesamiento](../core/ports-for-the-processing-servers.md)
+ [Puertos de los servidores de procesamiento](../core/ports-for-the-processing-servers.md)

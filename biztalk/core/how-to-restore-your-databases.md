@@ -1,40 +1,24 @@
 ---
-title: Cómo restaurar las bases de datos | Microsoft Docs
+title: Restaurar las bases de datos | Microsoft Docs
+description: Consulte los pasos para restaurar las bases de datos de BizTalk Server, incluido el uso de los trabajos del Agente SQL y ejecutar los scripts UpdateDatabase.vbs y UpdateRegistry.vbs. También verá qué hacer después de restauraron las bases de datos, incluida la actualización del nombre de instancia de SQL Server en la consola de administración de BizTalk.
 ms.custom: ''
-ms.date: 2016-05-10
+ms.date: 09/30/18
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords:
-- backing up, log shipping
-- restoring [BAM], Star Schema database, Star Schema database [BAM], restoring
-- restoring, 64-bit environments
-- Star Schema database [BAM], restoring
-- restoring [BAM], Analysis database
-- log shipping
-- databases, restoring
-- Archive database [BAM], restoring
-- backing up, restoring
-- Analysis database [BAM], restoring
-- restoring [BAM], Archive database
-- restoring [BAM], Star Schema database
-- databases, restoring [64-bit environment]
-- Primary Import database [BAM], restoring
-- 64-bit environments, restoring databases
-- restoring, databases
 ms.assetid: 0176932a-6b3d-4502-975b-a76296189092
 caps.latest.revision: 52
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc5ecebcb4a9d322ab67339008abaa251a26b867
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: c318511902b31ffbe3fab4e055bdbf097d0f6865
+ms.sourcegitcommit: 51ce182c5b71d3999a3920dd884bc9ec8334a899
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36977949"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48575687"
 ---
 # <a name="how-to-restore-your-databases"></a>Cómo restaurar las bases de datos
 Es preciso efectuar una restauración de todas las bases de datos en la misma marca para garantizar que el estado transaccional sea coherente en todas las bases de datos. Consulte [transacciones marcadas, copias de seguridad completas y diferenciales](../core/marked-transactions-full-backups-and-log-backups.md).  
@@ -48,20 +32,16 @@ Es preciso efectuar una restauración de todas las bases de datos en la misma ma
  La tabla adm_BackupHistory constituye el punto central de historial para el proceso de trasvase de registros del sistema de origen. En esta tabla se registran todos los trabajos de copia de seguridad realizados. Todos los servidores del sistema de destino efectúan una lectura de esta tabla para obtener la información necesaria para realizar la restauración.  
   
 > [!NOTE]
->  Si restaura la base de datos de importación principal de BAM a partir de una copia de seguridad, también debe restaurar las bases de datos de archivo de BAM, de esquema de estrella de BAM y de análisis de BAM mediante una copia de seguridad anterior a la principal de BAM. Consulte [copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md).  
-> 
-> [!NOTE]
->  Si mueve las copias de seguridad completas o de registro de una base de datos de origen desde la ubicación en la que las colocó el trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], debe actualizar la fila asociada a esa base de datos en la tabla bts_LogShippingDatabases del sistema de destino. Para ello, establezca LogFileLocation o DBFileLocation en la nueva ubicación en la que el sistema de destino debe leer los archivos de copia de seguridad completa o de registro. Esta tabla se rellena al ejecutar el procedimiento almacenado bts_ConfigureBtsLogShipping. De forma predeterminada, estas columnas se configuran como null, lo que indica que el sistema de destino debe leer los archivos de copia de seguridad desde la ubicación almacenada en la tabla adm_BackupHistory.  
-> 
-> [!IMPORTANT]
->  Guarde siempre una copia de sus archivos de copia de seguridad en una ubicación segura. Aunque haya registrado copias de seguridad, no podrá restaurar las bases de datos sin los archivos de copia de seguridad.  
+>  - Si restaura la base de datos de importación principal de BAM a partir de una copia de seguridad, también debe restaurar las bases de datos de archivo de BAM, de esquema de estrella de BAM y de análisis de BAM mediante una copia de seguridad anterior a la principal de BAM. Consulte [copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md).  
+>  - Si mueve las copias de seguridad completas o de registro de una base de datos de origen desde la ubicación en la que las colocó el trabajo de copia de seguridad de BizTalk Server, debe actualizar la fila asociada a esa base de datos en la tabla bts_LogShippingDatabases del sistema de destino. Para ello, establezca LogFileLocation o DBFileLocation en la nueva ubicación en la que el sistema de destino debe leer los archivos de copia de seguridad completa o de registro. Esta tabla se rellena al ejecutar el procedimiento almacenado bts_ConfigureBtsLogShipping. De forma predeterminada, estas columnas se configuran como null, lo que indica que el sistema de destino debe leer los archivos de copia de seguridad desde la ubicación almacenada en la tabla adm_BackupHistory.  
+>  - Guarde siempre una copia de sus archivos de copia de seguridad en una ubicación segura. Aunque haya registrado copias de seguridad, no podrá restaurar las bases de datos sin los archivos de copia de seguridad.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Inicie sesión en SQL Server con una cuenta que sea miembro del rol sysadmin de SQL Server.  
   
-### <a name="to-restore-your-databases"></a>Para restaurar sus bases de datos  
+## <a name="restore-your-databases"></a>Restaurar las bases de datos  
   
-1. En el sistema de destino, abra **SQL Server Management Studio**y conectarse a su [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+1. En el sistema de destino, abra **SQL Server Management Studio**y conectarse a SQL Server.  
   
 2. Expanda **Agente SQL Server** y **Trabajos**. Realice lo siguiente:  
   
@@ -71,12 +51,12 @@ Es preciso efectuar una restauración de todas las bases de datos en la misma ma
   
    3. Haga clic en el **registro BTS - Restaurar en marca** y seleccione **iniciar trabajo en el paso**. Seleccione **Id. del paso 1** y seleccione **iniciar**.  
   
-       Cuando el estado cambia a **éxito**, los trabajos del Agente SQL Server y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se restauran las bases de datos en el sistema de destino.  
+       Cuando el estado cambia a **éxito**, los trabajos de agente SQL Server y bases de datos de BizTalk Server se restauran en el sistema de destino.  
   
    > [!IMPORTANT]
    >  Si el **estado** es Error, seleccione el vínculo en el campo de mensaje para determinar la causa. Estos trabajos deberían tener un estado de Correcto antes de continuar.  
   
-3. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] donde editó el archivo SampleUpdateInfo.xml, abra un símbolo del sistema y vaya a:  
+3. En el servidor de BizTalk en el que editó el archivo SampleUpdateInfo.xml, abra un símbolo del sistema y vaya a:  
   
     equipo de 32 bits: `%SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\Restore`  
   
@@ -89,21 +69,21 @@ Es preciso efectuar una restauración de todas las bases de datos en la misma ma
     Este script actualiza todas las tablas que almacenan información acerca de la ubicación de otras bases de datos.  
   
    > [!IMPORTANT]
-   > - Ejecute UpdateDatabase.vbs en **uno** servidor en el grupo de BizTalk.  
-   >   -   En los equipos de 64 bits, debe ejecutar UpdateDatabase.vbs desde un símbolo del sistema de 64 bits. Tenga en cuenta que el símbolo del sistema por defecto en los equipos de 64 bits es un símbolo de sistema de 64 bits y está ubicado en %SystemDrive%\windows\System32\cmd.exe.  
-   >   -   El motor de EDI de BizTalk no necesita ninguna de sus propias modificaciones a SampleUpdateInfo.xml al restaurar las bases de datos.  Se basa en la conectividad con la base de datos BizTalkDTADb para tener acceso a las tablas de EDI.  
+   >  - Ejecute UpdateDatabase.vbs en **uno** servidor en el grupo de BizTalk.  
+   >  - En los equipos de 64 bits, debe ejecutar UpdateDatabase.vbs desde un símbolo del sistema de 64 bits. Tenga en cuenta que el símbolo del sistema por defecto en los equipos de 64 bits es un símbolo de sistema de 64 bits y está ubicado en %SystemDrive%\windows\System32\cmd.exe.  
+   >  - El motor de EDI de BizTalk no necesita ninguna de sus propias modificaciones a SampleUpdateInfo.xml al restaurar las bases de datos.  Se basa en la conectividad con la base de datos BizTalkDTADb para tener acceso a las tablas de EDI.  
   
-5. Copie el archivo SampleUpdateInfo.xml editado en la carpeta siguiente en **cada** equipo que ejecuta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en este grupo de BizTalk:  
+5. Copie el archivo SampleUpdateInfo.xml editado en la carpeta siguiente en **cada** equipo que ejecuta BizTalk Server en este grupo de BizTalk:  
   
     equipo de 32 bits: copiar en `%SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\Restore`  
   
     equipo de 64 bits: copiar en `%SystemDrive%\Program Files (x86)\Microsoft BizTalk Server <version>\Bins32\Schema\Restore`  
   
-6. En **cada** equipo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] agrupar, abra un símbolo del sistema y vaya a:  
+6. En **cada** equipo en el grupo de BizTalk Server, abra un símbolo del sistema y vaya a:  
   
     equipo de 32 bits: `%SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\Restore`  
   
-    equipo de 64 bits: `%SystemDrive%Program Files (x86)Microsoft BizTalk Server <version>Bins32SchemaRestore`  
+    equipo de 64 bits: `%SystemDrive%\Program Files (x86)Microsoft BizTalk Server <version>\Bins32\Schema\Restore`  
   
 7. En el símbolo del sistema, escriba:  
   
@@ -112,11 +92,10 @@ Es preciso efectuar una restauración de todas las bases de datos en la misma ma
     Este script actualiza todas las entradas del Registro que almacenan información acerca de la ubicación de otras bases de datos.  
   
    > [!IMPORTANT]
-   >  Ejecute UpdateRegistry.vbs en **cada** servidor en el grupo de BizTalk.  
-   >   
-   >  En los equipos de 64 bits, debe ejecutar UpdateRegistry.vbs desde un símbolo del sistema de 64 bits.  Tenga en cuenta que el símbolo del sistema por defecto en los equipos de 64 bits es un símbolo de sistema de 64 bits y está ubicado en %SystemDrive%\windows\System32\cmd.exe.  
+   >  - Ejecute UpdateRegistry.vbs en **cada** servidor en el grupo de BizTalk.  
+   >  - En los equipos de 64 bits, debe ejecutar UpdateRegistry.vbs desde un símbolo del sistema de 64 bits.  Tenga en cuenta que el símbolo del sistema por defecto en los equipos de 64 bits es un símbolo de sistema de 64 bits y está ubicado en %SystemDrive%\windows\System32\cmd.exe.  
   
-8. Reinicie todos los servicios de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Consulte [cómo iniciar, detener, pausar, reanudar o reiniciar BizTalk Server de servicios](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
+8. Reinicie todos los servicios de BizTalk Server. Consulte [cómo iniciar, detener, pausar, reanudar o reiniciar BizTalk Server de servicios](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
   
 9. Después de restaurar sus bases de datos, reinicie el servicio del Instrumental de administración de Windows:  
   
@@ -130,23 +109,23 @@ Es preciso efectuar una restauración de todas las bases de datos en la misma ma
   
     2. Haga clic en **administración de BizTalk Server** y seleccione **conectar a grupo existente**.  
   
-    3. En **nombre de SQL Server**, seleccione el nombre de la instancia de SQL Server que hospeda la base de datos de administración de BizTalk. Cuando seleccione la instancia de SQL Server, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] detectará automáticamente las bases de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en ese equipo.  
+    3. En **nombre de SQL Server**, seleccione el nombre de la instancia de SQL Server que hospeda la base de datos de administración de BizTalk. Al seleccionar la instancia de SQL Server, BizTalk Server detecta automáticamente las bases de datos de BizTalk Server en ese equipo.  
   
     4. En **nombre de base de datos**, seleccione la base de datos de administración de BizTalk (**BizTalkMgmtDb** de forma predeterminada) y, a continuación, seleccione **Aceptar**.  
   
-       La consola de Administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] agregará el grupo BizTalk a la consola de Administración.  
+       La consola de administración de BizTalk Server agrega el grupo de BizTalk a la consola de administración.  
   
-       Con ello, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se habrá restaurado y debería estar en ejecución. A continuación, configure el trabajo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de copia de seguridad para comenzar a realizar copias de seguridad en un nuevo servidor de destino. Asimismo, debe volver a configurar un nuevo sistema de destino.  
-  
-> [!IMPORTANT]
->  Si usa el motor de reglas, debe reiniciar el Servicio de actualización de motor de reglas en todos los servidores del grupo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] después de restaurar las bases de datos. Consulte [cómo iniciar, detener, pausar, reanudar o reiniciar BizTalk Server de servicios](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
-> 
-> [!NOTE]
->  Si usa BAM, este es el tiempo para restaurar las bases de datos de BAM. Consulte [copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md).  
-  
+       El servidor BizTalk Server se habrá restaurado y debe estar en ejecución. A continuación, configure el trabajo de copia de seguridad de BizTalk Server para comenzar a escribir las copias de seguridad en un nuevo servidor de destino. Asimismo, debe volver a configurar un nuevo sistema de destino.  
+
+## <a name="important"></a>Importante
+
+- Si usa el motor de reglas, después de restaurar las bases de datos, debe reiniciar el servicio de actualización de motor de reglas en todos los servidores en el grupo de BizTalk Server. Consulte [cómo iniciar, detener, pausar, reanudar o reiniciar BizTalk Server de servicios](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
+- Si usa BAM, ahora es el tiempo para restaurar las bases de datos BAM. Consulte [copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md).  
+- Si va a mover las bases de datos y está usando EDI de BizTalk o el Acelerador de RosettaNet, algunos puertos SQL pueden ser el programa de instalación frente a las bases de datos de BizTalk. Exportar los enlaces, busque los vínculos de la base de datos anterior y reemplace los vínculos de la base de datos según corresponda. 
+
 ## <a name="next-steps"></a>Pasos siguientes  
  [Realizar una copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo configurar el trabajo de copia de seguridad de BizTalk Server](../core/how-to-configure-the-backup-biztalk-server-job.md)   
- [Cómo configurar el sistema de destino del trasvase de registros](../core/how-to-configure-the-destination-system-for-log-shipping.md)
+ [Configurar el trabajo de copia de seguridad de BizTalk Server](../core/how-to-configure-the-backup-biztalk-server-job.md)   
+ [Configurar en el sistema de destino para el trasvase de registros](../core/how-to-configure-the-destination-system-for-log-shipping.md)

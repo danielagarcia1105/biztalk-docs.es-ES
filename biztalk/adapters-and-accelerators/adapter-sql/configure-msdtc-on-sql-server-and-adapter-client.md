@@ -1,23 +1,6 @@
----
-title: Configurar MSDTC en el cliente de SQL Server y el adaptador | Microsoft Docs
-ms.custom: ''
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
-ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1
-caps.latest.revision: 14
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 3f609b3d54c9b2db6ad576eab75bb82872075f5a
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37013829"
+--title: "configurar MSDTC en el cliente SQL Server y el adaptador | Microsoft Docs"ms.custom:" "ms.date:" 08/06/2017"ms.prod:"biztalk server"ms.reviewer:" "
+
+MS.Suite: "" ms.tgt_pltfrm: "" ms.topic: "article" ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1 caps.latest.revision: 14 author: "MandiOhlinger" ms.author: "mandia" manager: "anneta"
 ---
 # <a name="configure-msdtc-on-sql-server-and-adapter-client"></a>Configurar MSDTC en el cliente de SQL Server y el adaptador
 Las operaciones realizan en SQL Server mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (a través de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], el modelo de servicio WCF o el modelo de canal WCF) se pueden realizar en un ámbito de transacción. Si el programa cliente tiene más de un recurso transaccional como parte de la misma transacción, la transacción obtiene elevada a una transacción MSDTC. Para habilitar el adaptador realizar operaciones dentro del ámbito de una transacción MSDTC, debe configurar MSDTC tanto en el equipo que ejecuta el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] y SQL Server. Además, debe agregar MSDTC a la lista de excepciones de Firewall de Windows. Esta sección proporciona información acerca de cómo realizar estas tareas en los equipos que ejecutan el cliente del adaptador y SQL Server.  
@@ -42,11 +25,11 @@ Las operaciones realizan en SQL Server mediante el [!INCLUDE[adaptersqlshort](..
    - **Permitir a clientes remotos** 
    - **Permitir entrantes** 
    - **Permitir salientes** 
-   - **No hay Authetnication necesario**
+   - **No se requiere autenticación**
   
 4. Seleccione **Aceptar** para guardar los cambios.  
   
-5. Si se le pide que reinicie el servicio MSDTC, seleccione **Sí**. Después de reinicia el servicio MSDTC, cierre las propiedades y los servicios de componentes de MMC. 
+5. Si se le pida que reinicie el servicio MSDTC, seleccione **Sí**. Después de reinicia el servicio MSDTC, cierre las propiedades y los servicios de componentes de MMC. 
   
 ## <a name="add-msdtc-to-windows-firewall-exceptions-list"></a>Agregar MSDTC a la lista de excepciones de Firewall de Windows  
 
