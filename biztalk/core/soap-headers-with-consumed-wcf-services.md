@@ -19,14 +19,14 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f60e0ae7f9cf2e6a224ce9d919c7c4d5e6f3119c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/18/2018
 ms.locfileid: "22277492"
 ---
 # <a name="soap-headers-with-consumed-wcf-services"></a>Encabezados SOAP con servicios WCF consumidos
-Para enviar un mensaje a un servicio WCF con encabezados SOAP personalizados, estos encabezados se deben establecer en la orquestación (en forma de expresión, por ejemplo) y los componentes de canalización (en código) como la propiedad de contexto **OutboundCustomHeaders**. Esta propiedad se encuentra en el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**y contiene representaciones de cadena de los encabezados SOAP personalizados.  
+Para enviar un mensaje a un servicio WCF con encabezados SOAP personalizados, estos encabezados se deben establecer en la orquestación (en forma de expresión, por ejemplo) y los componentes de canalización (en código) como la propiedad de contexto **OutboundCustomHeaders**. Esta propiedad de contexto está en el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**y contiene representaciones de cadena de los encabezados SOAP personalizados.  
   
  Los datos en el mensaje saliente de XML siguiente muestran un ejemplo de la representación de cadena de encabezados SOAP personalizados para la **OutboundCustomHeaders** propiedad:  
   
