@@ -222,11 +222,11 @@ El adaptador de FTP funciona como un cliente FTP y puede requerir que los siguie
 
  Para obtener más información acerca de estos comandos FTP, consulte:  
 
--   [Protocolo de transferencia de RFC 959 - archivo](http://go.microsoft.com/fwlink/p/?LinkId=119603) ()http://go.microsoft.com/fwlink/p/?LinkId=119603)  
+-   [Protocolo de transferencia de RFC 959 - archivo](http://go.microsoft.com/fwlink/p/?LinkId=119603) ( http://go.microsoft.com/fwlink/p/?LinkId=119603) )  
 
--   [RFC 4217 - protección FTP con TLS](http://go.microsoft.com/fwlink/p/?LinkId=183154) ()http://go.microsoft.com/fwlink/p/?LinkId=183154)  
+-   [RFC 4217 - protección FTP con TLS](http://go.microsoft.com/fwlink/p/?LinkId=183154) ( http://go.microsoft.com/fwlink/p/?LinkId=183154) )  
 
--   [RFC 3659 - extensiones FTP](http://go.microsoft.com/fwlink/p/?LinkId=183155) ()http://go.microsoft.com/fwlink/p/?LinkId=183155)  
+-   [RFC 3659 - extensiones FTP](http://go.microsoft.com/fwlink/p/?LinkId=183155) ( http://go.microsoft.com/fwlink/p/?LinkId=183155) )  
 
 ## <a name="configuring-an-ftp-adapter-to-work-with-legacy-hosts"></a>Configuración de adaptador de FTP para trabajar con Hosts heredados
 
