@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fa3b81ceef83553d859aafa3f208ef619c2fc376
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 8ff35975566b8260453a2cc4ca9a576576f915fe
+ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37002837"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49401687"
 ---
 # <a name="security-with-the-oracle-e-business-suite-adapter-and-biztalk-server"></a>Seguridad con el adaptador de Oracle E-Business Suite y BizTalk Server
 Al configurar un puerto de envío o un puerto de recepción (ubicación) mediante el uso de la administración de BizTalk Server de la consola o utilizar el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para recuperar esquemas de mensaje para una solución de BizTalk, debe proporcionar las credenciales para Oracle E-Business Suite. Es importante proporcionar estas credenciales de una manera segura para ayudar a impedir que se revelen a actores malintencionados. Este tema describe cómo proporcionar una forma más segura de credenciales para el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] para soluciones de BizTalk Server.  
