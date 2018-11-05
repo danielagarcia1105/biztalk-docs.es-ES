@@ -66,7 +66,7 @@ Se aplica a:
 - Adaptador de WCF-WSHttp
 
 #### <a name="bindingconfiguration"></a>BindingConfiguration
-Especificar una cadena XML con el  **\<enlace\>**  elemento que se va a configurar los distintos tipos de enlaces predefinidos proporcionados por Windows Communication Foundation (WCF). Para obtener más información sobre el enlace proporcionado por el sistema y el enlace personalizado, vea los temas correspondientes en la sección Vea también.
+Especificar una cadena XML con el **\<enlace\>** elemento que se va a configurar los distintos tipos de enlaces predefinidos proporcionados por Windows Communication Foundation (WCF). Para obtener más información sobre el enlace proporcionado por el sistema y el enlace personalizado, vea los temas correspondientes en la sección Vea también.
 
 Ejemplo:
 
@@ -148,7 +148,7 @@ Se aplica a:
 - Adaptador de WCF-NetMsmq
 
 #### <a name="endpointbehaviorconfiguration"></a>EndpointBehaviorConfiguration
-Especificar una cadena XML con el  **\<comportamiento\>**  elemento de la  **\<endpointBehaviors\>**  elemento que se va a configurar las opciones de comportamiento de un Punto de conexión WCF. Para obtener más información sobre la  **\<endpointBehaviors\>**  elemento, vea el tema correspondiente en la sección Vea también.
+Especificar una cadena XML con el **\<comportamiento\>** elemento de la **\<endpointBehaviors\>** elemento que se va a configurar las opciones de comportamiento de un Punto de conexión WCF. Para obtener más información sobre la **\<endpointBehaviors\>** elemento, vea el tema correspondiente en la sección Vea también.
 
 Ejemplo: 
 ```
@@ -446,7 +446,7 @@ Valor predeterminado: **True**
 Se aplica a: WCF todos los adaptadores de envío *excepto* el adaptador WCF-NetMsmq
   
 #### <a name="proxyaddress"></a>ProxyAddress
-Especificar la dirección del servidor proxy. Use la **https** o **http** esquema según la configuración de seguridad. Esta dirección puede ir seguida de dos puntos y el número de puerto. La propiedad es obligatoria si la **ProxyToUse** propiedad está establecida en **UserSpecified** (por ejemplo, http://127.0.0.1: 8080)
+Especificar la dirección del servidor proxy. Use la **https** o **http** esquema según la configuración de seguridad. Esta dirección puede ir seguida de dos puntos y el número de puerto. La propiedad es obligatoria si la **ProxyToUse** propiedad está establecida en **UserSpecified** (por ejemplo, http://127.0.0.1:8080)
 
 Tipo: cadena  
 Valor predeterminado: una cadena vacía  
@@ -504,7 +504,7 @@ Valor predeterminado: 00:01:00
 Se aplica a: todos los adaptadores WCF *excepto* los adaptadores de WCF-Custom y WCF-CustomIsolated
 
 #### <a name="servicebehaviorconfiguration"></a>ServiceBehaviorConfiguration
-Especificar una cadena XML con el  **\<comportamiento\>**  elemento de la  **\<serviceBehaviors\>**  elemento que se va a configurar las opciones de comportamiento de WCF servicio. Para obtener más información sobre la  **\<serviceBehaviors\>**  elemento, vea el tema correspondiente en la sección Vea también.
+Especificar una cadena XML con el **\<comportamiento\>** elemento de la **\<serviceBehaviors\>** elemento que se va a configurar las opciones de comportamiento de WCF servicio. Para obtener más información sobre la **\<serviceBehaviors\>** elemento, vea el tema correspondiente en la sección Vea también.
 
 Ejemplo:
 
@@ -626,15 +626,15 @@ Valor predeterminado: False
 Se aplica a: WCF todos los adaptadores de envío *excepto* el adaptador WCF-NetNamedPipe
 
 #### <a name="referencedbindings"></a>ReferencedBindings
-Especificar las configuraciones de enlace al que hace referencia el **bindingConfiguration** atributo de la  **\<emisor\>**  (elemento) para el  **wsFederationHttpBinding** y **customBinding**, lo que indica el Token de seguridad servicio (STS) que emite tokens de seguridad. Para obtener más información sobre la  **\<emisor\>**  elemento, vea el tema "\<emisor\>" en [http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476).
+Especificar las configuraciones de enlace al que hace referencia el **bindingConfiguration** atributo de la **\<emisor\>** (elemento) para el  **wsFederationHttpBinding** y **customBinding**, lo que indica el Token de seguridad servicio (STS) que emite tokens de seguridad. Para obtener más información sobre la **\<emisor\>** elemento, vea el tema "\<emisor\>" en [http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476).
 
-La información de enlace, como la  **\<emisor\>**  (elemento) para la **wsFederationHttpBinding** y **customBinding** puede ser configurar a través de la **BindingConfiguration** propiedad de los adaptadores de WCF-Custom y WCF-CustomIsolated. Todas las configuraciones de enlace que se hace referencia para esta propiedad se deben colocar en el formulario de la [ \<enlaces\> ](http://go.microsoft.com/fwlink/?LinkID=80878) elemento. 
-
-**Nota**  
-El **bindingConfiguration** atributo de la  **\<emisor\>**  el elemento debe hacer referencia a un nombre de enlace válido en esta propiedad. 
+La información de enlace, como la **\<emisor\>** (elemento) para la **wsFederationHttpBinding** y **customBinding** puede ser configurar a través de la **BindingConfiguration** propiedad de los adaptadores de WCF-Custom y WCF-CustomIsolated. Todas las configuraciones de enlace que se hace referencia para esta propiedad se deben colocar en el formulario de la [ \<enlaces\> ](http://go.microsoft.com/fwlink/?LinkID=80878) elemento. 
 
 **Nota**  
-El  **\<emisor\>**  elemento en las configuraciones de enlace que se hace referencia también puede hacer referencia a una configuración de enlace diferentes en esta propiedad si esta cadena de referencia no tiene una dependencia circular. 
+El **bindingConfiguration** atributo de la **\<emisor\>** el elemento debe hacer referencia a un nombre de enlace válido en esta propiedad. 
+
+**Nota**  
+El **\<emisor\>** elemento en las configuraciones de enlace que se hace referencia también puede hacer referencia a una configuración de enlace diferentes en esta propiedad si esta cadena de referencia no tiene una dependencia circular. 
 
 Ejemplo: 
 

@@ -80,7 +80,7 @@ En este paso, configurará un bidireccional **WCF-WebHttp** puerto de envío par
         |||  
         |-|-|  
         |**Propiedad**|Establecido en **BTS. ReceivePortName**|  
-        |**Operador**|Establecido en**==**|  
+        |**Operador**|Establecido en **==**|  
         |**Valor**|Establecido en`ReceivePortRestAzureMarketPlace`|  
   
     7.  Haga clic en **Aceptar**.  
