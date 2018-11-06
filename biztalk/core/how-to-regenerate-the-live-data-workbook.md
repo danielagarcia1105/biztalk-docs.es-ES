@@ -12,15 +12,15 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f6c62686c15c2e0b04576ca3175fb22d52a71922
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 7eda4dcb210f3d0272cdb0f04da8ae7d7ef2942d
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36987413"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753148"
 ---
 # <a name="regenerate-the-live-data-workbook"></a>Volver a generar el libro de datos en directo
-En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también es útil cuando está actualizando desde desde versiones anteriores de BizTalk Server.
+En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también es útil cuando se actualiza desde versiones anteriores de BizTalk Server.
   
  Los pasos generales son los siguientes:  
   

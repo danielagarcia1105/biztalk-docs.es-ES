@@ -12,12 +12,12 @@ caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 35b0aa77fc9b30d3f365cf48f084b7d46bdbbb1b
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: b0fd15de7aec81c046ab6b2fc23b6c63a1ec0615
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989245"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752708"
 ---
 # <a name="migrating-a-biztalk-server-project"></a>Migración de un proyecto de BizTalk Server
 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] los proyectos desarrollan para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pueden migrarse a los entornos más recientes mediante el uso de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversión. Para obtener una lista de las versiones de migración admitidos, consulte [rutas de actualización compatibles y guías de instalación](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx).  
@@ -36,7 +36,7 @@ ms.locfileid: "36989245"
 >  Proyectos de BizTalk ahora tienen dos tipos de compilación: **versión** y **depurar**, que reemplaza **desarrollo** y **implementación** de versiones anteriores versiones. Sin embargo, continuará ver el **desarrollo** y **implementación** configuraciones para los proyectos que se migran desde [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)].  
 > 
 > [!CAUTION]
->  Solo *.btproj y \*. son una copia de seguridad de archivos de proyecto btproj.user como resultado de elegir la copia de seguridad de la opción durante la conversión. Es necesario realizar una copia de seguridad manual de los demás archivos.  
+>  Solo el \*.btproj y \*. son una copia de seguridad de archivos de proyecto btproj.user como resultado de elegir la copia de seguridad de la opción durante la conversión. Es necesario realizar una copia de seguridad manual de los demás archivos.  
 > 
 > [!CAUTION]
 >  Las personalizaciones de elementos generados automáticamente, como los archivos XSD y ODX, se perderán durante la conversión. Esto se aplica a los archivos XSD generados cuando se agrega una referencia web también a un proyecto BizTalk.  

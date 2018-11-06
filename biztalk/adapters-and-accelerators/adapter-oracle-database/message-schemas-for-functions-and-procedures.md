@@ -15,12 +15,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a821de5ac4a05165f33fa7035880d239bd6892b
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: a0d44d12bab47aba1335261970a11199b86803a2
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37008581"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752884"
 ---
 # <a name="message-schemas-for-functions-and-procedures"></a>Esquemas de mensaje para funciones y procedimientos
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] funciones y procedimientos almacenados como operaciones de base de datos Oracle superficies. En esta sección se describe la estructura de mensaje y acciones que se usan para invocar funciones y procedimientos.  
@@ -33,19 +33,19 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] funciones y pro
 |Solicitud de procedimiento almacenado|`<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|Admite parámetros IN de Oracle y en espera en el cuerpo del mensaje|  
 |Respuesta de procedimiento almacenado|`<[SP_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure">   <[PRM1_NAME]>value1<[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|Admite los parámetros OUT de Oracle y en espera en el cuerpo del mensaje|  
 |Solicitud de función|`<[FN_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[FN_NAME]>`|Admite parámetros IN de Oracle y en espera en el cuerpo del mensaje|  
-|Respuesta de la función|`<[FN_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function">   <[FN_NAME]Result>return_value</[FN_NAME]Result>   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   …    </[FN_NAME]Response>`|Admite los parámetros OUT de Oracle y en espera en el cuerpo del mensaje<br /><br /> - El valor devuelto de función se devuelve en el \<[fn_name especial] resultado\> elemento. Este es el primer elemento en el mensaje de respuesta. Viene antes que los parámetros.|  
+|Respuesta de la función|`<[FN_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function">   <[FN_NAME]Result>return_value</[FN_NAME]Result>   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   …    </[FN_NAME]Response>`|Admite los parámetros OUT de Oracle y en espera en el cuerpo del mensaje<br /><br /> -El valor devuelto de función se devuelve en el `<[FN_NAME]Result\>` elemento. Este es el primer elemento en el mensaje de respuesta. Viene antes que los parámetros.|  
 |Procedimiento empaquetada o solicitud de función|`<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|Igual que la función o procedimiento almacenado|  
 |Procedimiento empaquetada o respuesta de la función|`<[SP_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|Igual que la función o procedimiento almacenado|  
 
- [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
+ `[SCHEMA]` = La recopilación de artefactos de Oracle; Por ejemplo, SCOTT.  
 
- [SP_NAME] = el procedimiento almacenado que se ejecutará; Por ejemplo, SP_INSERT.  
+ `[SP_NAME]` = El procedimiento almacenado que se ejecutará; Por ejemplo, SP_INSERT.  
 
- [Fn_name especial] = la función que se ejecutará; Por ejemplo, FN_GETID.  
+ `[FN_NAME]` = La función que se ejecutará; Por ejemplo, FN_GETID.  
 
- [PRM1_NAME] = el nombre del parámetro de Oracle. Consulte la columna de descripción de direcciones de parámetros admitidos para cada mensaje.  
+ `[PRM1_NAME]` = El nombre del parámetro de Oracle. Consulte la columna de descripción de direcciones de parámetros admitidos para cada mensaje.  
 
- [Nombre_del_paquete] = el nombre del paquete que contiene el destino del procedimiento o función.  
+ `[PACKAGE_NAME]` = El nombre del paquete que contiene el destino del procedimiento o función.  
 
  La base de datos de Oracle admite la sobrecarga de funciones y procedimientos almacenados. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con esta funcionalidad mediante la anexión de una cadena de sobrecarga para el espacio de nombres de destino para cada artefacto sobrecargado. El valor de esta cadena es "overload1" para la primera sobrecarga, "overload2" para la segunda sobrecarga y así sucesivamente. El ejemplo siguiente muestra la estructura del mensaje para dos procedimientos almacenados sobrecargados.  
 
@@ -71,26 +71,26 @@ Stored Procedure Overload 2:
 
 |               de mensaje                |                                              Acción                                              |                                          Ejemplo                                           |
 |--------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-|       Solicitud de procedimiento almacenado       |            http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]            |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT           |
-|      Respuesta de procedimiento almacenado       |       http://Microsoft.LobServices.OracleDB/2007/03/[esquema]/Procedure/[SP_NAME]/respuesta        |      http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/response      |
-|           Solicitud de función           |            http://Microsoft.LobServices.OracleDB/2007/03/[fn_name especial]/Function/[esquema]             |           http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID            |
-|          Respuesta de la función           |        http://Microsoft.LobServices.OracleDB/2007/03/[esquema]/Function/[fn_name especial] / respuesta        |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID/response       |
-|  Solicitud de empaquetado de procedimiento almacenado   |     http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]      |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT       |
-|  Empaqueta la respuesta del procedimiento almacenado  | http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/response |  http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT/response   |
-|      Solicitud de una función empaquetada       |     http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]      |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID        |
-|      Respuesta de la función empaquetada      | http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]/response |   http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID/response   |
-| Solicitud de procedimiento almacenado sobrecargado  |      http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]       |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1      |
-| Sobrecargar un procedimiento almacenado respuesta |  http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]/response  | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1/response |
+|       Solicitud de procedimiento almacenado       |            `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]`            |          `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT`           |
+|      Respuesta de procedimiento almacenado       |       `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/response`        |      `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/response`      |
+|           Solicitud de función           |            `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function/[FN_NAME]`             |           `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID`            |
+|          Respuesta de la función           |        `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function/[FN_NAME]/response`        |       `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID/response`       |
+|  Solicitud de empaquetado de procedimiento almacenado   |     `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]`      |       `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT`       |
+|  Empaqueta la respuesta del procedimiento almacenado  | `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/response` |  `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT/response`   |
+|      Solicitud de una función empaquetada       |     `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]`      |       `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID`        |
+|      Respuesta de la función empaquetada      | `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]/response` |   `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID/response`   |
+| Solicitud de procedimiento almacenado sobrecargado  |      `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]`       |     `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1`      |
+| Sobrecargar un procedimiento almacenado respuesta |  `http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]/response`  | `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1/response` |
 
- [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
+ `[SCHEMA]` = La recopilación de artefactos de Oracle; Por ejemplo, SCOTT.  
 
- [SP_NAME] = el procedimiento almacenado que se ejecutará; Por ejemplo, SP_INSERT.  
+ `[SP_NAME]` = El procedimiento almacenado que se ejecutará; Por ejemplo, SP_INSERT.  
 
- [Fn_name especial] = la función que se ejecutará; Por ejemplo, FN_GETID.  
+ `[FN_NAME]` = La función que se ejecutará; Por ejemplo, FN_GETID.  
 
- [Nombre_del_paquete] = el nombre del paquete que contiene el destino del procedimiento o función.  
+ `[PACKAGE_NAME]` = El nombre del paquete que contiene el destino del procedimiento o función.  
 
- [SOBRECARGAR] = sobrecargar el parámetro. Los valores posibles son overload1, overload2 y así sucesivamente.  
+ `[OVERLOAD]` = El parámetro de sobrecarga. Los valores posibles son overload1, overload2 y así sucesivamente.  
 
 ## <a name="see-also"></a>Vea también  
  [Mensajes y esquemas de mensaje para el adaptador de BizTalk para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

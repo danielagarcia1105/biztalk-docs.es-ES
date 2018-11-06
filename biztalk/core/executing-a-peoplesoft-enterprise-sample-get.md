@@ -12,17 +12,17 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b30627813b4790e5ab2e275d179773e0be41b6e
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: e1e4601264b8dc407d1cc1bed323b4d3504bc91d
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37001413"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753252"
 ---
 # <a name="execute-a-peoplesoft-enterprise-sample-get"></a>Ejecutar un ejemplo de obtención de PeopleSoft Enterprise
 Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de PeopleSoft. Este adaptador se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
   
- Esta es la segunda parte del trabajo práctico de PeopleSoft. En la primera parte (Práctica 1), obtuvo acceso manualmente a los datos y los modificó en el sistema PeopleSoft sin ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] u otra tecnología de Microsoft. En esta parte (Práctica 2), creará una orquestación de BizTalk como parte de un proyecto de BizTalk de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Configurará puertos en esta orquestación para usar el adaptador de PeopleSoft a fin de obtener datos de un sistema PeopleSoft.  
+ Esta es la segunda parte del trabajo práctico de PeopleSoft. En la primera parte (Práctica 1), obtuvo acceso manualmente a los datos y los modificó en el sistema PeopleSoft sin ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] u otra tecnología de Microsoft. En esta parte (Práctica 2), creará una orquestación de BizTalk como parte de un proyecto de BizTalk de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] . Configurará puertos en esta orquestación para usar el adaptador de PeopleSoft a fin de obtener datos de un sistema PeopleSoft.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
   
@@ -51,7 +51,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
 - Probar la aplicación y ver la salida XML  
   
 ## <a name="procedures-for-lab-2--executing-a-peoplesoft-sample-get"></a>Procedimientos para la práctica 2: ejecución de un método Get de ejemplo de PeopleSoft  
- Son necesarios dos archivos para obtener un acceso de interfaz adecuado a un sistema PeopleSoft: PSJOA.JAR y GET_CI_INFO.PC. En el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], el adaptador de PeopleSoft se comunica con el sistema PeopleSoft mediante el uso de la interfaz de PeopleSoft Java. Esta interfaz se suministra en el archivo PSJOA.JAR. Una copia de este archivo colocada en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procede normalmente del administrador del sistema PeopleSoft al que se está obteniendo acceso. En esta práctica existe una copia de PSJOA.JAR en la carpeta C:\PSJars\Ver841\ de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. La ubicación de este archivo se especifica en las propiedades de configuración del adaptador de PeopleSoft.  
+ Son necesarios dos archivos para obtener un acceso de interfaz adecuado a un sistema PeopleSoft: PSJOA.JAR y GET_CI_INFO.PC. En el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] , el adaptador de PeopleSoft se comunica con el sistema PeopleSoft mediante el uso de la interfaz de PeopleSoft Java. Esta interfaz se suministra en el archivo PSJOA.JAR. Una copia de este archivo colocada en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procede normalmente del administrador del sistema PeopleSoft al que se está obteniendo acceso. En esta práctica existe una copia de PSJOA.JAR en la carpeta C:\PSJars\Ver841\ de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. La ubicación de este archivo se especifica en las propiedades de configuración del adaptador de PeopleSoft.  
   
  En el propio sistema PeopleSoft debe instalarse una interfaz de componente (CI) personalizada. Esto permite al adaptador examinar objetos de PeopleSoft durante la configuración del adaptador. Se llama a la interfaz de componente personalizada (desde el paso Agregar elementos generados) para obtener una lista de objetos de PeopleSoft accesibles. Estos objetos determinan las funciones expuestas de PeopleSoft disponibles para el sistema cliente.  
   
@@ -68,7 +68,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 2. Confirme que el archivo get_ci_info.pc existe en el C:\Program Files\Microsoft carpeta BizTalk Adapters for Enterprise \Config.  
   
-3. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Configuración de plataforma**y, a continuación, expanda **adaptadores**. Asegúrese de que el adaptador de PeopleSoft está instalado y se encuentra en la lista.  
+3. En la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] , expanda sucesivamente **Raíz de consola**, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **Administración de**, **Grupo de BizTalk**, **Configuración de plataforma**y **Adaptadores**. Asegúrese de que el adaptador de PeopleSoft está instalado y se encuentra en la lista.  
   
     Si no está instalado el adaptador de PeopleSoft, instale los adaptadores de Microsoft BizTalk para aplicaciones empresariales (vea la sección anterior "Requisitos previos"). Una vez instalados los adaptadores, haga clic con el botón secundario en **Adaptadores** y, a continuación, haga clic en **Nuevo - Adaptador** para instalar el adaptador de PeopleSoft. Reinicie la instancia de host para que surta efecto.  
   
@@ -237,7 +237,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 4.  Seleccione el puerto **FileOut** y arrastre su flecha de recepción opuesta de entrada a la flecha de envío de salida en la forma **ToDisk** .  
   
-5.  Cambie el nombre de los mensajes genéricos existentes por nombres más descriptivos para adherirse a los principios de buen diseño de aplicaciones. En el Explorador de soluciones, haga clic en la pestaña **Vista orquestación** . En **mensajes**, cambie el identificador para **Message_1** a **PS_Msg**. Cambie el identificador para **Message_2** a **PS_Resp**.  
+5.  Cambie el nombre de los mensajes genéricos existentes por nombres más descriptivos para adherirse a los principios de buen diseño de aplicaciones. En el Explorador de soluciones, haga clic en la pestaña **Vista orquestación** . En Mensajes, cambie el identificador para **Message_1** a **PS_Msg**. Cambie el identificador para **Message_2** a **PS_Resp**.  
   
      ![](../core/media/5ec92b81-4a55-4d44-a360-78a6aaa64255.gif "5ec92b81-4a55-4d44-a360-78a6aaa64255")  
   
@@ -256,7 +256,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
 ## <a name="step-4-build-and-deploy-the-project"></a>Paso 4: Compilar e implementar el proyecto  
  Ahora, el proyecto de BizTalk está completo y puede generarlo e implementarlo en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-1.  En Visual Studio, apunte a **Visual Studio Tools**y, a continuación, seleccione Visual Studio símbolo **.  
+1.  En Visual Studio, apunte a **Visual Studio Tools**y, a continuación, seleccione **Visual Studio Command Prompt**.  
   
 2.  Para generar el proyecto, necesita un archivo de clave de nombre seguro. En el símbolo del sistema, escriba lo siguiente para crear un archivo de clave de nombre seguro:  
   

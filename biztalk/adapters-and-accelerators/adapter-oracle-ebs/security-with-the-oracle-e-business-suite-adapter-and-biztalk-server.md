@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ff35975566b8260453a2cc4ca9a576576f915fe
-ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
+ms.openlocfilehash: 066ee0946210bc313188de200e695a684138e560
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49401687"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752924"
 ---
 # <a name="security-with-the-oracle-e-business-suite-adapter-and-biztalk-server"></a>Seguridad con el adaptador de Oracle E-Business Suite y BizTalk Server
 Al configurar un puerto de envío o un puerto de recepción (ubicación) mediante el uso de la administración de BizTalk Server de la consola o utilizar el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para recuperar esquemas de mensaje para una solución de BizTalk, debe proporcionar las credenciales para Oracle E-Business Suite. Es importante proporcionar estas credenciales de una manera segura para ayudar a impedir que se revelen a actores malintencionados. Este tema describe cómo proporcionar una forma más segura de credenciales para el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] para soluciones de BizTalk Server.  
@@ -37,8 +37,8 @@ Al configurar un puerto de envío o un puerto de recepción (ubicación) mediant
   Para obtener más información acerca de cómo recuperar esquemas de mensaje mediante la [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], consulte [obtener metadatos para operaciones de Oracle E-Business Suite en Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md).  
   
 ## <a name="how-do-i-protect-credentials-when-i-configure-a-send-port-or-a-receive-location"></a>¿Cómo se puede proteger las credenciales cuando se configura un puerto de envío o una ubicación de recepción?  
- Soluciones de BizTalk usan el adaptador de Microsoft BizTalk WCF-Custom o WCF-Oracle EBS para consumir servicios WCF. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] es un enlace WCF que permite a los clientes consuman Oracle E-Business Suite como si fuese un servicio WCF. Soluciones de BizTalk consumen el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] a través de puertos de envío y ubicaciones de recepción que están configuradas para usar el adaptador de WCF-Custom o WCF-OracleEBS, que es, a su vez, configurado para utilizar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] como su transporte. Para obtener más información acerca de cómo configurar puertos de envío y los puertos de recepción (ubicaciones de recepción), incluido cómo configurar el adaptador WCF-Custom, vea [configurar un enlace de puerto físico mediante un archivo de enlace de puerto a la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-ebs.md).  
-  
+ Soluciones de BizTalk usan el adaptador de Microsoft BizTalk WCF-Custom o WCF-Oracle EBS para consumir servicios WCF. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] es un enlace WCF que permite a los clientes consuman Oracle E-Business Suite como si fuese un servicio WCF. Soluciones de BizTalk consumen el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] a través de puertos de envío y ubicaciones de recepción que están configuradas para usar el adaptador de WCF-Custom o WCF-OracleEBS, que es, a su vez, configurado para utilizar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] como su transporte. Para obtener más información acerca de cómo configurar puertos de envío y los puertos de recepción (ubicaciones de recepción), incluido cómo configurar el adaptador WCF-Custom, vea [configurar un enlace de puerto físico mediante un archivo de enlace de puerto a la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-ebs.md).  
+
  Configurar las credenciales de Oracle E-Business Suite desde la **credenciales** pestaña de la **propiedades de transporte WCF-Custom** cuadro de diálogo para puertos de envío o desde el **otros** pestaña de la **propiedades de transporte WCF-Custom** cuadro de diálogo para las ubicaciones de recepción. Dado que el adaptador de WCF-Custom o WCF-Oracle EBS admite el inicio de sesión único (SSO) empresarial, puede elegir proporcionar un nombre de usuario y una contraseña o aplicación en cualquiera de estas pestañas afiliado de SSO. Los temas siguientes describen ambas opciones.  
   
 ### <a name="user-name-password-credentials"></a>Credenciales de contraseña de nombre de usuario  

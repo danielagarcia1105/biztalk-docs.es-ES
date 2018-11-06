@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 40466e418c9d6f61d3043b057ca3a06395df7ed5
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1349bf374f90739cac9253784b87f65ed897ff33
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37015733"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753044"
 ---
 # <a name="known-issues-with-edi-and-as2-status-reporting"></a>Problemas conocidos de los informes de estado de EDI y AS2
 En este tema se describe problemas conocidos con el estado de EDI en BizTalk Server.  
@@ -104,7 +104,11 @@ En este tema se describe problemas conocidos con el estado de EDI en BizTalk Ser
   Por ejemplo, si el valor de ISA09 de un mensaje entrante contiene 991113, el informe de estado mostrará la fecha como 11/13/1999.  
   
 ## <a name="error-message-may-be-displayed-as-a-string-of-question-marks"></a>El mensaje de error puede mostrarse como cadena de signos de interrogación.  
- En las compilaciones de BizTalk Server localizadas, si un mensaje de error se muestra como cadena de signos de interrogación, es necesario cambiar la configuración regional del sistema según el idioma del sistema operativo para poder ver correctamente el mensaje de error esperado. Para obtener más información acerca de cómo cambiar la configuración regional del sistema, consulte [cambiar la configuración regional del sistema](http://windows.microsoft.com/en-IN/windows-vista/Change-the-system-locale).  
+ En las compilaciones de BizTalk Server localizadas, si un mensaje de error se muestra como cadena de signos de interrogación, es necesario cambiar la configuración regional del sistema según el idioma del sistema operativo para poder ver correctamente el mensaje de error esperado. Los pasos específicos varían según el sistema operativo (SO), pero los pasos siguientes pueden ser similares a su sistema operativo: 
+ 
+ 1. Vaya a **Panel de Control** > **reloj y región** > **región**.
+ 2. Seleccione el **ficha administrativa** > **idioma para programas no Unicode** > **configuración regional del sistema de cambio**.
+ 3. Elija su idioma > **Aceptar** > **Aceptar** para guardar los cambios.
   
 ## <a name="see-also"></a>Vea también  
  [Solución de problemas de soluciones EDI y AS2](../core/troubleshooting-edi-and-as2-solutions.md)   

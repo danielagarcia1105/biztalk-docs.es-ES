@@ -13,12 +13,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 708e9d3513c9d36e9a4aa28d607332e4c1aac077
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: e9c6f24ff4cb7060d0cddf29d82f4035d8407dca
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989373"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753196"
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>Importar la aplicación JD Edwards EnterpriseOne
   
@@ -45,7 +45,7 @@ Antes de usar BizTalk Server para importar un archivo de enlace, debe comprobar 
   
 -   Las carpetas para las respuestas existen y son idénticas en el equipo nuevo, o bien edite el archivo de enlace.  
   
--   Las contraseñas del sistema JD Edwards EnterpriseOne, si están presentes en la configuración, se guardan como ***** en el archivo de enlace. Para obtener más información, consulte **limitaciones** en este tema.
+-   Las contraseñas del sistema JD Edwards EnterpriseOne, si está presente en la configuración, se guardan como \* \* \* \* \* en el archivo de enlace. Para obtener más información, consulte **limitaciones** en este tema.
 
 ## <a name="clean-the-target-computer"></a>Limpiar el equipo de destino
 Al volver a implementar un archivo de enlace (y un ensamblado) en un equipo de destino, los puertos de envío y las ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se vuelven a importar.  
@@ -62,7 +62,7 @@ Por ejemplo, desde un símbolo del sistema, ejecute:
 cscript RemoveSendPort.vbs \<Send port name\>
 ```
 ## <a name="limitations"></a>Limitaciones
-La contraseña del adaptador de transporte se almacena como estrellas (*) en el archivo de enlace exportado por el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y pasa al componente de administración en el mismo formato. Edite el archivo de enlace antes de la importación al reemplazar los asteriscos por un valor aleatorio (es decir, una contraseña que no sea correcta).  
+La contraseña del adaptador de transporte se almacena como estrellas (\*\*\*\*\*\*) en el archivo de enlace exportado por el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y pasa al componente de administración en el formato de la misma. Edite el archivo de enlace antes de la importación al reemplazar los asteriscos por un valor aleatorio (es decir, una contraseña que no sea correcta).  
   
  Al exportar la información de enlace, el archivo de enlace resultante no contiene ninguna de las contraseñas usadas por los adaptadores de transporte en los puertos de envío o las ubicaciones de recepción. De este modo, se evita que la información de contraseña aparezca en texto no cifrado. La próxima vez que use el archivo para importar la información de enlace, deberá escribir las contraseñas a través de la interfaz de usuario de las páginas de propiedades de transporte.  
   

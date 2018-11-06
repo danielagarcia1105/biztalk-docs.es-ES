@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6be288e21657d447dd21bff06b5c3294f6f4a2c2
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 768b34b6b1a51768f1c0070c961749e1975015f9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37003709"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753060"
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>Costos de recursos del sistema en Hyper-V
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>Costos de recursos del sistema asociados que se ejecuta un sistema operativo invitado en Hyper-V  
@@ -123,13 +123,13 @@ ms.locfileid: "37003709"
   
  **Recopilados de Virtual_SQL01 y Physical_SQL01**:  
   
-- \LogicalDisk(*)\\\*  
+- \LogicalDisk (\*)\\\*  
   
-- \PhysicalDisk(*)\\\*  
+- \PhysicalDisk (\*)\\\*  
   
   **Recopilados de la máquina virtual de Hyper-V_02**:  
   
-- Dispositivo de almacenamiento virtual \Hyper-V\\*  
+- \\Dispositivo de almacenamiento Virtual de Hyper-V\\\*  
   
 ### <a name="results"></a>Resultado  
  El disco de acceso directo fue capaz de lograr más de 90% del rendimiento de los LUN de SAN conectado directamente a Physical_SQL01.  Total, lectura y escritura de E/s por segundo eran todo dentro de 10% como era el total de MB transferido por segundo.  Tiempos de respuesta para los discos en buen estado deben estar entre 1 y 15 ms para lectura y escritura. Los tiempos de respuesta promedio de E/S eran inferior a 4 ms en ambos discos. Tiempo de respuesta de lecturas aleatorias fue 5.4 ms en físico y 5.7 ms en el disco de acceso directo. Tiempo de respuesta de escritura es menor que 0,5 ms. en entornos físicos y virtuales.  

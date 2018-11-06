@@ -17,12 +17,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af0e81c5e2430dad50090637069713680c900d13
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 9caf8a7e8dafebbe3d53b751db34c8abc8d4bd62
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36994117"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752900"
 ---
 # <a name="streaming-large-object-data-types-in-oracle-database-adapter"></a>Hacer streaming de tipos de datos de objetos grandes en el adaptador de base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite streaming para tipos de datos de objetos grandes (LOB) de Oracle. Con el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] se invocan las operaciones y las respuestas se devuelven mediante el intercambio de mensajes SOAP. Un cuerpo del mensaje SOAP se compone de nodos XML.  
@@ -95,7 +95,7 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite streamin
   
 |Operación|Nodo de transmisión por secuencias|Valor del nodo de transmisión por secuencias|Descripción|  
 |---------------|--------------------|---------------------------|-----------------|  
-|Operación de inserción de tabla|Compatible*|No se admite entre el adaptador y la base de datos de Oracle. Compatible entre el cliente y adapter.*|Valor de nodo del extremo a otro de transmisión por secuencias no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se realiza la inserción. Sin embargo, es posible para las columnas LOB, si el cliente crea el mensaje con el valor del nodo entre el cliente y el adaptador de transmisión por secuencias un **BodyWriter**.|  
+|Operación de inserción de tabla|Admite\*|No se admite entre el adaptador y la base de datos de Oracle. Compatible entre el cliente y el adaptador.\*|Valor de nodo del extremo a otro de transmisión por secuencias no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se realiza la inserción. Sin embargo, es posible para las columnas LOB, si el cliente crea el mensaje con el valor del nodo entre el cliente y el adaptador de transmisión por secuencias un **BodyWriter**.|  
 |Operación de selección de tabla|Admitida|Admitida|El adaptador utiliza un **BodyWriter** para crear el mensaje de respuesta. Si el cliente consume el mensaje mediante un **XmlDictionaryWriter**, se produce el valor del nodo de transmisión por secuencias para las columnas LOB.|  
 |Operación de actualización de tabla|Admitida|No se admite entre el adaptador y la base de datos de Oracle. Compatible entre el cliente y el adaptador.|Streaming de valor de nodo-to-end no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se realiza la actualización. Sin embargo, es posible que las columnas LOB entre el cliente y el adaptador de transmisión por secuencias en el valor de nodo si el cliente crea el mensaje con un **BodyWriter**.|  
 |Operación de eliminación de tabla|Admitida|No se admite entre el adaptador y la base de datos de Oracle. Compatible entre el cliente y el adaptador.|Valor de nodo del extremo a otro de transmisión por secuencias no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se lleva a cabo la eliminación. Sin embargo, es posible que las columnas LOB entre el cliente y el adaptador de transmisión por secuencias en el valor de nodo si el cliente crea el mensaje con un **BodyWriter**.|  
@@ -117,7 +117,7 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite streamin
   
 |Operación|Nodo de transmisión por secuencias|Valor del nodo de transmisión por secuencias|Descripción|  
 |---------------|--------------------|---------------------------|-----------------|  
-|Operación de inserción de tabla|Compatible*|No se admite entre el adaptador y la base de datos de Oracle; Sin embargo, los datos se transmiten entre el servidor BizTalk Server y el adaptador.|Valor de nodo del extremo a otro de transmisión por secuencias no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se realiza la inserción. Sin embargo, se admite entre BizTalk Server y el adaptador de transmisión por secuencias en el valor de nodo para tipos de datos LOB porque el adaptador WCF-Custom crea el mensaje con un **BodyWriter**.|  
+|Operación de inserción de tabla|Admite\*|No se admite entre el adaptador y la base de datos de Oracle; Sin embargo, los datos se transmiten entre el servidor BizTalk Server y el adaptador.|Valor de nodo del extremo a otro de transmisión por secuencias no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se realiza la inserción. Sin embargo, se admite entre BizTalk Server y el adaptador de transmisión por secuencias en el valor de nodo para tipos de datos LOB porque el adaptador WCF-Custom crea el mensaje con un **BodyWriter**.|  
 |Operación de selección de tabla|Admitida|Admitida|El adaptador de WCF-Custom utiliza un **XmlDictionaryWriter** para consumir el mensaje de respuesta, por lo que se admite la transmisión por secuencias para tipos de LOB de valor de nodo-to-end.|  
 |Operación de actualización de tabla|Admitida|No se admite entre el adaptador y la base de datos de Oracle; Sin embargo, los datos se transmiten entre el servidor BizTalk Server y el adaptador.|Streaming de valor de nodo-to-end no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se realiza la actualización. Sin embargo, se admite entre BizTalk Server y el adaptador de transmisión por secuencias en el valor de nodo para tipos de datos LOB porque el adaptador WCF-Custom crea el mensaje con un **BodyWriter**.|  
 |Operación de eliminación de tabla|Admitida|No se admite entre el adaptador y la base de datos de Oracle; Sin embargo, los datos se transmiten entre el servidor BizTalk Server y el adaptador.|Valor de nodo del extremo a otro de transmisión por secuencias no se admite porque los valores de las columnas LOB se almacenan en búfer por ODP.NET y, a continuación, se lleva a cabo la eliminación. Sin embargo, se admite entre BizTalk Server y el adaptador de transmisión por secuencias en el valor de nodo para tipos de datos LOB porque el adaptador WCF-Custom crea el mensaje con un **BodyWriter**.|  

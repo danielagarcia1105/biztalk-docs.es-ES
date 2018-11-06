@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f94bb4b6a6f094211654f5c3c0964bbf84d42f56
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 648a1780e02e35d284a620f29cfd034765c4cc45
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989597"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752772"
 ---
 # <a name="install-custom-rfcs-for-the-data-provider-for-sap"></a>Instalar RFC personalizadas para el proveedor de datos para SAP
 Instale la RFC personalizadas si desea usar el proveedor de datos de .NET Framework para mySAP Business Suite para tener acceso al sistema SAP.
@@ -34,7 +34,7 @@ El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] req
   
 Para llevar a cabo estas operaciones en el sistema SAP, debe instalar estos RFC personalizadas en el sistema SAP. Si decide instalar la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] junto con el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], el programa de instalación copia el transporte RFC para el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] como un archivo comprimido (customRFC.zip) en el sistema donde se instala el adaptador. El archivo zip se instala normalmente en  *\<unidad de instalación\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft .NET Framework Data Provider para mySAP Business Suite*. 
   
- Después de extraer el archivo zip, encontrará cuatro archivos de datos, dos siguiendo la nomenclatura patrón K9 *. BI1 (por ejemplo, similar a K900534. BI1) y los otros dos siguiendo el patrón R9\*. BI1 (por ejemplo, similar a R900534. BI1).  
+ Después de extraer el archivo zip, encontrará cuatro archivos de datos, dos siguiendo la nomenclatura de patrón K9\*. BI1 (por ejemplo, similar a K900534. BI1) y los otros dos siguiendo el patrón R9\*. BI1 (por ejemplo, similar a R900534. BI1).  
   
 
   
@@ -42,11 +42,11 @@ Para llevar a cabo estas operaciones en el sistema SAP, debe instalar estos RFC 
   
    1.  Inicie sesión como administrador del sistema SAP R/3 al servidor de aplicaciones de SAP de su sistema de desarrollo.  
   
-   2.  Copie los archivos de dos transporte con el patrón de nomenclatura K9 *. BI1 desde el directorio de instalación en el equipo que ejecuta los adaptadores en el siguiente directorio en el servidor de aplicaciones de SAP:  
+   2.  Copie los archivos de dos transporte con el patrón de nomenclatura K9\*. BI1 desde el directorio de instalación en el equipo que ejecuta los adaptadores en el siguiente directorio en el servidor de aplicaciones de SAP:  
   
         `<drive>:\usr\sap\trans\cofiles`  
   
-   3.  Copie los archivos de dos transporte con el patrón de nomenclatura R9 *. BI1 desde el directorio de instalación en el equipo que ejecuta los adaptadores en el siguiente directorio en el servidor de aplicaciones de SAP:  
+   3.  Copie los archivos de dos transporte con el patrón de nomenclatura R9\*. BI1 desde el directorio de instalación en el equipo que ejecuta los adaptadores en el siguiente directorio en el servidor de aplicaciones de SAP:  
   
         `<drive>:\usr\sap\trans\data`  
   
@@ -139,7 +139,7 @@ Para llevar a cabo estas operaciones en el sistema SAP, debe instalar estos RFC 
   
   - ACTVT: 03  
   
-  - DICBERCLS: *  
+  - DICBERCLS: \*  
   
     Puede usar DICBERCLS para restringir la autorización a las tablas mediante la clase de autorización.  
   
@@ -152,7 +152,7 @@ Para llevar a cabo estas operaciones en el sistema SAP, debe instalar estos RFC 
   
   - ACTVT: 03  
   
-  - TABLA: *  
+  - TABLA: \*  
   
     Puede usar la tabla para definir explícitamente las tablas autorizadas. Observe también que S_TABU_DIS también se usa en otras transacciones.  
   

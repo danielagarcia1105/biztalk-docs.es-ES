@@ -13,12 +13,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3713ee7906d735b6328b50d3b97a214422893d21
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: c2a825158f43ea085fd0e84aeb15001ea88b6d7f
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36970221"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752780"
 ---
 # <a name="use-settings-dashboard-to-import-or-export-biztalk-settings"></a>Utilice el panel de configuraciones para importar o exportar la configuración de BizTalk 
 
@@ -111,7 +111,7 @@ Mediante el Panel de valores de configuración de BizTalk, puede exportar la con
 3. Desplácese hasta la ubicación en que desea guardar la configuración de BizTalk actual. Escriba el nombre de archivo, seleccione el tipo como formato XML y, a continuación, haga clic en **guardar**.  
 
 > [!IMPORTANT]
->  No no se recomienda actualizar manualmente el archivo XML exportado. Al importar un archivo XML actualizado en un entorno de producción, el proceso de importación puede producir un error debido a algún error de coincidencia de tipo de datos u otros errores introducidos por la edición manual.  
+>  No se recomienda actualizar manualmente el archivo XML exportado. Al importar un archivo XML actualizado en un entorno de producción, el proceso de importación puede producir un error debido a algún error de coincidencia de tipo de datos u otros errores introducidos por la edición manual.  
 
 ## <a name="see-also"></a>Vea también  
  [Uso del panel de configuración para ajustar el rendimiento de BizTalk Server](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

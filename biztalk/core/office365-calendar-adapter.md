@@ -11,12 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: ribarua
 manager: dougeby
-ms.openlocfilehash: ab724870e9c75a60119e86f7f62d6823f1db9873
-ms.sourcegitcommit: e7609c319b64ec20bf215d17aa5ac4f9dcae52ec
+ms.openlocfilehash: 6787ece4af5ebdd17733dde33ae524f2c9b802e8
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36946222"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752652"
 ---
 # <a name="create-calendar-events-with-the-office-365-outlook-calendar-adapter---biztalk-server"></a>Crear eventos de calendario con el adaptador de calendario de Office 365 Outlook - servidor BizTalk Server
 
@@ -59,7 +59,7 @@ Utilice el adaptador de calendario de Outlook de Office 365 en BizTalk Server pa
 
 Puede usar un simple archivo de puerto de recepción y ubicación para crear un evento en su calendario de Outlook de Office 365.
 
-1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\Temp\In\** y establece la máscara de archivo en  **\*.xml**.
+1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\\Temp\\en\\**y establece la máscara de archivo en  **\*.xml**.
 2. En el adaptador de calendario de Outlook de Office 365 propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Pegue lo siguiente en un editor de texto y guarde el archivo como **Office365Calendar.xml**. Este es el mensaje de ejemplo.
 
@@ -123,7 +123,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para crear un 
 
 Puede usar un puerto de envío de archivos simple para recibir mensajes desde su calendario de Outlook de Office 365.
 
-1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\Temp\Out\** y establezca el y **nombre de archivo** a **%MessageID%.xml** .
+1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\\Temp\\Out\\**y establezca el y **nombre de archivo** a **%MessageID%.xml**.
 2. En el archivo de propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Inicio del calendario de Outlook de Office 365 ubicación de recepción y el puerto de envío de archivo.
 4. Buscar mensajes en la carpeta de destino (c:\temp\out). 

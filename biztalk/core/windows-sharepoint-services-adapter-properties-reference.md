@@ -1,5 +1,5 @@
 ---
-title: Referencia de propiedades de adaptador de Windows SharePoint Services | Documentos de Microsoft
+title: Referencia de las propiedades de adaptador de servicios de Windows SharePoint | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,49 +7,17 @@ ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords:
-- ConfigCustomTemplatesDocLib property [Windows SharePoint Services adapters]
-- InFileSize property [Windows SharePoint Services adapters]
-- InIconUrl property [Windows SharePoint Services adapters]
-- InOfficeIntegration property [Windows SharePoint Services adapters]
-- code samples, Windows SharePoint Services adapters
-- Windows SharePoint Services adapters, properties
-- ConfigCustomTemplatesNamespaceCol property [Windows SharePoint Services adapters]
-- configuring [Windows SharePoint Services adapters], properties
-- ConfigTemplatesDocLib property [Windows SharePoint Services adapters]
-- InPropertiesXml property [Windows SharePoint Services adapters]
-- InItemId property [Windows SharePoint Services adapters]
-- InListName property [Windows SharePoint Services adapters]
-- InArchivedMsgUrl property [Windows SharePoint Services adapters]
-- Filename property [Windows SharePoint Services adapters]
-- InListUrl property [Windows SharePoint Services adapters]
-- ConfigTemplatesNamespaceCol property [Windows SharePoint Services adapters]
-- InLastModifiedBy property [Windows SharePoint Services adapters]
-- ConfigOverwrite property [Windows SharePoint Services adapters]
-- ConfigPropertiesXml property [Windows SharePoint Services adapters]
-- TransmittedFileLocation property [Windows SharePoint Services adapters]
-- InTitle property [Windows SharePoint Services adapters]
-- Windows SharePoint Services adapters, code samples
-- InCreated property [Windows SharePoint Services adapters]
-- InCreatedBy property [Windows SharePoint Services adapters]
-- InLastModified property [Windows SharePoint Services adapters]
-- URL property [Windows SharePoint Services adapters]
-- InEditUrl property [Windows SharePoint Services adapters]
-- ConfigOfficeIntegration property [Windows SharePoint Services adapters]
-- ConfigTimeout property [Windows SharePoint Services adapters]
-- ConfigNamespaceAliases property [Windows SharePoint Services adapters]
-- ConfigAdapterWSPort property [Windows SharePoint Services adapters]
 ms.assetid: c64c43ac-05bb-427c-987a-71663ae8e43d
 caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 691708378d778eb0c91be73fe2b775d5bfd27cfd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b5d3992f96f99e9c8164ab7c5190e289eb347cbb
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22291756"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753068"
 ---
 # <a name="windows-sharepoint-services-adapter-properties-reference"></a>Referencia a las propiedades del adaptador de Windows SharePoint Services
 Las siguientes propiedades del adaptador de Windows SharePoint Services se promocionan en BizTalk Server o se utilizan para especificar opciones de configuración de puerto de envío para los mensajes salientes. Las propiedades pueden utilizarse para tener acceso a información de Windows SharePoint Services relativa al mensaje, o para proporcionar al adaptador de Windows SharePoint Services información procedente de una orquestación.  
@@ -74,19 +42,19 @@ Las siguientes propiedades del adaptador de Windows SharePoint Services se promo
   
 ## <a name="property-types"></a>Tipos de propiedades  
   
-|Tipo de propiedad|Description|  
+|Tipo de propiedad|Descripción|  
 |-------------------|-----------------|  
-|**IN**|Las propiedades IN son propiedades de BizTalk Server que obtienen su valor de Windows SharePoint Services. **Nota:** no se deben modificar estas propiedades de orquestaciones.|  
+|**IN**|Las propiedades IN son propiedades de BizTalk Server que obtienen su valor de Windows SharePoint Services. **Nota:** no debe modificar estas propiedades en las orquestaciones.|  
 |**CONFIGURACIÓN**|Las propiedades CONFIG son propiedades que obtienen su valor a partir de orquestaciones o canalizaciones personalizadas de BizTalk. Este valor lo utiliza el adaptador de Windows SharePoint Services al determinar el destino de los mensajes salientes. Las propiedades CONFIG permiten especificar el valor de algunas de las propiedades de una orquestación o canalización personalizada que, en otro caso, tendrían que definirse en el puerto de envío. Las propiedades que no empiezan por IN o CONFIG son al mismo tiempo IN y CONFIG, excepto en el caso de la propiedad URL.|  
-|**PROMUEVE**|Las propiedades PROMOTED pueden utilizarse para el enrutamiento por contenidos (CBR). Las propiedades no marcadas como PROMOTED no pueden ser utilizadas por CBR. **Nota:** aunque todas las propiedades de adaptador aparecen en el editor de filtro CBR, sólo las propiedades promocionadas pueden usarse para CBR.|  
+|**PROMOCIONADA**|Las propiedades PROMOTED pueden utilizarse para el enrutamiento por contenidos (CBR). Las propiedades no marcadas como PROMOTED no pueden ser utilizadas por CBR. **Nota:** aunque todas las propiedades de adaptador aparecen en el editor de filtro CBR, sólo las propiedades promocionadas pueden usarse para CBR.|  
 |**ESPECIAL**|N/D|  
   
 > [!NOTE]
->  Todas las propiedades existen en el espacio de nombres http://schemas.microsoft.com/BizTalk/2006/WindowsSharePointServices-properties, y se puede obtener acceso a ellas desde una orquestación o un filtro de puerto de envío utilizando la sintaxis `WSS.<WSS_Property_Name>`.  
+>  Todas las propiedades que existen en el `http://schemas.microsoft.com/BizTalk/2006/WindowsSharePointServices-properties` espacio de nombres y son accesibles desde un orquestación o puerto de envío de filtro mediante la `WSS.<WSS_Property_Name>` sintaxis.  
   
 ## <a name="property-list"></a>Lista de propiedades  
   
-|Columna estándar de Windows SharePoint Services|Nombre y tipo de propiedad de Windows SharePoint Services|Tipo|Description|Tipo de propiedad|  
+|Columna estándar de Windows SharePoint Services|Nombre y tipo de propiedad de Windows SharePoint Services|Tipo|Descripción|Tipo de propiedad|  
 |-------------------------------------------------|--------------------------------------------------------|----------|-----------------|-------------------|  
 |Nombre|Nombre de archivo|xs:string|Nombre de archivo con extensión de archivo de Windows SharePoint Services. Los nombres de archivo, incluidas las extensiones, son exclusivos en cada biblioteca de documentos.|IN/CONFIG/ PROMOTED|  
 |N/D|Url|xs:string|URL del archivo.|IN/PROMOTED|  
@@ -96,25 +64,25 @@ Las siguientes propiedades del adaptador de Windows SharePoint Services se promo
 |Title|InTitle|xs:string|Título del archivo de Windows SharePoint Service. El título es distinto del nombre de archivo. Los títulos no tienen que ser exclusivos para cada biblioteca de documentos.|IN/PROMOTED|  
 |Modificado|InLastModified|xs:dateTime|Fecha de la última de modificación de Windows SharePoint Service.|IN/PROMOTED|  
 |Modificado por|InLastModifiedBy|xs:string|Nombre del último usuario que modificó el archivo.|IN/PROMOTED|  
-|ID|InItemId|xs:int|El identificador del archivo. Se trata de un número entero, exclusivo para cada biblioteca de documentos, y que puede utilizarse para tener acceso al archivo.|IN|  
+|Id.|InItemId|xs:int|El identificador del archivo. Se trata de un número entero, exclusivo para cada biblioteca de documentos, y que puede utilizarse para tener acceso al archivo.|IN|  
 |Editar|InEditUrl|xs:string|URL a la que se puede tener acceso para editar las propiedades del archivo.|IN|  
 |Creado|InCreated|xs:dateTime|Fecha en que se creó el archivo de Windows SharePoint Service.|IN/PROMOTED|  
 |Creado por|InCreatedBy|xs:string|Usuario que creó el archivo.|IN/PROMOTED|  
 |Tamaño de archivo|InFileSize|xs:int|Tamaño del archivo de Windows SharePoint Services.|IN|  
 |N/D|InListName|xs:string|Nombre de la biblioteca de documentos donde se encuentra ubicado el archivo.|IN/PROMOTED|  
 |N/D|InListUrl|xs:string|URL de la biblioteca de documentos, o carpeta de la biblioteca de documentos en la que se encuentra ubicado el archivo.|IN|  
-|N/D|InPropertiesXml|xs:string|Documento XML sin formato que contiene todas las columnas estándar y definidas por el usuario de Windows SharePoint Services. Permite tener acceso a cualquier valor de columna de Windows SharePoint Services procedente de una orquestación, incluso a los valores de las columnas definidas por el usuario. **Nota:** no tiene el límite de 16 columnas. **Nota:** ver el valor InPropertiesXml de ejemplo en la sección siguiente de este tema.|IN|  
+|N/D|InPropertiesXml|xs:string|Documento XML sin formato que contiene todas las columnas estándar y definidas por el usuario de Windows SharePoint Services. Permite tener acceso a cualquier valor de columna de Windows SharePoint Services procedente de una orquestación, incluso a los valores de las columnas definidas por el usuario. **Nota:** no tiene la limitación de 16 columnas. **Nota:** ver el valor InPropertiesXml de ejemplo en la sección siguiente de este tema.|IN|  
 |N/D|InOfficeIntegration|xs:string|Se basa en el valor de la ubicación de recepción. Esto es `yes`, `no` o `optional`.|IN|  
-|N/D|ConfigOverwrite|xs:string|"Sí" sobrescribe los archivos ya existentes con el mismo nombre. "No" genera un error si existe un archivo con el mismo nombre. "Cambiar nombre" cambia el nombre de archivo por un nombre exclusivo, anexándole una secuencia exclusiva. **Nota:** es similar del campo "Sobrescribir" para puertos de envío físicos. **Nota:** 'Orquestación' no es un valor válido para este campo.|CONFIG|  
+|N/D|ConfigOverwrite|xs:string|"Sí" sobrescribe los archivos ya existentes con el mismo nombre. "No" genera un error si existe un archivo con el mismo nombre. "Cambiar nombre" cambia el nombre de archivo por un nombre exclusivo, anexándole una secuencia exclusiva. **Nota:** esto es similar del campo 'Sobrescribir' para puertos de envío físicos. **Nota:** 'Orquestación' no es un valor válido para este campo.|CONFIG|  
 |N/D|ConfigNamespaceAliases|xs:string|Definiciones de alias de los XPATH.|CONFIG|  
-|N/D|ConfigOfficeIntegration|xs:string|Defínalo como 'Sí' si es necesario llamar a OfficeImporters. Defínalo como “No” para utilizar el mensaje tal como está. “Opcional” equivale a “Sí” cuando se encuentra la solución IP, y a “No” en caso contrario. **Nota:** es similar del campo 'Integración con Microsoft Office' para puertos de envío físicos. **Nota:** 'Orquestación' no es un valor válido para este campo.|CONFIG|  
-|N/D|ConfigTemplatesDocLib|xs:string|Nombre de la biblioteca de documentos de reserva. Es la segunda ubicación de búsqueda. **Nota:** es similar del campo de la biblioteca de documentos de reserva de plantillas para puertos de envío físicos.|CONFIG|  
-|N/D|ConfigTemplatesNamespaceCol|xs:string|Nombre de columna de espacio de nombres de la biblioteca de documentos de reserva. **Nota:** es similar del campo 'Columna Namespace de reserva de plantillas' para puertos de envío físicos.|CONFIG|  
-|N/D|ConfigCustomTemplatesDocLib|xs:string|Nombre de la biblioteca de documentos principales. Es la primera ubicación de búsqueda. **Nota:** es similar del campo de la biblioteca de documentos de plantillas para puertos de envío físicos.|CONFIG|  
-|N/D|ConfigCustomTemplatesNamespaceCol|xs:string|Nombre de columna de espacio de nombres de la biblioteca de documentos principales. **Nota:** es similar al campo columna de Namespace de plantillas para puertos de envío físicos.|CONFIG|  
-|N/D|ConfigPropertiesXml|xs:string|Documento XML sin formato que contiene todos los nombres de columna de Windows SharePoint Services, así como los valores que van a actualizarse en Windows SharePoint Services. Permite a un programador de orquestaciones definir los valores de columnas de SharePoint del próximo mensaje que se cree en SharePoint. **Nota:** es similar a la funcionalidad disponible a través de la columna n y puertos de envío de campos de columna n valor para física. **Nota:** tiene un límite de 16 columnas. **Nota:** ver el valor de ConfigPropertiesXml de ejemplo más adelante en este tema.|CONFIG|  
+|N/D|ConfigOfficeIntegration|xs:string|Defínalo como 'Sí' si es necesario llamar a OfficeImporters. Defínalo como “No” para utilizar el mensaje tal como está. “Opcional” equivale a “Sí” cuando se encuentra la solución IP, y a “No” en caso contrario. **Nota:** esto es similar del campo 'Integración con Microsoft Office' para puertos de envío físicos. **Nota:** 'Orquestación' no es un valor válido para este campo.|CONFIG|  
+|N/D|ConfigTemplatesDocLib|xs:string|Nombre de la biblioteca de documentos de reserva. Es la segunda ubicación de búsqueda. **Nota:** esto es similar del campo de la biblioteca de documentos de reserva de plantillas para puertos de envío físicos.|CONFIG|  
+|N/D|ConfigTemplatesNamespaceCol|xs:string|Nombre de columna de espacio de nombres de la biblioteca de documentos de reserva. **Nota:** esto es similar del campo 'Columna Namespace de reserva de plantillas' para puertos de envío físicos.|CONFIG|  
+|N/D|ConfigCustomTemplatesDocLib|xs:string|Nombre de la biblioteca de documentos principales. Es la primera ubicación de búsqueda. **Nota:** esto es similar al campo biblioteca de documentos de plantillas para puertos de envío físicos.|CONFIG|  
+|N/D|ConfigCustomTemplatesNamespaceCol|xs:string|Nombre de columna de espacio de nombres de la biblioteca de documentos principales. **Nota:** esto es similar del campo de columna Namespace de plantillas para puertos de envío físicos.|CONFIG|  
+|N/D|ConfigPropertiesXml|xs:string|Documento XML sin formato que contiene todos los nombres de columna de Windows SharePoint Services, así como los valores que van a actualizarse en Windows SharePoint Services. Permite a un programador de orquestaciones definir los valores de columnas de SharePoint del próximo mensaje que se cree en SharePoint. **Nota:** esto es similar a la funcionalidad disponible a través de la columna n y puertos de envío de campos de columna n valor para máquina física. **Nota:** tiene un límite de 16 columnas. **Nota:** ver el valor ConfigPropertiesXml de ejemplo más adelante en este tema.|CONFIG|  
 |N/D|ConfigTimeout|xs:int|Tiempo de espera en milisegundos para llamadas a servicio Web.|CONFIG|  
-|N/D|ConfigAdapterWSPort|xs:int|Puerto o sitio Web de IIS en el que se ha instalado y configurado el adaptador. **Nota:** un valor de configuración de puerto no válido en una orquestación, suspenderá el mensaje incluso si el valor del puerto de envío físico invalida el valor de la orquestación definido.|CONFIG|  
+|N/D|ConfigAdapterWSPort|xs:int|Puerto o sitio Web de IIS en el que se ha instalado y configurado el adaptador. **Nota:** un valor de configuración de puerto no válido en una orquestación suspenderá el mensaje incluso si el valor del puerto de envío físico invalida el valor de la orquestación definido.|CONFIG|  
   
 ## <a name="sample-inpropertiesxml"></a>InPropertiesXml de ejemplo  
  A continuación se muestra un XML de ejemplo para InPropertiesXml.  
@@ -192,4 +160,4 @@ Las siguientes propiedades del adaptador de Windows SharePoint Services se promo
  [Cómo configurar un puerto de envío de Windows SharePoint Services](../core/how-to-configure-a-windows-sharepoint-services-send-port.md)   
  [Cómo crear un puerto de envío](../core/how-to-create-a-send-port2.md)   
  [Expresiones del adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-expressions.md)   
- [Admite los tipos de columna de Windows SharePoint Services](../core/supported-windows-sharepoint-services-column-types.md)
+ [Tipos de columna admitidos de Windows SharePoint Services](../core/supported-windows-sharepoint-services-column-types.md)

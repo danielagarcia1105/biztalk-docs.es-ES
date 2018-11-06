@@ -12,12 +12,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ea447687ab6b5eeaacf990acb5467e3f67adc60
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 35e34692c0ae64385c4f7d81dc92e82aee6ae88a
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36991677"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753012"
 ---
 # <a name="step-3d-enabling-biztalk-server-to-send-and-receive-messages-from-salesforce"></a>Paso 3d: Habilitar BizTalk Server para enviar y recibir mensajes desde Salesforce
 Debemos autenticarnos en Salesforce cuando enviamos mensajes con la interfaz REST. Los métodos de autenticación para llamadas REST que admite Salesforce no están disponibles listos para usar con el adaptador WCF-WebHttp, que es el que usaremos para invocar a la interfaz REST de Salesforce. Por tanto, vamos a crear un comportamiento de extremo WCF personalizado y lo asociaremos al adaptador de envío WCF-WebHttp que configuraremos para invocar a la interfaz REST de Salesforce.  
@@ -67,7 +67,7 @@ Debemos autenticarnos en Salesforce cuando enviamos mensajes con la interfaz RES
   
 4. Agregue una clase `SalesforceRESTSecurityBehavior` que implemente `IClientMessageInspector` y `IEndpointBehavior`. Esta clase incluye los métodos `HttpPost()` y `FetchOAuthToken()` que realizan una llamada HTTP POST al extremo de autenticación de Salesforce para recuperar el token de autorización.  
   
-    Puesto que la clase `SalesforceRESTSecurityBehavior` implementa la interfaz `IClientMessageInspector`, debe implementar los dos métodos, `AfterReceiveReply()` y `BeforeSendRequest()`. Para este escenario, no es necesario hacer nada más con el método `AfterReceiverReply()`. Sin embargo, el método `BeforeSendRequest()` invoca al método `FetchOAuthToken()` que, a su vez, llama al método `HttpPost()`. El método `BeforeSendRequest()` agrega entonces el token de autorización como parte del encabezado del mensaje. También agrega el **Accept** encabezado para garantizar que la respuesta recibida de Salesforce está en un formato XML.  
+    Puesto que la clase `SalesforceRESTSecurityBehavior` implementa la interfaz `IClientMessageInspector`, debe implementar los dos métodos, `AfterReceiveReply()` y `BeforeSendRequest()`. Para este escenario, no es necesario hacer nada más con el método `AfterReceiverReply()`. Sin embargo, el método `BeforeSendRequest()` invoca al método `FetchOAuthToken()` que, a su vez, llama al método `HttpPost()`. El método `BeforeSendRequest()` agrega entonces el token de autorización como parte del encabezado del mensaje. También agrega el **Accept** encabezado para garantizar que la respuesta recibida de Salesforce está en formato XML.  
   
     La implementación de `IEndpointBehavior` simplemente agrega la clase del inspector de mensajes al comportamiento de extremo del cliente.  
   

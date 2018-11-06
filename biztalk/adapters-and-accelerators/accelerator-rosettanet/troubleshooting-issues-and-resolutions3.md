@@ -14,12 +14,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad2e2db5e7d4d8c8181248f9345f1df2cca4a6dd
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ab1f869d8d7c06260a1f7f8388991a0e18a2ff09
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36985101"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50758699"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a>Solución de problemas: Problemas y soluciones
 Este tema tratan los problemas relacionados con la ejecución Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. La persona que emite detalle un síntoma específico, una causa posible y una solución.  
@@ -216,7 +216,7 @@ Este tema tratan los problemas relacionados con la ejecución Microsoft® [!INCL
   
     ```  
     cd %ProgramFiles%\Microsoft BizTalk Server <version>\Tracking  
-    bm deploy all  "%ProgramFiles%\Microsoft BizTalk <version> Accelerator for RosettaNet\BAMTracking\tracking.xml"  
+    bm deploy all  "%ProgramFiles%\Microsoft BizTalk <version> Accelerator for RosettaNet\BAMTracking\tracking.xml"  
     ```  
   
 ## <a name="you-receive-an-error-when-adding-a-new-pip"></a>Recibe un error al agregar un PIP nuevo  
@@ -329,7 +329,7 @@ Este tema tratan los problemas relacionados con la ejecución Microsoft® [!INCL
   
  1. Habilitar los grupos de aplicaciones de BTARN para 32 bits.  
   
- 2. Agregue un controlador HTTP para *.dll que los filtros IsapiModule hace referencia.  
+ 2. Agregar un controlador HTTP para \*.dll que hacen referencia los filtros IsapiModule.  
   
 ## <a name="see-also"></a>Vea también  
  [BtarnClean](../../adapters-and-accelerators/accelerator-rosettanet/btarnclean.md)   

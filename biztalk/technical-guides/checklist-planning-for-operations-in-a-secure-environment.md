@@ -12,15 +12,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9caa74fbd3e9ac06728a9e2ee332bb3277f8a240
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: fb882531141114842983ca93be9d799898ecefdf
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36995925"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753116"
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a>Lista de comprobación: Planificación de operaciones en un entorno seguro
-Ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno seguro requiere pasos adicionales para la implementación y configuración. Mientras que las instalaciones de sistema operativo predeterminada no necesitan realizar estos elementos en la cuenta, pero en escenarios donde se han aplicado las directivas de seguridad restrictiva, debe tomar en cuenta la información de esta sección. El nivel de restricción se aplica a los servidores puede variar, pero información a continuación debe cubrir la mayoría de los casos y sería un buen punto de partida.  
+Ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno seguro requiere pasos adicionales para la implementación y configuración. Mientras que las instalaciones de sistema operativo predeterminada no necesitan realizar estos elementos en la cuenta, pero en escenarios donde se han aplicado las directivas de seguridad restrictiva, debe tomar en cuenta la información de esta sección. El nivel de restricción que se aplica a los servidores puede variar pero información a continuación debería cubrir la mayoría de los casos y sería un buen punto de partida.  
 
 -   [Consideraciones de seguridad para equipos que ejecutan BizTalk Server](../technical-guides/checklist-planning-for-operations-in-a-secure-environment.md#BKMK_BTSSec)  
 

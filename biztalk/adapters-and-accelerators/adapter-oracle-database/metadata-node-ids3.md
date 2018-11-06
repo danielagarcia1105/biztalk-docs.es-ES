@@ -13,67 +13,203 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a131cc8e70311f6f57154b90e98ea1067ec5dc02
-ms.sourcegitcommit: 51ce182c5b71d3999a3920dd884bc9ec8334a899
+ms.openlocfilehash: 53fd454b644cea6c509ec167740bd5e3c2bebb1a
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "36969661"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752541"
 ---
 # <a name="node-types-and-ids-for-the-oracle-database-adapter"></a>Tipos de nodo e identificadores para el adaptador de base de datos de Oracle
 
 ## <a name="metadata-node-types-and-ids"></a>Identificadores y tipos de nodo de metadatos 
 El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies de Oracle de base de datos los artefactos de forma jerárquica. La tabla siguiente enumeran los tipos de nodo e identificadores de nodo para los artefactos de base de datos de Oracle que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies. El identificador de nodo es la ruta de acceso absoluta del nodo que se usa en el **IMetadataRetrievalContractBrowse**, **búsqueda**, y **GetMetadata** métodos.  
 
+**Nombre de presentación de artefacto:--**  
+Tipo de nodo: categoría  
+Id. de nodo: /  
+Ejemplo: /  
+Descripción: [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] nodo raíz. Devuelve todos los nodos de primer nivel; Esto incluye todos los nodos de esquema, el nodo de operación POLLINGSTMT y el nodo de operación SQLEXECUTE
 
-| Nombre de presentación de artefacto | Tipo de nodo |                           Id. de nodo                           |                                        Ejemplo                                         |                                                                                                     Descripción                                                                                                     |
-|-----------------------|-----------|-------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          --           | CATEGORÍA  |                              /                              |                                           /                                            | [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] nodo raíz. Devuelve todos los nodos de primer nivel; Esto incluye todos los nodos de esquema, el nodo de operación POLLINGSTMT y el nodo de operación SQLEXECUTE |
-|      SQLEXECUTE       | OPERATION |                    [VERSIÓN] / SQLEXECUTE                     |                http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE                |                                                                        Nodo de operación SQLEXECUTE. Devuelve el WSDL para la operación SQLEXECUTE.                                                                        |
-|      POLLINGSTMT      | OPERATION |                    [VERSIÓN] / POLLINGSTMT                    |               http://Microsoft.LobServices  OracleDB/2007/03/POLLINGSTMT               |                                                                       Nodo de operación POLLINGSTMT. Devuelve el WSDL para la operación POLLINGSTMT.                                                                       |
-|      [DB_SCHEMA]      | CATEGORÍA  |                    [VERSIÓN] / [DB_SCHEMA]                    |                  http://Microsoft.LobServices.OracleDB/2007/03/SCOTT                   |                                                Nodo de esquema. Devuelve los nodos de categoría general (tabla, vista, procedimiento, función y paquete) para el esquema especificado.                                                |
-|         Table         | CATEGORÍA  |                 [Versión] / [DB_SCHEMA] / Table                 |               http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table                |                                                                        Nodo de tablas del esquema. Devuelve todos los nodos de tabla para el esquema especificado.                                                                        |
-|      [DB_TABLE]       | CATEGORÍA  |           [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE]            |             http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP              |      Nodo de la tabla. Devuelve todos los nodos de operación (Insert, Select, Update, Delete, ReadLOB y UpdateLOB) de la tabla especificada. (ReadLOB y UpdateLOB son solo devuelve las tablas que contienen una columna LOB.)      |
-|        Insert         | OPERATION |        [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / inserción        |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert          |                                                             Nodo de operación de inserción de tabla. Devuelve el WSDL para la operación de inserción de la tabla especificada.                                                             |
-|        Select         | OPERATION |        [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / seleccione        |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select          |                                                             Nodo de operación de selección de tabla. Devuelve el WSDL para la operación de selección de la tabla especificada.                                                             |
-|        Update         | OPERATION |        [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / actualizar        |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update          |                                                             Nodo de operación de actualización de la tabla. Devuelve el WSDL para la operación de actualización de la tabla especificada.                                                             |
-|        DELETE         | OPERATION |        [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / Delete        |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete          |                                                             Nodo de operación de eliminación de tabla. Devuelve el WSDL para la operación de eliminación de la tabla especificada.                                                             |
-|        ReadLOB        | OPERATION |       [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / ReadLOB        |         http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/ReadLOB          |                                  Nodo de operación ReadLOB de la tabla. Devuelve el WSDL de la operación ReadLOB para la tabla especificada. (Solo aparece si la tabla contiene una columna LOB.)                                  |
-|       UpdateLOB       | OPERATION |      [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / UpdateLOB       |        http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/UpdateLOB         |                                Nodo de operación UpdateLOB de la tabla. Devuelve el WSDL de la operación UpdateLOB para la tabla especificada. (Solo aparece si la tabla contiene una columna LOB.)                                |
-|         Ver          | CATEGORÍA  |                 [Versión] / [DB_SCHEMA] / View                  |                http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View                |                                                                         Nodo de las vistas de esquema. Devuelve todos los nodos de la vista para el esquema especificado.                                                                         |
-|       [DB_VIEW]       | CATEGORÍA  |            [Versión] / [DB_SCHEMA] /View/ [DB_VIEW]             |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW           |       Nodo de la vista. Devuelve todos los nodos de operación (Insert, Select, Update, Delete, ReadLOB y UpdateLOB) para la vista especificada. (ReadLOB y UpdateLOB son sólo devuelve para las vistas que contienen una columna LOB.)        |
-|        Insert         | OPERATION |         [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / inserción         |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Insert       |                                                              Ver el nodo de operación de inserción. Devuelve el WSDL para la operación de inserción para la vista especificada.                                                              |
-|        Select         | OPERATION |         [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / seleccione         |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Select       |                                                              Nodo de operación de selección de vista. Devuelve el WSDL para la operación de selección de la vista especificada.                                                              |
-|        Update         | OPERATION |         [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / actualizar         |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Update       |                                                              Nodo de operación de actualización de la vista. Devuelve el WSDL para la operación de actualización de la vista especificada.                                                              |
-|        DELETE         | OPERATION |         [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / Delete         |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Delete       |                                                              Nodo de operación de eliminación de vista. Devuelve el WSDL para la operación de eliminación de la vista especificada.                                                              |
-|        ReadLOB        | OPERATION |        [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / ReadLOB         |      http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/ReadLOB       |                                   Ver el nodo de operación ReadLOB. Devuelve el WSDL de la operación ReadLOB para la vista especificada. (Solo aparece si la vista contiene una columna LOB.)                                    |
-|       UpdateLOB       | OPERATION |       [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / UpdateLOB        |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/UpdateLOB      |                                  Nodo de operación de actualización de la vista. Devuelve el WSDL de la operación UpdateLOB para la tabla especificada. (Solo aparece si la vista contiene una columna LOB.)                                   |
-|       Procedimiento       | CATEGORÍA  |               [Versión] / [DB_SCHEMA] / procedimiento               |             http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure              |                                                                      Nodo de procedimientos de esquema. Devuelve todos los procedimientos para el esquema especificado.                                                                       |
-|    [DB_PROCEDURE]     | OPERATION |       [Versión] / [DB_SCHEMA] /Procedure/ [DB_PROCEDURE]        |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_GENREPORT       |                                                                            Nodo de procedimiento. Devuelve el WSDL para el procedimiento especificado.                                                                            |
-|       Función        | CATEGORÍA  |               [Versión] / [DB_SCHEMA] de función                |              http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function              |                                                                       Nodo de las funciones de esquema. Devuelve todas las funciones para el esquema especificado.                                                                        |
-|     [DB_FUNCTION]     | OPERATION |        [Versión] / [DB_SCHEMA] /Function/ [DB_FUNCTION]         |       http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETUSERID        |                                                                             Nodo de función. Devuelve el WSDL para la función especificada.                                                                             |
-|        Paquete        | CATEGORÍA  |                [Versión] / [DB_SCHEMA] / paquete                |              http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package               |                                                                        Nodo de paquetes del esquema. Devuelve todos los paquetes para el esquema especificado.                                                                         |
-|     [DB_PACKAGE]      | CATEGORÍA  |         [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE]          |        http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG         |                                                                    Nodo de paquete. Devuelve todos los procedimientos y funciones para el paquete especificado.                                                                    |
-|   [PACK_PROCEDURE]    | OPERATION | [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE] / [PACK_PROCEDURE] |  http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT   |                                                                    Nodo de procedimiento del paquete. Devuelve el WSDL para el procedimiento de paquete especificado.                                                                    |
-|    [PACK_FUNCTION]    | OPERATION | [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE] / [PACK_FUNCTION]  | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT |                                                                     Nodo de función del paquete. Devuelve el WSDL para la función del paquete especificado.                                                                     |
+**Nombre de presentación de artefacto: SQLEXECUTE**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / SQLEXECUTE  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE`  
+Descripción: Nodo de operación SQLEXECUTE. Devuelve el WSDL para la operación SQLEXECUTE.
 
- [Versión] = la cadena de versión; Por ejemplo, http://Microsoft.LobServices.OracleDB/2007/03.  
+**Nombre de presentación de artefacto: POLLINGSTMT**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / POLLINGSTMT  
+Ejemplo: `http://Microsoft.LobServices. OracleDB/2007/03/POLLINGSTMT`  
+Descripción: Nodo de operación POLLINGSTMT. Devuelve el WSDL para la operación POLLINGSTMT.
 
- [DB_SCHEMA] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
+**Nombre para mostrar de artefacto: [DB_SCHEMA]**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT`  
+Descripción: Nodo de esquema. Devuelve los nodos de categoría general (tabla, vista, procedimiento, función y paquete) para el esquema especificado.
 
- [DB_TABLE] = el nombre de una tabla de Oracle Por ejemplo, EMP.  
+**Nombre de presentación de artefacto: tabla**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] / Table  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table`  
+Descripción: Nodo de tablas esquema. Devuelve todos los nodos de tabla para el esquema especificado.
 
- [DB_VIEW] = el nombre de una vista de Oracle; Por ejemplo, SALES_VIEW.  
+**Nombre para mostrar de artefacto: [DB_TABLE]**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP`  
+Descripción: Nodo de la tabla. Devuelve todos los nodos de operación (Insert, Select, Update, Delete, ReadLOB y UpdateLOB) de la tabla especificada. (ReadLOB y UpdateLOB son solo devuelve las tablas que contienen una columna LOB.)
 
- [DB_PROCEDURE] = el nombre de un procedimiento de Oracle; Por ejemplo, SP_GENREPORT.  
+**Nombre de presentación de artefacto: insertar**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / inserción  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert`  
+Descripción: Nodo de operación de inserción de la tabla. Devuelve el WSDL para la operación de inserción de la tabla especificada.
 
- [DB_FUNCTION] = el nombre de una función de Oracle; Por ejemplo, FN_GETUSERID.  
+**Nombre de presentación de artefacto: seleccionar**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / seleccione  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select`  
+Descripción: Nodo de operación de selección de tabla. Devuelve el WSDL para la operación de selección de la tabla especificada.
 
- [DB_PACKAGE] = el nombre de un paquete de Oracle; Por ejemplo, ACCOUNT_PKG.  
+**Nombre de presentación de artefacto: actualización**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / actualizar  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update`  
+Descripción: Nodo de operación de actualización de la tabla. Devuelve el WSDL para la operación de actualización de la tabla especificada.
 
- [PACK_PROCEDURE] = el nombre de un procedimiento de paquete. Por ejemplo, GET_ACCOUNT.  
+**Nombre de presentación de artefacto: eliminar**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / Delete  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete`  
+Descripción: Nodo de operación de eliminación de la tabla. Devuelve el WSDL para la operación de eliminación de la tabla especificada.
 
- [PACK_FUNCTION] = el nombre de una función del paquete; Por ejemplo, CREATE_ACCOUNT.  
+**Nombre de presentación de artefacto: ReadLOB**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / ReadLOB  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/ReadLOB`  
+Descripción: Nodo de operación de tabla ReadLOB. Devuelve el WSDL de la operación ReadLOB para la tabla especificada. (Solo aparece si la tabla contiene una columna LOB.)
+
+**Nombre de presentación de artefacto: UpdateLOB**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Table/ [DB_TABLE] / UpdateLOB  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/UpdateLOB`  
+Descripción: Nodo de operación de tabla UpdateLOB. Devuelve el WSDL de la operación UpdateLOB para la tabla especificada. (Solo aparece si la tabla contiene una columna LOB.)
+
+**Nombre de presentación de artefacto: vista**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] / View  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View`  
+Descripción: Nodo de vistas de esquema. Devuelve todos los nodos de la vista para el esquema especificado.
+
+**Nombre para mostrar de artefacto: [DB_VIEW]**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW`  
+Descripción: Nodo de la vista. Devuelve todos los nodos de operación (Insert, Select, Update, Delete, ReadLOB y UpdateLOB) para la vista especificada. (ReadLOB y UpdateLOB son sólo devuelve para las vistas que contienen una columna LOB.)
+
+**Nombre de presentación de artefacto: insertar**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / inserción  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Insert`  
+Descripción: Nodo de operación de inserción de la vista. Devuelve el WSDL para la operación de inserción para la vista especificada.
+
+**Nombre de presentación de artefacto: seleccionar**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / seleccione  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Select`  
+Descripción: Nodo de operación de selección de vista. Devuelve el WSDL para la operación de selección de la vista especificada.
+
+**Nombre de presentación de artefacto: actualización**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / actualizar  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Update`  
+Descripción: Nodo de operación de actualización de la vista. Devuelve el WSDL para la operación de actualización de la vista especificada.
+
+**Nombre de presentación de artefacto: eliminar**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / Delete  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/Delete`  
+Descripción: Nodo de operación de eliminación de la vista. Devuelve el WSDL para la operación de eliminación de la vista especificada.
+
+**Nombre de presentación de artefacto: ReadLOB**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / ReadLOB  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/ReadLOB`  
+Descripción: Nodo de operación ReadLOB de vista. Devuelve el WSDL de la operación ReadLOB para la vista especificada. (Solo aparece si la vista contiene una columna LOB.)
+
+**Nombre de presentación de artefacto: UpdateLOB**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /View/ [DB_VIEW] / UpdateLOB  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/View/SALES_VIEW/UpdateLOB`  
+Descripción: Nodo de operación de actualización de la vista. Devuelve el WSDL de la operación UpdateLOB para la tabla especificada. (Solo aparece si la vista contiene una columna LOB.)
+
+**Nombre de presentación de artefacto: procedimiento**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] / procedimiento  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure`  
+Descripción: Nodo de procedimientos esquema. Devuelve todos los procedimientos para el esquema especificado.
+
+**Nombre para mostrar de artefacto: [DB_PROCEDURE]**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Procedure/ [DB_PROCEDURE]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_GENREPORT`  
+Descripción: Nodo procedimiento. Devuelve el WSDL para el procedimiento especificado.
+
+**Nombre de presentación de artefacto: función**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] de función  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function`  
+Descripción: Nodo de funciones esquema. Devuelve todas las funciones para el esquema especificado.
+
+**Nombre para mostrar de artefacto: [DB_FUNCTION]**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Function/ [DB_FUNCTION]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETUSERID`  
+Descripción: Nodo función. Devuelve el WSDL para la función especificada.
+
+**Nombre de presentación de artefacto: paquete**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] / paquete  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package`  
+Descripción: Nodo de paquetes esquema. Devuelve todos los paquetes para el esquema especificado.
+
+**Nombre para mostrar de artefacto: [DB_PACKAGE]**  
+Tipo de nodo: categoría  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG`  
+Descripción: Nodo del paquete. Devuelve todos los procedimientos y funciones para el paquete especificado.
+
+**Nombre para mostrar de artefacto: [PACK_PROCEDURE]**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE] / [PACK_PROCEDURE]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT`  
+Descripción: Nodo de procedimiento paquete. Devuelve el WSDL para el procedimiento de paquete especificado.
+
+**Nombre para mostrar de artefacto: [PACK_FUNCTION]**  
+Tipo de nodo: operación  
+Id. de nodo: [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE] / [PACK_FUNCTION]  
+Ejemplo: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT`  
+Descripción: Nodo de función paquete. Devuelve el WSDL para la función del paquete especificado.
+
+[Versión] = la cadena de versión; Por ejemplo, `http://Microsoft.LobServices.OracleDB/2007/03`.  
+
+[DB_SCHEMA] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
+
+[DB_TABLE] = el nombre de una tabla de Oracle Por ejemplo, EMP.  
+
+[DB_VIEW] = el nombre de una vista de Oracle; Por ejemplo, SALES_VIEW.  
+
+[DB_PROCEDURE] = el nombre de un procedimiento de Oracle; Por ejemplo, SP_GENREPORT.  
+
+[DB_FUNCTION] = el nombre de una función de Oracle; Por ejemplo, FN_GETUSERID.  
+
+[DB_PACKAGE] = el nombre de un paquete de Oracle; Por ejemplo, ACCOUNT_PKG.  
+
+[PACK_PROCEDURE] = el nombre de un procedimiento de paquete. Por ejemplo, GET_ACCOUNT.  
+
+[PACK_FUNCTION] = el nombre de una función del paquete; Por ejemplo, CREATE_ACCOUNT.  
 
 ## <a name="metadata-search-and-node-ids"></a>Búsqueda de metadatos y los identificadores de nodo  
  Búsqueda de metadatos es una potente característica que el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] superficies como parte de su **MetadataRetrievalContract** interfaz. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] usa esta característica para admitir la búsqueda en los siguientes artefactos de Oracle. El ámbito de búsqueda de metadatos está restringido al nivel inmediatamente debajo del nodo en el que se realiza la operación de búsqueda. Por ejemplo, para buscar una función, se debe estar buscando en \\\Functions [esquema]. No se admite una búsqueda recursiva.  
@@ -88,7 +224,7 @@ El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] sup
 |[DB_PACKAGE]|/ [Versión] / [DB_SCHEMA] / paquete|CATEGORÍA|Devolver todos los nodos de paquete (categoría) en el esquema especificado que coinciden con la expresión de búsqueda.|  
 |[PACK_PROCEDURE] y [PACK_FUNCTION]|/ [Versión] / [DB_SCHEMA] /Package/ [DB_PACKAGE]|OPERATION|Devolver todos los nodos de función y procedimiento (operación) en el paquete especificado que coinciden con la expresión de búsqueda.|  
 
- [Versión] = la cadena de versión; Por ejemplo, http://Microsoft.LobServices/2007/03.  
+ [Versión] = la cadena de versión; Por ejemplo, `http://Microsoft.LobServices/2007/03`.  
 
  [DB_SCHEMA] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
 

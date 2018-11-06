@@ -21,21 +21,21 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f94c69552a59cf8cae8a12e056502ae405638e69
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 01c4524fd5ce633851b64fc07ea2891a389b4ef5
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36992845"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752860"
 ---
 # <a name="btarnclean"></a>BtarnClean
 Use la utilidad BtarnClean para limpiar Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] artefactos desactivado de un equipo. Esto incluye las acciones siguientes:  
   
-- Detener y dar de baja todas las [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] orquestaciones  
+- Detener y dar de baja todas las orquestaciones de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]  
   
 - Detener y eliminar todos los puertos asociados  
   
-- Anular la implementación de todas las DLL. Ensamblados Solutions.btarn  
+- Anular la implementación de todas las DLL. Solutions.BTARN. \* ensamblados  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
  \<*unidad*\>archivos \Program (x86) \ Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK  
@@ -52,7 +52,7 @@ Use la utilidad BtarnClean para limpiar Microsoft® [!INCLUDE[BTARN_CurrentVersi
   
      La utilidad le pedirá que confirme que desea continuar.  
   
-## <a name="remarks"></a>Notas  
+## <a name="remarks"></a>Comentarios  
  Si ejecuta la utilidad BtarnClean en un equipo que tiene un artefacto de BizTalk que depende de otros artefactos, BtarnClean indicará que no puede quitar el artefacto. La utilidad dejar dicho artefacto en su lugar y continuará para quitar otros artefactos. Puede quitar las dependencias y, a continuación, volver a ejecutar la utilidad.  
   
  Si ejecuta la utilidad BtarnClean en un equipo que forma parte de una implementación de varios equipos, el resto de los servidores de dicha implementación se verá afectado cuando se quiten los artefactos.  
@@ -61,7 +61,7 @@ Use la utilidad BtarnClean para limpiar Microsoft® [!INCLUDE[BTARN_CurrentVersi
   
  La utilidad BtarnClean no quitará una ubicación de recepción primaria si el artefacto de un usuario usa dicha ubicación de recepción. Si este es el caso, debe eliminar el puerto de recepción.  
   
- Si desea quitar la configuración de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] después de ejecutar la utilidad, ejecute Configuration.exe /u desde la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta.  
+ Si desea quitar la configuración de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] después de ejecutar la utilidad, ejecute Configuration.exe /u desde la carpeta [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] .  
   
 ## <a name="see-also"></a>Vea también  
  [Utilidades](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

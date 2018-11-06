@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos con el adaptador de MSMQ | Documentos de Microsoft
+title: Problemas conocidos con el adaptador de MSMQ | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67f210d0e480a311aed0bed5d50f6a827bd6ea4e
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 4accec1f9bed8ade9270e0c33e868e55c6a21942
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22262620"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752564"
 ---
 # <a name="known-issues-with-the-msmq-adapter"></a>Problemas conocidos del adaptador de MSMQ
 Esta sección contiene información que puede servir de ayuda para evitar errores.  
@@ -35,12 +35,12 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 ##### <a name="resolution"></a>Solución  
  Para aumentar el número de subprocesos disponibles en el grupo de subprocesos de .NET para la instancia de host, siga los pasos descritos en la **valores de subprocesos que alojan CLR para el host** sección del tema [parámetros de configuración que afectan al adaptador Rendimiento](../core/configuration-parameters-that-affect-adapter-performance.md).  
   
- Dado que cada MSMQ ubicación de recepción que está enlazado a un MSMQ recibir controlador requiere un subproceso del grupo de subprocesos. NET, establezca **MinIOThreads** y **MinWorkerThreads** en un valor que es mayor o igual que el número de ubicaciones de recepción MSMQ enlazadas al controlador de recepción. En consecuencia, establezca el valor de **MaxIOThreads** y **MaxWorkerThreads** en un valor igual al número de MSMQ, ubicaciones de recepción vinculadas al controlador de recepción * 2 para admitir una elevada capacidad:  
+ Dado que cada MSMQ ubicación de recepción que está enlazado a un MSMQ recibir controlador requiere que un subproceso del grupo de subprocesos. NET, establezca **MinIOThreads** y **MinWorkerThreads** en un valor que es mayor o igual que el número de ubicaciones de recepción MSMQ enlazados al controlador de recepción. En consecuencia, establezca el valor de **MaxIOThreads** y **MaxWorkerThreads** enlazadas al controlador de recepción de ubicaciones de recepción de un valor igual al número de MSMQ \* 2 para admitir una elevada capacidad:  
   
 |Entrada DWORD|Valor recomendado|  
 |-----------------|-----------------------|  
-|MaxIOThreads|Número de ubicaciones de recepción de MSMQ que están enlazadas al controlador de recepción * 2 del adaptador de MSMQ.|  
-|MaxWorkerThreads|Número de ubicaciones de recepción de MSMQ que están enlazadas al controlador de recepción * 2 del adaptador de MSMQ.|  
+|MaxIOThreads|Número de MSMQ enlazadas al adaptador de MSMQ de ubicaciones de recepción controlador de recepción \* 2.|  
+|MaxWorkerThreads|Número de MSMQ enlazadas al adaptador de MSMQ de ubicaciones de recepción controlador de recepción \* 2.|  
 |MinIOThreads|Número de ubicaciones de recepción de MSMQ que están enlazadas al controlador de recepción del adaptador de MSMQ.|  
 |MinWorkerThreads|Número de ubicaciones de recepción de MSMQ que están enlazadas al controlador de recepción del adaptador de MSMQ.|  
   
@@ -62,7 +62,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 ##### <a name="problem"></a>Problema  
  Cuando intenta usar la herramienta SC (Sc.exe) para cerrar el servicio para la instancia de host de BizTalk, puede recibir un mensaje de error que se parezca al siguiente:  
   
- **Error de ControlService 1053:**  
+ **Error de CONTROLSERVICE 1053:**  
   
  **El servicio no respondió a la solicitud de inicio o control de manera oportuna.**  
   
@@ -74,7 +74,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
   
  **Tipo de evento: Error**  
   
- **Origen del evento: Administrador de Control de servicio**  
+ **Origen del evento: Administrador de Control**  
   
  **Categoría de eventos: ninguno**  
   

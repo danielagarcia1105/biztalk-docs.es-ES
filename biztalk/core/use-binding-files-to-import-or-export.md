@@ -12,12 +12,12 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b9ed0f50d6a6d841169b16f3f3ffd485ee345aeb
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: af5902812edb528504b2eeac402aad77f647582a
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36990597"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752876"
 ---
 # <a name="use-binding-files-to-import-or-export"></a>Usar archivos de enlace para importar o exportar
 
@@ -42,7 +42,7 @@ Algunas de las características de importación y exportación incluyen:
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-* Debe haber iniciado sesión con una cuenta que sea miembro de la ** grupo de administradores de servidor BizTalk **. Consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+* Debe haber iniciado sesión con una cuenta que sea miembro de la **administradores de BizTalk Server** grupo. Consulte [los permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
 
 * Debe haber agregado una referencia a la **aplicación EDI de BizTalk** desde una aplicación de BizTalk que se usará como una aplicación de EDI. Consulte [pasos posteriores a la configuración](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md).
 
@@ -89,7 +89,7 @@ En el nivel de aplicación, puede importar un archivo de enlace con entidades de
 2. Haga clic en la aplicación y seleccione **importación**.
 3. **Importar la configuración de seguimiento** y **excluir partes** opciones están disponibles. Con estas opciones, puede elegir importar ninguna configuración de seguimiento existente o excluir todas las entidades EDI y AS2 en el archivo de enlace.
 
-    | Configuración | Detalles |
+    | Parámetro | Detalles |
     |---|---|
     |**Importar la configuración del seguimiento** | Importa la configuración de seguimiento habilitada en los diferentes artefactos dentro de la aplicación, como el seguimiento de partes de mensaje y seguimiento de eventos. <br/><br/>Habilitado de forma predeterminada para garantizar la compatibilidad con versiones anteriores. |
     | **Excluir entidades**|Hace no importar entidades, perfiles y los acuerdos que existan dentro del archivo. <br/><br/>Deshabilitada de forma predeterminada para garantizar la compatibilidad con versiones anteriores.|

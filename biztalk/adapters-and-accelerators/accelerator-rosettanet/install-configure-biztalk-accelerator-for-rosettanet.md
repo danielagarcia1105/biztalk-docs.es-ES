@@ -10,12 +10,12 @@ ms.assetid: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ecb8e527abe896719da881f0c7df0e4f5566a90f
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1cd5c218e6862791b8eb2f6a80848c4f8b2755b8
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37005805"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752676"
 ---
 # <a name="install-biztalk-accelerator-for-rosettanet"></a>Instalar el Acelerador de BizTalk para RosettaNet
 
@@ -55,7 +55,7 @@ Los requisitos mínimos de hardware y software son el mismo que el servidor BizT
 ### <a name="before-you-begin"></a>Antes de comenzar
 
 * Para la base de datos BTARN, BTARN solo configura las propiedades de nombre de base de datos y el nombre de equipo de SQL Server. Información acerca de estas propiedades se almacena en el registro.
-* Inicie sesión con una cuenta que forme parte el grupo de administradores de BizTalk Server. 
+* Inicie sesión con una cuenta que sea miembro del grupo Administradores de BizTalk Server. 
 * En la descarga de BizTalk Server, el programa de instalación BTARN está en el `\BizTalk Accelerators` carpeta.
 * BizTalk Server debe estar instalado y debe estar ejecutando SQL Server.
 * BTARN y BizTalk Server requieren Microsoft .NET Framework como requisito previo de software. Si tiene varias versiones de .NET Framework instalada en el equipo, asegúrese de que la aplicación BtarnAPP Web hace referencia a .NET Framework 4.0 clásico. Esto se puede configurar mediante el Administrador de Internet Information Services (IIS).  

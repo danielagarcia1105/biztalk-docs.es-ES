@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6424d3101023b6521700a30b8cf4460e09e1ff14
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 21009f82632140156957a831a40bcbf4c65982ee
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36988389"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752932"
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>Cómo configurar los servicios WCF publicados con el Asistente para publicación de Servicio WCF de BizTalk
 Una vez que ha publicado los servicios WCF con el Asistente para publicación de Servicio WCF de BizTalk, debe configurarlos adecuadamente. En este tema se describe cómo configurar los servicios WCF publicados.  
@@ -97,7 +97,7 @@ Una vez que ha publicado los servicios WCF con el Asistente para publicación de
 
     1.  En el Bloc de notas, abra el archivo Web.config en la carpeta donde el Asistente publicación del servicio de WCF de BizTalk Server crea el servicio de WCF en %SystemDrive%\InetPub\\.  
 
-    2.  En el Bloc de notas, establezca el el **httpGetEnabled** atributo en el **\<serviceMetadata\>** elemento falso tal y como la línea siguiente:  
+    2.  En el Bloc de notas, establezca el **httpGetEnabled** atributo en el **\<serviceMetadata\>** elemento falso tal y como la línea siguiente:  
 
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  

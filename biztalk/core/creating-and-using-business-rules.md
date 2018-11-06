@@ -15,12 +15,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c9d01e5eaf96c6490c68424fd09e297e0e60ef9d
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 31925296de1e9c6f017e2447e0dccfd699ac177c
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36979397"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752556"
 ---
 # <a name="creating-and-using-business-rules"></a>Crear y usar reglas de negocios
 Las reglas de negocios (o las directivas empresariales) definen y controlan la estructura, el funcionamiento y la estrategia de una organización. Las reglas de negocios pueden estar formalmente definidas en manuales de procedimiento, contratos o acuerdos, o bien pueden existir como conocimiento o experiencia que tienen los empleados. Las reglas de negocios son dinámicas, están sujetas a cambios en el tiempo y pueden encontrarse en todo tipo de aplicaciones. Finanzas y seguros, negocio electrónico, transporte, telecomunicaciones, servicios basados en Web y personalización son solo algunos de los muchos ámbitos de negocio que controlan las reglas de negocios. Todos estos ámbitos de negocio comparten la necesidad de transmitir estrategias, directivas y regulaciones empresariales al personal de tecnologías de la información (TI) para su inclusión en aplicaciones de software.  
@@ -41,7 +41,7 @@ Las reglas de negocios (o las directivas empresariales) definen y controlan la e
   
   Las reglas de negocios (o las directivas empresariales) creadas en el marco de trabajo de reglas de negocios se pueden usar en un proceso empresarial de orquestaciones, como se muestra en la siguiente ilustración.  
   
-  ![Diagrama que muestra una directiva empresarial en proceso. ](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  ![Diagrama que muestra la directiva empresarial en proceso. ](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
   Directiva empresarial  
   
   Esta sección proporciona información conceptual acerca de cómo puede aprovechar el marco de trabajo de reglas de negocios y usar las herramientas que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona para desarrollar reglas de negocios.  

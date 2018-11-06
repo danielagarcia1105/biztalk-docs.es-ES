@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4cef519e4648814e1636daac7b60a42addf5111
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1824f7ff2d285db5b404ee838bed402aa72f78f8
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36978373"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752338"
 ---
 # <a name="exchange-patterns-for-send-adapters"></a>Patrones de intercambio para adaptadores de envío
 Los adaptadores de envío son mensajes entregados desde el motor de mensajería de BizTalk cuya transmisión debe efectuarse a través de la red. Estos mensajes pueden enviarse mediante un patrón de intercambio de mensajes bidireccional o unidireccional. Un adaptador que controla este patrón de intercambio de mensajes bidireccional se conoce como adaptador de petición-respuesta.  
@@ -159,7 +159,7 @@ if ( null != obj )
 
  Durante una transmisión de petición-respuesta, el adaptador transmite el mensaje de petición. Una vez completado lo anterior, envía la respuesta asociada y le ordena al motor de mensajería que elimine el mensaje de petición original de la base de datos de cuadro de mensajes. La acción de eliminar el mensaje de la cola de la aplicación debe efectuarse en el mismo lote de proxy de transporte que el envío del mensaje de respuesta. Con ello, se asegura el carácter atómico de la eliminación y el envío de la respuesta. Para obtener una atomicidad completa, el adaptador debe utilizar una transacción de DTC en cuyo contexto se encuentren el mensaje de petición a un recurso compatible con transacciones, el envío del mensaje de respuesta y la eliminación del mensaje de petición. Como siempre, se recomienda que el mensaje de petición se transmita mediante un envío de no bloqueo.  
 
- En el siguiente fragmento de código se muestran los aspectos principales de un envío bidireccional. Cuando el motor llama **IBTTransmitter.TransmitMessage** el adaptador coloca el mensaje que se transmite a una cola en memoria. El adaptador devuelve `false` para indicar que está realizando un envío de no bloqueo. Grupo de subprocesos del adaptador (**WorkerThreadThunk**) de servicios de la cola en memoria y extrae un mensaje para entregarlo a un método auxiliar. Este método es el responsable del envío del mensaje de petición y de la recepción del mensaje de respuesta. (La implementación de este método auxiliar excede el alcance de este tema.) El mensaje de respuesta se envía al motor y el mensaje de petición se elimina de la cola de la aplicación.  
+ En el siguiente fragmento de código se muestran los aspectos principales de un envío bidireccional. Cuando el motor llama **IBTTransmitter.TransmitMessage** el adaptador coloca el mensaje que se transmite a una cola en memoria. El adaptador devuelve `false` para indicar que está realizando un envío de no bloqueo. Grupo de subprocesos del adaptador (**WorkerThreadThunk**) de servicios de la cola en memoria y extrae un mensaje para entregarlo a un método auxiliar. Este método es el responsable del envío del mensaje de petición y de la recepción del mensaje de respuesta. (La implementación de este método del asistente excede el alcance de este tema.) El mensaje de respuesta se envía al motor y el mensaje de petición se elimina de la cola de la aplicación.  
 
 ```  
 using System.Collections;  
@@ -228,8 +228,8 @@ return responseMsg;
 
 | Alias de adaptador | Adaptador |   Ejemplo de OutboundTransportLocation    |
 |---------------|---------|----------------------------------------|
-|    HTTP://    |  HTTP   |     http://www  MyCompany.com/bar      |
-|   HTTPS://    |  HTTP   |     https://www  MyCompany.com/bar     |
-|    mailto:    |  SMTP   |      mailto:A.User@MyCompany.com       |
+|    HTTP://    |  HTTP   |     `http://www. MyCompany.com/bar`      |
+|   HTTPS://    |  HTTP   |     `https://www. MyCompany.com/bar`     |
+|    mailto:    |  SMTP   |      `mailto:A.User@MyCompany.com`       |
 |    FILE://    |  FILE   | FILE://C:\ MyCompany \\%MessageID%.xml |
 

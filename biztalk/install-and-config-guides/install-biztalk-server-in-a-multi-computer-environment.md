@@ -2,7 +2,7 @@
 title: Instalar BizTalk Server en un entorno de varios equipos | Microsoft Docs
 description: Varios servidor instalación y guía cuando BizTalk y SQL Server están instalados en equipos diferentes, incluidos BAM en
 ms.custom: ''
-ms.date: 11/30/2017
+ms.date: 09/27/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -13,12 +13,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9fe6c7692f8fa370a357b2a2e53bcda97f008884
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 5243cb9dd53fdeec4d3dac46f54f2851befa1b15
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36972213"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753244"
 ---
 # <a name="install-biztalk-server-in-a-multi-computer-environment"></a>Instalar BizTalk Server en un entorno de varios equipos
 
@@ -39,7 +39,7 @@ BizTalk Server proporciona una solución de alta disponibilidad que utiliza carg
 
 **Los clústeres de conmutación por error y NLB** se complementan entre sí en arquitecturas complejas. Agrupación en clústeres NLB se utiliza para cargar solicitudes de equilibrio entre los servidores web front-end. La organización en clústeres de conmutación por error proporciona una alta disponibilidad de los hosts de tipo En curso de BizTalk Server, el servidor secreto principal de inicio de sesión único empresarial y las bases de datos de BizTalk Server. Se utiliza normalmente para entornos locales. Los siguientes son buenos recursos: 
 
-* [BizTalk Server: Guía de supervivencia de alta disponibilidad](http://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)
+* [BizTalk Server: guía de supervivencia de alta disponibilidad](http://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)
 
 * [Mejorar la tolerancia a errores en BizTalk Server mediante el uso de un clúster de conmutación por error de Windows Server o Windows Server](http://go.microsoft.com/fwlink/p/?LinkId=154499)
 
@@ -302,7 +302,7 @@ En la tabla siguiente se enumeran los grupos de Windows que usa BizTalk Server, 
 | Administradores afiliados de SSO | Administradores de ciertas aplicaciones afiliadas de SSO. Puede crear o eliminar aplicaciones afiliadas de SSO, administrar asignaciones de usuarios y definir credenciales para usuarios de aplicaciones afiliadas. | No contiene ninguna cuenta de servicio. Contiene una cuenta utilizada para los Administradores de BizTalk Server.| |
 |Administradores de servidor BizTalk Server | Tiene los privilegios mínimos necesarios para realizar tareas administrativas. Puede implementar soluciones, administrar aplicaciones y resolver problemas de procesamiento de mensajes. Para poder realizar tareas administrativas para los adaptadores, recibir y enviar controladores y recibir ubicaciones, los Administradores de BizTalk Server deben agregarse a los Administradores afiliados de inicio de sesión único. Consulte [administrar seguridad de BizTalk Server](../core/managing-biztalk-server-security.md). | Contiene usuarios o grupos que necesitan poder configurar y administrar BizTalk Server. | **BTS_ADMIN_USERS** rol de base de datos de SQL Server en las bases de datos siguientes:<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport<br/><br/>**db_owner** rol de base de datos de SQL Server para las bases de datos siguientes:<br/>BAMStarSchema<br/>BAMPrimaryImport<br/>BAMArchive<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**NSAdmin** rol de base de datos de SQL Server en las bases de datos siguientes: <br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>Rol de base de datos de SQL Server en las siguientes bases de datos: <br/>BizTalkDTADb<br/>BizTalkMgmtDb. <br/><br/>**Los administradores de OLAP** en el equipo que hospeda la base de datos OLAP BAMAnalysis. |
 | Operadores de servidor BizTalk Server | Tiene un rol de pocos privilegios, que proporciona acceso solo para supervisar y solucionar problemas de acciones. | Contiene usuarios o grupos que supervisar soluciones. No contiene ninguna cuenta de servicio. | **BTS_OPERATORS** rol de base de datos de SQL Server en las bases de datos siguientes: <br/>BizTalkDTADb<br/>BizTalkEDIDb<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb | 
-| Usuarios de aplicación de BizTalk | El nombre predeterminado del primer grupo de host de BizTalk de tipo En curso creado por el administrador de configuración. Use un Grupo de host de BizTalk por cada host de tipo En curso de su entorno. Incluye cuentas con acceso a hosts In-Process de BizTalk (procesos de host en BizTalk Server, BTSNTSvc.exe). | Contiene cuentas de servicio para la instancia de host In-Process de BizTalk en el host para el que se ha designado el grupo de host de BizTalk.  | **BTS_HOST_USERS** rol de base de datos de SQL Server en las bases de datos siguientes:<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport<br/><br/> **BAM_EVENT_WRITER** rol de base de datos SQL Server en el BAMPrimaryImport. | 
+| Usuarios de aplicación de BizTalk | El nombre predeterminado del primer grupo de host de BizTalk de tipo En curso creado por el administrador de configuración. Use un Grupo de host de BizTalk por cada host de tipo En curso de su entorno. Incluye cuentas con acceso a hosts In-Process de BizTalk (procesos de host en BizTalk Server, BTSNTSvc.exe). | Contiene las cuentas de servicio para la instancia de host In-Process de BizTalk y el servicio de motor de reglas de BizTalk en los hosts que se ha designado el grupo de Host de BizTalk.  | **BTS_HOST_USERS** rol de base de datos de SQL Server en las bases de datos siguientes:<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport<br/><br/> **BAM_EVENT_WRITER** rol de base de datos SQL Server en el BAMPrimaryImport. | 
 | Usuarios de hosts aislados de BizTalk | El nombre predeterminado del primer Grupo de host de BizTalk aislado creado por el Administrador de configuración. Hosts de BizTalk aislados que no se ejecutan en BizTalk Server, como HTTP y SOAP. Utilice un grupo de host aislado de BizTalk por cada host aislado de su entorno. | Contiene cuentas de servicio para la instancia de host de BizTalk aislado en el host para el que se ha designado el grupo de host aislado de BizTalk. | **BTS_HOST_USERS** rol de base de datos de SQL Server en las bases de datos siguientes:<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport | 
 | Usuarios del subsistema EDI | Tiene acceso a la base de datos EDI. | Contiene cuentas de servicio para el servicio EDI base de BizTalk. | **EDI_ADMIN_USERS** rol de base de datos SQL Server en el BizTalkEDIDb. | 
 | Usuarios del portal de SAE | Tiene acceso al sitio Web del Portal de BAM. | Para esta función se usa el grupo Todos de forma predeterminada. No contiene ninguna cuenta de servicio. |  | 

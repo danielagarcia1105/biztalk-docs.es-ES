@@ -16,12 +16,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 41815d53b31b2f0bf0ebf3e5626a61d76470ac4c
-ms.sourcegitcommit: c1e83b63ae34bd586e6e0ccc914640efdf96bd4c
+ms.openlocfilehash: 2ca5506d8ed9acab63e32a4ec86b057a4b775b63
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48423920"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752756"
 ---
 # <a name="business-rule-engine-security-recommendations"></a>Recomendaciones de seguridad del motor de reglas de negocios
 El motor de reglas de negocios es el componente en tiempo de ejecución del marco de trabajo de reglas de negocios. El marco de trabajo de reglas de negocios permite conectar reglas de gran riqueza semántica, declarativas y muy legibles con cualquier objeto de negocios (componentes .NET), documento XML o tabla de base de datos. Para obtener más información sobre el marco de trabajo de la regla de negocios, vea [Creating and Using Business Rules](../core/creating-and-using-business-rules.md). Para obtener más información sobre el motor de reglas de negocios, vea [motor de reglas](../core/rule-engine.md).  
@@ -34,7 +34,7 @@ El motor de reglas de negocios es el componente en tiempo de ejecución del marc
   
 -   BizTalk Server proporciona la cuenta que utilizó para instalar el inicio de sesión del servicio de actualización como derechos de servicio y la agrega al rol RE_Host_Users del servidor SQL Server en la base de datos del motor de reglas de negocios. Si la cuenta que utiliza para la instalación no es la misma que la que va a utilizar para ejecutar el servicio de actualización, debe quitar la cuenta de instalación del rol RE_Host_Users del servidor de SQL Server.  
 
--   Si no usa la misma cuenta con otra cuenta de servicio de host de BizTalk, también agregar la cuenta de servicio RuleEngine a BTS_HOST_USERS en BizTalkMgmtDb y BizTalkMsgBoxDb.
+-   Si no usa la misma cuenta con otra cuenta de servicio de host de BizTalk, agregue también la cuenta de servicio de RuleEngine para BTS_HOST_USERS en BizTalkMgmtDb y BizTalkMsgBoxDb.
 
 -   Si utiliza el componente de servicio de actualización, deberá instalarlo en todos los equipos de tiempo de ejecución de BizTalk. Para recuperar una regla de la base de datos del motor de reglas, el servicio de actualización suplanta al autor de la llamada al servicio.  
   

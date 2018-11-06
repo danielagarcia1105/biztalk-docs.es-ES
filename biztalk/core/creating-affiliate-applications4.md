@@ -18,12 +18,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e240fbc99705c18a0e789a1ddea0e26d8f479e55
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: a62a8c2c6d2bb74c9e68fcdcf1304e6d0cd99d67
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36984045"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752628"
 ---
 # <a name="creating-affiliate-applications"></a>Crear aplicaciones afiliadas
 Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliadas con SSO.  
@@ -43,7 +43,7 @@ Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliad
   
 3. Utilice los comandos del Inicio de sesión único empresarial. Para obtener una lista de comandos, utilice el **-ayuda** cambie.  
   
-4. Para crear una aplicación afiliada usando un archivo *.XML como inicio, escriba el siguiente comando:  
+4. Para crear la aplicación afiliada mediante \*. XML como un principio, escriba el siguiente comando:  
   
     `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
   

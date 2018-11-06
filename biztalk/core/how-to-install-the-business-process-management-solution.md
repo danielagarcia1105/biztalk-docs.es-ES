@@ -16,12 +16,12 @@ caps.latest.revision: 61
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3e341392e65509568e995f711abcdddd6eb39cbb
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ffb067c206018996bc48641bcd8211921b0294dd
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37007628"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752525"
 ---
 # <a name="how-to-install-the-business-process-management-solution"></a>Cómo instalar la solución de administración de procesos empresariales
 Los pasos siguientes describen cómo preparar el equipo para instalar la solución Administración de procesos empresariales (BPM) y cómo realizar la instalación.  
@@ -202,7 +202,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la soluci�
   
    2. En el **bienvenida** página, haga clic en **siguiente**.  
   
-   3. Haga clic en **ProcessPurchaseOrder**y, a continuación, haga clic en **Undeploy** para anular la implementación de la directiva.  
+   3. En el **tarea de implementación** página, seleccione **importar y publicar la directiva o vocabulario a la base de datos desde un archivo**y, a continuación, haga clic en **siguiente**.  
   
    4. En el **directiva Store** página, mantenga todos los demás valores predeterminados y, a continuación, haga clic en **siguiente**.  
   
@@ -235,7 +235,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la soluci�
        > [!NOTE]
        >  En un símbolo de sistema de 32 bits, cambie la variable %CommonProgramFiles% a "%ProgramFiles(x86)%\Common Files". Como la utilidad administrativa SSO está instalada en %ProgramFiles%, incluso en los equipos de 64 bits, deberá corregir la ruta. DeployBPM.cmd llama a CreateSouthridgeVideoApplication.cmd.  
   
-   4.  En el símbolo del sistema de 32 bits, escriba el tipo `DeployBPM.cmd`, y, a continuación, presione ENTRAR.  
+   4.  En el símbolo del sistema de 32 bits, escriba `DeployBPM.cmd`, y, a continuación, presione ENTRAR.  
   
        > [!NOTE]
        >  DeployBPM.cmd debe ejecutarse en un símbolo de sistema de 32 bits porque incluye objetos x86 de acceso a VBScript que requieren la versión x86 de cscript.exe.  

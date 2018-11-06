@@ -11,12 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: ribarua
 manager: dougeby
-ms.openlocfilehash: daea28056180b436f226fa32b6179bfb1e091f7a
-ms.sourcegitcommit: e7609c319b64ec20bf215d17aa5ac4f9dcae52ec
+ms.openlocfilehash: 58183ce30236ccca39b9c8345959c4785de46ae9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36946216"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752639"
 ---
 # <a name="send-and-receive-email-with-office-365-outlook-email-adapter---biztalk-server"></a>Enviar y recibir correo electrónico con el adaptador de correo electrónico de Office 365 Outlook - servidor BizTalk Server
 
@@ -67,7 +67,7 @@ El adaptador de correo electrónico de Outlook de Office 365 le permite enviar y
 
 Puede usar un simple archivo de puerto de recepción y ubicación para enviar mensajes a su correo electrónico de Outlook de Office 365.
 
-1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\Temp\In\** y establece la máscara de archivo en  **\*.xml**.
+1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\\Temp\\en\\**y establece la máscara de archivo en  **\*.xml**.
 2. En el adaptador de correo electrónico de Outlook de Office 365 propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Pegue lo siguiente en un editor de texto y guarde el archivo como **Office365Mail.xml**. Este es el mensaje de ejemplo.
 
@@ -81,7 +81,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
     ```
 
 4. Iniciar el archivo de ubicación de recepción y el puerto de envío del adaptador de correo electrónico de Outlook de Office 365.
-5. Copia **Office365Mail.xml** mensaje de ejemplo en la carpeta de recepción (C:\Temp\In\). El puerto de envío envía el archivo XML como cuerpo del correo electrónico a su correo electrónico de Office 365 Outlook.
+5. Copia **Office365Mail.xml** mensaje de ejemplo en la carpeta de recepción (C:\\Temp\\en\\). El puerto de envío envía el archivo XML como cuerpo del correo electrónico a su correo electrónico de Office 365 Outlook.
 
 ## <a name="receive-email-using-a-receive-port"></a>Recibir correo electrónico mediante un puerto de recepción
 
@@ -118,7 +118,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
 Puede usar un puerto de envío de archivos simple para recibir mensajes desde su correo electrónico de Outlook de Office 365.
 
-1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\Temp\Out\** y establezca el y **nombre de archivo** a **%MessageID%.xml** .
+1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\\Temp\\Out\\**y establezca el y **nombre de archivo** a **%MessageID%.xml**.
 2. En el archivo de propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Iniciar el correo electrónico de Outlook de Office 365 ubicación de recepción y el puerto de envío de archivo.
 4. Buscar mensajes en la carpeta de destino (c:\temp\out).

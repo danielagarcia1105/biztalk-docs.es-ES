@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b85d4a0dae708ef3f26304bce31ebd87fc230516
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 66b5ca07676ba40a9ef1b5536b2b05d5ba2e321b
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37023722"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753132"
 ---
 # <a name="appendix-c-redistributable-cab-files"></a>Apéndice C: Archivos .cab redistribuibles
 El programa de instalación de BizTalk Server usa estos archivos CAB.

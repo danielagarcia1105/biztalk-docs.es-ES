@@ -1,5 +1,5 @@
 ---
-title: Uso de la característica con canalizaciones de pruebas de unidades | Documentos de Microsoft
+title: Mediante la característica con canalizaciones de pruebas unitarias | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,15 +12,15 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca19a58410014b9ea7c0c49df7420b439a544581
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 4e437df707ace58eef6de9dc9f7eb65d888309a9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "26009157"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752644"
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>Uso de la característica de pruebas de unidades con canalizaciones
-En este tema se muestra el modo de usar la función de pruebas de unidad para agregar una prueba de unidad para la canalización al ejemplo de canalización FlatFileReceive. Pruebas unitarias de canalización están similar a la herramienta Pipeline.exe que se documenta aquí: [herramientas de canalización](../core/pipeline-tools.md). Cuando se habilitación la pruebas unitarias en el **implementación** ficha de propiedades del proyecto, la clase de canalización en el proyecto se deriva de **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**.  Esta clase modela parte de la misma funcionalidad expuesta por la herramienta Pipeline.exe.  
+En este tema se muestra el modo de usar la función de pruebas de unidad para agregar una prueba de unidad para la canalización al ejemplo de canalización FlatFileReceive. Las pruebas unitarias de canalización es similar a la herramienta Pipeline.exe que se documenta aquí: [herramientas de canalización](../core/pipeline-tools.md). Al habilitar pruebas unitarias en el **implementación** se deriva de ficha de propiedades del proyecto, la clase de canalización en el proyecto **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**.  Esta clase modela parte de la misma funcionalidad expuesta por la herramienta Pipeline.exe.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Primero debe seguir los pasos para generar la muestra FlatFileReceive y familiarizarse con dicha muestra. La documentación que incluye los pasos para generar la muestra FlatFileReceive puede encontrarse aquí: [FlatFileReceive (ejemplo de BizTalk Server)](../core/flatfilereceive-biztalk-server-sample.md).  
@@ -37,15 +37,15 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
 4.  Cierre la página de propiedades del proyecto guardando los cambios.  
   
-5.  En el menú principal, haga clic en **generar**y, a continuación, haga clic en **volver a generar solución**.  
+5.  En el menú principal, haga clic en **compilar**y, a continuación, haga clic en **recompilar solución**.  
   
 6.  En el menú principal, haga clic en **prueba**y, a continuación, haga clic en **nueva prueba**.  
   
-7.  En el **agregar nueva prueba** cuadro de diálogo, seleccione **crear un nuevo proyecto de prueba de Visual C#** para el **agregar a proyecto de prueba** campo. Seleccione **Asistente para pruebas unitarias** en el **plantillas** lista y, a continuación, haga clic en **Aceptar**.  
+7.  En el **agregar nueva prueba** cuadro de diálogo, seleccione **crear un nuevo objeto Visual C# proyecto de prueba** para el **agregar a proyecto de prueba** campo. Seleccione **Asistente para pruebas unitarias** en el **plantillas** lista y, a continuación, haga clic en **Aceptar**.  
   
 8.  En el **nuevo proyecto de prueba** diálogo cuadro, deje el nombre del proyecto como **TestProject1** y haga clic en **crear**.  
   
-9. En el **crear pruebas unitarias** diálogo cuadro, expanda los tipos y seleccione el **FFReceivePipeline()** constructor en el **Microsoft.Samples.BizTalk.FlatFileReceive.FFReceivePipeline**  nodo. Haga clic en **Aceptar**.  
+9. En el **crear pruebas unitarias** cuadro de diálogo, expanda los tipos y seleccione el **FFReceivePipeline()** constructor bajo el **Microsoft.Samples.BizTalk.FlatFileReceive.FFReceivePipeline**  nodo. Haga clic en **Aceptar**.  
   
 ## <a name="adding-test-code-to-test-the-pipeline"></a>Agregar código de prueba para probar la canalización  
   
@@ -67,7 +67,7 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
     using System.Collections.Generic;  
     ```  
   
-3.  Desplácese hasta el final del archivo y reemplazar el **FFReceivePipelineConstructorTest** método con el código siguiente, que comprueba la existen de las entradas de la canalización antes de probar la canalización. Este código también comprueba que se genera un mensaje conforme con el esquema de archivo sin formato.  
+3.  Desplácese hasta la parte inferior del archivo y reemplace el **FFReceivePipelineConstructorTest** método con el código siguiente, que comprueba que existen las entradas de la canalización antes de probar la canalización. Este código también comprueba que se genera un mensaje conforme con el esquema de archivo sin formato.  
   
     ```  
     [TestMethod()]  
@@ -112,15 +112,15 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
 #### <a name="to-build-and-run-the-unit-test"></a>Procedimiento para generar y ejecutar la prueba de unidad  
   
-1.  En el Explorador de soluciones, haga clic en **TestProject1**y, a continuación, haga clic en **generar**.  
+1.  En el Explorador de soluciones, haga clic en **TestProject1**y, a continuación, haga clic en **compilar**.  
   
-2.  En el menú principal, haga clic en **prueba**y, a continuación, en la **Windows** lista, haga clic en **vista de pruebas**.  
+2.  En el menú principal, haga clic en **prueba**y, a continuación, en el **Windows** lista, haga clic en **vista de pruebas**.  
   
 3.  En la ventana Vista de pruebas, haga clic en **FFReceivePipelineUnitTest**y, a continuación, haga clic en **Ejecutar selección**. Compruebe que ve **superada** en la ventana Resultados de pruebas.  
   
-4.  En el directorio TestResults, examine el archivo *.out. Este archivo debe contener el nuevo mensaje procesado por la canalización.  Debe estar ubicado en un directorio similar al siguiente:  
+4.  En el directorio TestResults, examine el \*archivo .out. Este archivo debe contener el nuevo mensaje procesado por la canalización.  Debe estar ubicado en un directorio similar al siguiente:  
   
-     C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
+     C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
   
      El mensaje procesado debe ser similar al siguiente:  
   
@@ -170,14 +170,14 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
 5.  Si alguna prueba falla, puede hacer doble clic en ella en la ventana Resultados de la prueba para ver la aserción o excepción que ha provocado el fallo de la prueba.  
   
 ## <a name="test-code-summary"></a>Resumen de códigos de prueba  
- Cuando se habilitó las pruebas unitarias para el **FlatFileReceive** proyecto, el **FFReceivePipeline** clase C# asociada con **FFReceivePipeline.btp** se derivó de la  **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline** clase. El **FFReceivePipelineUnitTest** método en **TestProject1** utiliza la **TestPipeline** método que **FFReceivePipeline** heredado Para probar la canalización de recepción del archivo plano. Una vez que la canalización ha procesado el mensaje, el mensaje de salida se validó contra el esquema del archivo sin formato. Los parámetros para la **TestPipeline** método son los siguientes:  
+ Cuando las pruebas unitarias se habilitó para la **FlatFileReceive** proyecto, el **FFReceivePipeline** C# clase asociada **FFReceivePipeline.btp** se derivó de el **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline** clase. El **FFReceivePipelineUnitTest** método **TestProject1** usa el **TestPipeline** método que **FFReceivePipeline** heredado Para probar la canalización de recepción del archivo plano. Una vez que la canalización ha procesado el mensaje, el mensaje de salida se validó contra el esquema del archivo sin formato. Los parámetros para el **TestPipeline** método son los siguientes:  
   
-|Nombre de parámetro|Description|  
+|Nombre de parámetro|Descripción|  
 |--------------------|-----------------|  
 |Documentos|StringCollection que contiene los mensajes que va a procesar la canalización.|  
 |Partes|StringCollection que contiene las partes para los mensajes.|  
-|Esquemas|Asignación de diccionario que se usa para asignar cada tipo de mensaje a su correspondiente \*archivo de esquema XSD. La clave debe tener el formato **Namespace.Type**. El espacio de nombres y el tipo utilizado deben tener en cuenta en la ventana de propiedades para el \*archivo .xsd en Visual Studio. Consulte la captura de pantalla siguiente.<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **Namespace y tipo expuestos desde la ventana Propiedades de un archivo XSD.**|  
+|Esquemas|Asignación de diccionario que se usa para asignar cada tipo de mensaje a su correspondiente \*archivo de esquema XSD. La clave debe tener el formato **Namespace.Type**. El espacio de nombres y tipo utilizados deben anotarse desde la ventana Propiedades para el \*archivo .xsd en Visual Studio. Consulte la captura de pantalla siguiente.<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **Namespace y el tipo expuestos desde la ventana Propiedades de un archivo XSD.**|  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de la característica con esquemas y asignaciones de pruebas de unidades](../core/using-the-unit-testing-feature-with-schemas-and-maps.md)   
+ [Uso de la característica con esquemas y asignaciones de pruebas unitarias](../core/using-the-unit-testing-feature-with-schemas-and-maps.md)   
  [Trabajar con pruebas unitarias (Visual Studio)](http://go.microsoft.com/fwlink/?LinkId=128890)

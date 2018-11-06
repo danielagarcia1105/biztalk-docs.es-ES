@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ce9483518275c57c7defb730aeeffc8a4139115
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 132a02e8936a1e877f2cd266132a63db45537bf4
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36991013"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752533"
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>Administración de artefactos de programadores de BizTalk Server con sistemas de control de código fuente
 Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser un tema de máxima prioridad. Una manera de proteger los archivos del proyecto es usar un sistema de control de código fuente, por ejemplo, Team Foundation Server Source Control y Microsoft Visual SourceSafe. En este tema se analizan algunas estrategias básicas para organizar proyectos con el fin de que funcionen mejor con un sistema de control de código fuente, y proporciona algunas sugerencias específicas para usar Visual SourceSafe.  
@@ -43,7 +43,7 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
  Resulta útil organizar todos los proyectos de BizTalk en la misma solución principal. La estructura del sistema de control de fuente debería reflejar esta jerarquía.  
   
 ### <a name="divide-the-folder-structure-into-shared-and-process-specific-sections"></a>Dividir la estructura de carpetas en sección Compartida y en sección Específica del proceso  
- Al crear la estructura de archivos, normalmente se divide la estructura de la carpeta para separar las entidades compartidas de las entidades específicas del proceso. Las entidades compartidas son comunes de varios proyectos y pueden incluir clases auxiliares.  
+ Al crear la estructura de archivos, normalmente se divide la estructura de la carpeta para separar las entidades compartidas de las entidades específicas del proceso. Las entidades compartidas son comunes de varios proyectos y pueden incluir clases del asistente.  
   
  Por ejemplo, las tres primeras carpetas de la siguiente lista están organizadas por entidad compartida, mientras que las dos últimas están organizadas por proceso empresarial:  
   
@@ -70,7 +70,7 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
 ### <a name="use-unique-strong-name-keys-when-appropriate"></a>Utilizar claves de nombre seguro único cuando corresponda  
  Normalmente, una solución de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] utiliza un archivo de clave única. La razón es que la solución se trata como una entidad única y se administra como tal. Si la solución empresarial que se está desarrollando está realmente compuesta por dos partes diferentes o más, tenga en cuenta si se deberían utilizar los dos archivos de clave. Varias claves de este escenario permiten que se puedan tratar las partes como entidades independientes en el futuro, por ejemplo, con rutas de actualización distintas.  
   
- Para proyectos auxiliares se aplican las mismas consideraciones. Si el proyecto auxiliar es (o será) una entidad diferente, se debería generar mediante una clave de nombre seguro diferente.  
+ Para proyectos del asistente se aplican las mismas consideraciones. Si el proyecto del asistente es (o será) una entidad diferente, se debería generar mediante una clave de nombre seguro diferente.  
   
 ### <a name="put-dependent-dlls-into-a-separate-folder"></a>Poner DLL dependiente en una carpeta diferente  
  Al crear la estructura de carpeta, es útil crear una carpeta común que contenga los archivos DLL a los que se hace referencia como dependencias de archivos. Si se garantiza que los programadores seguirán la misma estructura de carpetas, las referencias de archivo no se dividirán cuando se muevan las soluciones entre programadores y estaciones de trabajo.  

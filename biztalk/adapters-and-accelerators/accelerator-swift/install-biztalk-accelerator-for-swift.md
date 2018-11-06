@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6cfd0ddfbdbe55480d249c01e68a0e571da63591
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 101d3600bbe38115bb20983e84ddd9192f8daf00
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37006101"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752692"
 ---
 # <a name="install-biztalk-accelerator-for-swift"></a>Instalar el Acelerador de BizTalk para SWIFT
 Instalar [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)] en BizTalk Server. 
@@ -46,7 +46,7 @@ Los requisitos mínimos de hardware y software son los mismos como [!INCLUDE[bts
 
 ### <a name="before-you-begin"></a>Antes de comenzar
 
-* Inicie sesión con una cuenta que forme parte el grupo de administradores de BizTalk Server. 
+* Inicie sesión con una cuenta que sea miembro del grupo Administradores de BizTalk Server. 
 * En la descarga de BizTalk Server, el [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] el programa de instalación está en el `\BizTalk Accelerators` carpeta.
 * BizTalk Server debe estar instalado y debe estar ejecutando SQL Server.
 * Una instalación silenciosa se admite, pero no se recomienda debido a la complejidad de los pasos de configuración adicionales que son necesarios.

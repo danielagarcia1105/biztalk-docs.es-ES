@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8dc6c4c318889ad078106c805591adaeedd5ee7d
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: b62675f0f2f4d798ef93ead8e8e9281d28917795
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989157"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752469"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 Preguntas más frecuentes (P+f) sobre la [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].  
@@ -34,7 +34,7 @@ Ejecute el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.m
 Vínculo relacionado: [derechos mínimos de seguridad](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx)
 
 ### <a name="how-do-i-get-started-using-the-adapter"></a>¿Cómo puedo comenzar a usar el adaptador?  
-Si está familiarizado con [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] y el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], a continuación, instale [BAP 2016](../adapters-and-accelerators/install-the-biztalk-adapter-pack-2016.md) o [BAP 2013 R2 y 2013](../adapters-and-accelerators/install-biztalk-adapter-pack-2013-r2-and-2013.md)y, a continuación, empiece a trabajar con el la [diferentes adaptadores](../adapters-and-accelerators/biztalk-adapter-pack.md).
+Si está familiarizado con [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], a continuación, instale [BAP 2016](../adapters-and-accelerators/install-the-biztalk-adapter-pack-2016.md) o [BAP 2013 R2 y 2013](../adapters-and-accelerators/install-biztalk-adapter-pack-2013-r2-and-2013.md)y, a continuación, empiece a trabajar con el [diferentes adaptadores](../adapters-and-accelerators/biztalk-adapter-pack.md).
 
 Si está completamente familiarizado [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] o [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], visión get fue iniciado temas y recorra los tutoriales: 
 

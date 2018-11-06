@@ -16,15 +16,15 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f20d24f15ef1ec72e01244e84b8231fe0b2d7a48
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 75f5a62f2ae243c6fd3eabc5d40f99136471ad30
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36982237"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752330"
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
-El adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne registra mensajes de error, advertencia e información en el visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta Seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl; por ejemplo, tracerpt.exe o tracedmp.ex. La aplicación tracept.exe convierte el \*.etl en dos archivos de texto: summary.txt y dumpfile.csv.  
+El adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne registra mensajes de error, advertencia e información en el visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta Seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un \*archivo .etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl; por ejemplo, tracerpt.exe o tracedmp.ex. La aplicación tracept.exe convierte el \*.etl en dos archivos de texto: summary.txt y dumpfile.csv.  
   
 ## <a name="etw-components"></a>Componentes de ETW  
  Seguimiento de eventos para Windows tiene tres componentes:  

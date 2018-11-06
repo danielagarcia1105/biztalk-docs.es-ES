@@ -15,12 +15,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efcda402c231b990d7fefa239a8ff15798331184
-ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
+ms.openlocfilehash: 44fb1a5235a3cc86397339099efde18784de6cfc
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "42709859"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752820"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing"></a>Cómo utilizar el Asistente para publicación de Servicio WCF de BizTalk para publicar metadatos de servicio para un ubicación de recepción WCF para enrutamiento por contenidos
 Utilice el Asistente para publicación de Servicio WCF de BizTalk para crear un Servicio WCF para publicar los metadatos del servicio para las ubicaciones de recepción WCF existentes para enrutamiento por contenidos.  
@@ -134,7 +134,7 @@ Utilice el Asistente para publicación de Servicio WCF de BizTalk para crear un 
 
    1.  En el Bloc de notas, abra el archivo Web.config en la carpeta donde el Asistente para publicación de servicio WCF de BizTalk creó el servicio WCF en %SystemDrive%\InetPub\\.  
 
-   2.  En el Bloc de notas, establezca el el **httpGetEnabled** atributo en el **\<serviceMetadata\>** elemento falso tal y como la línea siguiente:  
+   2.  En el Bloc de notas, establezca el **httpGetEnabled** atributo en el **\<serviceMetadata\>** elemento falso tal y como la línea siguiente:  
 
        ```  
        <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  

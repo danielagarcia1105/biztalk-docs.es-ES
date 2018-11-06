@@ -12,12 +12,12 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72c43e5048d55c028bb689bd06e5f8c5844cc064
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: fe36c4a8b9aa6d081ebde854e6a4c57f9492df67
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36986709"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753212"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>Cómo mover la base de datos de importación principal de BAM
 Este procedimiento se puede utilizar para mover la base de datos de importación principal de BAM a otro servidor. Desde una perspectiva de escenario de extremo a otro, mover la base de datos de importación principal de BAM consta de dos pasos principales:  
@@ -159,19 +159,19 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 3.  En el **nuevo proyecto** cuadro de diálogo el **tipos de proyecto** cuadro, haga clic en **proyectos de Business Intelligence**. En el panel derecho, en el **plantillas** cuadro, haga clic en **proyecto de Integration Services**y, a continuación, haga clic en **Aceptar**.  
   
-4.  En el **detalles del explorador de objetos** pestaña, haga clic en el paquete que se ha actualizado anteriormente y, a continuación, haga clic en **Importar paquete**.  
+4.  En el **proyecto de Integration Services** cuadro de diálogo, en el Explorador de soluciones, haga clic en **paquetes SSIS**y, a continuación, haga clic en **Agregar paquete existente**.  
   
-5.  En el **Agregar copia de paquete existente** cuadro de diálogo el **Server** lista desplegable, seleccione el servidor que contiene los paquetes BAM_AN_ * y * BAM_DM_.  
+5.  En el **Agregar copia de paquete existente** cuadro de diálogo el **Server** lista desplegable, seleccione el servidor que contiene el BAM_AN_\* y BAM_DM_\* paquetes.  
   
-6.  En **ruta de acceso de paquete**, vaya al proyecto guardado, seleccione el archivo. dtsx para el paquete que desea importar y, a continuación, haga clic en abierto.  
+6.  En **ruta de acceso de paquete**, haga clic en el botón de puntos suspensivos.  
   
-7.  Haga clic en el cuadro Nombre del paquete para rellenar automáticamente el cuadro.  
+7.  En el **paquete SSIS** cuadro de diálogo, seleccione el paquete que desea actualizar, haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar**.  
   
      Con ello, el paquete aparecerá en el Explorador de soluciones.  
   
-8.  Repita el paso 18 al 21 para todos los paquetes que desea actualizar. En **administradores de conexión** pestaña (disponible hacia la mitad inferior de la pantalla), haga doble clic en el número de origen de datos 1 (base de datos BAMPrimaryImport).  
+8.  En el Explorador de soluciones, haga doble clic en el paquete que agregó en el paso anterior. En **administradores de conexión** pestaña (disponible hacia la mitad inferior de la pantalla), haga doble clic en el número de origen de datos 1 (base de datos BAMPrimaryImport).  
   
-9. Iniciar todos ** servicios.  
+9. En el **Connection Manager** cuadro de diálogo el **nombre del servidor** cuadro, escriba el nombre del servidor y, a continuación, haga clic en **Aceptar**.  
   
 10. Haga clic en el **Explorador de paquetes** pestaña, haga doble clic en el **Variables** carpeta y, a continuación, actualice los valores para el **PrimaryImportDatabase** y  **PrimaryImportServer** variables. Debe actualizar los valores para que apunte al nuevo servidor y base de datos.  
   

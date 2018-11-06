@@ -13,12 +13,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d7ca4d0ecbfdb23e35797eb2ba3a704fe19f4cec
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 84f92775382a0d1af22d1bc7ef2c08f19305e90c
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36972717"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753204"
 ---
 # <a name="deploy-biztalk-adapter-for-peoplesoft-enterprise"></a>Implementar el adaptador de BizTalk para PeopleSoft Enterprise
 Esta sección proporciona información acerca de la implementación del adaptador de BizTalk para PeopleSoft Enterprise.  
@@ -46,7 +46,7 @@ Antes de usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservern
   
 -   Las carpetas para las respuestas deben existir y ser idénticas en el equipo nuevo, o editar el archivo de enlace.  
   
--   Las contraseñas del sistema PeopleSoft Enterprise, si están presentes en la configuración, se guardan como ***** en el archivo de enlace. Consulte **limitaciones** en este tema.
+-   Las contraseñas del sistema de PeopleSoft Enterprise, si está presente en la configuración, se guardan como \* \* \* \* \* en el archivo de enlace. Consulte **limitaciones** en este tema.
 
 > [!NOTE]
 >  La implementación sobrescribe la configuración de la ubicación de recepción. Al implementar un archivo de enlace y un ensamblado en un equipo de destino, los puertos de envío y las ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se importan.  
@@ -69,7 +69,7 @@ cscript RemoveSendPort.vbs \<Send port name\>
 ```
 
 ## <a name="limitations"></a>Limitaciones
-La contraseña del adaptador de transporte se almacena como asteriscos (*) en el archivo de enlace exportado por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y pasa al componente de administración en el mismo formato.  
+La contraseña del adaptador de transporte se almacena como asteriscos (\*\*\*\*\*\*) en el archivo de enlace exportado por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y pasa al componente de administración en el formato de la misma.  
   
  Al exportar la información de enlace, el archivo de enlace resultante no contiene ninguna de las contraseñas usadas por los adaptadores de transporte en los puertos de envío o las ubicaciones de recepción. De este modo, se evita que la información de contraseña aparezca en texto no cifrado. La próxima vez que utilice el archivo para importar la información de enlace, debe escribir las contraseñas a través de la interfaz de usuario de las páginas de propiedades de transporte. También puede modificar temporalmente el archivo de enlace antes de la importación si especifica las contraseñas en este archivo. En ese caso, debe eliminar las contraseñas del archivo de enlace antes de que finalice la operación de importación.  
   

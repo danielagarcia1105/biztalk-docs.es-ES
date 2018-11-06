@@ -12,17 +12,17 @@ caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5aeda24a40da78cfef5fb66f9069b0a8b80b986c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 9798d56c4f3896e652a288d20b4e39e6a2537d3c
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37012581"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752964"
 ---
 # <a name="adapter-registration-file"></a>Archivo de registro del adaptador
 Después de que el código del adaptador personalizado se haya generado correctamente, se debe registrar con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para ello, actualice el Registro con la configuración del adaptador adecuada. Puede escribir de forma manual un archivo de Registro, pero hay más probabilidad de errores debido a la precisión y complejidad de la información que hay que escribir. Una decisión más acertada consiste en ejecutar el Asistente para el Registro del adaptador. Este asistente le proporciona las mismas opciones de que dispone al crear un archivo de Registro nuevo y reduce la probabilidad de errores en el archivo. Para obtener más información acerca del Asistente para registro de adaptador, vea [asistente](../core/adapter-registry-wizard.md).  
   
- El archivo StaticAdapterManagement.reg y dynamicadaptermanagement.reg se encuentran en  *\<unidad\>*: \Program Files\Microsoft Server\SDK\Samples\AdaptersDevelopment\File el adaptador de BizTalk. Al ejecutar uno de estos archivos (puede haga doble clic o haga clic en y y seleccione **mezcla**), que registra el adaptador de archivo de ejemplo con el registro y se instala el ensamblado en la caché global de ensamblados. Para registrar el adaptador personalizado, la mejor opción consiste en crear un archivo de Registro nuevo mediante el Asistente para el Registro del adaptador. Si el adaptador estático personalizado es parecido al adaptador de ejemplo y decide modificar el archivo de Registro existente, abra y modifique las propiedades siguientes en el archivo StaticAdapterManagement.reg:  
+ El archivo StaticAdapterManagement.reg y dynamicadaptermanagement.reg se encuentran en  *\<unidad\>*: \Program Files\Microsoft Server\SDK\Samples\AdaptersDevelopment\File el adaptador de BizTalk. Al ejecutar uno de estos archivos (hacer doble clic o haga clic en él y seleccione **mezcla**), que registra el adaptador de archivo de ejemplo con el registro y se instala el ensamblado en la caché global de ensamblados. Para registrar el adaptador personalizado, la mejor opción consiste en crear un archivo de Registro nuevo mediante el Asistente para el Registro del adaptador. Si el adaptador estático personalizado es parecido al adaptador de ejemplo y decide modificar el archivo de Registro existente, abra y modifique las propiedades siguientes en el archivo StaticAdapterManagement.reg:  
   
 -   **Restricciones**  
   

@@ -13,17 +13,17 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ccbf7efb3d61f35c1fb54eb709471f0913314ea7
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 30c9f80b2d5426c6a967f9fe57d923971d1fa305
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36977888"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752400"
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a>Solución de problemas de TIBCO Rendezvous
   
 ## <a name="use-event-tracing-for-windows"></a>Usar seguimiento de eventos para Windows
-Microsoft BizTalk Adapter para TIBCO Rendezvous registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta de seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl, por ejemplo, tracerpt.exe o tracedmp.exe. Por ejemplo, la aplicación tracerpt.exe convertirá el \*archivo .etl en dos archivos de texto: summary.txt y dumpfile.csv.  
+Microsoft BizTalk Adapter para TIBCO Rendezvous registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta de seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un \*archivo .etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl, por ejemplo, tracerpt.exe o tracedmp.exe. Por ejemplo, la aplicación tracerpt.exe convertirá el \*archivo .etl en dos archivos de texto: summary.txt y dumpfile.csv.  
   
 ## <a name="etw-components"></a>Componentes de ETW  
  Seguimiento de eventos para Windows tiene tres componentes:  
@@ -94,7 +94,7 @@ BTATIBCORVTrace <Trace element> -stop
 BTATIBCORVTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl  
 BTATIBCORVTrace -transmitter -stop  
 ```  
-## <a name="see-more"></a>Obtenga más información
+## <a name="see-more"></a>Ver más
 [Controlar excepciones](../core/using-biztalk-server-exception-handling4.md)  
 [Seguridad](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)  
 [Arquitectura](../core/architecture-of-biztalk-adapter-for-tibco-rendezvous.md)

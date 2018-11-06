@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cc89b19f1e493c46e6128d390774479eb59bc6b0
-ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
+ms.openlocfilehash: 3416b4a1ba58a1262e9ff27e3558a2532c839cd4
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "36975917"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752346"
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a>MQSSendPipelineComponent (ejemplo de BizTalk Server)
 En este ejemplo se muestra cómo escribir un componente de canalización que lea un conjunto de valores de propiedades de MQSeries a partir de un archivo XML y que los aplique a un mensaje.  
@@ -174,7 +174,7 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
 8.  En el **carpeta recepción** , escriba "C:\temp\Pickup3".  
   
-9. En el **máscara de archivo** , escriba "*.\*".  
+9. En el **máscara de archivo** , escriba "\*.\*".  
   
 10. Haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo para salir del **propiedades de ubicación de recepción** cuadro de diálogo.  
   
