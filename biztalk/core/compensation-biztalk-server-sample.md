@@ -18,12 +18,12 @@ caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 56675a59714a6fabc1d54fdb594466c7568cfeba
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: e8a2ba919a6d4ee5b84da8a9911604aff95a02e4
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36973453"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630361"
 ---
 # <a name="compensation-biztalk-server-sample"></a>Compensación (ejemplo de BizTalk Server)
 El ejemplo compensación muestra cómo usar el **compensar** forma de una orquestación.  
@@ -120,9 +120,9 @@ El ejemplo compensación muestra cómo usar el **compensar** forma de una orques
   
    4.  En el **orquestaciones y puertos** página, haga clic en **siguiente**.  
   
-   5.  En el **propiedades del servicio Web** página **espacio de nombres de destino del servicio web**, tipo **http://Microsoft.BizTalk.Samples.Compensation/** y, a continuación, haga clic en **siguiente**.  
+   5.  En el **propiedades del servicio Web** página **espacio de nombres de destino del servicio web**, tipo `http://Microsoft.BizTalk.Samples.Compensation/`y, a continuación, haga clic en **siguiente**.  
   
-   6.  En el **proyecto de servicio Web** página **ubicación**, tipo **http://localhost/CompensationOrchestrationWebServiceProxy**.  
+   6.  En el **proyecto de servicio Web** página **ubicación**, tipo `http://localhost/CompensationOrchestrationWebServiceProxy`.  
   
    7.  Seleccione el **permitir acceso anónimo al servicio web** casilla de verificación.  
   

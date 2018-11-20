@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a54467c6d611aefd58d2dfd51c21974c3a5df7c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ebda7e3ebfe2adc0084b672a2f66ed1ad639c943
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37022514"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630369"
 ---
 # <a name="invalid-delimiter-set-because-at-least-one-of-the-delimiters-is-outside-the-allowed-range"></a>Grupo de delimitadores no válido porque al menos uno de los delimitadores está fuera del intervalo permitido
 ## <a name="details"></a>Detalles  

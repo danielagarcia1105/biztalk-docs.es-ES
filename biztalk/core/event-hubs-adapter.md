@@ -11,12 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: plarsen
 manager: anneta
-ms.openlocfilehash: f6bccce51ad56fa1b8186347d8fddd5f4afbafbb
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: a1e30b1ab1aacc1c5134d1dd5b44744bd670b308
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36988781"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630337"
 ---
 # <a name="event-hub-adapter-in-biztalk"></a>Adaptador del centro de eventos de BizTalk
 
@@ -130,7 +130,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
     |Use|Para|  
     |---|---|  
-    | **Namespace para el usuario define las propiedades de mensaje** | http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User es el esquema predeterminado, pero puede escribir otro esquema. Este valor representa un esquema de mensaje de BizTalk asignado a propiedades de mensajes de Event Hubs. |
+    | **Namespace para el usuario define las propiedades de mensaje** | `http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User` es el esquema predeterminado, pero puede escribir otro esquema. Este valor representa un esquema de mensaje de BizTalk asignado a propiedades de mensajes de Event Hubs. |
     | **Promocionar propiedades definidas por el usuario** | Opcional. Si lo prefiere puede promocionar estas propiedades. <br/><br/>**NOTA**<br/>Las propiedades que deben promocionarse deben tener un esquema porperty implementado *antes* recibir eventos.|
 
 7. Seleccione **Aceptar** para guardar los cambios. 
