@@ -67,7 +67,7 @@ El adaptador de correo electrónico de Outlook de Office 365 le permite enviar y
 
 Puede usar un simple archivo de puerto de recepción y ubicación para enviar mensajes a su correo electrónico de Outlook de Office 365.
 
-1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\\Temp\\en\\**y establece la máscara de archivo en  **\*.xml**.
+1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\\Temp\\en\\** y establece la máscara de archivo en **\*.xml**.
 2. En el adaptador de correo electrónico de Outlook de Office 365 propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Pegue lo siguiente en un editor de texto y guarde el archivo como **Office365Mail.xml**. Este es el mensaje de ejemplo.
 
@@ -118,7 +118,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
 Puede usar un puerto de envío de archivos simple para recibir mensajes desde su correo electrónico de Outlook de Office 365.
 
-1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\\Temp\\Out\\**y establezca el y **nombre de archivo** a **%MessageID%.xml**.
+1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\\Temp\\Out\\** y establezca el y **nombre de archivo** a **%MessageID%.xml**.
 2. En el archivo de propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Iniciar el correo electrónico de Outlook de Office 365 ubicación de recepción y el puerto de envío de archivo.
 4. Buscar mensajes en la carpeta de destino (c:\temp\out).
