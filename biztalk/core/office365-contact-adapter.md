@@ -42,7 +42,7 @@ Utilice el adaptador de contacto de Outlook de Office 365 en BizTalk Server para
 
 Puede usar un simple archivo de puerto de recepción y ubicación para crear un evento en el adaptador de contacto de Outlook de Office 365.
 
-1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\\Temp\\en\\**y establece la máscara de archivo en  **\*.xml**.
+1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\\Temp\\en\\** y establece la máscara de archivo en **\*.xml**.
 2. En el adaptador de contacto de Outlook de Office 365 propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == <Receive Port Name>`.
 3. Pegue lo siguiente en un editor de texto y guarde el archivo como **Office365Contact.xml**. Este es el mensaje de ejemplo.
 
