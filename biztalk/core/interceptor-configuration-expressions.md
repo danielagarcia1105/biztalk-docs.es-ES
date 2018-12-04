@@ -1,5 +1,5 @@
 ---
-title: Expresiones de configuración de interceptor | Documentos de Microsoft
+title: Expresiones de configuración de interceptor | Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,15 +12,15 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 927afa60dc65fb014f0d44305db5e7f6e78b803b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ae6cc008e1e8b6acad53c2fcebd59160931cdc96
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973634"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826300"
 ---
 # <a name="interceptor-configuration-expressions"></a>Expresiones de configuración de interceptor
-El archivo de configuración de interceptor de BAM usa expresiones de filtro para identificar una actividad y usa expresiones de datos para construir un elemento de datos para el almacenamiento, usar un Id. de correlación o un token de continuación, o propósitos similares. Independientemente del propósito, las expresiones individuales se identifican en el archivo de configuración de interceptor por el elemento `expression` y contienen una o varias operaciones que usan la Notación polaca inversa, que se conoce también como notación de polaco inverso.  
+El archivo de configuración de interceptor BAM usa expresiones de filtro para identificar una actividad y las expresiones de datos utiliza para construir un elemento de datos de almacenamiento, use como un Id. de correlación o token de continuación propósito similar. Independientemente del propósito, las expresiones individuales se identifican en el archivo de configuración de interceptor por el elemento `expression` y contienen una o varias operaciones que usan la Notación polaca inversa, que se conoce también como notación de polaco inverso.  
   
 ## <a name="about-reverse-polish-notation"></a>Acerca de la Notación polaca inversa  
  En la Notación polaca inversa (RPN), los operandos preceden al operador, con lo que se elimina la necesidad de usar paréntesis como operadores de precedencia. Una pila se usa para contener valores y todas las operaciones, tanto valores de insertar en la pila como de retirar (quitar) de la pila, o para realizar una combinación de insertar y retirar para completar una operación.  
@@ -69,7 +69,7 @@ El archivo de configuración de interceptor de BAM usa expresiones de filtro par
  Escribirá dos tipos de expresiones en el interceptor de archivo de configuración: filtrar expresiones y expresiones de datos. Las expresiones de filtro esperan que el resultado de la expresión de RPN sea un valor booleano `true` o `false`, mientras que las expresiones de datos esperan un único valor en la pila.  
   
 ### <a name="filter-expressions"></a>Expresiones de filtro  
- Las expresiones de filtro se evalúan como valor booleano `true` o `false`, y se usan para identificar un evento concreto, del cual se realiza un seguimiento en la aplicación WF o WFC. En aplicaciones WF, es común filtrar en función del nombre de la actividad y del evento. Por ejemplo, puede que desee seleccionar el **FoodAndDrinksPolicy** actividad cuando resulta **cerrado**. Mediante el uso de operaciones de WF, puede expresar el filtro como:  
+ Las expresiones de filtro se evalúan como valor booleano `true` o `false`, y se usan para identificar un evento concreto, del cual se realiza un seguimiento en la aplicación WF o WFC. En aplicaciones WF, es común filtrar en función del nombre de la actividad y del evento. Por ejemplo, es posible que desee seleccionar el **FoodAndDrinksPolicy** actividad cuando resulta **cerrado**. Mediante el uso de operaciones de WF, puede expresar el filtro como:  
   
  `(GetActivityName = "FoodAndDrinksPolicy") && (GetActivityEvent = "Closed")`  
   
@@ -97,7 +97,7 @@ El archivo de configuración de interceptor de BAM usa expresiones de filtro par
 </ic:Filter>  
 ```  
   
- Por último, esta expresión se evaluará como sigue suponiendo que **GetActivityName** devuelto "DessertPolicy" y **GetActivityEvent** devuelto "Closed":  
+ Por último, esta expresión debe evaluarse como sigue suponiendo **GetActivityName** devuelto "DessertPolicy" y **GetActivityEvent** devuelto "Closed":  
   
 |Entrada|Operación|Pila|  
 |-----------|---------------|-----------|  
@@ -116,7 +116,7 @@ El archivo de configuración de interceptor de BAM usa expresiones de filtro par
 ### <a name="data-expressions"></a>Expresiones de datos  
  Las expresiones de datos se usan para definir un único valor de datos de cadena. Una expresión de datos se considera cualquier expresión que no se incluye en un elemento de `Filter`. Las expresiones de datos las usan los elementos de `OnEvent` `CorrelationID`, `ContinuationToken`, `Reference` y `Update`.  
   
- Un requisito habitual suele ser actualizar la base de datos de actividad de BAM con una marca de tiempo sin etiqueta. Por ejemplo, desea capturar el tiempo que se inicia un evento con una formato de cadena como "iniciar: \<EventTime\>". Para hacerlo, debe usar una expresión similar a la siguiente (donde + representa la concatenación):  
+ Un requisito habitual suele ser actualizar la base de datos de actividad de BAM con una marca de tiempo sin etiqueta. Por ejemplo, desea capturar la hora en que se inicia un evento con una cadena con formato como "iniciar: \<EventTime\>". Para hacerlo, debe usar una expresión similar a la siguiente (donde + representa la concatenación):  
   
  `"Start: " + GetContextProperty(EventTime)`  
   
@@ -144,11 +144,11 @@ El archivo de configuración de interceptor de BAM usa expresiones de filtro par
   
 |Entrada|Operación|Pila|  
 |-----------|---------------|-----------|  
-|"Inicio:"|Constante|"Inicio:"|  
-|GetContextProperty(EventTime)|Inserción|"Inicio:", "2006-09-27T12:00:34.000Z"|  
-|Concatenate|Concatenate|"Inicio: 2006-09-27T12:00:34.000Z"|  
+|"Empezar:"|Constante|"Empezar:"|  
+|GetContextProperty(EventTime)|Inserción|"Empezar:", "2006-09-27T12:00:34.000Z"|  
+|Concatenate|Concatenate|"Empezar: 2006-09-27T12:00:34.000Z"|  
   
- El valor utilizado por el comando de actualización sería "iniciar: 2006-09-27T12:00:34.000Z".  
+ El valor usado por el comando de actualización sería "iniciar: 2006-09-27T12:00:34.000Z".  
   
 > [!NOTE]
 >  No use las operaciones de comparación "And" o "Equals" en expresiones de datos. De hacerlo, recibirá un error cuando implemente el archivo de configuración de interceptor.  

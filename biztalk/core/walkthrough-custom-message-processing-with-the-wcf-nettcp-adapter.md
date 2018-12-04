@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d8b74c2ead4ece353dae155d272a9a1aee5fb676
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 39f765e1e99363440d6c122f5e5f174ea50dd761
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37006213"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826348"
 ---
 # <a name="walkthrough-custom-message-processing-with-the-wcf-nettcp-adapter"></a>Tutorial: Mensaje personalizado procesamiento con el adaptador de WCF-NetTcp
 En este tutorial, un cliente de [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] envía un mensaje de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] que contiene datos binarios de imagen JPEG integrados a una ubicación de recepción de BizTalk mediante el adaptador de WCF-NetTcp. Se extrae la imagen JPEG codificada en binario con una instrucción XPath (con codificación de nodo Base64) a través de la **cuerpo de mensaje entrante** configuración en la configuración del adaptador. El procesamiento de XPath difiere del método predeterminado en que usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para controlar los mensajes entrantes. En el método de forma predeterminada, el adaptador obtiene todo el contenido de la **cuerpo** elemento de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] del mensaje y, a continuación, se envía a la base de datos de BizTalk MessageBox. El procesamiento de mensajes de XPath extrae partes específicas de un mensaje de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] entrante para crear un mensaje de BizTalk personalizado. En este ejemplo de procesamiento de XPath localiza un elemento XML denominado **SendPicture** en entrante [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] mensaje (que se encuentra en formato XML). Después de encontrar ese elemento, XPath extrae su valor como un objeto codificado en Base64 y coloca el valor binario en un mensaje de BizTalk. El mensaje se publica en la base de datos de cuadro de mensajes y luego se pasa a un puerto de envío de archivos con la ayuda de una suscripción de filtro de puertos de envío. No se usa ninguna orquestación en este ejemplo, y todo el procesamiento se realiza mediante la mensajería de BizTalk con XPath.  
@@ -54,7 +54,7 @@ En este tutorial, un cliente de [!INCLUDE[firstref_btsWinCommFoundation](../incl
 
 1. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en **aplicaciones**, seleccione **importación**y, a continuación, seleccione **archivo MSI**. Vaya a la **C:\WCFCustomMessageProcessing\WCFCustomMessageProcessing.msi** de archivo y, a continuación, haga clic en **abierto**. Esto crea los siguientes artefactos para esta aplicación:  
 
-   - **FileSP** puerto de envío: la ubicación en el sistema de archivos local de **C:\WCFCustomMessageProcessing\Out** donde envía los datos de imagen JPEG [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] como el resultado final del procesamiento del ejemplo. Puede ver el filtro de puerto de envío de **BTS. RecievePortName = NetTcpRP** configurado en el **propiedades de FileSP** cuadro de diálogo en **filtros**. El filtro está asociado con el puerto de recepción NetTcp. Ubicación de salida de puerto de envío de los mensajes aceptados en NetTcpRP puerto de recepción se enviarán a la FileSP **C:\WCFCustomMessageProcessing\Out** después de la ubicación de recepción ejecuta el procesamiento de XPath en el mensaje.  
+   - **FileSP** puerto de envío: la ubicación en el sistema de archivos local de **C:\WCFCustomMessageProcessing\Out** donde envía los datos de imagen JPEG [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] como el resultado final del procesamiento del ejemplo. Puede ver el filtro de puerto de envío de **BTS. ReceivePortName = NetTcpRP** configurado en el **propiedades de FileSP** cuadro de diálogo en **filtros**. El filtro está asociado con el puerto de recepción NetTcp. Ubicación de salida de puerto de envío de los mensajes aceptados en NetTcpRP puerto de recepción se enviarán a la FileSP **C:\WCFCustomMessageProcessing\Out** después de la ubicación de recepción ejecuta el procesamiento de XPath en el mensaje.  
 
    - **NetTcpRP** puerto de recepción: el puerto que contiene lógicamente el **NetTcpRL** ubicación de recepción.  
 

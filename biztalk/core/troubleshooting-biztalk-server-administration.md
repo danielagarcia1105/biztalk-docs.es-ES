@@ -1,9 +1,9 @@
 ---
 title: Solución de problemas de administración de BizTalk Server | Microsoft Docs
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 11/30/2018
 ms.prod: biztalk-server
-ms.reviewer: ''
+ms.reviewer: niklase
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -12,12 +12,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71ae1b04b42fe1bdaa0145b9112bdd957a4d4da5
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 87ecae986df0ee34ee697257a99097a00d525db2
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36993933"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826468"
 ---
 # <a name="troubleshooting-biztalk-server-administration"></a>Solución de problemas de administración de BizTalk Server
 En esta sección se proporciona una ubicación centralizada de información sobre problemas comunes que se pueden producir al usar la consola de administración de BizTalk Server.  
@@ -35,7 +35,7 @@ En esta sección se proporciona una ubicación centralizada de información sobr
  Esto se debe a que el servicio ENTSSO puede necesitar más tiempo para iniciarse que el que permite la duración del tiempo de espera del servicio BizTalk Server.  
   
 ##### <a name="solution"></a>Solución  
- Para solucionar este problema, establezca DTC en automático.  
+ Para solucionar este problema, establezca DTC en automático. Si el DTC está agrupado, se debe establecer en Inicio manual debido a que el servicio de clúster administra el inicio y detención de servicios en clúster. 
   
 #### <a name="sql-resources-may-become-locked"></a>Es posible que se bloqueen los recursos de SQL  
   

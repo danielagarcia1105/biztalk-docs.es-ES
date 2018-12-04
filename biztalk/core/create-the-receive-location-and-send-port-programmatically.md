@@ -12,12 +12,12 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d42e490d924782b9d6c584a6938c29c62d49e1c3
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 7d76cd1f56986be2280d6deb52e3ab633a87a6c6
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36984717"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826460"
 ---
 # <a name="create-the-receive-location-and-send-port-programmatically"></a>Crear la ubicación de recepción y el puerto de envío mediante programación
 Configurar un WCF-BasicHttp mediante programación, el puerto de envío y la ubicación de recepción. Para usar la consola de administración de BizTalk, consulte [adaptador WCF-BasicHttp](../core/wcf-basichttp-adapter.md). 
@@ -30,7 +30,7 @@ Configurar un WCF-BasicHttp mediante programación, el puerto de envío y la ubi
 
  El fragmento de código siguiente muestra la creación de un WCF-BasicHttp ubicación de recepción mediante el modelo de objetos del explorador de BizTalk:  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-BasicHttp receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -56,8 +56,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-BasicHttp  
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -65,11 +65,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-BasicHttp" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "/samplepath/sampleservice.svc";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-BasicHttp"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "/samplepath/sampleservice.svc";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-BasicHttp"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();  
 
@@ -77,7 +77,7 @@ explorer.SaveChanges();
 
 Puede usar el formato siguiente para establecer las propiedades `<CustomProps>`: 
 
-```  
+```xml
 <CustomProps>  
   <ServiceCertificate vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -139,7 +139,7 @@ En la tabla siguiente se enumera las propiedades de configuración que se pueden
 
  El fragmento de código siguiente muestra la creación de un puerto de envío WCF-BasicHttp mediante el modelo de objetos del explorador de BizTalk:    
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-BasicHttp send port.  
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -172,7 +172,7 @@ explorer.SaveChanges();
 
 Puede usar el formato siguiente para establecer las propiedades `<CustomProps>`: 
 
-```  
+```xml
 <CustomProps>  
   <ServiceCertificate vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -243,5 +243,5 @@ En la tabla siguiente se enumera las propiedades de configuración que se pueden
  [Cómo cambiar contraseñas y cuentas de servicio](../core/how-to-change-service-accounts-and-passwords.md)   
  [Instalación de certificados para los adaptadores de WCF](../core/installing-certificates-for-the-wcf-adapters.md)   
  [Especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md)    
-  [Las propiedades y esquema de propiedades de los adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   
+  [Propiedades y esquema de propiedades de adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   
  [Configuración de puertos de envío dinámico mediante el uso de propiedades de contexto de adaptadores de WCF](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

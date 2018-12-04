@@ -15,12 +15,12 @@ caps.latest.revision: 6
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
-ms.openlocfilehash: 7178f85bce4087e5bc740810050817676a6c8996
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 8b13ef6f56e892bb3598096272d876c5f0a865f3
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36992477"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826308"
 ---
 # <a name="configure-visual-studio-team-services-to-deploy-biztalk-server-solutions-or-projects"></a>Configurar Visual Studio Team Services para implementar proyectos o soluciones de BizTalk Server
 Configurar VSTS para implementar automáticamente [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] proyectos. 
@@ -109,11 +109,11 @@ A continuación, cree la definición de implementación de aplicación de BizTal
 
 1. Seleccione el **compilaciones** ficha, seleccione **todas las definiciones de**y seleccione **New**:
 
-    ![Crear nueva definición de versión](../core/media/create-new-release-defintion.png)
+    ![Crear nueva definición de versión](../core/media/create-new-release-definition.png)
 
 2. Seleccione el **vacía** plantilla y seleccione **siguiente**:
 
-    ![Crear nueva definición de una plantilla vacía](../core/media/create-new-defintion-from-an-empty-template.png)
+    ![Crear nueva definición de una plantilla vacía](../core/media/create-new-definition-from-an-empty-template.png)
 
 3. Seleccione su **repositorio** origen y **rama** para la definición.
 4. **Opcional**. Seleccione **integración continua**.
@@ -123,8 +123,10 @@ A continuación, cree la definición de implementación de aplicación de BizTal
     ![Agregar definición puede implementar](../core/media/add-new-deploy-definition.png)
 
 7. Seleccione el **nombre de la operación** que desea usar:
-    * **Crear nueva aplicación de BizTalk** implementa una nueva aplicación. Si la aplicación ya existe, desinstala las aplicaciones actuales (detención completa) e instala la nueva aplicación. Si está habilitada la integración continua, lo automáticamente vuelve a implementar la aplicación cuando se actualizan en el repositorio.
+
+    * **Crear nueva aplicación de BizTalk** implementa una nueva aplicación. Si la aplicación ya existe, se desinstala las aplicaciones actuales (detención completa) y se instala la nueva aplicación. Si está habilitada la integración continua, lo automáticamente vuelve a implementar la aplicación cuando se actualizan en el repositorio.
     * **Actualizar una aplicación de BizTalk existente** anexa los cambios, como **esquemas** a una aplicación ya se está ejecutando. No se requiere una reimplementación completa de la aplicación.
+
 8. Escriba el **nombre de la aplicación** en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entorno.
 9. En **ruta de acceso de paquete de implementación**, seleccione la ruta de acceso al archivo zip del repositorio.
 10. Seleccione **desencadenadores** en el menú, habilitar **integración continua**y seleccione el valor correcto **rama** para la compilación.

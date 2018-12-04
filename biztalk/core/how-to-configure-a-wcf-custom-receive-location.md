@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 68d3d1d9dbb9cc8c9510745f2455e05f833bf3e9
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: f78a52074b06f193f5605938a7457a294e9434ca
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36969573"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826420"
 ---
 # <a name="how-to-configure-a-wcf-custom-receive-location"></a>Cómo configurar una ubicación de recepción WCF-Custom
 Puede configurar una ubicación de recepción WCF-Custom mediante programación o con la consola de administración de BizTalk.  
@@ -58,7 +58,7 @@ Puede configurar una ubicación de recepción WCF-Custom mediante programación 
  Se pueden establecer variables de adaptador de ubicación de recepción WCF-Custom en la consola de administración de BizTalk. Si no se definen propiedades en la ubicación de recepción, se utilizarán los valores predeterminados del controlador de recepción establecidos en la consola de administración de BizTalk.  
 
 > [!NOTE]
->  Antes de completar este procedimiento, debe haber agregado un puerto de recepción. Para obtener más información, consulte [cómo crear un puerto de recepción](../core/how-to-create-a-receive-port.md).  
+>  Antes de completar este procedimiento, debe haber agregado un puerto de recepción. Para más información, consulte [Cómo crear un puerto de recepción](../core/how-to-create-a-receive-port.md).  
 
 ## <a name="configure-variables-for-a-wcf-custom-receive-location"></a>Configurar variables para la ubicación de recepción de un WCF-Custom  
 
@@ -88,7 +88,7 @@ Puede configurar una ubicación de recepción WCF-Custom mediante programación 
 
  Puede usar el siguiente formato para establecer las propiedades:  
 
-```  
+```xml
 <CustomProps>  
   <InboundBodyPathExpression vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -114,7 +114,7 @@ Puede configurar una ubicación de recepción WCF-Custom mediante programación 
 
  El siguiente fragmento de código muestra la creación de una ubicación de recepción WCF-Custom:  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-Custom receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -136,8 +136,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-Custom   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -145,11 +145,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-Custom" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "net.pipe://mycomputer/samplePipeName";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-Custom"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "net.pipe://mycomputer/samplePipeName";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-Custom"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  

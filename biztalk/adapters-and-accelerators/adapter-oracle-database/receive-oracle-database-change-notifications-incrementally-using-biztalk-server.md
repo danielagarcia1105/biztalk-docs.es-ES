@@ -12,16 +12,16 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61e8fbbe2644098baf963d258d3e95b94e20e8b8
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: bb516347d94818f7d689cddd548a22ac1c454275
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37012093"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826396"
 ---
 # <a name="receive-oracle-database-change-notifications-incrementally-using-biztalk-server"></a>Recibir notificaciones de cambio de base de datos de Oracle incrementalmente con BizTalk Server
 > [!IMPORTANT]
->  Por brevedad, este tema solo describe cómo recibir notificaciones de forma incremental. En escenarios empresariales, la orquestación lo ideal es que debe incluir la lógica para extraer el tipo de mensaje de notificación recibido y, a continuación, realizar las operaciones posteriores. En otras palabras, la orquestación se describe en este tema debe compilarse en la orquestación se describe en la parte superior [procesar los mensajes de notificación para completar tareas específicas en la base de datos de Oracle mediante BizTalk Sever](../../adapters-and-accelerators/adapter-oracle-database/process-notification-messages-to-run-specific-tasks-in-oracle-db-using-biztalk.md).  
+>  Por brevedad, este tema solo describe cómo recibir notificaciones de forma incremental. En escenarios empresariales, la orquestación lo ideal es que debe incluir la lógica para extraer el tipo de mensaje de notificación recibido y, a continuación, realizar las operaciones posteriores. En otras palabras, la orquestación se describe en este tema debe compilarse en la orquestación se describe en la parte superior [procesar los mensajes de notificación para completar tareas específicas en la base de datos de Oracle con BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/process-notification-messages-to-run-specific-tasks-in-oracle-db-using-biztalk.md).  
   
  En este tema se muestra cómo configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de notificación de consulta incremental de Oracle. Para mostrar notificaciones incrementales, consideramos que una tabla, ACCOUNTACTIVITY, con una columna "Procesados". Cuando se inserta un nuevo registro a esta tabla, el valor de la columna "Procesados" se establece en ' n '. Puede configurar el adaptador para recibir notificaciones incrementales haciendo lo siguiente:  
   

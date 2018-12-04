@@ -12,12 +12,12 @@ caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9798d56c4f3896e652a288d20b4e39e6a2537d3c
-ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
+ms.openlocfilehash: 7212cb1cbd370e0b7df04a11744d176c126c39ac
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50752964"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826476"
 ---
 # <a name="adapter-registration-file"></a>Archivo de registro del adaptador
 Después de que el código del adaptador personalizado se haya generado correctamente, se debe registrar con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para ello, actualice el Registro con la configuración del adaptador adecuada. Puede escribir de forma manual un archivo de Registro, pero hay más probabilidad de errores debido a la precisión y complejidad de la información que hay que escribir. Una decisión más acertada consiste en ejecutar el Asistente para el Registro del adaptador. Este asistente le proporciona las mismas opciones de que dispone al crear un archivo de Registro nuevo y reduce la probabilidad de errores en el archivo. Para obtener más información acerca del Asistente para registro de adaptador, vea [asistente](../core/adapter-registry-wizard.md).  
@@ -45,7 +45,7 @@ Después de que el código del adaptador personalizado se haya generado correcta
   
  Para especificar el tipo .NET que implementa el receptor del adaptador, el transmisor del adaptador y la administración del adaptador, existen dos opciones:  
   
-1. Instalar el adaptador en una carpeta y especifique * TypeName y \*AssemblyPath donde \*TypeName es de tipo. Nombre completo de la clase y \*AssemblyPath es la ruta de acceso y el nombre del ensamblado.  
+1. Instalar el adaptador en una carpeta y especificar \*TypeName y \*AssemblyPath donde \*TypeName es de tipo. Nombre completo de la clase y \*AssemblyPath es la ruta de acceso y el nombre del ensamblado.  
   
 2. Instalar el adaptador en la caché global de ensamblados y especificar sólo * TypeName donde \*TypeName es de tipo. AssemblyQualifiedName de la clase. Ésta es la opción recomendada.  
   

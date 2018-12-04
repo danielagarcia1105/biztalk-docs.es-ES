@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4e437df707ace58eef6de9dc9f7eb65d888309a9
-ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
+ms.openlocfilehash: 7deaaa8d0ca60f13e5f3b835a91a31e06cdf2cbd
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50752644"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826331"
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>Uso de la característica de pruebas de unidades con canalizaciones
 En este tema se muestra el modo de usar la función de pruebas de unidad para agregar una prueba de unidad para la canalización al ejemplo de canalización FlatFileReceive. Las pruebas unitarias de canalización es similar a la herramienta Pipeline.exe que se documenta aquí: [herramientas de canalización](../core/pipeline-tools.md). Al habilitar pruebas unitarias en el **implementación** se deriva de ficha de propiedades del proyecto, la clase de canalización en el proyecto **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**.  Esta clase modela parte de la misma funcionalidad expuesta por la herramienta Pipeline.exe.  
@@ -61,7 +61,7 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
 2.  En el Explorador de soluciones, abra FFReceivePipelineTest.cs y agregue las siguientes directivas a la parte superior de dicho archivo:  
   
-    ```  
+    ```csharp
     using System.IO;  
     using System.Collections.Specialized;  
     using System.Collections.Generic;  
@@ -69,7 +69,7 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
 3.  Desplácese hasta la parte inferior del archivo y reemplace el **FFReceivePipelineConstructorTest** método con el código siguiente, que comprueba que existen las entradas de la canalización antes de probar la canalización. Este código también comprueba que se genera un mensaje conforme con el esquema de archivo sin formato.  
   
-    ```  
+    ```csharp
     [TestMethod()]  
     public void FFReceivePipelineUnitTest()  
     {  
@@ -124,8 +124,8 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
      El mensaje procesado debe ser similar al siguiente:  
   
-    ```  
-    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileRecieve.PO">  
+    ```xml
+    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileReceive.PO">  
   
       <shipTo country="US" xmlns="">  
         <name>Alice Smith</name>  
@@ -151,14 +151,14 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
           <productName>Lawnmower</productName>  
           <quantity>1</quantity>  
           <USPrice>148.95</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
         </item>  
   
         <item partNum="926-AA">  
           <productName>Baby Monitor</productName>  
           <quantity>1</quantity>  
           <USPrice>39.98</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
           <shipDate>1999-05-21</shipDate>  
         </item>  
   

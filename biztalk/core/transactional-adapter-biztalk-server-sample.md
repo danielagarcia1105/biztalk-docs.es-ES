@@ -12,12 +12,12 @@ caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 014b541517fb6054525081b852cc21f388742ce2
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 07719f864f332d644d201e6f8349bdc19b456a9f
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36975485"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826412"
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a>Adaptador transaccional (ejemplo de BizTalk Server)
 En el ejemplo de adaptador transaccional se muestra cómo crear y usar una transacción explícita de Microsoft DTC (Coordinador de transacciones distribuidas) para una base de datos durante el procesamiento de un mensaje de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -149,7 +149,7 @@ En el ejemplo de adaptador transaccional se muestra cómo crear y usar una trans
 9. Haga clic en el **configurar** situado junto a la **tipo** cuadro de lista desplegable. Con ello, se muestra un cuadro de diálogo específico para este adaptador. Especifique lo siguiente según sea necesario, a continuación, haga clic en **Aceptar**.  
 
 
-   |       Property        |                                                                           Configuración                                                                            |
+   |       Property        |                                                                           Parámetro                                                                            |
    |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |   Cadena de conexión   | La cadena de conexión de base de datos de SQL utilizada para efectuar la conexión con la base de datos Northwind y la autenticación correspondiente. Posteriormente, se ejecutará un script de SQL que usará esta base de datos. |
    |     Texto de comando      |                      Las instrucciones SQL que se ejecutan para la base de datos Northwind para obtener datos que se colocarán en el mensaje de BizTalk.                       |
@@ -172,7 +172,7 @@ En el ejemplo de adaptador transaccional se muestra cómo crear y usar una trans
 
 5.  Haga clic en el **configurar** situado junto a la **transporte** lista desplegable. En el cuadro de diálogo que aparece, especifique lo siguiente según sea necesario, a continuación, haga clic en **Aceptar**.  
 
-    |Property|Configuración|  
+    |Property|Parámetro|  
     |--------------|-------------|  
     |Cookie|Forma parte del URI: escriba un valor único, como el nombre de la ubicación de recepción, por ejemplo: **TxnSendPort1**.|  
     |Cadena de conexión|La cadena de conexión de base de datos de SQL utilizada para efectuar la conexión con la base de datos Northwind y la autenticación correspondiente. Probablemente será el mismo que se usa para configurar el **TxnReceiveLocation1** ubicación de recepción.|  
@@ -200,7 +200,7 @@ En el ejemplo de adaptador transaccional se muestra cómo crear y usar una trans
 
 3. Seleccione el **nueva consulta** botón de barra de herramientas y pegar lo siguiente en la nueva ventana de consulta para insertar una tabla de prueba, datos de prueba y una prueba de procedimiento almacenan en la base de datos Northwind. Seleccione el **Execute** botón de barra de herramientas.  
 
-   ```  
+   ```sql
    use [Northwind]  
    GO  
    if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[scratch]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)  
@@ -226,7 +226,7 @@ En el ejemplo de adaptador transaccional se muestra cómo crear y usar una trans
 
 4. En [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el **puertos de envío** nodo, seleccione el **TxnSendPort1** puerto de envío y seleccione **iniciar**.  
 
-5. En [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el **ReceiveLocations** nodo, seleccione el **TxnRecieveLocation1** ubicación de recepción y, a continuación, seleccione **habilitar**.  
+5. En [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el **ReceiveLocations** nodo, seleccione el **TxnReceiveLocation1** ubicación de recepción y, a continuación, seleccione **habilitar**.  
 
 6. Una vez habilitada la ubicación de recepción, se efectuará automáticamente un sondeo de los datos de la base de datos en los intervalos designados.  
 
