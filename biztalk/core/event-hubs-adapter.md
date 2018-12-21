@@ -72,7 +72,7 @@ Ya se ha creado el centro de eventos y tiene las cadenas de conexión que necesi
 
 Puede usar un simple archivo de puerto de recepción y ubicación para enviar mensajes al centro de eventos de Azure. 
 
-1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\Temp\In\\**y establece la máscara de archivo en  **\*.xml**.
+1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\Temp\In\\** y establece la máscara de archivo en  **\*.xml**.
 2. En el centro de eventos propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == FileReceivePort`.
 3. Pegue lo siguiente en un editor de texto y guarde el archivo como **EventHubMessage.xml**. Este es el mensaje de ejemplo. 
 
