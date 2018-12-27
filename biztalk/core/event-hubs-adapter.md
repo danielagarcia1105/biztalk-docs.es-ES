@@ -139,7 +139,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
 Puede usar un puerto de envío de archivos simple para recibir mensajes desde el centro de eventos de Azure. 
 
-1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\Temp\Out\\**y establezca el y **nombre de archivo** a **%MessageID%.xml** .
+1. Crear un puerto de envío mediante el adaptador de archivo. Dentro de las propiedades de puerto de envío, establezca el **carpeta de destino** a **C:\Temp\Out\\** y establezca el y **nombre de archivo** a **%MessageID%.xml** .
 2. En el archivo de propiedades de puerto de envío, establezca el **filtros** a `BTS.ReceivePortName == EHReceivePort`.
 3. El centro de eventos de inicio ubicación de recepción y el puerto de envío de archivo.
 4. Buscar mensajes en la carpeta de destino (c:\temp\out).
