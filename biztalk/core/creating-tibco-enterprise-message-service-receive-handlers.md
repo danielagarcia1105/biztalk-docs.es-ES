@@ -1,6 +1,6 @@
 ---
-title: Crear TIBCO EMS recibe artefactos | Documentos de Microsoft
-description: Crear el puerto de recepción y establecer las propiedades de transporte para usar el adaptador de TIBCO Enterprise Message Service en el servidor BizTalk Server
+title: Creación de TIBCO EMS artefactos de recepción | Microsoft Docs
+description: Crear el puerto de recepción y establecer las propiedades de transporte para usar el adaptador de TIBCO Enterprise Message Service en BizTalk Server
 ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
@@ -13,14 +13,14 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bf5810dc012c7aa5dcc2fbdfcecd9d59d066ced7
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 27dd4ff3e317f178c2b9085cf531a6b963aafc7f
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 12/11/2018
 ms.locfileid: "24015379"
 ---
-# <a name="create-tibco-ems-receive-artifacts"></a>Crear TIBCO EMS artefactos de recepción
+# <a name="create-tibco-ems-receive-artifacts"></a>Creación de TIBCO EMS artefactos de recepción
 
 ## <a name="overview"></a>Información general
 El receptor TIBCO Enterprise Message Service es un servicio de escucha que registra una cola o tema particular y recibe los mensajes relacionados. El adaptador de BizTalk para TIBCO Enterprise Message Service se registra primero con TIBCO Enterprise Message Service, mediante la apertura de una nueva sesión y, después, continúa realizando el sondeo para recibir mensajes. En esta sección se explica cómo configurar el puerto de recepción para conectarse a TIBCO Enterprise Message Service y cómo incluir XML en la orquestación para interactuar con TIBCO EMS en tiempo de ejecución.  
@@ -31,7 +31,7 @@ El receptor TIBCO Enterprise Message Service es un servicio de escucha que regis
   
 2.  Haga clic en **puertos de recepción**, seleccione **New**y, a continuación, haga clic en **puertos de recepción unidireccionales**.  
   
-3.  En el **propiedades de puerto de recepción** ventana, en la **General** página, realice lo siguiente:  
+3.  En el **propiedades de puerto de recepción** ventana, en el **General** página, realice lo siguiente:  
   
     1.  En el **nombre** , escriba `ReceiveFromTIBCOEMS`.  
   
@@ -43,32 +43,32 @@ El receptor TIBCO Enterprise Message Service es un servicio de escucha que regis
   
     1.  Haga clic en **Nueva**.  
   
-    2.  En el **ubicaciones de recepción** ventana, en la **General** página, escriba el **nombre** de la ubicación de recepción.  
+    2.  En el **ubicaciones de recepción** ventana, en el **General** página, escriba el **nombre** de la ubicación de recepción.  
   
     3.  Desde el **tipo** lista desplegable, seleccione el tipo de transporte y desde el **controlador de recepción** lista desplegable, seleccione la dirección de transporte.  
   
     4.  Desde el **canalización de recepción** lista desplegable, seleccione la canalización de recepción.  
   
-    5.  En el **programación** página, seleccione la **fecha de inicio** y **fecha de finalización** para restringir la recepción de documentos.  
+    5.  En el **programación** página, seleccione el **fecha de inicio** y **fecha de finalización** para restringir la recepción de documentos.  
   
     6.  Seleccione el **habilitar ventana de servicio** casilla de verificación.  
   
     7.  Haga clic en **Aceptar**.  
   
-5.  En el **asignaciones de entrada** , seleccione las asignaciones de entrada para transformar documentos en el puerto seleccionado.  
+5.  En el **asignaciones de entrada** , seleccione las asignaciones de entrada para transformar los documentos en el puerto seleccionado.  
   
-6.  En el **seguimiento** página, seleccione el seguimiento de cuerpos de mensaje y el seguimiento de propiedades de mensaje deseado.  
+6.  En el **seguimiento** , seleccione el seguimiento de cuerpos de mensaje deseado y las propiedades de mensaje de seguimiento.  
   
 7.  Haga clic en **Aceptar**.  
 
-## <a name="set-the-receive-port-transport-properties"></a>Establecer propiedades de transporte del puerto de recepción
-Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL** y **Target Namespace** para el sistema TIBCO EMS son los únicos valores de configuración necesarios.    
+## <a name="set-the-receive-port-transport-properties"></a>Establecer propiedades de transporte del puerto de la recepción
+Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL** y **Target Namespace** al sistema TIBCO EMS son los únicos valores de configuración necesarios.    
  
 1.  Expanda el **definición del sistema** y escriba toda la información necesaria para la conexión al servidor TIBCO EMS.  
   
-2.  Expanda **control de mensajes** y escriba toda la información necesaria.  
+2.  Expanda **de mensajes** y escriba toda la información necesaria.  
   
-    |Parámetro|Description|  
+    |Parámetro|Descripción|  
     |---------------|-----------------|  
     |**Selector de mensajes**|Los mensajes únicamente se reciben si esta cadena se evalúa en True con el mensaje en el destino.<br /><br /> Permite que el puerto de recepción recupere únicamente los mensajes que contienen propiedades de encabezado que coincidan con la expresión descrita en este campo.<br /><br /> La sintaxis de los selectores de mensajes se basa en un subconjunto de la sintaxis de expresiones condicionales de SQL92. La sintaxis se describe completamente en la guía del usuario de TIBCO EMS.<br /><br /> Por ejemplo, si un mensaje contiene un nombre de propiedad de encabezado NewsType, un puerto de recepción únicamente puede recuperar los elementos que sean de tipo Sports o Editorial.|  
     |**Número de reintentos**|El número de reintentos para el transporte. Valor predeterminado es 0.|  
@@ -76,9 +76,9 @@ Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL
   
 3.  Expanda el **definición de conexión de servidor** y escriba toda la información necesaria.  
   
-    |Parámetro|Description|  
+    |Parámetro|Descripción|  
     |---------------|-----------------|  
-    |**Destino**|Configuración obligatoria. Define el nombre y tipo de destino. Define la cola o tema con el formato siguiente: Queue[queue.name] o Topic[topic.name].|  
+    |**Destino**|Configuración obligatoria. Define el nombre y tipo de destino. Define la cola o tema con el formato siguiente: Queue[nombre.cola] o Topic[nombre.tema].|  
     |**Número de puerto**|Puerto en que escucha el servidor TIBCO EMS.|  
     |**Nombre de servidor**|Configuración obligatoria. Nombre del sistema que hospeda el servidor TIBCO EMS.|  
   
@@ -86,20 +86,20 @@ Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL
   
      Se pueden usar dos métodos para tener acceso al sistema TIBCO EMS. Puede usar las credenciales (parámetros de nombre de usuario y contraseña) o el inicio de sesión único.  
   
-    -   Seleccione **Sí** en **usar SSO** usar Single Sign-On.  
+    -   Seleccione **Sí** en **usar SSO** utilizar inicio de sesión único.  
   
     -   Seleccione una aplicación afiliada en la lista.  
   
          Una aplicación afiliada, creada por herramientas de inicio de sesión único empresarial, representa una aplicación como TBCO EMS. El adaptador de Microsoft BizTalk para TIBCO EMS usa las credenciales de un usuario de la aplicación. Estas credenciales se recuperan de la base de datos de SSO del sistema de servidor para una aplicación afiliada determinada.  
   
-         Para obtener más información acerca de cómo crear una aplicación afiliada, vea [crear aplicaciones afiliadas](../core/creating-affiliate-applications5.md).  
+         Para obtener más información sobre cómo crear una aplicación afiliada, vea [crear aplicaciones afiliadas](../core/creating-affiliate-applications5.md).  
   
-5.  Expanda **las credenciales de usuario** y escriba la **nombre de usuario** y **contraseña** para tener acceso al servidor TIBCO EMS.  
+5.  Expanda **las credenciales de usuario** y escriba el **nombre de usuario** y **contraseña** para acceder al servidor TIBCO EMS.  
   
-    |Parámetro|Description|  
+    |Parámetro|Descripción|  
     |---------------|-----------------|  
-    |`Password`|La contraseña del usuario que se usa para comunicar con un demonio TIBCO EMS.<br /><br /> Si no ha seleccionado **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para TIBCO EMS pueda comunicarse con un daemon TIBCO EMS.|  
-    |`User Name`|Nombre de un usuario que se usa para comunicar con un demonio TIBCO EMS.<br /><br /> Si no ha seleccionado **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para TIBCO EMS pueda comunicarse con un daemon TIBCO EMS.|  
+    |`Password`|La contraseña del usuario que se usa para comunicar con un demonio TIBCO EMS.<br /><br /> Si no seleccionó **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para TIBCO EMS pueda comunicarse con un daemon TIBCO EMS.|  
+    |`User Name`|Nombre de un usuario que se usa para comunicar con un demonio TIBCO EMS.<br /><br /> Si no seleccionó **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para TIBCO EMS pueda comunicarse con un daemon TIBCO EMS.|  
   
 6.  Haga clic en **aplicar**y, a continuación, haga clic en **Aceptar**. 
 
