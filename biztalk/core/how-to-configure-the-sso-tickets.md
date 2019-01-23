@@ -1,7 +1,8 @@
 ---
-title: Cómo configurar los vales de SSO | Microsoft Docs
+title: Configurar los vales de SSO | Microsoft Docs
+description: Utilice las administraciones de inicio de sesión único o una línea de comandos para permitir y validar único empresarial vales de sesión en el nivel de sistema y para las aplicaciones afiliadas en BizTalk Server.
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 01/08/2019
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -16,58 +17,60 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: edec81ab1fa64ce7b4523771bb2c69b39c00bdfd
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: f3ce6c1de1a94225f06d09b66cc3e6c60c471f24
+ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37018762"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443377"
 ---
-# <a name="how-to-configure-the-sso-tickets"></a>Cómo configurar los vales de SSO
-Se puede utilizar el Complemento MMC o la línea de comandos para controlar el comportamiento de los vales en la totalidad del sistema de inicio de sesión único; lo anterior incluye la posibilidad de permitir vales y la exigencia de que el sistema los valide.  
+# <a name="configure-the-sso-tickets-in-biztalk-server"></a>Configurar los vales de SSO en BizTalk Server
+Puede utilizar MMC de administración de inicio de sesión único (SSO) empresarial o la línea de comandos para controlar el comportamiento de vale para todo el único inicio de sesión en sistema. Con las herramientas de este, puede permitir vales y validar vales de SSO.  
   
- Se pueden utilizar las opciones Sí, No, Activado o Desactivado para indicar si se permiten los vales y/o si se validan. El uso de mayúsculas y minúsculas en estas palabras carece de importancia y se deben utilizar independientemente de la configuración del idioma.  
+## <a name="before-you-begin"></a>Antes de comenzar
+
+- Si la administración de SSO está instalado en un equipo remoto, puede ejecutar un control remoto [IssueTicket](https://docs.microsoft.com/biztalk/core/technical-reference/issoticket-issueticket-method) operación. Se cifra todo el tráfico entre el módulo de administración de SSO y el módulo de tiempo de ejecución (servicio ENTSSO).  
   
- Si la característica Administración de SSO se encuentra instalado en un equipo remoto, se puede llevar a cabo una operación IssueTicket remota. Tenga en cuenta que se cifra todo el tráfico entre el módulo Administración de SSO y el módulo Tiempo de ejecución (servicio ENTSSO).  
+- Mediante la utilidad de línea de comandos ssomanage.exe, puede especificar el tiempo de espera de vale en el nivel de aplicación afiliada. Puede hacerlo sólo cuando se realiza una actualización de la aplicación, no cuando se crea la aplicación.
   
- Al utilizar la utilidad de línea de comandos, ssomanage.exe, se puede especificar el tiempo de espera de vale en el nivel de aplicación afiliada únicamente al llevar a cabo una actualización de la aplicación, no a la hora de la creación.  
+- Solo los usuarios del grupo de administradores de SSO pueden configurar vales en el nivel de sistema SSO y en el nivel de aplicación afiliada.  
   
- Sólo un administrador de SSO puede configurar vales en el nivel de sistema de SSO y en el nivel de aplicación afiliada.  
+- Si el control de vales está deshabilitado en el nivel de sistema, no se puede usar en el nivel de aplicación afiliada. Es posible habilitar los vales en el nivel de sistema y deshabilitarlos en el nivel de aplicación afiliada.  
   
- Si se deshabilita la compra de vales en el nivel del sistema, tampoco se podrá utilizar en el nivel de aplicación afiliada. Es posible habilitar los vales en el nivel de sistema y deshabilitarlos en el nivel de aplicación afiliada.  
+- Si se habilita la validación en el nivel de sistema, se deben validar vales en el nivel de aplicación afiliada. Es posible deshabilitar la validación en el nivel de sistema y habilitarla en el nivel de aplicación afiliada.  
   
- Si se habilita la validación en el nivel de sistema, también se requiere la validación de vales en el nivel de aplicación afiliada. Es posible deshabilitar la validación en el nivel de sistema y habilitarla en el nivel de aplicación afiliada.  
+- Si se especifica el tiempo de espera de vale en el nivel de sistema y el nivel de aplicación afiliada, se introdujo en el nivel de aplicación afiliada determina el tiempo de expiración del vale.  
   
- Si el tiempo de espera de vales se especifica en el nivel de sistema y en el de aplicación afiliada, aquel que se especifique en el nivel de aplicación afiliada se utilizará para determinar la hora de expiración de vales.  
+Para obtener más información acerca de vales y validación de vales, consulte [vales de SSO](../core/sso-tickets.md).  
   
- Para obtener más información acerca de vales y validación de vales, consulte [vales de SSO](../core/sso-tickets.md).  
+## <a name="allow-affiliate-application-tickets-using-sso-administration"></a>Permitir vales de aplicación afiliada con la administración de SSO  
   
-### <a name="to-configure-the-enterprise-single-sign-on-tickets-using-the-mmc-snap-in-for-the-affiliate-application"></a>Para configurar los vales de inicio de sesión único empresarial utilizando el Complemento MMC para la aplicación afiliada  
-  
-1.  En el **iniciar** menú, haga clic en **todos los programas**, haga clic en **Microsoft Enterprise Single Sign-On**y, a continuación, haga clic en **administración de SSO**.  
+1.  Desde el **iniciar** menú, seleccione **todos los programas** > **Microsoft Enterprise Single Sign-On** > **administración de SSO** .
   
 2.  En el panel de ámbito del complemento MMC de ENTSSO, expanda el **aplicaciones afiliadas** nodo.  
   
-3.  Haga clic en **aplicación afiliada**y, a continuación, haga clic en **propiedades**.  
+3.  Haga clic en **aplicación afiliada** > **propiedades**.  
   
-4.  Haga clic en el **opciones** ficha.  
+4.  Elija la **opciones** ficha.  
   
-5.  Seleccione **permitir vales** y configure el tiempo de espera de vale según corresponda.  
+5.  Seleccione **permitir vales** y escriba el tiempo de espera de vale que desee.  
   
-### <a name="to-configure-the-enterprise-single-sign-on-system-level-tickets-using-the-command-line"></a>Para configurar los vales de nivel de inicio de sesión único empresarial mediante la línea de comandos  
+## <a name="allow-and-validate-sso-system-level-tickets-using-the-command-line"></a>Permitir y validar vales de nivel de sistema SSO mediante la línea de comandos  
   
-1. En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
+1. Abra un símbolo del sistema (menú Inicio > tipo **símbolo** > seleccione **símbolo**).
+
+    > [!TIP]
+    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba abrir el símbolo del sistema con privilegios administrativos (haga clic en **símbolo** > ** Ejecutar como administrador).
   
-2. En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2. En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es `\Program Files\Common Files\Enterprise Single Sign-On`. Por ejemplo, escriba: 
+
+    `cd C:\Program Files\Common Files\Enterprise Single Sign-On`
   
-3. Tipo ** ssomanage – vales \<sí/no de permiten\> *\<validar sí/no\>**<em>, donde *\<sí/no de permiten\></em>  indica si se permitirán vales o no, y *\<validar sí/no\>* indica si los vales necesitará que se valida una vez canjeados.  
+3. Tipo `ssomanage -tickets <allowed yes/no> <validate yes/no>`, donde *\<sí/no de permiten\>* indica si se permiten los vales o no, y *\<validar sí/no\>* indica si se deben validar después de que se puede canjear vales.  
   
-   > [!NOTE]
-   >  Se pueden utilizar las opciones sí, no, activado o desactivado para indicar si se permiten los vales y/o si se validan. El uso de mayúsculas y minúsculas en estas palabras carece de importancia y se deben utilizar independientemente de la configuración del idioma.  
+    Puede usar `yes`, `no`, `on`, o `off` para permitir o validar vales. El uso de mayúsculas y minúsculas en estas palabras carece de importancia y se deben utilizar independientemente de la configuración del idioma.
   
-   > [!NOTE]
-   >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
-  
-## <a name="see-also"></a>Vea también  
- [Descripción de SSO](../core/understanding-sso.md)   
- [Uso de SSO](../core/using-sso.md)
+## <a name="see-also"></a>Vea también
+
+[Descripción de SSO](../core/understanding-sso.md)   
+[Uso de SSO](../core/using-sso.md)

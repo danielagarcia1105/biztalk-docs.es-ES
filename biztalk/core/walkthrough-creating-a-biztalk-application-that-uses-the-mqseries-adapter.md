@@ -21,14 +21,14 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d8c086c69dee4318b9ab15f8746291594a815870
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: d882ee7134861496266b0d18bb288e39e05bad29
+ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37024530"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443393"
 ---
-# <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a>Tutorial: Crear una aplicación de BizTalk que usa el adaptador de MQSeries
+# <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a>Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de MQSeries
 Esta sección le muestra cómo crear una sencilla aplicación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que utilice el adaptador de MQSeries.  
   
 > [!NOTE]
@@ -45,7 +45,7 @@ Esta sección le muestra cómo crear una sencilla aplicación de Microsoft [!INC
   
 1. Haga clic en **iniciar**, apunte a **programas**, apunte a **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
   
-2. Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se denomina normalmente ***** QM_ < nombre_equipo >* donde *nombre_equipo* es el nombre del equipo.  
+2. Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se denomina normalmente **QM_**_< nombre_equipo >_ donde *nombre_equipo* es el nombre del equipo.  
   
 3. Haga clic en **colas**, apunte a **New**y, a continuación, haga clic en **cola Local**.  
   

@@ -19,12 +19,12 @@ caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3780aa186146d0cc1b7bca90f7934f4823882ab
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 59a41d62b7c8e578f7e89e7802ed5eaecd0e2b61
+ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37014525"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443401"
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a>MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server)
 En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo usar un identificador de correlación producido por MQSeries Server en lugar de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -72,7 +72,7 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 1.  Haga clic en **iniciar**, apunte a **todos los programas**, apunte a **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
   
-2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se denomina normalmente ***** QM_ < nombre_equipo >* donde *nombre_equipo* es el nombre del equipo.  
+2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se denomina normalmente **QM_**_< nombre_equipo >_ donde *nombre_equipo* es el nombre del equipo.  
   
 3.  Haga clic en **colas**, apunte a **New**y, a continuación, haga clic en **cola Local**.  
   

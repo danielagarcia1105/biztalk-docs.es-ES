@@ -1,17 +1,34 @@
---title: "configurar MSDTC en el cliente SQL Server y el adaptador | Microsoft Docs"ms.custom:" "ms.date:" 08/06/2017"ms.prod:"biztalk server"ms.reviewer:" "
-
-MS.Suite: "" ms.tgt_pltfrm: "" ms.topic: "article" ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1 caps.latest.revision: 14 author: "MandiOhlinger" ms.author: "mandia" manager: "anneta"
+---
+title: Configurar MSDTC en el cliente de SQL Server y el adaptador | Microsoft Docs
+ms.custom: ''
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
+ms.topic: article
+ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1
+caps.latest.revision: 14
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: d4728bd2a0228bcd01b469ec9436d1e3d3dcd257
+ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443385"
 ---
 # <a name="configure-msdtc-on-sql-server-and-adapter-client"></a>Configurar MSDTC en el cliente de SQL Server y el adaptador
+
 Las operaciones realizan en SQL Server mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (a través de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], el modelo de servicio WCF o el modelo de canal WCF) se pueden realizar en un ámbito de transacción. Si el programa cliente tiene más de un recurso transaccional como parte de la misma transacción, la transacción obtiene elevada a una transacción MSDTC. Para habilitar el adaptador realizar operaciones dentro del ámbito de una transacción MSDTC, debe configurar MSDTC tanto en el equipo que ejecuta el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] y SQL Server. Además, debe agregar MSDTC a la lista de excepciones de Firewall de Windows. Esta sección proporciona información acerca de cómo realizar estas tareas en los equipos que ejecutan el cliente del adaptador y SQL Server.  
   
 > [!NOTE]
->  Realizar operaciones en SQL Server mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] siempre implica dos recursos, el adaptador que se conecta a SQL Server y el cuadro de mensaje de BizTalk que se encuentran en SQL Server. Por lo tanto, todas las operaciones realizan mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se realizan dentro del ámbito de una transacción MSDTC. Por lo tanto, para usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], siempre debe habilitar MSDTC.  
+>  - Realizar operaciones en SQL Server mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] siempre implica dos recursos, el adaptador que se conecta a SQL Server y el cuadro de mensaje de BizTalk que se encuentran en SQL Server. Por lo tanto, todas las operaciones realizan mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se realizan dentro del ámbito de una transacción MSDTC. Por lo tanto, para usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], siempre debe habilitar MSDTC.  
 > 
-> [!NOTE]
->  Para las operaciones donde el cliente del adaptador no escribe ningún dato en la base de datos de SQL Server, como una operación Select, no podría la sobrecarga adicional de llevar a cabo las operaciones dentro de una transacción. En tales casos, puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para realizar las operaciones sin un contexto transaccional estableciendo el **UseAmbientTransaction** enlazar la propiedad a **false**. Para obtener más información acerca de la propiedad de enlace, consulte [Obtenga información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). En tales casos, no es necesario configurar MSDTC también.  
+>  - Para las operaciones donde el cliente del adaptador no escribe ningún dato en la base de datos de SQL Server, como una operación Select, no podría la sobrecarga adicional de llevar a cabo las operaciones dentro de una transacción. En tales casos, puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para realizar las operaciones sin un contexto transaccional estableciendo el **UseAmbientTransaction** enlazar la propiedad a **false**. Para obtener más información acerca de la propiedad de enlace, consulte [Obtenga información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). En tales casos, no es necesario configurar MSDTC también.  
   
-## <a name="configure-msdtc"></a>Configurar MSDTC  
+## <a name="configure-msdtc"></a>Configuración de MSDTC  
   
 1. Abra **servicios de componentes**.  
 
