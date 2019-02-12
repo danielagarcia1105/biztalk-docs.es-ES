@@ -17,12 +17,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3ce6c1de1a94225f06d09b66cc3e6c60c471f24
-ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
+ms.openlocfilehash: 3abac3a0d527c6834105db8fd1c74fd934fd821d
+ms.sourcegitcommit: 41947648c73d437a201b2190307e0270d61e037a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54443377"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56087936"
 ---
 # <a name="configure-the-sso-tickets-in-biztalk-server"></a>Configurar los vales de SSO en BizTalk Server
 Puede utilizar MMC de administración de inicio de sesión único (SSO) empresarial o la línea de comandos para controlar el comportamiento de vale para todo el único inicio de sesión en sistema. Con las herramientas de este, puede permitir vales y validar vales de SSO.  
@@ -60,7 +60,7 @@ Para obtener más información acerca de vales y validación de vales, consulte 
 1. Abra un símbolo del sistema (menú Inicio > tipo **símbolo** > seleccione **símbolo**).
 
     > [!TIP]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba abrir el símbolo del sistema con privilegios administrativos (haga clic en **símbolo** > ** Ejecutar como administrador).
+    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba abrir el símbolo del sistema con privilegios administrativos (haga clic en **símbolo** > **ejecutar como administrador**).
   
 2. En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es `\Program Files\Common Files\Enterprise Single Sign-On`. Por ejemplo, escriba: 
 
